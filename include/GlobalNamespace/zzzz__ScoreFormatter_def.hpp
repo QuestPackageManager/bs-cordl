@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreFormatter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4234))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4201))
 // CS Name: ::ScoreFormatter*
 class CORDL_TYPE ScoreFormatter : public ::System::Object {
 public:
@@ -32,12 +32,12 @@ public:
 
   static inline ::System::Globalization::NumberFormatInfo* getStaticF__numberFormatInfo();
 
-  /// @brief Method Format addr 0x21d6684 size 0x80 virtual false final false
+  /// @brief Method Format, addr 0x2327378, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW Format(int32_t score);
 
   static inline ::GlobalNamespace::ScoreFormatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d6704 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23273f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreFormatter", modifiers: "&&", def_value: None }]

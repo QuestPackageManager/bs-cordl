@@ -23,24 +23,24 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11146))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11144))
 // CS Name: ::Zenject::MonoInstaller`6<TParam1,TParam2,TParam3,TParam4,TParam5,TDerived>*
 class CORDL_TYPE MonoInstaller_6 : public ::Zenject::MonoInstallerBase {
 public:
   // Declarations
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5);
 
   static inline ::Zenject::MonoInstaller_6<TParam1, TParam2, TParam3, TParam4, TParam5, TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller_6", modifiers: "&&", def_value: None }]

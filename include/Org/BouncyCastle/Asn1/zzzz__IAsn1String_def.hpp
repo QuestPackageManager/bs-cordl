@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE IAsn1String {
 public:
   // Declarations
-  /// @brief Method GetString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetString();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsn1String", modifiers: "&&", def_value: None }]

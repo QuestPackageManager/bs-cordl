@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class CORDL_TYPE IGcmExponentiator {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method ExponentiateX addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExponentiateX, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGcmExponentiator", modifiers: "&&", def_value: None }]

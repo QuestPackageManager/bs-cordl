@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Authentication::SslProtocols);
 namespace System::Security::Authentication {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7801))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8964))
 // CS Name: ::System.Security.Authentication::SslProtocols
 struct CORDL_TYPE SslProtocols {
 public:

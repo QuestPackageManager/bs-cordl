@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeObjectSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3110))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeObjectSink*
 class CORDL_TYPE IContributeObjectSink {
 public:
   // Declarations
-  /// @brief Method GetObjectSink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* GetObjectSink(::System::MarshalByRefObject* obj, ::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContributeObjectSink", modifiers: "&&", def_value: None }]

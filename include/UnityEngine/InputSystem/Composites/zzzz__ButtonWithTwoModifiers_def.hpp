@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6276), inst: 387 }), TypeDefinitionIndex(TypeDefinitionIndex(6276))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6190)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 391 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6716))
 // CS Name: ::UnityEngine.InputSystem.Composites::ButtonWithTwoModifiers*
 class CORDL_TYPE ButtonWithTwoModifiers : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
@@ -62,21 +62,21 @@ public:
 
   constexpr void __set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method ReadValue addr 0x28db11c size 0x70 virtual true final false
+  /// @brief Method ReadValue, addr 0x2a5ae64, size 0x70, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed addr 0x28db18c size 0xb4 virtual false final false
+  /// @brief Method ModifiersArePressed, addr 0x2a5aed4, size 0xb4, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude addr 0x28db240 size 0xc virtual true final false
+  /// @brief Method EvaluateMagnitude, addr 0x2a5af88, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup addr 0x28db24c size 0x90 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2a5af94, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0x28db2dc size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2a5b024, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonWithTwoModifiers", modifiers: "&&", def_value: None }]

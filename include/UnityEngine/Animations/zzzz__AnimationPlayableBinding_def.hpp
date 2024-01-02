@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableBinding)
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableOutput;
 }
 namespace UnityEngine {
 class Object;
@@ -27,16 +27,16 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableBinding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15132))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14905))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableBinding*
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x2b337b4 size 0x13c virtual false final false
+  /// @brief Method Create, addr 0x2c99454, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAnimationOutput addr 0x2b338f0 size 0x1040 virtual false final false
+  /// @brief Method CreateAnimationOutput, addr 0x2c99590, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "&&", def_value: None }]

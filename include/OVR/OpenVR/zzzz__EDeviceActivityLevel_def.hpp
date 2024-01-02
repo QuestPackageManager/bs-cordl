@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EDeviceActivityLevel);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8592))
 // CS Name: ::OVR.OpenVR::EDeviceActivityLevel
 struct CORDL_TYPE EDeviceActivityLevel {
 public:

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisPoolInstaller);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11075))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5492))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5402))
 // CS Name: ::NoteDebrisPoolInstaller*
 class CORDL_TYPE NoteDebrisPoolInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
@@ -89,12 +89,12 @@ public:
 
   constexpr void __set__noteDebrisHDConditionVariable(::GlobalNamespace::BoolSO* value);
 
-  /// @brief Method InstallBindings addr 0x212d828 size 0x234 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2272fb8, size 0x234, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::NoteDebrisPoolInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212da5c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22731ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisPoolInstaller", modifiers: "&&", def_value: None }]

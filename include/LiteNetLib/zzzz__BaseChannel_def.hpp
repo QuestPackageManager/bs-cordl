@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::LiteNetLib::BaseChannel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14127))
 // CS Name: ::LiteNetLib::BaseChannel*
 class CORDL_TYPE BaseChannel : public ::System::Object {
 public:
@@ -61,19 +61,19 @@ public:
 
   static inline ::LiteNetLib::BaseChannel* New_ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method .ctor addr 0x20961a4 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x21f7ff8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method get_PacketsInQueue addr 0x2096238 size 0x48 virtual false final false
+  /// @brief Method get_PacketsInQueue, addr 0x21f808c, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_PacketsInQueue();
 
-  /// @brief Method AddToQueue addr 0x2096280 size 0xfc virtual false final false
+  /// @brief Method AddToQueue, addr 0x21f80d4, size 0xfc, virtual false, abstract: false, final false
   inline void AddToQueue(::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method SendNextPackets addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendNextPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendNextPackets();
 
-  /// @brief Method ProcessPacket addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessPacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseChannel", modifiers: "&&", def_value: None }]

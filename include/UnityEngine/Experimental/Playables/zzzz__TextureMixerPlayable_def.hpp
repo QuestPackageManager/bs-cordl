@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextureMixerPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
-}
-namespace System {
-template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Playables {
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::TextureMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10336))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10414))
 // CS Name: ::UnityEngine.Experimental.Playables::TextureMixerPlayable
 struct CORDL_TYPE TextureMixerPlayable {
 public:
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>*();
 
-  /// @brief Method GetHandle addr 0x2b8c580 size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2cf48c0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2b8c58c size 0x74 virtual true final true
+  /// @brief Method Equals, addr 0x2cf48cc, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

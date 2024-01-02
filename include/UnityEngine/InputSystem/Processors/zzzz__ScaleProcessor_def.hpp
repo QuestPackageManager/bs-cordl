@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 387 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6676))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6590))
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleProcessor*
 class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __set_factor(float_t value);
 
-  /// @brief Method Process addr 0x2978db8 size 0xc virtual true final false
+  /// @brief Method Process, addr 0x2af9b0c, size 0xc, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2978dc4 size 0x84 virtual true final false
+  /// @brief Method ToString, addr 0x2af9b18, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2978e48 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2af9b9c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScaleProcessor", modifiers: "&&", def_value: None }]

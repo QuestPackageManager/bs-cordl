@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::IComparable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2411))
 // CS Name: ::System::IComparable*
 class CORDL_TYPE IComparable {
 public:
   // Declarations
-  /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompareTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareTo(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComparable", modifiers: "&&", def_value: None }]

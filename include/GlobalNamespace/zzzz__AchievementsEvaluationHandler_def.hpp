@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(AchievementsEvaluationHandler)
 namespace GlobalNamespace {
-class MissionNodesManager;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class AchievementSO;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
+class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class AchievementsModelSO;
 }
 namespace GlobalNamespace {
-class MissionCompletionResults;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class AchievementSO;
+}
+namespace GlobalNamespace {
+class MissionNodesManager;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
 }
 namespace GlobalNamespace {
 class MissionNode;
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AchievementsEvaluationHandler);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4111))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4086))
 // CS Name: ::AchievementsEvaluationHandler*
 class CORDL_TYPE AchievementsEvaluationHandler : public ::UnityEngine::MonoBehaviour {
 public:
@@ -309,33 +309,33 @@ public:
 
   constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value);
 
-  /// @brief Method Start addr 0x20d84d0 size 0x17c virtual false final false
+  /// @brief Method Start, addr 0x2231b48, size 0x17c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20d87c0 size 0x1bc virtual false final false
+  /// @brief Method OnDestroy, addr 0x2231e38, size 0x1bc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate addr 0x20d897c size 0x38 virtual false final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x2231ff4, size 0x38, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate addr 0x20d941c size 0x10 virtual false final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x2232ab4, size 0x10, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate addr 0x20d942c size 0x74 virtual false final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x2232ac4, size 0x74, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
 
-  /// @brief Method ProcessMissionFinishData addr 0x20d94a0 size 0x220 virtual false final false
+  /// @brief Method ProcessMissionFinishData, addr 0x2232b38, size 0x220, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData addr 0x20d9008 size 0x414 virtual false final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x2232680, size 0x434, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessLevelFinishData addr 0x20d89b4 size 0x654 virtual false final false
+  /// @brief Method ProcessLevelFinishData, addr 0x223202c, size 0x654, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x20d9844 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2232edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementsEvaluationHandler", modifiers: "&&", def_value: None }]

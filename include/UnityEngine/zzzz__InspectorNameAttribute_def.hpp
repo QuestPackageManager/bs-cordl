@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InspectorNameAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10172))
 // CS Name: ::UnityEngine::InspectorNameAttribute*
 class CORDL_TYPE InspectorNameAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::InspectorNameAttribute* New_ctor(::StringW displayName);
 
-  /// @brief Method .ctor addr 0x2b65bf4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccc0f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
   // Ctor Parameters [CppParam { name: "", ty: "InspectorNameAttribute", modifiers: "&&", def_value: None }]

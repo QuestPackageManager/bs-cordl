@@ -18,8 +18,8 @@ MARK_VAL_T(::OVR::OpenVR::HmdQuad_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9416))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8647))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8654))
 // CS Name: ::OVR.OpenVR::HmdQuad_t
 struct CORDL_TYPE HmdQuad_t {
 public:

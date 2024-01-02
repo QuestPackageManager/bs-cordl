@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IRefreshable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13810))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14339))
 // CS Name: ::IRefreshable*
 class CORDL_TYPE IRefreshable {
 public:
   // Declarations
-  /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh();
 
   // Ctor Parameters [CppParam { name: "", ty: "IRefreshable", modifiers: "&&", def_value: None }]

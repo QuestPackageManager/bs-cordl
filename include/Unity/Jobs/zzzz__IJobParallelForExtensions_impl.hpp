@@ -5,8 +5,8 @@
 #include "Unity/Jobs/zzzz__IJobParallelForExtensions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
-#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "Unity/Jobs/zzzz__IJobParallelForExtensions_def.hpp"
+#include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 template <typename T>
 inline ::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>*
 GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>::New_ctor(::System::Object* object, void* method) {
@@ -22,13 +22,9 @@ template <typename T> inline void GlobalNamespace::__IJobParallelForExtensions__
 template <typename T>
 inline void GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>::Invoke(ByRef<T> data, void* additionalPtr, void* bufferRangePatchData,
                                                                                                                 ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>*>::get(), "Invoke",
-      std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data, additionalPtr, bufferRangePatchData, ranges, jobIndex);
 }
 // Ctor Parameters []

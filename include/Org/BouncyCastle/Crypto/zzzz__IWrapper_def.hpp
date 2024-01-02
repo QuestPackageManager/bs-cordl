@@ -27,16 +27,16 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Wrap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Wrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "IWrapper", modifiers: "&&", def_value: None }]

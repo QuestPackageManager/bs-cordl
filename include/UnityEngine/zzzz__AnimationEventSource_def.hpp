@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimationEventSource);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14863))
 // CS Name: ::UnityEngine::AnimationEventSource
 struct CORDL_TYPE AnimationEventSource {
 public:

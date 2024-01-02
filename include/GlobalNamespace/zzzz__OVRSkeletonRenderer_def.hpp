@@ -11,14 +11,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRSkeletonRenderer)
-namespace UnityEngine {
-class Material;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SkeletonRendererData;
+}
+namespace GlobalNamespace {
+class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
+struct __OVRSkeletonRenderer__SystemGestureBehavior;
+}
+namespace GlobalNamespace {
+class OVRSkeleton;
+}
+namespace GlobalNamespace {
 class __OVRSkeletonRenderer__BoneVisualization;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 class __OVRSkeletonRenderer__CapsuleVisualization;
@@ -26,26 +41,11 @@ class __OVRSkeletonRenderer__CapsuleVisualization;
 namespace GlobalNamespace {
 struct __OVRSkeletonRenderer__ConfidenceBehavior;
 }
-namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SkeletonRendererData;
-}
-namespace GlobalNamespace {
-class OVRSkeleton;
-}
 namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __OVRSkeletonRenderer__SystemGestureBehavior;
-}
-namespace GlobalNamespace {
-class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+class LineRenderer;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class LineRenderer;
 }
 namespace GlobalNamespace {
 class OVRBoneCapsule;
@@ -88,12 +88,12 @@ MARK_VAL_T(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8173))
 // CS Name: ::OVRSkeletonRenderer::IOVRSkeletonRendererDataProvider*
 class CORDL_TYPE __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider {
 public:
   // Declarations
-  /// @brief Method GetSkeletonRendererData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSkeletonRendererData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData GetSkeletonRendererData();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider", modifiers: "&&", def_value: None }]
@@ -113,7 +113,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8174))
 // CS Name: ::OVRSkeletonRenderer::SkeletonRendererData
 struct CORDL_TYPE __OVRSkeletonRenderer__SkeletonRendererData {
 public:
@@ -126,28 +126,28 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  /// @brief Method get_RootScale addr 0x264b588 size 0x8 virtual false final false
+  /// @brief Method get_RootScale, addr 0x27c15fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
-  /// @brief Method set_RootScale addr 0x264b590 size 0x8 virtual false final false
+  /// @brief Method set_RootScale, addr 0x27c1604, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
-  /// @brief Method get_IsDataValid addr 0x264b598 size 0x8 virtual false final false
+  /// @brief Method get_IsDataValid, addr 0x27c160c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid addr 0x264b5a0 size 0xc virtual false final false
+  /// @brief Method set_IsDataValid, addr 0x27c1614, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence addr 0x264b5ac size 0x8 virtual false final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x27c1620, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence addr 0x264b5b4 size 0xc virtual false final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x27c1628, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x264b5c0 size 0x8 virtual false final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c1634, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x264b5c8 size 0xc virtual false final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c163c, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
   // Ctor Parameters [CppParam { name: "_RootScale_k__BackingField", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "_IsDataValid_k__BackingField", ty: "bool", modifiers: "",
@@ -194,7 +194,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendere
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8175))
 // CS Name: ::OVRSkeletonRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__ConfidenceBehavior {
 public:
@@ -244,7 +244,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehav
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8176))
 // CS Name: ::OVRSkeletonRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRSkeletonRenderer__SystemGestureBehavior {
 public:
@@ -293,8 +293,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8952))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8177))
 // CS Name: ::OVRSkeletonRenderer::BoneVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__BoneVisualization : public ::System::Object {
 public:
@@ -356,11 +356,11 @@ public:
   static inline ::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat,
                                                                                       float_t scale, ::UnityEngine::Transform* begin, ::UnityEngine::Transform* end);
 
-  /// @brief Method .ctor addr 0x264a9a8 size 0x1d8 virtual false final false
+  /// @brief Method .ctor, addr 0x27c0a1c, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::UnityEngine::Transform* begin,
                     ::UnityEngine::Transform* end);
 
-  /// @brief Method Update addr 0x264af08 size 0x1d0 virtual false final false
+  /// @brief Method Update, addr 0x27c0f7c, size 0x1d0, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior);
 
@@ -418,8 +418,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__BoneVisualizati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8178))
 // CS Name: ::OVRSkeletonRenderer::CapsuleVisualization*
 class CORDL_TYPE __OVRSkeletonRenderer__CapsuleVisualization : public ::System::Object {
 public:
@@ -481,10 +481,10 @@ public:
   static inline ::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualization* New_ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat,
                                                                                          ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  /// @brief Method .ctor addr 0x264ab80 size 0x1c0 virtual false final false
+  /// @brief Method .ctor, addr 0x27c0bf4, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::GameObject* rootGO, ::UnityEngine::Material* renderMat, ::UnityEngine::Material* systemGestureMat, float_t scale, ::GlobalNamespace::OVRBoneCapsule* boneCapsule);
 
-  /// @brief Method Update addr 0x264b0d8 size 0x310 virtual false final false
+  /// @brief Method Update, addr 0x27c114c, size 0x310, virtual false, abstract: false, final false
   inline void Update(float_t scale, bool shouldRender, bool shouldUseSystemGestureMaterial, ::GlobalNamespace::__OVRSkeletonRenderer__ConfidenceBehavior confidenceBehavior,
                      ::GlobalNamespace::__OVRSkeletonRenderer__SystemGestureBehavior systemGestureBehavior);
 
@@ -542,8 +542,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeletonRenderer__CapsuleVisualiz
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8950)), TypeDefinitionIndex(TypeDefinitionIndex(8951)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8954)) CS Name: ::OVRSkeletonRenderer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8176)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8175))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8179)) CS Name: ::OVRSkeletonRenderer*
 class CORDL_TYPE OVRSkeletonRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -747,51 +747,51 @@ public:
 
   static inline ::UnityEngine::Quaternion getStaticF__capsuleRotationOffset();
 
-  /// @brief Method get_IsInitialized addr 0x264a074 size 0x8 virtual false final false
+  /// @brief Method get_IsInitialized, addr 0x27c00e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized addr 0x264a07c size 0xc virtual false final false
+  /// @brief Method set_IsInitialized, addr 0x27c00f0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method get_IsDataValid addr 0x264a088 size 0x8 virtual false final false
+  /// @brief Method get_IsDataValid, addr 0x27c00fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid addr 0x264a090 size 0xc virtual false final false
+  /// @brief Method set_IsDataValid, addr 0x27c0104, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence addr 0x264a09c size 0x8 virtual false final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x27c0110, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence addr 0x264a0a4 size 0xc virtual false final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x27c0118, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_ShouldUseSystemGestureMaterial addr 0x264a0b0 size 0x8 virtual false final false
+  /// @brief Method get_ShouldUseSystemGestureMaterial, addr 0x27c0124, size 0x8, virtual false, abstract: false, final false
   inline bool get_ShouldUseSystemGestureMaterial();
 
-  /// @brief Method set_ShouldUseSystemGestureMaterial addr 0x264a0b8 size 0xc virtual false final false
+  /// @brief Method set_ShouldUseSystemGestureMaterial, addr 0x27c012c, size 0xc, virtual false, abstract: false, final false
   inline void set_ShouldUseSystemGestureMaterial(bool value);
 
-  /// @brief Method Awake addr 0x264a0c4 size 0xb8 virtual false final false
+  /// @brief Method Awake, addr 0x27c0138, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x264a17c size 0xac virtual false final false
+  /// @brief Method Start, addr 0x27c01f0, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ShouldInitialize addr 0x264a228 size 0x34 virtual false final false
+  /// @brief Method ShouldInitialize, addr 0x27c029c, size 0x34, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Initialize addr 0x264a25c size 0x74c virtual false final false
+  /// @brief Method Initialize, addr 0x27c02d0, size 0x74c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Update addr 0x264ad40 size 0x1c8 virtual false final false
+  /// @brief Method Update, addr 0x27c0db4, size 0x1c8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x264b3e8 size 0x12c virtual false final false
+  /// @brief Method OnDestroy, addr 0x27c145c, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::OVRSkeletonRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x264b514 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x27c1588, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRSkeletonRenderer", modifiers: "&&", def_value: None }]

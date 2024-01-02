@@ -22,8 +22,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSelectorPart);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7282))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7264))
 // CS Name: ::UnityEngine.UIElements::StyleSelectorPart
 struct CORDL_TYPE StyleSelectorPart {
 public:
@@ -32,25 +32,25 @@ public:
 
   __declspec(property(get = get_type, put = set_type))::UnityEngine::UIElements::StyleSelectorType type;
 
-  /// @brief Method get_value addr 0x2d005d8 size 0x8 virtual false final false
+  /// @brief Method get_value, addr 0x2e69988, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_value();
 
-  /// @brief Method get_type addr 0x2d005e0 size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0x2e69990, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorType get_type();
 
-  /// @brief Method set_type addr 0x2d005e8 size 0x8 virtual false final false
+  /// @brief Method set_type, addr 0x2e69998, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::UnityEngine::UIElements::StyleSelectorType value);
 
-  /// @brief Method ToString addr 0x2d005f0 size 0x110 virtual true final false
+  /// @brief Method ToString, addr 0x2e699a0, size 0x110, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method CreateClass addr 0x2d00700 size 0x18 virtual false final false
+  /// @brief Method CreateClass, addr 0x2e69ab0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateClass(::StringW className);
 
-  /// @brief Method CreateId addr 0x2d00718 size 0x18 virtual false final false
+  /// @brief Method CreateId, addr 0x2e69ac8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreateId(::StringW Id);
 
-  /// @brief Method CreatePredicate addr 0x2d00730 size 0x18 virtual false final false
+  /// @brief Method CreatePredicate, addr 0x2e69ae0, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSelectorPart CreatePredicate(::System::Object* predicate);
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Type", ty: "::UnityEngine::UIElements::StyleSelectorType", modifiers: "",

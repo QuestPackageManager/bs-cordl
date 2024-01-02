@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::Utils::NtpLeapIndicator);
 namespace LiteNetLib::Utils {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14576))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14238))
 // CS Name: ::LiteNetLib.Utils::NtpLeapIndicator
 struct CORDL_TYPE NtpLeapIndicator {
 public:

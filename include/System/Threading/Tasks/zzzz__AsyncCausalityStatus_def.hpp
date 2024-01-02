@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::AsyncCausalityStatus);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2817))
 // CS Name: ::System.Threading.Tasks::AsyncCausalityStatus
 struct CORDL_TYPE AsyncCausalityStatus {
 public:

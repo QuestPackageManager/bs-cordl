@@ -9,12 +9,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class KdTreeNode_2;
-}
 namespace System::Text {
 class StringBuilder;
 }
@@ -22,16 +16,31 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
+template <typename TItem, typename TDistance> class NearestNeighbourList_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 struct AddDuplicateBehavior;
 }
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> struct HyperRect_1;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class IKdTree_2;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class KdTreeNode_2;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class __KdTree_2____c__DisplayClass33_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class __KdTree_2___GetEnumerator_d__33;
@@ -40,25 +49,16 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TDistance> class NearestNeighbourList_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename TKey, typename TValue> class IKdTree_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> struct HyperRect_1;
 }
 namespace System {
-class IDisposable;
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class Action_1;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -83,8 +83,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15808))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15916))
 // CS Name: ::KdTree`2::<>c__DisplayClass33_0<TKey,TValue>*
 class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
 public:
@@ -109,13 +109,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetEnumerator>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetEnumerator>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _GetEnumerator_b__0(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node);
 
-  /// @brief Method <GetEnumerator>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetEnumerator>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _GetEnumerator_b__1(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node);
 
   // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2____c__DisplayClass33_0", modifiers: "&&", def_value: None }]
@@ -148,8 +148,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15917))
 // CS Name: ::KdTree`2::<GetEnumerator>d__33<TKey,TValue>*
 class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
 public:
@@ -224,22 +224,23 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.ProBuilder.KdTree.KdTreeNode<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
+  /// true
   inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__KdTree_2___GetEnumerator_d__33", modifiers: "&&", def_value: None }]
@@ -284,8 +285,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15806))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15810))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15914))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
 class CORDL_TYPE KdTree_2 : public ::System::Object {
 public:
@@ -355,99 +356,99 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* New_ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath);
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* New_ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath,
                                                                                     ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior addDuplicateBehavior);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath, ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior addDuplicateBehavior);
 
-  /// @brief Method get_AddDuplicateBehavior addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_AddDuplicateBehavior, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior get_AddDuplicateBehavior();
 
-  /// @brief Method set_AddDuplicateBehavior addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_AddDuplicateBehavior, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_AddDuplicateBehavior(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Add(::ArrayW<TKey, ::Array<TKey>*> point, TValue value);
 
-  /// @brief Method ReadChildNodes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadChildNodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReadChildNodes(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* removedNode);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RemoveAt(::ArrayW<TKey, ::Array<TKey>*> point);
 
-  /// @brief Method GetNearestNeighbours addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetNearestNeighbours, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>
   GetNearestNeighbours(::ArrayW<TKey, ::Array<TKey>*> point, int32_t count);
 
-  /// @brief Method AddNearestNeighbours addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddNearestNeighbours, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNearestNeighbours(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::ArrayW<TKey, ::Array<TKey>*> target,
                                    ::UnityEngine::ProBuilder::KdTree::HyperRect_1<TKey> rect, int32_t depth,
                                    ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, TKey>* nearestNeighbours,
                                    TKey maxSearchRadiusSquared);
 
-  /// @brief Method RadialSearch addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RadialSearch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>
   RadialSearch(::ArrayW<TKey, ::Array<TKey>*> center, TKey radius, int32_t count);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method set_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method TryFindValueAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryFindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryFindValueAt(::ArrayW<TKey, ::Array<TKey>*> point, ByRef<TValue> value);
 
-  /// @brief Method FindValueAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method FindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue FindValueAt(::ArrayW<TKey, ::Array<TKey>*> point);
 
-  /// @brief Method TryFindValue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryFindValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryFindValue(TValue value, ByRef<::ArrayW<TKey, ::Array<TKey>*>> point);
 
-  /// @brief Method FindValue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method FindValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::ArrayW<TKey, ::Array<TKey>*> FindValue(TValue value);
 
-  /// @brief Method AddNodeToStringBuilder addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddNodeToStringBuilder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNodeToStringBuilder(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node, ::System::Text::StringBuilder* sb, int32_t depth);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method AddNodesToList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddNodesToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNodesToList(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node,
                              ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* nodes);
 
-  /// @brief Method SortNodesArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SortNodesArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SortNodesArray(::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> nodes,
                              int32_t byDimension, int32_t fromIndex, int32_t toIndex);
 
-  /// @brief Method AddNodesBalanced addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddNodesBalanced, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddNodesBalanced(::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> nodes,
                                int32_t byDimension, int32_t fromIndex, int32_t toIndex);
 
-  /// @brief Method Balance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Balance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Balance();
 
-  /// @brief Method RemoveChildNodes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveChildNodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveChildNodes(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* node);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method SaveToFile addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SaveToFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SaveToFile(::StringW filename);
 
-  /// @brief Method LoadFromFile addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LoadFromFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* LoadFromFile(::StringW filename);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdTree_2", modifiers: "&&", def_value: None }]

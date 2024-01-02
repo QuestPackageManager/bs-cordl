@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::System::Xml::IXmlNamespaceResolver);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11531))
 // CS Name: ::System.Xml::IXmlNamespaceResolver*
 class CORDL_TYPE IXmlNamespaceResolver {
 public:
   // Declarations
-  /// @brief Method LookupNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LookupNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupPrefix addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LookupPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW LookupPrefix(::StringW namespaceName);
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlNamespaceResolver", modifiers: "&&", def_value: None }]

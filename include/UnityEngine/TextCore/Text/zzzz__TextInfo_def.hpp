@@ -12,19 +12,19 @@ namespace UnityEngine::TextCore::Text {
 struct TextElementInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct LineInfo;
-}
-namespace UnityEngine::TextCore::Text {
-struct PageInfo;
-}
-namespace UnityEngine::TextCore::Text {
 struct WordInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct LinkInfo;
 }
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
 }
 namespace UnityEngine::TextCore::Text {
-struct LinkInfo;
+struct LineInfo;
+}
+namespace UnityEngine::TextCore::Text {
+struct PageInfo;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13713))
 // CS Name: ::UnityEngine.TextCore.Text::TextInfo*
 class CORDL_TYPE TextInfo : public ::System::Object {
 public:
@@ -194,22 +194,22 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bdfbf8 size 0x134 virtual false final false
+  /// @brief Method .ctor, addr 0x2d47fa8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Clear addr 0x2bdfd2c size 0x5c virtual false final false
+  /// @brief Method Clear, addr 0x2d480dc, size 0x5c, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearMeshInfo addr 0x2bdfd88 size 0x80 virtual false final false
+  /// @brief Method ClearMeshInfo, addr 0x2d48138, size 0x80, virtual false, abstract: false, final false
   inline void ClearMeshInfo(bool updateMesh);
 
-  /// @brief Method ClearLineInfo addr 0x2bdfe34 size 0x16c virtual false final false
+  /// @brief Method ClearLineInfo, addr 0x2d481e4, size 0x16c, virtual false, abstract: false, final false
   inline void ClearLineInfo();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size, bool isBlockAllocated);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInfo", modifiers: "&&", def_value: None }]

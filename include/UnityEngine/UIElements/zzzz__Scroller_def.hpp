@@ -8,10 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Scroller)
 namespace UnityEngine::UIElements {
+class RepeatButton;
+}
+namespace UnityEngine::UIElements {
 class __Scroller__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class Slider;
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class __Scroller__UxmlFactory;
@@ -20,19 +23,13 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
+class Slider;
 }
 namespace UnityEngine::UIElements {
 struct SliderDirection;
 }
 namespace UnityEngine::UIElements {
-class RepeatButton;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class UxmlFloatAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class UxmlEnumAttributeDescription_1;
@@ -41,7 +38,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class UxmlFloatAttributeDescription;
+class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Scroller__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7149))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7063))
 // CS Name: ::Scroller::UxmlTraits*
 class CORDL_TYPE __Scroller__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -103,12 +103,12 @@ public:
 
   constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2cc39d8 size 0x1ec virtual true final false
+  /// @brief Method Init, addr 0x2e2ad88, size 0x1ec, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Scroller__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc3bc4 size 0x25c virtual false final false
+  /// @brief Method .ctor, addr 0x2e2af74, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Scroller__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -155,8 +155,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__Scroller__UxmlTraits, ___m_V
 // SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7064))
 // CS Name: ::UnityEngine.UIElements::Scroller*
 class CORDL_TYPE Scroller : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -257,77 +257,78 @@ public:
 
   static inline ::StringW getStaticF_highButtonUssClassName();
 
-  /// @brief Method add_valueChanged addr 0x2cc2c14 size 0xb4 virtual false final false
+  /// @brief Method add_valueChanged, addr 0x2e29fc4, size 0xb4, virtual false, abstract: false, final false
   inline void add_valueChanged(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_valueChanged addr 0x2cc2cc8 size 0xb4 virtual false final false
+  /// @brief Method remove_valueChanged, addr 0x2e2a078, size 0xb4, virtual false, abstract: false, final false
   inline void remove_valueChanged(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_slider addr 0x2cc2d7c size 0x8 virtual false final false
+  /// @brief Method get_slider, addr 0x2e2a12c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Slider* get_slider();
 
-  /// @brief Method set_slider addr 0x2cc2d84 size 0x8 virtual false final false
+  /// @brief Method set_slider, addr 0x2e2a134, size 0x8, virtual false, abstract: false, final false
   inline void set_slider(::UnityEngine::UIElements::Slider* value);
 
-  /// @brief Method get_lowButton addr 0x2cc2d8c size 0x8 virtual false final false
+  /// @brief Method get_lowButton, addr 0x2e2a13c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_lowButton();
 
-  /// @brief Method set_lowButton addr 0x2cc2d94 size 0x8 virtual false final false
+  /// @brief Method set_lowButton, addr 0x2e2a144, size 0x8, virtual false, abstract: false, final false
   inline void set_lowButton(::UnityEngine::UIElements::RepeatButton* value);
 
-  /// @brief Method get_highButton addr 0x2cc2d9c size 0x8 virtual false final false
+  /// @brief Method get_highButton, addr 0x2e2a14c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_highButton();
 
-  /// @brief Method set_highButton addr 0x2cc2da4 size 0x8 virtual false final false
+  /// @brief Method set_highButton, addr 0x2e2a154, size 0x8, virtual false, abstract: false, final false
   inline void set_highButton(::UnityEngine::UIElements::RepeatButton* value);
 
-  /// @brief Method get_value addr 0x2cc2dac size 0x24 virtual false final false
+  /// @brief Method get_value, addr 0x2e2a15c, size 0x24, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value addr 0x2cc2dd0 size 0x24 virtual false final false
+  /// @brief Method set_value, addr 0x2e2a180, size 0x24, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_lowValue addr 0x2cc2df4 size 0x50 virtual false final false
+  /// @brief Method get_lowValue, addr 0x2e2a1a4, size 0x50, virtual false, abstract: false, final false
   inline float_t get_lowValue();
 
-  /// @brief Method set_lowValue addr 0x2cc2e44 size 0x60 virtual false final false
+  /// @brief Method set_lowValue, addr 0x2e2a1f4, size 0x60, virtual false, abstract: false, final false
   inline void set_lowValue(float_t value);
 
-  /// @brief Method get_highValue addr 0x2cc2ea4 size 0x50 virtual false final false
+  /// @brief Method get_highValue, addr 0x2e2a254, size 0x50, virtual false, abstract: false, final false
   inline float_t get_highValue();
 
-  /// @brief Method set_highValue addr 0x2cc2ef4 size 0x60 virtual false final false
+  /// @brief Method set_highValue, addr 0x2e2a2a4, size 0x60, virtual false, abstract: false, final false
   inline void set_highValue(float_t value);
 
-  /// @brief Method set_direction addr 0x2cc2f54 size 0x1fc virtual false final false
+  /// @brief Method set_direction, addr 0x2e2a304, size 0x1fc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SliderDirection value);
 
   static inline ::UnityEngine::UIElements::Scroller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc3150 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2e2a500, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Scroller* New_ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction);
 
-  /// @brief Method .ctor addr 0x2cc3164 size 0x3a8 virtual false final false
-  inline void _ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction);
+  /// @brief Method .ctor, addr 0x2e2a514, size 0x3a8, virtual false, abstract: false, final false
+  /// @param direction: ::UnityEngine::UIElements::SliderDirection (default: static_cast<int32_t>(0x1))
+  inline void _ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction = static_cast<int32_t>(0x1));
 
-  /// @brief Method Adjust addr 0x2cc350c size 0x78 virtual false final false
+  /// @brief Method Adjust, addr 0x2e2a8bc, size 0x78, virtual false, abstract: false, final false
   inline void Adjust(float_t factor);
 
-  /// @brief Method OnSliderValueChange addr 0x2cc3584 size 0x9c virtual false final false
+  /// @brief Method OnSliderValueChange, addr 0x2e2a934, size 0x9c, virtual false, abstract: false, final false
   inline void OnSliderValueChange(::UnityEngine::UIElements::ChangeEvent_1<float_t>* evt);
 
-  /// @brief Method ScrollPageUp addr 0x2cc3620 size 0x8 virtual false final false
+  /// @brief Method ScrollPageUp, addr 0x2e2a9d0, size 0x8, virtual false, abstract: false, final false
   inline void ScrollPageUp();
 
-  /// @brief Method ScrollPageDown addr 0x2cc3720 size 0x8 virtual false final false
+  /// @brief Method ScrollPageDown, addr 0x2e2aad0, size 0x8, virtual false, abstract: false, final false
   inline void ScrollPageDown();
 
-  /// @brief Method ScrollPageUp addr 0x2cc3628 size 0xf8 virtual false final false
+  /// @brief Method ScrollPageUp, addr 0x2e2a9d8, size 0xf8, virtual false, abstract: false, final false
   inline void ScrollPageUp(float_t factor);
 
-  /// @brief Method ScrollPageDown addr 0x2cc3728 size 0xf8 virtual false final false
+  /// @brief Method ScrollPageDown, addr 0x2e2aad8, size 0xf8, virtual false, abstract: false, final false
   inline void ScrollPageDown(float_t factor);
 
   // Ctor Parameters [CppParam { name: "", ty: "Scroller", modifiers: "&&", def_value: None }]
@@ -374,14 +375,14 @@ static_assert(offsetof(::UnityEngine::UIElements::Scroller, ____highButton_k__Ba
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7150)), TypeDefinitionIndex(TypeDefinitionIndex(7149)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5159 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7148)) CS Name: ::Scroller::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7063)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7064))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
 class CORDL_TYPE __Scroller__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Scroller*, ::UnityEngine::UIElements::__Scroller__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Scroller__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc3990 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e2ad40, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Scroller__UxmlFactory", modifiers: "&&", def_value: None }]

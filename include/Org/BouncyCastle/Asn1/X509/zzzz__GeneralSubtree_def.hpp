@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(GeneralSubtree)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -76,36 +76,36 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x111f428 size 0x28c virtual false final false
+  /// @brief Method .ctor, addr 0x118f670, size 0x28c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName, ::Org::BouncyCastle::Math::BigInteger* minimum,
                                                                           ::Org::BouncyCastle::Math::BigInteger* maximum);
 
-  /// @brief Method .ctor addr 0x111f6b4 size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x118f8fc, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName, ::Org::BouncyCastle::Math::BigInteger* minimum, ::Org::BouncyCastle::Math::BigInteger* maximum);
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
 
-  /// @brief Method .ctor addr 0x111f764 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x118f9ac, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* baseName);
 
-  /// @brief Method GetInstance addr 0x111f7b0 size 0x84 virtual false final false
+  /// @brief Method GetInstance, addr 0x118f9f8, size 0x84, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* o, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0x111f834 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x118fa7c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralSubtree* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Base addr 0x111f8d8 size 0x8 virtual false final false
+  /// @brief Method get_Base, addr 0x118fb20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Base();
 
-  /// @brief Method get_Minimum addr 0x111f8e0 size 0x74 virtual false final false
+  /// @brief Method get_Minimum, addr 0x118fb28, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Minimum();
 
-  /// @brief Method get_Maximum addr 0x111f954 size 0x14 virtual false final false
+  /// @brief Method get_Maximum, addr 0x118fb9c, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Maximum();
 
-  /// @brief Method ToAsn1Object addr 0x111f968 size 0x17c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x118fbb0, size 0x17c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeneralSubtree", modifiers: "&&", def_value: None }]

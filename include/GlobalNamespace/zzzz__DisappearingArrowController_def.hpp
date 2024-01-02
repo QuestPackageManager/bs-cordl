@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4863), inst: 311 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4863))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4862)) CS Name: ::DisappearingArrowController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(4744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 310
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4741)) CS Name: ::DisappearingArrowController*
 class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::GameNoteController*> {
 public:
   // Declarations
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__gameNoteController(::GlobalNamespace::GameNoteController* value);
 
-  /// @brief Method get_gameNoteController addr 0x224faf0 size 0x8 virtual true final false
+  /// @brief Method get_gameNoteController, addr 0x2385468, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameNoteController* get_gameNoteController();
 
   static inline ::GlobalNamespace::DisappearingArrowController* New_ctor();
 
-  /// @brief Method .ctor addr 0x224faf8 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2385470, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "&&", def_value: None }]

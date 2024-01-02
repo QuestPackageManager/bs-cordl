@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockVectorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10173)), TypeDefinitionIndex(TypeDefinitionIndex(14780))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14788))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563)), TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14571))
 // CS Name: ::MaterialPropertyBlockVectorAnimator*
 class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -30,12 +30,12 @@ public:
 
   constexpr void __set__vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method SetProperty addr 0x1fbf8e4 size 0x34 virtual true final false
+  /// @brief Method SetProperty, addr 0x211546c, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockVectorAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbf918 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x21154a0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockVectorAnimator", modifiers: "&&", def_value: None }]

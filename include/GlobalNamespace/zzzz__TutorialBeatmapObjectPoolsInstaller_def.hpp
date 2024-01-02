@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5494))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5404))
 // CS Name: ::TutorialBeatmapObjectPoolsInstaller*
 class CORDL_TYPE TutorialBeatmapObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -69,12 +69,12 @@ public:
 
   constexpr void __set__noteLineConnectionControllerPrefab(::GlobalNamespace::NoteLineConnectionController* value);
 
-  /// @brief Method InstallBindings addr 0x212dddc size 0x18c virtual true final false
+  /// @brief Method InstallBindings, addr 0x227356c, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212df68 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22736f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialBeatmapObjectPoolsInstaller", modifiers: "&&", def_value: None }]

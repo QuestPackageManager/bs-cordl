@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvelopedDataParser)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1SequenceParser;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -13,14 +16,11 @@ class IAsn1Convertible;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SetParser;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SequenceParser;
+namespace Org::BouncyCastle::Asn1::Cms {
+class EncryptedContentInfoParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorInfo;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class EncryptedContentInfoParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(72))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::EnvelopedDataParser*
 class CORDL_TYPE EnvelopedDataParser : public ::System::Object {
@@ -78,22 +78,22 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EnvelopedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor addr 0xe0276c size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0xe77940, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version addr 0xe02890 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xe77a64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo addr 0xe02898 size 0x2e0 virtual false final false
+  /// @brief Method GetOriginatorInfo, addr 0xe77a6c, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos addr 0xe02b78 size 0x100 virtual false final false
+  /// @brief Method GetRecipientInfos, addr 0xe77d4c, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetEncryptedContentInfo addr 0xe02c78 size 0x120 virtual false final false
+  /// @brief Method GetEncryptedContentInfo, addr 0xe77e4c, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* GetEncryptedContentInfo();
 
-  /// @brief Method GetUnprotectedAttrs addr 0xe02d98 size 0x1ac virtual false final false
+  /// @brief Method GetUnprotectedAttrs, addr 0xe77f6c, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnprotectedAttrs();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataParser", modifiers: "&&", def_value: None }]

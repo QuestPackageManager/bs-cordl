@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdAttributeInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11423))
 // CS Name: ::System.Xml::IDtdAttributeInfo*
 class CORDL_TYPE IDtdAttributeInfo {
 public:
@@ -35,25 +35,25 @@ public:
 
   __declspec(property(get = get_IsXmlAttribute)) bool IsXmlAttribute;
 
-  /// @brief Method get_Prefix addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Prefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_LocalName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LocalName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_LineNumber addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_IsNonCDataType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsNonCDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsNonCDataType();
 
-  /// @brief Method get_IsDeclaredInExternal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsDeclaredInExternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsDeclaredInExternal();
 
-  /// @brief Method get_IsXmlAttribute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsXmlAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsXmlAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdAttributeInfo", modifiers: "&&", def_value: None }]

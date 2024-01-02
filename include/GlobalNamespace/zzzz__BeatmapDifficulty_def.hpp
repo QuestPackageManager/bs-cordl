@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::BeatmapDifficulty);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14934))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14717))
 // CS Name: ::BeatmapDifficulty
 struct CORDL_TYPE BeatmapDifficulty {
 public:

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::UnhandledExceptionEventArgs);
 namespace System {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2502))
 // CS Name: ::System::UnhandledExceptionEventArgs*
 class CORDL_TYPE UnhandledExceptionEventArgs : public ::System::EventArgs {
 public:
@@ -47,13 +47,13 @@ public:
 
   static inline ::System::UnhandledExceptionEventArgs* New_ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method .ctor addr 0x2471010 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x25cdf38, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject addr 0x2471084 size 0x8 virtual false final false
+  /// @brief Method get_ExceptionObject, addr 0x25cdfac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating addr 0x247108c size 0x8 virtual false final false
+  /// @brief Method get_IsTerminating, addr 0x25cdfb4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionEventArgs", modifiers: "&&", def_value: None }]

@@ -14,16 +14,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaybackRenderer)
 namespace UnityEngine {
-class Camera;
+class Shader;
 }
 namespace UnityEngine {
 class Transform;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Shader;
 }
 namespace UnityEngine {
 class GameObject;
@@ -31,23 +25,29 @@ class GameObject;
 namespace System {
 class Action;
 }
+namespace UnityEngine {
+class Material;
+}
+namespace UnityEngine {
+class Camera;
+}
 namespace GlobalNamespace {
 class __PlaybackRenderer__PlaybackScreenshot;
 }
 namespace GlobalNamespace {
 class __PosesRecordingData__ExternalCameraCalibration;
 }
-namespace GlobalNamespace {
-struct __PlaybackRenderer__PlaybackScreenshot__Type;
-}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-struct LayerMask;
+class RenderTexture;
+}
+namespace GlobalNamespace {
+struct __PlaybackRenderer__PlaybackScreenshot__Type;
 }
 namespace UnityEngine {
-class RenderTexture;
+struct LayerMask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6014))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5923))
 // CS Name: ::PlaybackRenderer::PlaybackScreenshot::Type
 struct CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot__Type {
 public:
@@ -117,8 +117,8 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10132))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6015)) CS Name: ::PlaybackRenderer::PlaybackScreenshot*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5923)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5924)) CS Name: ::PlaybackRenderer::PlaybackScreenshot*
 class CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot : public ::System::Object {
 public:
   // Declarations
@@ -190,34 +190,34 @@ public:
 
   constexpr void __set__backgroundColor(::UnityEngine::Color value);
 
-  /// @brief Method get_name addr 0x21b7d04 size 0x8 virtual false final false
+  /// @brief Method get_name, addr 0x23012b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_texture addr 0x21b7d0c size 0x8 virtual false final false
+  /// @brief Method get_texture, addr 0x23012bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTexture* get_texture();
 
-  /// @brief Method get_layerMask addr 0x21b7d14 size 0x8 virtual false final false
+  /// @brief Method get_layerMask, addr 0x23012c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
 
-  /// @brief Method get_type addr 0x21b7d1c size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0x23012cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type get_type();
 
-  /// @brief Method get_path addr 0x21b7d24 size 0x8 virtual false final false
+  /// @brief Method get_path, addr 0x23012d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method set_path addr 0x21b7d2c size 0x8 virtual false final false
+  /// @brief Method set_path, addr 0x23012dc, size 0x8, virtual false, abstract: false, final false
   inline void set_path(::StringW value);
 
-  /// @brief Method get_backgroundColor addr 0x21b7d34 size 0xc virtual false final false
+  /// @brief Method get_backgroundColor, addr 0x23012e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_backgroundColor();
 
   static inline ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* New_ctor(::StringW name, ::UnityEngine::LayerMask layerMask,
                                                                                     ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method .ctor addr 0x21b7d40 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x23012f0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::LayerMask layerMask, ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method CreateTexture addr 0x21b74d4 size 0xc4 virtual false final false
+  /// @brief Method CreateTexture, addr 0x2300a84, size 0xc4, virtual false, abstract: false, final false
   inline void CreateTexture(int32_t width, int32_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlaybackRenderer__PlaybackScreenshot", modifiers: "&&", def_value: None }]
@@ -274,8 +274,8 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6016))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5925))
 // CS Name: ::PlaybackRenderer*
 class CORDL_TYPE PlaybackRenderer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -366,46 +366,46 @@ public:
 
   constexpr void __set__screenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
 
-  /// @brief Method add_texturesReadyEvent addr 0x21b6f90 size 0x9c virtual false final false
+  /// @brief Method add_texturesReadyEvent, addr 0x2300540, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_texturesReadyEvent addr 0x21b702c size 0x9c virtual false final false
+  /// @brief Method remove_texturesReadyEvent, addr 0x23005dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_texturesReadyEvent(::System::Action* value);
 
-  /// @brief Method get_screenshots addr 0x21b70c8 size 0x8 virtual false final false
+  /// @brief Method get_screenshots, addr 0x2300678, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> get_screenshots();
 
-  /// @brief Method Setup addr 0x21b6658 size 0x88 virtual false final false
+  /// @brief Method Setup, addr 0x22ffc08, size 0x88, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Camera* hmdCamera, ::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration, int32_t textureWidth,
                     int32_t textureHeight, ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots);
 
-  /// @brief Method CreateClipQuad addr 0x21b71e0 size 0x280 virtual false final false
+  /// @brief Method CreateClipQuad, addr 0x2300790, size 0x280, virtual false, abstract: false, final false
   inline void CreateClipQuad();
 
-  /// @brief Method InitCamera addr 0x21b70d0 size 0x110 virtual false final false
+  /// @brief Method InitCamera, addr 0x2300680, size 0x110, virtual false, abstract: false, final false
   inline void InitCamera(::UnityEngine::Camera* camera, ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* cameraCalibration);
 
-  /// @brief Method CreateTextures addr 0x21b7460 size 0x74 virtual false final false
+  /// @brief Method CreateTextures, addr 0x2300a10, size 0x74, virtual false, abstract: false, final false
   inline void CreateTextures(int32_t width, int32_t height);
 
-  /// @brief Method GetDistanceToHMD addr 0x21b7598 size 0x26c virtual false final false
+  /// @brief Method GetDistanceToHMD, addr 0x2300b48, size 0x26c, virtual false, abstract: false, final false
   inline float_t GetDistanceToHMD();
 
-  /// @brief Method OrientClipQuad addr 0x21b7804 size 0x140 virtual false final false
+  /// @brief Method OrientClipQuad, addr 0x2300db4, size 0x140, virtual false, abstract: false, final false
   inline void OrientClipQuad();
 
-  /// @brief Method RenderForeground addr 0x21b7944 size 0x1c0 virtual false final false
+  /// @brief Method RenderForeground, addr 0x2300ef4, size 0x1c0, virtual false, abstract: false, final false
   inline void RenderForeground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
 
-  /// @brief Method RenderBackground addr 0x21b7b04 size 0x154 virtual false final false
+  /// @brief Method RenderBackground, addr 0x23010b4, size 0x154, virtual false, abstract: false, final false
   inline void RenderBackground(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot* screenshot);
 
-  /// @brief Method LateUpdate addr 0x21b7c58 size 0xa4 virtual false final false
+  /// @brief Method LateUpdate, addr 0x2301208, size 0xa4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::PlaybackRenderer* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b7cfc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23012ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaybackRenderer", modifiers: "&&", def_value: None }]

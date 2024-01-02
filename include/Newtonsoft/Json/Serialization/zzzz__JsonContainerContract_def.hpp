@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Nullable_1_def.hpp"
 CORDL_MODULE_EXPORT(JsonContainerContract)
 namespace Newtonsoft::Json {
-struct ReferenceLoopHandling;
-}
-namespace Newtonsoft::Json {
 class JsonConverter;
 }
 namespace System {
-class Type;
+template <typename T> struct Nullable_1;
 }
 namespace Newtonsoft::Json {
 struct TypeNameHandling;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class Type;
+}
+namespace Newtonsoft::Json {
+struct ReferenceLoopHandling;
 }
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
@@ -35,10 +35,10 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonContainerContract);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4663 }), TypeDefinitionIndex(TypeDefinitionIndex(11871)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11768)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(11767)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4655 }), TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11835)) CS
-// Name: ::Newtonsoft.Json.Serialization::JsonContainerContract*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11943)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
+// 4762 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4754 }), TypeDefinitionIndex(TypeDefinitionIndex(11840))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11907)) CS Name:
+// ::Newtonsoft.Json.Serialization::JsonContainerContract*
 class CORDL_TYPE JsonContainerContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
   // Declarations
@@ -110,42 +110,42 @@ public:
 
   constexpr void __set__ItemTypeNameHandling_k__BackingField(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  /// @brief Method get_ItemContract addr 0x2507118 size 0x8 virtual false final false
+  /// @brief Method get_ItemContract, addr 0x266a85c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_ItemContract();
 
-  /// @brief Method set_ItemContract addr 0x2507120 size 0x44 virtual false final false
+  /// @brief Method set_ItemContract, addr 0x266a864, size 0x44, virtual false, abstract: false, final false
   inline void set_ItemContract(::Newtonsoft::Json::Serialization::JsonContract* value);
 
-  /// @brief Method get_FinalItemContract addr 0x2507164 size 0x8 virtual false final false
+  /// @brief Method get_FinalItemContract, addr 0x266a8a8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* get_FinalItemContract();
 
-  /// @brief Method get_ItemConverter addr 0x250716c size 0x8 virtual false final false
+  /// @brief Method get_ItemConverter, addr 0x266a8b0, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonConverter* get_ItemConverter();
 
-  /// @brief Method set_ItemConverter addr 0x2507174 size 0x8 virtual false final false
+  /// @brief Method set_ItemConverter, addr 0x266a8b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemConverter(::Newtonsoft::Json::JsonConverter* value);
 
-  /// @brief Method get_ItemIsReference addr 0x250717c size 0x8 virtual false final false
+  /// @brief Method get_ItemIsReference, addr 0x266a8c0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ItemIsReference();
 
-  /// @brief Method set_ItemIsReference addr 0x2507184 size 0x8 virtual false final false
+  /// @brief Method set_ItemIsReference, addr 0x266a8c8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemIsReference(::System::Nullable_1<bool> value);
 
-  /// @brief Method get_ItemReferenceLoopHandling addr 0x250718c size 0x8 virtual false final false
+  /// @brief Method get_ItemReferenceLoopHandling, addr 0x266a8d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> get_ItemReferenceLoopHandling();
 
-  /// @brief Method set_ItemReferenceLoopHandling addr 0x2507194 size 0x8 virtual false final false
+  /// @brief Method set_ItemReferenceLoopHandling, addr 0x266a8d8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemReferenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  /// @brief Method get_ItemTypeNameHandling addr 0x250719c size 0x8 virtual false final false
+  /// @brief Method get_ItemTypeNameHandling, addr 0x266a8e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> get_ItemTypeNameHandling();
 
-  /// @brief Method set_ItemTypeNameHandling addr 0x25071a4 size 0x8 virtual false final false
+  /// @brief Method set_ItemTypeNameHandling, addr 0x266a8e8, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemTypeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonContainerContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor addr 0x25071ac size 0xdc virtual false final false
+  /// @brief Method .ctor, addr 0x266a8f0, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonContainerContract", modifiers: "&&", def_value: None }]

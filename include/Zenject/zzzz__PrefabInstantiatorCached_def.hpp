@@ -8,20 +8,11 @@ CORDL_MODULE_EXPORT(PrefabInstantiatorCached)
 namespace Zenject {
 class GameObjectCreationParameters;
 }
-namespace Zenject {
-class IPrefabInstantiator;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
-class Action;
+class Type;
 }
 namespace Zenject {
 struct TypeValuePair;
-}
-namespace System {
-class Type;
 }
 namespace UnityEngine {
 class GameObject;
@@ -31,6 +22,15 @@ class InjectContext;
 }
 namespace UnityEngine {
 class Object;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class IPrefabInstantiator;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::Zenject::PrefabInstantiatorCached);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11158))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11230))
 // CS Name: ::Zenject::PrefabInstantiatorCached*
 class CORDL_TYPE PrefabInstantiatorCached : public ::System::Object {
 public:
@@ -77,22 +77,22 @@ public:
 
   static inline ::Zenject::PrefabInstantiatorCached* New_ctor(::Zenject::IPrefabInstantiator* subInstantiator);
 
-  /// @brief Method .ctor addr 0x2da1a00 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2f097d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPrefabInstantiator* subInstantiator);
 
-  /// @brief Method get_ExtraArguments addr 0x2da1a28 size 0xa4 virtual true final true
+  /// @brief Method get_ExtraArguments, addr 0x2f097f8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method get_ArgumentTarget addr 0x2da1acc size 0xa0 virtual true final true
+  /// @brief Method get_ArgumentTarget, addr 0x2f0989c, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_GameObjectCreationParameters addr 0x2da1b6c size 0xa4 virtual true final true
+  /// @brief Method get_GameObjectCreationParameters, addr 0x2f0993c, size 0xa4, virtual true, abstract: false, final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method GetPrefab addr 0x2da1c10 size 0xa4 virtual true final true
+  /// @brief Method GetPrefab, addr 0x2f099e0, size 0xa4, virtual true, abstract: false, final true
   inline ::UnityEngine::Object* GetPrefab();
 
-  /// @brief Method Instantiate addr 0x2da1cb4 size 0x17c virtual true final true
+  /// @brief Method Instantiate, addr 0x2f09a84, size 0x17c, virtual true, abstract: false, final true
   inline ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabInstantiatorCached", modifiers: "&&", def_value: None }]

@@ -7,37 +7,37 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder0Extensions)
 namespace Zenject {
-template <typename TContract> class __FactoryFromBinder0Extensions____c__3_1;
-}
-namespace Zenject {
-class ArgConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder0Extensions____c__1_1;
-}
-namespace Zenject {
-template <typename TContract> class __FactoryFromBinder0Extensions____c__DisplayClass6_0_1;
-}
-namespace Zenject {
-template <typename TContract, typename TMemoryPool> class __FactoryFromBinder0Extensions____c__5_2;
-}
-namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
-}
-namespace Zenject {
 template <typename TContract> class MemoryPoolInitialSizeMaxSizeBinder_1;
-}
-namespace Zenject {
-template <typename TContract> class FactoryFromBinder_1;
-}
-namespace Zenject {
-template <typename TValue> class IFactory_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
 template <typename TContract, typename TMemoryPool> class __FactoryFromBinder0Extensions____c__DisplayClass0_0_2;
+}
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder0Extensions____c__DisplayClass6_0_1;
+}
+namespace Zenject {
+template <typename TContract> class FactoryFromBinder_1;
+}
+namespace Zenject {
+template <typename TContract, typename TMemoryPool> class __FactoryFromBinder0Extensions____c__5_2;
+}
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder0Extensions____c__1_1;
+}
+namespace Zenject {
+class ArgConditionCopyNonLazyBinder;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
+namespace Zenject {
+template <typename TContract> class ConcreteBinderGeneric_1;
+}
+namespace Zenject {
+template <typename TContract> class __FactoryFromBinder0Extensions____c__3_1;
 }
 namespace System {
 class Object;
@@ -83,8 +83,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10645))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10717))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__DisplayClass0_0`2<TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__DisplayClass0_0_2 : public ::System::Object {
 public:
@@ -100,16 +100,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromPoolableMemoryPool>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromPoolableMemoryPool>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromPoolableMemoryPool_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder0Extensions____c__DisplayClass0_0_2", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10718))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__1`1<TContract>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__1_1 : public ::System::Object {
 public:
@@ -161,16 +161,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder0Extensions____c__1_1<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromPoolableMemoryPool>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromPoolableMemoryPool>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromPoolableMemoryPool_b__1_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder0Extensions____c__1_1", modifiers: "&&", def_value: None }]
@@ -197,8 +197,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10719))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__3`1<TContract>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__3_1 : public ::System::Object {
 public:
@@ -219,16 +219,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder0Extensions____c__3_1<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromMonoPoolableMemoryPool>b__3_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromMonoPoolableMemoryPool>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromMonoPoolableMemoryPool_b__3_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder0Extensions____c__3_1", modifiers: "&&", def_value: None }]
@@ -255,8 +255,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10648))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10720))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__5`2<TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__5_2 : public ::System::Object {
 public:
@@ -277,16 +277,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder0Extensions____c__5_2<TContract, TMemoryPool>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromPoolableMemoryPool>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromPoolableMemoryPool>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromPoolableMemoryPool_b__5_0(::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder0Extensions____c__5_2", modifiers: "&&", def_value: None }]
@@ -313,8 +313,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10721))
 // CS Name: ::FactoryFromBinder0Extensions::<>c__DisplayClass6_0`1<TContract>*
 class CORDL_TYPE __FactoryFromBinder0Extensions____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -330,16 +330,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass6_0_1<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromIFactory>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromIFactory>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromIFactory_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder0Extensions____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
@@ -367,8 +367,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10722))
 // CS Name: ::Zenject::FactoryFromBinder0Extensions*
 class CORDL_TYPE FactoryFromBinder0Extensions : public ::System::Object {
 public:
@@ -383,31 +383,31 @@ public:
 
   template <typename TContract, typename TMemoryPool> using __c__DisplayClass0_0_2 = ::Zenject::__FactoryFromBinder0Extensions____c__DisplayClass0_0_2<TContract, TMemoryPool>;
 
-  /// @brief Method FromPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract, typename TMemoryPool>
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder,
                                                                                  ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
-  /// @brief Method FromPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder);
 
-  /// @brief Method FromPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract>
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder,
                                                                                  ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
-  /// @brief Method FromMonoPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromMonoPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract> static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder);
 
-  /// @brief Method FromMonoPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromMonoPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract>
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromMonoPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder,
                                                                                      ::System::Action_1<::Zenject::MemoryPoolInitialSizeMaxSizeBinder_1<TContract>*>* poolBindGenerator);
 
-  /// @brief Method FromPoolableMemoryPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromPoolableMemoryPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract, typename TMemoryPool> static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromPoolableMemoryPool(::Zenject::FactoryFromBinder_1<TContract>* fromBinder);
 
-  /// @brief Method FromIFactory addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromIFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContract>
   static inline ::Zenject::ArgConditionCopyNonLazyBinder* FromIFactory(::Zenject::FactoryFromBinder_1<TContract>* fromBinder,
                                                                        ::System::Action_1<::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_1<TContract>*>*>* factoryBindGenerator);

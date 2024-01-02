@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECNamedDomainParameters)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
@@ -23,6 +17,12 @@ class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -51,24 +51,24 @@ public:
 
   constexpr void __set_name(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method get_Name addr 0xebdbb4 size 0x8 virtual false final false
+  /// @brief Method get_Name, addr 0xf32da0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name,
                                                                                            ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp);
 
-  /// @brief Method .ctor addr 0xebdbbc size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0xf32da8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method .ctor addr 0xebdc5c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf32e48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                                            ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor addr 0xebdc84 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xf32e70, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n);
 
@@ -76,7 +76,7 @@ public:
                                                                                            ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                            ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor addr 0xebdcb4 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0xf32ea0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
@@ -84,7 +84,7 @@ public:
                                                                                            ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n,
                                                                                            ::Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor addr 0xebdc24 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0xf32e10, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* name, ::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
                     ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 

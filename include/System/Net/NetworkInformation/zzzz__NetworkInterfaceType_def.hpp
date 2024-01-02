@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::NetworkInterfaceType);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9258))
 // CS Name: ::System.Net.NetworkInformation::NetworkInterfaceType
 struct CORDL_TYPE NetworkInterfaceType {
 public:

@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateHashtable);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3786))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3238))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3798))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3239))
 // CS Name: ::System.Runtime.Serialization::SurrogateHashtable*
 class CORDL_TYPE SurrogateHashtable : public ::System::Collections::Hashtable {
 public:
   // Declarations
   static inline ::System::Runtime::Serialization::SurrogateHashtable* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0x2366f4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24bfa40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method KeyEquals addr 0x23672f8 size 0x128 virtual true final false
+  /// @brief Method KeyEquals, addr 0x24bfdec, size 0x128, virtual true, abstract: false, final false
   inline bool KeyEquals(::System::Object* key, ::System::Object* item);
 
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateHashtable", modifiers: "&&", def_value: None }]

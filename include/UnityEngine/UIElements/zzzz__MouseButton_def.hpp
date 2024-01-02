@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::MouseButton);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6773))
 // CS Name: ::UnityEngine.UIElements::MouseButton
 struct CORDL_TYPE MouseButton {
 public:

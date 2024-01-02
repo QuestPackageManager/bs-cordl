@@ -40,18 +40,18 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserIdPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115dbe4 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x11cee34, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::UserIdPacket* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x1164088 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x11d52d8, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
-  /// @brief Method GetId addr 0x11640d4 size 0x3c virtual false final false
+  /// @brief Method GetId, addr 0x11d5324, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetId();
 
-  /// @brief Method Encode addr 0x1164110 size 0x28 virtual true final false
+  /// @brief Method Encode, addr 0x11d5360, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserIdPacket", modifiers: "&&", def_value: None }]

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Net::ListenerPrefix);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8027))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9190))
 // CS Name: ::System.Net::ListenerPrefix*
 class CORDL_TYPE ListenerPrefix : public ::System::Object {
 public:
@@ -92,34 +92,34 @@ public:
 
   static inline ::System::Net::ListenerPrefix* New_ctor(::StringW prefix);
 
-  /// @brief Method .ctor addr 0x2856a40 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x29d32b4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix);
 
-  /// @brief Method ToString addr 0x2856d60 size 0x8 virtual true final false
+  /// @brief Method ToString, addr 0x29d35d4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Secure addr 0x2856d68 size 0x8 virtual false final false
+  /// @brief Method get_Secure, addr 0x29d35dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Secure();
 
-  /// @brief Method get_Host addr 0x2856d70 size 0x8 virtual false final false
+  /// @brief Method get_Host, addr 0x29d35e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_Port addr 0x2856d78 size 0x8 virtual false final false
+  /// @brief Method get_Port, addr 0x29d35ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Port();
 
-  /// @brief Method get_Path addr 0x2856d80 size 0x8 virtual false final false
+  /// @brief Method get_Path, addr 0x29d35f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method Equals addr 0x2856d88 size 0x80 virtual true final false
+  /// @brief Method Equals, addr 0x29d35fc, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode addr 0x2856e08 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x29d367c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Parse addr 0x2856a70 size 0x2f0 virtual false final false
+  /// @brief Method Parse, addr 0x29d32e4, size 0x2f0, virtual false, abstract: false, final false
   inline void Parse(::StringW uri);
 
-  /// @brief Method CheckUri addr 0x2856e28 size 0x350 virtual false final false
+  /// @brief Method CheckUri, addr 0x29d369c, size 0x350, virtual false, abstract: false, final false
   static inline void CheckUri(::StringW uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListenerPrefix", modifiers: "&&", def_value: None }]

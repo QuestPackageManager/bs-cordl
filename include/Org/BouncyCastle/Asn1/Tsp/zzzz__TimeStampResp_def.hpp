@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampResp)
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_timeStampToken(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method GetInstance addr 0x100862c size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1079878, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x10086d0 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x107991c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
 
-  /// @brief Method .ctor addr 0x1008758 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x10799a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken);
 
-  /// @brief Method get_Status addr 0x1008784 size 0x8 virtual false final false
+  /// @brief Method get_Status, addr 0x10799d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_TimeStampToken addr 0x100878c size 0x8 virtual false final false
+  /// @brief Method get_TimeStampToken, addr 0x10799d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
-  /// @brief Method ToAsn1Object addr 0x1008794 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x10799e0, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResp", modifiers: "&&", def_value: None }]

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IFormatterConverter)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -23,27 +23,27 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IFormatterConverter);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3194))
 // CS Name: ::System.Runtime.Serialization::IFormatterConverter*
 class CORDL_TYPE IFormatterConverter {
 public:
   // Declarations
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method ToBoolean addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToBoolean, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32 addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToInt32, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64 addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToInt64, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToSingle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFormatterConverter", modifiers: "&&", def_value: None }]

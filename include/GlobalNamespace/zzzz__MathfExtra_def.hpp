@@ -16,19 +16,22 @@ MARK_REF_PTR_T(::GlobalNamespace::MathfExtra);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16282))
 // CS Name: ::MathfExtra*
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Mod addr 0x228a1a4 size 0x14 virtual false final false
+  /// @brief Method Mod, addr 0x23e27dc, size 0x14, virtual false, abstract: false, final false
   static inline float_t Mod(float_t value, float_t mod);
 
-  /// @brief Method Round addr 0x228a1b8 size 0x118 virtual false final false
+  /// @brief Method Mod, addr 0x23e27f0, size 0x30, virtual false, abstract: false, final false
+  static inline int32_t Mod(int32_t value, int32_t mod);
+
+  /// @brief Method Round, addr 0x23e2820, size 0x118, virtual false, abstract: false, final false
   static inline float_t Round(float_t value, int32_t decimals);
 
-  /// @brief Method MaxAbs addr 0x228a2d0 size 0x14 virtual false final false
+  /// @brief Method MaxAbs, addr 0x23e2938, size 0x14, virtual false, abstract: false, final false
   static inline float_t MaxAbs(float_t a, float_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]

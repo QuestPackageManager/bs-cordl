@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreController)
 namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class ScoringElement;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5318))
 // CS Name: ::IScoreController*
 class CORDL_TYPE IScoreController {
 public:
@@ -38,43 +38,43 @@ public:
 
   __declspec(property(get = get_immediateMaxPossibleModifiedScore)) int32_t immediateMaxPossibleModifiedScore;
 
-  /// @brief Method add_scoreDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_scoreDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method remove_scoreDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_scoreDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_scoreDidChangeEvent(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method add_multiplierDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_multiplierDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method remove_multiplierDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_multiplierDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_multiplierDidChangeEvent(::System::Action_2<int32_t, float_t>* value);
 
-  /// @brief Method add_scoringForNoteStartedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_scoringForNoteStartedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteStartedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_scoringForNoteStartedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_scoringForNoteStartedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method add_scoringForNoteFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_scoringForNoteFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method remove_scoringForNoteFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_scoringForNoteFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_scoringForNoteFinishedEvent(::System::Action_1<::GlobalNamespace::ScoringElement*>* value);
 
-  /// @brief Method get_multipliedScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_multipliedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_multipliedScore();
 
-  /// @brief Method get_modifiedScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_modifiedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_modifiedScore();
 
-  /// @brief Method get_immediateMaxPossibleMultipliedScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_immediateMaxPossibleMultipliedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_immediateMaxPossibleMultipliedScore();
 
-  /// @brief Method get_immediateMaxPossibleModifiedScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_immediateMaxPossibleModifiedScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_immediateMaxPossibleModifiedScore();
 
-  /// @brief Method SetEnabled addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetEnabled(bool enabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "IScoreController", modifiers: "&&", def_value: None }]

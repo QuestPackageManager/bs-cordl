@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherPara
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1087))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::TweakableBlockCipherParameters*
 class CORDL_TYPE TweakableBlockCipherParameters : public ::System::Object {
@@ -56,13 +56,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method .ctor addr 0xec568c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0xf3b878, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method get_Key addr 0xec570c size 0x8 virtual false final false
+  /// @brief Method get_Key, addr 0xf3b8f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak addr 0xec5714 size 0x8 virtual false final false
+  /// @brief Method get_Tweak, addr 0xf3b900, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Tweak();
 
   // Ctor Parameters [CppParam { name: "", ty: "TweakableBlockCipherParameters", modifiers: "&&", def_value: None }]

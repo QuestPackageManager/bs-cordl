@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MessageEnd)
-namespace System::IO {
-class Stream;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryParser;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -23,27 +23,27 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MessageEnd)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3273))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3274))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MessageEnd*
 class CORDL_TYPE MessageEnd : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Runtime::Serialization::Formatters::Binary::MessageEnd* New_ctor();
 
-  /// @brief Method .ctor addr 0x236aa28 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c351c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Write addr 0x236aa30 size 0x28 virtual true final true
+  /// @brief Method Write, addr 0x24c3524, size 0x28, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x236aa58 size 0x4 virtual true final true
+  /// @brief Method Read, addr 0x24c354c, size 0x4, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x236aa5c size 0x4 virtual false final false
+  /// @brief Method Dump, addr 0x24c3550, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
-  /// @brief Method Dump addr 0x236aa60 size 0x4 virtual false final false
+  /// @brief Method Dump, addr 0x24c3554, size 0x4, virtual false, abstract: false, final false
   inline void Dump(::System::IO::Stream* sout);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageEnd", modifiers: "&&", def_value: None }]

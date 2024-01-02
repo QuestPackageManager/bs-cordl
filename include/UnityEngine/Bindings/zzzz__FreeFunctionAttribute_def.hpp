@@ -15,25 +15,25 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::FreeFunctionAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15881))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16017))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16025))
 // CS Name: ::UnityEngine.Bindings::FreeFunctionAttribute*
 class CORDL_TYPE FreeFunctionAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb1500 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2d188b0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2bb1520 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2d188d0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::FreeFunctionAttribute* New_ctor(::StringW name, bool isThreadSafe);
 
-  /// @brief Method .ctor addr 0x2bb153c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2d188ec, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isThreadSafe);
 
   // Ctor Parameters [CppParam { name: "", ty: "FreeFunctionAttribute", modifiers: "&&", def_value: None }]

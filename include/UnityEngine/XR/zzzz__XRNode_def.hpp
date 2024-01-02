@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::XRNode);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15571))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15614))
 // CS Name: ::UnityEngine.XR::XRNode
 struct CORDL_TYPE XRNode {
 public:

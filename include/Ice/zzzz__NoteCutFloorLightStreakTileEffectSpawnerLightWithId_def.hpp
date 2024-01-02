@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16172))
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawnerLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -36,12 +36,12 @@ public:
 
   constexpr void __set__noteCutFloorLightStreakTileEffectSpawner(::Ice::NoteCutFloorLightStreakTileEffectSpawner* value);
 
-  /// @brief Method ColorWasSet addr 0x122dd28 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x12a0050, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x122dd48 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12a0070, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawnerLightWithId", modifiers: "&&", def_value: None }]

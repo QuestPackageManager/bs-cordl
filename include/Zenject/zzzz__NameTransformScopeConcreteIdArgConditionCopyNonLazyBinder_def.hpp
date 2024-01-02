@@ -9,10 +9,10 @@ namespace Zenject {
 class TransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class GameObjectCreationParameters;
 }
 // Forward declare root types
 namespace Zenject {
@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBin
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10847))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10919))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10918))
 // CS Name: ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method .ctor addr 0x2d64688 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2ecc408, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method WithGameObjectName addr 0x2d72328 size 0x1c virtual false final false
+  /// @brief Method WithGameObjectName, addr 0x2eda0a8, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* WithGameObjectName(::StringW gameObjectName);
 
   // Ctor Parameters [CppParam { name: "", ty: "NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

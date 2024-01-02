@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChallengeResponse2)
 namespace Mono::Security::Protocol::Ntlm {
-class Type2Message;
+struct NtlmAuthLevel;
 }
 namespace Mono::Security::Protocol::Ntlm {
-struct NtlmAuthLevel;
+class Type2Message;
 }
 // Forward declare root types
 namespace Mono::Security::Protocol::Ntlm {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse2);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13764))
 // CS Name: ::Mono.Security.Protocol.Ntlm::ChallengeResponse2*
 class CORDL_TYPE ChallengeResponse2 : public ::System::Object {
 public:
@@ -44,33 +44,33 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_nullEncMagic();
 
-  /// @brief Method Compute_LM addr 0x22a5744 size 0x32c virtual false final false
+  /// @brief Method Compute_LM, addr 0x23ffa50, size 0x32c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_LM(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Compute_NTLM_Password addr 0x22a5ecc size 0x104 virtual false final false
+  /// @brief Method Compute_NTLM_Password, addr 0x24001d8, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLM_Password(::StringW password);
 
-  /// @brief Method Compute_NTLM addr 0x22a5fd0 size 0x6c virtual false final false
+  /// @brief Method Compute_NTLM, addr 0x24002dc, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLM(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge);
 
-  /// @brief Method Compute_NTLMv2_Session addr 0x22a603c size 0x1cc virtual false final false
+  /// @brief Method Compute_NTLMv2_Session, addr 0x2400348, size 0x1cc, virtual false, abstract: false, final false
   static inline void Compute_NTLMv2_Session(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> challenge, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> lm,
                                             ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> ntlm);
 
-  /// @brief Method Compute_NTLMv2 addr 0x22a6208 size 0x434 virtual false final false
+  /// @brief Method Compute_NTLMv2, addr 0x2400514, size 0x434, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Compute_NTLMv2(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::StringW username, ::StringW password, ::StringW domain);
 
-  /// @brief Method Compute addr 0x22a672c size 0x1e8 virtual false final false
+  /// @brief Method Compute, addr 0x2400a38, size 0x1e8, virtual false, abstract: false, final false
   static inline void Compute(::Mono::Security::Protocol::Ntlm::Type2Message* type2, ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel level, ::StringW username, ::StringW password, ::StringW domain,
                              ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> lm, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> ntlm);
 
-  /// @brief Method GetResponse addr 0x22a5bd8 size 0x2f4 virtual false final false
+  /// @brief Method GetResponse, addr 0x23ffee4, size 0x2f4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetResponse(::ArrayW<uint8_t, ::Array<uint8_t>*> challenge, ::ArrayW<uint8_t, ::Array<uint8_t>*> pwd);
 
-  /// @brief Method PrepareDESKey addr 0x22a6914 size 0x1f8 virtual false final false
+  /// @brief Method PrepareDESKey, addr 0x2400c20, size 0x1f8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareDESKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key56bits, int32_t position);
 
-  /// @brief Method PasswordToKey addr 0x22a5a70 size 0x168 virtual false final false
+  /// @brief Method PasswordToKey, addr 0x23ffd7c, size 0x168, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PasswordToKey(::StringW password, int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeResponse2", modifiers: "&&", def_value: None }]

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_GeoInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_GeoType;
+struct HAPI_GroupType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_GroupType;
+struct HAPI_GeoType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,13 +22,13 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoInfo);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9636))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9666))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9709))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9739))
 // CS Name: ::HoudiniEngineUnity::HAPI_GeoInfo
 struct CORDL_TYPE HAPI_GeoInfo {
 public:
   // Declarations
-  /// @brief Method getGroupCountByType addr 0x203b284 size 0x28 virtual false final false
+  /// @brief Method getGroupCountByType, addr 0x2191c20, size 0x28, virtual false, abstract: false, final false
   inline int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
 
   // Ctor Parameters [CppParam { name: "type", ty: "::HoudiniEngineUnity::HAPI_GeoType", modifiers: "", def_value: None }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: None },

@@ -3,8 +3,8 @@
 #include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFacets_def.hpp"
-#include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__ArrayList_def.hpp"
 constexpr int32_t& System::Xml::Schema::RestrictionFacets::__get_Length() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Length;

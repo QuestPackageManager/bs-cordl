@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16206))
 // CS Name: ::ColorSchemeSO*
 class CORDL_TYPE ColorSchemeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method get_colorScheme addr 0x11bd264 size 0x8 virtual false final false
+  /// @brief Method get_colorScheme, addr 0x122d590, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method LogColorScheme addr 0x11bd26c size 0x2a4 virtual false final false
+  /// @brief Method LogColorScheme, addr 0x122d598, size 0x2a4, virtual false, abstract: false, final false
   inline void LogColorScheme();
 
   static inline ::GlobalNamespace::ColorSchemeSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x11bd510 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x122d83c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeSO", modifiers: "&&", def_value: None }]

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(CurveNodeData)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9619))
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
 class CORDL_TYPE CurveNodeData : public ::System::Object {
 public:
@@ -62,33 +62,33 @@ public:
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff9144 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2150ae0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method .ctor addr 0x1ff91ec size 0xd0 virtual false final false
+  /// @brief Method .ctor, addr 0x2150b88, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor addr 0x1ff92bc size 0x12c virtual false final false
+  /// @brief Method .ctor, addr 0x2150c58, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
-  /// @brief Method .ctor addr 0x1ff93e8 size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0x2150d84, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method .ctor addr 0x1ff9520 size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0x2150ebc, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method GetRotation addr 0x1ff9610 size 0x24 virtual false final false
+  /// @brief Method GetRotation, addr 0x2150fac, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsEquivalentTo addr 0x1ff9634 size 0x1ac virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x2150fd0, size 0x1ac, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "CurveNodeData", modifiers: "&&", def_value: None }]

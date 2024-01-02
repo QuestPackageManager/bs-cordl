@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RoleSyntax)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralNames;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
@@ -59,45 +59,45 @@ public:
 
   constexpr void __set_roleName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method GetInstance addr 0x1125468 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x11956b0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority, ::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
-  /// @brief Method .ctor addr 0x112571c size 0x194 virtual false final false
+  /// @brief Method .ctor, addr 0x1195964, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* roleAuthority, ::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
-  /// @brief Method .ctor addr 0x11258b0 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x1195af8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* roleName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::StringW roleName);
 
-  /// @brief Method .ctor addr 0x11258bc size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x1195b04, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW roleName);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RoleSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x112550c size 0x210 virtual false final false
+  /// @brief Method .ctor, addr 0x1195754, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RoleAuthority addr 0x1125950 size 0x8 virtual false final false
+  /// @brief Method get_RoleAuthority, addr 0x1195b98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_RoleAuthority();
 
-  /// @brief Method get_RoleName addr 0x1125958 size 0x8 virtual false final false
+  /// @brief Method get_RoleName, addr 0x1195ba0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_RoleName();
 
-  /// @brief Method GetRoleNameAsString addr 0x1125960 size 0xec virtual false final false
+  /// @brief Method GetRoleNameAsString, addr 0x1195ba8, size 0xec, virtual false, abstract: false, final false
   inline ::StringW GetRoleNameAsString();
 
-  /// @brief Method GetRoleAuthorityAsString addr 0x1125a4c size 0x1fc virtual false final false
+  /// @brief Method GetRoleAuthorityAsString, addr 0x1195c94, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetRoleAuthorityAsString();
 
-  /// @brief Method ToAsn1Object addr 0x1125c48 size 0xfc virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1195e90, size 0xfc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString addr 0x1125d44 size 0x1b8 virtual true final false
+  /// @brief Method ToString, addr 0x1195f8c, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RoleSyntax", modifiers: "&&", def_value: None }]

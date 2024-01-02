@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::SignalDefaultSyncModes);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11171))
 // CS Name: ::Zenject::SignalDefaultSyncModes
 struct CORDL_TYPE SignalDefaultSyncModes {
 public:

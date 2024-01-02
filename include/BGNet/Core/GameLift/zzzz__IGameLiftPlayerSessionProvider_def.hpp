@@ -10,17 +10,17 @@ class IAuthenticationTokenProvider;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
 namespace BGNet::Core::GameLift {
 class PlayerSessionInfo;
 }
 namespace GlobalNamespace {
 class IPollable;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
 namespace BGNet::Core::GameLift {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13017))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
 // CS Name: ::BGNet.Core.GameLift::IGameLiftPlayerSessionProvider*
 class CORDL_TYPE IGameLiftPlayerSessionProvider {
 public:
@@ -44,7 +44,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Method GetGameLiftPlayerSessionInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetGameLiftPlayerSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::BGNet::Core::GameLift::PlayerSessionInfo*>*
   GetGameLiftPlayerSessionInfo(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Threading::CancellationToken cancellationToken);

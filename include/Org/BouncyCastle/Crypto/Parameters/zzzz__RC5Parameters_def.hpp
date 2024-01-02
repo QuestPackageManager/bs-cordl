@@ -35,10 +35,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC5Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t rounds);
 
-  /// @brief Method .ctor addr 0xec328c size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0xf39478, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t rounds);
 
-  /// @brief Method get_Rounds addr 0xec3318 size 0x8 virtual false final false
+  /// @brief Method get_Rounds, addr 0xf39504, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Rounds();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC5Parameters", modifiers: "&&", def_value: None }]

@@ -23,17 +23,17 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t_Packed);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9466))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8695))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8697))
 // CS Name: ::OVR.OpenVR::VRControllerState_t_Packed
 #pragma pack(push, 4)
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x267a3dc size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x27f1360, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
-  /// @brief Method Unpack addr 0x267a420 size 0x3c virtual false final false
+  /// @brief Method Unpack, addr 0x27f13a4, size 0x3c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
   // Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {

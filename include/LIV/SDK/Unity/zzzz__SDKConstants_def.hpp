@@ -15,7 +15,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKConstants);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15099))
 // CS Name: ::LIV.SDK.Unity::SDKConstants
 #pragma pack(push, 0)
 struct CORDL_TYPE SDKConstants {

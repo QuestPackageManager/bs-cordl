@@ -19,8 +19,8 @@ namespace Tayx::Graphy::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15249))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15071))
 // CS Name: ::Tayx.Graphy.Utils::G_Singleton`1<T>*
 class CORDL_TYPE G_Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,18 +39,18 @@ public:
 
   static inline ::System::Object* getStaticF__lock();
 
-  /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T get_Instance();
 
-  /// @brief Method Awake addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::Tayx::Graphy::Utils::G_Singleton_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_Singleton_1", modifiers: "&&", def_value: None }]

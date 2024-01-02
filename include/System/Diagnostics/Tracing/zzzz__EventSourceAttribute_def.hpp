@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Tracing::EventSourceAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3736))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3748))
 // CS Name: ::System.Diagnostics.Tracing::EventSourceAttribute*
 class CORDL_TYPE EventSourceAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method set_Guid addr 0x2420aa4 size 0x8 virtual false final false
+  /// @brief Method set_Guid, addr 0x257bf1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name addr 0x2420aac size 0x8 virtual false final false
+  /// @brief Method set_Name, addr 0x257bf24, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
   static inline ::System::Diagnostics::Tracing::EventSourceAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2420ab4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x257bf2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSourceAttribute", modifiers: "&&", def_value: None }]

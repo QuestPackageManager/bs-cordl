@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::Resources::MissingManifestResourceException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3421))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3426))
 // CS Name: ::System.Resources::MissingManifestResourceException*
 class CORDL_TYPE MissingManifestResourceException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Resources::MissingManifestResourceException* New_ctor();
 
-  /// @brief Method .ctor addr 0x23843ec size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x24dee80, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Resources::MissingManifestResourceException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2384448 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24deedc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "MissingManifestResourceException", modifiers: "&&", def_value: None }]

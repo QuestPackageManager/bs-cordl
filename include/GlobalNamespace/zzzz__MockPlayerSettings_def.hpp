@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__MockPlayerAvatarType_def.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerMovementType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -15,6 +16,9 @@ struct Color;
 namespace GlobalNamespace {
 struct MockPlayerMovementType;
 }
+namespace GlobalNamespace {
+struct MockPlayerAvatarType;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockPlayerSettings;
@@ -22,12 +26,11 @@ class MockPlayerSettings;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerSettings);
 // Type: ::MockPlayerSettings
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(5288)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5289))
-// CS Name: ::MockPlayerSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5180)), TypeDefinitionIndex(TypeDefinitionIndex(5184)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5185)) CS Name: ::MockPlayerSettings*
 class CORDL_TYPE MockPlayerSettings : public ::System::Object {
 public:
   // Declarations
@@ -40,34 +43,40 @@ public:
   /// @brief Field _sortIndex, offset 0x20, size 0x4
   __declspec(property(get = __get__sortIndex, put = __set__sortIndex)) int32_t _sortIndex;
 
-  /// @brief Field _latency, offset 0x24, size 0x4
-  __declspec(property(get = __get__latency, put = __set__latency)) float_t _latency;
+  /// @brief Field _latency, offset 0x28, size 0x8
+  __declspec(property(get = __get__latency, put = __set__latency)) int64_t _latency;
 
-  /// @brief Field _autoConnect, offset 0x28, size 0x1
+  /// @brief Field _autoConnect, offset 0x30, size 0x1
   __declspec(property(get = __get__autoConnect, put = __set__autoConnect)) bool _autoConnect;
 
-  /// @brief Field _inactiveByDefault, offset 0x29, size 0x1
+  /// @brief Field _inactiveByDefault, offset 0x31, size 0x1
   __declspec(property(get = __get__inactiveByDefault, put = __set__inactiveByDefault)) bool _inactiveByDefault;
 
-  /// @brief Field _movementType, offset 0x2c, size 0x4
+  /// @brief Field _movementType, offset 0x34, size 0x4
   __declspec(property(get = __get__movementType, put = __set__movementType))::GlobalNamespace::MockPlayerMovementType _movementType;
 
-  /// @brief Field _recodingFile, offset 0x30, size 0x8
+  /// @brief Field _avatarType, offset 0x38, size 0x4
+  __declspec(property(get = __get__avatarType, put = __set__avatarType))::GlobalNamespace::MockPlayerAvatarType _avatarType;
+
+  /// @brief Field _platformUserId, offset 0x40, size 0x8
+  __declspec(property(get = __get__platformUserId, put = __set__platformUserId)) uint64_t _platformUserId;
+
+  /// @brief Field _recodingFile, offset 0x48, size 0x8
   __declspec(property(get = __get__recodingFile, put = __set__recodingFile))::StringW _recodingFile;
 
-  /// @brief Field _aiCubeHitChance, offset 0x38, size 0x4
+  /// @brief Field _aiCubeHitChance, offset 0x50, size 0x4
   __declspec(property(get = __get__aiCubeHitChance, put = __set__aiCubeHitChance)) float_t _aiCubeHitChance;
 
-  /// @brief Field _leftHanded, offset 0x3c, size 0x1
+  /// @brief Field _leftHanded, offset 0x54, size 0x1
   __declspec(property(get = __get__leftHanded, put = __set__leftHanded)) bool _leftHanded;
 
-  /// @brief Field _saberAColor, offset 0x40, size 0x10
+  /// @brief Field _saberAColor, offset 0x58, size 0x10
   __declspec(property(get = __get__saberAColor, put = __set__saberAColor))::UnityEngine::Color _saberAColor;
 
-  /// @brief Field _saberBColor, offset 0x50, size 0x10
+  /// @brief Field _saberBColor, offset 0x68, size 0x10
   __declspec(property(get = __get__saberBColor, put = __set__saberBColor))::UnityEngine::Color _saberBColor;
 
-  /// @brief Field _obstaclesColor, offset 0x60, size 0x10
+  /// @brief Field _obstaclesColor, offset 0x78, size 0x10
   __declspec(property(get = __get__obstaclesColor, put = __set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
 
   __declspec(property(get = get_userName, put = set_userName))::StringW userName;
@@ -76,13 +85,17 @@ public:
 
   __declspec(property(get = get_sortIndex, put = set_sortIndex)) int32_t sortIndex;
 
-  __declspec(property(get = get_latency, put = set_latency)) float_t latency;
+  __declspec(property(get = get_latency, put = set_latency)) int64_t latency;
 
   __declspec(property(get = get_autoConnect, put = set_autoConnect)) bool autoConnect;
 
   __declspec(property(get = get_inactiveByDefault, put = set_inactiveByDefault)) bool inactiveByDefault;
 
   __declspec(property(get = get_movementType, put = set_movementType))::GlobalNamespace::MockPlayerMovementType movementType;
+
+  __declspec(property(get = get_avatarType, put = set_avatarType))::GlobalNamespace::MockPlayerAvatarType avatarType;
+
+  __declspec(property(get = get_platformUserId, put = set_platformUserId)) uint64_t platformUserId;
 
   __declspec(property(get = get_recodingFile, put = set_recodingFile))::StringW recodingFile;
 
@@ -114,11 +127,11 @@ public:
 
   constexpr void __set__sortIndex(int32_t value);
 
-  constexpr float_t& __get__latency();
+  constexpr int64_t& __get__latency();
 
-  constexpr float_t const& __get__latency() const;
+  constexpr int64_t const& __get__latency() const;
 
-  constexpr void __set__latency(float_t value);
+  constexpr void __set__latency(int64_t value);
 
   constexpr bool& __get__autoConnect();
 
@@ -137,6 +150,18 @@ public:
   constexpr ::GlobalNamespace::MockPlayerMovementType const& __get__movementType() const;
 
   constexpr void __set__movementType(::GlobalNamespace::MockPlayerMovementType value);
+
+  constexpr ::GlobalNamespace::MockPlayerAvatarType& __get__avatarType();
+
+  constexpr ::GlobalNamespace::MockPlayerAvatarType const& __get__avatarType() const;
+
+  constexpr void __set__avatarType(::GlobalNamespace::MockPlayerAvatarType value);
+
+  constexpr uint64_t& __get__platformUserId();
+
+  constexpr uint64_t const& __get__platformUserId() const;
+
+  constexpr void __set__platformUserId(uint64_t value);
 
   constexpr ::StringW& __get__recodingFile();
 
@@ -174,87 +199,99 @@ public:
 
   constexpr void __set__obstaclesColor(::UnityEngine::Color value);
 
-  /// @brief Method get_userName addr 0x21034f8 size 0x8 virtual false final false
+  /// @brief Method get_userName, addr 0x22443cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
-  /// @brief Method set_userName addr 0x2103500 size 0x8 virtual false final false
+  /// @brief Method set_userName, addr 0x22443d4, size 0x8, virtual false, abstract: false, final false
   inline void set_userName(::StringW value);
 
-  /// @brief Method get_userId addr 0x2103508 size 0x8 virtual false final false
+  /// @brief Method get_userId, addr 0x22443dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method set_userId addr 0x2103510 size 0x8 virtual false final false
+  /// @brief Method set_userId, addr 0x22443e4, size 0x8, virtual false, abstract: false, final false
   inline void set_userId(::StringW value);
 
-  /// @brief Method get_sortIndex addr 0x2103518 size 0x8 virtual false final false
+  /// @brief Method get_sortIndex, addr 0x22443ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sortIndex();
 
-  /// @brief Method set_sortIndex addr 0x2103520 size 0x8 virtual false final false
+  /// @brief Method set_sortIndex, addr 0x22443f4, size 0x8, virtual false, abstract: false, final false
   inline void set_sortIndex(int32_t value);
 
-  /// @brief Method get_latency addr 0x2103528 size 0x8 virtual false final false
-  inline float_t get_latency();
+  /// @brief Method get_latency, addr 0x22443fc, size 0x8, virtual false, abstract: false, final false
+  inline int64_t get_latency();
 
-  /// @brief Method set_latency addr 0x2103530 size 0x8 virtual false final false
-  inline void set_latency(float_t value);
+  /// @brief Method set_latency, addr 0x2244404, size 0x8, virtual false, abstract: false, final false
+  inline void set_latency(int64_t value);
 
-  /// @brief Method get_autoConnect addr 0x2103538 size 0x8 virtual false final false
+  /// @brief Method get_autoConnect, addr 0x224440c, size 0x8, virtual false, abstract: false, final false
   inline bool get_autoConnect();
 
-  /// @brief Method set_autoConnect addr 0x2103540 size 0xc virtual false final false
+  /// @brief Method set_autoConnect, addr 0x2244414, size 0xc, virtual false, abstract: false, final false
   inline void set_autoConnect(bool value);
 
-  /// @brief Method get_inactiveByDefault addr 0x210354c size 0x8 virtual false final false
+  /// @brief Method get_inactiveByDefault, addr 0x2244420, size 0x8, virtual false, abstract: false, final false
   inline bool get_inactiveByDefault();
 
-  /// @brief Method set_inactiveByDefault addr 0x2103554 size 0xc virtual false final false
+  /// @brief Method set_inactiveByDefault, addr 0x2244428, size 0xc, virtual false, abstract: false, final false
   inline void set_inactiveByDefault(bool value);
 
-  /// @brief Method get_movementType addr 0x2103560 size 0x8 virtual false final false
+  /// @brief Method get_movementType, addr 0x2244434, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerMovementType get_movementType();
 
-  /// @brief Method set_movementType addr 0x2103568 size 0x8 virtual false final false
+  /// @brief Method set_movementType, addr 0x224443c, size 0x8, virtual false, abstract: false, final false
   inline void set_movementType(::GlobalNamespace::MockPlayerMovementType value);
 
-  /// @brief Method get_recodingFile addr 0x2103570 size 0x8 virtual false final false
+  /// @brief Method get_avatarType, addr 0x2244444, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::MockPlayerAvatarType get_avatarType();
+
+  /// @brief Method set_avatarType, addr 0x224444c, size 0x8, virtual false, abstract: false, final false
+  inline void set_avatarType(::GlobalNamespace::MockPlayerAvatarType value);
+
+  /// @brief Method get_platformUserId, addr 0x2244454, size 0x8, virtual false, abstract: false, final false
+  inline uint64_t get_platformUserId();
+
+  /// @brief Method set_platformUserId, addr 0x224445c, size 0x8, virtual false, abstract: false, final false
+  inline void set_platformUserId(uint64_t value);
+
+  /// @brief Method get_recodingFile, addr 0x2244464, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_recodingFile();
 
-  /// @brief Method set_recodingFile addr 0x2103578 size 0x8 virtual false final false
+  /// @brief Method set_recodingFile, addr 0x224446c, size 0x8, virtual false, abstract: false, final false
   inline void set_recodingFile(::StringW value);
 
-  /// @brief Method get_aiCubeHitChance addr 0x2103580 size 0x8 virtual false final false
+  /// @brief Method get_aiCubeHitChance, addr 0x2244474, size 0x8, virtual false, abstract: false, final false
   inline float_t get_aiCubeHitChance();
 
-  /// @brief Method set_aiCubeHitChance addr 0x2103588 size 0x8 virtual false final false
+  /// @brief Method set_aiCubeHitChance, addr 0x224447c, size 0x8, virtual false, abstract: false, final false
   inline void set_aiCubeHitChance(float_t value);
 
-  /// @brief Method get_leftHanded addr 0x2103590 size 0x8 virtual false final false
+  /// @brief Method get_leftHanded, addr 0x2244484, size 0x8, virtual false, abstract: false, final false
   inline bool get_leftHanded();
 
-  /// @brief Method set_leftHanded addr 0x2103598 size 0xc virtual false final false
+  /// @brief Method set_leftHanded, addr 0x224448c, size 0xc, virtual false, abstract: false, final false
   inline void set_leftHanded(bool value);
 
-  /// @brief Method get_saberAColor addr 0x21035a4 size 0xc virtual false final false
+  /// @brief Method get_saberAColor, addr 0x2244498, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method set_saberAColor addr 0x21035b0 size 0xc virtual false final false
+  /// @brief Method set_saberAColor, addr 0x22444a4, size 0xc, virtual false, abstract: false, final false
   inline void set_saberAColor(::UnityEngine::Color value);
 
-  /// @brief Method get_saberBColor addr 0x21035bc size 0xc virtual false final false
+  /// @brief Method get_saberBColor, addr 0x22444b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method set_saberBColor addr 0x21035c8 size 0xc virtual false final false
+  /// @brief Method set_saberBColor, addr 0x22444bc, size 0xc, virtual false, abstract: false, final false
   inline void set_saberBColor(::UnityEngine::Color value);
 
-  /// @brief Method get_obstaclesColor addr 0x21035d4 size 0xc virtual false final false
+  /// @brief Method get_obstaclesColor, addr 0x22444c8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method set_obstaclesColor addr 0x21035e0 size 0xc virtual false final false
+  /// @brief Method set_obstaclesColor, addr 0x22444d4, size 0xc, virtual false, abstract: false, final false
   inline void set_obstaclesColor(::UnityEngine::Color value);
 
   static inline ::GlobalNamespace::MockPlayerSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x21035ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22444e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerSettings", modifiers: "&&", def_value: None }]
@@ -280,40 +317,46 @@ public:
   /// @brief Field _sortIndex, offset: 0x20, size: 0x4, def value: None
   int32_t ____sortIndex;
 
-  /// @brief Field _latency, offset: 0x24, size: 0x4, def value: None
-  float_t ____latency;
+  /// @brief Field _latency, offset: 0x28, size: 0x8, def value: None
+  int64_t ____latency;
 
-  /// @brief Field _autoConnect, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _autoConnect, offset: 0x30, size: 0x1, def value: None
   bool ____autoConnect;
 
-  /// @brief Field _inactiveByDefault, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field _inactiveByDefault, offset: 0x31, size: 0x1, def value: None
   bool ____inactiveByDefault;
 
-  /// @brief Field _movementType, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field _movementType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::MockPlayerMovementType ____movementType;
 
-  /// @brief Field _recodingFile, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _avatarType, offset: 0x38, size: 0x4, def value: None
+  ::GlobalNamespace::MockPlayerAvatarType ____avatarType;
+
+  /// @brief Field _platformUserId, offset: 0x40, size: 0x8, def value: None
+  uint64_t ____platformUserId;
+
+  /// @brief Field _recodingFile, offset: 0x48, size: 0x8, def value: None
   ::StringW ____recodingFile;
 
-  /// @brief Field _aiCubeHitChance, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _aiCubeHitChance, offset: 0x50, size: 0x4, def value: None
   float_t ____aiCubeHitChance;
 
-  /// @brief Field _leftHanded, offset: 0x3c, size: 0x1, def value: None
+  /// @brief Field _leftHanded, offset: 0x54, size: 0x1, def value: None
   bool ____leftHanded;
 
-  /// @brief Field _saberAColor, offset: 0x40, size: 0x10, def value: None
+  /// @brief Field _saberAColor, offset: 0x58, size: 0x10, def value: None
   ::UnityEngine::Color ____saberAColor;
 
-  /// @brief Field _saberBColor, offset: 0x50, size: 0x10, def value: None
+  /// @brief Field _saberBColor, offset: 0x68, size: 0x10, def value: None
   ::UnityEngine::Color ____saberBColor;
 
-  /// @brief Field _obstaclesColor, offset: 0x60, size: 0x10, def value: None
+  /// @brief Field _obstaclesColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____obstaclesColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerSettings, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerSettings, 0x88>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____userName) == 0x10, "Offset mismatch!");
 
@@ -321,25 +364,29 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____userId) == 0x1
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____sortIndex) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____latency) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____latency) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____autoConnect) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____autoConnect) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____inactiveByDefault) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____inactiveByDefault) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____movementType) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____movementType) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____recodingFile) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____avatarType) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____aiCubeHitChance) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____platformUserId) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____leftHanded) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____recodingFile) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____saberAColor) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____aiCubeHitChance) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____saberBColor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____leftHanded) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____obstaclesColor) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____saberAColor) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____saberBColor) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MockPlayerSettings, ____obstaclesColor) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerSettings);

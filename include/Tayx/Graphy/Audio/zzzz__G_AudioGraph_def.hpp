@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_AudioGraph)
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace Tayx::Graphy::Audio {
+class G_AudioMonitor;
 }
 namespace Tayx::Graphy {
 class G_GraphShader;
 }
+namespace Tayx::Graphy {
+class GraphyManager;
+}
 namespace UnityEngine {
 class Shader;
 }
-namespace Tayx::Graphy::Audio {
-class G_AudioMonitor;
+namespace UnityEngine::UI {
+class Image;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioGraph);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15258))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15080))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15086))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioGraph*
 class CORDL_TYPE G_AudioGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
@@ -146,27 +146,27 @@ public:
 
   constexpr void __set_m_graphArrayHighestValue(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method OnEnable addr 0x288c5c8 size 0x50 virtual false final false
+  /// @brief Method OnEnable, addr 0x2a094f0, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update addr 0x288c618 size 0x38 virtual false final false
+  /// @brief Method Update, addr 0x2a09540, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x288c6b0 size 0x1ac virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a095d8, size 0x1ac, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method UpdateGraph addr 0x288c85c size 0x4d8 virtual true final false
+  /// @brief Method Init, addr 0x2a09784, size 0x134, virtual false, abstract: false, final false
+  inline void Init();
+
+  /// @brief Method UpdateGraph, addr 0x2a098b8, size 0x4d8, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method CreatePoints addr 0x288ce6c size 0x214 virtual true final false
+  /// @brief Method CreatePoints, addr 0x2a09dd4, size 0x214, virtual true, abstract: false, final false
   inline void CreatePoints();
-
-  /// @brief Method Init addr 0x288cd34 size 0xf4 virtual false final false
-  inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioGraph* New_ctor();
 
-  /// @brief Method .ctor addr 0x288d080 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2a09fe8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioGraph", modifiers: "&&", def_value: None }]

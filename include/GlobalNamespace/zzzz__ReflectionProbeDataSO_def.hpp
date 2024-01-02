@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
+#include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionProbeDataSO)
 namespace UnityEngine {
 class Cubemap;
@@ -17,10 +17,10 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeDataSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5956))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5867))
 // CS Name: ::ReflectionProbeDataSO*
-class CORDL_TYPE ReflectionProbeDataSO : public ::GlobalNamespace::PersistentScriptableObject {
+class CORDL_TYPE ReflectionProbeDataSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _reflectionProbeCubemap1, offset 0x18, size 0x8
@@ -45,21 +45,21 @@ public:
 
   constexpr void __set__reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
-  /// @brief Method get_reflectionProbeCubemap1 addr 0x21afd44 size 0x8 virtual false final false
+  /// @brief Method get_reflectionProbeCubemap1, addr 0x22f8488, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Cubemap* get_reflectionProbeCubemap1();
 
-  /// @brief Method set_reflectionProbeCubemap1 addr 0x21afd4c size 0x8 virtual false final false
+  /// @brief Method set_reflectionProbeCubemap1, addr 0x22f8490, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
-  /// @brief Method get_reflectionProbeCubemap2 addr 0x21afd54 size 0x8 virtual false final false
+  /// @brief Method get_reflectionProbeCubemap2, addr 0x22f8498, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Cubemap* get_reflectionProbeCubemap2();
 
-  /// @brief Method set_reflectionProbeCubemap2 addr 0x21afd5c size 0x8 virtual false final false
+  /// @brief Method set_reflectionProbeCubemap2, addr 0x22f84a0, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
   static inline ::GlobalNamespace::ReflectionProbeDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21afd64 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f84a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbeDataSO", modifiers: "&&", def_value: None }]

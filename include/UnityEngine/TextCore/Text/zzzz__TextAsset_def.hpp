@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextAsset);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13724))
 // CS Name: ::UnityEngine.TextCore.Text::TextAsset*
 class CORDL_TYPE TextAsset : public ::UnityEngine::ScriptableObject {
 public:
@@ -80,36 +80,36 @@ public:
 
   constexpr void __set_m_MaterialHashCode(int32_t value);
 
-  /// @brief Method get_version addr 0x2be2378 size 0x8 virtual false final false
+  /// @brief Method get_version, addr 0x2d4a728, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method set_version addr 0x2be2380 size 0x8 virtual false final false
+  /// @brief Method set_version, addr 0x2d4a730, size 0x8, virtual false, abstract: false, final false
   inline void set_version(::StringW value);
 
-  /// @brief Method get_instanceID addr 0x2be1f70 size 0x28 virtual false final false
+  /// @brief Method get_instanceID, addr 0x2d4a320, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
-  /// @brief Method get_hashCode addr 0x2be1f98 size 0x30 virtual false final false
+  /// @brief Method get_hashCode, addr 0x2d4a348, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method set_hashCode addr 0x2be2388 size 0x8 virtual false final false
+  /// @brief Method set_hashCode, addr 0x2d4a738, size 0x8, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method get_material addr 0x2be2390 size 0x8 virtual false final false
+  /// @brief Method get_material, addr 0x2d4a740, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Material* get_material();
 
-  /// @brief Method set_material addr 0x2be2398 size 0x8 virtual false final false
+  /// @brief Method set_material, addr 0x2d4a748, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method get_materialHashCode addr 0x2be23a0 size 0x98 virtual false final false
+  /// @brief Method get_materialHashCode, addr 0x2d4a750, size 0x98, virtual false, abstract: false, final false
   inline int32_t get_materialHashCode();
 
-  /// @brief Method set_materialHashCode addr 0x2be2438 size 0x8 virtual false final false
+  /// @brief Method set_materialHashCode, addr 0x2d4a7e8, size 0x8, virtual false, abstract: false, final false
   inline void set_materialHashCode(int32_t value);
 
   static inline ::UnityEngine::TextCore::Text::TextAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be2440 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4a7f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextAsset", modifiers: "&&", def_value: None }]

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PemWriter)
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace System::IO {
 class TextWriter;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -33,13 +33,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::OpenSsl::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method .ctor addr 0x1063b64 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x10d4db8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextWriter* writer);
 
-  /// @brief Method WriteObject addr 0x1063b68 size 0x170 virtual false final false
+  /// @brief Method WriteObject, addr 0x10d4dbc, size 0x170, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method WriteObject addr 0x1063cd8 size 0x8c virtual false final false
+  /// @brief Method WriteObject, addr 0x10d4f2c, size 0x8c, virtual false, abstract: false, final false
   inline void WriteObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemWriter", modifiers: "&&", def_value: None }]

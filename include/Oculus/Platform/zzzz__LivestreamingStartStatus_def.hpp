@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LivestreamingStartStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13257))
 // CS Name: ::Oculus.Platform::LivestreamingStartStatus
 struct CORDL_TYPE LivestreamingStartStatus {
 public:

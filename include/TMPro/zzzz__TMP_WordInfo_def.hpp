@@ -20,12 +20,12 @@ MARK_VAL_T(::TMPro::TMP_WordInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12320))
 // CS Name: ::TMPro::TMP_WordInfo
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord addr 0x2a7c280 size 0xdc virtual false final false
+  /// @brief Method GetWord, addr 0x2c00fd4, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters [CppParam { name: "textComponent", ty: "::TMPro::TMP_Text*", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty: "int32_t", modifiers: "", def_value:

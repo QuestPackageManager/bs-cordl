@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IGuiRenderable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15704))
 // CS Name: ::Zenject::IGuiRenderable*
 class CORDL_TYPE IGuiRenderable {
 public:
   // Declarations
-  /// @brief Method GuiRender addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GuiRender, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GuiRender();
 
   // Ctor Parameters [CppParam { name: "", ty: "IGuiRenderable", modifiers: "&&", def_value: None }]

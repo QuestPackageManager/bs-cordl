@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerNumericString)
+namespace Org::BouncyCastle::Asn1 {
+class DerOutputStream;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -44,40 +44,40 @@ public:
 
   constexpr void __set_str(::StringW value);
 
-  /// @brief Method GetInstance addr 0x1152060 size 0xf0 virtual false final false
+  /// @brief Method GetInstance, addr 0x11c32b0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x1152150 size 0xec virtual false final false
+  /// @brief Method GetInstance, addr 0x11c33a0, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x11460c4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11b7314, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x1152314 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11c3564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
   static inline ::Org::BouncyCastle::Asn1::DerNumericString* New_ctor(::StringW str, bool validate);
 
-  /// @brief Method .ctor addr 0x115223c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x11c348c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW str, bool validate);
 
-  /// @brief Method GetString addr 0x11523e0 size 0x8 virtual true final false
+  /// @brief Method GetString, addr 0x11c3630, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets addr 0x11523e8 size 0xc virtual false final false
+  /// @brief Method GetOctets, addr 0x11c3638, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode addr 0x11523f4 size 0x30 virtual true final false
+  /// @brief Method Encode, addr 0x11c3644, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals addr 0x1152424 size 0xa0 virtual true final false
+  /// @brief Method Asn1Equals, addr 0x11c3674, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method IsNumericString addr 0x115231c size 0xc4 virtual false final false
+  /// @brief Method IsNumericString, addr 0x11c356c, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsNumericString(::StringW str);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerNumericString", modifiers: "&&", def_value: None }]

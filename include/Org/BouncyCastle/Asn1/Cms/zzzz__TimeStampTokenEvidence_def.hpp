@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(TimeStampTokenEvidence)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class TimeStampAndCrl;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -49,29 +49,29 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
 
-  /// @brief Method .ctor addr 0xe0dde0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe82fb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl);
 
-  /// @brief Method .ctor addr 0xe0de08 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0xe82fdc, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe0deb0 size 0x38c virtual false final false
+  /// @brief Method .ctor, addr 0xe83084, size 0x38c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe0e23c size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe83410, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0xe0e254 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xe83428, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::System::Object* obj);
 
-  /// @brief Method ToTimeStampAndCrlArray addr 0xe0e2f8 size 0x78 virtual true final false
+  /// @brief Method ToTimeStampAndCrlArray, addr 0xe834cc, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> ToTimeStampAndCrlArray();
 
-  /// @brief Method ToAsn1Object addr 0xe0e370 size 0x68 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe83544, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "&&", def_value: None }]

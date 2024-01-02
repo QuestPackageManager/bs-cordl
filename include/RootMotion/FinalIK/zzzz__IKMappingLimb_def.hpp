@@ -16,16 +16,16 @@ namespace RootMotion::FinalIK {
 struct __IKMappingLimb__BoneMapType;
 }
 namespace RootMotion::FinalIK {
-class IKSolver;
+class __IKMapping__BoneMap;
 }
 namespace UnityEngine {
 class Transform;
 }
+namespace RootMotion::FinalIK {
+class IKSolver;
+}
 namespace UnityEngine {
 struct Vector3;
-}
-namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingLimb);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12556))
 // CS Name: ::IKMappingLimb::BoneMapType
 struct CORDL_TYPE __IKMappingLimb__BoneMapType {
 public:
@@ -99,8 +99,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKMappingLimb__BoneMapType, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12482))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12485))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12554))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12557))
 // CS Name: ::RootMotion.FinalIK::IKMappingLimb*
 class CORDL_TYPE IKMappingLimb : public ::RootMotion::FinalIK::IKMapping {
 public:
@@ -206,41 +206,43 @@ public:
 
   constexpr void __set_boneMap3(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  /// @brief Method IsValid addr 0x11ec0a8 size 0x74 virtual true final false
+  /// @brief Method IsValid, addr 0x125c3d4, size 0x74, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
-  /// @brief Method GetBoneMap addr 0x11ec11c size 0xc8 virtual false final false
+  /// @brief Method GetBoneMap, addr 0x125c448, size 0xc8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__IKMapping__BoneMap* GetBoneMap(::RootMotion::FinalIK::__IKMappingLimb__BoneMapType boneMap);
 
-  /// @brief Method SetLimbOrientation addr 0x11ec1e4 size 0x2b8 virtual false final false
+  /// @brief Method SetLimbOrientation, addr 0x125c510, size 0x2b8, virtual false, abstract: false, final false
   inline void SetLimbOrientation(::UnityEngine::Vector3 upper, ::UnityEngine::Vector3 lower);
 
   static inline ::RootMotion::FinalIK::IKMappingLimb* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ec49c size 0x11c virtual false final false
+  /// @brief Method .ctor, addr 0x125c7c8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingLimb* New_ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
 
-  /// @brief Method .ctor addr 0x11ec5b8 size 0x148 virtual false final false
-  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
+  /// @brief Method .ctor, addr 0x125c8e4, size 0x148, virtual false, abstract: false, final false
+  /// @param parentBone: ::UnityEngine::Transform* (default: nullptr)
+  inline void _ctor(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone = nullptr);
 
-  /// @brief Method SetBones addr 0x11ec700 size 0xc virtual false final false
-  inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone);
+  /// @brief Method SetBones, addr 0x125ca2c, size 0xc, virtual false, abstract: false, final false
+  /// @param parentBone: ::UnityEngine::Transform* (default: nullptr)
+  inline void SetBones(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* parentBone = nullptr);
 
-  /// @brief Method StoreDefaultLocalState addr 0x11ec70c size 0x98 virtual false final false
+  /// @brief Method StoreDefaultLocalState, addr 0x125ca38, size 0x98, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x11ec7a4 size 0xa8 virtual false final false
+  /// @brief Method FixTransforms, addr 0x125cad0, size 0xa8, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate addr 0x11ec84c size 0x25c virtual true final false
+  /// @brief Method Initiate, addr 0x125cb78, size 0x25c, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ReadPose addr 0x11ecaa8 size 0x60 virtual false final false
+  /// @brief Method ReadPose, addr 0x125cdd4, size 0x60, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method WritePose addr 0x11ecb08 size 0x144 virtual false final false
+  /// @brief Method WritePose, addr 0x125ce34, size 0x144, virtual false, abstract: false, final false
   inline void WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver, bool fullBody);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKMappingLimb", modifiers: "&&", def_value: None }]

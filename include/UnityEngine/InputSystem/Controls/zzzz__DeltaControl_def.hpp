@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DeltaControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6730))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6644))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6630))
 // CS Name: ::UnityEngine.InputSystem.Controls::DeltaControl*
 class CORDL_TYPE DeltaControl : public ::UnityEngine::InputSystem::Controls::Vector2Control {
 public:
@@ -67,36 +67,36 @@ public:
 
   constexpr void __set__right_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_up addr 0x29895d0 size 0x8 virtual false final false
+  /// @brief Method get_up, addr 0x2b0a324, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_up();
 
-  /// @brief Method set_up addr 0x29895d8 size 0x8 virtual false final false
+  /// @brief Method set_up, addr 0x2b0a32c, size 0x8, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_down addr 0x29895e0 size 0x8 virtual false final false
+  /// @brief Method get_down, addr 0x2b0a334, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_down();
 
-  /// @brief Method set_down addr 0x29895e8 size 0x8 virtual false final false
+  /// @brief Method set_down, addr 0x2b0a33c, size 0x8, virtual false, abstract: false, final false
   inline void set_down(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_left addr 0x29895f0 size 0x8 virtual false final false
+  /// @brief Method get_left, addr 0x2b0a344, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_left();
 
-  /// @brief Method set_left addr 0x29895f8 size 0x8 virtual false final false
+  /// @brief Method set_left, addr 0x2b0a34c, size 0x8, virtual false, abstract: false, final false
   inline void set_left(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_right addr 0x2989600 size 0x8 virtual false final false
+  /// @brief Method get_right, addr 0x2b0a354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_right();
 
-  /// @brief Method set_right addr 0x2989608 size 0x8 virtual false final false
+  /// @brief Method set_right, addr 0x2b0a35c, size 0x8, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method FinishSetup addr 0x2989610 size 0xf8 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2b0a364, size 0xf8, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DeltaControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x29897a8 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2b0a4fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DeltaControl", modifiers: "&&", def_value: None }]

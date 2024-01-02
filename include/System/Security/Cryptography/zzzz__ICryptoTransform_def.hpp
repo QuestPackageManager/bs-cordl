@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::ICryptoTransform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2940))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2941))
 // CS Name: ::System.Security.Cryptography::ICryptoTransform*
 class CORDL_TYPE ICryptoTransform {
 public:
@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_InputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_InputBlockSize();
 
-  /// @brief Method get_OutputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_OutputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_OutputBlockSize();
 
-  /// @brief Method get_CanTransformMultipleBlocks addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanTransformMultipleBlocks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanTransformMultipleBlocks();
 
-  /// @brief Method TransformBlock addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TransformBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
 
-  /// @brief Method TransformFinalBlock addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TransformFinalBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICryptoTransform", modifiers: "&&", def_value: None }]

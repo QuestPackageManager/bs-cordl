@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SmoothCamera)
 namespace UnityEngine {
-class Camera;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+class Camera;
 }
 namespace GlobalNamespace {
 class MainCamera;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCamera);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5425))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5330))
 // CS Name: ::SmoothCamera*
 class CORDL_TYPE SmoothCamera : public ::UnityEngine::MonoBehaviour {
 public:
@@ -94,22 +94,22 @@ public:
 
   constexpr void __set__positionSmooth(float_t value);
 
-  /// @brief Method Init addr 0x2123fc4 size 0x1a8 virtual false final false
+  /// @brief Method Init, addr 0x2268100, size 0x1a8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
                    ::UnityEngine::Vector3 thirdPersonEulerAngles);
 
-  /// @brief Method OnEnable addr 0x212416c size 0x20 virtual false final false
+  /// @brief Method OnEnable, addr 0x22682a8, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x212418c size 0x20 virtual false final false
+  /// @brief Method OnDisable, addr 0x22682c8, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method LateUpdate addr 0x21241ac size 0x1f4 virtual false final false
+  /// @brief Method LateUpdate, addr 0x22682e8, size 0x1f4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SmoothCamera* New_ctor();
 
-  /// @brief Method .ctor addr 0x21243a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22684dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmoothCamera", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBase_1)
 namespace UnityEngine::UIElements {
-class EventBase;
+template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
+class EventBase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7265))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7266))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7179))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7180))
 // CS Name: ::UnityEngine.UIElements::EventBase`1<T>*
 class CORDL_TYPE EventBase_1 : public ::UnityEngine::UIElements::EventBase {
 public:
@@ -56,31 +56,31 @@ public:
 
   static inline ::UnityEngine::UIElements::EventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method TypeId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TypeId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int64_t TypeId();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method ReleasePooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReleasePooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ReleasePooled(T evt);
 
-  /// @brief Method Acquire addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_eventTypeId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_eventTypeId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int64_t get_eventTypeId();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventBase_1", modifiers: "&&", def_value: None }]

@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsKeyExchange)
 namespace Org::BouncyCastle::Crypto::Tls {
-class Certificate;
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCredentials;
+class Certificate;
 }
 namespace System::IO {
 class Stream;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -38,49 +38,49 @@ public:
   // Declarations
   __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method SkipServerCredentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SkipServerCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method ProcessServerCredentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessServerCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method get_RequiresServerKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_RequiresServerKeyExchange();
 
-  /// @brief Method GenerateServerKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method SkipServerKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SkipServerKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SkipServerKeyExchange();
 
-  /// @brief Method ProcessServerKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ValidateCertificateRequest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidateCertificateRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
-  /// @brief Method SkipClientCredentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SkipClientCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SkipClientCredentials();
 
-  /// @brief Method ProcessClientCredentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessClientCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessClientCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
-  /// @brief Method GenerateClientKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GenerateClientKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GenerateClientKeyExchange(::System::IO::Stream* output);
 
-  /// @brief Method ProcessClientKeyExchange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method GeneratePremasterSecret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GeneratePremasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsKeyExchange", modifiers: "&&", def_value: None }]

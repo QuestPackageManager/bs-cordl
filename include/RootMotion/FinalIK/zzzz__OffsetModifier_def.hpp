@@ -9,17 +9,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OffsetModifier)
-namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
-}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace RootMotion::FinalIK {
-class __OffsetModifier___Initiate_d__8;
+class __OffsetModifier__OffsetLimits;
 }
 namespace RootMotion::FinalIK {
-class __OffsetModifier__OffsetLimits;
+class FullBodyBipedIK;
+}
+namespace RootMotion::FinalIK {
+class __OffsetModifier___Initiate_d__8;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
@@ -30,11 +30,11 @@ struct Quaternion;
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12654))
 // CS Name: ::OffsetModifier::OffsetLimits*
 class CORDL_TYPE __OffsetModifier__OffsetLimits : public ::System::Object {
 public:
@@ -159,18 +159,18 @@ public:
 
   constexpr void __set_maxZ(float_t value);
 
-  /// @brief Method Apply addr 0x1226a2c size 0x164 virtual false final false
+  /// @brief Method Apply, addr 0x1297d58, size 0x164, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
 
-  /// @brief Method SpringAxis addr 0x1226c9c size 0x70 virtual false final false
+  /// @brief Method SpringAxis, addr 0x1297fc8, size 0x70, virtual false, abstract: false, final false
   inline float_t SpringAxis(float_t value, float_t min, float_t max);
 
-  /// @brief Method Spring addr 0x1226d0c size 0x48 virtual false final false
+  /// @brief Method Spring, addr 0x1298038, size 0x48, virtual false, abstract: false, final false
   inline float_t Spring(float_t value, float_t limit, bool negative);
 
   static inline ::RootMotion::FinalIK::__OffsetModifier__OffsetLimits* New_ctor();
 
-  /// @brief Method .ctor addr 0x1226d54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1298080, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OffsetModifier__OffsetLimits", modifiers: "&&", def_value: None }]
@@ -252,8 +252,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifier__OffsetLimits, __
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12583))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12655))
 // CS Name: ::OffsetModifier::<Initiate>d__8*
 class CORDL_TYPE __OffsetModifier___Initiate_d__8 : public ::System::Object {
 public:
@@ -300,22 +300,22 @@ public:
 
   static inline ::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1226930 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1297c5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1226d5c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x1298088, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1226d60 size 0x150 virtual true final true
+  /// @brief Method MoveNext, addr 0x129808c, size 0x150, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1226eb0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x12981dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1226eb8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x12981e4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1226ef8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1298224, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OffsetModifier___Initiate_d__8", modifiers: "&&", def_value: None }]
@@ -357,8 +357,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12584))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12656))
 // CS Name: ::RootMotion.FinalIK::OffsetModifier*
 class CORDL_TYPE OffsetModifier : public ::UnityEngine::MonoBehaviour {
 public:
@@ -396,30 +396,30 @@ public:
 
   constexpr void __set_lastTime(float_t value);
 
-  /// @brief Method get_deltaTime addr 0x1223380 size 0x20 virtual false final false
+  /// @brief Method get_deltaTime, addr 0x12946ac, size 0x20, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method OnModifyOffset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnModifyOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnModifyOffset();
 
-  /// @brief Method Start addr 0x1223748 size 0x20 virtual true final false
+  /// @brief Method Start, addr 0x1294a74, size 0x20, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Initiate addr 0x12268c8 size 0x68 virtual false final false
+  /// @brief Method Initiate, addr 0x1297bf4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Initiate();
 
-  /// @brief Method ModifyOffset addr 0x1226958 size 0xd4 virtual false final false
+  /// @brief Method ModifyOffset, addr 0x1297c84, size 0xd4, virtual false, abstract: false, final false
   inline void ModifyOffset();
 
-  /// @brief Method ApplyLimits addr 0x1225db0 size 0xa8 virtual false final false
+  /// @brief Method ApplyLimits, addr 0x12970dc, size 0xa8, virtual false, abstract: false, final false
   inline void ApplyLimits(::ArrayW<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*, ::Array<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*>*> limits);
 
-  /// @brief Method OnDestroy addr 0x1226b90 size 0x10c virtual true final false
+  /// @brief Method OnDestroy, addr 0x1297ebc, size 0x10c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::OffsetModifier* New_ctor();
 
-  /// @brief Method .ctor addr 0x12236c0 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x12949ec, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OffsetModifier", modifiers: "&&", def_value: None }]

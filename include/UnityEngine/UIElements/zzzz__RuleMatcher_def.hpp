@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(RuleMatcher)
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+class StyleSheet;
 }
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class StyleComplexSelector;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -22,12 +22,12 @@ MARK_VAL_T(::UnityEngine::UIElements::RuleMatcher);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6919))
 // CS Name: ::UnityEngine.UIElements::RuleMatcher
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2c9e2d4 size 0x20 virtual true final false
+  /// @brief Method ToString, addr 0x2e04684, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None }, CppParam { name: "complexSelector", ty:

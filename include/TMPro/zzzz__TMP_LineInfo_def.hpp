@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_LineInfo)
 namespace TMPro {
-struct HorizontalAlignmentOptions;
+struct Extents;
 }
 namespace TMPro {
-struct Extents;
+struct HorizontalAlignmentOptions;
 }
 // Forward declare root types
 namespace TMPro {
@@ -24,8 +24,8 @@ MARK_VAL_T(::TMPro::TMP_LineInfo);
 // SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12358)), TypeDefinitionIndex(TypeDefinitionIndex(12250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12322)), TypeDefinitionIndex(TypeDefinitionIndex(12430))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12394))
 // CS Name: ::TMPro::TMP_LineInfo
 struct CORDL_TYPE TMP_LineInfo {
 public:

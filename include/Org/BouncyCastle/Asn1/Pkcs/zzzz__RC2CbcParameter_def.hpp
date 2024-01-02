@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RC2CbcParameter)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -60,31 +60,31 @@ public:
 
   constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xf17384 size 0x164 virtual false final false
+  /// @brief Method GetInstance, addr 0xf8d5a8, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0xf1765c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf8d880, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0xf176d8 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0xf8d8fc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf174e8 size 0x174 virtual false final false
+  /// @brief Method .ctor, addr 0xf8d70c, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_RC2ParameterVersion addr 0xf1778c size 0x14 virtual false final false
+  /// @brief Method get_RC2ParameterVersion, addr 0xf8d9b0, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_RC2ParameterVersion();
 
-  /// @brief Method GetIV addr 0xf177a0 size 0x78 virtual false final false
+  /// @brief Method GetIV, addr 0xf8d9c4, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
-  /// @brief Method ToAsn1Object addr 0xf17818 size 0x118 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf8da3c, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RC2CbcParameter", modifiers: "&&", def_value: None }]

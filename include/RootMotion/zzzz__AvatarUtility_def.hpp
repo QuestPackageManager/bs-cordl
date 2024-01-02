@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AvatarUtility)
 namespace UnityEngine {
-struct AvatarIKGoal;
-}
-namespace UnityEngine {
 struct HumanBodyBones;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct AvatarIKGoal;
 }
 namespace UnityEngine {
 class Avatar;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace RootMotion {
 class TQ;
@@ -30,25 +30,25 @@ MARK_REF_PTR_T(::RootMotion::AvatarUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12402))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12474))
 // CS Name: ::RootMotion::AvatarUtility*
 class CORDL_TYPE AvatarUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPostRotation addr 0x11c19a0 size 0x230 virtual false final false
+  /// @brief Method GetPostRotation, addr 0x1231ccc, size 0x230, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion GetPostRotation(::UnityEngine::Avatar* avatar, ::UnityEngine::AvatarIKGoal avatarIKGoal);
 
-  /// @brief Method GetIKGoalTQ addr 0x11c1bf0 size 0x658 virtual false final false
+  /// @brief Method GetIKGoalTQ, addr 0x1231f1c, size 0x658, virtual false, abstract: false, final false
   static inline ::RootMotion::TQ* GetIKGoalTQ(::UnityEngine::Avatar* avatar, float_t humanScale, ::UnityEngine::AvatarIKGoal avatarIKGoal, ::RootMotion::TQ* bodyPositionRotation,
                                               ::RootMotion::TQ* boneTQ);
 
-  /// @brief Method HumanIDFromAvatarIKGoal addr 0x11c1bd0 size 0x20 virtual false final false
+  /// @brief Method HumanIDFromAvatarIKGoal, addr 0x1231efc, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::HumanBodyBones HumanIDFromAvatarIKGoal(::UnityEngine::AvatarIKGoal avatarIKGoal);
 
   static inline ::RootMotion::AvatarUtility* New_ctor();
 
-  /// @brief Method .ctor addr 0x11c2248 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1232574, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarUtility", modifiers: "&&", def_value: None }]

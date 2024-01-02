@@ -7,58 +7,58 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LateBoundReflectionDelegateFactory)
 namespace System {
-class Type;
+class Object;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
-}
-namespace Newtonsoft::Json::Utilities {
-class ReflectionDelegateFactory;
-}
-namespace System::Reflection {
-class MethodBase;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename T, typename TResult> class MethodCall_2;
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 class __LateBoundReflectionDelegateFactory____c__DisplayClass3_0;
 }
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Reflection {
 class FieldInfo;
 }
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
+namespace System {
+template <typename TResult> class Func_1;
 }
 namespace Newtonsoft::Json::Serialization {
 template <typename T> class ObjectConstructor_1;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1;
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1;
 }
 namespace System::Reflection {
-class PropertyInfo;
+class MethodBase;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Newtonsoft::Json::Utilities {
+class ReflectionDelegateFactory;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1;
 }
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1;
 }
+namespace System {
+class Type;
+}
+namespace System::Reflection {
+class PropertyInfo;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace Newtonsoft::Json::Utilities {
 template <typename T> class __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Utilities {
+template <typename T, typename TResult> class MethodCall_2;
 }
 namespace System::Reflection {
 class ConstructorInfo;
@@ -101,8 +101,8 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateF
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11852))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass3_0*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -127,13 +127,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f6f48 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x265a68c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateParameterizedConstructor>b__0 addr 0x24f6fbc size 0x1c virtual false final false
+  /// @brief Method <CreateParameterizedConstructor>b__0, addr 0x265a700, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__0(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
-  /// @brief Method <CreateParameterizedConstructor>b__1 addr 0x24f6fd8 size 0x24 virtual false final false
+  /// @brief Method <CreateParameterizedConstructor>b__1, addr 0x265a71c, size 0x24, virtual false, abstract: false, final false
   inline ::System::Object* _CreateParameterizedConstructor_b__1(::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -172,8 +172,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11781))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11853))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass4_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1 : public ::System::Object {
 public:
@@ -198,13 +198,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateMethodCall>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateMethodCall>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateMethodCall_b__0(T o, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
-  /// @brief Method <CreateMethodCall>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateMethodCall>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateMethodCall_b__1(T o, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> a);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
@@ -237,8 +237,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11782))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11854))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass5_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1 : public ::System::Object {
 public:
@@ -263,13 +263,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateDefaultConstructor>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateDefaultConstructor>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _CreateDefaultConstructor_b__0();
 
-  /// @brief Method <CreateDefaultConstructor>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateDefaultConstructor>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _CreateDefaultConstructor_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
@@ -302,8 +302,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11783))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11855))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass6_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -319,10 +319,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateGet>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateGet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateGet_b__0(T o);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
@@ -352,8 +352,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11856))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass7_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1 : public ::System::Object {
 public:
@@ -369,10 +369,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateGet>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateGet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* _CreateGet_b__0(T o);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
@@ -402,8 +402,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11857))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass8_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1 : public ::System::Object {
 public:
@@ -419,10 +419,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateSet>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateSet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _CreateSet_b__0(T o, ::System::Object* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
@@ -452,8 +452,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11786))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11858))
 // CS Name: ::LateBoundReflectionDelegateFactory::<>c__DisplayClass9_0`1<T>*
 class CORDL_TYPE __LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1 : public ::System::Object {
 public:
@@ -469,10 +469,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateSet>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CreateSet>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _CreateSet_b__0(T o, ::System::Object* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LateBoundReflectionDelegateFactory____c__DisplayClass9_0_1", modifiers: "&&", def_value: None }]
@@ -500,8 +500,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11779))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11787))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11851))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11859))
 // CS Name: ::Newtonsoft.Json.Utilities::LateBoundReflectionDelegateFactory*
 class CORDL_TYPE LateBoundReflectionDelegateFactory : public ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory {
 public:
@@ -527,33 +527,33 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* getStaticF__instance();
 
-  /// @brief Method get_Instance addr 0x24f6da0 size 0x58 virtual false final false
+  /// @brief Method get_Instance, addr 0x265a4e4, size 0x58, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* get_Instance();
 
-  /// @brief Method CreateParameterizedConstructor addr 0x24f6df8 size 0x150 virtual true final false
+  /// @brief Method CreateParameterizedConstructor, addr 0x265a53c, size 0x150, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* CreateParameterizedConstructor(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateMethodCall addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateMethodCall, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, ::System::Object*>* CreateMethodCall(::System::Reflection::MethodBase* method);
 
-  /// @brief Method CreateDefaultConstructor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_1<T>* CreateDefaultConstructor(::System::Type* type);
 
-  /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::PropertyInfo* propertyInfo);
 
-  /// @brief Method CreateGet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Func_2<T, ::System::Object*>* CreateGet(::System::Reflection::FieldInfo* fieldInfo);
 
-  /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::FieldInfo* fieldInfo);
 
-  /// @brief Method CreateSet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::System::Action_2<T, ::System::Object*>* CreateSet(::System::Reflection::PropertyInfo* propertyInfo);
 
   static inline ::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f6f50 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x265a694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LateBoundReflectionDelegateFactory", modifiers: "&&", def_value: None }]

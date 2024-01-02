@@ -7,26 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberDescriptor)
-namespace System::ComponentModel {
-class AttributeCollection;
-}
 namespace System::Collections {
 class IList;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System {
-class Type;
-}
-namespace System {
-class Attribute;
 }
 namespace System {
 class Object;
 }
 namespace System::ComponentModel {
 class ISite;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
+}
+namespace System {
+class Attribute;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::ComponentModel::MemberDescriptor);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8311))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9474))
 // CS Name: ::System.ComponentModel::MemberDescriptor*
 class CORDL_TYPE MemberDescriptor : public ::System::Object {
 public:
@@ -164,62 +164,62 @@ public:
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor addr 0x279f044 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0x291d06c, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor,
                                                                      ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  /// @brief Method .ctor addr 0x279f1e8 size 0x428 virtual false final false
+  /// @brief Method .ctor, addr 0x291d210, size 0x428, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes);
 
-  /// @brief Method get_AttributeArray addr 0x279f610 size 0x20 virtual true final false
+  /// @brief Method get_AttributeArray, addr 0x291d638, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> get_AttributeArray();
 
-  /// @brief Method set_AttributeArray addr 0x279fe28 size 0xc4 virtual true final false
+  /// @brief Method set_AttributeArray, addr 0x291de50, size 0xc4, virtual true, abstract: false, final false
   inline void set_AttributeArray(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  /// @brief Method get_Attributes addr 0x279feec size 0xe8 virtual true final false
+  /// @brief Method get_Attributes, addr 0x291df14, size 0xe8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* get_Attributes();
 
-  /// @brief Method get_Name addr 0x279ffd4 size 0x50 virtual true final false
+  /// @brief Method get_Name, addr 0x291dffc, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameHashCode addr 0x27a0024 size 0x8 virtual true final false
+  /// @brief Method get_NameHashCode, addr 0x291e04c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_NameHashCode();
 
-  /// @brief Method get_DisplayName addr 0x27a002c size 0x128 virtual true final false
+  /// @brief Method get_DisplayName, addr 0x291e054, size 0x128, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method CheckAttributesValid addr 0x279f630 size 0xb0 virtual false final false
+  /// @brief Method CheckAttributesValid, addr 0x291d658, size 0xb0, virtual false, abstract: false, final false
   inline void CheckAttributesValid();
 
-  /// @brief Method CreateAttributeCollection addr 0x27a0154 size 0x7c virtual true final false
+  /// @brief Method CreateAttributeCollection, addr 0x291e17c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* CreateAttributeCollection();
 
-  /// @brief Method Equals addr 0x27a01d0 size 0x264 virtual true final false
+  /// @brief Method Equals, addr 0x291e1f8, size 0x264, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes addr 0x27998c0 size 0xf4 virtual true final false
+  /// @brief Method FillAttributes, addr 0x29178e8, size 0xf4, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method FilterAttributesIfNeeded addr 0x279f6e0 size 0x748 virtual false final false
+  /// @brief Method FilterAttributesIfNeeded, addr 0x291d708, size 0x748, virtual false, abstract: false, final false
   inline void FilterAttributesIfNeeded();
 
-  /// @brief Method FindMethod addr 0x2799e04 size 0x8 virtual false final false
+  /// @brief Method FindMethod, addr 0x2917e2c, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType);
 
-  /// @brief Method FindMethod addr 0x27a0434 size 0xa4 virtual false final false
+  /// @brief Method FindMethod, addr 0x291e45c, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodInfo* FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args, ::System::Type* returnType,
                                                              bool publicOnly);
 
-  /// @brief Method GetHashCode addr 0x27a04d8 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x291e500, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget addr 0x27a04e0 size 0x110 virtual true final false
+  /// @brief Method GetInvocationTarget, addr 0x291e508, size 0x110, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetSite addr 0x27a0cc4 size 0xfc virtual false final false
+  /// @brief Method GetSite, addr 0x291ecec, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ISite* GetSite(::System::Object* component);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberDescriptor", modifiers: "&&", def_value: None }]

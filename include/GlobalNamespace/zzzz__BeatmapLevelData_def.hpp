@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelData)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelData;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4347))
 // CS Name: ::BeatmapLevelData*
 class CORDL_TYPE BeatmapLevelData : public ::System::Object {
 public:
@@ -58,16 +58,16 @@ public:
 
   constexpr void __set__difficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
 
-  /// @brief Method get_audioClip addr 0x21f6110 size 0x8 virtual true final true
+  /// @brief Method get_audioClip, addr 0x2342010, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::AudioClip* get_audioClip();
 
-  /// @brief Method get_difficultyBeatmapSets addr 0x21f6118 size 0x8 virtual true final true
+  /// @brief Method get_difficultyBeatmapSets, addr 0x2342018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
 
   static inline ::GlobalNamespace::BeatmapLevelData* New_ctor(::UnityEngine::AudioClip* audioClip,
                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets);
 
-  /// @brief Method .ctor addr 0x21f6120 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2342020, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioClip* audioClip, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelData", modifiers: "&&", def_value: None }]

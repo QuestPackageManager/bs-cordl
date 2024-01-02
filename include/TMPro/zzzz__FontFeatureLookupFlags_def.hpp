@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::FontFeatureLookupFlags);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12371))
 // CS Name: ::TMPro::FontFeatureLookupFlags
 struct CORDL_TYPE FontFeatureLookupFlags {
 public:

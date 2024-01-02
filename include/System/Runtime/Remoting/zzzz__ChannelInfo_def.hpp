@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ChannelInfo)
-namespace System::Runtime::Remoting {
-class IChannelInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting {
+class IChannelInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3052))
 // CS Name: ::System.Runtime.Remoting::ChannelInfo*
 class CORDL_TYPE ChannelInfo : public ::System::Object {
 public:
@@ -43,15 +43,15 @@ public:
 
   static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x232d188 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2484c7c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::ChannelInfo* New_ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method .ctor addr 0x232d1f0 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2484ce4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData addr 0x232d298 size 0x8 virtual true final true
+  /// @brief Method get_ChannelData, addr 0x2484d8c, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChannelInfo", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509FindType);
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8983))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509FindType
 struct CORDL_TYPE X509FindType {
 public:

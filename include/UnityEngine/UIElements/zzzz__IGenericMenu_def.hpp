@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGenericMenu)
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine {
 struct Rect;
 }
 namespace System {
 class Action;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,16 +24,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGenericMenu);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7072))
 // CS Name: ::UnityEngine.UIElements::IGenericMenu*
 class CORDL_TYPE IGenericMenu {
 public:
   // Declarations
-  /// @brief Method AddItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
-  /// @brief Method DropDown addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
+  /// @brief Method DropDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param targetElement: ::UnityEngine::UIElements::VisualElement* (default: nullptr)
+  /// @param anchored: bool (default: false)
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement = nullptr, bool anchored = false);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGenericMenu", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

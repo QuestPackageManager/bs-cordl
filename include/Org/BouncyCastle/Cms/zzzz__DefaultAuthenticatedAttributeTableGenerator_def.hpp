@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultAuthenticatedAttributeTableGenerator)
+namespace Org::BouncyCastle::Asn1::Cms {
+class AttributeTable;
+}
 namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGener
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(666))
 // CS Name: ::Org.BouncyCastle.Cms::DefaultAuthenticatedAttributeTableGenerator*
 class CORDL_TYPE DefaultAuthenticatedAttributeTableGenerator : public ::System::Object {
@@ -43,18 +43,18 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x118f048 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x1200298, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method .ctor addr 0x118f0b0 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x1200300, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
-  /// @brief Method CreateStandardAttributeTable addr 0x118f130 size 0x528 virtual true final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x1200380, size 0x528, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes addr 0x118f658 size 0x8c virtual true final false
+  /// @brief Method GetAttributes, addr 0x12008a8, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultAuthenticatedAttributeTableGenerator", modifiers: "&&", def_value: None }]

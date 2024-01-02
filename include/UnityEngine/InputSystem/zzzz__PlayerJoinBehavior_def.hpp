@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::PlayerJoinBehavior);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6405))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6319))
 // CS Name: ::UnityEngine.InputSystem::PlayerJoinBehavior
 struct CORDL_TYPE PlayerJoinBehavior {
 public:

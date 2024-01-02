@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapSelectionView);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5863))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5772))
 // CS Name: ::BeatmapSelectionView*
 class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__noLevelText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method SetBeatmap addr 0x2199384 size 0xa8 virtual true final false
+  /// @brief Method SetBeatmap, addr 0x22df98c, size 0xa0, virtual true, abstract: false, final false
   inline void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
-  /// @brief Method .ctor addr 0x219942c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22dfa58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None }]

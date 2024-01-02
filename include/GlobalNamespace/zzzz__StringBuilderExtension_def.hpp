@@ -3,7 +3,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringBuilderExtension)
 namespace System::Text {
@@ -19,27 +18,21 @@ MARK_REF_PTR_T(::GlobalNamespace::StringBuilderExtension);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13901))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15831))
 // CS Name: ::StringBuilderExtension*
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field charToInt, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_charToInt, put = setStaticF_charToInt))::ArrayW<char16_t, ::Array<char16_t>*> charToInt;
-
-  static inline void setStaticF_charToInt(::ArrayW<char16_t, ::Array<char16_t>*> value);
-
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_charToInt();
-
-  /// @brief Method Swap addr 0x1f9a1b8 size 0xac virtual false final false
+  /// @brief Method Swap, addr 0xe25978, size 0x228, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
-  /// @brief Method AppendNumber addr 0x1f9a264 size 0x128 virtual false final false
+  /// @brief Method AppendNumber, addr 0xe25ba0, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber addr 0x1f9a38c size 0x104 virtual false final false
-  static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t unumber);
+  /// @brief Method AppendNumber, addr 0xe25bcc, size 0xa4, virtual false, abstract: false, final false
+  /// @param isNegative: bool (default: false)
+  static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative = false);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderExtension", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -55,6 +48,9 @@ protected:
   constexpr StringBuilderExtension();
 
 public:
+  /// @brief Field kCharZero offset 0xffffffff size 0x2
+  static constexpr char16_t kCharZero{ u'0' };
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations

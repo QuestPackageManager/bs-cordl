@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::ReasonsMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1729))
 // CS Name: ::Org.BouncyCastle.Pkix::ReasonsMask*
 class CORDL_TYPE ReasonsMask : public ::System::Object {
@@ -46,27 +46,27 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor addr 0x10a20fc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1113350, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
   static inline ::Org::BouncyCastle::Pkix::ReasonsMask* New_ctor();
 
-  /// @brief Method .ctor addr 0x10a2124 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x1113378, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddReasons addr 0x10a2140 size 0x48 virtual false final false
+  /// @brief Method AddReasons, addr 0x1113394, size 0x48, virtual false, abstract: false, final false
   inline void AddReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method get_IsAllReasons addr 0x10a21f0 size 0x74 virtual false final false
+  /// @brief Method get_IsAllReasons, addr 0x1113444, size 0x74, virtual false, abstract: false, final false
   inline bool get_IsAllReasons();
 
-  /// @brief Method Intersect addr 0x10a2264 size 0xc8 virtual false final false
+  /// @brief Method Intersect, addr 0x11134b8, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::ReasonsMask* Intersect(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method HasNewReasons addr 0x10a232c size 0x54 virtual false final false
+  /// @brief Method HasNewReasons, addr 0x1113580, size 0x54, virtual false, abstract: false, final false
   inline bool HasNewReasons(::Org::BouncyCastle::Pkix::ReasonsMask* mask);
 
-  /// @brief Method get_Reasons addr 0x10a2188 size 0x68 virtual false final false
+  /// @brief Method get_Reasons, addr 0x11133dc, size 0x68, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReasonsMask", modifiers: "&&", def_value: None }]

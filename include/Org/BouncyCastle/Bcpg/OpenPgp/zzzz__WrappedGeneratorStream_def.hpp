@@ -37,10 +37,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::WrappedGeneratorStream* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
-  /// @brief Method .ctor addr 0x105eae4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x10cfd38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* gen, ::System::IO::Stream* str);
 
-  /// @brief Method Close addr 0x105eb10 size 0xa0 virtual true final false
+  /// @brief Method Close, addr 0x10cfd64, size 0xa0, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "WrappedGeneratorStream", modifiers: "&&", def_value: None }]

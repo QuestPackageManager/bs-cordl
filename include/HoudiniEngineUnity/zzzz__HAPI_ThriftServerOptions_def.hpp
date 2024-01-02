@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ThriftServerOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9729))
 // CS Name: ::HoudiniEngineUnity::HAPI_ThriftServerOptions
 struct CORDL_TYPE HAPI_ThriftServerOptions {
 public:

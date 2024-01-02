@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Lazy_1_def.hpp"
-#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/Threading/zzzz__LazyThreadSafetyMode_def.hpp"
 #include "System/zzzz__LazyHelper_def.hpp"
 template <typename T> constexpr ::System::LazyHelper*& System::Lazy_1<T>::__get__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -118,8 +118,8 @@ template <typename T> inline T System::Lazy_1<T>::CreateValue() {
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline ::StringW System::Lazy_1<T>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Lazy_1<T>*>::get(), "ToString", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Lazy_1<T>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T> inline bool System::Lazy_1<T>::get_IsValueCreated() {

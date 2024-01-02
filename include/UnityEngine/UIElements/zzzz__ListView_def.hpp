@@ -9,41 +9,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListView)
-namespace UnityEngine::UIElements {
-class ICollectionDragAndDropController;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class __ListView__UxmlFactory;
+class TextField;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class ChangeEvent_1;
+class ICollectionDragAndDropController;
 }
 namespace UnityEngine::UIElements {
-class ListViewController;
+struct ListViewReorderMode;
 }
 namespace System {
 class Action;
 }
 namespace UnityEngine::UIElements {
-class TextField;
+class ListViewDragger;
+}
+namespace UnityEngine::UIElements {
+class __ListView__UxmlFactory;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace UnityEngine::UIElements {
+class ListViewController;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
 class __ListView__UxmlTraits;
-}
-namespace UnityEngine::UIElements {
-struct ListViewReorderMode;
-}
-namespace UnityEngine::UIElements {
-class ListViewDragger;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class Label;
 }
 namespace UnityEngine::UIElements {
 class Foldout;
@@ -51,8 +51,8 @@ class Foldout;
 namespace UnityEngine::UIElements {
 class Button;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UIElements {
+class Label;
 }
 namespace UnityEngine::UIElements {
 struct CollectionVirtualizationMethod;
@@ -61,25 +61,25 @@ namespace UnityEngine::UIElements {
 struct AlternatingRowBackground;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct SelectionType;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+class UxmlIntAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+template <typename T> class UxmlEnumAttributeDescription_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -99,8 +99,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ListView__UxmlTraits);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7070))
 // CS Name: ::ListView::UxmlTraits*
 class CORDL_TYPE __ListView__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -218,12 +218,12 @@ public:
 
   constexpr void __set_m_HorizontalScrollingEnabled(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2cc6768 size 0x3d4 virtual true final false
+  /// @brief Method Init, addr 0x2e2db18, size 0x3d4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__ListView__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc6b3c size 0x51c virtual false final false
+  /// @brief Method .ctor, addr 0x2e2deec, size 0x51c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -310,8 +310,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__ListView__UxmlTraits, ___m_H
 // SizeInfo { instance_size: 1288, native_size: -1, calculated_instance_size: 1288, calculated_native_size: 1284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7229)), TypeDefinitionIndex(TypeDefinitionIndex(7154))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7157))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(7143))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: ::UnityEngine.UIElements::ListView*
 class CORDL_TYPE ListView : public ::UnityEngine::UIElements::BaseVerticalCollectionView {
 public:
@@ -590,96 +590,96 @@ public:
 
   static inline ::StringW getStaticF_footerRemoveButtonName();
 
-  /// @brief Method get_showBoundCollectionSize addr 0x2cc499c size 0x8 virtual false final false
+  /// @brief Method get_showBoundCollectionSize, addr 0x2e2bd4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showBoundCollectionSize();
 
-  /// @brief Method set_showBoundCollectionSize addr 0x2cc49a4 size 0x1c virtual false final false
+  /// @brief Method set_showBoundCollectionSize, addr 0x2e2bd54, size 0x1c, virtual false, abstract: false, final false
   inline void set_showBoundCollectionSize(bool value);
 
-  /// @brief Method get_sourceIncludesArraySize addr 0x2cc4b94 size 0x28 virtual true final false
+  /// @brief Method get_sourceIncludesArraySize, addr 0x2e2bf44, size 0x28, virtual true, abstract: false, final false
   inline bool get_sourceIncludesArraySize();
 
-  /// @brief Method get_showFoldoutHeader addr 0x2cc4bbc size 0x8 virtual false final false
+  /// @brief Method get_showFoldoutHeader, addr 0x2e2bf6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_showFoldoutHeader();
 
-  /// @brief Method set_showFoldoutHeader addr 0x2cc4bc4 size 0x1a4 virtual false final false
+  /// @brief Method set_showFoldoutHeader, addr 0x2e2bf74, size 0x1a4, virtual false, abstract: false, final false
   inline void set_showFoldoutHeader(bool value);
 
-  /// @brief Method SetupArraySizeField addr 0x2cc49c0 size 0x1d4 virtual false final false
+  /// @brief Method SetupArraySizeField, addr 0x2e2bd70, size 0x1d4, virtual false, abstract: false, final false
   inline void SetupArraySizeField();
 
-  /// @brief Method set_headerTitle addr 0x2cc5724 size 0x18 virtual false final false
+  /// @brief Method set_headerTitle, addr 0x2e2cad4, size 0x18, virtual false, abstract: false, final false
   inline void set_headerTitle(::StringW value);
 
-  /// @brief Method get_showAddRemoveFooter addr 0x2cc5378 size 0x10 virtual false final false
+  /// @brief Method get_showAddRemoveFooter, addr 0x2e2c728, size 0x10, virtual false, abstract: false, final false
   inline bool get_showAddRemoveFooter();
 
-  /// @brief Method set_showAddRemoveFooter addr 0x2cc573c size 0x8 virtual false final false
+  /// @brief Method set_showAddRemoveFooter, addr 0x2e2caec, size 0x8, virtual false, abstract: false, final false
   inline void set_showAddRemoveFooter(bool value);
 
-  /// @brief Method EnableFooter addr 0x2cc5388 size 0x32c virtual false final false
+  /// @brief Method EnableFooter, addr 0x2e2c738, size 0x32c, virtual false, abstract: false, final false
   inline void EnableFooter(bool enabled);
 
-  /// @brief Method AddItems addr 0x2cc590c size 0x24 virtual false final false
+  /// @brief Method AddItems, addr 0x2e2ccbc, size 0x24, virtual false, abstract: false, final false
   inline void AddItems(int32_t itemCount);
 
-  /// @brief Method OnArraySizeFieldChanged addr 0x2cc5930 size 0x108 virtual false final false
+  /// @brief Method OnArraySizeFieldChanged, addr 0x2e2cce0, size 0x108, virtual false, abstract: false, final false
   inline void OnArraySizeFieldChanged(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt);
 
-  /// @brief Method UpdateArraySizeField addr 0x2cc56b4 size 0x70 virtual false final false
+  /// @brief Method UpdateArraySizeField, addr 0x2e2ca64, size 0x70, virtual false, abstract: false, final false
   inline void UpdateArraySizeField();
 
-  /// @brief Method UpdateEmpty addr 0x2cc51bc size 0x1bc virtual false final false
+  /// @brief Method UpdateEmpty, addr 0x2e2c56c, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdateEmpty();
 
-  /// @brief Method OnAddClicked addr 0x2cc5a38 size 0x24c virtual false final false
+  /// @brief Method OnAddClicked, addr 0x2e2cde8, size 0x24c, virtual false, abstract: false, final false
   inline void OnAddClicked();
 
-  /// @brief Method OnRemoveClicked addr 0x2cc5c84 size 0x1cc virtual false final false
+  /// @brief Method OnRemoveClicked, addr 0x2e2d034, size 0x1cc, virtual false, abstract: false, final false
   inline void OnRemoveClicked();
 
-  /// @brief Method get_viewController addr 0x2cc5e50 size 0x8 virtual false final false
+  /// @brief Method get_viewController, addr 0x2e2d200, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewController* get_viewController();
 
-  /// @brief Method CreateVirtualizationController addr 0x2cc5e58 size 0x48 virtual true final false
+  /// @brief Method CreateVirtualizationController, addr 0x2e2d208, size 0x48, virtual true, abstract: false, final false
   inline void CreateVirtualizationController();
 
-  /// @brief Method CreateViewController addr 0x2cc5ea0 size 0x64 virtual true final false
+  /// @brief Method CreateViewController, addr 0x2e2d250, size 0x64, virtual true, abstract: false, final false
   inline void CreateViewController();
 
-  /// @brief Method SetViewController addr 0x2cc5f04 size 0x1bc virtual false final false
+  /// @brief Method SetViewController, addr 0x2e2d2b4, size 0x1bc, virtual false, abstract: false, final false
   inline void SetViewController(::UnityEngine::UIElements::ListViewController* controller);
 
-  /// @brief Method OnItemAdded addr 0x2cc60c0 size 0x1c virtual false final false
+  /// @brief Method OnItemAdded, addr 0x2e2d470, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemAdded(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsRemoved addr 0x2cc60dc size 0x1c virtual false final false
+  /// @brief Method OnItemsRemoved, addr 0x2e2d48c, size 0x1c, virtual false, abstract: false, final false
   inline void OnItemsRemoved(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method OnItemsSourceSizeChanged addr 0x2cc60f8 size 0x8 virtual false final false
+  /// @brief Method OnItemsSourceSizeChanged, addr 0x2e2d4a8, size 0x8, virtual false, abstract: false, final false
   inline void OnItemsSourceSizeChanged();
 
-  /// @brief Method get_reorderMode addr 0x2cc6100 size 0x8 virtual false final false
+  /// @brief Method get_reorderMode, addr 0x2e2d4b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewReorderMode get_reorderMode();
 
-  /// @brief Method set_reorderMode addr 0x2cc6108 size 0x38 virtual false final false
+  /// @brief Method set_reorderMode, addr 0x2e2d4b8, size 0x38, virtual false, abstract: false, final false
   inline void set_reorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
 
-  /// @brief Method CreateDragger addr 0x2cc6140 size 0xa0 virtual true final false
+  /// @brief Method CreateDragger, addr 0x2e2d4f0, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ListViewDragger* CreateDragger();
 
-  /// @brief Method CreateDragAndDropController addr 0x2cc61e0 size 0x64 virtual true final false
+  /// @brief Method CreateDragAndDropController, addr 0x2e2d590, size 0x64, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* CreateDragAndDropController();
 
   static inline ::UnityEngine::UIElements::ListView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc6244 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x2e2d5f4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method PostRefresh addr 0x2cc62e0 size 0x24 virtual true final false
+  /// @brief Method PostRefresh, addr 0x2e2d690, size 0x24, virtual true, abstract: false, final false
   inline void PostRefresh();
 
-  /// @brief Method <OnAddClicked>b__35_0 addr 0x2cc6650 size 0xd0 virtual false final false
+  /// @brief Method <OnAddClicked>b__35_0, addr 0x2e2da00, size 0xd0, virtual false, abstract: false, final false
   inline void _OnAddClicked_b__35_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListView", modifiers: "&&", def_value: None }]
@@ -786,14 +786,14 @@ static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_ReorderMode) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5151 }), TypeDefinitionIndex(TypeDefinitionIndex(7156)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7157)), TypeDefinitionIndex(TypeDefinitionIndex(7083))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7155)) CS Name: ::ListView::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5267
+// }), TypeDefinitionIndex(TypeDefinitionIndex(7070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7069)) CS Name: ::ListView::UxmlFactory*
 class CORDL_TYPE __ListView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ListView*, ::UnityEngine::UIElements::__ListView__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__ListView__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc6720 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e2dad0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListView__UxmlFactory", modifiers: "&&", def_value: None }]

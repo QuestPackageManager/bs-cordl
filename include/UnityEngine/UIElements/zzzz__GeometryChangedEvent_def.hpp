@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GeometryChangedEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1655 }), TypeDefinitionIndex(TypeDefinitionIndex(10093)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7266))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7298)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
+// 1722 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7212)) CS Name: ::UnityEngine.UIElements::GeometryChangedEvent*
 class CORDL_TYPE GeometryChangedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::GeometryChangedEvent*> {
 public:
   // Declarations
@@ -57,36 +57,36 @@ public:
 
   constexpr void __set__layoutPass_k__BackingField(int32_t value);
 
-  /// @brief Method GetPooled addr 0x2ce888c size 0xc0 virtual false final false
+  /// @brief Method GetPooled, addr 0x2e50c3c, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* GetPooled(::UnityEngine::Rect oldRect, ::UnityEngine::Rect newRect);
 
-  /// @brief Method Init addr 0x2ce894c size 0x50 virtual true final false
+  /// @brief Method Init, addr 0x2e50cfc, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2ce899c size 0x34 virtual false final false
+  /// @brief Method LocalInit, addr 0x2e50d4c, size 0x34, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method get_oldRect addr 0x2ce89d0 size 0xc virtual false final false
+  /// @brief Method get_oldRect, addr 0x2e50d80, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_oldRect();
 
-  /// @brief Method set_oldRect addr 0x2ce89dc size 0xc virtual false final false
+  /// @brief Method set_oldRect, addr 0x2e50d8c, size 0xc, virtual false, abstract: false, final false
   inline void set_oldRect(::UnityEngine::Rect value);
 
-  /// @brief Method get_newRect addr 0x2ce89e8 size 0xc virtual false final false
+  /// @brief Method get_newRect, addr 0x2e50d98, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_newRect();
 
-  /// @brief Method set_newRect addr 0x2ce89f4 size 0xc virtual false final false
+  /// @brief Method set_newRect, addr 0x2e50da4, size 0xc, virtual false, abstract: false, final false
   inline void set_newRect(::UnityEngine::Rect value);
 
-  /// @brief Method get_layoutPass addr 0x2ce8a00 size 0x8 virtual false final false
+  /// @brief Method get_layoutPass, addr 0x2e50db0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layoutPass();
 
-  /// @brief Method set_layoutPass addr 0x2ce8a08 size 0x8 virtual false final false
+  /// @brief Method set_layoutPass, addr 0x2e50db8, size 0x8, virtual false, abstract: false, final false
   inline void set_layoutPass(int32_t value);
 
   static inline ::UnityEngine::UIElements::GeometryChangedEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce8a10 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x2e50dc0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GeometryChangedEvent", modifiers: "&&", def_value: None }]

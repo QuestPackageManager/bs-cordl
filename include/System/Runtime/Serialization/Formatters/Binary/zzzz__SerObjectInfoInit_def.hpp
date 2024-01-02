@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3282))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3283))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoInit*
 class CORDL_TYPE SerObjectInfoInit : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* New_ctor();
 
-  /// @brief Method .ctor addr 0x23726dc size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x24cb1e0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoInit", modifiers: "&&", def_value: None }]

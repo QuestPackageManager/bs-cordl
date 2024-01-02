@@ -5,31 +5,31 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GamePause)
 namespace GlobalNamespace {
-class SaberManager;
-}
-namespace GlobalNamespace {
-class AudioListenerController;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class SongController;
-}
-namespace GlobalNamespace {
-class IGamePause;
-}
-namespace GlobalNamespace {
 class IScoreController;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class SongController;
+}
+namespace GlobalNamespace {
+class AudioListenerController;
+}
+namespace GlobalNamespace {
 class BeatmapObjectExecutionRatingsRecorder;
 }
 namespace GlobalNamespace {
 class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GamePause);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5154))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5049))
 // CS Name: ::GamePause*
 class CORDL_TYPE GamePause : public ::System::Object {
 public:
@@ -153,39 +153,39 @@ public:
 
   constexpr void __set__pause(bool value);
 
-  /// @brief Method get_isPaused addr 0x20e18ec size 0x8 virtual true final true
+  /// @brief Method get_isPaused, addr 0x23c376c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
-  /// @brief Method add_didPauseEvent addr 0x20e18f4 size 0x9c virtual true final true
+  /// @brief Method add_didPauseEvent, addr 0x23c3774, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didPauseEvent addr 0x20e1990 size 0x9c virtual true final true
+  /// @brief Method remove_didPauseEvent, addr 0x23c3810, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent addr 0x20e1a2c size 0x9c virtual true final true
+  /// @brief Method add_willResumeEvent, addr 0x23c38ac, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent addr 0x20e1ac8 size 0x9c virtual true final true
+  /// @brief Method remove_willResumeEvent, addr 0x23c3948, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent addr 0x20e1b64 size 0x9c virtual true final true
+  /// @brief Method add_didResumeEvent, addr 0x23c39e4, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent addr 0x20e1c00 size 0x9c virtual true final true
+  /// @brief Method remove_didResumeEvent, addr 0x23c3a80, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method Pause addr 0x20e1c9c size 0x150 virtual true final true
+  /// @brief Method Pause, addr 0x23c3b1c, size 0x150, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method WillResume addr 0x20e1dec size 0x24 virtual true final true
+  /// @brief Method WillResume, addr 0x23c3c6c, size 0x24, virtual true, abstract: false, final true
   inline void WillResume();
 
-  /// @brief Method Resume addr 0x20e1e10 size 0x14c virtual true final true
+  /// @brief Method Resume, addr 0x23c3c90, size 0x14c, virtual true, abstract: false, final true
   inline void Resume();
 
   static inline ::GlobalNamespace::GamePause* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e1f5c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23c3ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GamePause", modifiers: "&&", def_value: None }]

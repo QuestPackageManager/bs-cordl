@@ -16,7 +16,7 @@ MARK_VAL_T(::System::PlatformID);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2612))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2614))
 // CS Name: ::System::PlatformID
 struct CORDL_TYPE PlatformID {
 public:

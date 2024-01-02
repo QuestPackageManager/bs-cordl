@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::ComponentModel::ProvidePropertyAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8284))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9447))
 // CS Name: ::System.ComponentModel::ProvidePropertyAttribute*
 class CORDL_TYPE ProvidePropertyAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   constexpr void __set__ReceiverTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method get_PropertyName addr 0x279757c size 0x8 virtual false final false
+  /// @brief Method get_PropertyName, addr 0x29155a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PropertyName();
 
-  /// @brief Method get_ReceiverTypeName addr 0x2797584 size 0x8 virtual false final false
+  /// @brief Method get_ReceiverTypeName, addr 0x29155ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceiverTypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProvidePropertyAttribute", modifiers: "&&", def_value: None }]

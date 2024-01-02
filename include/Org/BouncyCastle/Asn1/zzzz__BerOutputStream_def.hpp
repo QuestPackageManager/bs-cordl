@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_def.hpp"
 CORDL_MODULE_EXPORT(BerOutputStream)
-namespace System {
-class Object;
-}
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method .ctor addr 0x114acdc size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11bbf2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteObject addr 0x114c654 size 0x15c virtual true final false
+  /// @brief Method WriteObject, addr 0x11bd8a4, size 0x15c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerOutputStream", modifiers: "&&", def_value: None }]

@@ -13,9 +13,6 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace GlobalNamespace {
-class __FireworkItemController__Pool;
-}
-namespace GlobalNamespace {
 class FireworkItemController;
 }
 namespace GlobalNamespace {
@@ -24,11 +21,14 @@ class DirectionalLight;
 namespace GlobalNamespace {
 class __FireworksController___SpawningCoroutine_d__8;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __FireworkItemController__Pool;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4847))
 // CS Name: ::FireworksController::<SpawningCoroutine>d__8*
 class CORDL_TYPE __FireworksController___SpawningCoroutine_d__8 : public ::System::Object {
 public:
@@ -95,22 +95,22 @@ public:
 
   static inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2262f4c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x239794c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x22630a0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2397a9c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x22630a4 size 0x2f4 virtual true final true
+  /// @brief Method MoveNext, addr 0x2397aa0, size 0x2fc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2263398 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2397d9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x22633a0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2397da4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x22633e0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2397de4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FireworksController___SpawningCoroutine_d__8", modifiers: "&&", def_value: None }]
@@ -152,8 +152,8 @@ static_assert(offsetof(::GlobalNamespace::__FireworksController___SpawningCorout
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4968))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4848))
 // CS Name: ::FireworksController*
 class CORDL_TYPE FireworksController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -223,21 +223,21 @@ public:
 
   constexpr void __set__fireworkItemPool(::GlobalNamespace::__FireworkItemController__Pool* value);
 
-  /// @brief Method OnEnable addr 0x2262ec4 size 0x20 virtual false final false
+  /// @brief Method OnEnable, addr 0x23978c4, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SpawningCoroutine addr 0x2262ee4 size 0x68 virtual false final false
+  /// @brief Method SpawningCoroutine, addr 0x23978e4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawningCoroutine();
 
-  /// @brief Method HandleFireworkItemControllerDidFinish addr 0x2262f74 size 0xbc virtual false final false
+  /// @brief Method HandleFireworkItemControllerDidFinish, addr 0x2397974, size 0xb8, virtual false, abstract: false, final false
   inline void HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController);
 
-  /// @brief Method OnDrawGizmosSelected addr 0x2263030 size 0x54 virtual false final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x2397a2c, size 0x54, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::FireworksController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2263084 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2397a80, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FireworksController", modifiers: "&&", def_value: None }]

@@ -10,10 +10,10 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> struct ItemPriority_2;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority> struct ItemPriority_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -27,8 +27,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15816))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15924))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::PriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE PriorityQueue_2 : public ::System::Object {
 public:
@@ -78,28 +78,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>* New_ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method ExpandCapacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ExpandCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ExpandCapacity();
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(TItem item, TPriority priority);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem Dequeue();
 
-  /// @brief Method ReorderItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReorderItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReorderItem(int32_t index, int32_t direction);
 
-  /// @brief Method GetHighest addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetHighest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TItem GetHighest();
 
-  /// @brief Method GetHighestPriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetHighestPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority GetHighestPriority();
 
   // Ctor Parameters [CppParam { name: "", ty: "PriorityQueue_2", modifiers: "&&", def_value: None }]

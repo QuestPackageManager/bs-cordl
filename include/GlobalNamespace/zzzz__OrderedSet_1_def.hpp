@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedSet_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+template <typename T> struct __OrderedSet_1__ProcessOrder;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace GlobalNamespace {
-template <typename T> struct __OrderedSet_1__ProcessOrder;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace GlobalNamespace {
+template <typename T> class __OrderedSet_1__Node;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
 namespace GlobalNamespace {
-template <typename T> class __OrderedSet_1__Node;
-}
-namespace GlobalNamespace {
 template <typename T> class __OrderedSet_1___GetEnumerator_d__23;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -65,8 +65,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12825)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12825), inst: 4771 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12903)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst: 4869 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12903))
 // CS Name: ::OrderedSet`1::ProcessOrder<T>
 struct CORDL_TYPE __OrderedSet_1__ProcessOrder {
 public:
@@ -117,8 +117,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12904))
 // CS Name: ::OrderedSet`1::Node<T>*
 class CORDL_TYPE __OrderedSet_1__Node : public ::System::Object {
 public:
@@ -170,7 +170,7 @@ public:
 
   static inline ::GlobalNamespace::__OrderedSet_1__Node<T>* New_ctor(T value, int32_t clearCount);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value, int32_t clearCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedSet_1__Node", modifiers: "&&", def_value: None }]
@@ -212,8 +212,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12827))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12905))
 // CS Name: ::OrderedSet`1::<GetEnumerator>d__23<T>*
 class CORDL_TYPE __OrderedSet_1___GetEnumerator_d__23 : public ::System::Object {
 public:
@@ -269,22 +269,22 @@ public:
 
   static inline ::GlobalNamespace::__OrderedSet_1___GetEnumerator_d__23<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedSet_1___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
@@ -323,8 +323,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12825), inst: 1015 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12825))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12828)) CS Name: ::OrderedSet`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12903)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12903), inst:
+// 1036 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12906)) CS Name: ::OrderedSet`1<T>*
 class CORDL_TYPE OrderedSet_1 : public ::System::Object {
 public:
   // Declarations
@@ -396,60 +396,61 @@ public:
 
   constexpr void __set__clearCount(int32_t value);
 
-  /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   static inline ::GlobalNamespace::OrderedSet_1<T>* New_ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param processOrder: ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> (default: static_cast<int32_t>(0x2))
+  inline void _ctor(::System::Comparison_1<T>* comparison, ::GlobalNamespace::__OrderedSet_1__ProcessOrder<T> processOrder = static_cast<int32_t>(0x2));
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(T item);
 
-  /// @brief Method UpdateSortedPosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateSortedPosition(T item);
 
-  /// @brief Method AppendNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AppendNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method AppendNodeUnchecked addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AppendNodeUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendNodeUnchecked(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method PrependNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PrependNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PrependNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method PrependNodeUnchecked addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PrependNodeUnchecked, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PrependNodeUnchecked(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method SwapNodes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SwapNodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SwapNodes(::GlobalNamespace::__OrderedSet_1__Node<T>* previous, ::GlobalNamespace::__OrderedSet_1__Node<T>* next);
 
-  /// @brief Method RemoveNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveNode(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method UpdateSortedPosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateSortedPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateSortedPosition(::GlobalNamespace::__OrderedSet_1__Node<T>* node);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetFirstOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetFirstOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetFirstOrDefault();
 
-  /// @brief Method TryGetFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetFirst(ByRef<T> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedSet_1", modifiers: "&&", def_value: None }]

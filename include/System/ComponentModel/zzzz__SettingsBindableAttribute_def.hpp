@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::ComponentModel::SettingsBindableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8291))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9454))
 // CS Name: ::System.ComponentModel::SettingsBindableAttribute*
 class CORDL_TYPE SettingsBindableAttribute : public ::System::Attribute {
 public:
@@ -51,16 +51,16 @@ public:
 
   static inline ::System::ComponentModel::SettingsBindableAttribute* New_ctor(bool bindable);
 
-  /// @brief Method .ctor addr 0x279a1e4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x291820c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool bindable);
 
-  /// @brief Method get_Bindable addr 0x279a20c size 0x8 virtual false final false
+  /// @brief Method get_Bindable, addr 0x2918234, size 0x8, virtual false, abstract: false, final false
   inline bool get_Bindable();
 
-  /// @brief Method Equals addr 0x279a214 size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x291823c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x279a2a0 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x29182c8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SettingsBindableAttribute", modifiers: "&&", def_value: None }]

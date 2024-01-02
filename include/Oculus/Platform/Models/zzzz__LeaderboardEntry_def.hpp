@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardEntry)
 namespace Oculus::Platform::Models {
-class SupplementaryMetric;
+class User;
 }
 namespace Oculus::Platform::Models {
-class User;
+class SupplementaryMetric;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LeaderboardEntry);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13449))
 // CS Name: ::Oculus.Platform.Models::LeaderboardEntry*
 class CORDL_TYPE LeaderboardEntry : public ::System::Object {
 public:
@@ -113,7 +113,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LeaderboardEntry* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b40f0 size 0x1ac virtual false final false
+  /// @brief Method .ctor, addr 0x2706a8c, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardEntry", modifiers: "&&", def_value: None }]

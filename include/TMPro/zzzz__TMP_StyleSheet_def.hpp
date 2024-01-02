@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_StyleSheet)
-namespace TMPro {
-class TMP_Style;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace TMPro {
+class TMP_Style;
 }
 // Forward declare root types
 namespace TMPro {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::TMPro::TMP_StyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12353))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12425))
 // CS Name: ::TMPro::TMP_StyleSheet*
 class CORDL_TYPE TMP_StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
@@ -51,27 +51,27 @@ public:
 
   constexpr void __set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
 
-  /// @brief Method get_styles addr 0x2ac1258 size 0x8 virtual false final false
+  /// @brief Method get_styles, addr 0x2c44fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
 
-  /// @brief Method Reset addr 0x2ac1260 size 0x4 virtual false final false
+  /// @brief Method Reset, addr 0x2c44fb4, size 0x4, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetStyle addr 0x2ac157c size 0x88 virtual false final false
+  /// @brief Method GetStyle, addr 0x2c452d0, size 0x88, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
 
-  /// @brief Method GetStyle addr 0x2ac1604 size 0xb8 virtual false final false
+  /// @brief Method GetStyle, addr 0x2c45358, size 0xb8, virtual false, abstract: false, final false
   inline ::TMPro::TMP_Style* GetStyle(::StringW name);
 
-  /// @brief Method RefreshStyles addr 0x2ac16bc size 0x4 virtual false final false
+  /// @brief Method RefreshStyles, addr 0x2c45410, size 0x4, virtual false, abstract: false, final false
   inline void RefreshStyles();
 
-  /// @brief Method LoadStyleDictionaryInternal addr 0x2ac1264 size 0x318 virtual false final false
+  /// @brief Method LoadStyleDictionaryInternal, addr 0x2c44fb8, size 0x318, virtual false, abstract: false, final false
   inline void LoadStyleDictionaryInternal();
 
   static inline ::TMPro::TMP_StyleSheet* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ac16c0 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2c45414, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None }]

@@ -26,8 +26,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10969)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10969), inst: 3434 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11041)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11041), inst: 3508 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11053))
 // CS Name: ::Zenject::MonoMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
 class CORDL_TYPE MonoMemoryPool_4 : public ::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue> {
 public:
@@ -43,25 +43,25 @@ public:
 
   static inline ::Zenject::MonoMemoryPool_4<TParam1, TParam2, TParam3, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnCreated addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnCreated(TValue item);
 
-  /// @brief Method OnDestroyed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDestroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDestroyed(TValue item);
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnSpawned(TValue item);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDespawned(TValue item);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoMemoryPool_4", modifiers: "&&", def_value: None }]

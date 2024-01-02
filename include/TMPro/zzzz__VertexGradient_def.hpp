@@ -18,16 +18,16 @@ MARK_VAL_T(::TMPro::VertexGradient);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12245))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12317))
 // CS Name: ::TMPro::VertexGradient
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2a7bfe8 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2c00d3c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor addr 0x2a7c00c size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2c00d60, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters [CppParam { name: "topLeft", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topRight", ty: "::UnityEngine::Color", modifiers: "", def_value: None

@@ -9,9 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelFinishedController)
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace System {
@@ -19,6 +16,9 @@ template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class __MultiplayerLevelFinishedController___StartLevelFinished_d__19;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -33,13 +33,13 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLevelFinishedController___StartLe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5181))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5076))
 // CS Name: ::MultiplayerLevelFinishedController::<StartLevelFinished>d__19*
 class CORDL_TYPE __MultiplayerLevelFinishedController___StartLevelFinished_d__19 : public ::System::Object {
 public:
@@ -139,22 +139,22 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerLevelFinishedController___StartLevelFinished_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20e8770 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23ca280, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20e88d0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23ca3e0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20e88d4 size 0x4a0 virtual true final true
+  /// @brief Method MoveNext, addr 0x23ca3e4, size 0x4a0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20e8d74 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23ca884, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20e8d7c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23ca88c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20e8dbc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23ca8cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLevelFinishedController___StartLevelFinished_d__19", modifiers: "&&", def_value: None }]
@@ -216,8 +216,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelFinishedController__
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5182))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5077))
 // CS Name: ::MultiplayerLevelFinishedController*
 class CORDL_TYPE MultiplayerLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -311,44 +311,44 @@ public:
 
   constexpr void __set__sceneLoadTime(float_t value);
 
-  /// @brief Method add_allResultsCollectedEvent addr 0x20e80bc size 0xb0 virtual false final false
+  /// @brief Method add_allResultsCollectedEvent, addr 0x23c9bcc, size 0xb0, virtual false, abstract: false, final false
   inline void add_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                               ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method remove_allResultsCollectedEvent addr 0x20e816c size 0xb0 virtual false final false
+  /// @brief Method remove_allResultsCollectedEvent, addr 0x23c9c7c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_allResultsCollectedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelCompletionResults*,
                                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*>* value);
 
-  /// @brief Method get_gameResultsReady addr 0x20e821c size 0x8 virtual false final false
+  /// @brief Method get_gameResultsReady, addr 0x23c9d2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_gameResultsReady();
 
-  /// @brief Method get_otherPlayersCompletionResults addr 0x20e8224 size 0x8 virtual false final false
+  /// @brief Method get_otherPlayersCompletionResults, addr 0x23c9d34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* get_otherPlayersCompletionResults();
 
-  /// @brief Method get_localPlayerResults addr 0x20e822c size 0x8 virtual false final false
+  /// @brief Method get_localPlayerResults, addr 0x23c9d3c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* get_localPlayerResults();
 
-  /// @brief Method Start addr 0x20e8234 size 0x260 virtual false final false
+  /// @brief Method Start, addr 0x23c9d44, size 0x260, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20e8494 size 0x268 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23c9fa4, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartLevelFinished addr 0x20e86fc size 0x74 virtual false final false
+  /// @brief Method StartLevelFinished, addr 0x23ca20c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevelFinished(::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResults);
 
-  /// @brief Method HandlePlayerDidFinish addr 0x20e8798 size 0x20 virtual false final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x23ca2a8, size 0x20, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandlePlayerNetworkDidFailed addr 0x20e87b8 size 0x34 virtual false final false
+  /// @brief Method HandlePlayerNetworkDidFailed, addr 0x23ca2c8, size 0x34, virtual false, abstract: false, final false
   inline void HandlePlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method HandleRpcLevelFinished addr 0x20e87ec size 0x68 virtual false final false
+  /// @brief Method HandleRpcLevelFinished, addr 0x23ca2fc, size 0x68, virtual false, abstract: false, final false
   inline void HandleRpcLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   static inline ::GlobalNamespace::MultiplayerLevelFinishedController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e8854 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x23ca364, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelFinishedController", modifiers: "&&", def_value: None }]

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UrlAndHash)
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsContext;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::UrlAndHash);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1333))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::UrlAndHash*
 class CORDL_TYPE UrlAndHash : public ::System::Object {
@@ -53,19 +53,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* New_ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method .ctor addr 0xf49b24 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xfbfd70, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW url, ::ArrayW<uint8_t, ::Array<uint8_t>*> sha1Hash);
 
-  /// @brief Method get_Url addr 0xf49c0c size 0x8 virtual true final false
+  /// @brief Method get_Url, addr 0xfbfe58, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method get_Sha1Hash addr 0xf49c14 size 0x8 virtual true final false
+  /// @brief Method get_Sha1Hash, addr 0xfbfe60, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Sha1Hash();
 
-  /// @brief Method Encode addr 0xf49c1c size 0x100 virtual true final false
+  /// @brief Method Encode, addr 0xfbfe68, size 0x100, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf49d1c size 0x188 virtual false final false
+  /// @brief Method Parse, addr 0xfbff68, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::UrlAndHash* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "UrlAndHash", modifiers: "&&", def_value: None }]

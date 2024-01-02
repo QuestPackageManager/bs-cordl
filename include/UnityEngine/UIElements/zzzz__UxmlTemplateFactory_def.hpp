@@ -11,10 +11,10 @@ namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7061)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5171
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6830))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7060)) CS Name: ::UnityEngine.UIElements::UxmlTemplateFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6975)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5287
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6974)) CS Name: ::UnityEngine.UIElements::UxmlTemplateFactory*
 class CORDL_TYPE UxmlTemplateFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlTemplateTraits*> {
 public:
   // Declarations
@@ -35,18 +35,18 @@ public:
 
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlName addr 0x2ca7f50 size 0x40 virtual true final false
+  /// @brief Method get_uxmlName, addr 0x2e0e300, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlQualifiedName addr 0x2ca7f90 size 0x74 virtual true final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x2e0e340, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method Create addr 0x2ca8004 size 0x8 virtual true final false
+  /// @brief Method Create, addr 0x2e0e3b4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTemplateFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca800c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0e3bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateFactory", modifiers: "&&", def_value: None }]

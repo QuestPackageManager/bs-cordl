@@ -22,20 +22,20 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 class CORDL_TYPE Exportable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
   // Declarations
-  /// @brief Method BooleanToByteArray addr 0x1156210 size 0x6c virtual false final false
+  /// @brief Method BooleanToByteArray, addr 0x11c7460, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool val);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x115627c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x11c74cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::Exportable* New_ctor(bool critical, bool isExportable);
 
-  /// @brief Method .ctor addr 0x11562c4 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x11c7514, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isExportable);
 
-  /// @brief Method IsExportable addr 0x1156310 size 0x30 virtual false final false
+  /// @brief Method IsExportable, addr 0x11c7560, size 0x30, virtual false, abstract: false, final false
   inline bool IsExportable();
 
   // Ctor Parameters [CppParam { name: "", ty: "Exportable", modifiers: "&&", def_value: None }]

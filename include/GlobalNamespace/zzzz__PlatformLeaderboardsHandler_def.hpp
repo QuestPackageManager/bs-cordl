@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsHandler)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
 }
 namespace GlobalNamespace {
 class __LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,24 +34,24 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformLeaderboardsHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4258))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4225))
 // CS Name: ::PlatformLeaderboardsHandler*
 class CORDL_TYPE PlatformLeaderboardsHandler : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetScores addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetScores, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope, ::StringW referencePlayerId,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method UploadScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UploadScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d9804 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x232a4f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsHandler", modifiers: "&&", def_value: None }]

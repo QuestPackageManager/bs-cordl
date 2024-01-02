@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 template <typename T>
 constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>&
 GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__transparentObjectMaterialPropertyBlocks() {
@@ -163,8 +163,9 @@ template <typename T> inline int32_t GlobalNamespace::DisappearingArrowControlle
   return ::cordl_internals::getStaticField<int32_t, "_colorId", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get>();
 }
 template <typename T> inline T GlobalNamespace::DisappearingArrowControllerBase_1<T>::get_gameNoteController() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             "get_gameNoteController", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::Awake() {

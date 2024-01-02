@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto::Operators {
 class CORDL_TYPE WrapperProvider {
 public:
   // Declarations
-  /// @brief Method CreateWrapper addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateWrapper, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "WrapperProvider", modifiers: "&&", def_value: None }]

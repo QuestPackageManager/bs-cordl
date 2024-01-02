@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(NoteCutFloorLightStreakTileEffectSpawner)
 namespace GlobalNamespace {
 class BeatmapObjectManager;
 }
+namespace GlobalNamespace {
+struct NoteCutInfo;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-struct NoteCutInfo;
-}
 namespace Ice {
 class FloorLightStreakTileEffect;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace Ice {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawner);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16171))
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawner*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -78,24 +78,24 @@ public:
 
   constexpr void __set__spawnColor(::UnityEngine::Color value);
 
-  /// @brief Method set_spawnColor addr 0x122db7c size 0xc virtual false final false
+  /// @brief Method set_spawnColor, addr 0x129fea4, size 0xc, virtual false, abstract: false, final false
   inline void set_spawnColor(::UnityEngine::Color value);
 
-  /// @brief Method get_spawnColor addr 0x122db88 size 0xc virtual false final false
+  /// @brief Method get_spawnColor, addr 0x129feb0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_spawnColor();
 
-  /// @brief Method Start addr 0x122db94 size 0x8c virtual false final false
+  /// @brief Method Start, addr 0x129febc, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x122dc20 size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x129ff48, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut addr 0x122dcb8 size 0x64 virtual false final false
+  /// @brief Method HandleNoteWasCut, addr 0x129ffe0, size 0x64, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x122dd1c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x12a0044, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags)
 namespace System::Threading::Tasks::Sources {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2817))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2821))
 // CS Name: ::System.Threading.Tasks.Sources::ValueTaskSourceOnCompletedFlags
 struct CORDL_TYPE ValueTaskSourceOnCompletedFlags {
 public:

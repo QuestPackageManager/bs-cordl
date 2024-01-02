@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::CustomErrorsModes);
 namespace System::Runtime::Remoting {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3054))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3055))
 // CS Name: ::System.Runtime.Remoting::CustomErrorsModes
 struct CORDL_TYPE CustomErrorsModes {
 public:

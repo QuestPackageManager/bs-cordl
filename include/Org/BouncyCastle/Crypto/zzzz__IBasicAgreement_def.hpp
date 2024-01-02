@@ -26,13 +26,13 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IBasicAgreement {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetFieldSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetFieldSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetFieldSize();
 
-  /// @brief Method CalculateAgreement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CalculateAgreement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* pubKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBasicAgreement", modifiers: "&&", def_value: None }]

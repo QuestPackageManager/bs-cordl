@@ -13,52 +13,58 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Selectable)
 namespace UnityEngine::UI {
-struct SpriteState;
+struct ColorBlock;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine::EventSystems {
-class ISelectHandler;
+class PointerEventData;
+}
+namespace UnityEngine {
+class Animator;
+}
+namespace UnityEngine {
+class CanvasGroup;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
 }
 namespace UnityEngine::UI {
-struct __Selectable__SelectionState;
+struct Navigation;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine::EventSystems {
 class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class IMoveHandler;
 }
 namespace UnityEngine::UI {
-struct ColorBlock;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class RectTransform;
+struct SpriteState;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
@@ -66,32 +72,26 @@ class AxisEventData;
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace UnityEngine::UI {
-class AnimationTriggers;
-}
-namespace UnityEngine {
-class Animator;
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::UI {
-struct __Selectable__Transition;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UI {
-class Graphic;
+struct __Selectable__SelectionState;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class IMoveHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine::UI {
-struct Navigation;
+class AnimationTriggers;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
+}
+namespace UnityEngine::UI {
+struct __Selectable__Transition;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -112,7 +112,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Selectable);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13122))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13117))
 // CS Name: ::Selectable::Transition
 struct CORDL_TYPE __Selectable__Transition {
 public:
@@ -170,7 +170,7 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__Transition, value__) == 
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13123))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13118))
 // CS Name: ::Selectable::SelectionState
 struct CORDL_TYPE __Selectable__SelectionState {
 public:
@@ -231,8 +231,8 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__SelectionState, value__)
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13028)), TypeDefinitionIndex(TypeDefinitionIndex(13110)), TypeDefinitionIndex(TypeDefinitionIndex(13130)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13219)), TypeDefinitionIndex(TypeDefinitionIndex(13122))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Selectable*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13023)), TypeDefinitionIndex(TypeDefinitionIndex(13125)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13117))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
 class CORDL_TYPE Selectable : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -430,189 +430,189 @@ public:
 
   static inline int32_t getStaticF_s_SelectableCount();
 
-  /// @brief Method get_allSelectablesArray addr 0x2c1e418 size 0x9c virtual false final false
+  /// @brief Method get_allSelectablesArray, addr 0x2d867c8, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> get_allSelectablesArray();
 
-  /// @brief Method get_allSelectableCount addr 0x2c1e4b4 size 0x58 virtual false final false
+  /// @brief Method get_allSelectableCount, addr 0x2d86864, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_allSelectableCount();
 
-  /// @brief Method get_allSelectables addr 0x2c1e50c size 0xa4 virtual false final false
+  /// @brief Method get_allSelectables, addr 0x2d868bc, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>* get_allSelectables();
 
-  /// @brief Method AllSelectablesNoAlloc addr 0x2c1e5b0 size 0xbc virtual false final false
+  /// @brief Method AllSelectablesNoAlloc, addr 0x2d86960, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t AllSelectablesNoAlloc(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> selectables);
 
-  /// @brief Method get_navigation addr 0x2c1e66c size 0x14 virtual false final false
+  /// @brief Method get_navigation, addr 0x2d86a1c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Navigation get_navigation();
 
-  /// @brief Method set_navigation addr 0x2c1e680 size 0x88 virtual false final false
+  /// @brief Method set_navigation, addr 0x2d86a30, size 0x88, virtual false, abstract: false, final false
   inline void set_navigation(::UnityEngine::UI::Navigation value);
 
-  /// @brief Method get_transition addr 0x2c1e76c size 0x8 virtual false final false
+  /// @brief Method get_transition, addr 0x2d86b1c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Selectable__Transition get_transition();
 
-  /// @brief Method set_transition addr 0x2c1e774 size 0x74 virtual false final false
+  /// @brief Method set_transition, addr 0x2d86b24, size 0x74, virtual false, abstract: false, final false
   inline void set_transition(::UnityEngine::UI::__Selectable__Transition value);
 
-  /// @brief Method get_colors addr 0x2c1e7e8 size 0x10 virtual false final false
+  /// @brief Method get_colors, addr 0x2d86b98, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::ColorBlock get_colors();
 
-  /// @brief Method set_colors addr 0x2c1e7f8 size 0x98 virtual false final false
+  /// @brief Method set_colors, addr 0x2d86ba8, size 0x98, virtual false, abstract: false, final false
   inline void set_colors(::UnityEngine::UI::ColorBlock value);
 
-  /// @brief Method get_spriteState addr 0x2c1e890 size 0x10 virtual false final false
+  /// @brief Method get_spriteState, addr 0x2d86c40, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::SpriteState get_spriteState();
 
-  /// @brief Method set_spriteState addr 0x2c1e8a0 size 0x7c virtual false final false
+  /// @brief Method set_spriteState, addr 0x2d86c50, size 0x7c, virtual false, abstract: false, final false
   inline void set_spriteState(::UnityEngine::UI::SpriteState value);
 
-  /// @brief Method get_animationTriggers addr 0x2c1e91c size 0x8 virtual false final false
+  /// @brief Method get_animationTriggers, addr 0x2d86ccc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::AnimationTriggers* get_animationTriggers();
 
-  /// @brief Method set_animationTriggers addr 0x2c1e924 size 0x74 virtual false final false
+  /// @brief Method set_animationTriggers, addr 0x2d86cd4, size 0x74, virtual false, abstract: false, final false
   inline void set_animationTriggers(::UnityEngine::UI::AnimationTriggers* value);
 
-  /// @brief Method get_targetGraphic addr 0x2c1e998 size 0x8 virtual false final false
+  /// @brief Method get_targetGraphic, addr 0x2d86d48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Graphic* get_targetGraphic();
 
-  /// @brief Method set_targetGraphic addr 0x2c1e9a0 size 0x74 virtual false final false
+  /// @brief Method set_targetGraphic, addr 0x2d86d50, size 0x74, virtual false, abstract: false, final false
   inline void set_targetGraphic(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method get_interactable addr 0x2c1ea14 size 0x8 virtual false final false
+  /// @brief Method get_interactable, addr 0x2d86dc4, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method set_interactable addr 0x2c1ea1c size 0x170 virtual false final false
+  /// @brief Method set_interactable, addr 0x2d86dcc, size 0x170, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method get_isPointerInside addr 0x2c1eb8c size 0x8 virtual false final false
+  /// @brief Method get_isPointerInside, addr 0x2d86f3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPointerInside();
 
-  /// @brief Method set_isPointerInside addr 0x2c1eb94 size 0xc virtual false final false
+  /// @brief Method set_isPointerInside, addr 0x2d86f44, size 0xc, virtual false, abstract: false, final false
   inline void set_isPointerInside(bool value);
 
-  /// @brief Method get_isPointerDown addr 0x2c1eba0 size 0x8 virtual false final false
+  /// @brief Method get_isPointerDown, addr 0x2d86f50, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPointerDown();
 
-  /// @brief Method set_isPointerDown addr 0x2c1eba8 size 0xc virtual false final false
+  /// @brief Method set_isPointerDown, addr 0x2d86f58, size 0xc, virtual false, abstract: false, final false
   inline void set_isPointerDown(bool value);
 
-  /// @brief Method get_hasSelection addr 0x2c1ebb4 size 0x8 virtual false final false
+  /// @brief Method get_hasSelection, addr 0x2d86f64, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method set_hasSelection addr 0x2c1ebbc size 0xc virtual false final false
+  /// @brief Method set_hasSelection, addr 0x2d86f6c, size 0xc, virtual false, abstract: false, final false
   inline void set_hasSelection(bool value);
 
   static inline ::UnityEngine::UI::Selectable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c18d48 size 0x118 virtual false final false
+  /// @brief Method .ctor, addr 0x2d810f8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_image addr 0x2c1ebc8 size 0x7c virtual false final false
+  /// @brief Method get_image, addr 0x2d86f78, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image* get_image();
 
-  /// @brief Method set_image addr 0x2c1ec44 size 0x8 virtual false final false
+  /// @brief Method set_image, addr 0x2d86ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_animator addr 0x2c1ec4c size 0x48 virtual false final false
+  /// @brief Method get_animator, addr 0x2d86ffc, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Animator* get_animator();
 
-  /// @brief Method Awake addr 0x2c1ec94 size 0x8c virtual true final false
+  /// @brief Method Awake, addr 0x2d87044, size 0x8c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnCanvasGroupChanged addr 0x2c1ed20 size 0x1c0 virtual true final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x2d870d0, size 0x1c0, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
-  /// @brief Method IsInteractable addr 0x2c1eee0 size 0x20 virtual true final false
+  /// @brief Method IsInteractable, addr 0x2d87290, size 0x20, virtual true, abstract: false, final false
   inline bool IsInteractable();
 
-  /// @brief Method OnDidApplyAnimationProperties addr 0x2c1ef00 size 0x4 virtual true final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x2d872b0, size 0x4, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnEnable addr 0x2c1917c size 0x2a8 virtual true final false
+  /// @brief Method OnEnable, addr 0x2d8152c, size 0x2a8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnTransformParentChanged addr 0x2c1ef54 size 0x28 virtual true final false
+  /// @brief Method OnTransformParentChanged, addr 0x2d87304, size 0x28, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method OnSetProperty addr 0x2c1e708 size 0x64 virtual false final false
+  /// @brief Method OnSetProperty, addr 0x2d86ab8, size 0x64, virtual false, abstract: false, final false
   inline void OnSetProperty();
 
-  /// @brief Method OnDisable addr 0x2c19444 size 0x128 virtual true final false
+  /// @brief Method OnDisable, addr 0x2d817f4, size 0x128, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnApplicationFocus addr 0x2c1ef7c size 0x5c virtual false final false
+  /// @brief Method OnApplicationFocus, addr 0x2d8732c, size 0x5c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method get_currentSelectionState addr 0x2c1ef04 size 0x50 virtual false final false
+  /// @brief Method get_currentSelectionState, addr 0x2d872b4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Selectable__SelectionState get_currentSelectionState();
 
-  /// @brief Method InstantClearState addr 0x2c1f024 size 0x70 virtual true final false
+  /// @brief Method InstantClearState, addr 0x2d873d4, size 0x70, virtual true, abstract: false, final false
   inline void InstantClearState();
 
-  /// @brief Method DoStateTransition addr 0x2c1f3ac size 0x194 virtual true final false
+  /// @brief Method DoStateTransition, addr 0x2d8775c, size 0x194, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
-  /// @brief Method FindSelectable addr 0x2c1f540 size 0x4ac virtual false final false
+  /// @brief Method FindSelectable, addr 0x2d878f0, size 0x4ac, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* FindSelectable(::UnityEngine::Vector3 dir);
 
-  /// @brief Method GetPointOnRectEdge addr 0x2c1f9ec size 0x1a4 virtual false final false
+  /// @brief Method GetPointOnRectEdge, addr 0x2d87d9c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPointOnRectEdge(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 dir);
 
-  /// @brief Method Navigate addr 0x2c1fb90 size 0xb8 virtual false final false
+  /// @brief Method Navigate, addr 0x2d87f40, size 0xb8, virtual false, abstract: false, final false
   inline void Navigate(::UnityEngine::EventSystems::AxisEventData* eventData, ::UnityEngine::UI::Selectable* sel);
 
-  /// @brief Method FindSelectableOnLeft addr 0x2c1a1ac size 0xd8 virtual true final false
+  /// @brief Method FindSelectableOnLeft, addr 0x2d8255c, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* FindSelectableOnLeft();
 
-  /// @brief Method FindSelectableOnRight addr 0x2c1a2a8 size 0xd8 virtual true final false
+  /// @brief Method FindSelectableOnRight, addr 0x2d82658, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* FindSelectableOnRight();
 
-  /// @brief Method FindSelectableOnUp addr 0x2c1a3a4 size 0xd8 virtual true final false
+  /// @brief Method FindSelectableOnUp, addr 0x2d82754, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* FindSelectableOnUp();
 
-  /// @brief Method FindSelectableOnDown addr 0x2c1a4a0 size 0xd8 virtual true final false
+  /// @brief Method FindSelectableOnDown, addr 0x2d82850, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* FindSelectableOnDown();
 
-  /// @brief Method OnMove addr 0x2c1a0fc size 0x8c virtual true final false
+  /// @brief Method OnMove, addr 0x2d824ac, size 0x8c, virtual true, abstract: false, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method StartColorTween addr 0x2c1f094 size 0xe8 virtual false final false
+  /// @brief Method StartColorTween, addr 0x2d87444, size 0xe8, virtual false, abstract: false, final false
   inline void StartColorTween(::UnityEngine::Color targetColor, bool instant);
 
-  /// @brief Method DoSpriteSwap addr 0x2c1f17c size 0xa8 virtual false final false
+  /// @brief Method DoSpriteSwap, addr 0x2d8752c, size 0xa8, virtual false, abstract: false, final false
   inline void DoSpriteSwap(::UnityEngine::Sprite* newSprite);
 
-  /// @brief Method TriggerAnimation addr 0x2c1f224 size 0x188 virtual false final false
+  /// @brief Method TriggerAnimation, addr 0x2d875d4, size 0x188, virtual false, abstract: false, final false
   inline void TriggerAnimation(::StringW triggername);
 
-  /// @brief Method IsHighlighted addr 0x2c1fc48 size 0x5c virtual false final false
+  /// @brief Method IsHighlighted, addr 0x2d87ff8, size 0x5c, virtual false, abstract: false, final false
   inline bool IsHighlighted();
 
-  /// @brief Method IsPressed addr 0x2c1efd8 size 0x4c virtual false final false
+  /// @brief Method IsPressed, addr 0x2d87388, size 0x4c, virtual false, abstract: false, final false
   inline bool IsPressed();
 
-  /// @brief Method EvaluateAndTransitionToSelectionState addr 0x2c1fca4 size 0x98 virtual false final false
+  /// @brief Method EvaluateAndTransitionToSelectionState, addr 0x2d88054, size 0x98, virtual false, abstract: false, final false
   inline void EvaluateAndTransitionToSelectionState();
 
-  /// @brief Method OnPointerDown addr 0x2c19bd4 size 0x130 virtual true final false
+  /// @brief Method OnPointerDown, addr 0x2d81f84, size 0x130, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp addr 0x2c19e10 size 0x28 virtual true final false
+  /// @brief Method OnPointerUp, addr 0x2d821c0, size 0x28, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter addr 0x2c1fd3c size 0xc virtual true final false
+  /// @brief Method OnPointerEnter, addr 0x2d880ec, size 0xc, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit addr 0x2c1fd48 size 0x8 virtual true final false
+  /// @brief Method OnPointerExit, addr 0x2d880f8, size 0x8, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect addr 0x2c1fd50 size 0xc virtual true final false
+  /// @brief Method OnSelect, addr 0x2d88100, size 0xc, virtual true, abstract: false, final false
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDeselect addr 0x2c1fd5c size 0x8 virtual true final false
+  /// @brief Method OnDeselect, addr 0x2d8810c, size 0x8, virtual true, abstract: false, final false
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Select addr 0x2c1fd64 size 0x104 virtual true final false
+  /// @brief Method Select, addr 0x2d88114, size 0x104, virtual true, abstract: false, final false
   inline void Select();
 
   // Ctor Parameters [CppParam { name: "", ty: "Selectable", modifiers: "&&", def_value: None }]

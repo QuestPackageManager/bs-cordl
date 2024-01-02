@@ -9,14 +9,14 @@ CORDL_MODULE_EXPORT(ReflectionTypeLoadException)
 namespace System {
 class Exception;
 }
-namespace System::Runtime::Serialization {
-class ISerializable;
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
-namespace System {
-class Type;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Reflection::ReflectionTypeLoadException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3484))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3489))
 // CS Name: ::System.Reflection::ReflectionTypeLoadException*
 class CORDL_TYPE ReflectionTypeLoadException : public ::System::SystemException {
 public:
@@ -66,27 +66,27 @@ public:
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes,
                                                                             ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);
 
-  /// @brief Method .ctor addr 0x238ffe0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x24e9a98, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes, ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x239001c size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0x24e9ad4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x2390154 size 0x128 virtual true final false
+  /// @brief Method GetObjectData, addr 0x24e9c0c, size 0x128, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_LoaderExceptions addr 0x239027c size 0x8 virtual false final false
+  /// @brief Method get_LoaderExceptions, addr 0x24e9d34, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> get_LoaderExceptions();
 
-  /// @brief Method get_Message addr 0x2390284 size 0x8 virtual true final false
+  /// @brief Method get_Message, addr 0x24e9d3c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method ToString addr 0x23903c4 size 0x8 virtual true final false
+  /// @brief Method ToString, addr 0x24e9e7c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method CreateString addr 0x239028c size 0x138 virtual false final false
+  /// @brief Method CreateString, addr 0x24e9d44, size 0x138, virtual false, abstract: false, final false
   inline ::StringW CreateString(bool isMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionTypeLoadException", modifiers: "&&", def_value: None }]

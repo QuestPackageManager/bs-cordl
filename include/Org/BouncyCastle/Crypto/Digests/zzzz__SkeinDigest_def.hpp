@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkeinDigest)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Crypto::Digests {
-class SkeinEngine;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class SkeinParameters;
 }
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
+namespace Org::BouncyCastle::Crypto::Digests {
+class SkeinEngine;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::SkeinDigest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(776))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::SkeinDigest*
 class CORDL_TYPE SkeinDigest : public ::System::Object {
@@ -54,42 +54,42 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
-  /// @brief Method .ctor addr 0xe31e9c size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0xea6070, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t stateSizeBits, int32_t digestSizeBits);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::SkeinDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
-  /// @brief Method .ctor addr 0xe320cc size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0xea62a0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::SkeinDigest* digest);
 
-  /// @brief Method Reset addr 0xe3219c size 0x8c virtual true final true
+  /// @brief Method Reset, addr 0xea6370, size 0x8c, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Copy addr 0xe3234c size 0x60 virtual true final true
+  /// @brief Method Copy, addr 0xea6520, size 0x60, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method get_AlgorithmName addr 0xe323ac size 0x1c4 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xea6580, size 0x1c4, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xe32594 size 0x1c virtual true final true
+  /// @brief Method GetDigestSize, addr 0xea6768, size 0x1c, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength addr 0xe325b0 size 0x2c virtual true final true
+  /// @brief Method GetByteLength, addr 0xea6784, size 0x2c, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method Init addr 0xe320b4 size 0x18 virtual false final false
+  /// @brief Method Init, addr 0xea6288, size 0x18, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::SkeinParameters* parameters);
 
-  /// @brief Method Reset addr 0xe32694 size 0x18 virtual true final true
+  /// @brief Method Reset, addr 0xea6868, size 0x18, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update addr 0xe326ec size 0x18 virtual true final true
+  /// @brief Method Update, addr 0xea68c0, size 0x18, virtual true, abstract: false, final true
   inline void Update(uint8_t inByte);
 
-  /// @brief Method BlockUpdate addr 0xe32738 size 0x18 virtual true final true
+  /// @brief Method BlockUpdate, addr 0xea690c, size 0x18, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0xe3279c size 0x18 virtual true final true
+  /// @brief Method DoFinal, addr 0xea6970, size 0x18, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "SkeinDigest", modifiers: "&&", def_value: None }]

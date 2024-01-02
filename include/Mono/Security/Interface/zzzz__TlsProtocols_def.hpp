@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::TlsProtocols);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13786))
 // CS Name: ::Mono.Security.Interface::TlsProtocols
 struct CORDL_TYPE TlsProtocols {
 public:

@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapObjectController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4850))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4729))
 // CS Name: ::IBeatmapObjectController*
 class CORDL_TYPE IBeatmapObjectController {
 public:
   // Declarations
-  /// @brief Method Dissolve addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dissolve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dissolve(float_t duration);
 
-  /// @brief Method Pause addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause(bool pause);
 
-  /// @brief Method Hide addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Hide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Hide(bool hide);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapObjectController", modifiers: "&&", def_value: None }]

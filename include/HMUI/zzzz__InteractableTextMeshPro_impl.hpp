@@ -1,17 +1,17 @@
 #pragma once
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "HMUI/zzzz__InteractableTextMeshPro_def.hpp"
-#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 //  Writing Method size for method: ::HMUI::InteractableTextMeshPro.OnCanvasGroupChanged
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTextMeshPro::*)()>(&::HMUI::InteractableTextMeshPro::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x1fc6134;
+  constexpr static std::size_t addrs = 0x211c390;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTextMeshPro*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTextMeshPro*>::get(), 14));
@@ -23,9 +23,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTextMeshPro::*)()>(&::HMUI::InteractableTextMeshPro::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1fc62c8;
+  constexpr static std::size_t addrs = 0x211c524;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTextMeshPro*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -80,8 +80,8 @@ constexpr void HMUI::InteractableTextMeshPro::__set__canvasGroupCache(::System::
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canvasGroupCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HMUI::InteractableTextMeshPro::OnCanvasGroupChanged() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTextMeshPro*>::get(), "OnCanvasGroupChanged",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTextMeshPro*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::HMUI::InteractableTextMeshPro* HMUI::InteractableTextMeshPro::New_ctor() {

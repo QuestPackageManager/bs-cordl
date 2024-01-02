@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputHDAInfo)
-namespace UnityEngine {
-class GameObject;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputHDAInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
 // CS Name: ::HoudiniEngineUnity::HEU_InputHDAInfo*
 class CORDL_TYPE HEU_InputHDAInfo : public ::System::Object {
 public:
@@ -57,15 +57,15 @@ public:
 
   constexpr void __set__connectedInputNodeID(int32_t value);
 
-  /// @brief Method CopyTo addr 0x20191f8 size 0x24 virtual false final false
+  /// @brief Method CopyTo, addr 0x2170b94, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
 
-  /// @brief Method IsEquivalentTo addr 0x201a8d0 size 0x130 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x217226c, size 0x130, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputHDAInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x20186f8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2170094, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputHDAInfo", modifiers: "&&", def_value: None }]

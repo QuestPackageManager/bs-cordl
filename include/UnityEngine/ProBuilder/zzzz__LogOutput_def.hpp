@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::LogOutput);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12064))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12136))
 // CS Name: ::UnityEngine.ProBuilder::LogOutput
 struct CORDL_TYPE LogOutput {
 public:

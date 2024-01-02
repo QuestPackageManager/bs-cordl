@@ -16,7 +16,7 @@ MARK_VAL_T(::System::LazyState);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2430))
 // CS Name: ::System::LazyState
 struct CORDL_TYPE LazyState {
 public:

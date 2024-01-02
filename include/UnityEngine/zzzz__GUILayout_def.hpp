@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(GUILayout)
 namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine {
 class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUIContent;
-}
-namespace UnityEngine {
-class GUIStyle;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -26,22 +26,22 @@ MARK_REF_PTR_T(::UnityEngine::GUILayout);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14618))
 // CS Name: ::UnityEngine::GUILayout*
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Label addr 0x2ba01f8 size 0xa8 virtual false final false
+  /// @brief Method Label, addr 0x2d08608, size 0xa8, virtual false, abstract: false, final false
   static inline void Label(::StringW text, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method DoLabel addr 0x2ba02a0 size 0xcc virtual false final false
+  /// @brief Method DoLabel, addr 0x2d086b0, size 0xcc, virtual false, abstract: false, final false
   static inline void DoLabel(::UnityEngine::GUIContent* content, ::UnityEngine::GUIStyle* style, ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method Width addr 0x2b95284 size 0x9c virtual false final false
+  /// @brief Method Width, addr 0x2cfd694, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
-  /// @brief Method Height addr 0x2b95320 size 0x9c virtual false final false
+  /// @brief Method Height, addr 0x2cfd730, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayout", modifiers: "&&", def_value: None }]

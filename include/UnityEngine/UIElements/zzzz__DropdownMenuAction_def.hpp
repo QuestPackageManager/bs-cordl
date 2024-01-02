@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DropdownMenuAction)
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine::UIElements {
 class DropdownMenuEventInfo;
-}
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+struct __DropdownMenuAction__Status;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuAction);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7033))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6947))
 // CS Name: ::DropdownMenuAction::Status
 struct CORDL_TYPE __DropdownMenuAction__Status {
 public:
@@ -99,8 +99,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownMenuAction__Status, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7031)), TypeDefinitionIndex(TypeDefinitionIndex(7033))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6945)), TypeDefinitionIndex(TypeDefinitionIndex(6947))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6948))
 // CS Name: ::UnityEngine.UIElements::DropdownMenuAction*
 class CORDL_TYPE DropdownMenuAction : public ::UnityEngine::UIElements::DropdownMenuItem {
 public:
@@ -169,24 +169,26 @@ public:
 
   constexpr void __set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* value);
 
-  /// @brief Method set_status addr 0x2ca21bc size 0x8 virtual false final false
+  /// @brief Method set_status, addr 0x2e0856c, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::__DropdownMenuAction__Status value);
 
-  /// @brief Method set_eventInfo addr 0x2ca21c4 size 0x8 virtual false final false
+  /// @brief Method set_eventInfo, addr 0x2e08574, size 0x8, virtual false, abstract: false, final false
   inline void set_eventInfo(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  /// @brief Method set_userData addr 0x2ca21cc size 0x8 virtual false final false
+  /// @brief Method set_userData, addr 0x2e0857c, size 0x8, virtual false, abstract: false, final false
   inline void set_userData(::System::Object* value);
 
   static inline ::UnityEngine::UIElements::DropdownMenuAction*
   New_ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
            ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
 
-  /// @brief Method .ctor addr 0x2ca21d4 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x2e08584, size 0x44, virtual false, abstract: false, final false
+  /// @param userData: ::System::Object* (default: nullptr)
   inline void _ctor(::StringW actionName, ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback,
-                    ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback, ::System::Object* userData);
+                    ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback,
+                    ::System::Object* userData = nullptr);
 
-  /// @brief Method UpdateActionStatus addr 0x2ca2218 size 0x3c virtual false final false
+  /// @brief Method UpdateActionStatus, addr 0x2e085c8, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateActionStatus(::UnityEngine::UIElements::DropdownMenuEventInfo* eventInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuAction", modifiers: "&&", def_value: None }]

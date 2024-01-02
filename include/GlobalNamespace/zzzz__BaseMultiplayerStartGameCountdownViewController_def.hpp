@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(BaseMultiplayerStartGameCountdownViewController)
 namespace GlobalNamespace {
-class ModifiersSelectionView;
-}
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class BeatmapSelectionView;
+class ILobbyPlayerData;
 }
 namespace HMUI {
 class ToggleBinder;
+}
+namespace GlobalNamespace {
+class ModifiersSelectionView;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
+class BeatmapSelectionView;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewControlle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5807))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5708))
 // CS Name: ::BaseMultiplayerStartGameCountdownViewController*
 class CORDL_TYPE BaseMultiplayerStartGameCountdownViewController : public ::HMUI::ViewController {
 public:
@@ -86,33 +86,33 @@ public:
 
   constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method add_playerActiveStateChangedEvent addr 0x218994c size 0xb0 virtual false final false
+  /// @brief Method add_playerActiveStateChangedEvent, addr 0x22cc348, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method remove_playerActiveStateChangedEvent addr 0x21899fc size 0xb0 virtual false final false
+  /// @brief Method remove_playerActiveStateChangedEvent, addr 0x22cc3f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  /// @brief Method SetLevelGameplaySetupData addr 0x2189aac size 0x13c virtual false final false
+  /// @brief Method SetLevelGameplaySetupData, addr 0x22cc4a8, size 0x13c, virtual false, abstract: false, final false
   inline void SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData);
 
-  /// @brief Method SetLobbyPlayerData addr 0x2189be8 size 0xc0 virtual true final false
+  /// @brief Method SetLobbyPlayerData, addr 0x22cc5e4, size 0xc0, virtual true, abstract: false, final false
   inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method DidActivate addr 0x2189ca8 size 0x9c virtual true final false
+  /// @brief Method DidActivate, addr 0x22cc6a4, size 0x9c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2189d44 size 0x1c virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22cc740, size 0x1c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x2189d60 size 0x1c virtual true final false
+  /// @brief Method OnDestroy, addr 0x22cc75c, size 0x1c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2189d7c size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22cc778, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__9_0 addr 0x2189de4 size 0x24 virtual false final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x22cc7e0, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseMultiplayerStartGameCountdownViewController", modifiers: "&&", def_value: None }]

@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabMethod_6)
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7> class Action_7;
-}
 namespace Zenject {
-class GameObjectContext;
+class GameObjectCreationParameters;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6> class __SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0;
@@ -19,22 +16,25 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class IPrefabProvider;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-class DiContainer;
+class GameObjectContext;
 }
 namespace System {
-class Object;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7> class Action_7;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -52,8 +52,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11216))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11288))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`6::<>c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -78,16 +78,16 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddInstallers>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddInstallers>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -120,8 +120,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11202))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11274))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11289))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_6 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
 public:
@@ -141,11 +141,11 @@ public:
   New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
            ::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* installerMethod);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                     ::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* installerMethod);
 
-  /// @brief Method AddInstallers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabMethod_6", modifiers: "&&", def_value: None }]

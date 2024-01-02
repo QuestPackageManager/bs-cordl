@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CustomYieldInstruction)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::CustomYieldInstruction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10169))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10242))
 // CS Name: ::UnityEngine::CustomYieldInstruction*
 class CORDL_TYPE CustomYieldInstruction : public ::System::Object {
 public:
@@ -33,21 +33,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method get_keepWaiting addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_keepWaiting();
 
-  /// @brief Method get_Current addr 0x2b6e754 size 0x8 virtual true final true
+  /// @brief Method get_Current, addr 0x2cd4ed4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x2b6e75c size 0xc virtual true final true
+  /// @brief Method MoveNext, addr 0x2cd4edc, size 0xc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2b6e768 size 0x4 virtual true final false
+  /// @brief Method Reset, addr 0x2cd4ee8, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::CustomYieldInstruction* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b68acc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccefd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomYieldInstruction", modifiers: "&&", def_value: None }]

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ITypeDescriptorContext);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8271))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9434))
 // CS Name: ::System.ComponentModel::ITypeDescriptorContext*
 class CORDL_TYPE ITypeDescriptorContext {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IContainer* get_Container();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorContext", modifiers: "&&", def_value: None }]

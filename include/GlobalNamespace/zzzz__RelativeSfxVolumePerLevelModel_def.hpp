@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RelativeSfxVolumePerLevelModel)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelSO;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeSfxVolumePerLevelModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4420))
 // CS Name: ::RelativeSfxVolumePerLevelModel*
 class CORDL_TYPE RelativeSfxVolumePerLevelModel : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::GlobalNamespace::RelativeSfxVolumePerLevelModel* New_ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData);
 
-  /// @brief Method .ctor addr 0x22015b0 size 0x114 virtual false final false
+  /// @brief Method .ctor, addr 0x234d86c, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RelativeSfxVolumePerLevelSO* relativeSfxVolumePerLevelData);
 
-  /// @brief Method GetRelativeSfxVolume addr 0x22016c4 size 0x7c virtual false final false
+  /// @brief Method GetRelativeSfxVolume, addr 0x234da20, size 0x7c, virtual false, abstract: false, final false
   inline float_t GetRelativeSfxVolume(::StringW levelId);
 
   // Ctor Parameters [CppParam { name: "", ty: "RelativeSfxVolumePerLevelModel", modifiers: "&&", def_value: None }]

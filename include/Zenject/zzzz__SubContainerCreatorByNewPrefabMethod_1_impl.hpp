@@ -2,16 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_1_def.hpp"
-#include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_1_def.hpp"
+#include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "Zenject/zzzz__GameObjectContext_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "Zenject/zzzz__TypeValuePair_def.hpp"
+#include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "Zenject/zzzz__GameObjectContext_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TParam1> constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_1<TParam1>*& Zenject::__SubContainerCreatorByNewPrefabMethod_1____c__DisplayClass2_0<TParam1>::__get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
@@ -107,10 +107,9 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod_1<TParam1>::_ctor(::Ze
 }
 template <typename TParam1>
 inline void Zenject::SubContainerCreatorByNewPrefabMethod_1<TParam1>::AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_1<TParam1>*>::get(), "AddInstallers", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::GameObjectContext*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_1<TParam1>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
 }
 // Ctor Parameters []

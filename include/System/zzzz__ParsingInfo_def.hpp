@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParsingInfo)
 namespace System {
-struct __DateTimeParse__TM;
+class __DateTimeParse__MatchNumberDelegate;
 }
 namespace System::Globalization {
 class Calendar;
 }
 namespace System {
-class __DateTimeParse__MatchNumberDelegate;
+struct __DateTimeParse__TM;
 }
 // Forward declare root types
 namespace System {
@@ -31,7 +31,7 @@ namespace System {
 struct CORDL_TYPE ParsingInfo {
 public:
   // Declarations
-  /// @brief Method Init addr 0x244a414 size 0xc virtual false final false
+  /// @brief Method Init, addr 0x25a5a54, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "calendar", ty: "::System::Globalization::Calendar*", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:

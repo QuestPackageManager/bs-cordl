@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IRuntimePanelComponent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6878))
 // CS Name: ::UnityEngine.UIElements::IRuntimePanelComponent*
 class CORDL_TYPE IRuntimePanelComponent {
 public:
   // Declarations
   __declspec(property(put = set_panel))::UnityEngine::UIElements::IPanel* panel;
 
-  /// @brief Method set_panel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_panel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_panel(::UnityEngine::UIElements::IPanel* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IRuntimePanelComponent", modifiers: "&&", def_value: None }]

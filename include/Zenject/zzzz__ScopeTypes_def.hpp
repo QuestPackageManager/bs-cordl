@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::ScopeTypes);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10870))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10942))
 // CS Name: ::Zenject::ScopeTypes
 struct CORDL_TYPE ScopeTypes {
 public:

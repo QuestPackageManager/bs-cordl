@@ -9,19 +9,19 @@ namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
+class Clickable;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
-class Clickable;
-}
-namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class Label;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseBoolField);
 // SizeInfo { instance_size: 1064, native_size: -1, calculated_instance_size: 1064, calculated_native_size: 1064, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7216), inst: 112 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 105 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7067))
 // CS Name: ::UnityEngine.UIElements::BaseBoolField*
 class CORDL_TYPE BaseBoolField : public ::UnityEngine::UIElements::BaseField_1<bool> {
 public:
@@ -79,34 +79,34 @@ public:
 
   static inline ::UnityEngine::UIElements::BaseBoolField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor addr 0x2cc3f5c size 0x29c virtual false final false
+  /// @brief Method .ctor, addr 0x2e2b30c, size 0x29c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
-  /// @brief Method OnNavigationSubmit addr 0x2cc4280 size 0x34 virtual false final false
+  /// @brief Method OnNavigationSubmit, addr 0x2e2b630, size 0x34, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
-  /// @brief Method OnKeyDown addr 0x2cc42b4 size 0x114 virtual false final false
+  /// @brief Method OnKeyDown, addr 0x2e2b664, size 0x114, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method get_text addr 0x2cc43c8 size 0x1c virtual false final false
+  /// @brief Method get_text, addr 0x2e2b778, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text addr 0x2cc41f8 size 0x88 virtual false final false
+  /// @brief Method set_text, addr 0x2e2b5a8, size 0x88, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method InitLabel addr 0x2cc43e4 size 0x94 virtual true final false
+  /// @brief Method InitLabel, addr 0x2e2b794, size 0x94, virtual true, abstract: false, final false
   inline void InitLabel();
 
-  /// @brief Method SetValueWithoutNotify addr 0x2cc4478 size 0xe0 virtual true final false
+  /// @brief Method SetValueWithoutNotify, addr 0x2e2b828, size 0xe0, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method OnClickEvent addr 0x2cc4558 size 0x288 virtual false final false
+  /// @brief Method OnClickEvent, addr 0x2e2b908, size 0x288, virtual false, abstract: false, final false
   inline void OnClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ToggleValue addr 0x2cc47e0 size 0x38 virtual true final false
+  /// @brief Method ToggleValue, addr 0x2e2bb90, size 0x38, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UpdateMixedValueContent addr 0x2cc4818 size 0x184 virtual true final false
+  /// @brief Method UpdateMixedValueContent, addr 0x2e2bbc8, size 0x184, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseBoolField", modifiers: "&&", def_value: None }]

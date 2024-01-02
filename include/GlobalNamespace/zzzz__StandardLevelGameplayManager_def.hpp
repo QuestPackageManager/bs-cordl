@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelGameplayManager)
+namespace GlobalNamespace {
+class __StandardLevelGameplayManager___Start_d__22;
+}
 namespace System {
 template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-struct __StandardLevelGameplayManager__GameState;
 }
 namespace GlobalNamespace {
 class __StandardLevelGameplayManager__InitData;
 }
 namespace GlobalNamespace {
-class GameSongController;
-}
-namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace GlobalNamespace {
 class PauseController;
-}
-namespace GlobalNamespace {
-class GameEnergyCounter;
-}
-namespace GlobalNamespace {
-class __StandardLevelGameplayManager___Start_d__22;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class GameEnergyCounter;
+}
+namespace GlobalNamespace {
+class ILevelStartController;
 }
 namespace GlobalNamespace {
 class ILevelEndActions;
+}
+namespace GlobalNamespace {
+struct __StandardLevelGameplayManager__GameState;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace GlobalNamespace {
+class GameSongController;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -48,10 +48,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelGameplayManager___Start_d__22);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5128))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5023))
 // CS Name: ::StandardLevelGameplayManager::InitData*
 class CORDL_TYPE __StandardLevelGameplayManager__InitData : public ::System::Object {
 public:
@@ -92,7 +92,7 @@ public:
 
   static inline ::GlobalNamespace::__StandardLevelGameplayManager__InitData* New_ctor(bool failOn0Energy);
 
-  /// @brief Method .ctor addr 0x22844c8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23bd840, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool failOn0Energy);
 
   // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelGameplayManager__InitData", modifiers: "&&", def_value: None }]
@@ -125,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelGameplayManager__InitDa
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5024))
 // CS Name: ::StandardLevelGameplayManager::GameState
 struct CORDL_TYPE __StandardLevelGameplayManager__GameState {
 public:
@@ -186,8 +186,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelGameplayManager__GameSt
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5130))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5025))
 // CS Name: ::StandardLevelGameplayManager::<Start>d__22*
 class CORDL_TYPE __StandardLevelGameplayManager___Start_d__22 : public ::System::Object {
 public:
@@ -234,22 +234,22 @@ public:
 
   static inline ::GlobalNamespace::__StandardLevelGameplayManager___Start_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2284110 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23bd384, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x22844f0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23bd868, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x22844f4 size 0x380 virtual true final true
+  /// @brief Method MoveNext, addr 0x23bd86c, size 0x374, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2284874 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23bdbe0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x228487c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23bdbe8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x22848bc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23bdc28, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StandardLevelGameplayManager___Start_d__22", modifiers: "&&", def_value: None }]
@@ -291,8 +291,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelGameplayManager___Start
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5129))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5131))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5024))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5026))
 // CS Name: ::StandardLevelGameplayManager*
 class CORDL_TYPE StandardLevelGameplayManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -408,60 +408,60 @@ public:
 
   constexpr void __set__prePauseGameState(::GlobalNamespace::__StandardLevelGameplayManager__GameState value);
 
-  /// @brief Method add_levelWillStartIntroEvent addr 0x2283bc0 size 0x9c virtual true final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x23bce34, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent addr 0x2283c5c size 0x9c virtual true final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x23bced0, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method add_levelDidStartEvent addr 0x2283cf8 size 0x9c virtual true final true
+  /// @brief Method add_levelDidStartEvent, addr 0x23bcf6c, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelDidStartEvent addr 0x2283d94 size 0x9c virtual true final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x23bd008, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent addr 0x2283e30 size 0x9c virtual true final true
+  /// @brief Method add_levelFailedEvent, addr 0x23bd0a4, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent addr 0x2283ecc size 0x9c virtual true final true
+  /// @brief Method remove_levelFailedEvent, addr 0x23bd140, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent addr 0x2283f68 size 0x9c virtual true final true
+  /// @brief Method add_levelFinishedEvent, addr 0x23bd1dc, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent addr 0x2284004 size 0x9c virtual true final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x23bd278, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method Awake addr 0x22840a0 size 0x8 virtual false final false
+  /// @brief Method Awake, addr 0x23bd314, size 0x8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x22840a8 size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x23bd31c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method OnDestroy addr 0x2284138 size 0x274 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23bd3ac, size 0x268, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x22843ac size 0x38 virtual false final false
+  /// @brief Method Update, addr 0x23bd614, size 0x34, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleGameEnergyDidReach0 addr 0x22843e4 size 0x54 virtual false final false
+  /// @brief Method HandleGameEnergyDidReach0, addr 0x23bd75c, size 0x54, virtual false, abstract: false, final false
   inline void HandleGameEnergyDidReach0();
 
-  /// @brief Method HandleSongDidFinish addr 0x2284438 size 0x34 virtual false final false
+  /// @brief Method HandleSongDidFinish, addr 0x23bd7b0, size 0x34, virtual false, abstract: false, final false
   inline void HandleSongDidFinish();
 
-  /// @brief Method HandlePauseControllerCanPause addr 0x228446c size 0x24 virtual false final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x23bd7e4, size 0x24, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause addr 0x2284490 size 0x18 virtual false final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x23bd808, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume addr 0x22844a8 size 0x18 virtual false final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x23bd820, size 0x18, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
   static inline ::GlobalNamespace::StandardLevelGameplayManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x22844c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23bd838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelGameplayManager", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1234))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReplayWindow*
 class CORDL_TYPE DtlsReplayWindow : public ::System::Object {
@@ -39,18 +39,18 @@ public:
 
   constexpr void __set_mBitmap(int64_t value);
 
-  /// @brief Method ShouldDiscard addr 0xef9670 size 0x44 virtual false final false
+  /// @brief Method ShouldDiscard, addr 0xf6f894, size 0x44, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);
 
-  /// @brief Method ReportAuthenticated addr 0xef96bc size 0xcc virtual false final false
+  /// @brief Method ReportAuthenticated, addr 0xf6f8e0, size 0xcc, virtual false, abstract: false, final false
   inline void ReportAuthenticated(int64_t seq);
 
-  /// @brief Method Reset addr 0xefb0d8 size 0x10 virtual false final false
+  /// @brief Method Reset, addr 0xf712fc, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method .ctor addr 0xef7308 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0xf6d52c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReplayWindow", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11815))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11887))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumValue`1<T>*
 class CORDL_TYPE EnumValue_1 : public ::System::Object {
 public:
@@ -45,15 +45,15 @@ public:
 
   constexpr void __set__value(T value);
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
   static inline ::Newtonsoft::Json::Utilities::EnumValue_1<T>* New_ctor(::StringW name, T value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumValue_1", modifiers: "&&", def_value: None }]

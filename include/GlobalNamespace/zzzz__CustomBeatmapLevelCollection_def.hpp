@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CustomBeatmapLevelCollection)
 namespace GlobalNamespace {
+class IBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
 class CustomPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBeatmapLevelCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4399))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4377))
 // CS Name: ::CustomBeatmapLevelCollection*
 class CORDL_TYPE CustomBeatmapLevelCollection : public ::System::Object {
 public:
@@ -48,13 +48,13 @@ public:
 
   constexpr void __set__customPreviewBeatmapLevels(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomPreviewBeatmapLevel*>* value);
 
-  /// @brief Method get_beatmapLevels addr 0x21fc488 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevels, addr 0x2346a7c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
 
   static inline ::GlobalNamespace::CustomBeatmapLevelCollection*
   New_ctor(::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel*, ::Array<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> customPreviewBeatmapLevels);
 
-  /// @brief Method .ctor addr 0x21fc490 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2346a84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::CustomPreviewBeatmapLevel*, ::Array<::GlobalNamespace::CustomPreviewBeatmapLevel*>*> customPreviewBeatmapLevels);
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomBeatmapLevelCollection", modifiers: "&&", def_value: None }]

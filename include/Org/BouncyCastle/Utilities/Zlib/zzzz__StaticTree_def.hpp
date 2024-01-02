@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::StaticTree);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1825))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::StaticTree*
 class CORDL_TYPE StaticTree : public ::System::Object {
@@ -105,7 +105,7 @@ public:
   static inline ::Org::BouncyCastle::Utilities::Zlib::StaticTree* New_ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base,
                                                                            int32_t elems, int32_t max_length);
 
-  /// @brief Method .ctor addr 0x10f8670 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x11688b8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int16_t, ::Array<int16_t>*> static_tree, ::ArrayW<int32_t, ::Array<int32_t>*> extra_bits, int32_t extra_base, int32_t elems, int32_t max_length);
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticTree", modifiers: "&&", def_value: None }]

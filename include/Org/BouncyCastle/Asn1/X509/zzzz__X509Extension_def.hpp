@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Extension)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerBoolean;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Extension);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(405))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Object {
@@ -60,30 +60,30 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor addr 0x112da14 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x119dc5c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509Extension* New_ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor addr 0x112bdcc size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x119c014, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool critical, ::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method get_IsCritical addr 0x112daa4 size 0x8 virtual false final false
+  /// @brief Method get_IsCritical, addr 0x119dcec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Value addr 0x112daac size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x119dcf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
-  /// @brief Method GetParsedValue addr 0x112dab4 size 0x4 virtual false final false
+  /// @brief Method GetParsedValue, addr 0x119dcfc, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetParsedValue();
 
-  /// @brief Method GetHashCode addr 0x112dab8 size 0x30 virtual true final false
+  /// @brief Method GetHashCode, addr 0x119dd00, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x112dae8 size 0xbc virtual true final false
+  /// @brief Method Equals, addr 0x119dd30, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ConvertValueToObject addr 0x111cd24 size 0x108 virtual false final false
+  /// @brief Method ConvertValueToObject, addr 0x118cf6c, size 0x108, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Object* ConvertValueToObject(::Org::BouncyCastle::Asn1::X509::X509Extension* ext);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Extension", modifiers: "&&", def_value: None }]

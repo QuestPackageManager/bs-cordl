@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Math::Prime::ConfidenceFactor);
 namespace Mono::Math::Prime {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13808))
 // CS Name: ::Mono.Math.Prime::ConfidenceFactor
 struct CORDL_TYPE ConfidenceFactor {
 public:

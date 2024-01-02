@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableEmmisionOnVisible);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13855))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14363))
 // CS Name: ::EnableEmmisionOnVisible*
 class CORDL_TYPE EnableEmmisionOnVisible : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __set__emmisionModules(::ArrayW<::UnityEngine::__ParticleSystem__EmissionModule, ::Array<::UnityEngine::__ParticleSystem__EmissionModule>*> value);
 
-  /// @brief Method Awake addr 0x1f95230 size 0xe8 virtual false final false
+  /// @brief Method Awake, addr 0x20f20d0, size 0xe8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnBecameVisible addr 0x1f95318 size 0x74 virtual false final false
+  /// @brief Method OnBecameVisible, addr 0x20f21b8, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method OnBecameInvisible addr 0x1f9538c size 0x74 virtual false final false
+  /// @brief Method OnBecameInvisible, addr 0x20f222c, size 0x74, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
   static inline ::GlobalNamespace::EnableEmmisionOnVisible* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f95400 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f22a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableEmmisionOnVisible", modifiers: "&&", def_value: None }]

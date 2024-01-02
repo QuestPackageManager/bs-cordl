@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PolygonGenerator)
-namespace System {
-class Random;
-}
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Polygon;
+}
+namespace System {
+class Random;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15377))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15347))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonGenerator*
 class CORDL_TYPE PolygonGenerator : public ::System::Object {
 public:
@@ -42,15 +42,15 @@ public:
 
   static inline double_t getStaticF_PI_2();
 
-  /// @brief Method RandomCircleSweep addr 0x29b3f9c size 0x2f0 virtual false final false
+  /// @brief Method RandomCircleSweep, addr 0x2b35cf0, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
 
-  /// @brief Method RandomCircleSweep2 addr 0x29b428c size 0x25c virtual false final false
+  /// @brief Method RandomCircleSweep2, addr 0x2b35fe0, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x29b44e8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b3623c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "&&", def_value: None }]

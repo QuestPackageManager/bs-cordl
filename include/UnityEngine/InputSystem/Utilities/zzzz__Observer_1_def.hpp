@@ -8,13 +8,13 @@ namespace System {
 class Exception;
 }
 namespace System {
+class Action;
+}
+namespace System {
 template <typename T> class IObserver_1;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -28,8 +28,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6689))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observer`1<TValue>*
 class CORDL_TYPE Observer_1 : public ::System::Object {
 public:
@@ -57,16 +57,17 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::Observer_1<TValue>* New_ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param onCompleted: ::System::Action* (default: nullptr)
+  inline void _ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted = nullptr);
 
-  /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "Observer_1", modifiers: "&&", def_value: None }]

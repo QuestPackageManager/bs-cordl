@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SpriteState)
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -21,7 +21,7 @@ MARK_VAL_T(::UnityEngine::UI::SpriteState);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13130))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13125))
 // CS Name: ::UnityEngine.UI::SpriteState
 struct CORDL_TYPE SpriteState {
 public:
@@ -37,31 +37,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::SpriteState>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::SpriteState>*();
 
-  /// @brief Method get_highlightedSprite addr 0x2c218ac size 0x8 virtual false final false
+  /// @brief Method get_highlightedSprite, addr 0x2d89c5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_highlightedSprite();
 
-  /// @brief Method set_highlightedSprite addr 0x2c218b4 size 0x8 virtual false final false
+  /// @brief Method set_highlightedSprite, addr 0x2d89c64, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_pressedSprite addr 0x2c218bc size 0x8 virtual false final false
+  /// @brief Method get_pressedSprite, addr 0x2d89c6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_pressedSprite();
 
-  /// @brief Method set_pressedSprite addr 0x2c218c4 size 0x8 virtual false final false
+  /// @brief Method set_pressedSprite, addr 0x2d89c74, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_selectedSprite addr 0x2c218cc size 0x8 virtual false final false
+  /// @brief Method get_selectedSprite, addr 0x2d89c7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_selectedSprite();
 
-  /// @brief Method set_selectedSprite addr 0x2c218d4 size 0x8 virtual false final false
+  /// @brief Method set_selectedSprite, addr 0x2d89c84, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_disabledSprite addr 0x2c218dc size 0x8 virtual false final false
+  /// @brief Method get_disabledSprite, addr 0x2d89c8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_disabledSprite();
 
-  /// @brief Method set_disabledSprite addr 0x2c218e4 size 0x8 virtual false final false
+  /// @brief Method set_disabledSprite, addr 0x2d89c94, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method Equals addr 0x2c218ec size 0x108 virtual true final true
+  /// @brief Method Equals, addr 0x2d89c9c, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::SpriteState other);
 
   // Ctor Parameters [CppParam { name: "m_HighlightedSprite", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }, CppParam { name: "m_PressedSprite", ty: "::UnityEngine::Sprite*",

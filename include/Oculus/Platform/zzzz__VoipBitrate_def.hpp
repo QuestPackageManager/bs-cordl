@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipBitrate);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13437))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13398))
 // CS Name: ::Oculus.Platform::VoipBitrate
 struct CORDL_TYPE VoipBitrate {
 public:

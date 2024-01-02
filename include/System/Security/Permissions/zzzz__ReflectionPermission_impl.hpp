@@ -2,8 +2,8 @@
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_impl.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_impl.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermission_def.hpp"
-#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
+#include "System/Security/zzzz__IPermission_def.hpp"
 #include "System/Security/Permissions/zzzz__ReflectionPermissionFlag_def.hpp"
 //  Writing Method size for method: ::System::Security::Permissions::ReflectionPermission._ctor
 template <>
@@ -11,9 +11,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::ReflectionPermission::*)(
     ::System::Security::Permissions::ReflectionPermissionFlag)>(&::System::Security::Permissions::ReflectionPermission::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22fcf98;
+  constexpr static std::size_t addrs = 0x2456ab4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Permissions::ReflectionPermissionFlag>::get() })));
@@ -26,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::ReflectionPermissionFlag (
     ::System::Security::Permissions::ReflectionPermission::*)()>(&::System::Security::Permissions::ReflectionPermission::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fd07c;
+  constexpr static std::size_t addrs = 0x2456b98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
                                                                                "get_Flags", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -40,9 +40,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Permissions::ReflectionPermission::*)(
     ::System::Security::Permissions::ReflectionPermissionFlag)>(&::System::Security::Permissions::ReflectionPermission::set_Flags)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22fcfc4;
+  constexpr static std::size_t addrs = 0x2456ae0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), "set_Flags", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Permissions::ReflectionPermissionFlag>::get() })));
@@ -55,9 +55,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::ReflectionPermission::*)(::System::Security::IPermission*)>(
     &::System::Security::Permissions::ReflectionPermission::IsSubsetOf)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22fd084;
+  constexpr static std::size_t addrs = 0x2456ba0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
@@ -71,9 +71,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Permissions::ReflectionPermission::*)()>(
     &::System::Security::Permissions::ReflectionPermission::IsUnrestricted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22fd178;
+  constexpr static std::size_t addrs = 0x2456c94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
                                                                                "IsUnrestricted", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -85,9 +85,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::Permissions::ReflectionPermission::*)()>(
     &::System::Security::Permissions::ReflectionPermission::ToXml)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x22fd188;
+  constexpr static std::size_t addrs = 0x2456ca4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
@@ -101,9 +101,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Permissions::ReflectionPermission* (
     ::System::Security::Permissions::ReflectionPermission::*)(::System::Security::IPermission*)>(&::System::Security::Permissions::ReflectionPermission::Cast)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22fd0d4;
+  constexpr static std::size_t addrs = 0x2456bf0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), "Cast", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::IPermission*>::get() })));
@@ -143,9 +143,9 @@ inline void System::Security::Permissions::ReflectionPermission::set_Flags(::Sys
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool System::Security::Permissions::ReflectionPermission::IsSubsetOf(::System::Security::IPermission* target) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), "IsSubsetOf", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::IPermission*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, target);
 }
 inline bool System::Security::Permissions::ReflectionPermission::IsUnrestricted() {
@@ -154,8 +154,9 @@ inline bool System::Security::Permissions::ReflectionPermission::IsUnrestricted(
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Security::SecurityElement* System::Security::Permissions::ReflectionPermission::ToXml() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(),
-                                                                             "ToXml", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Permissions::ReflectionPermission*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::System::Security::SecurityElement*, false>(this, ___internal_method);
 }
 inline ::System::Security::Permissions::ReflectionPermission* System::Security::Permissions::ReflectionPermission::Cast(::System::Security::IPermission* target) {

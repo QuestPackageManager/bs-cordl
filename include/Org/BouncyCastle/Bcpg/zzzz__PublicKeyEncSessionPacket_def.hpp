@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKeyEncSessionPacket)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
+struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct PublicKeyAlgorithmTag;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(581))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyEncSessionPacket*
 class CORDL_TYPE PublicKeyEncSessionPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
@@ -76,28 +76,28 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115c098 size 0x364 virtual false final false
+  /// @brief Method .ctor, addr 0x11cd2e8, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyEncSessionPacket* New_ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm,
                                                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method .ctor addr 0x1160fcc size 0x144 virtual false final false
+  /// @brief Method .ctor, addr 0x11d221c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(int64_t keyId, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data);
 
-  /// @brief Method get_Version addr 0x1161110 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x11d2360, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_KeyId addr 0x1161118 size 0x8 virtual false final false
+  /// @brief Method get_KeyId, addr 0x11d2368, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
-  /// @brief Method get_Algorithm addr 0x1161120 size 0x8 virtual false final false
+  /// @brief Method get_Algorithm, addr 0x11d2370, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetEncSessionKey addr 0x1161128 size 0x8 virtual false final false
+  /// @brief Method GetEncSessionKey, addr 0x11d2378, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> GetEncSessionKey();
 
-  /// @brief Method Encode addr 0x1161130 size 0x188 virtual true final false
+  /// @brief Method Encode, addr 0x11d2380, size 0x188, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyEncSessionPacket", modifiers: "&&", def_value: None }]

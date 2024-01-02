@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OnWillRenderObjectTrigger)
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class MeshFilter;
+class MeshRenderer;
 }
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class MeshRenderer;
+class MeshFilter;
 }
 namespace UnityEngine {
 class Shader;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OnWillRenderObjectTrigger);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14578))
 // CS Name: ::OnWillRenderObjectTrigger*
 class CORDL_TYPE OnWillRenderObjectTrigger : public ::UnityEngine::MonoBehaviour {
 public:
@@ -90,15 +90,15 @@ public:
 
   constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer* value);
 
-  /// @brief Method OnEnable addr 0x1fbfe1c size 0x3f8 virtual false final false
+  /// @brief Method OnEnable, addr 0x21159a4, size 0x3f8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fc0214 size 0x30 virtual false final false
+  /// @brief Method OnDisable, addr 0x2115d9c, size 0x30, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::OnWillRenderObjectTrigger* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc0244 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2115dcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnWillRenderObjectTrigger", modifiers: "&&", def_value: None }]

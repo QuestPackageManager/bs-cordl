@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RuntimeClip)
+namespace UnityEngine::Timeline {
+class TimelineClip;
+}
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
-}
-namespace UnityEngine::Timeline {
-class TimelineClip;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeClip);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(14154))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13883)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13882))
 // CS Name: ::UnityEngine.Timeline::RuntimeClip*
 class CORDL_TYPE RuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase {
 public:
@@ -70,43 +70,43 @@ public:
 
   constexpr void __set_m_ParentMixer(::UnityEngine::Playables::Playable value);
 
-  /// @brief Method get_start addr 0x2ae3c38 size 0x2c virtual true final false
+  /// @brief Method get_start, addr 0x2c6798c, size 0x2c, virtual true, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method get_duration addr 0x2ae3c64 size 0x18 virtual true final false
+  /// @brief Method get_duration, addr 0x2c679b8, size 0x18, virtual true, abstract: false, final false
   inline double_t get_duration();
 
   static inline ::UnityEngine::Timeline::RuntimeClip* New_ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable,
                                                                ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method .ctor addr 0x2ace420 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2c52174, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method Create addr 0x2ae3c84 size 0x84 virtual false final false
+  /// @brief Method Create, addr 0x2c679d8, size 0x84, virtual false, abstract: false, final false
   inline void Create(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Playables::Playable clipPlayable, ::UnityEngine::Playables::Playable parentMixer);
 
-  /// @brief Method get_clip addr 0x2ae3d08 size 0x8 virtual false final false
+  /// @brief Method get_clip, addr 0x2c67a5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimelineClip* get_clip();
 
-  /// @brief Method get_mixer addr 0x2ae3d10 size 0xc virtual false final false
+  /// @brief Method get_mixer, addr 0x2c67a64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_mixer();
 
-  /// @brief Method get_playable addr 0x2ae3d1c size 0xc virtual false final false
+  /// @brief Method get_playable, addr 0x2c67a70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::Playable get_playable();
 
-  /// @brief Method set_enable addr 0x2ae3d28 size 0x134 virtual true final false
+  /// @brief Method set_enable, addr 0x2c67a7c, size 0x134, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
-  /// @brief Method SetTime addr 0x2ae3e5c size 0x58 virtual false final false
+  /// @brief Method SetTime, addr 0x2c67bb0, size 0x58, virtual false, abstract: false, final false
   inline void SetTime(double_t time);
 
-  /// @brief Method SetDuration addr 0x2ae3eb4 size 0x58 virtual false final false
+  /// @brief Method SetDuration, addr 0x2c67c08, size 0x58, virtual false, abstract: false, final false
   inline void SetDuration(double_t duration);
 
-  /// @brief Method EvaluateAt addr 0x2ae3f0c size 0x1f8 virtual true final false
+  /// @brief Method EvaluateAt, addr 0x2c67c60, size 0x1f8, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method DisableAt addr 0x2ae4104 size 0x158 virtual true final false
+  /// @brief Method DisableAt, addr 0x2c67e58, size 0x158, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeClip", modifiers: "&&", def_value: None }]

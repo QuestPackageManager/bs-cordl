@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DefaultEventAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8254))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9417))
 // CS Name: ::System.ComponentModel::DefaultEventAttribute*
 class CORDL_TYPE DefaultEventAttribute : public ::System::Attribute {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::System::ComponentModel::DefaultEventAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2790438 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x290e460, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name addr 0x2790460 size 0x8 virtual false final false
+  /// @brief Method get_Name, addr 0x290e488, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method Equals addr 0x2790468 size 0x80 virtual true final false
+  /// @brief Method Equals, addr 0x290e490, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x27904e8 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x290e510, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultEventAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Cache::RequestCacheLevel);
 namespace System::Net::Cache {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9321))
 // CS Name: ::System.Net.Cache::RequestCacheLevel
 struct CORDL_TYPE RequestCacheLevel {
 public:

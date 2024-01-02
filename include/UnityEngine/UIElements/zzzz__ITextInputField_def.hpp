@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITextInputField)
 namespace UnityEngine::UIElements {
-class ITextElement;
-}
-namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class TextEditorEngine;
+}
+namespace UnityEngine::UIElements {
+class ITextElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextInputField);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7095))
 // CS Name: ::UnityEngine.UIElements::ITextInputField*
 class CORDL_TYPE ITextInputField {
 public:
@@ -49,40 +49,40 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextElement"
   constexpr operator ::UnityEngine::UIElements::ITextElement*() noexcept;
 
-  /// @brief Method get_hasFocus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasFocus();
 
-  /// @brief Method get_doubleClickSelectsWord addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_doubleClickSelectsWord();
 
-  /// @brief Method get_tripleClickSelectsLine addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_tripleClickSelectsLine();
 
-  /// @brief Method get_isReadOnly addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method get_isDelayed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isDelayed();
 
-  /// @brief Method get_isPasswordField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPasswordField();
 
-  /// @brief Method get_editorEngine addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
 
-  /// @brief Method SyncTextEngine addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SyncTextEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SyncTextEngine();
 
-  /// @brief Method AcceptCharacter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AcceptCharacter(char16_t c);
 
-  /// @brief Method CullString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CullString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW CullString(::StringW s);
 
-  /// @brief Method UpdateText addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateText(::StringW value);
 
-  /// @brief Method UpdateValueFromText addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateValueFromText();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextInputField", modifiers: "&&", def_value: None }]

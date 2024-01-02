@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TerrainCallbacks)
 namespace UnityEngine {
+class TerrainData;
+}
+namespace UnityEngine {
 struct RectInt;
 }
 namespace UnityEngine {
-class TerrainData;
+class __TerrainCallbacks__HeightmapChangedCallback;
 }
 namespace UnityEngine {
 class __TerrainCallbacks__TextureChangedCallback;
 }
 namespace UnityEngine {
-class __TerrainCallbacks__HeightmapChangedCallback;
+class Terrain;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine {
-class Terrain;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -43,18 +43,18 @@ MARK_REF_PTR_T(::UnityEngine::__TerrainCallbacks__TextureChangedCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15457))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15473))
 // CS Name: ::TerrainCallbacks::HeightmapChangedCallback*
 class CORDL_TYPE __TerrainCallbacks__HeightmapChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2bb72ec size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1e69c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2bb73c4 size 0x18 virtual true final false
+  /// @brief Method Invoke, addr 0x2d1e774, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::UnityEngine::RectInt heightRegion, bool synched);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainCallbacks__HeightmapChangedCallback", modifiers: "&&", def_value: None }]
@@ -81,18 +81,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TerrainCallbacks_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15458))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15474))
 // CS Name: ::TerrainCallbacks::TextureChangedCallback*
 class CORDL_TYPE __TerrainCallbacks__TextureChangedCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2bb73dc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1e78c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2bb74b4 size 0x18 virtual true final false
+  /// @brief Method Invoke, addr 0x2d1e864, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Terrain* terrain, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TerrainCallbacks__TextureChangedCallback", modifiers: "&&", def_value: None }]
@@ -119,8 +119,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TerrainCallbacks_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15459))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15475))
 // CS Name: ::UnityEngine::TerrainCallbacks*
 class CORDL_TYPE TerrainCallbacks : public ::System::Object {
 public:
@@ -143,10 +143,10 @@ public:
 
   static inline ::UnityEngine::__TerrainCallbacks__TextureChangedCallback* getStaticF_textureChanged();
 
-  /// @brief Method InvokeHeightmapChangedCallback addr 0x2bb70c4 size 0x10c virtual false final false
+  /// @brief Method InvokeHeightmapChangedCallback, addr 0x2d1e474, size 0x10c, virtual false, abstract: false, final false
   static inline void InvokeHeightmapChangedCallback(::UnityEngine::TerrainData* terrainData, ::UnityEngine::RectInt heightRegion, bool synched);
 
-  /// @brief Method InvokeTextureChangedCallback addr 0x2bb71d0 size 0x11c virtual false final false
+  /// @brief Method InvokeTextureChangedCallback, addr 0x2d1e580, size 0x11c, virtual false, abstract: false, final false
   static inline void InvokeTextureChangedCallback(::UnityEngine::TerrainData* terrainData, ::StringW textureName, ::UnityEngine::RectInt texelRegion, bool synched);
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainCallbacks", modifiers: "&&", def_value: None }]

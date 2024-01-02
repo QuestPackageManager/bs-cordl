@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::ProximitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6369))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6283))
 // CS Name: ::UnityEngine.InputSystem::ProximitySensor*
 class CORDL_TYPE ProximitySensor : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::ProximitySensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_distance addr 0x2929e6c size 0x8 virtual false final false
+  /// @brief Method get_distance, addr 0x2aa8bb4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_distance();
 
-  /// @brief Method set_distance addr 0x2929e74 size 0x8 virtual false final false
+  /// @brief Method set_distance, addr 0x2aa8bbc, size 0x8, virtual false, abstract: false, final false
   inline void set_distance(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_current addr 0x2929e7c size 0x48 virtual false final false
+  /// @brief Method get_current, addr 0x2aa8bc4, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::ProximitySensor* get_current();
 
-  /// @brief Method set_current addr 0x2929ec4 size 0x4c virtual false final false
+  /// @brief Method set_current, addr 0x2aa8c0c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::ProximitySensor* value);
 
-  /// @brief Method MakeCurrent addr 0x2929f10 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent, addr 0x2aa8c58, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2929f64 size 0x84 virtual true final false
+  /// @brief Method OnRemoved, addr 0x2aa8cac, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2929fe8 size 0x78 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2aa8d30, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::ProximitySensor* New_ctor();
 
-  /// @brief Method .ctor addr 0x292a060 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa8da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProximitySensor", modifiers: "&&", def_value: None }]

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TextOnlyTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace HMUI {
 class ImageView;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TextOnlyTableCell);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5440))
 // CS Name: ::TextOnlyTableCell*
 class CORDL_TYPE TextOnlyTableCell : public ::HMUI::TableCell {
 public:
@@ -69,24 +69,24 @@ public:
 
   constexpr void __set__highlightImage(::HMUI::ImageView* value);
 
-  /// @brief Method get_text addr 0x213a2b4 size 0x24 virtual false final false
+  /// @brief Method get_text, addr 0x227c84c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text addr 0x213a2d8 size 0x24 virtual false final false
+  /// @brief Method set_text, addr 0x227c870, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method SelectionDidChange addr 0x213a2fc size 0x4 virtual true final false
+  /// @brief Method SelectionDidChange, addr 0x227c894, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x213a3cc size 0x4 virtual true final false
+  /// @brief Method HighlightDidChange, addr 0x227c964, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x213a300 size 0xcc virtual false final false
+  /// @brief Method RefreshVisuals, addr 0x227c898, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x213a3d0 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x227c968, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextOnlyTableCell", modifiers: "&&", def_value: None }]

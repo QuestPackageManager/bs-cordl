@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderTagId)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderTagId);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10356))
 // CS Name: ::UnityEngine.Rendering::ShaderTagId
 struct CORDL_TYPE ShaderTagId {
 public:
@@ -33,22 +33,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::ShaderTagId>*();
 
-  /// @brief Method .ctor addr 0x2b86854 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2cedc88, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_id addr 0x2b86874 size 0x8 virtual false final false
+  /// @brief Method get_id, addr 0x2cedca8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method set_id addr 0x2b8687c size 0x8 virtual false final false
+  /// @brief Method set_id, addr 0x2cedcb0, size 0x8, virtual false, abstract: false, final false
   inline void set_id(int32_t value);
 
-  /// @brief Method Equals addr 0x2b86884 size 0x78 virtual true final false
+  /// @brief Method Equals, addr 0x2cedcb8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2b868fc size 0x10 virtual true final true
+  /// @brief Method Equals, addr 0x2cedd30, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::ShaderTagId other);
 
-  /// @brief Method GetHashCode addr 0x2b8690c size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2cedd40, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]

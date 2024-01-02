@@ -16,8 +16,8 @@ namespace UnityEngine {
 // cpp template
 template <typename TSubsystemDescriptor>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15856))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15857))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15964))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15965))
 // CS Name: ::UnityEngine::IntegratedSubsystem`1<TSubsystemDescriptor>*
 class CORDL_TYPE IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem {
 public:
@@ -26,15 +26,15 @@ public:
 
   __declspec(property(get = get_SubsystemDescriptor)) TSubsystemDescriptor SubsystemDescriptor;
 
-  /// @brief Method get_subsystemDescriptor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_subsystemDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TSubsystemDescriptor get_subsystemDescriptor();
 
-  /// @brief Method get_SubsystemDescriptor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_SubsystemDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TSubsystemDescriptor get_SubsystemDescriptor();
 
   static inline ::UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_1", modifiers: "&&", def_value: None }]

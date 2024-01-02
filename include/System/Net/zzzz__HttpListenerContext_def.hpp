@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerContext)
 namespace System::Net {
-struct AuthenticationSchemes;
-}
-namespace System::Net {
-class HttpListenerResponse;
-}
-namespace System::Security::Principal {
-class IPrincipal;
+class HttpListener;
 }
 namespace System::Net {
 class HttpListenerRequest;
 }
 namespace System::Net {
-class HttpConnection;
+class HttpListenerResponse;
 }
 namespace System::Net {
-class HttpListener;
+struct AuthenticationSchemes;
+}
+namespace System::Security::Principal {
+class IPrincipal;
+}
+namespace System::Net {
+class HttpConnection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Net::HttpListenerContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9173))
 // CS Name: ::System.Net::HttpListenerContext*
 class CORDL_TYPE HttpListenerContext : public ::System::Object {
 public:
@@ -117,37 +117,37 @@ public:
 
   static inline ::System::Net::HttpListenerContext* New_ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method .ctor addr 0x284779c size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x29c5014, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method get_ErrorStatus addr 0x284be90 size 0x8 virtual false final false
+  /// @brief Method get_ErrorStatus, addr 0x29c9704, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ErrorStatus();
 
-  /// @brief Method set_ErrorStatus addr 0x284be98 size 0x8 virtual false final false
+  /// @brief Method set_ErrorStatus, addr 0x29c970c, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorStatus(int32_t value);
 
-  /// @brief Method get_ErrorMessage addr 0x284bea0 size 0x8 virtual false final false
+  /// @brief Method get_ErrorMessage, addr 0x29c9714, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ErrorMessage();
 
-  /// @brief Method set_ErrorMessage addr 0x284bea8 size 0x8 virtual false final false
+  /// @brief Method set_ErrorMessage, addr 0x29c971c, size 0x8, virtual false, abstract: false, final false
   inline void set_ErrorMessage(::StringW value);
 
-  /// @brief Method get_HaveError addr 0x2848448 size 0x10 virtual false final false
+  /// @brief Method get_HaveError, addr 0x29c5cc0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveError();
 
-  /// @brief Method get_Connection addr 0x284beb0 size 0x8 virtual false final false
+  /// @brief Method get_Connection, addr 0x29c9724, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpConnection* get_Connection();
 
-  /// @brief Method get_Request addr 0x284beb8 size 0x8 virtual false final false
+  /// @brief Method get_Request, addr 0x29c972c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerRequest* get_Request();
 
-  /// @brief Method get_Response addr 0x284bec0 size 0x8 virtual false final false
+  /// @brief Method get_Response, addr 0x29c9734, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerResponse* get_Response();
 
-  /// @brief Method ParseAuthentication addr 0x284b940 size 0x120 virtual false final false
+  /// @brief Method ParseAuthentication, addr 0x29c91b4, size 0x120, virtual false, abstract: false, final false
   inline void ParseAuthentication(::System::Net::AuthenticationSchemes expectedSchemes);
 
-  /// @brief Method ParseBasicAuthentication addr 0x284bec8 size 0x24c virtual false final false
+  /// @brief Method ParseBasicAuthentication, addr 0x29c973c, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Security::Principal::IPrincipal* ParseBasicAuthentication(::StringW authData);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerContext", modifiers: "&&", def_value: None }]

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SceneStartSyncController)
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class SceneStartHandler;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class SceneStartHandler;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
+class IGameplayRpcManager;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneStartSyncController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14976))
 // CS Name: ::SceneStartSyncController*
 class CORDL_TYPE SceneStartSyncController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -121,45 +121,45 @@ public:
 
   constexpr void __set__sceneSyncStarted(bool value);
 
-  /// @brief Method add_syncStartDidSuccessEvent addr 0x2225320 size 0xb0 virtual false final false
+  /// @brief Method add_syncStartDidSuccessEvent, addr 0x2638d08, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidSuccessEvent addr 0x22253d0 size 0xb0 virtual false final false
+  /// @brief Method remove_syncStartDidSuccessEvent, addr 0x2638db8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidSuccessEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_syncStartDidReceiveTooLateEvent addr 0x2225480 size 0xb0 virtual false final false
+  /// @brief Method add_syncStartDidReceiveTooLateEvent, addr 0x2638e68, size 0xb0, virtual false, abstract: false, final false
   inline void add_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_syncStartDidReceiveTooLateEvent addr 0x2225530 size 0xb0 virtual false final false
+  /// @brief Method remove_syncStartDidReceiveTooLateEvent, addr 0x2638f18, size 0xb0, virtual false, abstract: false, final false
   inline void remove_syncStartDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_syncStartDidFailEvent addr 0x22255e0 size 0x9c virtual false final false
+  /// @brief Method add_syncStartDidFailEvent, addr 0x2638fc8, size 0x9c, virtual false, abstract: false, final false
   inline void add_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartDidFailEvent addr 0x222567c size 0x9c virtual false final false
+  /// @brief Method remove_syncStartDidFailEvent, addr 0x2639064, size 0x9c, virtual false, abstract: false, final false
   inline void remove_syncStartDidFailEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x2225718 size 0x18 virtual false final false
+  /// @brief Method Start, addr 0x2639100, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x2225730 size 0x58 virtual false final false
+  /// @brief Method Update, addr 0x2639118, size 0x58, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x2225788 size 0x100 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2639170, size 0x100, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartSceneLoadSync addr 0x2225888 size 0x160 virtual false final false
+  /// @brief Method StartSceneLoadSync, addr 0x2639270, size 0x160, virtual false, abstract: false, final false
   inline void StartSceneLoadSync(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method HandleSceneSetupDidFinish addr 0x22259e8 size 0x4c virtual false final false
+  /// @brief Method HandleSceneSetupDidFinish, addr 0x26393d0, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidFinish(::StringW sessionGameId);
 
-  /// @brief Method HandleSceneSetupDidReceiveTooLate addr 0x2225a34 size 0x4c virtual false final false
+  /// @brief Method HandleSceneSetupDidReceiveTooLate, addr 0x263941c, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSceneSetupDidReceiveTooLate(::StringW sessionGameId);
 
   static inline ::GlobalNamespace::SceneStartSyncController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2225a80 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2639468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneStartSyncController", modifiers: "&&", def_value: None }]

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::RootMotion::Comments);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12489))
 // CS Name: ::RootMotion::Comments*
 class CORDL_TYPE Comments : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::RootMotion::Comments* New_ctor();
 
-  /// @brief Method .ctor addr 0x11cc9ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x123ccd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Comments", modifiers: "&&", def_value: None }]

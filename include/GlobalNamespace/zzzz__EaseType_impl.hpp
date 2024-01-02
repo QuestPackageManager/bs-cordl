@@ -38,5 +38,8 @@ constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::InOutElastic{ s
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::InBounce{ static_cast<int32_t>(0x1d) };
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::OutBounce{ static_cast<int32_t>(0x1e) };
 constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::InOutBounce{ static_cast<int32_t>(0x1f) };
+constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutBack{ static_cast<int32_t>(0x20) };
+constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutElastic{ static_cast<int32_t>(0x21) };
+constexpr ::GlobalNamespace::EaseType GlobalNamespace::EaseType::BeatSaberInOutBounce{ static_cast<int32_t>(0x22) };
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

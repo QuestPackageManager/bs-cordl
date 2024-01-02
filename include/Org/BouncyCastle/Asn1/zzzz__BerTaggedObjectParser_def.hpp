@@ -9,16 +9,16 @@ namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObjectParser;
+class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObjectParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObjectParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(497))
 // CS Name: ::Org.BouncyCastle.Asn1::BerTaggedObjectParser*
 class CORDL_TYPE BerTaggedObjectParser : public ::System::Object {
@@ -75,24 +75,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
-  /// @brief Method .ctor addr 0x114e5d0 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x11bf820, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor addr 0x1145278 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x11b64c8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method get_IsConstructed addr 0x114e674 size 0x8 virtual false final false
+  /// @brief Method get_IsConstructed, addr 0x11bf8c4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsConstructed();
 
-  /// @brief Method get_TagNo addr 0x114e67c size 0x8 virtual true final true
+  /// @brief Method get_TagNo, addr 0x11bf8cc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
-  /// @brief Method GetObjectParser addr 0x114e684 size 0x98 virtual true final true
+  /// @brief Method GetObjectParser, addr 0x11bf8d4, size 0x98, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
-  /// @brief Method ToAsn1Object addr 0x11452b8 size 0xfc virtual true final true
+  /// @brief Method ToAsn1Object, addr 0x11b6508, size 0xfc, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "BerTaggedObjectParser", modifiers: "&&", def_value: None }]

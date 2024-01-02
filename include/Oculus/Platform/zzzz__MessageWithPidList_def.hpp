@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithPidList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4510 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13526))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13333)) CS Name: ::Oculus.Platform::MessageWithPidList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4604 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13470))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13316)) CS Name: ::Oculus.Platform::MessageWithPidList*
 class CORDL_TYPE MessageWithPidList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PidList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithPidList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2593714 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26ef608, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetPidList addr 0x25979b4 size 0x3c virtual true final false
+  /// @brief Method GetPidList, addr 0x26f3450, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetPidList();
 
-  /// @brief Method GetDataFromMessage addr 0x25979f0 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f348c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithPidList", modifiers: "&&", def_value: None }]

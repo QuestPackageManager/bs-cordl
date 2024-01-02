@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StringFacetsChecker)
-namespace System {
-class Object;
-}
-namespace System::Text::RegularExpressions {
-class Regex;
-}
-namespace System {
-class Exception;
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml::Schema {
 class XmlSchemaDatatype;
 }
+namespace System {
+class Exception;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
+}
 namespace System::Collections {
 class ArrayList;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::StringFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11619))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11691))
 // CS Name: ::System.Xml.Schema::StringFacetsChecker*
 class CORDL_TYPE StringFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
@@ -46,30 +46,30 @@ public:
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_languagePattern();
 
-  /// @brief Method get_LanguagePattern addr 0x2744790 size 0xb8 virtual false final false
+  /// @brief Method get_LanguagePattern, addr 0x28c27b4, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_LanguagePattern();
 
-  /// @brief Method CheckValueFacets addr 0x2744848 size 0x60 virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c286c, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x27448a8 size 0x8 virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c28cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x273cea8 size 0x200 virtual false final false
+  /// @brief Method CheckValueFacets, addr 0x28baecc, size 0x200, virtual false, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype, bool verifyUri);
 
-  /// @brief Method MatchEnumeration addr 0x2744c9c size 0x5c virtual true final false
+  /// @brief Method MatchEnumeration, addr 0x28c2cc0, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x2744ac8 size 0x1d4 virtual false final false
+  /// @brief Method MatchEnumeration, addr 0x28c2aec, size 0x1d4, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::StringW value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckBuiltInFacets addr 0x27448b0 size 0x218 virtual false final false
+  /// @brief Method CheckBuiltInFacets, addr 0x28c28d4, size 0x218, virtual false, abstract: false, final false
   inline ::System::Exception* CheckBuiltInFacets(::StringW s, ::System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri);
 
   static inline ::System::Xml::Schema::StringFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x2744cf8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28c2d1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringFacetsChecker", modifiers: "&&", def_value: None }]

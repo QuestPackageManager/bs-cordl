@@ -16,13 +16,13 @@ namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class TrackLaneRingsRotationEffect;
-}
-namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 struct __TrackLaneRingsRotationEffectSpawner__RotationStepType;
+}
+namespace GlobalNamespace {
+class TrackLaneRingsRotationEffect;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsRotationEffectSpawner);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5008))
 // CS Name: ::TrackLaneRingsRotationEffectSpawner::RotationStepType
 struct CORDL_TYPE __TrackLaneRingsRotationEffectSpawner__RotationStepType {
 public:
@@ -92,8 +92,8 @@ static_assert(offsetof(::GlobalNamespace::__TrackLaneRingsRotationEffectSpawner_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(5113))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5008))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5009))
 // CS Name: ::TrackLaneRingsRotationEffectSpawner*
 class CORDL_TYPE TrackLaneRingsRotationEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -181,18 +181,18 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x227f970 size 0x124 virtual false final false
+  /// @brief Method Start, addr 0x23b87dc, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x227fa94 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x23b8900, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x227fab0 size 0xcc virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x23b891c, size 0xcc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x227fb7c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x23b89e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackLaneRingsRotationEffectSpawner", modifiers: "&&", def_value: None }]

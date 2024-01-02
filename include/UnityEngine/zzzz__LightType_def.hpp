@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10031))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10103))
 // CS Name: ::UnityEngine::LightType
 struct CORDL_TYPE LightType {
 public:

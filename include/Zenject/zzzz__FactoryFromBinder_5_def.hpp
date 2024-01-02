@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinderBase_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryFromBinder_5)
-namespace Zenject {
-class FactoryBindInfo;
-}
 namespace System {
-class Object;
-}
-namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-class BindInfo;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class __FactoryFromBinder_5____c__DisplayClass1_0;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory> class __FactoryFromBinder_5____c__2_1;
+class DiContainer;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract> class FactorySubContainerBinder_5;
 }
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
+class Object;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory> class __FactoryFromBinder_5____c__2_1;
 }
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
+class FactoryBindInfo;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IFactory_5;
 }
 namespace Zenject {
 class IProvider;
@@ -68,8 +68,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10682))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10754))
 // CS Name: ::FactoryFromBinder`5::<>c__DisplayClass1_0<TParam1,TParam2,TParam3,TParam4,TContract>*
 class CORDL_TYPE __FactoryFromBinder_5____c__DisplayClass1_0 : public ::System::Object {
 public:
@@ -85,16 +85,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder_5____c__DisplayClass1_0<TParam1, TParam2, TParam3, TParam4, TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromMethod>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromMethod>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromMethod_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_5____c__DisplayClass1_0", modifiers: "&&", def_value: None }]
@@ -124,8 +124,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10755))
 // CS Name: ::FactoryFromBinder`5::<>c__2`1<TParam1,TParam2,TParam3,TParam4,TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_5____c__2_1 : public ::System::Object {
 public:
@@ -147,16 +147,16 @@ public:
 
   static inline ::Zenject::__FactoryFromBinder_5____c__2_1<TParam1, TParam2, TParam3, TParam4, TContract, TSubFactory>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromFactory>b__2_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromFactory>b__2_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromFactory_b__2_0(::Zenject::ConcreteBinderGeneric_1<::Zenject::IFactory_5<TParam1, TParam2, TParam3, TParam4, TContract>*>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactoryFromBinder_5____c__2_1", modifiers: "&&", def_value: None }]
@@ -183,8 +183,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10774))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10684))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10756))
 // CS Name: ::Zenject::FactoryFromBinder`5<TParam1,TParam2,TParam3,TParam4,TContract>*
 class CORDL_TYPE FactoryFromBinder_5 : public ::Zenject::FactoryFromBinderBase {
 public:
@@ -196,19 +196,19 @@ public:
   static inline ::Zenject::FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo,
                                                                                                         ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method FromMethod addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromMethod(::System::Func_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>* method);
 
-  /// @brief Method FromFactory addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSubFactory> inline ::Zenject::ConditionCopyNonLazyBinder* FromFactory();
 
-  /// @brief Method FromSubContainerResolve addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromSubContainerResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* FromSubContainerResolve();
 
-  /// @brief Method FromSubContainerResolve addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromSubContainerResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>* FromSubContainerResolve(::System::Object* subIdentifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryFromBinder_5", modifiers: "&&", def_value: None }]

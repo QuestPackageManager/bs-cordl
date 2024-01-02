@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(BlueNoiseDitheringUpdater)
 namespace GlobalNamespace {
 class BlueNoiseDithering;
 }
-namespace UnityEngine {
-class Camera;
-}
 namespace GlobalNamespace {
 class RandomValueToShader;
+}
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDitheringUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14712))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14494))
 // CS Name: ::BlueNoiseDitheringUpdater*
 class CORDL_TYPE BlueNoiseDitheringUpdater : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,18 +47,18 @@ public:
 
   constexpr void __set__randomValueToShader(::GlobalNamespace::RandomValueToShader* value);
 
-  /// @brief Method OnEnable addr 0x1fb59f4 size 0x164 virtual false final false
+  /// @brief Method OnEnable, addr 0x210aed8, size 0x164, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fb5b58 size 0xec virtual false final false
+  /// @brief Method OnDisable, addr 0x210b03c, size 0xec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleCameraPreRender addr 0x1fb5c44 size 0x60 virtual false final false
+  /// @brief Method HandleCameraPreRender, addr 0x210b128, size 0x60, virtual false, abstract: false, final false
   inline void HandleCameraPreRender(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::BlueNoiseDitheringUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb5d30 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210b214, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDitheringUpdater", modifiers: "&&", def_value: None }]

@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(QuadUtility)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder {
-struct EdgeLookup;
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 class WingedEdge;
 }
 namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+class Face;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder {
+struct EdgeLookup;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -36,23 +36,25 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::QuadUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12207))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12279))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::QuadUtility*
 class CORDL_TYPE QuadUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToQuads addr 0x2a38e04 size 0x854 virtual false final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing);
+  /// @brief Method ToQuads, addr 0x2bbab58, size 0x854, virtual false, abstract: false, final false
+  /// @param smoothing: bool (default: true)
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>*
+  ToQuads(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces, bool smoothing = true);
 
-  /// @brief Method GetBestQuadConnection addr 0x2a3d170 size 0x270 virtual false final false
+  /// @brief Method GetBestQuadConnection, addr 0x2bbeec4, size 0x270, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Face* GetBestQuadConnection(::UnityEngine::ProBuilder::WingedEdge* wing,
                                                                        ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::EdgeLookup, float_t>* connections);
 
-  /// @brief Method GetQuadScore addr 0x2a3cb04 size 0x66c virtual false final false
+  /// @brief Method GetQuadScore, addr 0x2bbe858, size 0x66c, virtual false, abstract: false, final false
+  /// @param normalThreshold: float_t (default: 0.9)
   static inline float_t GetQuadScore(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
-                                     float_t normalThreshold);
+                                     float_t normalThreshold = 0.9);
 
   // Ctor Parameters [CppParam { name: "", ty: "QuadUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

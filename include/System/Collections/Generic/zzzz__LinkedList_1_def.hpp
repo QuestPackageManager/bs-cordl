@@ -7,20 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedList_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class IDeserializationCallback;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Array;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __LinkedList_1__Enumerator;
+}
+namespace System::Collections {
+class ICollection;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -28,14 +25,20 @@ template <typename T> class ICollection_1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -44,13 +47,10 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
-class ICollection;
+class IEnumerable;
 }
-namespace System {
-class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> struct __LinkedList_1__Enumerator;
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System {
 class IDisposable;
@@ -72,7 +72,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8370))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9533))
 // CS Name: ::LinkedList`1::Enumerator<T>
 struct CORDL_TYPE __LinkedList_1__Enumerator {
 public:
@@ -96,31 +96,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::LinkedList_1<T>* list);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
 
   // Ctor Parameters [CppParam { name: "_list", ty: "::System::Collections::Generic::LinkedList_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_node", ty:
@@ -161,8 +161,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9534))
 // CS Name: ::System.Collections.Generic::LinkedList`1<T>*
 class CORDL_TYPE LinkedList_1 : public ::System::Object {
 public:
@@ -249,108 +249,108 @@ public:
 
   static inline ::System::Collections::Generic::LinkedList_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::LinkedList_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_First addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_First, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* get_First();
 
-  /// @brief Method get_Last addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Last, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* get_Last();
 
-  /// @brief Method System.Collections.Generic.ICollection<T>.get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<T>.get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_T__get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.ICollection<T>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<T>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_T__Add(T value);
 
-  /// @brief Method AddAfter addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::System::Collections::Generic::LinkedListNode_1<T>* AddAfter(::System::Collections::Generic::LinkedListNode_1<T>* node, T value);
+  /// @brief Method AddAfter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AddAfter(::System::Collections::Generic::LinkedListNode_1<T>* node, ::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
-  /// @brief Method AddBefore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBefore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* AddBefore(::System::Collections::Generic::LinkedListNode_1<T>* node, T value);
 
-  /// @brief Method AddBefore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBefore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddBefore(::System::Collections::Generic::LinkedListNode_1<T>* node, ::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
-  /// @brief Method AddFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* AddFirst(T value);
 
-  /// @brief Method AddFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddFirst(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method AddLast addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddLast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* AddLast(T value);
 
-  /// @brief Method AddLast addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddLast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddLast(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T value);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Find(T value);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__LinkedList_1__Enumerator<T> GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method RemoveFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveFirst();
 
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialization addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method InternalInsertNodeBefore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalInsertNodeBefore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InternalInsertNodeBefore(::System::Collections::Generic::LinkedListNode_1<T>* node, ::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
-  /// @brief Method InternalInsertNodeToEmptyList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalInsertNodeToEmptyList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InternalInsertNodeToEmptyList(::System::Collections::Generic::LinkedListNode_1<T>* newNode);
 
-  /// @brief Method InternalRemoveNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalRemoveNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InternalRemoveNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method ValidateNewNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ValidateNewNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ValidateNewNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method ValidateNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ValidateNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ValidateNode(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedList_1", modifiers: "&&", def_value: None }]

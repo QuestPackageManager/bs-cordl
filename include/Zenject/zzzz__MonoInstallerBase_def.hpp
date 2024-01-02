@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MonoInstallerBase)
+namespace System {
+class Object;
+}
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
 class IInstaller;
 }
 namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Object;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Zenject::MonoInstallerBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11146))
 // CS Name: ::Zenject::MonoInstallerBase*
 class CORDL_TYPE MonoInstallerBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,30 +48,30 @@ public:
 
   constexpr void __set__Container_k__BackingField(::Zenject::DiContainer* value);
 
-  /// @brief Method get_Container addr 0x2d8d37c size 0x8 virtual false final false
+  /// @brief Method get_Container, addr 0x2ef5138, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method set_Container addr 0x2d8d384 size 0x8 virtual false final false
+  /// @brief Method set_Container, addr 0x2ef5140, size 0x8, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_IsEnabled addr 0x2d8d38c size 0x8 virtual true final false
+  /// @brief Method get_IsEnabled, addr 0x2ef5148, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
-  /// @brief Method Start addr 0x2d8d394 size 0x4 virtual true final false
+  /// @brief Method Start, addr 0x2ef5150, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method InstallBindings addr 0x2d8d398 size 0x40 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2ef5154, size 0x40, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::MonoInstallerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8d1fc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ef4fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenPropertySetter0 addr 0x2d8d3d8 size 0xd0 virtual false final false
+  /// @brief Method __zenPropertySetter0, addr 0x2ef5194, size 0xd0, virtual false, abstract: false, final false
   static inline void __zenPropertySetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8d4a8 size 0x2b0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5264, size 0x2b0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstallerBase", modifiers: "&&", def_value: None }]

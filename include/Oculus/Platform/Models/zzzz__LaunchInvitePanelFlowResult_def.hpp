@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchInvitePanelFlowResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13490))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13444))
 // CS Name: ::Oculus.Platform.Models::LaunchInvitePanelFlowResult*
 class CORDL_TYPE LaunchInvitePanelFlowResult : public ::System::Object {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b3cc8 size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x2706664, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LaunchInvitePanelFlowResult", modifiers: "&&", def_value: None }]

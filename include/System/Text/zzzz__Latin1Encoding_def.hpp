@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Latin1Encoding)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
 namespace System::Text {
 class DecoderNLS;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Text {
 class EncoderNLS;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 // Forward declare root types
 namespace System::Text {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Text::Latin1Encoding);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2849))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2851))
 // CS Name: ::System.Text::Latin1Encoding*
 class CORDL_TYPE Latin1Encoding : public ::System::Text::EncodingNLS {
 public:
@@ -56,36 +56,36 @@ public:
 
   static inline ::System::Text::Latin1Encoding* New_ctor();
 
-  /// @brief Method .ctor addr 0x22ded10 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x243882c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::Latin1Encoding* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x22ded1c size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x2438838, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x22ded68 size 0xe8 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2438884, size 0xe8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetByteCount addr 0x22dee50 size 0x1fc virtual true final false
+  /// @brief Method GetByteCount, addr 0x243896c, size 0x1fc, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::System::Text::EncoderNLS* encoder);
 
-  /// @brief Method GetBytes addr 0x22df04c size 0x354 virtual true final false
+  /// @brief Method GetBytes, addr 0x2438b68, size 0x354, virtual true, abstract: false, final false
   inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::System::Text::EncoderNLS* encoder);
 
-  /// @brief Method GetCharCount addr 0x22df3a0 size 0x8 virtual true final false
+  /// @brief Method GetCharCount, addr 0x2438ebc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetChars addr 0x22df3a8 size 0x74 virtual true final false
+  /// @brief Method GetChars, addr 0x2438ec4, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::System::Text::DecoderNLS* decoder);
 
-  /// @brief Method GetMaxByteCount addr 0x22df41c size 0x108 virtual true final false
+  /// @brief Method GetMaxByteCount, addr 0x2438f38, size 0x108, virtual true, abstract: false, final false
   inline int32_t GetMaxByteCount(int32_t charCount);
 
-  /// @brief Method GetMaxCharCount addr 0x22df524 size 0x104 virtual true final false
+  /// @brief Method GetMaxCharCount, addr 0x2439040, size 0x104, virtual true, abstract: false, final false
   inline int32_t GetMaxCharCount(int32_t byteCount);
 
-  /// @brief Method GetBestFitUnicodeToBytesData addr 0x22df628 size 0x58 virtual true final false
+  /// @brief Method GetBestFitUnicodeToBytesData, addr 0x2439144, size 0x58, virtual true, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> GetBestFitUnicodeToBytesData();
 
   // Ctor Parameters [CppParam { name: "", ty: "Latin1Encoding", modifiers: "&&", def_value: None }]

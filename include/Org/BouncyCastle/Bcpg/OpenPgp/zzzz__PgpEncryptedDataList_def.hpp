@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpEncryptedDataList)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Bcpg {
+class InputStreamPacket;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class PgpEncryptedData;
 }
 namespace System::Collections {
 class IList;
@@ -17,11 +17,11 @@ class IList;
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
-namespace Org::BouncyCastle::Bcpg {
-class InputStreamPacket;
+namespace System {
+class Object;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class PgpEncryptedData;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -67,25 +67,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor addr 0x103bc10 size 0x55c virtual false final false
+  /// @brief Method .ctor, addr 0x10ace60, size 0x55c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Item addr 0x103c19c size 0xf4 virtual false final false
+  /// @brief Method get_Item, addr 0x10ad3ec, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method Get addr 0x103c290 size 0x4 virtual false final false
+  /// @brief Method Get, addr 0x10ad4e0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method get_Size addr 0x103c294 size 0xa4 virtual false final false
+  /// @brief Method get_Size, addr 0x10ad4e4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Count addr 0x103c338 size 0xa4 virtual false final false
+  /// @brief Method get_Count, addr 0x10ad588, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty addr 0x103c3dc size 0xb0 virtual false final false
+  /// @brief Method get_IsEmpty, addr 0x10ad62c, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method GetEncryptedDataObjects addr 0x103c48c size 0x68 virtual false final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x10ad6dc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedDataList", modifiers: "&&", def_value: None }]

@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CrlID)
 namespace Org::BouncyCastle::Asn1 {
+class DerGeneralizedTime;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -15,9 +18,6 @@ class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerGeneralizedTime;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -70,19 +70,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CrlID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0a10c size 0x3c0 virtual false final false
+  /// @brief Method .ctor, addr 0xf80330, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CrlUrl addr 0xf0a4cc size 0x8 virtual false final false
+  /// @brief Method get_CrlUrl, addr 0xf806f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_CrlUrl();
 
-  /// @brief Method get_CrlNum addr 0xf0a4d4 size 0x8 virtual false final false
+  /// @brief Method get_CrlNum, addr 0xf806f8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CrlNum();
 
-  /// @brief Method get_CrlTime addr 0xf0a4dc size 0x8 virtual false final false
+  /// @brief Method get_CrlTime, addr 0xf80700, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_CrlTime();
 
-  /// @brief Method ToAsn1Object addr 0xf0a4e4 size 0xd8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf80708, size 0xd8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlID", modifiers: "&&", def_value: None }]

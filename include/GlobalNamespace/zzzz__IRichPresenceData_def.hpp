@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4794))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4673))
 // CS Name: ::IRichPresenceData*
 class CORDL_TYPE IRichPresenceData {
 public:
@@ -24,10 +24,10 @@ public:
 
   __declspec(property(get = get_localizedDescription))::StringW localizedDescription;
 
-  /// @brief Method get_apiName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_apiName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_localizedDescription, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_localizedDescription();
 
   // Ctor Parameters [CppParam { name: "", ty: "IRichPresenceData", modifiers: "&&", def_value: None }]

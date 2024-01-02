@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::DelegateData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2588))
 // CS Name: ::System::DelegateData*
 class CORDL_TYPE DelegateData : public ::System::Object {
 public:
@@ -53,7 +53,7 @@ public:
 
   static inline ::System::DelegateData* New_ctor();
 
-  /// @brief Method .ctor addr 0x249cc60 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25f7bf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateData", modifiers: "&&", def_value: None }]

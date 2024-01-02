@@ -5,6 +5,12 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataSO_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataFullComboSO)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
@@ -13,12 +19,6 @@ class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataFullComboSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5213))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5108))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5100))
 // CS Name: ::MultiplayerBadgeDataFullComboSO*
 class CORDL_TYPE MultiplayerBadgeDataFullComboSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
@@ -45,14 +45,14 @@ public:
 
   constexpr void __set__weight(float_t value);
 
-  /// @brief Method CalculateBadgeData addr 0x20ebc88 size 0x464 virtual true final false
+  /// @brief Method CalculateBadgeData, addr 0x23cd798, size 0x464, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ec14c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23cdc5c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "&&", def_value: None }]

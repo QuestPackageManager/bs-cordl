@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
 namespace System {
 class Object;
 }
+namespace Polyglot {
+class ILocalize;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Polyglot {
 struct LanguageDirection;
-}
-namespace Polyglot {
-class ILocalize;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -31,8 +31,8 @@ namespace Polyglot {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15549))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15565))
 // CS Name: ::Polyglot::LocalizedTextComponent`1<T>*
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -82,51 +82,51 @@ public:
 
   constexpr void __set_parameters(::System::Collections::Generic::List_1<::System::Object*>* value);
 
-  /// @brief Method get_MaintainTextAlignment addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_MaintainTextAlignment, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_MaintainTextAlignment();
 
-  /// @brief Method set_MaintainTextAlignment addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_MaintainTextAlignment, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_MaintainTextAlignment(bool value);
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_Key();
 
-  /// @brief Method set_Key addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Key, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Key(::StringW value);
 
-  /// @brief Method get_Parameters addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Parameters, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* get_Parameters();
 
-  /// @brief Method OnEnable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnEnable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetText addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetText(T component, ::StringW value);
 
-  /// @brief Method UpdateAlignment addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateAlignment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAlignment(T component, ::Polyglot::LanguageDirection direction);
 
-  /// @brief Method OnLocalize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnLocalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnLocalize();
 
-  /// @brief Method ClearParameters addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClearParameters, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearParameters();
 
-  /// @brief Method AddParameter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddParameter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddParameter(::System::Object* parameter);
 
-  /// @brief Method AddParameter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddParameter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddParameter(int32_t parameter);
 
-  /// @brief Method AddParameter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddParameter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddParameter(float_t parameter);
 
-  /// @brief Method AddParameter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddParameter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddParameter(::StringW parameter);
 
   static inline ::Polyglot::LocalizedTextComponent_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextComponent_1", modifiers: "&&", def_value: None }]

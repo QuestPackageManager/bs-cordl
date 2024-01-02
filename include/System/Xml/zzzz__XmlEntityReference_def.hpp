@@ -9,10 +9,10 @@ namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
-class XmlLinkedNode;
+class XmlDocument;
 }
 namespace System::Xml {
-class XmlDocument;
+class XmlLinkedNode;
 }
 namespace System::Xml {
 class XmlNode;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Xml::XmlEntityReference);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11438))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11510))
 // CS Name: ::System.Xml::XmlEntityReference*
 class CORDL_TYPE XmlEntityReference : public ::System::Xml::XmlLinkedNode {
 public:
@@ -71,55 +71,55 @@ public:
 
   static inline ::System::Xml::XmlEntityReference* New_ctor(::StringW name, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x270c718 size 0xec virtual false final false
+  /// @brief Method .ctor, addr 0x2889738, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x270c804 size 0x8 virtual true final false
+  /// @brief Method get_Name, addr 0x2889824, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x270c80c size 0x8 virtual true final false
+  /// @brief Method get_LocalName, addr 0x288982c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Value addr 0x270c814 size 0x8 virtual true final false
+  /// @brief Method get_Value, addr 0x2889834, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x270c81c size 0x60 virtual true final false
+  /// @brief Method set_Value, addr 0x288983c, size 0x60, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_NodeType addr 0x270c87c size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x288989c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode addr 0x270c884 size 0x38 virtual true final false
+  /// @brief Method CloneNode, addr 0x28898a4, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsReadOnly addr 0x270c8bc size 0x8 virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x28898dc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsContainer addr 0x270c8c4 size 0x8 virtual true final false
+  /// @brief Method get_IsContainer, addr 0x28898e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method SetParent addr 0x270c8cc size 0xd0 virtual true final false
+  /// @brief Method SetParent, addr 0x28898ec, size 0xd0, virtual true, abstract: false, final false
   inline void SetParent(::System::Xml::XmlNode* node);
 
-  /// @brief Method SetParentForLoad addr 0x270cff4 size 0x10 virtual true final false
+  /// @brief Method SetParentForLoad, addr 0x288a014, size 0x10, virtual true, abstract: false, final false
   inline void SetParentForLoad(::System::Xml::XmlNode* node);
 
-  /// @brief Method get_LastNode addr 0x270d004 size 0x8 virtual true final false
+  /// @brief Method get_LastNode, addr 0x288a024, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlLinkedNode* get_LastNode();
 
-  /// @brief Method set_LastNode addr 0x270d00c size 0x8 virtual true final false
+  /// @brief Method set_LastNode, addr 0x288a02c, size 0x8, virtual true, abstract: false, final false
   inline void set_LastNode(::System::Xml::XmlLinkedNode* value);
 
-  /// @brief Method IsValidChildType addr 0x270d014 size 0x24 virtual true final false
+  /// @brief Method IsValidChildType, addr 0x288a034, size 0x24, virtual true, abstract: false, final false
   inline bool IsValidChildType(::System::Xml::XmlNodeType type);
 
-  /// @brief Method get_BaseURI addr 0x270d038 size 0x30 virtual true final false
+  /// @brief Method get_BaseURI, addr 0x288a058, size 0x30, virtual true, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method ConstructBaseURI addr 0x270d068 size 0xd4 virtual false final false
+  /// @brief Method ConstructBaseURI, addr 0x288a088, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW ConstructBaseURI(::StringW baseURI, ::StringW systemId);
 
-  /// @brief Method get_ChildBaseURI addr 0x270d13c size 0xd4 virtual false final false
+  /// @brief Method get_ChildBaseURI, addr 0x288a15c, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW get_ChildBaseURI();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlEntityReference", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Mouse_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8667))
 // CS Name: ::OVR.OpenVR::VREvent_Mouse_t
 struct CORDL_TYPE VREvent_Mouse_t {
 public:

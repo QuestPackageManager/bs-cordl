@@ -2,22 +2,22 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__HyperRect_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__NearestNeighbourList_2_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__KdTree_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__HyperRect_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 template <typename TKey, typename TValue>
 constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*&
@@ -456,8 +456,9 @@ inline void UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::AddNodeToSt
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node, sb, depth);
 }
 template <typename TKey, typename TValue> inline ::StringW UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*>::get(),
-                                                                             "ToString", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue>

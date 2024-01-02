@@ -8,10 +8,10 @@ namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -28,8 +28,8 @@ namespace TMPro {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12300))
 // CS Name: ::TMPro::FastAction`3<A,B,C>*
 class CORDL_TYPE FastAction_3 : public ::System::Object {
 public:
@@ -56,18 +56,18 @@ public:
 
   constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_3<A, B, C>* rhs);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Action_3<A, B, C>* rhs);
 
-  /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Call(A a, B b, C c);
 
   static inline ::TMPro::FastAction_3<A, B, C>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FastAction_3", modifiers: "&&", def_value: None }]

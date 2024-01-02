@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NameOrPseudonym)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X500 {
 class DirectoryString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::SigI {
@@ -71,39 +71,39 @@ public:
 
   constexpr void __set_givenName(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0x10111f0 size 0x1e8 virtual false final false
+  /// @brief Method GetInstance, addr 0x1082440, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
-  /// @brief Method .ctor addr 0x10113d8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1082628, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1011400 size 0x1a8 virtual false final false
+  /// @brief Method .ctor, addr 0x1082650, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::StringW pseudonym);
 
-  /// @brief Method .ctor addr 0x10115a8 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x10827f8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW pseudonym);
 
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method .ctor addr 0x1011620 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x1082870, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* surname, ::Org::BouncyCastle::Asn1::Asn1Sequence* givenName);
 
-  /// @brief Method get_Pseudonym addr 0x101164c size 0x8 virtual false final false
+  /// @brief Method get_Pseudonym, addr 0x108289c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Pseudonym();
 
-  /// @brief Method get_Surname addr 0x1011654 size 0x8 virtual false final false
+  /// @brief Method get_Surname, addr 0x10828a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Surname();
 
-  /// @brief Method GetGivenName addr 0x101165c size 0x318 virtual false final false
+  /// @brief Method GetGivenName, addr 0x10828ac, size 0x318, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> GetGivenName();
 
-  /// @brief Method ToAsn1Object addr 0x1011974 size 0x10c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1082bc4, size 0x10c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "NameOrPseudonym", modifiers: "&&", def_value: None }]

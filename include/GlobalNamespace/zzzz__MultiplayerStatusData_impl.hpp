@@ -18,9 +18,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::*)()>(
     &::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f68;
+  constexpr static std::size_t addrs = 0x2352fa4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -68,9 +68,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerStatusData__UserMessage::*)()>(
     &::GlobalNamespace::__MultiplayerStatusData__UserMessage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f60;
+  constexpr static std::size_t addrs = 0x2352f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerStatusData__UserMessage*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -101,146 +101,175 @@ inline void GlobalNamespace::__MultiplayerStatusData__UserMessage::_ctor() {
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage::__MultiplayerStatusData__UserMessage() {}
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get__minimumAppVersion
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_minimumAppVersion
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerStatusData::*)()>(
-    &::GlobalNamespace::MultiplayerStatusData::get__minimumAppVersion)> {
+    &::GlobalNamespace::MultiplayerStatusData::get_minimumAppVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f00;
+  constexpr static std::size_t addrs = 0x2352f2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                               "get__minimumAppVersion", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_minimumAppVersion", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set__minimumAppVersion
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_minimumAppVersion
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(::StringW)>(
-    &::GlobalNamespace::MultiplayerStatusData::set__minimumAppVersion)> {
+    &::GlobalNamespace::MultiplayerStatusData::set_minimumAppVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f08;
+  constexpr static std::size_t addrs = 0x2352f34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__minimumAppVersion",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_minimumAppVersion",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get__maintenanceStartTime
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_maintenanceStartTime
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerStatusData::*)()>(
-    &::GlobalNamespace::MultiplayerStatusData::get__maintenanceStartTime)> {
+    &::GlobalNamespace::MultiplayerStatusData::get_maintenanceStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f10;
+  constexpr static std::size_t addrs = 0x2352f3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                               "get__maintenanceStartTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_maintenanceStartTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set__maintenanceStartTime
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_maintenanceStartTime
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(int64_t)>(
-    &::GlobalNamespace::MultiplayerStatusData::set__maintenanceStartTime)> {
+    &::GlobalNamespace::MultiplayerStatusData::set_maintenanceStartTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f18;
+  constexpr static std::size_t addrs = 0x2352f44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__maintenanceStartTime",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_maintenanceStartTime",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get__userMessage
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_maintenanceEndTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__MultiplayerStatusData__UserMessage* (::GlobalNamespace::MultiplayerStatusData::*)()>(
-    &::GlobalNamespace::MultiplayerStatusData::get__userMessage)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerStatusData::*)()>(
+    &::GlobalNamespace::MultiplayerStatusData::get_maintenanceEndTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f20;
+  constexpr static std::size_t addrs = 0x2352f4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                               "get__userMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_maintenanceEndTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set__userMessage
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_maintenanceEndTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(int64_t)>(
+    &::GlobalNamespace::MultiplayerStatusData::set_maintenanceEndTime)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2352f54;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_maintenanceEndTime",
+                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_userMessage
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__MultiplayerStatusData__UserMessage* (::GlobalNamespace::MultiplayerStatusData::*)()>(
+    &::GlobalNamespace::MultiplayerStatusData::get_userMessage)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2352f5c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
+                                                                               "get_userMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_userMessage
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(::GlobalNamespace::__MultiplayerStatusData__UserMessage*)>(
-    &::GlobalNamespace::MultiplayerStatusData::set__userMessage)> {
+    &::GlobalNamespace::MultiplayerStatusData::set_userMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f28;
+  constexpr static std::size_t addrs = 0x2352f64;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__userMessage", std::vector<Il2CppClass*>{},
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_userMessage", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerStatusData__UserMessage*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get__useGamelift
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_useGamelift
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerStatusData::*)()>(&::GlobalNamespace::MultiplayerStatusData::get__useGamelift)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerStatusData::*)()>(&::GlobalNamespace::MultiplayerStatusData::get_useGamelift)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f30;
+  constexpr static std::size_t addrs = 0x2352f6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                               "get__useGamelift", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_useGamelift", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set__useGamelift
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_useGamelift
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(bool)>(
-    &::GlobalNamespace::MultiplayerStatusData::set__useGamelift)> {
+    &::GlobalNamespace::MultiplayerStatusData::set_useGamelift)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2204f38;
+  constexpr static std::size_t addrs = 0x2352f74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__useGamelift",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_useGamelift",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get__useXPlatformAuth
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.get_useXPlatformAuth
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerStatusData::*)()>(
-    &::GlobalNamespace::MultiplayerStatusData::get__useXPlatformAuth)> {
+    &::GlobalNamespace::MultiplayerStatusData::get_useXPlatformAuth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f44;
+  constexpr static std::size_t addrs = 0x2352f80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                               "get__useXPlatformAuth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_useXPlatformAuth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set__useXPlatformAuth
+//  Writing Method size for method: ::GlobalNamespace::MultiplayerStatusData.set_useXPlatformAuth
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)(bool)>(
-    &::GlobalNamespace::MultiplayerStatusData::set__useXPlatformAuth)> {
+    &::GlobalNamespace::MultiplayerStatusData::set_useXPlatformAuth)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2204f4c;
+  constexpr static std::size_t addrs = 0x2352f88;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__useXPlatformAuth",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_useXPlatformAuth",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -250,25 +279,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerStatusData::*)()>(&::GlobalNamespace::MultiplayerStatusData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2204f58;
+  constexpr static std::size_t addrs = 0x2352f94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::MultiplayerStatusData::__get_minimumAppVersion() {
+constexpr ::StringW& GlobalNamespace::MultiplayerStatusData::__get_minimum_app_version() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___minimumAppVersion;
+  return this->___minimum_app_version;
 }
-constexpr ::StringW const& GlobalNamespace::MultiplayerStatusData::__get_minimumAppVersion() const {
+constexpr ::StringW const& GlobalNamespace::MultiplayerStatusData::__get_minimum_app_version() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___minimumAppVersion;
+  return this->___minimum_app_version;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_minimumAppVersion(::StringW value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_minimum_app_version(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minimumAppVersion)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___minimum_app_version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus& GlobalNamespace::MultiplayerStatusData::__get_status() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -282,118 +311,129 @@ constexpr void GlobalNamespace::MultiplayerStatusData::__set_status(::GlobalName
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___status = value;
 }
-constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenanceStartTime() {
+constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenance_start_time() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___maintenanceStartTime;
+  return this->___maintenance_start_time;
 }
-constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenanceStartTime() const {
+constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenance_start_time() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___maintenanceStartTime;
+  return this->___maintenance_start_time;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenanceStartTime(int64_t value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenance_start_time(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___maintenanceStartTime = value;
+  this->___maintenance_start_time = value;
 }
-constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenanceEndTime() {
+constexpr int64_t& GlobalNamespace::MultiplayerStatusData::__get_maintenance_end_time() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___maintenanceEndTime;
+  return this->___maintenance_end_time;
 }
-constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenanceEndTime() const {
+constexpr int64_t const& GlobalNamespace::MultiplayerStatusData::__get_maintenance_end_time() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___maintenanceEndTime;
+  return this->___maintenance_end_time;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenanceEndTime(int64_t value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_maintenance_end_time(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___maintenanceEndTime = value;
+  this->___maintenance_end_time = value;
 }
-constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& GlobalNamespace::MultiplayerStatusData::__get_userMessage() {
+constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& GlobalNamespace::MultiplayerStatusData::__get_user_message() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userMessage;
+  return this->___user_message;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& GlobalNamespace::MultiplayerStatusData::__get_userMessage() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& GlobalNamespace::MultiplayerStatusData::__get_user_message() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___userMessage;
+  return this->___user_message;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___userMessage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___user_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_useGamelift() {
+constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_use_gamelift() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useGamelift;
+  return this->___use_gamelift;
 }
-constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_useGamelift() const {
+constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_use_gamelift() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useGamelift;
+  return this->___use_gamelift;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_useGamelift(bool value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_use_gamelift(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___useGamelift = value;
+  this->___use_gamelift = value;
 }
-constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_useXPlatformAuth() {
+constexpr bool& GlobalNamespace::MultiplayerStatusData::__get_use_xplatform_auth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useXPlatformAuth;
+  return this->___use_xplatform_auth;
 }
-constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_useXPlatformAuth() const {
+constexpr bool const& GlobalNamespace::MultiplayerStatusData::__get_use_xplatform_auth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___useXPlatformAuth;
+  return this->___use_xplatform_auth;
 }
-constexpr void GlobalNamespace::MultiplayerStatusData::__set_useXPlatformAuth(bool value) {
+constexpr void GlobalNamespace::MultiplayerStatusData::__set_use_xplatform_auth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___useXPlatformAuth = value;
+  this->___use_xplatform_auth = value;
 }
-inline ::StringW GlobalNamespace::MultiplayerStatusData::get__minimumAppVersion() {
+inline ::StringW GlobalNamespace::MultiplayerStatusData::get_minimumAppVersion() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                             "get__minimumAppVersion", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_minimumAppVersion", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusData::set__minimumAppVersion(::StringW value) {
+inline void GlobalNamespace::MultiplayerStatusData::set_minimumAppVersion(::StringW value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__minimumAppVersion",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_minimumAppVersion",
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int64_t GlobalNamespace::MultiplayerStatusData::get__maintenanceStartTime() {
+inline int64_t GlobalNamespace::MultiplayerStatusData::get_maintenanceStartTime() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                             "get__maintenanceStartTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_maintenanceStartTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusData::set__maintenanceStartTime(int64_t value) {
+inline void GlobalNamespace::MultiplayerStatusData::set_maintenanceStartTime(int64_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__maintenanceStartTime",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_maintenanceStartTime",
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* GlobalNamespace::MultiplayerStatusData::get__userMessage() {
+inline int64_t GlobalNamespace::MultiplayerStatusData::get_maintenanceEndTime() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                             "get__userMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_maintenanceEndTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::MultiplayerStatusData::set_maintenanceEndTime(int64_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_maintenanceEndTime",
+                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* GlobalNamespace::MultiplayerStatusData::get_userMessage() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
+                                                                             "get_userMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__MultiplayerStatusData__UserMessage*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusData::set__userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value) {
+inline void GlobalNamespace::MultiplayerStatusData::set_userMessage(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__userMessage", std::vector<Il2CppClass*>{},
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_userMessage", std::vector<Il2CppClass*>{},
                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MultiplayerStatusData__UserMessage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::MultiplayerStatusData::get__useGamelift() {
+inline bool GlobalNamespace::MultiplayerStatusData::get_useGamelift() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                             "get__useGamelift", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_useGamelift", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusData::set__useGamelift(bool value) {
+inline void GlobalNamespace::MultiplayerStatusData::set_useGamelift(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__useGamelift",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_useGamelift", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool GlobalNamespace::MultiplayerStatusData::get__useXPlatformAuth() {
+inline bool GlobalNamespace::MultiplayerStatusData::get_useXPlatformAuth() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(),
-                                                                             "get__useXPlatformAuth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_useXPlatformAuth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerStatusData::set__useXPlatformAuth(bool value) {
+inline void GlobalNamespace::MultiplayerStatusData::set_useXPlatformAuth(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set__useXPlatformAuth",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerStatusData*>::get(), "set_useXPlatformAuth",
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }

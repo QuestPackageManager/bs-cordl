@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::GlyphClassDefinitionType);
 namespace UnityEngine::TextCore {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15527))
 // CS Name: ::UnityEngine.TextCore::GlyphClassDefinitionType
 struct CORDL_TYPE GlyphClassDefinitionType {
 public:

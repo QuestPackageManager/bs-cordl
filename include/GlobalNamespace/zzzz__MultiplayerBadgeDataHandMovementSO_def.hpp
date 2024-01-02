@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataHandMovementSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5208))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5207))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5103))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5102))
 // CS Name: ::MultiplayerBadgeDataHandMovementSO*
 class CORDL_TYPE MultiplayerBadgeDataHandMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
   // Declarations
-  /// @brief Method GetValue addr 0x20ec19c size 0x2c virtual true final false
+  /// @brief Method GetValue, addr 0x23cdcac, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataHandMovementSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ec1c8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23cdcd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataHandMovementSO", modifiers: "&&", def_value: None }]

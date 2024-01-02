@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectIDGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3215))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3216))
 // CS Name: ::System.Runtime.Serialization::ObjectIDGenerator*
 class CORDL_TYPE ObjectIDGenerator : public ::System::Object {
 public:
@@ -71,19 +71,19 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectIDGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x235f9f0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x24b84e4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FindElement addr 0x235fac8 size 0xc4 virtual false final false
+  /// @brief Method FindElement, addr 0x24b85bc, size 0xc4, virtual false, abstract: false, final false
   inline int32_t FindElement(::System::Object* obj, ByRef<bool> found);
 
-  /// @brief Method GetId addr 0x235fb8c size 0x184 virtual true final false
+  /// @brief Method GetId, addr 0x24b8680, size 0x184, virtual true, abstract: false, final false
   inline int64_t GetId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method HasId addr 0x235ffc4 size 0xd4 virtual true final false
+  /// @brief Method HasId, addr 0x24b8ab8, size 0xd4, virtual true, abstract: false, final false
   inline int64_t HasId(::System::Object* obj, ByRef<bool> firstTime);
 
-  /// @brief Method Rehash addr 0x235fd10 size 0x2b4 virtual false final false
+  /// @brief Method Rehash, addr 0x24b8804, size 0x2b4, virtual false, abstract: false, final false
   inline void Rehash();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectIDGenerator", modifiers: "&&", def_value: None }]

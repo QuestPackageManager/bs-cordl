@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(RecipientInfoGenerator)
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -28,7 +28,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE RecipientInfoGenerator {
 public:
   // Declarations
-  /// @brief Method Generate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecipientInfoGenerator", modifiers: "&&", def_value: None }]

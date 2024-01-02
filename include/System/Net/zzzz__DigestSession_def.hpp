@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestSession)
-namespace System {
-struct DateTime;
-}
 namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Security::Cryptography {
-class RandomNumberGenerator;
+class Authorization;
 }
 namespace System::Security::Cryptography {
 class HashAlgorithm;
 }
 namespace System::Net {
-class WebRequest;
+class ICredentials;
+}
+namespace System::Security::Cryptography {
+class RandomNumberGenerator;
+}
+namespace System {
+struct DateTime;
 }
 namespace System::Net {
 class DigestHeaderParser;
 }
 namespace System::Net {
-class ICredentials;
+class HttpWebRequest;
 }
 namespace System::Net {
-class Authorization;
+class WebRequest;
 }
 // Forward declare root types
 namespace System::Net {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Net::DigestSession);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9160))
 // CS Name: ::System.Net::DigestSession*
 class CORDL_TYPE DigestSession : public ::System::Object {
 public:
@@ -115,46 +115,46 @@ public:
 
   static inline ::System::Net::DigestSession* New_ctor();
 
-  /// @brief Method .ctor addr 0x28404ec size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x29bdd64, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Algorithm addr 0x284055c size 0x18 virtual false final false
+  /// @brief Method get_Algorithm, addr 0x29bddd4, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Realm addr 0x2840574 size 0x18 virtual false final false
+  /// @brief Method get_Realm, addr 0x29bddec, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
-  /// @brief Method get_Nonce addr 0x284058c size 0x18 virtual false final false
+  /// @brief Method get_Nonce, addr 0x29bde04, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque addr 0x28405a4 size 0x18 virtual false final false
+  /// @brief Method get_Opaque, addr 0x29bde1c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP addr 0x28405bc size 0x18 virtual false final false
+  /// @brief Method get_QOP, addr 0x29bde34, size 0x18, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_CNonce addr 0x28405d4 size 0xf4 virtual false final false
+  /// @brief Method get_CNonce, addr 0x29bde4c, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW get_CNonce();
 
-  /// @brief Method Parse addr 0x28406c8 size 0xe0 virtual false final false
+  /// @brief Method Parse, addr 0x29bdf40, size 0xe0, virtual false, abstract: false, final false
   inline bool Parse(::StringW challenge);
 
-  /// @brief Method HashToHexString addr 0x28407a8 size 0x150 virtual false final false
+  /// @brief Method HashToHexString, addr 0x29be020, size 0x150, virtual false, abstract: false, final false
   inline ::StringW HashToHexString(::StringW toBeHashed);
 
-  /// @brief Method HA1 addr 0x28408f8 size 0x124 virtual false final false
+  /// @brief Method HA1, addr 0x29be170, size 0x124, virtual false, abstract: false, final false
   inline ::StringW HA1(::StringW username, ::StringW password);
 
-  /// @brief Method HA2 addr 0x2840a1c size 0xd0 virtual false final false
+  /// @brief Method HA2, addr 0x29be294, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
 
-  /// @brief Method Response addr 0x2840aec size 0x160 virtual false final false
+  /// @brief Method Response, addr 0x29be364, size 0x160, virtual false, abstract: false, final false
   inline ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
 
-  /// @brief Method Authenticate addr 0x2840c4c size 0x5e0 virtual false final false
+  /// @brief Method Authenticate, addr 0x29be4c4, size 0x5e0, virtual false, abstract: false, final false
   inline ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_LastUse addr 0x284122c size 0x8 virtual false final false
+  /// @brief Method get_LastUse, addr 0x29beaa4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_LastUse();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "&&", def_value: None }]

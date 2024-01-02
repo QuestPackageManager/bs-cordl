@@ -6,47 +6,47 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SimpleLevelStarter)
+namespace UnityEngine {
+class TextAsset;
+}
 namespace GlobalNamespace {
-class BeatmapLevelSO;
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+class MenuTransitionsHelper;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
+namespace UnityEngine {
+class Component;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class MenuTransitionsHelper;
-}
-namespace UnityEngine::UI {
-class Button;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace UnityEngine {
-class TextAsset;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,11 +55,11 @@ class SimpleLevelStarter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter);
 // Type: ::SimpleLevelStarter
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6145))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6085))
 // CS Name: ::SimpleLevelStarter*
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -85,22 +85,25 @@ public:
   /// @brief Field _prefabBindings, offset 0x38, size 0x8
   __declspec(property(get = __get__prefabBindings, put = __set__prefabBindings))::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> _prefabBindings;
 
-  /// @brief Field _button, offset 0x40, size 0x8
+  /// @brief Field _forceOverrideEnvironment, offset 0x40, size 0x1
+  __declspec(property(get = __get__forceOverrideEnvironment, put = __set__forceOverrideEnvironment)) bool _forceOverrideEnvironment;
+
+  /// @brief Field _button, offset 0x48, size 0x8
   __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
 
-  /// @brief Field _menuTransitionsHelper, offset 0x48, size 0x8
+  /// @brief Field _menuTransitionsHelper, offset 0x50, size 0x8
   __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
 
-  /// @brief Field _gameScenesManager, offset 0x50, size 0x8
+  /// @brief Field _gameScenesManager, offset 0x58, size 0x8
   __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
 
-  /// @brief Field _playerDataModel, offset 0x58, size 0x8
+  /// @brief Field _playerDataModel, offset 0x60, size 0x8
   __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
 
-  /// @brief Field _buttonBinder, offset 0x60, size 0x8
+  /// @brief Field _buttonBinder, offset 0x68, size 0x8
   __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _gameplayModifiers, offset 0x68, size 0x8
+  /// @brief Field _gameplayModifiers, offset 0x70, size 0x8
   __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__level();
@@ -145,6 +148,12 @@ public:
 
   constexpr void __set__prefabBindings(::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> value);
 
+  constexpr bool& __get__forceOverrideEnvironment();
+
+  constexpr bool const& __get__forceOverrideEnvironment() const;
+
+  constexpr void __set__forceOverrideEnvironment(bool value);
+
   constexpr ::UnityEngine::UI::Button*& __get__button();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
@@ -181,31 +190,31 @@ public:
 
   constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method Awake addr 0x21e5bf8 size 0xc4 virtual false final false
+  /// @brief Method Awake, addr 0x23202d4, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x21e5cbc size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x2320398, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartLevel addr 0x21e5cd8 size 0x2b0 virtual false final false
+  /// @brief Method StartLevel, addr 0x23203b4, size 0x4dc, virtual false, abstract: false, final false
   inline void StartLevel();
 
-  /// @brief Method InstallEarlyBindings addr 0x21e5f88 size 0x128 virtual false final false
+  /// @brief Method InstallEarlyBindings, addr 0x2320890, size 0x128, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method ButtonPressed addr 0x21e60b0 size 0x4 virtual false final false
+  /// @brief Method ButtonPressed, addr 0x23209b8, size 0x4, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish addr 0x21e60b4 size 0x28 virtual false final false
+  /// @brief Method HandleLevelDidFinish, addr 0x23209bc, size 0x28, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e60dc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x23209e4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|15_0 addr 0x21e61b4 size 0x13c virtual false final false
-  inline void _StartLevel_g__AfterSceneSwitchCallback_15_0(::Zenject::DiContainer* container);
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x2320abc, size 0x13c, virtual false, abstract: false, final false
+  inline void _StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -242,28 +251,31 @@ public:
   /// @brief Field _prefabBindings, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Component*, ::Array<::UnityEngine::Component*>*> ____prefabBindings;
 
-  /// @brief Field _button, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _forceOverrideEnvironment, offset: 0x40, size: 0x1, def value: None
+  bool ____forceOverrideEnvironment;
+
+  /// @brief Field _button, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UI::Button* ____button;
 
-  /// @brief Field _menuTransitionsHelper, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _menuTransitionsHelper, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
 
-  /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
 
-  /// @brief Field _playerDataModel, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
 
-  /// @brief Field _buttonBinder, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _gameplayModifiers, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiers, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x78>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____level) == 0x18, "Offset mismatch!");
 
@@ -279,17 +291,19 @@ static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____recordingTextA
 
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____prefabBindings) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____button) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____forceOverrideEnvironment) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____menuTransitionsHelper) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____button) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameScenesManager) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____menuTransitionsHelper) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____playerDataModel) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameScenesManager) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____buttonBinder) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____playerDataModel) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameplayModifiers) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____buttonBinder) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameplayModifiers) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter);

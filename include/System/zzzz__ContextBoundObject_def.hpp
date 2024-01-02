@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::ContextBoundObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2549))
 // CS Name: ::System::ContextBoundObject*
 class CORDL_TYPE ContextBoundObject : public ::System::MarshalByRefObject {
 public:
   // Declarations
   static inline ::System::ContextBoundObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x2480664 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25dc58c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextBoundObject", modifiers: "&&", def_value: None }]

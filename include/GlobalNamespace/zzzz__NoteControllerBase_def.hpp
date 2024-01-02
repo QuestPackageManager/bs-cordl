@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(NoteControllerBase)
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
-}
-namespace GlobalNamespace {
 class INoteControllerNoteDidPassJumpThreeQuartersEvent;
-}
-namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class NoteData;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteControllerBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4770))
 // CS Name: ::NoteControllerBase*
 class CORDL_TYPE NoteControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,21 +44,21 @@ public:
 
   __declspec(property(get = get_noteData))::GlobalNamespace::NoteData* noteData;
 
-  /// @brief Method get_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();
 
-  /// @brief Method get_noteDidPassJumpThreeQuartersEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteDidPassJumpThreeQuartersEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* get_noteDidPassJumpThreeQuartersEvent();
 
-  /// @brief Method get_noteDidStartDissolvingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
 
-  /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
   static inline ::GlobalNamespace::NoteControllerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2253a2c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2387538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteControllerBase", modifiers: "&&", def_value: None }]

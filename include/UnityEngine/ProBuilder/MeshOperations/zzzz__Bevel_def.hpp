@@ -11,23 +11,20 @@ CORDL_MODULE_EXPORT(Bevel)
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __Bevel____c__DisplayClass0_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __Bevel____c__DisplayClass0_2;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder {
-class WingedEdge;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __Bevel____c__DisplayClass0_1;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
 }
 namespace UnityEngine::ProBuilder {
-class FaceRebuildData;
+class Face;
 }
 namespace UnityEngine::ProBuilder {
 struct Edge;
@@ -36,19 +33,22 @@ namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
-class __Bevel____c__DisplayClass0_1;
+class __Bevel____c__DisplayClass0_2;
 }
 namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class FaceRebuildData;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __Bevel____c;
+}
+namespace UnityEngine::ProBuilder {
+class WingedEdge;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T1, typename T2> struct SimpleTuple_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -82,8 +82,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12243))
 // CS Name: ::Bevel::<>c__DisplayClass0_0*
 class CORDL_TYPE __Bevel____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -127,13 +127,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a1e434 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba0188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <BevelEdges>b__7 addr 0x2a1f350 size 0x3c virtual false final false
+  /// @brief Method <BevelEdges>b__7, addr 0x2ba10a4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__7(int32_t x);
 
-  /// @brief Method <BevelEdges>b__8 addr 0x2a1f38c size 0x3c virtual false final false
+  /// @brief Method <BevelEdges>b__8, addr 0x2ba10e0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__8(int32_t x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -180,8 +180,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12047)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12244))
 // CS Name: ::Bevel::<>c__DisplayClass0_1*
 class CORDL_TYPE __Bevel____c__DisplayClass0_1 : public ::System::Object {
 public:
@@ -197,10 +197,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a1e43c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba0190, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <BevelEdges>b__4 addr 0x2a1f3c8 size 0x3c virtual false final false
+  /// @brief Method <BevelEdges>b__4, addr 0x2ba111c, size 0x3c, virtual false, abstract: false, final false
   inline bool _BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
@@ -232,8 +232,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12245))
 // CS Name: ::Bevel::<>c__DisplayClass0_2*
 class CORDL_TYPE __Bevel____c__DisplayClass0_2 : public ::System::Object {
 public:
@@ -258,10 +258,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a1f0c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba0e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <BevelEdges>b__5 addr 0x2a1f404 size 0x100 virtual false final false
+  /// @brief Method <BevelEdges>b__5, addr 0x2ba1158, size 0x100, virtual false, abstract: false, final false
   inline bool _BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c__DisplayClass0_2", modifiers: "&&", def_value: None }]
@@ -298,8 +298,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12174))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12246))
 // CS Name: ::Bevel::<>c*
 class CORDL_TYPE __Bevel____c : public ::System::Object {
 public:
@@ -351,22 +351,22 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a1f568 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba12bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <BevelEdges>b__0_0 addr 0x2a1f570 size 0x18 virtual false final false
+  /// @brief Method <BevelEdges>b__0_0, addr 0x2ba12c4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_6 addr 0x2a1f588 size 0x50 virtual false final false
+  /// @brief Method <BevelEdges>b__0_6, addr 0x2ba12dc, size 0x50, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*> x);
 
-  /// @brief Method <BevelEdges>b__0_1 addr 0x2a1f5d8 size 0x18 virtual false final false
+  /// @brief Method <BevelEdges>b__0_1, addr 0x2ba132c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_2 addr 0x2a1f5f0 size 0x18 virtual false final false
+  /// @brief Method <BevelEdges>b__0_2, addr 0x2ba1344, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_3 addr 0x2a1f608 size 0x18 virtual false final false
+  /// @brief Method <BevelEdges>b__0_3, addr 0x2ba135c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Bevel____c", modifiers: "&&", def_value: None }]
@@ -393,8 +393,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12175))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12247))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Bevel*
 class CORDL_TYPE Bevel : public ::System::Object {
 public:
@@ -414,21 +414,21 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_BridgeIndexesTri();
 
-  /// @brief Method BevelEdges addr 0x2a1bcec size 0x2748 virtual false final false
+  /// @brief Method BevelEdges, addr 0x2b9da40, size 0x2748, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* BevelEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, float_t amount);
 
-  /// @brief Method GetBridgeFaces addr 0x2a1e814 size 0x8b4 virtual false final false
+  /// @brief Method GetBridgeFaces, addr 0x2ba0568, size 0x8b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* GetBridgeFaces(
       ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
       ::System::Collections::Generic::Dictionary_2<
           int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>>*>*
           holes);
 
-  /// @brief Method SlideEdge addr 0x2a1e444 size 0x3d0 virtual false final false
+  /// @brief Method SlideEdge, addr 0x2ba0198, size 0x3d0, virtual false, abstract: false, final false
   static inline void SlideEdge(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* we, float_t amount);
 
-  /// @brief Method GetLeadingEdge addr 0x2a1f1d4 size 0xe8 virtual false final false
+  /// @brief Method GetLeadingEdge, addr 0x2ba0f28, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetLeadingEdge(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t common);
 
   // Ctor Parameters [CppParam { name: "", ty: "Bevel", modifiers: "&&", def_value: None }]

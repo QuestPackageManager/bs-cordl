@@ -17,8 +17,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14333))
 // CS Name: ::FixedUpdateSmoothValue`1<T>*
 class CORDL_TYPE FixedUpdateSmoothValue_1 : public ::System::Object {
 public:
@@ -52,19 +52,19 @@ public:
 
   static inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* New_ctor(float_t smooth);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(float_t smooth);
 
-  /// @brief Method SetStartValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetStartValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetStartValue(T value);
 
-  /// @brief Method FixedUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FixedUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FixedUpdate(T value);
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValue(float_t interpolationFactor);
 
-  /// @brief Method Interpolate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Interpolate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Interpolate(T value0, T value1, float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateSmoothValue_1", modifiers: "&&", def_value: None }]

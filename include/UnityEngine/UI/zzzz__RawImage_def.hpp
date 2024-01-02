@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 CORDL_MODULE_EXPORT(RawImage)
-namespace UnityEngine::UI {
-class VertexHelper;
-}
 namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
 class Texture;
+}
+namespace UnityEngine::UI {
+class VertexHelper;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::RawImage);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13104)), TypeDefinitionIndex(TypeDefinitionIndex(10093))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13111))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13099))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.UI::RawImage*
 class CORDL_TYPE RawImage : public ::UnityEngine::UI::MaskableGraphic {
 public:
@@ -56,31 +56,31 @@ public:
 
   static inline ::UnityEngine::UI::RawImage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c15e18 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2d7e1c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainTexture addr 0x2c15e68 size 0x158 virtual true final false
+  /// @brief Method get_mainTexture, addr 0x2d7e218, size 0x158, virtual true, abstract: false, final false
   inline ::UnityEngine::Texture* get_mainTexture();
 
-  /// @brief Method get_texture addr 0x2c15fc0 size 0x8 virtual false final false
+  /// @brief Method get_texture, addr 0x2d7e370, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture* get_texture();
 
-  /// @brief Method set_texture addr 0x2c15fc8 size 0xac virtual false final false
+  /// @brief Method set_texture, addr 0x2d7e378, size 0xac, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture* value);
 
-  /// @brief Method get_uvRect addr 0x2c16074 size 0xc virtual false final false
+  /// @brief Method get_uvRect, addr 0x2d7e424, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRect();
 
-  /// @brief Method set_uvRect addr 0x2c16080 size 0x80 virtual false final false
+  /// @brief Method set_uvRect, addr 0x2d7e430, size 0x80, virtual false, abstract: false, final false
   inline void set_uvRect(::UnityEngine::Rect value);
 
-  /// @brief Method SetNativeSize addr 0x2c16100 size 0x2e0 virtual true final false
+  /// @brief Method SetNativeSize, addr 0x2d7e4b0, size 0x2e0, virtual true, abstract: false, final false
   inline void SetNativeSize();
 
-  /// @brief Method OnPopulateMesh addr 0x2c163e0 size 0xd18 virtual true final false
+  /// @brief Method OnPopulateMesh, addr 0x2d7e790, size 0xd18, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
-  /// @brief Method OnDidApplyAnimationProperties addr 0x2c174c0 size 0x3c virtual true final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x2d7f870, size 0x3c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
   // Ctor Parameters [CppParam { name: "", ty: "RawImage", modifiers: "&&", def_value: None }]

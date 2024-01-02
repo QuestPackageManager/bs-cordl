@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualTreeUpdatePhase);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6836))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6750))
 // CS Name: ::UnityEngine.UIElements::VisualTreeUpdatePhase
 struct CORDL_TYPE VisualTreeUpdatePhase {
 public:

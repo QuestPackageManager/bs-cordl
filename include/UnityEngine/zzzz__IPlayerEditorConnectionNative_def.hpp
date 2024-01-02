@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::UnityEngine::IPlayerEditorConnectionNative);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10069))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10141))
 // CS Name: ::UnityEngine::IPlayerEditorConnectionNative*
 class CORDL_TYPE IPlayerEditorConnectionNative {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
-  /// @brief Method DisconnectAll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisconnectAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisconnectAll();
 
-  /// @brief Method SendMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
-  /// @brief Method TrySendMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TrySendMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TrySendMessage(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);
 
-  /// @brief Method Poll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Poll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Poll();
 
-  /// @brief Method RegisterInternal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterInternal(::System::Guid messageId);
 
-  /// @brief Method UnregisterInternal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterInternal(::System::Guid messageId);
 
-  /// @brief Method IsConnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsConnected();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayerEditorConnectionNative", modifiers: "&&", def_value: None }]

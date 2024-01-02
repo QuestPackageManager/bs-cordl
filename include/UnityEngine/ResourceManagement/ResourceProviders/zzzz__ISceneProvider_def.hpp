@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISceneProvider)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvi
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14276))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14005))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ISceneProvider*
 class CORDL_TYPE ISceneProvider {
 public:
   // Declarations
-  /// @brief Method ProvideScene addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProvideScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method ReleaseScene addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);

@@ -6,43 +6,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorsOverrideSettingsPanelController)
 namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class ColorSchemesSettings;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
 class ColorSchemeDropdown;
+}
+namespace GlobalNamespace {
+class EditColorSchemeController;
 }
 namespace HMUI {
 class ModalView;
 }
 namespace HMUI {
 class PanelAnimationSO;
-}
-namespace GlobalNamespace {
-class EditColorSchemeController;
-}
-namespace GlobalNamespace {
-class ColorSchemesSettings;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
-namespace HMUI {
-class ButtonBinder;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace HMUI {
-class DropdownWithTableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorsOverrideSettingsPanelController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5505))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5412))
 // CS Name: ::ColorsOverrideSettingsPanelController*
 class CORDL_TYPE ColorsOverrideSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -93,10 +93,11 @@ public:
   /// @brief Field _initialized, offset 0x68, size 0x1
   __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
 
+  /// @brief Field _isDirty, offset 0x69, size 0x1
+  __declspec(property(get = __get__isDirty, put = __set__isDirty)) bool _isDirty;
+
   /// @brief Field _buttonBinder, offset 0x70, size 0x8
   __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
-
-  __declspec(property(get = get_colorSchemesSettings))::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings;
 
   /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
   constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
@@ -167,48 +168,54 @@ public:
 
   constexpr void __set__initialized(bool value);
 
+  constexpr bool& __get__isDirty();
+
+  constexpr bool const& __get__isDirty() const;
+
+  constexpr void __set__isDirty(bool value);
+
   constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method get_colorSchemesSettings addr 0x213107c size 0x8 virtual false final false
-  inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
-
-  /// @brief Method SetData addr 0x2131084 size 0x268 virtual false final false
+  /// @brief Method SetData, addr 0x2275e84, size 0x268, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::ColorSchemesSettings* colorSchemesSettings);
 
-  /// @brief Method OnDestroy addr 0x2131438 size 0x23c virtual false final false
+  /// @brief Method OnDestroy, addr 0x2276238, size 0x23c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable addr 0x21317c0 size 0x24 virtual false final false
+  /// @brief Method OnDisable, addr 0x22765c0, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh addr 0x21317e4 size 0x1e0 virtual true final true
+  /// @brief Method OnEnable, addr 0x22765e4, size 0x10, virtual false, abstract: false, final false
+  inline void OnEnable();
+
+  /// @brief Method Refresh, addr 0x22765f4, size 0x1d8, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx addr 0x21319c4 size 0x18c virtual false final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x22767cc, size 0x18c, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleOverrideColorsToggleValueChanged addr 0x2131b50 size 0x22c virtual false final false
+  /// @brief Method HandleOverrideColorsToggleValueChanged, addr 0x2276958, size 0x22c, virtual false, abstract: false, final false
   inline void HandleOverrideColorsToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleEditColorSchemeButtonWasPressed addr 0x2131d7c size 0x7c virtual false final false
+  /// @brief Method HandleEditColorSchemeButtonWasPressed, addr 0x2276b84, size 0x7c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeButtonWasPressed();
 
-  /// @brief Method HandleEditColorSchemeControllerDidFinish addr 0x2131e10 size 0x50 virtual false final false
+  /// @brief Method HandleEditColorSchemeControllerDidFinish, addr 0x2276c18, size 0x50, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidFinish();
 
-  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme addr 0x2131e60 size 0x1c virtual false final false
+  /// @brief Method HandleEditColorSchemeControllerDidChangeColorScheme, addr 0x2276c68, size 0x2c, virtual false, abstract: false, final false
   inline void HandleEditColorSchemeControllerDidChangeColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   static inline ::GlobalNamespace::ColorsOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2131e7c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2276c94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__19_0 addr 0x2131e84 size 0x20 virtual false final false
+  /// @brief Method <HandleOverrideColorsToggleValueChanged>b__19_0, addr 0x2276c9c, size 0x20, virtual false, abstract: false, final false
   inline void _HandleOverrideColorsToggleValueChanged_b__19_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorsOverrideSettingsPanelController", modifiers: "&&", def_value: None }]
@@ -258,6 +265,9 @@ public:
   /// @brief Field _initialized, offset: 0x68, size: 0x1, def value: None
   bool ____initialized;
 
+  /// @brief Field _isDirty, offset: 0x69, size: 0x1, def value: None
+  bool ____isDirty;
+
   /// @brief Field _buttonBinder, offset: 0x70, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
@@ -287,6 +297,8 @@ static_assert(offsetof(::GlobalNamespace::ColorsOverrideSettingsPanelController,
 static_assert(offsetof(::GlobalNamespace::ColorsOverrideSettingsPanelController, ____colorSchemesSettings) == 0x60, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorsOverrideSettingsPanelController, ____initialized) == 0x68, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorsOverrideSettingsPanelController, ____isDirty) == 0x69, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorsOverrideSettingsPanelController, ____buttonBinder) == 0x70, "Offset mismatch!");
 

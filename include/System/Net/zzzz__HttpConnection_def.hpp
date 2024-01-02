@@ -10,8 +10,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpConnection)
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
+}
+namespace System::Net {
+class IPEndPoint;
+}
+namespace System::Threading {
+class Timer;
+}
+namespace System::Net::Sockets {
+class Socket;
+}
+namespace System::Net {
+class RequestStream;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
+struct __HttpConnection__LineState;
+}
+namespace System::IO {
+class MemoryStream;
+}
+namespace System::Net {
+class EndPointListener;
+}
 namespace System::Net {
 class ListenerPrefix;
+}
+namespace System::Net {
+class ResponseStream;
+}
+namespace System::Net {
+class HttpListener;
+}
+namespace System::Net::Security {
+struct SslPolicyErrors;
+}
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Net {
+struct __HttpConnection__InputState;
+}
+namespace System::Text {
+class StringBuilder;
 }
 namespace System {
 class AsyncCallback;
@@ -19,62 +67,14 @@ class AsyncCallback;
 namespace System::Net {
 class HttpListenerContext;
 }
-namespace System::Net {
-class EndPointListener;
-}
-namespace System::Net {
-class ResponseStream;
-}
-namespace System {
-class Object;
-}
 namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System::Threading {
-class Timer;
-}
-namespace System::IO {
-class MemoryStream;
-}
-namespace System::Net {
-class RequestStream;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Net {
-struct __HttpConnection__LineState;
-}
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Net {
-class HttpListener;
+class X509Certificate2;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System::Net::Security {
-struct SslPolicyErrors;
-}
-namespace System::Net::Sockets {
-class Socket;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2;
-}
-namespace System::Net {
-struct __HttpConnection__InputState;
-}
-namespace System::Text {
-class StringBuilder;
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net {
@@ -95,7 +95,7 @@ MARK_REF_PTR_T(::System::Net::HttpConnection);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8005))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9168))
 // CS Name: ::HttpConnection::InputState
 struct CORDL_TYPE __HttpConnection__InputState {
 public:
@@ -145,7 +145,7 @@ static_assert(offsetof(::System::Net::__HttpConnection__InputState, value__) == 
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8006))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9169))
 // CS Name: ::HttpConnection::LineState
 struct CORDL_TYPE __HttpConnection__LineState {
 public:
@@ -198,8 +198,8 @@ static_assert(offsetof(::System::Net::__HttpConnection__LineState, value__) == 0
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8005)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(8006))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8007))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9168)), TypeDefinitionIndex(TypeDefinitionIndex(9169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9170))
 // CS Name: ::System.Net::HttpConnection*
 class CORDL_TYPE HttpConnection : public ::System::Object {
 public:
@@ -451,67 +451,67 @@ public:
   static inline ::System::Net::HttpConnection* New_ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure,
                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method .ctor addr 0x2843928 size 0x260 virtual false final false
+  /// @brief Method .ctor, addr 0x29c11a0, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::Socket* sock, ::System::Net::EndPointListener* epl, bool secure, ::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method Init addr 0x28476f4 size 0xa8 virtual false final false
+  /// @brief Method Init, addr 0x29c4f6c, size 0xa8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method get_Reuses addr 0x2847850 size 0x8 virtual false final false
+  /// @brief Method get_Reuses, addr 0x29c50c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Reuses();
 
-  /// @brief Method get_LocalEndPoint addr 0x2847858 size 0xb8 virtual false final false
+  /// @brief Method get_LocalEndPoint, addr 0x29c50d0, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_LocalEndPoint();
 
-  /// @brief Method get_IsSecure addr 0x2847910 size 0x8 virtual false final false
+  /// @brief Method get_IsSecure, addr 0x29c5188, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSecure();
 
-  /// @brief Method set_Prefix addr 0x2847918 size 0x8 virtual false final false
+  /// @brief Method set_Prefix, addr 0x29c5190, size 0x8, virtual false, abstract: false, final false
   inline void set_Prefix(::System::Net::ListenerPrefix* value);
 
-  /// @brief Method OnTimeout addr 0x2847920 size 0x18 virtual false final false
+  /// @brief Method OnTimeout, addr 0x29c5198, size 0x18, virtual false, abstract: false, final false
   inline void OnTimeout(::System::Object* unused);
 
-  /// @brief Method BeginReadRequest addr 0x2843b88 size 0x1a8 virtual false final false
+  /// @brief Method BeginReadRequest, addr 0x29c1400, size 0x1a8, virtual false, abstract: false, final false
   inline void BeginReadRequest();
 
-  /// @brief Method GetRequestStream addr 0x2847a70 size 0x14c virtual false final false
+  /// @brief Method GetRequestStream, addr 0x29c52e8, size 0x14c, virtual false, abstract: false, final false
   inline ::System::Net::RequestStream* GetRequestStream(bool chunked, int64_t contentlength);
 
-  /// @brief Method GetResponseStream addr 0x2847c98 size 0xc8 virtual false final false
+  /// @brief Method GetResponseStream, addr 0x29c5510, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Net::ResponseStream* GetResponseStream();
 
-  /// @brief Method OnRead addr 0x2847d60 size 0xd4 virtual false final false
+  /// @brief Method OnRead, addr 0x29c55d8, size 0xd4, virtual false, abstract: false, final false
   static inline void OnRead(::System::IAsyncResult* ares);
 
-  /// @brief Method OnReadInternal addr 0x2847e34 size 0x338 virtual false final false
+  /// @brief Method OnReadInternal, addr 0x29c56ac, size 0x338, virtual false, abstract: false, final false
   inline void OnReadInternal(::System::IAsyncResult* ares);
 
-  /// @brief Method RemoveConnection addr 0x2848a74 size 0x40 virtual false final false
+  /// @brief Method RemoveConnection, addr 0x29c62ec, size 0x40, virtual false, abstract: false, final false
   inline void RemoveConnection();
 
-  /// @brief Method ProcessInput addr 0x284818c size 0x2bc virtual false final false
+  /// @brief Method ProcessInput, addr 0x29c5a04, size 0x2bc, virtual false, abstract: false, final false
   inline bool ProcessInput(::System::IO::MemoryStream* ms);
 
-  /// @brief Method ReadLine addr 0x2848e6c size 0x178 virtual false final false
+  /// @brief Method ReadLine, addr 0x29c66e4, size 0x178, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len, ByRef<int32_t> used);
 
-  /// @brief Method SendError addr 0x283f608 size 0x1d8 virtual false final false
+  /// @brief Method SendError, addr 0x29bce80, size 0x1d8, virtual false, abstract: false, final false
   inline void SendError(::StringW msg, int32_t status);
 
-  /// @brief Method SendError addr 0x284816c size 0x20 virtual false final false
+  /// @brief Method SendError, addr 0x29c59e4, size 0x20, virtual false, abstract: false, final false
   inline void SendError();
 
-  /// @brief Method Unbind addr 0x2847a40 size 0x30 virtual false final false
+  /// @brief Method Unbind, addr 0x29c52b8, size 0x30, virtual false, abstract: false, final false
   inline void Unbind();
 
-  /// @brief Method CloseSocket addr 0x2847938 size 0x108 virtual false final false
+  /// @brief Method CloseSocket, addr 0x29c51b0, size 0x108, virtual false, abstract: false, final false
   inline void CloseSocket();
 
-  /// @brief Method Close addr 0x284543c size 0x268 virtual false final false
+  /// @brief Method Close, addr 0x29c2cb4, size 0x268, virtual false, abstract: false, final false
   inline void Close(bool force_close);
 
-  /// @brief Method <.ctor>b__24_0 addr 0x284a3b4 size 0xf8 virtual false final false
+  /// @brief Method <.ctor>b__24_0, addr 0x29c7c2c, size 0xf4, virtual false, abstract: false, final false
   inline bool __ctor_b__24_0(::System::Object* t, ::System::Security::Cryptography::X509Certificates::X509Certificate* c, ::System::Security::Cryptography::X509Certificates::X509Chain* ch,
                              ::System::Net::Security::SslPolicyErrors e);
 

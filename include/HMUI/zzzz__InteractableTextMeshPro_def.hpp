@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractableTextMeshPro)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HMUI::InteractableTextMeshPro);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13219))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13648))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13529))
 // CS Name: ::HMUI::InteractableTextMeshPro*
 class CORDL_TYPE InteractableTextMeshPro : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -66,12 +66,12 @@ public:
 
   constexpr void __set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* value);
 
-  /// @brief Method OnCanvasGroupChanged addr 0x1fc6134 size 0x194 virtual true final false
+  /// @brief Method OnCanvasGroupChanged, addr 0x211c390, size 0x194, virtual true, abstract: false, final false
   inline void OnCanvasGroupChanged();
 
   static inline ::HMUI::InteractableTextMeshPro* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc62c8 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x211c524, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "&&", def_value: None }]

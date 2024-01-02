@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphMetrics)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::TextCore::GlyphMetrics);
 namespace UnityEngine::TextCore {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15513))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15529))
 // CS Name: ::UnityEngine.TextCore::GlyphMetrics
 struct CORDL_TYPE GlyphMetrics {
 public:
@@ -41,31 +41,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*();
 
-  /// @brief Method get_width addr 0x2bb9444 size 0x8 virtual false final false
+  /// @brief Method get_width, addr 0x2d207f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
-  /// @brief Method get_height addr 0x2bb944c size 0x8 virtual false final false
+  /// @brief Method get_height, addr 0x2d207fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_horizontalBearingX addr 0x2bb9454 size 0x8 virtual false final false
+  /// @brief Method get_horizontalBearingX, addr 0x2d20804, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingX();
 
-  /// @brief Method get_horizontalBearingY addr 0x2bb945c size 0x8 virtual false final false
+  /// @brief Method get_horizontalBearingY, addr 0x2d2080c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingY();
 
-  /// @brief Method get_horizontalAdvance addr 0x2bb9464 size 0x8 virtual false final false
+  /// @brief Method get_horizontalAdvance, addr 0x2d20814, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalAdvance();
 
-  /// @brief Method .ctor addr 0x2bb946c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2d2081c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height, float_t bearingX, float_t bearingY, float_t advance);
 
-  /// @brief Method GetHashCode addr 0x2bb947c size 0x6c virtual true final false
+  /// @brief Method GetHashCode, addr 0x2d2082c, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2bb94e8 size 0x80 virtual true final false
+  /// @brief Method Equals, addr 0x2d20898, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2bb9568 size 0xa4 virtual true final true
+  /// @brief Method Equals, addr 0x2d20918, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphMetrics other);
 
   // Ctor Parameters [CppParam { name: "m_Width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Height", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:

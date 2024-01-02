@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerCaptureEventInternal);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7149))
 // CS Name: ::UnityEngine.UIElements::IPointerCaptureEventInternal*
 class CORDL_TYPE IPointerCaptureEventInternal {
 public:
   // Declarations
   __declspec(property(get = get_pointerId)) int32_t pointerId;
 
-  /// @brief Method get_pointerId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_pointerId();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerCaptureEventInternal", modifiers: "&&", def_value: None }]

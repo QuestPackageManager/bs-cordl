@@ -4,26 +4,35 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MirroredBeatmapObjectManager)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
-}
-namespace GlobalNamespace {
-class __MirroredSliderController__Pool;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class IGameNoteMirrorable;
+class __MirroredObstacleController__Pool;
+}
+namespace GlobalNamespace {
+class __MirroredSliderController__Pool;
+}
+namespace GlobalNamespace {
+class MirroredObstacleController;
+}
+namespace GlobalNamespace {
+class ObstacleController;
+}
+namespace GlobalNamespace {
+class MirroredGameNoteController;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace GlobalNamespace {
+template <typename T> class MemoryPoolContainer_1;
 }
 namespace GlobalNamespace {
 class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class MirroredGameNoteController;
-}
-namespace GlobalNamespace {
-class ObstacleController;
+class IGameNoteMirrorable;
 }
 namespace GlobalNamespace {
 class SliderController;
@@ -38,19 +47,10 @@ namespace GlobalNamespace {
 class __MirroredBombNoteController__Pool;
 }
 namespace GlobalNamespace {
-class __MirroredObstacleController__Pool;
-}
-namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-template <typename T> class MemoryPoolContainer_1;
-}
-namespace GlobalNamespace {
 class MirroredBombNoteController;
-}
-namespace GlobalNamespace {
-class MirroredObstacleController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -65,8 +65,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredBeatmapObjectManager);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4732))
 // CS Name: ::MirroredBeatmapObjectManager*
 class CORDL_TYPE MirroredBeatmapObjectManager : public ::System::Object {
 public:
@@ -213,39 +213,39 @@ public:
   constexpr void
   __set__sliderControllersToMirroredSliderControllers(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SliderController*, ::GlobalNamespace::MirroredSliderController*>* value);
 
-  /// @brief Method Init addr 0x224c5a8 size 0x438 virtual false final false
+  /// @brief Method Init, addr 0x238101c, size 0x438, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::__MirroredGameNoteController__Pool* mirroredBasicGameNotePool,
                    ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderFillPool, ::GlobalNamespace::__MirroredBombNoteController__Pool* mirroredBombNotePool,
                    ::GlobalNamespace::__MirroredObstacleController__Pool* mirroredObstaclePool, ::GlobalNamespace::__MirroredSliderController__Pool* mirroredSlidersPool);
 
-  /// @brief Method Finalize addr 0x224c9e0 size 0x360 virtual true final false
+  /// @brief Method Finalize, addr 0x2381454, size 0x360, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleNoteWasSpawned addr 0x224cd40 size 0x22c virtual false final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x23817b4, size 0x22c, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasDespawned addr 0x224cf6c size 0x17c virtual false final false
+  /// @brief Method HandleNoteWasDespawned, addr 0x23819e0, size 0x17c, virtual false, abstract: false, final false
   inline void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasSpawned addr 0x224d0e8 size 0x9c virtual false final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x2381b5c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleWasDespawned addr 0x224d184 size 0xc0 virtual false final false
+  /// @brief Method HandleObstacleWasDespawned, addr 0x2381bf8, size 0xc0, virtual false, abstract: false, final false
   inline void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleSliderWasSpawned addr 0x224d244 size 0x9c virtual false final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x2381cb8, size 0x98, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasDespawned addr 0x224d2e0 size 0xc0 virtual false final false
+  /// @brief Method HandleSliderWasDespawned, addr 0x2381f5c, size 0xc0, virtual false, abstract: false, final false
   inline void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleDidHideAllBeatmapObjects addr 0x224d3a0 size 0x7cc virtual false final false
+  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x238201c, size 0x7c8, virtual false, abstract: false, final false
   inline void HandleDidHideAllBeatmapObjects(bool hide);
 
   static inline ::GlobalNamespace::MirroredBeatmapObjectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x224db6c size 0x148 virtual false final false
+  /// @brief Method .ctor, addr 0x2382810, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredBeatmapObjectManager", modifiers: "&&", def_value: None }]

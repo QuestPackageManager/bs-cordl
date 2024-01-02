@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(HSVPanelController)
 namespace GlobalNamespace {
-struct ColorChangeUIEventType;
-}
-namespace GlobalNamespace {
-class ColorHueSlider;
-}
-namespace GlobalNamespace {
 class ColorSaturationValueSlider;
 }
 namespace System {
@@ -20,6 +14,12 @@ template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+struct ColorChangeUIEventType;
+}
+namespace GlobalNamespace {
+class ColorHueSlider;
 }
 namespace UnityEngine {
 struct Color;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HSVPanelController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16177))
 // CS Name: ::HSVPanelController*
 class CORDL_TYPE HSVPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -78,40 +78,40 @@ public:
 
   constexpr void __set__hsvColor(::UnityEngine::Vector3 value);
 
-  /// @brief Method add_colorDidChangeEvent addr 0x2132474 size 0xb0 virtual false final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x23e32ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method remove_colorDidChangeEvent addr 0x21326c0 size 0xb0 virtual false final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x23e339c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method get_color addr 0x21332c0 size 0x14 virtual false final false
+  /// @brief Method get_color, addr 0x23e344c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x2132270 size 0x4c virtual false final false
+  /// @brief Method set_color, addr 0x23e3460, size 0x4c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method Awake addr 0x213333c size 0xec virtual false final false
+  /// @brief Method Awake, addr 0x23e3514, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2133428 size 0x160 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23e3600, size 0x160, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleColorSaturationOrValueDidChange addr 0x2133588 size 0x74 virtual false final false
+  /// @brief Method HandleColorSaturationOrValueDidChange, addr 0x23e3760, size 0x74, virtual false, abstract: false, final false
   inline void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue,
                                                     ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandleColorHueDidChange addr 0x21335fc size 0x6c virtual false final false
+  /// @brief Method HandleColorHueDidChange, addr 0x23e37d4, size 0x6c, virtual false, abstract: false, final false
   inline void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float_t hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method RefreshSlidersValues addr 0x2133304 size 0x38 virtual false final false
+  /// @brief Method RefreshSlidersValues, addr 0x23e34dc, size 0x38, virtual false, abstract: false, final false
   inline void RefreshSlidersValues();
 
-  /// @brief Method RefreshSlidersColors addr 0x21332d4 size 0x30 virtual false final false
+  /// @brief Method RefreshSlidersColors, addr 0x23e34ac, size 0x30, virtual false, abstract: false, final false
   inline void RefreshSlidersColors();
 
   static inline ::GlobalNamespace::HSVPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2133668 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23e3840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HSVPanelController", modifiers: "&&", def_value: None }]

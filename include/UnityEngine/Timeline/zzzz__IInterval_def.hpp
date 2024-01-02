@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IInterval);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13878))
 // CS Name: ::UnityEngine.Timeline::IInterval*
 class CORDL_TYPE IInterval {
 public:
@@ -24,10 +24,10 @@ public:
 
   __declspec(property(get = get_intervalEnd)) int64_t intervalEnd;
 
-  /// @brief Method get_intervalStart addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_intervalStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalStart();
 
-  /// @brief Method get_intervalEnd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalEnd();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInterval", modifiers: "&&", def_value: None }]

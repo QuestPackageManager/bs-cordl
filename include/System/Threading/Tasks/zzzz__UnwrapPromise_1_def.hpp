@@ -10,10 +10,10 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+template <typename TResult> class __UnwrapPromise_1____c;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class __UnwrapPromise_1____c;
+class ITaskCompletionAction;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -37,8 +37,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2792))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2796))
 // CS Name: ::UnwrapPromise`1::<>c<TResult>*
 class CORDL_TYPE __UnwrapPromise_1____c : public ::System::Object {
 public:
@@ -59,10 +59,10 @@ public:
 
   static inline ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InvokeCoreAsync>b__8_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <InvokeCoreAsync>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _InvokeCoreAsync_b__8_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnwrapPromise_1____c", modifiers: "&&", def_value: None }]
@@ -89,8 +89,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 5002 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2793))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
 // CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
@@ -122,28 +122,28 @@ public:
 
   static inline ::System::Threading::Tasks::UnwrapPromise_1<TResult>* New_ctor(::System::Threading::Tasks::Task* outerTask, bool lookForOce);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* outerTask, bool lookForOce);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method InvokeCore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeCore(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method InvokeCoreAsync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeCoreAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeCoreAsync(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method ProcessCompletedOuterTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessCompletedOuterTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ProcessCompletedOuterTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TrySetFromTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetFromTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetFromTask(::System::Threading::Tasks::Task* task, bool lookForOce);
 
-  /// @brief Method ProcessInnerTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessInnerTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ProcessInnerTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnwrapPromise_1", modifiers: "&&", def_value: None }]

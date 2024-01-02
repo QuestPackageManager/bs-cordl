@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextCoreSettings)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine {
 struct Color;
-}
-namespace System {
-class Object;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7501))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
 struct CORDL_TYPE TextCoreSettings {
 public:
@@ -39,13 +39,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UIR::TextCoreSettings>*();
 
-  /// @brief Method Equals addr 0x2c66388 size 0x90 virtual true final false
+  /// @brief Method Equals, addr 0x2dcc738, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2c66418 size 0xe8 virtual true final true
+  /// @brief Method Equals, addr 0x2dcc7c8, size 0xe8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UIR::TextCoreSettings other);
 
-  /// @brief Method GetHashCode addr 0x2c66500 size 0x198 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2dcc8b0, size 0x198, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "faceColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "outlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value:

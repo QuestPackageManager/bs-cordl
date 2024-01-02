@@ -4,17 +4,23 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalInactivePlayerInstaller)
-namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataSender;
 }
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
 }
 namespace GlobalNamespace {
+class AudioManagerSO;
+}
+namespace GlobalNamespace {
+class GameplayCoreSceneSetupData;
+}
+namespace GlobalNamespace {
 class RelativeSfxVolumePerLevelModel;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
+class PlayerDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,11 +29,11 @@ class MultiplayerLocalInactivePlayerInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
 // Type: ::MultiplayerLocalInactivePlayerInstaller
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5267))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5162))
 // CS Name: ::MultiplayerLocalInactivePlayerInstaller*
 class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -43,6 +49,12 @@ public:
 
   /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x38, size 0x8
   __declspec(property(get = __get__relativeSfxVolumePerLevelModel, put = __set__relativeSfxVolumePerLevelModel))::GlobalNamespace::RelativeSfxVolumePerLevelModel* _relativeSfxVolumePerLevelModel;
+
+  /// @brief Field _playerDataModel, offset 0x40, size 0x8
+  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+
+  /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
+  __declspec(property(get = __get__optionalAvatarDataSender, put = __set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
   constexpr ::GlobalNamespace::AudioManagerSO*& __get__audioManager();
 
@@ -68,12 +80,24 @@ public:
 
   constexpr void __set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
 
-  /// @brief Method InstallBindings addr 0x20fc3a4 size 0x598 virtual true final false
+  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+
+  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+
+  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __get__optionalAvatarDataSender();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::OptionalAvatarDataSender*> const& __get__optionalAvatarDataSender() const;
+
+  constexpr void __set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
+
+  /// @brief Method InstallBindings, addr 0x23dcc48, size 0x5d0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fc988 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23dd264, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalInactivePlayerInstaller", modifiers: "&&", def_value: None }]
@@ -102,10 +126,16 @@ public:
   /// @brief Field _relativeSfxVolumePerLevelModel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::RelativeSfxVolumePerLevelModel* ____relativeSfxVolumePerLevelModel;
 
+  /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
+  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+
+  /// @brief Field _optionalAvatarDataSender, offset: 0x48, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x50>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____audioManager) == 0x20, "Offset mismatch!");
 
@@ -114,6 +144,10 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstalle
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____beatmapLoudnessModel) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____relativeSfxVolumePerLevelModel) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____playerDataModel) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____optionalAvatarDataSender) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);

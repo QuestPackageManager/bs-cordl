@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OfbBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(975))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::OfbBlockCipher*
 class CORDL_TYPE OfbBlockCipher : public ::System::Object {
@@ -83,28 +83,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Modes::OfbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t blockSize);
 
-  /// @brief Method .ctor addr 0xeb0e98 size 0x1e0 virtual false final false
+  /// @brief Method .ctor, addr 0xf26084, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t blockSize);
 
-  /// @brief Method GetUnderlyingCipher addr 0xeb1078 size 0x8 virtual false final false
+  /// @brief Method GetUnderlyingCipher, addr 0xf26264, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method Init addr 0xeb1080 size 0x1bc virtual true final true
+  /// @brief Method Init, addr 0xf2626c, size 0x1bc, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xeb1300 size 0x104 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xf264ec, size 0x104, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xeb1404 size 0x8 virtual true final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0xf265f0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xeb140c size 0x8 virtual true final true
+  /// @brief Method GetBlockSize, addr 0xf265f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xeb1414 size 0x258 virtual true final true
+  /// @brief Method ProcessBlock, addr 0xf26600, size 0x258, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xeb123c size 0xc4 virtual true final true
+  /// @brief Method Reset, addr 0xf26428, size 0xc4, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "OfbBlockCipher", modifiers: "&&", def_value: None }]

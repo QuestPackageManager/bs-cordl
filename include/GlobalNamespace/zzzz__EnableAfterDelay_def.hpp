@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnableAfterDelay)
+namespace UnityEngine {
+class MonoBehaviour;
+}
 namespace GlobalNamespace {
 class __EnableAfterDelay___Start_d__1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine {
-class MonoBehaviour;
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnableAfterDelay___Start_d__1);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13852))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14360))
 // CS Name: ::EnableAfterDelay::<Start>d__1*
 class CORDL_TYPE __EnableAfterDelay___Start_d__1 : public ::System::Object {
 public:
@@ -86,22 +86,22 @@ public:
 
   static inline ::GlobalNamespace::__EnableAfterDelay___Start_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1f95068 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x20f1f08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1f95098 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x20f1f38, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1f9509c size 0xac virtual true final true
+  /// @brief Method MoveNext, addr 0x20f1f3c, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f95148 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x20f1fe8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f95150 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x20f1ff0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f95190 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x20f2030, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnableAfterDelay___Start_d__1", modifiers: "&&", def_value: None }]
@@ -143,8 +143,8 @@ static_assert(offsetof(::GlobalNamespace::__EnableAfterDelay___Start_d__1, _____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14361))
 // CS Name: ::EnableAfterDelay*
 class CORDL_TYPE EnableAfterDelay : public ::UnityEngine::MonoBehaviour {
 public:
@@ -160,12 +160,12 @@ public:
 
   constexpr void __set__component(::UnityEngine::MonoBehaviour* value);
 
-  /// @brief Method Start addr 0x1f95000 size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x20f1ea0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::EnableAfterDelay* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f95090 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f1f30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnableAfterDelay", modifiers: "&&", def_value: None }]

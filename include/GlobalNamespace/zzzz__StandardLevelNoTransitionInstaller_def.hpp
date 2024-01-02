@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelNoTransitionInstaller)
-namespace GlobalNamespace {
-class StandardLevelScenesTransitionSetupDataSO;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class StandardLevelNoTransitionInstallerData;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class StandardLevelScenesTransitionSetupDataSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6042))
 // CS Name: ::StandardLevelNoTransitionInstaller*
 class CORDL_TYPE StandardLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -50,15 +50,15 @@ public:
 
   constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData* value);
 
-  /// @brief Method get_standardLevelNoTransitionInstallerData addr 0x21c83e4 size 0x8 virtual false final false
+  /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x231b74c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* get_standardLevelNoTransitionInstallerData();
 
-  /// @brief Method InstallBindings addr 0x21c83ec size 0x144 virtual true final false
+  /// @brief Method InstallBindings, addr 0x231b754, size 0x150, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::StandardLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c8530 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231bf10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]

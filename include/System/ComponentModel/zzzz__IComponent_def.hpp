@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IComponent);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8310))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9473))
 // CS Name: ::System.ComponentModel::IComponent*
 class CORDL_TYPE IComponent {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_Site addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Site, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   // Ctor Parameters [CppParam { name: "", ty: "IComponent", modifiers: "&&", def_value: None }]

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericAcl)
 namespace System::Security::AccessControl {
+class GenericAce;
+}
+namespace System::Security::AccessControl {
 class AceEnumerator;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+class Object;
+}
 namespace System {
 class Array;
 }
-namespace System::Security::AccessControl {
-class GenericAce;
-}
 namespace System::Collections {
-class ICollection;
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericAcl);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3036))
 // CS Name: ::System.Security.AccessControl::GenericAcl*
 class CORDL_TYPE GenericAcl : public ::System::Object {
 public:
@@ -80,34 +80,34 @@ public:
 
   static inline ::System::Security::AccessControl::GenericAcl* New_ctor();
 
-  /// @brief Method .ctor addr 0x232975c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2481250, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized addr 0x232c1bc size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized, addr 0x2483cb0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
-  /// @brief Method get_SyncRoot addr 0x232c1c4 size 0x4 virtual true final false
+  /// @brief Method get_SyncRoot, addr 0x2483cb8, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo addr 0x232c1c8 size 0x18c virtual false final false
+  /// @brief Method CopyTo, addr 0x2483cbc, size 0x18c, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Security::AccessControl::GenericAce*, ::Array<::System::Security::AccessControl::GenericAce*>*> array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x232c354 size 0x84 virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2483e48, size 0x84, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x232a048 size 0x6c virtual false final false
+  /// @brief Method GetEnumerator, addr 0x2481b3c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x232c3d8 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2483ecc, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericAcl", modifiers: "&&", def_value: None }]

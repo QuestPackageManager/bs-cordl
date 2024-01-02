@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BloomPrePassGraphicsSettingsPresetsSO)
 namespace GlobalNamespace {
-class NamedPreset;
+class __BloomPrePassGraphicsSettingsPresetsSO__Preset;
 }
 namespace GlobalNamespace {
-class __BloomPrePassGraphicsSettingsPresetsSO__Preset;
+class NamedPreset;
 }
 namespace GlobalNamespace {
 class BloomPrePassEffectSO;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Prese
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4461))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4428))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO::Preset*
 class CORDL_TYPE __BloomPrePassGraphicsSettingsPresetsSO__Preset : public ::GlobalNamespace::NamedPreset {
 public:
@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2202254 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234e6fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassGraphicsSettingsPresetsSO__Preset", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4462))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4450))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4429))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO*
 class CORDL_TYPE BloomPrePassGraphicsSettingsPresetsSO : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -102,15 +102,15 @@ public:
 
   constexpr void __set__presets(::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method get_presets addr 0x220223c size 0x8 virtual false final false
+  /// @brief Method get_presets, addr 0x234e6dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
-  /// @brief Method get_namedPresets addr 0x2202244 size 0x8 virtual true final false
+  /// @brief Method get_namedPresets, addr 0x234e6e4, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
   static inline ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x220224c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234e6ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassGraphicsSettingsPresetsSO", modifiers: "&&", def_value: None }]

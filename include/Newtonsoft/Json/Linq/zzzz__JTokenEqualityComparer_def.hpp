@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JTokenEqualityComparer)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Linq {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenEqualityComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11904))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11976))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenEqualityComparer*
 class CORDL_TYPE JTokenEqualityComparer : public ::System::Object {
 public:
@@ -30,15 +30,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::Newtonsoft::Json::Linq::JToken*>*() noexcept;
 
-  /// @brief Method Equals addr 0x252dccc size 0x94 virtual true final true
+  /// @brief Method Equals, addr 0x2691410, size 0x94, virtual true, abstract: false, final true
   inline bool Equals(::Newtonsoft::Json::Linq::JToken* x, ::Newtonsoft::Json::Linq::JToken* y);
 
-  /// @brief Method GetHashCode addr 0x252dd8c size 0x24 virtual true final true
+  /// @brief Method GetHashCode, addr 0x26914d0, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::Newtonsoft::Json::Linq::JToken* obj);
 
   static inline ::Newtonsoft::Json::Linq::JTokenEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x252ddb0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26914f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JTokenEqualityComparer", modifiers: "&&", def_value: None }]

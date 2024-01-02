@@ -20,24 +20,24 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3853)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3853), inst: 1011 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3856))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 1032 }), TypeDefinitionIndex(TypeDefinitionIndex(3865))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3868))
 // CS Name: ::System.Collections.Generic::ObjectComparer`1<T>*
 class CORDL_TYPE ObjectComparer_1 : public ::System::Collections::Generic::Comparer_1<T> {
 public:
   // Declarations
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(T x, T y);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Collections::Generic::ObjectComparer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectComparer_1", modifiers: "&&", def_value: None }]

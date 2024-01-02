@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::IGraphicEnabledDisabled);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13047))
 // CS Name: ::UnityEngine.UI::IGraphicEnabledDisabled*
 class CORDL_TYPE IGraphicEnabledDisabled {
 public:
   // Declarations
-  /// @brief Method OnSiblingGraphicEnabledDisabled addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSiblingGraphicEnabledDisabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSiblingGraphicEnabledDisabled();
 
   // Ctor Parameters [CppParam { name: "", ty: "IGraphicEnabledDisabled", modifiers: "&&", def_value: None }]

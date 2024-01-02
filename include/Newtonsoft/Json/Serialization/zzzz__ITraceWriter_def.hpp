@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITraceWriter)
-namespace System::Diagnostics {
-struct TraceLevel;
-}
 namespace System {
 class Exception;
+}
+namespace System::Diagnostics {
+struct TraceLevel;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ITraceWriter);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11834))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
 // CS Name: ::Newtonsoft.Json.Serialization::ITraceWriter*
 class CORDL_TYPE ITraceWriter {
 public:
   // Declarations
   __declspec(property(get = get_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
 
-  /// @brief Method get_LevelFilter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LevelFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
-  /// @brief Method Trace addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Trace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITraceWriter", modifiers: "&&", def_value: None }]

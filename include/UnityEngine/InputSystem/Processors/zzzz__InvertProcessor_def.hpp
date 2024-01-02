@@ -19,21 +19,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 387 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6584))
 // CS Name: ::UnityEngine.InputSystem.Processors::InvertProcessor*
 class CORDL_TYPE InvertProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2978600 size 0x8 virtual true final false
+  /// @brief Method Process, addr 0x2af9354, size 0x8, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x2978608 size 0x40 virtual true final false
+  /// @brief Method ToString, addr 0x2af935c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::InvertProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2978648 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2af939c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InvertProcessor", modifiers: "&&", def_value: None }]

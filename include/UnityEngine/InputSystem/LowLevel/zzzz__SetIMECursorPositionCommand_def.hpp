@@ -13,11 +13,11 @@ struct InputDeviceCommand;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputDeviceCommandInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6488))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::SetIMECursorPositionCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SetIMECursorPositionCommand {
@@ -61,16 +61,16 @@ public:
 
   constexpr void __set_m_Position(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Type addr 0x2968694 size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae83dc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_position addr 0x29686c4 size 0x8 virtual false final false
+  /// @brief Method get_position, addr 0x2ae840c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_typeStatic addr 0x29686cc size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae8414, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x29686fc size 0x50 virtual false final false
+  /// @brief Method Create, addr 0x2ae8444, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::SetIMECursorPositionCommand Create(::UnityEngine::Vector2 cursorPosition);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "m_Position", ty:

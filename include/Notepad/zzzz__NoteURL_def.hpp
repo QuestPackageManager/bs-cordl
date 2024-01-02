@@ -16,7 +16,7 @@ MARK_VAL_T(::Notepad::NoteURL);
 namespace Notepad {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16100))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16279))
 // CS Name: ::Notepad::NoteURL
 struct CORDL_TYPE NoteURL {
 public:

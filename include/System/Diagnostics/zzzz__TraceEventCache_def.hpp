@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceEventCache)
-namespace System::Collections {
-class Stack;
-}
 namespace System {
 struct DateTime;
+}
+namespace System::Collections {
+class Stack;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceEventCache);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8938))
 // CS Name: ::System.Diagnostics::TraceEventCache*
 class CORDL_TYPE TraceEventCache : public ::System::Object {
 public:
@@ -82,36 +82,36 @@ public:
 
   static inline ::StringW getStaticF_processName();
 
-  /// @brief Method get_Callstack addr 0x27ef0fc size 0x20 virtual false final false
+  /// @brief Method get_Callstack, addr 0x296c9f8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_Callstack();
 
-  /// @brief Method get_LogicalOperationStack addr 0x27ef11c size 0x18 virtual false final false
+  /// @brief Method get_LogicalOperationStack, addr 0x296ca18, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
-  /// @brief Method get_DateTime addr 0x27ef134 size 0x94 virtual false final false
+  /// @brief Method get_DateTime, addr 0x296ca30, size 0x94, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateTime();
 
-  /// @brief Method get_ProcessId addr 0x27ef1c8 size 0x4 virtual false final false
+  /// @brief Method get_ProcessId, addr 0x296cac4, size 0x4, virtual false, abstract: false, final false
   inline int32_t get_ProcessId();
 
-  /// @brief Method get_ThreadId addr 0x27ef220 size 0x70 virtual false final false
+  /// @brief Method get_ThreadId, addr 0x296cb1c, size 0x70, virtual false, abstract: false, final false
   inline ::StringW get_ThreadId();
 
-  /// @brief Method get_Timestamp addr 0x27ef2b0 size 0x64 virtual false final false
+  /// @brief Method get_Timestamp, addr 0x296cbac, size 0x64, virtual false, abstract: false, final false
   inline int64_t get_Timestamp();
 
-  /// @brief Method InitProcessInfo addr 0x27ef318 size 0x130 virtual false final false
+  /// @brief Method InitProcessInfo, addr 0x296cc14, size 0x130, virtual false, abstract: false, final false
   static inline void InitProcessInfo();
 
-  /// @brief Method GetProcessId addr 0x27ef1cc size 0x54 virtual false final false
+  /// @brief Method GetProcessId, addr 0x296cac8, size 0x54, virtual false, abstract: false, final false
   static inline int32_t GetProcessId();
 
-  /// @brief Method GetThreadId addr 0x27ef290 size 0x20 virtual false final false
+  /// @brief Method GetThreadId, addr 0x296cb8c, size 0x20, virtual false, abstract: false, final false
   static inline int32_t GetThreadId();
 
   static inline ::System::Diagnostics::TraceEventCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x27ef71c size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x296d018, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceEventCache", modifiers: "&&", def_value: None }]

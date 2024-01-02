@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::DefaultValueHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11816))
 // CS Name: ::Newtonsoft.Json::DefaultValueHandling
 struct CORDL_TYPE DefaultValueHandling {
 public:

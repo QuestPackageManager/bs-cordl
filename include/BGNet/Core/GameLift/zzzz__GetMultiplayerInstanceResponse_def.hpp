@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GetMultiplayerInstanceResponse)
-namespace BGNet::Core::GameLift {
-class PlayerSessionInfo;
-}
 namespace GlobalNamespace {
 struct MultiplayerPlacementErrorCode;
+}
+namespace BGNet::Core::GameLift {
+class PlayerSessionInfo;
 }
 // Forward declare root types
 namespace BGNet::Core::GameLift {
@@ -23,15 +23,19 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12667))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13016))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12738))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13011))
 // CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceResponse
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xdeacf4 size 0x18 virtual false final false
-  inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
-                    ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
+  /// @brief Method .ctor, addr 0xe60ec4, size 0x18, virtual false, abstract: false, final false
+  /// @param ticketId: ::StringW (default: nullptr)
+  /// @param ticketStatus: ::StringW (default: nullptr)
+  /// @param placementId: ::StringW (default: nullptr)
+  /// @param placementStatus: ::StringW (default: nullptr)
+  inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId = nullptr,
+                    ::StringW ticketStatus = nullptr, ::StringW placementId = nullptr, ::StringW placementStatus = nullptr);
 
   // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty:
   // "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId",

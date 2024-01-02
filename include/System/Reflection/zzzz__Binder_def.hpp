@@ -8,13 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Binder)
 namespace System::Reflection {
-class MethodBase;
-}
-namespace System::Reflection {
 struct ParameterModifier;
 }
-namespace System::Reflection {
-struct BindingFlags;
+namespace System {
+class Type;
 }
 namespace System::Globalization {
 class CultureInfo;
@@ -22,14 +19,17 @@ class CultureInfo;
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 class FieldInfo;
 }
 namespace System::Reflection {
 class PropertyInfo;
+}
+namespace System::Reflection {
+struct BindingFlags;
+}
+namespace System::Reflection {
+class MethodBase;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -41,39 +41,39 @@ MARK_REF_PTR_T(::System::Reflection::Binder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3458))
 // CS Name: ::System.Reflection::Binder*
 class CORDL_TYPE Binder : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Reflection::Binder* New_ctor();
 
-  /// @brief Method .ctor addr 0x238c5f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24e60b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method BindToField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BindToField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::FieldInfo* BindToField(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> match,
                                                       ::System::Object* value, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method BindToMethod addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BindToMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                         ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers,
                                                         ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW, ::Array<::StringW>*> names, ByRef<::System::Object*> state);
 
-  /// @brief Method ChangeType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ChangeType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* type, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method ReorderArgumentArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReorderArgumentArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReorderArgumentArray(ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args, ::System::Object* state);
 
-  /// @brief Method SelectMethod addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SelectMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodBase* SelectMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method SelectProperty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SelectProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr,
                                                             ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,

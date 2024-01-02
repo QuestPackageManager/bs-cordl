@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9525)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10387), inst: 5119 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10387))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9532)) CS Name: ::HoudiniEngineUnity::HEU_BakedDataEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(9598)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 5236 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9605)) CS Name: ::HoudiniEngineUnity::HEU_BakedDataEvent*
 class CORDL_TYPE HEU_BakedDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_BakedEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_BakedDataEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff6b84 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x214e520, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BakedDataEvent", modifiers: "&&", def_value: None }]

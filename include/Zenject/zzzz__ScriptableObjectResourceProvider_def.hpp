@@ -8,22 +8,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectResourceProvider)
 namespace Zenject {
-class DiContainer;
+class __ScriptableObjectResourceProvider____c__DisplayClass13_0;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> class Action_2;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-class Action;
 }
 namespace System {
 class Object;
@@ -31,14 +28,17 @@ class Object;
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System {
+class Type;
 }
 namespace Zenject {
-class __ScriptableObjectResourceProvider____c__DisplayClass13_0;
+class IProvider;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Action;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::Zenject::__ScriptableObjectResourceProvider____c__DisplayClass1
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11239))
 // CS Name: ::ScriptableObjectResourceProvider::<>c__DisplayClass13_0*
 class CORDL_TYPE __ScriptableObjectResourceProvider____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -101,16 +101,16 @@ public:
 
   static inline ::Zenject::__ScriptableObjectResourceProvider____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da2e2c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0abfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0 addr 0x2da2e34 size 0x190 virtual false final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f0ac04, size 0x190, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
-  /// @brief Method __zenCreate addr 0x2da2fc4 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f0ad94, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da3020 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0adf0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ScriptableObjectResourceProvider____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -157,8 +157,8 @@ static_assert(offsetof(::Zenject::__ScriptableObjectResourceProvider____c__Displ
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11168))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11240))
 // CS Name: ::Zenject::ScriptableObjectResourceProvider*
 class CORDL_TYPE ScriptableObjectResourceProvider : public ::System::Object {
 public:
@@ -239,20 +239,20 @@ public:
                                                                       ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, bool createNew,
                                                                       ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor addr 0x2da2aec size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0a8bc, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath, ::System::Type* resourceType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     bool createNew, ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached addr 0x2da2bb4 size 0x8 virtual true final true
+  /// @brief Method get_IsCached, addr 0x2f0a984, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2da2bbc size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f0a98c, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2da2bc4 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType, addr 0x2f0a994, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2da2bcc size 0x260 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f0a99c, size 0x260, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultSerializationBinder)
-namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue> class ThreadSafeStore_2;
+namespace Newtonsoft::Json::Serialization {
+struct __DefaultSerializationBinder__TypeNameKey;
 }
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json::Serialization {
-struct __DefaultSerializationBinder__TypeNameKey;
+namespace Newtonsoft::Json::Utilities {
+template <typename TKey, typename TValue> class ThreadSafeStore_2;
 }
 namespace System {
 class Object;
@@ -34,21 +34,21 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__Type
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11858))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11930))
 // CS Name: ::DefaultSerializationBinder::TypeNameKey
 struct CORDL_TYPE __DefaultSerializationBinder__TypeNameKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2513f20 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2677664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName, ::StringW typeName);
 
-  /// @brief Method GetHashCode addr 0x2514050 size 0x50 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2677794, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x25140a0 size 0x78 virtual true final false
+  /// @brief Method Equals, addr 0x26777e4, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2514118 size 0x48 virtual false final false
+  /// @brief Method Equals, addr 0x267785c, size 0x48, virtual false, abstract: false, final false
   inline bool Equals(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey other);
 
   // Ctor Parameters [CppParam { name: "AssemblyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "TypeName", ty: "::StringW", modifiers: "", def_value: None }]
@@ -81,8 +81,8 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultSerialization
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3205))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11859))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3206))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11931))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultSerializationBinder*
 class CORDL_TYPE DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
 public:
@@ -108,15 +108,15 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* getStaticF_Instance();
 
-  /// @brief Method GetTypeFromTypeNameKey addr 0x2513c98 size 0x220 virtual false final false
+  /// @brief Method GetTypeFromTypeNameKey, addr 0x26773dc, size 0x220, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeFromTypeNameKey(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey typeNameKey);
 
-  /// @brief Method BindToType addr 0x2513eb8 size 0x68 virtual true final false
+  /// @brief Method BindToType, addr 0x26775fc, size 0x68, virtual true, abstract: false, final false
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
   static inline ::Newtonsoft::Json::Serialization::DefaultSerializationBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2513f28 size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0x267766c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSerializationBinder", modifiers: "&&", def_value: None }]

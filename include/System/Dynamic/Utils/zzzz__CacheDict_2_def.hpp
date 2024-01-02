@@ -25,8 +25,8 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14308))
 // CS Name: ::CacheDict`2::Entry<TKey,TValue>*
 class CORDL_TYPE __CacheDict_2__Entry : public ::System::Object {
 public:
@@ -55,8 +55,8 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14309))
 // CS Name: ::System.Dynamic.Utils::CacheDict`2<TKey,TValue>*
 class CORDL_TYPE CacheDict_2 : public ::System::Object {
 public:
@@ -84,10 +84,10 @@ public:
 
   static inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method AlignSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AlignSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t AlignSize(int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "CacheDict_2", modifiers: "&&", def_value: None }]

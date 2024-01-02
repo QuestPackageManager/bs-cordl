@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultPKMacPrimitivesProvider)
-namespace Org::BouncyCastle::Crmf {
-class IPKMacPrimitivesProvider;
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -13,8 +13,8 @@ class IDigest;
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Crypto {
-class IMac;
+namespace Org::BouncyCastle::Crmf {
+class IPKMacPrimitivesProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(700))
 // CS Name: ::Org.BouncyCastle.Crmf::DefaultPKMacPrimitivesProvider*
 class CORDL_TYPE DefaultPKMacPrimitivesProvider : public ::System::Object {
@@ -35,15 +35,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
 
-  /// @brief Method CreateDigest addr 0x119f50c size 0x78 virtual true final true
+  /// @brief Method CreateDigest, addr 0x121075c, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac addr 0x119f584 size 0x78 virtual true final true
+  /// @brief Method CreateMac, addr 0x12107d4, size 0x78, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x119f5fc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x121084c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultPKMacPrimitivesProvider", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::KeyValuePairType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13254))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13250))
 // CS Name: ::Oculus.Platform::KeyValuePairType
 struct CORDL_TYPE KeyValuePairType {
 public:

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::AnimatorControllerParameter);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15100))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15087))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14873)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14857))
 // CS Name: ::UnityEngine::AnimatorControllerParameter*
 class CORDL_TYPE AnimatorControllerParameter : public ::System::Object {
 public:
@@ -74,18 +74,18 @@ public:
 
   constexpr void __set_m_DefaultBool(bool value);
 
-  /// @brief Method get_name addr 0x2b2a118 size 0x8 virtual false final false
+  /// @brief Method get_name, addr 0x2c8f040, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method Equals addr 0x2b2a120 size 0xdc virtual true final false
+  /// @brief Method Equals, addr 0x2c8f048, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode addr 0x2b2a1fc size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2c8f124, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AnimatorControllerParameter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b2a21c size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2c8f144, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorControllerParameter", modifiers: "&&", def_value: None }]

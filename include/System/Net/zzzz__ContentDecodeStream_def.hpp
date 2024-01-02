@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentDecodeStream)
+namespace System::Net {
+struct __ContentDecodeStream__Mode;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net {
 class WebOperation;
-}
-namespace System::IO {
-class Stream;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net {
-struct __ContentDecodeStream__Mode;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 // Forward declare root types
 namespace System::Net {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Net::ContentDecodeStream);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7992))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9155))
 // CS Name: ::ContentDecodeStream::Mode
 struct CORDL_TYPE __ContentDecodeStream__Mode {
 public:
@@ -89,8 +89,8 @@ static_assert(offsetof(::System::Net::__ContentDecodeStream__Mode, value__) == 0
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9156))
 // CS Name: ::System.Net::ContentDecodeStream*
 class CORDL_TYPE ContentDecodeStream : public ::System::Net::WebReadStream {
 public:
@@ -108,22 +108,22 @@ public:
 
   constexpr void __set__OriginalInnerStream_k__BackingField(::System::IO::Stream* value);
 
-  /// @brief Method Create addr 0x283faa4 size 0xec virtual false final false
+  /// @brief Method Create, addr 0x29bd31c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::ContentDecodeStream* Create(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::__ContentDecodeStream__Mode mode);
 
-  /// @brief Method get_OriginalInnerStream addr 0x283fbb8 size 0x8 virtual false final false
+  /// @brief Method get_OriginalInnerStream, addr 0x29bd430, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OriginalInnerStream();
 
   static inline ::System::Net::ContentDecodeStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method .ctor addr 0x283fb90 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x29bd408, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* decodeStream, ::System::IO::Stream* originalInnerStream);
 
-  /// @brief Method ProcessReadAsync addr 0x283fbc0 size 0x24 virtual true final false
+  /// @brief Method ProcessReadAsync, addr 0x29bd438, size 0x24, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FinishReading addr 0x283fbe4 size 0xf0 virtual true final false
+  /// @brief Method FinishReading, addr 0x29bd45c, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentDecodeStream", modifiers: "&&", def_value: None }]

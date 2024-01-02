@@ -9,10 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VideoPlayer)
 namespace UnityEngine::Video {
-struct VideoTimeReference;
+class __VideoPlayer__EventHandler;
+}
+namespace UnityEngine::Video {
+class __VideoPlayer__FrameReadyEventHandler;
 }
 namespace UnityEngine::Video {
 class __VideoPlayer__ErrorEventHandler;
+}
+namespace UnityEngine {
+class Texture;
 }
 namespace UnityEngine::Video {
 class __VideoPlayer__TimeEventHandler;
@@ -20,14 +26,8 @@ class __VideoPlayer__TimeEventHandler;
 namespace UnityEngine::Video {
 class VideoClip;
 }
-namespace UnityEngine {
-class Texture;
-}
 namespace UnityEngine::Video {
-class __VideoPlayer__EventHandler;
-}
-namespace UnityEngine::Video {
-class __VideoPlayer__FrameReadyEventHandler;
+struct VideoTimeReference;
 }
 namespace System {
 class Object;
@@ -58,18 +58,18 @@ MARK_REF_PTR_T(::UnityEngine::Video::__VideoPlayer__TimeEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15924))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16083))
 // CS Name: ::VideoPlayer::EventHandler*
 class CORDL_TYPE __VideoPlayer__EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Video::__VideoPlayer__EventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d48ac8 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb18b4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d48b9c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2eb1988, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VideoPlayer__EventHandler", modifiers: "&&", def_value: None }]
@@ -96,18 +96,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15925))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16084))
 // CS Name: ::VideoPlayer::ErrorEventHandler*
 class CORDL_TYPE __VideoPlayer__ErrorEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d48bb0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb199c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d48c88 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2eb1a74, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VideoPlayer__ErrorEventHandler", modifiers: "&&", def_value: None }]
@@ -134,18 +134,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15926))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16085))
 // CS Name: ::VideoPlayer::FrameReadyEventHandler*
 class CORDL_TYPE __VideoPlayer__FrameReadyEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d48c9c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb1a88, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d48d74 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2eb1b60, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, int64_t frameIdx);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VideoPlayer__FrameReadyEventHandler", modifiers: "&&", def_value: None }]
@@ -172,18 +172,18 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16086))
 // CS Name: ::VideoPlayer::TimeEventHandler*
 class CORDL_TYPE __VideoPlayer__TimeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Video::__VideoPlayer__TimeEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d48d88 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb1b74, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d48e60 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2eb1c4c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, double_t seconds);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VideoPlayer__TimeEventHandler", modifiers: "&&", def_value: None }]
@@ -210,8 +210,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Video::__VideoPlaye
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Video {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15928))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16087))
 // CS Name: ::UnityEngine.Video::VideoPlayer*
 class CORDL_TYPE VideoPlayer : public ::UnityEngine::Behaviour {
 public:
@@ -312,61 +312,61 @@ public:
 
   constexpr void __set_frameReady(::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* value);
 
-  /// @brief Method get_clip addr 0x2d48664 size 0x3c virtual false final false
+  /// @brief Method get_clip, addr 0x2eb1450, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoClip* get_clip();
 
-  /// @brief Method set_clip addr 0x2d486a0 size 0x44 virtual false final false
+  /// @brief Method set_clip, addr 0x2eb148c, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::Video::VideoClip* value);
 
-  /// @brief Method get_texture addr 0x2d486e4 size 0x3c virtual false final false
+  /// @brief Method get_texture, addr 0x2eb14d0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture* get_texture();
 
-  /// @brief Method Play addr 0x2d48720 size 0x3c virtual false final false
+  /// @brief Method Play, addr 0x2eb150c, size 0x3c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Stop addr 0x2d4875c size 0x3c virtual false final false
+  /// @brief Method Stop, addr 0x2eb1548, size 0x3c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method get_isPlaying addr 0x2d48798 size 0x3c virtual false final false
+  /// @brief Method get_isPlaying, addr 0x2eb1584, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method set_frame addr 0x2d487d4 size 0x44 virtual false final false
+  /// @brief Method set_frame, addr 0x2eb15c0, size 0x44, virtual false, abstract: false, final false
   inline void set_frame(int64_t value);
 
-  /// @brief Method set_playbackSpeed addr 0x2d48818 size 0x4c virtual false final false
+  /// @brief Method set_playbackSpeed, addr 0x2eb1604, size 0x4c, virtual false, abstract: false, final false
   inline void set_playbackSpeed(float_t value);
 
-  /// @brief Method set_timeReference addr 0x2d48864 size 0x44 virtual false final false
+  /// @brief Method set_timeReference, addr 0x2eb1650, size 0x44, virtual false, abstract: false, final false
   inline void set_timeReference(::UnityEngine::Video::VideoTimeReference value);
 
-  /// @brief Method get_frameCount addr 0x2d488a8 size 0x3c virtual false final false
+  /// @brief Method get_frameCount, addr 0x2eb1694, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameRate addr 0x2d488e4 size 0x3c virtual false final false
+  /// @brief Method get_frameRate, addr 0x2eb16d0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_frameRate();
 
-  /// @brief Method InvokePrepareCompletedCallback_Internal addr 0x2d48920 size 0x34 virtual false final false
+  /// @brief Method InvokePrepareCompletedCallback_Internal, addr 0x2eb170c, size 0x34, virtual false, abstract: false, final false
   static inline void InvokePrepareCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeFrameReadyCallback_Internal addr 0x2d48954 size 0x38 virtual false final false
+  /// @brief Method InvokeFrameReadyCallback_Internal, addr 0x2eb1740, size 0x38, virtual false, abstract: false, final false
   static inline void InvokeFrameReadyCallback_Internal(::UnityEngine::Video::VideoPlayer* source, int64_t frameIdx);
 
-  /// @brief Method InvokeLoopPointReachedCallback_Internal addr 0x2d4898c size 0x34 virtual false final false
+  /// @brief Method InvokeLoopPointReachedCallback_Internal, addr 0x2eb1778, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeLoopPointReachedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeStartedCallback_Internal addr 0x2d489c0 size 0x34 virtual false final false
+  /// @brief Method InvokeStartedCallback_Internal, addr 0x2eb17ac, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeStartedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeFrameDroppedCallback_Internal addr 0x2d489f4 size 0x34 virtual false final false
+  /// @brief Method InvokeFrameDroppedCallback_Internal, addr 0x2eb17e0, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeFrameDroppedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeErrorReceivedCallback_Internal addr 0x2d48a28 size 0x38 virtual false final false
+  /// @brief Method InvokeErrorReceivedCallback_Internal, addr 0x2eb1814, size 0x38, virtual false, abstract: false, final false
   static inline void InvokeErrorReceivedCallback_Internal(::UnityEngine::Video::VideoPlayer* source, ::StringW errorStr);
 
-  /// @brief Method InvokeSeekCompletedCallback_Internal addr 0x2d48a60 size 0x34 virtual false final false
+  /// @brief Method InvokeSeekCompletedCallback_Internal, addr 0x2eb184c, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeSeekCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeClockResyncOccurredCallback_Internal addr 0x2d48a94 size 0x34 virtual false final false
+  /// @brief Method InvokeClockResyncOccurredCallback_Internal, addr 0x2eb1880, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeClockResyncOccurredCallback_Internal(::UnityEngine::Video::VideoPlayer* source, double_t seconds);
 
   // Ctor Parameters [CppParam { name: "", ty: "VideoPlayer", modifiers: "&&", def_value: None }]

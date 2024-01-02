@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_ENUMERATION);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11585))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11657))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11680))
 // CS Name: ::System.Xml.Schema::Datatype_ENUMERATION*
 class CORDL_TYPE Datatype_ENUMERATION : public ::System::Xml::Schema::Datatype_NMTOKEN {
 public:
   // Declarations
   __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
 
-  /// @brief Method get_TokenizedType addr 0x2741398 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType, addr 0x28bf3bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
   static inline ::System::Xml::Schema::Datatype_ENUMERATION* New_ctor();
 
-  /// @brief Method .ctor addr 0x27413a0 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x28bf3c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_ENUMERATION", modifiers: "&&", def_value: None }]

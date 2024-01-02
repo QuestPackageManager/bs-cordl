@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::TMPro::ITextElement);
 namespace TMPro {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
 // CS Name: ::TMPro::ITextElement*
 class CORDL_TYPE ITextElement {
 public:
   // Declarations
   __declspec(property(get = get_sharedMaterial))::UnityEngine::Material* sharedMaterial;
 
-  /// @brief Method get_sharedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Material* get_sharedMaterial();
 
-  /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method GetInstanceID addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInstanceID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInstanceID();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "&&", def_value: None }]

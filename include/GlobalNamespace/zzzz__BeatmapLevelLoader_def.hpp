@@ -11,41 +11,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelLoader)
-namespace GlobalNamespace {
-struct __BeatmapLevelLoader__LoadBeatmapLevelResult;
-}
-namespace GlobalNamespace {
-class IBeatmapDataAssetFileModel;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-class BeatmapLevelDataLoaderSO;
-}
-namespace System::Threading {
-struct CancellationToken;
+struct __BeatmapLevelLoader__LoadBeatmapLevelResult;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelLoader___LoadBeatmapLevelAsync_d__4;
 }
 namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
+}
+namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
+class BeatmapLevelDataLoader;
+}
+namespace GlobalNamespace {
 class IBeatmapLevel;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -66,12 +66,12 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLevelAsync_d__4)
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4339))
 // CS Name: ::BeatmapLevelLoader::LoadBeatmapLevelResult
 struct CORDL_TYPE __BeatmapLevelLoader__LoadBeatmapLevelResult {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x21f46b8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23405b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::GlobalNamespace::IBeatmapLevel* beatmapLevel);
 
   // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::IBeatmapLevel*", modifiers: "", def_value: None
@@ -105,10 +105,10 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevel
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 865 }), TypeDefinitionIndex(TypeDefinitionIndex(4413)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(2675)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4433)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 870 }), TypeDefinitionIndex(TypeDefinitionIndex(4358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4359)) CS
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 887 }), TypeDefinitionIndex(TypeDefinitionIndex(4339)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4391)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 904 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4340)) CS
 // Name: ::BeatmapLevelLoader::<LoadBeatmapLevelAsync>d__4
 struct CORDL_TYPE __BeatmapLevelLoader___LoadBeatmapLevelAsync_d__4 {
 public:
@@ -116,10 +116,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21f46c8 size 0x6d0 virtual true final true
+  /// @brief Method MoveNext, addr 0x23405c8, size 0x6d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21f4d98 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x2340c98, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -197,8 +197,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelLoader___LoadBeatmapLeve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4360))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4341))
 // CS Name: ::BeatmapLevelLoader*
 class CORDL_TYPE BeatmapLevelLoader : public ::System::Object {
 public:
@@ -208,16 +208,16 @@ public:
   using LoadBeatmapLevelResult = ::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult;
 
   /// @brief Field _beatmapLevelDataLoader, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelDataLoader, put = __set__beatmapLevelDataLoader))::GlobalNamespace::BeatmapLevelDataLoaderSO* _beatmapLevelDataLoader;
+  __declspec(property(get = __get__beatmapLevelDataLoader, put = __set__beatmapLevelDataLoader))::GlobalNamespace::BeatmapLevelDataLoader* _beatmapLevelDataLoader;
 
   /// @brief Field _beatmapDataAssetFileModel, offset 0x18, size 0x8
   __declspec(property(get = __get__beatmapDataAssetFileModel, put = __set__beatmapDataAssetFileModel))::GlobalNamespace::IBeatmapDataAssetFileModel* _beatmapDataAssetFileModel;
 
-  constexpr ::GlobalNamespace::BeatmapLevelDataLoaderSO*& __get__beatmapLevelDataLoader();
+  constexpr ::GlobalNamespace::BeatmapLevelDataLoader*& __get__beatmapLevelDataLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelDataLoaderSO*> const& __get__beatmapLevelDataLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelDataLoader*> const& __get__beatmapLevelDataLoader() const;
 
-  constexpr void __set__beatmapLevelDataLoader(::GlobalNamespace::BeatmapLevelDataLoaderSO* value);
+  constexpr void __set__beatmapLevelDataLoader(::GlobalNamespace::BeatmapLevelDataLoader* value);
 
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel*& __get__beatmapDataAssetFileModel();
 
@@ -225,13 +225,13 @@ public:
 
   constexpr void __set__beatmapDataAssetFileModel(::GlobalNamespace::IBeatmapDataAssetFileModel* value);
 
-  static inline ::GlobalNamespace::BeatmapLevelLoader* New_ctor(::GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader,
+  static inline ::GlobalNamespace::BeatmapLevelLoader* New_ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader,
                                                                 ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel);
 
-  /// @brief Method .ctor addr 0x21f4578 size 0x2c virtual false final false
-  inline void _ctor(::GlobalNamespace::BeatmapLevelDataLoaderSO* beatmapLevelDataLoader, ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel);
+  /// @brief Method .ctor, addr 0x2340478, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader, ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel);
 
-  /// @brief Method LoadBeatmapLevelAsync addr 0x21f45a4 size 0x114 virtual false final false
+  /// @brief Method LoadBeatmapLevelAsync, addr 0x23404a4, size 0x114, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult>* LoadBeatmapLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewLevel,
                                                                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
@@ -250,7 +250,7 @@ protected:
 
 public:
   /// @brief Field _beatmapLevelDataLoader, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelDataLoaderSO* ____beatmapLevelDataLoader;
+  ::GlobalNamespace::BeatmapLevelDataLoader* ____beatmapLevelDataLoader;
 
   /// @brief Field _beatmapDataAssetFileModel, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapDataAssetFileModel* ____beatmapDataAssetFileModel;

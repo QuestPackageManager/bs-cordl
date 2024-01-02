@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TrackingServices)
+namespace System::Collections {
+class ArrayList;
+}
 namespace System {
 class Object;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
-}
-namespace System::Collections {
-class ArrayList;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Services {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Services::TrackingServices);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3084))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3085))
 // CS Name: ::System.Runtime.Remoting.Services::TrackingServices*
 class CORDL_TYPE TrackingServices : public ::System::Object {
 public:
@@ -36,13 +36,13 @@ public:
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();
 
-  /// @brief Method NotifyMarshaledObject addr 0x233d20c size 0x310 virtual false final false
+  /// @brief Method NotifyMarshaledObject, addr 0x2495d00, size 0x310, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject addr 0x233d51c size 0x310 virtual false final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x2496010, size 0x310, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyDisconnectedObject addr 0x233a968 size 0x304 virtual false final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x249345c, size 0x304, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "&&", def_value: None }]

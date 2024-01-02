@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputInteraction);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6129))
 // CS Name: ::UnityEngine.InputSystem::IInputInteraction*
 class CORDL_TYPE IInputInteraction {
 public:
   // Declarations
-  /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputInteraction", modifiers: "&&", def_value: None }]

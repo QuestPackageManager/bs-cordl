@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::XRFeatureDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6419))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6421))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6333))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6335))
 // CS Name: ::UnityEngine.InputSystem.XR::XRFeatureDescriptor
 struct CORDL_TYPE XRFeatureDescriptor {
 public:

@@ -1,0 +1,3 @@
+#pragma once
+#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__MockPlatformAdditionalContentModelInitialDataSO_impl.hpp"

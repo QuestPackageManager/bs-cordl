@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::Cookie);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10396))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::Cookie
 struct CORDL_TYPE Cookie {
 public:

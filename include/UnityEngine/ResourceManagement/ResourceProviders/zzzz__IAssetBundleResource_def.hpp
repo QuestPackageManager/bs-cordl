@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundl
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13990))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IAssetBundleResource*
 class CORDL_TYPE IAssetBundleResource {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAssetBundle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::AssetBundle* GetAssetBundle();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAssetBundleResource", modifiers: "&&", def_value: None }]

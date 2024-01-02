@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::IO::__TextWriter__NullTextWriter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3583))
 // CS Name: ::TextWriter::NullTextWriter*
 class CORDL_TYPE __TextWriter__NullTextWriter : public ::System::IO::TextWriter {
 public:
@@ -30,25 +30,25 @@ public:
 
   static inline ::System::IO::__TextWriter__NullTextWriter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ab7f0 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x25079cc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding addr 0x23ab87c size 0x8 virtual true final false
+  /// @brief Method get_Encoding, addr 0x2507a58, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method Write addr 0x23ab884 size 0x4 virtual true final false
+  /// @brief Method Write, addr 0x2507a60, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write addr 0x23ab888 size 0x4 virtual true final false
+  /// @brief Method Write, addr 0x2507a64, size 0x4, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method WriteLine addr 0x23ab88c size 0x4 virtual true final false
+  /// @brief Method WriteLine, addr 0x2507a68, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine();
 
-  /// @brief Method WriteLine addr 0x23ab890 size 0x4 virtual true final false
+  /// @brief Method WriteLine, addr 0x2507a6c, size 0x4, virtual true, abstract: false, final false
   inline void WriteLine(::StringW value);
 
-  /// @brief Method Write addr 0x23ab894 size 0x4 virtual true final false
+  /// @brief Method Write, addr 0x2507a70, size 0x4, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextWriter__NullTextWriter", modifiers: "&&", def_value: None }]

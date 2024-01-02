@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(HEU_InputObjectInfo)
-namespace UnityEngine::Tilemaps {
-class Tilemap;
-}
 namespace UnityEngine {
 class Terrain;
-}
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
 }
 namespace GlobalNamespace {
 class HEU_BoundingVolume;
 }
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
+}
 namespace System {
 class Type;
+}
+namespace UnityEngine::Tilemaps {
+class Tilemap;
 }
 namespace UnityEngine {
 class GameObject;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectInfo);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9646))
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectInfo*
 class CORDL_TYPE HEU_InputObjectInfo : public ::System::Object {
 public:
@@ -133,18 +133,18 @@ public:
 
   constexpr void __set__inputInterfaceType(::System::Type* value);
 
-  /// @brief Method CopyTo addr 0x2018324 size 0x74 virtual false final false
+  /// @brief Method CopyTo, addr 0x216fcc0, size 0x74, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputObjectInfo* destObject);
 
-  /// @brief Method SetReferencesFromGameObject addr 0x201860c size 0xec virtual false final false
+  /// @brief Method SetReferencesFromGameObject, addr 0x216ffa8, size 0xec, virtual false, abstract: false, final false
   inline void SetReferencesFromGameObject();
 
-  /// @brief Method IsEquivalentTo addr 0x201a644 size 0x28c virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x2171fe0, size 0x28c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputObjectInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x201823c size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0x216fbd8, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputObjectInfo", modifiers: "&&", def_value: None }]

@@ -34,7 +34,7 @@ public:
 
   static inline ::System::AssemblyLoadEventArgs* New_ctor(::System::Reflection::Assembly* loadedAssembly);
 
-  /// @brief Method .ctor addr 0x23c7e94 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2521160, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::Assembly* loadedAssembly);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyLoadEventArgs", modifiers: "&&", def_value: None }]

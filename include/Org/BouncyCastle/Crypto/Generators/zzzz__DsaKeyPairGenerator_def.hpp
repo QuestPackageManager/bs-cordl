@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DsaKeyPairGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaKeyGenerationParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(897))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DsaKeyPairGenerator*
 class CORDL_TYPE DsaKeyPairGenerator : public ::System::Object {
@@ -57,21 +57,21 @@ public:
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();
 
-  /// @brief Method Init addr 0xe82f64 size 0xec virtual true final true
+  /// @brief Method Init, addr 0xef8138, size 0xec, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xe83050 size 0x148 virtual true final true
+  /// @brief Method GenerateKeyPair, addr 0xef8224, size 0x148, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GeneratePrivateKey addr 0xe83198 size 0xf0 virtual false final false
+  /// @brief Method GeneratePrivateKey, addr 0xef836c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublicKey addr 0xe83288 size 0x24 virtual false final false
+  /// @brief Method CalculatePublicKey, addr 0xef845c, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe83324 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xef84f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaKeyPairGenerator", modifiers: "&&", def_value: None }]

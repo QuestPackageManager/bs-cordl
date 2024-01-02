@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlText)
 namespace System::Xml {
+class XmlNode;
+}
+namespace System::Xml {
 struct XmlNodeType;
 }
 namespace System::Xml {
 class XmlDocument;
-}
-namespace System::Xml {
-class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlText);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11428))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11527))
 // CS Name: ::System.Xml::XmlText*
 class CORDL_TYPE XmlText : public ::System::Xml::XmlCharacterData {
 public:
@@ -44,36 +44,36 @@ public:
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData);
 
-  /// @brief Method .ctor addr 0x270eacc size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x288baec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData);
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x270eac4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x288bae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x2714d80 size 0x28 virtual true final false
+  /// @brief Method get_Name, addr 0x2891da0, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2714da8 size 0x28 virtual true final false
+  /// @brief Method get_LocalName, addr 0x2891dc8, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2714dd0 size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x2891df0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode addr 0x2714dd8 size 0x84 virtual true final false
+  /// @brief Method get_ParentNode, addr 0x2891df8, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method CloneNode addr 0x2714e5c size 0x5c virtual true final false
+  /// @brief Method CloneNode, addr 0x2891e7c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_Value addr 0x2714eb8 size 0x10 virtual true final false
+  /// @brief Method get_Value, addr 0x2891ed8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x2714ec8 size 0xd4 virtual true final false
+  /// @brief Method set_Value, addr 0x2891ee8, size 0xd4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_IsText addr 0x2714f9c size 0x8 virtual true final false
+  /// @brief Method get_IsText, addr 0x2891fbc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlText", modifiers: "&&", def_value: None }]

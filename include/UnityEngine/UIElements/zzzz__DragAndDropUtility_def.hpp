@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragAndDropUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6963))
 // CS Name: ::UnityEngine.UIElements::DragAndDropUtility*
 class CORDL_TYPE DragAndDropUtility : public ::System::Object {
 public:
@@ -40,7 +40,7 @@ public:
 
   static inline ::UnityEngine::UIElements::IDragAndDrop* getStaticF_s_DragAndDrop();
 
-  /// @brief Method get_dragAndDrop addr 0x2ca527c size 0xac virtual false final false
+  /// @brief Method get_dragAndDrop, addr 0x2e0b62c, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
   // Ctor Parameters [CppParam { name: "", ty: "DragAndDropUtility", modifiers: "&&", def_value: None }]

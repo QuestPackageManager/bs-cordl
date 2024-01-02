@@ -14,28 +14,28 @@ namespace UnityEngine::UIElements::UIR {
 class UIRenderDevice;
 }
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
+class ITextHandle;
+}
+namespace System {
+class Action;
+}
+namespace System {
+class IDisposable;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class ITextHandle;
+struct __MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::UIElements {
+class MeshGenerationContext;
 }
 namespace UnityEngine::UIElements {
 class IStylePainter;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
+struct __MeshGenerationContextUtils__RectangleParams;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR::Implementation {
@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePain
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 745 }), TypeDefinitionIndex(TypeDefinitionIndex(9927)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7416)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9922)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 745 }), TypeDefinitionIndex(TypeDefinitionIndex(10177))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7537)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 752 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 756 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7330)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7451)) CS Name: ::UnityEngine.UIElements.UIR.Implementation::UIRTextUpdatePainter*
 class CORDL_TYPE UIRTextUpdatePainter : public ::System::Object {
 public:
   // Declarations
@@ -153,30 +153,30 @@ public:
 
   constexpr void __set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value);
 
-  /// @brief Method get_meshGenerationContext addr 0x2c78de8 size 0x8 virtual false final false
+  /// @brief Method get_meshGenerationContext, addr 0x2ddf198, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c78df0 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x2ddf1a0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Begin addr 0x2c78e60 size 0x244 virtual false final false
+  /// @brief Method Begin, addr 0x2ddf210, size 0x244, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method End addr 0x2c790a4 size 0x8c virtual false final false
+  /// @brief Method End, addr 0x2ddf454, size 0x8c, virtual false, abstract: false, final false
   inline void End();
 
-  /// @brief Method Dispose addr 0x2c79130 size 0xc4 virtual true final true
+  /// @brief Method Dispose, addr 0x2ddf4e0, size 0xc4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawRectangle addr 0x2c791f4 size 0x4 virtual true final true
+  /// @brief Method DrawRectangle, addr 0x2ddf5a4, size 0x4, virtual true, abstract: false, final true
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawImmediate addr 0x2c791f8 size 0x4 virtual true final true
+  /// @brief Method DrawImmediate, addr 0x2ddf5a8, size 0x4, virtual true, abstract: false, final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method DrawText addr 0x2c791fc size 0x368 virtual true final true
+  /// @brief Method DrawText, addr 0x2ddf5ac, size 0x368, virtual true, abstract: false, final true
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRTextUpdatePainter", modifiers: "&&", def_value: None }]

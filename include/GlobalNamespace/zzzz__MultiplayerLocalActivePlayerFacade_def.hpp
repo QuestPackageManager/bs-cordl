@@ -8,22 +8,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalActivePlayerFacade)
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsPublisher;
+class IStartSeekSongController;
 }
 namespace GlobalNamespace {
-class MultiplayerLocalActivePlayerIntroAnimator;
+class __MultiplayerLocalActivePlayerFacade__Factory;
 }
-namespace GlobalNamespace {
-class IStartSeekSongControllerProvider;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class PrepareLevelCompletionResults;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace GlobalNamespace {
 class LevelCompletionResults;
@@ -32,22 +26,28 @@ namespace GlobalNamespace {
 class MultiplayerLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class BeatmapCallbacksUpdater;
+class IMultiplayerLevelEndActionsPublisher;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class MultiplayerLocalActivePlayerIntroAnimator;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
 }
 namespace GlobalNamespace {
 class GameSongController;
 }
-namespace GlobalNamespace {
-class __MultiplayerLocalActivePlayerFacade__Factory;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
-class IStartSeekSongController;
+class PrepareLevelCompletionResults;
 }
 namespace GlobalNamespace {
-class IMultiplayerLevelEndActionsListener;
+class BeatmapCallbacksUpdater;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory)
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5151))
 // CS Name: ::MultiplayerLocalActivePlayerFacade*
 class CORDL_TYPE MultiplayerLocalActivePlayerFacade : public ::UnityEngine::MonoBehaviour {
 public:
@@ -179,54 +179,54 @@ public:
 
   constexpr void __set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_introAnimator addr 0x20f8b68 size 0x8 virtual false final false
+  /// @brief Method get_introAnimator, addr 0x23da6e0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* get_introAnimator();
 
-  /// @brief Method get_outroAnimator addr 0x20f8b70 size 0x8 virtual false final false
+  /// @brief Method get_outroAnimator, addr 0x23da6e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_outroAnimator();
 
-  /// @brief Method get_songController addr 0x20f8b78 size 0x8 virtual true final true
+  /// @brief Method get_songController, addr 0x23da6f0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
-  /// @brief Method get_currentLocalPlayerLevelCompletionResult addr 0x20f8b80 size 0x24 virtual false final false
+  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x23da6f8, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
 
-  /// @brief Method add_playerDidFinishEvent addr 0x20f8ba4 size 0xb0 virtual true final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x23da71c, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerDidFinishEvent addr 0x20f8c54 size 0xb0 virtual true final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x23da7cc, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent addr 0x20f8d04 size 0xb0 virtual true final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x23da87c, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent addr 0x20f8db4 size 0xb0 virtual true final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x23da92c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method ReportPlayerDidFinish addr 0x20f8e64 size 0x1c virtual true final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x23da9dc, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed addr 0x20f8e80 size 0x1c virtual true final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x23da9f8, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method DisablePlayer addr 0x20f8e9c size 0x64 virtual false final false
+  /// @brief Method DisablePlayer, addr 0x23daa14, size 0x64, virtual false, abstract: false, final false
   inline void DisablePlayer();
 
-  /// @brief Method PauseSpawning addr 0x20f8f00 size 0x1c virtual false final false
+  /// @brief Method PauseSpawning, addr 0x23daa78, size 0x1c, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ResumeSpawning addr 0x20f8f1c size 0x1c virtual false final false
+  /// @brief Method ResumeSpawning, addr 0x23daa94, size 0x1c, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method __ForceStopSong addr 0x20f8f38 size 0x34 virtual false final false
+  /// @brief Method __ForceStopSong, addr 0x23daab0, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetActiveOnlyGameObjects addr 0x20f8f6c size 0x8 virtual false final false
+  /// @brief Method __GetActiveOnlyGameObjects, addr 0x23daae4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> __GetActiveOnlyGameObjects();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f8f74 size 0x1008 virtual false final false
+  /// @brief Method .ctor, addr 0x23daaec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerFacade", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalActivePlayerFacade, __
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10933)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10933), inst: 3416 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5333)), TypeDefinitionIndex(TypeDefinitionIndex(5256))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5255)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5151)), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3490 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5150)) CS Name:
 // ::MultiplayerLocalActivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalActivePlayerFacade__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalActivePlayerFacade*> {
@@ -312,7 +312,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f9f7c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23daaf4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerLocalActivePlayerFacade__Factory", modifiers: "&&", def_value: None }]

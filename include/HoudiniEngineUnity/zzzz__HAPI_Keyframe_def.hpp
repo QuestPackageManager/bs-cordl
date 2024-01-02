@@ -16,12 +16,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Keyframe);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9672))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9745))
 // CS Name: ::HoudiniEngineUnity::HAPI_Keyframe
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x203b508 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2191ea4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
 
   // Ctor Parameters [CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "inTangent",

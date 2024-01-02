@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceFactory_5)
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class IFactory;
 }
 namespace System {
@@ -14,12 +20,6 @@ class Object;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue> class IFactory_6;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,8 +33,8 @@ namespace Zenject {
 // cpp template
 template <typename P1, typename P2, typename P3, typename P4, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11109))
 // CS Name: ::Zenject::PrefabResourceFactory`5<P1,P2,P3,P4,T>*
 class CORDL_TYPE PrefabResourceFactory_5 : public ::System::Object {
 public:
@@ -56,24 +56,24 @@ public:
 
   constexpr void __set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T Create(::StringW prefabResourceName, P1 param, P2 param2, P3 param3, P4 param4);
 
   static inline ::Zenject::PrefabResourceFactory_5<P1, P2, P3, P4, T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenFieldSetter0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenFieldSetter0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceFactory_5", modifiers: "&&", def_value: None }]

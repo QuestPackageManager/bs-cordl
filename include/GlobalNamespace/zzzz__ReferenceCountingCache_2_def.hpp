@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReferenceCountingCache_2)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class IReferenceCountingCache_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5912))
 // CS Name: ::ReferenceCountingCache`2<TKey,TValue>*
 class CORDL_TYPE ReferenceCountingCache_2 : public ::System::Object {
 public:
@@ -52,27 +52,27 @@ public:
 
   constexpr void __set__referencesCount(::System::Collections::Generic::Dictionary_2<TKey, int32_t>* value);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t Insert(TKey key, TValue item);
 
-  /// @brief Method AddReference addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t AddReference(TKey key);
 
-  /// @brief Method RemoveReference addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RemoveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t RemoveReference(TKey key);
 
-  /// @brief Method GetReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t GetReferenceCount(TKey key);
 
-  /// @brief Method TryGet addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryGet(TKey key, ByRef<TValue> result);
 
-  /// @brief Method LogError addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void LogError(::StringW message);
 
   static inline ::GlobalNamespace::ReferenceCountingCache_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReferenceCountingCache_2", modifiers: "&&", def_value: None }]

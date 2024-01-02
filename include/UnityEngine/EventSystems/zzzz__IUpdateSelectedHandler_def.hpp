@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IUpdateSelectedHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13183))
 // CS Name: ::UnityEngine.EventSystems::IUpdateSelectedHandler*
 class CORDL_TYPE IUpdateSelectedHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnUpdateSelected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnUpdateSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IUpdateSelectedHandler", modifiers: "&&", def_value: None }]

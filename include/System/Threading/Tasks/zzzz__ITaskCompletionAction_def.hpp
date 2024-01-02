@@ -17,17 +17,17 @@ MARK_REF_PTR_T(::System::Threading::Tasks::ITaskCompletionAction);
 namespace System::Threading::Tasks {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2791))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2795))
 // CS Name: ::System.Threading.Tasks::ITaskCompletionAction*
 class CORDL_TYPE ITaskCompletionAction {
 public:
   // Declarations
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITaskCompletionAction", modifiers: "&&", def_value: None }]

@@ -9,13 +9,13 @@ namespace System::Xml {
 class XmlReader;
 }
 namespace System::Configuration {
+class ConfigurationElement;
+}
+namespace System::Configuration {
 class ConfigurationPropertyCollection;
 }
 namespace System::Configuration {
 struct ConfigurationSaveMode;
-}
-namespace System::Configuration {
-class ConfigurationElement;
 }
 // Forward declare root types
 namespace System::Configuration {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Configuration::IgnoreSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16081))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16087))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16258))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16264))
 // CS Name: ::System.Configuration::IgnoreSection*
 class CORDL_TYPE IgnoreSection : public ::System::Configuration::ConfigurationSection {
 public:
@@ -37,25 +37,25 @@ public:
 
   static inline ::System::Configuration::IgnoreSection* New_ctor();
 
-  /// @brief Method .ctor addr 0x2691ebc size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x280cb1c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x2691ef4 size 0x38 virtual true final false
+  /// @brief Method get_Properties, addr 0x280cb54, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
-  /// @brief Method DeserializeSection addr 0x2691f2c size 0x38 virtual true final false
+  /// @brief Method DeserializeSection, addr 0x280cb8c, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* xmlReader);
 
-  /// @brief Method IsModified addr 0x2691f64 size 0x38 virtual true final false
+  /// @brief Method IsModified, addr 0x280cbc4, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset addr 0x2691f9c size 0x38 virtual true final false
+  /// @brief Method Reset, addr 0x280cbfc, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentSection);
 
-  /// @brief Method ResetModified addr 0x2691fd4 size 0x38 virtual true final false
+  /// @brief Method ResetModified, addr 0x280cc34, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection addr 0x269200c size 0x38 virtual true final false
+  /// @brief Method SerializeSection, addr 0x280cc6c, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentSection, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "IgnoreSection", modifiers: "&&", def_value: None }]

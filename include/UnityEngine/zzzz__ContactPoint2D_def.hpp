@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::ContactPoint2D);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15933))
 // CS Name: ::UnityEngine::ContactPoint2D
 struct CORDL_TYPE ContactPoint2D {
 public:

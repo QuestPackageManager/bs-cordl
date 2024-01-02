@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyUsage)
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 namespace System {
 class Object;
@@ -31,23 +31,23 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE KeyUsage : public ::Org::BouncyCastle::Asn1::DerBitString {
 public:
   // Declarations
-  /// @brief Method GetInstance addr 0x1122074 size 0x114 virtual false final false
+  /// @brief Method GetInstance, addr 0x11922bc, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* GetInstance(::System::Object* obj);
 
-  /// @brief Method FromExtensions addr 0x112221c size 0x74 virtual false final false
+  /// @brief Method FromExtensions, addr 0x1192464, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(int32_t usage);
 
-  /// @brief Method .ctor addr 0x1122290 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x11924d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t usage);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyUsage* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method .ctor addr 0x1122188 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x11923d0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* usage);
 
-  /// @brief Method ToString addr 0x11222f8 size 0xc0 virtual true final false
+  /// @brief Method ToString, addr 0x1192540, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyUsage", modifiers: "&&", def_value: None }]

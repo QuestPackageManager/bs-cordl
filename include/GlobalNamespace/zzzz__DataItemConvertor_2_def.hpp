@@ -22,23 +22,23 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TOut, typename TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4296))
 // CS Name: ::DataItemConvertor`2<TOut,TParam>*
 class CORDL_TYPE DataItemConvertor_2 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_inputDataType))::System::Type* inputDataType;
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut Convert(::System::Object* item, TParam param);
 
-  /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_inputDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_inputDataType();
 
   static inline ::GlobalNamespace::DataItemConvertor_2<TOut, TParam>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataItemConvertor_2", modifiers: "&&", def_value: None }]

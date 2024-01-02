@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DescriptionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8225))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9388))
 // CS Name: ::System.ComponentModel::DescriptionAttribute*
 class CORDL_TYPE DescriptionAttribute : public ::System::Attribute {
 public:
@@ -47,30 +47,30 @@ public:
 
   static inline ::System::ComponentModel::DescriptionAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2786164 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x290418c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::DescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor addr 0x27861c0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x29041e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
-  /// @brief Method get_Description addr 0x27861e8 size 0x8 virtual true final false
+  /// @brief Method get_Description, addr 0x2904210, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Description();
 
-  /// @brief Method get_DescriptionValue addr 0x27861f0 size 0x8 virtual false final false
+  /// @brief Method get_DescriptionValue, addr 0x2904218, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DescriptionValue();
 
-  /// @brief Method set_DescriptionValue addr 0x27861f8 size 0x8 virtual false final false
+  /// @brief Method set_DescriptionValue, addr 0x2904220, size 0x8, virtual false, abstract: false, final false
   inline void set_DescriptionValue(::StringW value);
 
-  /// @brief Method Equals addr 0x2786200 size 0xcc virtual true final false
+  /// @brief Method Equals, addr 0x2904228, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x27862cc size 0x28 virtual true final false
+  /// @brief Method GetHashCode, addr 0x29042f4, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute addr 0x27862f4 size 0x68 virtual true final false
+  /// @brief Method IsDefaultAttribute, addr 0x290431c, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DescriptionAttribute", modifiers: "&&", def_value: None }]

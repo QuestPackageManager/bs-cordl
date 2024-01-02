@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedLightTexturePacking)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace UnityEngine {
-struct RenderTextureDescriptor;
+class Material;
 }
 namespace UnityEngine {
 class RenderTexture;
 }
 namespace UnityEngine {
-class Material;
+struct RenderTextureDescriptor;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightTexturePacking);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5941))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5852))
 // CS Name: ::BakedLightTexturePacking*
 class CORDL_TYPE BakedLightTexturePacking : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
 
   static inline ::UnityEngine::Material* getStaticF__material();
 
-  /// @brief Method PackTextures addr 0x21ad184 size 0x36c virtual false final false
+  /// @brief Method PackTextures, addr 0x22f59b4, size 0x36c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTexture* PackTextures(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::RenderTexture*>* textures, ::UnityEngine::RenderTextureDescriptor descriptor);
 
   // Ctor Parameters [CppParam { name: "", ty: "BakedLightTexturePacking", modifiers: "&&", def_value: None }]

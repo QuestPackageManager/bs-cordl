@@ -19,18 +19,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::EntropyUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1108))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::EntropyUtilities*
 class CORDL_TYPE EntropyUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateSeed addr 0xecc5d0 size 0x15c virtual false final false
+  /// @brief Method GenerateSeed, addr 0xf427bc, size 0x15c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(::Org::BouncyCastle::Crypto::IEntropySource* entropySource, int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::EntropyUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0xecc72c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf42918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EntropyUtilities", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SystemNetworkInterface)
 namespace System::Net::NetworkInformation {
-class NetworkInterface;
+class NetworkInterfaceFactory;
 }
 namespace System::Net::NetworkInformation {
-class NetworkInterfaceFactory;
+class NetworkInterface;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemNetworkInterface);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9282))
 // CS Name: ::System.Net.NetworkInformation::SystemNetworkInterface*
 class CORDL_TYPE SystemNetworkInterface : public ::System::Object {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();
 
-  /// @brief Method GetNetworkInterfaces addr 0x286ef50 size 0xfc virtual false final false
+  /// @brief Method GetNetworkInterfaces, addr 0x29eb7d4, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemNetworkInterface", modifiers: "&&", def_value: None }]

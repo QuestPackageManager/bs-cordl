@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GlvTypeAParameters)
-namespace Org::BouncyCastle::Math::EC::Endo {
-class ScalarSplitParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ScalarSplitParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1522))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters*
 class CORDL_TYPE GlvTypeAParameters : public ::System::Object {
@@ -62,16 +62,16 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method .ctor addr 0xfc32c0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x103550c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda, ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);
 
-  /// @brief Method get_I addr 0xfc32fc size 0x8 virtual true final false
+  /// @brief Method get_I, addr 0x1035548, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_I();
 
-  /// @brief Method get_Lambda addr 0xfc3304 size 0x8 virtual true final false
+  /// @brief Method get_Lambda, addr 0x1035550, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Lambda();
 
-  /// @brief Method get_SplitParams addr 0xfc330c size 0x8 virtual true final false
+  /// @brief Method get_SplitParams, addr 0x1035558, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* get_SplitParams();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvTypeAParameters", modifiers: "&&", def_value: None }]

@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(BTSCharacter)
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-class Animator;
+namespace GlobalNamespace {
+class BTSCharacterMaterialSwitcher;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace UnityEngine {
-class AnimationClip;
+class Animator;
 }
-namespace GlobalNamespace {
-class BTSCharacterMaterialSwitcher;
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3948))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3962))
 // CS Name: ::BTSCharacter*
 class CORDL_TYPE BTSCharacter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -89,24 +89,24 @@ public:
 
   constexpr void __set__headTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_characterName addr 0x20b8654 size 0x8 virtual false final false
+  /// @brief Method get_characterName, addr 0x221963c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_materialPropertyBlockController addr 0x20b865c size 0x8 virtual false final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x2219644, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
 
-  /// @brief Method get_animator addr 0x20b8664 size 0x8 virtual false final false
+  /// @brief Method get_animator, addr 0x221964c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Animator* get_animator();
 
-  /// @brief Method get_headTransform addr 0x20b866c size 0x8 virtual false final false
+  /// @brief Method get_headTransform, addr 0x2219654, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_headTransform();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial addr 0x20b8674 size 0x1f4 virtual false final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x221965c, size 0x1f4, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method .ctor addr 0x20b8abc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2219aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacter", modifiers: "&&", def_value: None }]

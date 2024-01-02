@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlAttributes);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7085))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6999))
 // CS Name: ::UnityEngine.UIElements::IUxmlAttributes*
 class CORDL_TYPE IUxmlAttributes {
 public:
   // Declarations
-  /// @brief Method TryGetAttributeValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetAttributeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetAttributeValue(::StringW attributeName, ByRef<::StringW> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IUxmlAttributes", modifiers: "&&", def_value: None }]

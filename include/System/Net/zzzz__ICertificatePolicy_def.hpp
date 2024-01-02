@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICertificatePolicy)
 namespace System::Net {
-class WebRequest;
+class ServicePoint;
 }
 namespace System::Net {
-class ServicePoint;
+class WebRequest;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
@@ -24,12 +24,12 @@ MARK_REF_PTR_T(::System::Net::ICertificatePolicy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7906))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9069))
 // CS Name: ::System.Net::ICertificatePolicy*
 class CORDL_TYPE ICertificatePolicy {
 public:
   // Declarations
-  /// @brief Method CheckValidationResult addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CheckValidationResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CheckValidationResult(::System::Net::ServicePoint* srvPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Net::WebRequest* request,
                                     int32_t certificateProblem);
 

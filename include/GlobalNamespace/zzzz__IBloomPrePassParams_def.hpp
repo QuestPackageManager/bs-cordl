@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14484))
 // CS Name: ::IBloomPrePassParams*
 class CORDL_TYPE IBloomPrePassParams {
 public:
@@ -42,22 +42,22 @@ public:
 
   __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
 
-  /// @brief Method get_textureEffect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::TextureEffectSO* get_textureEffect();
 
-  /// @brief Method get_textureWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_textureHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_textureHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_fov addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_fov, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_linesWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_linesWidth();
 
-  /// @brief Method get_toneMapping addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_toneMapping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBloomPrePassParams", modifiers: "&&", def_value: None }]

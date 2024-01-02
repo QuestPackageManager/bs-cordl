@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelSceneSetupData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(13934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6110))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6055))
 // CS Name: ::MultiplayerLevelSceneSetupData*
 class CORDL_TYPE MultiplayerLevelSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -69,7 +69,7 @@ public:
   static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                             ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
 
-  /// @brief Method .ctor addr 0x21c90dc size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x231cd4c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
 

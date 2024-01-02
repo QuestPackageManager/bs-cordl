@@ -5,32 +5,32 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBase_1)
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class IPlaceholderFactory;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Object;
+class IProvider;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
+class InjectContext;
+}
+namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class IValidatable;
@@ -47,8 +47,8 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10954))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11026))
 // CS Name: ::Zenject::PlaceholderFactoryBase`1<TValue>*
 class CORDL_TYPE PlaceholderFactoryBase_1 : public ::System::Object {
 public:
@@ -79,27 +79,27 @@ public:
 
   constexpr void __set__injectContext(::Zenject::InjectContext* value);
 
-  /// @brief Method Construct addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Construct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Construct(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext);
 
-  /// @brief Method CreateInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue CreateInternal(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
-  /// @brief Method Validate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ParamTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes();
 
   static inline ::Zenject::PlaceholderFactoryBase_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBase_1", modifiers: "&&", def_value: None }]

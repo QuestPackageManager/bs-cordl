@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableInputStream);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(647))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableInputStream*
 class CORDL_TYPE CmsProcessableInputStream : public ::System::Object {
@@ -58,19 +58,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x11731fc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x11e444c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method GetInputStream addr 0x11740c0 size 0x20 virtual true final false
+  /// @brief Method GetInputStream, addr 0x11e5310, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method Write addr 0x11740e0 size 0x88 virtual true final false
+  /// @brief Method Write, addr 0x11e5330, size 0x88, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
-  /// @brief Method GetContent addr 0x1174168 size 0xc virtual true final false
+  /// @brief Method GetContent, addr 0x11e53b8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method CheckSingleUsage addr 0x1174174 size 0xf8 virtual true final false
+  /// @brief Method CheckSingleUsage, addr 0x11e53c4, size 0xf8, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessableInputStream", modifiers: "&&", def_value: None }]

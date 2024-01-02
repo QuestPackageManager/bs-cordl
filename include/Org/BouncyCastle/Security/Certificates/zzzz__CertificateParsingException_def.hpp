@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateParsingException* New_ctor();
 
-  /// @brief Method .ctor addr 0x10ac7a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111d9f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateParsingException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x10ac7a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111d9fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::Certificates::CertificateParsingException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x10ac7b0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111da04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateParsingException", modifiers: "&&", def_value: None }]

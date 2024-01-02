@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDrbgProvider)
-namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
-}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
+}
+namespace Org::BouncyCastle::Crypto {
+class IEntropySource;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE IDrbgProvider {
 public:
   // Declarations
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* Get(::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDrbgProvider", modifiers: "&&", def_value: None }]

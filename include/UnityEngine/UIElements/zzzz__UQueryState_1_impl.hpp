@@ -5,13 +5,13 @@
 #include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 template <typename T, typename TElement>
@@ -45,10 +45,9 @@ template <typename T, typename TElement> inline void UnityEngine::UIElements::__
 template <typename T, typename TElement>
 inline bool UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher,
                                                                                                             ::UnityEngine::UIElements::VisualElement* element) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>*>::get(), "OnRuleMatchedElement", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::RuleMatcher>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, matcher, element);
 }
 template <typename T, typename TElement> inline void UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>::Reset() {
@@ -90,10 +89,9 @@ template <typename T> inline ::System::Action_1<T>* UnityEngine::UIElements::__U
 }
 template <typename T>
 inline bool UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>::OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>*>::get(), "OnRuleMatchedElement", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::RuleMatcher>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, matcher, element);
 }
 template <typename T> inline ::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>* UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>::New_ctor() {
@@ -257,14 +255,13 @@ template <typename T> inline bool UnityEngine::UIElements::UQueryState_1<T>::Equ
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 template <typename T> inline bool UnityEngine::UIElements::UQueryState_1<T>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::UQueryState_1<T>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), "GetHashCode",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Matchers", ty:

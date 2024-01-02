@@ -7,8 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionString)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct __IMECompositionString___buffer_e__FixedBuffer;
@@ -16,20 +19,17 @@ struct __IMECompositionString___buffer_e__FixedBuffer;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __IMECompositionString__Enumerator;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -50,7 +50,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6528))
 // CS Name: ::IMECompositionString::<buffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __IMECompositionString___buffer_e__FixedBuffer {
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__IMECompositionStr
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6614))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6528))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6529))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionString
 #pragma pack(push, 0)
 struct CORDL_TYPE IMECompositionString {
@@ -125,22 +125,22 @@ public:
 
   constexpr void __set_buffer(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer value);
 
-  /// @brief Method get_Count addr 0x296a198 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x2ae9ee0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x296a1a0 size 0x70 virtual false final false
+  /// @brief Method get_Item, addr 0x2ae9ee8, size 0x70, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t index);
 
-  /// @brief Method .ctor addr 0x296a118 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2ae9e60, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW characters);
 
-  /// @brief Method ToString addr 0x296a210 size 0x18 virtual true final false
+  /// @brief Method ToString, addr 0x2ae9f58, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetEnumerator addr 0x296a228 size 0x94 virtual true final true
+  /// @brief Method GetEnumerator, addr 0x2ae9f70, size 0x94, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x296a2e0 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2aea028, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty:
@@ -199,8 +199,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6613))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6529))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6527))
 // CS Name: ::IMECompositionString::Enumerator
 struct CORDL_TYPE __IMECompositionString__Enumerator {
 public:
@@ -218,22 +218,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x296a2bc size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2aea004, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
 
-  /// @brief Method MoveNext addr 0x296a2e4 size 0x34 virtual true final true
+  /// @brief Method MoveNext, addr 0x2aea02c, size 0x34, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x296a318 size 0xc virtual true final true
+  /// @brief Method Reset, addr 0x2aea060, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x296a324 size 0x4 virtual true final true
+  /// @brief Method Dispose, addr 0x2aea06c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_Current addr 0x296a328 size 0x8 virtual true final true
+  /// @brief Method get_Current, addr 0x2aea070, size 0x8, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x296a330 size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2aea078, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "m_CompositionString", ty: "::UnityEngine::InputSystem::LowLevel::IMECompositionString", modifiers: "", def_value: None }, CppParam { name: "m_CurrentCharacter",

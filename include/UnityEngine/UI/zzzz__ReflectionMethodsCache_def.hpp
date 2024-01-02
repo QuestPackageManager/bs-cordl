@@ -10,7 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectionMethodsCache)
 namespace UnityEngine::UI {
+class __ReflectionMethodsCache__Raycast3DCallback;
+}
+namespace UnityEngine::UI {
 class __ReflectionMethodsCache__RaycastAllCallback;
+}
+namespace UnityEngine::UI {
+class __ReflectionMethodsCache__GetRaycastNonAllocCallback;
 }
 namespace UnityEngine::UI {
 class __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback;
@@ -19,13 +25,10 @@ namespace UnityEngine::UI {
 class __ReflectionMethodsCache__Raycast2DCallback;
 }
 namespace UnityEngine::UI {
-class __ReflectionMethodsCache__Raycast3DCallback;
-}
-namespace UnityEngine::UI {
 class __ReflectionMethodsCache__GetRayIntersectionAllCallback;
 }
-namespace UnityEngine::UI {
-class __ReflectionMethodsCache__GetRaycastNonAllocCallback;
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Ray;
@@ -33,14 +36,11 @@ struct Ray;
 namespace System {
 class AsyncCallback;
 }
-namespace UnityEngine {
-struct RaycastHit2D;
-}
-namespace System {
-class Object;
-}
 namespace System {
 class IAsyncResult;
+}
+namespace UnityEngine {
+struct RaycastHit2D;
 }
 namespace UnityEngine {
 struct RaycastHit;
@@ -82,24 +82,24 @@ MARK_REF_PTR_T(::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13134))
 // CS Name: ::ReflectionMethodsCache::Raycast3DCallback*
 class CORDL_TYPE __ReflectionMethodsCache__Raycast3DCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c2622c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8e5dc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c262f0 size 0x40 virtual true final false
+  /// @brief Method Invoke, addr 0x2d8e6a0, size 0x40, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c26330 size 0x120 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8e6e0, size 0x120, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ByRef<::UnityEngine::RaycastHit> hit, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26450 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8e800, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::UnityEngine::RaycastHit> hit, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__Raycast3DCallback", modifiers: "&&", def_value: None }]
@@ -126,24 +126,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13140))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13135))
 // CS Name: ::ReflectionMethodsCache::RaycastAllCallback*
 class CORDL_TYPE __ReflectionMethodsCache__RaycastAllCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c2647c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8e82c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c26540 size 0x3c virtual true final false
+  /// @brief Method Invoke, addr 0x2d8e8f0, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> Invoke(::UnityEngine::Ray r, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c2657c size 0xec virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8e92c, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26668 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8ea18, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__RaycastAllCallback", modifiers: "&&", def_value: None }]
@@ -170,25 +170,25 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13141))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13136))
 // CS Name: ::ReflectionMethodsCache::GetRaycastNonAllocCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRaycastNonAllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c26674 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8ea24, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c26738 size 0x3c virtual true final false
+  /// @brief Method Invoke, addr 0x2d8eae8, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c26774 size 0xf0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8eb24, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit, ::Array<::UnityEngine::RaycastHit>*> results, float_t f, int32_t i,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26864 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8ec14, size 0x28, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__GetRaycastNonAllocCallback", modifiers: "&&", def_value: None }]
@@ -215,24 +215,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13142))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13137))
 // CS Name: ::ReflectionMethodsCache::Raycast2DCallback*
 class CORDL_TYPE __ReflectionMethodsCache__Raycast2DCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c2688c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8ec3c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c26950 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2d8ed00, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D Invoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c26964 size 0xfc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8ed14, size 0xfc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Vector2 p1, ::UnityEngine::Vector2 p2, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26a60 size 0x38 virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8ee10, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::RaycastHit2D EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__Raycast2DCallback", modifiers: "&&", def_value: None }]
@@ -259,24 +259,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13138))
 // CS Name: ::ReflectionMethodsCache::GetRayIntersectionAllCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRayIntersectionAllCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c26a98 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8ee48, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c26b5c size 0x3c virtual true final false
+  /// @brief Method Invoke, addr 0x2d8ef0c, size 0x3c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> Invoke(::UnityEngine::Ray r, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c26b98 size 0xec virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8ef48, size 0xec, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, float_t f, int32_t i, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26c84 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8f034, size 0xc, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__GetRayIntersectionAllCallback", modifiers: "&&", def_value: None }]
@@ -303,25 +303,25 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13139))
 // CS Name: ::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2c26c90 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8f040, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2c26d54 size 0x3c virtual true final false
+  /// @brief Method Invoke, addr 0x2d8f104, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Invoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t f, int32_t i);
 
-  /// @brief Method BeginInvoke addr 0x2c26d90 size 0xf0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2d8f140, size 0xf0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Ray r, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t f, int32_t i,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2c26e80 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x2d8f230, size 0x28, virtual true, abstract: false, final false
   inline int32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback", modifiers: "&&", def_value: None }]
@@ -348,8 +348,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13145))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13140))
 // CS Name: ::UnityEngine.UI::ReflectionMethodsCache*
 class CORDL_TYPE ReflectionMethodsCache : public ::System::Object {
 public:
@@ -430,10 +430,10 @@ public:
 
   static inline ::UnityEngine::UI::ReflectionMethodsCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c2559c size 0xc14 virtual false final false
+  /// @brief Method .ctor, addr 0x2d8d94c, size 0xc14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Singleton addr 0x2c261b0 size 0x7c virtual false final false
+  /// @brief Method get_Singleton, addr 0x2d8e560, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::ReflectionMethodsCache* get_Singleton();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionMethodsCache", modifiers: "&&", def_value: None }]

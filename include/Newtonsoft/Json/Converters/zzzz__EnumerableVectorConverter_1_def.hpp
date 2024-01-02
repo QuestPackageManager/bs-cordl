@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(EnumerableVectorConverter_1)
+namespace System {
+class Object;
+}
 namespace Newtonsoft::Json::Converters {
 class VectorConverter;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -34,8 +34,8 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12033))
 // CS Name: ::Newtonsoft.Json.Converters::EnumerableVectorConverter`1<T>*
 class CORDL_TYPE EnumerableVectorConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:
@@ -49,21 +49,21 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::VectorConverter* getStaticF_VectorConverter();
 
-  /// @brief Method WriteJson addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method CanConvert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method ReadJson addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_CanRead addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
   static inline ::Newtonsoft::Json::Converters::EnumerableVectorConverter_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableVectorConverter_1", modifiers: "&&", def_value: None }]

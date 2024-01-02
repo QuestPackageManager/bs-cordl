@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(LocationCacheKey)
 namespace System {
 template <typename T> class IEquatable_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace UnityEngine::ResourceManagement::Util {
 class IOperationCacheKey;
-}
-namespace System {
-class Object;
 }
 namespace System {
 class Type;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LocationCacheKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14241))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13970))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LocationCacheKey*
 class CORDL_TYPE LocationCacheKey : public ::System::Object {
 public:
@@ -62,19 +62,19 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::LocationCacheKey* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
-  /// @brief Method .ctor addr 0x2a48eac size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x2bcbc00, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 
-  /// @brief Method GetHashCode addr 0x2a4e8c4 size 0xac virtual true final false
+  /// @brief Method GetHashCode, addr 0x2bd1618, size 0xac, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2a4e970 size 0x64 virtual true final false
+  /// @brief Method Equals, addr 0x2bd16c4, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2a4ea30 size 0x64 virtual true final true
+  /// @brief Method Equals, addr 0x2bd1784, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* other);
 
-  /// @brief Method Equals addr 0x2a4e9d4 size 0x5c virtual false final false
+  /// @brief Method Equals, addr 0x2bd1728, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::ResourceManagement::Util::LocationCacheKey* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocationCacheKey", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Implementation::ClipMethod);
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7531))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7445))
 // CS Name: ::UnityEngine.UIElements.UIR.Implementation::ClipMethod
 struct CORDL_TYPE ClipMethod {
 public:

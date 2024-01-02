@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13940))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6061))
 // CS Name: ::BeatmapEditorScenesTransitionSetupDataSO*
 class CORDL_TYPE BeatmapEditorScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
@@ -43,27 +43,27 @@ public:
 
   constexpr void __set__goStraightToEditor_k__BackingField(bool value);
 
-  /// @brief Method add_didFinishEvent addr 0x21c93ec size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x231ce9c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x21c949c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x231cf4c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method get_goStraightToEditor addr 0x21c954c size 0x8 virtual false final false
+  /// @brief Method get_goStraightToEditor, addr 0x231cffc, size 0x8, virtual false, abstract: false, final false
   inline bool get_goStraightToEditor();
 
-  /// @brief Method set_goStraightToEditor addr 0x21c9554 size 0xc virtual false final false
+  /// @brief Method set_goStraightToEditor, addr 0x231d004, size 0xc, virtual false, abstract: false, final false
   inline void set_goStraightToEditor(bool value);
 
-  /// @brief Method Init addr 0x21c9560 size 0x80 virtual false final false
+  /// @brief Method Init, addr 0x231d010, size 0x80, virtual false, abstract: false, final false
   inline void Init(bool goStraightToEditor);
 
-  /// @brief Method Finish addr 0x21c95e0 size 0x20 virtual false final false
+  /// @brief Method Finish, addr 0x231d090, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
   static inline ::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c9600 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231d0b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEditorScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

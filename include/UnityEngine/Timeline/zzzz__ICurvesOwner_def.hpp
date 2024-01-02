@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ICurvesOwner)
 namespace UnityEngine {
-class AnimationClip;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class AnimationClip;
 }
 namespace UnityEngine::Timeline {
 class TrackAsset;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ICurvesOwner);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14115))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
 // CS Name: ::UnityEngine.Timeline::ICurvesOwner*
 class CORDL_TYPE ICurvesOwner {
 public:
@@ -44,28 +44,28 @@ public:
 
   __declspec(property(get = get_targetTrack))::UnityEngine::Timeline::TrackAsset* targetTrack;
 
-  /// @brief Method get_curves addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_curves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::AnimationClip* get_curves();
 
-  /// @brief Method get_hasCurves addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_hasCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasCurves();
 
-  /// @brief Method get_duration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_duration();
 
-  /// @brief Method CreateCurves addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CreateCurves(::StringW curvesClipName);
 
-  /// @brief Method get_defaultCurvesName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_defaultCurvesName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_defaultCurvesName();
 
-  /// @brief Method get_asset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_asset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Object* get_asset();
 
-  /// @brief Method get_assetOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_assetOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Object* get_assetOwner();
 
-  /// @brief Method get_targetTrack addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_targetTrack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Timeline::TrackAsset* get_targetTrack();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICurvesOwner", modifiers: "&&", def_value: None }]

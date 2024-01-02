@@ -17,17 +17,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::ICachable);
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14028))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ICachable*
 class CORDL_TYPE ICachable {
 public:
   // Declarations
   __declspec(property(get = get_Key, put = set_Key))::UnityEngine::ResourceManagement::Util::IOperationCacheKey* Key;
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* get_Key();
 
-  /// @brief Method set_Key addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICachable", modifiers: "&&", def_value: None }]

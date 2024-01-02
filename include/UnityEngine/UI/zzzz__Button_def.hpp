@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Button)
-namespace UnityEngine::UI {
-class __Button__ButtonClickedEvent;
-}
-namespace UnityEngine::UI {
-class __Button___OnFinishSubmit_d__9;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class BaseEventData;
 }
-namespace System {
-class IDisposable;
+namespace UnityEngine::UI {
+class __Button__ButtonClickedEvent;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::EventSystems {
+class ISubmitHandler;
+}
+namespace UnityEngine::UI {
+class __Button___OnFinishSubmit_d__9;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -59,15 +59,15 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Button___OnFinishSubmit_d__9);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10393))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13022))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13017))
 // CS Name: ::Button::ButtonClickedEvent*
 class CORDL_TYPE __Button__ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__Button__ButtonClickedEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be8c34 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d50fe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Button__ButtonClickedEvent", modifiers: "&&", def_value: None }]
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Button__Butto
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13023))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13018))
 // CS Name: ::Button::<OnFinishSubmit>d__9*
 class CORDL_TYPE __Button___OnFinishSubmit_d__9 : public ::System::Object {
 public:
@@ -160,22 +160,22 @@ public:
 
   static inline ::UnityEngine::UI::__Button___OnFinishSubmit_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2be8de8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d51198, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2be8e10 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2d511c0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2be8e14 size 0xbc virtual true final true
+  /// @brief Method MoveNext, addr 0x2d511c4, size 0xbc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2be8ed0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d51280, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2be8ed8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d51288, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2be8f18 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d512c8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Button___OnFinishSubmit_d__9", modifiers: "&&", def_value: None }]
@@ -227,8 +227,8 @@ static_assert(offsetof(::UnityEngine::UI::__Button___OnFinishSubmit_d__9, ____el
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13124))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13019))
 // CS Name: ::UnityEngine.UI::Button*
 class CORDL_TYPE Button : public ::UnityEngine::UI::Selectable {
 public:
@@ -259,25 +259,25 @@ public:
 
   static inline ::UnityEngine::UI::Button* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be8ba8 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x2d50f58, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_onClick addr 0x2be8c3c size 0x8 virtual false final false
+  /// @brief Method get_onClick, addr 0x2d50fec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Button__ButtonClickedEvent* get_onClick();
 
-  /// @brief Method set_onClick addr 0x2be8c44 size 0x8 virtual false final false
+  /// @brief Method set_onClick, addr 0x2d50ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_onClick(::UnityEngine::UI::__Button__ButtonClickedEvent* value);
 
-  /// @brief Method Press addr 0x2be8c4c size 0x98 virtual false final false
+  /// @brief Method Press, addr 0x2d50ffc, size 0x98, virtual false, abstract: false, final false
   inline void Press();
 
-  /// @brief Method OnPointerClick addr 0x2be8ce4 size 0x24 virtual true final false
+  /// @brief Method OnPointerClick, addr 0x2d51094, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit addr 0x2be8d08 size 0x78 virtual true final false
+  /// @brief Method OnSubmit, addr 0x2d510b8, size 0x78, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnFinishSubmit addr 0x2be8d80 size 0x68 virtual false final false
+  /// @brief Method OnFinishSubmit, addr 0x2d51130, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OnFinishSubmit();
 
   // Ctor Parameters [CppParam { name: "", ty: "Button", modifiers: "&&", def_value: None }]

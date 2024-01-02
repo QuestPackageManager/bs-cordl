@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::UnloadSceneOptions);
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10378))
 // CS Name: ::UnityEngine.SceneManagement::UnloadSceneOptions
 struct CORDL_TYPE UnloadSceneOptions {
 public:

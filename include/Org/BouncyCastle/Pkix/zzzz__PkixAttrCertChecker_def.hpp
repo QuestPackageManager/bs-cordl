@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(PkixAttrCertChecker)
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
 }
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPath;
 }
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -26,25 +26,25 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixAttrCertChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1710))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixAttrCertChecker*
 class CORDL_TYPE PkixAttrCertChecker : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSupportedExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSupportedExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetSupportedExtensions();
 
-  /// @brief Method Check addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Check, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Check(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixCertPath* holderCertPath,
                     ::System::Collections::ICollection* unresolvedCritExts);
 
-  /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* Clone();
 
   static inline ::Org::BouncyCastle::Pkix::PkixAttrCertChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x1077510 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10e8764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixAttrCertChecker", modifiers: "&&", def_value: None }]

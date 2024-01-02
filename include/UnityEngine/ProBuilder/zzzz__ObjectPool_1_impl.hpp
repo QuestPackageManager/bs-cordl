@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ObjectPool_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr UnityEngine::ProBuilder::ObjectPool_1<T>::operator ::System::IDisposable*() noexcept {

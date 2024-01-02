@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Marvin);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2432))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2434))
 // CS Name: ::System::Marvin*
 class CORDL_TYPE Marvin : public ::System::Object {
 public:
@@ -32,22 +32,22 @@ public:
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
-  /// @brief Method ComputeHash32 addr 0x24521e0 size 0xac virtual false final false
+  /// @brief Method ComputeHash32, addr 0x25ae0d0, size 0xac, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
 
-  /// @brief Method ComputeHash32 addr 0x245228c size 0x3d0 virtual false final false
+  /// @brief Method ComputeHash32, addr 0x25ae17c, size 0x3d0, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed);
 
-  /// @brief Method Block addr 0x245265c size 0x88 virtual false final false
+  /// @brief Method Block, addr 0x25ae54c, size 0x88, virtual false, abstract: false, final false
   static inline void Block(ByRef<uint32_t> rp0, ByRef<uint32_t> rp1);
 
-  /// @brief Method _rotl addr 0x24526e4 size 0xc virtual false final false
+  /// @brief Method _rotl, addr 0x25ae5d4, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
-  /// @brief Method get_DefaultSeed addr 0x24526f0 size 0x58 virtual false final false
+  /// @brief Method get_DefaultSeed, addr 0x25ae5e0, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
-  /// @brief Method GenerateSeed addr 0x2452748 size 0xc virtual false final false
+  /// @brief Method GenerateSeed, addr 0x25ae638, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t GenerateSeed();
 
   // Ctor Parameters [CppParam { name: "", ty: "Marvin", modifiers: "&&", def_value: None }]

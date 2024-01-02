@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IComponentChangeService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8334))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9497))
 // CS Name: ::System.ComponentModel.Design::IComponentChangeService*
 class CORDL_TYPE IComponentChangeService {
 public:
   // Declarations
-  /// @brief Method OnComponentChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnComponentChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnComponentChanged(::System::Object* component, ::System::ComponentModel::MemberDescriptor* member, ::System::Object* oldValue, ::System::Object* newValue);
 
-  /// @brief Method OnComponentChanging addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnComponentChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnComponentChanging(::System::Object* component, ::System::ComponentModel::MemberDescriptor* member);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComponentChangeService", modifiers: "&&", def_value: None }]

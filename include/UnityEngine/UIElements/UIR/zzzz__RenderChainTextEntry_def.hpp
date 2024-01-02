@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainTextEntry);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7483))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7397))
 // CS Name: ::UnityEngine.UIElements.UIR::RenderChainTextEntry
 struct CORDL_TYPE RenderChainTextEntry {
 public:

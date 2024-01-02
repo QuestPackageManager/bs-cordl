@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::MonoAsyncCall);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2604))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2606))
 // CS Name: ::System::MonoAsyncCall*
 class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
@@ -81,7 +81,7 @@ public:
 
   static inline ::System::MonoAsyncCall* New_ctor();
 
-  /// @brief Method .ctor addr 0x249f5cc size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25fa554, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoAsyncCall", modifiers: "&&", def_value: None }]

@@ -41,8 +41,8 @@ template <typename T1, typename T2, typename T3> inline void UnityEngine::ProBui
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item1, item2, item3);
 }
 template <typename T1, typename T2, typename T3> inline ::StringW UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>>::get(),
-                                                                             "ToString", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SimpleTuple_3<T1, T2, T3>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_Item1", ty: "T1", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Item2", ty: "T2", modifiers: "", def_value: Some("nullptr") }, CppParam {

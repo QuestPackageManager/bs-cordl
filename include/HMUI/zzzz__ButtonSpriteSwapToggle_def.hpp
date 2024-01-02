@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HMUI::ButtonSpriteSwapToggle);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13736))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13737))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13619))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13620))
 // CS Name: ::HMUI::ButtonSpriteSwapToggle*
 class CORDL_TYPE ButtonSpriteSwapToggle : public ::HMUI::ButtonSpriteSwap {
 public:
@@ -52,21 +52,21 @@ public:
 
   constexpr void __set__isToggled(bool value);
 
-  /// @brief Method get_isToggled addr 0x1fd8cd8 size 0x8 virtual false final false
+  /// @brief Method get_isToggled, addr 0x2130674, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();
 
-  /// @brief Method set_isToggled addr 0x1fd8ce0 size 0x40 virtual false final false
+  /// @brief Method set_isToggled, addr 0x213067c, size 0x40, virtual false, abstract: false, final false
   inline void set_isToggled(bool value);
 
-  /// @brief Method OnEnable addr 0x1fd8d20 size 0x30 virtual true final false
+  /// @brief Method OnEnable, addr 0x21306bc, size 0x30, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fd8d50 size 0x14c virtual true final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x21306ec, size 0x14c, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwapToggle* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd8e9c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2130838, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwapToggle", modifiers: "&&", def_value: None }]

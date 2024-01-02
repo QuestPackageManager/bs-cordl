@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MixedNafR2LMultiplier)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
@@ -50,18 +50,18 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc49a0 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x1036bec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method .ctor addr 0xfc49c4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x1036c10, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t additionCoord, int32_t doublingCoord);
 
-  /// @brief Method MultiplyPositive addr 0xfc49f0 size 0x1e8 virtual true final false
+  /// @brief Method MultiplyPositive, addr 0x1036c3c, size 0x1e8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method ConfigureCurve addr 0xfc4e4c size 0x134 virtual true final false
+  /// @brief Method ConfigureCurve, addr 0x1037098, size 0x134, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* c, int32_t coord);
 
   // Ctor Parameters [CppParam { name: "", ty: "MixedNafR2LMultiplier", modifiers: "&&", def_value: None }]

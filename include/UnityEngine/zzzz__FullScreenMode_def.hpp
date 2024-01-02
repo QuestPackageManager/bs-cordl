@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FullScreenMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10130))
 // CS Name: ::UnityEngine::FullScreenMode
 struct CORDL_TYPE FullScreenMode {
 public:

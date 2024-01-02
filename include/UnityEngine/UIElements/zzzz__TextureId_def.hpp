@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextureId);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7339))
 // CS Name: ::UnityEngine.UIElements::TextureId
 struct CORDL_TYPE TextureId {
 public:
@@ -34,25 +34,25 @@ public:
 
   static inline ::UnityEngine::UIElements::TextureId getStaticF_invalid();
 
-  /// @brief Method .ctor addr 0x2d14008 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2e7c3b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_index addr 0x2d14014 size 0xc virtual false final false
+  /// @brief Method get_index, addr 0x2e7c3c4, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method ConvertToGpu addr 0x2d14020 size 0x10 virtual false final false
+  /// @brief Method ConvertToGpu, addr 0x2e7c3d0, size 0x10, virtual false, abstract: false, final false
   inline float_t ConvertToGpu();
 
-  /// @brief Method Equals addr 0x2d14030 size 0xa8 virtual true final false
+  /// @brief Method Equals, addr 0x2e7c3e0, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2d140d8 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e7c488, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x2d140f8 size 0xc virtual false final false
+  /// @brief Method op_Equality, addr 0x2e7c4a8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
-  /// @brief Method op_Inequality addr 0x2d14104 size 0x64 virtual false final false
+  /// @brief Method op_Inequality, addr 0x2e7c4b4, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
   // Ctor Parameters [CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }]

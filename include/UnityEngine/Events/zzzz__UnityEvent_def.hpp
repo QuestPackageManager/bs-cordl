@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityEvent)
+namespace System {
+class Object;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace UnityEngine::Events {
 class UnityAction;
 }
@@ -13,13 +19,7 @@ namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::UnityEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10383))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10461))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10471))
 // CS Name: ::UnityEngine.Events::UnityEvent*
 class CORDL_TYPE UnityEvent : public ::UnityEngine::Events::UnityEventBase {
 public:
@@ -48,25 +48,25 @@ public:
 
   static inline ::UnityEngine::Events::UnityEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b91f30 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cfa340, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddListener addr 0x2b91f38 size 0x2c virtual false final false
+  /// @brief Method AddListener, addr 0x2cfa348, size 0x2c, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::UnityAction* call);
 
-  /// @brief Method RemoveListener addr 0x2b91fd0 size 0x44 virtual false final false
+  /// @brief Method RemoveListener, addr 0x2cfa3e0, size 0x44, virtual false, abstract: false, final false
   inline void RemoveListener(::UnityEngine::Events::UnityAction* call);
 
-  /// @brief Method FindMethod_Impl addr 0x2b92014 size 0x64 virtual true final false
+  /// @brief Method FindMethod_Impl, addr 0x2cfa424, size 0x64, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
 
-  /// @brief Method GetDelegate addr 0x2b92078 size 0x70 virtual true final false
+  /// @brief Method GetDelegate, addr 0x2cfa488, size 0x70, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method GetDelegate addr 0x2b91f64 size 0x6c virtual false final false
+  /// @brief Method GetDelegate, addr 0x2cfa374, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction* action);
 
-  /// @brief Method Invoke addr 0x2b920e8 size 0x180 virtual false final false
+  /// @brief Method Invoke, addr 0x2cfa4f8, size 0x180, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityEvent", modifiers: "&&", def_value: None }]

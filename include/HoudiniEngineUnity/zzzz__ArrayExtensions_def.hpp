@@ -19,25 +19,25 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::ArrayExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9822))
 // CS Name: ::HoudiniEngineUnity::ArrayExtensions*
 class CORDL_TYPE ArrayExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Init(::ArrayW<T, ::Array<T>*> array, T defaultValue);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Init(::System::Collections::Generic::List_1<T>* array, T defaultValue);
 
-  /// @brief Method CopyToWithResize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyToWithResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CopyToWithResize(::ArrayW<T, ::Array<T>*> srcArray, ByRef<::ArrayW<T, ::Array<T>*>> destArray);
 
-  /// @brief Method IsEquivalentArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsEquivalentArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsEquivalentArray(::ArrayW<T, ::Array<T>*> arr, ::ArrayW<T, ::Array<T>*> other);
 
-  /// @brief Method IsNull addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsNull, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsNull(::ArrayW<T, ::Array<T>*> arr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayExtensions", modifiers: "&&", def_value: None }]

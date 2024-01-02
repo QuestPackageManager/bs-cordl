@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14734))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14518))
 // CS Name: ::BloomPrePassBackgroundLightWithId*
 class CORDL_TYPE BloomPrePassBackgroundLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -37,15 +37,15 @@ public:
 
   constexpr void __set__bloomPrePassBackgroundColor(::GlobalNamespace::BloomPrePassBackgroundColor* value);
 
-  /// @brief Method get_color addr 0x1fb94a4 size 0x20 virtual false final false
+  /// @brief Method get_color, addr 0x210e988, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method ColorWasSet addr 0x1fb94c4 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x210e9a8, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb94e4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x210e9c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None }]

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PgpEncryptedData)
-namespace Org::BouncyCastle::Bcpg {
-class InputStreamPacket;
+namespace Org::BouncyCastle::Bcpg::OpenPgp {
+class __PgpEncryptedData__TruncatedStream;
 }
 namespace System::IO {
 class Stream;
 }
-namespace Org::BouncyCastle::Bcpg::OpenPgp {
-class __PgpEncryptedData__TruncatedStream;
+namespace Org::BouncyCastle::Bcpg {
+class InputStreamPacket;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -74,19 +74,19 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* New_ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor addr 0x1038700 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x10a9950, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method FillBuffer addr 0x10387d8 size 0x58 virtual false final false
+  /// @brief Method FillBuffer, addr 0x10a9a28, size 0x58, virtual false, abstract: false, final false
   inline int32_t FillBuffer();
 
-  /// @brief Method ReadByte addr 0x1038830 size 0x64 virtual true final false
+  /// @brief Method ReadByte, addr 0x10a9a80, size 0x64, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Read addr 0x1038894 size 0xcc virtual true final false
+  /// @brief Method Read, addr 0x10a9ae4, size 0xcc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GetLookAhead addr 0x103868c size 0x74 virtual false final false
+  /// @brief Method GetLookAhead, addr 0x10a98dc, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetLookAhead();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PgpEncryptedData__TruncatedStream", modifiers: "&&", def_value: None }]
@@ -142,7 +142,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__T
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1638))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedData*
 class CORDL_TYPE PgpEncryptedData : public ::System::Object {
@@ -179,16 +179,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method .ctor addr 0x103836c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x10a95bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method GetInputStream addr 0x1038394 size 0x1c virtual true final false
+  /// @brief Method GetInputStream, addr 0x10a95e4, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method IsIntegrityProtected addr 0x10383b0 size 0x7c virtual false final false
+  /// @brief Method IsIntegrityProtected, addr 0x10a9600, size 0x7c, virtual false, abstract: false, final false
   inline bool IsIntegrityProtected();
 
-  /// @brief Method Verify addr 0x103842c size 0x260 virtual false final false
+  /// @brief Method Verify, addr 0x10a967c, size 0x260, virtual false, abstract: false, final false
   inline bool Verify();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpEncryptedData", modifiers: "&&", def_value: None }]

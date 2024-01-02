@@ -22,7 +22,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11033))
 // CS Name: ::Zenject::IMemoryPool`5<TParam1,TParam2,TParam3,TParam4,TValue>*
 class CORDL_TYPE IMemoryPool_5 {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool_5", modifiers: "&&", def_value: None }]

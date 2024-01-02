@@ -8,11 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedGenerator)
+namespace Org::BouncyCastle::Cms {
+class CmsPbeKey;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class KekIdentifier;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class ICollection;
@@ -22,30 +46,6 @@ class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KekIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsAttributeTableGenerator;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsPbeKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(617))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedGenerator*
 class CORDL_TYPE CmsEnvelopedGenerator : public ::System::Object {
@@ -234,52 +234,52 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1167470 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x11d86c0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor addr 0x11674d4 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x11d8724, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method get_UnprotectedAttributeGenerator addr 0x1167550 size 0x8 virtual false final false
+  /// @brief Method get_UnprotectedAttributeGenerator, addr 0x11d87a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* get_UnprotectedAttributeGenerator();
 
-  /// @brief Method set_UnprotectedAttributeGenerator addr 0x1167558 size 0x8 virtual false final false
+  /// @brief Method set_UnprotectedAttributeGenerator, addr 0x11d87a8, size 0x8, virtual false, abstract: false, final false
   inline void set_UnprotectedAttributeGenerator(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  /// @brief Method AddKeyTransRecipient addr 0x1167560 size 0xf0 virtual false final false
+  /// @brief Method AddKeyTransRecipient, addr 0x11d87b0, size 0xf0, virtual false, abstract: false, final false
   inline void AddKeyTransRecipient(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method AddKeyTransRecipient addr 0x1167650 size 0x128 virtual false final false
+  /// @brief Method AddKeyTransRecipient, addr 0x11d88a0, size 0x128, virtual false, abstract: false, final false
   inline void AddKeyTransRecipient(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> subKeyId);
 
-  /// @brief Method AddKekRecipient addr 0x1167778 size 0x94 virtual false final false
+  /// @brief Method AddKekRecipient, addr 0x11d89c8, size 0x94, virtual false, abstract: false, final false
   inline void AddKekRecipient(::StringW keyAlgorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyIdentifier);
 
-  /// @brief Method AddKekRecipient addr 0x116780c size 0x104 virtual false final false
+  /// @brief Method AddKekRecipient, addr 0x11d8a5c, size 0x104, virtual false, abstract: false, final false
   inline void AddKekRecipient(::StringW keyAlgorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekIdentifier);
 
-  /// @brief Method AddPasswordRecipient addr 0x1167910 size 0x1c0 virtual false final false
+  /// @brief Method AddPasswordRecipient, addr 0x11d8b60, size 0x1c0, virtual false, abstract: false, final false
   inline void AddPasswordRecipient(::Org::BouncyCastle::Cms::CmsPbeKey* pbeKey, ::StringW kekAlgorithmOid);
 
-  /// @brief Method AddKeyAgreementRecipient addr 0x1167ad0 size 0x120 virtual false final false
+  /// @brief Method AddKeyAgreementRecipient, addr 0x11d8d20, size 0x120, virtual false, abstract: false, final false
   inline void AddKeyAgreementRecipient(::StringW agreementAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPrivateKey,
                                        ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPublicKey, ::Org::BouncyCastle::X509::X509Certificate* recipientCert, ::StringW cekWrapAlgorithm);
 
-  /// @brief Method AddKeyAgreementRecipients addr 0x1167bf0 size 0x248 virtual false final false
+  /// @brief Method AddKeyAgreementRecipients, addr 0x11d8e40, size 0x248, virtual false, abstract: false, final false
   inline void AddKeyAgreementRecipients(::StringW agreementAlgorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPrivateKey,
                                         ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* senderPublicKey, ::System::Collections::ICollection* recipientCerts, ::StringW cekWrapAlgorithm);
 
-  /// @brief Method AddRecipientInfoGenerator addr 0x1167e38 size 0xac virtual false final false
+  /// @brief Method AddRecipientInfoGenerator, addr 0x11d9088, size 0xac, virtual false, abstract: false, final false
   inline void AddRecipientInfoGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientInfoGenerator);
 
-  /// @brief Method GetAlgorithmIdentifier addr 0x1167ee4 size 0x144 virtual true final false
+  /// @brief Method GetAlgorithmIdentifier, addr 0x11d9134, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetAlgorithmIdentifier(::StringW encryptionOid, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                       ::Org::BouncyCastle::Asn1::Asn1Encodable* asn1Params,
                                                                                       ByRef<::Org::BouncyCastle::Crypto::ICipherParameters*> cipherParameters);
 
-  /// @brief Method GenerateAsn1Parameters addr 0x1168028 size 0x238 virtual true final false
+  /// @brief Method GenerateAsn1Parameters, addr 0x11d9278, size 0x238, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GenerateAsn1Parameters(::StringW encryptionOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> encKeyBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedGenerator", modifiers: "&&", def_value: None }]

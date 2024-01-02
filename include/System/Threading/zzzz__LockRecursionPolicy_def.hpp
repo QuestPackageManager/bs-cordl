@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::LockRecursionPolicy);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14655))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14317))
 // CS Name: ::System.Threading::LockRecursionPolicy
 struct CORDL_TYPE LockRecursionPolicy {
 public:

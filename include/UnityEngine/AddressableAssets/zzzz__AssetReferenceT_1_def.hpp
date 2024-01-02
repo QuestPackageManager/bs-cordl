@@ -23,27 +23,27 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14360))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14089))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14082))
 // CS Name: ::UnityEngine.AddressableAssets::AssetReferenceT`1<TObject>*
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceT_1<TObject>* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
-  /// @brief Method LoadAsset addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset();
 
-  /// @brief Method LoadAssetAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
-  /// @brief Method ValidateAsset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidateAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidateAsset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW mainAssetPath);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceT_1", modifiers: "&&", def_value: None }]

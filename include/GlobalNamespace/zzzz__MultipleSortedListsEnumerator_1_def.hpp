@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultipleSortedListsEnumerator_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -13,19 +19,13 @@ namespace GlobalNamespace {
 template <typename T> class __MultipleSortedListsEnumerator_1__HeapItem;
 }
 namespace GlobalNamespace {
-template <typename T> class __MultipleSortedListsEnumerator_1___GetEnumerator_d__4;
-}
-namespace GlobalNamespace {
 template <typename T> class BinaryHeap_1;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+template <typename T> class __MultipleSortedListsEnumerator_1___GetEnumerator_d__4;
 }
 namespace System {
 template <typename T> class IComparable_1;
@@ -56,8 +56,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13824))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14344))
 // CS Name: ::MultipleSortedListsEnumerator`1::HeapItem<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1__HeapItem : public ::System::Object {
 public:
@@ -94,18 +94,18 @@ public:
 
   constexpr void __set__currentValue(T value);
 
-  /// @brief Method get_currentValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_currentValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_currentValue();
 
   static inline ::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* New_ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<T>* dataList);
 
-  /// @brief Method MoveToNextItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method MoveToNextItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool MoveToNextItem();
 
-  /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CompareTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* heapItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultipleSortedListsEnumerator_1__HeapItem", modifiers: "&&", def_value: None }]
@@ -141,8 +141,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14345))
 // CS Name: ::MultipleSortedListsEnumerator`1::<GetEnumerator>d__4<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1___GetEnumerator_d__4 : public ::System::Object {
 public:
@@ -198,22 +198,22 @@ public:
 
   static inline ::GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultipleSortedListsEnumerator_1___GetEnumerator_d__4", modifiers: "&&", def_value: None }]
@@ -252,8 +252,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14346))
 // CS Name: ::MultipleSortedListsEnumerator`1<T>*
 class CORDL_TYPE MultipleSortedListsEnumerator_1 : public ::System::Object {
 public:
@@ -277,13 +277,13 @@ public:
   static inline ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*
   New_ctor(::ArrayW<::System::Collections::Generic::IReadOnlyList_1<T>*, ::Array<::System::Collections::Generic::IReadOnlyList_1<T>*>*> dataList);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Collections::Generic::IReadOnlyList_1<T>*, ::Array<::System::Collections::Generic::IReadOnlyList_1<T>*>*> dataList);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleSortedListsEnumerator_1", modifiers: "&&", def_value: None }]

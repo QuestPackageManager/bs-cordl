@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::DynamicAtlasFiltersInternal);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7102))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7016))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasFiltersInternal
 struct CORDL_TYPE DynamicAtlasFiltersInternal {
 public:

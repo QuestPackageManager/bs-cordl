@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabWithParams)
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class GameObjectCreationParameters;
+class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 }
 namespace Zenject {
 class ISubContainerCreator;
 }
 namespace Zenject {
-class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
-}
-namespace Zenject {
-class InjectContext;
+class DiContainer;
 }
 namespace Zenject {
 class IPrefabProvider;
+}
+namespace Zenject {
+class GameObjectCreationParameters;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectableInfo;
+class InjectTypeInfo;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class InjectableInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11042)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11220))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11114)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11292))
 // CS Name: ::SubContainerCreatorByNewPrefabWithParams::<>c__DisplayClass7_0*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -74,19 +74,19 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da51bc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0cf8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTempContainer>b__0 addr 0x2da5370 size 0x70 virtual false final false
+  /// @brief Method <CreateTempContainer>b__0, addr 0x2f0d140, size 0x70, virtual false, abstract: false, final false
   inline bool _CreateTempContainer_b__0(::Zenject::InjectableInfo* x);
 
-  /// @brief Method <CreateTempContainer>b__1 addr 0x2da53e0 size 0x20 virtual false final false
+  /// @brief Method <CreateTempContainer>b__1, addr 0x2f0d1b0, size 0x20, virtual false, abstract: false, final false
   inline int32_t _CreateTempContainer_b__1(::Zenject::InjectableInfo* x);
 
-  /// @brief Method __zenCreate addr 0x2da5400 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f0d1d0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da545c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0d22c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -118,8 +118,8 @@ static_assert(offsetof(::Zenject::__SubContainerCreatorByNewPrefabWithParams____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11221))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabWithParams*
 class CORDL_TYPE SubContainerCreatorByNewPrefabWithParams : public ::System::Object {
 public:
@@ -170,16 +170,16 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams* New_ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
                                                                               ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method .ctor addr 0x2da4c54 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0ca24, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
-  /// @brief Method get_Container addr 0x2da4c94 size 0x8 virtual false final false
+  /// @brief Method get_Container, addr 0x2f0ca64, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method CreateTempContainer addr 0x2da4c9c size 0x49c virtual false final false
+  /// @brief Method CreateTempContainer, addr 0x2f0ca6c, size 0x49c, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* CreateTempContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
 
-  /// @brief Method CreateSubContainer addr 0x2da51c4 size 0x1ac virtual true final true
+  /// @brief Method CreateSubContainer, addr 0x2f0cf94, size 0x1ac, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None }]

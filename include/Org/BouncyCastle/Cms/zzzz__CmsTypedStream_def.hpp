@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsTypedStream)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Cms {
 class __CmsTypedStream__FullReaderStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -36,10 +36,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::__CmsTypedStream__FullReaderStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0x118eda8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11ffff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Read addr 0x118edc0 size 0xc virtual true final false
+  /// @brief Method Read, addr 0x1200010, size 0xc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsTypedStream__FullReaderStream", modifiers: "&&", def_value: None }]
@@ -66,7 +66,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::__CmsTyp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(663))
 // CS Name: ::Org.BouncyCastle.Cms::CmsTypedStream*
 class CORDL_TYPE CmsTypedStream : public ::System::Object {
@@ -98,26 +98,26 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor addr 0x118ec64 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x11ffeb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::StringW oid, ::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor addr 0x117cf04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11ee154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream);
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::StringW oid, ::System::IO::Stream* inStream, int32_t bufSize);
 
-  /// @brief Method .ctor addr 0x118ece4 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x11fff34, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::System::IO::Stream* inStream, int32_t bufSize);
 
-  /// @brief Method get_ContentType addr 0x118edb0 size 0x8 virtual false final false
+  /// @brief Method get_ContentType, addr 0x1200000, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContentType();
 
-  /// @brief Method get_ContentStream addr 0x118edb8 size 0x8 virtual false final false
+  /// @brief Method get_ContentStream, addr 0x1200008, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_ContentStream();
 
-  /// @brief Method Drain addr 0x117cf0c size 0x68 virtual false final false
+  /// @brief Method Drain, addr 0x11ee15c, size 0x68, virtual false, abstract: false, final false
   inline void Drain();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsTypedStream", modifiers: "&&", def_value: None }]

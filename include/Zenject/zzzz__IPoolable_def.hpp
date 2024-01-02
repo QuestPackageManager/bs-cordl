@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Zenject::IPoolable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15720))
 // CS Name: ::Zenject::IPoolable*
 class CORDL_TYPE IPoolable {
 public:
   // Declarations
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSpawned();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolable", modifiers: "&&", def_value: None }]

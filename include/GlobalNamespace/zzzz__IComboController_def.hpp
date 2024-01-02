@@ -21,21 +21,21 @@ MARK_REF_PTR_T(::GlobalNamespace::IComboController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5411))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5316))
 // CS Name: ::IComboController*
 class CORDL_TYPE IComboController {
 public:
   // Declarations
-  /// @brief Method add_comboDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_comboDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_comboDidChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_comboDidChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_comboBreakingEventHappenedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComboController", modifiers: "&&", def_value: None }]

@@ -23,18 +23,18 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8380))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9543))
 // CS Name: ::System.Collections.Generic::TreeWalkPredicate`1<T>*
 class CORDL_TYPE TreeWalkPredicate_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Collections::Generic::TreeWalkPredicate_1<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::System::Collections::Generic::__SortedSet_1__Node<T>* node);
 
   // Ctor Parameters [CppParam { name: "", ty: "TreeWalkPredicate_1", modifiers: "&&", def_value: None }]

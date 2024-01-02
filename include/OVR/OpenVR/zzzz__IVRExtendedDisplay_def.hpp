@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRExtendedDisplay)
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
 class Object;
@@ -20,13 +20,13 @@ namespace OVR::OpenVR {
 struct EVREye;
 }
 namespace OVR::OpenVR {
+class __IVRExtendedDisplay___GetWindowBounds;
+}
+namespace OVR::OpenVR {
 class __IVRExtendedDisplay___GetDXGIOutputInfo;
 }
 namespace OVR::OpenVR {
 class __IVRExtendedDisplay___GetEyeOutputViewport;
-}
-namespace OVR::OpenVR {
-class __IVRExtendedDisplay___GetWindowBounds;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -50,24 +50,24 @@ MARK_VAL_T(::OVR::OpenVR::IVRExtendedDisplay);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8265))
 // CS Name: ::IVRExtendedDisplay::_GetWindowBounds*
 class CORDL_TYPE __IVRExtendedDisplay___GetWindowBounds : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x265cd40 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27d4cc4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x265ce18 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27d4d9c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method BeginInvoke addr 0x265ce2c size 0xf8 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27d4db0, size 0xf8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x265cf24 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27d4ea8, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRExtendedDisplay___GetWindowBounds", modifiers: "&&", def_value: None }]
@@ -94,25 +94,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRExtendedDispla
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8266))
 // CS Name: ::IVRExtendedDisplay::_GetEyeOutputViewport*
 class CORDL_TYPE __IVRExtendedDisplay___GetEyeOutputViewport : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x265cf4c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27d4ed0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x265d010 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27d4f94, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method BeginInvoke addr 0x265d024 size 0x110 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27d4fa8, size 0x110, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x265d134 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27d50b8, size 0x28, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRExtendedDisplay___GetEyeOutputViewport", modifiers: "&&", def_value: None }]
@@ -139,24 +139,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRExtendedDispla
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9036))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8267))
 // CS Name: ::IVRExtendedDisplay::_GetDXGIOutputInfo*
 class CORDL_TYPE __IVRExtendedDisplay___GetDXGIOutputInfo : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x265d15c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27d50e0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x265d234 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27d51b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex);
 
-  /// @brief Method BeginInvoke addr 0x265d248 size 0xa4 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27d51cc, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x265d2ec size 0x24 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27d5270, size 0x24, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRExtendedDisplay___GetDXGIOutputInfo", modifiers: "&&", def_value: None }]
@@ -184,7 +184,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRExtendedDispla
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8268))
 // CS Name: ::OVR.OpenVR::IVRExtendedDisplay
 struct CORDL_TYPE IVRExtendedDisplay {
 public:

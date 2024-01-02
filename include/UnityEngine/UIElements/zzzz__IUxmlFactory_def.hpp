@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IUxmlFactory)
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlFactory);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6996))
 // CS Name: ::UnityEngine.UIElements::IUxmlFactory*
 class CORDL_TYPE IUxmlFactory {
 public:
   // Declarations
   __declspec(property(get = get_uxmlQualifiedName))::StringW uxmlQualifiedName;
 
-  /// @brief Method get_uxmlQualifiedName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method AcceptsAttributeBag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AcceptsAttributeBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AcceptsAttributeBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   // Ctor Parameters [CppParam { name: "", ty: "IUxmlFactory", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemObject);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1806))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemObject*
 class CORDL_TYPE PemObject : public ::System::Object {
@@ -67,24 +67,24 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor addr 0x10ee814 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x115fa5c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* New_ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor addr 0x10ee88c size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x115fad4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::System::Collections::IList* headers, ::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method get_Type addr 0x10ee918 size 0x8 virtual false final false
+  /// @brief Method get_Type, addr 0x115fb60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Headers addr 0x10ee920 size 0x8 virtual false final false
+  /// @brief Method get_Headers, addr 0x115fb68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Headers();
 
-  /// @brief Method get_Content addr 0x10ee928 size 0x8 virtual false final false
+  /// @brief Method get_Content, addr 0x115fb70, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Content();
 
-  /// @brief Method Generate addr 0x10ee930 size 0x4 virtual true final true
+  /// @brief Method Generate, addr 0x115fb78, size 0x4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "PemObject", modifiers: "&&", def_value: None }]

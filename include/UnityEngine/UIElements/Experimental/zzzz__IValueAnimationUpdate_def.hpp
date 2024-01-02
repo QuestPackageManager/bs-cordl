@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate);
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7457))
 // CS Name: ::UnityEngine.UIElements.Experimental::IValueAnimationUpdate*
 class CORDL_TYPE IValueAnimationUpdate {
 public:
   // Declarations
-  /// @brief Method Tick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Tick(int64_t currentTimeMs);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueAnimationUpdate", modifiers: "&&", def_value: None }]

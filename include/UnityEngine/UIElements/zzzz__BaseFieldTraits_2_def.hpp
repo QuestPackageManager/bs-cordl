@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
 CORDL_MODULE_EXPORT(BaseFieldTraits_2)
 namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -25,8 +25,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 5098 }), TypeDefinitionIndex(TypeDefinitionIndex(7215))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
 // CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {
 public:
@@ -40,12 +40,12 @@ public:
 
   constexpr void __set_m_Value(TValueUxmlAttributeType value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseFieldTraits_2", modifiers: "&&", def_value: None }]

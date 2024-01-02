@@ -15,11 +15,11 @@ class GraphyManager;
 namespace UnityEngine::SceneManagement {
 struct Scene;
 }
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
 namespace UnityEngine {
 class AudioListener;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Audio {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioMonitor);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15244)), TypeDefinitionIndex(TypeDefinitionIndex(15608))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15266))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15088))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioMonitor*
 class CORDL_TYPE G_AudioMonitor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -119,57 +119,57 @@ public:
 
   constexpr void __set__MaxDB_k__BackingField(float_t value);
 
-  /// @brief Method get_Spectrum addr 0x288d730 size 0x8 virtual false final false
+  /// @brief Method get_Spectrum, addr 0x2a0a304, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Spectrum();
 
-  /// @brief Method set_Spectrum addr 0x288d738 size 0x8 virtual false final false
+  /// @brief Method set_Spectrum, addr 0x2a0a30c, size 0x8, virtual false, abstract: false, final false
   inline void set_Spectrum(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method get_SpectrumHighestValues addr 0x288d740 size 0x8 virtual false final false
+  /// @brief Method get_SpectrumHighestValues, addr 0x2a0a314, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_SpectrumHighestValues();
 
-  /// @brief Method set_SpectrumHighestValues addr 0x288d748 size 0x8 virtual false final false
+  /// @brief Method set_SpectrumHighestValues, addr 0x2a0a31c, size 0x8, virtual false, abstract: false, final false
   inline void set_SpectrumHighestValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method get_MaxDB addr 0x288d750 size 0x8 virtual false final false
+  /// @brief Method get_MaxDB, addr 0x2a0a324, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MaxDB();
 
-  /// @brief Method set_MaxDB addr 0x288d758 size 0x8 virtual false final false
+  /// @brief Method set_MaxDB, addr 0x2a0a32c, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxDB(float_t value);
 
-  /// @brief Method get_SpectrumDataAvailable addr 0x288c650 size 0x60 virtual false final false
+  /// @brief Method get_SpectrumDataAvailable, addr 0x2a09578, size 0x60, virtual false, abstract: false, final false
   inline bool get_SpectrumDataAvailable();
 
-  /// @brief Method Awake addr 0x288d760 size 0x4 virtual false final false
+  /// @brief Method Awake, addr 0x2a0a334, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x288d84c size 0x1ec virtual false final false
+  /// @brief Method Update, addr 0x2a0a338, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x288daec size 0xa4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2a0a5d8, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateParameters addr 0x288d580 size 0xd0 virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a0a044, size 0xd0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method lin2dB addr 0x288ce28 size 0x30 virtual false final false
+  /// @brief Method lin2dB, addr 0x2a09d90, size 0x30, virtual false, abstract: false, final false
   inline float_t lin2dB(float_t linear);
 
-  /// @brief Method dBNormalized addr 0x288ce58 size 0x14 virtual false final false
+  /// @brief Method dBNormalized, addr 0x2a09dc0, size 0x14, virtual false, abstract: false, final false
   inline float_t dBNormalized(float_t db);
 
-  /// @brief Method FindAudioListener addr 0x288da38 size 0xb4 virtual false final false
+  /// @brief Method FindAudioListener, addr 0x2a0a524, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioListener* FindAudioListener();
 
-  /// @brief Method OnSceneLoaded addr 0x288db90 size 0x24 virtual false final false
+  /// @brief Method OnSceneLoaded, addr 0x2a0a67c, size 0x24, virtual false, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode);
 
-  /// @brief Method Init addr 0x288d764 size 0xe8 virtual false final false
+  /// @brief Method Init, addr 0x2a036c8, size 0x12c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Audio::G_AudioMonitor* New_ctor();
 
-  /// @brief Method .ctor addr 0x288dbb4 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2a0a6a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AudioMonitor", modifiers: "&&", def_value: None }]

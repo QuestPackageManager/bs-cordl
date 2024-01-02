@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContractResolver)
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IContractResolver);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11861))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11933))
 // CS Name: ::Newtonsoft.Json.Serialization::IContractResolver*
 class CORDL_TYPE IContractResolver {
 public:
   // Declarations
-  /// @brief Method ResolveContract addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResolveContract, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Serialization::JsonContract* ResolveContract(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContractResolver", modifiers: "&&", def_value: None }]

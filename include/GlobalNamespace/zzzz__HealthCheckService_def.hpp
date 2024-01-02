@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthCheckService)
-namespace System::Threading {
-class ManualResetEvent;
-}
 namespace System {
 class IDisposable;
 }
-namespace GlobalNamespace {
-class IPollable;
+namespace System::Threading {
+class ManualResetEvent;
 }
 namespace System::Net {
 class HttpListener;
 }
-namespace System::Threading {
-class Thread;
-}
 namespace GlobalNamespace {
 class IHealthCheckService;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
+namespace System::Threading {
+class Thread;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthCheckService);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12700))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12773))
 // CS Name: ::HealthCheckService*
 class CORDL_TYPE HealthCheckService : public ::System::Object {
 public:
@@ -95,16 +95,16 @@ public:
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 
-  /// @brief Method .ctor addr 0xdb7e94 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0xe3c368, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(int32_t port);
 
-  /// @brief Method Dispose addr 0xdb7f98 size 0xa4 virtual true final true
+  /// @brief Method Dispose, addr 0xe3c46c, size 0xa4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method PollUpdate addr 0xdb803c size 0x94 virtual true final true
+  /// @brief Method PollUpdate, addr 0xe3c510, size 0x94, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Run addr 0xdb80d0 size 0x498 virtual false final false
+  /// @brief Method Run, addr 0xe3c5a4, size 0x498, virtual false, abstract: false, final false
   inline void Run();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthCheckService", modifiers: "&&", def_value: None }]

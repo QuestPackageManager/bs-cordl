@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1061))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfCounterParameters*
 class CORDL_TYPE KdfCounterParameters : public ::System::Object {
@@ -77,29 +77,29 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix,
                                                                                         int32_t r);
 
-  /// @brief Method .ctor addr 0xec1b6c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0xf36d58, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix, int32_t r);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix,
                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix, int32_t r);
 
-  /// @brief Method .ctor addr 0xec1b7c size 0x190 virtual false final false
+  /// @brief Method .ctor, addr 0xf36d68, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix,
                     int32_t r);
 
-  /// @brief Method get_Ki addr 0xec1d0c size 0x8 virtual false final false
+  /// @brief Method get_Ki, addr 0xf36ef8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_FixedInputData addr 0xec1d14 size 0x5c virtual false final false
+  /// @brief Method get_FixedInputData, addr 0xf36f00, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_FixedInputDataCounterPrefix addr 0xec1d70 size 0x5c virtual false final false
+  /// @brief Method get_FixedInputDataCounterPrefix, addr 0xf36f5c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputDataCounterPrefix();
 
-  /// @brief Method get_FixedInputDataCounterSuffix addr 0xec1dcc size 0x5c virtual false final false
+  /// @brief Method get_FixedInputDataCounterSuffix, addr 0xf36fb8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputDataCounterSuffix();
 
-  /// @brief Method get_R addr 0xec1e28 size 0x8 virtual false final false
+  /// @brief Method get_R, addr 0xf37014, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfCounterParameters", modifiers: "&&", def_value: None }]

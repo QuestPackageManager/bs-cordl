@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathValidatorResult)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
 }
 namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1719))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidatorResult*
 class CORDL_TYPE PkixCertPathValidatorResult : public ::System::Object {
@@ -66,25 +66,25 @@ public:
 
   constexpr void __set_subjectPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method get_PolicyTree addr 0x1082d54 size 0x8 virtual false final false
+  /// @brief Method get_PolicyTree, addr 0x10f3fa8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_PolicyTree();
 
-  /// @brief Method get_TrustAnchor addr 0x1082d5c size 0x8 virtual false final false
+  /// @brief Method get_TrustAnchor, addr 0x10f3fb0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::TrustAnchor* get_TrustAnchor();
 
-  /// @brief Method get_SubjectPublicKey addr 0x1082d64 size 0x8 virtual false final false
+  /// @brief Method get_SubjectPublicKey, addr 0x10f3fb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_SubjectPublicKey();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* New_ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method .ctor addr 0x1082d6c size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x10f3fc0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method Clone addr 0x1082e20 size 0x78 virtual false final false
+  /// @brief Method Clone, addr 0x10f4074, size 0x78, virtual false, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method ToString addr 0x1082e98 size 0x170 virtual true final false
+  /// @brief Method ToString, addr 0x10f40ec, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidatorResult", modifiers: "&&", def_value: None }]

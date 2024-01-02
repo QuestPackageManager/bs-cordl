@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryDimensionsCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
-namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6559))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6473))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryDimensionsCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryDimensionsCommand {
@@ -59,13 +59,13 @@ public:
 
   constexpr void __set_outDimensions(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Type addr 0x2967e1c size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae7b64, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2967e4c size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae7b94, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2967e7c size 0x38 virtual false final false
+  /// @brief Method Create, addr 0x2ae7bc4, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryDimensionsCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "outDimensions", ty:

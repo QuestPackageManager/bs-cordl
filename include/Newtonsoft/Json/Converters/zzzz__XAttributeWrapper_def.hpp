@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XAttributeWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11993))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12066))
 // CS Name: ::Newtonsoft.Json.Converters::XAttributeWrapper*
 class CORDL_TYPE XAttributeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
@@ -37,27 +37,27 @@ public:
 
   __declspec(property(get = get_ParentNode))::Newtonsoft::Json::Converters::IXmlNode* ParentNode;
 
-  /// @brief Method get_Attribute addr 0x25584a4 size 0x78 virtual false final false
+  /// @brief Method get_Attribute, addr 0x26bcbe8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XAttribute* get_Attribute();
 
   static inline ::Newtonsoft::Json::Converters::XAttributeWrapper* New_ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method .ctor addr 0x25576c0 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x26bbe04, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* attribute);
 
-  /// @brief Method get_Value addr 0x255851c size 0x1c virtual true final false
+  /// @brief Method get_Value, addr 0x26bcc60, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x2558538 size 0x24 virtual true final false
+  /// @brief Method set_Value, addr 0x26bcc7c, size 0x24, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_LocalName addr 0x255855c size 0x24 virtual true final false
+  /// @brief Method get_LocalName, addr 0x26bcca0, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri addr 0x2558580 size 0x24 virtual true final false
+  /// @brief Method get_NamespaceUri, addr 0x26bccc4, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_ParentNode addr 0x25585a4 size 0x44 virtual true final false
+  /// @brief Method get_ParentNode, addr 0x26bcce8, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
   // Ctor Parameters [CppParam { name: "", ty: "XAttributeWrapper", modifiers: "&&", def_value: None }]

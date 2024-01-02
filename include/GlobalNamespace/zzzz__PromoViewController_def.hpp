@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(PromoViewController)
 namespace GlobalNamespace {
 class __PromoViewController__ButtonPromoTypePair;
 }
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
 namespace GlobalNamespace {
 class __PromoViewController____c__DisplayClass5_0;
 }
@@ -18,20 +21,17 @@ class IPreviewBeatmapLevel;
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class BeatmapLevelPackSO;
 }
 namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelPackSO;
-}
-namespace GlobalNamespace {
-class BeatmapLevelPackSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PromoViewController____c__DisplayClass5_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5735))
 // CS Name: ::PromoViewController::ButtonPromoTypePair*
 class CORDL_TYPE __PromoViewController__ButtonPromoTypePair : public ::System::Object {
 public:
@@ -104,12 +104,12 @@ public:
 
   constexpr void __set__annotatedBeatmapLevelCollection(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* value);
 
-  /// @brief Method get_annotatedBeatmapLevelCollection addr 0x2192f98 size 0xb0 virtual false final false
+  /// @brief Method get_annotatedBeatmapLevelCollection, addr 0x22d5d7c, size 0xb0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IAnnotatedBeatmapLevelCollection* get_annotatedBeatmapLevelCollection();
 
   static inline ::GlobalNamespace::__PromoViewController__ButtonPromoTypePair* New_ctor();
 
-  /// @brief Method .ctor addr 0x2193048 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d5e2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PromoViewController__ButtonPromoTypePair", modifiers: "&&", def_value: None }]
@@ -161,8 +161,8 @@ static_assert(offsetof(::GlobalNamespace::__PromoViewController__ButtonPromoType
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5836))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5736))
 // CS Name: ::PromoViewController::<>c__DisplayClass5_0*
 class CORDL_TYPE __PromoViewController____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -187,10 +187,10 @@ public:
 
   static inline ::GlobalNamespace::__PromoViewController____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2192f88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d5d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__0 addr 0x2193050 size 0x64 virtual false final false
+  /// @brief Method <DidActivate>b__0, addr 0x22d5e34, size 0x64, virtual false, abstract: false, final false
   inline void _DidActivate_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PromoViewController____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -227,8 +227,8 @@ static_assert(offsetof(::GlobalNamespace::__PromoViewController____c__DisplayCla
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5737))
 // CS Name: ::PromoViewController*
 class CORDL_TYPE PromoViewController : public ::HMUI::ViewController {
 public:
@@ -263,20 +263,20 @@ public:
   constexpr void
   __set_promoButtonWasPressedEvent(::System::Action_3<::GlobalNamespace::PromoViewController*, ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  /// @brief Method add_promoButtonWasPressedEvent addr 0x2192cf0 size 0xb0 virtual false final false
+  /// @brief Method add_promoButtonWasPressedEvent, addr 0x22d5ad4, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_promoButtonWasPressedEvent(::System::Action_3<::GlobalNamespace::PromoViewController*, ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  /// @brief Method remove_promoButtonWasPressedEvent addr 0x2192da0 size 0xb0 virtual false final false
+  /// @brief Method remove_promoButtonWasPressedEvent, addr 0x22d5b84, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_promoButtonWasPressedEvent(::System::Action_3<::GlobalNamespace::PromoViewController*, ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  /// @brief Method DidActivate addr 0x2192e50 size 0x138 virtual true final false
+  /// @brief Method DidActivate, addr 0x22d5c34, size 0x138, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::PromoViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2192f90 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d5d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PromoViewController", modifiers: "&&", def_value: None }]

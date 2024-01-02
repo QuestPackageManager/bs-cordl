@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_VertexDataUpdateFlags);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12244))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12316))
 // CS Name: ::TMPro::TMP_VertexDataUpdateFlags
 struct CORDL_TYPE TMP_VertexDataUpdateFlags {
 public:

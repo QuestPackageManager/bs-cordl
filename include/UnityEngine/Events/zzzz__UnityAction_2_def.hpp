@@ -20,18 +20,18 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10384))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10462))
 // CS Name: ::UnityEngine.Events::UnityAction`2<T0,T1>*
 class CORDL_TYPE UnityAction_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Events::UnityAction_2<T0, T1>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(T0 arg0, T1 arg1);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityAction_2", modifiers: "&&", def_value: None }]

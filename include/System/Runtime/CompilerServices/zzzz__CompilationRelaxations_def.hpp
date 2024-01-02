@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::CompilationRelaxations);
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3413))
 // CS Name: ::System.Runtime.CompilerServices::CompilationRelaxations
 struct CORDL_TYPE CompilationRelaxations {
 public:

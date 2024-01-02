@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SortMethod);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12162))
 // CS Name: ::UnityEngine.ProBuilder::SortMethod
 struct CORDL_TYPE SortMethod {
 public:

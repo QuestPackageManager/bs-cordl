@@ -9,15 +9,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector_1)
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-class IFormattable;
-}
-namespace System::Numerics {
-struct Register;
-}
 namespace System::Numerics {
 template <typename T> struct __Vector_1__VectorSizeHelper;
 }
@@ -25,7 +16,16 @@ namespace System {
 class Object;
 }
 namespace System {
+class IFormatProvider;
+}
+namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System {
+class IFormattable;
+}
+namespace System::Numerics {
+struct Register;
 }
 // Forward declare root types
 namespace System::Numerics {
@@ -43,8 +43,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3548), inst: 5225 }), TypeDefinitionIndex(TypeDefinitionIndex(3548)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3546))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3548)) CS Name: ::System.Numerics::Vector`1<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }), TypeDefinitionIndex(TypeDefinitionIndex(3551)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3553))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations
@@ -86,64 +86,64 @@ public:
 
   static inline ::System::Numerics::Vector_1<T> getStaticF_s_allOnes();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t get_Count();
 
-  /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Zero, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<T> get_Zero();
 
-  /// @brief Method InitializeCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InitializeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t InitializeCount();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> dataPointer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> dataPointer, int32_t offset);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::System::Numerics::Register> existingRegister);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::System::Numerics::Vector_1<T> other);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method op_Equality addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method op_Inequality addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method op_Explicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Explicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<uint64_t> op_Explicit___System__Numerics__Vector_1_uint64_t_(::System::Numerics::Vector_1<T> value);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method ScalarEquals addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ScalarEquals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool ScalarEquals(T left, T right);
 
-  /// @brief Method GetOneValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetOneValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetOneValue();
 
-  /// @brief Method GetAllBitsSetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetAllBitsSetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetAllBitsSetValue();
 
   // Ctor Parameters [CppParam { name: "_cordl_register", ty: "::System::Numerics::Register", modifiers: "", def_value: None }]
@@ -169,8 +169,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3548), inst: 5226 }), TypeDefinitionIndex(TypeDefinitionIndex(3548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3547))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5348 }), TypeDefinitionIndex(TypeDefinitionIndex(3553))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3552))
 // CS Name: ::Vector`1::VectorSizeHelper<T>
 struct CORDL_TYPE __Vector_1__VectorSizeHelper {
 public:

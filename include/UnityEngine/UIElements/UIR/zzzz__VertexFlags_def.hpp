@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::VertexFlags);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7440))
 // CS Name: ::UnityEngine.UIElements.UIR::VertexFlags
 struct CORDL_TYPE VertexFlags {
 public:

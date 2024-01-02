@@ -29,18 +29,18 @@ public:
   // Declarations
   __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
 
-  /// @brief Method IsValidPublicKey addr 0xf30ce4 size 0x78 virtual true final false
+  /// @brief Method IsValidPublicKey, addr 0xfa6f2c, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method CreateDsaImpl addr 0xf30d5c size 0xcc virtual true final false
+  /// @brief Method CreateDsaImpl, addr 0xfa6fa4, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
 
-  /// @brief Method get_SignatureAlgorithm addr 0xf30e28 size 0x8 virtual true final false
+  /// @brief Method get_SignatureAlgorithm, addr 0xfa7070, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_SignatureAlgorithm();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDssSigner* New_ctor();
 
-  /// @brief Method .ctor addr 0xf2dab0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xfa3cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsDssSigner", modifiers: "&&", def_value: None }]

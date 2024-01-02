@@ -21,16 +21,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKClipPlane);
 // SizeInfo { instance_size: 76, native_size: 76, calculated_instance_size: 76, calculated_native_size: 92, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15215))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15120))
 // CS Name: ::LIV.SDK.Unity::SDKClipPlane
 struct CORDL_TYPE SDKClipPlane {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20b42fc size 0x34 virtual false final false
+  /// @brief Method get_empty, addr 0x2215234, size 0x34, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKClipPlane get_empty();
 
-  /// @brief Method ToString addr 0x20b4e70 size 0x1dc virtual true final false
+  /// @brief Method ToString, addr 0x2215da8, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "transform", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "width", ty: "int32_t", modifiers: "", def_value: None },

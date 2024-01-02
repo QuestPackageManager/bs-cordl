@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsIPInterfaceProperties_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MacOsIPInterfaceProperties._ctor
 template <>
 
@@ -12,9 +12,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::NetworkInformation::MacOsNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2872a58;
+  constexpr static std::size_t addrs = 0x29ef2dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::NetworkInformation::MacOsNetworkInterface*>::get(),
@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>>)>(
     &::System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2872ac8;
+  constexpr static std::size_t addrs = 0x29ef34c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>::get(), "ParseRouteInfo_icall", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -44,9 +44,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (
     ::System::Net::NetworkInformation::MacOsIPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2872acc;
+  constexpr static std::size_t addrs = 0x29ef350;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>::get(),
@@ -75,9 +75,9 @@ inline bool System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRo
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, iface, gw_addr_list);
 }
 inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>::get(), "get_GatewayAddresses",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::MacOsIPInterfaceProperties*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection*, false>(this, ___internal_method);
 }
 // Ctor Parameters []

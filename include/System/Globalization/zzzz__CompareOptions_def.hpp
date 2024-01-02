@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::CompareOptions);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3659))
 // CS Name: ::System.Globalization::CompareOptions
 struct CORDL_TYPE CompareOptions {
 public:

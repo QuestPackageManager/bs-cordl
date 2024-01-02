@@ -14,22 +14,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_ParmInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_ParmType;
+struct HAPI_ChoiceListType;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_RampType;
+struct HAPI_ParmType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_NodeFlags;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_ChoiceListType;
-}
-namespace HoudiniEngineUnity {
-struct HAPI_Permissions;
+struct HAPI_RampType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_PrmScriptType;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Permissions;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_NodeType;
@@ -44,28 +44,28 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9628)), TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(9624)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9622)), TypeDefinitionIndex(TypeDefinitionIndex(9625)), TypeDefinitionIndex(TypeDefinitionIndex(9623)), TypeDefinitionIndex(TypeDefinitionIndex(9627))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9661)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9697)), TypeDefinitionIndex(TypeDefinitionIndex(9695)), TypeDefinitionIndex(TypeDefinitionIndex(9696)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9694)), TypeDefinitionIndex(TypeDefinitionIndex(9701)), TypeDefinitionIndex(TypeDefinitionIndex(9700)), TypeDefinitionIndex(TypeDefinitionIndex(9698))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9734)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isInt addr 0x203b1dc size 0x20 virtual false final false
+  /// @brief Method isInt, addr 0x2191b78, size 0x20, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isFloat addr 0x203b1fc size 0x14 virtual false final false
+  /// @brief Method isFloat, addr 0x2191b98, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isString addr 0x203b210 size 0x30 virtual false final false
+  /// @brief Method isString, addr 0x2191bac, size 0x30, virtual false, abstract: false, final false
   inline bool isString();
 
-  /// @brief Method isPath addr 0x203b240 size 0x20 virtual false final false
+  /// @brief Method isPath, addr 0x2191bdc, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isNode addr 0x203b260 size 0x10 virtual false final false
+  /// @brief Method isNode, addr 0x2191bfc, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue addr 0x203b270 size 0x14 virtual false final false
+  /// @brief Method isNonValue, addr 0x2191c0c, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
   // Ctor Parameters [CppParam { name: "id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "parentId", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:

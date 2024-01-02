@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ITextHandle)
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__TextParams;
-}
-namespace UnityEngine::UIElements {
 struct CursorPositionStylePainterParameters;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 namespace UnityEngine::TextCore::Text {
 class TextInfo;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextHandle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7230))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7144))
 // CS Name: ::UnityEngine.UIElements::ITextHandle*
 class CORDL_TYPE ITextHandle {
 public:
@@ -37,31 +37,31 @@ public:
 
   __declspec(property(put = set_RoundedSizes))::UnityEngine::Vector2 RoundedSizes;
 
-  /// @brief Method GetCursorPosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCursorPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::CursorPositionStylePainterParameters parms, float_t scaling);
 
-  /// @brief Method ComputeTextWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeTextWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ComputeTextWidth(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method ComputeTextHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeTextHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ComputeTextHeight(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method GetLineHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetLineHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetLineHeight(int32_t characterIndex, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t textScaling, float_t pixelPerPoint);
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t pixelsPerPoint);
 
-  /// @brief Method IsLegacy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsLegacy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsLegacy();
 
-  /// @brief Method IsElided addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsElided, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsElided();
 
-  /// @brief Method set_MeasuredSizes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_MeasuredSizes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_RoundedSizes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_RoundedSizes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextHandle", modifiers: "&&", def_value: None }]

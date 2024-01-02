@@ -6,55 +6,55 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReflectionUtil)
 namespace System {
-class Action;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
-}
-namespace System::Collections {
-class IList;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+class Array;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
-class Array;
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename T5> class Action_5;
 }
 namespace System {
 class Type;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class Action;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace System {
-class Object;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> class Action_6;
 }
 namespace System::Reflection {
 class MethodInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -66,54 +66,54 @@ MARK_REF_PTR_T(::ModestTree::ReflectionUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10552))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10624))
 // CS Name: ::ModestTree::ReflectionUtil*
 class CORDL_TYPE ReflectionUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArray addr 0x2d56808 size 0x308 virtual false final false
+  /// @brief Method CreateArray, addr 0x2ebe588, size 0x308, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArray(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method CreateGenericList addr 0x2d56b10 size 0x458 virtual false final false
+  /// @brief Method CreateGenericList, addr 0x2ebe890, size 0x458, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateGenericList(::System::Type* elementType, ::System::Collections::Generic::List_1<::System::Object*>* instances);
 
-  /// @brief Method ToDebugString addr 0x2d56f68 size 0x130 virtual false final false
+  /// @brief Method ToDebugString, addr 0x2ebece8, size 0x130, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ToDebugString addr 0x2d57098 size 0x1c virtual false final false
+  /// @brief Method ToDebugString, addr 0x2ebee18, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW ToDebugString(::System::Action* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1> static inline ::StringW ToDebugString(::System::Action_1<TParam1>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2> static inline ::StringW ToDebugString(::System::Action_2<TParam1, TParam2>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3> static inline ::StringW ToDebugString(::System::Action_3<TParam1, TParam2, TParam3>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Action_4<TParam1, TParam2, TParam3, TParam4>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
   static inline ::StringW ToDebugString(::System::Action_5<TParam1, TParam2, TParam3, TParam4, TParam5>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   static inline ::StringW ToDebugString(::System::Action_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* action);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1> static inline ::StringW ToDebugString(::System::Func_1<TParam1>* func);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2> static inline ::StringW ToDebugString(::System::Func_2<TParam1, TParam2>* func);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3> static inline ::StringW ToDebugString(::System::Func_3<TParam1, TParam2, TParam3>* func);
 
-  /// @brief Method ToDebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToDebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4> static inline ::StringW ToDebugString(::System::Func_4<TParam1, TParam2, TParam3, TParam4>* func);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtil", modifiers: "&&", def_value: None }]

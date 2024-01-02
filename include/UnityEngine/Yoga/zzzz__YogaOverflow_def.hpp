@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaOverflow);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15373))
 // CS Name: ::UnityEngine.Yoga::YogaOverflow
 struct CORDL_TYPE YogaOverflow {
 public:

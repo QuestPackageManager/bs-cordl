@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SelectObservable_2)
 namespace System {
-template <typename T> class IObserver_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class IObservable_1;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-template <typename TSource, typename TResult> class __SelectObservable_2__Select;
-}
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class IObserver_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+template <typename TSource, typename TResult> class __SelectObservable_2__Select;
 }
 namespace System {
 class Exception;
@@ -38,8 +38,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6578))
 // CS Name: ::SelectObservable`2::Select<TSource,TResult>*
 class CORDL_TYPE __SelectObservable_2__Select : public ::System::Object {
 public:
@@ -68,16 +68,16 @@ public:
   static inline ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>* New_ctor(::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* observable,
                                                                                                                ::System::IObserver_1<TResult>* observer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* observable, ::System::IObserver_1<TResult>* observer);
 
-  /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TSource evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SelectObservable_2__Select", modifiers: "&&", def_value: None }]
@@ -110,8 +110,8 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6665))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6579))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::SelectObservable`2<TSource,TResult>*
 class CORDL_TYPE SelectObservable_2 : public ::System::Object {
 public:
@@ -141,10 +141,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* New_ctor(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<TResult>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectObservable_2", modifiers: "&&", def_value: None }]

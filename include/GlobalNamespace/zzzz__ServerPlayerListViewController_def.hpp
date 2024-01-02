@@ -6,25 +6,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerPlayerListViewController)
 namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
-namespace GlobalNamespace {
-class GameServerPlayersTableView;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class LobbyPlayerPermissionsModel;
 }
 namespace GlobalNamespace {
 class IInvitePlatformHandler;
 }
-namespace HMUI {
-class ButtonBinder;
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace HMUI {
 class HoverHint;
 }
 namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class ILobbyPlayersDataModel;
+}
+namespace HMUI {
+class ButtonBinder;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 namespace GlobalNamespace {
 class ILobbyGameStateController;
@@ -35,17 +41,11 @@ struct MultiplayerLobbyState;
 namespace UnityEngine::UI {
 class Button;
 }
+namespace GlobalNamespace {
+class GameServerPlayersTableView;
+}
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class ILobbyPlayersDataModel;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPlayerListViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5823))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5724))
 // CS Name: ::ServerPlayerListViewController*
 class CORDL_TYPE ServerPlayerListViewController : public ::HMUI::ViewController {
 public:
@@ -181,66 +181,66 @@ public:
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_selectSuggestedBeatmapEvent addr 0x218dce8 size 0xb0 virtual false final false
+  /// @brief Method add_selectSuggestedBeatmapEvent, addr 0x22d0a0c, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
 
-  /// @brief Method remove_selectSuggestedBeatmapEvent addr 0x218dd98 size 0xb0 virtual false final false
+  /// @brief Method remove_selectSuggestedBeatmapEvent, addr 0x22d0abc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedBeatmapEvent(::System::Action_1<::GlobalNamespace::PreviewDifficultyBeatmap*>* value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent addr 0x218de48 size 0xb0 virtual false final false
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x22d0b6c, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent addr 0x218def8 size 0xb0 virtual false final false
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x22d0c1c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_kickPlayerEvent addr 0x218dfa8 size 0xb0 virtual false final false
+  /// @brief Method add_kickPlayerEvent, addr 0x22d0ccc, size 0xb0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_kickPlayerEvent addr 0x218e058 size 0xb0 virtual false final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x22d0d7c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_didOpenInvitePanelEvent addr 0x218e108 size 0x9c virtual false final false
+  /// @brief Method add_didOpenInvitePanelEvent, addr 0x22d0e2c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method remove_didOpenInvitePanelEvent addr 0x218e1a4 size 0x9c virtual false final false
+  /// @brief Method remove_didOpenInvitePanelEvent, addr 0x22d0ec8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didOpenInvitePanelEvent(::System::Action* value);
 
-  /// @brief Method DidActivate addr 0x218e240 size 0x384 virtual true final false
+  /// @brief Method DidActivate, addr 0x22d0f64, size 0x384, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x218eccc size 0x32c virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22d19f0, size 0x32c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleLobbyPlayersDataDidChange addr 0x218f208 size 0x4 virtual false final false
+  /// @brief Method HandleLobbyPlayersDataDidChange, addr 0x22d1f2c, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayersDataDidChange(::StringW userId);
 
-  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged addr 0x218f20c size 0x4 virtual false final false
+  /// @brief Method HandleLobbyGameStateControllerLobbyStateChanged, addr 0x22d1f30, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateControllerLobbyStateChanged(::GlobalNamespace::MultiplayerLobbyState _);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged addr 0x218f210 size 0x4 virtual false final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x22d1f34, size 0x4, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method SetDataToTable addr 0x218eacc size 0x200 virtual false final false
+  /// @brief Method SetDataToTable, addr 0x22d17f0, size 0x200, virtual false, abstract: false, final false
   inline void SetDataToTable();
 
-  /// @brief Method HandleSelectSuggestedLevel addr 0x218f2d0 size 0x1c virtual false final false
+  /// @brief Method HandleSelectSuggestedLevel, addr 0x22d1ff4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSelectSuggestedLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
 
-  /// @brief Method HandleSelectSuggestedGameplayModifiers addr 0x218f2ec size 0x1c virtual false final false
+  /// @brief Method HandleSelectSuggestedGameplayModifiers, addr 0x22d2010, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSelectSuggestedGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method HandleKickPlayer addr 0x218f308 size 0x1c virtual false final false
+  /// @brief Method HandleKickPlayer, addr 0x22d202c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleKickPlayer(::StringW userId);
 
-  /// @brief Method HandleOpenPlatformInvitePanel addr 0x218f324 size 0xc8 virtual false final false
+  /// @brief Method HandleOpenPlatformInvitePanel, addr 0x22d2048, size 0xc8, virtual false, abstract: false, final false
   inline void HandleOpenPlatformInvitePanel();
 
-  /// @brief Method TrySetInviteButtonEnabled addr 0x218e7d4 size 0x2f8 virtual false final false
+  /// @brief Method TrySetInviteButtonEnabled, addr 0x22d14f8, size 0x2f8, virtual false, abstract: false, final false
   inline void TrySetInviteButtonEnabled();
 
   static inline ::GlobalNamespace::ServerPlayerListViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x218f3ec size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22d2110, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerPlayerListViewController", modifiers: "&&", def_value: None }]

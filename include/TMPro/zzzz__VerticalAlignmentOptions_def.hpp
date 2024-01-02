@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::VerticalAlignmentOptions);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12359))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12431))
 // CS Name: ::TMPro::VerticalAlignmentOptions
 struct CORDL_TYPE VerticalAlignmentOptions {
 public:

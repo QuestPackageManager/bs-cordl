@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Position);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6886))
 // CS Name: ::UnityEngine.UIElements::Position
 struct CORDL_TYPE Position {
 public:

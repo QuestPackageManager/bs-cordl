@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FireEffect)
 namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BloomPrePassBackgroundNonLightRenderer;
 }
 namespace GlobalNamespace {
 class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
-class BloomPrePassBackgroundNonLightRenderer;
+class ColorSO;
 }
 namespace GlobalNamespace {
-class ColorSO;
+class LightWithIdManager;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class LightWithIdManager;
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FireEffect);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3990))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4007))
 // CS Name: ::FireEffect*
 class CORDL_TYPE FireEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -172,24 +172,24 @@ public:
 
   constexpr void __set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x20bfa7c size 0x120 virtual true final false
+  /// @brief Method Start, addr 0x2221168, size 0x120, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20bfce8 size 0x1c virtual true final false
+  /// @brief Method OnDestroy, addr 0x22213d4, size 0x1c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleColorChangeBeatmapEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* e);
 
-  /// @brief Method SetRenderersEnabled addr 0x20bff38 size 0x8c virtual false final false
+  /// @brief Method SetRenderersEnabled, addr 0x2221624, size 0x8c, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method NotifyAlphaWasChanged addr 0x20c0158 size 0x70 virtual false final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x2221844, size 0x70, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x20c024c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2221938, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FireEffect", modifiers: "&&", def_value: None }]

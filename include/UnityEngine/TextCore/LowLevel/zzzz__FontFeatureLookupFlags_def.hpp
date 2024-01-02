@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags);
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15523))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15539))
 // CS Name: ::UnityEngine.TextCore.LowLevel::FontFeatureLookupFlags
 struct CORDL_TYPE FontFeatureLookupFlags {
 public:

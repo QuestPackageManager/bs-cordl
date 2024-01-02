@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WebCompletionSource_1)
 namespace System::Net {
-template <typename T> class __WebCompletionSource_1__Result;
+template <typename T> struct __WebCompletionSource_1__Status;
 }
 namespace System::Net {
-template <typename T> struct __WebCompletionSource_1___WaitForCompletion_d__15;
+template <typename T> class __WebCompletionSource_1__Result;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
@@ -21,17 +21,17 @@ template <typename TResult> class TaskCompletionSource_1;
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-class Exception;
-}
 namespace System::Net {
-template <typename T> struct __WebCompletionSource_1__Status;
+template <typename T> struct __WebCompletionSource_1___WaitForCompletion_d__15;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
 class OperationCanceledException;
+}
+namespace System {
+class Exception;
 }
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
@@ -40,10 +40,10 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 // Forward declare root types
 namespace System::Net {
@@ -69,8 +69,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8046), inst: 4920 }), TypeDefinitionIndex(TypeDefinitionIndex(8046))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8046))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5027 }), TypeDefinitionIndex(TypeDefinitionIndex(9209))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9209))
 // CS Name: ::WebCompletionSource`1::Status<T>
 struct CORDL_TYPE __WebCompletionSource_1__Status {
 public:
@@ -125,8 +125,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8046), inst: 4919 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8046))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8047)) CS Name: ::WebCompletionSource`1::Result<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9209), inst: 5026 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9210)) CS Name: ::WebCompletionSource`1::Result<T>*
 class CORDL_TYPE __WebCompletionSource_1__Result : public ::System::Object {
 public:
   // Declarations
@@ -165,27 +165,27 @@ public:
 
   constexpr void __set__Argument_k__BackingField(T value);
 
-  /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Status, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Net::__WebCompletionSource_1__Status<T> get_Status();
 
-  /// @brief Method get_Success addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Success, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_Success();
 
-  /// @brief Method get_Error addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Error, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* get_Error();
 
-  /// @brief Method get_Argument addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Argument, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Argument();
 
   static inline ::System::Net::__WebCompletionSource_1__Result<T>* New_ctor(T argument);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T argument);
 
   static inline ::System::Net::__WebCompletionSource_1__Result<T>* New_ctor(::System::Net::__WebCompletionSource_1__Status<T> state,
                                                                             ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::__WebCompletionSource_1__Status<T> state, ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* error);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WebCompletionSource_1__Result", modifiers: "&&", def_value: None }]
@@ -221,19 +221,19 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8047)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 1100
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8047), inst: 108 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 108 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3392))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8048)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 101 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9210), inst: 101 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1122 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9210))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9211)) CS Name: ::WebCompletionSource`1::<WaitForCompletion>d__15<T>
 struct CORDL_TYPE __WebCompletionSource_1___WaitForCompletion_d__15 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -273,8 +273,8 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8049))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9212))
 // CS Name: ::System.Net::WebCompletionSource`1<T>*
 class CORDL_TYPE WebCompletionSource_1 : public ::System::Object {
 public:
@@ -309,34 +309,35 @@ public:
 
   static inline ::System::Net::WebCompletionSource_1<T>* New_ctor(bool runAsync);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(bool runAsync);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param runAsync: bool (default: true)
+  inline void _ctor(bool runAsync = true);
 
-  /// @brief Method get_CurrentResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CurrentResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Net::__WebCompletionSource_1__Result<T>* get_CurrentResult();
 
-  /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
-  /// @brief Method TrySetCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCompleted(T argument);
 
-  /// @brief Method TrySetCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCompleted();
 
-  /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCanceled();
 
-  /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCanceled(::System::OperationCanceledException* error);
 
-  /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* error);
 
-  /// @brief Method ThrowOnError addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ThrowOnError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ThrowOnError();
 
-  /// @brief Method WaitForCompletion addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<T>* WaitForCompletion();
 
   // Ctor Parameters [CppParam { name: "", ty: "WebCompletionSource_1", modifiers: "&&", def_value: None }]

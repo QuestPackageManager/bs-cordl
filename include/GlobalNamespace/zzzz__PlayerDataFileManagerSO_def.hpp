@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerDataFileManagerSO)
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
 class ColorSchemesListSO;
-}
-namespace GlobalNamespace {
-class EnvironmentsListSO;
-}
-namespace GlobalNamespace {
-class PlayerSaveData;
-}
-namespace System {
-class Version;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class PlayerSaveDataV1_0_1;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicCollectionSO;
-}
-namespace GlobalNamespace {
-class EnvironmentTypeSO;
+class EnvironmentInfoSO;
 }
 namespace GlobalNamespace {
 class ISaveData;
 }
 namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace GlobalNamespace {
 class PlayerData;
+}
+namespace GlobalNamespace {
+class EnvironmentsListSO;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class EnvironmentTypeSO;
+}
+namespace GlobalNamespace {
+class PlayerSaveData;
+}
+namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace System {
+class Version;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,39 +50,35 @@ class PlayerDataFileManagerSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerDataFileManagerSO);
 // Type: ::PlayerDataFileManagerSO
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4743))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4629))
 // CS Name: ::PlayerDataFileManagerSO*
 class CORDL_TYPE PlayerDataFileManagerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Field _beatmapCharacteristicCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristicCollection,
-                      put = __set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollectionSO* _beatmapCharacteristicCollection;
-
-  /// @brief Field _defaultColorSchemes, offset 0x20, size 0x8
+  /// @brief Field _defaultColorSchemes, offset 0x18, size 0x8
   __declspec(property(get = __get__defaultColorSchemes, put = __set__defaultColorSchemes))::GlobalNamespace::ColorSchemesListSO* _defaultColorSchemes;
 
-  /// @brief Field _allEnvironmentInfos, offset 0x28, size 0x8
+  /// @brief Field _allEnvironmentInfos, offset 0x20, size 0x8
   __declspec(property(get = __get__allEnvironmentInfos, put = __set__allEnvironmentInfos))::GlobalNamespace::EnvironmentsListSO* _allEnvironmentInfos;
 
-  /// @brief Field _normalEnvironmentType, offset 0x30, size 0x8
+  /// @brief Field _normalEnvironmentType, offset 0x28, size 0x8
   __declspec(property(get = __get__normalEnvironmentType, put = __set__normalEnvironmentType))::GlobalNamespace::EnvironmentTypeSO* _normalEnvironmentType;
 
-  /// @brief Field _a360DegreesEnvironmentType, offset 0x38, size 0x8
+  /// @brief Field _a360DegreesEnvironmentType, offset 0x30, size 0x8
   __declspec(property(get = __get__a360DegreesEnvironmentType, put = __set__a360DegreesEnvironmentType))::GlobalNamespace::EnvironmentTypeSO* _a360DegreesEnvironmentType;
 
-  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset 0x40, size 0x8
+  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset 0x38, size 0x8
   __declspec(property(get = __get__defaultLastSelectedBeatmapCharacteristic,
                       put = __set__defaultLastSelectedBeatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _defaultLastSelectedBeatmapCharacteristic;
 
-  /// @brief Field _buildInSongPackSerializedName, offset 0x48, size 0x8
+  /// @brief Field _buildInSongPackSerializedName, offset 0x40, size 0x8
   __declspec(property(get = __get__buildInSongPackSerializedName, put = __set__buildInSongPackSerializedName))::StringW _buildInSongPackSerializedName;
 
-  /// @brief Field _allSongPackSerializedName, offset 0x50, size 0x8
+  /// @brief Field _allSongPackSerializedName, offset 0x48, size 0x8
   __declspec(property(get = __get__allSongPackSerializedName, put = __set__allSongPackSerializedName))::StringW _allSongPackSerializedName;
 
   /// @brief Field _lastVersionWithoutSavedCustomColorSchemeBoostColors, offset 0xffffffff, size 0x8
@@ -94,12 +90,6 @@ public:
 
   /// @brief Field _lastVersionWithoutArcsOptions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lastVersionWithoutArcsOptions, put = setStaticF__lastVersionWithoutArcsOptions))::System::Version* _lastVersionWithoutArcsOptions;
-
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& __get__beatmapCharacteristicCollection();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollectionSO*> const& __get__beatmapCharacteristicCollection() const;
-
-  constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollectionSO* value);
 
   constexpr ::GlobalNamespace::ColorSchemesListSO*& __get__defaultColorSchemes();
 
@@ -155,43 +145,44 @@ public:
 
   static inline ::System::Version* getStaticF__lastVersionWithoutArcsOptions();
 
-  /// @brief Method Save addr 0x2237a70 size 0x110c virtual false final false
+  /// @brief Method Save, addr 0x236d5b4, size 0x110c, virtual false, abstract: false, final false
   inline void Save(::GlobalNamespace::ISaveData* saveData, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method Load addr 0x2238ed8 size 0xec virtual false final false
-  inline ::GlobalNamespace::PlayerData* Load(::GlobalNamespace::ISaveData* saveData);
+  /// @brief Method Load, addr 0x236e6c0, size 0x104, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerData* Load(::GlobalNamespace::ISaveData* saveData, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method LoadFromJSONString addr 0x2238fc4 size 0x1c0 virtual false final false
-  inline ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString);
+  /// @brief Method LoadFromJSONString, addr 0x236e7c4, size 0x1cc, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerData* LoadFromJSONString(::StringW jsonString, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method LoadFromCurrentVersion addr 0x2239dec size 0x1110 virtual false final false
-  inline ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData);
+  /// @brief Method LoadFromCurrentVersion, addr 0x236f610, size 0x1190, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerData* LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method LoadFromVersionV1_0_1 addr 0x2239278 size 0xb74 virtual false final false
-  inline ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData);
+  /// @brief Method LoadFromVersionV1_0_1, addr 0x236ea88, size 0xb88, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::PlayerData* LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData,
+                                                              ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method CreateDefaultPlayerData addr 0x2239184 size 0xf4 virtual false final false
+  /// @brief Method CreateDefaultPlayerData, addr 0x236e990, size 0xf8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerData* CreateDefaultPlayerData();
 
-  /// @brief Method GetLevelIdFromV_1_0_1LevelId addr 0x223b984 size 0x68 virtual false final false
+  /// @brief Method GetLevelIdFromV_1_0_1LevelId, addr 0x2370c70, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW GetLevelIdFromV_1_0_1LevelId(::StringW oldLevelId, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId addr 0x223b868 size 0x11c virtual false final false
-  static inline ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection,
+  /// @brief Method GetBeatmapCharacteristicFromV_1_0_1LevelId, addr 0x23708d0, size 0x3a0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapCharacteristicSO* GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                                                                                                        ::StringW levelId);
 
-  /// @brief Method CreateDefaultOverrideEnvironmentSettings addr 0x223b224 size 0xbc virtual false final false
+  /// @brief Method CreateDefaultOverrideEnvironmentSettings, addr 0x23707a0, size 0xb0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
 
-  /// @brief Method GetEnvironmentInfoBySerializedName addr 0x223ba24 size 0x1c virtual false final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x2370cd8, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentInfoSO* GetEnvironmentInfoBySerializedName(::StringW environmentName);
 
-  /// @brief Method LoadCorrectedSongPackMask addr 0x223b2e0 size 0x70 virtual false final false
+  /// @brief Method LoadCorrectedSongPackMask, addr 0x2370850, size 0x80, virtual false, abstract: false, final false
   inline ::StringW LoadCorrectedSongPackMask(::ArrayW<uint8_t, ::Array<uint8_t>*> songMaskPackBytes);
 
   static inline ::GlobalNamespace::PlayerDataFileManagerSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x223ba40 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x2370cf4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerDataFileManagerSO", modifiers: "&&", def_value: None }]
@@ -208,28 +199,25 @@ protected:
   constexpr PlayerDataFileManagerSO();
 
 public:
-  /// @brief Field _beatmapCharacteristicCollection, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicCollectionSO* ____beatmapCharacteristicCollection;
-
-  /// @brief Field _defaultColorSchemes, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _defaultColorSchemes, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::ColorSchemesListSO* ____defaultColorSchemes;
 
-  /// @brief Field _allEnvironmentInfos, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _allEnvironmentInfos, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentsListSO* ____allEnvironmentInfos;
 
-  /// @brief Field _normalEnvironmentType, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _normalEnvironmentType, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentTypeSO* ____normalEnvironmentType;
 
-  /// @brief Field _a360DegreesEnvironmentType, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _a360DegreesEnvironmentType, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentTypeSO* ____a360DegreesEnvironmentType;
 
-  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _defaultLastSelectedBeatmapCharacteristic, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicSO* ____defaultLastSelectedBeatmapCharacteristic;
 
-  /// @brief Field _buildInSongPackSerializedName, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _buildInSongPackSerializedName, offset: 0x40, size: 0x8, def value: None
   ::StringW ____buildInSongPackSerializedName;
 
-  /// @brief Field _allSongPackSerializedName, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _allSongPackSerializedName, offset: 0x48, size: 0x8, def value: None
   ::StringW ____allSongPackSerializedName;
 
   /// @brief Field kPlayerDataFileName offset 0xffffffff size 0x8
@@ -244,23 +232,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataFileManagerSO, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataFileManagerSO, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____beatmapCharacteristicCollection) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____defaultColorSchemes) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____defaultColorSchemes) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allEnvironmentInfos) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allEnvironmentInfos) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____normalEnvironmentType) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____normalEnvironmentType) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____a360DegreesEnvironmentType) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____a360DegreesEnvironmentType) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____defaultLastSelectedBeatmapCharacteristic) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____defaultLastSelectedBeatmapCharacteristic) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____buildInSongPackSerializedName) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____buildInSongPackSerializedName) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allSongPackSerializedName) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerDataFileManagerSO, ____allSongPackSerializedName) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerDataFileManagerSO);

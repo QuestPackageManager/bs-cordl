@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/zzzz__JsonConverter_def.hpp"
 CORDL_MODULE_EXPORT(CustomCreationConverter_1)
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
+namespace Newtonsoft::Json {
+class JsonReader;
+}
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
 namespace Newtonsoft::Json {
 class JsonWriter;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
-}
-namespace Newtonsoft::Json {
-class JsonReader;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -31,32 +31,32 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11959))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12031))
 // CS Name: ::Newtonsoft.Json.Converters::CustomCreationConverter`1<T>*
 class CORDL_TYPE CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  /// @brief Method WriteJson addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Create(::System::Type* objectType);
 
-  /// @brief Method CanConvert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method get_CanWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
   static inline ::Newtonsoft::Json::Converters::CustomCreationConverter_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomCreationConverter_1", modifiers: "&&", def_value: None }]

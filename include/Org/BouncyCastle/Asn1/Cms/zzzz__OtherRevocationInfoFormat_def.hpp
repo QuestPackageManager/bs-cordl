@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherRevocationInfoFormat)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -63,27 +63,27 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo);
 
-  /// @brief Method .ctor addr 0xe06a24 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe7bbf8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* otherRevInfoFormat, ::Org::BouncyCastle::Asn1::Asn1Encodable* otherRevInfo);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe06a50 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0xe7bc24, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe06afc size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7bcd0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0xe06b14 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7bce8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_InfoFormat addr 0xe06bb8 size 0x8 virtual true final false
+  /// @brief Method get_InfoFormat, addr 0xe7bd8c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_InfoFormat();
 
-  /// @brief Method get_Info addr 0xe06bc0 size 0x8 virtual true final false
+  /// @brief Method get_Info, addr 0xe7bd94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Info();
 
-  /// @brief Method ToAsn1Object addr 0xe06bc8 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe7bd9c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherRevocationInfoFormat", modifiers: "&&", def_value: None }]

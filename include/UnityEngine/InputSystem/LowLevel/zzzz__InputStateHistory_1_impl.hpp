@@ -1,19 +1,19 @@
 #pragma once
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/zzzz__Nullable_1_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>"
 template <typename TValue>
 constexpr UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Enumerator<TValue>::operator ::System::Collections::Generic::IEnumerator_1<
@@ -207,21 +207,21 @@ inline bool UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TV
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 template <typename TValue> inline bool UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(), "Equals",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename TValue> inline int32_t UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>::GetHashCode() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(),
-                                               "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename TValue> inline ::StringW UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>::ToString() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(), "ToString",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::__InputStateHistory_1__Record<TValue>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
@@ -290,9 +290,9 @@ template <typename TValue> inline void UnityEngine::InputSystem::LowLevel::Input
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, path);
 }
 template <typename TValue> inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>::Finalize() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*>::get(), "Finalize",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<TValue>*>::get(), 1)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValue>

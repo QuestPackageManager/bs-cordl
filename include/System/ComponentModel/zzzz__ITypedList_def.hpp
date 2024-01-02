@@ -22,15 +22,15 @@ MARK_REF_PTR_T(::System::ComponentModel::ITypedList);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9435))
 // CS Name: ::System.ComponentModel::ITypedList*
 class CORDL_TYPE ITypedList {
 public:
   // Declarations
-  /// @brief Method GetListName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetListName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 
-  /// @brief Method GetItemProperties addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetItemProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection*
   GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
 

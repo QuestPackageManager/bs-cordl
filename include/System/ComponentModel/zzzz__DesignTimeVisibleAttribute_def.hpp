@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignTimeVisibleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9420))
 // CS Name: ::System.ComponentModel::DesignTimeVisibleAttribute*
 class CORDL_TYPE DesignTimeVisibleAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::DesignTimeVisibleAttribute* New_ctor(bool visible);
 
-  /// @brief Method .ctor addr 0x27907e4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x290e80c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visible);
 
-  /// @brief Method get_Visible addr 0x279080c size 0x8 virtual false final false
+  /// @brief Method get_Visible, addr 0x290e834, size 0x8, virtual false, abstract: false, final false
   inline bool get_Visible();
 
-  /// @brief Method Equals addr 0x2790814 size 0x98 virtual true final false
+  /// @brief Method Equals, addr 0x290e83c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x27908ac size 0x9c virtual true final false
+  /// @brief Method GetHashCode, addr 0x290e8d4, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute addr 0x2790948 size 0x80 virtual true final false
+  /// @brief Method IsDefaultAttribute, addr 0x290e970, size 0x80, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignTimeVisibleAttribute", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(MaterialEffectPlayable)
 namespace UnityEngine::Playables {
-class IPlayable;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
-struct PlayableHandle;
+class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Playables::MaterialEffectPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10333))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10411))
 // CS Name: ::UnityEngine.Experimental.Playables::MaterialEffectPlayable
 struct CORDL_TYPE MaterialEffectPlayable {
 public:
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Playables::MaterialEffectPlayable>*();
 
-  /// @brief Method GetHandle addr 0x2b8c3ec size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2cf472c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2b8c3f8 size 0x74 virtual true final true
+  /// @brief Method Equals, addr 0x2cf4738, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::MaterialEffectPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionsViewController)
-namespace GlobalNamespace {
-class AppStaticSettingsSO;
-}
 namespace UnityEngine::UI {
 class Button;
+}
+namespace GlobalNamespace {
+class AppStaticSettingsSO;
 }
 namespace GlobalNamespace {
 struct __OptionsViewController__OptionsButton;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OptionsViewController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5825))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5754))
 // CS Name: ::OptionsViewController::OptionsButton
 struct CORDL_TYPE __OptionsViewController__OptionsButton {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::GlobalNamespace::__OptionsViewController__OptionsButton
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5755))
 // CS Name: ::OptionsViewController*
 class CORDL_TYPE OptionsViewController : public ::HMUI::ViewController {
 public:
@@ -139,27 +139,27 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method add_didFinishEvent addr 0x218fe98 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x22da2f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x218ff48 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x22da3a8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method DidActivate addr 0x218fff8 size 0x190 virtual true final false
+  /// @brief Method DidActivate, addr 0x22da458, size 0x190, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2190188 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22da5e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0 addr 0x2190190 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x22da5f0, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
-  /// @brief Method <DidActivate>b__8_1 addr 0x21901b0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_1, addr 0x22da610, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_1();
 
-  /// @brief Method <DidActivate>b__8_2 addr 0x21901d0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__8_2, addr 0x22da630, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionsViewController", modifiers: "&&", def_value: None }]

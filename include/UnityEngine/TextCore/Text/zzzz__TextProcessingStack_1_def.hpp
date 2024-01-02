@@ -19,39 +19,39 @@ namespace UnityEngine::TextCore::Text {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13606))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13727))
 // CS Name: ::UnityEngine.TextCore.Text::TextProcessingStack`1<T>
 struct CORDL_TYPE TextProcessingStack_1 {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> stack);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetDefault(T item);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Remove();
 
-  /// @brief Method Push addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Push(T item);
 
-  /// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Pop();
 
-  /// @brief Method Peek addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Peek();
 
-  /// @brief Method CurrentItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CurrentItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T CurrentItem();
 
   // Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam

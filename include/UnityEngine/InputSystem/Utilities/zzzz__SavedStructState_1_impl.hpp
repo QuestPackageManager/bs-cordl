@@ -2,11 +2,11 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T>
 inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::New_ctor(::System::Object* object,
@@ -20,24 +20,22 @@ template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedSt
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::Invoke(ByRef<T> state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), "Invoke",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
 template <typename T>
 inline ::System::IAsyncResult* UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::BeginInvoke(ByRef<T> state, ::System::AsyncCallback* callback, ::System::Object* object) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), "BeginInvoke", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AsyncCallback*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, state, callback, object);
 }
 template <typename T> inline void UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>::EndInvoke(ByRef<T> state, ::System::IAsyncResult* result) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), "EndInvoke", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<T>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state, result);
 }
 // Ctor Parameters []

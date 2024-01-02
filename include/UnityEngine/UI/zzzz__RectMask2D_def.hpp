@@ -8,14 +8,38 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(RectMask2D)
+namespace UnityEngine {
+class RectTransform;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Canvas;
+}
 namespace UnityEngine::UI {
-class IClipper;
+class RectangularVertexClipper;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class ICanvasRaycastFilter;
+struct Vector2;
+}
+namespace UnityEngine::UI {
+class IClipper;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+class Camera;
+}
+namespace UnityEngine::UI {
+class IClippable;
+}
+namespace UnityEngine::UI {
+class MaskableGraphic;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -24,34 +48,10 @@ namespace UnityEngine {
 struct Rect;
 }
 namespace UnityEngine {
+class ICanvasRaycastFilter;
+}
+namespace UnityEngine {
 struct Vector2Int;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UI {
-class MaskableGraphic;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UI {
-class RectangularVertexClipper;
-}
-namespace UnityEngine::UI {
-class IClippable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::RectMask2D);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(10173)), TypeDefinitionIndex(TypeDefinitionIndex(13219)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10171))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13112)) CS Name: ::UnityEngine.UI::RectMask2D*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13214)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13107)) CS Name: ::UnityEngine.UI::RectMask2D*
 class CORDL_TYPE RectMask2D : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -194,63 +194,63 @@ public:
 
   constexpr void __set_m_Corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method get_padding addr 0x2c174fc size 0xc virtual false final false
+  /// @brief Method get_padding, addr 0x2d7f8ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_padding();
 
-  /// @brief Method set_padding addr 0x2c17508 size 0x10 virtual false final false
+  /// @brief Method set_padding, addr 0x2d7f8b8, size 0x10, virtual false, abstract: false, final false
   inline void set_padding(::UnityEngine::Vector4 value);
 
-  /// @brief Method get_softness addr 0x2c17518 size 0x8 virtual false final false
+  /// @brief Method get_softness, addr 0x2d7f8c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2Int get_softness();
 
-  /// @brief Method set_softness addr 0x2c17520 size 0x1c virtual false final false
+  /// @brief Method set_softness, addr 0x2d7f8d0, size 0x1c, virtual false, abstract: false, final false
   inline void set_softness(::UnityEngine::Vector2Int value);
 
-  /// @brief Method get_Canvas addr 0x2c1753c size 0x160 virtual false final false
+  /// @brief Method get_Canvas, addr 0x2d7f8ec, size 0x160, virtual false, abstract: false, final false
   inline ::UnityEngine::Canvas* get_Canvas();
 
-  /// @brief Method get_canvasRect addr 0x2c1769c size 0x44 virtual false final false
+  /// @brief Method get_canvasRect, addr 0x2d7fa4c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_canvasRect();
 
-  /// @brief Method get_rectTransform addr 0x2c176e0 size 0x58 virtual false final false
+  /// @brief Method get_rectTransform, addr 0x2d7fa90, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
   static inline ::UnityEngine::UI::RectMask2D* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c17738 size 0x158 virtual false final false
+  /// @brief Method .ctor, addr 0x2d7fae8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnEnable addr 0x2c17890 size 0x34 virtual true final false
+  /// @brief Method OnEnable, addr 0x2d7fc40, size 0x34, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2c178c4 size 0xd0 virtual true final false
+  /// @brief Method OnDisable, addr 0x2d7fc74, size 0xd0, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2c17994 size 0x20 virtual true final false
+  /// @brief Method OnDestroy, addr 0x2d7fd44, size 0x20, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method IsRaycastLocationValid addr 0x2c179b4 size 0xdc virtual true final false
+  /// @brief Method IsRaycastLocationValid, addr 0x2d7fd64, size 0xdc, virtual true, abstract: false, final false
   inline bool IsRaycastLocationValid(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method get_rootCanvasRect addr 0x2c17a90 size 0x11c virtual false final false
+  /// @brief Method get_rootCanvasRect, addr 0x2d7fe40, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_rootCanvasRect();
 
-  /// @brief Method PerformClipping addr 0x2c17bac size 0x724 virtual true final false
+  /// @brief Method PerformClipping, addr 0x2d7ff5c, size 0x724, virtual true, abstract: false, final false
   inline void PerformClipping();
 
-  /// @brief Method UpdateClipSoftness addr 0x2c182d0 size 0x2f4 virtual true final false
+  /// @brief Method UpdateClipSoftness, addr 0x2d80680, size 0x2f4, virtual true, abstract: false, final false
   inline void UpdateClipSoftness();
 
-  /// @brief Method AddClippable addr 0x2c185c4 size 0x114 virtual false final false
+  /// @brief Method AddClippable, addr 0x2d80974, size 0x114, virtual false, abstract: false, final false
   inline void AddClippable(::UnityEngine::UI::IClippable* clippable);
 
-  /// @brief Method RemoveClippable addr 0x2c186d8 size 0x1a0 virtual false final false
+  /// @brief Method RemoveClippable, addr 0x2d80a88, size 0x1a0, virtual false, abstract: false, final false
   inline void RemoveClippable(::UnityEngine::UI::IClippable* clippable);
 
-  /// @brief Method OnTransformParentChanged addr 0x2c18878 size 0x24 virtual true final false
+  /// @brief Method OnTransformParentChanged, addr 0x2d80c28, size 0x24, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method OnCanvasHierarchyChanged addr 0x2c1889c size 0x24 virtual true final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x2d80c4c, size 0x24, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
   // Ctor Parameters [CppParam { name: "", ty: "RectMask2D", modifiers: "&&", def_value: None }]

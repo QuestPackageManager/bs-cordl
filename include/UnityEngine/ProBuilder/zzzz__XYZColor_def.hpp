@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::XYZColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12042))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12114))
 // CS Name: ::UnityEngine.ProBuilder::XYZColor*
 class CORDL_TYPE XYZColor : public ::System::Object {
 public:
@@ -54,16 +54,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::XYZColor* New_ctor(float_t x, float_t y, float_t z);
 
-  /// @brief Method .ctor addr 0x29bb8f8 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2b3d64c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y, float_t z);
 
-  /// @brief Method FromRGB addr 0x29bb934 size 0x7c virtual false final false
+  /// @brief Method FromRGB, addr 0x2b3d688, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(::UnityEngine::Color col);
 
-  /// @brief Method FromRGB addr 0x29bba24 size 0x74 virtual false final false
+  /// @brief Method FromRGB, addr 0x2b3d778, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::XYZColor* FromRGB(float_t R, float_t G, float_t B);
 
-  /// @brief Method ToString addr 0x29bbc34 size 0xc4 virtual true final false
+  /// @brief Method ToString, addr 0x2b3d988, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "XYZColor", modifiers: "&&", def_value: None }]

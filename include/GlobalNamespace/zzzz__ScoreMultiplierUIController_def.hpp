@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScoreMultiplierUIController)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace GlobalNamespace {
 class IScoreController;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class Animator;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierUIController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5043))
 // CS Name: ::ScoreMultiplierUIController*
 class CORDL_TYPE ScoreMultiplierUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -98,30 +98,30 @@ public:
 
   constexpr void __set__progressTarget(float_t value);
 
-  /// @brief Method Start addr 0x22894b8 size 0xe4 virtual false final false
+  /// @brief Method Start, addr 0x23c2824, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x2289738 size 0x4 virtual false final false
+  /// @brief Method OnEnable, addr 0x23c2aa4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x228973c size 0x4 virtual false final false
+  /// @brief Method OnDisable, addr 0x23c2aa8, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RegisterForEvents addr 0x228959c size 0x19c virtual false final false
+  /// @brief Method RegisterForEvents, addr 0x23c2908, size 0x19c, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method UnregisterFromEvents addr 0x2289740 size 0x108 virtual false final false
+  /// @brief Method UnregisterFromEvents, addr 0x23c2aac, size 0x108, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method Update addr 0x2289848 size 0x80 virtual false final false
+  /// @brief Method Update, addr 0x23c2bb4, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleMultiplierDidChange addr 0x22898c8 size 0xcc virtual false final false
+  /// @brief Method HandleMultiplierDidChange, addr 0x23c2c34, size 0xcc, virtual false, abstract: false, final false
   inline void HandleMultiplierDidChange(int32_t multiplier, float_t progress);
 
   static inline ::GlobalNamespace::ScoreMultiplierUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2289994 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23c2d00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScoreMultiplierUIController", modifiers: "&&", def_value: None }]

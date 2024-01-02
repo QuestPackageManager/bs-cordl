@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugHeadController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8442))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7538))
 // CS Name: ::OVRDebugHeadController*
 class CORDL_TYPE OVRDebugHeadController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -105,18 +105,18 @@ public:
 
   constexpr void __set_CameraRig(::GlobalNamespace::OVRCameraRig* value);
 
-  /// @brief Method Awake addr 0x25c2888 size 0xf0 virtual false final false
+  /// @brief Method Awake, addr 0x271af78, size 0xf0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x25c2978 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x271b068, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x25c297c size 0x524 virtual false final false
+  /// @brief Method Update, addr 0x271b06c, size 0x524, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRDebugHeadController* New_ctor();
 
-  /// @brief Method .ctor addr 0x25c2ea0 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x271b590, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugHeadController", modifiers: "&&", def_value: None }]

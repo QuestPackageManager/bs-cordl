@@ -22,8 +22,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15811))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15919))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTreeNode`2<TKey,TValue>*
 class CORDL_TYPE KdTreeNode_2 : public ::System::Object {
 public:
@@ -79,27 +79,27 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* New_ctor(::ArrayW<TKey, ::Array<TKey>*> point, TValue value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<TKey, ::Array<TKey>*> point, TValue value);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* get_Item(int32_t compare);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t compare, ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
 
-  /// @brief Method get_IsLeaf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsLeaf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsLeaf();
 
-  /// @brief Method AddDuplicate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddDuplicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddDuplicate(TValue value);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdTreeNode_2", modifiers: "&&", def_value: None }]

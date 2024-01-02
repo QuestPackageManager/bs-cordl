@@ -14,46 +14,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Enum)
 namespace System {
-class IFormattable;
-}
-namespace System {
-struct __Enum__EnumResult;
-}
-namespace System {
-class RuntimeType;
-}
-namespace System {
-class IFormatProvider;
-}
-namespace System {
-class Type;
-}
-namespace System {
-struct Decimal;
-}
-namespace System {
-class IComparable;
-}
-namespace System {
 class Object;
-}
-namespace System {
-class Array;
 }
 namespace System {
 struct TypeCode;
 }
 namespace System {
+class IFormattable;
+}
+namespace System {
 class IConvertible;
+}
+namespace System {
+class __Enum__ValuesAndNames;
 }
 namespace System {
 struct DateTime;
 }
 namespace System {
+class Array;
+}
+namespace System {
 struct __Enum__ParseFailureKind;
 }
 namespace System {
-class __Enum__ValuesAndNames;
+class IFormatProvider;
+}
+namespace System {
+struct __Enum__EnumResult;
+}
+namespace System {
+struct Decimal;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class RuntimeType;
 }
 namespace System {
 class Exception;
@@ -76,25 +76,25 @@ MARK_VAL_T(::System::__Enum__EnumResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2556))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2557))
 // CS Name: ::Enum::EnumResult
 struct CORDL_TYPE __Enum__EnumResult {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2486afc size 0x64 virtual false final false
+  /// @brief Method Init, addr 0x25e2a24, size 0x64, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure addr 0x2487954 size 0x10 virtual false final false
+  /// @brief Method SetFailure, addr 0x25e387c, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
-  /// @brief Method SetFailure addr 0x2487354 size 0x3c virtual false final false
+  /// @brief Method SetFailure, addr 0x25e327c, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure addr 0x2487390 size 0x40 virtual false final false
+  /// @brief Method SetFailure, addr 0x25e32b8, size 0x40, virtual false, abstract: false, final false
   inline void SetFailure(::System::__Enum__ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method GetEnumParseException addr 0x24871d8 size 0x17c virtual false final false
+  /// @brief Method GetEnumParseException, addr 0x25e3100, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
   // Ctor Parameters [CppParam { name: "parsedEnum", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "canThrow", ty: "bool", modifiers: "", def_value: None }, CppParam {
@@ -156,8 +156,8 @@ static_assert(offsetof(::System::__Enum__EnumResult, m_innerException) == 0x28, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2556))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2558))
 // CS Name: ::Enum::ValuesAndNames*
 class CORDL_TYPE __Enum__ValuesAndNames : public ::System::Object {
 public:
@@ -182,7 +182,7 @@ public:
 
   static inline ::System::__Enum__ValuesAndNames* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method .ctor addr 0x2485f98 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x25e1ec0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Enum__ValuesAndNames", modifiers: "&&", def_value: None }]
@@ -219,8 +219,8 @@ static_assert(offsetof(::System::__Enum__ValuesAndNames, ___Names) == 0x18, "Off
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2637))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2639))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2559))
 // CS Name: ::System::Enum*
 class CORDL_TYPE Enum : public ::System::ValueType {
 public:

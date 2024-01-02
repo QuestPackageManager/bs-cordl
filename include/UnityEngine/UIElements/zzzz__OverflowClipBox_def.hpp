@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::OverflowClipBox);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6888))
 // CS Name: ::UnityEngine.UIElements::OverflowClipBox
 struct CORDL_TYPE OverflowClipBox {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::ToChoices);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10943))
 // CS Name: ::Zenject::ToChoices
 struct CORDL_TYPE ToChoices {
 public:

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LevelGameplaySetupData_def.hpp"
 CORDL_MODULE_EXPORT(LobbyPlayerData)
 namespace GlobalNamespace {
-class ILevelGameplaySetupData;
+class ILobbyPlayerData;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
+class ILevelGameplaySetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyPlayerData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4509))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4498))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4504))
 // CS Name: ::LobbyPlayerData*
 class CORDL_TYPE LobbyPlayerData : public ::GlobalNamespace::LevelGameplaySetupData {
 public:
@@ -76,33 +76,33 @@ public:
 
   constexpr void __set__isInLobby_k__BackingField(bool value);
 
-  /// @brief Method get_isPartyOwner addr 0x220c83c size 0x8 virtual true final true
+  /// @brief Method get_isPartyOwner, addr 0x235b85c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPartyOwner();
 
-  /// @brief Method set_isPartyOwner addr 0x220c844 size 0xc virtual true final true
+  /// @brief Method set_isPartyOwner, addr 0x235b864, size 0xc, virtual true, abstract: false, final true
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method get_isActive addr 0x220c850 size 0x8 virtual true final true
+  /// @brief Method get_isActive, addr 0x235b870, size 0x8, virtual true, abstract: false, final true
   inline bool get_isActive();
 
-  /// @brief Method set_isActive addr 0x220c858 size 0xc virtual true final true
+  /// @brief Method set_isActive, addr 0x235b878, size 0xc, virtual true, abstract: false, final true
   inline void set_isActive(bool value);
 
-  /// @brief Method get_isReady addr 0x220c864 size 0x8 virtual true final true
+  /// @brief Method get_isReady, addr 0x235b884, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method set_isReady addr 0x220c86c size 0xc virtual true final true
+  /// @brief Method set_isReady, addr 0x235b88c, size 0xc, virtual true, abstract: false, final true
   inline void set_isReady(bool value);
 
-  /// @brief Method get_isInLobby addr 0x220c878 size 0x8 virtual true final true
+  /// @brief Method get_isInLobby, addr 0x235b898, size 0x8, virtual true, abstract: false, final true
   inline bool get_isInLobby();
 
-  /// @brief Method set_isInLobby addr 0x220c880 size 0xc virtual true final true
+  /// @brief Method set_isInLobby, addr 0x235b8a0, size 0xc, virtual true, abstract: false, final true
   inline void set_isInLobby(bool value);
 
   static inline ::GlobalNamespace::LobbyPlayerData* New_ctor();
 
-  /// @brief Method .ctor addr 0x220c88c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x235b8ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbyPlayerData", modifiers: "&&", def_value: None }]

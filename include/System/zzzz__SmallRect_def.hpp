@@ -16,7 +16,7 @@ MARK_VAL_T(::System::SmallRect);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2646))
 // CS Name: ::System::SmallRect
 struct CORDL_TYPE SmallRect {
 public:

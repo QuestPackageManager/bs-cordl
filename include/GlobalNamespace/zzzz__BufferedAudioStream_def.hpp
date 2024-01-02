@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13220))
 // CS Name: ::BufferedAudioStream*
 class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
@@ -73,16 +73,16 @@ public:
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method .ctor addr 0x2566518 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x26cd350, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AudioSource* audio);
 
-  /// @brief Method Update addr 0x2566620 size 0x1d0 virtual false final false
+  /// @brief Method Update, addr 0x26cd458, size 0x1d0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Stop addr 0x25665dc size 0x44 virtual false final false
+  /// @brief Method Stop, addr 0x26cd414, size 0x44, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method AddData addr 0x25667f0 size 0x11c virtual false final false
+  /// @brief Method AddData, addr 0x26cd628, size 0x11c, virtual false, abstract: false, final false
   inline void AddData(::ArrayW<float_t, ::Array<float_t>*> samples);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedAudioStream", modifiers: "&&", def_value: None }]

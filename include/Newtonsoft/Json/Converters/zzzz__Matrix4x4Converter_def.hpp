@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(Matrix4x4Converter)
 namespace Newtonsoft::Json {
 class JsonWriter;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json {
+class JsonReader;
 }
 namespace Newtonsoft::Json {
 class JsonSerializer;
 }
-namespace Newtonsoft::Json {
-class JsonReader;
-}
 namespace System {
 class Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Converters {
@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::Matrix4x4Converter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12037))
 // CS Name: ::Newtonsoft.Json.Converters::Matrix4x4Converter*
 class CORDL_TYPE Matrix4x4Converter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   __declspec(property(get = get_CanRead)) bool CanRead;
 
-  /// @brief Method WriteJson addr 0x25506ac size 0x580 virtual true final false
+  /// @brief Method WriteJson, addr 0x26b4df0, size 0x580, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadJson addr 0x2550c2c size 0x380 virtual true final false
+  /// @brief Method ReadJson, addr 0x26b5370, size 0x380, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method get_CanRead addr 0x2550fac size 0x8 virtual true final false
+  /// @brief Method get_CanRead, addr 0x26b56f0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method CanConvert addr 0x2550fb4 size 0x84 virtual true final false
+  /// @brief Method CanConvert, addr 0x26b56f8, size 0x84, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::Matrix4x4Converter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2551038 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26b577c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Matrix4x4Converter", modifiers: "&&", def_value: None }]

@@ -11,10 +11,10 @@ namespace System {
 struct TimeSpan;
 }
 namespace System::Text::RegularExpressions {
-class Match;
+class Regex;
 }
 namespace System::Text::RegularExpressions {
-class Regex;
+class Match;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunner);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7766))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8929))
 // CS Name: ::System.Text.RegularExpressions::RegexRunner*
 class CORDL_TYPE RegexRunner : public ::System::Object {
 public:
@@ -196,80 +196,80 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
 
-  /// @brief Method .ctor addr 0x27e275c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2960058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Scan addr 0x27ec2d4 size 0x304 virtual false final false
+  /// @brief Method Scan, addr 0x2969bd0, size 0x304, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen,
                                                          bool quick, ::System::TimeSpan timeout);
 
-  /// @brief Method StartTimeoutWatch addr 0x27ec5d8 size 0x34 virtual false final false
+  /// @brief Method StartTimeoutWatch, addr 0x2969ed4, size 0x34, virtual false, abstract: false, final false
   inline void StartTimeoutWatch();
 
-  /// @brief Method CheckTimeout addr 0x27e482c size 0x10 virtual false final false
+  /// @brief Method CheckTimeout, addr 0x2962128, size 0x10, virtual false, abstract: false, final false
   inline void CheckTimeout();
 
-  /// @brief Method DoCheckTimeout addr 0x27ec82c size 0xd4 virtual false final false
+  /// @brief Method DoCheckTimeout, addr 0x296a128, size 0xd4, virtual false, abstract: false, final false
   inline void DoCheckTimeout();
 
-  /// @brief Method Go addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Go, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Go();
 
-  /// @brief Method FindFirstChar addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FindFirstChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FindFirstChar();
 
-  /// @brief Method InitTrackCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InitTrackCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InitTrackCount();
 
-  /// @brief Method InitMatch addr 0x27ec60c size 0x1dc virtual false final false
+  /// @brief Method InitMatch, addr 0x2969f08, size 0x1dc, virtual false, abstract: false, final false
   inline void InitMatch();
 
-  /// @brief Method TidyMatch addr 0x27ec7e8 size 0x44 virtual false final false
+  /// @brief Method TidyMatch, addr 0x296a0e4, size 0x44, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
 
-  /// @brief Method EnsureStorage addr 0x27e2880 size 0x48 virtual false final false
+  /// @brief Method EnsureStorage, addr 0x296017c, size 0x48, virtual false, abstract: false, final false
   inline void EnsureStorage();
 
-  /// @brief Method IsBoundary addr 0x27e4a24 size 0xf8 virtual false final false
+  /// @brief Method IsBoundary, addr 0x2962320, size 0xf8, virtual false, abstract: false, final false
   inline bool IsBoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method IsECMABoundary addr 0x27e4b1c size 0xf8 virtual false final false
+  /// @brief Method IsECMABoundary, addr 0x2962418, size 0xf8, virtual false, abstract: false, final false
   inline bool IsECMABoundary(int32_t index, int32_t startpos, int32_t endpos);
 
-  /// @brief Method DoubleTrack addr 0x27ec9a0 size 0xa0 virtual false final false
+  /// @brief Method DoubleTrack, addr 0x296a29c, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleTrack();
 
-  /// @brief Method DoubleStack addr 0x27ec900 size 0xa0 virtual false final false
+  /// @brief Method DoubleStack, addr 0x296a1fc, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleStack();
 
-  /// @brief Method DoubleCrawl addr 0x27eca40 size 0xa0 virtual false final false
+  /// @brief Method DoubleCrawl, addr 0x296a33c, size 0xa0, virtual false, abstract: false, final false
   inline void DoubleCrawl();
 
-  /// @brief Method Crawl addr 0x27ecae0 size 0x5c virtual false final false
+  /// @brief Method Crawl, addr 0x296a3dc, size 0x5c, virtual false, abstract: false, final false
   inline void Crawl(int32_t i);
 
-  /// @brief Method Popcrawl addr 0x27ecb3c size 0x3c virtual false final false
+  /// @brief Method Popcrawl, addr 0x296a438, size 0x3c, virtual false, abstract: false, final false
   inline int32_t Popcrawl();
 
-  /// @brief Method Crawlpos addr 0x27e4a00 size 0x24 virtual false final false
+  /// @brief Method Crawlpos, addr 0x29622fc, size 0x24, virtual false, abstract: false, final false
   inline int32_t Crawlpos();
 
-  /// @brief Method Capture addr 0x27e4970 size 0x60 virtual false final false
+  /// @brief Method Capture, addr 0x296226c, size 0x60, virtual false, abstract: false, final false
   inline void Capture(int32_t capnum, int32_t start, int32_t end);
 
-  /// @brief Method TransferCapture addr 0x27e485c size 0x114 virtual false final false
+  /// @brief Method TransferCapture, addr 0x2962158, size 0x114, virtual false, abstract: false, final false
   inline void TransferCapture(int32_t capnum, int32_t uncapnum, int32_t start, int32_t end);
 
-  /// @brief Method Uncapture addr 0x27e49d0 size 0x30 virtual false final false
+  /// @brief Method Uncapture, addr 0x29622cc, size 0x30, virtual false, abstract: false, final false
   inline void Uncapture();
 
-  /// @brief Method IsMatched addr 0x27e483c size 0x20 virtual false final false
+  /// @brief Method IsMatched, addr 0x2962138, size 0x20, virtual false, abstract: false, final false
   inline bool IsMatched(int32_t cap);
 
-  /// @brief Method MatchIndex addr 0x27e4c14 size 0x20 virtual false final false
+  /// @brief Method MatchIndex, addr 0x2962510, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchIndex(int32_t cap);
 
-  /// @brief Method MatchLength addr 0x27e4c34 size 0x20 virtual false final false
+  /// @brief Method MatchLength, addr 0x2962530, size 0x20, virtual false, abstract: false, final false
   inline int32_t MatchLength(int32_t cap);
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "&&", def_value: None }]

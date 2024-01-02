@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Text::EncoderFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2841))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2845))
 // CS Name: ::System.Text::EncoderFallbackBuffer*
 class CORDL_TYPE EncoderFallbackBuffer : public ::System::Object {
 public:
@@ -90,42 +90,42 @@ public:
 
   constexpr void __set_iRecursionCount(int32_t value);
 
-  /// @brief Method Fallback addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MovePrevious, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MovePrevious();
 
-  /// @brief Method get_Remaining addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset addr 0x24da090 size 0x28 virtual true final false
+  /// @brief Method Reset, addr 0x263419c, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InternalReset addr 0x24da0b8 size 0x18 virtual false final false
+  /// @brief Method InternalReset, addr 0x26341c4, size 0x18, virtual false, abstract: false, final false
   inline void InternalReset();
 
-  /// @brief Method InternalInitialize addr 0x24d52e8 size 0x1c virtual false final false
+  /// @brief Method InternalInitialize, addr 0x262f3f4, size 0x1c, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<char16_t> charStart, ::cordl_internals::Ptr<char16_t> charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
 
-  /// @brief Method InternalGetNextChar addr 0x24d5304 size 0x34 virtual false final false
+  /// @brief Method InternalGetNextChar, addr 0x262f410, size 0x34, virtual false, abstract: false, final false
   inline char16_t InternalGetNextChar();
 
-  /// @brief Method InternalFallback addr 0x24da0d0 size 0x1a8 virtual true final false
+  /// @brief Method InternalFallback, addr 0x26341dc, size 0x1a8, virtual true, abstract: false, final false
   inline bool InternalFallback(char16_t ch, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method ThrowLastCharRecursive addr 0x24da278 size 0x1090 virtual false final false
+  /// @brief Method ThrowLastCharRecursive, addr 0x2634384, size 0x1090, virtual false, abstract: false, final false
   inline void ThrowLastCharRecursive(int32_t charRecursive);
 
   static inline ::System::Text::EncoderFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d95e8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26336f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackBuffer", modifiers: "&&", def_value: None }]

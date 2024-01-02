@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::UnobservedTaskExceptionEventArgs);
 namespace System::Threading::Tasks {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2809))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2813))
 // CS Name: ::System.Threading.Tasks::UnobservedTaskExceptionEventArgs*
 class CORDL_TYPE UnobservedTaskExceptionEventArgs : public ::System::EventArgs {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* New_ctor(::System::AggregateException* exception);
 
-  /// @brief Method .ctor addr 0x24d289c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x262c9a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::AggregateException* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnobservedTaskExceptionEventArgs", modifiers: "&&", def_value: None }]

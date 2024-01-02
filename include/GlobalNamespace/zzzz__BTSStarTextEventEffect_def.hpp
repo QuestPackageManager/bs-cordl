@@ -9,17 +9,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSStarTextEventEffect)
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
 namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class __BTSStarTextEventEffect__StarTextSprite;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class Sprite;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
@@ -28,16 +19,25 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class __BTSStarTextEventEffect__StartTextPosition;
 }
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class __BTSStarTextEventEffect__StarTextSprite;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+class BasicBeatmapEventData;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3969))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3983))
 // CS Name: ::BTSStarTextEventEffect::StarTextSprite*
 class CORDL_TYPE __BTSStarTextEventEffect__StarTextSprite : public ::System::Object {
 public:
@@ -96,18 +96,18 @@ public:
 
   constexpr void __set__animationLength(float_t value);
 
-  /// @brief Method get_id addr 0x20bcc7c size 0x8 virtual false final false
+  /// @brief Method get_id, addr 0x221dc64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_starTextSprite addr 0x20bcc84 size 0x8 virtual false final false
+  /// @brief Method get_starTextSprite, addr 0x221dc6c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_starTextSprite();
 
-  /// @brief Method get_animationLength addr 0x20bcc8c size 0x8 virtual false final false
+  /// @brief Method get_animationLength, addr 0x221dc74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_animationLength();
 
   static inline ::GlobalNamespace::__BTSStarTextEventEffect__StarTextSprite* New_ctor();
 
-  /// @brief Method .ctor addr 0x20bcc94 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x221dc7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEventEffect__StarTextSprite", modifiers: "&&", def_value: None }]
@@ -149,8 +149,8 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEventEffect__StarTextSpri
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3970))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3984))
 // CS Name: ::BTSStarTextEventEffect::StartTextPosition*
 class CORDL_TYPE __BTSStarTextEventEffect__StartTextPosition : public ::System::Object {
 public:
@@ -177,15 +177,15 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_id addr 0x20bcc9c size 0x8 virtual false final false
+  /// @brief Method get_id, addr 0x221dc84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_transform addr 0x20bcca4 size 0x8 virtual false final false
+  /// @brief Method get_transform, addr 0x221dc8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_transform();
 
   static inline ::GlobalNamespace::__BTSStarTextEventEffect__StartTextPosition* New_ctor();
 
-  /// @brief Method .ctor addr 0x20bccac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x221dc94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BTSStarTextEventEffect__StartTextPosition", modifiers: "&&", def_value: None }]
@@ -222,8 +222,8 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEventEffect__StartTextPos
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3985))
 // CS Name: ::BTSStarTextEventEffect*
 class CORDL_TYPE BTSStarTextEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -313,24 +313,24 @@ public:
 
   constexpr void __set__idsToStarTextPositionDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::Transform*>* value);
 
-  /// @brief Method add_startStarTextAnimationEvent addr 0x20bc378 size 0xb0 virtual false final false
+  /// @brief Method add_startStarTextAnimationEvent, addr 0x221d360, size 0xb0, virtual false, abstract: false, final false
   inline void add_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float_t>* value);
 
-  /// @brief Method remove_startStarTextAnimationEvent addr 0x20bc4b0 size 0xb0 virtual false final false
+  /// @brief Method remove_startStarTextAnimationEvent, addr 0x221d498, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startStarTextAnimationEvent(::System::Action_3<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float_t>* value);
 
-  /// @brief Method Start addr 0x20bc7dc size 0x1ec virtual false final false
+  /// @brief Method Start, addr 0x221d7c4, size 0x1ec, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20bc9c8 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x221d9b0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x20bc9e4 size 0x1d8 virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x221d9cc, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::BTSStarTextEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x20bcbbc size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x221dba4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSStarTextEventEffect", modifiers: "&&", def_value: None }]

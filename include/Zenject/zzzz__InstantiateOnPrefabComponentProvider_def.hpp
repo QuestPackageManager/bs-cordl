@@ -9,7 +9,16 @@ namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-class IPrefabInstantiator;
+struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Action;
@@ -17,17 +26,8 @@ class Action;
 namespace Zenject {
 class InjectContext;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class IPrefabInstantiator;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::Zenject::InstantiateOnPrefabComponentProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11118))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11190))
 // CS Name: ::Zenject::InstantiateOnPrefabComponentProvider*
 class CORDL_TYPE InstantiateOnPrefabComponentProvider : public ::System::Object {
 public:
@@ -72,19 +72,19 @@ public:
 
   static inline ::Zenject::InstantiateOnPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
-  /// @brief Method .ctor addr 0x2d9f66c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2f0743c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 
-  /// @brief Method get_IsCached addr 0x2d9f698 size 0x8 virtual true final true
+  /// @brief Method get_IsCached, addr 0x2f07468, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2d9f6a0 size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f07470, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2d9f6a8 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType, addr 0x2f07478, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d9f6b0 size 0x16c virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f07480, size 0x16c, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

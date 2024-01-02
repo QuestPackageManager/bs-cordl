@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(RegTokenControl)
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
-namespace Org::BouncyCastle::Crmf {
-class IControl;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crmf {
+class IControl;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::RegTokenControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(713))
 // CS Name: ::Org.BouncyCastle.Crmf::RegTokenControl*
 class CORDL_TYPE RegTokenControl : public ::System::Object {
@@ -58,18 +58,18 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
-  /// @brief Method .ctor addr 0x119d040 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x120e290, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
   static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::StringW token);
 
-  /// @brief Method .ctor addr 0x11a1d70 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x1212fc0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method get_Type addr 0x11a1dec size 0x58 virtual true final true
+  /// @brief Method get_Type, addr 0x121303c, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value addr 0x11a1e44 size 0x8 virtual true final true
+  /// @brief Method get_Value, addr 0x1213094, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "&&", def_value: None }]

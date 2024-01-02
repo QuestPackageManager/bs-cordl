@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::OpusSignal);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16217))
 // CS Name: ::UnityOpus::OpusSignal
 struct CORDL_TYPE OpusSignal {
 public:

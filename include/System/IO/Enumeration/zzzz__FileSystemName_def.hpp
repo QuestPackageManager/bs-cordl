@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::IO::Enumeration::FileSystemName);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3644))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3656))
 // CS Name: ::System.IO.Enumeration::FileSystemName*
 class CORDL_TYPE FileSystemName : public ::System::Object {
 public:
@@ -39,16 +39,18 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_s_simpleWildcardChars();
 
-  /// @brief Method TranslateWin32Expression addr 0x23ea9a4 size 0x39c virtual false final false
+  /// @brief Method TranslateWin32Expression, addr 0x2547ebc, size 0x39c, virtual false, abstract: false, final false
   static inline ::StringW TranslateWin32Expression(::StringW expression);
 
-  /// @brief Method MatchesWin32Expression addr 0x23eafec size 0x88 virtual false final false
-  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
+  /// @brief Method MatchesWin32Expression, addr 0x2548258, size 0x88, virtual false, abstract: false, final false
+  /// @param ignoreCase: bool (default: true)
+  static inline bool MatchesWin32Expression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase = true);
 
-  /// @brief Method MatchesSimpleExpression addr 0x23eaf64 size 0x88 virtual false final false
-  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase);
+  /// @brief Method MatchesSimpleExpression, addr 0x2548a34, size 0x88, virtual false, abstract: false, final false
+  /// @param ignoreCase: bool (default: true)
+  static inline bool MatchesSimpleExpression(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase = true);
 
-  /// @brief Method MatchPattern addr 0x23ec0a4 size 0x754 virtual false final false
+  /// @brief Method MatchPattern, addr 0x25482e0, size 0x754, virtual false, abstract: false, final false
   static inline bool MatchPattern(::System::ReadOnlySpan_1<char16_t> expression, ::System::ReadOnlySpan_1<char16_t> name, bool ignoreCase, bool useExtendedWildcards);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemName", modifiers: "&&", def_value: None }]

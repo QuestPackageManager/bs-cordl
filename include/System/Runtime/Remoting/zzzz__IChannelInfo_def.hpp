@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::IChannelInfo);
 namespace System::Runtime::Remoting {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3056))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3057))
 // CS Name: ::System.Runtime.Remoting::IChannelInfo*
 class CORDL_TYPE IChannelInfo {
 public:
   // Declarations
   __declspec(property(get = get_ChannelData))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ChannelData;
 
-  /// @brief Method get_ChannelData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ChannelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannelInfo", modifiers: "&&", def_value: None }]

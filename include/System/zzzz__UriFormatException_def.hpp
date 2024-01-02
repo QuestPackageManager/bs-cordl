@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::UriFormatException);
 namespace System {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2382))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7713))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8876))
 // CS Name: ::System::UriFormatException*
 class CORDL_TYPE UriFormatException : public ::System::FormatException {
 public:
@@ -35,20 +35,20 @@ public:
 
   static inline ::System::UriFormatException* New_ctor();
 
-  /// @brief Method .ctor addr 0x27cc96c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2949a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::UriFormatException* New_ctor(::StringW textString);
 
-  /// @brief Method .ctor addr 0x27cab4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2947c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW textString);
 
   static inline ::System::UriFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x27cc974 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2949a94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x27cc97c size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2949a9c, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 

@@ -25,10 +25,10 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsProcessable {
 public:
   // Declarations
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Write(::System::IO::Stream* outStream);
 
-  /// @brief Method GetContent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsProcessable", modifiers: "&&", def_value: None }]

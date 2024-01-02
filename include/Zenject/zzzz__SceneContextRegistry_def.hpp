@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneContextRegistry)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::SceneManagement {
-struct Scene;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class SceneContext;
 }
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
+}
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::Zenject::SceneContextRegistry);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11332))
 // CS Name: ::Zenject::SceneContextRegistry*
 class CORDL_TYPE SceneContextRegistry : public ::System::Object {
 public:
@@ -54,42 +54,42 @@ public:
 
   constexpr void __set__map(::System::Collections::Generic::Dictionary_2<::UnityEngine::SceneManagement::Scene, ::Zenject::SceneContext*>* value);
 
-  /// @brief Method get_SceneContexts addr 0x2dae64c size 0x50 virtual false final false
+  /// @brief Method get_SceneContexts, addr 0x2f1641c, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::SceneContext*>* get_SceneContexts();
 
-  /// @brief Method Add addr 0x2db03a8 size 0xd0 virtual false final false
+  /// @brief Method Add, addr 0x2f18178, size 0xd0, virtual false, abstract: false, final false
   inline void Add(::Zenject::SceneContext* context);
 
-  /// @brief Method GetSceneContextForScene addr 0x2db0478 size 0xb0 virtual false final false
+  /// @brief Method GetSceneContextForScene, addr 0x2f18248, size 0xb0, virtual false, abstract: false, final false
   inline ::Zenject::SceneContext* GetSceneContextForScene(::StringW name);
 
-  /// @brief Method GetSceneContextForScene addr 0x2db0528 size 0x58 virtual false final false
+  /// @brief Method GetSceneContextForScene, addr 0x2f182f8, size 0x58, virtual false, abstract: false, final false
   inline ::Zenject::SceneContext* GetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method TryGetSceneContextForScene addr 0x2db0580 size 0xb0 virtual false final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x2f18350, size 0xb0, virtual false, abstract: false, final false
   inline ::Zenject::SceneContext* TryGetSceneContextForScene(::StringW name);
 
-  /// @brief Method TryGetSceneContextForScene addr 0x2db0630 size 0x78 virtual false final false
+  /// @brief Method TryGetSceneContextForScene, addr 0x2f18400, size 0x78, virtual false, abstract: false, final false
   inline ::Zenject::SceneContext* TryGetSceneContextForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetContainerForScene addr 0x2db06a8 size 0xa4 virtual false final false
+  /// @brief Method GetContainerForScene, addr 0x2f18478, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method TryGetContainerForScene addr 0x2db074c size 0xec virtual false final false
+  /// @brief Method TryGetContainerForScene, addr 0x2f1851c, size 0xec, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* TryGetContainerForScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method Remove addr 0x2db0838 size 0xfc virtual false final false
+  /// @brief Method Remove, addr 0x2f18608, size 0xfc, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SceneContext* context);
 
   static inline ::Zenject::SceneContextRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db0934 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2f18704, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x2db09b0 size 0x58 virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f18780, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db0a08 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f187d8, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContextRegistry", modifiers: "&&", def_value: None }]

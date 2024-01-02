@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingUIController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5145))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5040))
 // CS Name: ::RecordingUIController::InitData*
 class CORDL_TYPE __RecordingUIController__InitData : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::__RecordingUIController__InitData* New_ctor(bool recordingEnabled);
 
-  /// @brief Method .ctor addr 0x2288fc8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23c2334, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingUIController__InitData", modifiers: "&&", def_value: None }]
@@ -75,8 +75,8 @@ static_assert(offsetof(::GlobalNamespace::__RecordingUIController__InitData, ___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5146))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5041))
 // CS Name: ::RecordingUIController*
 class CORDL_TYPE RecordingUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -119,15 +119,15 @@ public:
 
   constexpr void __set__lastUpdateTime(float_t value);
 
-  /// @brief Method Init addr 0x2288ecc size 0x80 virtual false final false
+  /// @brief Method Init, addr 0x23c2238, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Update addr 0x2288f4c size 0x6c virtual false final false
+  /// @brief Method Update, addr 0x23c22b8, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2288fb8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23c2324, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingUIController", modifiers: "&&", def_value: None }]

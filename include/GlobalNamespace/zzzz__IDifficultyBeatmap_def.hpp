@@ -6,13 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDifficultyBeatmap)
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
@@ -21,13 +18,16 @@ namespace GlobalNamespace {
 class IBeatmapDataBasicInfo;
 }
 namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
 class EnvironmentInfoSO;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDifficultyBeatmap);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4394))
 // CS Name: ::IDifficultyBeatmap*
 class CORDL_TYPE IDifficultyBeatmap {
 public:
@@ -57,28 +57,33 @@ public:
 
   __declspec(property(get = get_noteJumpStartBeatOffset)) float_t noteJumpStartBeatOffset;
 
-  /// @brief Method get_level addr 0x0 size 0xffffffffffffffff virtual true final false
+  __declspec(property(get = get_environmentNameIdx)) int32_t environmentNameIdx;
+
+  /// @brief Method get_level, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IBeatmapLevel* get_level();
 
-  /// @brief Method get_parentDifficultyBeatmapSet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_parentDifficultyBeatmapSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IDifficultyBeatmapSet* get_parentDifficultyBeatmapSet();
 
-  /// @brief Method get_difficulty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_difficulty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_difficulty();
 
-  /// @brief Method get_difficultyRank addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_difficultyRank, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_difficultyRank();
 
-  /// @brief Method get_noteJumpMovementSpeed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteJumpStartBeatOffset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteJumpStartBeatOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_noteJumpStartBeatOffset();
 
-  /// @brief Method GetBeatmapDataBasicInfoAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_environmentNameIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_environmentNameIdx();
+
+  /// @brief Method GetBeatmapDataBasicInfoAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapDataBasicInfo*>* GetBeatmapDataBasicInfoAsync();
 
-  /// @brief Method GetBeatmapDataAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetBeatmapDataAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>* GetBeatmapDataAsync(::GlobalNamespace::EnvironmentInfoSO* environmentInfo,
                                                                                                            ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 

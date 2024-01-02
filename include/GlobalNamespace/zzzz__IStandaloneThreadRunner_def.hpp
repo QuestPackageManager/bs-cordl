@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneThreadRunner);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12818))
 // CS Name: ::IStandaloneThreadRunner*
 class CORDL_TYPE IStandaloneThreadRunner {
 public:
   // Declarations
-  /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStandaloneThreadRunner", modifiers: "&&", def_value: None }]

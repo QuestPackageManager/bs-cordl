@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::IPacketPool);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12807))
 // CS Name: ::IPacketPool*
 class CORDL_TYPE IPacketPool {
 public:
   // Declarations
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(::GlobalNamespace::IPoolablePacket* t);
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Fill();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPacketPool", modifiers: "&&", def_value: None }]

@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13973))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15868))
 // CS Name: ::ObservableVariable`1<T>*
 class CORDL_TYPE ObservableVariable_1 : public ::System::Object {
 public:
@@ -57,24 +57,24 @@ public:
 
   constexpr void __set__value(T value);
 
-  /// @brief Method add_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method add_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void add_didChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method remove_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void remove_didChangeEvent(::System::Action* value);
 
-  /// @brief Method set_value addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_value(T value);
 
-  /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_value();
 
-  /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T op_Implicit_T(::GlobalNamespace::ObservableVariable_1<T>* obj);
 
   static inline ::GlobalNamespace::ObservableVariable_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObservableVariable_1", modifiers: "&&", def_value: None }]

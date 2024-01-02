@@ -11,41 +11,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingResolver)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__UnmanagedMemory;
-}
-namespace UnityEngine::InputSystem {
-class InputActionState;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct NameAndParameters;
-}
-namespace UnityEngine::InputSystem {
-class InputBindingComposite;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct TypeTable;
-}
 namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
 namespace UnityEngine::InputSystem {
-class InputControl;
-}
-namespace UnityEngine::InputSystem {
-class IInputInteraction;
+class InputProcessor;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct NamedValue;
@@ -56,8 +26,38 @@ class Object;
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> struct ReadOnlyArray_1;
 }
+namespace UnityEngine::InputSystem::Utilities {
+struct NameAndParameters;
+}
+namespace UnityEngine::InputSystem {
+class InputBindingComposite;
+}
+namespace UnityEngine::InputSystem {
+class IInputInteraction;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__UnmanagedMemory;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct TypeTable;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
 namespace System {
 template <typename T> struct Nullable_1;
+}
+namespace UnityEngine::InputSystem {
+class InputActionState;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -69,9 +69,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputBindingResolver);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 3041 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6264)), TypeDefinitionIndex(TypeDefinitionIndex(6273))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6281)) CS Name:
-// ::UnityEngine.InputSystem::InputBindingResolver
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105
+// }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6195)) CS Name: ::UnityEngine.InputSystem::InputBindingResolver
 struct CORDL_TYPE InputBindingResolver {
 public:
   // Declarations
@@ -86,42 +85,42 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method get_totalMapCount addr 0x28d6c3c size 0x8 virtual false final false
+  /// @brief Method get_totalMapCount, addr 0x2a56984, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
-  /// @brief Method get_totalActionCount addr 0x28d6c44 size 0x8 virtual false final false
+  /// @brief Method get_totalActionCount, addr 0x2a5698c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount addr 0x28d6c4c size 0x8 virtual false final false
+  /// @brief Method get_totalBindingCount, addr 0x2a56994, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalControlCount addr 0x28d6c54 size 0x8 virtual false final false
+  /// @brief Method get_totalControlCount, addr 0x2a5699c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method Dispose addr 0x28d6c5c size 0x48 virtual true final true
+  /// @brief Method Dispose, addr 0x2a569a4, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method StartWithPreviousResolve addr 0x28d6ca4 size 0xe8 virtual false final false
+  /// @brief Method StartWithPreviousResolve, addr 0x2a569ec, size 0xe8, virtual false, abstract: false, final false
   inline void StartWithPreviousResolve(::UnityEngine::InputSystem::InputActionState* state, bool isFullResolve);
 
-  /// @brief Method AddActionMap addr 0x28d6d8c size 0x1610 virtual false final false
+  /// @brief Method AddActionMap, addr 0x2a56ad4, size 0x1610, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method InstantiateWithParameters addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstantiateWithParameters, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TType>
   inline int32_t InstantiateWithParameters(::UnityEngine::InputSystem::Utilities::TypeTable registrations, ::StringW namesAndParameters, ByRef<::ArrayW<TType, ::Array<TType>*>> array,
                                            ByRef<int32_t> count, ::UnityEngine::InputSystem::InputActionMap* actionMap, ByRef<::UnityEngine::InputSystem::InputBinding> binding);
 
-  /// @brief Method InstantiateBindingComposite addr 0x28d839c size 0x2f4 virtual false final false
+  /// @brief Method InstantiateBindingComposite, addr 0x2a580e4, size 0x2f4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBindingComposite* InstantiateBindingComposite(ByRef<::UnityEngine::InputSystem::InputBinding> binding,
                                                                                                ::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method ApplyParameters addr 0x28d88c8 size 0x684 virtual false final false
+  /// @brief Method ApplyParameters, addr 0x2a58610, size 0x684, virtual false, abstract: false, final false
   static inline void ApplyParameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters, ::System::Object* instance,
                                      ::UnityEngine::InputSystem::InputActionMap* actionMap, ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW objectRegistrationName,
                                      ::StringW namesAndParameters);
 
-  /// @brief Method AssignCompositePartIndex addr 0x28d8690 size 0x238 virtual false final false
+  /// @brief Method AssignCompositePartIndex, addr 0x2a583d8, size 0x238, virtual false, abstract: false, final false
   static inline int32_t AssignCompositePartIndex(::System::Object* composite, ::StringW name, ByRef<int32_t> currentCompositePartCount);
 
   // Ctor Parameters [CppParam { name: "totalProcessorCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "totalCompositeCount", ty: "int32_t", modifiers: "", def_value: None },

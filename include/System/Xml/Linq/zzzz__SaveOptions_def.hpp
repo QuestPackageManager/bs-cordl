@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Linq::SaveOptions);
 namespace System::Xml::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15450))
 // CS Name: ::System.Xml.Linq::SaveOptions
 struct CORDL_TYPE SaveOptions {
 public:

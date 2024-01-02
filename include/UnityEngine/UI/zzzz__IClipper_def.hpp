@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClipper);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13031))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13026))
 // CS Name: ::UnityEngine.UI::IClipper*
 class CORDL_TYPE IClipper {
 public:
   // Declarations
-  /// @brief Method PerformClipping addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PerformClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PerformClipping();
 
   // Ctor Parameters [CppParam { name: "", ty: "IClipper", modifiers: "&&", def_value: None }]

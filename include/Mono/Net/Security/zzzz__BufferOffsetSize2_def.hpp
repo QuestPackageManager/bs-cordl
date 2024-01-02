@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize2);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7652))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8815))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8816))
 // CS Name: ::Mono.Net.Security::BufferOffsetSize2*
 class CORDL_TYPE BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize {
 public:
@@ -33,16 +33,16 @@ public:
 
   static inline ::Mono::Net::Security::BufferOffsetSize2* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0x26a2f74 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x281df80, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method Reset addr 0x26a2fe4 size 0x5c virtual false final false
+  /// @brief Method Reset, addr 0x281dff0, size 0x5c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method MakeRoom addr 0x26a3040 size 0xb4 virtual false final false
+  /// @brief Method MakeRoom, addr 0x281e04c, size 0xb4, virtual false, abstract: false, final false
   inline void MakeRoom(int32_t size);
 
-  /// @brief Method AppendData addr 0x26a30f4 size 0x60 virtual false final false
+  /// @brief Method AppendData, addr 0x281e100, size 0x60, virtual false, abstract: false, final false
   inline void AppendData(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize2", modifiers: "&&", def_value: None }]

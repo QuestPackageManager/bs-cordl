@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ReflectionProbe)
 namespace UnityEngine {
 class Texture;
 }
-namespace UnityEngine {
-struct __ReflectionProbe__ReflectionProbeEvent;
-}
 namespace System {
 template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+struct __ReflectionProbe__ReflectionProbeEvent;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::ReflectionProbe);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10077))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10149))
 // CS Name: ::ReflectionProbe::ReflectionProbeEvent
 struct CORDL_TYPE __ReflectionProbe__ReflectionProbeEvent {
 public:
@@ -82,8 +82,8 @@ static_assert(offsetof(::UnityEngine::__ReflectionProbe__ReflectionProbeEvent, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10150))
 // CS Name: ::UnityEngine::ReflectionProbe*
 class CORDL_TYPE ReflectionProbe : public ::UnityEngine::Behaviour {
 public:
@@ -106,10 +106,10 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Texture*>* getStaticF_defaultReflectionTexture();
 
-  /// @brief Method CallReflectionProbeEvent addr 0x2b604b0 size 0x80 virtual false final false
+  /// @brief Method CallReflectionProbeEvent, addr 0x2cc68c8, size 0x80, virtual false, abstract: false, final false
   static inline void CallReflectionProbeEvent(::UnityEngine::ReflectionProbe* probe, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent probeEvent);
 
-  /// @brief Method CallSetDefaultReflection addr 0x2b60530 size 0x6c virtual false final false
+  /// @brief Method CallSetDefaultReflection, addr 0x2cc6948, size 0x6c, virtual false, abstract: false, final false
   static inline void CallSetDefaultReflection(::UnityEngine::Texture* defaultReflectionCubemap);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionProbe", modifiers: "&&", def_value: None }]

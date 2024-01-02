@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::TwistRelaxer);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12594))
 // CS Name: ::RootMotion.FinalIK::TwistRelaxer*
 class CORDL_TYPE TwistRelaxer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -118,24 +118,24 @@ public:
 
   constexpr void __set_axisRelativeToChildDefault(::UnityEngine::Vector3 value);
 
-  /// @brief Method Relax addr 0x1211b24 size 0x444 virtual false final false
+  /// @brief Method Relax, addr 0x1282e50, size 0x444, virtual false, abstract: false, final false
   inline void Relax();
 
-  /// @brief Method Start addr 0x1211f68 size 0x3a0 virtual false final false
+  /// @brief Method Start, addr 0x1283294, size 0x3a0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnPostUpdate addr 0x1212308 size 0x78 virtual false final false
+  /// @brief Method OnPostUpdate, addr 0x1283634, size 0x78, virtual false, abstract: false, final false
   inline void OnPostUpdate();
 
-  /// @brief Method LateUpdate addr 0x1212380 size 0x78 virtual false final false
+  /// @brief Method LateUpdate, addr 0x12836ac, size 0x78, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnDestroy addr 0x12123f8 size 0x118 virtual false final false
+  /// @brief Method OnDestroy, addr 0x1283724, size 0x118, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::TwistRelaxer* New_ctor();
 
-  /// @brief Method .ctor addr 0x1212510 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x128383c, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TwistRelaxer", modifiers: "&&", def_value: None }]

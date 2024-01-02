@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IEventPreProcessor);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6583))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6497))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IEventPreProcessor*
 class CORDL_TYPE IEventPreProcessor {
 public:
   // Declarations
-  /// @brief Method PreProcessEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PreProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool PreProcessEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr currentEventPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEventPreProcessor", modifiers: "&&", def_value: None }]

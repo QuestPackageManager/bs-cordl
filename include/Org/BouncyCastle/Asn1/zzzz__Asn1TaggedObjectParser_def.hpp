@@ -28,10 +28,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method get_TagNo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TagNo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_TagNo();
 
-  /// @brief Method GetObjectParser addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectParser, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1TaggedObjectParser", modifiers: "&&", def_value: None }]

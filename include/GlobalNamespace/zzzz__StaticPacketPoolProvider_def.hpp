@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(StaticPacketPoolProvider)
+namespace System {
+class Type;
+}
 namespace GlobalNamespace {
 class IPacketPool;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class ConcurrentDictionary_2;
-}
-namespace System {
-class Type;
 }
 namespace GlobalNamespace {
 template <typename T> class PacketPool_1;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticPacketPoolProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12728))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12810))
 // CS Name: ::StaticPacketPoolProvider*
 class CORDL_TYPE StaticPacketPoolProvider : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();
 
-  /// @brief Method GetPacketPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool addr 0xdb8568 size 0x90 virtual false final false
+  /// @brief Method TryGetPacketPool, addr 0xe3f4dc, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ByRef<::GlobalNamespace::IPacketPool*> pool);
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticPacketPoolProvider", modifiers: "&&", def_value: None }]

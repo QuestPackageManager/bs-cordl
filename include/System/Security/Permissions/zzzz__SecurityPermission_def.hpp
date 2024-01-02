@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Security/Permissions/zzzz__SecurityPermissionFlag_def.hpp"
 #include "System/Security/zzzz__CodeAccessPermission_def.hpp"
 CORDL_MODULE_EXPORT(SecurityPermission)
-namespace System::Security {
-class IPermission;
+namespace System::Security::Permissions {
+struct PermissionState;
 }
 namespace System::Security::Permissions {
 struct SecurityPermissionFlag;
 }
-namespace System::Security::Permissions {
-struct PermissionState;
+namespace System::Security {
+class IPermission;
 }
 namespace System::Security {
 class SecurityElement;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::Permissions::SecurityPermission);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Permissions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2903)), TypeDefinitionIndex(TypeDefinitionIndex(2878))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2902))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2882)), TypeDefinitionIndex(TypeDefinitionIndex(2907))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2906))
 // CS Name: ::System.Security.Permissions::SecurityPermission*
 class CORDL_TYPE SecurityPermission : public ::System::Security::CodeAccessPermission {
 public:
@@ -46,30 +46,30 @@ public:
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::PermissionState state);
 
-  /// @brief Method .ctor addr 0x22fd370 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2456e8c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::PermissionState state);
 
   static inline ::System::Security::Permissions::SecurityPermission* New_ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
-  /// @brief Method .ctor addr 0x22fd3b0 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2456ecc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Permissions::SecurityPermissionFlag flag);
 
-  /// @brief Method set_Flags addr 0x22fd3dc size 0xb8 virtual false final false
+  /// @brief Method set_Flags, addr 0x2456ef8, size 0xb8, virtual false, abstract: false, final false
   inline void set_Flags(::System::Security::Permissions::SecurityPermissionFlag value);
 
-  /// @brief Method IsUnrestricted addr 0x22fd494 size 0x14 virtual true final true
+  /// @brief Method IsUnrestricted, addr 0x2456fb0, size 0x14, virtual true, abstract: false, final true
   inline bool IsUnrestricted();
 
-  /// @brief Method IsSubsetOf addr 0x22fd4a8 size 0x58 virtual true final false
+  /// @brief Method IsSubsetOf, addr 0x2456fc4, size 0x58, virtual true, abstract: false, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
-  /// @brief Method ToXml addr 0x22fd5b4 size 0xec virtual true final false
+  /// @brief Method ToXml, addr 0x24570d0, size 0xec, virtual true, abstract: false, final false
   inline ::System::Security::SecurityElement* ToXml();
 
-  /// @brief Method IsEmpty addr 0x22fd5a4 size 0x10 virtual false final false
+  /// @brief Method IsEmpty, addr 0x24570c0, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method Cast addr 0x22fd500 size 0xa4 virtual false final false
+  /// @brief Method Cast, addr 0x245701c, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Permissions::SecurityPermission* Cast(::System::Security::IPermission* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityPermission", modifiers: "&&", def_value: None }]

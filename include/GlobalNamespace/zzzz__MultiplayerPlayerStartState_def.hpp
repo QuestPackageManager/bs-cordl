@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlayerStartState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5333))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5239))
 // CS Name: ::MultiplayerPlayerStartState
 struct CORDL_TYPE MultiplayerPlayerStartState {
 public:

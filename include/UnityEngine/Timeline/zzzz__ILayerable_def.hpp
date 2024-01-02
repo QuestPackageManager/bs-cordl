@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILayerable)
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
@@ -24,12 +24,12 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ILayerable);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13899))
 // CS Name: ::UnityEngine.Timeline::ILayerable*
 class CORDL_TYPE ILayerable {
 public:
   // Declarations
-  /// @brief Method CreateLayerMixer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateLayerMixer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::Playable CreateLayerMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayerable", modifiers: "&&", def_value: None }]

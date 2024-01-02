@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(WaypointData)
 namespace GlobalNamespace {
+class BeatmapDataItem;
+}
+namespace GlobalNamespace {
 struct NoteLineLayer;
 }
 namespace GlobalNamespace {
 struct OffsetDirection;
-}
-namespace GlobalNamespace {
-class BeatmapDataItem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14975)), TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(14964))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14768))
 // CS Name: ::WaypointData*
 class CORDL_TYPE WaypointData : public ::GlobalNamespace::BeatmapObjectData {
 public:
@@ -66,36 +66,36 @@ public:
 
   constexpr void __set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method get_offsetDirection addr 0xd9c294 size 0x8 virtual false final false
+  /// @brief Method get_offsetDirection, addr 0xe01ca4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
 
-  /// @brief Method set_offsetDirection addr 0xd9c29c size 0x8 virtual false final false
+  /// @brief Method set_offsetDirection, addr 0xe01cac, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetDirection(::GlobalNamespace::OffsetDirection value);
 
-  /// @brief Method get_lineIndex addr 0xd9c2a4 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex, addr 0xe01cb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method set_lineIndex addr 0xd9c2ac size 0x8 virtual false final false
+  /// @brief Method set_lineIndex, addr 0xe01cbc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method get_lineLayer addr 0xd9c2b4 size 0x8 virtual false final false
+  /// @brief Method get_lineLayer, addr 0xe01cc4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method set_lineLayer addr 0xd9c2bc size 0x8 virtual false final false
+  /// @brief Method set_lineLayer, addr 0xe01ccc, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method GetCopy addr 0xd9c2c4 size 0x90 virtual true final false
+  /// @brief Method GetCopy, addr 0xe01cd4, size 0x90, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
   static inline ::GlobalNamespace::WaypointData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method .ctor addr 0xd9c354 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0xe01d64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method Mirror addr 0xd9c3ac size 0x14 virtual true final false
+  /// @brief Method Mirror, addr 0xe01dbc, size 0x14, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
-  /// @brief Method MirrorTransformOffsetDirection addr 0xd9c3c0 size 0x24 virtual false final false
+  /// @brief Method MirrorTransformOffsetDirection, addr 0xe01dd0, size 0x24, virtual false, abstract: false, final false
   inline void MirrorTransformOffsetDirection();
 
   // Ctor Parameters [CppParam { name: "", ty: "WaypointData", modifiers: "&&", def_value: None }]

@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SymmetricKeyEncSessionPacket)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -79,28 +79,28 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115d178 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x11ce3c8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor addr 0x11639b8 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x11d4c08, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method get_EncAlgorithm addr 0x11639f8 size 0x8 virtual false final false
+  /// @brief Method get_EncAlgorithm, addr 0x11d4c48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag get_EncAlgorithm();
 
-  /// @brief Method get_S2k addr 0x1163a00 size 0x8 virtual false final false
+  /// @brief Method get_S2k, addr 0x11d4c50, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::S2k* get_S2k();
 
-  /// @brief Method GetSecKeyData addr 0x1163a08 size 0x8 virtual false final false
+  /// @brief Method GetSecKeyData, addr 0x11d4c58, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecKeyData();
 
-  /// @brief Method get_Version addr 0x1163a10 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x11d4c60, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method Encode addr 0x1163a18 size 0x15c virtual true final false
+  /// @brief Method Encode, addr 0x11d4c68, size 0x15c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricKeyEncSessionPacket", modifiers: "&&", def_value: None }]

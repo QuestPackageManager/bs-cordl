@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TypeNameFormatFlags);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2561))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2563))
 // CS Name: ::System::TypeNameFormatFlags
 struct CORDL_TYPE TypeNameFormatFlags {
 public:

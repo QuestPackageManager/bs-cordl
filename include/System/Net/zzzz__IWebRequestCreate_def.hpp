@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWebRequestCreate)
-namespace System {
-class Uri;
-}
 namespace System::Net {
 class WebRequest;
+}
+namespace System {
+class Uri;
 }
 // Forward declare root types
 namespace System::Net {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::Net::IWebRequestCreate);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7909))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9072))
 // CS Name: ::System.Net::IWebRequestCreate*
 class CORDL_TYPE IWebRequestCreate {
 public:
   // Declarations
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   // Ctor Parameters [CppParam { name: "", ty: "IWebRequestCreate", modifiers: "&&", def_value: None }]

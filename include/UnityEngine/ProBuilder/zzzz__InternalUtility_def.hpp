@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InternalUtility)
-namespace UnityEngine::ProBuilder {
-class __InternalUtility____c__DisplayClass7_0;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine {
 class Mesh;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-class Component;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+class Material;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
-class Material;
+class Component;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::ProBuilder {
+class __InternalUtility____c__DisplayClass7_0;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12058))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12130))
 // CS Name: ::InternalUtility::<>c__DisplayClass7_0*
 class CORDL_TYPE __InternalUtility____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -65,10 +65,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x29c46ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b46440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <TryParseColor>b__0 addr 0x29c49dc size 0x1c virtual false final false
+  /// @brief Method <TryParseColor>b__0, addr 0x2b46730, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryParseColor_b__0(char16_t c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InternalUtility____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -100,45 +100,45 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__InternalUtility____c__Displa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12059))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12131))
 // CS Name: ::UnityEngine.ProBuilder::InternalUtility*
 class CORDL_TYPE InternalUtility : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass7_0 = ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0;
 
-  /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* gameObjects);
 
-  /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::UnityEngine::GameObject* go);
 
-  /// @brief Method GetComponents addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* transforms);
 
-  /// @brief Method EmptyGameObjectWithTransform addr 0x29c4198 size 0xe8 virtual false final false
+  /// @brief Method EmptyGameObjectWithTransform, addr 0x2b45eec, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::GameObject* EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
-  /// @brief Method MeshGameObjectWithTransform addr 0x29c4280 size 0x11c virtual false final false
+  /// @brief Method MeshGameObjectWithTransform, addr 0x2b45fd4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GameObject* MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat, bool inheritParent);
 
-  /// @brief Method NextEnumValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T NextEnumValue(T current);
 
-  /// @brief Method ControlKeyString addr 0x29c439c size 0xf0 virtual false final false
+  /// @brief Method ControlKeyString, addr 0x2b460f0, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
-  /// @brief Method TryParseColor addr 0x29c448c size 0x260 virtual false final false
+  /// @brief Method TryParseColor, addr 0x2b461e0, size 0x260, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ByRef<::UnityEngine::Color> col);
 
-  /// @brief Method StringToVector3Array addr 0x29c46f4 size 0x2e8 virtual false final false
+  /// @brief Method StringToVector3Array, addr 0x2b46448, size 0x2e8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> StringToVector3Array(::StringW str);
 
-  /// @brief Method DemandComponent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DemandComponent(::UnityEngine::Component* component);
 
-  /// @brief Method DemandComponent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalUtility", modifiers: "&&", def_value: None }]

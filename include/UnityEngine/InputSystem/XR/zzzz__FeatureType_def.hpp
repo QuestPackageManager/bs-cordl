@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::FeatureType);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6333))
 // CS Name: ::UnityEngine.InputSystem.XR::FeatureType
 struct CORDL_TYPE FeatureType {
 public:

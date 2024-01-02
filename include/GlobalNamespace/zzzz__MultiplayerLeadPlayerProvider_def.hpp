@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLeadPlayerProvider)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
 }
 namespace GlobalNamespace {
 struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeadPlayerProvider);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5320))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5216))
 // CS Name: ::MultiplayerLeadPlayerProvider*
 class CORDL_TYPE MultiplayerLeadPlayerProvider : public ::UnityEngine::MonoBehaviour {
 public:
@@ -109,36 +109,36 @@ public:
 
   constexpr void __set__currentlyLeadingUser(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
 
-  /// @brief Method add_newLeaderWasSelectedEvent addr 0x210b4d4 size 0xb0 virtual false final false
+  /// @brief Method add_newLeaderWasSelectedEvent, addr 0x224ccf8, size 0xb0, virtual false, abstract: false, final false
   inline void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_newLeaderWasSelectedEvent addr 0x210b424 size 0xb0 virtual false final false
+  /// @brief Method remove_newLeaderWasSelectedEvent, addr 0x224cae4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method Start addr 0x210e4dc size 0xb0 virtual false final false
+  /// @brief Method Start, addr 0x224fd60, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x210e59c size 0x164 virtual false final false
+  /// @brief Method OnDestroy, addr 0x224fe20, size 0x160, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x210e700 size 0x98 virtual false final false
+  /// @brief Method Update, addr 0x2250030, size 0x94, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StopProviding addr 0x210e798 size 0x9c virtual false final false
+  /// @brief Method StopProviding, addr 0x225017c, size 0x98, virtual false, abstract: false, final false
   inline void StopProviding();
 
-  /// @brief Method StartProviding addr 0x210e834 size 0xa0 virtual false final false
+  /// @brief Method StartProviding, addr 0x2250214, size 0x9c, virtual false, abstract: false, final false
   inline void StartProviding();
 
-  /// @brief Method HandleStateChanged addr 0x210e58c size 0x10 virtual false final false
+  /// @brief Method HandleStateChanged, addr 0x224fe10, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HandleFirstPlayerDidChange addr 0x210e8d4 size 0xf4 virtual false final false
+  /// @brief Method HandleFirstPlayerDidChange, addr 0x22502b0, size 0xe8, virtual false, abstract: false, final false
   inline void HandleFirstPlayerDidChange(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* firstPlayer);
 
   static inline ::GlobalNamespace::MultiplayerLeadPlayerProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e9c8 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2250498, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeadPlayerProvider", modifiers: "&&", def_value: None }]

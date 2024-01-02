@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_EnvIntType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9645))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9718))
 // CS Name: ::HoudiniEngineUnity::HAPI_EnvIntType
 struct CORDL_TYPE HAPI_EnvIntType {
 public:

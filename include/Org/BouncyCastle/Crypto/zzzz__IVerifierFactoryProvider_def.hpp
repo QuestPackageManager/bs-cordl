@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVerifierFactoryProvider)
-namespace Org::BouncyCastle::Crypto {
-class IVerifierFactory;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactory;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IVerifierFactoryProvider {
 public:
   // Declarations
-  /// @brief Method CreateVerifierFactory addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateVerifierFactory, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IVerifierFactory* CreateVerifierFactory(::System::Object* algorithmDetails);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVerifierFactoryProvider", modifiers: "&&", def_value: None }]

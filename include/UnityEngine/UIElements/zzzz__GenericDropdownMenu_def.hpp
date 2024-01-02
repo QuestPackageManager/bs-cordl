@@ -10,62 +10,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericDropdownMenu)
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-struct __GenericDropdownMenu____c__DisplayClass25_0;
-}
-namespace UnityEngine::UIElements {
-struct KeyboardNavigationOperation;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
-}
-namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class __GenericDropdownMenu__MenuItem;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class DetachFromPanelEvent;
-}
-namespace UnityEngine::UIElements {
-class KeyboardNavigationManipulator;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class PointerDownEvent;
-}
-namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
-}
-namespace System {
-class Action;
 }
 namespace UnityEngine::UIElements {
 class IGenericMenu;
 }
 namespace UnityEngine::UIElements {
+class __GenericDropdownMenu__MenuItem;
+}
+namespace UnityEngine::UIElements {
+class PointerDownEvent;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace UnityEngine::UIElements {
+class KeyboardNavigationManipulator;
+}
+namespace UnityEngine::UIElements {
+class ScrollView;
+}
+namespace UnityEngine::UIElements {
+struct __GenericDropdownMenu____c__DisplayClass25_0;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
 class FocusOutEvent;
+}
+namespace UnityEngine::UIElements {
+struct KeyboardNavigationOperation;
+}
+namespace UnityEngine::UIElements {
+class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
+}
+namespace System {
+class Object;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -88,8 +88,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7073))
 // CS Name: ::GenericDropdownMenu::MenuItem*
 class CORDL_TYPE __GenericDropdownMenu__MenuItem : public ::System::Object {
 public:
@@ -132,7 +132,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc8948 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e2fcf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GenericDropdownMenu__MenuItem", modifiers: "&&", def_value: None }]
@@ -180,7 +180,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu__MenuIte
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7074))
 // CS Name: ::GenericDropdownMenu::<>c__DisplayClass25_0
 struct CORDL_TYPE __GenericDropdownMenu____c__DisplayClass25_0 {
 public:
@@ -216,8 +216,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu____c__Di
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7161))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UnityEngine.UIElements::GenericDropdownMenu*
 class CORDL_TYPE GenericDropdownMenu : public ::System::Object {
 public:
@@ -361,78 +361,81 @@ public:
 
   static inline ::StringW getStaticF_separatorUssClassName();
 
-  /// @brief Method get_contentContainer addr 0x2cc7058 size 0x24 virtual false final false
+  /// @brief Method get_contentContainer, addr 0x2e2e408, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   static inline ::UnityEngine::UIElements::GenericDropdownMenu* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc0fc8 size 0x2d4 virtual false final false
+  /// @brief Method .ctor, addr 0x2e28378, size 0x2d4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnAttachToPanel addr 0x2cc707c size 0x438 virtual false final false
+  /// @brief Method OnAttachToPanel, addr 0x2e2e42c, size 0x438, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnDetachFromPanel addr 0x2cc74b4 size 0x494 virtual false final false
+  /// @brief Method OnDetachFromPanel, addr 0x2e2e864, size 0x494, virtual false, abstract: false, final false
   inline void OnDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method Hide addr 0x2cc7948 size 0xe8 virtual false final false
+  /// @brief Method Hide, addr 0x2e2ecf8, size 0xe8, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method Apply addr 0x2cc7a30 size 0x3c virtual false final false
+  /// @brief Method Apply, addr 0x2e2ede0, size 0x3c, virtual false, abstract: false, final false
   inline void Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op, ::UnityEngine::UIElements::EventBase* sourceEvent);
 
-  /// @brief Method Apply addr 0x2cc7a6c size 0x184 virtual false final false
+  /// @brief Method Apply, addr 0x2e2ee1c, size 0x184, virtual false, abstract: false, final false
   inline bool Apply(::UnityEngine::UIElements::KeyboardNavigationOperation op);
 
-  /// @brief Method OnPointerDown addr 0x2cc7df4 size 0x12c virtual false final false
+  /// @brief Method OnPointerDown, addr 0x2e2f1a4, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt);
 
-  /// @brief Method OnPointerMove addr 0x2cc8048 size 0x12c virtual false final false
+  /// @brief Method OnPointerMove, addr 0x2e2f3f8, size 0x12c, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
-  /// @brief Method OnPointerUp addr 0x2cc8174 size 0x13c virtual false final false
+  /// @brief Method OnPointerUp, addr 0x2e2f524, size 0x13c, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* evt);
 
-  /// @brief Method OnFocusOut addr 0x2cc82b0 size 0x148 virtual false final false
+  /// @brief Method OnFocusOut, addr 0x2e2f660, size 0x148, virtual false, abstract: false, final false
   inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnParentResized addr 0x2cc83f8 size 0x4 virtual false final false
+  /// @brief Method OnParentResized, addr 0x2e2f7a8, size 0x4, virtual false, abstract: false, final false
   inline void OnParentResized(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method UpdateSelection addr 0x2cc7f20 size 0x128 virtual false final false
+  /// @brief Method UpdateSelection, addr 0x2e2f2d0, size 0x128, virtual false, abstract: false, final false
   inline void UpdateSelection(::UnityEngine::UIElements::VisualElement* target);
 
-  /// @brief Method ChangeSelectedIndex addr 0x2cc83fc size 0x134 virtual false final false
+  /// @brief Method ChangeSelectedIndex, addr 0x2e2f7ac, size 0x134, virtual false, abstract: false, final false
   inline void ChangeSelectedIndex(int32_t newIndex, int32_t previousIndex);
 
-  /// @brief Method GetSelectedIndex addr 0x2cc7bf0 size 0xa0 virtual false final false
+  /// @brief Method GetSelectedIndex, addr 0x2e2efa0, size 0xa0, virtual false, abstract: false, final false
   inline int32_t GetSelectedIndex();
 
-  /// @brief Method AddItem addr 0x2cc8530 size 0x28 virtual true final true
+  /// @brief Method AddItem, addr 0x2e2f8e0, size 0x28, virtual true, abstract: false, final true
   inline void AddItem(::StringW itemName, bool isChecked, ::System::Action* action);
 
-  /// @brief Method AddSeparator addr 0x2cc8898 size 0xb0 virtual true final true
+  /// @brief Method AddSeparator, addr 0x2e2fc48, size 0xb0, virtual true, abstract: false, final true
   inline void AddSeparator(::StringW path);
 
-  /// @brief Method AddItem addr 0x2cc8558 size 0x340 virtual false final false
-  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data);
+  /// @brief Method AddItem, addr 0x2e2f908, size 0x340, virtual false, abstract: false, final false
+  /// @param data: ::System::Object* (default: nullptr)
+  inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* AddItem(::StringW itemName, bool isChecked, bool isEnabled, ::System::Object* data = nullptr);
 
-  /// @brief Method DropDown addr 0x2cc8950 size 0x75c virtual true final true
-  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement, bool anchored);
+  /// @brief Method DropDown, addr 0x2e2fd00, size 0x75c, virtual true, abstract: false, final true
+  /// @param targetElement: ::UnityEngine::UIElements::VisualElement* (default: nullptr)
+  /// @param anchored: bool (default: false)
+  inline void DropDown(::UnityEngine::Rect position, ::UnityEngine::UIElements::VisualElement* targetElement = nullptr, bool anchored = false);
 
-  /// @brief Method OnTargetElementDetachFromPanel addr 0x2cc9790 size 0x4 virtual false final false
+  /// @brief Method OnTargetElementDetachFromPanel, addr 0x2e30b40, size 0x4, virtual false, abstract: false, final false
   inline void OnTargetElementDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method OnContainerGeometryChanged addr 0x2cc9794 size 0x4 virtual false final false
+  /// @brief Method OnContainerGeometryChanged, addr 0x2e30b44, size 0x4, virtual false, abstract: false, final false
   inline void OnContainerGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method EnsureVisibilityInParent addr 0x2cc90ac size 0x6e4 virtual false final false
+  /// @brief Method EnsureVisibilityInParent, addr 0x2e3045c, size 0x6e4, virtual false, abstract: false, final false
   inline void EnsureVisibilityInParent();
 
-  /// @brief Method <Apply>g__UpdateSelectionDown|25_0 addr 0x2cc7d38 size 0xbc virtual false final false
+  /// @brief Method <Apply>g__UpdateSelectionDown|25_0, addr 0x2e2f0e8, size 0xbc, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionDown_25_0(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method <Apply>g__UpdateSelectionUp|25_1 addr 0x2cc7c90 size 0xa8 virtual false final false
+  /// @brief Method <Apply>g__UpdateSelectionUp|25_1, addr 0x2e2f040, size 0xa8, virtual false, abstract: false, final false
   inline void _Apply_g__UpdateSelectionUp_25_1(int32_t newIndex, ByRef<::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25_0> _cordl_fixed_empty_name_whitespace);
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericDropdownMenu", modifiers: "&&", def_value: None }]

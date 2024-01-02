@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IFilePathSongAudioClipProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5892))
 // CS Name: ::IFilePathSongAudioClipProvider*
 class CORDL_TYPE IFilePathSongAudioClipProvider {
 public:
   // Declarations
   __declspec(property(get = get_songAudioClipPath))::StringW songAudioClipPath;
 
-  /// @brief Method get_songAudioClipPath addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songAudioClipPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_songAudioClipPath();
 
   // Ctor Parameters [CppParam { name: "", ty: "IFilePathSongAudioClipProvider", modifiers: "&&", def_value: None }]

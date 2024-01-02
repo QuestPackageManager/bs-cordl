@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::WebHeaderCollectionType);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7926))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9089))
 // CS Name: ::System.Net::WebHeaderCollectionType
 struct CORDL_TYPE WebHeaderCollectionType {
 public:

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(EnableDeviceCommand)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6464))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::EnableDeviceCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE EnableDeviceCommand {
@@ -46,13 +46,13 @@ public:
 
   constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type addr 0x296778c size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae74d4, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x29677bc size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae7504, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x29677ec size 0x34 virtual false final false
+  /// @brief Method Create, addr 0x2ae7534, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }]

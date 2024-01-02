@@ -7,20 +7,20 @@ CORDL_MODULE_EXPORT(AsyncComputeManager)
 namespace GlobalNamespace {
 class AsyncComputeOperation;
 }
+namespace System::Threading {
+class Thread;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::Collections::Concurrent {
 template <typename T> class BlockingCollection_1;
 }
 namespace GlobalNamespace {
 class IAsyncComputeManager;
 }
-namespace System::Threading {
-class Thread;
-}
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12606))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12678))
 // CS Name: ::AsyncComputeManager*
 class CORDL_TYPE AsyncComputeManager : public ::System::Object {
 public:
@@ -77,19 +77,19 @@ public:
 
   static inline ::GlobalNamespace::AsyncComputeManager* New_ctor();
 
-  /// @brief Method .ctor addr 0xda32c0 size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0xe28f58, size 0x140, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose addr 0xda3400 size 0x68 virtual true final true
+  /// @brief Method Dispose, addr 0xe29098, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method BeginOperation addr 0xda3468 size 0x58 virtual true final true
+  /// @brief Method BeginOperation, addr 0xe29100, size 0x58, virtual true, abstract: false, final true
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* operation);
 
-  /// @brief Method BeginOperation addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* operation);
 
-  /// @brief Method ComputeThreadRun addr 0xda34c0 size 0x160 virtual false final false
+  /// @brief Method ComputeThreadRun, addr 0xe29158, size 0x160, virtual false, abstract: false, final false
   inline void ComputeThreadRun();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeManager", modifiers: "&&", def_value: None }]

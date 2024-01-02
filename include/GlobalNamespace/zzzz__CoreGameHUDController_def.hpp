@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__CoreGameHUDController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5136))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5031))
 // CS Name: ::CoreGameHUDController::InitData*
 class CORDL_TYPE __CoreGameHUDController__InitData : public ::System::Object {
 public:
@@ -64,7 +64,7 @@ public:
 
   static inline ::GlobalNamespace::__CoreGameHUDController__InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
-  /// @brief Method .ctor addr 0x2286cfc size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x23c0068, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CoreGameHUDController__InitData", modifiers: "&&", def_value: None }]
@@ -106,8 +106,8 @@ static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5137))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5032))
 // CS Name: ::CoreGameHUDController*
 class CORDL_TYPE CoreGameHUDController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -169,27 +169,27 @@ public:
 
   constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
 
-  /// @brief Method get_songProgressPanelGO addr 0x2286c28 size 0x8 virtual false final false
+  /// @brief Method get_songProgressPanelGO, addr 0x23bff94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_songProgressPanelGO();
 
-  /// @brief Method get_relativeScoreGo addr 0x2286c30 size 0x8 virtual false final false
+  /// @brief Method get_relativeScoreGo, addr 0x23bff9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_relativeScoreGo();
 
-  /// @brief Method get_immediateRankGo addr 0x2286c38 size 0x8 virtual false final false
+  /// @brief Method get_immediateRankGo, addr 0x23bffa4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_immediateRankGo();
 
-  /// @brief Method get_energyPanelGo addr 0x2286c40 size 0x8 virtual false final false
+  /// @brief Method get_energyPanelGo, addr 0x23bffac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_energyPanelGo();
 
-  /// @brief Method set_alpha addr 0x2286c48 size 0x1c virtual false final false
+  /// @brief Method set_alpha, addr 0x23bffb4, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method Initialize addr 0x2286c64 size 0x90 virtual false final false
+  /// @brief Method Initialize, addr 0x23bffd0, size 0x90, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::__CoreGameHUDController__InitData* initData);
 
   static inline ::GlobalNamespace::CoreGameHUDController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2286cf4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23c0060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CoreGameHUDController", modifiers: "&&", def_value: None }]

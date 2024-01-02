@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHBasicKeyPairGenerator)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
+class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(892))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHBasicKeyPairGenerator*
 class CORDL_TYPE DHBasicKeyPairGenerator : public ::System::Object {
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
 
-  /// @brief Method Init addr 0xe82080 size 0xa4 virtual true final false
+  /// @brief Method Init, addr 0xef7254, size 0xa4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xe82124 size 0x13c virtual true final false
+  /// @brief Method GenerateKeyPair, addr 0xef72f8, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe82450 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xef7624, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHBasicKeyPairGenerator", modifiers: "&&", def_value: None }]

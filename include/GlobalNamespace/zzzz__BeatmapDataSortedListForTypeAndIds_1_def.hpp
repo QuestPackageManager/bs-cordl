@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataSortedListForTypeAndIds_1)
-namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+namespace GlobalNamespace {
+template <typename T> class ISortedList_1;
 }
-namespace System {
-class Type;
+namespace GlobalNamespace {
+template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -18,17 +18,17 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
-namespace GlobalNamespace {
-template <typename T> class ISortedListItemProcessor_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace GlobalNamespace {
-template <typename T> class ISortedList_1;
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+class Type;
 }
 namespace GlobalNamespace {
-template <typename TBase> class __BeatmapDataSortedListForTypeAndIds_1____c;
+template <typename T> class ISortedListItemProcessor_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -49,8 +49,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4256))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1::<>c<TBase>*
 class CORDL_TYPE __BeatmapDataSortedListForTypeAndIds_1____c : public ::System::Object {
 public:
@@ -79,13 +79,13 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataSortedListForTypeAndIds_1____c<TBase>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_sortedListHeads>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_sortedListHeads>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<TBase>* _get_sortedListHeads_b__1_0(::GlobalNamespace::ISortedList_1<TBase>* listItem);
 
-  /// @brief Method <get_sortedListHeads>b__1_1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_sortedListHeads>b__1_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _get_sortedListHeads_b__1_1(::System::Collections::Generic::LinkedListNode_1<TBase>* head);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataSortedListForTypeAndIds_1____c", modifiers: "&&", def_value: None }]
@@ -112,8 +112,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4289))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4257))
 // CS Name: ::BeatmapDataSortedListForTypeAndIds`1<TBase>*
 class CORDL_TYPE BeatmapDataSortedListForTypeAndIds_1 : public ::System::Object {
 public:
@@ -155,30 +155,30 @@ public:
 
   constexpr void __set__itemToNodeMap(::System::Collections::Generic::Dictionary_2<TBase, ::System::Collections::Generic::LinkedListNode_1<TBase>*>* value);
 
-  /// @brief Method get_sortedListHeads addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_sortedListHeads, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::LinkedListNode_1<TBase>*, ::Array<::System::Collections::Generic::LinkedListNode_1<TBase>*>*> get_sortedListHeads();
 
-  /// @brief Method InsertItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InsertItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<TBase>* InsertItem(TBase item);
 
-  /// @brief Method RemoveItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveItem(TBase item);
 
-  /// @brief Method GetCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline int32_t GetCount(int32_t typeIdentifier);
 
-  /// @brief Method GetItems addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::System::Collections::Generic::IEnumerable_1<T>* GetItems(int32_t typeIdentifier);
 
-  /// @brief Method GetList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ISortedList_1<TBase>* GetList(::System::Type* type, int32_t typeIdentifier);
 
-  /// @brief Method RemoveList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveList(::System::Type* type, int32_t typeIdentifier);
 
   static inline ::GlobalNamespace::BeatmapDataSortedListForTypeAndIds_1<TBase>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataSortedListForTypeAndIds_1", modifiers: "&&", def_value: None }]

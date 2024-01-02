@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::VmpcMac);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(948))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::VmpcMac*
 class CORDL_TYPE VmpcMac : public ::System::Object {
@@ -133,33 +133,33 @@ public:
 
   constexpr void __set_x4(uint8_t value);
 
-  /// @brief Method DoFinal addr 0xe9c290 size 0x448 virtual true final false
+  /// @brief Method DoFinal, addr 0xf11470, size 0x448, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method get_AlgorithmName addr 0xe9c6d8 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xf118b8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetMacSize addr 0xe9c718 size 0x8 virtual true final false
+  /// @brief Method GetMacSize, addr 0xf118f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Init addr 0xe9c720 size 0x1b0 virtual true final false
+  /// @brief Method Init, addr 0xf11900, size 0x1b0, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method initKey addr 0xe9c8d0 size 0x1fc virtual false final false
+  /// @brief Method initKey, addr 0xf11ab0, size 0x1fc, virtual false, abstract: false, final false
   inline void initKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes);
 
-  /// @brief Method Reset addr 0xe9cacc size 0x9c virtual true final false
+  /// @brief Method Reset, addr 0xf11cac, size 0x9c, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update addr 0xe9cb68 size 0x24c virtual true final false
+  /// @brief Method Update, addr 0xf11d48, size 0x24c, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xe9cdb4 size 0xf4 virtual true final false
+  /// @brief Method BlockUpdate, addr 0xf11f94, size 0xf4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::VmpcMac* New_ctor();
 
-  /// @brief Method .ctor addr 0xe9cea8 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0xf12088, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VmpcMac", modifiers: "&&", def_value: None }]

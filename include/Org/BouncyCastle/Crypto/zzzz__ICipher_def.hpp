@@ -25,13 +25,13 @@ public:
   // Declarations
   __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
-  /// @brief Method GetMaxOutputSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMaxOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetUpdateOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method get_Stream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Stream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* get_Stream();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipher", modifiers: "&&", def_value: None }]

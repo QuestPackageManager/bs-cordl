@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IEventMerger);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6582))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6496))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IEventMerger*
 class CORDL_TYPE IEventMerger {
 public:
   // Declarations
-  /// @brief Method MergeForward addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MergeForward, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MergeForward(::UnityEngine::InputSystem::LowLevel::InputEventPtr currentEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr nextEventPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEventMerger", modifiers: "&&", def_value: None }]

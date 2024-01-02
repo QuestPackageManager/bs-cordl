@@ -61,19 +61,19 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::LiteralDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115d94c size 0x1bc virtual false final false
+  /// @brief Method .ctor, addr 0x11ceb9c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Format addr 0x1160a3c size 0x8 virtual false final false
+  /// @brief Method get_Format, addr 0x11d1c8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Format();
 
-  /// @brief Method get_ModificationTime addr 0x1160a44 size 0x8 virtual false final false
+  /// @brief Method get_ModificationTime, addr 0x11d1c94, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ModificationTime();
 
-  /// @brief Method get_FileName addr 0x1160a4c size 0xc virtual false final false
+  /// @brief Method get_FileName, addr 0x11d1c9c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method GetRawFileName addr 0x1160a58 size 0x5c virtual false final false
+  /// @brief Method GetRawFileName, addr 0x11d1ca8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawFileName();
 
   // Ctor Parameters [CppParam { name: "", ty: "LiteralDataPacket", modifiers: "&&", def_value: None }]

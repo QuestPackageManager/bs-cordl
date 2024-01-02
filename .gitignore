@@ -2,3 +2,4 @@ build/
 extern/
 ndkpath.txt
 *.cmake
+!cmake/*.cmake

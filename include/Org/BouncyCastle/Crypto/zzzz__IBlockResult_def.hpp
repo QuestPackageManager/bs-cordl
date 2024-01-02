@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IBlockResult {
 public:
   // Declarations
-  /// @brief Method Collect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Collect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Collect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> destination, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBlockResult", modifiers: "&&", def_value: None }]

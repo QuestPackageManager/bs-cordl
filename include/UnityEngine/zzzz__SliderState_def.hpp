@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::SliderState);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14815))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14598))
 // CS Name: ::UnityEngine::SliderState*
 class CORDL_TYPE SliderState : public ::System::Object {
 public:
   // Declarations
   static inline ::UnityEngine::SliderState* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b95e58 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cfe268, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderState", modifiers: "&&", def_value: None }]

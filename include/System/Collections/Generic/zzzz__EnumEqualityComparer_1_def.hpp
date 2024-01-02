@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumEqualityComparer_1)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
@@ -16,6 +13,9 @@ class ISerializable;
 }
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -29,8 +29,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3857), inst: 1632 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3862))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1699 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
 // CS Name: ::System.Collections.Generic::EnumEqualityComparer`1<T>*
 class CORDL_TYPE EnumEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:
@@ -38,30 +38,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(T obj);
 
   static inline ::System::Collections::Generic::EnumEqualityComparer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::EnumEqualityComparer_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* information,
                                                                                     ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* information, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumEqualityComparer_1", modifiers: "&&", def_value: None }]

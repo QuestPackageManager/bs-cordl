@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Threading::IAsyncLocal);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2658))
 // CS Name: ::System.Threading::IAsyncLocal*
 class CORDL_TYPE IAsyncLocal {
 public:
   // Declarations
-  /// @brief Method OnValueChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnValueChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnValueChanged(::System::Object* previousValue, ::System::Object* currentValue, bool contextChanged);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncLocal", modifiers: "&&", def_value: None }]

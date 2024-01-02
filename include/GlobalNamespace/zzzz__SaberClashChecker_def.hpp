@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberClashChecker)
 namespace GlobalNamespace {
-class SaberManager;
+class Saber;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-class Saber;
+class SaberManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberClashChecker);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5389))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5294))
 // CS Name: ::SaberClashChecker*
 class CORDL_TYPE SaberClashChecker : public ::System::Object {
 public:
@@ -78,18 +78,18 @@ public:
 
   constexpr void __set__prevGetFrameNum(int32_t value);
 
-  /// @brief Method Init addr 0x211fa34 size 0x1c virtual false final false
+  /// @brief Method Init, addr 0x2263c04, size 0x1c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
-  /// @brief Method AreSabersClashing addr 0x211b7c4 size 0x164 virtual false final false
+  /// @brief Method AreSabersClashing, addr 0x225f95c, size 0x164, virtual false, abstract: false, final false
   inline bool AreSabersClashing(ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method SegmentToSegmentDist addr 0x211fa50 size 0x268 virtual false final false
+  /// @brief Method SegmentToSegmentDist, addr 0x2263c20, size 0x268, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB, ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x211fcb8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2263e88, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberClashChecker", modifiers: "&&", def_value: None }]

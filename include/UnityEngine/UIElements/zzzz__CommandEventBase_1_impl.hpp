@@ -1,8 +1,8 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICommandEvent_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ICommandEvent_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
 template <typename T> constexpr UnityEngine::UIElements::CommandEventBase_1<T>::operator ::UnityEngine::UIElements::ICommandEvent*() noexcept {
   return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
@@ -31,8 +31,8 @@ template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::Init() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::LocalInit() {

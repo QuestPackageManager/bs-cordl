@@ -16,7 +16,7 @@ MARK_VAL_T(::RootMotion::FinalIK::FullBodyBipedEffector);
 namespace RootMotion::FinalIK {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12571))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedEffector
 struct CORDL_TYPE FullBodyBipedEffector {
 public:

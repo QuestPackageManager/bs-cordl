@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ScriptPlayableBinding)
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayableBinding;
 }
 namespace System {
 class Type;
 }
+namespace UnityEngine {
+class Object;
+}
 namespace UnityEngine::Playables {
-struct PlayableBinding;
+struct PlayableOutput;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
-}
-namespace UnityEngine {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -30,16 +30,16 @@ MARK_REF_PTR_T(::UnityEngine::Playables::ScriptPlayableBinding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10432))
 // CS Name: ::UnityEngine.Playables::ScriptPlayableBinding*
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x2b8de00 size 0xbc virtual false final false
+  /// @brief Method Create, addr 0x2cf6140, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput addr 0x2b8debc size 0x4 virtual false final false
+  /// @brief Method CreateScriptOutput, addr 0x2cf61fc, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptPlayableBinding", modifiers: "&&", def_value: None }]

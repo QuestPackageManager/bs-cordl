@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6581))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6495))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ICustomDeviceReset*
 class CORDL_TYPE ICustomDeviceReset {
 public:
   // Declarations
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomDeviceReset", modifiers: "&&", def_value: None }]

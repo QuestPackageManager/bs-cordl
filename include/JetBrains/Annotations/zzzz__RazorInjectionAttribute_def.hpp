@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorInjectionAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15752))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15802))
 // CS Name: ::JetBrains.Annotations::RazorInjectionAttribute*
 class CORDL_TYPE RazorInjectionAttribute : public ::System::Attribute {
 public:
@@ -45,19 +45,19 @@ public:
 
   static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method .ctor addr 0x2d52b20 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2eba8a0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW fieldName);
 
-  /// @brief Method get_Type addr 0x2d52b4c size 0x8 virtual false final false
+  /// @brief Method get_Type, addr 0x2eba8cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method set_Type addr 0x2d52b54 size 0x8 virtual false final false
+  /// @brief Method set_Type, addr 0x2eba8d4, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::StringW value);
 
-  /// @brief Method get_FieldName addr 0x2d52b5c size 0x8 virtual false final false
+  /// @brief Method get_FieldName, addr 0x2eba8dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method set_FieldName addr 0x2d52b64 size 0x8 virtual false final false
+  /// @brief Method set_FieldName, addr 0x2eba8e4, size 0x8, virtual false, abstract: false, final false
   inline void set_FieldName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None }]

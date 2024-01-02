@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
-namespace UnityEngine::Pool {
-template <typename T> class IObjectPool_1;
-}
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 namespace UnityEngine::Pool {
 template <typename T> struct PooledObject_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Pool {
+template <typename T> class IObjectPool_1;
+}
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -36,8 +36,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10446))
 // CS Name: ::UnityEngine.Pool::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
@@ -124,35 +124,41 @@ public:
 
   constexpr void __set__CountAll_k__BackingField(int32_t value);
 
-  /// @brief Method get_CountAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CountAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CountAll();
 
-  /// @brief Method set_CountAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_CountAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_CountAll(int32_t value);
 
-  /// @brief Method get_CountInactive addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_CountInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_CountInactive();
 
   static inline ::UnityEngine::Pool::ObjectPool_1<T>* New_ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease,
                                                                ::System::Action_1<T>* actionOnDestroy, bool collectionCheck, int32_t defaultCapacity, int32_t maxSize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet, ::System::Action_1<T>* actionOnRelease, ::System::Action_1<T>* actionOnDestroy, bool collectionCheck,
-                    int32_t defaultCapacity, int32_t maxSize);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param actionOnGet: ::System::Action_1<T>* (default: nullptr)
+  /// @param actionOnRelease: ::System::Action_1<T>* (default: nullptr)
+  /// @param actionOnDestroy: ::System::Action_1<T>* (default: nullptr)
+  /// @param collectionCheck: bool (default: true)
+  /// @param defaultCapacity: int32_t (default: static_cast<int32_t>(0xa))
+  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x2710))
+  inline void _ctor(::System::Func_1<T>* createFunc, ::System::Action_1<T>* actionOnGet = nullptr, ::System::Action_1<T>* actionOnRelease = nullptr, ::System::Action_1<T>* actionOnDestroy = nullptr,
+                    bool collectionCheck = true, int32_t defaultCapacity = static_cast<int32_t>(0xa), int32_t maxSize = static_cast<int32_t>(0x2710));
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Get();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Pool::PooledObject_1<T> Get(ByRef<T> v);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Release(T element);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]

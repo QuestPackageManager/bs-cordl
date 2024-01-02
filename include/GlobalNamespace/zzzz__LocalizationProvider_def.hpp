@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizationProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15545))
 // CS Name: ::LocalizationProvider*
 class CORDL_TYPE LocalizationProvider : public ::UnityEngine::ScriptableObject {
 public:
@@ -41,21 +41,21 @@ public:
 
   static inline ::GlobalNamespace::LocalizationProvider* getStaticF__instance();
 
-  /// @brief Method get_localization addr 0x2685c88 size 0x8 virtual false final false
+  /// @brief Method get_localization, addr 0x28008ac, size 0x8, virtual false, abstract: false, final false
   inline ::Polyglot::Localization* get_localization();
 
-  /// @brief Method get_Instance addr 0x2685c90 size 0x94 virtual false final false
+  /// @brief Method get_Instance, addr 0x28008b4, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LocalizationProvider* get_Instance();
 
-  /// @brief Method set_Instance addr 0x2685e0c size 0x4c virtual false final false
+  /// @brief Method set_Instance, addr 0x2800a30, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::GlobalNamespace::LocalizationProvider* value);
 
-  /// @brief Method get_HasInstance addr 0x2685d24 size 0xe8 virtual false final false
+  /// @brief Method get_HasInstance, addr 0x2800948, size 0xe8, virtual false, abstract: false, final false
   static inline bool get_HasInstance();
 
   static inline ::GlobalNamespace::LocalizationProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2685e58 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2800a7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizationProvider", modifiers: "&&", def_value: None }]

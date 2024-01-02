@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(GameplayModifierToggle)
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+class HoverTextSetter;
 }
 namespace UnityEngine::UI {
 class Toggle;
 }
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
+}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace HMUI {
-class HoverTextSetter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierToggle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5530))
 // CS Name: ::GameplayModifierToggle*
 class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,18 +103,18 @@ public:
 
   constexpr void __set__positiveColor(::UnityEngine::Color value);
 
-  /// @brief Method get_toggle addr 0x2159228 size 0x8 virtual false final false
+  /// @brief Method get_toggle, addr 0x229e1ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Toggle* get_toggle();
 
-  /// @brief Method get_gameplayModifier addr 0x2159230 size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifier, addr 0x229e1b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
 
-  /// @brief Method Start addr 0x2159238 size 0x37c virtual false final false
+  /// @brief Method Start, addr 0x229e1bc, size 0x37c, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::GameplayModifierToggle* New_ctor();
 
-  /// @brief Method .ctor addr 0x21595b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229e538, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierToggle", modifiers: "&&", def_value: None }]

@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattableStringFactory)
-namespace System {
-class Object;
-}
 namespace System::Runtime::CompilerServices {
 class __FormattableStringFactory__ConcreteFormattableString;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class FormattableString;
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::__FormattableStringFactory__
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2383))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3370))
 // CS Name: ::FormattableStringFactory::ConcreteFormattableString*
 class CORDL_TYPE __FormattableStringFactory__ConcreteFormattableString : public ::System::FormattableString {
 public:
@@ -65,22 +65,22 @@ public:
   static inline ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString* New_ctor(::StringW format,
                                                                                                                      ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method .ctor addr 0x2381774 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x24db164, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method get_Format addr 0x23817a0 size 0x8 virtual true final false
+  /// @brief Method get_Format, addr 0x24db190, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method GetArguments addr 0x23817a8 size 0x8 virtual true final false
+  /// @brief Method GetArguments, addr 0x24db198, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArguments();
 
-  /// @brief Method get_ArgumentCount addr 0x23817b0 size 0x1c virtual true final false
+  /// @brief Method get_ArgumentCount, addr 0x24db1a0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method GetArgument addr 0x23817cc size 0x30 virtual true final false
+  /// @brief Method GetArgument, addr 0x24db1bc, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* GetArgument(int32_t index);
 
-  /// @brief Method ToString addr 0x23817fc size 0x14 virtual true final false
+  /// @brief Method ToString, addr 0x24db1ec, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FormattableStringFactory__ConcreteFormattableString", modifiers: "&&", def_value: None }]
@@ -117,15 +117,15 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__FormattableStringF
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3367))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3371))
 // CS Name: ::System.Runtime.CompilerServices::FormattableStringFactory*
 class CORDL_TYPE FormattableStringFactory : public ::System::Object {
 public:
   // Declarations
   using ConcreteFormattableString = ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString;
 
-  /// @brief Method Create addr 0x2381694 size 0xe0 virtual false final false
+  /// @brief Method Create, addr 0x24db084, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::FormattableString* Create(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattableStringFactory", modifiers: "&&", def_value: None }]

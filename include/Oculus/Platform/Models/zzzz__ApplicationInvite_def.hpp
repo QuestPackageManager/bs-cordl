@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ApplicationInvite)
 namespace Oculus::Platform::Models {
-class User;
+class Destination;
 }
 namespace Oculus::Platform::Models {
-class Destination;
+class User;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ApplicationInvite);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13414))
 // CS Name: ::Oculus.Platform.Models::ApplicationInvite*
 class CORDL_TYPE ApplicationInvite : public ::System::Object {
 public:
@@ -102,7 +102,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b0c14 size 0x1bc virtual false final false
+  /// @brief Method .ctor, addr 0x2703ef8, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationInvite", modifiers: "&&", def_value: None }]

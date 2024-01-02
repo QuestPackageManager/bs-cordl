@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyPlayerData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4502))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4491))
 // CS Name: ::ILobbyPlayerData*
 class CORDL_TYPE ILobbyPlayerData {
 public:
@@ -33,28 +33,28 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
-  /// @brief Method get_isPartyOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method set_isPartyOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_isPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isPartyOwner(bool value);
 
-  /// @brief Method get_isActive addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_isActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method get_isReady addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReady();
 
-  /// @brief Method set_isReady addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isReady(bool value);
 
-  /// @brief Method get_isInLobby addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isInLobby, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isInLobby();
 
-  /// @brief Method set_isInLobby addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_isInLobby, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_isInLobby(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILobbyPlayerData", modifiers: "&&", def_value: None }]

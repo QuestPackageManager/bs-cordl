@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE DtlsHandshakeRetransmit {
 public:
   // Declarations
-  /// @brief Method ReceivedHandshakeRecord addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReceivedHandshakeRecord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReceivedHandshakeRecord(int32_t epoch, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsHandshakeRetransmit", modifiers: "&&", def_value: None }]

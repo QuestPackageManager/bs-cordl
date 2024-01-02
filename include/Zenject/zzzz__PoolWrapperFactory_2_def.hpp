@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
 namespace System {
 class Object;
 }
@@ -12,13 +15,10 @@ namespace Zenject {
 class IFactory;
 }
 namespace Zenject {
-template <typename TParam1, typename TValue> class IFactory_2;
+template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 namespace Zenject {
 class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -32,8 +32,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11075))
 // CS Name: ::Zenject::PoolWrapperFactory`2<TParam1,TValue>*
 class CORDL_TYPE PoolWrapperFactory_2 : public ::System::Object {
 public:
@@ -55,16 +55,16 @@ public:
 
   static inline ::Zenject::PoolWrapperFactory_2<TParam1, TValue>* New_ctor(::Zenject::IMemoryPool_2<TParam1, TValue>* pool);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IMemoryPool_2<TParam1, TValue>* pool);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue Create(TParam1 arg);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolWrapperFactory_2", modifiers: "&&", def_value: None }]

@@ -29,29 +29,29 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10923), inst: 3854 }), TypeDefinitionIndex(TypeDefinitionIndex(10923))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10927))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3949 }), TypeDefinitionIndex(TypeDefinitionIndex(10995))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10999))
 // CS Name: ::Zenject::KeyedFactory`5<TBase,TKey,TParam1,TParam2,TParam3>*
 class CORDL_TYPE KeyedFactory_5 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {
 public:
   // Declarations
   __declspec(property(get = get_ProvidedTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ProvidedTypes;
 
-  /// @brief Method get_ProvidedTypes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ProvidedTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ProvidedTypes();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TBase Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3);
 
   static inline ::Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactory_5", modifiers: "&&", def_value: None }]

@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(14353)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14353), inst:
-// 765 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14359)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(10291)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14082))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14088)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceAtlasedSprite*
 class CORDL_TYPE AssetReferenceAtlasedSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x28a5f3c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23c84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset addr 0x28a5f94 size 0x78 virtual true final false
+  /// @brief Method ValidateAsset, addr 0x2a23cdc, size 0x78, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset addr 0x28a600c size 0x8 virtual true final false
+  /// @brief Method ValidateAsset, addr 0x2a23d54, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceAtlasedSprite", modifiers: "&&", def_value: None }]

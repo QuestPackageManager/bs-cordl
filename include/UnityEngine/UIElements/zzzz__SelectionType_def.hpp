@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::SelectionType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6885))
 // CS Name: ::UnityEngine.UIElements::SelectionType
 struct CORDL_TYPE SelectionType {
 public:

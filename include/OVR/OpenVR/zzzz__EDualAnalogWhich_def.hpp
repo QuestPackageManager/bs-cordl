@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EDualAnalogWhich);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9364))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8595))
 // CS Name: ::OVR.OpenVR::EDualAnalogWhich
 struct CORDL_TYPE EDualAnalogWhich {
 public:

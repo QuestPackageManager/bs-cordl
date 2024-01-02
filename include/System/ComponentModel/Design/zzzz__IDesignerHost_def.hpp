@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDesignerHost)
-namespace System::ComponentModel::Design {
-class IDesigner;
-}
 namespace System {
 class IServiceProvider;
+}
+namespace System::ComponentModel::Design {
+class IDesigner;
 }
 namespace System::ComponentModel {
 class IComponent;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDesignerHost);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9499))
 // CS Name: ::System.ComponentModel.Design::IDesignerHost*
 class CORDL_TYPE IDesignerHost {
 public:
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method get_RootComponent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_RootComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IComponent* get_RootComponent();
 
-  /// @brief Method GetDesigner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDesigner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::Design::IDesigner* GetDesigner(::System::ComponentModel::IComponent* component);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDesignerHost", modifiers: "&&", def_value: None }]

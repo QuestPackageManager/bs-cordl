@@ -2,16 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_6_def.hpp"
-#include "System/zzzz__Action_7_def.hpp"
-#include "Zenject/zzzz__GameObjectContext_def.hpp"
+#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabMethod_6_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
-#include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__GameObjectContext_def.hpp"
+#include "System/zzzz__Action_7_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
 constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*&
 Zenject::__SubContainerCreatorByNewPrefabMethod_6____c__DisplayClass2_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>::__get___4__this() {
@@ -129,11 +129,9 @@ inline void Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1, TParam2, TP
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
 inline void Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>::AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                                                                                                  ::Zenject::GameObjectContext* context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>::get(), "AddInstallers",
-      std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::GameObjectContext*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args, context);
 }
 // Ctor Parameters []

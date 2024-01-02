@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::CertPolicyID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor addr 0x111a788 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x118a9d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertPolicyID", modifiers: "&&", def_value: None }]

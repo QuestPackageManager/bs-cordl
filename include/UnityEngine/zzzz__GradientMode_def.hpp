@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::GradientMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10256))
 // CS Name: ::UnityEngine::GradientMode
 struct CORDL_TYPE GradientMode {
 public:

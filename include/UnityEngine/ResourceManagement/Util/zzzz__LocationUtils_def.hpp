@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LocationUtils)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LocationUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14244))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13973))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LocationUtils*
 class CORDL_TYPE LocationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocationEquals addr 0x2a4ea94 size 0x2f4 virtual false final false
+  /// @brief Method LocationEquals, addr 0x2bd17e8, size 0x2f4, virtual false, abstract: false, final false
   static inline bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc2);
 
-  /// @brief Method DependenciesEqual addr 0x2a4eed0 size 0x278 virtual false final false
+  /// @brief Method DependenciesEqual, addr 0x2bd1c24, size 0x278, virtual false, abstract: false, final false
   static inline bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps1,
                                        ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps2);
 

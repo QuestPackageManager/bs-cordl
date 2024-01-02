@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ShaderInfoStorageRGBAFloat)
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements::UIR {
-class __ShaderInfoStorageRGBAFloat____c;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements::UIR {
+class __ShaderInfoStorageRGBAFloat____c;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7384))
 // CS Name: ::ShaderInfoStorageRGBAFloat::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBAFloat____c : public ::System::Object {
 public:
@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d23524 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e8b8d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__2_0 addr 0x2d2352c size 0x4 virtual false final false
+  /// @brief Method <.cctor>b__2_0, addr 0x2e8b8dc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Color __cctor_b__2_0(::UnityEngine::Color c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderInfoStorageRGBAFloat____c", modifiers: "&&", def_value: None }]
@@ -75,8 +75,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7467)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7467), inst: 294 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7471)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7381)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 293 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7385)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBAFloat*
 class CORDL_TYPE ShaderInfoStorageRGBAFloat : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -91,8 +91,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat* New_ctor(int32_t initialSize, int32_t maxSize);
 
-  /// @brief Method .ctor addr 0x2d20f18 size 0x94 virtual false final false
-  inline void _ctor(int32_t initialSize, int32_t maxSize);
+  /// @brief Method .ctor, addr 0x2e892c8, size 0x94, virtual false, abstract: false, final false
+  /// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
+  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
+  inline void _ctor(int32_t initialSize = static_cast<int32_t>(0x40), int32_t maxSize = static_cast<int32_t>(0x1000));
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorageRGBAFloat", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

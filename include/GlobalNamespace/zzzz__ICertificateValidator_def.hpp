@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ICertificateValidator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12777))
 // CS Name: ::ICertificateValidator*
 class CORDL_TYPE ICertificateValidator {
 public:
   // Declarations
-  /// @brief Method ValidateCertificateChain addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidateCertificateChain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 

@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StablePriorityQueue_1)
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
-namespace Priority_Queue {
 template <typename T> class __StablePriorityQueue_1___GetEnumerator_d__22;
 }
-namespace System {
-class Object;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -50,8 +50,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6102))
 // CS Name: ::StablePriorityQueue`1::<GetEnumerator>d__22<T>*
 class CORDL_TYPE __StablePriorityQueue_1___GetEnumerator_d__22 : public ::System::Object {
 public:
@@ -107,22 +107,22 @@ public:
 
   static inline ::Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StablePriorityQueue_1___GetEnumerator_d__22", modifiers: "&&", def_value: None }]
@@ -161,8 +161,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6174))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6103))
 // CS Name: ::Priority_Queue::StablePriorityQueue`1<T>*
 class CORDL_TYPE StablePriorityQueue_1 : public ::System::Object {
 public:
@@ -216,61 +216,61 @@ public:
 
   static inline ::Priority_Queue::StablePriorityQueue_1<T>* New_ctor(int32_t maxNodes);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNodes);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_MaxSize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_MaxSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_MaxSize();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T node);
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(T node, float_t priority);
 
-  /// @brief Method CascadeUp addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CascadeUp, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CascadeUp(T node);
 
-  /// @brief Method CascadeDown addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CascadeDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CascadeDown(T node);
 
-  /// @brief Method HasHigherPriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasHigherPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool HasHigherPriority(T higher, T lower);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Dequeue();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Resize(int32_t maxNodes);
 
-  /// @brief Method get_First addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_First, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_First();
 
-  /// @brief Method UpdatePriority addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UpdatePriority(T node, float_t priority);
 
-  /// @brief Method OnNodeUpdated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnNodeUpdated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnNodeUpdated(T node);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(T node);
 
-  /// @brief Method ResetNode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ResetNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ResetNode(T node);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsValidQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsValidQueue();
 
   // Ctor Parameters [CppParam { name: "", ty: "StablePriorityQueue_1", modifiers: "&&", def_value: None }]

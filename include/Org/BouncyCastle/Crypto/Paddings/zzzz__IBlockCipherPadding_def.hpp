@@ -27,16 +27,16 @@ public:
   // Declarations
   __declspec(property(get = get_PaddingName))::StringW PaddingName;
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_PaddingName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_PaddingName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_PaddingName();
 
-  /// @brief Method AddPadding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddPadding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PadCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBlockCipherPadding", modifiers: "&&", def_value: None }]

@@ -23,16 +23,16 @@ MARK_REF_PTR_T(::Oculus::Platform::NetSync);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13400))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13366))
 // CS Name: ::Oculus.Platform::NetSync*
 class CORDL_TYPE NetSync : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetConnectionStatusChangedNotificationCallback addr 0x25aad8c size 0x74 virtual false final false
+  /// @brief Method SetConnectionStatusChangedNotificationCallback, addr 0x26fecac, size 0x74, virtual false, abstract: false, final false
   static inline void SetConnectionStatusChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncConnection*>* callback);
 
-  /// @brief Method SetSessionsChangedNotificationCallback addr 0x25aae00 size 0x74 virtual false final false
+  /// @brief Method SetSessionsChangedNotificationCallback, addr 0x26fed20, size 0x74, virtual false, abstract: false, final false
   static inline void SetSessionsChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSync", modifiers: "&&", def_value: None }]

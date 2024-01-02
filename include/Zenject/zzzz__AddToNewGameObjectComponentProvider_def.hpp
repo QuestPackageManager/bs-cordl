@@ -4,32 +4,32 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AddToNewGameObjectComponentProvider)
-namespace System {
-class Object;
-}
-namespace Zenject {
-class DiContainer;
-}
 namespace Zenject {
 class InjectContext;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Type;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace System {
-class Type;
+template <typename T1, typename T2> class Action_2;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::Zenject::AddToNewGameObjectComponentProvider);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11113))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11185))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11186))
 // CS Name: ::Zenject::AddToNewGameObjectComponentProvider*
 class CORDL_TYPE AddToNewGameObjectComponentProvider : public ::Zenject::AddToGameObjectComponentProviderBase {
 public:
@@ -63,15 +63,15 @@ public:
                                                                          ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Object* concreteIdentifier,
                                                                          ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor addr 0x2d9edf4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2f06bc4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Type* componentType, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Object* concreteIdentifier,
                     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ShouldToggleActive addr 0x2d9ee20 size 0x8 virtual true final false
+  /// @brief Method get_ShouldToggleActive, addr 0x2f06bf0, size 0x8, virtual true, abstract: false, final false
   inline bool get_ShouldToggleActive();
 
-  /// @brief Method GetGameObject addr 0x2d9ee28 size 0x5c virtual true final false
+  /// @brief Method GetGameObject, addr 0x2f06bf8, size 0x5c, virtual true, abstract: false, final false
   inline ::UnityEngine::GameObject* GetGameObject(::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddToNewGameObjectComponentProvider", modifiers: "&&", def_value: None }]

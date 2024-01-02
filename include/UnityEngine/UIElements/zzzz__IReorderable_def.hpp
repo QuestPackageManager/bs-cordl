@@ -14,17 +14,17 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IReorderable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6967))
 // CS Name: ::UnityEngine.UIElements::IReorderable*
 class CORDL_TYPE IReorderable {
 public:
   // Declarations
   __declspec(property(get = get_enableReordering, put = set_enableReordering)) bool enableReordering;
 
-  /// @brief Method get_enableReordering addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_enableReordering, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_enableReordering();
 
-  /// @brief Method set_enableReordering addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_enableReordering, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enableReordering(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReorderable", modifiers: "&&", def_value: None }]

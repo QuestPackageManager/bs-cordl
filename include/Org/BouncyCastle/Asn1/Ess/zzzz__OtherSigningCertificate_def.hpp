@@ -14,11 +14,11 @@ class PolicyInformation;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Ess {
-class OtherCertID;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::Ess {
+class OtherCertID;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe260b0 size 0x190 virtual false final false
+  /// @brief Method GetInstance, addr 0xe9b284, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe26240 size 0x154 virtual false final false
+  /// @brief Method .ctor, addr 0xe9b414, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::OtherSigningCertificate* New_ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
-  /// @brief Method .ctor addr 0xe26394 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xe9b568, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::OtherCertID* otherCertID);
 
-  /// @brief Method GetCerts addr 0xe26410 size 0x110 virtual false final false
+  /// @brief Method GetCerts, addr 0xe9b5e4, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Ess::OtherCertID*>*> GetCerts();
 
-  /// @brief Method GetPolicies addr 0xe26520 size 0x118 virtual false final false
+  /// @brief Method GetPolicies, addr 0xe9b6f4, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicies();
 
-  /// @brief Method ToAsn1Object addr 0xe26638 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe9b80c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherSigningCertificate", modifiers: "&&", def_value: None }]

@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerLocalPlayerDisconnectHelper)
 namespace GlobalNamespace {
-struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
-}
-namespace GlobalNamespace {
-class LevelCompletionResults;
-}
-namespace GlobalNamespace {
-class LobbyPlayerPermissionsModel;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsListener;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class LobbyPlayerPermissionsModel;
+}
+namespace GlobalNamespace {
+class LevelCompletionResults;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5167))
 // CS Name: ::MultiplayerLocalPlayerDisconnectHelper*
 class CORDL_TYPE MultiplayerLocalPlayerDisconnectHelper : public ::System::Object {
 public:
@@ -63,15 +63,15 @@ public:
 
   constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  /// @brief Method Disconnect addr 0x20fb690 size 0x210 virtual false final false
+  /// @brief Method Disconnect, addr 0x23dbef4, size 0x210, virtual false, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ResolveDisconnectButtonString addr 0x20fd618 size 0x70 virtual false final false
+  /// @brief Method ResolveDisconnectButtonString, addr 0x23ddf38, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ResolveDisconnectButtonString();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fd688 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23ddfa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalPlayerDisconnectHelper", modifiers: "&&", def_value: None }]

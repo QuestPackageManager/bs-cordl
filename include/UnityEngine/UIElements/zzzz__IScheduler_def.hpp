@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IScheduler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7026))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6940))
 // CS Name: ::UnityEngine.UIElements::IScheduler*
 class CORDL_TYPE IScheduler {
 public:
   // Declarations
-  /// @brief Method Unschedule addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Unschedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unschedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method Schedule addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Schedule(::UnityEngine::UIElements::ScheduledItem* item);
 
-  /// @brief Method UpdateScheduledEvents addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateScheduledEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateScheduledEvents();
 
   // Ctor Parameters [CppParam { name: "", ty: "IScheduler", modifiers: "&&", def_value: None }]

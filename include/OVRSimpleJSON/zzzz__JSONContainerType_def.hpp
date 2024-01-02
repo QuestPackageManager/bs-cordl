@@ -16,7 +16,7 @@ MARK_VAL_T(::OVRSimpleJSON::JSONContainerType);
 namespace OVRSimpleJSON {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8216))
 // CS Name: ::OVRSimpleJSON::JSONContainerType
 struct CORDL_TYPE JSONContainerType {
 public:

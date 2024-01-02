@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShadowSamplingMode);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10348))
 // CS Name: ::UnityEngine.Rendering::ShadowSamplingMode
 struct CORDL_TYPE ShadowSamplingMode {
 public:

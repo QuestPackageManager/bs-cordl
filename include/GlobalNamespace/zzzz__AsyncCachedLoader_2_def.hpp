@@ -14,38 +14,38 @@ CORDL_MODULE_EXPORT(AsyncCachedLoader_2)
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAsync_d__7;
 }
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-template <typename K, typename V> class HMCache_2;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAllAsync_d__8;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2__ScheduledTask;
+template <typename K, typename V> class HMCache_2;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> struct __AsyncCachedLoader_2___LoadAllAsync_d__8;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -74,13 +74,13 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5997))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5906))
 // CS Name: ::AsyncCachedLoader`2::ScheduledTask<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2__ScheduledTask {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TKey keyId, ::System::Threading::Tasks::TaskCompletionSource_1<TValue>* taskCompletionSource, ::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "keyId", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "taskCompletionSource", ty:
@@ -115,19 +115,19 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 850
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 850 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5998)) CS
-// Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 864 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 864 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS Name: ::AsyncCachedLoader`2::<LoadAsync>d__7<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAsync_d__7 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -173,19 +173,19 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5997)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5997), inst: 90 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 4949 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5999)) CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5906), inst: 84 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5056 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(5906)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5908))
+// CS Name: ::AsyncCachedLoader`2::<LoadAllAsync>d__8<TKey,TValue>
 struct CORDL_TYPE __AsyncCachedLoader_2___LoadAllAsync_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -229,8 +229,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5909))
 // CS Name: ::AsyncCachedLoader`2<TKey,TValue>*
 class CORDL_TYPE AsyncCachedLoader_2 : public ::System::Object {
 public:
@@ -279,19 +279,19 @@ public:
 
   constexpr void __set__isLoading(bool value);
 
-  /// @brief Method ClearCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClearCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearCache();
 
   static inline ::GlobalNamespace::AsyncCachedLoader_2<TKey, TValue>*
   New_ctor(int32_t maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNumberCachedElements, ::System::Func_3<TKey, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task_1<TValue>*>* resultValueFunc);
 
-  /// @brief Method LoadAsync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LoadAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TValue>* LoadAsync(TKey keyId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadAllAsync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LoadAllAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LoadAllAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCachedLoader_2", modifiers: "&&", def_value: None }]

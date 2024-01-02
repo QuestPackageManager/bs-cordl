@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2334))
 // CS Name: ::System::Func`4<T1,T2,T3,TResult>*
 class CORDL_TYPE Func_4 : public ::System::MulticastDelegate {
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Func_4<T1, T2, T3, TResult>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TResult Invoke(T1 arg1, T2 arg2, T3 arg3);
 
   // Ctor Parameters [CppParam { name: "", ty: "Func_4", modifiers: "&&", def_value: None }]

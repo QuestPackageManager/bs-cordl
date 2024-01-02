@@ -21,7 +21,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE IDigestCalculator {
 public:
   // Declarations
-  /// @brief Method GetDigest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDigest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDigestCalculator", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TwoPaneSplitViewOrientation);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7139))
 // CS Name: ::UnityEngine.UIElements::TwoPaneSplitViewOrientation
 struct CORDL_TYPE TwoPaneSplitViewOrientation {
 public:

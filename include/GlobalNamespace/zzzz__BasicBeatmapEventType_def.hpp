@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::BasicBeatmapEventType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14724))
 // CS Name: ::BasicBeatmapEventType
 struct CORDL_TYPE BasicBeatmapEventType {
 public:

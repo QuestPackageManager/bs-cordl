@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoInstaller_4)
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,24 +23,24 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11070))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11146))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11142))
 // CS Name: ::Zenject::MonoInstaller`4<TParam1,TParam2,TParam3,TDerived>*
 class CORDL_TYPE MonoInstaller_4 : public ::Zenject::MonoInstallerBase {
 public:
   // Declarations
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3);
 
   static inline ::Zenject::MonoInstaller_4<TParam1, TParam2, TParam3, TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller_4", modifiers: "&&", def_value: None }]

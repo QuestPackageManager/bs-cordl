@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TimeZoneInfoOptions);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2484))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2486))
 // CS Name: ::System::TimeZoneInfoOptions
 struct CORDL_TYPE TimeZoneInfoOptions {
 public:

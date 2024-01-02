@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelL
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4527))
 // CS Name: ::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*
 class CORDL_TYPE __PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair : public ::System::Object {
 public:
@@ -67,18 +67,18 @@ public:
 
   constexpr void __set__checkSum(::StringW value);
 
-  /// @brief Method get_levelId addr 0x2229d18 size 0x8 virtual false final false
+  /// @brief Method get_levelId, addr 0x2364828, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelId();
 
-  /// @brief Method get_perceivedLoudness addr 0x2229d20 size 0x8 virtual false final false
+  /// @brief Method get_perceivedLoudness, addr 0x2364830, size 0x8, virtual false, abstract: false, final false
   inline float_t get_perceivedLoudness();
 
-  /// @brief Method get_checksum addr 0x2229d28 size 0x8 virtual false final false
+  /// @brief Method get_checksum, addr 0x2364838, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_checksum();
 
   static inline ::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair* New_ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum);
 
-  /// @brief Method .ctor addr 0x2229d30 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2364840, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, float_t perceivedLoudness, ::StringW checkSum);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair", modifiers: "&&", def_value: None }]
@@ -120,8 +120,8 @@ static_assert(offsetof(::GlobalNamespace::__PerceivedLoudnessPerLevelSO__Perceiv
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4528))
 // CS Name: ::PerceivedLoudnessPerLevelSO*
 class CORDL_TYPE PerceivedLoudnessPerLevelSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -142,15 +142,15 @@ public:
   constexpr void __set_perceivedLoudnessPerLevel(
       ::ArrayW<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*, ::Array<::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>*> value);
 
-  /// @brief Method ToDictionary addr 0x2229bb8 size 0xe0 virtual false final false
+  /// @brief Method ToDictionary, addr 0x23646c8, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>* ToDictionary();
 
-  /// @brief Method SetLoudnessData addr 0x2229c98 size 0x78 virtual false final false
+  /// @brief Method SetLoudnessData, addr 0x23647a8, size 0x78, virtual false, abstract: false, final false
   inline void SetLoudnessData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerceivedLoudnessPerLevelSO__PerceivedLevelLoudnessPair*>* loudnessDictionary);
 
   static inline ::GlobalNamespace::PerceivedLoudnessPerLevelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2229d10 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2364820, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PerceivedLoudnessPerLevelSO", modifiers: "&&", def_value: None }]

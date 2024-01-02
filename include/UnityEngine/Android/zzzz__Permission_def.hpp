@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(Permission)
-namespace UnityEngine {
-class AndroidJavaObject;
-}
 namespace UnityEngine::Android {
 class PermissionCallbacks;
+}
+namespace UnityEngine {
+class AndroidJavaObject;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::Android::Permission);
 namespace UnityEngine::Android {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15075))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14930))
 // CS Name: ::UnityEngine.Android::Permission
 #pragma pack(push, 0)
 struct CORDL_TYPE Permission {
@@ -43,19 +43,19 @@ public:
 
   static inline ::UnityEngine::AndroidJavaObject* getStaticF_m_Activity();
 
-  /// @brief Method GetActivity addr 0x2b28c1c size 0x218 virtual false final false
+  /// @brief Method GetActivity, addr 0x2c8db44, size 0x218, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetActivity();
 
-  /// @brief Method GetUnityPermissions addr 0x2b28e34 size 0xb8 virtual false final false
+  /// @brief Method GetUnityPermissions, addr 0x2c8dd5c, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::AndroidJavaObject* GetUnityPermissions();
 
-  /// @brief Method HasUserAuthorizedPermission addr 0x2b28eec size 0x120 virtual false final false
+  /// @brief Method HasUserAuthorizedPermission, addr 0x2c8de14, size 0x120, virtual false, abstract: false, final false
   static inline bool HasUserAuthorizedPermission(::StringW permission);
 
-  /// @brief Method RequestUserPermission addr 0x2b2900c size 0xa4 virtual false final false
+  /// @brief Method RequestUserPermission, addr 0x2c8df34, size 0xa4, virtual false, abstract: false, final false
   static inline void RequestUserPermission(::StringW permission, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
-  /// @brief Method RequestUserPermissions addr 0x2b290b0 size 0x138 virtual false final false
+  /// @brief Method RequestUserPermissions, addr 0x2c8dfd8, size 0x138, virtual false, abstract: false, final false
   static inline void RequestUserPermissions(::ArrayW<::StringW, ::Array<::StringW>*> permissions, ::UnityEngine::Android::PermissionCallbacks* callbacks);
 
   // Ctor Parameters []

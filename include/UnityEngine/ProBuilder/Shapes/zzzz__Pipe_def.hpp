@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pipe)
-namespace UnityEngine {
-struct Quaternion;
-}
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine {
 struct Bounds;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Pipe);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12157))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12229))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Pipe*
 class CORDL_TYPE Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -73,18 +73,18 @@ public:
 
   constexpr void __set_m_Smooth(bool value);
 
-  /// @brief Method CopyShape addr 0x2a0a7f8 size 0x8c virtual true final false
+  /// @brief Method CopyShape, addr 0x2b8b54c, size 0x8c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds addr 0x2a0a884 size 0x38 virtual true final false
+  /// @brief Method UpdateBounds, addr 0x2b8b5d8, size 0x38, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh addr 0x2a0a8bc size 0xa70 virtual true final false
+  /// @brief Method RebuildMesh, addr 0x2b8b610, size 0xa70, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Pipe* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0b32c size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2b8c080, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pipe", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapFieldAttribute);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3138))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3139))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapFieldAttribute*
 class CORDL_TYPE SoapFieldAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
@@ -46,16 +46,16 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x234d1b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24a5cac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XmlElementName addr 0x234d1c0 size 0x8 virtual false final false
+  /// @brief Method get_XmlElementName, addr 0x24a5cb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlElementName();
 
-  /// @brief Method IsInteropXmlElement addr 0x234d1c8 size 0x8 virtual false final false
+  /// @brief Method IsInteropXmlElement, addr 0x24a5cbc, size 0x8, virtual false, abstract: false, final false
   inline bool IsInteropXmlElement();
 
-  /// @brief Method SetReflectionObject addr 0x234d1d0 size 0xa0 virtual true final false
+  /// @brief Method SetReflectionObject, addr 0x24a5cc4, size 0xa0, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapFieldAttribute", modifiers: "&&", def_value: None }]

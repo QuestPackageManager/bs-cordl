@@ -17,8 +17,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::ifaddrs);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9294))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::ifaddrs
 struct CORDL_TYPE ifaddrs {
 public:

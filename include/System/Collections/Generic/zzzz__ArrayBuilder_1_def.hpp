@@ -19,7 +19,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3845))
 // CS Name: ::System.Collections.Generic::ArrayBuilder`1<T>
 struct CORDL_TYPE ArrayBuilder_1 {
 public:
@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_Item)) T Item[];
 
-  /// @brief Method get_Capacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method UncheckedAdd addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UncheckedAdd(T item);
 
-  /// @brief Method EnsureCapacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnsureCapacity(int32_t minimum);
 
   // Ctor Parameters [CppParam { name: "_array", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]

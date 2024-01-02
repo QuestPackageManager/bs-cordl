@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Space);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9961))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10033))
 // CS Name: ::UnityEngine::Space
 struct CORDL_TYPE Space {
 public:

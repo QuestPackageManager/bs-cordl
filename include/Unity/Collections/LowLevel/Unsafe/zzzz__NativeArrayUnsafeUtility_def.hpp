@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArrayUnsafeUtility)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+struct Allocator;
 }
 namespace Unity::Collections {
-struct Allocator;
+template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeArrayUnsafeUtility)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9941))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10013))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeArrayUnsafeUtility*
 class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertExistingDataToNativeArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(::cordl_internals::Ptr<void> dataPointer, int32_t length, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetUnsafePtr addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafePtr(::Unity::Collections::NativeArray_1<T> nativeArray);
 
-  /// @brief Method GetUnsafeReadOnlyPtr addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1<T> nativeArray);
 
-  /// @brief Method GetUnsafeBufferPointerWithoutChecks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnsafeBufferPointerWithoutChecks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeBufferPointerWithoutChecks(::Unity::Collections::NativeArray_1<T> nativeArray);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeArrayUnsafeUtility", modifiers: "&&", def_value: None }]

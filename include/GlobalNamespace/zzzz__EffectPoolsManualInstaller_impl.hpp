@@ -1,22 +1,22 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
+#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
+#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
+#include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingTextEffect_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreEffect_def.hpp"
 #include "GlobalNamespace/zzzz__BombCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
-#include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EffectPoolsManualInstaller.ManualInstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x212a05c;
+  constexpr static std::size_t addrs = 0x226f65c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EffectPoolsManualInstaller*>::get(), "ManualInstallBindings", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
@@ -29,9 +29,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)()>(&::GlobalNamespace::EffectPoolsManualInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x212a2a4;
+  constexpr static std::size_t addrs = 0x226f8a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EffectPoolsManualInstaller*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

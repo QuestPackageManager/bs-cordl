@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(G_AdvancedData)
-namespace Tayx::Graphy::UI {
-class IModifiableState;
-}
 namespace System::Text {
 class StringBuilder;
 }
-namespace Tayx::Graphy {
-struct __GraphyManager__ModuleState;
-}
-namespace UnityEngine::UI {
-class Text;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace Tayx::Graphy::UI {
-class IMovable;
-}
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModulePosition;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UI {
+class Image;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
+}
+namespace UnityEngine::UI {
+class Text;
+}
+namespace Tayx::Graphy::UI {
+class IModifiableState;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace Tayx::Graphy {
+struct __GraphyManager__ModuleState;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Advanced {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15242))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15090))
 // CS Name: ::Tayx.Graphy.Advanced::G_AdvancedData*
 class CORDL_TYPE G_AdvancedData : public ::UnityEngine::MonoBehaviour {
 public:
@@ -213,33 +213,34 @@ public:
 
   constexpr void __set_m_windowStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method OnEnable addr 0x288ddb4 size 0x4 virtual false final false
+  /// @brief Method OnEnable, addr 0x2a0a7d0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update addr 0x288ec30 size 0x284 virtual false final false
+  /// @brief Method Update, addr 0x2a0a7d4, size 0x284, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetPosition addr 0x2886864 size 0x660 virtual true final true
+  /// @brief Method SetPosition, addr 0x2a020e4, size 0x660, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
-  /// @brief Method SetState addr 0x28867c4 size 0x78 virtual true final true
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+  /// @brief Method SetState, addr 0x2a02044, size 0x78, virtual true, abstract: false, final true
+  /// @param silentUpdate: bool (default: false)
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
 
-  /// @brief Method RestorePreviousState addr 0x2887d34 size 0xc virtual false final false
+  /// @brief Method RestorePreviousState, addr 0x2a03614, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method UpdateParameters addr 0x28881f0 size 0x198 virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a059d4, size 0x198, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method RefreshParameters addr 0x28888cc size 0x190 virtual false final false
+  /// @brief Method RefreshParameters, addr 0x2a060b0, size 0x190, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method Init addr 0x288ddb8 size 0xe78 virtual false final false
+  /// @brief Method Init, addr 0x2a04674, size 0xeb0, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Advanced::G_AdvancedData* New_ctor();
 
-  /// @brief Method .ctor addr 0x288eeb4 size 0x23c virtual false final false
+  /// @brief Method .ctor, addr 0x2a0aa58, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_AdvancedData", modifiers: "&&", def_value: None }]

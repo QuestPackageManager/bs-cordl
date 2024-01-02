@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_TouchPadMove_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9438))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8669))
 // CS Name: ::OVR.OpenVR::VREvent_TouchPadMove_t
 struct CORDL_TYPE VREvent_TouchPadMove_t {
 public:

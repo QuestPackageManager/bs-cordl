@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Android::PermissionCallbacks);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15057))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14912))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14929))
 // CS Name: ::UnityEngine.Android::PermissionCallbacks*
 class CORDL_TYPE PermissionCallbacks : public ::UnityEngine::AndroidJavaProxy {
 public:
@@ -51,36 +51,36 @@ public:
 
   constexpr void __set_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionGranted addr 0x2b28734 size 0xb0 virtual false final false
+  /// @brief Method add_PermissionGranted, addr 0x2c8d65c, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionGranted addr 0x2b287e4 size 0xb0 virtual false final false
+  /// @brief Method remove_PermissionGranted, addr 0x2c8d70c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionGranted(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionDenied addr 0x2b28894 size 0xb0 virtual false final false
+  /// @brief Method add_PermissionDenied, addr 0x2c8d7bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionDenied addr 0x2b28944 size 0xb0 virtual false final false
+  /// @brief Method remove_PermissionDenied, addr 0x2c8d86c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDenied(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_PermissionDeniedAndDontAskAgain addr 0x2b289f4 size 0xb0 virtual false final false
+  /// @brief Method add_PermissionDeniedAndDontAskAgain, addr 0x2c8d91c, size 0xb0, virtual false, abstract: false, final false
   inline void add_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_PermissionDeniedAndDontAskAgain addr 0x2b28aa4 size 0xb0 virtual false final false
+  /// @brief Method remove_PermissionDeniedAndDontAskAgain, addr 0x2c8d9cc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_PermissionDeniedAndDontAskAgain(::System::Action_1<::StringW>* value);
 
   static inline ::UnityEngine::Android::PermissionCallbacks* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b28b54 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2c8da7c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method onPermissionGranted addr 0x2b28bc0 size 0x1c virtual false final false
+  /// @brief Method onPermissionGranted, addr 0x2c8dae8, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionGranted(::StringW permissionName);
 
-  /// @brief Method onPermissionDenied addr 0x2b28bdc size 0x1c virtual false final false
+  /// @brief Method onPermissionDenied, addr 0x2c8db04, size 0x1c, virtual false, abstract: false, final false
   inline void onPermissionDenied(::StringW permissionName);
 
-  /// @brief Method onPermissionDeniedAndDontAskAgain addr 0x2b28bf8 size 0x24 virtual false final false
+  /// @brief Method onPermissionDeniedAndDontAskAgain, addr 0x2c8db20, size 0x24, virtual false, abstract: false, final false
   inline void onPermissionDeniedAndDontAskAgain(::StringW permissionName);
 
   // Ctor Parameters [CppParam { name: "", ty: "PermissionCallbacks", modifiers: "&&", def_value: None }]

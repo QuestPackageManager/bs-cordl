@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedCollection)
 namespace System::Collections {
+class IList;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
-class IList;
+class IEnumerable;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11877))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedCollection*
 class CORDL_TYPE IWrappedCollection {
 public:
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_UnderlyingCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_UnderlyingCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingCollection();
 
   // Ctor Parameters [CppParam { name: "", ty: "IWrappedCollection", modifiers: "&&", def_value: None }]

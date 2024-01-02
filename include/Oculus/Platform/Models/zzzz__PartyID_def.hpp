@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PartyID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13523))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13467))
 // CS Name: ::Oculus.Platform.Models::PartyID*
 class CORDL_TYPE PartyID : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::PartyID* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b6784 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x2707f30, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyID", modifiers: "&&", def_value: None }]

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMethodMessage)
 namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
 }
 namespace System {
@@ -14,9 +17,6 @@ class Object;
 }
 namespace System::Reflection {
 class MethodBase;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3172))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodMessage*
 class CORDL_TYPE IMethodMessage {
 public:
@@ -53,31 +53,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
-  /// @brief Method get_ArgCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ArgCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Args, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_LogicalCallContext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LogicalCallContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MethodBase, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MethodName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MethodSignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_TypeName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method GetArg addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetArg, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetArg(int32_t argNum);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodMessage", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::MeshArrays);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12166))
 // CS Name: ::UnityEngine.ProBuilder::MeshArrays
 struct CORDL_TYPE MeshArrays {
 public:

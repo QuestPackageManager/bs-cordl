@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::X509::X509ChainStatusFlags);
 namespace Mono::Security::X509 {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14026))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13755))
 // CS Name: ::Mono.Security.X509::X509ChainStatusFlags
 struct CORDL_TYPE X509ChainStatusFlags {
 public:

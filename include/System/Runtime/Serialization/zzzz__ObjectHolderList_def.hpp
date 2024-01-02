@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolderList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3221))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3222))
 // CS Name: ::System.Runtime.Serialization::ObjectHolderList*
 class CORDL_TYPE ObjectHolderList : public ::System::Object {
 public:
@@ -52,27 +52,27 @@ public:
 
   static inline ::System::Runtime::Serialization::ObjectHolderList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2360230 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24b8d24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::ObjectHolderList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor addr 0x236407c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x24bcb70, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add addr 0x23640e8 size 0xa8 virtual true final false
+  /// @brief Method Add, addr 0x24bcbdc, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::ObjectHolder* value);
 
-  /// @brief Method GetFixupEnumerator addr 0x2363040 size 0x64 virtual false final false
+  /// @brief Method GetFixupEnumerator, addr 0x24bbb34, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* GetFixupEnumerator();
 
-  /// @brief Method EnlargeArray addr 0x2364190 size 0x88 virtual false final false
+  /// @brief Method EnlargeArray, addr 0x24bcc84, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
-  /// @brief Method get_Version addr 0x2364260 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x24bcd54, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Count addr 0x2364268 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x24bcd5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectHolderList", modifiers: "&&", def_value: None }]

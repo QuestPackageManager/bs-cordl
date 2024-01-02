@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyInject_1)
 namespace Zenject {
-class DiContainer;
+class IValidatable;
 }
 namespace Zenject {
-class IValidatable;
+class DiContainer;
 }
 namespace Zenject {
 class InjectContext;
@@ -25,8 +25,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11117))
 // CS Name: ::Zenject::LazyInject`1<T>*
 class CORDL_TYPE LazyInject_1 : public ::System::Object {
 public:
@@ -74,13 +74,13 @@ public:
 
   static inline ::Zenject::LazyInject_1<T>* New_ctor(::Zenject::DiContainer* container, ::Zenject::InjectContext* context);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::InjectContext* context);
 
-  /// @brief Method Zenject.IValidatable.Validate addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Zenject.IValidatable.Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Zenject_IValidatable_Validate();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyInject_1", modifiers: "&&", def_value: None }]

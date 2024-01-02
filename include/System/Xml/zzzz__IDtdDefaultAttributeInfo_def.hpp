@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDtdDefaultAttributeInfo)
-namespace System::Xml {
-class IDtdAttributeInfo;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml {
+class IDtdAttributeInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11424))
 // CS Name: ::System.Xml::IDtdDefaultAttributeInfo*
 class CORDL_TYPE IDtdDefaultAttributeInfo {
 public:
@@ -38,16 +38,16 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdAttributeInfo"
   constexpr operator ::System::Xml::IDtdAttributeInfo*() noexcept;
 
-  /// @brief Method get_DefaultValueExpanded addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DefaultValueExpanded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DefaultValueExpanded();
 
-  /// @brief Method get_DefaultValueTyped addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DefaultValueTyped, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_DefaultValueTyped();
 
-  /// @brief Method get_ValueLineNumber addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueLineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueLineNumber();
 
-  /// @brief Method get_ValueLinePosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueLinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueLinePosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdDefaultAttributeInfo", modifiers: "&&", def_value: None }]

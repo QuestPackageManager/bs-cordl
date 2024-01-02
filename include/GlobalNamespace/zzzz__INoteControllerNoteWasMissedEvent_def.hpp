@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteWasMissedEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4767))
 // CS Name: ::INoteControllerNoteWasMissedEvent*
 class CORDL_TYPE INoteControllerNoteWasMissedEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerNoteWasMissed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteControllerNoteWasMissed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteControllerNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteWasMissedEvent", modifiers: "&&", def_value: None }]

@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::System::NotImplemented);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2514))
 // CS Name: ::System::NotImplemented*
 class CORDL_TYPE NotImplemented : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ByDesign addr 0x246c4f0 size 0x5c virtual false final false
+  /// @brief Method get_ByDesign, addr 0x25c9418, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* get_ByDesign();
 
   // Ctor Parameters [CppParam { name: "", ty: "NotImplemented", modifiers: "&&", def_value: None }]

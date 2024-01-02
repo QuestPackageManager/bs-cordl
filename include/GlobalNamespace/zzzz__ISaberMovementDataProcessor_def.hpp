@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberMovementDataProcessor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15013))
 // CS Name: ::ISaberMovementDataProcessor*
 class CORDL_TYPE ISaberMovementDataProcessor {
 public:
   // Declarations
-  /// @brief Method ProcessNewData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessNewData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberMovementDataProcessor", modifiers: "&&", def_value: None }]

@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentBrandingManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4688))
 // CS Name: ::EnvironmentBrandingManager::InitData*
 class CORDL_TYPE __EnvironmentBrandingManager__InitData : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentBrandingManager__InitData* New_ctor(bool hideBranding);
 
-  /// @brief Method .ctor addr 0x2241d0c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2376414, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideBranding);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentBrandingManager__InitData", modifiers: "&&", def_value: None }]
@@ -75,8 +75,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentBrandingManager__InitData
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4810))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4689))
 // CS Name: ::EnvironmentBrandingManager*
 class CORDL_TYPE EnvironmentBrandingManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -111,12 +111,12 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__EnvironmentBrandingManager__InitData* value);
 
-  /// @brief Method Start addr 0x2241c38 size 0xcc virtual false final false
+  /// @brief Method Start, addr 0x2376340, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::EnvironmentBrandingManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2241d04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x237640c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentBrandingManager", modifiers: "&&", def_value: None }]

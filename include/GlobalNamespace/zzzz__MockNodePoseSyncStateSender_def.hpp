@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockNodePoseSyncStateSender)
 namespace GlobalNamespace {
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-struct PoseSerializable;
+class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace System {
 class IDisposable;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateNetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockNodePoseSyncStateSender);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15494))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15510))
 // CS Name: ::MockNodePoseSyncStateSender*
 class CORDL_TYPE MockNodePoseSyncStateSender : public ::System::Object {
 public:
@@ -49,16 +49,16 @@ public:
 
   static inline ::GlobalNamespace::MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method .ctor addr 0x228b308 size 0x17c virtual false final false
+  /// @brief Method .ctor, addr 0x23e68e0, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method Dispose addr 0x228b484 size 0xc8 virtual true final true
+  /// @brief Method Dispose, addr 0x23e6a5c, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SendPose addr 0x228b54c size 0x230 virtual false final false
+  /// @brief Method SendPose, addr 0x23e6b24, size 0x230, virtual false, abstract: false, final false
   inline void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
 
-  /// @brief Method HandleNodePoseSyncStateUpdate addr 0x228b77c size 0x4 virtual false final false
+  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x23e6d54, size 0x4, virtual false, abstract: false, final false
   inline void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockNodePoseSyncStateSender", modifiers: "&&", def_value: None }]

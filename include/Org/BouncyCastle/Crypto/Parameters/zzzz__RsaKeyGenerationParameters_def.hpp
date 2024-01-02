@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaKeyGenerationParameters)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -55,19 +55,19 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
 
-  /// @brief Method .ctor addr 0xec33b8 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0xf395a4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength, int32_t certainty);
 
-  /// @brief Method get_PublicExponent addr 0xec33f0 size 0x8 virtual false final false
+  /// @brief Method get_PublicExponent, addr 0xf395dc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_Certainty addr 0xec33f8 size 0x8 virtual false final false
+  /// @brief Method get_Certainty, addr 0xf395e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method Equals addr 0xec3400 size 0xb4 virtual true final false
+  /// @brief Method Equals, addr 0xf395ec, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0xec34b4 size 0x50 virtual true final false
+  /// @brief Method GetHashCode, addr 0xf396a0, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaKeyGenerationParameters", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IMarker);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14157))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13886))
 // CS Name: ::UnityEngine.Timeline::IMarker*
 class CORDL_TYPE IMarker {
 public:
@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_parent))::UnityEngine::Timeline::TrackAsset* parent;
 
-  /// @brief Method get_time addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_time();
 
-  /// @brief Method set_time addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_time(double_t value);
 
-  /// @brief Method get_parent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_parent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Timeline::TrackAsset* get_parent();
 
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize(::UnityEngine::Timeline::TrackAsset* parent);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMarker", modifiers: "&&", def_value: None }]

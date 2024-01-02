@@ -16,12 +16,12 @@ MARK_VAL_T(::GlobalNamespace::GetAssetBundleFileResult);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4413))
 // CS Name: ::GetAssetBundleFileResult
 struct CORDL_TYPE GetAssetBundleFileResult {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2200718 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x234cdc8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool isError, ::StringW assetBundlePath);
 
   // Ctor Parameters [CppParam { name: "isError", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "assetBundlePath", ty: "::StringW", modifiers: "", def_value: None }]

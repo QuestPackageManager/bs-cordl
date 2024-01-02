@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::CertStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1709))
 // CS Name: ::Org.BouncyCastle.Pkix::CertStatus*
 class CORDL_TYPE CertStatus : public ::System::Object {
@@ -46,21 +46,21 @@ public:
 
   constexpr void __set_revocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_RevocationDate addr 0x10774dc size 0x8 virtual false final false
+  /// @brief Method get_RevocationDate, addr 0x10e8730, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();
 
-  /// @brief Method set_RevocationDate addr 0x10774e4 size 0x8 virtual false final false
+  /// @brief Method set_RevocationDate, addr 0x10e8738, size 0x8, virtual false, abstract: false, final false
   inline void set_RevocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_Status addr 0x10774ec size 0x8 virtual false final false
+  /// @brief Method get_Status, addr 0x10e8740, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method set_Status addr 0x10774f4 size 0x8 virtual false final false
+  /// @brief Method set_Status, addr 0x10e8748, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(int32_t value);
 
   static inline ::Org::BouncyCastle::Pkix::CertStatus* New_ctor();
 
-  /// @brief Method .ctor addr 0x10774fc size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x10e8750, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]

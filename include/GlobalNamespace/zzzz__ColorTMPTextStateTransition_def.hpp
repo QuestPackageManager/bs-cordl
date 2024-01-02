@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseStateTransition_1_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 CORDL_MODULE_EXPORT(ColorTMPTextStateTransition)
-namespace Tweening {
-class ColorTween;
+namespace GlobalNamespace {
+class BaseTransitionSO;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
-class BaseTransitionSO;
-}
-namespace GlobalNamespace {
 class ColorTransitionSO;
+}
+namespace Tweening {
+class ColorTween;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTMPTextStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12374)), TypeDefinitionIndex(TypeDefinitionIndex(5548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5548), inst: 910
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5553)) CS Name: ::ColorTMPTextStateTransition*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 927
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5447)) CS Name: ::ColorTMPTextStateTransition*
 class CORDL_TYPE ColorTMPTextStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::TMPro::TMP_Text*> {
 public:
   // Declarations
@@ -52,57 +52,57 @@ public:
 
   constexpr void __set__colorTween(::Tweening::ColorTween* value);
 
-  /// @brief Method get_transition addr 0x213b1b8 size 0x8 virtual true final false
+  /// @brief Method get_transition, addr 0x227d8a8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BaseTransitionSO* get_transition();
 
-  /// @brief Method TransitionToNormalState addr 0x213b1c0 size 0x2c virtual true final false
+  /// @brief Method TransitionToNormalState, addr 0x227d8b0, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToHighlightedState addr 0x213b424 size 0x2c virtual true final false
+  /// @brief Method TransitionToHighlightedState, addr 0x227db14, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToPressedState addr 0x213b450 size 0x2c virtual true final false
+  /// @brief Method TransitionToPressedState, addr 0x227db40, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToDisabledState addr 0x213b47c size 0x2c virtual true final false
+  /// @brief Method TransitionToDisabledState, addr 0x227db6c, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToSelectedState addr 0x213b4a8 size 0x2c virtual true final false
+  /// @brief Method TransitionToSelectedState, addr 0x227db98, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState addr 0x213b4d4 size 0x2c virtual true final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x227dbc4, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method SetNormalState addr 0x213b500 size 0x3c virtual true final false
+  /// @brief Method SetNormalState, addr 0x227dbf0, size 0x3c, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetHighlightedState addr 0x213b53c size 0x3c virtual true final false
+  /// @brief Method SetHighlightedState, addr 0x227dc2c, size 0x3c, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetPressedState addr 0x213b578 size 0x3c virtual true final false
+  /// @brief Method SetPressedState, addr 0x227dc68, size 0x3c, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetDisabledState addr 0x213b5b4 size 0x3c virtual true final false
+  /// @brief Method SetDisabledState, addr 0x227dca4, size 0x3c, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetSelectedState addr 0x213b5f0 size 0x3c virtual true final false
+  /// @brief Method SetSelectedState, addr 0x227dce0, size 0x3c, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method SetSelectedAndHighlightedState addr 0x213b62c size 0x3c virtual true final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x227dd1c, size 0x3c, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method StartTween addr 0x213b1ec size 0x238 virtual false final false
+  /// @brief Method StartTween, addr 0x227d8dc, size 0x238, virtual false, abstract: false, final false
   inline void StartTween(::UnityEngine::Color endColor);
 
   static inline ::GlobalNamespace::ColorTMPTextStateTransition* New_ctor();
 
-  /// @brief Method .ctor addr 0x213b668 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x227dd58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <StartTween>b__16_0 addr 0x213b6b0 size 0x24 virtual false final false
+  /// @brief Method <StartTween>b__16_0, addr 0x227dda0, size 0x24, virtual false, abstract: false, final false
   inline void _StartTween_b__16_0(::UnityEngine::Color color);
 
-  /// @brief Method <StartTween>b__16_1 addr 0x213b6d4 size 0x88 virtual false final false
+  /// @brief Method <StartTween>b__16_1, addr 0x227ddc4, size 0x88, virtual false, abstract: false, final false
   inline void _StartTween_b__16_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorTMPTextStateTransition", modifiers: "&&", def_value: None }]

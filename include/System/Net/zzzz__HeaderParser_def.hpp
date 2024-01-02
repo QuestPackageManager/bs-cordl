@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::System::Net::HeaderParser);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7938))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9101))
 // CS Name: ::System.Net::HeaderParser*
 class CORDL_TYPE HeaderParser : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::HeaderParser* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x28285a4 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0x29a5e1c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2828678 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x29a5ef0, size 0x14, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> Invoke(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderParser", modifiers: "&&", def_value: None }]

@@ -16,13 +16,13 @@ namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class ParseRecord;
+struct BinaryTypeEnum;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+class ParseRecord;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectProgr
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3275)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3244)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3276)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::ObjectProgress*
 class CORDL_TYPE ObjectProgress : public ::System::Object {
 public:
@@ -223,16 +223,16 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectProgress* New_ctor();
 
-  /// @brief Method .ctor addr 0x236b644 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x24c4138, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x236b6b4 size 0x50 virtual false final false
+  /// @brief Method Init, addr 0x24c41a8, size 0x50, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ArrayCountIncrement addr 0x236b704 size 0x10 virtual false final false
+  /// @brief Method ArrayCountIncrement, addr 0x24c41f8, size 0x10, virtual false, abstract: false, final false
   inline void ArrayCountIncrement(int32_t value);
 
-  /// @brief Method GetNext addr 0x236b714 size 0x114 virtual false final false
+  /// @brief Method GetNext, addr 0x24c4208, size 0x114, virtual false, abstract: false, final false
   inline bool GetNext(ByRef<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> outBinaryTypeEnum, ByRef<::System::Object*> outTypeInformation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectProgress", modifiers: "&&", def_value: None }]

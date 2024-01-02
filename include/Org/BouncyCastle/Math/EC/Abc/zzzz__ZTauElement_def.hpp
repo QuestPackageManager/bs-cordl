@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1358))
 // CS Name: ::Org.BouncyCastle.Math.EC.Abc::ZTauElement*
 class CORDL_TYPE ZTauElement : public ::System::Object {
@@ -43,7 +43,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
-  /// @brief Method .ctor addr 0xf52748 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xfc7994, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZTauElement", modifiers: "&&", def_value: None }]

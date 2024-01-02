@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Unity::Jobs::IJob);
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9973))
 // CS Name: ::Unity.Jobs::IJob*
 class CORDL_TYPE IJob {
 public:
   // Declarations
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute();
 
   // Ctor Parameters [CppParam { name: "", ty: "IJob", modifiers: "&&", def_value: None }]

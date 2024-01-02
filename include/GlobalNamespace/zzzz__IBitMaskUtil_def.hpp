@@ -18,37 +18,38 @@ MARK_REF_PTR_T(::GlobalNamespace::IBitMaskUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15155))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15008))
 // CS Name: ::IBitMaskUtil*
 class CORDL_TYPE IBitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method NumberOfSetBits, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t NumberOfSetBits(T bitMask);
 
-  /// @brief Method ToShortString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToShortString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW ToShortString(T bitMask);
 
-  /// @brief Method ToBytes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToBytes(T bitMask);
 
-  /// @brief Method TryParse addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TryParse(::StringW stringSerializedMask, ByRef<T> bitMask);
 
-  /// @brief Method TryParse addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TryParse(::StringW stringSerializedMask, int32_t offset, int32_t length, ByRef<T> bitMask);
 
-  /// @brief Method FromBytes addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
+  /// @brief Method FromBytes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param offset: int32_t (default: static_cast<int32_t>(0x0))
+  template <typename T> static inline T FromBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset = static_cast<int32_t>(0x0));
 
-  /// @brief Method GetHexDigit addr 0x12309c4 size 0x50 virtual false final false
+  /// @brief Method GetHexDigit, addr 0x12a2b78, size 0x50, virtual false, abstract: false, final false
   static inline uint32_t GetHexDigit(char16_t c);
 
-  /// @brief Method GetBase64Digit addr 0x1230a14 size 0x70 virtual false final false
+  /// @brief Method GetBase64Digit, addr 0x12a2bc8, size 0x70, virtual false, abstract: false, final false
   static inline uint32_t GetBase64Digit(char16_t c);
 
-  /// @brief Method GetBase64Char addr 0x1230a84 size 0x44 virtual false final false
+  /// @brief Method GetBase64Char, addr 0x12a2c38, size 0x44, virtual false, abstract: false, final false
   static inline char16_t GetBase64Char(uint64_t digit);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBitMaskUtil", modifiers: "&&", def_value: None }]

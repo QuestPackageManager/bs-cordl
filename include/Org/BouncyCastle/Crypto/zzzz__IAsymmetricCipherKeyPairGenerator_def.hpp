@@ -25,10 +25,10 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IAsymmetricCipherKeyPairGenerator {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GenerateKeyPair, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricCipherKeyPairGenerator", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13966))
 // CS Name: ::UnityEngine.ResourceManagement.Util::ComponentSingleton`1<T>*
 class CORDL_TYPE ComponentSingleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,30 +30,30 @@ public:
 
   static inline T getStaticF_s_Instance();
 
-  /// @brief Method get_Exists addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Exists, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_Exists();
 
-  /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T get_Instance();
 
-  /// @brief Method FindInstance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FindInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T FindInstance();
 
-  /// @brief Method GetGameObjectName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetGameObjectName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
-  /// @brief Method CreateNewSingleton addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateNewSingleton, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateNewSingleton();
 
-  /// @brief Method Awake addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DestroySingleton addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DestroySingleton, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void DestroySingleton();
 
   static inline ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ComponentSingleton_1", modifiers: "&&", def_value: None }]

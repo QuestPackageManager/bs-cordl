@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PersistentCallGroup)
-namespace UnityEngine::Events {
-class PersistentCall;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::Events {
+class PersistentCall;
 }
 namespace UnityEngine::Events {
 class UnityEventBase;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::PersistentCallGroup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10381))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10459))
 // CS Name: ::UnityEngine.Events::PersistentCallGroup*
 class CORDL_TYPE PersistentCallGroup : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b9101c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf935c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count addr 0x2b9109c size 0x48 virtual false final false
+  /// @brief Method get_Count, addr 0x2cf93dc, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Initialize addr 0x2b910e4 size 0x190 virtual false final false
+  /// @brief Method Initialize, addr 0x2cf9424, size 0x190, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   // Ctor Parameters [CppParam { name: "", ty: "PersistentCallGroup", modifiers: "&&", def_value: None }]

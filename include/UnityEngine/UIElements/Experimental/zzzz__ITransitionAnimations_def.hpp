@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::ITransitionAnimations);
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7455))
 // CS Name: ::UnityEngine.UIElements.Experimental::ITransitionAnimations*
 class CORDL_TYPE ITransitionAnimations {
 public:
   // Declarations
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* Start(::UnityEngine::UIElements::Experimental::StyleValues to,
                                                                                                                                 int32_t durationMs);
 

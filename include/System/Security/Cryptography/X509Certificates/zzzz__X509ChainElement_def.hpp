@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElement)
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+struct X509ChainStatusFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatusFlags;
+struct X509ChainStatus;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElem
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7819)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7840))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8982)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9003))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElement*
 class CORDL_TYPE X509ChainElement : public ::System::Object {
 public:
@@ -81,30 +81,30 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method .ctor addr 0x28023d0 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x297fc40, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method get_Certificate addr 0x280243c size 0x8 virtual false final false
+  /// @brief Method get_Certificate, addr 0x297fcac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
 
-  /// @brief Method get_ChainElementStatus addr 0x2802444 size 0x8 virtual false final false
+  /// @brief Method get_ChainElementStatus, addr 0x297fcb4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainElementStatus();
 
-  /// @brief Method get_StatusFlags addr 0x280244c size 0x8 virtual false final false
+  /// @brief Method get_StatusFlags, addr 0x297fcbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
 
-  /// @brief Method set_StatusFlags addr 0x2802454 size 0x8 virtual false final false
+  /// @brief Method set_StatusFlags, addr 0x297fcc4, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusFlags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
-  /// @brief Method Count addr 0x280245c size 0x24 virtual false final false
+  /// @brief Method Count, addr 0x297fccc, size 0x24, virtual false, abstract: false, final false
   inline int32_t Count(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
-  /// @brief Method Set addr 0x2802480 size 0x74 virtual false final false
+  /// @brief Method Set, addr 0x297fcf0, size 0x74, virtual false, abstract: false, final false
   inline void Set(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status,
                   ByRef<int32_t> position, ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags,
                   ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
 
-  /// @brief Method UncompressFlags addr 0x280268c size 0x248 virtual false final false
+  /// @brief Method UncompressFlags, addr 0x297fefc, size 0x248, virtual false, abstract: false, final false
   inline void UncompressFlags();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509ChainElement", modifiers: "&&", def_value: None }]

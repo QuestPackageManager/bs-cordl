@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::TagPropertyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13903))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16255))
 // CS Name: ::TagPropertyAttribute*
 class CORDL_TYPE TagPropertyAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   static inline ::GlobalNamespace::TagPropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9a5ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2101290, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TagPropertyAttribute", modifiers: "&&", def_value: None }]

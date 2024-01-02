@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeWritableSelfAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15880))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16016))
 // CS Name: ::UnityEngine.Bindings::NativeWritableSelfAttribute*
 class CORDL_TYPE NativeWritableSelfAttribute : public ::System::Attribute {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method set_WritableSelf addr 0x2bb10d8 size 0xc virtual true final true
+  /// @brief Method set_WritableSelf, addr 0x2d18488, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
   static inline ::UnityEngine::Bindings::NativeWritableSelfAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb10e4 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18494, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "&&", def_value: None }]

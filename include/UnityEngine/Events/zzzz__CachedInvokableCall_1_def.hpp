@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__InvokableCall_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CachedInvokableCall_1)
+namespace System::Reflection {
+class MethodInfo;
+}
 namespace System {
 class Object;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace System::Reflection {
-class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -26,8 +26,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10374)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10374), inst: 3831 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10378))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10456))
 // CS Name: ::UnityEngine.Events::CachedInvokableCall`1<T>*
 class CORDL_TYPE CachedInvokableCall_1 : public ::UnityEngine::Events::InvokableCall_1<T> {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::Events::CachedInvokableCall_1<T>* New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction, T argument);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction, T argument);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(T arg0);
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedInvokableCall_1", modifiers: "&&", def_value: None }]

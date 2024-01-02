@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextColorGradient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13723))
 // CS Name: ::UnityEngine.TextCore.Text::TextColorGradient*
 class CORDL_TYPE TextColorGradient : public ::UnityEngine::ScriptableObject {
 public:
@@ -79,17 +79,17 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be2180 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x2d4a530, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor addr 0x2be221c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2d4a5cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
   static inline ::UnityEngine::TextCore::Text::TextColorGradient* New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
-  /// @brief Method .ctor addr 0x2be2288 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4a638, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextColorGradient", modifiers: "&&", def_value: None }]

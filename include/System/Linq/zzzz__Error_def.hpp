@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::System::Linq::Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14254))
 // CS Name: ::System.Linq::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNull addr 0x2697474 size 0x64 virtual false final false
+  /// @brief Method ArgumentNull, addr 0x28120d4, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentNull(::StringW s);
 
-  /// @brief Method ArgumentOutOfRange addr 0x26974d8 size 0x64 virtual false final false
+  /// @brief Method ArgumentOutOfRange, addr 0x2812138, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentOutOfRange(::StringW s);
 
-  /// @brief Method MoreThanOneElement addr 0x269753c size 0x74 virtual false final false
+  /// @brief Method MoreThanOneElement, addr 0x281219c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneElement();
 
-  /// @brief Method MoreThanOneMatch addr 0x26975b0 size 0x74 virtual false final false
+  /// @brief Method MoreThanOneMatch, addr 0x2812210, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneMatch();
 
-  /// @brief Method NoElements addr 0x2697624 size 0x74 virtual false final false
+  /// @brief Method NoElements, addr 0x2812284, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* NoElements();
 
-  /// @brief Method NoMatch addr 0x2697698 size 0x74 virtual false final false
+  /// @brief Method NoMatch, addr 0x28122f8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* NoMatch();
 
-  /// @brief Method NotSupported addr 0x269770c size 0x5c virtual false final false
+  /// @brief Method NotSupported, addr 0x281236c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* NotSupported();
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]

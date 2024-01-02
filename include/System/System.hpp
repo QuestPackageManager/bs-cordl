@@ -121,6 +121,8 @@ module;
 #include "System/Gen2GcCallback.hpp"
 #include "System/Guid.hpp"
 #include "System/Handles.hpp"
+#include "System/HashCode.hpp"
+#include "System/IAsyncDisposable.hpp"
 #include "System/IAsyncResult.hpp"
 #include "System/ICloneable.hpp"
 #include "System/IComparable.hpp"

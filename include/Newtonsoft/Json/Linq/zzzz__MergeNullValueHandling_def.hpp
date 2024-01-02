@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::MergeNullValueHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11973))
 // CS Name: ::Newtonsoft.Json.Linq::MergeNullValueHandling
 struct CORDL_TYPE MergeNullValueHandling {
 public:

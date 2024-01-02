@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextAlignmentOptions);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12429))
 // CS Name: ::TMPro::TextAlignmentOptions
 struct CORDL_TYPE TextAlignmentOptions {
 public:

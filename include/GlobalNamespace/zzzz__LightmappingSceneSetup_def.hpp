@@ -15,34 +15,34 @@ namespace GlobalNamespace {
 class __LightmappingSceneSetup____c__DisplayClass8_0;
 }
 namespace GlobalNamespace {
-class StandardLevelNoTransitionInstallerData;
-}
-namespace GlobalNamespace {
-class BeatmapLevelSO;
+class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class ColorSchemeSO;
+class BeatmapLevelSO;
+}
+namespace GlobalNamespace {
+class StandardLevelNoTransitionInstallerData;
 }
 namespace GlobalNamespace {
 struct __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
 }
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,8 +62,8 @@ MARK_VAL_T(::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4292)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6088)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
 // ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
 struct CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d {
 public:
@@ -71,10 +71,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21c7e40 size 0x2ac virtual true final true
+  /// @brief Method MoveNext, addr 0x231ac64, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21c80ec size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x231af10, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -122,8 +122,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmappingSceneSetup____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6034))
 // CS Name: ::LightmappingSceneSetup::<>c__DisplayClass8_0*
 class CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -150,10 +150,10 @@ public:
 
   static inline ::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c7d68 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231ab8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InstallBindings>b__0 addr 0x21c7d78 size 0xc8 virtual false final false
+  /// @brief Method <InstallBindings>b__0, addr 0x231ab9c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _InstallBindings_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmappingSceneSetup____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -190,8 +190,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmappingSceneSetup____c__Display
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6090))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::LightmappingSceneSetup*
 class CORDL_TYPE LightmappingSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -246,18 +246,18 @@ public:
 
   constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData* value);
 
-  /// @brief Method get_colorScheme addr 0x21c7048 size 0x8 virtual false final false
+  /// @brief Method get_colorScheme, addr 0x2319e6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
 
-  /// @brief Method set_colorScheme addr 0x21c7050 size 0x8 virtual false final false
+  /// @brief Method set_colorScheme, addr 0x2319e74, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
 
-  /// @brief Method InstallBindings addr 0x21c7058 size 0xd10 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2319e7c, size 0xd10, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LightmappingSceneSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c7d70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231ab94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmappingSceneSetup", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LaunchType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13256))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13252))
 // CS Name: ::Oculus.Platform::LaunchType
 struct CORDL_TYPE LaunchType {
 public:

@@ -5,6 +5,15 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SceneContextRegistryAdderAndRemover)
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class SceneContextRegistry;
+}
+namespace Zenject {
+class SceneContext;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
@@ -13,15 +22,6 @@ class Object;
 }
 namespace Zenject {
 class IInitializable;
-}
-namespace Zenject {
-class SceneContextRegistry;
-}
-namespace Zenject {
-class SceneContext;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Zenject::SceneContextRegistryAdderAndRemover);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11333))
 // CS Name: ::Zenject::SceneContextRegistryAdderAndRemover*
 class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::System::Object {
 public:
@@ -65,19 +65,19 @@ public:
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
-  /// @brief Method .ctor addr 0x2db0bc8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2f18998, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
-  /// @brief Method Initialize addr 0x2db0bf4 size 0x20 virtual true final true
+  /// @brief Method Initialize, addr 0x2f189c4, size 0x20, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose addr 0x2db0c14 size 0x20 virtual true final true
+  /// @brief Method Dispose, addr 0x2f189e4, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate addr 0x2db0c34 size 0x11c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f18a04, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db0d50 size 0x304 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f18b20, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneContextRegistryAdderAndRemover", modifiers: "&&", def_value: None }]

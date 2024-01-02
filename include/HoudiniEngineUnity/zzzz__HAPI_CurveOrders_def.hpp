@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CurveOrders);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9712))
 // CS Name: ::HoudiniEngineUnity::HAPI_CurveOrders
 struct CORDL_TYPE HAPI_CurveOrders {
 public:

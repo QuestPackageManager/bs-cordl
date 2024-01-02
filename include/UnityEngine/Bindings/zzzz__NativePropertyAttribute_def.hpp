@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativePropertyAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(15881))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16017)), TypeDefinitionIndex(TypeDefinitionIndex(16018))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16019))
 // CS Name: ::UnityEngine.Bindings::NativePropertyAttribute*
 class CORDL_TYPE NativePropertyAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
 public:
@@ -36,27 +36,27 @@ public:
 
   constexpr void __set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method set_TargetType addr 0x2bb12a4 size 0x8 virtual false final false
+  /// @brief Method set_TargetType, addr 0x2d18654, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
   static inline ::UnityEngine::Bindings::NativePropertyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb12ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1865c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bindings::NativePropertyAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2bb12b4 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::NativePropertyAttribute* New_ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
-  /// @brief Method .ctor addr 0x2bb12b8 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18668, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
   static inline ::UnityEngine::Bindings::NativePropertyAttribute* New_ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
-  /// @brief Method .ctor addr 0x2bb12e8 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18698, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativePropertyAttribute", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Zenject::InjectAttributeBase);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15657)), TypeDefinitionIndex(TypeDefinitionIndex(15662))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15658))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15707)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15708))
 // CS Name: ::Zenject::InjectAttributeBase*
 class CORDL_TYPE InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {
 public:
@@ -60,27 +60,27 @@ public:
 
   constexpr void __set__Source_k__BackingField(::Zenject::InjectSources value);
 
-  /// @brief Method get_Optional addr 0x2d51a30 size 0x8 virtual false final false
+  /// @brief Method get_Optional, addr 0x2eb97b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Optional();
 
-  /// @brief Method set_Optional addr 0x2d51a38 size 0xc virtual false final false
+  /// @brief Method set_Optional, addr 0x2eb97b8, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method get_Id addr 0x2d51a44 size 0x8 virtual false final false
+  /// @brief Method get_Id, addr 0x2eb97c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Id();
 
-  /// @brief Method set_Id addr 0x2d51a4c size 0x8 virtual false final false
+  /// @brief Method set_Id, addr 0x2eb97cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::System::Object* value);
 
-  /// @brief Method get_Source addr 0x2d51a54 size 0x8 virtual false final false
+  /// @brief Method get_Source, addr 0x2eb97d4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectSources get_Source();
 
-  /// @brief Method set_Source addr 0x2d51a5c size 0x8 virtual false final false
+  /// @brief Method set_Source, addr 0x2eb97dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::Zenject::InjectSources value);
 
   static inline ::Zenject::InjectAttributeBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d51a64 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb97e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "&&", def_value: None }]

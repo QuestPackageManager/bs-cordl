@@ -9,37 +9,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioPlayableAsset)
 namespace UnityEngine::Timeline {
-class __AudioPlayableAsset___get_outputs_d__16;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
+class AudioClipProperties;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine::Playables {
+struct PlayableBinding;
+}
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
-namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
 namespace UnityEngine::Timeline {
-class AudioClipProperties;
+class __AudioPlayableAsset___get_outputs_d__16;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine {
+class AudioClip;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class IDisposable;
@@ -50,8 +50,8 @@ class Object;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -67,8 +67,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10353)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14138))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13867))
 // CS Name: ::AudioPlayableAsset::<get_outputs>d__16*
 class CORDL_TYPE __AudioPlayableAsset___get_outputs_d__16 : public ::System::Object {
 public:
@@ -131,28 +131,28 @@ public:
 
   static inline ::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2ade120 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x2c61e74, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2ade2f8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2c6204c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2ade2fc size 0x90 virtual true final true
+  /// @brief Method MoveNext, addr 0x2c62050, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current addr 0x2ade38c size 0x10 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x2c620e0, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2ade39c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2c620f0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2ade3dc size 0x60 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2c62130, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator addr 0x2ade43c size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x2c62190, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2ade4e0 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2c62234, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AudioPlayableAsset___get_outputs_d__16", modifiers: "&&", def_value: None }]
@@ -199,8 +199,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__AudioPlayableAsset___get_outpu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13868))
 // CS Name: ::UnityEngine.Timeline::AudioPlayableAsset*
 class CORDL_TYPE AudioPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -258,39 +258,39 @@ public:
 
   constexpr void __set_m_ClipProperties(::UnityEngine::Timeline::AudioClipProperties* value);
 
-  /// @brief Method get_bufferingTime addr 0x2addfc0 size 0x8 virtual false final false
+  /// @brief Method get_bufferingTime, addr 0x2c61d14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bufferingTime();
 
-  /// @brief Method set_bufferingTime addr 0x2addfc8 size 0x8 virtual false final false
+  /// @brief Method set_bufferingTime, addr 0x2c61d1c, size 0x8, virtual false, abstract: false, final false
   inline void set_bufferingTime(float_t value);
 
-  /// @brief Method get_clip addr 0x2addfd0 size 0x8 virtual false final false
+  /// @brief Method get_clip, addr 0x2c61d24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioClip* get_clip();
 
-  /// @brief Method set_clip addr 0x2addfd8 size 0x8 virtual false final false
+  /// @brief Method set_clip, addr 0x2c61d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method get_loop addr 0x2addfe0 size 0x8 virtual false final false
+  /// @brief Method get_loop, addr 0x2c61d34, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method set_loop addr 0x2addfe8 size 0xc virtual false final false
+  /// @brief Method set_loop, addr 0x2c61d3c, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method get_duration addr 0x2addff4 size 0xb4 virtual true final false
+  /// @brief Method get_duration, addr 0x2c61d48, size 0xb4, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs addr 0x2ade0a8 size 0x78 virtual true final false
+  /// @brief Method get_outputs, addr 0x2c61dfc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
-  /// @brief Method CreatePlayable addr 0x2ade154 size 0x11c virtual true final false
+  /// @brief Method CreatePlayable, addr 0x2c61ea8, size 0x11c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
-  /// @brief Method get_clipCaps addr 0x2ade270 size 0xc virtual true final true
+  /// @brief Method get_clipCaps, addr 0x2c61fc4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   static inline ::UnityEngine::Timeline::AudioPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ade27c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2c61fd0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableAsset", modifiers: "&&", def_value: None }]

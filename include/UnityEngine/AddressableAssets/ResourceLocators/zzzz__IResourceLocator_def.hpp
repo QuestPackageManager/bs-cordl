@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(IResourceLocator)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLoca
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14112))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::IResourceLocator*
 class CORDL_TYPE IResourceLocator {
 public:
@@ -40,13 +40,13 @@ public:
 
   __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
 
-  /// @brief Method get_LocatorId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LocatorId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_LocatorId();
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method Locate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Locate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceLocator", modifiers: "&&", def_value: None }]

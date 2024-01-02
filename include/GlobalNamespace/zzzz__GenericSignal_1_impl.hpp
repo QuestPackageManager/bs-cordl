@@ -15,8 +15,8 @@ template <typename T> constexpr void GlobalNamespace::GenericSignal_1<T>::__set_
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::Raise() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GenericSignal_1<T>*>::get(), "Raise",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GenericSignal_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::GenericSignal_1<T>::Raise(T f) {

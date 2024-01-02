@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
+class SliderData;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
@@ -19,19 +19,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class ObstacleController;
+struct __BeatmapObjectSpawnMovementData__NoteSpawnData;
 }
 namespace GlobalNamespace {
-class SliderData;
+class ObstacleData;
+}
+namespace GlobalNamespace {
+class ObstacleController;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__ObstacleSpawnData;
 }
 namespace GlobalNamespace {
 class NoteController;
-}
-namespace GlobalNamespace {
-class ObstacleData;
 }
 namespace GlobalNamespace {
 class SliderController;
@@ -46,39 +46,39 @@ MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapObjectManager);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4837))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4854))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4716))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4733))
 // CS Name: ::MockBeatmapObjectManager*
 class CORDL_TYPE MockBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
   // Declarations
   __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* activeObstacleControllers;
 
-  /// @brief Method get_activeObstacleControllers addr 0x224dcb4 size 0x8 virtual true final false
+  /// @brief Method get_activeObstacleControllers, addr 0x2382958, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
 
-  /// @brief Method ProcessObstacleData addr 0x224dcbc size 0x4 virtual true final false
+  /// @brief Method ProcessObstacleData, addr 0x2382960, size 0x4, virtual true, abstract: false, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
 
-  /// @brief Method ProcessNoteData addr 0x224dcc0 size 0x4 virtual true final false
+  /// @brief Method ProcessNoteData, addr 0x2382964, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNoteData(::GlobalNamespace::NoteData* noteData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData> noteSpawnData, float_t rotation,
                               bool forceIsFirstNoteBehaviour);
 
-  /// @brief Method ProcessSliderData addr 0x224dcc4 size 0x4 virtual true final false
+  /// @brief Method ProcessSliderData, addr 0x2382968, size 0x4, virtual true, abstract: false, final false
   inline void ProcessSliderData(::GlobalNamespace::SliderData* sliderData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData> sliderSpawnData, float_t rotation);
 
-  /// @brief Method DespawnInternal addr 0x224dcc8 size 0x4 virtual true final false
+  /// @brief Method DespawnInternal, addr 0x238296c, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method DespawnInternal addr 0x224dccc size 0x4 virtual true final false
+  /// @brief Method DespawnInternal, addr 0x2382970, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method DespawnInternal addr 0x224dcd0 size 0x4 virtual true final false
+  /// @brief Method DespawnInternal, addr 0x2382974, size 0x4, virtual true, abstract: false, final false
   inline void DespawnInternal(::GlobalNamespace::SliderController* sliderNoteController);
 
   static inline ::GlobalNamespace::MockBeatmapObjectManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x224dcd4 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2382978, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapObjectManager", modifiers: "&&", def_value: None }]

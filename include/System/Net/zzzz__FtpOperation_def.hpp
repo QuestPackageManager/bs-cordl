@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpOperation);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9044))
 // CS Name: ::System.Net::FtpOperation
 struct CORDL_TYPE FtpOperation {
 public:

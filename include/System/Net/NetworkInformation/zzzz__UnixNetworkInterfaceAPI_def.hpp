@@ -16,21 +16,21 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixNetworkInterfaceAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8120))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8128))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9283))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9291))
 // CS Name: ::System.Net.NetworkInformation::UnixNetworkInterfaceAPI*
 class CORDL_TYPE UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory {
 public:
   // Declarations
-  /// @brief Method getifaddrs addr 0x28717b4 size 0x7c virtual false final false
+  /// @brief Method getifaddrs, addr 0x29ee038, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t getifaddrs(ByRef<void*> ifap);
 
-  /// @brief Method freeifaddrs addr 0x2871734 size 0x7c virtual false final false
+  /// @brief Method freeifaddrs, addr 0x29edfb8, size 0x7c, virtual false, abstract: false, final false
   static inline void freeifaddrs(void* ifap);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x2870fd8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29ed85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnixNetworkInterfaceAPI", modifiers: "&&", def_value: None }]

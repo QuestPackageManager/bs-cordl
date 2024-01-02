@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 CORDL_MODULE_EXPORT(ThreadInterruptedException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::Threading::ThreadInterruptedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2724))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2726))
 // CS Name: ::System.Threading::ThreadInterruptedException*
 class CORDL_TYPE ThreadInterruptedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Threading::ThreadInterruptedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24bf40c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x261a428, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ThreadInterruptedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24bf488 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x261a4a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadInterruptedException", modifiers: "&&", def_value: None }]

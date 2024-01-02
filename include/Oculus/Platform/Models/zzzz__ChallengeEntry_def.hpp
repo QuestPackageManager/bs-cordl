@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeEntry);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13469))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13428))
 // CS Name: ::Oculus.Platform.Models::ChallengeEntry*
 class CORDL_TYPE ChallengeEntry : public ::System::Object {
 public:
@@ -92,7 +92,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ChallengeEntry* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b28b8 size 0x110 virtual false final false
+  /// @brief Method .ctor, addr 0x27057d8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeEntry", modifiers: "&&", def_value: None }]

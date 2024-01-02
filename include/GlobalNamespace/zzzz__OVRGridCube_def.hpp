@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGridCube);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(9986))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8894))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
 // CS Name: ::OVRGridCube*
 class CORDL_TYPE OVRGridCube : public ::UnityEngine::MonoBehaviour {
 public:
@@ -129,24 +129,24 @@ public:
 
   constexpr void __set_CameraController(::GlobalNamespace::OVRCameraRig* value);
 
-  /// @brief Method Update addr 0x2639714 size 0x4 virtual false final false
+  /// @brief Method Update, addr 0x27ae3c8, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetOVRCameraController addr 0x263992c size 0xc virtual false final false
+  /// @brief Method SetOVRCameraController, addr 0x27ae5e4, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method UpdateCubeGrid addr 0x2639718 size 0x214 virtual false final false
+  /// @brief Method UpdateCubeGrid, addr 0x27ae3cc, size 0x218, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
-  /// @brief Method CreateCubeGrid addr 0x2639938 size 0x3a8 virtual false final false
+  /// @brief Method CreateCubeGrid, addr 0x27ae5f0, size 0x3a8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor addr 0x2639ce0 size 0x188 virtual false final false
+  /// @brief Method CubeGridSwitchColor, addr 0x27ae998, size 0x188, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method .ctor addr 0x2639e68 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x27aeb20, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRGridCube", modifiers: "&&", def_value: None }]

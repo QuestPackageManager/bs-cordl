@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 CORDL_MODULE_EXPORT(Req)
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
-}
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class Request;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Ocsp {
 class CertificateID;
@@ -42,16 +42,16 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method .ctor addr 0x102e8e8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x109fb38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 
-  /// @brief Method GetCertID addr 0x1033848 size 0x6c virtual false final false
+  /// @brief Method GetCertID, addr 0x10a4a98, size 0x6c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::CertificateID* GetCertID();
 
-  /// @brief Method get_SingleRequestExtensions addr 0x10338b4 size 0x1c virtual false final false
+  /// @brief Method get_SingleRequestExtensions, addr 0x10a4b04, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
-  /// @brief Method GetX509Extensions addr 0x10338d0 size 0x1c virtual true final false
+  /// @brief Method GetX509Extensions, addr 0x10a4b20, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   // Ctor Parameters [CppParam { name: "", ty: "Req", modifiers: "&&", def_value: None }]

@@ -17,12 +17,12 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_BoxInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9677))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9750))
 // CS Name: ::HoudiniEngineUnity::HAPI_BoxInfo
 struct CORDL_TYPE HAPI_BoxInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x203b514 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x2191eb0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters [CppParam { name: "center", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "size", ty: "::ArrayW<float_t,::Array<float_t>*>",

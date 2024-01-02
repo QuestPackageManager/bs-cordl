@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContextProperty);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3105))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3106))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContextProperty*
 class CORDL_TYPE IContextProperty {
 public:
   // Declarations
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method Freeze addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Freeze, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Freeze(::System::Runtime::Remoting::Contexts::Context* newContext);
 
-  /// @brief Method IsNewContextOK addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsNewContextOK, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsNewContextOK(::System::Runtime::Remoting::Contexts::Context* newCtx);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContextProperty", modifiers: "&&", def_value: None }]

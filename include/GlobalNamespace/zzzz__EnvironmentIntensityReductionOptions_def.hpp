@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentIntensityReductionOptions);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4171))
 // CS Name: ::EnvironmentIntensityReductionOptions::CompressExpandReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__CompressExpandReductionType {
 public:
@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4172))
 // CS Name: ::EnvironmentIntensityReductionOptions::RotateRingsReductionType
 struct CORDL_TYPE __EnvironmentIntensityReductionOptions__RotateRingsReductionType {
 public:
@@ -131,8 +131,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentIntensityReductionOptions
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4204)), TypeDefinitionIndex(TypeDefinitionIndex(4203))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4205))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4171)), TypeDefinitionIndex(TypeDefinitionIndex(4172))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4173))
 // CS Name: ::EnvironmentIntensityReductionOptions*
 class CORDL_TYPE EnvironmentIntensityReductionOptions : public ::System::Object {
 public:
@@ -163,15 +163,15 @@ public:
 
   constexpr void __set__rotateRings(::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType value);
 
-  /// @brief Method get_compressExpand addr 0x21d14ec size 0x8 virtual false final false
+  /// @brief Method get_compressExpand, addr 0x224038c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__CompressExpandReductionType get_compressExpand();
 
-  /// @brief Method get_rotateRings addr 0x21d14f4 size 0x8 virtual false final false
+  /// @brief Method get_rotateRings, addr 0x2240394, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EnvironmentIntensityReductionOptions__RotateRingsReductionType get_rotateRings();
 
   static inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d14fc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x224039c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentIntensityReductionOptions", modifiers: "&&", def_value: None }]

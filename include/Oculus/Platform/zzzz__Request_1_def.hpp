@@ -23,8 +23,8 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13414))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13413))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13381))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
 // CS Name: ::Oculus.Platform::Request`1<T>*
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:
@@ -40,13 +40,13 @@ public:
 
   static inline ::Oculus::Platform::Request_1<T>* New_ctor(uint64_t requestID);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method OnComplete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnComplete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<T>* OnComplete(::Oculus::Platform::__Message_1__Callback<T>* callback);
 
-  /// @brief Method HandleMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "Request_1", modifiers: "&&", def_value: None }]

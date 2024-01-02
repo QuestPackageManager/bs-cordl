@@ -10,62 +10,62 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailView)
-namespace HMUI {
-class ToggleBinder;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class LevelBar;
 }
+namespace GlobalNamespace {
+class BeatmapDifficultySegmentedControlController;
+}
 namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
+class Button;
 }
 namespace GlobalNamespace {
 class LevelParamsPanel;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+struct __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34;
 }
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IDifficultyBeatmap;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace TMPro {
-class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSegmentedControlController;
 }
 namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
 class PlayerData;
 }
-namespace GlobalNamespace {
-class BeatmapDifficultySegmentedControlController;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IBeatmapDataBasicInfo;
-}
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace GlobalNamespace {
+class IBeatmapDataBasicInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -81,18 +81,19 @@ MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailView___SetContentForBeatmapDa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 869
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4290))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5907)) CS Name: ::StandardLevelDetailView::<SetContentForBeatmapDataAsync>d__34
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4258)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 886 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5814)) CS Name:
+// ::StandardLevelDetailView::<SetContentForBeatmapDataAsync>d__34
 struct CORDL_TYPE __StandardLevelDetailView___SetContentForBeatmapDataAsync_d__34 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21a5624 size 0x584 virtual true final true
+  /// @brief Method MoveNext, addr 0x22ea818, size 0x584, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21a5ba8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22ead9c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -145,8 +146,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailView___SetContent
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5908))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5815))
 // CS Name: ::StandardLevelDetailView*
 class CORDL_TYPE StandardLevelDetailView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -296,66 +297,66 @@ public:
 
   constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent addr 0x21a48dc size 0xb0 virtual false final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x22e9ad4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent addr 0x21a498c size 0xb0 virtual false final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x22e9b84, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method add_didFavoriteToggleChangeEvent addr 0x21a4a3c size 0xb0 virtual false final false
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x22e9c34, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>* value);
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent addr 0x21a4aec size 0xb0 virtual false final false
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x22e9ce4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailView*, ::UnityEngine::UI::Toggle*>* value);
 
-  /// @brief Method get_selectedDifficultyBeatmap addr 0x21a4b9c size 0x8 virtual false final false
+  /// @brief Method get_selectedDifficultyBeatmap, addr 0x22e9d94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
 
-  /// @brief Method get_actionButton addr 0x21a4ba4 size 0x8 virtual false final false
+  /// @brief Method get_actionButton, addr 0x22e9d9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Button* get_actionButton();
 
-  /// @brief Method set_actionButtonText addr 0x21a4bac size 0x24 virtual false final false
+  /// @brief Method set_actionButtonText, addr 0x22e9da4, size 0x24, virtual false, abstract: false, final false
   inline void set_actionButtonText(::StringW value);
 
-  /// @brief Method get_practiceButton addr 0x21a4bd0 size 0x8 virtual false final false
+  /// @brief Method get_practiceButton, addr 0x22e9dc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Button* get_practiceButton();
 
-  /// @brief Method set_hidePracticeButton addr 0x21a4bd8 size 0x34 virtual false final false
+  /// @brief Method set_hidePracticeButton, addr 0x22e9dd0, size 0x34, virtual false, abstract: false, final false
   inline void set_hidePracticeButton(bool value);
 
-  /// @brief Method SetContent addr 0x21a4c0c size 0x308 virtual false final false
+  /// @brief Method SetContent, addr 0x22e9e04, size 0x308, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::IBeatmapLevel* level, ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic,
                          ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method Awake addr 0x21a509c size 0x184 virtual false final false
+  /// @brief Method Awake, addr 0x22ea290, size 0x184, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x21a5220 size 0x178 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22ea414, size 0x178, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty addr 0x21a5398 size 0x38 virtual false final false
+  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x22ea58c, size 0x38, virtual false, abstract: false, final false
   inline void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller,
                                                                                    ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic addr 0x21a53d0 size 0x184 virtual false final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x22ea5c4, size 0x184, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller,
                                                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method RefreshContent addr 0x21a4f14 size 0x188 virtual false final false
+  /// @brief Method RefreshContent, addr 0x22ea10c, size 0x184, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetContentForBeatmapDataAsync addr 0x21a5554 size 0x9c virtual false final false
+  /// @brief Method SetContentForBeatmapDataAsync, addr 0x22ea748, size 0x9c, virtual false, abstract: false, final false
   inline void SetContentForBeatmapDataAsync(::GlobalNamespace::IDifficultyBeatmap* selectedDifficultyBeatmap);
 
-  /// @brief Method ClearContent addr 0x21a55f0 size 0x8 virtual false final false
+  /// @brief Method ClearContent, addr 0x22ea7e4, size 0x8, virtual false, abstract: false, final false
   inline void ClearContent();
 
   static inline ::GlobalNamespace::StandardLevelDetailView* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a55f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ea7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__29_0 addr 0x21a5600 size 0x24 virtual false final false
+  /// @brief Method <Awake>b__29_0, addr 0x22ea7f4, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__29_0(bool on);
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailView", modifiers: "&&", def_value: None }]

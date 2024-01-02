@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::ProcessingState);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9916))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9988))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::ProcessingState
 struct CORDL_TYPE ProcessingState {
 public:

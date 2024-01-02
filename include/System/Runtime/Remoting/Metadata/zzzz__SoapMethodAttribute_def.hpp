@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapMethodAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3140))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapMethodAttribute*
 class CORDL_TYPE SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
@@ -84,16 +84,16 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x234d270 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24a5d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute addr 0x234d278 size 0x8 virtual true final false
+  /// @brief Method get_UseAttribute, addr 0x24a5d6c, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace addr 0x234d280 size 0x8 virtual true final false
+  /// @brief Method get_XmlNamespace, addr 0x24a5d74, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
-  /// @brief Method SetReflectionObject addr 0x234d288 size 0x1ac virtual true final false
+  /// @brief Method SetReflectionObject, addr 0x24a5d7c, size 0x1ac, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "SoapMethodAttribute", modifiers: "&&", def_value: None }]

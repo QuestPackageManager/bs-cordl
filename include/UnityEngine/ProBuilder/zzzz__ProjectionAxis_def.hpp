@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ProjectionAxis);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12086))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12158))
 // CS Name: ::UnityEngine.ProBuilder::ProjectionAxis
 struct CORDL_TYPE ProjectionAxis {
 public:

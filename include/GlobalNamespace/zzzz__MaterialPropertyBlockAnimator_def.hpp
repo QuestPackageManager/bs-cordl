@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockAnimator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14563))
 // CS Name: ::MaterialPropertyBlockAnimator*
 class CORDL_TYPE MaterialPropertyBlockAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -63,30 +63,30 @@ public:
 
   constexpr void __set__isInitialized(bool value);
 
-  /// @brief Method get_materialPropertyBlockController addr 0x1fbeeec size 0x8 virtual false final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x211498c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
 
-  /// @brief Method set_materialPropertyBlockController addr 0x1fbeef4 size 0x7c virtual false final false
+  /// @brief Method set_materialPropertyBlockController, addr 0x2114994, size 0x7c, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
-  /// @brief Method SetProperty addr 0x1fbef70 size 0x4 virtual true final false
+  /// @brief Method SetProperty, addr 0x2114a10, size 0x4, virtual true, abstract: false, final false
   inline void SetProperty();
 
-  /// @brief Method Awake addr 0x1fbef74 size 0x90 virtual false final false
+  /// @brief Method Awake, addr 0x2114a14, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x1fbf034 size 0x28 virtual false final false
+  /// @brief Method Update, addr 0x2114ad4, size 0x28, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LazyInit addr 0x1fbf004 size 0x30 virtual false final false
+  /// @brief Method LazyInit, addr 0x2114aa4, size 0x30, virtual false, abstract: false, final false
   inline void LazyInit();
 
-  /// @brief Method RefreshProperty addr 0x1fbf24c size 0x20 virtual false final false
+  /// @brief Method RefreshProperty, addr 0x2114cec, size 0x20, virtual false, abstract: false, final false
   inline void RefreshProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbf26c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2114d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockAnimator", modifiers: "&&", def_value: None }]

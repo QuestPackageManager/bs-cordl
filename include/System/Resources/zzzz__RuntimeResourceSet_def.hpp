@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeResourceSet)
-namespace System::Resources {
-struct ResourceLocator;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace System {
+class Object;
 }
 namespace System::Resources {
 class ResourceReader;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
-namespace System::IO {
-class Stream;
-}
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
 }
+namespace System::Resources {
+struct ResourceLocator;
+}
+namespace System::IO {
+class Stream;
+}
 namespace System::Collections {
-class IEnumerable;
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Resources::RuntimeResourceSet);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3437))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3424))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3442))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3429))
 // CS Name: ::System.Resources::RuntimeResourceSet*
 class CORDL_TYPE RuntimeResourceSet : public ::System::Resources::ResourceSet {
 public:
@@ -88,42 +88,42 @@ public:
 
   static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW fileName);
 
-  /// @brief Method .ctor addr 0x23844dc size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0x24def70, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName);
 
   static inline ::System::Resources::RuntimeResourceSet* New_ctor(::System::IO::Stream* stream);
 
-  /// @brief Method .ctor addr 0x238461c size 0x100 virtual false final false
+  /// @brief Method .ctor, addr 0x24df19c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream);
 
-  /// @brief Method Dispose addr 0x238471c size 0x124 virtual true final false
+  /// @brief Method Dispose, addr 0x24df294, size 0x140, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetEnumerator addr 0x2384840 size 0x4 virtual true final false
+  /// @brief Method GetEnumerator, addr 0x24df4c4, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2384944 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x24df5c8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetEnumeratorHelper addr 0x2384844 size 0x100 virtual false final false
+  /// @brief Method GetEnumeratorHelper, addr 0x24df4c8, size 0x100, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
 
-  /// @brief Method GetString addr 0x2384948 size 0x70 virtual true final false
+  /// @brief Method GetString, addr 0x24df5cc, size 0x70, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW key);
 
-  /// @brief Method GetString addr 0x23852cc size 0x7c virtual true final false
+  /// @brief Method GetString, addr 0x24dff4c, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW key, bool ignoreCase);
 
-  /// @brief Method GetObject addr 0x2385348 size 0xc virtual true final false
+  /// @brief Method GetObject, addr 0x24dffc8, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW key);
 
-  /// @brief Method GetObject addr 0x2385354 size 0xc virtual true final false
+  /// @brief Method GetObject, addr 0x24dffd4, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW key, bool ignoreCase);
 
-  /// @brief Method GetObject addr 0x23849b8 size 0x914 virtual false final false
+  /// @brief Method GetObject, addr 0x24df63c, size 0x910, virtual false, abstract: false, final false
   inline ::System::Object* GetObject(::StringW key, bool ignoreCase, bool isString);
 
-  /// @brief Method ResolveResourceLocator addr 0x2385360 size 0x1188 virtual false final false
+  /// @brief Method ResolveResourceLocator, addr 0x24e0898, size 0x180, virtual false, abstract: false, final false
   inline ::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key,
                                                   ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
 

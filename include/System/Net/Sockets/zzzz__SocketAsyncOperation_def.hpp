@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketAsyncOperation);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9345))
 // CS Name: ::System.Net.Sockets::SocketAsyncOperation
 struct CORDL_TYPE SocketAsyncOperation {
 public:

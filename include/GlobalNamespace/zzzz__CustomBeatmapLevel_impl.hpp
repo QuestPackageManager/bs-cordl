@@ -1,21 +1,22 @@
 #pragma once
 #include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBeatmapLevel_def.hpp"
-#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevel_def.hpp"
+#include "GlobalNamespace/zzzz__CustomPreviewBeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
-#include "GlobalNamespace/zzzz__IFilePathSongAudioClipProvider_def.hpp"
+#include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevel.get_beatmapLevelData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatmapLevelData* (::GlobalNamespace::CustomBeatmapLevel::*)()>(
     &::GlobalNamespace::CustomBeatmapLevel::get_beatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21fce10;
+  constexpr static std::size_t addrs = 0x23473c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(),
                                                                                "get_beatmapLevelData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -27,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::CustomBeatmapLevel::*)()>(
     &::GlobalNamespace::CustomBeatmapLevel::get_songAudioClipPath)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x21fce18;
+  constexpr static std::size_t addrs = 0x23473cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(),
                                                                                "get_songAudioClipPath", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -40,10 +41,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomBeatmapLevel::*)(::GlobalNamespace::CustomPreviewBeatmapLevel*)>(
     &::GlobalNamespace::CustomBeatmapLevel::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x21fce8c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x2347440;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CustomPreviewBeatmapLevel*>::get() })));
@@ -56,12 +57,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomBeatmapLevel::*)(::GlobalNamespace::BeatmapLevelData*)>(
     &::GlobalNamespace::CustomBeatmapLevel::SetBeatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21fd014;
+  constexpr static std::size_t addrs = 0x2347600;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "SetBeatmapLevelData", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelData*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CustomBeatmapLevel.GetBeatmapLevelColorScheme
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::CustomBeatmapLevel::*)(int32_t)>(
+    &::GlobalNamespace::CustomBeatmapLevel::GetBeatmapLevelColorScheme)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x2347608;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "GetBeatmapLevelColorScheme",
+                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -113,6 +129,12 @@ inline void GlobalNamespace::CustomBeatmapLevel::SetBeatmapLevelData(::GlobalNam
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "SetBeatmapLevelData", std::vector<Il2CppClass*>{},
                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevelData);
+}
+inline ::GlobalNamespace::ColorScheme* GlobalNamespace::CustomBeatmapLevel::GetBeatmapLevelColorScheme(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBeatmapLevel*>::get(), "GetBeatmapLevelColorScheme",
+                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorScheme*, false>(this, ___internal_method, index);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::CustomBeatmapLevel::CustomBeatmapLevel() {}

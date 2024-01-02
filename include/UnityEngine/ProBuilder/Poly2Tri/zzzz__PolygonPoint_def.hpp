@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15374))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15351))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15344))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15321))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonPoint*
 class CORDL_TYPE PolygonPoint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint {
 public:
@@ -46,19 +46,20 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* New_ctor(double_t x, double_t y, int32_t index);
 
-  /// @brief Method .ctor addr 0x29ad414 size 0x3c virtual false final false
-  inline void _ctor(double_t x, double_t y, int32_t index);
+  /// @brief Method .ctor, addr 0x2b2f168, size 0x3c, virtual false, abstract: false, final false
+  /// @param index: int32_t (default: static_cast<int32_t>(0xffffffff))
+  inline void _ctor(double_t x, double_t y, int32_t index = static_cast<int32_t>(0xffffffff));
 
-  /// @brief Method get_Next addr 0x29ad48c size 0x8 virtual false final false
+  /// @brief Method get_Next, addr 0x2b2f1e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Next();
 
-  /// @brief Method set_Next addr 0x29ad494 size 0x8 virtual false final false
+  /// @brief Method set_Next, addr 0x2b2f1e8, size 0x8, virtual false, abstract: false, final false
   inline void set_Next(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
-  /// @brief Method get_Previous addr 0x29ad49c size 0x8 virtual false final false
+  /// @brief Method get_Previous, addr 0x2b2f1f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* get_Previous();
 
-  /// @brief Method set_Previous addr 0x29ad4a4 size 0x8 virtual false final false
+  /// @brief Method set_Previous, addr 0x2b2f1f8, size 0x8, virtual false, abstract: false, final false
   inline void set_Previous(::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "PolygonPoint", modifiers: "&&", def_value: None }]

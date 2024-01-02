@@ -17,8 +17,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7485)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 3883 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7487)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7487), inst: 913 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7487)) CS
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3978 }), TypeDefinitionIndex(TypeDefinitionIndex(7401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7401), inst: 930 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7401)) CS
 // Name: ::UnityEngine.UIElements.UIR::BasicNode`1<T>*
 class CORDL_TYPE BasicNode_1 : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> {
 public:
@@ -41,12 +41,12 @@ public:
 
   constexpr void __set_data(T value);
 
-  /// @brief Method AppendTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AppendTo(ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first);
 
   static inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicNode_1", modifiers: "&&", def_value: None }]

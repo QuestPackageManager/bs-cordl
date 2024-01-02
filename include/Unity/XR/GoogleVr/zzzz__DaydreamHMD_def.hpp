@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Unity::XR::GoogleVr::DaydreamHMD);
 // SizeInfo { instance_size: 424, native_size: -1, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::GoogleVr {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6410))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6324))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6122))
 // CS Name: ::Unity.XR.GoogleVr::DaydreamHMD*
 class CORDL_TYPE DaydreamHMD : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
   // Declarations
   static inline ::Unity::XR::GoogleVr::DaydreamHMD* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b5df0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a34b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DaydreamHMD", modifiers: "&&", def_value: None }]

@@ -17,76 +17,76 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__Subscriber;
-}
-namespace UnityEngine::InputSystem {
 struct __InputRemoting__Message;
-}
-namespace UnityEngine::InputSystem {
-class InputManager;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__MessageType;
 }
 namespace UnityEngine::InputSystem {
 class __InputRemoting__NewLayoutMsg;
 }
-namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T> class IObservable_1;
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 namespace System {
 class Exception;
 }
 namespace UnityEngine::InputSystem {
-class InputDevice;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__DisconnectMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__StartSendingMsg;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
-namespace UnityEngine::InputSystem {
-struct InputControlLayoutChange;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__StopSendingMsg;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__ConnectMsg;
+class InputManager;
 }
 namespace UnityEngine::InputSystem {
 struct InputDeviceChange;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__NewEventsMsg;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__Flags;
-}
-namespace UnityEngine::InputSystem {
-struct __InputRemoting__RemoteInputDevice;
-}
-namespace UnityEngine::InputSystem {
-class __InputRemoting__NewDeviceMsg;
+class __InputRemoting__RemoveDeviceMsg;
 }
 namespace UnityEngine::InputSystem {
 struct __InputRemoting__RemoteSender;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__RemoveDeviceMsg;
+class __InputRemoting__ChangeUsageMsg;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem {
-class __InputRemoting__ChangeUsageMsg;
+class __InputRemoting__StartSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__DisconnectMsg;
+}
+namespace System {
+template <typename T> class IObserver_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__RemoteInputDevice;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__Flags;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__Subscriber;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewDeviceMsg;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__ConnectMsg;
+}
+namespace UnityEngine::InputSystem {
+struct __InputRemoting__MessageType;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__StopSendingMsg;
+}
+namespace UnityEngine::InputSystem {
+struct InputControlLayoutChange;
+}
+namespace System {
+template <typename T> class IObservable_1;
+}
+namespace UnityEngine::InputSystem {
+class __InputRemoting__NewEventsMsg;
+}
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 struct __InputRemoting__ChangeUsageMsg__Data;
@@ -95,10 +95,10 @@ namespace GlobalNamespace {
 class __InputRemoting__ChangeUsageMsg____c;
 }
 namespace GlobalNamespace {
-struct __InputRemoting__NewDeviceMsg__Data;
+class __InputRemoting__NewDeviceMsg____c;
 }
 namespace GlobalNamespace {
-class __InputRemoting__NewDeviceMsg____c;
+struct __InputRemoting__NewDeviceMsg__Data;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
@@ -203,7 +203,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputRemoting__RemoteSender);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6251))
 // CS Name: ::InputRemoting::MessageType
 struct CORDL_TYPE __InputRemoting__MessageType {
 public:
@@ -284,8 +284,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__MessageType,
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6337))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6338))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6252))
 // CS Name: ::InputRemoting::Message
 struct CORDL_TYPE __InputRemoting__Message {
 public:
@@ -327,7 +327,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Message, dat
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6253))
 // CS Name: ::InputRemoting::Flags
 struct CORDL_TYPE __InputRemoting__Flags {
 public:
@@ -377,7 +377,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Flags, value
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6340))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6254))
 // CS Name: ::InputRemoting::RemoteSender
 struct CORDL_TYPE __InputRemoting__RemoteSender {
 public:
@@ -421,8 +421,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__RemoteSender
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6706))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6341))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6255))
 // CS Name: ::InputRemoting::RemoteInputDevice
 struct CORDL_TYPE __InputRemoting__RemoteInputDevice {
 public:
@@ -463,8 +463,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__RemoteInputD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6342))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6256))
 // CS Name: ::InputRemoting::Subscriber*
 class CORDL_TYPE __InputRemoting__Subscriber : public ::System::Object {
 public:
@@ -490,12 +490,12 @@ public:
 
   constexpr void __set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
 
-  /// @brief Method Dispose addr 0x29272b0 size 0x58 virtual true final true
+  /// @brief Method Dispose, addr 0x2aa5ff8, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::__InputRemoting__Subscriber* New_ctor();
 
-  /// @brief Method .ctor addr 0x2925ab4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa47fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__Subscriber", modifiers: "&&", def_value: None }]
@@ -532,13 +532,13 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Subscriber, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6343))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6257))
 // CS Name: ::InputRemoting::ConnectMsg*
 class CORDL_TYPE __InputRemoting__ConnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2924e10 size 0x44 virtual false final false
+  /// @brief Method Process, addr 0x2aa3b58, size 0x44, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__ConnectMsg", modifiers: "&&", def_value: None }]
@@ -565,13 +565,13 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6258))
 // CS Name: ::InputRemoting::StartSendingMsg*
 class CORDL_TYPE __InputRemoting__StartSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process addr 0x29259a8 size 0x10 virtual false final false
+  /// @brief Method Process, addr 0x2aa46f0, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__StartSendingMsg", modifiers: "&&", def_value: None }]
@@ -598,13 +598,13 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6345))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6259))
 // CS Name: ::InputRemoting::StopSendingMsg*
 class CORDL_TYPE __InputRemoting__StopSendingMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process addr 0x29259b8 size 0x10 virtual false final false
+  /// @brief Method Process, addr 0x2aa4700, size 0x10, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__StopSendingMsg", modifiers: "&&", def_value: None }]
@@ -631,13 +631,13 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6260))
 // CS Name: ::InputRemoting::DisconnectMsg*
 class CORDL_TYPE __InputRemoting__DisconnectMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Process addr 0x2924e54 size 0x94 virtual false final false
+  /// @brief Method Process, addr 0x2aa3b9c, size 0x94, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__DisconnectMsg", modifiers: "&&", def_value: None }]
@@ -665,7 +665,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6261))
 // CS Name: ::InputRemoting::NewLayoutMsg::Data
 struct CORDL_TYPE __InputRemoting__NewLayoutMsg__Data {
 public:
@@ -706,18 +706,18 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__NewLayoutMsg__Data, i
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6262))
 // CS Name: ::InputRemoting::NewLayoutMsg*
 class CORDL_TYPE __InputRemoting__NewLayoutMsg : public ::System::Object {
 public:
   // Declarations
   using Data = ::GlobalNamespace::__InputRemoting__NewLayoutMsg__Data;
 
-  /// @brief Method Create addr 0x2925e2c size 0x24c virtual false final false
+  /// @brief Method Create, addr 0x2aa4b74, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::UnityEngine::InputSystem::__InputRemoting__Message> Create(::UnityEngine::InputSystem::InputRemoting* sender, ::StringW layoutName);
 
-  /// @brief Method Process addr 0x2924ee8 size 0xf8 virtual false final false
+  /// @brief Method Process, addr 0x2aa3c30, size 0xf8, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__NewLayoutMsg", modifiers: "&&", def_value: None }]
@@ -744,8 +744,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6706))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6349))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6263))
 // CS Name: ::InputRemoting::NewDeviceMsg::Data
 struct CORDL_TYPE __InputRemoting__NewDeviceMsg__Data {
 public:
@@ -798,8 +798,8 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__NewDeviceMsg__Data, d
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6350))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6264))
 // CS Name: ::InputRemoting::NewDeviceMsg::<>c*
 class CORDL_TYPE __InputRemoting__NewDeviceMsg____c : public ::System::Object {
 public:
@@ -820,10 +820,10 @@ public:
 
   static inline ::GlobalNamespace::__InputRemoting__NewDeviceMsg____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2927ab0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa67f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Create>b__1_0 addr 0x2927ab8 size 0x24 virtual false final false
+  /// @brief Method <Create>b__1_0, addr 0x2aa6800, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__NewDeviceMsg____c", modifiers: "&&", def_value: None }]
@@ -850,8 +850,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputRemoting
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6351))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6265))
 // CS Name: ::InputRemoting::NewDeviceMsg*
 class CORDL_TYPE __InputRemoting__NewDeviceMsg : public ::System::Object {
 public:
@@ -860,10 +860,10 @@ public:
 
   using Data = ::GlobalNamespace::__InputRemoting__NewDeviceMsg__Data;
 
-  /// @brief Method Create addr 0x2926268 size 0x200 virtual false final false
+  /// @brief Method Create, addr 0x2aa4fb0, size 0x200, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process addr 0x2924fe0 size 0x538 virtual false final false
+  /// @brief Method Process, addr 0x2aa3d28, size 0x538, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__NewDeviceMsg", modifiers: "&&", def_value: None }]
@@ -890,22 +890,22 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6352))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6266))
 // CS Name: ::InputRemoting::NewEventsMsg*
 class CORDL_TYPE __InputRemoting__NewEventsMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateResetEvent addr 0x2926974 size 0x78 virtual false final false
+  /// @brief Method CreateResetEvent, addr 0x2aa56bc, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message CreateResetEvent(::UnityEngine::InputSystem::InputDevice* device, bool isHardReset);
 
-  /// @brief Method CreateStateEvent addr 0x2926468 size 0xfc virtual false final false
+  /// @brief Method CreateStateEvent, addr 0x2aa51b0, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message CreateStateEvent(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Create addr 0x29265c8 size 0xd8 virtual false final false
+  /// @brief Method Create, addr 0x2aa5310, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message Create(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> events, int32_t eventCount);
 
-  /// @brief Method Process addr 0x2925518 size 0xc0 virtual false final false
+  /// @brief Method Process, addr 0x2aa4260, size 0xc0, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__NewEventsMsg", modifiers: "&&", def_value: None }]
@@ -933,7 +933,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6267))
 // CS Name: ::InputRemoting::ChangeUsageMsg::Data
 struct CORDL_TYPE __InputRemoting__ChangeUsageMsg__Data {
 public:
@@ -969,8 +969,8 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__ChangeUsageMsg__Data,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6268))
 // CS Name: ::InputRemoting::ChangeUsageMsg::<>c*
 class CORDL_TYPE __InputRemoting__ChangeUsageMsg____c : public ::System::Object {
 public:
@@ -991,10 +991,10 @@ public:
 
   static inline ::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2927c78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa69c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Create>b__1_0 addr 0x2927c80 size 0x24 virtual false final false
+  /// @brief Method <Create>b__1_0, addr 0x2aa69c8, size 0x24, virtual false, abstract: false, final false
   inline ::StringW _Create_b__1_0(::UnityEngine::InputSystem::Utilities::InternedString x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__ChangeUsageMsg____c", modifiers: "&&", def_value: None }]
@@ -1021,8 +1021,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputRemoting
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6355))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6269))
 // CS Name: ::InputRemoting::ChangeUsageMsg*
 class CORDL_TYPE __InputRemoting__ChangeUsageMsg : public ::System::Object {
 public:
@@ -1031,10 +1031,10 @@ public:
 
   using Data = ::GlobalNamespace::__InputRemoting__ChangeUsageMsg__Data;
 
-  /// @brief Method Create addr 0x29267d0 size 0x1a4 virtual false final false
+  /// @brief Method Create, addr 0x2aa5518, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process addr 0x29255d8 size 0x310 virtual false final false
+  /// @brief Method Process, addr 0x2aa4320, size 0x310, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__ChangeUsageMsg", modifiers: "&&", def_value: None }]
@@ -1061,16 +1061,16 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6356))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6270))
 // CS Name: ::InputRemoting::RemoveDeviceMsg*
 class CORDL_TYPE __InputRemoting__RemoveDeviceMsg : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x2926760 size 0x70 virtual false final false
+  /// @brief Method Create, addr 0x2aa54a8, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::__InputRemoting__Message Create(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Process addr 0x29258e8 size 0xc0 virtual false final false
+  /// @brief Method Process, addr 0x2aa4630, size 0xc0, virtual false, abstract: false, final false
   static inline void Process(::UnityEngine::InputSystem::InputRemoting* receiver, ::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputRemoting__RemoveDeviceMsg", modifiers: "&&", def_value: None }]
@@ -1097,8 +1097,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(6339))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6357))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6271))
 // CS Name: ::UnityEngine.InputSystem::InputRemoting*
 class CORDL_TYPE InputRemoting : public ::System::Object {
 public:
@@ -1181,84 +1181,85 @@ public:
 
   constexpr void __set_m_Senders(::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> value);
 
-  /// @brief Method get_sending addr 0x29247d4 size 0xc virtual false final false
+  /// @brief Method get_sending, addr 0x2aa351c, size 0xc, virtual false, abstract: false, final false
   inline bool get_sending();
 
-  /// @brief Method set_sending addr 0x29247e0 size 0x1c virtual false final false
+  /// @brief Method set_sending, addr 0x2aa3528, size 0x1c, virtual false, abstract: false, final false
   inline void set_sending(bool value);
 
   static inline ::UnityEngine::InputSystem::InputRemoting* New_ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
 
-  /// @brief Method .ctor addr 0x29247fc size 0x8c virtual false final false
-  inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect);
+  /// @brief Method .ctor, addr 0x2aa3544, size 0x8c, virtual false, abstract: false, final false
+  /// @param startSendingOnConnect: bool (default: false)
+  inline void _ctor(::UnityEngine::InputSystem::InputManager* manager, bool startSendingOnConnect = false);
 
-  /// @brief Method StartSending addr 0x2924888 size 0x17c virtual false final false
+  /// @brief Method StartSending, addr 0x2aa35d0, size 0x17c, virtual false, abstract: false, final false
   inline void StartSending();
 
-  /// @brief Method StopSending addr 0x2924b24 size 0x160 virtual false final false
+  /// @brief Method StopSending, addr 0x2aa386c, size 0x160, virtual false, abstract: false, final false
   inline void StopSending();
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext addr 0x2924d8c size 0x84 virtual true final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnNext, addr 0x2aa3ad4, size 0x84, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext(::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError addr 0x29259c8 size 0x4 virtual true final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnError, addr 0x2aa4710, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError(::System::Exception* error);
 
-  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted addr 0x29259cc size 0x4 virtual true final true
+  /// @brief Method System.IObserver<UnityEngine.InputSystem.InputRemoting.Message>.OnCompleted, addr 0x2aa4714, size 0x4, virtual true, abstract: false, final true
   inline void System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted();
 
-  /// @brief Method Subscribe addr 0x29259d0 size 0xe4 virtual true final true
+  /// @brief Method Subscribe, addr 0x2aa4718, size 0xe4, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer);
 
-  /// @brief Method SendInitialMessages addr 0x2924b0c size 0x18 virtual false final false
+  /// @brief Method SendInitialMessages, addr 0x2aa3854, size 0x18, virtual false, abstract: false, final false
   inline void SendInitialMessages();
 
-  /// @brief Method SendAllGeneratedLayouts addr 0x2925abc size 0x154 virtual false final false
+  /// @brief Method SendAllGeneratedLayouts, addr 0x2aa4804, size 0x154, virtual false, abstract: false, final false
   inline void SendAllGeneratedLayouts();
 
-  /// @brief Method SendLayout addr 0x2925d78 size 0xb4 virtual false final false
+  /// @brief Method SendLayout, addr 0x2aa4ac0, size 0xb4, virtual false, abstract: false, final false
   inline void SendLayout(::StringW layoutName);
 
-  /// @brief Method SendAllDevices addr 0x2925c10 size 0x168 virtual false final false
+  /// @brief Method SendAllDevices, addr 0x2aa4958, size 0x168, virtual false, abstract: false, final false
   inline void SendAllDevices();
 
-  /// @brief Method SendDevice addr 0x29261e4 size 0x84 virtual false final false
+  /// @brief Method SendDevice, addr 0x2aa4f2c, size 0x84, virtual false, abstract: false, final false
   inline void SendDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendEvent addr 0x2926564 size 0x64 virtual false final false
+  /// @brief Method SendEvent, addr 0x2aa52ac, size 0x64, virtual false, abstract: false, final false
   inline void SendEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SendDeviceChange addr 0x29266a0 size 0xc0 virtual false final false
+  /// @brief Method SendDeviceChange, addr 0x2aa53e8, size 0xc0, virtual false, abstract: false, final false
   inline void SendDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method SendLayoutChange addr 0x29269ec size 0x104 virtual false final false
+  /// @brief Method SendLayoutChange, addr 0x2aa5734, size 0x104, virtual false, abstract: false, final false
   inline void SendLayoutChange(::StringW layout, ::UnityEngine::InputSystem::InputControlLayoutChange change);
 
-  /// @brief Method Send addr 0x2926078 size 0x104 virtual false final false
+  /// @brief Method Send, addr 0x2aa4dc0, size 0x104, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::InputSystem::__InputRemoting__Message msg);
 
-  /// @brief Method FindOrCreateSenderRecord addr 0x2926af0 size 0xa4 virtual false final false
+  /// @brief Method FindOrCreateSenderRecord, addr 0x2aa5838, size 0xa4, virtual false, abstract: false, final false
   inline int32_t FindOrCreateSenderRecord(int32_t senderId);
 
-  /// @brief Method BuildLayoutNamespace addr 0x2926b94 size 0xa0 virtual false final false
+  /// @brief Method BuildLayoutNamespace, addr 0x2aa58dc, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::InternedString BuildLayoutNamespace(int32_t senderId);
 
-  /// @brief Method FindLocalDeviceId addr 0x2926c34 size 0x74 virtual false final false
+  /// @brief Method FindLocalDeviceId, addr 0x2aa597c, size 0x74, virtual false, abstract: false, final false
   inline int32_t FindLocalDeviceId(int32_t remoteDeviceId, int32_t senderIndex);
 
-  /// @brief Method TryGetDeviceByRemoteId addr 0x2926ca8 size 0x28 virtual false final false
+  /// @brief Method TryGetDeviceByRemoteId, addr 0x2aa59f0, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* TryGetDeviceByRemoteId(int32_t remoteDeviceId, int32_t senderIndex);
 
-  /// @brief Method get_manager addr 0x2926d48 size 0x8 virtual false final false
+  /// @brief Method get_manager, addr 0x2aa5a90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputManager* get_manager();
 
-  /// @brief Method RemoveRemoteDevices addr 0x2926d50 size 0xfc virtual false final false
+  /// @brief Method RemoveRemoteDevices, addr 0x2aa5a98, size 0xfc, virtual false, abstract: false, final false
   inline void RemoveRemoteDevices(int32_t participantId);
 
-  /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SerializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeData(TData data);
 
-  /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DeserializeData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TData> static inline TData DeserializeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRemoting", modifiers: "&&", def_value: None }]

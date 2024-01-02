@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FactorySubContainerBinderWithParams_1)
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
-class BindInfo;
-}
 namespace System {
 class Object;
 }
@@ -20,28 +14,34 @@ namespace System {
 class Type;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass4_0;
 }
 namespace Zenject {
-class NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder;
+class BindInfo;
 }
 namespace Zenject {
-template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0;
+class DiContainer;
 }
 namespace UnityEngine {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TContract> class __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -63,8 +63,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10828))
 // CS Name: ::FactorySubContainerBinderWithParams`1::<>c__DisplayClass4_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderWithParams_1____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -107,16 +107,16 @@ public:
 
   static inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ByNewContextPrefab>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ByNewContextPrefab>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ByNewContextPrefab_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactorySubContainerBinderWithParams_1____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -155,8 +155,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10757))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10829))
 // CS Name: ::FactorySubContainerBinderWithParams`1::<>c__DisplayClass8_0<TContract>*
 class CORDL_TYPE __FactorySubContainerBinderWithParams_1____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -199,16 +199,16 @@ public:
 
   static inline ::Zenject::__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ByNewContextPrefabResource>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ByNewContextPrefabResource>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ByNewContextPrefabResource_b__0(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FactorySubContainerBinderWithParams_1____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -247,8 +247,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10755), inst: 1785 }), TypeDefinitionIndex(TypeDefinitionIndex(10755))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10758))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10827)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10827), inst: 1849 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10830))
 // CS Name: ::Zenject::FactorySubContainerBinderWithParams`1<TContract>*
 class CORDL_TYPE FactorySubContainerBinderWithParams_1 : public ::Zenject::FactorySubContainerBinderBase_1<TContract> {
 public:
@@ -260,31 +260,31 @@ public:
   static inline ::Zenject::FactorySubContainerBinderWithParams_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                                       ::System::Object* subIdentifier);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::System::Object* subIdentifier);
 
-  /// @brief Method ByNewPrefab addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewPrefab, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(::System::Type* installerType, ::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewPrefab addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewPrefab, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewContextPrefab addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewContextPrefab, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewContextPrefab addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewContextPrefab, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefab(::System::Type* installerType, ::UnityEngine::Object* prefab);
 
-  /// @brief Method ByNewPrefabResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewPrefabResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method ByNewPrefabResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewPrefabResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewPrefabResource(::System::Type* installerType, ::StringW resourcePath);
 
-  /// @brief Method ByNewContextPrefabResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewContextPrefabResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstaller> inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::StringW resourcePath);
 
-  /// @brief Method ByNewContextPrefabResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ByNewContextPrefabResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* ByNewContextPrefabResource(::System::Type* installerType, ::StringW resourcePath);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactorySubContainerBinderWithParams_1", modifiers: "&&", def_value: None }]

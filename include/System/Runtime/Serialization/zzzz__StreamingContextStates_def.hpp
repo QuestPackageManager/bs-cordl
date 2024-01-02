@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::StreamingContextStates);
 namespace System::Runtime::Serialization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3236))
 // CS Name: ::System.Runtime.Serialization::StreamingContextStates
 struct CORDL_TYPE StreamingContextStates {
 public:

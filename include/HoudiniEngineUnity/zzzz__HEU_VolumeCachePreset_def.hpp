@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_VolumeCachePreset)
-namespace HoudiniEngineUnity {
-class HEU_VolumeLayerPreset;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace HoudiniEngineUnity {
+class HEU_VolumeLayerPreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VolumeCachePreset);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9612))
 // CS Name: ::HoudiniEngineUnity::HEU_VolumeCachePreset*
 class CORDL_TYPE HEU_VolumeCachePreset : public ::System::Object {
 public:
@@ -84,7 +84,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff6ed4 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x214e870, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VolumeCachePreset", modifiers: "&&", def_value: None }]

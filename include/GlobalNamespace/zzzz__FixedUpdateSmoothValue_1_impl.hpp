@@ -65,10 +65,8 @@ template <typename T> inline T GlobalNamespace::FixedUpdateSmoothValue_1<T>::Get
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, interpolationFactor);
 }
 template <typename T> inline T GlobalNamespace::FixedUpdateSmoothValue_1<T>::Interpolate(T value0, T value1, float_t t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>::get(), "Interpolate", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FixedUpdateSmoothValue_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, value0, value1, t);
 }
 // Ctor Parameters []

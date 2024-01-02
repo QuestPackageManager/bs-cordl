@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IEventDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IEventDispatchingStrategy);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7257))
 // CS Name: ::UnityEngine.UIElements::IEventDispatchingStrategy*
 class CORDL_TYPE IEventDispatchingStrategy {
 public:
   // Declarations
-  /// @brief Method CanDispatchEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanDispatchEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DispatchEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEventDispatchingStrategy", modifiers: "&&", def_value: None }]

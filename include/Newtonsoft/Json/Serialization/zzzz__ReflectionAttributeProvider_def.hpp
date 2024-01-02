@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionAttributeProvider)
-namespace System {
-class Attribute;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
@@ -18,6 +12,12 @@ class IAttributeProvider;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Attribute;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ReflectionAttributeProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11909))
 // CS Name: ::Newtonsoft.Json.Serialization::ReflectionAttributeProvider*
 class CORDL_TYPE ReflectionAttributeProvider : public ::System::Object {
 public:
@@ -49,13 +49,13 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ReflectionAttributeProvider* New_ctor(::System::Object* attributeProvider);
 
-  /// @brief Method .ctor addr 0x2507710 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x266ae54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* attributeProvider);
 
-  /// @brief Method GetAttributes addr 0x2507778 size 0x6c virtual true final true
+  /// @brief Method GetAttributes, addr 0x266aebc, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(bool inherit);
 
-  /// @brief Method GetAttributes addr 0x25077e4 size 0x70 virtual true final true
+  /// @brief Method GetAttributes, addr 0x266af28, size 0x70, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::System::Attribute*>* GetAttributes(::System::Type* attributeType, bool inherit);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionAttributeProvider", modifiers: "&&", def_value: None }]

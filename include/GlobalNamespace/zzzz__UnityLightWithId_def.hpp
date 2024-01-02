@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14777))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14559))
 // CS Name: ::UnityLightWithId*
 class CORDL_TYPE UnityLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __set__minAlpha(float_t value);
 
-  /// @brief Method get_color addr 0x1fbe64c size 0x1c virtual false final false
+  /// @brief Method get_color, addr 0x21140b0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method ColorWasSet addr 0x1fbe668 size 0x4c virtual true final false
+  /// @brief Method ColorWasSet, addr 0x21140cc, size 0x4c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::UnityLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbe6b4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2114118, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityLightWithId", modifiers: "&&", def_value: None }]

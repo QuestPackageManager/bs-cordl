@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlParserContext)
 namespace System::Xml {
-struct XmlSpace;
+class XmlNamespaceManager;
 }
 namespace System::Xml {
-class XmlNamespaceManager;
+struct XmlSpace;
 }
 namespace System::Text {
 class Encoding;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::XmlParserContext);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11386))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11382))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11458)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11454))
 // CS Name: ::System.Xml::XmlParserContext*
 class CORDL_TYPE XmlParserContext : public ::System::Object {
 public:
@@ -149,48 +149,48 @@ public:
   static inline ::System::Xml::XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId,
                                                           ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace);
 
-  /// @brief Method .ctor addr 0x26dd5d4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x28595f0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI,
                     ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace);
 
   static inline ::System::Xml::XmlParserContext* New_ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId,
                                                           ::StringW internalSubset, ::StringW baseURI, ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc);
 
-  /// @brief Method .ctor addr 0x26dd600 size 0x1bc virtual false final false
+  /// @brief Method .ctor, addr 0x285961c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nt, ::System::Xml::XmlNamespaceManager* nsMgr, ::StringW docTypeName, ::StringW pubId, ::StringW sysId, ::StringW internalSubset, ::StringW baseURI,
                     ::StringW xmlLang, ::System::Xml::XmlSpace xmlSpace, ::System::Text::Encoding* enc);
 
-  /// @brief Method get_NameTable addr 0x26dd7bc size 0x8 virtual false final false
+  /// @brief Method get_NameTable, addr 0x28597d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceManager addr 0x26dd7c4 size 0x8 virtual false final false
+  /// @brief Method get_NamespaceManager, addr 0x28597e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNamespaceManager* get_NamespaceManager();
 
-  /// @brief Method get_DocTypeName addr 0x26dd7cc size 0x8 virtual false final false
+  /// @brief Method get_DocTypeName, addr 0x28597e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocTypeName();
 
-  /// @brief Method get_PublicId addr 0x26dd7d4 size 0x8 virtual false final false
+  /// @brief Method get_PublicId, addr 0x28597f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PublicId();
 
-  /// @brief Method get_SystemId addr 0x26dd7dc size 0x8 virtual false final false
+  /// @brief Method get_SystemId, addr 0x28597f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SystemId();
 
-  /// @brief Method get_BaseURI addr 0x26dd7e4 size 0x8 virtual false final false
+  /// @brief Method get_BaseURI, addr 0x2859800, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseURI();
 
-  /// @brief Method get_InternalSubset addr 0x26dd7ec size 0x8 virtual false final false
+  /// @brief Method get_InternalSubset, addr 0x2859808, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_XmlLang addr 0x26dd7f4 size 0x8 virtual false final false
+  /// @brief Method get_XmlLang, addr 0x2859810, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XmlLang();
 
-  /// @brief Method get_XmlSpace addr 0x26dd7fc size 0x8 virtual false final false
+  /// @brief Method get_XmlSpace, addr 0x2859818, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlSpace get_XmlSpace();
 
-  /// @brief Method get_Encoding addr 0x26dd804 size 0x8 virtual false final false
+  /// @brief Method get_Encoding, addr 0x2859820, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_HasDtdInfo addr 0x26dd80c size 0x9c virtual false final false
+  /// @brief Method get_HasDtdInfo, addr 0x2859828, size 0x9c, virtual false, abstract: false, final false
   inline bool get_HasDtdInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlParserContext", modifiers: "&&", def_value: None }]

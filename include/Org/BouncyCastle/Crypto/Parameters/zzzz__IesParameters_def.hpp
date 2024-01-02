@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::IesParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1058))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::IesParameters*
 class CORDL_TYPE IesParameters : public ::System::Object {
@@ -59,16 +59,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method .ctor addr 0xec1aa0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xf36c8c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize);
 
-  /// @brief Method GetDerivationV addr 0xec1adc size 0x8 virtual false final false
+  /// @brief Method GetDerivationV, addr 0xf36cc8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerivationV();
 
-  /// @brief Method GetEncodingV addr 0xec1ae4 size 0x8 virtual false final false
+  /// @brief Method GetEncodingV, addr 0xf36cd0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodingV();
 
-  /// @brief Method get_MacKeySize addr 0xec1aec size 0x8 virtual false final false
+  /// @brief Method get_MacKeySize, addr 0xf36cd8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MacKeySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IesParameters", modifiers: "&&", def_value: None }]

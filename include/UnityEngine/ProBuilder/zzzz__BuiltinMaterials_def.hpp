@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::BuiltinMaterials);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12106))
 // CS Name: ::UnityEngine.ProBuilder::BuiltinMaterials*
 class CORDL_TYPE BuiltinMaterials : public ::System::Object {
 public:
@@ -147,46 +147,46 @@ public:
 
   static inline ::StringW getStaticF_k_VertexPickerShader();
 
-  /// @brief Method Init addr 0x29b8c68 size 0x6a0 virtual false final false
+  /// @brief Method Init, addr 0x2b3a9bc, size 0x6a0, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method get_geometryShadersSupported addr 0x29b9578 size 0x5c virtual false final false
+  /// @brief Method get_geometryShadersSupported, addr 0x2b3b2cc, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_geometryShadersSupported();
 
-  /// @brief Method get_defaultMaterial addr 0x29b95d4 size 0x5c virtual false final false
+  /// @brief Method get_defaultMaterial, addr 0x2b3b328, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_defaultMaterial();
 
-  /// @brief Method get_selectionPickerShader addr 0x29b9630 size 0x5c virtual false final false
+  /// @brief Method get_selectionPickerShader, addr 0x2b3b384, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Shader* get_selectionPickerShader();
 
-  /// @brief Method get_facePickerMaterial addr 0x29b968c size 0x5c virtual false final false
+  /// @brief Method get_facePickerMaterial, addr 0x2b3b3e0, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_facePickerMaterial();
 
-  /// @brief Method get_vertexPickerMaterial addr 0x29b96e8 size 0x5c virtual false final false
+  /// @brief Method get_vertexPickerMaterial, addr 0x2b3b43c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_vertexPickerMaterial();
 
-  /// @brief Method get_edgePickerMaterial addr 0x29b9744 size 0x5c virtual false final false
+  /// @brief Method get_edgePickerMaterial, addr 0x2b3b498, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_edgePickerMaterial();
 
-  /// @brief Method get_triggerMaterial addr 0x29b97a0 size 0x108 virtual false final false
+  /// @brief Method get_triggerMaterial, addr 0x2b3b4f4, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_triggerMaterial();
 
-  /// @brief Method get_colliderMaterial addr 0x29b98a8 size 0x108 virtual false final false
+  /// @brief Method get_colliderMaterial, addr 0x2b3b5fc, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_colliderMaterial();
 
-  /// @brief Method get_noDrawMaterial addr 0x29b99b0 size 0x108 virtual false final false
+  /// @brief Method get_noDrawMaterial, addr 0x2b3b704, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_noDrawMaterial();
 
-  /// @brief Method GetLegacyDiffuse addr 0x29b9ab8 size 0x2a0 virtual false final false
+  /// @brief Method GetLegacyDiffuse, addr 0x2b3b80c, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* GetLegacyDiffuse();
 
-  /// @brief Method GetDefaultMaterial addr 0x29b9308 size 0x1f0 virtual false final false
+  /// @brief Method GetDefaultMaterial, addr 0x2b3b05c, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* GetDefaultMaterial();
 
-  /// @brief Method get_unlitVertexColor addr 0x29b9d58 size 0x5c virtual false final false
+  /// @brief Method get_unlitVertexColor, addr 0x2b3baac, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_unlitVertexColor();
 
-  /// @brief Method get_ShapePreviewMaterial addr 0x29b9db4 size 0x5c virtual false final false
+  /// @brief Method get_ShapePreviewMaterial, addr 0x2b3bb08, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* get_ShapePreviewMaterial();
 
   // Ctor Parameters [CppParam { name: "", ty: "BuiltinMaterials", modifiers: "&&", def_value: None }]

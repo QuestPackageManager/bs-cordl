@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HtmlUtf8RawTextWriterIndent)
-namespace System::IO {
-class Stream;
-}
 namespace System::Xml {
 class XmlWriterSettings;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::HtmlUtf8RawTextWriterIndent);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11419))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11420))
 // CS Name: ::System.Xml::HtmlUtf8RawTextWriterIndent*
 class CORDL_TYPE HtmlUtf8RawTextWriterIndent : public ::System::Xml::HtmlUtf8RawTextWriter {
 public:
@@ -66,31 +66,31 @@ public:
 
   static inline ::System::Xml::HtmlUtf8RawTextWriterIndent* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method .ctor addr 0x26d7520 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x285353c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteDocType addr 0x26d7594 size 0x1c virtual true final false
+  /// @brief Method WriteDocType, addr 0x28535b0, size 0x1c, virtual true, abstract: false, final false
   inline void WriteDocType(::StringW name, ::StringW pubid, ::StringW sysid, ::StringW subset);
 
-  /// @brief Method WriteStartElement addr 0x26d75b0 size 0x1a4 virtual true final false
+  /// @brief Method WriteStartElement, addr 0x28535cc, size 0x1a4, virtual true, abstract: false, final false
   inline void WriteStartElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method StartElementContent addr 0x26d77a4 size 0x74 virtual true final false
+  /// @brief Method StartElementContent, addr 0x28537c0, size 0x74, virtual true, abstract: false, final false
   inline void StartElementContent();
 
-  /// @brief Method WriteEndElement addr 0x26d7818 size 0xa0 virtual true final false
+  /// @brief Method WriteEndElement, addr 0x2853834, size 0xa0, virtual true, abstract: false, final false
   inline void WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method WriteStartAttribute addr 0x26d78b8 size 0x74 virtual true final false
+  /// @brief Method WriteStartAttribute, addr 0x28538d4, size 0x74, virtual true, abstract: false, final false
   inline void WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns);
 
-  /// @brief Method FlushBuffer addr 0x26d792c size 0x2c virtual true final false
+  /// @brief Method FlushBuffer, addr 0x2853948, size 0x2c, virtual true, abstract: false, final false
   inline void FlushBuffer();
 
-  /// @brief Method Init addr 0x26d756c size 0x28 virtual false final false
+  /// @brief Method Init, addr 0x2853588, size 0x28, virtual false, abstract: false, final false
   inline void Init(::System::Xml::XmlWriterSettings* settings);
 
-  /// @brief Method WriteIndent addr 0x26d7754 size 0x50 virtual false final false
+  /// @brief Method WriteIndent, addr 0x2853770, size 0x50, virtual false, abstract: false, final false
   inline void WriteIndent();
 
   // Ctor Parameters [CppParam { name: "", ty: "HtmlUtf8RawTextWriterIndent", modifiers: "&&", def_value: None }]

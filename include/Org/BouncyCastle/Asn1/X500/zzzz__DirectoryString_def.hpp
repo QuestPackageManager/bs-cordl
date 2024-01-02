@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DirectoryString)
 namespace Org::BouncyCastle::Asn1 {
-class DerStringBase;
-}
-namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class DerStringBase;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1String;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -54,26 +54,26 @@ public:
 
   constexpr void __set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
 
-  /// @brief Method GetInstance addr 0x100e70c size 0x290 virtual false final false
+  /// @brief Method GetInstance, addr 0x107f95c, size 0x290, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x100e9c4 size 0x6c virtual false final false
+  /// @brief Method GetInstance, addr 0x107fc14, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
-  /// @brief Method .ctor addr 0x100e99c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x107fbec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerStringBase* str);
 
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x100ea30 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x107fc80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString addr 0x100eaac size 0x20 virtual true final true
+  /// @brief Method GetString, addr 0x107fcfc, size 0x20, virtual true, abstract: false, final true
   inline ::StringW GetString();
 
-  /// @brief Method ToAsn1Object addr 0x100eacc size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x107fd1c, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectoryString", modifiers: "&&", def_value: None }]

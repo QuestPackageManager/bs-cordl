@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::IValueTupleInternal);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2502))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2504))
 // CS Name: ::System::IValueTupleInternal*
 class CORDL_TYPE IValueTupleInternal {
 public:
@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method ToStringEnd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToStringEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToStringEnd();
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueTupleInternal", modifiers: "&&", def_value: None }]

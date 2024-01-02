@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::ITypeDescriptorFilterService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8340))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9503))
 // CS Name: ::System.ComponentModel.Design::ITypeDescriptorFilterService*
 class CORDL_TYPE ITypeDescriptorFilterService {
 public:
   // Declarations
-  /// @brief Method FilterAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FilterAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterAttributes(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method FilterEvents addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FilterEvents, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterEvents(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* events);
 
-  /// @brief Method FilterProperties addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FilterProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool FilterProperties(::System::ComponentModel::IComponent* component, ::System::Collections::IDictionary* properties);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITypeDescriptorFilterService", modifiers: "&&", def_value: None }]

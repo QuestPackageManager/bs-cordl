@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CommandBufferGrabPass)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace GlobalNamespace {
-class CommandBufferOwners;
-}
 namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine::Rendering {
 struct CameraEvent;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class CommandBufferOwners;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferGrabPass);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10259)), TypeDefinitionIndex(TypeDefinitionIndex(15307))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15306))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15278)), TypeDefinitionIndex(TypeDefinitionIndex(10337))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15277))
 // CS Name: ::CommandBufferGrabPass*
 class CORDL_TYPE CommandBufferGrabPass : public ::GlobalNamespace::CommandBufferGOCore {
 public:
@@ -63,18 +63,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
 
-  /// @brief Method CreateCommandBuffer addr 0x268b964 size 0x1ec virtual true final false
+  /// @brief Method CreateCommandBuffer, addr 0x28065ec, size 0x1ec, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
-  /// @brief Method CamerasDict addr 0x268bb50 size 0x58 virtual true final false
+  /// @brief Method CamerasDict, addr 0x28067d8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent addr 0x268bba8 size 0x8 virtual true final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x2806830, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
   static inline ::GlobalNamespace::CommandBufferGrabPass* New_ctor();
 
-  /// @brief Method .ctor addr 0x268bbb0 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2806838, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferGrabPass", modifiers: "&&", def_value: None }]

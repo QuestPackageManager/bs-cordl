@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLeaderboardPanelItem)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeaderboardPanelItem);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5038))
 // CS Name: ::MultiplayerLeaderboardPanelItem*
 class CORDL_TYPE MultiplayerLeaderboardPanelItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -148,15 +148,15 @@ public:
 
   constexpr void __set__prevNumberOfPlayers(int32_t value);
 
-  /// @brief Method SetData addr 0x22888a8 size 0x2d0 virtual false final false
+  /// @brief Method SetData, addr 0x23c1c14, size 0x2d0, virtual false, abstract: false, final false
   inline void SetData(int32_t position, ::StringW playerName, int32_t score, bool failed, int32_t numberOfPlayers);
 
-  /// @brief Method set_hide addr 0x2288634 size 0x2c virtual false final false
+  /// @brief Method set_hide, addr 0x23c19a0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2288b80 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x23c1eec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLeaderboardPanelItem", modifiers: "&&", def_value: None }]

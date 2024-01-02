@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::TriState);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11493))
 // CS Name: ::System.Xml::TriState
 struct CORDL_TYPE TriState {
 public:

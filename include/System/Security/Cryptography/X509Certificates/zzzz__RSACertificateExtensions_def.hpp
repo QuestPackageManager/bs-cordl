@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::RSACertificat
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14591))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14253))
 // CS Name: ::System.Security.Cryptography.X509Certificates::RSACertificateExtensions*
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRSAPublicKey addr 0x2697390 size 0xe4 virtual false final false
+  /// @brief Method GetRSAPublicKey, addr 0x2811ff0, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
   // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "&&", def_value: None }]

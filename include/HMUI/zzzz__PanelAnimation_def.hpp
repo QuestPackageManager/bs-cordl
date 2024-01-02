@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelAnimation)
-namespace UnityEngine {
-class AnimationCurve;
-}
 namespace HMUI {
 class __PanelAnimation___AnimationCoroutine_d__1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Action;
@@ -19,20 +19,20 @@ class Action;
 namespace UnityEngine {
 class CanvasGroup;
 }
-namespace System::Collections {
-class IEnumerator;
-}
 namespace UnityEngine {
-class Transform;
+class AnimationCurve;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace HMUI {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::HMUI::__PanelAnimation___AnimationCoroutine_d__1);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13628))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13508))
 // CS Name: ::PanelAnimation::<AnimationCoroutine>d__1*
 class CORDL_TYPE __PanelAnimation___AnimationCoroutine_d__1 : public ::System::Object {
 public:
@@ -186,22 +186,22 @@ public:
 
   static inline ::HMUI::__PanelAnimation___AnimationCoroutine_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fc2368 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2117ef0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fc2398 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2117f20, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fc239c size 0x28c virtual true final true
+  /// @brief Method MoveNext, addr 0x2117f24, size 0x28c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fc2628 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x21181b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fc2630 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x21181b8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fc2670 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x21181f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PanelAnimation___AnimationCoroutine_d__1", modifiers: "&&", def_value: None }]
@@ -293,20 +293,20 @@ static_assert(offsetof(::HMUI::__PanelAnimation___AnimationCoroutine_d__1, ____e
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13509))
 // CS Name: ::HMUI::PanelAnimation*
 class CORDL_TYPE PanelAnimation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using _AnimationCoroutine_d__1 = ::HMUI::__PanelAnimation___AnimationCoroutine_d__1;
 
-  /// @brief Method StartAnimation addr 0x1fc2150 size 0x154 virtual false final false
+  /// @brief Method StartAnimation, addr 0x2117cd8, size 0x154, virtual false, abstract: false, final false
   inline void StartAnimation(::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup, float_t duration, ::UnityEngine::AnimationCurve* scaleXAnimationCurve,
                              ::UnityEngine::AnimationCurve* scaleYAnimationCurve, ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
                              ::System::Action* finishedCallback);
 
-  /// @brief Method AnimationCoroutine addr 0x1fc22a4 size 0xc4 virtual false final false
+  /// @brief Method AnimationCoroutine, addr 0x2117e2c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimationCoroutine(float_t duration, ::UnityEngine::CanvasGroup* canvasGroup, ::UnityEngine::CanvasGroup* parentCanvasGroup,
                                                                 ::UnityEngine::AnimationCurve* scaleXAnimationCurve, ::UnityEngine::AnimationCurve* scaleYAnimationCurve,
                                                                 ::UnityEngine::AnimationCurve* alphaAnimationCurve, ::UnityEngine::AnimationCurve* parentAlphaAnimationCurve,
@@ -314,7 +314,7 @@ public:
 
   static inline ::HMUI::PanelAnimation* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc2390 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2117f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelAnimation", modifiers: "&&", def_value: None }]

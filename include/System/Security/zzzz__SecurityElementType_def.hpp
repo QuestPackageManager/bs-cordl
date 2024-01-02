@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::SecurityElementType);
 namespace System::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2886))
 // CS Name: ::System.Security::SecurityElementType
 struct CORDL_TYPE SecurityElementType {
 public:

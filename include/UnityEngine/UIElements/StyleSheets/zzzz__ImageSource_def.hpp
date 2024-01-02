@@ -8,13 +8,13 @@ namespace UnityEngine {
 class Texture2D;
 }
 namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
 class Sprite;
 }
 namespace UnityEngine::UIElements {
 class VectorImage;
+}
+namespace UnityEngine {
+class RenderTexture;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -27,12 +27,12 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::ImageSource);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7549))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7463))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ImageSource
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull addr 0x2c7fc0c size 0xe8 virtual false final false
+  /// @brief Method IsNull, addr 0x2de5fbc, size 0xe8, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters [CppParam { name: "texture", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "sprite", ty: "::UnityEngine::Sprite*", modifiers: "", def_value:

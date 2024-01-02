@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(NativeArrayDisposeJob)
-namespace Unity::Jobs {
-class IJob;
-}
 namespace Unity::Collections {
 struct NativeArrayDispose;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -21,8 +21,8 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9928))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10000))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10001))
 // CS Name: ::Unity.Collections::NativeArrayDisposeJob
 struct CORDL_TYPE NativeArrayDisposeJob {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute addr 0x2b39348 size 0x44 virtual true final true
+  /// @brief Method Execute, addr 0x2c9e068, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
   // Ctor Parameters [CppParam { name: "Data", ty: "::Unity::Collections::NativeArrayDispose", modifiers: "", def_value: None }]

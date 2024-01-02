@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Security::Principal::WellKnownAccount);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3003)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3004)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3003))
 // CS Name: ::System.Security.Principal::WellKnownAccount*
 class CORDL_TYPE WellKnownAccount : public ::System::Object {
 public:
@@ -100,48 +100,48 @@ public:
 
   static inline ::ArrayW<::System::Security::Principal::WellKnownAccount*, ::Array<::System::Security::Principal::WellKnownAccount*>*> getStaticF_accounts();
 
-  /// @brief Method set_WellKnownValue addr 0x2320cac size 0x8 virtual false final false
+  /// @brief Method set_WellKnownValue, addr 0x24787a0, size 0x8, virtual false, abstract: false, final false
   inline void set_WellKnownValue(::System::Security::Principal::WellKnownSidType value);
 
-  /// @brief Method get_IsAbsolute addr 0x2320cb4 size 0x8 virtual false final false
+  /// @brief Method get_IsAbsolute, addr 0x24787a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAbsolute();
 
-  /// @brief Method set_IsAbsolute addr 0x2320cbc size 0xc virtual false final false
+  /// @brief Method set_IsAbsolute, addr 0x24787b0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAbsolute(bool value);
 
-  /// @brief Method get_Sid addr 0x2320cc8 size 0x8 virtual false final false
+  /// @brief Method get_Sid, addr 0x24787bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sid();
 
-  /// @brief Method set_Sid addr 0x2320cd0 size 0x8 virtual false final false
+  /// @brief Method set_Sid, addr 0x24787c4, size 0x8, virtual false, abstract: false, final false
   inline void set_Sid(::StringW value);
 
-  /// @brief Method set_Rid addr 0x2320cd8 size 0x8 virtual false final false
+  /// @brief Method set_Rid, addr 0x24787cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Rid(::StringW value);
 
-  /// @brief Method get_Name addr 0x2320ce0 size 0x8 virtual false final false
+  /// @brief Method get_Name, addr 0x24787d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name addr 0x2320ce8 size 0x8 virtual false final false
+  /// @brief Method set_Name, addr 0x24787dc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method get_SddlForm addr 0x2320cf0 size 0x8 virtual false final false
+  /// @brief Method get_SddlForm, addr 0x24787e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SddlForm();
 
-  /// @brief Method set_SddlForm addr 0x2320cf8 size 0x8 virtual false final false
+  /// @brief Method set_SddlForm, addr 0x24787ec, size 0x8, virtual false, abstract: false, final false
   inline void set_SddlForm(::StringW value);
 
-  /// @brief Method LookupBySid addr 0x232092c size 0xc0 virtual false final false
+  /// @brief Method LookupBySid, addr 0x2478420, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySid(::StringW s);
 
-  /// @brief Method LookupByName addr 0x231f7f0 size 0xc0 virtual false final false
+  /// @brief Method LookupByName, addr 0x24772e4, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupByName(::StringW s);
 
-  /// @brief Method LookupBySddlForm addr 0x23209ec size 0xc0 virtual false final false
+  /// @brief Method LookupBySddlForm, addr 0x24784e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::System::Security::Principal::WellKnownAccount* LookupBySddlForm(::StringW s);
 
   static inline ::System::Security::Principal::WellKnownAccount* New_ctor();
 
-  /// @brief Method .ctor addr 0x2320d00 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24787f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WellKnownAccount", modifiers: "&&", def_value: None }]

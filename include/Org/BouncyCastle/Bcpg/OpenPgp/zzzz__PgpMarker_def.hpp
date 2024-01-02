@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 CORDL_MODULE_EXPORT(PgpMarker)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class MarkerPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-class MarkerPacket;
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -37,7 +37,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor addr 0x103f4b8 size 0x120 virtual false final false
+  /// @brief Method .ctor, addr 0x10b0708, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpMarker", modifiers: "&&", def_value: None }]

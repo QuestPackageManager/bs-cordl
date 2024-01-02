@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BPMChangeBeatmapEventData)
 namespace GlobalNamespace {
-class BeatmapEventData;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BPMChangeBeatmapEventData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14944))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14946))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14729))
 // CS Name: ::BPMChangeBeatmapEventData*
 class CORDL_TYPE BPMChangeBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
@@ -38,13 +38,13 @@ public:
 
   static inline ::GlobalNamespace::BPMChangeBeatmapEventData* New_ctor(float_t time, float_t bpm);
 
-  /// @brief Method .ctor addr 0xd98b1c size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0xdfe0c4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t bpm);
 
-  /// @brief Method GetCopy addr 0xd98b60 size 0x8c virtual true final false
+  /// @brief Method GetCopy, addr 0xdfe108, size 0x8c, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
 
-  /// @brief Method GetDefault addr 0xd98bec size 0x8 virtual true final false
+  /// @brief Method GetDefault, addr 0xdfe194, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
   // Ctor Parameters [CppParam { name: "", ty: "BPMChangeBeatmapEventData", modifiers: "&&", def_value: None }]

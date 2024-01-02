@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::StandardFrameRates);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14212))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13941))
 // CS Name: ::UnityEngine.Timeline::StandardFrameRates
 struct CORDL_TYPE StandardFrameRates {
 public:

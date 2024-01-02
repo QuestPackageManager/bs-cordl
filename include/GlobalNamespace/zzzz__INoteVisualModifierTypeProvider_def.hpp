@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteVisualModifierTypeProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4750))
 // CS Name: ::INoteVisualModifierTypeProvider*
 class CORDL_TYPE INoteVisualModifierTypeProvider {
 public:
   // Declarations
   __declspec(property(get = get_noteVisualModifierType))::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
-  /// @brief Method get_noteVisualModifierType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteVisualModifierType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteVisualModifierTypeProvider", modifiers: "&&", def_value: None }]

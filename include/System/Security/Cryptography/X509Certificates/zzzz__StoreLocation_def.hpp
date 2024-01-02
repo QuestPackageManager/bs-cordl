@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::StoreLocation);
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8979))
 // CS Name: ::System.Security.Cryptography.X509Certificates::StoreLocation
 struct CORDL_TYPE StoreLocation {
 public:

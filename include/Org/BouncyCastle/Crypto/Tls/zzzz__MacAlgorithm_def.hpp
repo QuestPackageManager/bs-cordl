@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::MacAlgorithm);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1253))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::MacAlgorithm*
 class CORDL_TYPE MacAlgorithm : public ::System::Object {
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::MacAlgorithm* New_ctor();
 
-  /// @brief Method .ctor addr 0xf1bc88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf91eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MacAlgorithm", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::GameStateType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12694))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12765))
 // CS Name: ::GameStateType
 struct CORDL_TYPE GameStateType {
 public:

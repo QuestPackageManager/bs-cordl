@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ArraySegment_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr System::__ArraySegment_1__Enumerator<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() {
@@ -134,8 +134,8 @@ template <typename T> inline ::System::__ArraySegment_1__Enumerator<T> System::A
   return ::cordl_internals::RunMethodRethrow<::System::__ArraySegment_1__Enumerator<T>, false>(this, ___internal_method);
 }
 template <typename T> inline int32_t System::ArraySegment_1<T>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "GetHashCode",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T> inline void System::ArraySegment_1<T>::CopyTo(::ArrayW<T, ::Array<T>*> destination, int32_t destinationIndex) {
@@ -146,9 +146,8 @@ template <typename T> inline void System::ArraySegment_1<T>::CopyTo(::ArrayW<T, 
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, destination, destinationIndex);
 }
 template <typename T> inline bool System::ArraySegment_1<T>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArraySegment_1<T>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T> inline bool System::ArraySegment_1<T>::Equals(::System::ArraySegment_1<T> obj) {

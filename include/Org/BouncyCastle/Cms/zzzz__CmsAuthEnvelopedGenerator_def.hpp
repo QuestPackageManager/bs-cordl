@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(627))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthEnvelopedGenerator*
 class CORDL_TYPE CmsAuthEnvelopedGenerator : public ::System::Object {
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x116b3dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11dc62c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedGenerator", modifiers: "&&", def_value: None }]

@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPKMacPrimitivesProvider)
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Crmf {
 class CORDL_TYPE IPKMacPrimitivesProvider {
 public:
   // Declarations
-  /// @brief Method CreateDigest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateDigest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPKMacPrimitivesProvider", modifiers: "&&", def_value: None }]

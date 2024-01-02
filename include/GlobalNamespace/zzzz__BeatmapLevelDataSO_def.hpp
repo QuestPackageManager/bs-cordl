@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelDataSO)
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class __BeatmapLevelDataSO__DifficultyBeatmapSet;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class __BeatmapLevelSO__DifficultyBeatmap;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4367))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4348))
 // CS Name: ::BeatmapLevelDataSO::DifficultyBeatmapSet*
 class CORDL_TYPE __BeatmapLevelDataSO__DifficultyBeatmapSet : public ::System::Object {
 public:
@@ -61,17 +61,17 @@ public:
 
   constexpr void __set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*>*> value);
 
-  /// @brief Method get_beatmapCharacteristicSerializedName addr 0x21f6164 size 0x8 virtual false final false
+  /// @brief Method get_beatmapCharacteristicSerializedName, addr 0x2342064, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_beatmapCharacteristicSerializedName();
 
-  /// @brief Method get_difficultyBeatmaps addr 0x21f616c size 0x8 virtual false final false
+  /// @brief Method get_difficultyBeatmaps, addr 0x234206c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*>*> get_difficultyBeatmaps();
 
   static inline ::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*
   New_ctor(::StringW beatmapCharacteristicSerializedName,
            ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*>*> difficultyBeatmaps);
 
-  /// @brief Method .ctor addr 0x21f6174 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2342074, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapCharacteristicSerializedName,
                     ::ArrayW<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*, ::Array<::GlobalNamespace::__BeatmapLevelSO__DifficultyBeatmap*>*> difficultyBeatmaps);
 
@@ -109,8 +109,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatma
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4368))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4349))
 // CS Name: ::BeatmapLevelDataSO*
 class CORDL_TYPE BeatmapLevelDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -156,15 +156,15 @@ public:
   constexpr void
   __set__no360MovementDifficultyBeatmapSets(::ArrayW<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*>*> value);
 
-  /// @brief Method get_audioClip addr 0x21f614c size 0x8 virtual false final false
+  /// @brief Method get_audioClip, addr 0x234204c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioClip* get_audioClip();
 
-  /// @brief Method get_difficultyBeatmapSets addr 0x21f6154 size 0x8 virtual false final false
+  /// @brief Method get_difficultyBeatmapSets, addr 0x2342054, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*, ::Array<::GlobalNamespace::__BeatmapLevelDataSO__DifficultyBeatmapSet*>*> get_difficultyBeatmapSets();
 
   static inline ::GlobalNamespace::BeatmapLevelDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21f615c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234205c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelDataSO", modifiers: "&&", def_value: None }]

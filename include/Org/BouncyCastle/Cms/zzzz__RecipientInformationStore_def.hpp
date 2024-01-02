@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RecipientInformationStore)
-namespace System::Collections {
-class IDictionary;
+namespace Org::BouncyCastle::Cms {
+class RecipientID;
 }
 namespace System::Collections {
 class ICollection;
@@ -14,8 +14,8 @@ class ICollection;
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientID;
+namespace System::Collections {
+class IDictionary;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformation;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformationStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(687))
 // CS Name: ::Org.BouncyCastle.Cms::RecipientInformationStore*
 class CORDL_TYPE RecipientInformationStore : public ::System::Object {
@@ -60,22 +60,22 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method .ctor addr 0x1171f08 size 0x5a8 virtual false final false
+  /// @brief Method .ctor, addr 0x11e3158, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Item addr 0x11973f0 size 0x4 virtual false final false
+  /// @brief Method get_Item, addr 0x1208640, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetFirstRecipient addr 0x11973f4 size 0x190 virtual false final false
+  /// @brief Method GetFirstRecipient, addr 0x1208644, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method get_Count addr 0x1197584 size 0xa4 virtual false final false
+  /// @brief Method get_Count, addr 0x12087d4, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method GetRecipients addr 0x1197628 size 0x5c virtual false final false
+  /// @brief Method GetRecipients, addr 0x1208878, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients addr 0x1197684 size 0x130 virtual false final false
+  /// @brief Method GetRecipients, addr 0x12088d4, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecipientInformationStore", modifiers: "&&", def_value: None }]

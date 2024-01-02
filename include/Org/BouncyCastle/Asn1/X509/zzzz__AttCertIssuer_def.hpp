@@ -5,25 +5,25 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(AttCertIssuer)
 namespace Org::BouncyCastle::Asn1::X509 {
-class V2Form;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class GeneralNames;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralNames;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class V2Form;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -64,26 +64,26 @@ public:
 
   constexpr void __set_choiceObj(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance addr 0x101297c size 0x2a4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1083bcc, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x1012cec size 0x1c virtual false final false
+  /// @brief Method GetInstance, addr 0x1083f3c, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-  /// @brief Method .ctor addr 0x1012ca8 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x1083ef8, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method .ctor addr 0x1012c20 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x1083e70, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method get_Issuer addr 0x1012d08 size 0x8 virtual false final false
+  /// @brief Method get_Issuer, addr 0x1083f58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Issuer();
 
-  /// @brief Method ToAsn1Object addr 0x1012d10 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1083f60, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AttCertIssuer", modifiers: "&&", def_value: None }]

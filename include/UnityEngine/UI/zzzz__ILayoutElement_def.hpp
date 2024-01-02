@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutElement);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13089))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13084))
 // CS Name: ::UnityEngine.UI::ILayoutElement*
 class CORDL_TYPE ILayoutElement {
 public:
@@ -35,31 +35,31 @@ public:
 
   __declspec(property(get = get_layoutPriority)) int32_t layoutPriority;
 
-  /// @brief Method CalculateLayoutInputHorizontal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method get_minWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_minWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_preferredWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_preferredWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_flexibleWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_flexibleWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_minHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_minHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_preferredHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_preferredHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_flexibleHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_flexibleHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_layoutPriority addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_layoutPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_layoutPriority();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutElement", modifiers: "&&", def_value: None }]

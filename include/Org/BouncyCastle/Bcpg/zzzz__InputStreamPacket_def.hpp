@@ -34,10 +34,10 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::InputStreamPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115c070 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11cd2c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method GetInputStream addr 0x115f1bc size 0x8 virtual false final false
+  /// @brief Method GetInputStream, addr 0x11d040c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::BcpgInputStream* GetInputStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputStreamPacket", modifiers: "&&", def_value: None }]

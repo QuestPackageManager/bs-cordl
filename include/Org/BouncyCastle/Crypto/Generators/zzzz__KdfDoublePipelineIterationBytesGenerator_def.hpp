@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfDoublePipelineIterationBytesGenerator)
-namespace Org::BouncyCastle::Crypto {
-class IDerivationFunction;
-}
-namespace Org::BouncyCastle::Crypto {
-class IMacDerivationFunction;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -21,8 +18,11 @@ class IDigest;
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class IMacDerivationFunction;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterati
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(911))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::KdfDoublePipelineIterationBytesGenerator*
 class CORDL_TYPE KdfDoublePipelineIterationBytesGenerator : public ::System::Object {
@@ -145,22 +145,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method .ctor addr 0xe88b54 size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0xefdd28, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method Init addr 0xe88c44 size 0x2bc virtual true final true
+  /// @brief Method Init, addr 0xefde18, size 0x2bc, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method generateNext addr 0xe88f00 size 0x4ec virtual false final false
+  /// @brief Method generateNext, addr 0xefe0d4, size 0x4ec, virtual false, abstract: false, final false
   inline void generateNext();
 
-  /// @brief Method get_Digest addr 0xe893ec size 0x88 virtual true final true
+  /// @brief Method get_Digest, addr 0xefe5c0, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0xe89474 size 0x208 virtual true final true
+  /// @brief Method GenerateBytes, addr 0xefe648, size 0x208, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac addr 0xe8967c size 0x8 virtual true final true
+  /// @brief Method GetMac, addr 0xefe850, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationBytesGenerator", modifiers: "&&", def_value: None }]

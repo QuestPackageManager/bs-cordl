@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4948))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4828))
 // CS Name: ::StaticJumpOffsetYProvider::InitData*
 class CORDL_TYPE __StaticJumpOffsetYProvider__InitData : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* New_ctor(float_t jumpyYOffset);
 
-  /// @brief Method .ctor addr 0x22611d4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2395bc8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t jumpyYOffset);
 
   // Ctor Parameters [CppParam { name: "", ty: "__StaticJumpOffsetYProvider__InitData", modifiers: "&&", def_value: None }]
@@ -74,8 +74,8 @@ static_assert(offsetof(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4949))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4829))
 // CS Name: ::StaticJumpOffsetYProvider*
 class CORDL_TYPE StaticJumpOffsetYProvider : public ::System::Object {
 public:
@@ -96,12 +96,12 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__StaticJumpOffsetYProvider__InitData* value);
 
-  /// @brief Method get_jumpOffsetY addr 0x22611b0 size 0x1c virtual true final true
+  /// @brief Method get_jumpOffsetY, addr 0x2395ba4, size 0x1c, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   static inline ::GlobalNamespace::StaticJumpOffsetYProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x22611cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2395bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticJumpOffsetYProvider", modifiers: "&&", def_value: None }]

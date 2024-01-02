@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallback);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2840))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11339))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2844))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11411))
 // CS Name: ::System.Xml::CharEntityEncoderFallback*
 class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
 public:
@@ -79,22 +79,22 @@ public:
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method .ctor addr 0x26d29a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x284e9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateFallbackBuffer addr 0x26d29b0 size 0x6c virtual true final false
+  /// @brief Method CreateFallbackBuffer, addr 0x284e9c4, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount addr 0x26d2a90 size 0x8 virtual true final false
+  /// @brief Method get_MaxCharCount, addr 0x284eaa4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset addr 0x26d2a98 size 0x8 virtual false final false
+  /// @brief Method set_StartOffset, addr 0x284eaac, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
-  /// @brief Method Reset addr 0x26d2aa0 size 0xc virtual false final false
+  /// @brief Method Reset, addr 0x284eab4, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
-  /// @brief Method CanReplaceAt addr 0x26d2aac size 0x68 virtual false final false
+  /// @brief Method CanReplaceAt, addr 0x284eac0, size 0x68, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "CharEntityEncoderFallback", modifiers: "&&", def_value: None }]

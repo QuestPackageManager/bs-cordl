@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriComponents);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8878))
 // CS Name: ::System::UriComponents
 struct CORDL_TYPE UriComponents {
 public:

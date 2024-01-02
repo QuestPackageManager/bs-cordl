@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayableBehaviour)
 namespace UnityEngine::Playables {
-class IPlayableBehaviour;
-}
-namespace UnityEngine::Playables {
 struct FrameData;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 namespace System {
 class ICloneable;
 }
+namespace UnityEngine::Playables {
+class IPlayableBehaviour;
+}
 namespace System {
 class Object;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableBehaviour);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10347))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10425))
 // CS Name: ::UnityEngine.Playables::PlayableBehaviour*
 class CORDL_TYPE PlayableBehaviour : public ::System::Object {
 public:
@@ -43,34 +43,34 @@ public:
 
   static inline ::UnityEngine::Playables::PlayableBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b8d8d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf5c10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnGraphStart addr 0x2b8d8d8 size 0x4 virtual true final false
+  /// @brief Method OnGraphStart, addr 0x2cf5c18, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnGraphStop addr 0x2b8d8dc size 0x4 virtual true final false
+  /// @brief Method OnGraphStop, addr 0x2cf5c1c, size 0x4, virtual true, abstract: false, final false
   inline void OnGraphStop(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableCreate addr 0x2b8d8e0 size 0x4 virtual true final false
+  /// @brief Method OnPlayableCreate, addr 0x2cf5c20, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableCreate(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy addr 0x2b8d8e4 size 0x4 virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x2cf5c24, size 0x4, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnBehaviourPlay addr 0x2b8d8e8 size 0x4 virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2cf5c28, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause addr 0x2b8d8ec size 0x4 virtual true final false
+  /// @brief Method OnBehaviourPause, addr 0x2cf5c2c, size 0x4, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method PrepareFrame addr 0x2b8d8f0 size 0x4 virtual true final false
+  /// @brief Method PrepareFrame, addr 0x2cf5c30, size 0x4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame addr 0x2b8d8f4 size 0x4 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2cf5c34, size 0x4, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method Clone addr 0x2b8d8f8 size 0x8 virtual true final false
+  /// @brief Method Clone, addr 0x2cf5c38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableBehaviour", modifiers: "&&", def_value: None }]

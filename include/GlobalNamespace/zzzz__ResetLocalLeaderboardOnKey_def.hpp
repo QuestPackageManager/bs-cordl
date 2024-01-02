@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ResetLocalLeaderboardOnKey)
 namespace GlobalNamespace {
-class LocalLeaderboardsModel;
+class ISaveData;
 }
 namespace GlobalNamespace {
-class ISaveData;
+class LocalLeaderboardsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResetLocalLeaderboardOnKey);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4788))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10058))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
 // CS Name: ::ResetLocalLeaderboardOnKey*
 class CORDL_TYPE ResetLocalLeaderboardOnKey : public ::UnityEngine::MonoBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
 
-  /// @brief Method Update addr 0x223ee4c size 0x40 virtual false final false
+  /// @brief Method Update, addr 0x2373554, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  /// @brief Method .ctor addr 0x223ee8c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2373594, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResetLocalLeaderboardOnKey", modifiers: "&&", def_value: None }]

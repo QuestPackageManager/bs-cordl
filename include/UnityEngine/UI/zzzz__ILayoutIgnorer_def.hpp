@@ -14,14 +14,14 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutIgnorer);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13088))
 // CS Name: ::UnityEngine.UI::ILayoutIgnorer*
 class CORDL_TYPE ILayoutIgnorer {
 public:
   // Declarations
   __declspec(property(get = get_ignoreLayout)) bool ignoreLayout;
 
-  /// @brief Method get_ignoreLayout addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ignoreLayout, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ignoreLayout();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutIgnorer", modifiers: "&&", def_value: None }]

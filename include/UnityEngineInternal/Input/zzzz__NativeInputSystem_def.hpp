@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeInputSystem)
-namespace UnityEngineInternal::Input {
-class NativeUpdateCallback;
-}
-namespace UnityEngineInternal::Input {
-struct NativeInputUpdateType;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
+namespace UnityEngineInternal::Input {
+struct NativeInputUpdateType;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngineInternal::Input {
+class NativeUpdateCallback;
 }
 // Forward declare root types
 namespace UnityEngineInternal::Input {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngineInternal::Input::NativeInputSystem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngineInternal::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16112))
 // CS Name: ::UnityEngineInternal.Input::NativeInputSystem*
 class CORDL_TYPE NativeInputSystem : public ::System::Object {
 public:
@@ -67,46 +67,46 @@ public:
 
   static inline ::System::Action_2<int32_t, ::StringW>* getStaticF_s_OnDeviceDiscoveredCallback();
 
-  /// @brief Method get_onDeviceDiscovered addr 0x2ba8970 size 0x58 virtual false final false
+  /// @brief Method get_onDeviceDiscovered, addr 0x2d0fd58, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
 
-  /// @brief Method set_onDeviceDiscovered addr 0x2ba89c8 size 0x84 virtual false final false
+  /// @brief Method set_onDeviceDiscovered, addr 0x2d0fdb0, size 0x84, virtual false, abstract: false, final false
   static inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
 
-  /// @brief Method NotifyBeforeUpdate addr 0x2ba8ab8 size 0x7c virtual false final false
+  /// @brief Method NotifyBeforeUpdate, addr 0x2d0fea0, size 0x7c, virtual false, abstract: false, final false
   static inline void NotifyBeforeUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
-  /// @brief Method NotifyUpdate addr 0x2ba8b34 size 0x9c virtual false final false
+  /// @brief Method NotifyUpdate, addr 0x2d0ff1c, size 0x9c, virtual false, abstract: false, final false
   static inline void NotifyUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, void* eventBuffer);
 
-  /// @brief Method NotifyDeviceDiscovered addr 0x2ba8bd0 size 0x90 virtual false final false
+  /// @brief Method NotifyDeviceDiscovered, addr 0x2d0ffb8, size 0x90, virtual false, abstract: false, final false
   static inline void NotifyDeviceDiscovered(int32_t deviceId, ::StringW deviceDescriptor);
 
-  /// @brief Method ShouldRunUpdate addr 0x2ba8c60 size 0x90 virtual false final false
+  /// @brief Method ShouldRunUpdate, addr 0x2d10048, size 0x90, virtual false, abstract: false, final false
   static inline void ShouldRunUpdate(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ByRef<bool> retval);
 
-  /// @brief Method set_hasDeviceDiscoveredCallback addr 0x2ba8a4c size 0x3c virtual false final false
+  /// @brief Method set_hasDeviceDiscoveredCallback, addr 0x2d0fe34, size 0x3c, virtual false, abstract: false, final false
   static inline void set_hasDeviceDiscoveredCallback(bool value);
 
-  /// @brief Method get_currentTime addr 0x2ba8cf0 size 0x28 virtual false final false
+  /// @brief Method get_currentTime, addr 0x2d100d8, size 0x28, virtual false, abstract: false, final false
   static inline double_t get_currentTime();
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup addr 0x2ba8d18 size 0x28 virtual false final false
+  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0x2d10100, size 0x28, virtual false, abstract: false, final false
   static inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
 
-  /// @brief Method AllocateDeviceId addr 0x2ba8d40 size 0x28 virtual false final false
+  /// @brief Method AllocateDeviceId, addr 0x2d10128, size 0x28, virtual false, abstract: false, final false
   static inline int32_t AllocateDeviceId();
 
-  /// @brief Method QueueInputEvent addr 0x2ba8d68 size 0x3c virtual false final false
+  /// @brief Method QueueInputEvent, addr 0x2d10150, size 0x3c, virtual false, abstract: false, final false
   static inline void QueueInputEvent(void* inputEvent);
 
-  /// @brief Method IOCTL addr 0x2ba8da4 size 0x5c virtual false final false
+  /// @brief Method IOCTL, addr 0x2d1018c, size 0x5c, virtual false, abstract: false, final false
   static inline int64_t IOCTL(int32_t deviceId, int32_t code, void* data, int32_t sizeInBytes);
 
-  /// @brief Method SetPollingFrequency addr 0x2ba8e00 size 0x38 virtual false final false
+  /// @brief Method SetPollingFrequency, addr 0x2d101e8, size 0x38, virtual false, abstract: false, final false
   static inline void SetPollingFrequency(float_t hertz);
 
-  /// @brief Method Update addr 0x2ba8e38 size 0x3c virtual false final false
+  /// @brief Method Update, addr 0x2d10220, size 0x3c, virtual false, abstract: false, final false
   static inline void Update(::UnityEngineInternal::Input::NativeInputUpdateType updateType);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeInputSystem", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BaseVertexEffect)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct UIVertex;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::UnityEngine::UI::BaseVertexEffect);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13142))
 // CS Name: ::UnityEngine.UI::BaseVertexEffect*
 class CORDL_TYPE BaseVertexEffect : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ModifyVertices addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ModifyVertices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vertices);
 
   static inline ::UnityEngine::UI::BaseVertexEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c28168 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d90518, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseVertexEffect", modifiers: "&&", def_value: None }]

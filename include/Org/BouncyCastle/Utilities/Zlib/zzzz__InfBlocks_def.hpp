@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InfBlocks)
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfCodes;
+class InfTree;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
-class InfTree;
+class InfCodes;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZStream;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfBlocks);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1820))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfBlocks*
 class CORDL_TYPE InfBlocks : public ::System::Object {
@@ -221,25 +221,25 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method .ctor addr 0x10f430c size 0x148 virtual false final false
+  /// @brief Method .ctor, addr 0x1164554, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::System::Object* checkfn, int32_t w);
 
-  /// @brief Method reset addr 0x10f4474 size 0x90 virtual false final false
+  /// @brief Method reset, addr 0x11646bc, size 0x90, virtual false, abstract: false, final false
   inline void reset(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, ::ArrayW<int64_t, ::Array<int64_t>*> c);
 
-  /// @brief Method proc addr 0x10f4508 size 0x10b0 virtual false final false
+  /// @brief Method proc, addr 0x1164750, size 0x10b0, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
-  /// @brief Method free addr 0x10f6594 size 0x1c virtual false final false
+  /// @brief Method free, addr 0x11667dc, size 0x1c, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method set_dictionary addr 0x10f65b0 size 0x40 virtual false final false
+  /// @brief Method set_dictionary, addr 0x11667f8, size 0x40, virtual false, abstract: false, final false
   inline void set_dictionary(::ArrayW<uint8_t, ::Array<uint8_t>*> d, int32_t start, int32_t n);
 
-  /// @brief Method sync_point addr 0x10f65f0 size 0x10 virtual false final false
+  /// @brief Method sync_point, addr 0x1166838, size 0x10, virtual false, abstract: false, final false
   inline int32_t sync_point();
 
-  /// @brief Method inflate_flush addr 0x10f55b8 size 0x180 virtual false final false
+  /// @brief Method inflate_flush, addr 0x1165800, size 0x180, virtual false, abstract: false, final false
   inline int32_t inflate_flush(::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
   // Ctor Parameters [CppParam { name: "", ty: "InfBlocks", modifiers: "&&", def_value: None }]

@@ -6,31 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StandardLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class BeatmapDataCache;
-}
-namespace GlobalNamespace {
-class PracticeSettings;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class SceneInfo;
@@ -39,10 +18,37 @@ namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
+class OverrideEnvironmentSettings;
+}
+namespace GlobalNamespace {
+class PracticeSettings;
+}
+namespace GlobalNamespace {
 class ColorScheme;
 }
 namespace GlobalNamespace {
+class BeatmapDataCache;
+}
+namespace GlobalNamespace {
 class LevelCompletionResults;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct __RecordingToolManager__SetupData;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +60,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6125))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
 // CS Name: ::StandardLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE StandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
@@ -186,72 +192,78 @@ public:
 
   constexpr void __set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method add_didFinishEvent addr 0x21e1b18 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x231d6c8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x21e1f0c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x231dabc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method get_gameMode addr 0x21e58c4 size 0x8 virtual false final false
+  /// @brief Method get_gameMode, addr 0x231ffa0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method set_gameMode addr 0x21e58cc size 0x8 virtual false final false
+  /// @brief Method set_gameMode, addr 0x231ffa8, size 0x8, virtual false, abstract: false, final false
   inline void set_gameMode(::StringW value);
 
-  /// @brief Method get_difficultyBeatmap addr 0x21e58d4 size 0x8 virtual false final false
+  /// @brief Method get_difficultyBeatmap, addr 0x231ffb0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
 
-  /// @brief Method set_difficultyBeatmap addr 0x21e58dc size 0x8 virtual false final false
+  /// @brief Method set_difficultyBeatmap, addr 0x231ffb8, size 0x8, virtual false, abstract: false, final false
   inline void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  /// @brief Method get_practiceSettings addr 0x21e58e4 size 0x8 virtual false final false
+  /// @brief Method get_practiceSettings, addr 0x231ffc0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PracticeSettings* get_practiceSettings();
 
-  /// @brief Method set_practiceSettings addr 0x21e58ec size 0x8 virtual false final false
+  /// @brief Method set_practiceSettings, addr 0x231ffc8, size 0x8, virtual false, abstract: false, final false
   inline void set_practiceSettings(::GlobalNamespace::PracticeSettings* value);
 
-  /// @brief Method get_usingOverrideColorScheme addr 0x21e58f4 size 0x8 virtual false final false
+  /// @brief Method get_usingOverrideColorScheme, addr 0x231ffd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideColorScheme();
 
-  /// @brief Method set_usingOverrideColorScheme addr 0x21e58fc size 0xc virtual false final false
+  /// @brief Method set_usingOverrideColorScheme, addr 0x231ffd8, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideColorScheme(bool value);
 
-  /// @brief Method get_colorScheme addr 0x21e5908 size 0x8 virtual false final false
+  /// @brief Method get_colorScheme, addr 0x231ffe4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();
 
-  /// @brief Method set_colorScheme addr 0x21e5910 size 0x8 virtual false final false
+  /// @brief Method set_colorScheme, addr 0x231ffec, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method get_usingOverrideEnvironment addr 0x21e5918 size 0x8 virtual false final false
+  /// @brief Method get_usingOverrideEnvironment, addr 0x231fff4, size 0x8, virtual false, abstract: false, final false
   inline bool get_usingOverrideEnvironment();
 
-  /// @brief Method set_usingOverrideEnvironment addr 0x21e5920 size 0xc virtual false final false
+  /// @brief Method set_usingOverrideEnvironment, addr 0x231fffc, size 0xc, virtual false, abstract: false, final false
   inline void set_usingOverrideEnvironment(bool value);
 
-  /// @brief Method get_environmentInfo addr 0x21e592c size 0x8 virtual false final false
+  /// @brief Method get_environmentInfo, addr 0x2320008, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method set_environmentInfo addr 0x21e5934 size 0x8 virtual false final false
+  /// @brief Method set_environmentInfo, addr 0x2320010, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
-  /// @brief Method get_gameplayModifiers addr 0x21e593c size 0x8 virtual false final false
+  /// @brief Method get_gameplayModifiers, addr 0x2320018, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method set_gameplayModifiers addr 0x21e5944 size 0x8 virtual false final false
+  /// @brief Method set_gameplayModifiers, addr 0x2320020, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method Init addr 0x21e25f8 size 0x608 virtual false final false
+  /// @brief Method Init, addr 0x231b8a4, size 0x66c, virtual false, abstract: false, final false
+  /// @param useTestNoteCutSoundEffects: bool (default: false)
+  /// @param startPaused: bool (default: false)
+  /// @param beatmapDataCache: ::GlobalNamespace::BeatmapDataCache* (default: nullptr)
+  /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
   inline void Init(::StringW gameMode, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-                   ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache);
+                   ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+                   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
+                   bool useTestNoteCutSoundEffects = false, bool startPaused = false, ::GlobalNamespace::BeatmapDataCache* beatmapDataCache = nullptr,
+                   ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData = {});
 
-  /// @brief Method Finish addr 0x21e594c size 0x28 virtual false final false
+  /// @brief Method Finish, addr 0x2320028, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e5974 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2320050, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::MemberTypes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3475))
 // CS Name: ::System.Reflection::MemberTypes
 struct CORDL_TYPE MemberTypes {
 public:

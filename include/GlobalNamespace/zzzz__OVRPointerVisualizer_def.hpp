@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRPointerVisualizer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8792))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7948))
 // CS Name: ::OVRPointerVisualizer*
 class CORDL_TYPE OVRPointerVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set_rayDrawDistance(float_t value);
 
-  /// @brief Method Update addr 0x26178fc size 0x1a0 virtual false final false
+  /// @brief Method Update, addr 0x277ed04, size 0x1a0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRPointerVisualizer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2617a9c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x277eea4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPointerVisualizer", modifiers: "&&", def_value: None }]

@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(NaccacheSternKeyPairGenerator)
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class NaccacheSternKeyGenerationParameters;
-}
-namespace System::Collections {
-class IList;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
 class IAsymmetricCipherKeyPairGenerator;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class NaccacheSternKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricCipherKeyPair;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGene
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(914))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::NaccacheSternKeyPairGenerator*
 class CORDL_TYPE NaccacheSternKeyPairGenerator : public ::System::Object {
@@ -62,24 +62,24 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_smallPrimes();
 
-  /// @brief Method Init addr 0xe8a884 size 0xa4 virtual true final true
+  /// @brief Method Init, addr 0xeffa58, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xe8a928 size 0xf74 virtual true final true
+  /// @brief Method GenerateKeyPair, addr 0xeffafc, size 0xf74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method generatePrime addr 0xe8bec4 size 0x7c virtual false final false
+  /// @brief Method generatePrime, addr 0xf01098, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* generatePrime(int32_t bitLength, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method permuteList addr 0xe8ba20 size 0x4a4 virtual false final false
+  /// @brief Method permuteList, addr 0xf00bf4, size 0x4a4, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* permuteList(::System::Collections::IList* arr, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method findFirstPrimes addr 0xe8b89c size 0x184 virtual false final false
+  /// @brief Method findFirstPrimes, addr 0xf00a70, size 0x184, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* findFirstPrimes(int32_t count);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe8bfd4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf011a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "&&", def_value: None }]

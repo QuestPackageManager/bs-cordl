@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XPathNodeInfoAtom)
-namespace MS::Internal::Xml::Cache {
-class XPathNodePageInfo;
+namespace System::Xml::XPath {
+class XPathDocument;
 }
 namespace MS::Internal::Xml::Cache {
 struct XPathNode;
 }
-namespace System::Xml::XPath {
-class XPathDocument;
+namespace MS::Internal::Xml::Cache {
+class XPathNodePageInfo;
 }
 // Forward declare root types
 namespace MS::Internal::Xml::Cache {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11700))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11772))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeInfoAtom*
 class CORDL_TYPE XPathNodeInfoAtom : public ::System::Object {
 public:
@@ -108,25 +108,25 @@ public:
 
   constexpr void __set__pageInfo(::MS::Internal::Xml::Cache::XPathNodePageInfo* value);
 
-  /// @brief Method get_PageInfo addr 0x276d7fc size 0x8 virtual false final false
+  /// @brief Method get_PageInfo, addr 0x28eb820, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_LocalName addr 0x276d804 size 0x8 virtual false final false
+  /// @brief Method get_LocalName, addr 0x28eb828, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri addr 0x276d80c size 0x8 virtual false final false
+  /// @brief Method get_NamespaceUri, addr 0x28eb830, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_Prefix addr 0x276d814 size 0x8 virtual false final false
+  /// @brief Method get_Prefix, addr 0x28eb838, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_SiblingPage addr 0x276d81c size 0x8 virtual false final false
+  /// @brief Method get_SiblingPage, addr 0x28eb840, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_SiblingPage();
 
-  /// @brief Method get_ParentPage addr 0x276d824 size 0x8 virtual false final false
+  /// @brief Method get_ParentPage, addr 0x28eb848, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> get_ParentPage();
 
-  /// @brief Method get_Document addr 0x276d82c size 0x8 virtual false final false
+  /// @brief Method get_Document, addr 0x28eb850, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodeInfoAtom", modifiers: "&&", def_value: None }]

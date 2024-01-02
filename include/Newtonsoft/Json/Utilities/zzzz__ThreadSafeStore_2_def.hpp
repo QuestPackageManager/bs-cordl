@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadSafeStore_2)
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -25,8 +25,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11796))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11868))
 // CS Name: ::Newtonsoft.Json.Utilities::ThreadSafeStore`2<TKey,TValue>*
 class CORDL_TYPE ThreadSafeStore_2 : public ::System::Object {
 public:
@@ -60,13 +60,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, TValue>* creator);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<TKey, TValue>* creator);
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue Get(TKey key);
 
-  /// @brief Method AddValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue AddValue(TKey key);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadSafeStore_2", modifiers: "&&", def_value: None }]

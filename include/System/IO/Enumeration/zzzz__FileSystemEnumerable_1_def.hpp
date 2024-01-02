@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemEnumerable_1)
-namespace System::IO {
-class EnumerationOptions;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__FindTransform;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::IO::Enumeration {
+template <typename TResult> class __FileSystemEnumerable_1__FindPredicate;
 }
 namespace System::IO::Enumeration {
 template <typename TResult> class __FileSystemEnumerable_1__DelegateEnumerator;
 }
-namespace System::IO::Enumeration {
-template <typename TResult> class __FileSystemEnumerable_1__FindPredicate;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::IO {
+class EnumerationOptions;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
@@ -63,18 +63,18 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3631))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
 // CS Name: ::FileSystemEnumerable`1::FindPredicate<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindPredicate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__FindPredicate", modifiers: "&&", def_value: None }]
@@ -101,18 +101,18 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3644))
 // CS Name: ::FileSystemEnumerable`1::FindTransform<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__FindTransform : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TResult Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__FindTransform", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3643)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3643), inst: 1912 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3633))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3655), inst: 1976 }), TypeDefinitionIndex(TypeDefinitionIndex(3655))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3645))
 // CS Name: ::FileSystemEnumerable`1::DelegateEnumerator<TResult>*
 class CORDL_TYPE __FileSystemEnumerable_1__DelegateEnumerator : public ::System::IO::Enumeration::FileSystemEnumerator_1<TResult> {
 public:
@@ -156,16 +156,16 @@ public:
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>* New_ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* enumerable);
 
-  /// @brief Method TransformEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TransformEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TResult TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method ShouldRecurseIntoEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldRecurseIntoEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method ShouldIncludeEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldIncludeEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FileSystemEnumerable_1__DelegateEnumerator", modifiers: "&&", def_value: None }]
@@ -195,8 +195,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3646))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerable`1<TResult>*
 class CORDL_TYPE FileSystemEnumerable_1 : public ::System::Object {
 public:
@@ -276,22 +276,23 @@ public:
   static inline ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* New_ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform,
                                                                                      ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
+  inline void _ctor(::StringW directory, ::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>* transform, ::System::IO::EnumerationOptions* options = nullptr);
 
-  /// @brief Method get_ShouldIncludePredicate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* get_ShouldIncludePredicate();
 
-  /// @brief Method set_ShouldIncludePredicate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_ShouldIncludePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_ShouldIncludePredicate(::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* value);
 
-  /// @brief Method get_ShouldRecursePredicate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_ShouldRecursePredicate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>* get_ShouldRecursePredicate();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TResult>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerable_1", modifiers: "&&", def_value: None }]

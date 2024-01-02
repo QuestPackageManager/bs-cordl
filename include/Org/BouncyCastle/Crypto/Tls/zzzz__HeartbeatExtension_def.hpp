@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1247))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatExtension*
 class CORDL_TYPE HeartbeatExtension : public ::System::Object {
@@ -37,16 +37,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* New_ctor(uint8_t mode);
 
-  /// @brief Method .ctor addr 0xf1b4b4 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xf916d8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(uint8_t mode);
 
-  /// @brief Method get_Mode addr 0xf1b560 size 0x8 virtual true final false
+  /// @brief Method get_Mode, addr 0xf91784, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Mode();
 
-  /// @brief Method Encode addr 0xf1b568 size 0x6c virtual true final false
+  /// @brief Method Encode, addr 0xf9178c, size 0x6c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf1b5d4 size 0xe4 virtual false final false
+  /// @brief Method Parse, addr 0xf917f8, size 0xe4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeartbeatExtension", modifiers: "&&", def_value: None }]

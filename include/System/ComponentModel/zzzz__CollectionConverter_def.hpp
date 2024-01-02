@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CollectionConverter)
-namespace System::ComponentModel {
-class ITypeDescriptorContext;
-}
 namespace System::Globalization {
 class CultureInfo;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
+}
+namespace System::ComponentModel {
+class ITypeDescriptorContext;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
 }
 namespace System {
 class Attribute;
 }
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -33,26 +33,26 @@ MARK_REF_PTR_T(::System::ComponentModel::CollectionConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8317))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9468))
 // CS Name: ::System.ComponentModel::CollectionConverter*
 class CORDL_TYPE CollectionConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo addr 0x279bb38 size 0x178 virtual true final false
+  /// @brief Method ConvertTo, addr 0x2919b60, size 0x178, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties addr 0x279bcb0 size 0x8 virtual true final false
+  /// @brief Method GetProperties, addr 0x2919cd8, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported addr 0x279bcb8 size 0x8 virtual true final false
+  /// @brief Method GetPropertiesSupported, addr 0x2919ce0, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CollectionConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x279bcc0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2919ce8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionConverter", modifiers: "&&", def_value: None }]

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ScriptableRuntimeReflectionSystemSettings)
 namespace UnityEngine::Experimental::Rendering {
-class ScriptableRuntimeReflectionSystemWrapper;
+class IScriptableRuntimeReflectionSystem;
 }
 namespace UnityEngine::Experimental::Rendering {
-class IScriptableRuntimeReflectionSystem;
+class ScriptableRuntimeReflectionSystemWrapper;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::Rendering {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflecti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10329))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10407))
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemSettings*
 class CORDL_TYPE ScriptableRuntimeReflectionSystemSettings : public ::System::Object {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system addr 0x2b8c024 size 0x148 virtual false final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x2cf4364, size 0x148, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance addr 0x2b8c16c size 0x58 virtual false final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x2cf44ac, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
-  /// @brief Method ScriptingDirtyReflectionSystemInstance addr 0x2b8c1c4 size 0x28 virtual false final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x2cf4504, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemSettings", modifiers: "&&", def_value: None }]

@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::System::Collections::IEqualityComparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3761))
 // CS Name: ::System.Collections::IEqualityComparer*
 class CORDL_TYPE IEqualityComparer {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEqualityComparer", modifiers: "&&", def_value: None }]

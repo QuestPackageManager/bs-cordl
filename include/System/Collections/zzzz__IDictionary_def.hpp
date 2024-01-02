@@ -7,13 +7,13 @@ namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
 class ICollection;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Collections::IDictionary);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3745))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3757))
 // CS Name: ::System.Collections::IDictionary*
 class CORDL_TYPE IDictionary {
 public:
@@ -47,37 +47,37 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDictionary", modifiers: "&&", def_value: None }]

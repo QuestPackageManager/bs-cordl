@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::ICloneable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2410))
 // CS Name: ::System::ICloneable*
 class CORDL_TYPE ICloneable {
 public:
   // Declarations
-  /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* Clone();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICloneable", modifiers: "&&", def_value: None }]

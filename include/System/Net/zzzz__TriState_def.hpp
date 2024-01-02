@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::TriState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9080))
 // CS Name: ::System.Net::TriState
 struct CORDL_TYPE TriState {
 public:

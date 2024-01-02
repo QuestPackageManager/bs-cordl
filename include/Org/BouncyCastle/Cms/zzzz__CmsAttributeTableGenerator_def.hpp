@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsAttributeTableGenerator {
 public:
   // Declarations
-  /// @brief Method GetAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAttributeTableGenerator", modifiers: "&&", def_value: None }]

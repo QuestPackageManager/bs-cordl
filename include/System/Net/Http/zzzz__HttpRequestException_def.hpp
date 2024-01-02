@@ -18,25 +18,25 @@ MARK_REF_PTR_T(::System::Net::Http::HttpRequestException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14870))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14653))
 // CS Name: ::System.Net.Http::HttpRequestException*
 class CORDL_TYPE HttpRequestException : public ::System::Exception {
 public:
   // Declarations
   static inline ::System::Net::Http::HttpRequestException* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b892c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x283393c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x26b7b84 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2832b94, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x26b54c0 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x28304d0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestException", modifiers: "&&", def_value: None }]

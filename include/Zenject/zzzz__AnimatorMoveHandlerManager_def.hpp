@@ -9,10 +9,10 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class IAnimatorMoveHandler;
 }
 namespace Zenject {
-class IAnimatorMoveHandler;
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::AnimatorMoveHandlerManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11230))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11302))
 // CS Name: ::Zenject::AnimatorMoveHandlerManager*
 class CORDL_TYPE AnimatorMoveHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,21 +42,21 @@ public:
 
   constexpr void __set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* value);
 
-  /// @brief Method Construct addr 0x2da6ccc size 0x8 virtual false final false
+  /// @brief Method Construct, addr 0x2f0ea9c, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers);
 
-  /// @brief Method OnAnimatorMove addr 0x2da6cd4 size 0x1b0 virtual false final false
+  /// @brief Method OnAnimatorMove, addr 0x2f0eaa4, size 0x1b0, virtual false, abstract: false, final false
   inline void OnAnimatorMove();
 
   static inline ::Zenject::AnimatorMoveHandlerManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da6e84 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0ec54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x2da6e8c size 0xdc virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x2f0ec5c, size 0xdc, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da6f68 size 0x2f8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0ed38, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "&&", def_value: None }]

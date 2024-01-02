@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(DefaultSignatureCalculator)
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::IO {
 class SignerSink;
 }
-namespace System::IO {
-class Stream;
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculato
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(999))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultSignatureCalculator*
 class CORDL_TYPE DefaultSignatureCalculator : public ::System::Object {
@@ -51,13 +51,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureCalculator* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method .ctor addr 0xeb7ac4 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf2ccb0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method get_Stream addr 0xeb8b18 size 0x8 virtual true final true
+  /// @brief Method get_Stream, addr 0xf2dd04, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult addr 0xeb8b20 size 0x84 virtual true final true
+  /// @brief Method GetResult, addr 0xf2dd0c, size 0x84, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureCalculator", modifiers: "&&", def_value: None }]

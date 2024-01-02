@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::CharacterController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15476))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15477))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15492))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15493))
 // CS Name: ::UnityEngine::CharacterController*
 class CORDL_TYPE CharacterController : public ::UnityEngine::Collider {
 public:
@@ -36,25 +36,25 @@ public:
 
   __declspec(property(get = get_stepOffset)) float_t stepOffset;
 
-  /// @brief Method Move addr 0x2bafa8c size 0x54 virtual false final false
+  /// @brief Method Move, addr 0x2d16d4c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags Move(::UnityEngine::Vector3 motion);
 
-  /// @brief Method get_isGrounded addr 0x2bafb24 size 0x3c virtual false final false
+  /// @brief Method get_isGrounded, addr 0x2d16de4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isGrounded();
 
-  /// @brief Method get_height addr 0x2bafb60 size 0x3c virtual false final false
+  /// @brief Method get_height, addr 0x2d16e20, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_center addr 0x2bafb9c size 0x5c virtual false final false
+  /// @brief Method get_center, addr 0x2d16e5c, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_stepOffset addr 0x2bafc3c size 0x3c virtual false final false
+  /// @brief Method get_stepOffset, addr 0x2d16efc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_stepOffset();
 
-  /// @brief Method Move_Injected addr 0x2bafae0 size 0x44 virtual false final false
+  /// @brief Method Move_Injected, addr 0x2d16da0, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::CollisionFlags Move_Injected(ByRef<::UnityEngine::Vector3> motion);
 
-  /// @brief Method get_center_Injected addr 0x2bafbf8 size 0x44 virtual false final false
+  /// @brief Method get_center_Injected, addr 0x2d16eb8, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "CharacterController", modifiers: "&&", def_value: None }]

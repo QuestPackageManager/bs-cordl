@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename TInput, typename TOutput>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2340))
 // CS Name: ::System::Converter`2<TInput,TOutput>*
 class CORDL_TYPE Converter_2 : public ::System::MulticastDelegate {
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Converter_2<TInput, TOutput>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TOutput Invoke(TInput input);
 
   // Ctor Parameters [CppParam { name: "", ty: "Converter_2", modifiers: "&&", def_value: None }]

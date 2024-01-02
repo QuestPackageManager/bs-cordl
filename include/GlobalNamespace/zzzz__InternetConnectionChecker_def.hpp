@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InternetConnectionChecker)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct __InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -40,8 +40,8 @@ MARK_VAL_T(::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInterne
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3397), inst: 112 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5986)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5895)) CS Name:
 // ::InternetConnectionChecker::<IsConnectedToInternetAsync>d__0
 struct CORDL_TYPE __InternetConnectionChecker___IsConnectedToInternetAsync_d__0 {
 public:
@@ -49,10 +49,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21b3828 size 0x21c virtual true final true
+  /// @brief Method MoveNext, addr 0x22fbdd8, size 0x21c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21b3a44 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22fbff4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -93,20 +93,20 @@ static_assert(offsetof(::GlobalNamespace::__InternetConnectionChecker___IsConnec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5987))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5896))
 // CS Name: ::InternetConnectionChecker*
 class CORDL_TYPE InternetConnectionChecker : public ::System::Object {
 public:
   // Declarations
   using _IsConnectedToInternetAsync_d__0 = ::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInternetAsync_d__0;
 
-  /// @brief Method IsConnectedToInternetAsync addr 0x21b3734 size 0xec virtual false final false
+  /// @brief Method IsConnectedToInternetAsync, addr 0x22fbce4, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* IsConnectedToInternetAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::InternetConnectionChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b3820 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22fbdd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternetConnectionChecker", modifiers: "&&", def_value: None }]

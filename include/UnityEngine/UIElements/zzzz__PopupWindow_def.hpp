@@ -10,10 +10,10 @@ namespace UnityEngine::UIElements {
 class __PopupWindow__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
-class __PopupWindow__UxmlTraits;
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class __PopupWindow__UxmlTraits;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,15 +33,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__PopupWindow__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6899))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7028))
 // CS Name: ::PopupWindow::UxmlTraits*
 class CORDL_TYPE __PopupWindow__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__PopupWindow__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cb38d4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e19c84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -68,8 +68,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Popup
 // SizeInfo { instance_size: 1152, native_size: -1, calculated_instance_size: 1152, calculated_native_size: 1152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6900))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7029))
 // CS Name: ::UnityEngine.UIElements::PopupWindow*
 class CORDL_TYPE PopupWindow : public ::UnityEngine::UIElements::TextElement {
 public:
@@ -105,10 +105,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PopupWindow* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cb3700 size 0x12c virtual false final false
+  /// @brief Method .ctor, addr 0x2e19ab0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_contentContainer addr 0x2cb382c size 0x8 virtual true final false
+  /// @brief Method get_contentContainer, addr 0x2e19bdc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
   // Ctor Parameters [CppParam { name: "", ty: "PopupWindow", modifiers: "&&", def_value: None }]
@@ -140,14 +140,14 @@ static_assert(offsetof(::UnityEngine::UIElements::PopupWindow, ___m_ContentConta
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7115)), TypeDefinitionIndex(TypeDefinitionIndex(7114)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5153 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7113)) CS Name: ::PopupWindow::UxmlFactory*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5269 }), TypeDefinitionIndex(TypeDefinitionIndex(7028)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7029))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7027)) CS Name: ::PopupWindow::UxmlFactory*
 class CORDL_TYPE __PopupWindow__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::PopupWindow*, ::UnityEngine::UIElements::__PopupWindow__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__PopupWindow__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cab000 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e113b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PopupWindow__UxmlFactory", modifiers: "&&", def_value: None }]

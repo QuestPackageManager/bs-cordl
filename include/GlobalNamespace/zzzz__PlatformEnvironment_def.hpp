@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::PlatformEnvironment);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12924))
 // CS Name: ::PlatformEnvironment
 struct CORDL_TYPE PlatformEnvironment {
 public:

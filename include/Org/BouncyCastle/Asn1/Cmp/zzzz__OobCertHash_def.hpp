@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OobCertHash)
 namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class CertId;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+class DerBitString;
 }
 namespace System {
 class Object;
@@ -19,8 +19,8 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Crmf {
-class CertId;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -71,19 +71,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf347c size 0x144 virtual false final false
+  /// @brief Method .ctor, addr 0xe6864c, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf37cc size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe6899c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::OobCertHash* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_HashAlg addr 0xdf3954 size 0x8 virtual true final false
+  /// @brief Method get_HashAlg, addr 0xe68b24, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlg();
 
-  /// @brief Method get_CertID addr 0xdf395c size 0x8 virtual true final false
+  /// @brief Method get_CertID, addr 0xe68b2c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertId* get_CertID();
 
-  /// @brief Method ToAsn1Object addr 0xdf3964 size 0xd0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe68b34, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OobCertHash", modifiers: "&&", def_value: None }]

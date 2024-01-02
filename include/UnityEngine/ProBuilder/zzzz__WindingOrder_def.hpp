@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::WindingOrder);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12089))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12161))
 // CS Name: ::UnityEngine.ProBuilder::WindingOrder
 struct CORDL_TYPE WindingOrder {
 public:

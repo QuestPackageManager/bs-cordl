@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SM2KeyExchange)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class ECPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
 class SM2KeyExchangePublicParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(741))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::SM2KeyExchange*
 class CORDL_TYPE SM2KeyExchange : public ::System::Object {
@@ -129,50 +129,50 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor();
 
-  /// @brief Method .ctor addr 0x11aa540 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x121b790, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::SM2KeyExchange* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0x11aa5ac size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x121b7fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0x11aa5d4 size 0x1d4 virtual true final false
+  /// @brief Method Init, addr 0x121b824, size 0x1d4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* privParam);
 
-  /// @brief Method CalculateKey addr 0x11aa7a8 size 0x1c4 virtual true final false
+  /// @brief Method CalculateKey, addr 0x121b9f8, size 0x1c4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateKey(int32_t kLen, ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
 
-  /// @brief Method CalculateKeyWithConfirmation addr 0x11aaacc size 0x4b0 virtual true final false
+  /// @brief Method CalculateKeyWithConfirmation, addr 0x121bd1c, size 0x4b0, virtual true, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> CalculateKeyWithConfirmation(int32_t kLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> confirmationTag,
                                                                                                                                      ::Org::BouncyCastle::Crypto::ICipherParameters* pubParam);
 
-  /// @brief Method CalculateU addr 0x11ab474 size 0x1cc virtual true final false
+  /// @brief Method CalculateU, addr 0x121c6c4, size 0x1cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CalculateU(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters* otherPub);
 
-  /// @brief Method Kdf addr 0x11ab6f4 size 0x650 virtual true final false
+  /// @brief Method Kdf, addr 0x121c944, size 0x650, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za, ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, int32_t klen);
 
-  /// @brief Method Reduce addr 0x11ab640 size 0xb4 virtual false final false
+  /// @brief Method Reduce, addr 0x121c890, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* Reduce(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method S1 addr 0x11ab18c size 0x174 virtual false final false
+  /// @brief Method S1, addr 0x121c3dc, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S1(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
 
-  /// @brief Method CalculateInnerHash addr 0x11aaf7c size 0x210 virtual false final false
+  /// @brief Method CalculateInnerHash, addr 0x121c1cc, size 0x210, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateInnerHash(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> za,
                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> zb, ::Org::BouncyCastle::Math::EC::ECPoint* p1, ::Org::BouncyCastle::Math::EC::ECPoint* p2);
 
-  /// @brief Method S2 addr 0x11ab300 size 0x174 virtual false final false
+  /// @brief Method S2, addr 0x121c550, size 0x174, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> S2(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECPoint* u, ::ArrayW<uint8_t, ::Array<uint8_t>*> inner);
 
-  /// @brief Method GetZ addr 0x11aa96c size 0x160 virtual false final false
+  /// @brief Method GetZ, addr 0x121bbbc, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetZ(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID, ::Org::BouncyCastle::Math::EC::ECPoint* pubPoint);
 
-  /// @brief Method AddUserID addr 0x11abe18 size 0x188 virtual false final false
+  /// @brief Method AddUserID, addr 0x121d068, size 0x188, virtual false, abstract: false, final false
   inline void AddUserID(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> userID);
 
-  /// @brief Method AddFieldElement addr 0x11abd44 size 0xd4 virtual false final false
+  /// @brief Method AddFieldElement, addr 0x121cf94, size 0xd4, virtual false, abstract: false, final false
   inline void AddFieldElement(::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Math::EC::ECFieldElement* v);
 
   // Ctor Parameters [CppParam { name: "", ty: "SM2KeyExchange", modifiers: "&&", def_value: None }]

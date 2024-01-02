@@ -9,16 +9,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRRenderModels)
 namespace System {
-class AsyncCallback;
-}
-namespace System {
 class Object;
 }
 namespace System {
 class IAsyncResult;
 }
+namespace System {
+class AsyncCallback;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace OVR::OpenVR {
+struct RenderModel_ComponentState_t;
 }
 namespace OVR::OpenVR {
 struct VRControllerState_t;
@@ -27,67 +30,64 @@ namespace OVR::OpenVR {
 struct RenderModel_ControllerMode_State_t;
 }
 namespace OVR::OpenVR {
-struct RenderModel_ComponentState_t;
-}
-namespace OVR::OpenVR {
 struct EVRRenderModelError;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentStateForDevicePath;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___FreeRenderModel;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadIntoTextureD3D11_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelCount;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelOriginalPath;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___LoadRenderModel_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentCount;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentButtonMask;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentName;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___RenderModelHasComponent;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___FreeTextureD3D11;
 }
 namespace OVR::OpenVR {
+class __IVRRenderModels___LoadIntoTextureD3D11_Async;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___FreeTexture;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentName;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___FreeRenderModel;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___LoadRenderModel_Async;
+}
+namespace OVR::OpenVR {
 class __IVRRenderModels___LoadTextureD3D11_Async;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetRenderModelName;
-}
-namespace OVR::OpenVR {
-class __IVRRenderModels___GetComponentState;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetComponentRenderModelName;
 }
 namespace OVR::OpenVR {
-class __IVRRenderModels___FreeTexture;
+class __IVRRenderModels___GetComponentCount;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelOriginalPath;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelCount;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelErrorNameFromEnum;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentStateForDevicePath;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetRenderModelName;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___GetRenderModelThumbnailURL;
 }
 namespace OVR::OpenVR {
 class __IVRRenderModels___LoadTexture_Async;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___RenderModelHasComponent;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentState;
+}
+namespace OVR::OpenVR {
+class __IVRRenderModels___GetComponentButtonMask;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -175,24 +175,24 @@ MARK_VAL_T(::OVR::OpenVR::IVRRenderModels);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9240))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8471))
 // CS Name: ::IVRRenderModels::_LoadRenderModel_Async*
 class CORDL_TYPE __IVRRenderModels___LoadRenderModel_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___LoadRenderModel_Async* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2671b94 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27e8b18, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2671c6c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e8bf0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(::StringW pchRenderModelName, ByRef<void*> ppRenderModel);
 
-  /// @brief Method BeginInvoke addr 0x2671c80 size 0x94 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e8c04, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ByRef<void*> ppRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2671d14 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e8c98, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(ByRef<void*> ppRenderModel, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___LoadRenderModel_Async", modifiers: "&&", def_value: None }]
@@ -219,24 +219,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9241))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8472))
 // CS Name: ::IVRRenderModels::_FreeRenderModel*
 class CORDL_TYPE __IVRRenderModels___FreeRenderModel : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___FreeRenderModel* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2671d40 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e8cc4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2671e04 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e8d88, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* pRenderModel);
 
-  /// @brief Method BeginInvoke addr 0x2671e18 size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e8d9c, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* pRenderModel, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2671e9c size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e8e20, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___FreeRenderModel", modifiers: "&&", def_value: None }]
@@ -263,24 +263,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9242))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8473))
 // CS Name: ::IVRRenderModels::_LoadTexture_Async*
 class CORDL_TYPE __IVRRenderModels___LoadTexture_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___LoadTexture_Async* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2671ea8 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e8e2c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2671f6c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e8ef0, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, ByRef<void*> ppTexture);
 
-  /// @brief Method BeginInvoke addr 0x2671f80 size 0xb8 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e8f04, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, ByRef<void*> ppTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672038 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e8fbc, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(ByRef<void*> ppTexture, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___LoadTexture_Async", modifiers: "&&", def_value: None }]
@@ -307,24 +307,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9243))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8474))
 // CS Name: ::IVRRenderModels::_FreeTexture*
 class CORDL_TYPE __IVRRenderModels___FreeTexture : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___FreeTexture* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672064 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e8fe8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672128 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e90ac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* pTexture);
 
-  /// @brief Method BeginInvoke addr 0x267213c size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e90c0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* pTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26721c0 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9144, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___FreeTexture", modifiers: "&&", def_value: None }]
@@ -351,24 +351,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9244))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8475))
 // CS Name: ::IVRRenderModels::_LoadTextureD3D11_Async*
 class CORDL_TYPE __IVRRenderModels___LoadTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___LoadTextureD3D11_Async* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26721cc size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9150, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672290 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9214, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, void* pD3D11Device, ByRef<void*> ppD3D11Texture2D);
 
-  /// @brief Method BeginInvoke addr 0x26722a4 size 0xd0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9228, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, void* pD3D11Device, ByRef<void*> ppD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672374 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e92f8, size 0x2c, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(ByRef<void*> ppD3D11Texture2D, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___LoadTextureD3D11_Async", modifiers: "&&", def_value: None }]
@@ -395,24 +395,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9245))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8476))
 // CS Name: ::IVRRenderModels::_LoadIntoTextureD3D11_Async*
 class CORDL_TYPE __IVRRenderModels___LoadIntoTextureD3D11_Async : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___LoadIntoTextureD3D11_Async* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26723a0 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9324, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672464 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e93e8, size 0x14, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError Invoke(int32_t textureId, void* pDstTexture);
 
-  /// @brief Method BeginInvoke addr 0x2672478 size 0xb4 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e93fc, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t textureId, void* pDstTexture, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x267252c size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e94b0, size 0x28, virtual true, abstract: false, final false
   inline ::OVR::OpenVR::EVRRenderModelError EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___LoadIntoTextureD3D11_Async", modifiers: "&&", def_value: None }]
@@ -439,24 +439,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9246))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8477))
 // CS Name: ::IVRRenderModels::_FreeTextureD3D11*
 class CORDL_TYPE __IVRRenderModels___FreeTextureD3D11 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___FreeTextureD3D11* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672554 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e94d8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672618 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e959c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* pD3D11Texture2D);
 
-  /// @brief Method BeginInvoke addr 0x267262c size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e95b0, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* pD3D11Texture2D, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26726b0 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9634, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___FreeTextureD3D11", modifiers: "&&", def_value: None }]
@@ -483,25 +483,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9247))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8478))
 // CS Name: ::IVRRenderModels::_GetRenderModelName*
 class CORDL_TYPE __IVRRenderModels___GetRenderModelName : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetRenderModelName* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26726bc size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9640, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672780 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9704, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen);
 
-  /// @brief Method BeginInvoke addr 0x2672794 size 0xa4 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9718, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t unRenderModelIndex, ::System::Text::StringBuilder* pchRenderModelName, uint32_t unRenderModelNameLen, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672838 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e97bc, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetRenderModelName", modifiers: "&&", def_value: None }]
@@ -528,24 +528,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9248))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8479))
 // CS Name: ::IVRRenderModels::_GetRenderModelCount*
 class CORDL_TYPE __IVRRenderModels___GetRenderModelCount : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetRenderModelCount* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672860 size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x27e97e4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x267291c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e98a0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
-  /// @brief Method BeginInvoke addr 0x2672930 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e98b4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672950 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e98d4, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetRenderModelCount", modifiers: "&&", def_value: None }]
@@ -572,24 +572,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9249))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8480))
 // CS Name: ::IVRRenderModels::_GetComponentCount*
 class CORDL_TYPE __IVRRenderModels___GetComponentCount : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentCount* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672978 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0x27e98fc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672a4c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e99d0, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName);
 
-  /// @brief Method BeginInvoke addr 0x2672a60 size 0x20 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e99e4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672a80 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9a04, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetComponentCount", modifiers: "&&", def_value: None }]
@@ -616,25 +616,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9250))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8481))
 // CS Name: ::IVRRenderModels::_GetComponentName*
 class CORDL_TYPE __IVRRenderModels___GetComponentName : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentName* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672aa8 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9a2c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672b80 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9b04, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen);
 
-  /// @brief Method BeginInvoke addr 0x2672b94 size 0xac virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9b18, size 0xac, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, uint32_t unComponentIndex, ::System::Text::StringBuilder* pchComponentName, uint32_t unComponentNameLen,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672c40 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9bc4, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetComponentName", modifiers: "&&", def_value: None }]
@@ -661,24 +661,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9251))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8482))
 // CS Name: ::IVRRenderModels::_GetComponentButtonMask*
 class CORDL_TYPE __IVRRenderModels___GetComponentButtonMask : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentButtonMask* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672c68 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9bec, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672d40 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9cc4, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
 
-  /// @brief Method BeginInvoke addr 0x2672d54 size 0x28 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9cd8, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672d7c size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9d00, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetComponentButtonMask", modifiers: "&&", def_value: None }]
@@ -705,25 +705,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9252))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8483))
 // CS Name: ::IVRRenderModels::_GetComponentRenderModelName*
 class CORDL_TYPE __IVRRenderModels___GetComponentRenderModelName : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentRenderModelName* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672da4 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9d28, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2672e7c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9e00, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName, uint32_t unComponentRenderModelNameLen);
 
-  /// @brief Method BeginInvoke addr 0x2672e90 size 0xa8 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9e14, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::Text::StringBuilder* pchComponentRenderModelName,
                                              uint32_t unComponentRenderModelNameLen, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2672f38 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27e9ebc, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetComponentRenderModelName", modifiers: "&&", def_value: None }]
@@ -750,26 +750,26 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9253))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8484))
 // CS Name: ::IVRRenderModels::_GetComponentStateForDevicePath*
 class CORDL_TYPE __IVRRenderModels___GetComponentStateForDevicePath : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentStateForDevicePath* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2672f60 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27e9ee4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673038 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27e9fbc, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                      ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
-  /// @brief Method BeginInvoke addr 0x267304c size 0x100 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27e9fd0, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, uint64_t devicePath, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                                              ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x267314c size 0x34 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea0d0, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetComponentStateForDevicePath", modifiers: "&&", def_value: None }]
@@ -796,27 +796,27 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9254))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8485))
 // CS Name: ::IVRRenderModels::_GetComponentState*
 class CORDL_TYPE __IVRRenderModels___GetComponentState : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetComponentState* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2673180 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ea104, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673258 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ea1dc, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                      ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState);
 
-  /// @brief Method BeginInvoke addr 0x267326c size 0x100 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ea1f0, size 0x100, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
                                              ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState, ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x267336c size 0x34 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea2f0, size 0x34, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ByRef<::OVR::OpenVR::RenderModel_ControllerMode_State_t> pState,
                         ByRef<::OVR::OpenVR::RenderModel_ComponentState_t> pComponentState, ::System::IAsyncResult* result);
 
@@ -844,24 +844,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9255))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8486))
 // CS Name: ::IVRRenderModels::_RenderModelHasComponent*
 class CORDL_TYPE __IVRRenderModels___RenderModelHasComponent : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___RenderModelHasComponent* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26733a0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ea324, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673478 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ea3fc, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchRenderModelName, ::StringW pchComponentName);
 
-  /// @brief Method BeginInvoke addr 0x267348c size 0x28 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ea410, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::StringW pchComponentName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26734b4 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea438, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___RenderModelHasComponent", modifiers: "&&", def_value: None }]
@@ -888,25 +888,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8487))
 // CS Name: ::IVRRenderModels::_GetRenderModelThumbnailURL*
 class CORDL_TYPE __IVRRenderModels___GetRenderModelThumbnailURL : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetRenderModelThumbnailURL* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26734dc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ea460, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x26735b4 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ea538, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen, ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
-  /// @brief Method BeginInvoke addr 0x26735c8 size 0xcc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ea54c, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchThumbnailURL, uint32_t unThumbnailURLLen,
                                              ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2673694 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea618, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetRenderModelThumbnailURL", modifiers: "&&", def_value: None }]
@@ -933,25 +933,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8488))
 // CS Name: ::IVRRenderModels::_GetRenderModelOriginalPath*
 class CORDL_TYPE __IVRRenderModels___GetRenderModelOriginalPath : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetRenderModelOriginalPath* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26736c0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ea644, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673798 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ea71c, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen, ByRef<::OVR::OpenVR::EVRRenderModelError> peError);
 
-  /// @brief Method BeginInvoke addr 0x26737ac size 0xcc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ea730, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchRenderModelName, ::System::Text::StringBuilder* pchOriginalPath, uint32_t unOriginalPathLen,
                                              ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2673878 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea7fc, size 0x2c, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRRenderModelError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetRenderModelOriginalPath", modifiers: "&&", def_value: None }]
@@ -978,24 +978,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9258))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8489))
 // CS Name: ::IVRRenderModels::_GetRenderModelErrorNameFromEnum*
 class CORDL_TYPE __IVRRenderModels___GetRenderModelErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRRenderModels___GetRenderModelErrorNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26738a4 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27ea828, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673968 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ea8ec, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRRenderModelError error);
 
-  /// @brief Method BeginInvoke addr 0x267397c size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ea900, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRRenderModelError error, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2673a00 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ea984, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRRenderModels___GetRenderModelErrorNameFromEnum", modifiers: "&&", def_value: None }]
@@ -1023,7 +1023,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRRenderModels__
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8490))
 // CS Name: ::OVR.OpenVR::IVRRenderModels
 struct CORDL_TYPE IVRRenderModels {
 public:

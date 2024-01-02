@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::PlatformInitializeResult);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13373))
 // CS Name: ::Oculus.Platform::PlatformInitializeResult
 struct CORDL_TYPE PlatformInitializeResult {
 public:

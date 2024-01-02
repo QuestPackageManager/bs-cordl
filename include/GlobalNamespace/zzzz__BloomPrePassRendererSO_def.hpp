@@ -11,49 +11,49 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassRendererSO)
 namespace UnityEngine {
+class Camera;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
+}
+namespace GlobalNamespace {
+class IBloomPrePassParams;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRendererSO__LightsRenderingData;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::Rendering {
+class CommandBuffer;
+}
+namespace UnityEngine {
+class Texture2D;
+}
+namespace GlobalNamespace {
+class __BloomPrePassRendererSO__PreallocationData;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace GlobalNamespace {
+class BloomPrePassLightTypeSO;
 }
 namespace GlobalNamespace {
 struct ToneMapping;
 }
 namespace UnityEngine {
 class Texture;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRendererSO__PreallocationData;
-}
-namespace GlobalNamespace {
-class __BloomPrePassRendererSO__LightsRenderingData;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
-class Camera;
-}
-namespace GlobalNamespace {
-class IBloomPrePassParams;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BloomPrePassLightTypeSO;
 }
 namespace UnityEngine {
 class Mesh;
@@ -79,8 +79,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14699))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14481))
 // CS Name: ::BloomPrePassRendererSO::PreallocationData*
 class CORDL_TYPE __BloomPrePassRendererSO__PreallocationData : public ::System::Object {
 public:
@@ -105,7 +105,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb3150 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x210852c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRendererSO__PreallocationData", modifiers: "&&", def_value: None }]
@@ -142,8 +142,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRendererSO__Preallocatio
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10266)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14700))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10344))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14482))
 // CS Name: ::BloomPrePassRendererSO::LightsRenderingData*
 class CORDL_TYPE __BloomPrePassRendererSO__LightsRenderingData : public ::System::Object {
 public:
@@ -177,7 +177,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb2140 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210751c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassRendererSO__LightsRenderingData", modifiers: "&&", def_value: None }]
@@ -219,8 +219,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRendererSO__LightsRender
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14701))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14483))
 // CS Name: ::BloomPrePassRendererSO*
 class CORDL_TYPE BloomPrePassRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -327,56 +327,56 @@ public:
 
   static inline int32_t getStaticF__customFogTextureToScreenRatioID();
 
-  /// @brief Method OnEnable addr 0x1fb1f88 size 0x1c virtual true final false
+  /// @brief Method OnEnable, addr 0x2107364, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fb1fa4 size 0x4 virtual false final false
+  /// @brief Method OnDisable, addr 0x2107380, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Init addr 0x1fad8d8 size 0x144 virtual false final false
+  /// @brief Method Init, addr 0x2102914, size 0x144, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Cleanup addr 0x1fb1fa8 size 0x198 virtual false final false
+  /// @brief Method Cleanup, addr 0x2107384, size 0x198, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method RenderAndSetData addr 0x1fae1ac size 0x954 virtual false final false
+  /// @brief Method RenderAndSetData, addr 0x21031e8, size 0xa0c, virtual false, abstract: false, final false
   inline void RenderAndSetData(::UnityEngine::Vector3 cameraPos, ::UnityEngine::Matrix4x4 projectionMatrix, ::UnityEngine::Matrix4x4 viewMatrix, float_t stereoCameraEyeOffset,
                                ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams, ::UnityEngine::RenderTexture* dest, ByRef<::UnityEngine::Vector2> textureToScreenRatio,
                                ByRef<::GlobalNamespace::ToneMapping> toneMapping);
 
-  /// @brief Method SetDataToShaders addr 0x1faeb1c size 0xf4 virtual false final false
+  /// @brief Method SetDataToShaders, addr 0x2103c10, size 0xf4, virtual false, abstract: false, final false
   static inline void SetDataToShaders(float_t stereoCameraEyeOffset, ::UnityEngine::Vector2 textureToScreenRatio, ::UnityEngine::Texture* bloomFogTexture, ::GlobalNamespace::ToneMapping toneMapping);
 
-  /// @brief Method SetCustomStereoCameraEyeOffset addr 0x1fb2e9c size 0x6c virtual false final false
+  /// @brief Method SetCustomStereoCameraEyeOffset, addr 0x2108278, size 0x6c, virtual false, abstract: false, final false
   inline void SetCustomStereoCameraEyeOffset(float_t stereoCameraEyeOffset);
 
-  /// @brief Method CreateBloomPrePassRenderTextureIfNeeded addr 0x1fadebc size 0x2f0 virtual false final false
+  /// @brief Method CreateBloomPrePassRenderTextureIfNeeded, addr 0x2102ef8, size 0x2f0, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTexture* CreateBloomPrePassRenderTextureIfNeeded(::UnityEngine::RenderTexture* renderTexture, ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams);
 
-  /// @brief Method EnableBloomFog addr 0x1faeb00 size 0x1c virtual false final false
+  /// @brief Method EnableBloomFog, addr 0x2103bf4, size 0x1c, virtual false, abstract: false, final false
   inline void EnableBloomFog();
 
-  /// @brief Method DisableBloomFog addr 0x1faeca4 size 0x1c virtual false final false
+  /// @brief Method DisableBloomFog, addr 0x2103d98, size 0x1c, virtual false, abstract: false, final false
   inline void DisableBloomFog();
 
-  /// @brief Method UpdateBloomFogParams addr 0x1fb2f08 size 0x18 virtual false final false
+  /// @brief Method UpdateBloomFogParams, addr 0x21082e4, size 0x18, virtual false, abstract: false, final false
   inline void UpdateBloomFogParams();
 
-  /// @brief Method GetCameraParams addr 0x1fadd14 size 0x1a8 virtual false final false
+  /// @brief Method GetCameraParams, addr 0x2102d50, size 0x1a8, virtual false, abstract: false, final false
   inline void GetCameraParams(::UnityEngine::Camera* camera, ByRef<::UnityEngine::Matrix4x4> projectionMatrix, ByRef<::UnityEngine::Matrix4x4> viewMatrix, ByRef<float_t> stereoCameraEyeOffset);
 
-  /// @brief Method RenderAllLights addr 0x1fb2644 size 0x7c4 virtual false final false
+  /// @brief Method RenderAllLights, addr 0x2107a20, size 0x7c4, virtual false, abstract: false, final false
   inline void RenderAllLights(::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix, float_t linesWidth);
 
-  /// @brief Method PrepareLightsMeshRendering addr 0x1fb2148 size 0x4fc virtual false final false
+  /// @brief Method PrepareLightsMeshRendering, addr 0x2107524, size 0x4fc, virtual false, abstract: false, final false
   inline void PrepareLightsMeshRendering(::GlobalNamespace::BloomPrePassLightTypeSO* lightType, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData* data, int32_t numberOfLights);
 
-  /// @brief Method MatrixLerp addr 0x1fb2f20 size 0xb8 virtual false final false
+  /// @brief Method MatrixLerp, addr 0x21082fc, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 MatrixLerp(::UnityEngine::Matrix4x4 from, ::UnityEngine::Matrix4x4 to, float_t t);
 
   static inline ::GlobalNamespace::BloomPrePassRendererSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb2fd8 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x21083b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassRendererSO", modifiers: "&&", def_value: None }]

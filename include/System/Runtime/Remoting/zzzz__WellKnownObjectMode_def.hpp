@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::WellKnownObjectMode);
 namespace System::Runtime::Remoting {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3081))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3082))
 // CS Name: ::System.Runtime.Remoting::WellKnownObjectMode
 struct CORDL_TYPE WellKnownObjectMode {
 public:

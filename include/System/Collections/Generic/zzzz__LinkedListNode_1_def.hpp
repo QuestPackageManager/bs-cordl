@@ -19,8 +19,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8372))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9535))
 // CS Name: ::System.Collections.Generic::LinkedListNode`1<T>*
 class CORDL_TYPE LinkedListNode_1 : public ::System::Object {
 public:
@@ -71,30 +71,30 @@ public:
 
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* New_ctor(T value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* New_ctor(::System::Collections::Generic::LinkedList_1<T>* list, T value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::LinkedList_1<T>* list, T value);
 
-  /// @brief Method get_List addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_List, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedList_1<T>* get_List();
 
-  /// @brief Method get_Next addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Next, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* get_Next();
 
-  /// @brief Method get_Previous addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Previous, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* get_Previous();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
-  /// @brief Method set_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Value(T value);
 
-  /// @brief Method Invalidate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Invalidate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invalidate();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedListNode_1", modifiers: "&&", def_value: None }]

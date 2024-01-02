@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PS5SharedPackageSKUsSO)
 namespace GlobalNamespace {
-class PS5PublisherSKUSettingsSO;
+class __PS5SharedPackageSKUsSO__PS5BuildVersion;
 }
 namespace GlobalNamespace {
-class __PS5SharedPackageSKUsSO__PS5BuildVersion;
+class PS5PublisherSKUSettingsSO;
 }
 namespace GlobalNamespace {
 struct __PS5SharedPackageSKUsSO__BuildType;
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4656))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4566))
 // CS Name: ::PS5SharedPackageSKUsSO::BuildType
 struct CORDL_TYPE __PS5SharedPackageSKUsSO__BuildType {
 public:
@@ -87,8 +87,8 @@ static_assert(offsetof(::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType, v
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4567))
 // CS Name: ::PS5SharedPackageSKUsSO::PS5BuildVersion*
 class CORDL_TYPE __PS5SharedPackageSKUsSO__PS5BuildVersion : public ::System::Object {
 public:
@@ -115,15 +115,15 @@ public:
 
   constexpr void __set__contentVersion(::StringW value);
 
-  /// @brief Method get_masterVersion addr 0x222e450 size 0x8 virtual false final false
+  /// @brief Method get_masterVersion, addr 0x2368390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_masterVersion();
 
-  /// @brief Method get_contentVersion addr 0x222e458 size 0x8 virtual false final false
+  /// @brief Method get_contentVersion, addr 0x2368398, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_contentVersion();
 
   static inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e460 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23683a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PS5SharedPackageSKUsSO__PS5BuildVersion", modifiers: "&&", def_value: None }]
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVers
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4656)), TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4658))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4568))
 // CS Name: ::PS5SharedPackageSKUsSO*
 class CORDL_TYPE PS5SharedPackageSKUsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -226,27 +226,27 @@ public:
 
   constexpr void __set__latestBuildVersion(::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* value);
 
-  /// @brief Method get_availableSKUs addr 0x222e3fc size 0x8 virtual false final false
+  /// @brief Method get_availableSKUs, addr 0x236833c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::PS5PublisherSKUSettingsSO*, ::Array<::GlobalNamespace::PS5PublisherSKUSettingsSO*>*> get_availableSKUs();
 
-  /// @brief Method get_conceptId addr 0x222e404 size 0x8 virtual false final false
+  /// @brief Method get_conceptId, addr 0x2368344, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_conceptId();
 
-  /// @brief Method get_buildType addr 0x222e40c size 0x8 virtual false final false
+  /// @brief Method get_buildType, addr 0x236834c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__BuildType get_buildType();
 
-  /// @brief Method get_buildVersion addr 0x222e414 size 0x8 virtual false final false
+  /// @brief Method get_buildVersion, addr 0x2368354, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* get_buildVersion();
 
-  /// @brief Method get_latestBuildVersion addr 0x222e41c size 0x8 virtual false final false
+  /// @brief Method get_latestBuildVersion, addr 0x236835c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS5SharedPackageSKUsSO__PS5BuildVersion* get_latestBuildVersion();
 
-  /// @brief Method GetPrimarySKU addr 0x222e424 size 0x24 virtual false final false
+  /// @brief Method GetPrimarySKU, addr 0x2368364, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS5PublisherSKUSettingsSO* GetPrimarySKU();
 
   static inline ::GlobalNamespace::PS5SharedPackageSKUsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e448 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2368388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5SharedPackageSKUsSO", modifiers: "&&", def_value: None }]

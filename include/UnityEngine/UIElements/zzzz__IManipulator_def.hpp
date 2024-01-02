@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IManipulator);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6990))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6904))
 // CS Name: ::UnityEngine.UIElements::IManipulator*
 class CORDL_TYPE IManipulator {
 public:
   // Declarations
   __declspec(property(put = set_target))::UnityEngine::UIElements::VisualElement* target;
 
-  /// @brief Method set_target addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_target, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IManipulator", modifiers: "&&", def_value: None }]

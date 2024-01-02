@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DualMotorRumbleCommand)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6580))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6494))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DualMotorRumbleCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE DualMotorRumbleCommand {
@@ -65,13 +65,13 @@ public:
 
   constexpr void __set_highFrequencyMotorSpeed(float_t value);
 
-  /// @brief Method get_Type addr 0x2968aa8 size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae87f0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2968ad8 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae8820, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2967440 size 0x50 virtual false final false
+  /// @brief Method Create, addr 0x2ae7188, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand Create(float_t lowFrequency, float_t highFrequency);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "lowFrequencyMotorSpeed", ty:

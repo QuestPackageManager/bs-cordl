@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMac)
 namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Macs {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::HMac);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(943))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::HMac*
 class CORDL_TYPE HMac : public ::System::Object {
@@ -105,34 +105,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::HMac* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xe98a98 size 0x15c virtual false final false
+  /// @brief Method .ctor, addr 0xf0dc78, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName addr 0xe98bf4 size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xf0ddd4, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetUnderlyingDigest addr 0xe98cb4 size 0x8 virtual true final false
+  /// @brief Method GetUnderlyingDigest, addr 0xf0de94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* GetUnderlyingDigest();
 
-  /// @brief Method Init addr 0xe98cbc size 0x528 virtual true final false
+  /// @brief Method Init, addr 0xf0de9c, size 0x528, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMacSize addr 0xe99234 size 0x8 virtual true final false
+  /// @brief Method GetMacSize, addr 0xf0e414, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Update addr 0xe9923c size 0xac virtual true final false
+  /// @brief Method Update, addr 0xf0e41c, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xe992e8 size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate, addr 0xf0e4c8, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0xe993ac size 0x4a8 virtual true final false
+  /// @brief Method DoFinal, addr 0xf0e58c, size 0x4a8, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe99854 size 0x120 virtual true final false
+  /// @brief Method Reset, addr 0xf0ea34, size 0x120, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method XorPad addr 0xe991e4 size 0x50 virtual false final false
+  /// @brief Method XorPad, addr 0xf0e3c4, size 0x50, virtual false, abstract: false, final false
   static inline void XorPad(::ArrayW<uint8_t, ::Array<uint8_t>*> pad, int32_t len, uint8_t n);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMac", modifiers: "&&", def_value: None }]

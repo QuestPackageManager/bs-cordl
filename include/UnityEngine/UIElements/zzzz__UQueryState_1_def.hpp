@@ -18,17 +18,11 @@ class VisualElement;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace UnityEngine::UIElements {
-class __UQuery__SingleQueryMatcher;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
 namespace UnityEngine::UIElements {
 template <typename T, typename TElement> class __UQueryState_1__ListQueryMatcher_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -39,11 +33,17 @@ template <typename T> class __UQueryState_1__ActionQueryMatcher;
 namespace UnityEngine::UIElements {
 template <typename T> struct __UQueryState_1__Enumerator;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace UnityEngine::UIElements {
+class __UQuery__SingleQueryMatcher;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class Object;
@@ -75,8 +75,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7009))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6927))
 // CS Name: ::UQueryState`1::ListQueryMatcher`1<T,TElement>*
 class CORDL_TYPE __UQueryState_1__ListQueryMatcher_1 : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
@@ -92,21 +92,21 @@ public:
 
   constexpr void __set__matches_k__BackingField(::System::Collections::Generic::List_1<TElement>* value);
 
-  /// @brief Method get_matches addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_matches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TElement>* get_matches();
 
-  /// @brief Method set_matches addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_matches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_matches(::System::Collections::Generic::List_1<TElement>* value);
 
-  /// @brief Method OnRuleMatchedElement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnRuleMatchedElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, TElement>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQueryState_1__ListQueryMatcher_1", modifiers: "&&", def_value: None }]
@@ -136,8 +136,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7009))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7014))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6928))
 // CS Name: ::UQueryState`1::ActionQueryMatcher<T>*
 class CORDL_TYPE __UQueryState_1__ActionQueryMatcher : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
@@ -153,15 +153,15 @@ public:
 
   constexpr void __set__callBack_k__BackingField(::System::Action_1<T>* value);
 
-  /// @brief Method get_callBack addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_callBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<T>* get_callBack();
 
-  /// @brief Method OnRuleMatchedElement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnRuleMatchedElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool OnRuleMatchedElement(::UnityEngine::UIElements::RuleMatcher matcher, ::UnityEngine::UIElements::VisualElement* element);
 
   static inline ::UnityEngine::UIElements::__UQueryState_1__ActionQueryMatcher<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__UQueryState_1__ActionQueryMatcher", modifiers: "&&", def_value: None }]
@@ -192,7 +192,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6929))
 // CS Name: ::UQueryState`1::Enumerator<T>
 struct CORDL_TYPE __UQueryState_1__Enumerator {
 public:
@@ -210,22 +210,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::UQueryState_1<T> queryState);
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "iterationList", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name:
@@ -256,7 +256,7 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7016))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6930))
 // CS Name: ::UnityEngine.UIElements::UQueryState`1<T>
 struct CORDL_TYPE UQueryState_1 {
 public:
@@ -298,37 +298,37 @@ public:
 
   static inline ::UnityEngine::UIElements::__UQueryState_1__ListQueryMatcher_1<T, ::UnityEngine::UIElements::VisualElement*>* getStaticF_s_EnumerationList();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
-  /// @brief Method RebuildOn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RebuildOn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryState_1<T> RebuildOn(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Single addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Single, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Single(::UnityEngine::UIElements::__UQuery__SingleQueryMatcher* matcher);
 
-  /// @brief Method First addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method First, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T First();
 
-  /// @brief Method ToList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ToList(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__UQueryState_1__Enumerator<T> GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UQueryState_1<T> other);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_Matchers", ty:

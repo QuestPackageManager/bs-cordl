@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVertexModifier)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct UIVertex;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::IVertexModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13149))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13144))
 // CS Name: ::UnityEngine.UI::IVertexModifier*
 class CORDL_TYPE IVertexModifier {
 public:
   // Declarations
-  /// @brief Method ModifyVertices addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ModifyVertices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ModifyVertices(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVertexModifier", modifiers: "&&", def_value: None }]

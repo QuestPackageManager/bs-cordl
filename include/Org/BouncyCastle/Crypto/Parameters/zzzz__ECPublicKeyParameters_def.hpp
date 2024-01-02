@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPublicKeyParameters)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
 }
-namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -48,36 +48,36 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* q,
                                                                                          ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebea70 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0xf33c5c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xebeb6c size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xf33d58, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q,
                                                                                          ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebead0 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0xf33cbc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q,
                                                                                          ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xebec10 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0xf33dfc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::EC::ECPoint* q, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Q addr 0xebecac size 0x8 virtual false final false
+  /// @brief Method get_Q, addr 0xf33e98, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Q();
 
-  /// @brief Method Equals addr 0xebecb4 size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0xf33ea0, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xebed50 size 0x5c virtual false final false
+  /// @brief Method Equals, addr 0xf33f3c, size 0x5c, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xebedac size 0x40 virtual true final false
+  /// @brief Method GetHashCode, addr 0xf33f98, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPublicKeyParameters", modifiers: "&&", def_value: None }]

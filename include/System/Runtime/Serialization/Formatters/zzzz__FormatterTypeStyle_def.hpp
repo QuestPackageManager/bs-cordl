@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::FormatterTypeStyle);
 namespace System::Runtime::Serialization::Formatters {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3240))
 // CS Name: ::System.Runtime.Serialization.Formatters::FormatterTypeStyle
 struct CORDL_TYPE FormatterTypeStyle {
 public:

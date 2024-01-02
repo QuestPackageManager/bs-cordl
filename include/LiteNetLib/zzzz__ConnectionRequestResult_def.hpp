@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::ConnectionRequestResult);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14128))
 // CS Name: ::LiteNetLib::ConnectionRequestResult
 struct CORDL_TYPE ConnectionRequestResult {
 public:

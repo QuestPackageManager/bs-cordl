@@ -18,8 +18,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2694))
 // CS Name: ::System.Threading::SparselyPopulatedArrayFragment`1<T>*
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {
 public:
@@ -68,24 +68,24 @@ public:
 
   static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t size, ::System::Threading::SparselyPopulatedArrayFragment_1<T>* prev);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Prev addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Prev, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Prev();
 
-  /// @brief Method SafeAtomicRemove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SafeAtomicRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T SafeAtomicRemove(int32_t index, T expectedElement);
 
   // Ctor Parameters [CppParam { name: "", ty: "SparselyPopulatedArrayFragment_1", modifiers: "&&", def_value: None }]

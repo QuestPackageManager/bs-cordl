@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionCompletionResults);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4454))
 // CS Name: ::MissionCompletionResults*
 class CORDL_TYPE MissionCompletionResults : public ::System::Object {
 public:
@@ -48,14 +48,14 @@ public:
 
   constexpr void __set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method get_IsMissionComplete addr 0x22044dc size 0x68 virtual false final false
+  /// @brief Method get_IsMissionComplete, addr 0x2352510, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
   static inline ::GlobalNamespace::MissionCompletionResults*
   New_ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
            ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method .ctor addr 0x2204544 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2352578, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AddressablesRuntimeProperties)
+namespace System::Reflection {
+class Assembly;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System::Reflection {
-class Assembly;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::AddressablesRun
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14116))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::AddressablesRuntimeProperties*
 class CORDL_TYPE AddressablesRuntimeProperties : public ::System::Object {
 public:
@@ -63,25 +63,25 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_CachedValues();
 
-  /// @brief Method GetAssemblies addr 0x28b19a0 size 0x20 virtual false final false
+  /// @brief Method GetAssemblies, addr 0x2a2f6e8, size 0x20, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
 
-  /// @brief Method GetCachedValueCount addr 0x28b19c0 size 0x78 virtual false final false
+  /// @brief Method GetCachedValueCount, addr 0x2a2f708, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetCachedValueCount();
 
-  /// @brief Method SetPropertyValue addr 0x28b1a38 size 0x90 virtual false final false
+  /// @brief Method SetPropertyValue, addr 0x2a2f780, size 0x90, virtual false, abstract: false, final false
   static inline void SetPropertyValue(::StringW name, ::StringW val);
 
-  /// @brief Method ClearCachedPropertyValues addr 0x28b1ac8 size 0x78 virtual false final false
+  /// @brief Method ClearCachedPropertyValues, addr 0x2a2f810, size 0x78, virtual false, abstract: false, final false
   static inline void ClearCachedPropertyValues();
 
-  /// @brief Method EvaluateProperty addr 0x28b1b40 size 0x438 virtual false final false
+  /// @brief Method EvaluateProperty, addr 0x2a2f888, size 0x438, virtual false, abstract: false, final false
   static inline ::StringW EvaluateProperty(::StringW name);
 
-  /// @brief Method EvaluateString addr 0x289e50c size 0xac virtual false final false
+  /// @brief Method EvaluateString, addr 0x2a1c254, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW input);
 
-  /// @brief Method EvaluateString addr 0x28b1f78 size 0x58c virtual false final false
+  /// @brief Method EvaluateString, addr 0x2a2fcc0, size 0x58c, virtual false, abstract: false, final false
   static inline ::StringW EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter, ::System::Func_2<::StringW, ::StringW>* varFunc);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddressablesRuntimeProperties", modifiers: "&&", def_value: None }]

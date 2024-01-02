@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::PS4ApplicationCategory);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4554))
 // CS Name: ::PS4ApplicationCategory
 struct CORDL_TYPE PS4ApplicationCategory {
 public:

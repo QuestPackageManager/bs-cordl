@@ -6,17 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Set;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
 namespace Org::BouncyCastle::Cms {
 class __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
@@ -24,8 +15,17 @@ class RecipientInformationStore;
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(624))
 // CS Name: ::CmsAuthEnvelopedData::AuthEnvelopedSecureReadable*
 class CORDL_TYPE __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable : public ::System::Object {
@@ -77,16 +77,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method .ctor addr 0x116b260 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11dc4b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method get_Algorithm addr 0x116b288 size 0x1c virtual true final true
+  /// @brief Method get_Algorithm, addr 0x11dc4d8, size 0x1c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject addr 0x116b2a4 size 0x8 virtual true final true
+  /// @brief Method get_CryptoObject, addr 0x11dc4f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
-  /// @brief Method GetReadable addr 0x116b2ac size 0x4c virtual true final true
+  /// @brief Method GetReadable, addr 0x11dc4fc, size 0x4c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable", modifiers: "&&", def_value: None }]
@@ -118,7 +118,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnv
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(625))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthEnvelopedData*
 class CORDL_TYPE CmsAuthEnvelopedData : public ::System::Object {
@@ -191,17 +191,17 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
-  /// @brief Method .ctor addr 0x116b108 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x11dc358, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::System::IO::Stream* authEnvData);
 
-  /// @brief Method .ctor addr 0x116b23c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x11dc48c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authEnvData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor addr 0x116b12c size 0x110 virtual false final false
+  /// @brief Method .ctor, addr 0x11dc37c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthEnvelopedData", modifiers: "&&", def_value: None }]

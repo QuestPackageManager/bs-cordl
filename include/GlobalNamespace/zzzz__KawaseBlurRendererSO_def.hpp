@@ -12,34 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KawaseBlurRendererSO)
 namespace UnityEngine {
-class Texture2D;
-}
-namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__WeightsType;
+class Texture;
 }
 namespace GlobalNamespace {
 struct __KawaseBlurRendererSO__Pass;
 }
-namespace GlobalNamespace {
-struct __KawaseBlurRendererSO__KernelSize;
-}
-namespace GlobalNamespace {
-class __KawaseBlurRendererSO__BloomKernel;
+namespace UnityEngine {
+class RenderTexture;
 }
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
-class Shader;
+class Texture2D;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
 namespace UnityEngine {
-class Texture;
+class Shader;
+}
+namespace GlobalNamespace {
+struct __KawaseBlurRendererSO__KernelSize;
 }
 namespace UnityEngine {
-class RenderTexture;
+class Material;
+}
+namespace GlobalNamespace {
+struct __KawaseBlurRendererSO__WeightsType;
+}
+namespace GlobalNamespace {
+class __KawaseBlurRendererSO__BloomKernel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14503))
 // CS Name: ::KawaseBlurRendererSO::KernelSize
 struct CORDL_TYPE __KawaseBlurRendererSO__KernelSize {
 public:
@@ -142,7 +142,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize, va
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14504))
 // CS Name: ::KawaseBlurRendererSO::WeightsType
 struct CORDL_TYPE __KawaseBlurRendererSO__WeightsType {
 public:
@@ -195,8 +195,8 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__WeightsType, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14721))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14503)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14505))
 // CS Name: ::KawaseBlurRendererSO::BloomKernel*
 class CORDL_TYPE __KawaseBlurRendererSO__BloomKernel : public ::System::Object {
 public:
@@ -221,7 +221,7 @@ public:
 
   static inline ::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb744c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210c930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__KawaseBlurRendererSO__BloomKernel", modifiers: "&&", def_value: None }]
@@ -259,7 +259,7 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__BloomKernel, _
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14506))
 // CS Name: ::KawaseBlurRendererSO::Pass
 struct CORDL_TYPE __KawaseBlurRendererSO__Pass {
 public:
@@ -328,8 +328,8 @@ static_assert(offsetof(::GlobalNamespace::__KawaseBlurRendererSO__Pass, value__)
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14725))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14507))
 // CS Name: ::KawaseBlurRendererSO*
 class CORDL_TYPE KawaseBlurRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -497,43 +497,44 @@ public:
 
   static inline int32_t getStaticF__tempTexture1ID();
 
-  /// @brief Method GetBlurKernel addr 0x1fb6ea8 size 0x1fc virtual false final false
+  /// @brief Method GetBlurKernel, addr 0x210c38c, size 0x1fc, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetBlurKernel(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize);
 
-  /// @brief Method OnEnable addr 0x1fb70a4 size 0x3a8 virtual true final false
+  /// @brief Method OnEnable, addr 0x210c588, size 0x3a8, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fb7454 size 0x3c virtual false final false
+  /// @brief Method OnDisable, addr 0x210c938, size 0x3c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Bloom addr 0x1fb7490 size 0x48c virtual false final false
+  /// @brief Method Bloom, addr 0x210c974, size 0x48c, virtual false, abstract: false, final false
   inline void Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int32_t iterationsStart, int32_t iterations, float_t boost, float_t alphaWeights,
                     ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType, ::ArrayW<float_t, ::Array<float_t>*> bloomIterationWeights);
 
-  /// @brief Method DoubleBlur addr 0x1fb7dc4 size 0x264 virtual false final false
+  /// @brief Method DoubleBlur, addr 0x210d2a8, size 0x264, virtual false, abstract: false, final false
   inline void DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize0, float_t boost0,
                          ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha, int32_t downsample, bool gammaCorrection);
 
-  /// @brief Method Blur addr 0x1fb8028 size 0xbc virtual false final false
-  inline ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, int32_t downsample);
+  /// @brief Method Blur, addr 0x210d50c, size 0xbc, virtual false, abstract: false, final false
+  /// @param downsample: int32_t (default: static_cast<int32_t>(0x0))
+  inline ::UnityEngine::Texture2D* Blur(::UnityEngine::Texture* src, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, int32_t downsample = static_cast<int32_t>(0x0));
 
-  /// @brief Method Blur addr 0x1fb80e4 size 0x88 virtual false final false
+  /// @brief Method Blur, addr 0x210d5c8, size 0x88, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize, float_t boost, int32_t downsample);
 
-  /// @brief Method Blur addr 0x1fb791c size 0x4a8 virtual false final false
+  /// @brief Method Blur, addr 0x210ce00, size 0x4a8, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int32_t, ::Array<int32_t>*> kernel, float_t boost, int32_t downsample, int32_t startIdx, int32_t length,
                    float_t alphaWeights, float_t additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, ::GlobalNamespace::__KawaseBlurRendererSO__WeightsType blurStartWeightsType);
 
-  /// @brief Method AlphaWeights addr 0x1fb816c size 0xd0 virtual false final false
+  /// @brief Method AlphaWeights, addr 0x210d650, size 0xd0, virtual false, abstract: false, final false
   inline void AlphaWeights(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method CreateBlurCommandBuffer addr 0x1fb823c size 0x310 virtual false final false
+  /// @brief Method CreateBlurCommandBuffer, addr 0x210d720, size 0x310, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int32_t width, int32_t height, ::StringW globalTextureName, ::GlobalNamespace::__KawaseBlurRendererSO__KernelSize kernelSize,
                                                                           float_t boost);
 
   static inline ::GlobalNamespace::KawaseBlurRendererSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb854c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210da30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KawaseBlurRendererSO", modifiers: "&&", def_value: None }]

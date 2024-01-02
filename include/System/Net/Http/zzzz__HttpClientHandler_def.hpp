@@ -8,38 +8,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpClientHandler)
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Http {
-class __HttpClientHandler____c;
-}
 namespace System::Net::Http {
 class IMonoHttpClientHandler;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System {
-struct TimeSpan;
 }
 namespace System::Net::Http {
 struct ClientCertificateOption;
 }
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
 namespace System {
 class Object;
 }
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
+}
+namespace System::Net::Http {
+class __HttpClientHandler____c;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Net::Security {
 class LocalCertificateSelectionCallback;
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::System::Net::Http::__HttpClientHandler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14633))
 // CS Name: ::HttpClientHandler::<>c*
 class CORDL_TYPE __HttpClientHandler____c : public ::System::Object {
 public:
@@ -80,10 +80,10 @@ public:
 
   static inline ::System::Net::Http::__HttpClientHandler____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b20b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x282d0c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_1 addr 0x26b20c0 size 0x8 virtual false final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x282d0d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_1(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
@@ -112,8 +112,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClientH
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14858)), TypeDefinitionIndex(TypeDefinitionIndex(14867))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14851))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14650)), TypeDefinitionIndex(TypeDefinitionIndex(14641))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14634))
 // CS Name: ::System.Net.Http::HttpClientHandler*
 class CORDL_TYPE HttpClientHandler : public ::System::Net::Http::HttpMessageHandler {
 public:
@@ -142,42 +142,42 @@ public:
 
   constexpr void __set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
 
-  /// @brief Method CreateDefaultHandler addr 0x26b1640 size 0x58 virtual false final false
+  /// @brief Method CreateDefaultHandler, addr 0x282c650, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler();
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b1848 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x282c858, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method .ctor addr 0x26b1880 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x282c890, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method Dispose addr 0x26b1b38 size 0xb4 virtual true final false
+  /// @brief Method Dispose, addr 0x282cb48, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted addr 0x26b1bf0 size 0x104 virtual false final false
+  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x282cc00, size 0x104, virtual false, abstract: false, final false
   inline void ThrowForModifiedManagedSslOptionsIfStarted();
 
-  /// @brief Method get_ClientCertificateOptions addr 0x26b1cf4 size 0x8 virtual false final false
+  /// @brief Method get_ClientCertificateOptions, addr 0x282cd04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::ClientCertificateOption get_ClientCertificateOptions();
 
-  /// @brief Method set_ClientCertificateOptions addr 0x26b18b8 size 0x280 virtual false final false
+  /// @brief Method set_ClientCertificateOptions, addr 0x282c8c8, size 0x280, virtual false, abstract: false, final false
   inline void set_ClientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
 
-  /// @brief Method get_ClientCertificates addr 0x26b1cfc size 0x1dc virtual false final false
+  /// @brief Method get_ClientCertificates, addr 0x282cd0c, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method SetWebRequestTimeout addr 0x26b1ed8 size 0xac virtual false final false
+  /// @brief Method SetWebRequestTimeout, addr 0x282cee8, size 0xac, virtual false, abstract: false, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method SendAsync addr 0x26b1f84 size 0xbc virtual true final false
+  /// @brief Method SendAsync, addr 0x282cf94, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_0 addr 0x26b2040 size 0x14 virtual false final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x282d050, size 0x14, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_0(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);

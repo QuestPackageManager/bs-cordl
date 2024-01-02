@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialRestartController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5189))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5084))
 // CS Name: ::TutorialRestartController*
 class CORDL_TYPE TutorialRestartController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -38,12 +38,12 @@ public:
 
   constexpr void __set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
 
-  /// @brief Method RestartLevel addr 0x20e9508 size 0x20 virtual true final true
+  /// @brief Method RestartLevel, addr 0x23cb018, size 0x20, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   static inline ::GlobalNamespace::TutorialRestartController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e9528 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cb038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialRestartController", modifiers: "&&", def_value: None }]

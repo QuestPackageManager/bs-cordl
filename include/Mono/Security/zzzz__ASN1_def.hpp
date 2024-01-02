@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::ASN1);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2273))
 // CS Name: ::Mono.Security::ASN1*
 class CORDL_TYPE ASN1 : public ::System::Object {
 public:
@@ -38,13 +38,7 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  __declspec(property(get = get_Tag)) uint8_t Tag;
-
-  __declspec(property(get = get_Length)) int32_t Length;
-
-  __declspec(property(get = get_Value, put = set_Value))::ArrayW<uint8_t, ::Array<uint8_t>*> Value;
-
-  __declspec(property(get = get_Item))::Mono::Security::ASN1* Item[];
+  __declspec(property(get = get_Value))::ArrayW<uint8_t, ::Array<uint8_t>*> Value;
 
   constexpr uint8_t& __get_m_nTag();
 
@@ -66,59 +60,38 @@ public:
 
   static inline ::Mono::Security::ASN1* New_ctor(uint8_t tag);
 
-  /// @brief Method .ctor addr 0x229164c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x241d9bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag);
 
   static inline ::Mono::Security::ASN1* New_ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x2291678 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x241d9e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Mono::Security::ASN1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x22916a8 size 0x178 virtual false final false
+  /// @brief Method .ctor, addr 0x241da18, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Count addr 0x2291944 size 0x1c virtual false final false
+  /// @brief Method get_Count, addr 0x241dcb4, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Tag addr 0x2291960 size 0x8 virtual false final false
-  inline uint8_t get_Tag();
-
-  /// @brief Method get_Length addr 0x2291968 size 0x18 virtual false final false
-  inline int32_t get_Length();
-
-  /// @brief Method get_Value addr 0x2291980 size 0x90 virtual false final false
+  /// @brief Method get_Value, addr 0x241dcd0, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
-  /// @brief Method set_Value addr 0x2291a10 size 0xa8 virtual false final false
-  inline void set_Value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method CompareArray addr 0x2291ab8 size 0x74 virtual false final false
-  inline bool CompareArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array1, ::ArrayW<uint8_t, ::Array<uint8_t>*> array2);
-
-  /// @brief Method CompareValue addr 0x2291b2c size 0x10 virtual false final false
-  inline bool CompareValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
-
-  /// @brief Method Add addr 0x2291b3c size 0x8c virtual false final false
+  /// @brief Method Add, addr 0x241dd60, size 0x8c, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* Add(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method GetBytes addr 0x2291bc8 size 0x698 virtual true final false
+  /// @brief Method GetBytes, addr 0x241ddec, size 0x698, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  /// @brief Method Decode addr 0x2291820 size 0x124 virtual false final false
+  /// @brief Method Decode, addr 0x241db90, size 0x124, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ByRef<int32_t> anPos, int32_t anLength);
 
-  /// @brief Method DecodeTLV addr 0x2292260 size 0x124 virtual false final false
+  /// @brief Method DecodeTLV, addr 0x241e484, size 0x124, virtual false, abstract: false, final false
   inline void DecodeTLV(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ByRef<int32_t> pos, ByRef<uint8_t> tag, ByRef<int32_t> length, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> content);
 
-  /// @brief Method get_Item addr 0x2292384 size 0x130 virtual false final false
-  inline ::Mono::Security::ASN1* get_Item(int32_t index);
-
-  /// @brief Method Element addr 0x22924b4 size 0x154 virtual false final false
-  inline ::Mono::Security::ASN1* Element(int32_t index, uint8_t anTag);
-
-  /// @brief Method ToString addr 0x2292608 size 0x290 virtual true final false
+  /// @brief Method ToString, addr 0x241e5a8, size 0x290, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ASN1", modifiers: "&&", def_value: None }]

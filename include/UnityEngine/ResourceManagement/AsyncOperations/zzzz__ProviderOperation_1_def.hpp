@@ -11,59 +11,59 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProviderOperation_1)
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-class Exception;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IResourceProvider;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::ResourceManagement::Util {
-class IOperationCacheKey;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class IGenericProviderOperation;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-class ICachable;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class IResourceProvider;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4> class Action_4;
+}
+namespace System {
+class Exception;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement::Util {
+class IOperationCacheKey;
+}
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class IGenericProviderOperation;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -77,10 +77,10 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14304)), TypeDefinitionIndex(TypeDefinitionIndex(3823)), TypeDefinitionIndex(TypeDefinitionIndex(14303)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst: 279 }), TypeDefinitionIndex(TypeDefinitionIndex(14307)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14303), inst: 779 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 781 }), TypeDefinitionIndex(TypeDefinitionIndex(14305))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14311)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14032), inst: 790 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14040)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
 class CORDL_TYPE ProviderOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
@@ -243,76 +243,76 @@ public:
 
   constexpr void __set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.set_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
-  /// @brief Method get_ProvideHandleVersion addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ProvideHandleVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_ProvideHandleVersion();
 
-  /// @brief Method get_Location addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Location, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method SetDownloadProgressCallback addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetDownloadProgressCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* callback);
 
-  /// @brief Method SetWaitForCompletionCallback addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetWaitForCompletionCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetWaitForCompletionCallback(::System::Func_1<bool>* callback);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDownloadStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
-  /// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DebugName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetDependencies(::System::Collections::Generic::IList_1<::System::Object*>* dstList);
 
-  /// @brief Method get_RequestedType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_RequestedType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* get_RequestedType();
 
-  /// @brief Method get_DependencyCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_DependencyCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_DependencyCount();
 
-  /// @brief Method GetDependency addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetDependency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TDepObject> inline TDepObject GetDependency(int32_t index);
 
-  /// @brief Method SetProgressCallback addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetProgressCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetProgressCallback(::System::Func_1<float_t>* callback);
 
-  /// @brief Method ProviderCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ProviderCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void ProviderCompleted(T result, bool status, ::System::Exception* e);
 
-  /// @brief Method get_Progress addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Progress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider,
        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
            depOp);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider,
        ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
@@ -320,10 +320,10 @@ public:
            depOp,
        bool releaseDependenciesOnFailure);
 
-  /// @brief Method WaitForCompletionHandler addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WaitForCompletionHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method Destroy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Destroy();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderOperation_1", modifiers: "&&", def_value: None }]

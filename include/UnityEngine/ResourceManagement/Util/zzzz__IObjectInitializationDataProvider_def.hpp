@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IObjectInitializationDat
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14247))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13976))
 // CS Name: ::UnityEngine.ResourceManagement.Util::IObjectInitializationDataProvider*
 class CORDL_TYPE IObjectInitializationDataProvider {
 public:
   // Declarations
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method CreateObjectInitializationData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateObjectInitializationData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
 
   // Ctor Parameters [CppParam { name: "", ty: "IObjectInitializationDataProvider", modifiers: "&&", def_value: None }]

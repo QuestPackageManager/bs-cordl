@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IExperimentData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4217))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4186))
 // CS Name: ::IExperimentData*
 class CORDL_TYPE IExperimentData {
 public:
   // Declarations
   __declspec(property(get = get_experimentPlatformKey))::StringW experimentPlatformKey;
 
-  /// @brief Method get_experimentPlatformKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_experimentPlatformKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_experimentPlatformKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "IExperimentData", modifiers: "&&", def_value: None }]

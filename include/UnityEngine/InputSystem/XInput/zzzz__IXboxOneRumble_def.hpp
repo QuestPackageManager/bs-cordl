@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IXboxOneRumble)
 namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+class IHaptics;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6436))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6350))
 // CS Name: ::UnityEngine.InputSystem.XInput::IXboxOneRumble*
 class CORDL_TYPE IXboxOneRumble {
 public:
@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Method SetMotorSpeeds addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetMotorSpeeds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetMotorSpeeds(float_t lowFrequency, float_t highFrequency, float_t leftTrigger, float_t rightTrigger);
 
   // Ctor Parameters [CppParam { name: "", ty: "IXboxOneRumble", modifiers: "&&", def_value: None }]

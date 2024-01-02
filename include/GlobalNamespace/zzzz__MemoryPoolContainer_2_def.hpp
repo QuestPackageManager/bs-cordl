@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(MemoryPoolContainer_2)
 namespace Zenject {
 template <typename TValue> class IMemoryPool_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10536))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14374))
 // CS Name: ::MemoryPoolContainer`2<T0,T1>*
 class CORDL_TYPE MemoryPoolContainer_2 : public ::System::Object {
 public:
@@ -51,18 +51,18 @@ public:
 
   constexpr void __set__memoryPool(::Zenject::IMemoryPool_1<T0>* value);
 
-  /// @brief Method get_activeItems addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T1>* get_activeItems();
 
   static inline ::GlobalNamespace::MemoryPoolContainer_2<T0, T1>* New_ctor(::Zenject::IMemoryPool_1<T0>* memoryPool);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IMemoryPool_1<T0>* memoryPool);
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T0 Spawn();
 
-  /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Despawn(T0 item);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolContainer_2", modifiers: "&&", def_value: None }]

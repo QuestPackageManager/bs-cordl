@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IndexOutOfRangeException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::IndexOutOfRangeException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2420))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2422))
 // CS Name: ::System::IndexOutOfRangeException*
 class CORDL_TYPE IndexOutOfRangeException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::IndexOutOfRangeException* New_ctor();
 
-  /// @brief Method .ctor addr 0x244d024 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x25a8f14, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IndexOutOfRangeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x244d080 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x25a8f70, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::IndexOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x244d0a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25a8f94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexOutOfRangeException", modifiers: "&&", def_value: None }]

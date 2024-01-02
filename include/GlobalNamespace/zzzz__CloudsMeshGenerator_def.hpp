@@ -12,10 +12,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CloudsMeshGenerator)
 namespace GlobalNamespace {
-struct __CloudsMeshGenerator__RadiusChunk;
-}
-namespace UnityEngine {
-class Gradient;
+struct __CloudsMeshGenerator__ProhibitedRadius;
 }
 namespace UnityEngine {
 class Mesh;
@@ -23,17 +20,20 @@ class Mesh;
 namespace GlobalNamespace {
 struct __CloudsMeshGenerator__Ring;
 }
+namespace GlobalNamespace {
+struct __CloudsMeshGenerator__RadiusChunk;
+}
+namespace UnityEngine {
+class Gradient;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
 namespace UnityEngine {
 class MeshFilter;
 }
 namespace GlobalNamespace {
 struct __CloudsMeshGenerator__Cloud;
-}
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-struct __CloudsMeshGenerator__ProhibitedRadius;
 }
 namespace UnityEngine {
 class Transform;
@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__CloudsMeshGenerator__Ring);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3987))
 // CS Name: ::CloudsMeshGenerator::Cloud
 struct CORDL_TYPE __CloudsMeshGenerator__Cloud {
 public:
@@ -135,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Cloud, generate
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3974))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3988))
 // CS Name: ::CloudsMeshGenerator::Ring
 struct CORDL_TYPE __CloudsMeshGenerator__Ring {
 public:
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__Ring, sizeMulti
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3989))
 // CS Name: ::CloudsMeshGenerator::ProhibitedRadius
 struct CORDL_TYPE __CloudsMeshGenerator__ProhibitedRadius {
 public:
@@ -230,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__ProhibitedRadiu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3990))
 // CS Name: ::CloudsMeshGenerator::RadiusChunk
 struct CORDL_TYPE __CloudsMeshGenerator__RadiusChunk {
 public:
@@ -276,8 +276,8 @@ static_assert(offsetof(::GlobalNamespace::__CloudsMeshGenerator__RadiusChunk, ab
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3991))
 // CS Name: ::CloudsMeshGenerator*
 class CORDL_TYPE CloudsMeshGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -593,7 +593,7 @@ public:
 
   static inline ::GlobalNamespace::CloudsMeshGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x20bcd40 size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x221dd28, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CloudsMeshGenerator", modifiers: "&&", def_value: None }]

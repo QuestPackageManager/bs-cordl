@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Translate)
-namespace UnityEngine::UIElements {
-struct Length;
-}
 namespace System {
 class Object;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,8 +27,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Translate);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7388))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7302))
 // CS Name: ::UnityEngine.UIElements::Translate
 struct CORDL_TYPE Translate {
 public:
@@ -42,37 +42,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Translate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Translate>*();
 
-  /// @brief Method .ctor addr 0x2d08150 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2e71500, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method None addr 0x2d08114 size 0x1c virtual false final false
+  /// @brief Method None, addr 0x2e714c4, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate None();
 
-  /// @brief Method get_x addr 0x2d08160 size 0x8 virtual false final false
+  /// @brief Method get_x, addr 0x2e71510, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y addr 0x2d08168 size 0x8 virtual false final false
+  /// @brief Method get_y, addr 0x2e71518, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z addr 0x2d08170 size 0x8 virtual false final false
+  /// @brief Method get_z, addr 0x2e71520, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
-  /// @brief Method op_Equality addr 0x2d060ac size 0x7c virtual false final false
+  /// @brief Method op_Equality, addr 0x2e6f45c, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method op_Inequality addr 0x2d08178 size 0x78 virtual false final false
+  /// @brief Method op_Inequality, addr 0x2e71528, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Translate lhs, ::UnityEngine::UIElements::Translate rhs);
 
-  /// @brief Method Equals addr 0x2d081f0 size 0x7c virtual true final true
+  /// @brief Method Equals, addr 0x2e715a0, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Translate other);
 
-  /// @brief Method Equals addr 0x2d0826c size 0x90 virtual true final false
+  /// @brief Method Equals, addr 0x2e7161c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2d06258 size 0x74 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e6f608, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2d082fc size 0x1cc virtual true final false
+  /// @brief Method ToString, addr 0x2e716ac, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_X", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "m_Y", ty: "::UnityEngine::UIElements::Length", modifiers: "",

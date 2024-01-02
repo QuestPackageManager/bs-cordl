@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConstructionCall)
-namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RemotingProxy;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMethodCallMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Activation {
-class IActivator;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System::Runtime::Remoting::Proxies {
+class RemotingProxy;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Runtime::Remoting::Activation {
+class IActivator;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
+namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionCall);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3173))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3174))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3160))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionCall*
 class CORDL_TYPE ConstructionCall : public ::System::Runtime::Remoting::Messaging::MethodCall {
 public:
@@ -151,58 +151,58 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x233f144 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2497c38, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                    ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x23525a0 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x24ab094, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitDictionary addr 0x235263c size 0x84 virtual true final false
+  /// @brief Method InitDictionary, addr 0x24ab130, size 0x84, virtual true, abstract: false, final false
   inline void InitDictionary();
 
-  /// @brief Method get_IsContextOk addr 0x235276c size 0x8 virtual false final false
+  /// @brief Method get_IsContextOk, addr 0x24ab260, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContextOk();
 
-  /// @brief Method set_IsContextOk addr 0x2352774 size 0xc virtual false final false
+  /// @brief Method set_IsContextOk, addr 0x24ab268, size 0xc, virtual false, abstract: false, final false
   inline void set_IsContextOk(bool value);
 
-  /// @brief Method get_ActivationType addr 0x2352780 size 0xc8 virtual true final true
+  /// @brief Method get_ActivationType, addr 0x24ab274, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Type* get_ActivationType();
 
-  /// @brief Method get_ActivationTypeName addr 0x2352848 size 0x8 virtual true final true
+  /// @brief Method get_ActivationTypeName, addr 0x24ab33c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ActivationTypeName();
 
-  /// @brief Method get_Activator addr 0x2352850 size 0x8 virtual true final true
+  /// @brief Method get_Activator, addr 0x24ab344, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method set_Activator addr 0x2352858 size 0x8 virtual true final true
+  /// @brief Method set_Activator, addr 0x24ab34c, size 0x8, virtual true, abstract: false, final true
   inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method get_CallSiteActivationAttributes addr 0x2352860 size 0x8 virtual true final true
+  /// @brief Method get_CallSiteActivationAttributes, addr 0x24ab354, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_CallSiteActivationAttributes();
 
-  /// @brief Method SetActivationAttributes addr 0x2352868 size 0x8 virtual false final false
+  /// @brief Method SetActivationAttributes, addr 0x24ab35c, size 0x8, virtual false, abstract: false, final false
   inline void SetActivationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> attributes);
 
-  /// @brief Method get_ContextProperties addr 0x2352870 size 0x6c virtual true final true
+  /// @brief Method get_ContextProperties, addr 0x24ab364, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IList* get_ContextProperties();
 
-  /// @brief Method InitMethodProperty addr 0x23528dc size 0x2b0 virtual true final false
+  /// @brief Method InitMethodProperty, addr 0x24ab3d0, size 0x2b0, virtual true, abstract: false, final false
   inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method GetObjectData addr 0x2352fa8 size 0x198 virtual true final false
+  /// @brief Method GetObjectData, addr 0x24aba9c, size 0x198, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Properties addr 0x23535d0 size 0x30 virtual true final false
+  /// @brief Method get_Properties, addr 0x24ac0c4, size 0x30, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_SourceProxy addr 0x2353630 size 0x8 virtual false final false
+  /// @brief Method get_SourceProxy, addr 0x24ac124, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RemotingProxy* get_SourceProxy();
 
-  /// @brief Method set_SourceProxy addr 0x2353638 size 0x8 virtual false final false
+  /// @brief Method set_SourceProxy, addr 0x24ac12c, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionCall", modifiers: "&&", def_value: None }]

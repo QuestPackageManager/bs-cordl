@@ -45,27 +45,27 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList*
   New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*, ::Array<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>*> sigs);
 
-  /// @brief Method .ctor addr 0x1040110 size 0xb8 virtual false final false
+  /// @brief Method .ctor, addr 0x10b1360, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*, ::Array<::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature*>*> sigs);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignatureList* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* sig);
 
-  /// @brief Method .ctor addr 0x1040ecc size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x10b211c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* sig);
 
-  /// @brief Method get_Item addr 0x1040f74 size 0x30 virtual false final false
+  /// @brief Method get_Item, addr 0x10b21c4, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* get_Item(int32_t index);
 
-  /// @brief Method Get addr 0x1040fa4 size 0x4 virtual false final false
+  /// @brief Method Get, addr 0x10b21f4, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature* Get(int32_t index);
 
-  /// @brief Method get_Size addr 0x1040fa8 size 0x1c virtual false final false
+  /// @brief Method get_Size, addr 0x10b21f8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method get_Count addr 0x1040fc4 size 0x1c virtual false final false
+  /// @brief Method get_Count, addr 0x10b2214, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty addr 0x1040fe0 size 0x24 virtual false final false
+  /// @brief Method get_IsEmpty, addr 0x10b2230, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpOnePassSignatureList", modifiers: "&&", def_value: None }]

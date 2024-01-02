@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture3D);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14353), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(10003)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14353))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14357)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture3D*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 778 }), TypeDefinitionIndex(TypeDefinitionIndex(10075)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14082))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14086)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture3D*
 class CORDL_TYPE AssetReferenceTexture3D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture3D*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture3D* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x28a5e84 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23bcc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "&&", def_value: None }]

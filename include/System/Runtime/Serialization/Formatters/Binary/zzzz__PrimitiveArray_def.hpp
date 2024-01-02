@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimitiveArray)
-namespace System {
-class Array;
-}
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct InternalPrimitiveTypeE;
+}
+namespace System {
+class Array;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::PrimitiveAr
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3252)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3299))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::PrimitiveArray*
 class CORDL_TYPE PrimitiveArray : public ::System::Object {
 public:
@@ -142,13 +142,13 @@ public:
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method .ctor addr 0x2375188 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x24cdc8c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
-  /// @brief Method Init addr 0x237d6c4 size 0x320 virtual false final false
+  /// @brief Method Init, addr 0x24d61c8, size 0x320, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
-  /// @brief Method SetValue addr 0x2375a90 size 0x3bc virtual false final false
+  /// @brief Method SetValue, addr 0x24ce594, size 0x3bc, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrimitiveArray", modifiers: "&&", def_value: None }]

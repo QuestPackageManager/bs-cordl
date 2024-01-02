@@ -43,18 +43,18 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor addr 0xec5b1c size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0xf3bd08, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0xec5d9c size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0xf3bf88, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode addr 0xec5ccc size 0x84 virtual false final false
+  /// @brief Method Encode, addr 0xf3beb8, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded addr 0xec5ea4 size 0x5c virtual false final false
+  /// @brief Method GetEncoded, addr 0xf3c090, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "X25519PublicKeyParameters", modifiers: "&&", def_value: None }]

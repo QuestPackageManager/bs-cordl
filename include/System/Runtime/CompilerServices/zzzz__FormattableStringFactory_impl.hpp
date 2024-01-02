@@ -2,8 +2,8 @@
 #include "System/zzzz__FormattableString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__FormattableString_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString._ctor
@@ -12,9 +12,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(
     ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2381774;
+  constexpr static std::size_t addrs = 0x24db164;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), ".ctor",
                                     std::vector<Il2CppClass*>{},
@@ -29,9 +29,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23817a0;
+  constexpr static std::size_t addrs = 0x24db190;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -46,9 +46,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
         &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23817a8;
+  constexpr static std::size_t addrs = 0x24db198;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -62,9 +62,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23817b0;
+  constexpr static std::size_t addrs = 0x24db1a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -79,9 +79,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(int32_t)>(
         &::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArgument)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23817cc;
+  constexpr static std::size_t addrs = 0x24db1bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -95,9 +95,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::*)(
     ::System::IFormatProvider*)>(&::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23817fc;
+  constexpr static std::size_t addrs = 0x24db1ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -141,33 +141,33 @@ inline void System::Runtime::CompilerServices::__FormattableStringFactory__Concr
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, format, arguments);
 }
 inline ::StringW System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_Format() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
-                                  "get_Format", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArguments() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
-                                  "GetArguments", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method);
 }
 inline int32_t System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_ArgumentCount() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
-                                  "get_ArgumentCount", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::System::Object* System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::GetArgument(int32_t index) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
-                                  "GetArgument", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
 inline ::StringW System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::ToString(::System::IFormatProvider* formatProvider) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), "ToString",
-                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IFormatProvider*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, formatProvider);
 }
 // Ctor Parameters []
@@ -178,9 +178,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::FormattableString* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory::Create)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2381694;
+  constexpr static std::size_t addrs = 0x24db084;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FormattableStringFactory*>::get(), "Create", std::vector<Il2CppClass*>{},
                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),

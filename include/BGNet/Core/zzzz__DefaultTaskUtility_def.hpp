@@ -4,8 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTaskUtility)
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace System {
+struct TimeSpan;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -14,19 +17,16 @@ namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
-struct TimeSpan;
+class Action;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-class Action;
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace BGNet::Core {
 class ITaskUtility;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace BGNet::Core {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::BGNet::Core::DefaultTaskUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12930))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13000))
 // CS Name: ::BGNet.Core::DefaultTaskUtility*
 class CORDL_TYPE DefaultTaskUtility : public ::System::Object {
 public:
@@ -54,35 +54,39 @@ public:
 
   static inline ::BGNet::Core::DefaultTaskUtility* getStaticF_instance();
 
-  /// @brief Method Delay addr 0xdd8260 size 0x68 virtual true final true
-  inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method Delay, addr 0xe5df40, size 0x68, virtual true, abstract: false, final true
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::Task* Delay(::System::TimeSpan timeSpan, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method CancellationTokenWithDelay addr 0xdd82c8 size 0x68 virtual true final true
+  /// @brief Method CancellationTokenWithDelay, addr 0xe5dfa8, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::CancellationToken CancellationTokenWithDelay(::System::TimeSpan timeSpan);
 
-  /// @brief Method Wait addr 0xdd8330 size 0x18 virtual true final true
+  /// @brief Method Wait, addr 0xe5e010, size 0x18, virtual true, abstract: false, final true
   inline void Wait(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method Wait addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Wait, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T Wait(::System::Threading::Tasks::Task_1<T>* task);
 
-  /// @brief Method ContinueWith addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ContinueWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T1, typename T2>
   inline ::System::Threading::Tasks::Task_1<T2>* ContinueWith(::System::Threading::Tasks::Task_1<T1>* task,
                                                               ::System::Func_2<::System::Threading::Tasks::Task_1<T1>*, ::System::Threading::Tasks::Task_1<T2>*>* continuation);
 
-  /// @brief Method Run addr 0xdd8348 size 0x68 virtual true final true
-  inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method Run, addr 0xe5e028, size 0x68, virtual true, abstract: false, final true
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::Task* Run(::System::Action* action, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method Run addr 0xdd83b0 size 0x68 virtual true final true
-  inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* func, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method Run, addr 0xe5e090, size 0x68, virtual true, abstract: false, final true
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::Task* Run(::System::Func_1<::System::Threading::Tasks::Task*>* func, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method Run addr 0x0 size 0xffffffffffffffff virtual true final true
-  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* Run(::System::Func_1<T>* func, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  template <typename T> inline ::System::Threading::Tasks::Task_1<T>* Run(::System::Func_1<T>* func, ::System::Threading::CancellationToken cancellationToken = {});
 
   static inline ::BGNet::Core::DefaultTaskUtility* New_ctor();
 
-  /// @brief Method .ctor addr 0xdd8418 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe5e0f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultTaskUtility", modifiers: "&&", def_value: None }]

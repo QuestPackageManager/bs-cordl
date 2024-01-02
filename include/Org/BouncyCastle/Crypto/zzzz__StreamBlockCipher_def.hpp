@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IStreamCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IStreamCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::StreamBlockCipher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1355))
 // CS Name: ::Org.BouncyCastle.Crypto::StreamBlockCipher*
 class CORDL_TYPE StreamBlockCipher : public ::System::Object {
@@ -57,22 +57,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::StreamBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xf50e3c size 0x180 virtual false final false
+  /// @brief Method .ctor, addr 0xfc6088, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method Init addr 0xf50fbc size 0xbc virtual true final true
+  /// @brief Method Init, addr 0xfc6208, size 0xbc, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xf51078 size 0xa0 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xfc62c4, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method ReturnByte addr 0xf51118 size 0xec virtual true final true
+  /// @brief Method ReturnByte, addr 0xfc6364, size 0xec, virtual true, abstract: false, final true
   inline uint8_t ReturnByte(uint8_t input);
 
-  /// @brief Method ProcessBytes addr 0xf51204 size 0x164 virtual true final true
+  /// @brief Method ProcessBytes, addr 0xfc6450, size 0x164, virtual true, abstract: false, final true
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf51368 size 0xa4 virtual true final true
+  /// @brief Method Reset, addr 0xfc65b4, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "StreamBlockCipher", modifiers: "&&", def_value: None }]

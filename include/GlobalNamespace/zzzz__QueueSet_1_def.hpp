@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueueSet_1)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13882))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15822))
 // CS Name: ::QueueSet`1<T>*
 class CORDL_TYPE QueueSet_1 : public ::System::Object {
 public:
@@ -49,21 +49,21 @@ public:
 
   constexpr void __set__set(::System::Collections::Generic::HashSet_1<T>* value);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Enqueue(T item);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::GlobalNamespace::QueueSet_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "QueueSet_1", modifiers: "&&", def_value: None }]

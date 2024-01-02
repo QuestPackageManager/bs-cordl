@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::ICollection_1<T>"
 template <typename T> constexpr System::Collections::Generic::IList_1<T>::operator ::System::Collections::Generic::ICollection_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::ICollection_1<T>*>(static_cast<void*>(this));

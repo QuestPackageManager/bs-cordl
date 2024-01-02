@@ -7,19 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewGameObjectMethod_3)
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TParam1, typename TParam2, typename TParam3> class __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace Zenject {
-class GameObjectCreationParameters;
-}
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3> class __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -28,10 +25,13 @@ namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class InjectTypeInfo;
+class GameObjectCreationParameters;
 }
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -49,8 +49,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11191))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11263))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`3::<>c__DisplayClass2_0<TParam1,TParam2,TParam3>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -75,16 +75,16 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0<TParam1, TParam2, TParam3>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddInstallers>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddInstallers>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewGameObjectMethod_3____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11183))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11192))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11264))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`3<TParam1,TParam2,TParam3>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_3 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
 public:
@@ -137,11 +137,11 @@ public:
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod_3<TParam1, TParam2, TParam3>*
   New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                     ::System::Action_4<::Zenject::DiContainer*, TParam1, TParam2, TParam3>* installerMethod);
 
-  /// @brief Method AddInstallers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddInstallers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectMethod_3", modifiers: "&&", def_value: None }]

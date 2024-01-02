@@ -16,12 +16,12 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12901))
 // CS Name: ::NetworkStatisticsDelta
 struct CORDL_TYPE NetworkStatisticsDelta {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xdc80bc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe4d09c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSentDelta, int64_t packetsReceivedDelta, int64_t bytesSentDelta, int64_t bytesReceivedDelta, int64_t packetsLostDelta, int64_t packetsSentEncryptedDelta,
                     int64_t packetsSentPlaintextDelta, int64_t packetsSentRejectedDelta, int64_t packetsReceivedEncryptedDelta, int64_t packetsReceivedPlaintextDelta,
                     int64_t packetsReceivedRejectedDelta, int64_t encryptionProcessingTimeDelta, int64_t decryptionProcessingTimeDelta);

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskCompletionSource_1)
+namespace System {
+class Exception;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
 class Object;
 }
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-class Exception;
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -31,8 +31,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2757))
 // CS Name: ::System.Threading.Tasks::TaskCompletionSource`1<TResult>*
 class CORDL_TYPE TaskCompletionSource_1 : public ::System::Object {
 public:
@@ -50,46 +50,46 @@ public:
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor(::System::Object* state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* state);
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* get_Task();
 
-  /// @brief Method SpinUntilCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SpinUntilCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SpinUntilCompleted();
 
-  /// @brief Method TrySetException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetException(::System::Exception* exception);
 
-  /// @brief Method TrySetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetResult(TResult result);
 
-  /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetResult(TResult result);
 
-  /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCanceled();
 
-  /// @brief Method TrySetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySetCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySetCanceled(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetCanceled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetCanceled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetCanceled();
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskCompletionSource_1", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::PoseDataFlags);
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16024))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16191))
 // CS Name: ::UnityEngine.SpatialTracking::PoseDataFlags
 struct CORDL_TYPE PoseDataFlags {
 public:

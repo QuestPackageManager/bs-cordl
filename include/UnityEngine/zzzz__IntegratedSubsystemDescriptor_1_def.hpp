@@ -19,21 +19,21 @@ namespace UnityEngine {
 // cpp template
 template <typename TSubsystem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15851))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15852))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15959))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15960))
 // CS Name: ::UnityEngine::IntegratedSubsystemDescriptor`1<TSubsystem>*
 class CORDL_TYPE IntegratedSubsystemDescriptor_1 : public ::UnityEngine::IntegratedSubsystemDescriptor {
 public:
   // Declarations
-  /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TSubsystem Create();
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor_1<TSubsystem>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystemDescriptor_1", modifiers: "&&", def_value: None }]

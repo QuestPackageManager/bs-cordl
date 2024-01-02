@@ -22,8 +22,8 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14253))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13982))
 // CS Name: ::UnityEngine.ResourceManagement.Util::GlobalLinkedListNodeCache`1<T>*
 class CORDL_TYPE GlobalLinkedListNodeCache_1 : public ::System::Object {
 public:
@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* getStaticF_m_globalCache();
 
-  /// @brief Method Acquire addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalLinkedListNodeCache_1", modifiers: "&&", def_value: None }]

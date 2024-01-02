@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InvitePanelResultInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13485))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
 // CS Name: ::Oculus.Platform.Models::InvitePanelResultInfo*
 class CORDL_TYPE InvitePanelResultInfo : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b39dc size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2706388, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvitePanelResultInfo", modifiers: "&&", def_value: None }]

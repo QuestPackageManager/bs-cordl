@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Permissions::SecurityAction);
 namespace System::Security::Permissions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2901))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2905))
 // CS Name: ::System.Security.Permissions::SecurityAction
 struct CORDL_TYPE SecurityAction {
 public:

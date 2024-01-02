@@ -5,17 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalCallbackWrapper)
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace Zenject {
-class SignalBindingBindInfo;
-}
-namespace Zenject {
-class InjectTypeInfo;
+class SignalBus;
 }
 namespace System {
 class IDisposable;
@@ -24,7 +15,16 @@ namespace System {
 class Object;
 }
 namespace Zenject {
-class SignalBus;
+class SignalBindingBindInfo;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::Zenject::SignalCallbackWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10577))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10649))
 // CS Name: ::Zenject::SignalCallbackWrapper*
 class CORDL_TYPE SignalCallbackWrapper : public ::System::Object {
 public:
@@ -83,19 +83,19 @@ public:
 
   static inline ::Zenject::SignalCallbackWrapper* New_ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
-  /// @brief Method .ctor addr 0x2d59ea8 size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec1c28, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
-  /// @brief Method OnSignalFired addr 0x2d59f70 size 0x24 virtual false final false
+  /// @brief Method OnSignalFired, addr 0x2ec1cf0, size 0x24, virtual false, abstract: false, final false
   inline void OnSignalFired(::System::Object* signal);
 
-  /// @brief Method Dispose addr 0x2d59f94 size 0xa0 virtual true final true
+  /// @brief Method Dispose, addr 0x2ec1d14, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method __zenCreate addr 0x2d5a034 size 0x178 virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ec1db4, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d5a1ac size 0x394 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec1f2c, size 0x394, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalCallbackWrapper", modifiers: "&&", def_value: None }]

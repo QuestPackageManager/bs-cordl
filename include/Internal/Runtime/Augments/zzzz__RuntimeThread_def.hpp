@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeThread);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2308))
 // CS Name: ::Internal.Runtime.Augments::RuntimeThread*
 class CORDL_TYPE RuntimeThread : public ::System::Object {
@@ -50,28 +50,28 @@ public:
 
   static inline ::Internal::Runtime::Augments::RuntimeThread* New_ctor(::System::Threading::Thread* t);
 
-  /// @brief Method .ctor addr 0x22d2cb4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x242c728, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Thread* t);
 
-  /// @brief Method Create addr 0x22d2cdc size 0xa4 virtual false final false
+  /// @brief Method Create, addr 0x242c750, size 0xa4, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::RuntimeThread* Create(::System::Threading::ParameterizedThreadStart* start, int32_t maxStackSize);
 
-  /// @brief Method set_IsBackground addr 0x22d2d80 size 0x20 virtual false final false
+  /// @brief Method set_IsBackground, addr 0x242c7f4, size 0x20, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
-  /// @brief Method Start addr 0x22d2da0 size 0x1c virtual false final false
+  /// @brief Method Start, addr 0x242c814, size 0x1c, virtual false, abstract: false, final false
   inline void Start(::System::Object* state);
 
-  /// @brief Method Sleep addr 0x22d2dbc size 0x8 virtual false final false
+  /// @brief Method Sleep, addr 0x242c830, size 0x8, virtual false, abstract: false, final false
   static inline void Sleep(int32_t millisecondsTimeout);
 
-  /// @brief Method Yield addr 0x22d2dc4 size 0x8 virtual false final false
+  /// @brief Method Yield, addr 0x242c838, size 0x8, virtual false, abstract: false, final false
   static inline bool Yield();
 
-  /// @brief Method SpinWait addr 0x22d2dcc size 0x18 virtual false final false
+  /// @brief Method SpinWait, addr 0x242c840, size 0x18, virtual false, abstract: false, final false
   static inline bool SpinWait(int32_t iterations);
 
-  /// @brief Method GetCurrentProcessorId addr 0x22d2de4 size 0x8 virtual false final false
+  /// @brief Method GetCurrentProcessorId, addr 0x242c858, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessorId();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeThread", modifiers: "&&", def_value: None }]

@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelPackCollection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4375))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4352))
 // CS Name: ::IBeatmapLevelPackCollection*
 class CORDL_TYPE IBeatmapLevelPackCollection {
 public:
   // Declarations
   __declspec(property(get = get_beatmapLevelPacks))::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> beatmapLevelPacks;
 
-  /// @brief Method get_beatmapLevelPacks addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> get_beatmapLevelPacks();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelPackCollection", modifiers: "&&", def_value: None }]

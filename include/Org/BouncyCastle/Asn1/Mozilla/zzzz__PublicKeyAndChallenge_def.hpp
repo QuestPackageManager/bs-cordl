@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PublicKeyAndChallenge)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerIA5String;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Mozilla {
@@ -66,21 +66,21 @@ public:
 
   constexpr void __set_challenge(::Org::BouncyCastle::Asn1::DerIA5String* value);
 
-  /// @brief Method GetInstance addr 0xf0730c size 0x190 virtual false final false
+  /// @brief Method GetInstance, addr 0xf7d530, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Mozilla::PublicKeyAndChallenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0749c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xf7d6c0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object addr 0xf07508 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf7d72c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_SubjectPublicKeyInfo addr 0xf07510 size 0x8 virtual false final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0xf7d734, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_Challenge addr 0xf07518 size 0x8 virtual false final false
+  /// @brief Method get_Challenge, addr 0xf7d73c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_Challenge();
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyAndChallenge", modifiers: "&&", def_value: None }]

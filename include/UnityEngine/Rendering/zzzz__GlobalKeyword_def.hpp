@@ -17,12 +17,12 @@ MARK_VAL_T(::UnityEngine::Rendering::GlobalKeyword);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10292))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10370))
 // CS Name: ::UnityEngine.Rendering::GlobalKeyword
 struct CORDL_TYPE GlobalKeyword {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x2b87dbc size 0x8 virtual true final false
+  /// @brief Method ToString, addr 0x2cef1f0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "uint32_t", modifiers: "", def_value: None }]

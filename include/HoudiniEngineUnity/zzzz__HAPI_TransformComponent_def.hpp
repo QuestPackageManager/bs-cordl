@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformComponent);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9640))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9713))
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformComponent
 struct CORDL_TYPE HAPI_TransformComponent {
 public:

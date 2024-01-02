@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Billboard)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 struct __Billboard__RotationMode;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::Billboard);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14352))
 // CS Name: ::Billboard::RotationMode
 struct CORDL_TYPE __Billboard__RotationMode {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::GlobalNamespace::__Billboard__RotationMode, value__) ==
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13840)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13841))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14352))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14353))
 // CS Name: ::Billboard*
 class CORDL_TYPE Billboard : public ::UnityEngine::MonoBehaviour {
 public:
@@ -120,15 +120,15 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Awake addr 0x1f93fa0 size 0x1c virtual false final false
+  /// @brief Method Awake, addr 0x20f1110, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnWillRenderObject addr 0x1f93fbc size 0xd0 virtual false final false
+  /// @brief Method OnWillRenderObject, addr 0x20f112c, size 0xd0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9408c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f11fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Billboard", modifiers: "&&", def_value: None }]

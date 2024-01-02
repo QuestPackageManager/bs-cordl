@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionHAPI);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9708))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9712))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9781))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9785))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionHAPI*
 class CORDL_TYPE HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_SessionHAPI* New_ctor();
 
-  /// @brief Method .ctor addr 0x204c0d8 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x21a2a74, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionHAPI", modifiers: "&&", def_value: None }]

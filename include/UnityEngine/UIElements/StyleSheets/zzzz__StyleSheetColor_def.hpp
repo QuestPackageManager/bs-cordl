@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetColor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7474))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetColor*
 class CORDL_TYPE StyleSheetColor : public ::System::Object {
 public:
@@ -39,10 +39,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::Color32>* getStaticF_s_NameToColor();
 
-  /// @brief Method TryGetColor addr 0x2c81198 size 0xf4 virtual false final false
+  /// @brief Method TryGetColor, addr 0x2de7548, size 0xf4, virtual false, abstract: false, final false
   static inline bool TryGetColor(::StringW name, ByRef<::UnityEngine::Color> color);
 
-  /// @brief Method HexToColor32 addr 0x2c840a0 size 0x14 virtual false final false
+  /// @brief Method HexToColor32, addr 0x2dea450, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 HexToColor32(uint32_t color);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetColor", modifiers: "&&", def_value: None }]

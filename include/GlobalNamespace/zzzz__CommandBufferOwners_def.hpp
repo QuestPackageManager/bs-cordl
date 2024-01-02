@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferOwners);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15308))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15279))
 // CS Name: ::CommandBufferOwners*
 class CORDL_TYPE CommandBufferOwners : public ::System::Object {
 public:
@@ -50,21 +50,21 @@ public:
 
   constexpr void __set_commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  /// @brief Method AddOwner addr 0x268c760 size 0xa0 virtual false final false
+  /// @brief Method AddOwner, addr 0x28073e8, size 0xa0, virtual false, abstract: false, final false
   inline void AddOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method RemoveOwner addr 0x268c4ac size 0x60 virtual false final false
+  /// @brief Method RemoveOwner, addr 0x2807134, size 0x60, virtual false, abstract: false, final false
   inline void RemoveOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method ContainsOwner addr 0x268c708 size 0x58 virtual false final false
+  /// @brief Method ContainsOwner, addr 0x2807390, size 0x58, virtual false, abstract: false, final false
   inline bool ContainsOwner(::UnityEngine::Object* owner);
 
-  /// @brief Method get_NumberOfOwners addr 0x268c50c size 0x48 virtual false final false
+  /// @brief Method get_NumberOfOwners, addr 0x2807194, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_NumberOfOwners();
 
   static inline ::GlobalNamespace::CommandBufferOwners* New_ctor();
 
-  /// @brief Method .ctor addr 0x268c800 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2807488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferOwners", modifiers: "&&", def_value: None }]

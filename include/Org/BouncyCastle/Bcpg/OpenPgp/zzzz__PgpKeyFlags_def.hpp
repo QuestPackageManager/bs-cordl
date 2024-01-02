@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1645))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpKeyFlags*
 class CORDL_TYPE PgpKeyFlags : public ::System::Object {
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyFlags* New_ctor();
 
-  /// @brief Method .ctor addr 0x103c5b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10ad804, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpKeyFlags", modifiers: "&&", def_value: None }]

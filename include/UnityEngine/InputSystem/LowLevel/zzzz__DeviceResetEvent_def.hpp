@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(DeviceResetEvent)
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEvent;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceResetEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6616))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6524))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceResetEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE DeviceResetEvent {
@@ -56,11 +56,13 @@ public:
 
   constexpr void __set_hardReset(bool value);
 
-  /// @brief Method get_typeStatic addr 0x2969f28 size 0x20 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae9c70, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2969f48 size 0xbc virtual false final false
-  static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
+  /// @brief Method Create, addr 0x2ae9c90, size 0xbc, virtual false, abstract: false, final false
+  /// @param hardReset: bool (default: false)
+  /// @param time: double_t (default: -1.0)
+  static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset = false, double_t time = -1.0);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "hardReset", ty: "bool", modifiers: "",
   // def_value: None }]

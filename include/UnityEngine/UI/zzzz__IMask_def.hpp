@@ -17,17 +17,17 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMask);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13061))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13056))
 // CS Name: ::UnityEngine.UI::IMask*
 class CORDL_TYPE IMask {
 public:
   // Declarations
   __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
 
-  /// @brief Method Enabled addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Enabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Enabled();
 
-  /// @brief Method get_rectTransform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMask", modifiers: "&&", def_value: None }]

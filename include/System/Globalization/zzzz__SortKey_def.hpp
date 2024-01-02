@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortKey)
-namespace System {
-class Object;
-}
 namespace System::Globalization {
 struct CompareOptions;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Globalization {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Globalization::SortKey);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3647))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3710))
 // CS Name: ::System.Globalization::SortKey*
 class CORDL_TYPE SortKey : public ::System::Object {
 public:
@@ -70,45 +70,45 @@ public:
 
   constexpr void __set_lcid(int32_t value);
 
-  /// @brief Method Compare addr 0x240f238 size 0x174 virtual false final false
+  /// @brief Method Compare, addr 0x256b2d0, size 0x174, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::Globalization::SortKey* sortkey1, ::System::Globalization::SortKey* sortkey2);
 
   static inline ::System::Globalization::SortKey* New_ctor(int32_t lcid, ::StringW source, ::System::Globalization::CompareOptions opt);
 
-  /// @brief Method .ctor addr 0x240f3ac size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0x256b444, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::System::Globalization::CompareOptions opt);
 
   static inline ::System::Globalization::SortKey* New_ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::System::Globalization::CompareOptions opt, int32_t lv1Length,
                                                            int32_t lv2Length, int32_t lv3Length, int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength,
                                                            int32_t identLength);
 
-  /// @brief Method .ctor addr 0x240f480 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x256b518, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t lcid, ::StringW source, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::System::Globalization::CompareOptions opt, int32_t lv1Length, int32_t lv2Length, int32_t lv3Length,
                     int32_t kanaSmallLength, int32_t markTypeLength, int32_t katakanaLength, int32_t kanaWidthLength, int32_t identLength);
 
   static inline ::System::Globalization::SortKey* New_ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method .ctor addr 0x240f4c0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x256b558, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW localeName, ::StringW str, ::System::Globalization::CompareOptions options, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
-  /// @brief Method get_OriginalString addr 0x240f508 size 0x8 virtual true final false
+  /// @brief Method get_OriginalString, addr 0x256b5a0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_OriginalString();
 
-  /// @brief Method get_KeyData addr 0x240f510 size 0x8 virtual true final false
+  /// @brief Method get_KeyData, addr 0x256b5a8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyData();
 
-  /// @brief Method Equals addr 0x240f518 size 0xb0 virtual true final false
+  /// @brief Method Equals, addr 0x256b5b0, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x240f5c8 size 0x68 virtual true final false
+  /// @brief Method GetHashCode, addr 0x256b660, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x240f630 size 0x1f0 virtual true final false
+  /// @brief Method ToString, addr 0x256b6c8, size 0x1f0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::System::Globalization::SortKey* New_ctor();
 
-  /// @brief Method .ctor addr 0x240f820 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x256b8b8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SortKey", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StyleSheetExtensions)
 namespace UnityEngine::UIElements {
-class StyleSheet;
+struct StyleValueHandle;
 }
 namespace UnityEngine::UIElements {
-struct StyleValueHandle;
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -21,16 +21,16 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7461))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetExtensions*
 class CORDL_TYPE StyleSheetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadAsString addr 0x2c7f668 size 0x2dc virtual false final false
+  /// @brief Method ReadAsString, addr 0x2de5a18, size 0x2dc, virtual false, abstract: false, final false
   static inline ::StringW ReadAsString(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method IsVarFunction addr 0x2c7fbd8 size 0x34 virtual false final false
+  /// @brief Method IsVarFunction, addr 0x2de5f88, size 0x34, virtual false, abstract: false, final false
   static inline bool IsVarFunction(::UnityEngine::UIElements::StyleValueHandle handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleSheetExtensions", modifiers: "&&", def_value: None }]

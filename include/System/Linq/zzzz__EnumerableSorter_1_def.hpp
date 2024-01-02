@@ -18,27 +18,27 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14631))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14293))
 // CS Name: ::System.Linq::EnumerableSorter`1<TElement>*
 class CORDL_TYPE EnumerableSorter_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
 
-  /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareKeys(int32_t index1, int32_t index2);
 
-  /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> Sort(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
 
-  /// @brief Method QuickSort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method QuickSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void QuickSort(::ArrayW<int32_t, ::Array<int32_t>*> map, int32_t left, int32_t right);
 
   static inline ::System::Linq::EnumerableSorter_1<TElement>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableSorter_1", modifiers: "&&", def_value: None }]

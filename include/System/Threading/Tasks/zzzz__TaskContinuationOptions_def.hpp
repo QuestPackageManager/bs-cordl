@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::TaskContinuationOptions);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2792))
 // CS Name: ::System.Threading.Tasks::TaskContinuationOptions
 struct CORDL_TYPE TaskContinuationOptions {
 public:

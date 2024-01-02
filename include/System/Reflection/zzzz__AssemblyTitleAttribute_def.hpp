@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyTitleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3456))
 // CS Name: ::System.Reflection::AssemblyTitleAttribute*
 class CORDL_TYPE AssemblyTitleAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyTitleAttribute* New_ctor(::StringW title);
 
-  /// @brief Method .ctor addr 0x238c5a8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24e6060, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyTitleAttribute", modifiers: "&&", def_value: None }]

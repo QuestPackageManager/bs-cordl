@@ -28,15 +28,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12731))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
 // CS Name: ::IServerBeatmapProvider*
 class CORDL_TYPE IServerBeatmapProvider {
 public:
   // Declarations
-  /// @brief Method VerifyBeatmapForSelectionMask addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method VerifyBeatmapForSelectionMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifyBeatmapForSelectionMask(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmapId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask);
 
-  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapIdentifierNetSerializable* SelectBeatmapFromSuggestionsWithSelectionMaskAndOwnedSongPacks(
       int32_t playerCount, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* beatmapsSuggestedByPlayers,
       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* playerOwnedSongPacks);

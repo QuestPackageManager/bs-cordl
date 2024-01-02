@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::Zenject::Installer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11065))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11058))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11130))
 // CS Name: ::Zenject::Installer*
 class CORDL_TYPE Installer : public ::Zenject::InstallerBase {
 public:
   // Declarations
   static inline ::Zenject::Installer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8cc78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ef4a34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8cc88 size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef4a44, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Installer", modifiers: "&&", def_value: None }]

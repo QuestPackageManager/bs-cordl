@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioReferenceCountingCache);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6003), inst: 3734 }), TypeDefinitionIndex(TypeDefinitionIndex(2769)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6003)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 280 }), TypeDefinitionIndex(TypeDefinitionIndex(15614))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5979)) CS Name: ::AudioReferenceCountingCache*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(5912)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5912), inst: 3826 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 276 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5889)) CS Name: ::AudioReferenceCountingCache*
 class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b3650 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x22fbc9c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioReferenceCountingCache", modifiers: "&&", def_value: None }]

@@ -7,28 +7,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListWithEvents_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14218))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13947))
 // CS Name: ::ListWithEvents`1<T>*
 class CORDL_TYPE ListWithEvents_1 : public ::System::Object {
 public:
@@ -93,69 +93,69 @@ public:
 
   constexpr void __set_OnElementRemoved(::System::Action_1<T>* value);
 
-  /// @brief Method add_OnElementAdded addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_OnElementAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_OnElementAdded(::System::Action_1<T>* value);
 
-  /// @brief Method remove_OnElementAdded addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_OnElementAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_OnElementAdded(::System::Action_1<T>* value);
 
-  /// @brief Method add_OnElementRemoved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_OnElementRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_OnElementRemoved(::System::Action_1<T>* value);
 
-  /// @brief Method remove_OnElementRemoved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_OnElementRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_OnElementRemoved(::System::Action_1<T>* value);
 
-  /// @brief Method InvokeAdded addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeAdded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeAdded(T element);
 
-  /// @brief Method InvokeRemoved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeRemoved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeRemoved(T element);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, T value);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T item);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t IndexOf(T item);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Insert(int32_t index, T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   static inline ::GlobalNamespace::ListWithEvents_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListWithEvents_1", modifiers: "&&", def_value: None }]

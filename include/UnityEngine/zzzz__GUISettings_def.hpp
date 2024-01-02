@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::GUISettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14834))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14617))
 // CS Name: ::UnityEngine::GUISettings*
 class CORDL_TYPE GUISettings : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::UnityEngine::GUISettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ba01cc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2d085dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GUISettings", modifiers: "&&", def_value: None }]

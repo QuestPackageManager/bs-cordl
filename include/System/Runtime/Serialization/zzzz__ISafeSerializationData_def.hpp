@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISafeSerializationData);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3226))
 // CS Name: ::System.Runtime.Serialization::ISafeSerializationData*
 class CORDL_TYPE ISafeSerializationData {
 public:
   // Declarations
-  /// @brief Method CompleteDeserialization addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompleteDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CompleteDeserialization(::System::Object* deserialized);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISafeSerializationData", modifiers: "&&", def_value: None }]

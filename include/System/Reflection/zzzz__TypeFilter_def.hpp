@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeFilter)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::System::Reflection::TypeFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3501))
 // CS Name: ::System.Reflection::TypeFilter*
 class CORDL_TYPE TypeFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Reflection::TypeFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x238f5dc size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x24e9094, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2392d50 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x24ec808, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Type* m, ::System::Object* filterCriteria);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeFilter", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Xml::XmlUnspecifiedAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11425))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11456))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11497))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11528))
 // CS Name: ::System.Xml::XmlUnspecifiedAttribute*
 class CORDL_TYPE XmlUnspecifiedAttribute : public ::System::Xml::XmlAttribute {
 public:
@@ -42,25 +42,25 @@ public:
 
   static inline ::System::Xml::XmlUnspecifiedAttribute* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x270ff74 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x288cf94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Specified addr 0x2714fa4 size 0x8 virtual true final false
+  /// @brief Method get_Specified, addr 0x2891fc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_Specified();
 
-  /// @brief Method CloneNode addr 0x2714fac size 0x130 virtual true final false
+  /// @brief Method CloneNode, addr 0x2891fcc, size 0x130, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method set_InnerText addr 0x27150dc size 0x20 virtual true final false
+  /// @brief Method set_InnerText, addr 0x28920fc, size 0x20, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method RemoveChild addr 0x27150fc size 0x20 virtual true final false
+  /// @brief Method RemoveChild, addr 0x289211c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* RemoveChild(::System::Xml::XmlNode* oldChild);
 
-  /// @brief Method AppendChild addr 0x271511c size 0x20 virtual true final false
+  /// @brief Method AppendChild, addr 0x289213c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* AppendChild(::System::Xml::XmlNode* newChild);
 
-  /// @brief Method SetSpecified addr 0x271513c size 0xc virtual false final false
+  /// @brief Method SetSpecified, addr 0x289215c, size 0xc, virtual false, abstract: false, final false
   inline void SetSpecified(bool f);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlUnspecifiedAttribute", modifiers: "&&", def_value: None }]

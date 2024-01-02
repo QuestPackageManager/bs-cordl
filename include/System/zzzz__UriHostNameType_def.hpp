@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriHostNameType);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8884))
 // CS Name: ::System::UriHostNameType
 struct CORDL_TYPE UriHostNameType {
 public:

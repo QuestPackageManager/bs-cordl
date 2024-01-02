@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9266))
 // CS Name: ::System.Net.NetworkInformation::IPGlobalPropertiesFactoryPal*
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x286ee2c size 0x50 virtual false final false
+  /// @brief Method Create, addr 0x29eb6b0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]

@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ProofOfPossessionSigningKeyBuilder)
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PKMacValue;
+namespace Org::BouncyCastle::Crmf {
+class PKMacBuilder;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
@@ -14,11 +17,8 @@ class ISignatureFactory;
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoSigningKey;
 }
-namespace Org::BouncyCastle::Crmf {
-class PKMacBuilder;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PKMacValue;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class CertRequest;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(712))
 // CS Name: ::Org.BouncyCastle.Crmf::ProofOfPossessionSigningKeyBuilder*
 class CORDL_TYPE ProofOfPossessionSigningKeyBuilder : public ::System::Object {
@@ -80,21 +80,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
-  /// @brief Method .ctor addr 0x119f424 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1210674, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method .ctor addr 0x119e95c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x120fbac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method SetSender addr 0x119e984 size 0x8 virtual false final false
+  /// @brief Method SetSender, addr 0x120fbd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetSender(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method SetPublicKeyMac addr 0x119e98c size 0x4ac virtual false final false
+  /// @brief Method SetPublicKeyMac, addr 0x120fbdc, size 0x4ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* SetPublicKeyMac(::Org::BouncyCastle::Crmf::PKMacBuilder* generator, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method Build addr 0x119ee38 size 0x5ec virtual false final false
+  /// @brief Method Build, addr 0x1210088, size 0x5ec, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Build(::Org::BouncyCastle::Crypto::ISignatureFactory* signer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossessionSigningKeyBuilder", modifiers: "&&", def_value: None }]

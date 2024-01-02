@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnitySynchronizationContext)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Threading {
 class SendOrPostCallback;
@@ -15,8 +15,8 @@ class SendOrPostCallback;
 namespace UnityEngine {
 struct __UnitySynchronizationContext__WorkRequest;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Object;
 }
 namespace System::Threading {
 class SynchronizationContext;
@@ -39,15 +39,16 @@ MARK_VAL_T(::UnityEngine::__UnitySynchronizationContext__WorkRequest);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10166))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10239))
 // CS Name: ::UnitySynchronizationContext::WorkRequest
 struct CORDL_TYPE __UnitySynchronizationContext__WorkRequest {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2b6e0d8 size 0xc virtual false final false
-  inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle);
+  /// @brief Method .ctor, addr 0x2cd4858, size 0xc, virtual false, abstract: false, final false
+  /// @param waitHandle: ::System::Threading::ManualResetEvent* (default: nullptr)
+  inline void _ctor(::System::Threading::SendOrPostCallback* callback, ::System::Object* state, ::System::Threading::ManualResetEvent* waitHandle = nullptr);
 
-  /// @brief Method Invoke addr 0x2b6e478 size 0xac virtual false final false
+  /// @brief Method Invoke, addr 0x2cd4bf8, size 0xac, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "m_DelagateCallback", ty: "::System::Threading::SendOrPostCallback*", modifiers: "", def_value: None }, CppParam { name: "m_DelagateState", ty:
@@ -87,8 +88,8 @@ static_assert(offsetof(::UnityEngine::__UnitySynchronizationContext__WorkRequest
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2715))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10240))
 // CS Name: ::UnityEngine::UnitySynchronizationContext*
 class CORDL_TYPE UnitySynchronizationContext : public ::System::Threading::SynchronizationContext {
 public:
@@ -134,42 +135,42 @@ public:
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(int32_t mainThreadID);
 
-  /// @brief Method .ctor addr 0x2b6dc7c size 0xb8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd43fc, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t mainThreadID);
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method .ctor addr 0x2b6dd34 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd44b4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* queue, int32_t mainThreadID);
 
-  /// @brief Method Send addr 0x2b6ddd4 size 0x304 virtual true final false
+  /// @brief Method Send, addr 0x2cd4554, size 0x304, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method OperationStarted addr 0x2b6e0e4 size 0xc virtual true final false
+  /// @brief Method OperationStarted, addr 0x2cd4864, size 0xc, virtual true, abstract: false, final false
   inline void OperationStarted();
 
-  /// @brief Method OperationCompleted addr 0x2b6e0f0 size 0xc virtual true final false
+  /// @brief Method OperationCompleted, addr 0x2cd4870, size 0xc, virtual true, abstract: false, final false
   inline void OperationCompleted();
 
-  /// @brief Method Post addr 0x2b6e0fc size 0x150 virtual true final false
+  /// @brief Method Post, addr 0x2cd487c, size 0x150, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* callback, ::System::Object* state);
 
-  /// @brief Method CreateCopy addr 0x2b6e24c size 0x6c virtual true final false
+  /// @brief Method CreateCopy, addr 0x2cd49cc, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Exec addr 0x2b6e2b8 size 0x1c0 virtual false final false
+  /// @brief Method Exec, addr 0x2cd4a38, size 0x1c0, virtual false, abstract: false, final false
   inline void Exec();
 
-  /// @brief Method HasPendingTasks addr 0x2b6e524 size 0x60 virtual false final false
+  /// @brief Method HasPendingTasks, addr 0x2cd4ca4, size 0x60, virtual false, abstract: false, final false
   inline bool HasPendingTasks();
 
-  /// @brief Method InitializeSynchronizationContext addr 0x2b6e584 size 0x7c virtual false final false
+  /// @brief Method InitializeSynchronizationContext, addr 0x2cd4d04, size 0x7c, virtual false, abstract: false, final false
   static inline void InitializeSynchronizationContext();
 
-  /// @brief Method ExecuteTasks addr 0x2b6e600 size 0x64 virtual false final false
+  /// @brief Method ExecuteTasks, addr 0x2cd4d80, size 0x64, virtual false, abstract: false, final false
   static inline void ExecuteTasks();
 
-  /// @brief Method ExecutePendingTasks addr 0x2b6e664 size 0xf0 virtual false final false
+  /// @brief Method ExecutePendingTasks, addr 0x2cd4de4, size 0xf0, virtual false, abstract: false, final false
   static inline bool ExecutePendingTasks(int64_t millisecondsTimeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnitySynchronizationContext", modifiers: "&&", def_value: None }]

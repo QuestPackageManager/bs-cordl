@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AnimatorIkHandlerManager)
-namespace Zenject {
-class IAnimatorIkHandler;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class IAnimatorIkHandler;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::AnimatorIkHandlerManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11300))
 // CS Name: ::Zenject::AnimatorIkHandlerManager*
 class CORDL_TYPE AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -42,21 +42,21 @@ public:
 
   constexpr void __set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
-  /// @brief Method Construct addr 0x2da62ec size 0x8 virtual false final false
+  /// @brief Method Construct, addr 0x2f0e0bc, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);
 
-  /// @brief Method OnAnimatorIk addr 0x2da62f4 size 0x1b0 virtual false final false
+  /// @brief Method OnAnimatorIk, addr 0x2f0e0c4, size 0x1b0, virtual false, abstract: false, final false
   inline void OnAnimatorIk();
 
   static inline ::Zenject::AnimatorIkHandlerManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da64a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0e274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x2da64ac size 0xdc virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x2f0e27c, size 0xdc, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da6588 size 0x2f8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0e358, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimatorIkHandlerManager", modifiers: "&&", def_value: None }]

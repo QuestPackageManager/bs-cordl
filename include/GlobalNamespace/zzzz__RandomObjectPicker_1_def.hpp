@@ -18,8 +18,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14377))
 // CS Name: ::RandomObjectPicker`1<T>*
 class CORDL_TYPE RandomObjectPicker_1 : public ::System::Object {
 public:
@@ -53,15 +53,15 @@ public:
 
   static inline ::GlobalNamespace::RandomObjectPicker_1<T>* New_ctor(T obj, float_t minimumPickInterval);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T obj, float_t minimumPickInterval);
 
   static inline ::GlobalNamespace::RandomObjectPicker_1<T>* New_ctor(::ArrayW<T, ::Array<T>*> objects, float_t minimumPickInterval);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> objects, float_t minimumPickInterval);
 
-  /// @brief Method PickRandomObject addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PickRandomObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T PickRandomObject();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomObjectPicker_1", modifiers: "&&", def_value: None }]

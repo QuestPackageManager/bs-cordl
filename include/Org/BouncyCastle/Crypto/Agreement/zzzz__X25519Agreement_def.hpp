@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X25519Agreement)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRawAgreement;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::X25519Agreement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(743))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::X25519Agreement*
 class CORDL_TYPE X25519Agreement : public ::System::Object {
@@ -45,18 +45,18 @@ public:
 
   constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* value);
 
-  /// @brief Method Init addr 0x11abfa0 size 0x74 virtual true final true
+  /// @brief Method Init, addr 0x121d1f0, size 0x74, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AgreementSize addr 0x11ac014 size 0x58 virtual true final true
+  /// @brief Method get_AgreementSize, addr 0x121d264, size 0x58, virtual true, abstract: false, final true
   inline int32_t get_AgreementSize();
 
-  /// @brief Method CalculateAgreement addr 0x11ac06c size 0x8c virtual true final true
+  /// @brief Method CalculateAgreement, addr 0x121d2bc, size 0x8c, virtual true, abstract: false, final true
   inline void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::X25519Agreement* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ac0f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x121d348, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X25519Agreement", modifiers: "&&", def_value: None }]

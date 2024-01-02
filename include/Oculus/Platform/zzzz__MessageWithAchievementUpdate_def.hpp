@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAchievementUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4468 }), TypeDefinitionIndex(TypeDefinitionIndex(13450)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13277)) CS Name: ::Oculus.Platform::MessageWithAchievementUpdate*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4572 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13411))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13270)) CS Name: ::Oculus.Platform::MessageWithAchievementUpdate*
 class CORDL_TYPE MessageWithAchievementUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithAchievementUpdate* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2592744 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26ee9a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetAchievementUpdate addr 0x25946d4 size 0x3c virtual true final false
+  /// @brief Method GetAchievementUpdate, addr 0x26f0a38, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetDataFromMessage addr 0x2594710 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f0a74, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAchievementUpdate", modifiers: "&&", def_value: None }]

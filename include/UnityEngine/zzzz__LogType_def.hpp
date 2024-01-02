@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LogType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10036))
 // CS Name: ::UnityEngine::LogType
 struct CORDL_TYPE LogType {
 public:

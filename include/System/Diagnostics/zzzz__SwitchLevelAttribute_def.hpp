@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Diagnostics::SwitchLevelAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8936))
 // CS Name: ::System.Diagnostics::SwitchLevelAttribute*
 class CORDL_TYPE SwitchLevelAttribute : public ::System::Attribute {
 public:
@@ -36,10 +36,10 @@ public:
 
   static inline ::System::Diagnostics::SwitchLevelAttribute* New_ctor(::System::Type* switchLevelType);
 
-  /// @brief Method .ctor addr 0x27eec20 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x296c51c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* switchLevelType);
 
-  /// @brief Method set_SwitchLevelType addr 0x27eec4c size 0xc0 virtual false final false
+  /// @brief Method set_SwitchLevelType, addr 0x296c548, size 0xc0, virtual false, abstract: false, final false
   inline void set_SwitchLevelType(::System::Type* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SwitchLevelAttribute", modifiers: "&&", def_value: None }]

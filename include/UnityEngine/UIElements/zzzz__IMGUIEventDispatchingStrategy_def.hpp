@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IMGUIEventDispatchingStrategy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7324))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7238))
 // CS Name: ::UnityEngine.UIElements::IMGUIEventDispatchingStrategy*
 class CORDL_TYPE IMGUIEventDispatchingStrategy : public ::System::Object {
 public:
@@ -32,15 +32,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent addr 0x2cea66c size 0x78 virtual true final true
+  /// @brief Method CanDispatchEvent, addr 0x2e52a1c, size 0x78, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent addr 0x2cea6e4 size 0xc0 virtual true final true
+  /// @brief Method DispatchEvent, addr 0x2e52a94, size 0xc0, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::IMGUIEventDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cea7a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e52b54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIEventDispatchingStrategy", modifiers: "&&", def_value: None }]

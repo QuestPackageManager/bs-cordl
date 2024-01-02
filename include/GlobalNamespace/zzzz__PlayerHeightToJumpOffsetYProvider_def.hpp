@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightToJumpOffsetYProvider)
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
 class PlayerHeightDetector;
 }
 namespace Zenject {
 class IInitializable;
+}
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class IJumpOffsetYProvider;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5376))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5281))
 // CS Name: ::PlayerHeightToJumpOffsetYProvider*
 class CORDL_TYPE PlayerHeightToJumpOffsetYProvider : public ::System::Object {
 public:
@@ -62,24 +62,24 @@ public:
 
   constexpr void __set__jumpOffsetY(float_t value);
 
-  /// @brief Method get_jumpOffsetY addr 0x211d458 size 0x8 virtual true final true
+  /// @brief Method get_jumpOffsetY, addr 0x2261628, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
-  /// @brief Method Initialize addr 0x211d460 size 0xf8 virtual true final true
+  /// @brief Method Initialize, addr 0x2261630, size 0xf8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose addr 0x211d5c4 size 0xd0 virtual true final true
+  /// @brief Method Dispose, addr 0x2261794, size 0xd0, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandlePlayerHeightDidChange addr 0x211d58c size 0x38 virtual false final false
+  /// @brief Method HandlePlayerHeightDidChange, addr 0x226175c, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerHeightDidChange(float_t playerHeight);
 
-  /// @brief Method JumpOffsetYForPlayerHeight addr 0x211d558 size 0x34 virtual false final false
+  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x2261728, size 0x34, virtual false, abstract: false, final false
   static inline float_t JumpOffsetYForPlayerHeight(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x211d694 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2261864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightToJumpOffsetYProvider", modifiers: "&&", def_value: None }]

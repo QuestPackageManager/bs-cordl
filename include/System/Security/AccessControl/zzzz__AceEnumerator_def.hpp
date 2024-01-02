@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AceEnumerator)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Security::AccessControl {
-class GenericAcl;
-}
 namespace System::Security::AccessControl {
 class GenericAce;
 }
 namespace System {
 class Object;
+}
+namespace System::Security::AccessControl {
+class GenericAcl;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AceEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3015))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3016))
 // CS Name: ::System.Security.AccessControl::AceEnumerator*
 class CORDL_TYPE AceEnumerator : public ::System::Object {
 public:
@@ -60,19 +60,19 @@ public:
 
   static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method .ctor addr 0x2328e20 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2480914, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::GenericAcl* owner);
 
-  /// @brief Method get_Current addr 0x2328e50 size 0x34 virtual false final false
+  /// @brief Method get_Current, addr 0x2480944, size 0x34, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2328e84 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2480978, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x2328e88 size 0x58 virtual true final true
+  /// @brief Method MoveNext, addr 0x248097c, size 0x58, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2328ee0 size 0xc virtual true final true
+  /// @brief Method Reset, addr 0x24809d4, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "&&", def_value: None }]

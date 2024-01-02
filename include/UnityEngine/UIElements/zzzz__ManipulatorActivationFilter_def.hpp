@@ -7,14 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ManipulatorActivationFilter)
-namespace UnityEngine {
-struct EventModifiers;
-}
 namespace UnityEngine::UIElements {
-class IMouseEvent;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+struct MouseButton;
 }
 namespace UnityEngine::UIElements {
 class IPointerEvent;
@@ -23,7 +17,13 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-struct MouseButton;
+class IMouseEvent;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine {
+struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,8 +35,8 @@ MARK_VAL_T(::UnityEngine::UIElements::ManipulatorActivationFilter);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6859)), TypeDefinitionIndex(TypeDefinitionIndex(14819))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6869))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6773)), TypeDefinitionIndex(TypeDefinitionIndex(14602))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
 // CS Name: ::UnityEngine.UIElements::ManipulatorActivationFilter
 struct CORDL_TYPE ManipulatorActivationFilter {
 public:
@@ -50,40 +50,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::ManipulatorActivationFilter>*();
 
-  /// @brief Method get_button addr 0x2c52470 size 0x8 virtual false final false
+  /// @brief Method get_button, addr 0x2db9820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseButton get_button();
 
-  /// @brief Method set_button addr 0x2c52478 size 0x8 virtual false final false
+  /// @brief Method set_button, addr 0x2db9828, size 0x8, virtual false, abstract: false, final false
   inline void set_button(::UnityEngine::UIElements::MouseButton value);
 
-  /// @brief Method get_modifiers addr 0x2c52480 size 0x8 virtual false final false
+  /// @brief Method get_modifiers, addr 0x2db9830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method get_clickCount addr 0x2c52488 size 0x8 virtual false final false
+  /// @brief Method get_clickCount, addr 0x2db9838, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_clickCount();
 
-  /// @brief Method Equals addr 0x2c52490 size 0x98 virtual true final false
+  /// @brief Method Equals, addr 0x2db9840, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x2c52528 size 0x34 virtual true final true
+  /// @brief Method Equals, addr 0x2db98d8, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::ManipulatorActivationFilter other);
 
-  /// @brief Method GetHashCode addr 0x2c5255c size 0x80 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2db990c, size 0x80, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Matches addr 0x2c525dc size 0x158 virtual false final false
+  /// @brief Method Matches, addr 0x2db998c, size 0x158, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method HasModifiers addr 0x2c52734 size 0x1f4 virtual false final false
+  /// @brief Method HasModifiers, addr 0x2db9ae4, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IMouseEvent* e);
 
-  /// @brief Method Matches addr 0x2c5297c size 0x158 virtual false final false
+  /// @brief Method Matches, addr 0x2db9d2c, size 0x158, virtual false, abstract: false, final false
   inline bool Matches(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method HasModifiers addr 0x2c52ad4 size 0x1f4 virtual false final false
+  /// @brief Method HasModifiers, addr 0x2db9e84, size 0x1f4, virtual false, abstract: false, final false
   inline bool HasModifiers(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method MatchModifiers addr 0x2c52928 size 0x54 virtual false final false
+  /// @brief Method MatchModifiers, addr 0x2db9cd8, size 0x54, virtual false, abstract: false, final false
   inline bool MatchModifiers(bool alt, bool ctrl, bool shift, bool command);
 
   // Ctor Parameters [CppParam { name: "_button_k__BackingField", ty: "::UnityEngine::UIElements::MouseButton", modifiers: "", def_value: None }, CppParam { name: "_modifiers_k__BackingField", ty:

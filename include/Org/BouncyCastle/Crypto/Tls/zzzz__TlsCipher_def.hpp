@@ -21,13 +21,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCipher {
 public:
   // Declarations
-  /// @brief Method GetPlaintextLimit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPlaintextLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EncodePlaintext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DecodeCiphertext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCipher", modifiers: "&&", def_value: None }]

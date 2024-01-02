@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelsPromoDataSO)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class __BeatmapLevelsPromoDataSO____c;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 namespace GlobalNamespace {
-class __BeatmapLevelsPromoDataSO____c;
+class PreviewBeatmapLevelPackSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class PreviewBeatmapLevelPackSO;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapLevelsPromoDataSO____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5914))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5821))
 // CS Name: ::BeatmapLevelsPromoDataSO::<>c*
 class CORDL_TYPE __BeatmapLevelsPromoDataSO____c : public ::System::Object {
 public:
@@ -87,19 +87,19 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapLevelsPromoDataSO____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a6910 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ebb04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <IsBeatmapLevelPackPromoted>b__8_0 addr 0x21a6918 size 0x18 virtual false final false
+  /// @brief Method <IsBeatmapLevelPackPromoted>b__8_0, addr 0x22ebb0c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _IsBeatmapLevelPackPromoted_b__8_0(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
 
-  /// @brief Method <IsBeatmapLevelPackUpdated>b__9_0 addr 0x21a6930 size 0x18 virtual false final false
+  /// @brief Method <IsBeatmapLevelPackUpdated>b__9_0, addr 0x22ebb24, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _IsBeatmapLevelPackUpdated_b__9_0(::GlobalNamespace::PreviewBeatmapLevelPackSO* pack);
 
-  /// @brief Method <IsBeatmapLevelPromoted>b__10_0 addr 0x21a6948 size 0x18 virtual false final false
+  /// @brief Method <IsBeatmapLevelPromoted>b__10_0, addr 0x22ebb3c, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _IsBeatmapLevelPromoted_b__10_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
 
-  /// @brief Method <IsBeatmapLevelUpdated>b__11_0 addr 0x21a6960 size 0x18 virtual false final false
+  /// @brief Method <IsBeatmapLevelUpdated>b__11_0, addr 0x22ebb54, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _IsBeatmapLevelUpdated_b__11_0(::GlobalNamespace::PreviewBeatmapLevelSO* level);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapLevelsPromoDataSO____c", modifiers: "&&", def_value: None }]
@@ -126,8 +126,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevels
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5915))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5822))
 // CS Name: ::BeatmapLevelsPromoDataSO*
 class CORDL_TYPE BeatmapLevelsPromoDataSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -208,21 +208,21 @@ public:
 
   constexpr void __set__updatedBeatmapLevelsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method IsBeatmapLevelPackPromoted addr 0x21a64b4 size 0x1f8 virtual false final false
+  /// @brief Method IsBeatmapLevelPackPromoted, addr 0x22eb6a8, size 0x1f8, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackPromoted(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPackUpdated addr 0x21a66ac size 0x1f8 virtual false final false
+  /// @brief Method IsBeatmapLevelPackUpdated, addr 0x22eb8a0, size 0x1f8, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackUpdated(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPromoted addr 0x219ff78 size 0x1f8 virtual false final false
+  /// @brief Method IsBeatmapLevelPromoted, addr 0x22e5ae8, size 0x1f8, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPromoted(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
 
-  /// @brief Method IsBeatmapLevelUpdated addr 0x21a0170 size 0x1f8 virtual false final false
+  /// @brief Method IsBeatmapLevelUpdated, addr 0x22e5ce0, size 0x1f8, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelUpdated(::GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapLevelsPromoDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a68a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22eba98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelsPromoDataSO", modifiers: "&&", def_value: None }]

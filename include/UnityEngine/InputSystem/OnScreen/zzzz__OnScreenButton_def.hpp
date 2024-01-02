@@ -9,13 +9,13 @@ namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::OnScreen {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenButton);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6474))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6388))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6386))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenButton*
 class CORDL_TYPE OnScreenButton : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
@@ -53,21 +53,21 @@ public:
 
   constexpr void __set_m_ControlPath(::StringW value);
 
-  /// @brief Method OnPointerUp addr 0x2958d80 size 0x4c virtual true final true
+  /// @brief Method OnPointerUp, addr 0x2ad8ac8, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown addr 0x2958dcc size 0x4c virtual true final true
+  /// @brief Method OnPointerDown, addr 0x2ad8b14, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method get_controlPathInternal addr 0x2958e18 size 0x8 virtual true final false
+  /// @brief Method get_controlPathInternal, addr 0x2ad8b60, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
-  /// @brief Method set_controlPathInternal addr 0x2958e20 size 0x8 virtual true final false
+  /// @brief Method set_controlPathInternal, addr 0x2ad8b68, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenButton* New_ctor();
 
-  /// @brief Method .ctor addr 0x2958e28 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ad8b70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnScreenButton", modifiers: "&&", def_value: None }]

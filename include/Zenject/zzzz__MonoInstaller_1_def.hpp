@@ -27,30 +27,30 @@ namespace Zenject {
 // cpp template
 template <typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11067))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11139))
 // CS Name: ::Zenject::MonoInstaller`1<TDerived>*
 class CORDL_TYPE MonoInstaller_1 : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> extraArgs);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> extraArgs);
 
   static inline ::Zenject::MonoInstaller_1<TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller_1", modifiers: "&&", def_value: None }]

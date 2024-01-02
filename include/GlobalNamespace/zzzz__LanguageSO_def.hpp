@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::LanguageSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13974)), TypeDefinitionIndex(TypeDefinitionIndex(15538)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13974), inst:
-// 3763 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5937)) CS Name: ::LanguageSO*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 3855 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(15554))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5848)) CS Name: ::LanguageSO*
 class CORDL_TYPE LanguageSO : public ::GlobalNamespace::ObservableVariableSO_1<::Polyglot::Language> {
 public:
   // Declarations
   static inline ::GlobalNamespace::LanguageSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ab3a0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x22f3bd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguageSO", modifiers: "&&", def_value: None }]

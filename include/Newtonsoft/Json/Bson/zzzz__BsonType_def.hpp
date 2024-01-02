@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Bson::BsonType);
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12010))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12082))
 // CS Name: ::Newtonsoft.Json.Bson::BsonType
 struct CORDL_TYPE BsonType {
 public:

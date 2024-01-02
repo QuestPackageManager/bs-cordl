@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3832))
 // CS Name: ::System.Collections.Generic::IEnumerable`1<T>*
 class CORDL_TYPE IEnumerable_1 {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnumerable_1", modifiers: "&&", def_value: None }]

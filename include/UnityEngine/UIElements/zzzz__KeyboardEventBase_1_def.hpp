@@ -10,10 +10,10 @@ namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
-struct KeyCode;
+struct EventModifiers;
 }
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 namespace UnityEngine::UIElements {
 class IKeyboardEvent;
@@ -30,8 +30,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9986)), TypeDefinitionIndex(TypeDefinitionIndex(14819)), TypeDefinitionIndex(TypeDefinitionIndex(7266)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1646 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7326)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 }), TypeDefinitionIndex(TypeDefinitionIndex(10058)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
 // ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -82,54 +82,54 @@ public:
 
   constexpr void __set__keyCode_k__BackingField(::UnityEngine::KeyCode value);
 
-  /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method set_modifiers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
-  /// @brief Method get_character addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline char16_t get_character();
 
-  /// @brief Method set_character addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_character, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_character(char16_t value);
 
-  /// @brief Method get_keyCode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::KeyCode get_keyCode();
 
-  /// @brief Method set_keyCode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_keyCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::KeyCode value);
 
-  /// @brief Method get_shiftKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_shiftKey();
 
-  /// @brief Method get_ctrlKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ctrlKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_ctrlKey();
 
-  /// @brief Method get_commandKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_commandKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_commandKey();
 
-  /// @brief Method get_altKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_altKey();
 
-  /// @brief Method get_actionKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_actionKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_actionKey();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(char16_t c, ::UnityEngine::KeyCode keyCode, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
   static inline ::UnityEngine::UIElements::KeyboardEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyboardEventBase_1", modifiers: "&&", def_value: None }]

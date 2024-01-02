@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::TypeName);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2627))
 // CS Name: ::System::TypeName*
 class CORDL_TYPE TypeName {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::TypeName*>"
   constexpr operator ::System::IEquatable_1<::System::TypeName*>*() noexcept;
 
-  /// @brief Method get_DisplayName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DisplayName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_DisplayName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeName", modifiers: "&&", def_value: None }]

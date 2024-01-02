@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::MoveDirection);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13212))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13207))
 // CS Name: ::UnityEngine.EventSystems::MoveDirection
 struct CORDL_TYPE MoveDirection {
 public:

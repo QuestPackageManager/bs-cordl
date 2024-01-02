@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoAnalyticsModel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16222))
 // CS Name: ::NoAnalyticsModel*
 class CORDL_TYPE NoAnalyticsModel : public ::System::Object {
 public:
@@ -32,30 +32,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IAnalyticsModel"
   constexpr operator ::GlobalNamespace::IAnalyticsModel*() noexcept;
 
-  /// @brief Method get_supportsOpenDataPrivacyPage addr 0x20c46e4 size 0x8 virtual true final true
+  /// @brief Method get_supportsOpenDataPrivacyPage, addr 0xdfcb44, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsOpenDataPrivacyPage();
 
-  /// @brief Method OpenDataPrivacyPage addr 0x20c46ec size 0x4 virtual true final true
+  /// @brief Method OpenDataPrivacyPage, addr 0xdfcb4c, size 0x4, virtual true, abstract: false, final true
   inline void OpenDataPrivacyPage();
 
-  /// @brief Method LogEditAvatarEvent addr 0x20c46f0 size 0x4 virtual true final true
+  /// @brief Method LogEditAvatarEvent, addr 0xdfcb50, size 0x4, virtual true, abstract: false, final true
   inline void LogEditAvatarEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogEvent addr 0x20c46f4 size 0x4 virtual true final true
+  /// @brief Method LogEvent, addr 0xdfcb54, size 0x4, virtual true, abstract: false, final true
   inline void LogEvent(::StringW eventType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* eventData);
 
-  /// @brief Method LogClick addr 0x20c46f8 size 0x4 virtual true final true
+  /// @brief Method LogClick, addr 0xdfcb58, size 0x4, virtual true, abstract: false, final true
   inline void LogClick(::StringW clickType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* clickData);
 
-  /// @brief Method LogImpression addr 0x20c46fc size 0x4 virtual true final true
+  /// @brief Method LogImpression, addr 0xdfcb5c, size 0x4, virtual true, abstract: false, final true
   inline void LogImpression(::StringW impressionType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* impressionData);
 
-  /// @brief Method LogExposure addr 0x20c4700 size 0x4 virtual true final true
+  /// @brief Method LogExposure, addr 0xdfcb60, size 0x4, virtual true, abstract: false, final true
   inline void LogExposure(::StringW exposureType, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* exposureData);
 
   static inline ::GlobalNamespace::NoAnalyticsModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x20c4704 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xdfcb64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoAnalyticsModel", modifiers: "&&", def_value: None }]

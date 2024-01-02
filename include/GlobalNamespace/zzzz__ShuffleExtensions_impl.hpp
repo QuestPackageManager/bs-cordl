@@ -3,13 +3,14 @@
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__ShuffleExtensions_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "GlobalNamespace/zzzz__ShuffleExtensions_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Random_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<T>"
 template <typename T> constexpr GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::operator ::System::Collections::Generic::IEnumerable_1<T>*() noexcept {
@@ -95,6 +96,30 @@ template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___Pick
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_count() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___count;
+}
+template <typename T> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_count() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___count;
+}
+template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__set_count(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___count = value;
+}
+template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get___3__count() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__count;
+}
+template <typename T> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get___3__count() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__count;
+}
+template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__set___3__count(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____3__count = value;
+}
 template <typename T> constexpr ::System::Random*& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
@@ -119,30 +144,6 @@ constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& GlobalNa
 template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__set___3__random(::System::Random* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___count;
-}
-template <typename T> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___count;
-}
-template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__set_count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___count = value;
-}
-template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get___3__count() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__count;
-}
-template <typename T> constexpr int32_t const& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get___3__count() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__count;
-}
-template <typename T> constexpr void GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__set___3__count(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____3__count = value;
 }
 template <typename T> constexpr int32_t& GlobalNamespace::__ShuffleExtensions___PickRandomElementsWithTombstone_d__1_1<T>::__get_limit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -794,6 +795,16 @@ GlobalNamespace::ShuffleExtensions::ZipSkipTombstone(::System::Collections::Gene
       ___internal_method_base, std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::ValueTuple_2<T1, T2>>*, false>(nullptr, ___internal_method, collection1, collection2,
                                                                                                                                     collection2Tombstone);
+}
+template <typename T> inline void GlobalNamespace::ShuffleExtensions::ShuffleInPlace(::System::Collections::Generic::IList_1<T>* list, ::System::Random* random) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShuffleExtensions*>::get(), "ShuffleInPlace",
+                                               std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<T>*>::get(),
+                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Random*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, list, random);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ShuffleExtensions::ShuffleExtensions() {}

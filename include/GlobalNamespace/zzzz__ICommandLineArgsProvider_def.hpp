@@ -16,12 +16,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ICommandLineArgsProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5954))
 // CS Name: ::ICommandLineArgsProvider*
 class CORDL_TYPE ICommandLineArgsProvider {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCommandLineArgs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICommandLineArgsProvider", modifiers: "&&", def_value: None }]

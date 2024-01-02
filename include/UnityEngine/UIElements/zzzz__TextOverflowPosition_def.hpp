@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextOverflowPosition);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6893))
 // CS Name: ::UnityEngine.UIElements::TextOverflowPosition
 struct CORDL_TYPE TextOverflowPosition {
 public:

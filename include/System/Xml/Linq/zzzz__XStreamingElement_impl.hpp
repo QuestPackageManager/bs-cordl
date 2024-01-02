@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XStreamingElement_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Xml/Linq/zzzz__XName_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 constexpr ::System::Xml::Linq::XName*& System::Xml::Linq::XStreamingElement::__get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;

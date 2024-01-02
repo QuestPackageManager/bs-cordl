@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryPairedUserAccountCommand)
 namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand__Result;
+struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
+struct __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __QueryPairedUserAccountCommand__Result;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -49,7 +49,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6565))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6479))
 // CS Name: ::QueryPairedUserAccountCommand::Result
 struct CORDL_TYPE __QueryPairedUserAccountCommand__Result {
 public:
@@ -107,7 +107,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6566))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6480))
 // CS Name: ::QueryPairedUserAccountCommand::<nameBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer {
@@ -143,7 +143,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6567))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6481))
 // CS Name: ::QueryPairedUserAccountCommand::<idBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer {
@@ -179,8 +179,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAc
 // Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(6567)), TypeDefinitionIndex(TypeDefinitionIndex(6566))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6481)), TypeDefinitionIndex(TypeDefinitionIndex(6471)), TypeDefinitionIndex(TypeDefinitionIndex(6480))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6482))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryPairedUserAccountCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryPairedUserAccountCommand {
@@ -237,25 +237,25 @@ public:
 
   constexpr void __set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x296810c size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae7e54, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id addr 0x296813c size 0x10 virtual false final false
+  /// @brief Method get_id, addr 0x2ae7e84, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method set_id addr 0x296814c size 0x114 virtual false final false
+  /// @brief Method set_id, addr 0x2ae7e94, size 0x114, virtual false, abstract: false, final false
   inline void set_id(::StringW value);
 
-  /// @brief Method get_name addr 0x2968260 size 0x10 virtual false final false
+  /// @brief Method get_name, addr 0x2ae7fa8, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2968270 size 0x114 virtual false final false
+  /// @brief Method set_name, addr 0x2ae7fb8, size 0x114, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_typeStatic addr 0x2968384 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae80cc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x29683b4 size 0x58 virtual false final false
+  /// @brief Method Create, addr 0x2ae80fc, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "handle", ty: "uint64_t",

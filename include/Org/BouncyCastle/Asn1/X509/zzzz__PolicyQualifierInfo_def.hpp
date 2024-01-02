@@ -5,8 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PolicyQualifierInfo)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -14,11 +17,8 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -60,29 +60,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier);
 
-  /// @brief Method .ctor addr 0x1124a64 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x1194cac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* qualifier);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::StringW cps);
 
-  /// @brief Method .ctor addr 0x1124a90 size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x1194cd8, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::StringW cps);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1124b40 size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0x1194d88, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0x1124ca8 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1194ef0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyQualifierInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_PolicyQualifierId addr 0x1124d4c size 0x8 virtual true final false
+  /// @brief Method get_PolicyQualifierId, addr 0x1194f94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PolicyQualifierId();
 
-  /// @brief Method get_Qualifier addr 0x1124d54 size 0x8 virtual true final false
+  /// @brief Method get_Qualifier, addr 0x1194f9c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Qualifier();
 
-  /// @brief Method ToAsn1Object addr 0x1124d5c size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1194fa4, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyQualifierInfo", modifiers: "&&", def_value: None }]

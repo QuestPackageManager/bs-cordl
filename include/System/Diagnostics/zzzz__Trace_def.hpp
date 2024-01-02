@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Trace)
 namespace System::Diagnostics {
-class CorrelationManager;
+class TraceListenerCollection;
 }
 namespace System::Diagnostics {
-class TraceListenerCollection;
+class CorrelationManager;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Trace);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8937))
 // CS Name: ::System.Diagnostics::Trace*
 class CORDL_TYPE Trace : public ::System::Object {
 public:
@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Diagnostics::CorrelationManager* getStaticF_correlationManager();
 
-  /// @brief Method get_Listeners addr 0x27eed0c size 0x4c virtual false final false
+  /// @brief Method get_Listeners, addr 0x296c608, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
-  /// @brief Method get_AutoFlush addr 0x27eefac size 0x4c virtual false final false
+  /// @brief Method get_AutoFlush, addr 0x296c8a8, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_CorrelationManager addr 0x27ef058 size 0xa4 virtual false final false
+  /// @brief Method get_CorrelationManager, addr 0x296c954, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::CorrelationManager* get_CorrelationManager();
 
   // Ctor Parameters [CppParam { name: "", ty: "Trace", modifiers: "&&", def_value: None }]

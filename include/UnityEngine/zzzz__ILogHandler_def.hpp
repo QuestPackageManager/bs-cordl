@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILogHandler)
-namespace System {
-class Exception;
-}
 namespace UnityEngine {
 struct LogType;
 }
-namespace System {
+namespace UnityEngine {
 class Object;
 }
-namespace UnityEngine {
+namespace System {
+class Exception;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,15 +28,15 @@ MARK_REF_PTR_T(::UnityEngine::ILogHandler);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10055))
 // CS Name: ::UnityEngine::ILogHandler*
 class CORDL_TYPE ILogHandler {
 public:
   // Declarations
-  /// @brief Method LogFormat addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogFormat(::UnityEngine::LogType logType, ::UnityEngine::Object* context, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method LogException addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception, ::UnityEngine::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILogHandler", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::CallbackPhase);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7249))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7163))
 // CS Name: ::UnityEngine.UIElements::CallbackPhase
 struct CORDL_TYPE CallbackPhase {
 public:

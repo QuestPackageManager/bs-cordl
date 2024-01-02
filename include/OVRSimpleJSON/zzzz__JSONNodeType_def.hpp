@@ -16,7 +16,7 @@ MARK_VAL_T(::OVRSimpleJSON::JSONNodeType);
 namespace OVRSimpleJSON {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8195))
 // CS Name: ::OVRSimpleJSON::JSONNodeType
 struct CORDL_TYPE JSONNodeType {
 public:

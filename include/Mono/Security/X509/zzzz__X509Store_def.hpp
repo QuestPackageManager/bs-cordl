@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Store)
 namespace Mono::Security::X509 {
-class X509CertificateCollection;
+class X509Crl;
+}
+namespace Mono::Security::X509 {
+class X509Certificate;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace Mono::Security::X509 {
-class X509Certificate;
-}
-namespace Mono::Security::X509 {
-class X509Crl;
+class X509CertificateCollection;
 }
 // Forward declare root types
 namespace Mono::Security::X509 {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Store);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14029))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13758))
 // CS Name: ::Mono.Security.X509::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
@@ -86,31 +86,31 @@ public:
 
   static inline ::Mono::Security::X509::X509Store* New_ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method .ctor addr 0x22a325c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x23fd568, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW path, bool crl, bool newFormat);
 
-  /// @brief Method get_Certificates addr 0x22a329c size 0x28 virtual false final false
+  /// @brief Method get_Certificates, addr 0x23fd5a8, size 0x28, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* get_Certificates();
 
-  /// @brief Method get_Crls addr 0x22a3498 size 0x90 virtual false final false
+  /// @brief Method get_Crls, addr 0x23fd7a4, size 0x90, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Crls();
 
-  /// @brief Method Load addr 0x22a36e8 size 0x20c virtual false final false
+  /// @brief Method Load, addr 0x23fd9f4, size 0x20c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Load(::StringW filename);
 
-  /// @brief Method LoadCertificate addr 0x22a38f4 size 0x70 virtual false final false
+  /// @brief Method LoadCertificate, addr 0x23fdc00, size 0x70, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* LoadCertificate(::StringW filename);
 
-  /// @brief Method LoadCrl addr 0x22a3964 size 0x70 virtual false final false
+  /// @brief Method LoadCrl, addr 0x23fdc70, size 0x70, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Crl* LoadCrl(::StringW filename);
 
-  /// @brief Method CheckStore addr 0x22a39d4 size 0xdc virtual false final false
+  /// @brief Method CheckStore, addr 0x23fdce0, size 0xdc, virtual false, abstract: false, final false
   inline bool CheckStore(::StringW path, bool throwException);
 
-  /// @brief Method BuildCertificatesCollection addr 0x22a32c4 size 0x1d4 virtual false final false
+  /// @brief Method BuildCertificatesCollection, addr 0x23fd5d0, size 0x1d4, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509CertificateCollection* BuildCertificatesCollection(::StringW storeName);
 
-  /// @brief Method BuildCrlsCollection addr 0x22a3528 size 0x1c0 virtual false final false
+  /// @brief Method BuildCrlsCollection, addr 0x23fd834, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* BuildCrlsCollection(::StringW storeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Store", modifiers: "&&", def_value: None }]

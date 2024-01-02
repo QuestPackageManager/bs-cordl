@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SongTimeAnimationPlayer)
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
 namespace UnityEngine {
 class AnimationClip;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeAnimationPlayer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5475))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5384))
 // CS Name: ::SongTimeAnimationPlayer*
 class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
 
-  /// @brief Method Update addr 0x2129914 size 0x44 virtual false final false
+  /// @brief Method Update, addr 0x226ef14, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2129958 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226ef58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongTimeAnimationPlayer", modifiers: "&&", def_value: None }]

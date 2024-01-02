@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::ScheduleMode);
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9908))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9980))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::ScheduleMode
 struct CORDL_TYPE ScheduleMode {
 public:

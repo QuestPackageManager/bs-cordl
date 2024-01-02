@@ -17,8 +17,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14616))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14278))
 // CS Name: ::System.Linq::EmptyEnumerable`1<TElement>*
 class CORDL_TYPE EmptyEnumerable_1 : public ::System::Object {
 public:

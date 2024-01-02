@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableTraversalMode);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10433))
 // CS Name: ::UnityEngine.Playables::PlayableTraversalMode
 struct CORDL_TYPE PlayableTraversalMode {
 public:

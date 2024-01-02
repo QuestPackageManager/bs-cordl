@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ParametersWithID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1071))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ParametersWithID*
 class CORDL_TYPE ParametersWithID : public ::System::Object {
@@ -50,19 +50,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
-  /// @brief Method .ctor addr 0xec2cd8 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0xf38ec4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithID* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id, int32_t idOff,
                                                                                     int32_t idLen);
 
-  /// @brief Method .ctor addr 0xec2cf4 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xf38ee0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> id, int32_t idOff, int32_t idLen);
 
-  /// @brief Method GetID addr 0xec2d8c size 0x8 virtual false final false
+  /// @brief Method GetID, addr 0xf38f78, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetID();
 
-  /// @brief Method get_Parameters addr 0xec2d94 size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0xf38f80, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithID", modifiers: "&&", def_value: None }]

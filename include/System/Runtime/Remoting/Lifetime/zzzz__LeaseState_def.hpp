@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Lifetime::LeaseState);
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3095))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3096))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseState
 struct CORDL_TYPE LeaseState {
 public:

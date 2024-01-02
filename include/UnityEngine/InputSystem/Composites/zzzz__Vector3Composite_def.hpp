@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector3Composite)
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::InputSystem::Composites {
+struct __Vector3Composite__Mode;
 }
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
 }
-namespace UnityEngine::InputSystem::Composites {
-struct __Vector3Composite__Mode;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector3Composite);
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6807))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6721))
 // CS Name: ::Vector3Composite::Mode
 struct CORDL_TYPE __Vector3Composite__Mode {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector3Composit
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6276)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6276), inst: 407 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6807)), TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6808)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 }), TypeDefinitionIndex(TypeDefinitionIndex(6190)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6721))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector3Composite*
 class CORDL_TYPE Vector3Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector3> {
 public:
@@ -157,12 +157,12 @@ public:
 
   constexpr void __set_mode(::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode value);
 
-  /// @brief Method ReadValue addr 0x28dbee4 size 0x254 virtual true final false
+  /// @brief Method ReadValue, addr 0x2a5bc2c, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method .ctor addr 0x28dc138 size 0x1048 virtual false final false
+  /// @brief Method .ctor, addr 0x2a5be80, size 0x1048, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Vector3Composite", modifiers: "&&", def_value: None }]

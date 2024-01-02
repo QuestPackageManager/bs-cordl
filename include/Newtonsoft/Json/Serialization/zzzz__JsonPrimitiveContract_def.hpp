@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(JsonPrimitiveContract)
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
 }
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System {
+class Type;
 }
 namespace Newtonsoft::Json {
 struct ReadType;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPrimitiveContract);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11871)), TypeDefinitionIndex(TypeDefinitionIndex(11798))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11943)), TypeDefinitionIndex(TypeDefinitionIndex(11870))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11915))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonPrimitiveContract*
 class CORDL_TYPE JsonPrimitiveContract : public ::Newtonsoft::Json::Serialization::JsonContract {
 public:
@@ -51,15 +51,15 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Newtonsoft::Json::ReadType>* getStaticF_ReadTypeMap();
 
-  /// @brief Method get_TypeCode addr 0x250abc0 size 0x8 virtual false final false
+  /// @brief Method get_TypeCode, addr 0x266e304, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
-  /// @brief Method set_TypeCode addr 0x250abc8 size 0x8 virtual false final false
+  /// @brief Method set_TypeCode, addr 0x266e30c, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonPrimitiveContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor addr 0x250abd0 size 0xf4 virtual false final false
+  /// @brief Method .ctor, addr 0x266e314, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonPrimitiveContract", modifiers: "&&", def_value: None }]

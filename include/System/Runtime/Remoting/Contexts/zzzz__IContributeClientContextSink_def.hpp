@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeClientContextSi
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3106))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3107))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeClientContextSink*
 class CORDL_TYPE IContributeClientContextSink {
 public:
   // Declarations
-  /// @brief Method GetClientContextSink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetClientContextSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* GetClientContextSink(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContributeClientContextSink", modifiers: "&&", def_value: None }]

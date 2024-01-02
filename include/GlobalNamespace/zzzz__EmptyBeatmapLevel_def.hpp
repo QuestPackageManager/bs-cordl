@@ -3,38 +3,42 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(EmptyBeatmapLevel)
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
-}
-namespace UnityEngine {
-class AudioClip;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelData;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine {
-class Sprite;
+class AudioClip;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelData;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace GlobalNamespace {
+class IBeatmapLevel;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyBeatmapLevel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4408))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4386))
 // CS Name: ::EmptyBeatmapLevel*
 class CORDL_TYPE EmptyBeatmapLevel : public ::System::Object {
 public:
@@ -83,7 +87,11 @@ public:
 
   __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
 
+  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
+
+  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
   __declspec(property(get = get_beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 
@@ -99,63 +107,69 @@ public:
 
   constexpr void __set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method get_levelID addr 0x21fd594 size 0x8 virtual true final true
+  /// @brief Method get_levelID, addr 0x2347bdc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelID();
 
-  /// @brief Method get_songName addr 0x21fd59c size 0x8 virtual true final true
+  /// @brief Method get_songName, addr 0x2347be4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName addr 0x21fd5a4 size 0x8 virtual true final true
+  /// @brief Method get_songSubName, addr 0x2347bec, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songAuthorName addr 0x21fd5ac size 0x8 virtual true final true
+  /// @brief Method get_songAuthorName, addr 0x2347bf4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_levelAuthorName addr 0x21fd5b4 size 0x8 virtual true final true
+  /// @brief Method get_levelAuthorName, addr 0x2347bfc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_beatsPerMinute addr 0x21fd5bc size 0x8 virtual true final true
+  /// @brief Method get_beatsPerMinute, addr 0x2347c04, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_songTimeOffset addr 0x21fd5c4 size 0x8 virtual true final true
+  /// @brief Method get_songTimeOffset, addr 0x2347c0c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_shuffle addr 0x21fd5cc size 0x8 virtual true final true
+  /// @brief Method get_shuffle, addr 0x2347c14, size 0x8, virtual true, abstract: false, final true
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod addr 0x21fd5d4 size 0x8 virtual true final true
+  /// @brief Method get_shufflePeriod, addr 0x2347c1c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_previewStartTime addr 0x21fd5dc size 0x8 virtual true final true
+  /// @brief Method get_previewStartTime, addr 0x2347c24, size 0x8, virtual true, abstract: false, final true
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_previewDuration addr 0x21fd5e4 size 0x8 virtual true final true
+  /// @brief Method get_previewDuration, addr 0x2347c2c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_previewDuration();
 
-  /// @brief Method get_songDuration addr 0x21fd5ec size 0x8 virtual true final true
+  /// @brief Method get_songDuration, addr 0x2347c34, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songDuration();
 
-  /// @brief Method get_environmentInfo addr 0x21fd5f4 size 0x8 virtual true final true
+  /// @brief Method get_environmentInfo, addr 0x2347c3c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method get_allDirectionsEnvironmentInfo addr 0x21fd5fc size 0x8 virtual true final true
+  /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x2347c44, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
 
-  /// @brief Method get_previewDifficultyBeatmapSets addr 0x21fd604 size 0x8 virtual true final true
+  /// @brief Method get_environmentInfos, addr 0x2347c4c, size 0x7c, virtual true, abstract: false, final true
+  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+
+  /// @brief Method get_previewDifficultyBeatmapSets, addr 0x2347cc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
 
-  /// @brief Method GetPreviewAudioClipAsync addr 0x21fd60c size 0x40 virtual false final false
+  /// @brief Method get_contentRating, addr 0x2347cd0, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
+
+  /// @brief Method GetPreviewAudioClipAsync, addr 0x2347cd8, size 0x40, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetCoverImageAsync addr 0x21fd64c size 0x40 virtual true final true
+  /// @brief Method GetCoverImageAsync, addr 0x2347d18, size 0x40, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_beatmapLevelData addr 0x21fd68c size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevelData, addr 0x2347d58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
   static inline ::GlobalNamespace::EmptyBeatmapLevel* New_ctor();
 
-  /// @brief Method .ctor addr 0x21fd694 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2347d60, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyBeatmapLevel", modifiers: "&&", def_value: None }]

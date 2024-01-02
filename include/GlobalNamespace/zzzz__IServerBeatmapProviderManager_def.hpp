@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerBeatmapProviderManager)
-namespace GlobalNamespace {
-class IServerBeatmapProvider;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IServerBeatmapProvider;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerBeatmapProviderManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12732))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12814))
 // CS Name: ::IServerBeatmapProviderManager*
 class CORDL_TYPE IServerBeatmapProviderManager {
 public:
@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method GetServerBeatmapProvider addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetServerBeatmapProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IServerBeatmapProvider* GetServerBeatmapProvider();
 
-  /// @brief Method RefreshAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RefreshAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* RefreshAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "IServerBeatmapProviderManager", modifiers: "&&", def_value: None }]

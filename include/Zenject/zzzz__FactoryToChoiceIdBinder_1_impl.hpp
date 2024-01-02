@@ -2,9 +2,9 @@
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_impl.hpp"
 #include "Zenject/zzzz__FactoryToChoiceIdBinder_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
+#include "Zenject/zzzz__BindInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__FactoryBindInfo_def.hpp"
 template <typename TContract>
 inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* Zenject::FactoryToChoiceIdBinder_1<TContract>::New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo,

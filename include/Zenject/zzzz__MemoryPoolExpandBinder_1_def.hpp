@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_1_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolExpandBinder_1)
 namespace Zenject {
-class FactoryBindInfo;
-}
-namespace Zenject {
-template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
-}
-namespace Zenject {
 class MemoryPoolBindInfo;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class FactoryBindInfo;
 }
 namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10631), inst: 1707 }), TypeDefinitionIndex(TypeDefinitionIndex(10631))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10703)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1771 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10866))
 // CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
@@ -51,20 +51,22 @@ public:
   static inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                          ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method get_MemoryPoolBindInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_MemoryPoolBindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::MemoryPoolBindInfo* get_MemoryPoolBindInfo();
 
-  /// @brief Method set_MemoryPoolBindInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_MemoryPoolBindInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_MemoryPoolBindInfo(::Zenject::MemoryPoolBindInfo* value);
 
-  /// @brief Method ExpandByOneAtATime addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime(bool showExpandWarning);
+  /// @brief Method ExpandByOneAtATime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param showExpandWarning: bool (default: true)
+  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByOneAtATime(bool showExpandWarning = true);
 
-  /// @brief Method ExpandByDoubling addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning);
+  /// @brief Method ExpandByDoubling, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param showExpandWarning: bool (default: true)
+  inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* ExpandByDoubling(bool showExpandWarning = true);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolExpandBinder_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextResourceManager)
-namespace UnityEngine::TextCore::Text {
-struct __TextResourceManager__FontAssetRef;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::TextCore::Text {
+struct __TextResourceManager__FontAssetRef;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -33,12 +33,12 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::__TextResourceManager__FontAssetRef);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13720))
 // CS Name: ::TextResourceManager::FontAssetRef
 struct CORDL_TYPE __TextResourceManager__FontAssetRef {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2be1fc8 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4a378, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters [CppParam { name: "nameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "familyNameHashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam
@@ -89,8 +89,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::__TextResourceManager__Fon
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13600))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13721))
 // CS Name: ::UnityEngine.TextCore.Text::TextResourceManager*
 class CORDL_TYPE TextResourceManager : public ::System::Object {
 public:
@@ -137,7 +137,7 @@ public:
 
   static inline int32_t getStaticF_k_RegularStyleHashCode();
 
-  /// @brief Method AddFontAsset addr 0x2be1a7c size 0x4f4 virtual false final false
+  /// @brief Method AddFontAsset, addr 0x2d49e2c, size 0x4f4, virtual false, abstract: false, final false
   static inline void AddFontAsset(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters [CppParam { name: "", ty: "TextResourceManager", modifiers: "&&", def_value: None }]

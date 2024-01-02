@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IMediaAsyncLoader);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5894))
 // CS Name: ::IMediaAsyncLoader*
 class CORDL_TYPE IMediaAsyncLoader {
 public:
   // Declarations
-  /// @brief Method LoadAudioClipFromFilePathAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMediaAsyncLoader", modifiers: "&&", def_value: None }]

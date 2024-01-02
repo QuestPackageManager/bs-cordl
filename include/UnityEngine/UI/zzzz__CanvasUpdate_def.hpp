@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UI::CanvasUpdate);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13025))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13020))
 // CS Name: ::UnityEngine.UI::CanvasUpdate
 struct CORDL_TYPE CanvasUpdate {
 public:

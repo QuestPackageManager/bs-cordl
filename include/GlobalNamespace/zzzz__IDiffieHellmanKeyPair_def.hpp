@@ -22,21 +22,21 @@ MARK_REF_PTR_T(::GlobalNamespace::IDiffieHellmanKeyPair);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12711))
 // CS Name: ::IDiffieHellmanKeyPair*
 class CORDL_TYPE IDiffieHellmanKeyPair {
 public:
   // Declarations
   __declspec(property(get = get_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
 
-  /// @brief Method get_publicKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_publicKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
 
-  /// @brief Method GetPreMasterSecretAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPreMasterSecretAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* GetPreMasterSecretAsync(::BGNet::Core::ITaskUtility* taskUtility,
                                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
-  /// @brief Method GetPreMasterSecret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPreMasterSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDiffieHellmanKeyPair", modifiers: "&&", def_value: None }]

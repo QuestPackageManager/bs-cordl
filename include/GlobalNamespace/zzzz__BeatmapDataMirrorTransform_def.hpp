@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataMirrorTransform)
 namespace GlobalNamespace {
-class __BeatmapDataMirrorTransform____c__DisplayClass0_0;
+class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+class __BeatmapDataMirrorTransform____c__DisplayClass0_0;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClas
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4158))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4124))
 // CS Name: ::BeatmapDataMirrorTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataMirrorTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -45,10 +45,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cc0d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x223a28c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0 addr 0x21cc0e0 size 0xe0 virtual false final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x223a294, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -80,15 +80,15 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataMirrorTransform____c__Dis
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4125))
 // CS Name: ::BeatmapDataMirrorTransform*
 class CORDL_TYPE BeatmapDataMirrorTransform : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData addr 0x21cbf48 size 0x190 virtual false final false
+  /// @brief Method CreateTransformedData, addr 0x223a0fc, size 0x190, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataMirrorTransform", modifiers: "&&", def_value: None }]

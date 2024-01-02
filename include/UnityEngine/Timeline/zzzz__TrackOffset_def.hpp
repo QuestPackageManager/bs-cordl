@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::TrackOffset);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13838))
 // CS Name: ::UnityEngine.Timeline::TrackOffset
 struct CORDL_TYPE TrackOffset {
 public:

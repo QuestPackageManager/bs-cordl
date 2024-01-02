@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::InviteOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13252))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13248))
 // CS Name: ::Oculus.Platform::InviteOptions*
 class CORDL_TYPE InviteOptions : public ::System::Object {
 public:
@@ -33,19 +33,19 @@ public:
 
   static inline ::Oculus::Platform::InviteOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x258f7f4 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x26caa0c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSuggestedUser addr 0x258f858 size 0x68 virtual false final false
+  /// @brief Method AddSuggestedUser, addr 0x26caa70, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearSuggestedUsers addr 0x258f8c0 size 0x58 virtual false final false
+  /// @brief Method ClearSuggestedUsers, addr 0x26ec9a0, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method op_Explicit addr 0x258f918 size 0x58 virtual false final false
+  /// @brief Method op_Explicit, addr 0x26ec9f8, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::InviteOptions* options);
 
-  /// @brief Method Finalize addr 0x258f970 size 0xd4 virtual true final false
+  /// @brief Method Finalize, addr 0x26eca50, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "InviteOptions", modifiers: "&&", def_value: None }]

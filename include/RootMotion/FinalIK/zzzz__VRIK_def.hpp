@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(VRIK)
 namespace RootMotion::FinalIK {
-class IKSolverVR;
+class __VRIK__References;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class __VRIK__References;
+class IKSolverVR;
 }
 namespace UnityEngine {
 class Transform;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__VRIK__References);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12470))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12542))
 // CS Name: ::VRIK::References*
 class CORDL_TYPE __VRIK__References : public ::System::Object {
 public:
@@ -241,21 +241,21 @@ public:
 
   constexpr void __set_rightToes(::UnityEngine::Transform* value);
 
-  /// @brief Method GetTransforms addr 0x11e0620 size 0x43c virtual false final false
+  /// @brief Method GetTransforms, addr 0x125094c, size 0x43c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> GetTransforms();
 
-  /// @brief Method get_isFilled addr 0x11e0034 size 0x3bc virtual false final false
+  /// @brief Method get_isFilled, addr 0x1250360, size 0x3bc, virtual false, abstract: false, final false
   inline bool get_isFilled();
 
-  /// @brief Method get_isEmpty addr 0x11dfc78 size 0x3bc virtual false final false
+  /// @brief Method get_isEmpty, addr 0x124ffa4, size 0x3bc, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method AutoDetectReferences addr 0x11df850 size 0x38c virtual false final false
+  /// @brief Method AutoDetectReferences, addr 0x124fb7c, size 0x38c, virtual false, abstract: false, final false
   static inline bool AutoDetectReferences(::UnityEngine::Transform* root, ByRef<::RootMotion::FinalIK::__VRIK__References*> references);
 
   static inline ::RootMotion::FinalIK::__VRIK__References* New_ctor();
 
-  /// @brief Method .ctor addr 0x11e0618 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1250944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VRIK__References", modifiers: "&&", def_value: None }]
@@ -392,8 +392,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__VRIK__References, ___rightToes) 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12471))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12536))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12543))
 // CS Name: ::RootMotion.FinalIK::VRIK*
 class CORDL_TYPE VRIK : public ::RootMotion::FinalIK::IK {
 public:
@@ -418,33 +418,33 @@ public:
 
   constexpr void __set_solver(::RootMotion::FinalIK::IKSolverVR* value);
 
-  /// @brief Method OpenUserManual addr 0x11df768 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual, addr 0x124fa94, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x11df7ac size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference, addr 0x124fad8, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenSetupTutorial addr 0x11df7f0 size 0x44 virtual false final false
+  /// @brief Method OpenSetupTutorial, addr 0x124fb1c, size 0x44, virtual false, abstract: false, final false
   inline void OpenSetupTutorial();
 
-  /// @brief Method AutoDetectReferences addr 0x11df834 size 0x1c virtual false final false
+  /// @brief Method AutoDetectReferences, addr 0x124fb60, size 0x1c, virtual false, abstract: false, final false
   inline void AutoDetectReferences();
 
-  /// @brief Method GuessHandOrientations addr 0x11dfbdc size 0x28 virtual false final false
+  /// @brief Method GuessHandOrientations, addr 0x124ff08, size 0x28, virtual false, abstract: false, final false
   inline void GuessHandOrientations();
 
-  /// @brief Method GetIKSolver addr 0x11dfc04 size 0x8 virtual true final false
+  /// @brief Method GetIKSolver, addr 0x124ff30, size 0x8, virtual true, abstract: false, final false
   inline ::RootMotion::FinalIK::IKSolver* GetIKSolver();
 
-  /// @brief Method InitiateSolver addr 0x11dfc0c size 0x6c virtual true final false
+  /// @brief Method InitiateSolver, addr 0x124ff38, size 0x6c, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method UpdateSolver addr 0x11e03f0 size 0x190 virtual true final false
+  /// @brief Method UpdateSolver, addr 0x125071c, size 0x190, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
   static inline ::RootMotion::FinalIK::VRIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x11e0580 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x12508ac, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRIK", modifiers: "&&", def_value: None }]

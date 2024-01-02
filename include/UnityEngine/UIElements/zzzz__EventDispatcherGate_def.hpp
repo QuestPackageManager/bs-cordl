@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventDispatcherGate)
-namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
 namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::UIElements::EventDispatcherGate);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6998))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6912))
 // CS Name: ::UnityEngine.UIElements::EventDispatcherGate
 struct CORDL_TYPE EventDispatcherGate {
 public:
@@ -39,19 +39,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
 
-  /// @brief Method .ctor addr 0x2c9c19c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2e0254c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
 
-  /// @brief Method Dispose addr 0x2c9c218 size 0x18 virtual true final true
+  /// @brief Method Dispose, addr 0x2e025c8, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals addr 0x2c9c2b8 size 0xc virtual true final true
+  /// @brief Method Equals, addr 0x2e02668, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
 
-  /// @brief Method Equals addr 0x2c9c2c4 size 0x7c virtual true final false
+  /// @brief Method Equals, addr 0x2e02674, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2c9c340 size 0x18 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e026f0, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]

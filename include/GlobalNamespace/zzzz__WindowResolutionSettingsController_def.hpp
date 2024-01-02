@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::WindowResolutionSettingsController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5706))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5611))
 // CS Name: ::WindowResolutionSettingsController*
 class CORDL_TYPE WindowResolutionSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -48,18 +48,18 @@ public:
 
   constexpr void __set__windowResolutions(::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*> value);
 
-  /// @brief Method GetInitValues addr 0x2167278 size 0x214 virtual true final false
+  /// @brief Method GetInitValues, addr 0x22ac288, size 0x214, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x216748c size 0x74 virtual true final false
+  /// @brief Method ApplyValue, addr 0x22ac49c, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x2167500 size 0xcc virtual true final false
+  /// @brief Method TextForValue, addr 0x22ac510, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::WindowResolutionSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21675cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ac5dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowResolutionSettingsController", modifiers: "&&", def_value: None }]

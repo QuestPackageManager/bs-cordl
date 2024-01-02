@@ -11,22 +11,22 @@ namespace System {
 class Type;
 }
 namespace System {
-class Object;
+class Exception;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
-namespace System::Xml::Schema {
-struct XmlTypeCode;
+namespace System {
+class Object;
 }
 namespace System::Xml {
 class XmlNameTable;
 }
 namespace System::Xml::Schema {
 class FacetsChecker;
-}
-namespace System {
-class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_long);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11592))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11595))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11664))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11667))
 // CS Name: ::System.Xml.Schema::Datatype_long*
 class CORDL_TYPE Datatype_long : public ::System::Xml::Schema::Datatype_integer {
 public:
@@ -73,27 +73,27 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_FacetsChecker addr 0x273e124 size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker, addr 0x28bc148, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode addr 0x273e17c size 0x8 virtual true final false
+  /// @brief Method get_TypeCode, addr 0x28bc1a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method Compare addr 0x273e184 size 0x94 virtual true final false
+  /// @brief Method Compare, addr 0x28bc1a8, size 0x94, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method get_ValueType addr 0x273e218 size 0x58 virtual true final false
+  /// @brief Method get_ValueType, addr 0x28bc23c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x273e270 size 0x58 virtual true final false
+  /// @brief Method get_ListValueType, addr 0x28bc294, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method TryParseValue addr 0x273e2c8 size 0x140 virtual true final false
+  /// @brief Method TryParseValue, addr 0x28bc2ec, size 0x140, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_long* New_ctor();
 
-  /// @brief Method .ctor addr 0x273e408 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x28bc42c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_long", modifiers: "&&", def_value: None }]

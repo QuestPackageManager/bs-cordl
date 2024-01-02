@@ -13,91 +13,91 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebRequest)
 namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
-class NetworkCredential;
-}
-namespace System::Net {
-struct CloseExState;
-}
-namespace System {
-class Uri;
-}
-namespace System::Net {
-class WebResponse;
-}
-namespace System::Net {
 class __TimerThread__Queue;
-}
-namespace System::Net {
-class FtpMethodInfo;
-}
-namespace System::Net {
-class __TimerThread__Callback;
-}
-namespace System::Net {
-class ContextAwareResult;
-}
-namespace System {
-class Exception;
-}
-namespace System::Net {
-class __TimerThread__Timer;
-}
-namespace System::Net {
-class IWebProxy;
 }
 namespace System::Net {
 class FtpWebResponse;
 }
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System {
-class Object;
+namespace System::Net {
+class ContextAwareResult;
 }
 namespace System::Net {
-class __FtpWebRequest____c;
+class FtpMethodInfo;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::Net {
 class LazyAsyncResult;
 }
 namespace System {
-class IAsyncResult;
+class Object;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Net {
+class NetworkCredential;
+}
+namespace System::Net {
+class __FtpWebRequest____c;
+}
+namespace System::Net {
+class ICredentials;
 }
 namespace System::Net::Cache {
 class RequestCachePolicy;
 }
-namespace System::Net {
-class WebHeaderCollection;
+namespace System {
+class Uri;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
+struct __FtpWebRequest__RequestStage;
+}
+namespace System::Net {
+class IWebProxy;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Net {
+class __TimerThread__Callback;
+}
+namespace System::Net {
+class WebResponse;
+}
+namespace System::Net {
+class __TimerThread__Timer;
+}
+namespace System::Net {
 struct __FtpWebRequest___CreateConnectionAsync_d__86;
+}
+namespace System {
+class Exception;
 }
 namespace System::Net {
 class FtpControlStream;
 }
 namespace System::Net {
-struct __FtpWebRequest__RequestStage;
-}
-namespace System::IO {
-class Stream;
+struct CloseExState;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Net::Sockets {
 class TcpClient;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -125,7 +125,7 @@ MARK_VAL_T(::System::Net::__FtpWebRequest___CreateConnectionAsync_d__86);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9047))
 // CS Name: ::FtpWebRequest::RequestStage
 struct CORDL_TYPE __FtpWebRequest__RequestStage {
 public:
@@ -186,8 +186,8 @@ static_assert(offsetof(::System::Net::__FtpWebRequest__RequestStage, value__) ==
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3390))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9048))
 // CS Name: ::FtpWebRequest::<CreateConnectionAsync>d__86
 struct CORDL_TYPE __FtpWebRequest___CreateConnectionAsync_d__86 {
 public:
@@ -195,10 +195,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x281cfc8 size 0x30c virtual true final true
+  /// @brief Method MoveNext, addr 0x299a83c, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x281d2d4 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x299ab48, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -251,8 +251,8 @@ static_assert(offsetof(::System::Net::__FtpWebRequest___CreateConnectionAsync_d_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9049))
 // CS Name: ::FtpWebRequest::<>c*
 class CORDL_TYPE __FtpWebRequest____c : public ::System::Object {
 public:
@@ -273,10 +273,10 @@ public:
 
   static inline ::System::Net::__FtpWebRequest____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x281d344 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x299abb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_ClientCertificates>b__114_0 addr 0x281d34c size 0x5c virtual false final false
+  /// @brief Method <get_ClientCertificates>b__114_0, addr 0x299abc0, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _get_ClientCertificates_b__114_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FtpWebRequest____c", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebRequest____
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7933)), TypeDefinitionIndex(TypeDefinitionIndex(7884)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9047))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9050))
 // CS Name: ::System.Net::FtpWebRequest*
 class CORDL_TYPE FtpWebRequest : public ::System::Net::WebRequest {
 public:
@@ -672,156 +672,156 @@ public:
 
   static inline ::System::Net::__TimerThread__Queue* getStaticF_s_DefaultTimerQueue();
 
-  /// @brief Method get_MethodInfo addr 0x2817698 size 0x8 virtual false final false
+  /// @brief Method get_MethodInfo, addr 0x2994f0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpMethodInfo* get_MethodInfo();
 
-  /// @brief Method get_Method addr 0x28176a0 size 0x1c virtual true final false
+  /// @brief Method get_Method, addr 0x2994f14, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method set_Method addr 0x28176bc size 0x1ac virtual true final false
+  /// @brief Method set_Method, addr 0x2994f30, size 0x1ac, virtual true, abstract: false, final false
   inline void set_Method(::StringW value);
 
-  /// @brief Method get_RenameTo addr 0x2817880 size 0x8 virtual false final false
+  /// @brief Method get_RenameTo, addr 0x29950f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RenameTo();
 
-  /// @brief Method get_Credentials addr 0x2817888 size 0x8 virtual true final false
+  /// @brief Method get_Credentials, addr 0x29950fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::ICredentials* get_Credentials();
 
-  /// @brief Method set_Credentials addr 0x2817890 size 0x150 virtual true final false
+  /// @brief Method set_Credentials, addr 0x2995104, size 0x150, virtual true, abstract: false, final false
   inline void set_Credentials(::System::Net::ICredentials* value);
 
-  /// @brief Method get_RequestUri addr 0x28179e0 size 0x8 virtual true final false
+  /// @brief Method get_RequestUri, addr 0x2995254, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method get_Timeout addr 0x28179e8 size 0x8 virtual true final false
+  /// @brief Method get_Timeout, addr 0x299525c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Timeout();
 
-  /// @brief Method set_Timeout addr 0x28179f0 size 0xd8 virtual true final false
+  /// @brief Method set_Timeout, addr 0x2995264, size 0xd8, virtual true, abstract: false, final false
   inline void set_Timeout(int32_t value);
 
-  /// @brief Method get_RemainingTimeout addr 0x2817ac8 size 0x8 virtual false final false
+  /// @brief Method get_RemainingTimeout, addr 0x299533c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RemainingTimeout();
 
-  /// @brief Method get_ReadWriteTimeout addr 0x2817ad0 size 0x8 virtual false final false
+  /// @brief Method get_ReadWriteTimeout, addr 0x2995344, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ReadWriteTimeout();
 
-  /// @brief Method get_ContentOffset addr 0x2817ad8 size 0x8 virtual false final false
+  /// @brief Method get_ContentOffset, addr 0x299534c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentOffset();
 
-  /// @brief Method get_ContentLength addr 0x2817ae0 size 0x8 virtual true final false
+  /// @brief Method get_ContentLength, addr 0x2995354, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_ContentLength();
 
-  /// @brief Method set_ContentLength addr 0x2817ae8 size 0x8 virtual true final false
+  /// @brief Method set_ContentLength, addr 0x299535c, size 0x8, virtual true, abstract: false, final false
   inline void set_ContentLength(int64_t value);
 
-  /// @brief Method get_Proxy addr 0x2817af0 size 0x8 virtual true final false
+  /// @brief Method get_Proxy, addr 0x2995364, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::IWebProxy* get_Proxy();
 
-  /// @brief Method set_Proxy addr 0x2817af8 size 0x68 virtual true final false
+  /// @brief Method set_Proxy, addr 0x299536c, size 0x68, virtual true, abstract: false, final false
   inline void set_Proxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method set_ConnectionGroupName addr 0x2817b60 size 0x6c virtual true final false
+  /// @brief Method set_ConnectionGroupName, addr 0x29953d4, size 0x6c, virtual true, abstract: false, final false
   inline void set_ConnectionGroupName(::StringW value);
 
-  /// @brief Method get_Aborted addr 0x2817bcc size 0x8 virtual false final false
+  /// @brief Method get_Aborted, addr 0x2995440, size 0x8, virtual false, abstract: false, final false
   inline bool get_Aborted();
 
   static inline ::System::Net::FtpWebRequest* New_ctor(::System::Uri* uri);
 
-  /// @brief Method .ctor addr 0x2817bd4 size 0x3c0 virtual false final false
+  /// @brief Method .ctor, addr 0x2995448, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri);
 
-  /// @brief Method GetResponse addr 0x2817f94 size 0x7ac virtual true final false
+  /// @brief Method GetResponse, addr 0x2995808, size 0x7ac, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* GetResponse();
 
-  /// @brief Method BeginGetResponse addr 0x28198a8 size 0x6c0 virtual true final false
+  /// @brief Method BeginGetResponse, addr 0x299711c, size 0x6c0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetResponse(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndGetResponse addr 0x2819f68 size 0x40c virtual true final false
+  /// @brief Method EndGetResponse, addr 0x29977dc, size 0x40c, virtual true, abstract: false, final false
   inline ::System::Net::WebResponse* EndGetResponse(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method BeginGetRequestStream addr 0x281a374 size 0x53c virtual true final false
+  /// @brief Method BeginGetRequestStream, addr 0x2997be8, size 0x53c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetRequestStream(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndGetRequestStream addr 0x281a8b0 size 0x470 virtual true final false
+  /// @brief Method EndGetRequestStream, addr 0x2998124, size 0x470, virtual true, abstract: false, final false
   inline ::System::IO::Stream* EndGetRequestStream(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method SubmitRequest addr 0x2818b88 size 0x4ec virtual false final false
+  /// @brief Method SubmitRequest, addr 0x29963fc, size 0x4ec, virtual false, abstract: false, final false
   inline void SubmitRequest(bool isAsync);
 
-  /// @brief Method TranslateConnectException addr 0x281b610 size 0x104 virtual false final false
+  /// @brief Method TranslateConnectException, addr 0x2998e84, size 0x104, virtual false, abstract: false, final false
   inline ::System::Exception* TranslateConnectException(::System::Exception* e);
 
-  /// @brief Method CreateConnectionAsync addr 0x281ad20 size 0x94 virtual false final false
+  /// @brief Method CreateConnectionAsync, addr 0x2998594, size 0x94, virtual false, abstract: false, final false
   inline void CreateConnectionAsync();
 
-  /// @brief Method CreateConnection addr 0x281adb4 size 0x164 virtual false final false
+  /// @brief Method CreateConnection, addr 0x2998628, size 0x164, virtual false, abstract: false, final false
   inline ::System::Net::FtpControlStream* CreateConnection();
 
-  /// @brief Method TimedSubmitRequestHelper addr 0x281af68 size 0x428 virtual false final false
+  /// @brief Method TimedSubmitRequestHelper, addr 0x29987dc, size 0x428, virtual false, abstract: false, final false
   inline ::System::IO::Stream* TimedSubmitRequestHelper(bool isAsync);
 
-  /// @brief Method TimerCallback addr 0x281b780 size 0xfc virtual false final false
+  /// @brief Method TimerCallback, addr 0x2998ff4, size 0xfc, virtual false, abstract: false, final false
   inline void TimerCallback(::System::Net::__TimerThread__Timer* timer, int32_t timeNoticed, ::System::Object* context);
 
-  /// @brief Method get_TimerQueue addr 0x281b714 size 0x6c virtual false final false
+  /// @brief Method get_TimerQueue, addr 0x2998f88, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Net::__TimerThread__Queue* get_TimerQueue();
 
-  /// @brief Method AttemptedRecovery addr 0x281b390 size 0x280 virtual false final false
+  /// @brief Method AttemptedRecovery, addr 0x2998c04, size 0x280, virtual false, abstract: false, final false
   inline bool AttemptedRecovery(::System::Exception* e);
 
-  /// @brief Method SetException addr 0x2819564 size 0x344 virtual false final false
+  /// @brief Method SetException, addr 0x2996dd8, size 0x344, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method CheckError addr 0x2818740 size 0x14 virtual false final false
+  /// @brief Method CheckError, addr 0x2995fb4, size 0x14, virtual false, abstract: false, final false
   inline void CheckError();
 
-  /// @brief Method RequestCallback addr 0x280f7d8 size 0x10 virtual false final false
+  /// @brief Method RequestCallback, addr 0x298d048, size 0x10, virtual false, abstract: false, final false
   inline void RequestCallback(::System::Object* obj);
 
-  /// @brief Method SyncRequestCallback addr 0x281c2ec size 0x3d0 virtual false final false
+  /// @brief Method SyncRequestCallback, addr 0x2999b60, size 0x3d0, virtual false, abstract: false, final false
   inline void SyncRequestCallback(::System::Object* obj);
 
-  /// @brief Method AsyncRequestCallback addr 0x281b88c size 0xa60 virtual false final false
+  /// @brief Method AsyncRequestCallback, addr 0x2999100, size 0xa60, virtual false, abstract: false, final false
   inline void AsyncRequestCallback(::System::Object* obj);
 
-  /// @brief Method FinishRequestStage addr 0x2818754 size 0x434 virtual false final false
+  /// @brief Method FinishRequestStage, addr 0x2995fc8, size 0x434, virtual false, abstract: false, final false
   inline ::System::Net::__FtpWebRequest__RequestStage FinishRequestStage(::System::Net::__FtpWebRequest__RequestStage stage);
 
-  /// @brief Method Abort addr 0x281c6bc size 0x48c virtual true final false
+  /// @brief Method Abort, addr 0x2999f30, size 0x48c, virtual true, abstract: false, final false
   inline void Abort();
 
-  /// @brief Method set_CachePolicy addr 0x281cb48 size 0x68 virtual true final false
+  /// @brief Method set_CachePolicy, addr 0x299a3bc, size 0x68, virtual true, abstract: false, final false
   inline void set_CachePolicy(::System::Net::Cache::RequestCachePolicy* value);
 
-  /// @brief Method get_UseBinary addr 0x281cbb0 size 0x8 virtual false final false
+  /// @brief Method get_UseBinary, addr 0x299a424, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseBinary();
 
-  /// @brief Method get_UsePassive addr 0x281cbb8 size 0x8 virtual false final false
+  /// @brief Method get_UsePassive, addr 0x299a42c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UsePassive();
 
-  /// @brief Method get_ClientCertificates addr 0x28122b4 size 0xfc virtual false final false
+  /// @brief Method get_ClientCertificates, addr 0x298fb24, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method get_EnableSsl addr 0x281cbc0 size 0x8 virtual false final false
+  /// @brief Method get_EnableSsl, addr 0x299a434, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableSsl();
 
-  /// @brief Method get_Headers addr 0x281cbc8 size 0x6c virtual true final false
+  /// @brief Method get_Headers, addr 0x299a43c, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_UseDefaultCredentials addr 0x281cc34 size 0x28 virtual true final false
+  /// @brief Method get_UseDefaultCredentials, addr 0x299a4a8, size 0x28, virtual true, abstract: false, final false
   inline bool get_UseDefaultCredentials();
 
-  /// @brief Method set_PreAuthenticate addr 0x281cc5c size 0x28 virtual true final false
+  /// @brief Method set_PreAuthenticate, addr 0x299a4d0, size 0x28, virtual true, abstract: false, final false
   inline void set_PreAuthenticate(bool value);
 
-  /// @brief Method get_InUse addr 0x2817868 size 0x18 virtual false final false
+  /// @brief Method get_InUse, addr 0x29950dc, size 0x18, virtual false, abstract: false, final false
   inline bool get_InUse();
 
-  /// @brief Method EnsureFtpWebResponse addr 0x2819074 size 0x4f0 virtual false final false
+  /// @brief Method EnsureFtpWebResponse, addr 0x29968e8, size 0x4f0, virtual false, abstract: false, final false
   inline void EnsureFtpWebResponse(::System::Exception* exception);
 
-  /// @brief Method DataStreamClosed addr 0x281ce34 size 0x80 virtual false final false
+  /// @brief Method DataStreamClosed, addr 0x299a6a8, size 0x80, virtual false, abstract: false, final false
   inline void DataStreamClosed(::System::Net::CloseExState closeState);
 
   // Ctor Parameters [CppParam { name: "", ty: "FtpWebRequest", modifiers: "&&", def_value: None }]

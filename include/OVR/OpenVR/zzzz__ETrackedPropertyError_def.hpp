@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackedPropertyError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8588))
 // CS Name: ::OVR.OpenVR::ETrackedPropertyError
 struct CORDL_TYPE ETrackedPropertyError {
 public:

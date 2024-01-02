@@ -24,25 +24,25 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDigestSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetByteLength addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetByteLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BlockUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDigest", modifiers: "&&", def_value: None }]

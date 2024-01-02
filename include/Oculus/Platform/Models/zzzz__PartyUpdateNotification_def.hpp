@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PartyUpdateNotification);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13372))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13345))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13468))
 // CS Name: ::Oculus.Platform.Models::PartyUpdateNotification*
 class CORDL_TYPE PartyUpdateNotification : public ::System::Object {
 public:
@@ -88,7 +88,7 @@ public:
 
   static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b67fc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2707fa8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "PartyUpdateNotification", modifiers: "&&", def_value: None }]

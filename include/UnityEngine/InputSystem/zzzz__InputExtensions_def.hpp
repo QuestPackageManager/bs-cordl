@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InputExtensions)
 namespace UnityEngine::InputSystem {
-struct TouchPhase;
+struct InputActionPhase;
 }
 namespace UnityEngine::InputSystem {
-struct InputActionPhase;
+struct TouchPhase;
 }
 namespace UnityEngine::InputSystem {
 struct Key;
@@ -23,25 +23,25 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6376))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6290))
 // CS Name: ::UnityEngine.InputSystem::InputExtensions*
 class CORDL_TYPE InputExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsInProgress addr 0x292bf98 size 0x10 virtual false final false
+  /// @brief Method IsInProgress, addr 0x2aaace0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInProgress(::UnityEngine::InputSystem::InputActionPhase phase);
 
-  /// @brief Method IsEndedOrCanceled addr 0x292bfa8 size 0x10 virtual false final false
+  /// @brief Method IsEndedOrCanceled, addr 0x2aaacf0, size 0x10, virtual false, abstract: false, final false
   static inline bool IsEndedOrCanceled(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsActive addr 0x292b874 size 0x20 virtual false final false
+  /// @brief Method IsActive, addr 0x2aaa5bc, size 0x20, virtual false, abstract: false, final false
   static inline bool IsActive(::UnityEngine::InputSystem::TouchPhase phase);
 
-  /// @brief Method IsModifierKey addr 0x292bfb8 size 0x10 virtual false final false
+  /// @brief Method IsModifierKey, addr 0x2aaad00, size 0x10, virtual false, abstract: false, final false
   static inline bool IsModifierKey(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method IsTextInputKey addr 0x292bfc8 size 0x2c virtual false final false
+  /// @brief Method IsTextInputKey, addr 0x2aaad10, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsTextInputKey(::UnityEngine::InputSystem::Key key);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputExtensions", modifiers: "&&", def_value: None }]

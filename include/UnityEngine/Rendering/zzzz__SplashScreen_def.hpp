@@ -14,13 +14,13 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::SplashScreen);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10275))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10353))
 // CS Name: ::UnityEngine.Rendering::SplashScreen*
 class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_isFinished addr 0x2b85654 size 0x28 virtual false final false
+  /// @brief Method get_isFinished, addr 0x2ceca88, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
   // Ctor Parameters [CppParam { name: "", ty: "SplashScreen", modifiers: "&&", def_value: None }]

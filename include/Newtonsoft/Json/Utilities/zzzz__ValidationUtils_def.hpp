@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ValidationUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11830))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11902))
 // CS Name: ::Newtonsoft.Json.Utilities::ValidationUtils*
 class CORDL_TYPE ValidationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNotNull addr 0x24f20dc size 0x54 virtual false final false
+  /// @brief Method ArgumentNotNull, addr 0x2655820, size 0x54, virtual false, abstract: false, final false
   static inline void ArgumentNotNull(::System::Object* value, ::StringW parameterName);
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationUtils", modifiers: "&&", def_value: None }]

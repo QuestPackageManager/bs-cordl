@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(PooledObject_1)
-namespace UnityEngine::Pool {
-template <typename T> class IObjectPool_1;
-}
 namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Pool {
+template <typename T> class IObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -23,7 +23,7 @@ namespace UnityEngine::Pool {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10445))
 // CS Name: ::UnityEngine.Pool::PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {
 public:
@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value, ::UnityEngine::Pool::IObjectPool_1<T>* pool);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   // Ctor Parameters [CppParam { name: "m_ToReturn", ty: "T", modifiers: "", def_value: None }, CppParam { name: "m_Pool", ty: "::UnityEngine::Pool::IObjectPool_1<T>*", modifiers: "", def_value: None

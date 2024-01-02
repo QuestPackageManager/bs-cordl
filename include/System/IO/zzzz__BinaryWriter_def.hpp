@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(BinaryWriter)
 namespace System::Text {
 class Encoding;
 }
+namespace System {
+class IDisposable;
+}
 namespace System::IO {
 class Stream;
 }
@@ -18,7 +21,10 @@ namespace System::Text {
 class Encoder;
 }
 namespace System {
-class IDisposable;
+class IAsyncDisposable;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
 }
 // Forward declare root types
 namespace System::IO {
@@ -30,8 +36,8 @@ MARK_REF_PTR_T(::System::IO::BinaryWriter);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3622))
 // CS Name: ::System.IO::BinaryWriter*
 class CORDL_TYPE BinaryWriter : public ::System::Object {
 public:
@@ -62,6 +68,9 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert operator to "::System::IAsyncDisposable"
+  constexpr operator ::System::IAsyncDisposable*() noexcept;
 
   constexpr ::System::IO::Stream*& __get_OutStream();
 
@@ -111,85 +120,88 @@ public:
 
   static inline ::System::IO::BinaryWriter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23de940 size 0xec virtual false final false
+  /// @brief Method .ctor, addr 0x253a8ec, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::BinaryWriter* New_ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor addr 0x23dea2c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x253a9d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
   static inline ::System::IO::BinaryWriter* New_ctor(::System::IO::Stream* output, ::System::Text::Encoding* encoding);
 
-  /// @brief Method .ctor addr 0x23dec24 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x253abd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::Text::Encoding* encoding);
 
   static inline ::System::IO::BinaryWriter* New_ctor(::System::IO::Stream* output, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method .ctor addr 0x23deaac size 0x178 virtual false final false
+  /// @brief Method .ctor, addr 0x253aa58, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::System::Text::Encoding* encoding, bool leaveOpen);
 
-  /// @brief Method Close addr 0x23dec2c size 0x10 virtual true final false
+  /// @brief Method Close, addr 0x253abd8, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x23dec3c size 0x48 virtual true final false
+  /// @brief Method Dispose, addr 0x253abe8, size 0x48, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Dispose addr 0x23dec84 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x253ac30, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Flush addr 0x23dec94 size 0x24 virtual true final false
+  /// @brief Method Flush, addr 0x253ac40, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method Write addr 0x23decb8 size 0x50 virtual true final false
+  /// @brief Method DisposeAsync, addr 0x253ac64, size 0x1d4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
+
+  /// @brief Method Write, addr 0x253ae38, size 0x50, virtual true, abstract: false, final false
   inline void Write(bool value);
 
-  /// @brief Method Write addr 0x23ded08 size 0x24 virtual true final false
+  /// @brief Method Write, addr 0x253ae88, size 0x24, virtual true, abstract: false, final false
   inline void Write(uint8_t value);
 
-  /// @brief Method Write addr 0x23ded2c size 0x24 virtual true final false
+  /// @brief Method Write, addr 0x253aeac, size 0x24, virtual true, abstract: false, final false
   inline void Write(int8_t value);
 
-  /// @brief Method Write addr 0x23ded50 size 0x7c virtual true final false
+  /// @brief Method Write, addr 0x253aed0, size 0x7c, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method Write addr 0x23dedcc size 0x24 virtual true final false
+  /// @brief Method Write, addr 0x253af4c, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write addr 0x23dedf0 size 0x12c virtual true final false
+  /// @brief Method Write, addr 0x253af70, size 0x12c, virtual true, abstract: false, final false
   inline void Write(char16_t ch);
 
-  /// @brief Method Write addr 0x23def1c size 0xa8 virtual true final false
+  /// @brief Method Write, addr 0x253b09c, size 0xa8, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> chars);
 
-  /// @brief Method Write addr 0x23defc4 size 0x3c virtual true final false
+  /// @brief Method Write, addr 0x253b144, size 0x3c, virtual true, abstract: false, final false
   inline void Write(double_t value);
 
-  /// @brief Method Write addr 0x23df000 size 0x68 virtual true final false
+  /// @brief Method Write, addr 0x253b180, size 0x68, virtual true, abstract: false, final false
   inline void Write(int16_t value);
 
-  /// @brief Method Write addr 0x23df068 size 0x68 virtual true final false
+  /// @brief Method Write, addr 0x253b1e8, size 0x68, virtual true, abstract: false, final false
   inline void Write(uint16_t value);
 
-  /// @brief Method Write addr 0x23df0d0 size 0xa0 virtual true final false
+  /// @brief Method Write, addr 0x253b250, size 0xa0, virtual true, abstract: false, final false
   inline void Write(int32_t value);
 
-  /// @brief Method Write addr 0x23df170 size 0xa0 virtual true final false
+  /// @brief Method Write, addr 0x253b2f0, size 0xa0, virtual true, abstract: false, final false
   inline void Write(uint32_t value);
 
-  /// @brief Method Write addr 0x23df210 size 0x110 virtual true final false
+  /// @brief Method Write, addr 0x253b390, size 0x110, virtual true, abstract: false, final false
   inline void Write(int64_t value);
 
-  /// @brief Method Write addr 0x23df320 size 0x110 virtual true final false
+  /// @brief Method Write, addr 0x253b4a0, size 0x110, virtual true, abstract: false, final false
   inline void Write(uint64_t value);
 
-  /// @brief Method Write addr 0x23df430 size 0x3c virtual true final false
+  /// @brief Method Write, addr 0x253b5b0, size 0x3c, virtual true, abstract: false, final false
   inline void Write(float_t value);
 
-  /// @brief Method Write addr 0x23df46c size 0x2b4 virtual true final false
+  /// @brief Method Write, addr 0x253b5ec, size 0x2b4, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write7BitEncodedInt addr 0x23df720 size 0x60 virtual false final false
+  /// @brief Method Write7BitEncodedInt, addr 0x253b8a0, size 0x60, virtual false, abstract: false, final false
   inline void Write7BitEncodedInt(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryWriter", modifiers: "&&", def_value: None }]

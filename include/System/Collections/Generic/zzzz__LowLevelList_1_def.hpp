@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelList_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 template <typename T> class Predicate_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -24,8 +24,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3859))
 // CS Name: ::System.Collections.Generic::LowLevelList`1<T>*
 class CORDL_TYPE LowLevelList_1 : public ::System::Object {
 public:
@@ -72,66 +72,66 @@ public:
 
   static inline ::System::Collections::Generic::LowLevelList_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::LowLevelList_1<T>* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_Capacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method set_Capacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Capacity(int32_t value);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, T value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);
 
-  /// @brief Method EnsureCapacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnsureCapacity(int32_t min);
 
-  /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T item);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t IndexOf(T item);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Insert(int32_t index, T item);
 
-  /// @brief Method InsertRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InsertRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertRange(int32_t index, ::System::Collections::Generic::IEnumerable_1<T>* collection);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
 
-  /// @brief Method RemoveAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t RemoveAll(::System::Predicate_1<T>* match);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelList_1", modifiers: "&&", def_value: None }]

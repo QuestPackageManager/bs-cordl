@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrdinalIgnoreCaseComparer)
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::OrdinalIgnoreCaseComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2474))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2476))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2476))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2478))
 // CS Name: ::System::OrdinalIgnoreCaseComparer*
 class CORDL_TYPE OrdinalIgnoreCaseComparer : public ::System::OrdinalComparer {
 public:
@@ -36,19 +36,19 @@ public:
 
   static inline ::System::OrdinalIgnoreCaseComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2468470 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25c5398, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Compare addr 0x2468df4 size 0x18 virtual true final false
+  /// @brief Method Compare, addr 0x25c5d1c, size 0x18, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals addr 0x2468e0c size 0x18 virtual true final false
+  /// @brief Method Equals, addr 0x25c5d34, size 0x18, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode addr 0x2468e24 size 0x64 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25c5d4c, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetObjectData addr 0x2468e88 size 0xb4 virtual true final true
+  /// @brief Method GetObjectData, addr 0x25c5db0, size 0xb4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "OrdinalIgnoreCaseComparer", modifiers: "&&", def_value: None }]

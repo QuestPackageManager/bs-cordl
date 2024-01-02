@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Set_1_def.hpp"
-#include "System/Linq/zzzz__Set_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Linq/zzzz__Set_1_def.hpp"
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TElement", modifiers: "", def_value: Some("nullptr") }, CppParam
 // { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename TElement> constexpr ::System::Linq::__Set_1__Slot<TElement>::__Set_1__Slot(int32_t hashCode, TElement value, int32_t next) noexcept {
@@ -85,6 +85,12 @@ template <typename TElement> inline void System::Linq::Set_1<TElement>::_ctor(::
 template <typename TElement> inline bool System::Linq::Set_1<TElement>::Add(TElement value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Set_1<TElement>*>::get(), "Add", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
+}
+template <typename TElement> inline bool System::Linq::Set_1<TElement>::Remove(TElement value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Set_1<TElement>*>::get(), "Remove", std::vector<Il2CppClass*>{},
                                                ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TElement>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value);
 }

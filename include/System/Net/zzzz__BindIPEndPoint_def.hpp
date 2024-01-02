@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BindIPEndPoint)
 namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net {
 class ServicePoint;
 }
 namespace System {
 class Object;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace System::Net {
@@ -24,18 +24,18 @@ MARK_REF_PTR_T(::System::Net::BindIPEndPoint);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7987))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9150))
 // CS Name: ::System.Net::BindIPEndPoint*
 class CORDL_TYPE BindIPEndPoint : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x283e640 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x29bbeb8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x283e770 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x29bbfe8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "BindIPEndPoint", modifiers: "&&", def_value: None }]

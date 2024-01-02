@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGroupBoxOption);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6936))
 // CS Name: ::UnityEngine.UIElements::IGroupBoxOption*
 class CORDL_TYPE IGroupBoxOption {
 public:
   // Declarations
-  /// @brief Method SetSelected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetSelected(bool selected);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGroupBoxOption", modifiers: "&&", def_value: None }]

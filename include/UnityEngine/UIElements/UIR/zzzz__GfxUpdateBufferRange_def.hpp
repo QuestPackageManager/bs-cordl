@@ -16,8 +16,8 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::GfxUpdateBufferRange);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2636))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15379))
 // CS Name: ::UnityEngine.UIElements.UIR::GfxUpdateBufferRange
 struct CORDL_TYPE GfxUpdateBufferRange {
 public:

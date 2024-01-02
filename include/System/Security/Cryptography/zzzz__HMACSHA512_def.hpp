@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMACSHA512);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2933))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2934))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2940))
 // CS Name: ::System.Security.Cryptography::HMACSHA512*
 class CORDL_TYPE HMACSHA512 : public ::System::Security::Cryptography::HMAC {
 public:
@@ -35,15 +35,15 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA512* New_ctor();
 
-  /// @brief Method .ctor addr 0x2305b2c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x245f1a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::HMACSHA512* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor addr 0x2305b50 size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0x245f1c8, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_BlockSize addr 0x2305c40 size 0x18 virtual false final false
+  /// @brief Method get_BlockSize, addr 0x245f2b8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMACSHA512", modifiers: "&&", def_value: None }]

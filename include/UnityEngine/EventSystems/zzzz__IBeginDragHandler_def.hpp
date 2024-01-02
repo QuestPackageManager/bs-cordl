@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeginDragHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IBeginDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13182))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13177))
 // CS Name: ::UnityEngine.EventSystems::IBeginDragHandler*
 class CORDL_TYPE IBeginDragHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnBeginDrag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnBeginDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeginDragHandler", modifiers: "&&", def_value: None }]

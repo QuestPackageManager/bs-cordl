@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Ed25519KeyPairGenerator)
 namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
+}
+namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricCipherKeyPairGenerator;
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Ed25519KeyPairGenerator)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(900))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Ed25519KeyPairGenerator*
 class CORDL_TYPE Ed25519KeyPairGenerator : public ::System::Object {
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0xe84fd8 size 0x1c virtual true final false
+  /// @brief Method Init, addr 0xefa1ac, size 0x1c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xe84ff4 size 0xb0 virtual true final false
+  /// @brief Method GenerateKeyPair, addr 0xefa1c8, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Ed25519KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe850a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xefa278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ed25519KeyPairGenerator", modifiers: "&&", def_value: None }]

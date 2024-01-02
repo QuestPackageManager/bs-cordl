@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TransformSpectrogram)
-namespace UnityEngine {
-class Transform;
-}
 namespace GlobalNamespace {
 class BasicSpectrogramData;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TransformSpectrogram);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14948)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5106))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5001))
 // CS Name: ::TransformSpectrogram*
 class CORDL_TYPE TransformSpectrogram : public ::UnityEngine::MonoBehaviour {
 public:
@@ -114,15 +114,15 @@ public:
 
   constexpr void __set__defaultPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method Awake addr 0x227e484 size 0x188 virtual false final false
+  /// @brief Method Awake, addr 0x23b72f0, size 0x188, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x227e60c size 0x268 virtual false final false
+  /// @brief Method Update, addr 0x23b7478, size 0x268, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method .ctor addr 0x227e874 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x23b76e0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformSpectrogram", modifiers: "&&", def_value: None }]

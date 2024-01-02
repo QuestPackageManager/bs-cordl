@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocationWrapper)
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::LocationWra
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14023))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::LocationWrapper*
 class CORDL_TYPE LocationWrapper : public ::System::Object {
 public:
@@ -64,34 +64,34 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor addr 0x2a50b0c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd3860, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method get_InternalId addr 0x2a582ec size 0xa0 virtual true final true
+  /// @brief Method get_InternalId, addr 0x2bdb040, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_ProviderId addr 0x2a5838c size 0xa4 virtual true final true
+  /// @brief Method get_ProviderId, addr 0x2bdb0e0, size 0xa4, virtual true, abstract: false, final true
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_Dependencies addr 0x2a58430 size 0xa4 virtual true final true
+  /// @brief Method get_Dependencies, addr 0x2bdb184, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method get_DependencyHashCode addr 0x2a584d4 size 0xa4 virtual true final true
+  /// @brief Method get_DependencyHashCode, addr 0x2bdb228, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies addr 0x2a58578 size 0xa4 virtual true final true
+  /// @brief Method get_HasDependencies, addr 0x2bdb2cc, size 0xa4, virtual true, abstract: false, final true
   inline bool get_HasDependencies();
 
-  /// @brief Method get_Data addr 0x2a5861c size 0xa4 virtual true final true
+  /// @brief Method get_Data, addr 0x2bdb370, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_PrimaryKey addr 0x2a586c0 size 0xa4 virtual true final true
+  /// @brief Method get_PrimaryKey, addr 0x2bdb414, size 0xa4, virtual true, abstract: false, final true
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ResourceType addr 0x2a58764 size 0xa4 virtual true final true
+  /// @brief Method get_ResourceType, addr 0x2bdb4b8, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method Hash addr 0x2a58808 size 0xac virtual true final true
+  /// @brief Method Hash, addr 0x2bdb55c, size 0xac, virtual true, abstract: false, final true
   inline int32_t Hash(::System::Type* resultType);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocationWrapper", modifiers: "&&", def_value: None }]

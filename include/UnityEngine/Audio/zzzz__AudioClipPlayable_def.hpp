@@ -11,10 +11,10 @@ namespace UnityEngine::Playables {
 class IPlayable;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
 struct PlayableHandle;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -22,8 +22,8 @@ struct Playable;
 namespace UnityEngine {
 class AudioClip;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -35,8 +35,8 @@ MARK_VAL_T(::UnityEngine::Audio::AudioClipPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15627))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15607))
 // CS Name: ::UnityEngine.Audio::AudioClipPlayable
 struct CORDL_TYPE AudioClipPlayable {
 public:
@@ -47,55 +47,55 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Audio::AudioClipPlayable>*();
 
-  /// @brief Method Create addr 0x2b37974 size 0x124 virtual false final false
+  /// @brief Method Create, addr 0x2c9c69c, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioClipPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AudioClip* clip, bool looping);
 
-  /// @brief Method CreateHandle addr 0x2b37a98 size 0xd0 virtual false final false
+  /// @brief Method CreateHandle, addr 0x2c9c7c0, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::AudioClip* clip, bool looping);
 
-  /// @brief Method .ctor addr 0x2b37b68 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9c890, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle addr 0x2b37c84 size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2c9c9ac, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method op_Implicit addr 0x2b37c90 size 0x30 virtual false final false
+  /// @brief Method op_Implicit, addr 0x2c9c9b8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Audio::AudioClipPlayable playable);
 
-  /// @brief Method op_Explicit addr 0x2b37cc0 size 0x44 virtual false final false
+  /// @brief Method op_Explicit, addr 0x2c9c9e8, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Audio::AudioClipPlayable op_Explicit___UnityEngine__Audio__AudioClipPlayable(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method Equals addr 0x2b37d04 size 0x78 virtual true final true
+  /// @brief Method Equals, addr 0x2c9ca2c, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Audio::AudioClipPlayable other);
 
-  /// @brief Method SetVolume addr 0x2b37d7c size 0xd8 virtual false final false
+  /// @brief Method SetVolume, addr 0x2c9caa4, size 0xd8, virtual false, abstract: false, final false
   inline void SetVolume(float_t value);
 
-  /// @brief Method SetStereoPan addr 0x2b37ea0 size 0xdc virtual false final false
+  /// @brief Method SetStereoPan, addr 0x2c9cbc8, size 0xdc, virtual false, abstract: false, final false
   inline void SetStereoPan(float_t value);
 
-  /// @brief Method SetSpatialBlend addr 0x2b37fc8 size 0xd8 virtual false final false
+  /// @brief Method SetSpatialBlend, addr 0x2c9ccf0, size 0xd8, virtual false, abstract: false, final false
   inline void SetSpatialBlend(float_t value);
 
-  /// @brief Method Seek addr 0x2b380ec size 0x134 virtual false final false
+  /// @brief Method Seek, addr 0x2c9ce14, size 0x134, virtual false, abstract: false, final false
   inline void Seek(double_t startTime, double_t startDelay, double_t duration);
 
-  /// @brief Method SetVolumeInternal addr 0x2b37e54 size 0x4c virtual false final false
+  /// @brief Method SetVolumeInternal, addr 0x2c9cb7c, size 0x4c, virtual false, abstract: false, final false
   static inline void SetVolumeInternal(ByRef<::UnityEngine::Playables::PlayableHandle> hdl, float_t volume);
 
-  /// @brief Method SetStereoPanInternal addr 0x2b37f7c size 0x4c virtual false final false
+  /// @brief Method SetStereoPanInternal, addr 0x2c9cca4, size 0x4c, virtual false, abstract: false, final false
   static inline void SetStereoPanInternal(ByRef<::UnityEngine::Playables::PlayableHandle> hdl, float_t stereoPan);
 
-  /// @brief Method SetSpatialBlendInternal addr 0x2b380a0 size 0x4c virtual false final false
+  /// @brief Method SetSpatialBlendInternal, addr 0x2c9cdc8, size 0x4c, virtual false, abstract: false, final false
   static inline void SetSpatialBlendInternal(ByRef<::UnityEngine::Playables::PlayableHandle> hdl, float_t spatialBlend);
 
-  /// @brief Method SetStartDelayInternal addr 0x2b38220 size 0x4c virtual false final false
+  /// @brief Method SetStartDelayInternal, addr 0x2c9cf48, size 0x4c, virtual false, abstract: false, final false
   static inline void SetStartDelayInternal(ByRef<::UnityEngine::Playables::PlayableHandle> hdl, double_t delay);
 
-  /// @brief Method SetPauseDelayInternal addr 0x2b3826c size 0x4c virtual false final false
+  /// @brief Method SetPauseDelayInternal, addr 0x2c9cf94, size 0x4c, virtual false, abstract: false, final false
   static inline void SetPauseDelayInternal(ByRef<::UnityEngine::Playables::PlayableHandle> hdl, double_t delay);
 
-  /// @brief Method InternalCreateAudioClipPlayable addr 0x2b37c28 size 0x5c virtual false final false
+  /// @brief Method InternalCreateAudioClipPlayable, addr 0x2c9c950, size 0x5c, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioClipPlayable(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::UnityEngine::AudioClip* clip, bool looping,
                                                      ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 

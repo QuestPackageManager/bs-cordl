@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MultipleDisplayUtilities)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -24,16 +24,16 @@ MARK_REF_PTR_T(::UnityEngine::UI::MultipleDisplayUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13108))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13103))
 // CS Name: ::UnityEngine.UI::MultipleDisplayUtilities*
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag addr 0x2c157ac size 0x68 virtual false final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x2d7db5c, size 0x68, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method RelativeMouseAtScaled addr 0x2c15814 size 0x468 virtual false final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x2d7dbc4, size 0x468, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultipleDisplayUtilities", modifiers: "&&", def_value: None }]

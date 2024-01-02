@@ -18,16 +18,16 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedReasonMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4497))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4486))
 // CS Name: ::DisconnectedReasonMethods*
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey addr 0x2206a50 size 0xa8 virtual false final false
+  /// @brief Method LocalizedKey, addr 0x2355a4c, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
-  /// @brief Method ErrorCode addr 0x2206af8 size 0x80 virtual false final false
+  /// @brief Method ErrorCode, addr 0x2355af4, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
   // Ctor Parameters [CppParam { name: "", ty: "DisconnectedReasonMethods", modifiers: "&&", def_value: None }]

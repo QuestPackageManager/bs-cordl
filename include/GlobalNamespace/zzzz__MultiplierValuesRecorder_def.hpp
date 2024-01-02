@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplierValuesRecorder)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class IScoreController;
 }
 namespace GlobalNamespace {
 class AudioTimeSyncController;
 }
-namespace GlobalNamespace {
-struct __MultiplierValuesRecorder__MultiplierValue;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-class IScoreController;
+struct __MultiplierValuesRecorder__MultiplierValue;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,12 +34,12 @@ MARK_VAL_T(::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5365))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5270))
 // CS Name: ::MultiplierValuesRecorder::MultiplierValue
 struct CORDL_TYPE __MultiplierValuesRecorder__MultiplierValue {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x211beec size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2260084, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t multiplier, float_t time);
 
   // Ctor Parameters [CppParam { name: "multiplier", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "float_t", modifiers: "", def_value: None }]
@@ -72,8 +72,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplierValuesRecorder__Multiplier
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5271))
 // CS Name: ::MultiplierValuesRecorder*
 class CORDL_TYPE MultiplierValuesRecorder : public ::UnityEngine::MonoBehaviour {
 public:
@@ -110,21 +110,21 @@ public:
 
   constexpr void __set__multiplierValues(::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* value);
 
-  /// @brief Method get_multiplierValues addr 0x211bbf0 size 0x8 virtual false final false
+  /// @brief Method get_multiplierValues, addr 0x225fd88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* get_multiplierValues();
 
-  /// @brief Method Start addr 0x211bbf8 size 0xf0 virtual false final false
+  /// @brief Method Start, addr 0x225fd90, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x211bce8 size 0x108 virtual false final false
+  /// @brief Method OnDestroy, addr 0x225fe80, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleScoreControllerMultiplierDidChange addr 0x211bdf0 size 0xfc virtual false final false
+  /// @brief Method HandleScoreControllerMultiplierDidChange, addr 0x225ff88, size 0xfc, virtual false, abstract: false, final false
   inline void HandleScoreControllerMultiplierDidChange(int32_t multiplier, float_t multiplierProgress);
 
   static inline ::GlobalNamespace::MultiplierValuesRecorder* New_ctor();
 
-  /// @brief Method .ctor addr 0x211bef8 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2260090, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplierValuesRecorder", modifiers: "&&", def_value: None }]

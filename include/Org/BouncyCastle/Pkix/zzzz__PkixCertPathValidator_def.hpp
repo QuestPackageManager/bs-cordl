@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathValidator)
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixParameters;
+class PkixCertPathValidatorResult;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
 namespace Org::BouncyCastle::Pkix {
-class PkixCertPathValidatorResult;
+class PkixCertPath;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -26,21 +26,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1722))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidator*
 class CORDL_TYPE PkixCertPathValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Validate addr 0x10831c8 size 0x1eec virtual true final false
+  /// @brief Method Validate, addr 0x10f441c, size 0x1eec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix);
 
-  /// @brief Method CheckCertificate addr 0x10857d4 size 0x108 virtual false final false
+  /// @brief Method CheckCertificate, addr 0x10f6a28, size 0x108, virtual false, abstract: false, final false
   static inline void CheckCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1082c10 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10f3e64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathValidator", modifiers: "&&", def_value: None }]

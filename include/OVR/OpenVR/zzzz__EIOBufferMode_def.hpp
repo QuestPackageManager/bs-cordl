@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EIOBufferMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8641))
 // CS Name: ::OVR.OpenVR::EIOBufferMode
 struct CORDL_TYPE EIOBufferMode {
 public:

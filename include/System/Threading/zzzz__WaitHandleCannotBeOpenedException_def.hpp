@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WaitHandleCannotBeOpenedException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -22,24 +22,24 @@ MARK_REF_PTR_T(::System::Threading::WaitHandleCannotBeOpenedException);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2675))
 // CS Name: ::System.Threading::WaitHandleCannotBeOpenedException*
 class CORDL_TYPE WaitHandleCannotBeOpenedException : public ::System::ApplicationException {
 public:
   // Declarations
   static inline ::System::Threading::WaitHandleCannotBeOpenedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24b537c size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2610304, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::WaitHandleCannotBeOpenedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x24b53d8 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2610360, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Threading::WaitHandleCannotBeOpenedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24b53fc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2610384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "WaitHandleCannotBeOpenedException", modifiers: "&&", def_value: None }]

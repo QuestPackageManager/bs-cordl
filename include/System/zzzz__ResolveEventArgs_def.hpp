@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ResolveEventArgs);
 namespace System {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2465))
 // CS Name: ::System::ResolveEventArgs*
 class CORDL_TYPE ResolveEventArgs : public ::System::EventArgs {
 public:
@@ -44,12 +44,12 @@ public:
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x24633a8 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x25c02d0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
-  /// @brief Method .ctor addr 0x2463414 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x25c033c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResolveEventArgs", modifiers: "&&", def_value: None }]

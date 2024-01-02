@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::DateTimeZoneHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11797))
 // CS Name: ::Newtonsoft.Json::DateTimeZoneHandling
 struct CORDL_TYPE DateTimeZoneHandling {
 public:

@@ -21,8 +21,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TDelegate>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3768 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3861 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6660))
 // CS Name: ::UnityEngine.InputSystem.Utilities::CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
 public:
@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_Item)) TDelegate Item[];
 
-  /// @brief Method get_length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_length();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TDelegate get_Item(int32_t index);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method AddCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddCallback(TDelegate dlg);
 
-  /// @brief Method RemoveCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveCallback(TDelegate dlg);
 
-  /// @brief Method LockForChanges addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LockForChanges();
 
-  /// @brief Method UnlockForChanges addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnlockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnlockForChanges();
 
   // Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Callbacks", ty:

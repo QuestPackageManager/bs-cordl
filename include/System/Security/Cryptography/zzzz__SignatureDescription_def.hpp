@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SignatureDescription);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2966))
 // CS Name: ::System.Security.Cryptography::SignatureDescription*
 class CORDL_TYPE SignatureDescription : public ::System::Object {
 public:
@@ -67,19 +67,19 @@ public:
 
   static inline ::System::Security::Cryptography::SignatureDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x23112c4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x246a038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KeyAlgorithm addr 0x23112cc size 0x8 virtual false final false
+  /// @brief Method set_KeyAlgorithm, addr 0x246a040, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAlgorithm(::StringW value);
 
-  /// @brief Method set_DigestAlgorithm addr 0x23112d4 size 0x8 virtual false final false
+  /// @brief Method set_DigestAlgorithm, addr 0x246a048, size 0x8, virtual false, abstract: false, final false
   inline void set_DigestAlgorithm(::StringW value);
 
-  /// @brief Method set_FormatterAlgorithm addr 0x23112dc size 0x8 virtual false final false
+  /// @brief Method set_FormatterAlgorithm, addr 0x246a050, size 0x8, virtual false, abstract: false, final false
   inline void set_FormatterAlgorithm(::StringW value);
 
-  /// @brief Method set_DeformatterAlgorithm addr 0x23112e4 size 0x8 virtual false final false
+  /// @brief Method set_DeformatterAlgorithm, addr 0x246a058, size 0x8, virtual false, abstract: false, final false
   inline void set_DeformatterAlgorithm(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignatureDescription", modifiers: "&&", def_value: None }]

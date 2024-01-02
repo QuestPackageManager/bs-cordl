@@ -7,13 +7,13 @@ namespace GlobalNamespace {
 class NoteData;
 }
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
-}
-namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+template <typename T> class ILazyCopyHashSet_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteMirrorable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4868))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4747))
 // CS Name: ::INoteMirrorable*
 class CORDL_TYPE INoteMirrorable {
 public:
@@ -37,13 +37,13 @@ public:
 
   __declspec(property(get = get_noteDidStartDissolvingEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
 
-  /// @brief Method get_noteTransform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Transform* get_noteTransform();
 
-  /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method get_noteDidStartDissolvingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteMirrorable", modifiers: "&&", def_value: None }]

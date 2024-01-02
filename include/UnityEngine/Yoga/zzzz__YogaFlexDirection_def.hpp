@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaFlexDirection);
 namespace UnityEngine::Yoga {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15387))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15357))
 // CS Name: ::UnityEngine.Yoga::YogaFlexDirection
 struct CORDL_TYPE YogaFlexDirection {
 public:

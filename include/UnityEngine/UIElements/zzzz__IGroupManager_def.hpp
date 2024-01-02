@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IGroupManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6946))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6860))
 // CS Name: ::UnityEngine.UIElements::IGroupManager*
 class CORDL_TYPE IGroupManager {
 public:
   // Declarations
-  /// @brief Method OnOptionSelectionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnOptionSelectionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterOption, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterOption, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGroupManager", modifiers: "&&", def_value: None }]

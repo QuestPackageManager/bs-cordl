@@ -3,20 +3,20 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IStandaloneMonobehavior)
-namespace System::Threading::Tasks {
-class Task;
+namespace System {
+class Action;
 }
 namespace System {
 template <typename TResult> class Func_1;
 }
-namespace System {
-class Action;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 class IStandaloneThreadRunner;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+class Task;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,21 +29,21 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneMonobehavior);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12735))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12817))
 // CS Name: ::IStandaloneMonobehavior*
 class CORDL_TYPE IStandaloneMonobehavior {
 public:
   // Declarations
-  /// @brief Method Dispatch addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispatch(::System::Action* action);
 
-  /// @brief Method DispatchAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DispatchAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* DispatchAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method RunAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RunAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Stop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStandaloneMonobehavior", modifiers: "&&", def_value: None }]

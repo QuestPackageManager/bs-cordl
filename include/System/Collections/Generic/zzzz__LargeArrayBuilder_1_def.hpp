@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LargeArrayBuilder_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> struct ArrayBuilder_1;
 }
 namespace System::Collections::Generic {
-template <typename T> struct ArrayBuilder_1;
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -26,37 +26,37 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3833)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3833), inst: 755 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3835))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3845)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3845), inst: 767 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3847))
 // CS Name: ::System.Collections.Generic::LargeArrayBuilder`1<T>
 struct CORDL_TYPE LargeArrayBuilder_1 {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(bool initialize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCapacity);
 
-  /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::System::Collections::Generic::IEnumerable_1<T>* items);
 
-  /// @brief Method AddWithBufferAllocation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddWithBufferAllocation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddWithBufferAllocation(T item, ByRef<::ArrayW<T, ::Array<T>*>> destination, ByRef<int32_t> index);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex, int32_t count);
 
-  /// @brief Method GetBuffer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> GetBuffer(int32_t index);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method TryMove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryMove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryMove(ByRef<::ArrayW<T, ::Array<T>*>> array);
 
-  /// @brief Method AllocateBuffer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AllocateBuffer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AllocateBuffer();
 
   // Ctor Parameters [CppParam { name: "_maxCapacity", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_first", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None },

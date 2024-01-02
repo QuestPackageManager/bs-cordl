@@ -10,23 +10,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LeaderboardHelper)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 struct __LeaderboardHelper___CreateOculusLeaderboard_d__2;
 }
 namespace GlobalNamespace {
-class BeatmapLevelCollectionSO;
-}
-namespace GlobalNamespace {
 class LeaderboardIdsModelSO;
 }
-namespace System::Net::Http {
-class HttpResponseMessage;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+class BeatmapLevelCollectionSO;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 namespace System::Net::Http {
 class HttpClient;
@@ -35,7 +32,10 @@ namespace System::Net::Http {
 class HttpRequestMessage;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Net::Http {
+class HttpResponseMessage;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 866 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(14872))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5938)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
 // ::LeaderboardHelper::<CreateOculusLeaderboard>d__2
 struct CORDL_TYPE __LeaderboardHelper___CreateOculusLeaderboard_d__2 {
 public:
@@ -63,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21ac388 size 0xb48 virtual true final true
+  /// @brief Method MoveNext, addr 0x22f4bb8, size 0xb48, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21aced0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22f5700, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -137,8 +137,8 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLead
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5850))
 // CS Name: ::LeaderboardHelper*
 class CORDL_TYPE LeaderboardHelper : public ::System::Object {
 public:
@@ -154,15 +154,15 @@ public:
 
   constexpr void __set__leaderboardIds(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method CreateOculusLeaderboards addr 0x21ab3e8 size 0xe7c virtual false final false
+  /// @brief Method CreateOculusLeaderboards, addr 0x22f3c18, size 0xe7c, virtual false, abstract: false, final false
   inline void CreateOculusLeaderboards(::GlobalNamespace::LeaderboardIdsModelSO* leaderboardIdsModel, ::GlobalNamespace::BeatmapLevelCollectionSO* _levelCollection, bool debug, ::StringW appToken);
 
-  /// @brief Method CreateOculusLeaderboard addr 0x21ac264 size 0xa4 virtual false final false
+  /// @brief Method CreateOculusLeaderboard, addr 0x22f4a94, size 0xa4, virtual false, abstract: false, final false
   inline void CreateOculusLeaderboard(::StringW leaderboardID, ::StringW appToken);
 
   static inline ::GlobalNamespace::LeaderboardHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ac308 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x22f4b38, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LeaderboardHelper", modifiers: "&&", def_value: None }]

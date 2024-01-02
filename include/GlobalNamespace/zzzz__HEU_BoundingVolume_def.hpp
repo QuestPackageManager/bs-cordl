@@ -23,23 +23,23 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_BoundingVolume);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9513))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9586))
 // CS Name: ::HEU_BoundingVolume*
 class CORDL_TYPE HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   __declspec(property(get = get_BoundingCollider))::UnityEngine::Collider* BoundingCollider;
 
-  /// @brief Method get_BoundingCollider addr 0x1ff32d0 size 0x48 virtual false final false
+  /// @brief Method get_BoundingCollider, addr 0x214ac6c, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::Collider* get_BoundingCollider();
 
-  /// @brief Method GetAllIntersectingObjects addr 0x1ff3318 size 0x2b4 virtual false final false
+  /// @brief Method GetAllIntersectingObjects, addr 0x214acb4, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetAllIntersectingObjects();
 
   static inline ::GlobalNamespace::HEU_BoundingVolume* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff35cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x214af68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BoundingVolume", modifiers: "&&", def_value: None }]

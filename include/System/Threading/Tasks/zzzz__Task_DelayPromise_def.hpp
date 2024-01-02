@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 CORDL_MODULE_EXPORT(Task_DelayPromise)
 namespace System::Threading {
-class Timer;
+struct CancellationToken;
 }
 namespace System::Threading {
-struct CancellationToken;
+class Timer;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -23,9 +23,9 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__DelayPromise);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(2681)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2790)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2779)) CS
-// Name: ::Task::DelayPromise*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2683)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2783))
+// CS Name: ::Task::DelayPromise*
 class CORDL_TYPE __Task__DelayPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
@@ -58,10 +58,10 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__DelayPromise* New_ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method .ctor addr 0x24cf008 size 0x114 virtual false final false
+  /// @brief Method .ctor, addr 0x2629114, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token);
 
-  /// @brief Method Complete addr 0x24d0ba4 size 0x138 virtual false final false
+  /// @brief Method Complete, addr 0x262acb0, size 0x138, virtual false, abstract: false, final false
   inline void Complete();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Task__DelayPromise", modifiers: "&&", def_value: None }]

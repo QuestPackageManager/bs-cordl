@@ -1,16 +1,16 @@
 #pragma once
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerMenuClient_def.hpp"
-#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__MenuPlayerController_def.hpp"
+#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerMenuClient.LateUpdate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerMenuClient::*)()>(&::GlobalNamespace::MultiplayerMenuClient::LateUpdate)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x2162094;
+  constexpr static std::size_t addrs = 0x22a74e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMenuClient*>::get(), "LateUpdate",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -21,9 +21,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerMenuClient::*)()>(&::GlobalNamespace::MultiplayerMenuClient::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x216240c;
+  constexpr static std::size_t addrs = 0x22a785c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerMenuClient*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

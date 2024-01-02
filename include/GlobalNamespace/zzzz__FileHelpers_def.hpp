@@ -9,11 +9,8 @@ CORDL_MODULE_EXPORT(FileHelpers)
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System {
-class Object;
-}
-namespace GlobalNamespace {
-class ISaveData;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,35 +22,23 @@ MARK_REF_PTR_T(::GlobalNamespace::FileHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15854))
 // CS Name: ::FileHelpers*
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath addr 0x1f8ffd8 size 0x5c virtual false final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0xe27c1c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber addr 0x1f90034 size 0xa8 virtual false final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xe27c78, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
 
-  /// @brief Method GetFilePaths addr 0x1f900dc size 0x234 virtual false final false
+  /// @brief Method GetFilePaths, addr 0xe27d34, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetFileNamesFromFilePaths addr 0x1f90310 size 0x174 virtual false final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::ArrayW<::StringW, ::Array<::StringW>*> filePaths);
-
-  /// @brief Method SaveToJSONFile addr 0x1f90484 size 0x14c virtual false final false
-  static inline void SaveToJSONFile(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath, bool prettyPrint);
-
-  /// @brief Method SaveToJSONFile addr 0x1f905d0 size 0x18c virtual false final false
-  static inline void SaveToJSONFile(::GlobalNamespace::ISaveData* saveData, ::System::Object* obj, ::StringW filePath, ::StringW tempFilePath, ::StringW backupFilePath);
-
-  /// @brief Method LoadFromJSONFile addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename T> static inline T LoadFromJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath);
-
-  /// @brief Method LoadJSONFile addr 0x1f9075c size 0xc8 virtual false final false
-  static inline ::StringW LoadJSONFile(::GlobalNamespace::ISaveData* saveData, ::StringW filePath, ::StringW backupFilePath);
+  /// @brief Method GetFileNamesFromFilePaths, addr 0xe27f68, size 0xbc, virtual false, abstract: false, final false
+  static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

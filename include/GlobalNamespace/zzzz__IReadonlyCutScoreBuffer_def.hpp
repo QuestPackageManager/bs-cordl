@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class ICutScoreBufferDidChangeReceiver;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
 class ICutScoreBufferDidFinishReceiver;
 }
 namespace GlobalNamespace {
 class __ScoreModel__NoteScoreDefinition;
+}
+namespace GlobalNamespace {
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyCutScoreBuffer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5409))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5314))
 // CS Name: ::IReadonlyCutScoreBuffer*
 class CORDL_TYPE IReadonlyCutScoreBuffer {
 public:
@@ -53,46 +53,46 @@ public:
 
   __declspec(property(get = get_afterCutSwingRating)) float_t afterCutSwingRating;
 
-  /// @brief Method get_maxPossibleCutScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_maxPossibleCutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_maxPossibleCutScore();
 
-  /// @brief Method get_cutScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_cutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_beforeCutScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beforeCutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_beforeCutScore();
 
-  /// @brief Method get_centerDistanceCutScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_centerDistanceCutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_centerDistanceCutScore();
 
-  /// @brief Method get_afterCutScore addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_afterCutScore, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_afterCutScore();
 
-  /// @brief Method get_isFinished addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isFinished, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_noteScoreDefinition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteScoreDefinition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__ScoreModel__NoteScoreDefinition* get_noteScoreDefinition();
 
-  /// @brief Method get_noteCutInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteCutInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
 
-  /// @brief Method get_beforeCutSwingRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beforeCutSwingRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beforeCutSwingRating();
 
-  /// @brief Method get_afterCutSwingRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_afterCutSwingRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_afterCutSwingRating();
 
-  /// @brief Method RegisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadonlyCutScoreBuffer", modifiers: "&&", def_value: None }]

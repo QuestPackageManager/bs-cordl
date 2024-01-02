@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::MissingMemberHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11765))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11837))
 // CS Name: ::Newtonsoft.Json::MissingMemberHandling
 struct CORDL_TYPE MissingMemberHandling {
 public:

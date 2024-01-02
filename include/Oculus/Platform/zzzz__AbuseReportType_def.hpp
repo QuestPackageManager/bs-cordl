@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AbuseReportType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13225))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13222))
 // CS Name: ::Oculus.Platform::AbuseReportType
 struct CORDL_TYPE AbuseReportType {
 public:

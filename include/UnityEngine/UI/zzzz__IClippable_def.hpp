@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IClippable)
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Rect;
-}
-namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 class GameObject;
+}
+namespace UnityEngine {
+struct Rect;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13032))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
 // CS Name: ::UnityEngine.UI::IClippable*
 class CORDL_TYPE IClippable {
 public:
@@ -35,22 +35,22 @@ public:
 
   __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
 
-  /// @brief Method get_gameObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::GameObject* get_gameObject();
 
-  /// @brief Method RecalculateClipping addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RecalculateClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateClipping();
 
-  /// @brief Method get_rectTransform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
-  /// @brief Method Cull addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method SetClipRect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetClipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipRect(::UnityEngine::Rect value, bool validRect);
 
-  /// @brief Method SetClipSoftness addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetClipSoftness, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetClipSoftness(::UnityEngine::Vector2 clipSoftness);
 
   // Ctor Parameters [CppParam { name: "", ty: "IClippable", modifiers: "&&", def_value: None }]

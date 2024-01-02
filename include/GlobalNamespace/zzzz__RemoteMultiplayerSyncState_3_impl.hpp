@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteMultiplayerSyncState_3_def.hpp"
+#include "GlobalNamespace/zzzz__RemoteStateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
-#include "GlobalNamespace/zzzz__RemoteStateBuffer_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::__get__player() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -37,15 +37,15 @@ constexpr void GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType,
 }
 template <typename TStateTable, typename TType, typename TState>
 inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::get_stateBuffer() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get(),
-                                               "get_stateBuffer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState> inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>::get_player() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get(),
-                                               "get_player", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState>

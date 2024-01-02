@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeFieldHandle)
 namespace System::Reflection {
-class RuntimeFieldInfo;
-}
-namespace System::Reflection {
-struct FieldAttributes;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Reflection {
 class FieldInfo;
 }
 namespace System {
-class RuntimeType;
+class Object;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Reflection {
+struct FieldAttributes;
+}
+namespace System::Reflection {
+class RuntimeFieldInfo;
+}
+namespace System::Runtime::Serialization {
 class ISerializable;
+}
+namespace System {
+class RuntimeType;
 }
 // Forward declare root types
 namespace System {
@@ -41,8 +41,8 @@ MARK_VAL_T(::System::RuntimeFieldHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2616))
 // CS Name: ::System::RuntimeFieldHandle
 struct CORDL_TYPE RuntimeFieldHandle {
 public:
@@ -52,32 +52,32 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*();
 
-  /// @brief Method .ctor addr 0x24a3e30 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25fedb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(void* v);
 
-  /// @brief Method .ctor addr 0x24a3e38 size 0x1b4 virtual false final false
+  /// @brief Method .ctor, addr 0x25fedc0, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Value addr 0x24a3fec size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x25fef74, size 0x8, virtual false, abstract: false, final false
   inline void* get_Value();
 
-  /// @brief Method GetObjectData addr 0x24a3ff4 size 0x1bc virtual true final true
+  /// @brief Method GetObjectData, addr 0x25fef7c, size 0x1bc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Equals addr 0x24a41b0 size 0xfc virtual true final false
+  /// @brief Method Equals, addr 0x25ff138, size 0xfc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x24a42ac size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25ff234, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method SetValueInternal addr 0x24a42b4 size 0x4 virtual false final false
+  /// @brief Method SetValueInternal, addr 0x25ff23c, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueInternal(::System::Reflection::FieldInfo* fi, ::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method SetValue addr 0x24a42b8 size 0x4 virtual false final false
+  /// @brief Method SetValue, addr 0x25ff240, size 0x4, virtual false, abstract: false, final false
   static inline void SetValue(::System::Reflection::RuntimeFieldInfo* field, ::System::Object* obj, ::System::Object* value, ::System::RuntimeType* fieldType,
                               ::System::Reflection::FieldAttributes fieldAttr, ::System::RuntimeType* declaringType, ByRef<bool> domainInitialized);
 
-  /// @brief Method SetValueDirect addr 0x24a42bc size 0x4 virtual false final false
+  /// @brief Method SetValueDirect, addr 0x25ff244, size 0x4, virtual false, abstract: false, final false
   static inline void SetValueDirect(::System::Reflection::RuntimeFieldInfo* field, ::System::RuntimeType* fieldType, ::cordl_internals::Ptr<void> pTypedRef, ::System::Object* value,
                                     ::System::RuntimeType* contextType);
 

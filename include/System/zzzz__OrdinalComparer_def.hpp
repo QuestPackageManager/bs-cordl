@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::OrdinalComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2472))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2474))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2474))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2476))
 // CS Name: ::System::OrdinalComparer*
 class CORDL_TYPE OrdinalComparer : public ::System::StringComparer {
 public:
@@ -36,22 +36,22 @@ public:
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
 
-  /// @brief Method .ctor addr 0x2468a38 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x25c5960, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
-  /// @brief Method Compare addr 0x2468aa4 size 0x58 virtual true final false
+  /// @brief Method Compare, addr 0x25c59cc, size 0x58, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals addr 0x2468afc size 0x80 virtual true final false
+  /// @brief Method Equals, addr 0x25c5a24, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode addr 0x2468b7c size 0x88 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25c5aa4, size 0x88, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method Equals addr 0x2468c04 size 0x98 virtual true final false
+  /// @brief Method Equals, addr 0x25c5b2c, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2468c9c size 0x64 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25c5bc4, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "OrdinalComparer", modifiers: "&&", def_value: None }]

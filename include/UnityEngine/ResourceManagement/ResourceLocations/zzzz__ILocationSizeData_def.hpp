@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILocationSizeData)
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceLocations {
@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::ILocationSi
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14020))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::ILocationSizeData*
 class CORDL_TYPE ILocationSizeData {
 public:
   // Declarations
-  /// @brief Method ComputeSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t ComputeSize(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILocationSizeData", modifiers: "&&", def_value: None }]

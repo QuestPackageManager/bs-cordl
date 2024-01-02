@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_ID);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15102))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_ID
 struct CORDL_TYPE TEXTURE_ID {
 public:

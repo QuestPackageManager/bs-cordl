@@ -3,26 +3,26 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMonoHttpClientHandler)
-namespace System::Net::Security {
-class SslClientAuthenticationOptions;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::Net::Http {
-class HttpRequestMessage;
+class HttpResponseMessage;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System {
 struct TimeSpan;
+}
+namespace System::Net::Http {
+class HttpRequestMessage;
+}
+namespace System::Net::Security {
+class SslClientAuthenticationOptions;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Net::Http::IMonoHttpClientHandler);
 namespace System::Net::Http {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14635))
 // CS Name: ::System.Net.Http::IMonoHttpClientHandler*
 class CORDL_TYPE IMonoHttpClientHandler {
 public:
@@ -45,17 +45,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_SslOptions addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
-  /// @brief Method set_SslOptions addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_SslOptions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method SendAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetWebRequestTimeout addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetWebRequestTimeout, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMonoHttpClientHandler", modifiers: "&&", def_value: None }]

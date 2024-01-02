@@ -6,14 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionLevelModifiersViewController)
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class __MissionLevelModifiersViewController____c__DisplayClass7_0;
+class GameplayModifiersModelSO;
 }
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class __MissionLevelModifiersViewController____c__DisplayClass7_0;
 }
 namespace GlobalNamespace {
 class GameplayModifierInfoListItemsList;
@@ -22,13 +25,10 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class GameplayModifiersModelSO;
+class GameplayModifierInfoListItem;
 }
 namespace GlobalNamespace {
 class GameplayModifierParamsSO;
-}
-namespace GlobalNamespace {
-class GameplayModifierInfoListItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionLevelModifiersViewController____c__Di
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5797))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5698))
 // CS Name: ::MissionLevelModifiersViewController::<>c__DisplayClass7_0*
 class CORDL_TYPE __MissionLevelModifiersViewController____c__DisplayClass7_0 : public ::System::Object {
 public:
@@ -64,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2187ae0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ca4dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RefreshContent>b__0 addr 0x2187af0 size 0x7c virtual false final false
+  /// @brief Method <RefreshContent>b__0, addr 0x22ca4ec, size 0x7c, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionLevelModifiersViewController____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
@@ -99,8 +99,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionLevelModifiersViewController_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5798))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5699))
 // CS Name: ::MissionLevelModifiersViewController*
 class CORDL_TYPE MissionLevelModifiersViewController : public ::HMUI::ViewController {
 public:
@@ -153,18 +153,18 @@ public:
 
   constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method Setup addr 0x2187920 size 0x2c virtual false final false
+  /// @brief Method Setup, addr 0x22ca31c, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method DidActivate addr 0x2187adc size 0x4 virtual true final false
+  /// @brief Method DidActivate, addr 0x22ca4d8, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method RefreshContent addr 0x218794c size 0x190 virtual false final false
+  /// @brief Method RefreshContent, addr 0x22ca348, size 0x190, virtual false, abstract: false, final false
   inline void RefreshContent();
 
   static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2187ae8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ca4e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelModifiersViewController", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ExceptionResource);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2569))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2571))
 // CS Name: ::System::ExceptionResource
 struct CORDL_TYPE ExceptionResource {
 public:

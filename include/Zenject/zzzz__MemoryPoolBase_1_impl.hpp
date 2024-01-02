@@ -1,17 +1,17 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__MemoryPoolSettings_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__MemoryPoolSettings_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"
 template <typename TContract> constexpr Zenject::MemoryPoolBase_1<TContract>::operator ::Zenject::IValidatable*() noexcept {
   return static_cast<::Zenject::IValidatable*>(static_cast<void*>(this));
@@ -185,27 +185,23 @@ template <typename TContract> inline void Zenject::MemoryPoolBase_1<TContract>::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TContract> inline void Zenject::MemoryPoolBase_1<TContract>::OnDespawned(TContract item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 template <typename TContract> inline void Zenject::MemoryPoolBase_1<TContract>::OnSpawned(TContract item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 template <typename TContract> inline void Zenject::MemoryPoolBase_1<TContract>::OnCreated(TContract item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), "OnCreated", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 template <typename TContract> inline void Zenject::MemoryPoolBase_1<TContract>::OnDestroyed(TContract item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), "OnDestroyed", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TContract>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPoolBase_1<TContract>*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 template <typename TContract> inline ::Zenject::MemoryPoolBase_1<TContract>* Zenject::MemoryPoolBase_1<TContract>::New_ctor() {

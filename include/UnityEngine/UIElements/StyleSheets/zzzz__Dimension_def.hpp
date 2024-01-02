@@ -9,10 +9,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dimension)
 namespace UnityEngine::UIElements {
-struct TimeValue;
-}
-namespace System {
-template <typename T> class IEquatable_1;
+struct Angle;
 }
 namespace System {
 class Object;
@@ -23,8 +20,11 @@ struct __Dimension__Unit;
 namespace UnityEngine::UIElements {
 struct Length;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::UIElements {
-struct Angle;
+struct TimeValue;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -41,7 +41,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Dimension);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7557))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7471))
 // CS Name: ::Dimension::Unit
 struct CORDL_TYPE __Dimension__Unit {
 public:
@@ -118,8 +118,8 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__Dimension__Unit
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7557))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7558))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7472))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::Dimension
 struct CORDL_TYPE Dimension {
 public:
@@ -129,31 +129,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleSheets::Dimension>*();
 
-  /// @brief Method .ctor addr 0x2c83f70 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2dea320, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t value, ::UnityEngine::UIElements::StyleSheets::__Dimension__Unit unit);
 
-  /// @brief Method ToLength addr 0x2c80518 size 0x30 virtual false final false
+  /// @brief Method ToLength, addr 0x2de68c8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length ToLength();
 
-  /// @brief Method ToTime addr 0x2c80548 size 0x30 virtual false final false
+  /// @brief Method ToTime, addr 0x2de68f8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TimeValue ToTime();
 
-  /// @brief Method ToAngle addr 0x2c831ec size 0xa4 virtual false final false
+  /// @brief Method ToAngle, addr 0x2de959c, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Angle ToAngle();
 
-  /// @brief Method op_Equality addr 0x2c83f7c size 0x28 virtual false final false
+  /// @brief Method op_Equality, addr 0x2dea32c, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension lhs, ::UnityEngine::UIElements::StyleSheets::Dimension rhs);
 
-  /// @brief Method Equals addr 0x2c83fa4 size 0x28 virtual true final true
+  /// @brief Method Equals, addr 0x2dea354, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleSheets::Dimension other);
 
-  /// @brief Method Equals addr 0x2c83fcc size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x2dea37c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2c84058 size 0x48 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2dea408, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2c7f944 size 0x130 virtual true final false
+  /// @brief Method ToString, addr 0x2de5cf4, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "unit", ty: "::UnityEngine::UIElements::StyleSheets::__Dimension__Unit", modifiers: "", def_value: None }, CppParam { name: "value", ty: "float_t", modifiers:

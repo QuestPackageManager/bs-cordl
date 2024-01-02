@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::ProBuilder::VertexPickerEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12120))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12192))
 // CS Name: ::UnityEngine.ProBuilder::VertexPickerEntry
 struct CORDL_TYPE VertexPickerEntry {
 public:

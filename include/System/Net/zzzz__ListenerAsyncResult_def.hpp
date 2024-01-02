@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ListenerAsyncResult)
-namespace System {
-class AsyncCallback;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System::Threading {
 class WaitCallback;
@@ -13,20 +13,20 @@ class WaitCallback;
 namespace System {
 class IAsyncResult;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System {
+class Exception;
 }
 namespace System {
 class Object;
 }
-namespace System::Net {
-class HttpListenerContext;
-}
 namespace System::Threading {
 class ManualResetEvent;
 }
+namespace System::Net {
+class HttpListenerContext;
+}
 namespace System {
-class Exception;
+class AsyncCallback;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::ListenerAsyncResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8026))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9189))
 // CS Name: ::System.Net::ListenerAsyncResult*
 class CORDL_TYPE ListenerAsyncResult : public ::System::Object {
 public:
@@ -163,34 +163,34 @@ public:
 
   static inline ::System::Net::ListenerAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method .ctor addr 0x2855e48 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x29d26bc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method Complete addr 0x2855ec8 size 0x1f4 virtual false final false
+  /// @brief Method Complete, addr 0x29d273c, size 0x1f4, virtual false, abstract: false, final false
   inline void Complete(::System::Exception* exc);
 
-  /// @brief Method InvokeCallback addr 0x28560bc size 0x13c virtual false final false
+  /// @brief Method InvokeCallback, addr 0x29d2930, size 0x13c, virtual false, abstract: false, final false
   static inline void InvokeCallback(::System::Object* o);
 
-  /// @brief Method Complete addr 0x28561f8 size 0x8 virtual false final false
+  /// @brief Method Complete, addr 0x29d2a6c, size 0x8, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method Complete addr 0x2856200 size 0x530 virtual false final false
+  /// @brief Method Complete, addr 0x29d2a74, size 0x530, virtual false, abstract: false, final false
   inline void Complete(::System::Net::HttpListenerContext* context, bool synch);
 
-  /// @brief Method GetContext addr 0x2856730 size 0x3c virtual false final false
+  /// @brief Method GetContext, addr 0x29d2fa4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method get_AsyncState addr 0x285676c size 0x14 virtual true final true
+  /// @brief Method get_AsyncState, addr 0x29d2fe0, size 0x14, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x2856780 size 0x138 virtual true final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x29d2ff4, size 0x138, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously addr 0x28568b8 size 0x14 virtual true final true
+  /// @brief Method get_CompletedSynchronously, addr 0x29d312c, size 0x14, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted addr 0x28568cc size 0xe0 virtual true final true
+  /// @brief Method get_IsCompleted, addr 0x29d3140, size 0xe0, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListenerAsyncResult", modifiers: "&&", def_value: None }]

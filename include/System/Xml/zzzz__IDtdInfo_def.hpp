@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IDtdInfo)
 namespace System::Xml {
-class IDtdAttributeListInfo;
+class IDtdEntityInfo;
 }
 namespace System::Xml {
 class XmlQualifiedName;
 }
 namespace System::Xml {
-class IDtdEntityInfo;
+class IDtdAttributeListInfo;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdInfo);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11349))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11421))
 // CS Name: ::System.Xml::IDtdInfo*
 class CORDL_TYPE IDtdInfo {
 public:
@@ -37,22 +37,22 @@ public:
 
   __declspec(property(get = get_HasNonCDataAttributes)) bool HasNonCDataAttributes;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::XmlQualifiedName* get_Name();
 
-  /// @brief Method get_InternalDtdSubset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InternalDtdSubset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalDtdSubset();
 
-  /// @brief Method get_HasDefaultAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_HasDefaultAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasDefaultAttributes();
 
-  /// @brief Method get_HasNonCDataAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_HasNonCDataAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasNonCDataAttributes();
 
-  /// @brief Method LookupAttributeList addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LookupAttributeList, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdAttributeListInfo* LookupAttributeList(::StringW prefix, ::StringW localName);
 
-  /// @brief Method LookupEntity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LookupEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdEntityInfo* LookupEntity(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdInfo", modifiers: "&&", def_value: None }]

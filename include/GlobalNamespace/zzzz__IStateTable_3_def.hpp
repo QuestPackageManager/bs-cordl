@@ -18,24 +18,24 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12902))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12981))
 // CS Name: ::IStateTable`3<TStateTable,TType,TState>*
 class CORDL_TYPE IStateTable_3 {
 public:
   // Declarations
-  /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TState GetState(TType type);
 
-  /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetState(TType type, TState state);
 
-  /// @brief Method GetDelta addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TStateTable GetDelta(ByRef<TStateTable> stateTable);
 
-  /// @brief Method ApplyDelta addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ApplyDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TStateTable ApplyDelta(ByRef<TStateTable> delta);
 
-  /// @brief Method GetSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetSize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStateTable_3", modifiers: "&&", def_value: None }]

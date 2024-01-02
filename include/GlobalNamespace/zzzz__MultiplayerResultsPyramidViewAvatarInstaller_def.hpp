@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5341))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5246))
 // CS Name: ::MultiplayerResultsPyramidViewAvatarInstaller*
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatarInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method InstallBindings addr 0x21150d0 size 0x54 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2258940, size 0x250, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115124 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2258b90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatarInstaller", modifiers: "&&", def_value: None }]

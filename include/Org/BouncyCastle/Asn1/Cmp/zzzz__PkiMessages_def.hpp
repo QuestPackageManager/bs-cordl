@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PkiMessages)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiMessage;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiMessage;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf7ea8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe6d07c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf4b48 size 0x18c virtual false final false
+  /// @brief Method GetInstance, addr 0xe69d18, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessages* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> msgs);
 
-  /// @brief Method .ctor addr 0xdf7ed0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xe6d0a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> msgs);
 
-  /// @brief Method ToPkiMessageArray addr 0xdf7f4c size 0xf4 virtual true final false
+  /// @brief Method ToPkiMessageArray, addr 0xe6d120, size 0xf4, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*, ::Array<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*>*> ToPkiMessageArray();
 
-  /// @brief Method ToAsn1Object addr 0xdf8040 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe6d214, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiMessages", modifiers: "&&", def_value: None }]

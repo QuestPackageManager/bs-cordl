@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::ThreadState);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2672))
 // CS Name: ::System.Threading::ThreadState
 struct CORDL_TYPE ThreadState {
 public:

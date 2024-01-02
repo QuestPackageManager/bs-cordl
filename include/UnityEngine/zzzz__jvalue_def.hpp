@@ -17,8 +17,8 @@ MARK_VAL_T(::UnityEngine::jvalue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15062))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14917))
 // CS Name: ::UnityEngine::jvalue
 struct CORDL_TYPE jvalue {
 public:

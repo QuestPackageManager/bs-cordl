@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IBakedLightWithRenderer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15304))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15275))
 // CS Name: ::IBakedLightWithRenderer*
 class CORDL_TYPE IBakedLightWithRenderer {
 public:
   // Declarations
   __declspec(property(get = get_bakingMaterial))::UnityEngine::Material* bakingMaterial;
 
-  /// @brief Method get_bakingMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_bakingMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Material* get_bakingMaterial();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBakedLightWithRenderer", modifiers: "&&", def_value: None }]

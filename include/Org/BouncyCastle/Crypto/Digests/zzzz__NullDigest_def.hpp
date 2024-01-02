@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullDigest)
-namespace System::IO {
-class MemoryStream;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace System::IO {
+class MemoryStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NullDigest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(761))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NullDigest*
 class CORDL_TYPE NullDigest : public ::System::Object {
@@ -43,30 +43,30 @@ public:
 
   constexpr void __set_bOut(::System::IO::MemoryStream* value);
 
-  /// @brief Method get_AlgorithmName addr 0x11b9b1c size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0x1229d6c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetByteLength addr 0x11b9b5c size 0x8 virtual true final true
+  /// @brief Method GetByteLength, addr 0x1229dac, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize addr 0x11b9b64 size 0x24 virtual true final true
+  /// @brief Method GetDigestSize, addr 0x1229db4, size 0x24, virtual true, abstract: false, final true
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update addr 0x11b9b88 size 0x24 virtual true final true
+  /// @brief Method Update, addr 0x1229dd8, size 0x24, virtual true, abstract: false, final true
   inline void Update(uint8_t b);
 
-  /// @brief Method BlockUpdate addr 0x11b9bac size 0x24 virtual true final true
+  /// @brief Method BlockUpdate, addr 0x1229dfc, size 0x24, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0x11b9bd0 size 0xc4 virtual true final true
+  /// @brief Method DoFinal, addr 0x1229e20, size 0xc4, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset addr 0x11b9c94 size 0x28 virtual true final true
+  /// @brief Method Reset, addr 0x1229ee4, size 0x28, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NullDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0x11b9cbc size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x1229f0c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "&&", def_value: None }]

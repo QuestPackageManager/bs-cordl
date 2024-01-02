@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(OneModifierComposite)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
 struct InputBindingCompositeContext;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Composites {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::OneModifierComposite);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6803))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6189))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6717))
 // CS Name: ::UnityEngine.InputSystem.Composites::OneModifierComposite*
 class CORDL_TYPE OneModifierComposite : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
@@ -90,34 +90,34 @@ public:
 
   constexpr void __set_m_BindingIsButton(bool value);
 
-  /// @brief Method get_valueType addr 0x28db324 size 0x8 virtual true final false
+  /// @brief Method get_valueType, addr 0x2a5b06c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_valueSizeInBytes addr 0x28db32c size 0x8 virtual true final false
+  /// @brief Method get_valueSizeInBytes, addr 0x2a5b074, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method EvaluateMagnitude addr 0x28db334 size 0x40 virtual true final false
+  /// @brief Method EvaluateMagnitude, addr 0x2a5b07c, size 0x40, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValue addr 0x28db3fc size 0x64 virtual true final false
+  /// @brief Method ReadValue, addr 0x2a5b144, size 0x64, virtual true, abstract: false, final false
   inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ModifierIsPressed addr 0x28db374 size 0x88 virtual false final false
+  /// @brief Method ModifierIsPressed, addr 0x2a5b0bc, size 0x88, virtual false, abstract: false, final false
   inline bool ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup addr 0x28db460 size 0xac virtual true final false
+  /// @brief Method FinishSetup, addr 0x2a5b1a8, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValueAsObject addr 0x28db9e0 size 0x50 virtual true final false
+  /// @brief Method ReadValueAsObject, addr 0x2a5b728, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method DetermineValueTypeAndSize addr 0x28db50c size 0x4d4 virtual false final false
+  /// @brief Method DetermineValueTypeAndSize, addr 0x2a5b254, size 0x4d4, virtual false, abstract: false, final false
   static inline void DetermineValueTypeAndSize(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part, ByRef<::System::Type*> valueType, ByRef<int32_t> valueSizeInBytes,
                                                ByRef<bool> isButton);
 
   static inline ::UnityEngine::InputSystem::Composites::OneModifierComposite* New_ctor();
 
-  /// @brief Method .ctor addr 0x28dba30 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a5b778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OneModifierComposite", modifiers: "&&", def_value: None }]

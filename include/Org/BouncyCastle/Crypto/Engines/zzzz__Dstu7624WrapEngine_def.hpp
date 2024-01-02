@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dstu7624WrapEngine)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 namespace Org::BouncyCastle::Crypto::Engines {
 class Dstu7624Engine;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(843))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Dstu7624WrapEngine*
 class CORDL_TYPE Dstu7624WrapEngine : public ::System::Object {
@@ -78,19 +78,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Dstu7624WrapEngine* New_ctor(int32_t blockSizeBits);
 
-  /// @brief Method .ctor addr 0xe59e68 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xecf03c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t blockSizeBits);
 
-  /// @brief Method get_AlgorithmName addr 0xe59ef8 size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xecf0cc, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xe59f38 size 0x11c virtual true final true
+  /// @brief Method Init, addr 0xecf10c, size 0x11c, virtual true, abstract: false, final true
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Wrap addr 0xe5a054 size 0x7b4 virtual true final true
+  /// @brief Method Wrap, addr 0xecf228, size 0x7b4, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap addr 0xe5a808 size 0x890 virtual true final true
+  /// @brief Method Unwrap, addr 0xecf9dc, size 0x890, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dstu7624WrapEngine", modifiers: "&&", def_value: None }]

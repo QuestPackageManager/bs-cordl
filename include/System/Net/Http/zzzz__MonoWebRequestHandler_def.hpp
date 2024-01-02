@@ -21,77 +21,71 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoWebRequestHandler)
+namespace System::Net::Http {
+class __MonoWebRequestHandler____c;
+}
+namespace System::Net::Cache {
+class RequestCachePolicy;
+}
+namespace System::Net::Http {
+struct __MonoWebRequestHandler___SendAsync_d__99;
+}
 namespace System::Net::Security {
 class SslClientAuthenticationOptions;
 }
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
+namespace System::Net {
+class HttpWebRequest;
+}
 namespace System::Net {
 class ICredentials;
+}
+namespace System::Net {
+class HttpWebResponse;
+}
+namespace System::Net {
+class CookieContainer;
+}
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace System::Net::Http::Headers {
 class HttpRequestHeaders;
 }
 namespace System::Net::Http {
-class IMonoHttpClientHandler;
-}
-namespace System::Net::Http {
-class HttpMethod;
-}
-namespace System::Net::Http {
-class HttpResponseMessage;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Net::Http {
-class __MonoWebRequestHandler____c;
-}
-namespace System::Net::Http {
-struct __MonoWebRequestHandler___SendAsync_d__99;
-}
-namespace System::Net::Cache {
-class RequestCachePolicy;
-}
-namespace System::Net {
-class HttpWebRequest;
-}
-namespace System::Threading {
-struct CancellationToken;
+class HttpRequestMessage;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Net {
-class HttpWebResponse;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::Net {
-class IWebProxy;
-}
-namespace System::Net::Http {
-class HttpRequestMessage;
+namespace System {
+class IDisposable;
 }
 namespace System {
 struct TimeSpan;
 }
 namespace System::Net {
-class CookieContainer;
+class IWebProxy;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Net::Http {
+class HttpMethod;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System {
 class Object;
-}
-namespace System::Net::Http {
-class HttpContent;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Threading {
 struct CancellationTokenRegistration;
@@ -102,17 +96,23 @@ template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAw
 namespace System::Net {
 class WebResponse;
 }
-namespace System::IO {
-class Stream;
+namespace System::Runtime::CompilerServices {
+struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
+class IAsyncStateMachine;
+}
+namespace System::Net::Http {
+class HttpContent;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -132,8 +132,8 @@ MARK_VAL_T(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14636))
 // CS Name: ::MonoWebRequestHandler::<>c*
 class CORDL_TYPE __MonoWebRequestHandler____c : public ::System::Object {
 public:
@@ -168,16 +168,16 @@ public:
 
   static inline ::System::Net::Http::__MonoWebRequestHandler____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b3900 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x282e910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetConnectionKeepAlive>b__95_0 addr 0x26b3908 size 0x50 virtual false final false
+  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x282e918, size 0x50, virtual false, abstract: false, final false
   inline bool _GetConnectionKeepAlive_b__95_0(::StringW l);
 
-  /// @brief Method <CreateWebRequest>b__96_0 addr 0x26b3958 size 0x4c virtual false final false
+  /// @brief Method <CreateWebRequest>b__96_0, addr 0x282e968, size 0x4c, virtual false, abstract: false, final false
   inline bool _CreateWebRequest_b__96_0(::StringW l);
 
-  /// @brief Method <SendAsync>b__99_0 addr 0x26b39a4 size 0xb0 virtual false final false
+  /// @brief Method <SendAsync>b__99_0, addr 0x282e9b4, size 0xb0, virtual false, abstract: false, final false
   inline void _SendAsync_b__99_0(::System::Object* l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MonoWebRequestHandler____c", modifiers: "&&", def_value: None }]
@@ -204,22 +204,21 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__MonoWebRequ
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7934)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3390)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 866 }), TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3392), inst: 879 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 866 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 1103 }), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(2681)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3607)), TypeDefinitionIndex(TypeDefinitionIndex(14872))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14854)) CS Name:
-// ::MonoWebRequestHandler::<SendAsync>d__99
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2683)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14637)) CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
 struct CORDL_TYPE __MonoWebRequestHandler___SendAsync_d__99 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x26b3a54 size 0x1700 virtual true final true
+  /// @brief Method MoveNext, addr 0x282ea64, size 0x1700, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x26b5530 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x2830540, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -329,10 +328,9 @@ static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7994)), TypeDefinitionIndex(TypeDefinitionIndex(2482)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 2651
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2996)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(8202))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14855))
-// CS Name: ::System.Net.Http::MonoWebRequestHandler*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9365)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14638)) CS Name: ::System.Net.Http::MonoWebRequestHandler*
 class CORDL_TYPE MonoWebRequestHandler : public ::System::Object {
 public:
   // Declarations
@@ -578,48 +576,48 @@ public:
 
   static inline ::System::Net::Http::MonoWebRequestHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b1698 size 0x1b0 virtual false final false
+  /// @brief Method .ctor, addr 0x282c6a8, size 0x1b0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method EnsureModifiability addr 0x26b20c8 size 0x60 virtual false final false
+  /// @brief Method EnsureModifiability, addr 0x282d0d8, size 0x60, virtual false, abstract: false, final false
   inline void EnsureModifiability();
 
-  /// @brief Method get_CookieContainer addr 0x26b2128 size 0x6c virtual true final true
+  /// @brief Method get_CookieContainer, addr 0x282d138, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Net::CookieContainer* get_CookieContainer();
 
-  /// @brief Method get_MaxRequestContentBufferSize addr 0x26b2194 size 0x8 virtual true final true
+  /// @brief Method get_MaxRequestContentBufferSize, addr 0x282d1a4, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_MaxRequestContentBufferSize();
 
-  /// @brief Method get_SslOptions addr 0x26b219c size 0x6c virtual true final true
+  /// @brief Method get_SslOptions, addr 0x282d1ac, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
-  /// @brief Method set_SslOptions addr 0x26b2208 size 0x24 virtual true final true
+  /// @brief Method set_SslOptions, addr 0x282d218, size 0x24, virtual true, abstract: false, final true
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  /// @brief Method Dispose addr 0x26b222c size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x282d23c, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x26b223c size 0x84 virtual true final false
+  /// @brief Method Dispose, addr 0x282d24c, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetConnectionKeepAlive addr 0x26b22c0 size 0x110 virtual false final false
+  /// @brief Method GetConnectionKeepAlive, addr 0x282d2d0, size 0x110, virtual false, abstract: false, final false
   inline bool GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
-  /// @brief Method CreateWebRequest addr 0x26b2438 size 0x7bc virtual true final false
+  /// @brief Method CreateWebRequest, addr 0x282d448, size 0x7bc, virtual true, abstract: false, final false
   inline ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method CreateResponseMessage addr 0x26b30dc size 0x1c8 virtual false final false
+  /// @brief Method CreateResponseMessage, addr 0x282e0ec, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage,
                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MethodHasBody addr 0x26b360c size 0x10c virtual false final false
+  /// @brief Method MethodHasBody, addr 0x282e61c, size 0x10c, virtual false, abstract: false, final false
   static inline bool MethodHasBody(::System::Net::Http::HttpMethod* method);
 
-  /// @brief Method SendAsync addr 0x26b3718 size 0x114 virtual true final true
+  /// @brief Method SendAsync, addr 0x282e728, size 0x114, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout addr 0x26b382c size 0x70 virtual true final true
+  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x282e83c, size 0x70, virtual true, abstract: false, final true
   inline void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoWebRequestHandler", modifiers: "&&", def_value: None }]

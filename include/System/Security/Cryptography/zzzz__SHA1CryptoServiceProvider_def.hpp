@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1CryptoServiceProvider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2957))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2985))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2958))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2986))
 // CS Name: ::System.Security.Cryptography::SHA1CryptoServiceProvider*
 class CORDL_TYPE SHA1CryptoServiceProvider : public ::System::Security::Cryptography::SHA1 {
 public:
@@ -36,22 +36,22 @@ public:
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x231575c size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x246e4d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x231ba50 size 0xa0 virtual true final false
+  /// @brief Method Finalize, addr 0x24747c4, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x231baf0 size 0xc virtual true final false
+  /// @brief Method Dispose, addr 0x2474864, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method HashCore addr 0x231bafc size 0x24 virtual true final false
+  /// @brief Method HashCore, addr 0x2474870, size 0x24, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x231bb20 size 0x20 virtual true final false
+  /// @brief Method HashFinal, addr 0x2474894, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize addr 0x231bb40 size 0x18 virtual true final false
+  /// @brief Method Initialize, addr 0x24748b4, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA1CryptoServiceProvider", modifiers: "&&", def_value: None }]

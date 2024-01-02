@@ -10,16 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TermInfoDriver)
 namespace System {
-class ByteMatcher;
-}
-namespace System {
 class IConsoleDriver;
 }
-namespace System::IO {
-class CStreamWriter;
-}
 namespace System {
-struct ConsoleKeyInfo;
+struct TermInfoStrings;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System {
 class TermInfoReader;
@@ -27,14 +24,17 @@ class TermInfoReader;
 namespace System::IO {
 class StreamReader;
 }
-namespace System::Collections {
-class Hashtable;
+namespace System {
+class ByteMatcher;
+}
+namespace System::IO {
+class CStreamWriter;
 }
 namespace System {
 class Object;
 }
 namespace System {
-struct TermInfoStrings;
+struct ConsoleKeyInfo;
 }
 // Forward declare root types
 namespace System {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::TermInfoDriver);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2516))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2518))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2619))
 // CS Name: ::System::TermInfoDriver*
 class CORDL_TYPE TermInfoDriver : public ::System::Object {
 public:
@@ -449,105 +449,105 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF__consoleColorToAnsiCode();
 
-  /// @brief Method TryTermInfoDir addr 0x24a5348 size 0x12c virtual false final false
+  /// @brief Method TryTermInfoDir, addr 0x26002d0, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW TryTermInfoDir(::StringW dir, ::StringW term);
 
-  /// @brief Method SearchTerminfo addr 0x24a5474 size 0x16c virtual false final false
+  /// @brief Method SearchTerminfo, addr 0x26003fc, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW SearchTerminfo(::StringW term);
 
-  /// @brief Method WriteConsole addr 0x24a55e0 size 0x28 virtual false final false
+  /// @brief Method WriteConsole, addr 0x2600568, size 0x28, virtual false, abstract: false, final false
   inline void WriteConsole(::StringW str);
 
   static inline ::System::TermInfoDriver* New_ctor(::StringW term);
 
-  /// @brief Method .ctor addr 0x249c904 size 0x348 virtual false final false
+  /// @brief Method .ctor, addr 0x25f7894, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::StringW term);
 
-  /// @brief Method get_Initialized addr 0x24a596c size 0x8 virtual true final true
+  /// @brief Method get_Initialized, addr 0x26008f4, size 0x8, virtual true, abstract: false, final true
   inline bool get_Initialized();
 
-  /// @brief Method Init addr 0x24a5974 size 0x864 virtual true final true
+  /// @brief Method Init, addr 0x26008fc, size 0x864, virtual true, abstract: false, final true
   inline void Init();
 
-  /// @brief Method IncrementX addr 0x24a6558 size 0x6c virtual false final false
+  /// @brief Method IncrementX, addr 0x26014e0, size 0x6c, virtual false, abstract: false, final false
   inline void IncrementX();
 
-  /// @brief Method WriteSpecialKey addr 0x24a661c size 0x114 virtual false final false
+  /// @brief Method WriteSpecialKey, addr 0x26015a4, size 0x114, virtual false, abstract: false, final false
   inline void WriteSpecialKey(::System::ConsoleKeyInfo key);
 
-  /// @brief Method WriteSpecialKey addr 0x24a68e0 size 0x28 virtual false final false
+  /// @brief Method WriteSpecialKey, addr 0x2601868, size 0x28, virtual false, abstract: false, final false
   inline void WriteSpecialKey(char16_t c);
 
-  /// @brief Method IsSpecialKey addr 0x24a6a8c size 0x84 virtual false final false
+  /// @brief Method IsSpecialKey, addr 0x2601a14, size 0x84, virtual false, abstract: false, final false
   inline bool IsSpecialKey(::System::ConsoleKeyInfo key);
 
-  /// @brief Method IsSpecialKey addr 0x24a6b10 size 0x28 virtual false final false
+  /// @brief Method IsSpecialKey, addr 0x2601a98, size 0x28, virtual false, abstract: false, final false
   inline bool IsSpecialKey(char16_t c);
 
-  /// @brief Method GetCursorPosition addr 0x24a62c8 size 0x290 virtual false final false
+  /// @brief Method GetCursorPosition, addr 0x2601250, size 0x290, virtual false, abstract: false, final false
   inline void GetCursorPosition();
 
-  /// @brief Method CheckWindowDimensions addr 0x24a6c1c size 0x120 virtual false final false
+  /// @brief Method CheckWindowDimensions, addr 0x2601ba4, size 0x120, virtual false, abstract: false, final false
   inline void CheckWindowDimensions();
 
-  /// @brief Method get_WindowHeight addr 0x24a65f0 size 0x2c virtual true final true
+  /// @brief Method get_WindowHeight, addr 0x2601578, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_WindowHeight();
 
-  /// @brief Method get_WindowWidth addr 0x24a65c4 size 0x2c virtual true final true
+  /// @brief Method get_WindowWidth, addr 0x260154c, size 0x2c, virtual true, abstract: false, final true
   inline int32_t get_WindowWidth();
 
-  /// @brief Method AddToBuffer addr 0x24a6b38 size 0xe4 virtual false final false
+  /// @brief Method AddToBuffer, addr 0x2601ac0, size 0xe4, virtual false, abstract: false, final false
   inline void AddToBuffer(int32_t b);
 
-  /// @brief Method AdjustBuffer addr 0x24a6d3c size 0x14 virtual false final false
+  /// @brief Method AdjustBuffer, addr 0x2601cc4, size 0x14, virtual false, abstract: false, final false
   inline void AdjustBuffer();
 
-  /// @brief Method CreateKeyInfoFromInt addr 0x24a6908 size 0x184 virtual false final false
+  /// @brief Method CreateKeyInfoFromInt, addr 0x2601890, size 0x184, virtual false, abstract: false, final false
   inline ::System::ConsoleKeyInfo CreateKeyInfoFromInt(int32_t n, bool alt);
 
-  /// @brief Method GetKeyFromBuffer addr 0x24a6d50 size 0x2cc virtual false final false
+  /// @brief Method GetKeyFromBuffer, addr 0x2601cd8, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* GetKeyFromBuffer(bool cooked);
 
-  /// @brief Method ReadKeyInternal addr 0x24a7530 size 0x1c0 virtual false final false
+  /// @brief Method ReadKeyInternal, addr 0x26024b8, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::ConsoleKeyInfo ReadKeyInternal(ByRef<bool> fresh);
 
-  /// @brief Method InputPending addr 0x24a785c size 0x34 virtual false final false
+  /// @brief Method InputPending, addr 0x26027e4, size 0x34, virtual false, abstract: false, final false
   inline bool InputPending();
 
-  /// @brief Method QueueEcho addr 0x24a7890 size 0xc8 virtual false final false
+  /// @brief Method QueueEcho, addr 0x2602818, size 0xc8, virtual false, abstract: false, final false
   inline void QueueEcho(char16_t c);
 
-  /// @brief Method Echo addr 0x24a7958 size 0x54 virtual false final false
+  /// @brief Method Echo, addr 0x26028e0, size 0x54, virtual false, abstract: false, final false
   inline void Echo(::System::ConsoleKeyInfo key);
 
-  /// @brief Method EchoFlush addr 0x24a79ac size 0x34 virtual false final false
+  /// @brief Method EchoFlush, addr 0x2602934, size 0x34, virtual false, abstract: false, final false
   inline void EchoFlush();
 
-  /// @brief Method Read addr 0x24a79e0 size 0x304 virtual false final false
+  /// @brief Method Read, addr 0x2602968, size 0x304, virtual false, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest, int32_t index, int32_t count);
 
-  /// @brief Method ReadKey addr 0x24a7ce4 size 0x64 virtual true final true
+  /// @brief Method ReadKey, addr 0x2602c6c, size 0x64, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method ReadLine addr 0x24a7d48 size 0x8 virtual true final true
+  /// @brief Method ReadLine, addr 0x2602cd0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd addr 0x24a7f18 size 0x8 virtual false final false
+  /// @brief Method ReadToEnd, addr 0x2602ea0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method ReadUntilConditionInternal addr 0x24a7d50 size 0x1c8 virtual false final false
+  /// @brief Method ReadUntilConditionInternal, addr 0x2602cd8, size 0x1c8, virtual false, abstract: false, final false
   inline ::StringW ReadUntilConditionInternal(bool haltOnNewLine);
 
-  /// @brief Method SetCursorPosition addr 0x24a6730 size 0x1b0 virtual true final true
+  /// @brief Method SetCursorPosition, addr 0x26016b8, size 0x1b0, virtual true, abstract: false, final true
   inline void SetCursorPosition(int32_t left, int32_t top);
 
-  /// @brief Method CreateKeyMap addr 0x24a8098 size 0x1e98 virtual false final false
+  /// @brief Method CreateKeyMap, addr 0x2603020, size 0x1e98, virtual false, abstract: false, final false
   inline void CreateKeyMap();
 
-  /// @brief Method InitKeys addr 0x24a76f0 size 0x16c virtual false final false
+  /// @brief Method InitKeys, addr 0x2602678, size 0x16c, virtual false, abstract: false, final false
   inline void InitKeys();
 
-  /// @brief Method AddStringMapping addr 0x24a9fac size 0x4c virtual false final false
+  /// @brief Method AddStringMapping, addr 0x2604f34, size 0x4c, virtual false, abstract: false, final false
   inline void AddStringMapping(::System::TermInfoStrings s);
 
   // Ctor Parameters [CppParam { name: "", ty: "TermInfoDriver", modifiers: "&&", def_value: None }]

@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::ColorUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13731))
 // CS Name: ::UnityEngine.TextCore.Text::ColorUtilities*
 class CORDL_TYPE ColorUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CompareColors addr 0x2be3d48 size 0x10 virtual false final false
+  /// @brief Method CompareColors, addr 0x2d4c0f8, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method MultiplyColors addr 0x2be3d58 size 0xc0 virtual false final false
+  /// @brief Method MultiplyColors, addr 0x2d4c108, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorUtilities", modifiers: "&&", def_value: None }]

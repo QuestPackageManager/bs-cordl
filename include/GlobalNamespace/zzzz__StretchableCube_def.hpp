@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StretchableCube)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 class Mesh;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableCube);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4917))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4797))
 // CS Name: ::StretchableCube*
 class CORDL_TYPE StretchableCube : public ::UnityEngine::MonoBehaviour {
 public:
@@ -170,24 +170,24 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_triangles();
 
-  /// @brief Method Awake addr 0x225a554 size 0x70 virtual false final false
+  /// @brief Method Awake, addr 0x238eb88, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x225a708 size 0xc virtual false final false
+  /// @brief Method OnDestroy, addr 0x238ed3c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method CreateBox addr 0x225a5c4 size 0x144 virtual false final false
+  /// @brief Method CreateBox, addr 0x238ebf8, size 0x144, virtual false, abstract: false, final false
   inline ::UnityEngine::Mesh* CreateBox();
 
-  /// @brief Method RecalculateUVs addr 0x225a714 size 0x1e4 virtual false final false
+  /// @brief Method RecalculateUVs, addr 0x238ed48, size 0x1e4, virtual false, abstract: false, final false
   inline void RecalculateUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
 
-  /// @brief Method RefreshUVs addr 0x225a8f8 size 0x94 virtual false final false
+  /// @brief Method RefreshUVs, addr 0x238ef2c, size 0x94, virtual false, abstract: false, final false
   inline void RefreshUVs();
 
   static inline ::GlobalNamespace::StretchableCube* New_ctor();
 
-  /// @brief Method .ctor addr 0x225a98c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x238efc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StretchableCube", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::OverflowInternal);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6887))
 // CS Name: ::UnityEngine.UIElements::OverflowInternal
 struct CORDL_TYPE OverflowInternal {
 public:

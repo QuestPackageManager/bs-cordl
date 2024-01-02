@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ReflectionProbeUsage);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10269))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10347))
 // CS Name: ::UnityEngine.Rendering::ReflectionProbeUsage
 struct CORDL_TYPE ReflectionProbeUsage {
 public:

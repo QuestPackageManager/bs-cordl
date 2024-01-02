@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GameplayServerFiniteStateMachineFactory)
 namespace GlobalNamespace {
-class GameplayServerFiniteStateMachine;
+struct __GameplayServerFiniteStateMachine__InitParams;
 }
 namespace GlobalNamespace {
-struct __GameplayServerFiniteStateMachine__InitParams;
+class GameplayServerFiniteStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayServerFiniteStateMachineFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12763))
 // CS Name: ::GameplayServerFiniteStateMachineFactory*
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0xdb7be4 size 0x1ac virtual false final false
+  /// @brief Method Create, addr 0xe3c020, size 0x1ac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "&&", def_value: None }]

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IPPacketInformation)
-namespace System::Net {
-class IPAddress;
-}
 namespace System {
 class Object;
+}
+namespace System::Net {
+class IPAddress;
 }
 // Forward declare root types
 namespace System::Net::Sockets {
@@ -22,15 +22,15 @@ MARK_VAL_T(::System::Net::Sockets::IPPacketInformation);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9339))
 // CS Name: ::System.Net.Sockets::IPPacketInformation
 struct CORDL_TYPE IPPacketInformation {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x277e52c size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0x28fc550, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode addr 0x277e5c8 size 0x44 virtual true final false
+  /// @brief Method GetHashCode, addr 0x28fc5ec, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "address", ty: "::System::Net::IPAddress*", modifiers: "", def_value: None }, CppParam { name: "networkInterface", ty: "int32_t", modifiers: "", def_value: None

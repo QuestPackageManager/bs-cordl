@@ -9,20 +9,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArray_1)
-namespace Unity::Collections {
-struct Allocator;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Unity::Jobs {
 struct JobHandle;
 }
+namespace Unity::Collections {
+struct NativeArrayOptions;
+}
+namespace Unity::Collections {
+template <typename T> struct __NativeArray_1__Enumerator;
+}
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -30,17 +27,20 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace Unity::Collections {
-struct NativeArrayOptions;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace Unity::Collections {
-template <typename T> struct __NativeArray_1__Enumerator;
+struct Allocator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -58,8 +58,8 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9931))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9927))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9999))
 // CS Name: ::Unity.Collections::NativeArray`1<T>
 struct CORDL_TYPE NativeArray_1 {
 public:
@@ -84,68 +84,90 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Collections::NativeArray_1<T>>"
   constexpr operator ::System::IEquatable_1<::Unity::Collections::NativeArray_1<T>>*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param options: ::Unity::Collections::NativeArrayOptions (default: static_cast<int32_t>(0x1))
+  inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options = static_cast<int32_t>(0x1));
 
-  /// @brief Method Allocate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> array, ::Unity::Collections::Allocator allocator);
+
+  /// @brief Method Allocate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Allocate(int32_t length, ::Unity::Collections::Allocator allocator, ByRef<::Unity::Collections::NativeArray_1<T>> array);
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, T value);
 
-  /// @brief Method get_IsCreated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCreated();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Dispose(::Unity::Jobs::JobHandle inputDeps);
 
-  /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeArray_1<T> array);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CopyTo(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::__NativeArray_1__Enumerator<T> GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::Unity::Collections::NativeArray_1<T> other);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst);
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Copy(::ArrayW<T, ::Array<T>*> src, ::Unity::Collections::NativeArray_1<T> dst);
+
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::ArrayW<T, ::Array<T>*> dst);
+
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst, int32_t length);
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::ArrayW<T, ::Array<T>*> dst, int32_t length);
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Copy(::ArrayW<T, ::Array<T>*> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method InternalReinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> inline ::Unity::Collections::NativeArray_1<U> InternalReinterpret(int32_t length);
+
+  /// @brief Method Reinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret(int32_t expectedTypeSize);
 
   // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None },
   // CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
@@ -177,8 +199,8 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 3095 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9926))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 3160 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9998))
 // CS Name: ::NativeArray`1::Enumerator<T>
 struct CORDL_TYPE __NativeArray_1__Enumerator {
 public:
@@ -196,22 +218,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::Unity::Collections::NativeArray_1<T>> array);
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "m_Array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value:

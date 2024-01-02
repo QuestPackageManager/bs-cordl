@@ -11,16 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HebrewNumber)
 namespace System::Globalization {
-struct HebrewNumberParsingState;
+struct __HebrewNumber__HebrewValue;
+}
+namespace System::Globalization {
+struct __HebrewNumber__HebrewToken;
 }
 namespace System::Globalization {
 struct HebrewNumberParsingContext;
 }
 namespace System::Globalization {
-struct __HebrewNumber__HebrewValue;
-}
-namespace System::Globalization {
-struct __HebrewNumber__HebrewToken;
+struct HebrewNumberParsingState;
 }
 namespace System::Globalization {
 struct __HebrewNumber__HS;
@@ -48,7 +48,7 @@ MARK_VAL_T(::System::Globalization::__HebrewNumber__HebrewValue);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3663))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3675))
 // CS Name: ::HebrewNumber::HebrewToken
 struct CORDL_TYPE __HebrewNumber__HebrewToken {
 public:
@@ -133,13 +133,13 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewToken, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3663))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3675))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3676))
 // CS Name: ::HebrewNumber::HebrewValue
 struct CORDL_TYPE __HebrewNumber__HebrewValue {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x23f8f64 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2555154, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::__HebrewNumber__HebrewToken token, int16_t value);
 
   // Ctor Parameters [CppParam { name: "token", ty: "::System::Globalization::__HebrewNumber__HebrewToken", modifiers: "", def_value: None }, CppParam { name: "value", ty: "int16_t", modifiers: "",
@@ -174,7 +174,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewValue, val
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3677))
 // CS Name: ::HebrewNumber::HS
 struct CORDL_TYPE __HebrewNumber__HS {
 public:
@@ -291,8 +291,8 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HS, value__) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3666))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3678))
 // CS Name: ::System.Globalization::HebrewNumber*
 class CORDL_TYPE HebrewNumber : public ::System::Object {
 public:
@@ -327,13 +327,13 @@ public:
 
   static inline ::ArrayW<::System::Globalization::__HebrewNumber__HS, ::Array<::System::Globalization::__HebrewNumber__HS>*> getStaticF_s_numberPasingState();
 
-  /// @brief Method ToString addr 0x23f8a5c size 0x258 virtual false final false
+  /// @brief Method ToString, addr 0x2554c4c, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t Number);
 
-  /// @brief Method ParseByChar addr 0x23f6c78 size 0x190 virtual false final false
+  /// @brief Method ParseByChar, addr 0x2552e6c, size 0x190, virtual false, abstract: false, final false
   static inline ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ByRef<::System::Globalization::HebrewNumberParsingContext> context);
 
-  /// @brief Method IsDigit addr 0x23f6b9c size 0xd0 virtual false final false
+  /// @brief Method IsDigit, addr 0x2552d90, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
   // Ctor Parameters [CppParam { name: "", ty: "HebrewNumber", modifiers: "&&", def_value: None }]

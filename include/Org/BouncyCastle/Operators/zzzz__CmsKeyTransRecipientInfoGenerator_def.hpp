@@ -48,18 +48,18 @@ public:
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
                                                                                             ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor addr 0xeb873c size 0x14c virtual false final false
+  /// @brief Method .ctor, addr 0xf2d928, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method .ctor addr 0xeb8888 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0xf2da74, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
 
-  /// @brief Method get_AlgorithmDetails addr 0xeb88fc size 0xec virtual true final false
+  /// @brief Method get_AlgorithmDetails, addr 0xf2dae8, size 0xec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
-  /// @brief Method GenerateWrappedKey addr 0xeb89e8 size 0x130 virtual true final false
+  /// @brief Method GenerateWrappedKey, addr 0xf2dbd4, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiArchiveControl)
-namespace Org::BouncyCastle::Crmf {
-class IControl;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PkiArchiveOptions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crmf {
+class IControl;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedData;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PkiArchiveControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(703))
 // CS Name: ::Org.BouncyCastle.Crmf::PkiArchiveControl*
 class CORDL_TYPE PkiArchiveControl : public ::System::Object {
@@ -86,22 +86,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
-  /// @brief Method .ctor addr 0x119d018 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x120e268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
-  /// @brief Method get_Type addr 0x11a0580 size 0x58 virtual true final true
+  /// @brief Method get_Type, addr 0x12117d0, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value addr 0x11a05d8 size 0x8 virtual true final true
+  /// @brief Method get_Value, addr 0x1211828, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method get_ArchiveType addr 0x11a05e0 size 0x20 virtual false final false
+  /// @brief Method get_ArchiveType, addr 0x1211830, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_ArchiveType();
 
-  /// @brief Method get_EnvelopedData addr 0x11a0600 size 0x44 virtual false final false
+  /// @brief Method get_EnvelopedData, addr 0x1211850, size 0x44, virtual false, abstract: false, final false
   inline bool get_EnvelopedData();
 
-  /// @brief Method GetEnvelopedData addr 0x11a0644 size 0x264 virtual false final false
+  /// @brief Method GetEnvelopedData, addr 0x1211894, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* GetEnvelopedData();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControl", modifiers: "&&", def_value: None }]

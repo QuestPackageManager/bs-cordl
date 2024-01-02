@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CertificationRequestInfo)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -85,36 +85,36 @@ public:
 
   constexpr void __set_attributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance addr 0xf1011c size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf86340, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pkInfo,
                                                                                     ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
-  /// @brief Method .ctor addr 0xf1056c size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0xf86790, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* subject, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pkInfo, ::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf10314 size 0x258 virtual false final false
+  /// @brief Method .ctor, addr 0xf86538, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xf10a28 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xf86c4c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_Subject addr 0xf10a30 size 0x8 virtual false final false
+  /// @brief Method get_Subject, addr 0xf86c54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectPublicKeyInfo addr 0xf10a38 size 0x8 virtual false final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0xf86c5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_Attributes addr 0xf10a40 size 0x8 virtual false final false
+  /// @brief Method get_Attributes, addr 0xf86c64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Attributes();
 
-  /// @brief Method ToAsn1Object addr 0xf10a48 size 0x16c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf86c6c, size 0x16c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ValidateAttributes addr 0xf10668 size 0x3c0 virtual false final false
+  /// @brief Method ValidateAttributes, addr 0xf8688c, size 0x3c0, virtual false, abstract: false, final false
   static inline void ValidateAttributes(::Org::BouncyCastle::Asn1::Asn1Set* attributes);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificationRequestInfo", modifiers: "&&", def_value: None }]

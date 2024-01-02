@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SmallBufferPool)
@@ -19,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SmallBufferPool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12879))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12958))
 // CS Name: ::SmallBufferPool*
 class CORDL_TYPE SmallBufferPool : public ::System::Object {
 public:
@@ -36,6 +37,9 @@ public:
 
   /// @brief Field _cacheMax, offset 0x28, size 0x8
   __declspec(property(get = __get__cacheMax, put = __set__cacheMax))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheMax;
+
+  /// @brief Field instance, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::GlobalNamespace::SmallBufferPool* instance;
 
   constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __get__cacheSmall();
 
@@ -61,15 +65,25 @@ public:
 
   constexpr void __set__cacheMax(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
-  /// @brief Method GetBuffer addr 0xdd1cd4 size 0x214 virtual false final false
+  static inline void setStaticF_instance(::GlobalNamespace::SmallBufferPool* value);
+
+  static inline ::GlobalNamespace::SmallBufferPool* getStaticF_instance();
+
+  /// @brief Method GetBuffer, addr 0xe56ca8, size 0x270, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBuffer(int32_t length);
 
-  /// @brief Method ReleaseBuffer addr 0xdd1ee8 size 0x1c8 virtual false final false
+  /// @brief Method ReleaseBuffer, addr 0xe56f18, size 0x4, virtual false, abstract: false, final false
   inline void ReleaseBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
+
+  /// @brief Method ReleaseBuffer, addr 0xe570e0, size 0x1c, virtual false, abstract: false, final false
+  inline void ReleaseBuffer(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer);
+
+  /// @brief Method ReleaseBufferInternal, addr 0xe56f1c, size 0x1c4, virtual false, abstract: false, final false
+  inline void ReleaseBufferInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   static inline ::GlobalNamespace::SmallBufferPool* New_ctor();
 
-  /// @brief Method .ctor addr 0xdd20b0 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xe570fc, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallBufferPool", modifiers: "&&", def_value: None }]

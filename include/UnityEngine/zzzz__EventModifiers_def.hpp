@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventModifiers);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14819))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14602))
 // CS Name: ::UnityEngine::EventModifiers
 struct CORDL_TYPE EventModifiers {
 public:

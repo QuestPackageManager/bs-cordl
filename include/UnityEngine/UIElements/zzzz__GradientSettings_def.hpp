@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(GradientSettings)
 namespace UnityEngine::UIElements {
 struct GradientType;
 }
-namespace UnityEngine::UIElements {
-struct AddressMode;
-}
 namespace UnityEngine {
 struct RectInt;
+}
+namespace UnityEngine::UIElements {
+struct AddressMode;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -30,8 +30,8 @@ MARK_VAL_T(::UnityEngine::UIElements::GradientSettings);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6888)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(10090)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6891)) CS Name: ::UnityEngine.UIElements::GradientSettings
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6802)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6803))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6805)) CS Name: ::UnityEngine.UIElements::GradientSettings
 struct CORDL_TYPE GradientSettings {
 public:
   // Declarations

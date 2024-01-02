@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::ComponentModel::TypeDescriptionProviderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9461))
 // CS Name: ::System.ComponentModel::TypeDescriptionProviderAttribute*
 class CORDL_TYPE TypeDescriptionProviderAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::ComponentModel::TypeDescriptionProviderAttribute* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor addr 0x279b28c size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x29192b4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName addr 0x279b304 size 0x8 virtual false final false
+  /// @brief Method get_TypeName, addr 0x291932c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptionProviderAttribute", modifiers: "&&", def_value: None }]

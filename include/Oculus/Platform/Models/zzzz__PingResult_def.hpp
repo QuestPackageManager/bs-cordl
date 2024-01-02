@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PingResult);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 402 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13527)) CS Name: ::Oculus.Platform.Models::PingResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 407
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13471)) CS Name: ::Oculus.Platform.Models::PingResult*
 class CORDL_TYPE PingResult : public ::System::Object {
 public:
   // Declarations
@@ -50,19 +50,19 @@ public:
 
   static inline ::Oculus::Platform::Models::PingResult* New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method .ctor addr 0x25b6b88 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2708334, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 
-  /// @brief Method get_ID addr 0x25b6bc4 size 0x8 virtual false final false
+  /// @brief Method get_ID, addr 0x2708370, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_ID();
 
-  /// @brief Method set_ID addr 0x25b6bcc size 0x8 virtual false final false
+  /// @brief Method set_ID, addr 0x2708378, size 0x8, virtual false, abstract: false, final false
   inline void set_ID(uint64_t value);
 
-  /// @brief Method get_PingTimeUsec addr 0x25b6bd4 size 0x6c virtual false final false
+  /// @brief Method get_PingTimeUsec, addr 0x2708380, size 0x6c, virtual false, abstract: false, final false
   inline uint64_t get_PingTimeUsec();
 
-  /// @brief Method get_IsTimeout addr 0x25b6c40 size 0x44 virtual false final false
+  /// @brief Method get_IsTimeout, addr 0x27083ec, size 0x44, virtual false, abstract: false, final false
   inline bool get_IsTimeout();
 
   // Ctor Parameters [CppParam { name: "", ty: "PingResult", modifiers: "&&", def_value: None }]

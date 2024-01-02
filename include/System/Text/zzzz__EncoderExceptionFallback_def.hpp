@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Text::EncoderExceptionFallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2840))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2844))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2841))
 // CS Name: ::System.Text::EncoderExceptionFallback*
 class CORDL_TYPE EncoderExceptionFallback : public ::System::Text::EncoderFallback {
 public:
@@ -31,19 +31,19 @@ public:
 
   static inline ::System::Text::EncoderExceptionFallback* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d9960 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2633a6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateFallbackBuffer addr 0x24d9968 size 0x5c virtual true final false
+  /// @brief Method CreateFallbackBuffer, addr 0x2633a74, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method get_MaxCharCount addr 0x24d99cc size 0x8 virtual true final false
+  /// @brief Method get_MaxCharCount, addr 0x2633ad8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method Equals addr 0x24d99d4 size 0x5c virtual true final false
+  /// @brief Method Equals, addr 0x2633ae0, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x24d9a30 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2633b3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]

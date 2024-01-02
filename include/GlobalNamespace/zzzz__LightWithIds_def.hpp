@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightWithIds)
 namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
 class __LightWithIds__LightWithId;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace UnityEngine {
-struct Color;
+namespace GlobalNamespace {
+class LightWithIdManager;
 }
 namespace GlobalNamespace {
 class ILightWithId;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightWithIds__LightWithId);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14761))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14543))
 // CS Name: ::LightWithIds::LightWithId*
 class CORDL_TYPE __LightWithIds__LightWithId : public ::System::Object {
 public:
@@ -87,35 +87,35 @@ public:
 
   constexpr void __set__parentLightWithIds(::GlobalNamespace::LightWithIds* value);
 
-  /// @brief Method get_lightId addr 0x1fbbf7c size 0x8 virtual true final true
+  /// @brief Method get_lightId, addr 0x21119a0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
 
-  /// @brief Method get_color addr 0x1fbbf84 size 0xc virtual false final false
+  /// @brief Method get_color, addr 0x21119a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_isRegistered addr 0x1fbbf90 size 0x8 virtual true final true
+  /// @brief Method get_isRegistered, addr 0x21119b4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isRegistered();
 
-  /// @brief Method __SetIsRegistered addr 0x1fbbf98 size 0xc virtual true final true
+  /// @brief Method __SetIsRegistered, addr 0x21119bc, size 0xc, virtual true, abstract: false, final true
   inline void __SetIsRegistered();
 
-  /// @brief Method __SetIsUnRegistered addr 0x1fbbfa4 size 0x8 virtual true final true
+  /// @brief Method __SetIsUnRegistered, addr 0x21119c8, size 0x8, virtual true, abstract: false, final true
   inline void __SetIsUnRegistered();
 
   static inline ::GlobalNamespace::__LightWithIds__LightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fba08c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210fa90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LightWithIds__LightWithId* New_ctor(int32_t lightId);
 
-  /// @brief Method .ctor addr 0x1fb99cc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x210eff0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId);
 
-  /// @brief Method __SetParentLightWithIds addr 0x1fbbfac size 0x8 virtual false final false
+  /// @brief Method __SetParentLightWithIds, addr 0x21119d0, size 0x8, virtual false, abstract: false, final false
   inline void __SetParentLightWithIds(::GlobalNamespace::LightWithIds* parentLightWithIds);
 
-  /// @brief Method ColorWasSet addr 0x1fb9a3c size 0x28 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x210f060, size 0x28, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightWithIds__LightWithId", modifiers: "&&", def_value: None }]
@@ -162,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__LightWithIds__LightWithId, ____paren
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14762))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14544))
 // CS Name: ::LightWithIds*
 class CORDL_TYPE LightWithIds : public ::UnityEngine::MonoBehaviour {
 public:
@@ -208,45 +208,45 @@ public:
 
   constexpr void __set__childrenColorWasSet(bool value);
 
-  /// @brief Method get_lightWithIds addr 0x1fbb7b8 size 0x8 virtual false final false
+  /// @brief Method get_lightWithIds, addr 0x21111dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* get_lightWithIds();
 
-  /// @brief Method Awake addr 0x1fba120 size 0x38 virtual true final false
+  /// @brief Method Awake, addr 0x210fb2c, size 0x38, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x1fbb7e8 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x211120c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x1fb950c size 0x4 virtual true final false
+  /// @brief Method OnEnable, addr 0x210e9f0, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method MarkChildrenColorAsSet addr 0x1fbbbb4 size 0xc virtual false final false
+  /// @brief Method MarkChildrenColorAsSet, addr 0x21115d8, size 0xc, virtual false, abstract: false, final false
   inline void MarkChildrenColorAsSet();
 
-  /// @brief Method SetNewLightsWithIds addr 0x1fbb7c0 size 0x28 virtual false final false
+  /// @brief Method SetNewLightsWithIds, addr 0x21111e4, size 0x28, virtual false, abstract: false, final false
   inline void SetNewLightsWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* lightsWithIds);
 
-  /// @brief Method GetLightWithIds addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetLightWithIds, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method RegisterForColorChanges addr 0x1fbb7ec size 0x3c8 virtual false final false
+  /// @brief Method RegisterForColorChanges, addr 0x2111210, size 0x3c8, virtual false, abstract: false, final false
   inline void RegisterForColorChanges();
 
-  /// @brief Method UnregisterFromColorChanges addr 0x1fbbbc0 size 0x39c virtual false final false
+  /// @brief Method UnregisterFromColorChanges, addr 0x21115e4, size 0x39c, virtual false, abstract: false, final false
   inline void UnregisterFromColorChanges();
 
-  /// @brief Method OnDisable addr 0x1fbbf5c size 0x4 virtual false final false
+  /// @brief Method OnDisable, addr 0x2111980, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method HandleLightManagerDidChangeSomeColorsThisFrame addr 0x1fbbf60 size 0x1c virtual false final false
+  /// @brief Method HandleLightManagerDidChangeSomeColorsThisFrame, addr 0x2111984, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLightManagerDidChangeSomeColorsThisFrame();
 
-  /// @brief Method ProcessNewColorData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessNewColorData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessNewColorData();
 
   static inline ::GlobalNamespace::LightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb9994 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210efb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightWithIds", modifiers: "&&", def_value: None }]

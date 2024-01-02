@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureBounds_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8659))
 // CS Name: ::OVR.OpenVR::VRTextureBounds_t
 struct CORDL_TYPE VRTextureBounds_t {
 public:

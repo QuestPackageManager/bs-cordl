@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualElementFlags);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6822))
 // CS Name: ::UnityEngine.UIElements::VisualElementFlags
 struct CORDL_TYPE VisualElementFlags {
 public:

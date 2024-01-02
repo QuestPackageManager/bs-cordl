@@ -8,6 +8,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Certificate2ImplMono)
 namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace Microsoft::Win32::SafeHandles {
+class SafePasswordHandle;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography {
 class DSA;
 }
 namespace System::Security::Cryptography::X509Certificates {
@@ -16,23 +25,14 @@ class X509Certificate2;
 namespace Mono::Security::X509 {
 class X509Certificate;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
+namespace System::Security::Cryptography {
+class RSA;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImplCollection;
 }
-namespace System::Security::Cryptography {
-class RSA;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
-}
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
-}
-namespace Microsoft::Win32::SafeHandles {
-class SafePasswordHandle;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7835))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7834))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8998))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8997))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplMono*
 class CORDL_TYPE X509Certificate2ImplMono : public ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix {
 public:
@@ -94,64 +94,64 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_signedData();
 
-  /// @brief Method get_IsValid addr 0x27ff568 size 0x10 virtual true final false
+  /// @brief Method get_IsValid, addr 0x297d2dc, size 0x10, virtual true, abstract: false, final false
   inline bool get_IsValid();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* New_ctor(::Mono::Security::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor addr 0x27ff578 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x297d2ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::X509::X509Certificate* cert);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other);
 
-  /// @brief Method .ctor addr 0x27ff5a8 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x297d31c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* other);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplMono* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData,
                                                                                                        ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                        ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method .ctor addr 0x27ff64c size 0x15c virtual false final false
+  /// @brief Method .ctor, addr 0x297d3c0, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                     ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Clone addr 0x27ff800 size 0x6c virtual true final false
+  /// @brief Method Clone, addr 0x297d574, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Clone();
 
-  /// @brief Method get_Cert addr 0x27ff86c size 0x1c virtual false final false
+  /// @brief Method get_Cert, addr 0x297d5e0, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_Cert();
 
-  /// @brief Method GetRawCertData addr 0x27ff888 size 0x38 virtual true final false
+  /// @brief Method GetRawCertData, addr 0x297d5fc, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawCertData();
 
-  /// @brief Method get_HasPrivateKey addr 0x27ff8c0 size 0x24 virtual true final false
+  /// @brief Method get_HasPrivateKey, addr 0x297d634, size 0x24, virtual true, abstract: false, final false
   inline bool get_HasPrivateKey();
 
-  /// @brief Method get_PrivateKey addr 0x27ff8e4 size 0x430 virtual true final false
+  /// @brief Method get_PrivateKey, addr 0x297d658, size 0x428, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_PrivateKey();
 
-  /// @brief Method set_PrivateKey addr 0x27ffd14 size 0x198 virtual true final false
+  /// @brief Method set_PrivateKey, addr 0x297da80, size 0x198, virtual true, abstract: false, final false
   inline void set_PrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
-  /// @brief Method GetRSAPrivateKey addr 0x27ffeac size 0x8c virtual true final false
+  /// @brief Method GetRSAPrivateKey, addr 0x297dc18, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* GetRSAPrivateKey();
 
-  /// @brief Method GetDSAPrivateKey addr 0x27fff38 size 0x8c virtual true final false
+  /// @brief Method GetDSAPrivateKey, addr 0x297dca4, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
-  /// @brief Method ImportPkcs12 addr 0x27ff7a8 size 0x58 virtual false final false
+  /// @brief Method ImportPkcs12, addr 0x297d51c, size 0x58, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password);
 
-  /// @brief Method ImportPkcs12 addr 0x27fffc4 size 0x7c4 virtual false final false
+  /// @brief Method ImportPkcs12, addr 0x297dd30, size 0x7c4, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, ::StringW password);
 
-  /// @brief Method Verify addr 0x28008dc size 0x94 virtual true final false
+  /// @brief Method Verify, addr 0x297e648, size 0x94, virtual true, abstract: false, final false
   inline bool Verify(::System::Security::Cryptography::X509Certificates::X509Certificate2* thisCertificate);
 
-  /// @brief Method get_IntermediateCertificates addr 0x2800a1c size 0x8 virtual true final false
+  /// @brief Method get_IntermediateCertificates, addr 0x297e788, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* get_IntermediateCertificates();
 
-  /// @brief Method get_MonoCertificate addr 0x2800a24 size 0x8 virtual false final false
+  /// @brief Method get_MonoCertificate, addr 0x297e790, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Certificate* get_MonoCertificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Certificate2ImplMono", modifiers: "&&", def_value: None }]

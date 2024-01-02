@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContributeEnvoySink)
-namespace System {
-class MarshalByRefObject;
-}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System {
+class MarshalByRefObject;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Contexts {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeEnvoySink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3109))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeEnvoySink*
 class CORDL_TYPE IContributeEnvoySink {
 public:
   // Declarations
-  /// @brief Method GetEnvoySink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnvoySink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* GetEnvoySink(::System::MarshalByRefObject* obj, ::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContributeEnvoySink", modifiers: "&&", def_value: None }]

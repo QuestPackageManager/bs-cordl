@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::InvertVector3Processor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 407
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6672)) CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6586)) CS Name: ::UnityEngine.InputSystem.Processors::InvertVector3Processor*
 class CORDL_TYPE InvertVector3Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
@@ -54,15 +54,15 @@ public:
 
   constexpr void __set_invertZ(bool value);
 
-  /// @brief Method Process addr 0x29787a4 size 0x34 virtual true final false
+  /// @brief Method Process, addr 0x2af94f8, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString addr 0x29787d8 size 0xc4 virtual true final false
+  /// @brief Method ToString, addr 0x2af952c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::InputSystem::Processors::InvertVector3Processor* New_ctor();
 
-  /// @brief Method .ctor addr 0x297889c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2af95f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InvertVector3Processor", modifiers: "&&", def_value: None }]

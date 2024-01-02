@@ -9,8 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProcessStartInfo)
-namespace System {
-class WeakReference;
+namespace System::Collections::Specialized {
+class StringDictionary;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class Collection_1;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::Diagnostics {
 class Process;
@@ -18,17 +24,14 @@ class Process;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
+namespace System {
+class WeakReference;
+}
+namespace System::Diagnostics {
+struct ProcessWindowStyle;
+}
 namespace System::Security {
 class SecureString;
-}
-namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
-}
-namespace System::Collections::Specialized {
-class StringDictionary;
-}
-namespace System::Text {
-class Encoding;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -40,8 +43,8 @@ MARK_REF_PTR_T(::System::Diagnostics::ProcessStartInfo);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(7797))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7792))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8960)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8955))
 // CS Name: ::System.Diagnostics::ProcessStartInfo*
 class CORDL_TYPE ProcessStartInfo : public ::System::Object {
 public:
@@ -127,17 +130,17 @@ public:
 
   __declspec(property(get = get_EnvironmentVariables))::System::Collections::Specialized::StringDictionary* EnvironmentVariables;
 
-  __declspec(property(get = get_RedirectStandardInput)) bool RedirectStandardInput;
+  __declspec(property(get = get_RedirectStandardInput, put = set_RedirectStandardInput)) bool RedirectStandardInput;
 
-  __declspec(property(get = get_RedirectStandardOutput)) bool RedirectStandardOutput;
+  __declspec(property(get = get_RedirectStandardOutput, put = set_RedirectStandardOutput)) bool RedirectStandardOutput;
 
-  __declspec(property(get = get_RedirectStandardError)) bool RedirectStandardError;
+  __declspec(property(get = get_RedirectStandardError, put = set_RedirectStandardError)) bool RedirectStandardError;
 
   __declspec(property(get = get_StandardErrorEncoding))::System::Text::Encoding* StandardErrorEncoding;
 
   __declspec(property(get = get_StandardOutputEncoding))::System::Text::Encoding* StandardOutputEncoding;
 
-  __declspec(property(get = get_UseShellExecute)) bool UseShellExecute;
+  __declspec(property(get = get_UseShellExecute, put = set_UseShellExecute)) bool UseShellExecute;
 
   __declspec(property(get = get_UserName))::StringW UserName;
 
@@ -150,6 +153,8 @@ public:
   __declspec(property(get = get_FileName, put = set_FileName))::StringW FileName;
 
   __declspec(property(get = get_WorkingDirectory))::StringW WorkingDirectory;
+
+  __declspec(property(put = set_WindowStyle))::System::Diagnostics::ProcessWindowStyle WindowStyle;
 
   __declspec(property(get = get_HaveEnvVars)) bool HaveEnvVars;
 
@@ -303,66 +308,86 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_empty();
 
+  static inline ::System::Diagnostics::ProcessStartInfo* New_ctor();
+
+  /// @brief Method .ctor, addr 0x297331c, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
+
   static inline ::System::Diagnostics::ProcessStartInfo* New_ctor(::System::Diagnostics::Process* parent);
 
-  /// @brief Method .ctor addr 0x27f2468 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x296fe90, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::Process* parent);
 
-  /// @brief Method get_ArgumentList addr 0x27f55e0 size 0x80 virtual false final false
+  /// @brief Method get_ArgumentList, addr 0x29731a0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList();
 
-  /// @brief Method get_Arguments addr 0x27f5660 size 0x54 virtual false final false
+  /// @brief Method get_Arguments, addr 0x2973220, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Arguments();
 
-  /// @brief Method set_Arguments addr 0x27f575c size 0x8 virtual false final false
+  /// @brief Method set_Arguments, addr 0x297332c, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::StringW value);
 
-  /// @brief Method get_EnvironmentVariables addr 0x27f5070 size 0x570 virtual false final false
+  /// @brief Method get_EnvironmentVariables, addr 0x2972c30, size 0x570, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
 
-  /// @brief Method get_RedirectStandardInput addr 0x27f5764 size 0x8 virtual false final false
+  /// @brief Method get_RedirectStandardInput, addr 0x2973334, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardInput();
 
-  /// @brief Method get_RedirectStandardOutput addr 0x27f576c size 0x8 virtual false final false
+  /// @brief Method set_RedirectStandardInput, addr 0x297333c, size 0xc, virtual false, abstract: false, final false
+  inline void set_RedirectStandardInput(bool value);
+
+  /// @brief Method get_RedirectStandardOutput, addr 0x2973348, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardOutput();
 
-  /// @brief Method get_RedirectStandardError addr 0x27f5774 size 0x8 virtual false final false
+  /// @brief Method set_RedirectStandardOutput, addr 0x2973350, size 0xc, virtual false, abstract: false, final false
+  inline void set_RedirectStandardOutput(bool value);
+
+  /// @brief Method get_RedirectStandardError, addr 0x297335c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardError();
 
-  /// @brief Method get_StandardErrorEncoding addr 0x27f577c size 0x8 virtual false final false
+  /// @brief Method set_RedirectStandardError, addr 0x2973364, size 0xc, virtual false, abstract: false, final false
+  inline void set_RedirectStandardError(bool value);
+
+  /// @brief Method get_StandardErrorEncoding, addr 0x2973370, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardErrorEncoding();
 
-  /// @brief Method get_StandardOutputEncoding addr 0x27f5784 size 0x8 virtual false final false
+  /// @brief Method get_StandardOutputEncoding, addr 0x2973378, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardOutputEncoding();
 
-  /// @brief Method get_UseShellExecute addr 0x27f578c size 0x8 virtual false final false
+  /// @brief Method get_UseShellExecute, addr 0x2973380, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseShellExecute();
 
-  /// @brief Method get_UserName addr 0x27f4cfc size 0x54 virtual false final false
+  /// @brief Method set_UseShellExecute, addr 0x2973388, size 0xc, virtual false, abstract: false, final false
+  inline void set_UseShellExecute(bool value);
+
+  /// @brief Method get_UserName, addr 0x29728bc, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
-  /// @brief Method get_Password addr 0x27f5794 size 0x8 virtual false final false
+  /// @brief Method get_Password, addr 0x2973394, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecureString* get_Password();
 
-  /// @brief Method get_Domain addr 0x27f5708 size 0x54 virtual false final false
+  /// @brief Method get_Domain, addr 0x29732c8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_LoadUserProfile addr 0x27f579c size 0x8 virtual false final false
+  /// @brief Method get_LoadUserProfile, addr 0x297339c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadUserProfile();
 
-  /// @brief Method get_FileName addr 0x27f318c size 0x54 virtual false final false
+  /// @brief Method get_FileName, addr 0x2970d4c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method set_FileName addr 0x27f57a4 size 0x8 virtual false final false
+  /// @brief Method set_FileName, addr 0x29733a4, size 0x8, virtual false, abstract: false, final false
   inline void set_FileName(::StringW value);
 
-  /// @brief Method get_WorkingDirectory addr 0x27f56b4 size 0x54 virtual false final false
+  /// @brief Method get_WorkingDirectory, addr 0x2973274, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_WorkingDirectory();
 
-  /// @brief Method get_HaveEnvVars addr 0x27f5060 size 0x10 virtual false final false
+  /// @brief Method set_WindowStyle, addr 0x29733ac, size 0x178, virtual false, abstract: false, final false
+  inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle value);
+
+  /// @brief Method get_HaveEnvVars, addr 0x2972c20, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveEnvVars();
 
-  /// @brief Method get_StandardInputEncoding addr 0x27f57ac size 0x8 virtual false final false
+  /// @brief Method get_StandardInputEncoding, addr 0x2973524, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardInputEncoding();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProcessStartInfo", modifiers: "&&", def_value: None }]

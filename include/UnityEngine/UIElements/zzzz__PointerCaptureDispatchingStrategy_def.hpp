@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PointerCaptureDispatchingStrategy)
 namespace UnityEngine::UIElements {
-class IEventDispatchingStrategy;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class IEventDispatchingStrategy;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureDispatchingStrategy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7247))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7161))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureDispatchingStrategy*
 class CORDL_TYPE PointerCaptureDispatchingStrategy : public ::System::Object {
 public:
@@ -32,15 +32,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IEventDispatchingStrategy"
   constexpr operator ::UnityEngine::UIElements::IEventDispatchingStrategy*() noexcept;
 
-  /// @brief Method CanDispatchEvent addr 0x2ce232c size 0x54 virtual true final true
+  /// @brief Method CanDispatchEvent, addr 0x2e4a6dc, size 0x54, virtual true, abstract: false, final true
   inline bool CanDispatchEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DispatchEvent addr 0x2ce2380 size 0x5d0 virtual true final true
+  /// @brief Method DispatchEvent, addr 0x2e4a730, size 0x5d0, virtual true, abstract: false, final true
   inline void DispatchEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   static inline ::UnityEngine::UIElements::PointerCaptureDispatchingStrategy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce29dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e4ad8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureDispatchingStrategy", modifiers: "&&", def_value: None }]

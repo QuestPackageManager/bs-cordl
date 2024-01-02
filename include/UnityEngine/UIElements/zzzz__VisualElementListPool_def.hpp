@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementListPool)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ObjectPool_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementListPool);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6910))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6824))
 // CS Name: ::UnityEngine.UIElements::VisualElementListPool*
 class CORDL_TYPE VisualElementListPool : public ::System::Object {
 public:
@@ -38,13 +38,14 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*>* getStaticF_pool();
 
-  /// @brief Method Copy addr 0x2c5c3f4 size 0xac virtual false final false
+  /// @brief Method Copy, addr 0x2dc37a4, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Copy(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method Get addr 0x2c5c4a0 size 0xe0 virtual false final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity);
+  /// @brief Method Get, addr 0x2dc3850, size 0xe0, virtual false, abstract: false, final false
+  /// @param initialCapacity: int32_t (default: static_cast<int32_t>(0x0))
+  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* Get(int32_t initialCapacity = static_cast<int32_t>(0x0));
 
-  /// @brief Method Release addr 0x2c5c580 size 0xb4 virtual false final false
+  /// @brief Method Release, addr 0x2dc3930, size 0xb4, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementListPool", modifiers: "&&", def_value: None }]

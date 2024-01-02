@@ -1,20 +1,20 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
-#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/zzzz__Predicate_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/zzzz__Predicate_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Collections::Generic::__HashSet_1__ElementCount<T>::__HashSet_1__ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept {
@@ -230,6 +230,15 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_c
                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, comparer);
 }
+template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity) {
+  return THROW_UNLESS(::il2cpp_utils::New<::System::Collections::Generic::HashSet_1<T>*>(capacity));
+}
+template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(int32_t capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity);
+}
 template <typename T> inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection) {
   return THROW_UNLESS(::il2cpp_utils::New<::System::Collections::Generic::HashSet_1<T>*>(collection));
 }
@@ -270,6 +279,17 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::Co
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "CopyFrom", std::vector<Il2CppClass*>{},
                                                ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, source);
+}
+template <typename T>
+inline ::System::Collections::Generic::HashSet_1<T>* System::Collections::Generic::HashSet_1<T>::New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::New<::System::Collections::Generic::HashSet_1<T>*>(capacity, comparer));
+}
+template <typename T> inline void System::Collections::Generic::HashSet_1<T>::_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, capacity, comparer);
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::System_Collections_Generic_ICollection_T__Add(T item) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -330,16 +350,13 @@ template <typename T> inline ::System::Collections::IEnumerator* System::Collect
 }
 template <typename T>
 inline void System::Collections::Generic::HashSet_1<T>::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "GetObjectData", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::OnDeserialization(::System::Object* sender) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "OnDeserialization",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
 template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::Add(T item) {

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::RequiredByNativeCodeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15875))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
 // CS Name: ::UnityEngine.Scripting::RequiredByNativeCodeAttribute*
 class CORDL_TYPE RequiredByNativeCodeAttribute : public ::System::Attribute {
 public:
@@ -56,21 +56,21 @@ public:
 
   static inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb0e1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d181cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2bb0e24 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d181d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method set_Name addr 0x2bb0e4c size 0x8 virtual false final false
+  /// @brief Method set_Name, addr 0x2d181fc, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Optional addr 0x2bb0e54 size 0xc virtual false final false
+  /// @brief Method set_Optional, addr 0x2d18204, size 0xc, virtual false, abstract: false, final false
   inline void set_Optional(bool value);
 
-  /// @brief Method set_GenerateProxy addr 0x2bb0e60 size 0xc virtual false final false
+  /// @brief Method set_GenerateProxy, addr 0x2d18210, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateProxy(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RequiredByNativeCodeAttribute", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Justify);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6978))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6892))
 // CS Name: ::UnityEngine.UIElements::Justify
 struct CORDL_TYPE Justify {
 public:

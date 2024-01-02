@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::HMUI::ITableCellOwner);
 namespace HMUI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13777))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13660))
 // CS Name: ::HMUI::ITableCellOwner*
 class CORDL_TYPE ITableCellOwner {
 public:
@@ -29,13 +29,13 @@ public:
 
   __declspec(property(get = get_numberOfCells)) int32_t numberOfCells;
 
-  /// @brief Method get_selectionType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_selectionType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::HMUI::TableViewSelectionType get_selectionType();
 
-  /// @brief Method get_canSelectSelectedCell addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_canSelectSelectedCell, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canSelectSelectedCell();
 
-  /// @brief Method get_numberOfCells addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_numberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_numberOfCells();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITableCellOwner", modifiers: "&&", def_value: None }]

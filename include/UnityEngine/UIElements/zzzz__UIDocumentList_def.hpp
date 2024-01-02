@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIDocumentList);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7014))
 // CS Name: ::UnityEngine.UIElements::UIDocumentList*
 class CORDL_TYPE UIDocumentList : public ::System::Object {
 public:
@@ -39,15 +39,16 @@ public:
 
   constexpr void __set_m_AttachedUIDocuments(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIDocument*>* value);
 
-  /// @brief Method RemoveFromListAndFromVisualTree addr 0x2caeb94 size 0x78 virtual false final false
+  /// @brief Method RemoveFromListAndFromVisualTree, addr 0x2e14f44, size 0x78, virtual false, abstract: false, final false
   inline void RemoveFromListAndFromVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument);
 
-  /// @brief Method AddToListAndToVisualTree addr 0x2caec14 size 0x354 virtual false final false
-  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex);
+  /// @brief Method AddToListAndToVisualTree, addr 0x2e14fc4, size 0x354, virtual false, abstract: false, final false
+  /// @param firstInsertIndex: int32_t (default: static_cast<int32_t>(0x0))
+  inline void AddToListAndToVisualTree(::UnityEngine::UIElements::UIDocument* uiDocument, ::UnityEngine::UIElements::VisualElement* visualTree, int32_t firstInsertIndex = static_cast<int32_t>(0x0));
 
   static inline ::UnityEngine::UIElements::UIDocumentList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2caef68 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2e15318, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIDocumentList", modifiers: "&&", def_value: None }]

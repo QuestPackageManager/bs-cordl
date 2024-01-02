@@ -17,14 +17,14 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus);
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14307))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14036))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::DownloadStatus
 struct CORDL_TYPE DownloadStatus {
 public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent addr 0x2a5a964 size 0x38 virtual false final false
+  /// @brief Method get_Percent, addr 0x2bdd6b8, size 0x38, virtual false, abstract: false, final false
   inline float_t get_Percent();
 
   // Ctor Parameters [CppParam { name: "TotalBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "DownloadedBytes", ty: "int64_t", modifiers: "", def_value: None }, CppParam {

@@ -26,13 +26,13 @@ public:
   // Declarations
   __declspec(property(get = get_AgreementSize)) int32_t AgreementSize;
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AgreementSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AgreementSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_AgreementSize();
 
-  /// @brief Method CalculateAgreement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CalculateAgreement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CalculateAgreement(::Org::BouncyCastle::Crypto::ICipherParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   // Ctor Parameters [CppParam { name: "", ty: "IRawAgreement", modifiers: "&&", def_value: None }]

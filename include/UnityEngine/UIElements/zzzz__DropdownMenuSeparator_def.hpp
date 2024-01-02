@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuSeparator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7031))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7032))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6945))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6946))
 // CS Name: ::UnityEngine.UIElements::DropdownMenuSeparator*
 class CORDL_TYPE DropdownMenuSeparator : public ::UnityEngine::UIElements::DropdownMenuItem {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DropdownMenuSeparator* New_ctor(::StringW subMenuPath);
 
-  /// @brief Method .ctor addr 0x2ca2194 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2e08544, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW subMenuPath);
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownMenuSeparator", modifiers: "&&", def_value: None }]

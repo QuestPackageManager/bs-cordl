@@ -9,6 +9,12 @@ CORDL_MODULE_EXPORT(TlsContext)
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Crypto::Prng {
+class IRandomGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class SecurityParameters;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -17,12 +23,6 @@ class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class SecurityParameters;
-}
-namespace Org::BouncyCastle::Crypto::Prng {
-class IRandomGenerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -56,34 +56,34 @@ public:
 
   __declspec(property(get = get_UserObject, put = set_UserObject))::System::Object* UserObject;
 
-  /// @brief Method get_NonceRandomGenerator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_NonceRandomGenerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* get_NonceRandomGenerator();
 
-  /// @brief Method get_SecureRandom addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SecureRandom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_SecureRandom();
 
-  /// @brief Method get_SecurityParameters addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SecurityParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* get_SecurityParameters();
 
-  /// @brief Method get_IsServer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsServer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsServer();
 
-  /// @brief Method get_ClientVersion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ClientVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientVersion();
 
-  /// @brief Method get_ServerVersion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ServerVersion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ServerVersion();
 
-  /// @brief Method get_ResumableSession addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ResumableSession, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSession* get_ResumableSession();
 
-  /// @brief Method get_UserObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_UserObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UserObject();
 
-  /// @brief Method set_UserObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_UserObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_UserObject(::System::Object* value);
 
-  /// @brief Method ExportKeyingMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExportKeyingMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExportKeyingMaterial(::StringW asciiLabel, ::ArrayW<uint8_t, ::Array<uint8_t>*> context_value, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsContext", modifiers: "&&", def_value: None }]

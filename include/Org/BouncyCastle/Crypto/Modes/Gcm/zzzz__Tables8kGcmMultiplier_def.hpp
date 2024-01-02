@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(956))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::Tables8kGcmMultiplier*
 class CORDL_TYPE Tables8kGcmMultiplier : public ::System::Object {
@@ -53,15 +53,15 @@ public:
                                   ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
                              value);
 
-  /// @brief Method Init addr 0xe9f0e4 size 0x85c virtual true final true
+  /// @brief Method Init, addr 0xf142c4, size 0x85c, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH addr 0xe9f940 size 0x1e4 virtual true final true
+  /// @brief Method MultiplyH, addr 0xf14b20, size 0x1e4, virtual true, abstract: false, final true
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0xe9fb24 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf14d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tables8kGcmMultiplier", modifiers: "&&", def_value: None }]

@@ -18,15 +18,15 @@ namespace Newtonsoft::Json {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11729))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11801))
 // CS Name: ::Newtonsoft.Json::IArrayPool`1<T>*
 class CORDL_TYPE IArrayPool_1 {
 public:
   // Declarations
-  /// @brief Method Rent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
 
-  /// @brief Method Return addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Return(::ArrayW<T, ::Array<T>*> array);
 
   // Ctor Parameters [CppParam { name: "", ty: "IArrayPool_1", modifiers: "&&", def_value: None }]

@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_impl.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCall_4_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/Events/zzzz__UnityAction_4_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
+#include "UnityEngine/Events/zzzz__UnityAction_4_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2, typename T3, typename T4> constexpr ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*& UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::__get_Delegate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Delegate;
@@ -31,17 +31,16 @@ inline void UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::_ctor(::System
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, target, theFunction);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline void UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, args);
 }
 template <typename T1, typename T2, typename T3, typename T4>
 inline bool UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>::Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>::get(), "Find", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, targetObj, method);
 }
 // Ctor Parameters []

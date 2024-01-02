@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::RijndaelManagedTransformMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2950))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2951))
 // CS Name: ::System.Security.Cryptography::RijndaelManagedTransformMode
 struct CORDL_TYPE RijndaelManagedTransformMode {
 public:

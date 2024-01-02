@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::HelpURLAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10221))
 // CS Name: ::UnityEngine::HelpURLAttribute*
 class CORDL_TYPE HelpURLAttribute : public ::System::Attribute {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::UnityEngine::HelpURLAttribute* New_ctor(::StringW url);
 
-  /// @brief Method .ctor addr 0x2b6c180 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd2900, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW url);
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpURLAttribute", modifiers: "&&", def_value: None }]

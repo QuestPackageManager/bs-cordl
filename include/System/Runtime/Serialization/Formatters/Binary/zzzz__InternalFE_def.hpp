@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::InternalFE)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3239)), TypeDefinitionIndex(TypeDefinitionIndex(3245)), TypeDefinitionIndex(TypeDefinitionIndex(3241)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3296)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3240)), TypeDefinitionIndex(TypeDefinitionIndex(3246)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(3241))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3297)) CS Name:
 // ::System.Runtime.Serialization.Formatters.Binary::InternalFE*
 class CORDL_TYPE InternalFE : public ::System::Object {
 public:
@@ -62,7 +62,7 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalFE* New_ctor();
 
-  /// @brief Method .ctor addr 0x237d67c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24d6180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalFE", modifiers: "&&", def_value: None }]

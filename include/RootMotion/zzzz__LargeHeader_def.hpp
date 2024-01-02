@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::RootMotion::LargeHeader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12495))
 // CS Name: ::RootMotion::LargeHeader*
 class CORDL_TYPE LargeHeader : public ::UnityEngine::PropertyAttribute {
 public:
@@ -41,12 +41,12 @@ public:
 
   static inline ::RootMotion::LargeHeader* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x11cdcb0 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x123dfdc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::RootMotion::LargeHeader* New_ctor(::StringW name, ::StringW color);
 
-  /// @brief Method .ctor addr 0x11cdd18 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x123e044, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW color);
 
   // Ctor Parameters [CppParam { name: "", ty: "LargeHeader", modifiers: "&&", def_value: None }]

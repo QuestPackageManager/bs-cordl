@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MockPlayerAuthenticationTokenProvider)
-namespace GlobalNamespace {
-struct AuthenticationToken;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
@@ -18,14 +21,11 @@ struct PlatformEnvironment;
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
 }
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace GlobalNamespace {
 class XPlatformAccessTokenData;
+}
+namespace GlobalNamespace {
+struct AuthenticationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerAuthenticationTokenProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15497))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15513))
 // CS Name: ::MockPlayerAuthenticationTokenProvider*
 class CORDL_TYPE MockPlayerAuthenticationTokenProvider : public ::System::Object {
 public:
@@ -97,28 +97,29 @@ public:
 
   constexpr void __set__platform_k__BackingField(::GlobalNamespace::__AuthenticationToken__Platform value);
 
-  /// @brief Method get_hashedUserId addr 0x228b8a8 size 0x8 virtual true final true
+  /// @brief Method get_hashedUserId, addr 0x23e6e80, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_userName addr 0x228b8b0 size 0x8 virtual true final true
+  /// @brief Method get_userName, addr 0x23e6e88, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
-  /// @brief Method get_platform addr 0x228b8b8 size 0x8 virtual true final true
+  /// @brief Method get_platform, addr 0x23e6e90, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
   static inline ::GlobalNamespace::MockPlayerAuthenticationTokenProvider* New_ctor(::StringW userId, ::StringW userName, ::StringW password);
 
-  /// @brief Method .ctor addr 0x228b8c0 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x23e6e98, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, ::StringW password);
 
-  /// @brief Method GetAuthenticationToken addr 0x228b958 size 0xa0 virtual true final true
+  /// @brief Method GetAuthenticationToken, addr 0x23e6f30, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform addr 0x228b9f8 size 0x8 virtual true final true
+  /// @brief Method GetTokenPlatform, addr 0x23e6fd0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken addr 0x228ba00 size 0xb4 virtual true final true
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method GetXPlatformAccessToken, addr 0x23e6fd8, size 0xb4, virtual true, abstract: false, final true
+  /// @param skipCache: bool (default: false)
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache = false);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerAuthenticationTokenProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

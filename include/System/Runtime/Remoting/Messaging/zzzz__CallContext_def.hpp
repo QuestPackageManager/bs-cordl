@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CallContext)
-namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
 namespace System {
 class Object;
+}
+namespace System::Runtime::Remoting::Messaging {
+class LogicalCallContext;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -21,27 +21,27 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContext);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3142))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3143))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContext*
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x234d678 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24a616c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetCurrentCallContext addr 0x234d680 size 0x8 virtual false final false
+  /// @brief Method SetCurrentCallContext, addr 0x24a6174, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method SetLogicalCallContext addr 0x234d688 size 0x44 virtual false final false
+  /// @brief Method SetLogicalCallContext, addr 0x24a617c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
 
-  /// @brief Method LogicalGetData addr 0x234d6cc size 0x50 virtual false final false
+  /// @brief Method LogicalGetData, addr 0x24a61c0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData addr 0x234d72c size 0x68 virtual false final false
+  /// @brief Method LogicalSetData, addr 0x24a6220, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "&&", def_value: None }]

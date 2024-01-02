@@ -14,28 +14,28 @@ namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+struct Ephemeron;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class __ConditionalWeakTable_2__Enumerator;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Runtime::CompilerServices {
-struct Ephemeron;
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
@@ -60,18 +60,18 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3420))
 // CS Name: ::ConditionalWeakTable`2::CreateValueCallback<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__CreateValueCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Invoke(TKey key);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__CreateValueCallback", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3829)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 1091 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3416)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations
@@ -145,25 +145,25 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionalWeakTable_2__Enumerator", modifiers: "&&", def_value: None }]
@@ -199,8 +199,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3422))
 // CS Name: ::System.Runtime.CompilerServices::ConditionalWeakTable`2<TKey,TValue>*
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
 public:
@@ -244,38 +244,39 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method RehashWithoutResize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RehashWithoutResize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RehashWithoutResize();
 
-  /// @brief Method RecomputeSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RecomputeSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RecomputeSize();
 
-  /// @brief Method Rehash addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Rehash, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Rehash();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TKey key, TValue value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(TKey key);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue GetValue(TKey key, ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>* createValueCallback);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
+  /// true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_TKey_TValue___GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalWeakTable_2", modifiers: "&&", def_value: None }]

@@ -19,15 +19,15 @@ MARK_VAL_T(::TMPro::GlyphPairKey);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12303))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12375))
 // CS Name: ::TMPro::GlyphPairKey
 struct CORDL_TYPE GlyphPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2a8d54c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2c122a0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex);
 
-  /// @brief Method .ctor addr 0x2a84ed0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2c09c24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
 
   // Ctor Parameters [CppParam { name: "firstGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "secondGlyphIndex", ty: "uint32_t", modifiers: "", def_value: None },

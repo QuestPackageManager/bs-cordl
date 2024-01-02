@@ -8,25 +8,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatEffectSpawner)
 namespace GlobalNamespace {
-class BeatEffect;
-}
-namespace GlobalNamespace {
-class BloomFogSO;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class SongController;
 }
 namespace GlobalNamespace {
 class ColorManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+class __BeatEffectSpawner__InitData;
+}
+namespace GlobalNamespace {
+class BloomFogSO;
 }
 namespace GlobalNamespace {
 template <typename T> class MemoryPoolContainer_1;
@@ -35,10 +26,19 @@ namespace GlobalNamespace {
 class __BeatEffect__Pool;
 }
 namespace GlobalNamespace {
-class IBeatEffectDidFinishEvent;
+class BeatEffect;
 }
 namespace GlobalNamespace {
-class __BeatEffectSpawner__InitData;
+class NoteController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class IBeatEffectDidFinishEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatEffectSpawner__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5003))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4885))
 // CS Name: ::BeatEffectSpawner::InitData*
 class CORDL_TYPE __BeatEffectSpawner__InitData : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatEffectSpawner__InitData* New_ctor(bool hideNoteSpawnEffect);
 
-  /// @brief Method .ctor addr 0x226ba88 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23a19f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hideNoteSpawnEffect);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatEffectSpawner__InitData", modifiers: "&&", def_value: None }]
@@ -103,8 +103,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatEffectSpawner__InitData, ___hide
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5004))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
 // CS Name: ::BeatEffectSpawner*
 class CORDL_TYPE BeatEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -195,27 +195,27 @@ public:
 
   constexpr void __set__beatEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BeatEffect*>* value);
 
-  /// @brief Method Init addr 0x226b3a8 size 0x84 virtual false final false
+  /// @brief Method Init, addr 0x23a1318, size 0x84, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__BeatEffect__Pool* beatEffectPool);
 
-  /// @brief Method Start addr 0x226b42c size 0x8c virtual false final false
+  /// @brief Method Start, addr 0x23a139c, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226b4b8 size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23a1428, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x226b550 size 0x184 virtual false final false
+  /// @brief Method Update, addr 0x23a14c0, size 0x184, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleNoteDidStartJump addr 0x226b6d4 size 0x2c0 virtual false final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x23a1644, size 0x2c0, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleBeatEffectDidFinish addr 0x226b994 size 0xd8 virtual true final true
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x23a1904, size 0xd8, virtual true, abstract: false, final true
   inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
   static inline ::GlobalNamespace::BeatEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226ba6c size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x23a19dc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatEffectSpawner", modifiers: "&&", def_value: None }]

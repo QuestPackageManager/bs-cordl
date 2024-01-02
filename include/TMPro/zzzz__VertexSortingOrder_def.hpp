@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::VertexSortingOrder);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12332))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12404))
 // CS Name: ::TMPro::VertexSortingOrder
 struct CORDL_TYPE VertexSortingOrder {
 public:

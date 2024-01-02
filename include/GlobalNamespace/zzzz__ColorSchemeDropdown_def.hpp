@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSchemeDropdown)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class ColorSchemeView;
-}
-namespace GlobalNamespace {
-class ColorScheme;
-}
 namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class ColorSchemeTableCell;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+class DropdownWithTableView;
 }
 namespace HMUI {
 class __TableView__IDataSource;
 }
-namespace HMUI {
-class TableView;
+namespace GlobalNamespace {
+class ColorSchemeTableCell;
+}
+namespace GlobalNamespace {
+class ColorScheme;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class ColorSchemeView;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace HMUI {
-class DropdownWithTableView;
+class TableCell;
+}
+namespace HMUI {
+class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeDropdown);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13741))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5502))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13624))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5410))
 // CS Name: ::ColorSchemeDropdown*
 class CORDL_TYPE ColorSchemeDropdown : public ::HMUI::DropdownWithTableView {
 public:
@@ -116,39 +116,39 @@ public:
 
   constexpr void __set__initialized(bool value);
 
-  /// @brief Method LazyInit addr 0x213046c size 0xb0 virtual false final false
+  /// @brief Method LazyInit, addr 0x2275428, size 0xb0, virtual false, abstract: false, final false
   inline void LazyInit();
 
-  /// @brief Method OnDestroy addr 0x213051c size 0x90 virtual true final false
+  /// @brief Method OnDestroy, addr 0x22754d8, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Init addr 0x21305ac size 0x40 virtual false final false
+  /// @brief Method Init, addr 0x2275568, size 0x40, virtual false, abstract: false, final false
   inline void Init(::HMUI::__TableView__IDataSource* initTableViewDataSource);
 
-  /// @brief Method SetData addr 0x21305ec size 0x158 virtual false final false
+  /// @brief Method SetData, addr 0x22755a8, size 0x158, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* colorSchemes);
 
-  /// @brief Method CellSize addr 0x2130838 size 0x8 virtual true final true
+  /// @brief Method CellSize, addr 0x22757f8, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x2130840 size 0xac virtual true final true
+  /// @brief Method NumberOfCells, addr 0x2275800, size 0xac, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x21308ec size 0x294 virtual true final true
+  /// @brief Method CellForIdx, addr 0x22758ac, size 0x298, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method SelectCellWithIdx addr 0x2130c3c size 0xc4 virtual true final false
+  /// @brief Method SelectCellWithIdx, addr 0x2275c04, size 0xc4, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
 
-  /// @brief Method HandleDidSelectCellWithIdx addr 0x2130d00 size 0x138 virtual false final false
+  /// @brief Method HandleDidSelectCellWithIdx, addr 0x2275cc8, size 0x138, virtual false, abstract: false, final false
   inline void HandleDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
-  /// @brief Method RefreshUI addr 0x2130744 size 0xf4 virtual false final false
+  /// @brief Method RefreshUI, addr 0x2275700, size 0xf8, virtual false, abstract: false, final false
   inline void RefreshUI(::GlobalNamespace::ColorScheme* colorScheme);
 
   static inline ::GlobalNamespace::ColorSchemeDropdown* New_ctor();
 
-  /// @brief Method .ctor addr 0x2130ff0 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2275e00, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSchemeDropdown", modifiers: "&&", def_value: None }]

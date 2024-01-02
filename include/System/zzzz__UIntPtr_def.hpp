@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIntPtr)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
 class ISerializable;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -32,7 +32,7 @@ MARK_VAL_T(::System::UIntPtr);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2638))
 // CS Name: ::System::UIntPtr
 struct CORDL_TYPE UIntPtr {
 public:
@@ -50,49 +50,49 @@ public:
 
   static inline void* getStaticF_Zero();
 
-  /// @brief Method .ctor addr 0x24adc34 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x2608bbc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint64_t value);
 
-  /// @brief Method .ctor addr 0x24adc9c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2608c24, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t value);
 
-  /// @brief Method .ctor addr 0x24adca8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2608c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> value);
 
-  /// @brief Method Equals addr 0x24adcb0 size 0x78 virtual true final false
+  /// @brief Method Equals, addr 0x2608c38, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x24add28 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2608cb0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x24add30 size 0x70 virtual true final false
+  /// @brief Method ToString, addr 0x2608cb8, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x24adda0 size 0xa4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2608d28, size 0xa4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method op_Equality addr 0x24ade44 size 0xc virtual false final false
+  /// @brief Method op_Equality, addr 0x2608dcc, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(void* value1, void* value2);
 
-  /// @brief Method op_Inequality addr 0x24ade50 size 0xc virtual false final false
+  /// @brief Method op_Inequality, addr 0x2608dd8, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(void* value1, void* value2);
 
-  /// @brief Method op_Explicit addr 0x24ade5c size 0x4 virtual false final false
+  /// @brief Method op_Explicit, addr 0x2608de4, size 0x4, virtual false, abstract: false, final false
   static inline uint64_t op_Explicit_uint64_t(void* value);
 
-  /// @brief Method op_Explicit addr 0x24ade60 size 0x4 virtual false final false
+  /// @brief Method op_Explicit, addr 0x2608de8, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t op_Explicit_uint32_t(void* value);
 
-  /// @brief Method op_Explicit addr 0x24ade64 size 0x20 virtual false final false
+  /// @brief Method op_Explicit, addr 0x2608dec, size 0x20, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(uint64_t value);
 
-  /// @brief Method op_Explicit addr 0x24ade84 size 0x8 virtual false final false
+  /// @brief Method op_Explicit, addr 0x2608e0c, size 0x8, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(uint32_t value);
 
-  /// @brief Method get_Size addr 0x24adc94 size 0x8 virtual false final false
+  /// @brief Method get_Size, addr 0x2608c1c, size 0x8, virtual false, abstract: false, final false
   static inline int32_t get_Size();
 
-  /// @brief Method System.IEquatable<System.UIntPtr>.Equals addr 0x24ade8c size 0x10 virtual true final true
+  /// @brief Method System.IEquatable<System.UIntPtr>.Equals, addr 0x2608e14, size 0x10, virtual true, abstract: false, final true
   inline bool System_IEquatable_System_UIntPtr__Equals(void* other);
 
   // Ctor Parameters [CppParam { name: "_pointer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }]

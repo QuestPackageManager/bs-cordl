@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissingMethodException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::MissingMethodException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2526))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2440))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2528))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2442))
 // CS Name: ::System::MissingMethodException*
 class CORDL_TYPE MissingMethodException : public ::System::MissingMemberException {
 public:
@@ -31,25 +31,25 @@ public:
 
   static inline ::System::MissingMethodException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2453cb0 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x25afbfc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::MissingMethodException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2453d0c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x25afc58, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::MissingMethodException* New_ctor(::StringW className, ::StringW methodName);
 
-  /// @brief Method .ctor addr 0x2453d30 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x25afc7c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW methodName);
 
   static inline ::System::MissingMethodException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2453d5c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25afca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Message addr 0x2453d64 size 0x12c virtual true final false
+  /// @brief Method get_Message, addr 0x25afcb0, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissingMethodException", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaWhiteSpace);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11546))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11618))
 // CS Name: ::System.Xml.Schema::XmlSchemaWhiteSpace
 struct CORDL_TYPE XmlSchemaWhiteSpace {
 public:

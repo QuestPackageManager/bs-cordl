@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::BakeIdMapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5944))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5855))
 // CS Name: ::BakeIdMapper*
 class CORDL_TYPE BakeIdMapper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::BakeIdMapper* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ae360 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f6bbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BakeIdMapper", modifiers: "&&", def_value: None }]

@@ -23,25 +23,25 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6171), inst: 3695 }), TypeDefinitionIndex(TypeDefinitionIndex(6171))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6100)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6100), inst: 3776 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6101))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`1<TItem>*
 class CORDL_TYPE SimplePriorityQueue_1 : public ::Priority_Queue::SimplePriorityQueue_2<TItem, float_t> {
 public:
   // Declarations
   static inline ::Priority_Queue::SimplePriorityQueue_1<TItem>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Priority_Queue::SimplePriorityQueue_1<TItem>* New_ctor(::System::Collections::Generic::IComparer_1<float_t>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IComparer_1<float_t>* comparer);
 
   static inline ::Priority_Queue::SimplePriorityQueue_1<TItem>* New_ctor(::System::Comparison_1<float_t>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Comparison_1<float_t>* comparer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_1", modifiers: "&&", def_value: None }]

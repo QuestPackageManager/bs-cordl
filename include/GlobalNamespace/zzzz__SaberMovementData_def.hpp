@@ -17,14 +17,14 @@ struct BladeMovementDataElement;
 namespace GlobalNamespace {
 class ISaberMovementData;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class IBladeMovementData;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberMovementData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4194))
 // CS Name: ::SaberMovementData*
 class CORDL_TYPE SaberMovementData : public ::System::Object {
 public:
@@ -99,48 +99,48 @@ public:
 
   constexpr void __set__bladeSpeed(float_t value);
 
-  /// @brief Method get_bladeSpeed addr 0x21d2bd0 size 0x8 virtual true final true
+  /// @brief Method get_bladeSpeed, addr 0x23238c4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_bladeSpeed();
 
-  /// @brief Method get_lastAddedData addr 0x21d2bd8 size 0x5c virtual true final true
+  /// @brief Method get_lastAddedData, addr 0x23238cc, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
 
-  /// @brief Method get_prevAddedData addr 0x21d2c34 size 0x5c virtual true final true
+  /// @brief Method get_prevAddedData, addr 0x2323928, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
 
   static inline ::GlobalNamespace::SaberMovementData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d2c90 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2323984, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddDataProcessor addr 0x21d2d38 size 0x58 virtual true final true
+  /// @brief Method AddDataProcessor, addr 0x2323a2c, size 0x58, virtual true, abstract: false, final true
   inline void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RemoveDataProcessor addr 0x21d2d90 size 0x58 virtual true final true
+  /// @brief Method RemoveDataProcessor, addr 0x2323a84, size 0x58, virtual true, abstract: false, final true
   inline void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RequestLastDataProcessing addr 0x21d2de8 size 0x188 virtual true final true
+  /// @brief Method RequestLastDataProcessing, addr 0x2323adc, size 0x188, virtual true, abstract: false, final true
   inline void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method AddNewData addr 0x21d2f70 size 0x4d0 virtual false final false
+  /// @brief Method AddNewData, addr 0x2323c64, size 0x4d0, virtual false, abstract: false, final false
   inline void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float_t time);
 
-  /// @brief Method ComputeAdditionalData addr 0x21d3440 size 0x230 virtual false final false
+  /// @brief Method ComputeAdditionalData, addr 0x2324134, size 0x230, virtual false, abstract: false, final false
   inline void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int32_t idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float_t> segmentAngle);
 
-  /// @brief Method ComputePlaneNormal addr 0x21d3670 size 0x13c virtual false final false
+  /// @brief Method ComputePlaneNormal, addr 0x2324364, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
 
-  /// @brief Method ComputeCutPlaneNormal addr 0x21d37ac size 0xa0 virtual false final false
+  /// @brief Method ComputeCutPlaneNormal, addr 0x23244a0, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputeCutPlaneNormal();
 
-  /// @brief Method ComputeSwingRating addr 0x21d384c size 0x8 virtual true final true
+  /// @brief Method ComputeSwingRating, addr 0x2324540, size 0x8, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating(float_t overrideSegmentAngle);
 
-  /// @brief Method ComputeSwingRating addr 0x21d3b18 size 0xc virtual true final true
+  /// @brief Method ComputeSwingRating, addr 0x232480c, size 0xc, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating();
 
-  /// @brief Method ComputeSwingRating addr 0x21d3854 size 0x2c4 virtual false final false
+  /// @brief Method ComputeSwingRating, addr 0x2324548, size 0x2c4, virtual false, abstract: false, final false
   inline float_t ComputeSwingRating(bool overrideSegmenAngle, float_t overrideValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberMovementData", modifiers: "&&", def_value: None }]

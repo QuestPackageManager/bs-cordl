@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::DriverDirectMode_FrameTiming);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8701))
 // CS Name: ::OVR.OpenVR::DriverDirectMode_FrameTiming
 struct CORDL_TYPE DriverDirectMode_FrameTiming {
 public:

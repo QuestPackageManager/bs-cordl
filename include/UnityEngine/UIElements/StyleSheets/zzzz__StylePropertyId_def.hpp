@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StylePropertyId);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7573))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7487))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyId
 struct CORDL_TYPE StylePropertyId {
 public:

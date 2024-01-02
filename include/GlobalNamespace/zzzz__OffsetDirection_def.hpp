@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OffsetDirection);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14762))
 // CS Name: ::OffsetDirection
 struct CORDL_TYPE OffsetDirection {
 public:

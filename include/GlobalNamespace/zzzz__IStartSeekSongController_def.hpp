@@ -18,20 +18,21 @@ MARK_REF_PTR_T(::GlobalNamespace::IStartSeekSongController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5428))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5333))
 // CS Name: ::IStartSeekSongController*
 class CORDL_TYPE IStartSeekSongController {
 public:
   // Declarations
   __declspec(property(get = get_waitUntilIsReadyToStartTheSong))::UnityEngine::WaitUntil* waitUntilIsReadyToStartTheSong;
 
-  /// @brief Method get_waitUntilIsReadyToStartTheSong addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_waitUntilIsReadyToStartTheSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::WaitUntil* get_waitUntilIsReadyToStartTheSong();
 
-  /// @brief Method StartSong addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void StartSong(float_t offsetTime);
+  /// @brief Method StartSong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param offsetTime: float_t (default: 0.0)
+  inline void StartSong(float_t offsetTime = 0.0);
 
-  /// @brief Method SeekTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SeekTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SeekTo(float_t songTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStartSeekSongController", modifiers: "&&", def_value: None }]

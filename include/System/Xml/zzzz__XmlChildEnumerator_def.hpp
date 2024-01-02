@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XmlChildEnumerator)
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Xml {
 class XmlNode;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Xml::XmlChildEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11429))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11501))
 // CS Name: ::System.Xml::XmlChildEnumerator*
 class CORDL_TYPE XmlChildEnumerator : public ::System::Object {
 public:
@@ -65,22 +65,22 @@ public:
 
   static inline ::System::Xml::XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method .ctor addr 0x2706d50 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2883d70, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* container);
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext addr 0x2706da0 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x2883dc0, size 0x4, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method MoveNext addr 0x2706da4 size 0x64 virtual false final false
+  /// @brief Method MoveNext, addr 0x2883dc4, size 0x64, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2706e08 size 0x38 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2883e28, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2706e40 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2883e60, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current addr 0x2706e44 size 0x7c virtual false final false
+  /// @brief Method get_Current, addr 0x2883e64, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNode* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlChildEnumerator", modifiers: "&&", def_value: None }]

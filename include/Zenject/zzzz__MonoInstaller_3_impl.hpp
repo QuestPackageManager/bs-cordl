@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__MonoInstallerBase_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_3_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TParam1, typename TParam2, typename TDerived>
 inline TDerived Zenject::MonoInstaller_3<TParam1, TParam2, TDerived>::InstallFromResource(::Zenject::DiContainer* container, TParam1 p1, TParam2 p2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

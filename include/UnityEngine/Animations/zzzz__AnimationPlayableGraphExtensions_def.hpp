@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableGraphExtensions)
 namespace UnityEngine::Playables {
-struct PlayableOutputHandle;
+struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+struct PlayableOutputHandle;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -22,13 +22,13 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableGraphExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15119))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14892))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableGraphExtensions*
 class CORDL_TYPE AnimationPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAnimationOutput addr 0x2b319bc size 0x54 virtual false final false
+  /// @brief Method InternalCreateAnimationOutput, addr 0x2c9765c, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAnimationOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableGraphExtensions", modifiers: "&&", def_value: None }]

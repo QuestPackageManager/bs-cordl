@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RotationOrder);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10201))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10274))
 // CS Name: ::UnityEngine::RotationOrder
 struct CORDL_TYPE RotationOrder {
 public:

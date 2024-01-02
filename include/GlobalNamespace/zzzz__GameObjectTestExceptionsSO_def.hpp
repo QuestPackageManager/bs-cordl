@@ -11,10 +11,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
+class __GameObjectTestExceptionsSO__GameObjectTestException;
 }
 namespace GlobalNamespace {
-class __GameObjectTestExceptionsSO__GameObjectTestException;
+class EnvironmentInfoSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestEx
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4225))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4192))
 // CS Name: ::GameObjectTestExceptionsSO::GameObjectTestException*
 class CORDL_TYPE __GameObjectTestExceptionsSO__GameObjectTestException : public ::System::Object {
 public:
@@ -67,15 +67,15 @@ public:
 
   constexpr void __set__sceneHierarchies(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_environmentInfo addr 0x21d2bb8 size 0x8 virtual false final false
+  /// @brief Method get_environmentInfo, addr 0x23238ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method get_sceneHierarchies addr 0x21d2bc0 size 0x8 virtual false final false
+  /// @brief Method get_sceneHierarchies, addr 0x23238b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_sceneHierarchies();
 
   static inline ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d2bc8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23238bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameObjectTestExceptionsSO__GameObjectTestException", modifiers: "&&", def_value: None }]
@@ -117,8 +117,8 @@ static_assert(offsetof(::GlobalNamespace::__GameObjectTestExceptionsSO__GameObje
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4226))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4193))
 // CS Name: ::GameObjectTestExceptionsSO*
 class CORDL_TYPE GameObjectTestExceptionsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -139,13 +139,13 @@ public:
   constexpr void __set_tubeBloomPrePassLightIgnores(
       ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> value);
 
-  /// @brief Method GetExceptionAsDictionary addr 0x21d2ad0 size 0xe0 virtual false final false
+  /// @brief Method GetExceptionAsDictionary, addr 0x23237c4, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<::StringW, ::Array<::StringW>*>>* GetExceptionAsDictionary(
       ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> testExceptionArray);
 
   static inline ::GlobalNamespace::GameObjectTestExceptionsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d2bb0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23238a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectTestExceptionsSO", modifiers: "&&", def_value: None }]

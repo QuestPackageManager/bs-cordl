@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpectrogramRow)
-namespace UnityEngine {
-class MaterialPropertyBlock;
+namespace GlobalNamespace {
+class BasicSpectrogramData;
 }
 namespace UnityEngine {
 class MeshRenderer;
 }
-namespace GlobalNamespace {
-class BasicSpectrogramData;
+namespace UnityEngine {
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpectrogramRow);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5105))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5000))
 // CS Name: ::SpectrogramRow*
 class CORDL_TYPE SpectrogramRow : public ::UnityEngine::MonoBehaviour {
 public:
@@ -72,15 +72,15 @@ public:
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method Awake addr 0x227e24c size 0xa8 virtual false final false
+  /// @brief Method Awake, addr 0x23b70b8, size 0xa8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x227e2f4 size 0x120 virtual false final false
+  /// @brief Method Update, addr 0x23b7160, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SpectrogramRow* New_ctor();
 
-  /// @brief Method .ctor addr 0x227e414 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23b7280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRow", modifiers: "&&", def_value: None }]

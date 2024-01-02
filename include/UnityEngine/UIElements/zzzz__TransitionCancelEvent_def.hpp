@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TransitionCancelEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7274)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7274), inst: 5040 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7188)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7188), inst: 5154 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7192))
 // CS Name: ::UnityEngine.UIElements::TransitionCancelEvent*
 class CORDL_TYPE TransitionCancelEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionCancelEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::TransitionCancelEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce6630 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e4e9e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent", modifiers: "&&", def_value: None }]

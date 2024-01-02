@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::AssetReferenceUILabelRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14316))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14317))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14045))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14046))
 // CS Name: ::UnityEngine::AssetReferenceUILabelRestriction*
 class CORDL_TYPE AssetReferenceUILabelRestriction : public ::UnityEngine::AssetReferenceUIRestriction {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method .ctor addr 0x28912d4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2a0f01c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method ValidateAsset addr 0x28912fc size 0x8 virtual true final false
+  /// @brief Method ValidateAsset, addr 0x2a0f044, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset addr 0x2891304 size 0x8 virtual true final false
+  /// @brief Method ValidateAsset, addr 0x2a0f04c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method ToString addr 0x289130c size 0xf4 virtual true final false
+  /// @brief Method ToString, addr 0x2a0f054, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUILabelRestriction", modifiers: "&&", def_value: None }]

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DSASignatureDeformatter)
 namespace System::Security::Cryptography {
-class DSA;
+class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
+class DSA;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDeformatter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2918))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2919))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
 // CS Name: ::System.Security.Cryptography::DSASignatureDeformatter*
 class CORDL_TYPE DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
@@ -49,21 +49,21 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x23046ec size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x245dd64, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method .ctor addr 0x230476c size 0xf4 virtual false final false
+  /// @brief Method .ctor, addr 0x245dde4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetKey addr 0x2304860 size 0xec virtual true final false
+  /// @brief Method SetKey, addr 0x245ded8, size 0xec, virtual true, abstract: false, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm addr 0x230494c size 0xd0 virtual true final false
+  /// @brief Method SetHashAlgorithm, addr 0x245dfc4, size 0xd0, virtual true, abstract: false, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method VerifySignature addr 0x2304a1c size 0xf4 virtual true final false
+  /// @brief Method VerifySignature, addr 0x245e094, size 0xf4, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureDeformatter", modifiers: "&&", def_value: None }]

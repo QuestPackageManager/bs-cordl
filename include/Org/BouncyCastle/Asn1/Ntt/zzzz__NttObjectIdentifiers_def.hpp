@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ntt {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(205))
 // CS Name: ::Org.BouncyCastle.Asn1.Ntt::NttObjectIdentifiers*
 class CORDL_TYPE NttObjectIdentifiers : public ::System::Object {
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ntt::NttObjectIdentifiers* New_ctor();
 
-  /// @brief Method .ctor addr 0xf09180 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf7f3a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NttObjectIdentifiers", modifiers: "&&", def_value: None }]

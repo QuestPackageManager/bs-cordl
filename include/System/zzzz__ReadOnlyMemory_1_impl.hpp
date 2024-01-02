@@ -1,11 +1,17 @@
 #pragma once
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
 template <typename T> constexpr System::ReadOnlyMemory_1<T>::operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*() {
   return static_cast<::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*>(static_cast<void*>(::cordl_internals::Box(this)));
+}
+template <typename T> inline void System::ReadOnlyMemory_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), ".ctor", std::vector<Il2CppClass*>{},
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
 template <typename T> inline void System::ReadOnlyMemory_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +33,8 @@ template <typename T> inline int32_t System::ReadOnlyMemory_1<T>::get_Length() {
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T> inline ::StringW System::ReadOnlyMemory_1<T>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), "ToString",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T> inline ::System::ReadOnlyMemory_1<T> System::ReadOnlyMemory_1<T>::Slice(int32_t start) {
@@ -43,9 +49,8 @@ template <typename T> inline ::System::ReadOnlySpan_1<T> System::ReadOnlyMemory_
   return ::cordl_internals::RunMethodRethrow<::System::ReadOnlySpan_1<T>, false>(this, ___internal_method);
 }
 template <typename T> inline bool System::ReadOnlyMemory_1<T>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T> inline bool System::ReadOnlyMemory_1<T>::Equals(::System::ReadOnlyMemory_1<T> other) {
@@ -55,8 +60,8 @@ template <typename T> inline bool System::ReadOnlyMemory_1<T>::Equals(::System::
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 template <typename T> inline int32_t System::ReadOnlyMemory_1<T>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), "GetHashCode",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlyMemory_1<T>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T> inline int32_t System::ReadOnlyMemory_1<T>::CombineHashCodes(int32_t left, int32_t right) {

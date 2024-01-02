@@ -13,9 +13,8 @@ template <typename T, typename TArg> inline void System::Buffers::SpanAction_2<T
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T, typename TArg> inline void System::Buffers::SpanAction_2<T, TArg>::Invoke(::System::Span_1<T> span, TArg arg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::SpanAction_2<T, TArg>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Buffers::SpanAction_2<T, TArg>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, span, arg);
 }
 // Ctor Parameters []

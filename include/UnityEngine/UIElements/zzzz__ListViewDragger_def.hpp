@@ -11,28 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ListViewDragger)
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+class ScrollView;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
 namespace UnityEngine::UIElements {
-class ScrollView;
-}
-namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-struct ListDragAndDropArgs;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine {
-struct Vector3;
+class ReusableCollectionItem;
 }
 namespace UnityEngine::UIElements {
 class ICollectionDragAndDropController;
@@ -46,14 +31,29 @@ class VisualElement;
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
+namespace UnityEngine::UIElements {
+struct ListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class StartDragArgs;
+}
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::UIElements {
+struct DragAndDropPosition;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -69,8 +69,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__ListViewDragger__DragPosition);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7040))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6954))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6958))
 // CS Name: ::ListViewDragger::DragPosition
 struct CORDL_TYPE __ListViewDragger__DragPosition {
 public:
@@ -78,13 +78,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>*();
 
-  /// @brief Method Equals addr 0x2ca4c70 size 0x58 virtual true final true
+  /// @brief Method Equals, addr 0x2e0b020, size 0x58, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::__ListViewDragger__DragPosition other);
 
-  /// @brief Method Equals addr 0x2ca5840 size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0x2e0bbf0, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2ca58dc size 0x48 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e0bc8c, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "insertAtIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "recycledItem", ty: "::UnityEngine::UIElements::ReusableCollectionItem*",
@@ -124,8 +124,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__ListViewDragger__DragPositio
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7055)), TypeDefinitionIndex(TypeDefinitionIndex(7044))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6969)), TypeDefinitionIndex(TypeDefinitionIndex(6958))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6959))
 // CS Name: ::UnityEngine.UIElements::ListViewDragger*
 class CORDL_TYPE ListViewDragger : public ::UnityEngine::UIElements::DragEventsProcessor {
 public:
@@ -166,63 +166,63 @@ public:
 
   constexpr void __set__dragAndDropController_k__BackingField(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
 
-  /// @brief Method get_targetListView addr 0x2ca35dc size 0x7c virtual false final false
+  /// @brief Method get_targetListView, addr 0x2e0998c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVerticalCollectionView* get_targetListView();
 
-  /// @brief Method get_targetScrollView addr 0x2ca3658 size 0x1c virtual false final false
+  /// @brief Method get_targetScrollView, addr 0x2e09a08, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ScrollView* get_targetScrollView();
 
-  /// @brief Method get_dragAndDropController addr 0x2ca3674 size 0x8 virtual false final false
+  /// @brief Method get_dragAndDropController, addr 0x2e09a24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* get_dragAndDropController();
 
-  /// @brief Method set_dragAndDropController addr 0x2ca367c size 0x8 virtual false final false
+  /// @brief Method set_dragAndDropController, addr 0x2e09a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropController(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
 
   static inline ::UnityEngine::UIElements::ListViewDragger* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method .ctor addr 0x2ca3684 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2e09a34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method CanStartDrag addr 0x2ca37c4 size 0x23c virtual true final false
+  /// @brief Method CanStartDrag, addr 0x2e09b74, size 0x23c, virtual true, abstract: false, final false
   inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method StartDrag addr 0x2ca3d98 size 0x1bc virtual true final false
+  /// @brief Method StartDrag, addr 0x2e0a148, size 0x1bc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method UpdateDrag addr 0x2ca3f54 size 0x6c virtual true final false
+  /// @brief Method UpdateDrag, addr 0x2e0a304, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method GetVisualMode addr 0x2ca3fc0 size 0x164 virtual false final false
+  /// @brief Method GetVisualMode, addr 0x2e0a370, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode GetVisualMode(::UnityEngine::Vector3 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
-  /// @brief Method OnDrop addr 0x2ca4a90 size 0x1e0 virtual true final false
+  /// @brief Method OnDrop, addr 0x2e0ae40, size 0x1e0, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method HandleDragAndScroll addr 0x2ca4704 size 0x23c virtual false final false
+  /// @brief Method HandleDragAndScroll, addr 0x2e0aab4, size 0x23c, virtual false, abstract: false, final false
   inline void HandleDragAndScroll(::UnityEngine::Vector2 pointerPosition);
 
-  /// @brief Method ApplyDragAndDropUI addr 0x2ca4124 size 0x5e0 virtual false final false
+  /// @brief Method ApplyDragAndDropUI, addr 0x2e0a4d4, size 0x5e0, virtual false, abstract: false, final false
   inline void ApplyDragAndDropUI(::UnityEngine::UIElements::__ListViewDragger__DragPosition dragPosition);
 
-  /// @brief Method TryGetDragPosition addr 0x2ca4f08 size 0x340 virtual true final false
+  /// @brief Method TryGetDragPosition, addr 0x2e0b2b8, size 0x340, virtual true, abstract: false, final false
   inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
-  /// @brief Method MakeDragAndDropArgs addr 0x2ca4940 size 0x150 virtual false final false
+  /// @brief Method MakeDragAndDropArgs, addr 0x2e0acf0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListDragAndDropArgs MakeDragAndDropArgs(::UnityEngine::UIElements::__ListViewDragger__DragPosition dragPosition);
 
-  /// @brief Method PlaceHoverBarAtElement addr 0x2ca4e4c size 0xbc virtual false final false
+  /// @brief Method PlaceHoverBarAtElement, addr 0x2e0b1fc, size 0xbc, virtual false, abstract: false, final false
   inline void PlaceHoverBarAtElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method PlaceHoverBarAt addr 0x2ca4cc8 size 0x184 virtual false final false
+  /// @brief Method PlaceHoverBarAt, addr 0x2e0b078, size 0x184, virtual false, abstract: false, final false
   inline void PlaceHoverBarAt(float_t top);
 
-  /// @brief Method ClearDragAndDropUI addr 0x2ca5328 size 0x410 virtual true final false
+  /// @brief Method ClearDragAndDropUI, addr 0x2e0b6d8, size 0x410, virtual true, abstract: false, final false
   inline void ClearDragAndDropUI();
 
-  /// @brief Method GetRecycledItem addr 0x2ca3a00 size 0x398 virtual false final false
+  /// @brief Method GetRecycledItem, addr 0x2e09db0, size 0x398, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItem(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method <ApplyDragAndDropUI>b__22_0 addr 0x2ca5738 size 0x108 virtual false final false
+  /// @brief Method <ApplyDragAndDropUI>b__22_0, addr 0x2e0bae8, size 0x108, virtual false, abstract: false, final false
   inline void _ApplyDragAndDropUI_b__22_0(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListViewDragger", modifiers: "&&", def_value: None }]

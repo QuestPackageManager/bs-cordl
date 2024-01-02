@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncCache_2)
-namespace GlobalNamespace {
-template <typename TKey, typename TValue> class __AsyncCache_2____c__DisplayClass4_0;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+}
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class __AsyncCache_2____c__DisplayClass4_0;
 }
 namespace System {
 template <typename T> class Lazy_1;
@@ -35,8 +35,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5904))
 // CS Name: ::AsyncCache`2::<>c__DisplayClass4_0<TKey,TValue>*
 class CORDL_TYPE __AsyncCache_2____c__DisplayClass4_0 : public ::System::Object {
 public:
@@ -61,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Item>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Item>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TValue>* _get_Item_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncCache_2____c__DisplayClass4_0", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5996))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
 // CS Name: ::AsyncCache`2<TKey,TValue>*
 class CORDL_TYPE AsyncCache_2 : public ::System::Object {
 public:
@@ -128,16 +128,16 @@ public:
 
   static inline ::GlobalNamespace::AsyncCache_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* valueFactory);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* valueFactory);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TValue>* get_Item(TKey key);
 
-  /// @brief Method RemoveKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveKey(TKey key);
 
-  /// @brief Method <get_Item>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Item>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>* _get_Item_b__4_0(TKey toAdd);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncCache_2", modifiers: "&&", def_value: None }]

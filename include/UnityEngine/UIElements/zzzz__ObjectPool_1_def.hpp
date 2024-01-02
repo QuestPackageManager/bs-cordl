@@ -20,8 +20,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6831))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6745))
 // CS Name: ::UnityEngine.UIElements::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
@@ -46,24 +46,25 @@ public:
 
   constexpr void __set_m_MaxSize(int32_t value);
 
-  /// @brief Method get_maxSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_maxSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_maxSize();
 
-  /// @brief Method set_maxSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_maxSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_maxSize(int32_t value);
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<T>* New_ctor(int32_t maxSize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int32_t maxSize);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x64))
+  inline void _ctor(int32_t maxSize = static_cast<int32_t>(0x64));
 
-  /// @brief Method Size addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Size, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Size();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Get();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release(T element);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Constraints);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12441))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12513))
 // CS Name: ::RootMotion.FinalIK::Constraints*
 class CORDL_TYPE Constraints : public ::System::Object {
 public:
@@ -97,18 +97,18 @@ public:
 
   constexpr void __set_rotationWeight(float_t value);
 
-  /// @brief Method IsValid addr 0x11d2858 size 0x60 virtual false final false
+  /// @brief Method IsValid, addr 0x1242b84, size 0x60, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method Initiate addr 0x11d1aa0 size 0x50 virtual false final false
+  /// @brief Method Initiate, addr 0x1241dcc, size 0x50, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform);
 
-  /// @brief Method Update addr 0x11d1c64 size 0x2f8 virtual false final false
+  /// @brief Method Update, addr 0x1241f90, size 0x2f8, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::RootMotion::FinalIK::Constraints* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d2358 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1242684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Constraints", modifiers: "&&", def_value: None }]

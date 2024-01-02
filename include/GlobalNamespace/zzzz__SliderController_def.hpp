@@ -16,13 +16,28 @@ namespace GlobalNamespace {
 class IBeatmapObjectController;
 }
 namespace GlobalNamespace {
-class __SliderController___DissolveCoroutine_d__70;
-}
-namespace GlobalNamespace {
 class ISliderHeadDidMovePastCutMarkEvent;
 }
 namespace GlobalNamespace {
 template <typename T> class ILazyCopyHashSet_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace GlobalNamespace {
+class Saber;
+}
+namespace GlobalNamespace {
+class __SliderController___DissolveCoroutine_d__70;
+}
+namespace GlobalNamespace {
+template <typename T> class LazyCopyHashSet_1;
+}
+namespace GlobalNamespace {
+class ISliderTailDidMovePastCutMarkEvent;
+}
+namespace GlobalNamespace {
+class SliderData;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -34,46 +49,37 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class FixedUpdateVector3SmoothValue;
-}
-namespace GlobalNamespace {
-class IBeatmapObjectSpawnController;
-}
-namespace GlobalNamespace {
 struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class SliderIntensityEffect;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class SliderMovement;
-}
-namespace GlobalNamespace {
-class ISliderDidFinishJumpEvent;
-}
-namespace GlobalNamespace {
-class ColorManager;
 }
 namespace GlobalNamespace {
 class __SliderController__Pool;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class SaberManager;
 }
 namespace GlobalNamespace {
 class ISliderDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-class SaberManager;
+class ISliderDidFinishJumpEvent;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class SliderMeshController;
+}
+namespace GlobalNamespace {
+class IBeatmapObjectSpawnController;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
+class SliderIntensityEffect;
 }
 namespace GlobalNamespace {
 class ISliderDidDissolveEvent;
@@ -82,40 +88,34 @@ namespace GlobalNamespace {
 struct __SliderController__LengthType;
 }
 namespace GlobalNamespace {
-class SliderMeshController;
+class SliderMovement;
 }
 namespace GlobalNamespace {
-class ISliderTailDidMovePastCutMarkEvent;
-}
-namespace GlobalNamespace {
-class SliderData;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace GlobalNamespace {
-class __SliderController__Pool__Short;
-}
-namespace Zenject {
-template <typename TValue> class MonoMemoryPool_1;
-}
-namespace GlobalNamespace {
-class __SliderController__Pool__Long;
+class FixedUpdateVector3SmoothValue;
 }
 namespace GlobalNamespace {
 struct __BeatmapObjectSpawnMovementData__SliderSpawnData;
 }
 namespace GlobalNamespace {
+class __SliderController__Pool__Long;
+}
+namespace Zenject {
+template <typename TValue> class MonoMemoryPool_1;
+}
+namespace GlobalNamespace {
 class __SliderController__Pool__Medium;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class __SliderController__Pool__Short;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -152,7 +152,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SliderController___DissolveCoroutine_d__70);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4925))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
 // CS Name: ::SliderController::LengthType
 struct CORDL_TYPE __SliderController__LengthType {
 public:
@@ -205,8 +205,8 @@ static_assert(offsetof(::GlobalNamespace::__SliderController__LengthType, value_
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4932)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(4925))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4812)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4805))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4811))
 // CS Name: ::SliderController*
 class CORDL_TYPE SliderController : public ::GlobalNamespace::SliderControllerBase {
 public:
@@ -476,128 +476,128 @@ public:
 
   constexpr void __set__closeSmoothedSaberInteractionPos(::GlobalNamespace::FixedUpdateVector3SmoothValue* value);
 
-  /// @brief Method get_sliderDidFinishJumpEvent addr 0x225b40c size 0x8 virtual false final false
+  /// @brief Method get_sliderDidFinishJumpEvent, addr 0x238fa74, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* get_sliderDidFinishJumpEvent();
 
-  /// @brief Method get_sliderDidStartDissolvingEvent addr 0x225b414 size 0x8 virtual false final false
+  /// @brief Method get_sliderDidStartDissolvingEvent, addr 0x238fa7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* get_sliderDidStartDissolvingEvent();
 
-  /// @brief Method get_sliderDidDissolveEvent addr 0x225b41c size 0x8 virtual false final false
+  /// @brief Method get_sliderDidDissolveEvent, addr 0x238fa84, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* get_sliderDidDissolveEvent();
 
-  /// @brief Method get_sliderHeadDidMovePastCutMark addr 0x225b424 size 0x8 virtual false final false
+  /// @brief Method get_sliderHeadDidMovePastCutMark, addr 0x238fa8c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* get_sliderHeadDidMovePastCutMark();
 
-  /// @brief Method get_sliderTailDidMovePastCutMark addr 0x225b42c size 0x8 virtual false final false
+  /// @brief Method get_sliderTailDidMovePastCutMark, addr 0x238fa94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* get_sliderTailDidMovePastCutMark();
 
-  /// @brief Method get_lengthType addr 0x225b434 size 0x8 virtual false final false
+  /// @brief Method get_lengthType, addr 0x238fa9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SliderController__LengthType get_lengthType();
 
-  /// @brief Method get_sliderData addr 0x225b43c size 0x8 virtual false final false
+  /// @brief Method get_sliderData, addr 0x238faa4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderData* get_sliderData();
 
-  /// @brief Method get_saberInteractionParam addr 0x225b444 size 0x40 virtual false final false
+  /// @brief Method get_saberInteractionParam, addr 0x238faac, size 0x40, virtual false, abstract: false, final false
   inline float_t get_saberInteractionParam();
 
-  /// @brief Method get_sliderMeshController addr 0x225b4ac size 0x8 virtual false final false
+  /// @brief Method get_sliderMeshController, addr 0x238fb14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderMeshController* get_sliderMeshController();
 
-  /// @brief Method get_sliderMovement addr 0x225b4b4 size 0x8 virtual false final false
+  /// @brief Method get_sliderMovement, addr 0x238fb1c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderMovement* get_sliderMovement();
 
-  /// @brief Method get_initColor addr 0x225b4bc size 0xc virtual false final false
+  /// @brief Method get_initColor, addr 0x238fb24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_initColor();
 
-  /// @brief Method get_randomValue addr 0x225b4c8 size 0x8 virtual false final false
+  /// @brief Method get_randomValue, addr 0x238fb30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_randomValue();
 
-  /// @brief Method get_zDistanceBetweenNotes addr 0x225b4d0 size 0x8 virtual false final false
+  /// @brief Method get_zDistanceBetweenNotes, addr 0x238fb38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zDistanceBetweenNotes();
 
-  /// @brief Method get_jumpDistance addr 0x225b4d8 size 0x8 virtual false final false
+  /// @brief Method get_jumpDistance, addr 0x238fb40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_headJumpOffsetY addr 0x225b4e0 size 0x8 virtual false final false
+  /// @brief Method get_headJumpOffsetY, addr 0x238fb48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headJumpOffsetY();
 
-  /// @brief Method get_sliderDuration addr 0x225b4e8 size 0x8 virtual false final false
+  /// @brief Method get_sliderDuration, addr 0x238fb50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sliderDuration();
 
-  /// @brief Method get_closeSmoothedSaberInteractionPos addr 0x225b4f0 size 0x8 virtual false final false
+  /// @brief Method get_closeSmoothedSaberInteractionPos, addr 0x238fb58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* get_closeSmoothedSaberInteractionPos();
 
-  /// @brief Method get_sliderIntensityEffect addr 0x225b4f8 size 0x8 virtual false final false
+  /// @brief Method get_sliderIntensityEffect, addr 0x238fb60, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderIntensityEffect* get_sliderIntensityEffect();
 
-  /// @brief Method Init addr 0x225b500 size 0x3d0 virtual false final false
+  /// @brief Method Init, addr 0x238fb68, size 0x3d0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__SliderController__LengthType lengthType, ::GlobalNamespace::SliderData* sliderData, float_t worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos,
                    ::UnityEngine::Vector3 tailNoteJumpStartPos, ::UnityEngine::Vector3 headNoteJumpEndPos, ::UnityEngine::Vector3 tailNoteJumpEndPos, float_t jumpDuration,
                    float_t startNoteJumpGravity, float_t endNoteJumpGravity, float_t noteUniformScale);
 
-  /// @brief Method Awake addr 0x225c430 size 0x160 virtual false final false
+  /// @brief Method Awake, addr 0x2390bf0, size 0x160, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x225c764 size 0x150 virtual false final false
+  /// @brief Method Start, addr 0x2390f24, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x225c950 size 0x2a8 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2391110, size 0x2a8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x225ce68 size 0x4 virtual false final false
+  /// @brief Method Update, addr 0x2391628, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x225cee0 size 0x58 virtual false final false
+  /// @brief Method FixedUpdate, addr 0x23916a0, size 0x58, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method ManualUpdate addr 0x225ce6c size 0x74 virtual false final false
+  /// @brief Method ManualUpdate, addr 0x239162c, size 0x74, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
-  /// @brief Method UpdateMaterialPropertyBlock addr 0x225c2f0 size 0x118 virtual false final false
+  /// @brief Method UpdateMaterialPropertyBlock, addr 0x2390ab0, size 0x118, virtual false, abstract: false, final false
   inline void UpdateMaterialPropertyBlock(float_t timeSinceHeadNoteJump);
 
-  /// @brief Method DissolveCoroutine addr 0x225d180 size 0x78 virtual false final false
+  /// @brief Method DissolveCoroutine, addr 0x2391aa0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DissolveCoroutine(float_t duration);
 
-  /// @brief Method Dissolve addr 0x225d220 size 0x60 virtual true final true
+  /// @brief Method Dissolve, addr 0x2391b40, size 0x60, virtual true, abstract: false, final true
   inline void Dissolve(float_t duration);
 
-  /// @brief Method Hide addr 0x225d280 size 0x2c virtual true final true
+  /// @brief Method Hide, addr 0x2391bc8, size 0x2c, virtual true, abstract: false, final true
   inline void Hide(bool hide);
 
-  /// @brief Method Pause addr 0x225d2ac size 0x10 virtual true final true
+  /// @brief Method Pause, addr 0x2391bf4, size 0x10, virtual true, abstract: false, final true
   inline void Pause(bool pause);
 
-  /// @brief Method IsNoteStartOfThisSlider addr 0x225d2bc size 0xe8 virtual false final false
+  /// @brief Method IsNoteStartOfThisSlider, addr 0x2391c04, size 0xe8, virtual false, abstract: false, final false
   inline bool IsNoteStartOfThisSlider(::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method HandleMovementDidFinish addr 0x225d3a4 size 0x1d4 virtual false final false
+  /// @brief Method HandleMovementDidFinish, addr 0x2391cec, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleMovementDidFinish();
 
-  /// @brief Method HandleHeadDidMovePastCutMark addr 0x225d578 size 0x1f0 virtual false final false
+  /// @brief Method HandleHeadDidMovePastCutMark, addr 0x2391ec0, size 0x1f0, virtual false, abstract: false, final false
   inline void HandleHeadDidMovePastCutMark();
 
-  /// @brief Method HandleTailDidMovePastCutMark addr 0x225d798 size 0x1e0 virtual false final false
+  /// @brief Method HandleTailDidMovePastCutMark, addr 0x23920e0, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleTailDidMovePastCutMark();
 
-  /// @brief Method HandleNoteWasMissed addr 0x225d978 size 0x4c virtual false final false
+  /// @brief Method HandleNoteWasMissed, addr 0x23922c0, size 0x4c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasCut addr 0x225d9f4 size 0x80 virtual false final false
+  /// @brief Method HandleNoteWasCut, addr 0x239233c, size 0x80, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleFadeInDidStart addr 0x225da74 size 0x8 virtual false final false
+  /// @brief Method HandleFadeInDidStart, addr 0x23923bc, size 0x8, virtual false, abstract: false, final false
   inline void HandleFadeInDidStart();
 
-  /// @brief Method SetSaberAttraction addr 0x225c214 size 0x88 virtual false final false
+  /// @brief Method SetSaberAttraction, addr 0x23909d4, size 0x88, virtual false, abstract: false, final false
   inline void SetSaberAttraction(bool saberAttraction);
 
-  /// @brief Method GetSaberInteractionPoint addr 0x225c29c size 0x54 virtual false final false
+  /// @brief Method GetSaberInteractionPoint, addr 0x2390a5c, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetSaberInteractionPoint(::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::SliderController* New_ctor();
 
-  /// @brief Method .ctor addr 0x225da7c size 0x194 virtual false final false
+  /// @brief Method .ctor, addr 0x239244c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderController", modifiers: "&&", def_value: None }]
@@ -747,14 +747,14 @@ static_assert(offsetof(::GlobalNamespace::SliderController, ____closeSmoothedSab
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), TypeDefinitionIndex(TypeDefinitionIndex(4931)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
-// 389 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4926)) CS Name: ::SliderController::Pool::Short*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4806)) CS Name: ::SliderController::Pool::Short*
 class CORDL_TYPE __SliderController__Pool__Short : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Short* New_ctor();
 
-  /// @brief Method .ctor addr 0x225dd44 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x239271c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SliderController__Pool__Short", modifiers: "&&", def_value: None }]
@@ -781,14 +781,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), TypeDefinitionIndex(TypeDefinitionIndex(4931)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
-// 389 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4927)) CS Name: ::SliderController::Pool::Medium*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4811)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4807)) CS Name: ::SliderController::Pool::Medium*
 class CORDL_TYPE __SliderController__Pool__Medium : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Medium* New_ctor();
 
-  /// @brief Method .ctor addr 0x225dd8c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2392764, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SliderController__Pool__Medium", modifiers: "&&", def_value: None }]
@@ -815,14 +815,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 389 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4931))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4928)) CS Name: ::SliderController::Pool::Long*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4808)) CS Name: ::SliderController::Pool::Long*
 class CORDL_TYPE __SliderController__Pool__Long : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Long* New_ctor();
 
-  /// @brief Method .ctor addr 0x225ddd4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23927ac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SliderController__Pool__Long", modifiers: "&&", def_value: None }]
@@ -849,8 +849,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4809))
 // CS Name: ::SliderController::Pool*
 class CORDL_TYPE __SliderController__Pool : public ::System::Object {
 public:
@@ -891,14 +891,14 @@ public:
   static inline ::GlobalNamespace::__SliderController__Pool* New_ctor(::GlobalNamespace::__SliderController__Pool__Short* shortPool, ::GlobalNamespace::__SliderController__Pool__Medium* mediumPool,
                                                                       ::GlobalNamespace::__SliderController__Pool__Long* longPool);
 
-  /// @brief Method .ctor addr 0x225dc10 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x23925e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SliderController__Pool__Short* shortPool, ::GlobalNamespace::__SliderController__Pool__Medium* mediumPool,
                     ::GlobalNamespace::__SliderController__Pool__Long* longPool);
 
-  /// @brief Method GetPool addr 0x225dc4c size 0xa0 virtual false final false
+  /// @brief Method GetPool, addr 0x2392624, size 0xa0, virtual false, abstract: false, final false
   inline ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*>* GetPool(::GlobalNamespace::__SliderController__LengthType lengthType);
 
-  /// @brief Method GetLengthFromSliderData addr 0x225dcec size 0x58 virtual false final false
+  /// @brief Method GetLengthFromSliderData, addr 0x23926c4, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__SliderController__LengthType GetLengthFromSliderData(::GlobalNamespace::SliderData* sliderNoteData,
                                                                                           ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData sliderSpawnData);
 
@@ -947,8 +947,8 @@ static_assert(offsetof(::GlobalNamespace::__SliderController__Pool, ____longPool
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4930))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4810))
 // CS Name: ::SliderController::<DissolveCoroutine>d__70*
 class CORDL_TYPE __SliderController___DissolveCoroutine_d__70 : public ::System::Object {
 public:
@@ -1004,22 +1004,22 @@ public:
 
   static inline ::GlobalNamespace::__SliderController___DissolveCoroutine_d__70* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x225d1f8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2391b18, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x225de1c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23927f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x225de20 size 0x3ec virtual true final true
+  /// @brief Method MoveNext, addr 0x23927f8, size 0x3ec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x225e20c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2392be4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x225e214 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2392bec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x225e254 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2392c2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SliderController___DissolveCoroutine_d__70", modifiers: "&&", def_value: None }]

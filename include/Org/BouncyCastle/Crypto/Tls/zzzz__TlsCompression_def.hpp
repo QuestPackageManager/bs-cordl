@@ -22,10 +22,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCompression {
 public:
   // Declarations
-  /// @brief Method Compress addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Decompress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCompression", modifiers: "&&", def_value: None }]

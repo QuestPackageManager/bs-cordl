@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMonoscopic);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8482)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8921))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8139))
 // CS Name: ::OVRMonoscopic*
 class CORDL_TYPE OVRMonoscopic : public ::UnityEngine::MonoBehaviour {
 public:
@@ -39,12 +39,12 @@ public:
 
   constexpr void __set_monoscopic(bool value);
 
-  /// @brief Method Update addr 0x263f93c size 0xf0 virtual false final false
+  /// @brief Method Update, addr 0x27b469c, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRMonoscopic* New_ctor();
 
-  /// @brief Method .ctor addr 0x263fa2c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x27b478c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMonoscopic", modifiers: "&&", def_value: None }]

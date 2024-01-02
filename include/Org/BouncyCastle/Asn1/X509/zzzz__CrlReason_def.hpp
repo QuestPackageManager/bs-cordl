@@ -35,15 +35,15 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(int32_t reason);
 
-  /// @brief Method .ctor addr 0x111ae24 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x118b06c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reason);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CrlReason* New_ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
-  /// @brief Method .ctor addr 0x111ae8c size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x118b0d4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* reason);
 
-  /// @brief Method ToString addr 0x111af00 size 0xcc virtual true final false
+  /// @brief Method ToString, addr 0x118b148, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlReason", modifiers: "&&", def_value: None }]

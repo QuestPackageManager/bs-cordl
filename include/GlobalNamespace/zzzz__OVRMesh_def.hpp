@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRMesh)
 namespace GlobalNamespace {
-struct __OVRMesh__MeshType;
-}
-namespace GlobalNamespace {
-class __OVRPlugin__Mesh;
-}
-namespace GlobalNamespace {
 class __OVRMesh__IOVRMeshDataProvider;
 }
 namespace UnityEngine {
 class Mesh;
+}
+namespace GlobalNamespace {
+struct __OVRMesh__MeshType;
+}
+namespace GlobalNamespace {
+class __OVRPlugin__Mesh;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,12 +38,12 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8903))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8121))
 // CS Name: ::OVRMesh::IOVRMeshDataProvider*
 class CORDL_TYPE __OVRMesh__IOVRMeshDataProvider {
 public:
   // Declarations
-  /// @brief Method GetMeshType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMeshType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__OVRMesh__MeshType GetMeshType();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRMesh__IOVRMeshDataProvider", modifiers: "&&", def_value: None }]
@@ -63,7 +63,7 @@ public:
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8122))
 // CS Name: ::OVRMesh::MeshType
 struct CORDL_TYPE __OVRMesh__MeshType {
 public:
@@ -116,8 +116,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRMesh__MeshType, value__) == 0x0, 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(8904))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8905))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8122)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8123))
 // CS Name: ::OVRMesh*
 class CORDL_TYPE OVRMesh : public ::UnityEngine::MonoBehaviour {
 public:
@@ -166,30 +166,33 @@ public:
 
   constexpr void __set__IsInitialized_k__BackingField(bool value);
 
-  /// @brief Method get_IsInitialized addr 0x263b9b8 size 0x8 virtual false final false
+  /// @brief Method get_IsInitialized, addr 0x27b0710, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method set_IsInitialized addr 0x263b9c0 size 0xc virtual false final false
+  /// @brief Method set_IsInitialized, addr 0x27b0718, size 0xc, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method get_Mesh addr 0x263b9cc size 0x8 virtual false final false
+  /// @brief Method get_Mesh, addr 0x27b0724, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Mesh* get_Mesh();
 
-  /// @brief Method Awake addr 0x263b9d4 size 0xf4 virtual false final false
+  /// @brief Method SetMeshType, addr 0x27b072c, size 0x8, virtual false, abstract: false, final false
+  inline void SetMeshType(::GlobalNamespace::__OVRMesh__MeshType type);
+
+  /// @brief Method Awake, addr 0x27b0734, size 0xf4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ShouldInitialize addr 0x263bac8 size 0x20 virtual false final false
+  /// @brief Method ShouldInitialize, addr 0x27b0828, size 0x20, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Initialize addr 0x263bae8 size 0xbc virtual false final false
+  /// @brief Method Initialize, addr 0x27b0848, size 0xbc, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::__OVRMesh__MeshType meshType);
 
-  /// @brief Method TransformOvrpMesh addr 0x263bba4 size 0xab4 virtual false final false
+  /// @brief Method TransformOvrpMesh, addr 0x27b0904, size 0xab4, virtual false, abstract: false, final false
   inline void TransformOvrpMesh(::GlobalNamespace::__OVRPlugin__Mesh* ovrpMesh, ::UnityEngine::Mesh* mesh);
 
   static inline ::GlobalNamespace::OVRMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x263c658 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x27b13b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMesh", modifiers: "&&", def_value: None }]

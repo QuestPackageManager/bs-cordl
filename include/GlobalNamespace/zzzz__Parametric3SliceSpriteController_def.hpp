@@ -8,7 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parametric3SliceSpriteController)
 namespace UnityEngine {
-class MaterialPropertyBlock;
+class MeshFilter;
 }
 namespace UnityEngine {
 class Mesh;
@@ -17,7 +17,7 @@ namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
-class MeshFilter;
+class MaterialPropertyBlock;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Parametric3SliceSpriteController);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14703))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14485))
 // CS Name: ::Parametric3SliceSpriteController*
 class CORDL_TYPE Parametric3SliceSpriteController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -224,33 +224,33 @@ public:
 
   static inline int32_t getStaticF__instanceCount();
 
-  /// @brief Method Awake addr 0x1fb3160 size 0x164 virtual false final false
+  /// @brief Method Awake, addr 0x210853c, size 0x164, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x1fb3630 size 0x70 virtual false final false
+  /// @brief Method Start, addr 0x2108a0c, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x1fb36a0 size 0x2c virtual false final false
+  /// @brief Method OnEnable, addr 0x2108a7c, size 0x2c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fb38f0 size 0x20 virtual false final false
+  /// @brief Method OnDisable, addr 0x2108ccc, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x1fb3910 size 0xc4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2108cec, size 0xc4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Init addr 0x1fb32c4 size 0x84 virtual false final false
+  /// @brief Method Init, addr 0x21086a0, size 0x84, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method CreateMesh addr 0x1fb3348 size 0x2e8 virtual false final false
+  /// @brief Method CreateMesh, addr 0x2108724, size 0x2e8, virtual false, abstract: false, final false
   inline ::UnityEngine::Mesh* CreateMesh();
 
-  /// @brief Method Refresh addr 0x1fb36cc size 0x224 virtual false final false
+  /// @brief Method Refresh, addr 0x2108aa8, size 0x224, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::Parametric3SliceSpriteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb39d4 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2108db0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Parametric3SliceSpriteController", modifiers: "&&", def_value: None }]

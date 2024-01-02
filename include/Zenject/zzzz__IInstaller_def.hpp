@@ -14,17 +14,17 @@ MARK_REF_PTR_T(::Zenject::IInstaller);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11129))
 // CS Name: ::Zenject::IInstaller*
 class CORDL_TYPE IInstaller {
 public:
   // Declarations
   __declspec(property(get = get_IsEnabled)) bool IsEnabled;
 
-  /// @brief Method InstallBindings addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InstallBindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void InstallBindings();
 
-  /// @brief Method get_IsEnabled addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEnabled();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInstaller", modifiers: "&&", def_value: None }]

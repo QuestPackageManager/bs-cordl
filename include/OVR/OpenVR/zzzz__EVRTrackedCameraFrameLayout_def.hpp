@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRTrackedCameraFrameLayout);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9380))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8611))
 // CS Name: ::OVR.OpenVR::EVRTrackedCameraFrameLayout
 struct CORDL_TYPE EVRTrackedCameraFrameLayout {
 public:

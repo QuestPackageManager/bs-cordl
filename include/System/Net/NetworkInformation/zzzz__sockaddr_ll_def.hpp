@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_ll);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9275))
 // CS Name: ::System.Net.NetworkInformation::sockaddr_ll
 struct CORDL_TYPE sockaddr_ll {
 public:

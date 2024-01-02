@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 CORDL_MODULE_EXPORT(OpenVROculusTouchController)
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
-}
-namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class Vector3Control;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::OpenVROculusTouchController);
 // SizeInfo { instance_size: 464, native_size: -1, calculated_instance_size: 464, calculated_native_size: 464, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6412))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6207))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6326))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6121))
 // CS Name: ::Unity.XR.OpenVR::OpenVROculusTouchController*
 class CORDL_TYPE OpenVROculusTouchController : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
@@ -156,78 +156,78 @@ public:
 
   constexpr void __set__deviceAngularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_thumbstick addr 0x28b5ad8 size 0x8 virtual false final false
+  /// @brief Method get_thumbstick, addr 0x2a34820, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_thumbstick();
 
-  /// @brief Method set_thumbstick addr 0x28b5ae0 size 0x8 virtual false final false
+  /// @brief Method set_thumbstick, addr 0x2a34828, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstick(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_trigger addr 0x28b5ae8 size 0x8 virtual false final false
+  /// @brief Method get_trigger, addr 0x2a34830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
-  /// @brief Method set_trigger addr 0x28b5af0 size 0x8 virtual false final false
+  /// @brief Method set_trigger, addr 0x2a34838, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_grip addr 0x28b5af8 size 0x8 virtual false final false
+  /// @brief Method get_grip, addr 0x2a34840, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method set_grip addr 0x28b5b00 size 0x8 virtual false final false
+  /// @brief Method set_grip, addr 0x2a34848, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_primaryButton addr 0x28b5b08 size 0x8 virtual false final false
+  /// @brief Method get_primaryButton, addr 0x2a34850, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primaryButton();
 
-  /// @brief Method set_primaryButton addr 0x28b5b10 size 0x8 virtual false final false
+  /// @brief Method set_primaryButton, addr 0x2a34858, size 0x8, virtual false, abstract: false, final false
   inline void set_primaryButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_secondaryButton addr 0x28b5b18 size 0x8 virtual false final false
+  /// @brief Method get_secondaryButton, addr 0x2a34860, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondaryButton();
 
-  /// @brief Method set_secondaryButton addr 0x28b5b20 size 0x8 virtual false final false
+  /// @brief Method set_secondaryButton, addr 0x2a34868, size 0x8, virtual false, abstract: false, final false
   inline void set_secondaryButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_gripPressed addr 0x28b5b28 size 0x8 virtual false final false
+  /// @brief Method get_gripPressed, addr 0x2a34870, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method set_gripPressed addr 0x28b5b30 size 0x8 virtual false final false
+  /// @brief Method set_gripPressed, addr 0x2a34878, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_triggerPressed addr 0x28b5b38 size 0x8 virtual false final false
+  /// @brief Method get_triggerPressed, addr 0x2a34880, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_triggerPressed addr 0x28b5b40 size 0x8 virtual false final false
+  /// @brief Method set_triggerPressed, addr 0x2a34888, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_thumbstickClicked addr 0x28b5b48 size 0x8 virtual false final false
+  /// @brief Method get_thumbstickClicked, addr 0x2a34890, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickClicked();
 
-  /// @brief Method set_thumbstickClicked addr 0x28b5b50 size 0x8 virtual false final false
+  /// @brief Method set_thumbstickClicked, addr 0x2a34898, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_thumbstickTouched addr 0x28b5b58 size 0x8 virtual false final false
+  /// @brief Method get_thumbstickTouched, addr 0x2a348a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickTouched();
 
-  /// @brief Method set_thumbstickTouched addr 0x28b5b60 size 0x8 virtual false final false
+  /// @brief Method set_thumbstickTouched, addr 0x2a348a8, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_deviceVelocity addr 0x28b5b68 size 0x8 virtual false final false
+  /// @brief Method get_deviceVelocity, addr 0x2a348b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method set_deviceVelocity addr 0x28b5b70 size 0x8 virtual false final false
+  /// @brief Method set_deviceVelocity, addr 0x2a348b8, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_deviceAngularVelocity addr 0x28b5b78 size 0x8 virtual false final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x2a348c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method set_deviceAngularVelocity addr 0x28b5b80 size 0x8 virtual false final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x2a348c8, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method FinishSetup addr 0x28b5b88 size 0x260 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2a348d0, size 0x260, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::OpenVROculusTouchController* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b5de8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a34b30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenVROculusTouchController", modifiers: "&&", def_value: None }]

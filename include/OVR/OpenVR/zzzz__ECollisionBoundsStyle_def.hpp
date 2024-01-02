@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ECollisionBoundsStyle);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9370))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8601))
 // CS Name: ::OVR.OpenVR::ECollisionBoundsStyle
 struct CORDL_TYPE ECollisionBoundsStyle {
 public:

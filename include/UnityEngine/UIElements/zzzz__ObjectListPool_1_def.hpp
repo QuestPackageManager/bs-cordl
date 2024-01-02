@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObjectListPool_1)
-namespace UnityEngine::UIElements {
-template <typename T> class ObjectPool_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class ObjectPool_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -22,8 +22,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6825))
 // CS Name: ::UnityEngine.UIElements::ObjectListPool`1<T>*
 class CORDL_TYPE ObjectListPool_1 : public ::System::Object {
 public:
@@ -35,10 +35,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_pool();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* Get();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<T>* elements);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectListPool_1", modifiers: "&&", def_value: None }]

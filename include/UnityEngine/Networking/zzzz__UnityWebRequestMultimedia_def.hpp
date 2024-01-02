@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityWebRequestMultimedia)
-namespace UnityEngine {
-struct AudioType;
-}
 namespace UnityEngine::Networking {
 class UnityWebRequest;
+}
+namespace UnityEngine {
+struct AudioType;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -21,13 +21,13 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestMultimedia);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16001))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16161))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestMultimedia*
 class CORDL_TYPE UnityWebRequestMultimedia : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioClip addr 0x2d43158 size 0xc0 virtual false final false
+  /// @brief Method GetAudioClip, addr 0x2eabf44, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "&&", def_value: None }]

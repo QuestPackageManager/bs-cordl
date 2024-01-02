@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IKeyboardEvent)
 namespace UnityEngine {
-struct KeyCode;
+struct EventModifiers;
 }
 namespace UnityEngine {
-struct EventModifiers;
+struct KeyCode;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IKeyboardEvent);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7325))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7239))
 // CS Name: ::UnityEngine.UIElements::IKeyboardEvent*
 class CORDL_TYPE IKeyboardEvent {
 public:
@@ -31,13 +31,13 @@ public:
 
   __declspec(property(get = get_keyCode))::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method get_character addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_character, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t get_character();
 
-  /// @brief Method get_keyCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_keyCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyboardEvent", modifiers: "&&", def_value: None }]

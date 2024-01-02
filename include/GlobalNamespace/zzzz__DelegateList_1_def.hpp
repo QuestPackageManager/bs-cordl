@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(DelegateList_1)
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
 // CS Name: ::DelegateList`1<T>*
 class CORDL_TYPE DelegateList_1 : public ::System::Object {
 public:
@@ -78,26 +78,26 @@ public:
   static inline ::GlobalNamespace::DelegateList_1<T>* New_ctor(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* acquireFunc,
                                                                ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* releaseFunc);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<::System::Action_1<T>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* acquireFunc,
                     ::System::Action_1<::System::Collections::Generic::LinkedListNode_1<::System::Action_1<T>*>*>* releaseFunc);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_1<T>* action);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Action_1<T>* action);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Invoke(T res);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method CreateWithGlobalCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateWithGlobalCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::DelegateList_1<T>* CreateWithGlobalCache();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelegateList_1", modifiers: "&&", def_value: None }]

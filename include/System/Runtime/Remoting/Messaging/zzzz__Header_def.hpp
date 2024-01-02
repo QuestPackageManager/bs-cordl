@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::Header);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3165))
 // CS Name: ::System.Runtime.Remoting.Messaging::Header*
 class CORDL_TYPE Header : public ::System::Object {
 public:

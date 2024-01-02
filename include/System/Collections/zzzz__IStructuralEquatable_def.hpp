@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::System::Collections::IStructuralEquatable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3764))
 // CS Name: ::System.Collections::IStructuralEquatable*
 class CORDL_TYPE IStructuralEquatable {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStructuralEquatable", modifiers: "&&", def_value: None }]

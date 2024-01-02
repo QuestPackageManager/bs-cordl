@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProofOfPossession)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1::Crmf {
-class PopoSigningKey;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PopoPrivKey;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::Crmf {
+class PopoSigningKey;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -69,34 +69,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor addr 0xe134e0 size 0x150 virtual false final false
+  /// @brief Method .ctor, addr 0xe886b4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method GetInstance addr 0xe0f0b8 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe8428c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor();
 
-  /// @brief Method .ctor addr 0xe13630 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0xe88804, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Poposk);
 
-  /// @brief Method .ctor addr 0xe136a0 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe88874, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* Poposk);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method .ctor addr 0xe136d0 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe888a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* privkey);
 
-  /// @brief Method get_Type addr 0xe13700 size 0x8 virtual true final false
+  /// @brief Method get_Type, addr 0xe888d4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Object addr 0xe13708 size 0x8 virtual true final false
+  /// @brief Method get_Object, addr 0xe888dc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Object();
 
-  /// @brief Method ToAsn1Object addr 0xe13710 size 0x74 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe888e4, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProofOfPossession", modifiers: "&&", def_value: None }]

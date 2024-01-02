@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_SessionSyncInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9756))
 // CS Name: ::HoudiniEngineUnity::HAPI_SessionSyncInfo
 struct CORDL_TYPE HAPI_SessionSyncInfo {
 public:

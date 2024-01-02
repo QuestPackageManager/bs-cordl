@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IConstructionReturnMessage)
 namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionReturnMessa
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3134))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3135))
 // CS Name: ::System.Runtime.Remoting.Activation::IConstructionReturnMessage*
 class CORDL_TYPE IConstructionReturnMessage {
 public:

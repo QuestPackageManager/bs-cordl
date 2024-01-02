@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::GenTimeAccuracy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1763))
 // CS Name: ::Org.BouncyCastle.Tsp::GenTimeAccuracy*
 class CORDL_TYPE GenTimeAccuracy : public ::System::Object {
@@ -45,22 +45,22 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method .ctor addr 0x10ddd14 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x114ef5c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
 
-  /// @brief Method get_Seconds addr 0x10ddd3c size 0x2c virtual false final false
+  /// @brief Method get_Seconds, addr 0x114ef84, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Seconds();
 
-  /// @brief Method get_Millis addr 0x10ddd80 size 0x2c virtual false final false
+  /// @brief Method get_Millis, addr 0x114efc8, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Millis();
 
-  /// @brief Method get_Micros addr 0x10dddac size 0x2c virtual false final false
+  /// @brief Method get_Micros, addr 0x114eff4, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_Micros();
 
-  /// @brief Method GetTimeComponent addr 0x10ddd68 size 0x18 virtual false final false
+  /// @brief Method GetTimeComponent, addr 0x114efb0, size 0x18, virtual false, abstract: false, final false
   inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time);
 
-  /// @brief Method ToString addr 0x10dddd8 size 0x1bc virtual true final false
+  /// @brief Method ToString, addr 0x114f020, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "&&", def_value: None }]

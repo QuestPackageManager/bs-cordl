@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::Unity::Collections::DeallocateOnJobCompletionAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9934))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10006))
 // CS Name: ::Unity.Collections::DeallocateOnJobCompletionAttribute*
 class CORDL_TYPE DeallocateOnJobCompletionAttribute : public ::System::Attribute {
 public:

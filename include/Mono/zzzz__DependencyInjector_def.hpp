@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DependencyInjector)
-namespace System {
-class Object;
-}
 namespace Mono {
 class ISystemDependencyProvider;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Mono::DependencyInjector);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2224))
 // CS Name: ::Mono::DependencyInjector*
 class CORDL_TYPE DependencyInjector : public ::System::Object {
@@ -40,13 +40,13 @@ public:
 
   static inline ::Mono::ISystemDependencyProvider* getStaticF_systemDependency();
 
-  /// @brief Method get_SystemProvider addr 0x22b848c size 0x204 virtual false final false
+  /// @brief Method get_SystemProvider, addr 0x2411f0c, size 0x204, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* get_SystemProvider();
 
-  /// @brief Method Register addr 0x22b87dc size 0x1a8 virtual false final false
+  /// @brief Method Register, addr 0x241225c, size 0x1a8, virtual false, abstract: false, final false
   static inline void Register(::Mono::ISystemDependencyProvider* provider);
 
-  /// @brief Method ReflectionLoad addr 0x22b8690 size 0x14c virtual false final false
+  /// @brief Method ReflectionLoad, addr 0x2412110, size 0x14c, virtual false, abstract: false, final false
   static inline ::Mono::ISystemDependencyProvider* ReflectionLoad();
 
   // Ctor Parameters [CppParam { name: "", ty: "DependencyInjector", modifiers: "&&", def_value: None }]

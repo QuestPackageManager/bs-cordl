@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputUpdateType);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6639))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6553))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputUpdateType
 struct CORDL_TYPE InputUpdateType {
 public:

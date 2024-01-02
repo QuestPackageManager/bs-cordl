@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNotation)
 namespace System::Xml {
-struct XmlNodeType;
+class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNotation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11448))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11520))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11524))
 // CS Name: ::System.Xml::XmlNotation*
 class CORDL_TYPE XmlNotation : public ::System::Xml::XmlNode {
 public:
@@ -69,25 +69,25 @@ public:
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x271029c size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x288d2bc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x2714960 size 0x8 virtual true final false
+  /// @brief Method get_Name, addr 0x2891980, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2714968 size 0x8 virtual true final false
+  /// @brief Method get_LocalName, addr 0x2891988, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2714970 size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x2891990, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode addr 0x2714978 size 0x60 virtual true final false
+  /// @brief Method CloneNode, addr 0x2891998, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_IsReadOnly addr 0x27149d8 size 0x8 virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x28919f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method set_InnerXml addr 0x27149e0 size 0x60 virtual true final false
+  /// @brief Method set_InnerXml, addr 0x2891a00, size 0x60, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNotation", modifiers: "&&", def_value: None }]

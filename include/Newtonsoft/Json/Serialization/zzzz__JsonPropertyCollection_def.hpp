@@ -10,14 +10,14 @@ CORDL_MODULE_EXPORT(JsonPropertyCollection)
 namespace System {
 class Type;
 }
-namespace Newtonsoft::Json::Serialization {
-class JsonProperty;
-}
 namespace System {
 struct StringComparison;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Newtonsoft::Json::Serialization {
+class JsonProperty;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonPropertyCollection);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11873)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3804), inst: 3850 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3804))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11874)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11945)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3816), inst: 3945 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3816))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11946)) CS Name: ::Newtonsoft.Json.Serialization::JsonPropertyCollection*
 class CORDL_TYPE JsonPropertyCollection : public ::System::Collections::ObjectModel::KeyedCollection_2<::StringW, ::Newtonsoft::Json::Serialization::JsonProperty*> {
 public:
   // Declarations
@@ -54,22 +54,22 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::JsonPropertyCollection* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x250e0e0 size 0x160 virtual false final false
+  /// @brief Method .ctor, addr 0x2671824, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method GetKeyForItem addr 0x25173d4 size 0x18 virtual true final false
+  /// @brief Method GetKeyForItem, addr 0x267ab18, size 0x18, virtual true, abstract: false, final false
   inline ::StringW GetKeyForItem(::Newtonsoft::Json::Serialization::JsonProperty* item);
 
-  /// @brief Method AddProperty addr 0x250e280 size 0x234 virtual false final false
+  /// @brief Method AddProperty, addr 0x26719c4, size 0x234, virtual false, abstract: false, final false
   inline void AddProperty(::Newtonsoft::Json::Serialization::JsonProperty* property);
 
-  /// @brief Method GetClosestMatchProperty addr 0x250e240 size 0x40 virtual false final false
+  /// @brief Method GetClosestMatchProperty, addr 0x2671984, size 0x40, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetClosestMatchProperty(::StringW propertyName);
 
-  /// @brief Method TryGetValue addr 0x25174d8 size 0xdc virtual false final false
+  /// @brief Method TryGetValue, addr 0x267ac1c, size 0xdc, virtual false, abstract: false, final false
   inline bool TryGetValue(::StringW key, ByRef<::Newtonsoft::Json::Serialization::JsonProperty*> item);
 
-  /// @brief Method GetProperty addr 0x25173ec size 0xec virtual false final false
+  /// @brief Method GetProperty, addr 0x267ab30, size 0xec, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::JsonProperty* GetProperty(::StringW propertyName, ::System::StringComparison comparisonType);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonPropertyCollection", modifiers: "&&", def_value: None }]

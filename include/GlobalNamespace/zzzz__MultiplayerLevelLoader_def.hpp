@@ -4,33 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerLevelLoader_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerLevelLoader)
-namespace GlobalNamespace {
-class ILevelGameplaySetupData;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+namespace Zenject {
+class ITickable;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -38,8 +16,29 @@ template <typename TResult> class Task_1;
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
-namespace Zenject {
-class ITickable;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelLoader);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5672))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5580))
 // CS Name: ::MultiplayerLevelLoader::MultiplayerBeatmapLoaderState
 struct CORDL_TYPE __MultiplayerLevelLoader__MultiplayerBeatmapLoaderState {
 public:
@@ -106,11 +105,11 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerB
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerLevelLoader
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(5672))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5580)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5581))
 // CS Name: ::MultiplayerLevelLoader*
 class CORDL_TYPE MultiplayerLevelLoader : public ::System::Object {
 public:
@@ -146,10 +145,10 @@ public:
   /// @brief Field _difficultyBeatmap, offset 0x50, size 0x8
   __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
-  /// @brief Field _startTime, offset 0x58, size 0x4
-  __declspec(property(get = __get__startTime, put = __set__startTime)) float_t _startTime;
+  /// @brief Field _startTime, offset 0x58, size 0x8
+  __declspec(property(get = __get__startTime, put = __set__startTime)) int64_t _startTime;
 
-  /// @brief Field _stillDownloadingCalled, offset 0x5c, size 0x1
+  /// @brief Field _stillDownloadingCalled, offset 0x60, size 0x1
   __declspec(property(get = __get__stillDownloadingCalled, put = __set__stillDownloadingCalled)) bool _stillDownloadingCalled;
 
   /// @brief Convert operator to "::Zenject::ITickable"
@@ -209,11 +208,11 @@ public:
 
   constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr float_t& __get__startTime();
+  constexpr int64_t& __get__startTime();
 
-  constexpr float_t const& __get__startTime() const;
+  constexpr int64_t const& __get__startTime() const;
 
-  constexpr void __set__startTime(float_t value);
+  constexpr void __set__startTime(int64_t value);
 
   constexpr bool& __get__stillDownloadingCalled();
 
@@ -221,33 +220,33 @@ public:
 
   constexpr void __set__stillDownloadingCalled(bool value);
 
-  /// @brief Method add_stillDownloadingSongEvent addr 0x21617f8 size 0x9c virtual false final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x22a6bfc, size 0x9c, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent addr 0x2161894 size 0x9c virtual false final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x22a6c98, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method add_countdownFinishedEvent addr 0x2161930 size 0xb0 virtual false final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x22a6d34, size 0xb0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method remove_countdownFinishedEvent addr 0x21619e0 size 0xb0 virtual false final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x22a6de4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method LoadLevel addr 0x2161a90 size 0x1a8 virtual false final false
-  inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, float_t initialStartTime);
+  /// @brief Method LoadLevel, addr 0x22a6e94, size 0x1a8, virtual false, abstract: false, final false
+  inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
-  /// @brief Method SetNewStartTime addr 0x2161c38 size 0x8 virtual false final false
-  inline void SetNewStartTime(float_t newStartTime);
+  /// @brief Method SetNewStartTime, addr 0x22a703c, size 0x8, virtual false, abstract: false, final false
+  inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method ClearLoading addr 0x2161c40 size 0x34 virtual false final false
+  /// @brief Method ClearLoading, addr 0x22a7044, size 0x34, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method Tick addr 0x2161c74 size 0x2ec virtual true final true
+  /// @brief Method Tick, addr 0x22a7078, size 0x2ec, virtual true, abstract: false, final true
   inline void Tick();
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2161f60 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22a7364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLevelLoader", modifiers: "&&", def_value: None }]
@@ -291,16 +290,16 @@ public:
   /// @brief Field _difficultyBeatmap, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::IDifficultyBeatmap* ____difficultyBeatmap;
 
-  /// @brief Field _startTime, offset: 0x58, size: 0x4, def value: None
-  float_t ____startTime;
+  /// @brief Field _startTime, offset: 0x58, size: 0x8, def value: None
+  int64_t ____startTime;
 
-  /// @brief Field _stillDownloadingCalled, offset: 0x5c, size: 0x1, def value: None
+  /// @brief Field _stillDownloadingCalled, offset: 0x60, size: 0x1, def value: None
   bool ____stillDownloadingCalled;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelLoader, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelLoader, 0x68>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader, ____multiplayerSessionManager) == 0x10, "Offset mismatch!");
 
@@ -322,7 +321,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader, ____difficulty
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader, ____startTime) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader, ____stillDownloadingCalled) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelLoader, ____stillDownloadingCalled) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerLevelLoader__MultiplayerBeatmapLoaderState, "", "MultiplayerLevelLoader/MultiplayerBeatmapLoaderState");

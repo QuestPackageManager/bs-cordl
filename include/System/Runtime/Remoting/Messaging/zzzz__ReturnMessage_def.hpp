@@ -7,17 +7,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReturnMessage)
+namespace System::Reflection {
+class MethodBase;
+}
 namespace System {
 class Object;
 }
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
+}
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Runtime::Remoting::Messaging {
+class MethodReturnDictionary;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System {
+class Exception;
 }
 namespace System {
 class Type;
 }
 namespace System::Runtime::Remoting::Messaging {
-class MethodReturnDictionary;
+class LogicalCallContext;
+}
+namespace System::Runtime::Remoting {
+class Identity;
 }
 namespace System::Runtime::Remoting::Messaging {
 class ArgInfo;
@@ -26,28 +44,10 @@ namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class LogicalCallContext;
-}
-namespace System::Runtime::Remoting::Messaging {
 class IMethodReturnMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IInternalMessage;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodCallMessage;
-}
-namespace System {
-class Exception;
-}
-namespace System::Runtime::Remoting {
-class Identity;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
-namespace System::Reflection {
-class MethodBase;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -59,8 +59,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ReturnMessage);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3185))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3186))
 // CS Name: ::System.Runtime.Remoting.Messaging::ReturnMessage*
 class CORDL_TYPE ReturnMessage : public ::System::Object {
 public:
@@ -229,67 +229,67 @@ public:
                                                                                 ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                                                                                 ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm);
 
-  /// @brief Method .ctor addr 0x233f2dc size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0x2497dd0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* ret, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> outArgs, int32_t outArgsCount, ::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx,
                     ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm);
 
   static inline ::System::Runtime::Remoting::Messaging::ReturnMessage* New_ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm);
 
-  /// @brief Method .ctor addr 0x233f194 size 0x148 virtual false final false
+  /// @brief Method .ctor, addr 0x2497c88, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* e, ::System::Runtime::Remoting::Messaging::IMethodCallMessage* mcm);
 
-  /// @brief Method get_ArgCount addr 0x2359488 size 0x1c virtual true final true
+  /// @brief Method get_ArgCount, addr 0x24b1f7c, size 0x1c, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args addr 0x23594a4 size 0x8 virtual true final true
+  /// @brief Method get_Args, addr 0x24b1f98, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_LogicalCallContext addr 0x23594ac size 0x6c virtual true final true
+  /// @brief Method get_LogicalCallContext, addr 0x24b1fa0, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase addr 0x2359518 size 0x8 virtual true final true
+  /// @brief Method get_MethodBase, addr 0x24b200c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName addr 0x2359520 size 0x50 virtual true final true
+  /// @brief Method get_MethodName, addr 0x24b2014, size 0x50, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature addr 0x2359570 size 0x12c virtual true final true
+  /// @brief Method get_MethodSignature, addr 0x24b2064, size 0x12c, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_Properties addr 0x235969c size 0x6c virtual true final false
+  /// @brief Method get_Properties, addr 0x24b2190, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_TypeName addr 0x2359708 size 0x64 virtual true final true
+  /// @brief Method get_TypeName, addr 0x24b21fc, size 0x64, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri addr 0x235976c size 0x8 virtual true final true
+  /// @brief Method get_Uri, addr 0x24b2260, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
-  /// @brief Method set_Uri addr 0x2359774 size 0x8 virtual false final false
+  /// @brief Method set_Uri, addr 0x24b2268, size 0x8, virtual false, abstract: false, final false
   inline void set_Uri(::StringW value);
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri addr 0x235977c size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_Uri, addr 0x24b2270, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Runtime_Remoting_Messaging_IInternalMessage_get_Uri();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri addr 0x2359784 size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_Uri, addr 0x24b2278, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_Uri(::StringW value);
 
-  /// @brief Method GetArg addr 0x235978c size 0x30 virtual true final true
+  /// @brief Method GetArg, addr 0x24b2280, size 0x30, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t argNum);
 
-  /// @brief Method get_Exception addr 0x23597bc size 0x8 virtual true final true
+  /// @brief Method get_Exception, addr 0x24b22b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_OutArgs addr 0x23597c4 size 0x98 virtual true final true
+  /// @brief Method get_OutArgs, addr 0x24b22b8, size 0x98, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_ReturnValue addr 0x235985c size 0x8 virtual true final false
+  /// @brief Method get_ReturnValue, addr 0x24b2350, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_ReturnValue();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity addr 0x2359864 size 0x8 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.get_TargetIdentity, addr 0x24b2358, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Identity* System_Runtime_Remoting_Messaging_IInternalMessage_get_TargetIdentity();
 
-  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity addr 0x235986c size 0x1008 virtual true final true
+  /// @brief Method System.Runtime.Remoting.Messaging.IInternalMessage.set_TargetIdentity, addr 0x24b2360, size 0x1008, virtual true, abstract: false, final true
   inline void System_Runtime_Remoting_Messaging_IInternalMessage_set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReturnMessage", modifiers: "&&", def_value: None }]

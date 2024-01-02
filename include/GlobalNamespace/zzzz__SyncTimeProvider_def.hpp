@@ -3,7 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(SyncTimeProvider)
 namespace GlobalNamespace {
 class ITimeProvider;
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SyncTimeProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5477))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5386))
 // CS Name: ::SyncTimeProvider*
 class CORDL_TYPE SyncTimeProvider : public ::System::Object {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  __declspec(property(get = get_time)) float_t time;
+  __declspec(property(get = get_time)) int64_t time;
 
   /// @brief Convert operator to "::GlobalNamespace::ITimeProvider"
   constexpr operator ::GlobalNamespace::ITimeProvider*() noexcept;
@@ -41,12 +41,12 @@ public:
 
   constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method get_time addr 0x2129960 size 0xa4 virtual true final true
-  inline float_t get_time();
+  /// @brief Method get_time, addr 0x226ef60, size 0xa4, virtual true, abstract: false, final true
+  inline int64_t get_time();
 
   static inline ::GlobalNamespace::SyncTimeProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2129a04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226f004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SyncTimeProvider", modifiers: "&&", def_value: None }]

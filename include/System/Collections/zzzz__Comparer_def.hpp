@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(Comparer)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Globalization {
 class CompareInfo;
 }
 namespace System::Globalization {
 class CultureInfo;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Collections::Comparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3740))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3752))
 // CS Name: ::System.Collections::Comparer*
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
@@ -73,18 +73,18 @@ public:
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor addr 0x2420ac4 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x257bf3c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   static inline ::System::Collections::Comparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2420b4c size 0x174 virtual false final false
+  /// @brief Method .ctor, addr 0x257bfc4, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x2420cc0 size 0xa4 virtual true final true
+  /// @brief Method GetObjectData, addr 0x257c138, size 0xa4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method Compare addr 0x2420d64 size 0x210 virtual true final true
+  /// @brief Method Compare, addr 0x257c1dc, size 0x210, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]

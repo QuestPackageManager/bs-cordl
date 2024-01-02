@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonToken);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12074))
 // CS Name: ::Newtonsoft.Json.Bson::BsonToken*
 class CORDL_TYPE BsonToken : public ::System::Object {
 public:
@@ -48,24 +48,24 @@ public:
 
   constexpr void __set__CalculatedSize_k__BackingField(int32_t value);
 
-  /// @brief Method get_Type addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Parent addr 0x2564918 size 0x8 virtual false final false
+  /// @brief Method get_Parent, addr 0x26c8068, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
-  /// @brief Method set_Parent addr 0x2564920 size 0x8 virtual false final false
+  /// @brief Method set_Parent, addr 0x26c8070, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method get_CalculatedSize addr 0x2564928 size 0x8 virtual false final false
+  /// @brief Method get_CalculatedSize, addr 0x26c8078, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
-  /// @brief Method set_CalculatedSize addr 0x2564930 size 0x8 virtual false final false
+  /// @brief Method set_CalculatedSize, addr 0x26c8080, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
   static inline ::Newtonsoft::Json::Bson::BsonToken* New_ctor();
 
-  /// @brief Method .ctor addr 0x2564938 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26c8088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonToken", modifiers: "&&", def_value: None }]

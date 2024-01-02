@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArraySpec)
 namespace System {
-class ModifierSpec;
+class Type;
 }
 namespace System {
-class Type;
+class ModifierSpec;
 }
 namespace System::Text {
 class StringBuilder;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::ArraySpec);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2634))
 // CS Name: ::System::ArraySpec*
 class CORDL_TYPE ArraySpec : public ::System::Object {
 public:
@@ -54,16 +54,16 @@ public:
 
   static inline ::System::ArraySpec* New_ctor(int32_t dimensions, bool bound);
 
-  /// @brief Method .ctor addr 0x24ab994 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x260691c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t dimensions, bool bound);
 
-  /// @brief Method Resolve addr 0x24ab9a4 size 0x64 virtual true final true
+  /// @brief Method Resolve, addr 0x260692c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method Append addr 0x24aba08 size 0xa0 virtual true final true
+  /// @brief Method Append, addr 0x2606990, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ToString addr 0x24abaa8 size 0x74 virtual true final false
+  /// @brief Method ToString, addr 0x2606a30, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySpec", modifiers: "&&", def_value: None }]

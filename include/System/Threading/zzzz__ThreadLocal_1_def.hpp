@@ -10,22 +10,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ThreadLocal_1)
 namespace System::Threading {
-template <typename T> class __ThreadLocal_1__IdManager;
+template <typename T> class __ThreadLocal_1__LinkedSlot;
+}
+namespace System {
+class IDisposable;
+}
+namespace System::Threading {
+template <typename T> class __ThreadLocal_1__FinalizationHelper;
 }
 namespace System::Threading {
 template <typename T> struct __ThreadLocal_1__LinkedSlotVolatile;
 }
 namespace System::Threading {
-template <typename T> class __ThreadLocal_1__LinkedSlot;
-}
-namespace System::Threading {
-template <typename T> class __ThreadLocal_1__FinalizationHelper;
+template <typename T> class __ThreadLocal_1__IdManager;
 }
 namespace System {
 template <typename TResult> class Func_1;
-}
-namespace System {
-class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -59,7 +59,7 @@ namespace System::Threading {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2700))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2702))
 // CS Name: ::ThreadLocal`1::LinkedSlotVolatile<T>
 struct CORDL_TYPE __ThreadLocal_1__LinkedSlotVolatile {
 public:
@@ -87,8 +87,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2701))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2703))
 // CS Name: ::ThreadLocal`1::LinkedSlot<T>*
 class CORDL_TYPE __ThreadLocal_1__LinkedSlot : public ::System::Object {
 public:
@@ -133,7 +133,7 @@ public:
   static inline ::System::Threading::__ThreadLocal_1__LinkedSlot<T>*
   New_ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadLocal_1__LinkedSlot", modifiers: "&&", def_value: None }]
@@ -172,8 +172,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2702))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2704))
 // CS Name: ::ThreadLocal`1::IdManager<T>*
 class CORDL_TYPE __ThreadLocal_1__IdManager : public ::System::Object {
 public:
@@ -196,15 +196,15 @@ public:
 
   constexpr void __set_m_freeIds(::System::Collections::Generic::List_1<bool>* value);
 
-  /// @brief Method GetId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetId();
 
-  /// @brief Method ReturnId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReturnId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReturnId(int32_t id);
 
   static inline ::System::Threading::__ThreadLocal_1__IdManager<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadLocal_1__IdManager", modifiers: "&&", def_value: None }]
@@ -237,8 +237,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2703))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2705))
 // CS Name: ::ThreadLocal`1::FinalizationHelper<T>*
 class CORDL_TYPE __ThreadLocal_1__FinalizationHelper : public ::System::Object {
 public:
@@ -265,10 +265,10 @@ public:
   static inline ::System::Threading::__ThreadLocal_1__FinalizationHelper<T>*
   New_ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray, bool trackAllValues);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray, bool trackAllValues);
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ThreadLocal_1__FinalizationHelper", modifiers: "&&", def_value: None }]
@@ -301,8 +301,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2704))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2706))
 // CS Name: ::System.Threading::ThreadLocal`1<T>*
 class CORDL_TYPE ThreadLocal_1 : public ::System::Object {
 public:
@@ -392,47 +392,47 @@ public:
 
   static inline ::System::Threading::ThreadLocal_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Initialize(::System::Func_1<T>* valueFactory, bool trackAllValues);
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
-  /// @brief Method set_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Value(T value);
 
-  /// @brief Method GetValueSlow addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueSlow();
 
-  /// @brief Method SetValueSlow addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetValueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetValueSlow(T value, ::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray);
 
-  /// @brief Method CreateLinkedSlot addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateLinkedSlot, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CreateLinkedSlot(::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*> slotArray, int32_t id,
                                T value);
 
-  /// @brief Method get_IsValueCreated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsValueCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsValueCreated();
 
-  /// @brief Method GrowTable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GrowTable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void GrowTable(ByRef<::ArrayW<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>, ::Array<::System::Threading::__ThreadLocal_1__LinkedSlotVolatile<T>>*>> table, int32_t minLength);
 
-  /// @brief Method GetNewTableSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetNewTableSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t GetNewTableSize(int32_t minSize);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadLocal_1", modifiers: "&&", def_value: None }]

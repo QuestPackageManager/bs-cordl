@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::OwnedState);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7373))
 // CS Name: ::UnityEngine.UIElements.UIR::OwnedState
 struct CORDL_TYPE OwnedState {
 public:

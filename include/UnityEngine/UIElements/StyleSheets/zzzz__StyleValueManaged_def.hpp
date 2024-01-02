@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(StyleValueManaged)
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -25,8 +25,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValueManaged);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7386)), TypeDefinitionIndex(TypeDefinitionIndex(7573))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7467))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleValueManaged
 struct CORDL_TYPE StyleValueManaged {
 public:

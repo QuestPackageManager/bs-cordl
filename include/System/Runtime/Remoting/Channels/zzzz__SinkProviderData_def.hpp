@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SinkProviderData)
 namespace System::Collections {
-class Hashtable;
+class IList;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections {
-class IList;
+class ArrayList;
 }
 namespace System::Collections {
-class ArrayList;
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::SinkProviderData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3128))
 // CS Name: ::System.Runtime.Remoting.Channels::SinkProviderData*
 class CORDL_TYPE SinkProviderData : public ::System::Object {
 public:
@@ -66,13 +66,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x234b6e0 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0x24a41d4, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children addr 0x234b78c size 0x8 virtual false final false
+  /// @brief Method get_Children, addr 0x24a4280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties addr 0x234b794 size 0x8 virtual false final false
+  /// @brief Method get_Properties, addr 0x24a4288, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None }]

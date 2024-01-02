@@ -11,9 +11,6 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 class CertID;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
@@ -21,6 +18,9 @@ class Asn1Object;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -60,29 +60,29 @@ public:
 
   constexpr void __set_singleRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance addr 0xf0bea8 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xf820cc, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Request* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf0bec0 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf820e4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Request* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Request* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* reqCert, ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleRequestExtensions);
 
-  /// @brief Method .ctor addr 0xf0c16c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf82390, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* reqCert, ::Org::BouncyCastle::Asn1::X509::X509Extensions* singleRequestExtensions);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Request* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0c048 size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0xf8226c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ReqCert addr 0xf0c1e8 size 0x8 virtual false final false
+  /// @brief Method get_ReqCert, addr 0xf8240c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* get_ReqCert();
 
-  /// @brief Method get_SingleRequestExtensions addr 0xf0c1f0 size 0x8 virtual false final false
+  /// @brief Method get_SingleRequestExtensions, addr 0xf82414, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_SingleRequestExtensions();
 
-  /// @brief Method ToAsn1Object addr 0xf0c1f8 size 0x114 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf8241c, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]

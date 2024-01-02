@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetup);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6086))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6031))
 // CS Name: ::GameCoreSceneSetup*
 class CORDL_TYPE GameCoreSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -57,12 +57,12 @@ public:
 
   constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO* value);
 
-  /// @brief Method InstallBindings addr 0x21c6a70 size 0x46c virtual true final false
+  /// @brief Method InstallBindings, addr 0x2319894, size 0x46c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c6edc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2319d00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "&&", def_value: None }]

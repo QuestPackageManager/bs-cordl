@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_7_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MonoPoolableMemoryPool_7)
-namespace UnityEngine {
-class Transform;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10972)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10972), inst: 3462 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10990))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11044), inst: 3536 }), TypeDefinitionIndex(TypeDefinitionIndex(11044))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11062))
 // CS Name: ::Zenject::MonoPoolableMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE MonoPoolableMemoryPool_7 : public ::Zenject::MemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue> {
 public:
@@ -43,25 +43,25 @@ public:
 
   static inline ::Zenject::MonoPoolableMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnCreated addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnCreated(TValue item);
 
-  /// @brief Method OnDestroyed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDestroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDestroyed(TValue item);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDespawned(TValue item);
 
-  /// @brief Method Reinitialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reinitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reinitialize(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4, TParam5 p5, TParam6 p6, TValue item);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoPoolableMemoryPool_7", modifiers: "&&", def_value: None }]

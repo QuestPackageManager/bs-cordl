@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5401))
 // CS Name: ::MultiplayerMenuInstaller*
 class CORDL_TYPE MultiplayerMenuInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings addr 0x212d794 size 0x8c virtual true final false
+  /// @brief Method InstallBindings, addr 0x2272f24, size 0x8c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerMenuInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212d820 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2272fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMenuInstaller", modifiers: "&&", def_value: None }]

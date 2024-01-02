@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IVerboseLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14335))
 // CS Name: ::IVerboseLogger*
 class CORDL_TYPE IVerboseLogger {
 public:
   // Declarations
   __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
 
-  /// @brief Method get_loggerPrefix addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_loggerPrefix, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_loggerPrefix();
 
   // Ctor Parameters [CppParam { name: "", ty: "IVerboseLogger", modifiers: "&&", def_value: None }]

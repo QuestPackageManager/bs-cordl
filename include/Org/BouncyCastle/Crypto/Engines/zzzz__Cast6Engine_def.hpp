@@ -72,31 +72,31 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Cast6Engine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe51e04 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0xec5fd8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName addr 0xe51ed8 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xec60ac, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Reset addr 0xe51f18 size 0x4 virtual true final false
+  /// @brief Method Reset, addr 0xec60ec, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetBlockSize addr 0xe51f1c size 0x8 virtual true final false
+  /// @brief Method GetBlockSize, addr 0xec60f0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method SetKey addr 0xe51f24 size 0x9b8 virtual true final false
+  /// @brief Method SetKey, addr 0xec60f8, size 0x9b8, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method EncryptBlock addr 0xe528dc size 0x174 virtual true final false
+  /// @brief Method EncryptBlock, addr 0xec6ab0, size 0x174, virtual true, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method DecryptBlock addr 0xe52d94 size 0x174 virtual true final false
+  /// @brief Method DecryptBlock, addr 0xec6f68, size 0x174, virtual true, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method CAST_Encipher addr 0xe52a50 size 0x344 virtual false final false
+  /// @brief Method CAST_Encipher, addr 0xec6c24, size 0x344, virtual false, abstract: false, final false
   inline void CAST_Encipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t, ::Array<uint32_t>*> result);
 
-  /// @brief Method CAST_Decipher addr 0xe52f08 size 0x348 virtual false final false
+  /// @brief Method CAST_Decipher, addr 0xec70dc, size 0x348, virtual false, abstract: false, final false
   inline void CAST_Decipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t, ::Array<uint32_t>*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "Cast6Engine", modifiers: "&&", def_value: None }]

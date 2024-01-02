@@ -16,13 +16,13 @@ MARK_REF_PTR_T(::System::Net::Mail::DomainLiteralReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8213))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9376))
 // CS Name: ::System.Net.Mail::DomainLiteralReader*
 class CORDL_TYPE DomainLiteralReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse addr 0x2783750 size 0x228 virtual false final false
+  /// @brief Method ReadReverse, addr 0x2901778, size 0x228, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "DomainLiteralReader", modifiers: "&&", def_value: None }]

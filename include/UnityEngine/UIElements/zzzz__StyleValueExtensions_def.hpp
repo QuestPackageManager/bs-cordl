@@ -6,19 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StyleValueExtensions)
 namespace UnityEngine::UIElements {
+struct Rotate;
+}
+namespace UnityEngine::UIElements {
 struct StyleLength;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
 }
-namespace UnityEngine::UIElements {
-struct Translate;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace UnityEngine::Yoga {
-struct YogaValue;
 }
 namespace UnityEngine::UIElements {
 struct Length;
@@ -26,11 +23,14 @@ struct Length;
 namespace UnityEngine::UIElements {
 template <typename T> class IStyleValue_1;
 }
-namespace UnityEngine::UIElements {
-struct StyleKeyword;
+namespace UnityEngine::Yoga {
+struct YogaValue;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct Translate;
+}
+namespace UnityEngine::UIElements {
+struct StyleKeyword;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -42,34 +42,34 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7301))
 // CS Name: ::UnityEngine.UIElements::StyleValueExtensions*
 class CORDL_TYPE StyleValueExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DebugString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DebugString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::StringW DebugString(::UnityEngine::UIElements::IStyleValue_1<T>* styleValue);
 
-  /// @brief Method ToYogaValue addr 0x2d07ac8 size 0x14c virtual false final false
+  /// @brief Method ToYogaValue, addr 0x2e70e78, size 0x14c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue ToYogaValue(::UnityEngine::UIElements::Length length);
 
-  /// @brief Method ToLength addr 0x2d07c14 size 0x108 virtual false final false
+  /// @brief Method ToLength, addr 0x2e70fc4, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToRotate addr 0x2d07d2c size 0x17c virtual false final false
+  /// @brief Method ToRotate, addr 0x2e710dc, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Rotate ToRotate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToScale addr 0x2d07ea8 size 0x104 virtual false final false
+  /// @brief Method ToScale, addr 0x2e71258, size 0x104, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale ToScale(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToTranslate addr 0x2d07fc4 size 0x150 virtual false final false
+  /// @brief Method ToTranslate, addr 0x2e71374, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Translate ToTranslate(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method ToLength addr 0x2d08130 size 0x20 virtual false final false
+  /// @brief Method ToLength, addr 0x2e714e0, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Length ToLength(::UnityEngine::UIElements::StyleLength styleLength);
 
-  /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void CopyFrom(::System::Collections::Generic::List_1<T>* list, ::System::Collections::Generic::List_1<T>* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleValueExtensions", modifiers: "&&", def_value: None }]

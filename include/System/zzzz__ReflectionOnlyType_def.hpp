@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::ReflectionOnlyType);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2565))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2567))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2568))
 // CS Name: ::System::ReflectionOnlyType*
 class CORDL_TYPE ReflectionOnlyType : public ::System::RuntimeType {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::ReflectionOnlyType* New_ctor();
 
-  /// @brief Method .ctor addr 0x24968e4 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x25f180c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeHandle addr 0x249693c size 0x58 virtual true final false
+  /// @brief Method get_TypeHandle, addr 0x25f1864, size 0x58, virtual true, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_TypeHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionOnlyType", modifiers: "&&", def_value: None }]

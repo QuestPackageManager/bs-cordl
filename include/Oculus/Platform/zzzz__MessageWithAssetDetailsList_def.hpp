@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetDetailsList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4471 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13455))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13281)) CS Name: ::Oculus.Platform::MessageWithAssetDetailsList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13418)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4577 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13276)) CS Name: ::Oculus.Platform::MessageWithAssetDetailsList*
 class CORDL_TYPE MessageWithAssetDetailsList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithAssetDetailsList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x25928a4 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26eebb8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetAssetDetailsList addr 0x2594a34 size 0x3c virtual true final false
+  /// @brief Method GetAssetDetailsList, addr 0x26f0f48, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetAssetDetailsList();
 
-  /// @brief Method GetDataFromMessage addr 0x2594a70 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f0f84, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetailsList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAssetDetailsList", modifiers: "&&", def_value: None }]

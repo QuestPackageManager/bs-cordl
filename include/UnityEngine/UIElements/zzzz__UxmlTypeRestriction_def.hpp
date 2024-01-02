@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTypeRestriction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7064))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6978))
 // CS Name: ::UnityEngine.UIElements::UxmlTypeRestriction*
 class CORDL_TYPE UxmlTypeRestriction : public ::System::Object {
 public:
@@ -26,12 +26,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
-  /// @brief Method Equals addr 0x2ca82d8 size 0xc virtual true final false
+  /// @brief Method Equals, addr 0x2e0e688, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca82e4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0e694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTypeRestriction", modifiers: "&&", def_value: None }]

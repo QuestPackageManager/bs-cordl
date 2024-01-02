@@ -5,13 +5,13 @@
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "LiteNetLib/zzzz__NetPeer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "LiteNetLib/zzzz__NetEvent_def.hpp"
-#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
-#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "LiteNetLib/zzzz__NetPacketReader_def.hpp"
+#include "LiteNetLib/zzzz__NetManager_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
+#include "LiteNetLib/zzzz__NetEvent_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"
+#include "LiteNetLib/zzzz__NetPeer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::__NetEvent__EType::__NetEvent__EType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -32,9 +32,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetEvent::*)(::LiteNetLib::NetManager*)>(&::LiteNetLib::NetEvent::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x209a90c;
+  constexpr static std::size_t addrs = 0x21fc760;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetEvent*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetManager*>::get() })));

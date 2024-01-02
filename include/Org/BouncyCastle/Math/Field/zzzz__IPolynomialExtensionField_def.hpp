@@ -7,10 +7,10 @@ namespace Org::BouncyCastle::Math::Field {
 class IFiniteField;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IPolynomial;
+class IExtensionField;
 }
 namespace Org::BouncyCastle::Math::Field {
-class IExtensionField;
+class IPolynomial;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::Field {
@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method get_MinimalPolynomial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MinimalPolynomial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPolynomialExtensionField", modifiers: "&&", def_value: None }]

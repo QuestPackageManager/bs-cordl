@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::ListChangedType);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8278))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9441))
 // CS Name: ::System.ComponentModel::ListChangedType
 struct CORDL_TYPE ListChangedType {
 public:

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::BaseInputStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(498))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::BaseInputStream*
 class CORDL_TYPE BaseInputStream : public ::System::IO::Stream {
@@ -44,45 +44,45 @@ public:
 
   constexpr void __set_closed(bool value);
 
-  /// @brief Method get_CanRead addr 0x114e71c size 0x10 virtual true final true
+  /// @brief Method get_CanRead, addr 0x11bf96c, size 0x10, virtual true, abstract: false, final true
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x114e72c size 0x8 virtual true final true
+  /// @brief Method get_CanSeek, addr 0x11bf97c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x114e734 size 0x8 virtual true final true
+  /// @brief Method get_CanWrite, addr 0x11bf984, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
-  /// @brief Method Close addr 0x114e73c size 0x10 virtual true final false
+  /// @brief Method Close, addr 0x11bf98c, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush addr 0x114e74c size 0x4 virtual true final true
+  /// @brief Method Flush, addr 0x11bf99c, size 0x4, virtual true, abstract: false, final true
   inline void Flush();
 
-  /// @brief Method get_Length addr 0x114e750 size 0x40 virtual true final true
+  /// @brief Method get_Length, addr 0x11bf9a0, size 0x40, virtual true, abstract: false, final true
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x114e790 size 0x40 virtual true final true
+  /// @brief Method get_Position, addr 0x11bf9e0, size 0x40, virtual true, abstract: false, final true
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x114e7d0 size 0x40 virtual true final true
+  /// @brief Method set_Position, addr 0x11bfa20, size 0x40, virtual true, abstract: false, final true
   inline void set_Position(int64_t value);
 
-  /// @brief Method Read addr 0x114e810 size 0x144 virtual true final false
+  /// @brief Method Read, addr 0x11bfa60, size 0x144, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek addr 0x114e954 size 0x40 virtual true final true
+  /// @brief Method Seek, addr 0x11bfba4, size 0x40, virtual true, abstract: false, final true
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x114e994 size 0x40 virtual true final true
+  /// @brief Method SetLength, addr 0x11bfbe4, size 0x40, virtual true, abstract: false, final true
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0x114e9d4 size 0x40 virtual true final true
+  /// @brief Method Write, addr 0x11bfc24, size 0x40, virtual true, abstract: false, final true
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   static inline ::Org::BouncyCastle::Utilities::IO::BaseInputStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x114ea14 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x11bfc64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseInputStream", modifiers: "&&", def_value: None }]

@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IUnifiedNetworkPlayerModel)
 namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace GlobalNamespace {
+class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 struct __UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType;
@@ -36,16 +36,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IUnifiedNetworkPlayerModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4543))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14946))
 // CS Name: ::IUnifiedNetworkPlayerModel*
 class CORDL_TYPE IUnifiedNetworkPlayerModel {
 public:
   // Declarations
-  __declspec(property(get = get_enableLocalNetwork, put = set_enableLocalNetwork)) bool enableLocalNetwork;
-
   __declspec(property(get = get_publicServers))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* publicServers;
-
-  __declspec(property(get = get_localNetworkPlayers))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* localNetworkPlayers;
 
   __declspec(property(get = get_secret))::StringW secret;
 
@@ -54,37 +50,28 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"
   constexpr operator ::GlobalNamespace::INetworkPlayerModel*() noexcept;
 
-  /// @brief Method add_partyRefreshingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method remove_partyRefreshingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method get_enableLocalNetwork addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline bool get_enableLocalNetwork();
-
-  /// @brief Method set_enableLocalNetwork addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void set_enableLocalNetwork(bool value);
-
-  /// @brief Method get_publicServers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_publicServers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers();
 
-  /// @brief Method get_localNetworkPlayers addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_localNetworkPlayers();
-
-  /// @brief Method SetServerFilter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetServerFilter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetServerFilter(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method ResetMasterServerReachability addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResetMasterServerReachability, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetMasterServerReachability();
 
-  /// @brief Method get_secret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_secret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_code addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_code, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_code();
 
-  /// @brief Method SetActiveNetworkPlayerModelType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetActiveNetworkPlayerModelType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetActiveNetworkPlayerModelType(::GlobalNamespace::__UnifiedNetworkPlayerModel__ActiveNetworkPlayerModelType activeNetworkPlayerModelType);
 
   // Ctor Parameters [CppParam { name: "", ty: "IUnifiedNetworkPlayerModel", modifiers: "&&", def_value: None }]

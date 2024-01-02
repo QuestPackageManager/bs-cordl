@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroCountdownTextController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5214))
 // CS Name: ::MultiplayerIntroCountdownTextController*
 class CORDL_TYPE MultiplayerIntroCountdownTextController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -41,30 +41,30 @@ public:
 
   constexpr void __set__texts(::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> value);
 
-  /// @brief Method SetText addr 0x210e390 size 0x70 virtual false final false
+  /// @brief Method SetText, addr 0x224fc14, size 0x70, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method SetDistances addr 0x210dd74 size 0x88 virtual false final false
+  /// @brief Method SetDistances, addr 0x224f5f8, size 0x88, virtual false, abstract: false, final false
   inline void SetDistances(float_t distance);
 
-  /// @brief Method set_hide addr 0x210d30c size 0x2c virtual false final false
+  /// @brief Method set_hide, addr 0x224eb90, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
-  /// @brief Method set_fontSize addr 0x210dbf0 size 0x70 virtual false final false
+  /// @brief Method set_fontSize, addr 0x224f474, size 0x70, virtual false, abstract: false, final false
   inline void set_fontSize(float_t value);
 
-  /// @brief Method get_fontSize addr 0x210d338 size 0x38 virtual false final false
+  /// @brief Method get_fontSize, addr 0x224ebbc, size 0x38, virtual false, abstract: false, final false
   inline float_t get_fontSize();
 
-  /// @brief Method set_alpha addr 0x210dc78 size 0x84 virtual false final false
+  /// @brief Method set_alpha, addr 0x224f4fc, size 0x84, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
 
-  /// @brief Method get_alpha addr 0x210d370 size 0x40 virtual false final false
+  /// @brief Method get_alpha, addr 0x224ebf4, size 0x40, virtual false, abstract: false, final false
   inline float_t get_alpha();
 
   static inline ::GlobalNamespace::MultiplayerIntroCountdownTextController* New_ctor();
 
-  /// @brief Method .ctor addr 0x210e450 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x224fcd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroCountdownTextController", modifiers: "&&", def_value: None }]

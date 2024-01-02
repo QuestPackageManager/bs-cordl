@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class DropdownMenu;
 }
 namespace UnityEngine::UIElements {
-class DropdownMenu;
+class IEventHandler;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ContextualMenuManager);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6862))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6776))
 // CS Name: ::UnityEngine.UIElements::ContextualMenuManager*
 class CORDL_TYPE ContextualMenuManager : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   constexpr void __set__displayMenuHandledOSX_k__BackingField(bool value);
 
-  /// @brief Method DisplayMenuIfEventMatches addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisplayMenuIfEventMatches, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisplayMenuIfEventMatches(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IEventHandler* eventHandler);
 
-  /// @brief Method DoDisplayMenu addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoDisplayMenu, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DoDisplayMenu(::UnityEngine::UIElements::DropdownMenu* menu, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextualMenuManager", modifiers: "&&", def_value: None }]

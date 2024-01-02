@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseEventBase_1)
 namespace UnityEngine::UIElements {
-class IPanel;
-}
-namespace UnityEngine {
-struct EventModifiers;
-}
-namespace UnityEngine::UIElements {
 class IPointerEvent;
-}
-namespace UnityEngine {
-class Event;
 }
 namespace UnityEngine::UIElements {
 class IMouseEvent;
 }
 namespace UnityEngine::UIElements {
-class IMouseEventInternal;
-}
-namespace UnityEngine::UIElements {
 class IEventHandler;
 }
 namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine {
+struct EventModifiers;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IMouseEventInternal;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,9 +43,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7266)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1647 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(14819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7301)) CS Name:
-// ::UnityEngine.UIElements::MouseEventBase`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
+// 1714 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7215)) CS Name: ::UnityEngine.UIElements::MouseEventBase`1<T>*
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -184,111 +183,111 @@ public:
 
   constexpr void __set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value);
 
-  /// @brief Method get_modifiers addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method set_modifiers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_modifiers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
-  /// @brief Method get_mousePosition addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_mousePosition();
 
-  /// @brief Method set_mousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_mousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_mousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_localMousePosition addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_localMousePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_localMousePosition();
 
-  /// @brief Method set_localMousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_localMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_localMousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_mouseDelta addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_mouseDelta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_mouseDelta();
 
-  /// @brief Method set_mouseDelta addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_mouseDelta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_mouseDelta(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_clickCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_clickCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
 
-  /// @brief Method set_clickCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_clickCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
-  /// @brief Method get_button addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_button, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_button();
 
-  /// @brief Method set_button addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_button, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
 
-  /// @brief Method get_pressedButtons addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
-  /// @brief Method set_pressedButtons addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pressedButtons(int32_t value);
 
-  /// @brief Method get_shiftKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_shiftKey();
 
-  /// @brief Method get_ctrlKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ctrlKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_ctrlKey();
 
-  /// @brief Method get_commandKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_commandKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_commandKey();
 
-  /// @brief Method get_altKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_altKey();
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IMouseEventInternal_get_triggeredByOS();
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_triggeredByOS(bool value);
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IMouseEventInternal_get_recomputeTopElementUnderMouse();
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_recomputeTopElementUnderMouse(bool value);
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent();
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method get_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
 
-  /// @brief Method set_currentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method PreDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PreDispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PostDispatch addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PostDispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition, bool recomputeTopElementUnderMouse);
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IMouseEvent* triggerEvent);
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
   static inline ::UnityEngine::UIElements::MouseEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseEventBase_1", modifiers: "&&", def_value: None }]

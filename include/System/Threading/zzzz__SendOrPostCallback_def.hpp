@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::System::Threading::SendOrPostCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2666))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2668))
 // CS Name: ::System.Threading::SendOrPostCallback*
 class CORDL_TYPE SendOrPostCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Threading::SendOrPostCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24b4fec size 0x12c virtual false final false
+  /// @brief Method .ctor, addr 0x260ff74, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24b5118 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x26100a0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "SendOrPostCallback", modifiers: "&&", def_value: None }]

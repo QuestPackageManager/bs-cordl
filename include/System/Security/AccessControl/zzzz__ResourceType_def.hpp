@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::ResourceType);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3048))
 // CS Name: ::System.Security.AccessControl::ResourceType
 struct CORDL_TYPE ResourceType {
 public:

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryAssem
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3257))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryAssemblyInfo*
 class CORDL_TYPE BinaryAssemblyInfo : public ::System::Object {
 public:
@@ -44,15 +44,15 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString);
 
-  /// @brief Method .ctor addr 0x2368e70 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24c1964, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssemblyInfo* New_ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method .ctor addr 0x2368e98 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x24c198c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyString, ::System::Reflection::Assembly* assembly);
 
-  /// @brief Method GetAssembly addr 0x2368ec4 size 0x11c virtual false final false
+  /// @brief Method GetAssembly, addr 0x24c19b8, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Reflection::Assembly* GetAssembly();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryAssemblyInfo", modifiers: "&&", def_value: None }]

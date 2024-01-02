@@ -6,8 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BlockingCollection_1)
+namespace System::Threading {
+class CancellationTokenSource;
+}
 namespace System::Collections {
-class IEnumerator;
+class ICollection;
+}
+namespace System::Threading {
+class SemaphoreSlim;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System {
 class IDisposable;
@@ -15,35 +33,17 @@ class IDisposable;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
-namespace System::Threading {
-class SemaphoreSlim;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections {
-class ICollection;
-}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -57,8 +57,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8361))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
 // CS Name: ::System.Collections.Concurrent::BlockingCollection`1<T>*
 class CORDL_TYPE BlockingCollection_1 : public ::System::Object {
 public:
@@ -160,78 +160,78 @@ public:
 
   constexpr void __set__currentAdders(int32_t value);
 
-  /// @brief Method get_IsAddingCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsAddingCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsAddingCompleted();
 
-  /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::BlockingCollection_1<T>* New_ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection);
 
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Initialize(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* collection, int32_t boundedCapacity, int32_t collectionCount);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method TryAddWithNoTimeValidation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryAddWithNoTimeValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryAddWithNoTimeValidation(T item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Take addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Take();
 
-  /// @brief Method TryTake addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryTake(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryTakeWithNoTimeValidation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryTakeWithNoTimeValidation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryTakeWithNoTimeValidation(ByRef<T> item, int32_t millisecondsTimeout, ::System::Threading::CancellationToken cancellationToken,
                                           ::System::Threading::CancellationTokenSource* combinedTokenSource);
 
-  /// @brief Method CompleteAdding addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CompleteAdding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CompleteAdding();
 
-  /// @brief Method CancelWaitingConsumers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CancelWaitingConsumers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CancelWaitingConsumers();
 
-  /// @brief Method CancelWaitingProducers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CancelWaitingProducers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CancelWaitingProducers();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ValidateMillisecondsTimeout addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ValidateMillisecondsTimeout, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ValidateMillisecondsTimeout(int32_t millisecondsTimeout);
 
-  /// @brief Method CheckDisposed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CheckDisposed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
   // Ctor Parameters [CppParam { name: "", ty: "BlockingCollection_1", modifiers: "&&", def_value: None }]

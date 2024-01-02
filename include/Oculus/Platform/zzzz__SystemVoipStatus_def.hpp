@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::SystemVoipStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13430))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13391))
 // CS Name: ::Oculus.Platform::SystemVoipStatus
 struct CORDL_TYPE SystemVoipStatus {
 public:

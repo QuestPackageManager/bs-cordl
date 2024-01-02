@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Security::IPermission);
 namespace System::Security {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2874))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2878))
 // CS Name: ::System.Security::IPermission*
 class CORDL_TYPE IPermission {
 public:
@@ -25,10 +25,10 @@ public:
   /// @brief Convert operator to "::System::Security::ISecurityEncodable"
   constexpr operator ::System::Security::ISecurityEncodable*() noexcept;
 
-  /// @brief Method Demand addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Demand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Demand();
 
-  /// @brief Method IsSubsetOf addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsSubsetOf(::System::Security::IPermission* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPermission", modifiers: "&&", def_value: None }]

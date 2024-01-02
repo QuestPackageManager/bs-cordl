@@ -5,13 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorProvider_1)
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -23,13 +20,16 @@ namespace Zenject {
 class DiContainer;
 }
 namespace System {
-struct Guid;
+class Object;
+}
+namespace Zenject {
+class InjectContext;
 }
 namespace Zenject::Internal {
 class IDecoratorProvider;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -43,8 +43,8 @@ namespace Zenject::Internal {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11370))
 // CS Name: ::Zenject.Internal::DecoratorProvider`1<TContract>*
 class CORDL_TYPE DecoratorProvider_1 : public ::System::Object {
 public:
@@ -92,22 +92,22 @@ public:
 
   static inline ::Zenject::Internal::DecoratorProvider_1<TContract>* New_ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method AddFactoryId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddFactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddFactoryId(::System::Guid factoryBindId);
 
-  /// @brief Method LazyInitializeDecoratorFactories addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LazyInitializeDecoratorFactories, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LazyInitializeDecoratorFactories();
 
-  /// @brief Method GetAllInstances addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetAllInstances, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetAllInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method WrapProviderInstances addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WrapProviderInstances, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void WrapProviderInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method DecorateInstance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DecorateInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* DecorateInstance(::System::Object* instance, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoratorProvider_1", modifiers: "&&", def_value: None }]

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScreenModeController)
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace HMUI {
+class ScreenModeData;
 }
 namespace HMUI {
 class CurvedCanvasSettings;
 }
-namespace HMUI {
-class ScreenModeData;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace HMUI {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HMUI::ScreenModeController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13591))
 // CS Name: ::HMUI::ScreenModeController*
 class CORDL_TYPE ScreenModeController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,18 +69,18 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Awake addr 0x1fd4844 size 0x144 virtual false final false
+  /// @brief Method Awake, addr 0x212c274, size 0x144, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetMode addr 0x1fd4a20 size 0x214 virtual false final false
+  /// @brief Method SetMode, addr 0x212c450, size 0x214, virtual false, abstract: false, final false
   inline void SetMode(::HMUI::ScreenModeData* screenModeData);
 
-  /// @brief Method SetDefaultMode addr 0x1fd4c34 size 0x8 virtual false final false
+  /// @brief Method SetDefaultMode, addr 0x212c664, size 0x8, virtual false, abstract: false, final false
   inline void SetDefaultMode();
 
   static inline ::HMUI::ScreenModeController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd4c3c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212c66c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeController", modifiers: "&&", def_value: None }]

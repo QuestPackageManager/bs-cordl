@@ -8,10 +8,10 @@ namespace UnityEngine {
 class __UnhandledExceptionHandler____c;
 }
 namespace System {
-class Object;
+class UnhandledExceptionEventArgs;
 }
 namespace System {
-class UnhandledExceptionEventArgs;
+class Object;
 }
 namespace System {
 class UnhandledExceptionEventHandler;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::__UnhandledExceptionHandler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10226))
 // CS Name: ::UnhandledExceptionHandler::<>c*
 class CORDL_TYPE __UnhandledExceptionHandler____c : public ::System::Object {
 public:
@@ -52,10 +52,10 @@ public:
 
   static inline ::UnityEngine::__UnhandledExceptionHandler____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b6cde0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd3560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterUECatcher>b__0_0 addr 0x2b6cde8 size 0xb4 virtual false final false
+  /// @brief Method <RegisterUECatcher>b__0_0, addr 0x2cd3568, size 0xb4, virtual false, abstract: false, final false
   inline void _RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnhandledExceptionHandler____c", modifiers: "&&", def_value: None }]
@@ -82,15 +82,15 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__UnhandledExceptio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10154))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10227))
 // CS Name: ::UnityEngine::UnhandledExceptionHandler*
 class CORDL_TYPE UnhandledExceptionHandler : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::__UnhandledExceptionHandler____c;
 
-  /// @brief Method RegisterUECatcher addr 0x2b6cc84 size 0xf8 virtual false final false
+  /// @brief Method RegisterUECatcher, addr 0x2cd3404, size 0xf8, virtual false, abstract: false, final false
   static inline void RegisterUECatcher();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnhandledExceptionHandler", modifiers: "&&", def_value: None }]

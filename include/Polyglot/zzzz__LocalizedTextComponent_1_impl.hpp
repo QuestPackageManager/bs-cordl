@@ -2,9 +2,9 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Polyglot/zzzz__ILocalize_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Polyglot/zzzz__LanguageDirection_def.hpp"
-#include "Polyglot/zzzz__ILocalize_def.hpp"
 /// @brief Convert operator to "::Polyglot::ILocalize"
 template <typename T> constexpr Polyglot::LocalizedTextComponent_1<T>::operator ::Polyglot::ILocalize*() noexcept {
   return static_cast<::Polyglot::ILocalize*>(static_cast<void*>(this));
@@ -90,16 +90,13 @@ template <typename T> inline void Polyglot::LocalizedTextComponent_1<T>::OnEnabl
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void Polyglot::LocalizedTextComponent_1<T>::SetText(T component, ::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::LocalizedTextComponent_1<T>*>::get(), "SetText", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::LocalizedTextComponent_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component, value);
 }
 template <typename T> inline void Polyglot::LocalizedTextComponent_1<T>::UpdateAlignment(T component, ::Polyglot::LanguageDirection direction) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::LocalizedTextComponent_1<T>*>::get(), "UpdateAlignment", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Polyglot::LanguageDirection>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::LocalizedTextComponent_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, component, direction);
 }
 template <typename T> inline void Polyglot::LocalizedTextComponent_1<T>::OnLocalize() {

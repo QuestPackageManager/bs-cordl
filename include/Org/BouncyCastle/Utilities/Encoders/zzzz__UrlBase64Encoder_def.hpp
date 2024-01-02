@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder* New_ctor();
 
-  /// @brief Method .ctor addr 0x10ee508 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x115f750, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UrlBase64Encoder", modifiers: "&&", def_value: None }]

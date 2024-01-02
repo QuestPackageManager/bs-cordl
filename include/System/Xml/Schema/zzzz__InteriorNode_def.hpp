@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_def.hpp"
 CORDL_MODULE_EXPORT(InteriorNode)
 namespace System::Xml::Schema {
-class SyntaxTreeNode;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class SyntaxTreeNode;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::InteriorNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11527))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11530))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11602))
 // CS Name: ::System.Xml.Schema::InteriorNode*
 class CORDL_TYPE InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
@@ -51,27 +51,27 @@ public:
 
   constexpr void __set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method get_LeftChild addr 0x2731188 size 0x8 virtual false final false
+  /// @brief Method get_LeftChild, addr 0x28ae1ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();
 
-  /// @brief Method set_LeftChild addr 0x2731190 size 0x8 virtual false final false
+  /// @brief Method set_LeftChild, addr 0x28ae1b4, size 0x8, virtual false, abstract: false, final false
   inline void set_LeftChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method get_RightChild addr 0x2731198 size 0x8 virtual false final false
+  /// @brief Method get_RightChild, addr 0x28ae1bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_RightChild();
 
-  /// @brief Method set_RightChild addr 0x27311a0 size 0x8 virtual false final false
+  /// @brief Method set_RightChild, addr 0x28ae1c4, size 0x8, virtual false, abstract: false, final false
   inline void set_RightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  /// @brief Method ExpandTreeNoRecursive addr 0x27311a8 size 0x1e0 virtual false final false
+  /// @brief Method ExpandTreeNoRecursive, addr 0x28ae1cc, size 0x1e0, virtual false, abstract: false, final false
   inline void ExpandTreeNoRecursive(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ExpandTree addr 0x2731388 size 0x64 virtual true final false
+  /// @brief Method ExpandTree, addr 0x28ae3ac, size 0x64, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::InteriorNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x27313ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28ae410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteriorNode", modifiers: "&&", def_value: None }]

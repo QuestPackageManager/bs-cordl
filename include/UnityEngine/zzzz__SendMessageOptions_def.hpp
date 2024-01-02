@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SendMessageOptions);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9959))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10031))
 // CS Name: ::UnityEngine::SendMessageOptions
 struct CORDL_TYPE SendMessageOptions {
 public:

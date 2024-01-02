@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15339))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationAlgorithm
 struct CORDL_TYPE TriangulationAlgorithm {
 public:

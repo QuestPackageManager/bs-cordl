@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipMuteState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13400))
 // CS Name: ::Oculus.Platform::VoipMuteState
 struct CORDL_TYPE VoipMuteState {
 public:

@@ -9,9 +9,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2139c04;
+  constexpr static std::size_t addrs = 0x227c6b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonBackgroundController*>::get(), "SetStartSprite",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -24,9 +24,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2139c28;
+  constexpr static std::size_t addrs = 0x227c6d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonBackgroundController*>::get(), "SetMiddleSprite",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -39,9 +39,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2139c4c;
+  constexpr static std::size_t addrs = 0x227c6fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonBackgroundController*>::get(), "SetEndSprite",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -54,9 +54,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2139c70;
+  constexpr static std::size_t addrs = 0x227c720;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartMiddleEndButtonBackgroundController*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

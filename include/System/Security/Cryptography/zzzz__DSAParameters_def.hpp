@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2929))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2930))
 // CS Name: ::System.Security.Cryptography::DSAParameters
 struct CORDL_TYPE DSAParameters {
 public:

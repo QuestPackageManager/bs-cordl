@@ -34,10 +34,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsFatalAlertReceived* New_ctor(uint8_t alertDescription);
 
-  /// @brief Method .ctor addr 0xf37dc4 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0xfae00c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint8_t alertDescription);
 
-  /// @brief Method get_AlertDescription addr 0xf37e04 size 0x8 virtual true final false
+  /// @brief Method get_AlertDescription, addr 0xfae04c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_AlertDescription();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsFatalAlertReceived", modifiers: "&&", def_value: None }]

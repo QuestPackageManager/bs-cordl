@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResourceLocationData)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14254)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14385))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14114))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationData*
 class CORDL_TYPE ResourceLocationData : public ::System::Object {
 public:
@@ -105,32 +105,33 @@ public:
 
   constexpr void __set__Data(::System::Object* value);
 
-  /// @brief Method get_Keys addr 0x28b0c10 size 0x8 virtual false final false
+  /// @brief Method get_Keys, addr 0x2a2e958, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Keys();
 
-  /// @brief Method get_InternalId addr 0x28b0c18 size 0x8 virtual false final false
+  /// @brief Method get_InternalId, addr 0x2a2e960, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_Provider addr 0x28b0c20 size 0x8 virtual false final false
+  /// @brief Method get_Provider, addr 0x2a2e968, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Provider();
 
-  /// @brief Method get_Dependencies addr 0x28b0c28 size 0x8 virtual false final false
+  /// @brief Method get_Dependencies, addr 0x2a2e970, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Dependencies();
 
-  /// @brief Method get_ResourceType addr 0x28b0c30 size 0xc virtual false final false
+  /// @brief Method get_ResourceType, addr 0x2a2e978, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* get_ResourceType();
 
-  /// @brief Method get_Data addr 0x28b0c3c size 0x40 virtual false final false
+  /// @brief Method get_Data, addr 0x2a2e984, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method set_Data addr 0x28b0c7c size 0xac virtual false final false
+  /// @brief Method set_Data, addr 0x2a2e9c4, size 0xac, virtual false, abstract: false, final false
   inline void set_Data(::System::Object* value);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider,
                                                                                                    ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
 
-  /// @brief Method .ctor addr 0x28b0d28 size 0x138 virtual false final false
-  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies);
+  /// @brief Method .ctor, addr 0x2a2ea70, size 0x138, virtual false, abstract: false, final false
+  /// @param dependencies: ::ArrayW<::StringW,::Array<::StringW>*> (default: nullptr)
+  inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, ::StringW id, ::System::Type* provider, ::System::Type* t, ::ArrayW<::StringW, ::Array<::StringW>*> dependencies = nullptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ResourceLocationData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

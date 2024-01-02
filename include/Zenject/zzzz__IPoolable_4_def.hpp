@@ -16,15 +16,15 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15724))
 // CS Name: ::Zenject::IPoolable`4<TParam1,TParam2,TParam3,TParam4>*
 class CORDL_TYPE IPoolable_4 {
 public:
   // Declarations
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDespawned();
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSpawned(TParam1 p1, TParam2 p2, TParam3 p3, TParam4 p4);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolable_4", modifiers: "&&", def_value: None }]

@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(HumanPose)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,13 +24,13 @@ MARK_VAL_T(::UnityEngine::HumanPose);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15111))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14884))
 // CS Name: ::UnityEngine::HumanPose
 struct CORDL_TYPE HumanPose {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2b30698 size 0x138 virtual false final false
+  /// @brief Method Init, addr 0x2c96338, size 0x138, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "bodyPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "bodyRotation", ty: "::UnityEngine::Quaternion", modifiers: "",

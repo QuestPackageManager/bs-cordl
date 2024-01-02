@@ -17,11 +17,11 @@ CORDL_MODULE_EXPORT(ParseRecord)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class ReadObjectInfo;
@@ -39,9 +39,9 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ParseRecord
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3246)), TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3249)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3248)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3290)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3248)), TypeDefinitionIndex(TypeDefinitionIndex(3252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3247)), TypeDefinitionIndex(TypeDefinitionIndex(3251)), TypeDefinitionIndex(TypeDefinitionIndex(3250)), TypeDefinitionIndex(TypeDefinitionIndex(3249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3253))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3291)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::ParseRecord*
 class CORDL_TYPE ParseRecord : public ::System::Object {
 public:
   // Declarations
@@ -414,10 +414,10 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
 
-  /// @brief Method .ctor addr 0x2379728 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24d222c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x237b760 size 0x58 virtual false final false
+  /// @brief Method Init, addr 0x24d4264, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParseRecord", modifiers: "&&", def_value: None }]

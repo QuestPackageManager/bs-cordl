@@ -13,7 +13,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKTexture)
 namespace LIV::SDK::Unity {
-struct TEXTURE_DEVICE;
+struct TEXTURE_COLOR_SPACE;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_FORMAT;
 }
 namespace LIV::SDK::Unity {
 struct TEXTURE_ID;
@@ -22,10 +25,7 @@ namespace LIV::SDK::Unity {
 struct TEXTURE_TYPE;
 }
 namespace LIV::SDK::Unity {
-struct TEXTURE_FORMAT;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_COLOR_SPACE;
+struct TEXTURE_DEVICE;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -37,16 +37,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTexture);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15206)), TypeDefinitionIndex(TypeDefinitionIndex(15209)), TypeDefinitionIndex(TypeDefinitionIndex(15208)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15210)), TypeDefinitionIndex(TypeDefinitionIndex(15207)), TypeDefinitionIndex(TypeDefinitionIndex(2601))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15222)) CS Name: ::LIV.SDK.Unity::SDKTexture
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15102)), TypeDefinitionIndex(TypeDefinitionIndex(15104)), TypeDefinitionIndex(TypeDefinitionIndex(15105)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15106)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(15103))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15118)) CS Name: ::LIV.SDK.Unity::SDKTexture
 struct CORDL_TYPE SDKTexture {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20ae70c size 0x5c virtual false final false
+  /// @brief Method get_empty, addr 0x220f644, size 0x5c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTexture get_empty();
 
-  /// @brief Method ToString addr 0x20b49e4 size 0x3a4 virtual true final false
+  /// @brief Method ToString, addr 0x221591c, size 0x3a4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "id", ty: "::LIV::SDK::Unity::TEXTURE_ID", modifiers: "", def_value: None }, CppParam { name: "texturePtr", ty: "void*", modifiers: "", def_value: None },

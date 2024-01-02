@@ -2,17 +2,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
-#include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
 #include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_def.hpp"
+#include "GlobalNamespace/zzzz__ResultsEnvironmentManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword.get_keyword
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::*)()>(
     &::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22422f8;
+  constexpr static std::size_t addrs = 0x2376a00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>::get(),
                                                  "get_keyword", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BaseResultsEnvironmentController* (::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::*)()>(
         &::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::get_resultsEnvironmentController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2242300;
+  constexpr static std::size_t addrs = 0x2376a08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>::get(),
                                                  "get_resultsEnvironmentController", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -41,9 +41,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::*)()>(
     &::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2242308;
+  constexpr static std::size_t addrs = 0x2376a10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*>::get(),
                                                  ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -104,9 +104,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22421b0;
+  constexpr static std::size_t addrs = 0x23768b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -120,9 +120,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::*)(::GlobalNamespace::__ResultsEnvironmentManager__ResultEnvironmentControllerWithKeyword*)>(
         &::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0::_GetResultEnvironmentControllerForKeyword_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2242310;
+  constexpr static std::size_t addrs = 0x2376a18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ResultsEnvironmentManager____c__DisplayClass3_0*>::get(), "<GetResultEnvironmentControllerForKeyword>b__0",
         std::vector<Il2CppClass*>{},
@@ -167,9 +167,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BaseResultsEnvironmentController* (::GlobalNamespace::ResultsEnvironmentManager::*)(::StringW)>(
     &::GlobalNamespace::ResultsEnvironmentManager::GetResultEnvironmentControllerForKeyword)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22420cc;
+  constexpr static std::size_t addrs = 0x23767d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentManager*>::get(), "GetResultEnvironmentControllerForKeyword",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
@@ -182,9 +182,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)(::StringW, bool)>(
     &::GlobalNamespace::ResultsEnvironmentManager::ShowResultForKeyword)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22421b8;
+  constexpr static std::size_t addrs = 0x23768c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentManager*>::get(), "ShowResultForKeyword", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -197,9 +197,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)(::StringW, bool)>(
     &::GlobalNamespace::ResultsEnvironmentManager::HideResultForKeyword)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x224225c;
+  constexpr static std::size_t addrs = 0x2376964;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentManager*>::get(), "HideResultForKeyword", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -211,9 +211,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultsEnvironmentManager::*)()>(&::GlobalNamespace::ResultsEnvironmentManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22422f0;
+  constexpr static std::size_t addrs = 0x23769f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultsEnvironmentManager*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

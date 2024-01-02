@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::StencilOp);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10336))
 // CS Name: ::UnityEngine.Rendering::StencilOp
 struct CORDL_TYPE StencilOp {
 public:

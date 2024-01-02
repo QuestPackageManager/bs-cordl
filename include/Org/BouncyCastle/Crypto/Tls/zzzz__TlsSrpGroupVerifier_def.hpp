@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSrpGroupVerifier {
 public:
   // Declarations
-  /// @brief Method Accept addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSrpGroupVerifier", modifiers: "&&", def_value: None }]

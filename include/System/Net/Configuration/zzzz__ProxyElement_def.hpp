@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::ProxyElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16080))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8407))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9571))
 // CS Name: ::System.Net.Configuration::ProxyElement*
 class CORDL_TYPE ProxyElement : public ::System::Configuration::ConfigurationElement {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::Net::Configuration::ProxyElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c6cdc size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2944dfc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x27c6d14 size 0x38 virtual true final false
+  /// @brief Method get_Properties, addr 0x2944e34, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "&&", def_value: None }]

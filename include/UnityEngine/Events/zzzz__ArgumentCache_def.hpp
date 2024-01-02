@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArgumentCache)
 namespace UnityEngine {
-class ISerializationCallbackReceiver;
+class Object;
 }
 namespace UnityEngine {
-class Object;
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::ArgumentCache);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10449))
 // CS Name: ::UnityEngine.Events::ArgumentCache*
 class CORDL_TYPE ArgumentCache : public ::System::Object {
 public:
@@ -98,33 +98,33 @@ public:
 
   constexpr void __set_m_BoolArgument(bool value);
 
-  /// @brief Method get_unityObjectArgument addr 0x2b90070 size 0x8 virtual false final false
+  /// @brief Method get_unityObjectArgument, addr 0x2cf83b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Object* get_unityObjectArgument();
 
-  /// @brief Method get_unityObjectArgumentAssemblyTypeName addr 0x2b90078 size 0x8 virtual false final false
+  /// @brief Method get_unityObjectArgumentAssemblyTypeName, addr 0x2cf83b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_unityObjectArgumentAssemblyTypeName();
 
-  /// @brief Method get_intArgument addr 0x2b90080 size 0x8 virtual false final false
+  /// @brief Method get_intArgument, addr 0x2cf83c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intArgument();
 
-  /// @brief Method get_floatArgument addr 0x2b90088 size 0x8 virtual false final false
+  /// @brief Method get_floatArgument, addr 0x2cf83c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatArgument();
 
-  /// @brief Method get_stringArgument addr 0x2b90090 size 0x8 virtual false final false
+  /// @brief Method get_stringArgument, addr 0x2cf83d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stringArgument();
 
-  /// @brief Method get_boolArgument addr 0x2b90098 size 0x8 virtual false final false
+  /// @brief Method get_boolArgument, addr 0x2cf83d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_boolArgument();
 
-  /// @brief Method OnBeforeSerialize addr 0x2b900a0 size 0x1c virtual true final true
+  /// @brief Method OnBeforeSerialize, addr 0x2cf83e0, size 0x1c, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x2b900bc size 0x1c virtual true final true
+  /// @brief Method OnAfterDeserialize, addr 0x2cf83fc, size 0x1c, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
   static inline ::UnityEngine::Events::ArgumentCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b900d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf8418, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArgumentCache", modifiers: "&&", def_value: None }]

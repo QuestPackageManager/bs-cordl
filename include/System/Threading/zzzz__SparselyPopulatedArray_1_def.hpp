@@ -23,8 +23,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2690))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2692))
 // CS Name: ::System.Threading::SparselyPopulatedArray`1<T>*
 class CORDL_TYPE SparselyPopulatedArray_1 : public ::System::Object {
 public:
@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Threading::SparselyPopulatedArray_1<T>* New_ctor(int32_t initialSize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize);
 
-  /// @brief Method get_Tail addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Tail, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* get_Tail();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::SparselyPopulatedArrayAddInfo_1<T> Add(T element);
 
   // Ctor Parameters [CppParam { name: "", ty: "SparselyPopulatedArray_1", modifiers: "&&", def_value: None }]

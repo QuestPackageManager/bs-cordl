@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttribute);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9634)), TypeDefinitionIndex(TypeDefinitionIndex(9630)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9593))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9666))
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttribute*
 class CORDL_TYPE HEU_OutputAttribute : public ::System::Object {
 public:
@@ -100,7 +100,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x202d03c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21839d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "&&", def_value: None }]

@@ -26,7 +26,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCipherFactory {
 public:
   // Declarations
-  /// @brief Method CreateCipher addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* CreateCipher(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, int32_t encryptionAlgorithm, int32_t macAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCipherFactory", modifiers: "&&", def_value: None }]

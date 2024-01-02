@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X9FieldElement)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
@@ -46,23 +46,23 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
-  /// @brief Method .ctor addr 0x113fa94 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11b0cdc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor addr 0x1140dd8 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0x11b2020, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method .ctor addr 0x1140eac size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0x11b20f4, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Asn1::Asn1OctetString* s);
 
-  /// @brief Method get_Value addr 0x1140fa8 size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x11b21f0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0x1140fb0 size 0xb0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x11b21f8, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X9FieldElement", modifiers: "&&", def_value: None }]

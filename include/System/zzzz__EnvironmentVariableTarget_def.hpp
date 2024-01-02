@@ -16,7 +16,7 @@ MARK_VAL_T(::System::EnvironmentVariableTarget);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2601))
 // CS Name: ::System::EnvironmentVariableTarget
 struct CORDL_TYPE EnvironmentVariableTarget {
 public:

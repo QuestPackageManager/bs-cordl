@@ -36,10 +36,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding,
                                                                                            int32_t macKeySize, int32_t cipherKeySize);
 
-  /// @brief Method .ctor addr 0xec1af4 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0xf36ce0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize, int32_t cipherKeySize);
 
-  /// @brief Method get_CipherKeySize addr 0xec1b34 size 0x8 virtual false final false
+  /// @brief Method get_CipherKeySize, addr 0xf36d20, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherKeySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IesWithCipherParameters", modifiers: "&&", def_value: None }]

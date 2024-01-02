@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryObjectWithMapTyped)
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryHeaderEnum;
-}
 namespace System {
 class Object;
 }
@@ -19,6 +16,9 @@ class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryParser;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3242))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3269))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectWithMapTyped*
 class CORDL_TYPE BinaryObjectWithMapTyped : public ::System::Object {
 public:
@@ -125,23 +125,23 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* New_ctor();
 
-  /// @brief Method .ctor addr 0x2369cd0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c27c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method .ctor addr 0x2369cd8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24c27cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Set addr 0x2369d00 size 0x2c virtual false final false
+  /// @brief Method Set, addr 0x24c27f4, size 0x2c, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW name, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                   ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Array<::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>*> binaryTypeEnumA,
                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> typeInformationA, ::ArrayW<int32_t, ::Array<int32_t>*> memberAssemIds, int32_t assemId);
 
-  /// @brief Method Write addr 0x2369d2c size 0x1d8 virtual true final true
+  /// @brief Method Write, addr 0x24c2820, size 0x1d8, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x2369f04 size 0x2a4 virtual true final true
+  /// @brief Method Read, addr 0x24c29f8, size 0x2a4, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryObjectWithMapTyped", modifiers: "&&", def_value: None }]

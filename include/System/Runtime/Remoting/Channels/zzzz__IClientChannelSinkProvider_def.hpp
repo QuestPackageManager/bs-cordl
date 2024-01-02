@@ -14,14 +14,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3124))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3125))
 // CS Name: ::System.Runtime.Remoting.Channels::IClientChannelSinkProvider*
 class CORDL_TYPE IClientChannelSinkProvider {
 public:
   // Declarations
   __declspec(property(put = set_Next))::System::Runtime::Remoting::Channels::IClientChannelSinkProvider* Next;
 
-  /// @brief Method set_Next addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Next, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Next(::System::Runtime::Remoting::Channels::IClientChannelSinkProvider* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IClientChannelSinkProvider", modifiers: "&&", def_value: None }]

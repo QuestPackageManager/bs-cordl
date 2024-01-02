@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPointerMoveHandler)
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerMoveHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13171))
 // CS Name: ::UnityEngine.EventSystems::IPointerMoveHandler*
 class CORDL_TYPE IPointerMoveHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnPointerMove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPointerMove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPointerMove(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerMoveHandler", modifiers: "&&", def_value: None }]

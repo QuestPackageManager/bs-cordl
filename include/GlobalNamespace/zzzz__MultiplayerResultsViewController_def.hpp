@@ -7,29 +7,29 @@ CORDL_MODULE_EXPORT(MultiplayerResultsViewController)
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct BeatmapDifficulty;
-}
-namespace GlobalNamespace {
-class ResultsTableView;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsData;
+class IPreviewBeatmapLevel;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class LevelBar;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class LevelBar;
+class ResultsTableView;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5720))
 // CS Name: ::MultiplayerResultsViewController*
 class CORDL_TYPE MultiplayerResultsViewController : public ::HMUI::ViewController {
 public:
@@ -128,34 +128,34 @@ public:
 
   constexpr void __set_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
 
-  /// @brief Method add_backToLobbyPressedEvent addr 0x218ceb0 size 0xb0 virtual false final false
+  /// @brief Method add_backToLobbyPressedEvent, addr 0x22cfb1c, size 0xb0, virtual false, abstract: false, final false
   inline void add_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
 
-  /// @brief Method remove_backToLobbyPressedEvent addr 0x218cf60 size 0xb0 virtual false final false
+  /// @brief Method remove_backToLobbyPressedEvent, addr 0x22cfbcc, size 0xb0, virtual false, abstract: false, final false
   inline void remove_backToLobbyPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
 
-  /// @brief Method add_backToMenuPressedEvent addr 0x218d010 size 0xb0 virtual false final false
+  /// @brief Method add_backToMenuPressedEvent, addr 0x22cfc7c, size 0xb0, virtual false, abstract: false, final false
   inline void add_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
 
-  /// @brief Method remove_backToMenuPressedEvent addr 0x218d0c0 size 0xb0 virtual false final false
+  /// @brief Method remove_backToMenuPressedEvent, addr 0x22cfd2c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_backToMenuPressedEvent(::System::Action_1<::GlobalNamespace::MultiplayerResultsViewController*>* value);
 
-  /// @brief Method Init addr 0x218d170 size 0x180 virtual false final false
+  /// @brief Method Init, addr 0x22cfddc, size 0x17c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                    ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showBackToLobbyButton, bool showBackToMenuButton);
 
-  /// @brief Method DidActivate addr 0x218d2f0 size 0x108 virtual true final false
+  /// @brief Method DidActivate, addr 0x22d0014, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method BackToLobbyPressed addr 0x218d3f8 size 0x20 virtual false final false
+  /// @brief Method BackToLobbyPressed, addr 0x22d011c, size 0x20, virtual false, abstract: false, final false
   inline void BackToLobbyPressed();
 
-  /// @brief Method BackToMenuPressed addr 0x218d418 size 0x20 virtual false final false
+  /// @brief Method BackToMenuPressed, addr 0x22d013c, size 0x20, virtual false, abstract: false, final false
   inline void BackToMenuPressed();
 
   static inline ::GlobalNamespace::MultiplayerResultsViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x218d438 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d015c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsViewController", modifiers: "&&", def_value: None }]

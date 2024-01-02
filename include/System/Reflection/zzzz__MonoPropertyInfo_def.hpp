@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MonoPropertyInfo)
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System {
 class Type;
 }
 namespace System::Reflection {
 struct PropertyAttributes;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -25,8 +25,8 @@ MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3482))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3487))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3527))
 // CS Name: ::System.Reflection::MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {
 public:

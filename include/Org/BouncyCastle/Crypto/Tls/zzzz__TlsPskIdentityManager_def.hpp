@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsPskIdentityManager {
 public:
   // Declarations
-  /// @brief Method GetHint addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHint();
 
-  /// @brief Method GetPsk addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPsk, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsPskIdentityManager", modifiers: "&&", def_value: None }]

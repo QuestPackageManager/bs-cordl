@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierInfoListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13791), inst: 5100 }), TypeDefinitionIndex(TypeDefinitionIndex(5518)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13791))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5519)) CS Name: ::GameplayModifierInfoListItemsList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13674)), TypeDefinitionIndex(TypeDefinitionIndex(5419)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
+// 5216 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5420)) CS Name: ::GameplayModifierInfoListItemsList*
 class CORDL_TYPE GameplayModifierInfoListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GameplayModifierInfoListItem*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GameplayModifierInfoListItemsList* New_ctor();
 
-  /// @brief Method .ctor addr 0x21359d4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2278cc8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameplayModifierInfoListItemsList", modifiers: "&&", def_value: None }]

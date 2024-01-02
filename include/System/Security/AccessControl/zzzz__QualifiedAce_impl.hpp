@@ -1,18 +1,18 @@
 #pragma once
 #include "System/Security/AccessControl/zzzz__KnownAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_def.hpp"
+#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
-#include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::QualifiedAce._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(
     ::System::Security::AccessControl::AceType, ::System::Security::AccessControl::AceFlags, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23290ac;
+  constexpr static std::size_t addrs = 0x2480ba0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::AceType>::get(),
@@ -27,9 +27,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::AccessControl::QualifiedAce::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23292c4;
+  constexpr static std::size_t addrs = 0x2480db8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
@@ -43,9 +43,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceQualifier (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_AceQualifier)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x232a0c0;
+  constexpr static std::size_t addrs = 0x2481bb4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
                                                                                "get_AceQualifier", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -57,9 +57,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_IsCallback)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x232a8e4;
+  constexpr static std::size_t addrs = 0x24823d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
                                                                                "get_IsCallback", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -71,9 +71,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::get_OpaqueLength)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x232945c;
+  constexpr static std::size_t addrs = 0x2480f50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
                                                                                "get_OpaqueLength", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -85,9 +85,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::AccessControl::QualifiedAce::*)()>(
     &::System::Security::AccessControl::QualifiedAce::GetOpaque)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2329620;
+  constexpr static std::size_t addrs = 0x2481114;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(),
                                                                                "GetOpaque", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -99,9 +99,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::QualifiedAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::AccessControl::QualifiedAce::SetOpaque)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x232937c;
+  constexpr static std::size_t addrs = 0x2480e70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::QualifiedAce*>::get(), "SetOpaque", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));

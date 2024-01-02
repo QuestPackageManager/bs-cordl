@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKChain);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12472))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12544))
 // CS Name: ::RootMotion.FinalIK::FABRIKChain*
 class CORDL_TYPE FABRIKChain : public ::System::Object {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method IsValid addr 0x11e0a5c size 0xc4 virtual false final false
+  /// @brief Method IsValid, addr 0x1250d88, size 0xc4, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method Initiate addr 0x11e0b20 size 0x20 virtual false final false
+  /// @brief Method Initiate, addr 0x1250e4c, size 0x20, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method Stage1 addr 0x11e0b40 size 0xc0 virtual false final false
+  /// @brief Method Stage1, addr 0x1250e6c, size 0xc0, virtual false, abstract: false, final false
   inline void Stage1(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
-  /// @brief Method Stage2 addr 0x11e0d94 size 0xe4 virtual false final false
+  /// @brief Method Stage2, addr 0x12510c0, size 0xe4, virtual false, abstract: false, final false
   inline void Stage2(::UnityEngine::Vector3 rootPosition, ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
-  /// @brief Method GetCentroid addr 0x11e0c00 size 0x194 virtual false final false
+  /// @brief Method GetCentroid, addr 0x1250f2c, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCentroid(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chain);
 
   static inline ::RootMotion::FinalIK::FABRIKChain* New_ctor();
 
-  /// @brief Method .ctor addr 0x11e0e78 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x12511a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FABRIKChain", modifiers: "&&", def_value: None }]

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IInitializePotentialDragHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13178))
 // CS Name: ::UnityEngine.EventSystems::IInitializePotentialDragHandler*
 class CORDL_TYPE IInitializePotentialDragHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnInitializePotentialDrag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInitializePotentialDragHandler", modifiers: "&&", def_value: None }]

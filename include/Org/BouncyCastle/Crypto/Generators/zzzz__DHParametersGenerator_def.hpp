@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHParametersGenerator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(895))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHParametersGenerator*
 class CORDL_TYPE DHParametersGenerator : public ::System::Object {
@@ -54,15 +54,15 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0xe826ac size 0xc virtual true final false
+  /// @brief Method Init, addr 0xef7880, size 0xc, virtual true, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateParameters addr 0xe826b8 size 0x118 virtual true final false
+  /// @brief Method GenerateParameters, addr 0xef788c, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GenerateParameters();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe82d9c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xef7f70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHParametersGenerator", modifiers: "&&", def_value: None }]

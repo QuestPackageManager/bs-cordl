@@ -16,27 +16,27 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaveData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13918))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14386))
 // CS Name: ::ISaveData*
 class CORDL_TYPE ISaveData {
 public:
   // Declarations
-  /// @brief Method Save addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Save, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Save(::StringW key, ::StringW value);
 
-  /// @brief Method Load addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Load(::StringW key, ByRef<::StringW> value);
 
-  /// @brief Method Save addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Save, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Save(::StringW key, ::StringW value, ::StringW tempKey, ::StringW backupKey);
 
-  /// @brief Method Load addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Load(::StringW key, ByRef<::StringW> value, ::StringW backupKey);
 
-  /// @brief Method Delete addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Delete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Delete(::StringW key);
 
-  /// @brief Method HasKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasKey(::StringW key);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaveData", modifiers: "&&", def_value: None }]

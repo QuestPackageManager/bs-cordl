@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSchemaParticle)
-namespace System::Xml::Schema {
-struct __XmlSchemaParticle__Occurs;
-}
 namespace System {
 struct Decimal;
 }
 namespace System::Xml::Schema {
 class __XmlSchemaParticle__EmptyParticle;
+}
+namespace System::Xml::Schema {
+struct __XmlSchemaParticle__Occurs;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaParticle);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11660))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11732))
 // CS Name: ::XmlSchemaParticle::Occurs
 struct CORDL_TYPE __XmlSchemaParticle__Occurs {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::System::Xml::Schema::__XmlSchemaParticle__Occurs, value
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11642)), TypeDefinitionIndex(TypeDefinitionIndex(2653)), TypeDefinitionIndex(TypeDefinitionIndex(11660))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11662))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11732))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11734))
 // CS Name: ::System.Xml.Schema::XmlSchemaParticle*
 class CORDL_TYPE XmlSchemaParticle : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
@@ -133,15 +133,15 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* getStaticF_Empty();
 
-  /// @brief Method set_MinOccurs addr 0x27498ac size 0x12c virtual false final false
+  /// @brief Method set_MinOccurs, addr 0x28c78d0, size 0x12c, virtual false, abstract: false, final false
   inline void set_MinOccurs(::System::Decimal value);
 
-  /// @brief Method set_MaxOccurs addr 0x27499d8 size 0x164 virtual false final false
+  /// @brief Method set_MaxOccurs, addr 0x28c79fc, size 0x164, virtual false, abstract: false, final false
   inline void set_MaxOccurs(::System::Decimal value);
 
   static inline ::System::Xml::Schema::XmlSchemaParticle* New_ctor();
 
-  /// @brief Method .ctor addr 0x27491a4 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x28c71c8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaParticle", modifiers: "&&", def_value: None }]

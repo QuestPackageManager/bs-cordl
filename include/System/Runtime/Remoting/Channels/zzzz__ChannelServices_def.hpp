@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ChannelServices)
-namespace System::Runtime::Remoting {
-class ChannelData;
+namespace System::Runtime::Remoting::Contexts {
+class CrossContextChannel;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
-namespace System::Runtime::Remoting::Messaging {
-class ReturnMessage;
+namespace System::Collections {
+class IList;
 }
-namespace System::Runtime::Remoting::Contexts {
-class CrossContextChannel;
-}
-namespace System::Runtime::Remoting {
-class ProviderData;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Runtime::Remoting::Channels {
 class IChannelSender;
@@ -28,17 +28,17 @@ class IChannelSender;
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting {
+class ChannelData;
 }
-namespace System::Collections {
-class IList;
+namespace System::Runtime::Remoting {
+class ProviderData;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Runtime::Remoting::Messaging {
+class ReturnMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::ChannelServices);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3113))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3114))
 // CS Name: ::System.Runtime.Remoting.Channels::ChannelServices*
 class CORDL_TYPE ChannelServices : public ::System::Object {
 public:
@@ -91,43 +91,43 @@ public:
 
   static inline ::System::Collections::IList* getStaticF_oldStartModeTypes();
 
-  /// @brief Method get_CrossContextChannel addr 0x234705c size 0x58 virtual false final false
+  /// @brief Method get_CrossContextChannel, addr 0x249fb50, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Contexts::CrossContextChannel* get_CrossContextChannel();
 
-  /// @brief Method CreateClientChannelSinkChain addr 0x23470b4 size 0x87c virtual false final false
+  /// @brief Method CreateClientChannelSinkChain, addr 0x249fba8, size 0x87c, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::StringW url, ::System::Object* remoteChannelData, ByRef<::StringW> objectUri);
 
-  /// @brief Method CreateClientChannelSinkChain addr 0x2347930 size 0x208 virtual false final false
+  /// @brief Method CreateClientChannelSinkChain, addr 0x24a0424, size 0x208, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateClientChannelSinkChain(::System::Runtime::Remoting::Channels::IChannelSender* sender, ::StringW url,
                                                                                                    ::ArrayW<::System::Object*, ::Array<::System::Object*>*> channelDataArray,
                                                                                                    ByRef<::StringW> objectUri);
 
-  /// @brief Method RegisterChannel addr 0x2347b38 size 0x58 virtual false final false
+  /// @brief Method RegisterChannel, addr 0x24a062c, size 0x58, virtual false, abstract: false, final false
   static inline void RegisterChannel(::System::Runtime::Remoting::Channels::IChannel* chnl);
 
-  /// @brief Method RegisterChannel addr 0x2347b90 size 0x87c virtual false final false
+  /// @brief Method RegisterChannel, addr 0x24a0684, size 0x87c, virtual false, abstract: false, final false
   static inline void RegisterChannel(::System::Runtime::Remoting::Channels::IChannel* chnl, bool ensureSecurity);
 
-  /// @brief Method RegisterChannelConfig addr 0x234840c size 0xbe8 virtual false final false
+  /// @brief Method RegisterChannelConfig, addr 0x24a0f00, size 0xbe8, virtual false, abstract: false, final false
   static inline void RegisterChannelConfig(::System::Runtime::Remoting::ChannelData* channel);
 
-  /// @brief Method CreateProvider addr 0x2348ff4 size 0x318 virtual false final false
+  /// @brief Method CreateProvider, addr 0x24a1ae8, size 0x318, virtual false, abstract: false, final false
   static inline ::System::Object* CreateProvider(::System::Runtime::Remoting::ProviderData* prov);
 
-  /// @brief Method SyncDispatchMessage addr 0x234930c size 0xa8 virtual false final false
+  /// @brief Method SyncDispatchMessage, addr 0x24a1e00, size 0xa8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* SyncDispatchMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method CheckIncomingMessage addr 0x23493b4 size 0x2a8 virtual false final false
+  /// @brief Method CheckIncomingMessage, addr 0x24a1ea8, size 0x2a8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::ReturnMessage* CheckIncomingMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method CheckReturnMessage addr 0x234965c size 0x1d0 virtual false final false
+  /// @brief Method CheckReturnMessage, addr 0x24a2150, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::IMessage* CheckReturnMessage(::System::Runtime::Remoting::Messaging::IMessage* callMsg,
                                                                                      ::System::Runtime::Remoting::Messaging::IMessage* retMsg);
 
-  /// @brief Method IsLocalCall addr 0x234982c size 0x8 virtual false final false
+  /// @brief Method IsLocalCall, addr 0x24a2320, size 0x8, virtual false, abstract: false, final false
   static inline bool IsLocalCall(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
 
-  /// @brief Method GetCurrentChannelInfo addr 0x2349948 size 0x500 virtual false final false
+  /// @brief Method GetCurrentChannelInfo, addr 0x24a243c, size 0x500, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCurrentChannelInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChannelServices", modifiers: "&&", def_value: None }]

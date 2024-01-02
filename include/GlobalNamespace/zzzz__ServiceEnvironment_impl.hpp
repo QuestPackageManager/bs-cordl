@@ -13,5 +13,8 @@ constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironm
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::Development{ static_cast<int32_t>(0x4) };
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionA{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionB{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::DevelopmentA{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::DevelopmentB{ static_cast<int32_t>(0x8) };
+constexpr ::GlobalNamespace::ServiceEnvironment GlobalNamespace::ServiceEnvironment::ProductionC{ static_cast<int32_t>(0x9) };
 #ifndef CORDL_NO_IMPL_INCLUDE
 #endif

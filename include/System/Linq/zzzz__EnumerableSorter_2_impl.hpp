@@ -2,8 +2,8 @@
 #include "System/Linq/zzzz__EnumerableSorter_1_impl.hpp"
 #include "System/Linq/zzzz__EnumerableSorter_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
 template <typename TElement, typename TKey> constexpr ::System::Func_2<TElement, TKey>*& System::Linq::EnumerableSorter_2<TElement, TKey>::__get_keySelector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keySelector;
@@ -85,16 +85,13 @@ inline void System::Linq::EnumerableSorter_2<TElement, TKey>::_ctor(::System::Fu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keySelector, comparer, descending, next);
 }
 template <typename TElement, typename TKey> inline void System::Linq::EnumerableSorter_2<TElement, TKey>::ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_2<TElement, TKey>*>::get(), "ComputeKeys", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<TElement, ::Array<TElement>*>>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_2<TElement, TKey>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, elements, count);
 }
 template <typename TElement, typename TKey> inline int32_t System::Linq::EnumerableSorter_2<TElement, TKey>::CompareKeys(int32_t index1, int32_t index2) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_2<TElement, TKey>*>::get(), "CompareKeys", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::EnumerableSorter_2<TElement, TKey>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, index1, index2);
 }
 // Ctor Parameters []

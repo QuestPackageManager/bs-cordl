@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriIdnScope);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8880))
 // CS Name: ::System::UriIdnScope
 struct CORDL_TYPE UriIdnScope {
 public:

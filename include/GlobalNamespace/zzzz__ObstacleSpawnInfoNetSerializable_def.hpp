@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObstacleSpawnInfoNetSerializable)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15178)), TypeDefinitionIndex(TypeDefinitionIndex(15184)), TypeDefinitionIndex(TypeDefinitionIndex(14973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15174))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15033))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15029))
 // CS Name: ::ObstacleSpawnInfoNetSerializable*
 class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -162,23 +162,23 @@ public:
 
   constexpr void __set_rotation(float_t value);
 
-  /// @brief Method Obtain addr 0x12330ac size 0x64 virtual false final false
+  /// @brief Method Obtain, addr 0x12a51a8, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Init addr 0x1233110 size 0x120 virtual false final false
+  /// @brief Method Init, addr 0x12a520c, size 0x120, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height,
                                                                    ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight,
                                                                    float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation);
 
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x1233230 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x12a532c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Serialize addr 0x1233288 size 0x104 virtual true final false
+  /// @brief Method Serialize, addr 0x12a5384, size 0x104, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x123338c size 0x118 virtual true final false
+  /// @brief Method Deserialize, addr 0x12a5488, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]

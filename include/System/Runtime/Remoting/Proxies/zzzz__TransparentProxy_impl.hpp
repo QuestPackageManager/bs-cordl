@@ -2,19 +2,19 @@
 #include "Mono/zzzz__RuntimeRemoteClassHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__TransparentProxy_def.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
-#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
+#include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Proxies::TransparentProxy.GetProxyType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeType* (::System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x233da6c;
+  constexpr static std::size_t addrs = 0x2496560;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(),
                                                                                "GetProxyType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -26,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::get_IsContextBoundObject)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x233db3c;
+  constexpr static std::size_t addrs = 0x2496630;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(),
                                                                                "get_IsContextBoundObject", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -40,9 +40,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (::System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::get_TargetContext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x233db58;
+  constexpr static std::size_t addrs = 0x249664c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(),
                                                                                "get_TargetContext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -54,9 +54,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::InCurrentContext)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x233db74;
+  constexpr static std::size_t addrs = 0x2496668;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(),
                                                                                "InCurrentContext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -68,9 +68,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Proxies::TransparentProxy::*)(void*, void*)>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x233dbb4;
+  constexpr static std::size_t addrs = 0x24966a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(), "LoadRemoteFieldNew", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
@@ -83,9 +83,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::TransparentProxy::*)(void*, void*, ::System::Object*)>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x233e898;
+  constexpr static std::size_t addrs = 0x249738c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(), "StoreRemoteField", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
@@ -99,9 +99,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Proxies::TransparentProxy::*)()>(
     &::System::Runtime::Remoting::Proxies::TransparentProxy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x233eb70;
+  constexpr static std::size_t addrs = 0x2497664;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Proxies::TransparentProxy*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

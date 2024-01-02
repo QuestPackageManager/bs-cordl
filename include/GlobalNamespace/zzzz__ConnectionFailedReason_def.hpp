@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ConnectionFailedReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12708))
 // CS Name: ::ConnectionFailedReason
 struct CORDL_TYPE ConnectionFailedReason {
 public:

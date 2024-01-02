@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE CmsReadable {
 public:
   // Declarations
-  /// @brief Method GetInputStream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* GetInputStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsReadable", modifiers: "&&", def_value: None }]

@@ -19,16 +19,16 @@ MARK_VAL_T(::System::ArgIterator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2581))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2583))
 // CS Name: ::System::ArgIterator
 struct CORDL_TYPE ArgIterator {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x249b368 size 0x50 virtual true final false
+  /// @brief Method Equals, addr 0x25f62a8, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode addr 0x249b3b8 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25f62f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "sig", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "args", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "next_arg", ty:

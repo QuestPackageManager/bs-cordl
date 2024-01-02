@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Chaperone_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9445))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8676))
 // CS Name: ::OVR.OpenVR::VREvent_Chaperone_t
 struct CORDL_TYPE VREvent_Chaperone_t {
 public:

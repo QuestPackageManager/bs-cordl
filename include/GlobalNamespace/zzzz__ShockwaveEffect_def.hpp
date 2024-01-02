@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ShockwaveEffect)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class IntSO;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ShockwaveEffect);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5000))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4882))
 // CS Name: ::ShockwaveEffect*
 class CORDL_TYPE ShockwaveEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -67,15 +67,15 @@ public:
 
   constexpr void __set__prevShockwaveParticleSpawnTime(float_t value);
 
-  /// @brief Method Start addr 0x226ab70 size 0x11c virtual false final false
+  /// @brief Method Start, addr 0x23a0adc, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SpawnShockwave addr 0x226ac8c size 0xd4 virtual false final false
+  /// @brief Method SpawnShockwave, addr 0x23a0bf8, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x226ad60 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23a0ccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShockwaveEffect", modifiers: "&&", def_value: None }]

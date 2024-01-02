@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IOOperation);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7730))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8893))
 // CS Name: ::System::IOOperation
 struct CORDL_TYPE IOOperation {
 public:

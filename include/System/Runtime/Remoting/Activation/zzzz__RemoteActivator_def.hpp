@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3136))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3137))
 // CS Name: ::System.Runtime.Remoting.Activation::RemoteActivator*
 class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {
 public:
@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate addr 0x234ccdc size 0x47c virtual true final true
+  /// @brief Method Activate, addr 0x24a57d0, size 0x47c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator addr 0x234d158 size 0x40 virtual true final true
+  /// @brief Method get_NextActivator, addr 0x24a5c4c, size 0x40, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "&&", def_value: None }]

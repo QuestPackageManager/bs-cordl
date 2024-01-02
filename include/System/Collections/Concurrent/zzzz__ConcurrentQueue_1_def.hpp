@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentQueue_1)
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentQueue_1___Enumerate_d__28;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Array;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentQueue_1___Enumerate_d__28;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentQueue_1__Segment;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -39,8 +39,8 @@ class IEnumerable;
 namespace System::Collections {
 class ICollection;
 }
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentQueue_1__Segment;
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 template <typename T> struct __ConcurrentQueue_1__Segment__Slot;
@@ -73,7 +73,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
 // CS Name: ::ConcurrentQueue`1::Segment::Slot<T>
 struct CORDL_TYPE __ConcurrentQueue_1__Segment__Slot {
 public:
@@ -104,8 +104,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3792)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3789))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3804))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
 // CS Name: ::ConcurrentQueue`1::Segment<T>*
 class CORDL_TYPE __ConcurrentQueue_1__Segment : public ::System::Object {
 public:
@@ -173,22 +173,22 @@ public:
 
   static inline ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* New_ctor(int32_t boundedLength);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t boundedLength);
 
-  /// @brief Method get_Capacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Capacity();
 
-  /// @brief Method get_FreezeOffset addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_FreezeOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_FreezeOffset();
 
-  /// @brief Method EnsureFrozenForEnqueues addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureFrozenForEnqueues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnsureFrozenForEnqueues();
 
-  /// @brief Method TryDequeue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryDequeue(ByRef<T> item);
 
-  /// @brief Method TryEnqueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryEnqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryEnqueue(T item);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentQueue_1__Segment", modifiers: "&&", def_value: None }]
@@ -233,8 +233,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
 // CS Name: ::ConcurrentQueue`1::<Enumerate>d__28<T>*
 class CORDL_TYPE __ConcurrentQueue_1___Enumerate_d__28 : public ::System::Object {
 public:
@@ -353,22 +353,22 @@ public:
 
   static inline ::System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentQueue_1___Enumerate_d__28", modifiers: "&&", def_value: None }]
@@ -428,8 +428,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3803))
 // CS Name: ::System.Collections.Concurrent::ConcurrentQueue`1<T>*
 class CORDL_TYPE ConcurrentQueue_1 : public ::System::Object {
 public:
@@ -488,67 +488,67 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentQueue_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Concurrent_IProducerConsumerCollection_T__TryAdd(T item);
 
-  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryTake addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Concurrent_IProducerConsumerCollection_T__TryTake(ByRef<T> item);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method GetCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t GetCount(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* s, int32_t head, int32_t tail);
 
-  /// @brief Method GetCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int64_t GetCount(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head, int32_t headHead, ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail,
                                  int32_t tailTail);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method SnapForObservation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SnapForObservation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SnapForObservation(ByRef<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> head, ByRef<int32_t> headHead,
                                  ByRef<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> tail, ByRef<int32_t> tailTail);
 
-  /// @brief Method GetItemWhenAvailable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetItemWhenAvailable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetItemWhenAvailable(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* segment, int32_t i);
 
-  /// @brief Method Enumerate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<T>* Enumerate(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head, int32_t headHead,
                                                                      ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail, int32_t tailTail);
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Enqueue(T item);
 
-  /// @brief Method EnqueueSlow addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnqueueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnqueueSlow(T item);
 
-  /// @brief Method TryDequeue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryDequeue(ByRef<T> result);
 
-  /// @brief Method TryDequeueSlow addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryDequeueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryDequeueSlow(ByRef<T> item);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentQueue_1", modifiers: "&&", def_value: None }]

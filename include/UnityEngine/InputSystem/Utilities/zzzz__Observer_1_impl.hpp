@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observer_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Action_def.hpp"
 /// @brief Convert operator to "::System::IObserver_1<TValue>"
 template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::Observer_1<TValue>::operator ::System::IObserver_1<TValue>*() noexcept {
   return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));

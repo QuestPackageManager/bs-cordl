@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Switch)
-namespace System {
-class WeakReference;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class WeakReference;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Diagnostics::Switch);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8935))
 // CS Name: ::System.Diagnostics::Switch*
 class CORDL_TYPE Switch : public ::System::Object {
 public:
@@ -80,15 +80,15 @@ public:
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor addr 0x27ee404 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x296bd00, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
   static inline ::System::Diagnostics::Switch* New_ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method .ctor addr 0x27ee464 size 0x24c virtual false final false
+  /// @brief Method .ctor, addr 0x296bd60, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description, ::StringW defaultSwitchValue);
 
-  /// @brief Method _pruneCachedSwitches addr 0x27ee6b0 size 0x4e4 virtual false final false
+  /// @brief Method _pruneCachedSwitches, addr 0x296bfac, size 0x4e4, virtual false, abstract: false, final false
   static inline void _pruneCachedSwitches();
 
   // Ctor Parameters [CppParam { name: "", ty: "Switch", modifiers: "&&", def_value: None }]

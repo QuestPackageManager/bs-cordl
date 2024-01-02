@@ -2,9 +2,9 @@
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__RangeContentValidator_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
-#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentType_def.hpp"
+#include "System/Xml/Schema/zzzz__SymbolsDictionary_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::RangeContentValidator._ctor
 template <>
 
@@ -12,9 +12,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*,
     int32_t, ::System::Xml::Schema::XmlSchemaContentType, bool, ::System::Xml::Schema::BitSet*, int32_t)>(&::System::Xml::Schema::RangeContentValidator::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x273330c;
+  constexpr static std::size_t addrs = 0x28b0330;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RangeContentValidator*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{

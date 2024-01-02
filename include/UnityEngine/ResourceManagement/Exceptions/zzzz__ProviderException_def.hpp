@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__OperationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ProviderException)
-namespace System {
-class Exception;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Exceptions {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ProviderException)
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14234))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14235))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13963))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13964))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::ProviderException*
 class CORDL_TYPE ProviderException : public ::UnityEngine::ResourceManagement::Exceptions::OperationException {
 public:
@@ -41,10 +41,12 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::ProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                            ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2a4d43c size 0x28 virtual false final false
-  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
+  /// @brief Method .ctor, addr 0x2bd0190, size 0x28, virtual false, abstract: false, final false
+  /// @param location: ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* (default: nullptr)
+  /// @param innerException: ::System::Exception* (default: nullptr)
+  inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location = nullptr, ::System::Exception* innerException = nullptr);
 
-  /// @brief Method get_Location addr 0x2a4d464 size 0x8 virtual false final false
+  /// @brief Method get_Location, addr 0x2bd01b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderException", modifiers: "&&", def_value: None }]

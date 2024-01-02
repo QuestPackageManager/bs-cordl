@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Changelog)
-namespace UnityEngine::ProBuilder {
-class ChangelogEntry;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::ProBuilder {
+class ChangelogEntry;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class ReadOnlyCollection_1;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Changelog);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12036))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12108))
 // CS Name: ::UnityEngine.ProBuilder::Changelog*
 class CORDL_TYPE Changelog : public ::System::Object {
 public:
@@ -41,15 +41,15 @@ public:
 
   constexpr void __set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::ChangelogEntry*>* value);
 
-  /// @brief Method get_entries addr 0x29b9fc8 size 0x7c virtual false final false
+  /// @brief Method get_entries, addr 0x2b3bd1c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::ChangelogEntry*>* get_entries();
 
   static inline ::UnityEngine::ProBuilder::Changelog* New_ctor(::StringW log);
 
-  /// @brief Method .ctor addr 0x29ba044 size 0x30c virtual false final false
+  /// @brief Method .ctor, addr 0x2b3bd98, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::StringW log);
 
-  /// @brief Method CreateEntry addr 0x29ba350 size 0x170 virtual false final false
+  /// @brief Method CreateEntry, addr 0x2b3c0a4, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ChangelogEntry* CreateEntry(::StringW version, ::StringW contents);
 
   // Ctor Parameters [CppParam { name: "", ty: "Changelog", modifiers: "&&", def_value: None }]

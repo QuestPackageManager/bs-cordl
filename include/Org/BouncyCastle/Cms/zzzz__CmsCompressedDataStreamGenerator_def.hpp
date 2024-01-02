@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsCompressedDataStreamGenerator)
-namespace Org::BouncyCastle::Cms {
-class __CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Cms {
+class __CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
 }
 namespace Org::BouncyCastle::Utilities::Zlib {
 class ZOutputStream;
@@ -81,17 +81,17 @@ public:
                                                                                                                   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                                                                                                                   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method .ctor addr 0x116c3b4 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x11dd604, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method WriteByte addr 0x116c3f4 size 0x24 virtual true final false
+  /// @brief Method WriteByte, addr 0x11dd644, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0x116c418 size 0x24 virtual true final false
+  /// @brief Method Write, addr 0x11dd668, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method Close addr 0x116c43c size 0xa8 virtual true final false
+  /// @brief Method Close, addr 0x11dd68c, size 0xa8, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream", modifiers: "&&", def_value: None }]
@@ -138,7 +138,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsCompressedDataStreamGenera
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(632))
 // CS Name: ::Org.BouncyCastle.Cms::CmsCompressedDataStreamGenerator*
 class CORDL_TYPE CmsCompressedDataStreamGenerator : public ::System::Object {
@@ -157,16 +157,16 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x116c064 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11dd2b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetBufferSize addr 0x116c06c size 0x8 virtual false final false
+  /// @brief Method SetBufferSize, addr 0x11dd2bc, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
-  /// @brief Method Open addr 0x116c074 size 0x7c virtual false final false
+  /// @brief Method Open, addr 0x11dd2c4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW compressionOID);
 
-  /// @brief Method Open addr 0x116c0f0 size 0x2c4 virtual false final false
+  /// @brief Method Open, addr 0x11dd340, size 0x2c4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStream, ::StringW contentOID, ::StringW compressionOID);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataStreamGenerator", modifiers: "&&", def_value: None }]

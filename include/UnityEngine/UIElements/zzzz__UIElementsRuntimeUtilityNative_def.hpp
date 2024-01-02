@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15405))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15375))
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtilityNative*
 class CORDL_TYPE UIElementsRuntimeUtilityNative : public ::System::Object {
 public:
@@ -37,19 +37,19 @@ public:
 
   static inline ::System::Action* getStaticF_UpdateRuntimePanelsCallback();
 
-  /// @brief Method RepaintOverlayPanels addr 0x2d3d338 size 0x64 virtual false final false
+  /// @brief Method RepaintOverlayPanels, addr 0x2ea56e8, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UpdateRuntimePanels addr 0x2d3d39c size 0x64 virtual false final false
+  /// @brief Method UpdateRuntimePanels, addr 0x2ea574c, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method RegisterPlayerloopCallback addr 0x2d3d400 size 0x28 virtual false final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x2ea57b0, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method UnregisterPlayerloopCallback addr 0x2d3d428 size 0x28 virtual false final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x2ea57d8, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method VisualElementCreation addr 0x2d3d450 size 0x28 virtual false final false
+  /// @brief Method VisualElementCreation, addr 0x2ea5800, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]

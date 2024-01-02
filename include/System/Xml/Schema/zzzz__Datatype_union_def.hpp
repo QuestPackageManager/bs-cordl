@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Datatype_union)
-namespace System {
-class Type;
-}
 namespace System::Xml::Schema {
 class XmlSchemaSimpleType;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_union);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11551))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11623))
 // CS Name: ::System.Xml.Schema::Datatype_union*
 class CORDL_TYPE Datatype_union : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method HasAtomicMembers addr 0x27393e0 size 0x80 virtual false final false
+  /// @brief Method HasAtomicMembers, addr 0x28b7404, size 0x80, virtual false, abstract: false, final false
   inline bool HasAtomicMembers();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_union", modifiers: "&&", def_value: None }]

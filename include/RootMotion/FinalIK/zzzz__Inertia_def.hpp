@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(Inertia)
 namespace RootMotion::FinalIK {
-class __OffsetModifier__OffsetLimits;
-}
-namespace RootMotion::FinalIK {
 class __Inertia__Body;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+class __OffsetModifier__OffsetLimits;
+}
+namespace GlobalNamespace {
+class __Inertia__Body__EffectorLink;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace GlobalNamespace {
-class __Inertia__Body__EffectorLink;
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Inertia__Body);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12578))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12650))
 // CS Name: ::Inertia::Body::EffectorLink*
 class CORDL_TYPE __Inertia__Body__EffectorLink : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::__Inertia__Body__EffectorLink* New_ctor();
 
-  /// @brief Method .ctor addr 0x1225e84 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12971b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Inertia__Body__EffectorLink", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ static_assert(offsetof(::GlobalNamespace::__Inertia__Body__EffectorLink, ___weig
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12651))
 // CS Name: ::Inertia::Body*
 class CORDL_TYPE __Inertia__Body : public ::System::Object {
 public:
@@ -213,15 +213,15 @@ public:
 
   constexpr void __set_firstUpdate(bool value);
 
-  /// @brief Method Reset addr 0x122598c size 0xdc virtual false final false
+  /// @brief Method Reset, addr 0x1296cb8, size 0xdc, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update addr 0x1225b0c size 0x2a4 virtual false final false
+  /// @brief Method Update, addr 0x1296e38, size 0x2a4, virtual false, abstract: false, final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight, float_t deltaTime);
 
   static inline ::RootMotion::FinalIK::__Inertia__Body* New_ctor();
 
-  /// @brief Method .ctor addr 0x1225e68 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x1297194, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Inertia__Body", modifiers: "&&", def_value: None }]
@@ -303,8 +303,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Inertia__Body, ___firstUpdate) =
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12580))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12652))
 // CS Name: ::RootMotion.FinalIK::Inertia*
 class CORDL_TYPE Inertia : public ::RootMotion::FinalIK::OffsetModifier {
 public:
@@ -329,15 +329,15 @@ public:
 
   constexpr void __set_limits(::ArrayW<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*, ::Array<::RootMotion::FinalIK::__OffsetModifier__OffsetLimits*>*> value);
 
-  /// @brief Method ResetBodies addr 0x1225920 size 0x6c virtual false final false
+  /// @brief Method ResetBodies, addr 0x1296c4c, size 0x6c, virtual false, abstract: false, final false
   inline void ResetBodies();
 
-  /// @brief Method OnModifyOffset addr 0x1225a68 size 0xa4 virtual true final false
+  /// @brief Method OnModifyOffset, addr 0x1296d94, size 0xa4, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   static inline ::RootMotion::FinalIK::Inertia* New_ctor();
 
-  /// @brief Method .ctor addr 0x1225e58 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x1297184, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Inertia", modifiers: "&&", def_value: None }]

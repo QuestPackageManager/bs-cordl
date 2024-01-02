@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Rotate);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14378))
 // CS Name: ::Rotate*
 class CORDL_TYPE Rotate : public ::UnityEngine::MonoBehaviour {
 public:
@@ -97,24 +97,24 @@ public:
 
   constexpr void __set__randomizedMultiplier(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake addr 0x1f98774 size 0xc8 virtual false final false
+  /// @brief Method Awake, addr 0x20f3c90, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnBecameVisible addr 0x1f9883c size 0x20 virtual false final false
+  /// @brief Method OnBecameVisible, addr 0x20f3d58, size 0x20, virtual false, abstract: false, final false
   inline void OnBecameVisible();
 
-  /// @brief Method OnBecameInvisible addr 0x1f988c4 size 0xc virtual false final false
+  /// @brief Method OnBecameInvisible, addr 0x20f3de0, size 0xc, virtual false, abstract: false, final false
   inline void OnBecameInvisible();
 
-  /// @brief Method Update addr 0x1f988d0 size 0xbc virtual false final false
+  /// @brief Method Update, addr 0x20f3dec, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method Randomize addr 0x1f9885c size 0x68 virtual false final false
+  /// @brief Method Randomize, addr 0x20f3d78, size 0x68, virtual false, abstract: false, final false
   inline void Randomize();
 
   static inline ::GlobalNamespace::Rotate* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9898c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x20f3ea8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Rotate", modifiers: "&&", def_value: None }]

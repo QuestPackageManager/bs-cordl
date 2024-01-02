@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IComponentRefresher);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15856))
 // CS Name: ::IComponentRefresher*
 class CORDL_TYPE IComponentRefresher {
 public:
   // Declarations
-  /// @brief Method __Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method __Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void __Refresh();
 
   // Ctor Parameters [CppParam { name: "", ty: "IComponentRefresher", modifiers: "&&", def_value: None }]

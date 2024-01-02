@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::Zenject::PoolExceededFixedSizeException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10975))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11047))
 // CS Name: ::Zenject::PoolExceededFixedSizeException*
 class CORDL_TYPE PoolExceededFixedSizeException : public ::System::Exception {
 public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor addr 0x2d809a4 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee8724, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolExceededFixedSizeException", modifiers: "&&", def_value: None }]

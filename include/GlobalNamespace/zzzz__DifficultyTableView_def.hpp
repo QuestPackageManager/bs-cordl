@@ -11,19 +11,19 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class DifficultyTableCell;
+class IDifficultyBeatmap;
 }
 namespace HMUI {
 class TableCell;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
 }
 namespace HMUI {
 class TableView;
 }
 namespace HMUI {
 class __TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class DifficultyTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyTableView);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5867))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5776))
 // CS Name: ::DifficultyTableView*
 class CORDL_TYPE DifficultyTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -99,42 +99,42 @@ public:
 
   constexpr void __set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*> value);
 
-  /// @brief Method add_didSelectRow addr 0x2199dc0 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectRow, addr 0x22e03ec, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>* value);
 
-  /// @brief Method remove_didSelectRow addr 0x2199e70 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectRow, addr 0x22e049c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectRow(::System::Action_2<::GlobalNamespace::DifficultyTableView*, int32_t>* value);
 
-  /// @brief Method Init addr 0x2199f20 size 0xec virtual false final false
+  /// @brief Method Init, addr 0x22e054c, size 0xec, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*> difficultyBeatmaps);
 
-  /// @brief Method SetDifficultyBeatmaps addr 0x219a00c size 0x28 virtual false final false
+  /// @brief Method SetDifficultyBeatmaps, addr 0x22e0638, size 0x28, virtual false, abstract: false, final false
   inline void SetDifficultyBeatmaps(::ArrayW<::GlobalNamespace::IDifficultyBeatmap*, ::Array<::GlobalNamespace::IDifficultyBeatmap*>*> difficultyBeatmaps);
 
-  /// @brief Method CellSize addr 0x219a034 size 0x8 virtual true final true
+  /// @brief Method CellSize, addr 0x22e0660, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x219a03c size 0x20 virtual true final true
+  /// @brief Method NumberOfCells, addr 0x22e0668, size 0x20, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x219a05c size 0x354 virtual true final true
+  /// @brief Method CellForIdx, addr 0x22e0688, size 0x354, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method HandleDidSelectRowEvent addr 0x219a3b0 size 0x54 virtual false final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x22e09dc, size 0x54, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method SelectRow addr 0x219a404 size 0x20 virtual false final false
+  /// @brief Method SelectRow, addr 0x22e0a30, size 0x20, virtual false, abstract: false, final false
   inline void SelectRow(int32_t row, bool callbackTable);
 
-  /// @brief Method SelectRow addr 0x219a424 size 0x84 virtual false final false
+  /// @brief Method SelectRow, addr 0x22e0a50, size 0x84, virtual false, abstract: false, final false
   inline void SelectRow(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool callbackTable);
 
-  /// @brief Method ClearSelection addr 0x219a4a8 size 0x1c virtual false final false
+  /// @brief Method ClearSelection, addr 0x22e0ad4, size 0x1c, virtual false, abstract: false, final false
   inline void ClearSelection();
 
   static inline ::GlobalNamespace::DifficultyTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x219a4c4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x22e0af0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DifficultyTableView", modifiers: "&&", def_value: None }]

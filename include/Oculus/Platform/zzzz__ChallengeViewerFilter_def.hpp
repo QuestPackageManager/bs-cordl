@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ChallengeViewerFilter);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13245))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13243))
 // CS Name: ::Oculus.Platform::ChallengeViewerFilter
 struct CORDL_TYPE ChallengeViewerFilter {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AssetInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9658))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9731))
 // CS Name: ::HoudiniEngineUnity::HAPI_AssetInfo
 struct CORDL_TYPE HAPI_AssetInfo {
 public:

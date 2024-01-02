@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::MessageEnum);
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3300))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MessageEnum
 struct CORDL_TYPE MessageEnum {
 public:

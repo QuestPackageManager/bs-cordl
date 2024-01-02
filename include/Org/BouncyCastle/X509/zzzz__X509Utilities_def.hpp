@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Utilities)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class RsassaPssParameters;
 }
+namespace System::Collections {
+class IDictionary;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1869))
 // CS Name: ::Org.BouncyCastle.X509::X509Utilities*
 class CORDL_TYPE X509Utilities : public ::System::Object {
@@ -71,26 +71,26 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_noParams();
 
-  /// @brief Method CreatePssParams addr 0x11116a0 size 0x12c virtual false final false
+  /// @brief Method CreatePssParams, addr 0x11818e8, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method GetAlgorithmOid addr 0x11117cc size 0x20c virtual false final false
+  /// @brief Method GetAlgorithmOid, addr 0x1181a14, size 0x20c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID addr 0x11119d8 size 0x330 virtual false final false
+  /// @brief Method GetSigAlgID, addr 0x1181c20, size 0x330, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW algorithmName);
 
-  /// @brief Method GetAlgNames addr 0x1111d08 size 0x10c virtual false final false
+  /// @brief Method GetAlgNames, addr 0x1181f50, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* GetAlgNames();
 
-  /// @brief Method GetSignatureForObject addr 0x1111e14 size 0x2d0 virtual false final false
+  /// @brief Method GetSignatureForObject, addr 0x118205c, size 0x2d0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureForObject(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid, ::StringW sigName,
                                                                            ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                            ::Org::BouncyCastle::Asn1::Asn1Encodable* ae);
 
   static inline ::Org::BouncyCastle::X509::X509Utilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x11120e4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x118232c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Utilities", modifiers: "&&", def_value: None }]

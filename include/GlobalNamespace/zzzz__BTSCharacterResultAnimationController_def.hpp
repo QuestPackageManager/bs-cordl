@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(BTSCharacterResultAnimationController)
 namespace GlobalNamespace {
+class MaterialPropertyBlockFloatAnimator;
+}
+namespace GlobalNamespace {
 class MaterialPropertyBlockColorSetter;
 }
 namespace UnityEngine {
@@ -12,9 +15,6 @@ class GameObject;
 }
 namespace GlobalNamespace {
 class BTSCharacter;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockFloatAnimator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterResultAnimationController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3955))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3969))
 // CS Name: ::BTSCharacterResultAnimationController*
 class CORDL_TYPE BTSCharacterResultAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,15 +68,15 @@ public:
 
   constexpr void __set__collidersGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method SetCharacter addr 0x20b8bbc size 0x68 virtual false final false
+  /// @brief Method SetCharacter, addr 0x2219ba4, size 0x68, virtual false, abstract: false, final false
   inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
 
-  /// @brief Method StopAnimation addr 0x20b8c24 size 0x20 virtual false final false
+  /// @brief Method StopAnimation, addr 0x2219c0c, size 0x20, virtual false, abstract: false, final false
   inline void StopAnimation();
 
   static inline ::GlobalNamespace::BTSCharacterResultAnimationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20b8c44 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2219c2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterResultAnimationController", modifiers: "&&", def_value: None }]

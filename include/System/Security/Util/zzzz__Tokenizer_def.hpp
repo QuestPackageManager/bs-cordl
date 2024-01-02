@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tokenizer)
-namespace System::Text {
-class Encoding;
-}
 namespace System::Security::Util {
-struct __Tokenizer__TokenSource;
+class __Tokenizer__ITokenReader;
 }
 namespace System::Security::Util {
 class __Tokenizer__StreamTokenReader;
 }
 namespace System::Security::Util {
-class __Tokenizer__StringMaker;
-}
-namespace System::Security::Util {
 class TokenizerStream;
 }
 namespace System::Security::Util {
-class __Tokenizer__ITokenReader;
+struct __Tokenizer__TokenSource;
+}
+namespace System::Security::Util {
+class __Tokenizer__StringMaker;
+}
+namespace System::Text {
+class Encoding;
 }
 namespace System::IO {
 class StreamReader;
@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::System::Security::Util::__Tokenizer__StringMaker);
 namespace System::Security::Util {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2888))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2892))
 // CS Name: ::Tokenizer::TokenSource
 struct CORDL_TYPE __Tokenizer__TokenSource {
 public:
@@ -129,8 +129,8 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__TokenSource, value
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2893))
 // CS Name: ::Tokenizer::StringMaker*
 class CORDL_TYPE __Tokenizer__StringMaker : public ::System::Object {
 public:
@@ -189,21 +189,21 @@ public:
 
   constexpr void __set__outIndex(int32_t value);
 
-  /// @brief Method HashString addr 0x22fc7ac size 0x6c virtual false final false
+  /// @brief Method HashString, addr 0x24562c8, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t HashString(::StringW str);
 
-  /// @brief Method HashCharArray addr 0x22fc818 size 0x5c virtual false final false
+  /// @brief Method HashCharArray, addr 0x2456334, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t HashCharArray(::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
   static inline ::System::Security::Util::__Tokenizer__StringMaker* New_ctor();
 
-  /// @brief Method .ctor addr 0x22fc874 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x2456390, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CompareStringAndChars addr 0x22fc908 size 0x94 virtual false final false
+  /// @brief Method CompareStringAndChars, addr 0x2456424, size 0x94, virtual false, abstract: false, final false
   inline bool CompareStringAndChars(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method MakeString addr 0x22f6e7c size 0x26c virtual false final false
+  /// @brief Method MakeString, addr 0x2450998, size 0x26c, virtual false, abstract: false, final false
   inline ::StringW MakeString();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Tokenizer__StringMaker", modifiers: "&&", def_value: None }]
@@ -261,12 +261,12 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__StringMaker, ____o
 namespace System::Security::Util {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2890))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2894))
 // CS Name: ::Tokenizer::ITokenReader*
 class CORDL_TYPE __Tokenizer__ITokenReader {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Read();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Tokenizer__ITokenReader", modifiers: "&&", def_value: None }]
@@ -285,8 +285,8 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2895))
 // CS Name: ::Tokenizer::StreamTokenReader*
 class CORDL_TYPE __Tokenizer__StreamTokenReader : public ::System::Object {
 public:
@@ -316,13 +316,13 @@ public:
 
   static inline ::System::Security::Util::__Tokenizer__StreamTokenReader* New_ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method .ctor addr 0x22fc590 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x24560ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method Read addr 0x22fc99c size 0x3c virtual true final false
+  /// @brief Method Read, addr 0x24564b8, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method get_NumCharEncountered addr 0x22fc9d8 size 0x8 virtual false final false
+  /// @brief Method get_NumCharEncountered, addr 0x24564f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumCharEncountered();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Tokenizer__StreamTokenReader", modifiers: "&&", def_value: None }]
@@ -359,8 +359,8 @@ static_assert(offsetof(::System::Security::Util::__Tokenizer__StreamTokenReader,
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2888)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2892))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2892)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2896))
 // CS Name: ::System.Security.Util::Tokenizer*
 class CORDL_TYPE Tokenizer : public ::System::Object {
 public:
@@ -517,24 +517,24 @@ public:
 
   constexpr void __set__inNestedString(::StringW value);
 
-  /// @brief Method BasicInitialization addr 0x22fc4bc size 0x78 virtual false final false
+  /// @brief Method BasicInitialization, addr 0x2455fd8, size 0x78, virtual false, abstract: false, final false
   inline void BasicInitialization();
 
-  /// @brief Method Recycle addr 0x22fc534 size 0x5c virtual false final false
+  /// @brief Method Recycle, addr 0x2456050, size 0x5c, virtual false, abstract: false, final false
   inline void Recycle();
 
   static inline ::System::Security::Util::Tokenizer* New_ctor(::StringW input);
 
-  /// @brief Method .ctor addr 0x22fc474 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2455f90, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
-  /// @brief Method ChangeFormat addr 0x22fbd00 size 0x224 virtual false final false
+  /// @brief Method ChangeFormat, addr 0x245581c, size 0x224, virtual false, abstract: false, final false
   inline void ChangeFormat(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetTokens addr 0x22fb4c0 size 0x7e0 virtual false final false
+  /// @brief Method GetTokens, addr 0x2454fdc, size 0x7e0, virtual false, abstract: false, final false
   inline void GetTokens(::System::Security::Util::TokenizerStream* stream, int32_t maxNum, bool endAfterKet);
 
-  /// @brief Method GetStringToken addr 0x22fc6a4 size 0x18 virtual false final false
+  /// @brief Method GetStringToken, addr 0x24561c0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW GetStringToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tokenizer", modifiers: "&&", def_value: None }]

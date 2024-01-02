@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerTexture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15564)), TypeDefinitionIndex(TypeDefinitionIndex(9927)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 730
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15995)) CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16141)) CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
 class CORDL_TYPE DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
@@ -68,33 +68,33 @@ public:
 
   constexpr void __set_mNonReadable(bool value);
 
-  /// @brief Method Create addr 0x2d48084 size 0x44 virtual false final false
+  /// @brief Method Create, addr 0x2eb0e70, size 0x44, virtual false, abstract: false, final false
   static inline void* Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
 
-  /// @brief Method InternalCreateTexture addr 0x2d480c8 size 0x4c virtual false final false
+  /// @brief Method InternalCreateTexture, addr 0x2eb0eb4, size 0x4c, virtual false, abstract: false, final false
   inline void InternalCreateTexture(bool readable);
 
   static inline ::UnityEngine::Networking::DownloadHandlerTexture* New_ctor(bool readable);
 
-  /// @brief Method .ctor addr 0x2d48024 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb0e10, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(bool readable);
 
-  /// @brief Method GetNativeData addr 0x2d48114 size 0xc virtual true final false
+  /// @brief Method GetNativeData, addr 0x2eb0f00, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method Dispose addr 0x2d48120 size 0x24 virtual true final false
+  /// @brief Method Dispose, addr 0x2eb0f0c, size 0x24, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method get_texture addr 0x2d48144 size 0x4 virtual false final false
+  /// @brief Method get_texture, addr 0x2eb0f30, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_texture();
 
-  /// @brief Method InternalGetTexture addr 0x2d48148 size 0x110 virtual false final false
+  /// @brief Method InternalGetTexture, addr 0x2eb0f34, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* InternalGetTexture();
 
-  /// @brief Method InternalGetTextureNative addr 0x2d48258 size 0x3c virtual false final false
+  /// @brief Method InternalGetTextureNative, addr 0x2eb1044, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* InternalGetTextureNative();
 
-  /// @brief Method GetContent addr 0x2d48294 size 0x54 virtual false final false
+  /// @brief Method GetContent, addr 0x2eb1080, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::Texture2D* GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "&&", def_value: None }]

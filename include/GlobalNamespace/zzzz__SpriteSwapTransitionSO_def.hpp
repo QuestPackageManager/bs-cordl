@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapTransitionSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5549))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5462))
 // CS Name: ::SpriteSwapTransitionSO*
 class CORDL_TYPE SpriteSwapTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
@@ -89,27 +89,27 @@ public:
 
   constexpr void __set__selectedAndHighlightedSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_normalSprite addr 0x213eabc size 0x8 virtual false final false
+  /// @brief Method get_normalSprite, addr 0x2280044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_normalSprite();
 
-  /// @brief Method get_highlightedSprite addr 0x213eac4 size 0x8 virtual false final false
+  /// @brief Method get_highlightedSprite, addr 0x228004c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_highlightedSprite();
 
-  /// @brief Method get_pressedSprite addr 0x213eacc size 0x8 virtual false final false
+  /// @brief Method get_pressedSprite, addr 0x2280054, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_pressedSprite();
 
-  /// @brief Method get_disabledSprite addr 0x213ead4 size 0x8 virtual false final false
+  /// @brief Method get_disabledSprite, addr 0x228005c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_disabledSprite();
 
-  /// @brief Method get_selectedSprite addr 0x213eadc size 0x8 virtual false final false
+  /// @brief Method get_selectedSprite, addr 0x2280064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_selectedSprite();
 
-  /// @brief Method get_selectedAndHighlightedSprite addr 0x213eae4 size 0x8 virtual false final false
+  /// @brief Method get_selectedAndHighlightedSprite, addr 0x228006c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_selectedAndHighlightedSprite();
 
   static inline ::GlobalNamespace::SpriteSwapTransitionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x213eaec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2280074, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteSwapTransitionSO", modifiers: "&&", def_value: None }]

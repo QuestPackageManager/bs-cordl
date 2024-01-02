@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OcspIdentifier)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class ResponderID;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace System {
-class Object;
-}
-namespace System {
 struct DateTime;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class ResponderID;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -60,26 +60,26 @@ public:
 
   constexpr void __set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method GetInstance addr 0xe1e264 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe93438, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe1e3ec size 0x210 virtual false final false
+  /// @brief Method .ctor, addr 0xe935c0, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
-  /// @brief Method .ctor addr 0xe1e5fc size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0xe937d0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
-  /// @brief Method get_OcspResponderID addr 0xe1e6c0 size 0x8 virtual false final false
+  /// @brief Method get_OcspResponderID, addr 0xe93894, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_OcspResponderID();
 
-  /// @brief Method get_ProducedAt addr 0xe1e6c8 size 0x1c virtual false final false
+  /// @brief Method get_ProducedAt, addr 0xe9389c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
-  /// @brief Method ToAsn1Object addr 0xe1e6e4 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe938b8, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspIdentifier", modifiers: "&&", def_value: None }]

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StringListSO)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class StringListSO;
@@ -16,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StringListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13976))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15871))
 // CS Name: ::StringListSO*
 class CORDL_TYPE StringListSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -25,7 +28,7 @@ public:
   /// @brief Field _strings, offset 0x18, size 0x8
   __declspec(property(get = __get__strings, put = __set__strings))::ArrayW<::StringW, ::Array<::StringW>*> _strings;
 
-  __declspec(property(get = get_strings))::ArrayW<::StringW, ::Array<::StringW>*> strings;
+  __declspec(property(get = get_strings))::System::Collections::Generic::IReadOnlyList_1<::StringW>* strings;
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__strings();
 
@@ -33,12 +36,12 @@ public:
 
   constexpr void __set__strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_strings addr 0x1fa310c size 0x8 virtual false final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_strings();
+  /// @brief Method get_strings, addr 0xe28a80, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_strings();
 
   static inline ::GlobalNamespace::StringListSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fa3114 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe28a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringListSO", modifiers: "&&", def_value: None }]

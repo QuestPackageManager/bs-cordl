@@ -10,65 +10,65 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectWriter)
-namespace System::Runtime::Serialization::Formatters::Binary {
-class SerStack;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class InternalFE;
-}
-namespace System::Runtime::Serialization {
-class ObjectIDGenerator;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-class NameInfo;
-}
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System::Runtime::Remoting::Messaging {
-class Header;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
-}
-namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization::Formatters {
-struct FormatterTypeStyle;
+namespace System::Runtime::Serialization {
+class SerializationObjectManager;
 }
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
-namespace System {
-class Array;
+namespace System::Runtime::Serialization::Formatters::Binary {
+class SerStack;
 }
-namespace System::Runtime::Serialization {
-class SerializationObjectManager;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class Queue;
 }
 namespace System {
-class Object;
+class Array;
 }
-namespace System::Runtime::Serialization::Formatters::Binary {
-class WriteObjectInfo;
+namespace System::Runtime::Remoting::Messaging {
+class Header;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
 class SerObjectInfoInit;
 }
 namespace System::Runtime::Serialization {
 class IFormatterConverter;
+}
+namespace System::Collections {
+class Hashtable;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
+namespace System::Runtime::Serialization::Formatters {
+struct FormatterTypeStyle;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class InternalFE;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class WriteObjectInfo;
+}
+namespace System {
+class Type;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class NameInfo;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
+class __BinaryWriter;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
+class ObjectIDGenerator;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -80,8 +80,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectWrite
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3234)), TypeDefinitionIndex(TypeDefinitionIndex(3252))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3253)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3289))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectWriter*
 class CORDL_TYPE ObjectWriter : public ::System::Object {
 public:
@@ -282,117 +282,117 @@ public:
                                                                                              ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums,
                                                                                              ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method .ctor addr 0x2376d10 size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x24cf814, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context,
                     ::System::Runtime::Serialization::Formatters::Binary::InternalFE* formatterEnums, ::System::Runtime::Serialization::SerializationBinder* binder);
 
-  /// @brief Method Serialize addr 0x2376e08 size 0x3e4 virtual false final false
+  /// @brief Method Serialize, addr 0x24cf90c, size 0x3e4, virtual false, abstract: false, final false
   inline void Serialize(::System::Object* graph, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> inHeaders,
                         ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* serWriter, bool fCheck);
 
-  /// @brief Method get_ObjectManager addr 0x2377a34 size 0x8 virtual false final false
+  /// @brief Method get_ObjectManager, addr 0x24d0538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationObjectManager* get_ObjectManager();
 
-  /// @brief Method Write addr 0x2377528 size 0x37c virtual false final false
+  /// @brief Method Write, addr 0x24d002c, size 0x37c, virtual false, abstract: false, final false
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo,
                     ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo);
 
-  /// @brief Method Write addr 0x237822c size 0x254 virtual false final false
+  /// @brief Method Write, addr 0x24d0d30, size 0x254, virtual false, abstract: false, final false
   inline void
   Write(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo,
         ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> memberData,
         ::ArrayW<::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*, ::Array<::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*>*> memberObjectInfos);
 
-  /// @brief Method WriteMemberSetup addr 0x23784a0 size 0xdc virtual false final false
+  /// @brief Method WriteMemberSetup, addr 0x24d0fa4, size 0xdc, virtual false, abstract: false, final false
   inline void WriteMemberSetup(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo,
                                ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::StringW memberName, ::System::Type* memberType, ::System::Object* memberData,
                                ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* memberObjectInfo);
 
-  /// @brief Method WriteMembers addr 0x23785b8 size 0x328 virtual false final false
+  /// @brief Method WriteMembers, addr 0x24d10bc, size 0x328, virtual false, abstract: false, final false
   inline void WriteMembers(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberTypeNameInfo,
                            ::System::Object* memberData, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo,
                            ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* memberObjectInfo);
 
-  /// @brief Method WriteArray addr 0x2377a3c size 0x74c virtual false final false
+  /// @brief Method WriteArray, addr 0x24d0540, size 0x74c, virtual false, abstract: false, final false
   inline void WriteArray(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo,
                          ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* memberObjectInfo);
 
-  /// @brief Method WriteArrayMember addr 0x2378bbc size 0x278 virtual false final false
+  /// @brief Method WriteArrayMember, addr 0x24d16c0, size 0x278, virtual false, abstract: false, final false
   inline void WriteArrayMember(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemTypeNameInfo,
                                ::System::Object* data);
 
-  /// @brief Method WriteRectangle addr 0x2378e34 size 0x23c virtual false final false
+  /// @brief Method WriteRectangle, addr 0x24d1938, size 0x23c, virtual false, abstract: false, final false
   inline void WriteRectangle(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> maxA, ::System::Array* array,
                              ::System::Runtime::Serialization::Formatters::Binary::NameInfo* arrayElemNameTypeInfo, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA);
 
-  /// @brief Method GetNext addr 0x23778bc size 0x178 virtual false final false
+  /// @brief Method GetNext, addr 0x24d03c0, size 0x178, virtual false, abstract: false, final false
   inline ::System::Object* GetNext(ByRef<int64_t> objID);
 
-  /// @brief Method InternalGetId addr 0x2377210 size 0xc4 virtual false final false
+  /// @brief Method InternalGetId, addr 0x24cfd14, size 0xc4, virtual false, abstract: false, final false
   inline int64_t InternalGetId(::System::Object* obj, bool assignUniqueIdToValueType, ::System::Type* type, ByRef<bool> isNew);
 
-  /// @brief Method Schedule addr 0x23790bc size 0xc virtual false final false
+  /// @brief Method Schedule, addr 0x24d1bc0, size 0xc, virtual false, abstract: false, final false
   inline int64_t Schedule(::System::Object* obj, bool assignUniqueIdToValueType, ::System::Type* type);
 
-  /// @brief Method Schedule addr 0x2378a20 size 0x8c virtual false final false
+  /// @brief Method Schedule, addr 0x24d1524, size 0x8c, virtual false, abstract: false, final false
   inline int64_t Schedule(::System::Object* obj, bool assignUniqueIdToValueType, ::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo);
 
-  /// @brief Method WriteKnownValueClass addr 0x2378ac8 size 0xf4 virtual false final false
+  /// @brief Method WriteKnownValueClass, addr 0x24d15cc, size 0xf4, virtual false, abstract: false, final false
   inline bool WriteKnownValueClass(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo,
                                    ::System::Object* data);
 
-  /// @brief Method WriteObjectRef addr 0x2378aac size 0x1c virtual false final false
+  /// @brief Method WriteObjectRef, addr 0x24d15b0, size 0x1c, virtual false, abstract: false, final false
   inline void WriteObjectRef(::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo, int64_t objectId);
 
-  /// @brief Method WriteString addr 0x23790c8 size 0x100 virtual false final false
+  /// @brief Method WriteString, addr 0x24d1bcc, size 0x100, virtual false, abstract: false, final false
   inline void WriteString(::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo,
                           ::System::Object* stringObject);
 
-  /// @brief Method CheckForNull addr 0x23788e0 size 0xb8 virtual false final false
+  /// @brief Method CheckForNull, addr 0x24d13e4, size 0xb8, virtual false, abstract: false, final false
   inline bool CheckForNull(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* memberNameInfo,
                            ::System::Runtime::Serialization::Formatters::Binary::NameInfo* typeNameInfo, ::System::Object* data);
 
-  /// @brief Method WriteSerializedStreamHeader addr 0x23771ec size 0x24 virtual false final false
+  /// @brief Method WriteSerializedStreamHeader, addr 0x24cfcf0, size 0x24, virtual false, abstract: false, final false
   inline void WriteSerializedStreamHeader(int64_t topId, int64_t headerId);
 
-  /// @brief Method TypeToNameInfo addr 0x23791c8 size 0x94 virtual false final false
+  /// @brief Method TypeToNameInfo, addr 0x24d1ccc, size 0x94, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* TypeToNameInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
 
-  /// @brief Method TypeToNameInfo addr 0x237857c size 0x3c virtual false final false
+  /// @brief Method TypeToNameInfo, addr 0x24d1080, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* TypeToNameInfo(::System::Type* type);
 
-  /// @brief Method TypeToNameInfo addr 0x23774e4 size 0x44 virtual false final false
+  /// @brief Method TypeToNameInfo, addr 0x24cffe8, size 0x44, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* TypeToNameInfo(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo);
 
-  /// @brief Method TypeToNameInfo addr 0x23789d0 size 0x50 virtual false final false
+  /// @brief Method TypeToNameInfo, addr 0x24d14d4, size 0x50, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* TypeToNameInfo(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo,
                                                                                         ::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
 
-  /// @brief Method TypeToNameInfo addr 0x2378998 size 0x38 virtual false final false
+  /// @brief Method TypeToNameInfo, addr 0x24d149c, size 0x38, virtual false, abstract: false, final false
   inline void TypeToNameInfo(::System::Type* type, ::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
 
-  /// @brief Method MemberToNameInfo addr 0x2378480 size 0x20 virtual false final false
+  /// @brief Method MemberToNameInfo, addr 0x24d0f84, size 0x20, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* MemberToNameInfo(::StringW name);
 
-  /// @brief Method ToCode addr 0x23781ac size 0x80 virtual false final false
+  /// @brief Method ToCode, addr 0x24d0cb0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(::System::Type* type);
 
-  /// @brief Method GetAssemblyId addr 0x23772d4 size 0x210 virtual false final false
+  /// @brief Method GetAssemblyId, addr 0x24cfdd8, size 0x210, virtual false, abstract: false, final false
   inline int64_t GetAssemblyId(::System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo* objectInfo);
 
-  /// @brief Method GetType addr 0x2378194 size 0x18 virtual false final false
+  /// @brief Method GetType, addr 0x24d0c98, size 0x18, virtual false, abstract: false, final false
   inline ::System::Type* GetType(::System::Object* obj);
 
-  /// @brief Method GetNameInfo addr 0x237925c size 0xb8 virtual false final false
+  /// @brief Method GetNameInfo, addr 0x24d1d60, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::Formatters::Binary::NameInfo* GetNameInfo();
 
-  /// @brief Method CheckTypeFormat addr 0x2378188 size 0xc virtual false final false
+  /// @brief Method CheckTypeFormat, addr 0x24d0c8c, size 0xc, virtual false, abstract: false, final false
   inline bool CheckTypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle test, ::System::Runtime::Serialization::Formatters::FormatterTypeStyle want);
 
-  /// @brief Method PutNameInfo addr 0x23778a4 size 0x18 virtual false final false
+  /// @brief Method PutNameInfo, addr 0x24d03a8, size 0x18, virtual false, abstract: false, final false
   inline void PutNameInfo(::System::Runtime::Serialization::Formatters::Binary::NameInfo* nameInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectWriter", modifiers: "&&", def_value: None }]

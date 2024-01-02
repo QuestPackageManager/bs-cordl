@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IWrappedDictionary)
 namespace System::Collections {
-class IDictionary;
+class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
-class ICollection;
+class IDictionary;
 }
 namespace System {
 class Object;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedDictionary);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11808))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11880))
 // CS Name: ::Newtonsoft.Json.Utilities::IWrappedDictionary*
 class CORDL_TYPE IWrappedDictionary {
 public:
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_UnderlyingDictionary addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_UnderlyingDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_UnderlyingDictionary();
 
   // Ctor Parameters [CppParam { name: "", ty: "IWrappedDictionary", modifiers: "&&", def_value: None }]

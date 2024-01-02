@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerNameList);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1268))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerNameList*
 class CORDL_TYPE ServerNameList : public ::System::Object {
@@ -41,19 +41,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* New_ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method .ctor addr 0xf1eff4 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0xf9521c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* serverNameList);
 
-  /// @brief Method get_ServerNames addr 0xf1f06c size 0x8 virtual true final false
+  /// @brief Method get_ServerNames, addr 0xf95294, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_ServerNames();
 
-  /// @brief Method Encode addr 0xf1f074 size 0x4bc virtual true final false
+  /// @brief Method Encode, addr 0xf9529c, size 0x4bc, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf1f5cc size 0x29c virtual false final false
+  /// @brief Method Parse, addr 0xf957f4, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Parse(::System::IO::Stream* input);
 
-  /// @brief Method CheckNameType addr 0xf1f530 size 0x9c virtual false final false
+  /// @brief Method CheckNameType, addr 0xf95758, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckNameType(::ArrayW<uint8_t, ::Array<uint8_t>*> nameTypesSeen, uint8_t nameType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "&&", def_value: None }]

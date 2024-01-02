@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MonoFileType);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3617))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3629))
 // CS Name: ::System.IO::MonoFileType
 struct CORDL_TYPE MonoFileType {
 public:

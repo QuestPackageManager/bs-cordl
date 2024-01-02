@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1TaggedObject)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class IAsn1Convertible;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+class Asn1Object;
 }
 namespace System {
 class Object;
@@ -72,47 +72,47 @@ public:
 
   constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method IsConstructed addr 0x1149a0c size 0x130 virtual false final false
+  /// @brief Method IsConstructed, addr 0x11bac5c, size 0x130, virtual false, abstract: false, final false
   static inline bool IsConstructed(bool isExplicit, ::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method GetInstance addr 0x1149b3c size 0x78 virtual false final false
+  /// @brief Method GetInstance, addr 0x11bad8c, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x1149bb4 size 0x100 virtual false final false
+  /// @brief Method GetInstance, addr 0x11bae04, size 0x100, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor addr 0x1149cb4 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x11baf04, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1TaggedObject* New_ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method .ctor addr 0x1149cf8 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x11baf48, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool explicitly, int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method Asn1Equals addr 0x1149d84 size 0xf8 virtual true final false
+  /// @brief Method Asn1Equals, addr 0x11bafd4, size 0xf8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode addr 0x1149e7c size 0x3c virtual true final false
+  /// @brief Method Asn1GetHashCode, addr 0x11bb0cc, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method get_TagNo addr 0x1149eb8 size 0x8 virtual true final true
+  /// @brief Method get_TagNo, addr 0x11bb108, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
-  /// @brief Method IsExplicit addr 0x1149ec0 size 0x8 virtual false final false
+  /// @brief Method IsExplicit, addr 0x11bb110, size 0x8, virtual false, abstract: false, final false
   inline bool IsExplicit();
 
-  /// @brief Method IsEmpty addr 0x1149ec8 size 0x8 virtual false final false
+  /// @brief Method IsEmpty, addr 0x11bb118, size 0x8, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
-  /// @brief Method GetObject addr 0x1139968 size 0x18 virtual false final false
+  /// @brief Method GetObject, addr 0x11aabb0, size 0x18, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetObject();
 
-  /// @brief Method GetObjectParser addr 0x1149ed0 size 0x130 virtual true final true
+  /// @brief Method GetObjectParser, addr 0x11bb120, size 0x130, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
-  /// @brief Method ToString addr 0x114a000 size 0x178 virtual true final false
+  /// @brief Method ToString, addr 0x11bb250, size 0x178, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1TaggedObject", modifiers: "&&", def_value: None }]

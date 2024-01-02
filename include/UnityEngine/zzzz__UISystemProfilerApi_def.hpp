@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UISystemProfilerApi);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15769))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15663))
 // CS Name: ::UISystemProfilerApi::SampleType
 struct CORDL_TYPE __UISystemProfilerApi__SampleType {
 public:
@@ -77,21 +77,21 @@ static_assert(offsetof(::UnityEngine::__UISystemProfilerApi__SampleType, value__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15770))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15664))
 // CS Name: ::UnityEngine::UISystemProfilerApi*
 class CORDL_TYPE UISystemProfilerApi : public ::System::Object {
 public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method BeginSample addr 0x2d41f94 size 0x3c virtual false final false
+  /// @brief Method BeginSample, addr 0x2eab674, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method EndSample addr 0x2d41fd0 size 0x3c virtual false final false
+  /// @brief Method EndSample, addr 0x2eab6b0, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method AddMarker addr 0x2d4200c size 0x44 virtual false final false
+  /// @brief Method AddMarker, addr 0x2eab6ec, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "UISystemProfilerApi", modifiers: "&&", def_value: None }]

@@ -2,18 +2,18 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Spectrogram_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
-#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
+#include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
+#include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Spectrogram.get_materialPropertyBlock
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MaterialPropertyBlock* (::GlobalNamespace::Spectrogram::*)()>(
     &::GlobalNamespace::Spectrogram::get_materialPropertyBlock)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x227dee4;
+  constexpr static std::size_t addrs = 0x23b6cfc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(),
                                                                                "get_materialPropertyBlock", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -23,10 +23,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::Awake)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x227df98;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x23b6db0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), "Awake",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -36,10 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::Update)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x227e080;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x23b6ea0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), "Update",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -50,14 +50,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x227e1dc;
+  constexpr static std::size_t addrs = 0x23b7048;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
+constexpr bool& GlobalNamespace::Spectrogram::__get__setAsGlobal() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setAsGlobal;
+}
+constexpr bool const& GlobalNamespace::Spectrogram::__get__setAsGlobal() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____setAsGlobal;
+}
+constexpr void GlobalNamespace::Spectrogram::__set__setAsGlobal(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____setAsGlobal = value;
+}
 constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*>& GlobalNamespace::Spectrogram::__get__meshRenderers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderers;

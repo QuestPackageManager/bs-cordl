@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_6_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceIdBinder_6)
-namespace Zenject {
-template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryArgumentsToChoiceBinder_6;
+namespace System {
+class Object;
 }
 namespace Zenject {
-class FactoryBindInfo;
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract> class FactoryArgumentsToChoiceBinder_6;
 }
 namespace Zenject {
 class BindInfo;
@@ -16,8 +16,8 @@ class BindInfo;
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -31,8 +31,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10637), inst: 1714 }), TypeDefinitionIndex(TypeDefinitionIndex(10637))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10709)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10709), inst: 1778 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10862))
 // CS Name: ::Zenject::FactoryToChoiceIdBinder`6<TParam1,TParam2,TParam3,TParam4,TParam5,TContract>*
 class CORDL_TYPE FactoryToChoiceIdBinder_6 : public ::Zenject::FactoryArgumentsToChoiceBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract> {
 public:
@@ -40,10 +40,10 @@ public:
   static inline ::Zenject::FactoryToChoiceIdBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                                                        ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method WithId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryArgumentsToChoiceBinder_6<TParam1, TParam2, TParam3, TParam4, TParam5, TContract>* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceIdBinder_6", modifiers: "&&", def_value: None }]

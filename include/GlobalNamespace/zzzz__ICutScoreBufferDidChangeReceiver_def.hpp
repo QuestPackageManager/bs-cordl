@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ICutScoreBufferDidChangeReceiver);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5312))
 // CS Name: ::ICutScoreBufferDidChangeReceiver*
 class CORDL_TYPE ICutScoreBufferDidChangeReceiver {
 public:
   // Declarations
-  /// @brief Method HandleCutScoreBufferDidChange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleCutScoreBufferDidChange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICutScoreBufferDidChangeReceiver", modifiers: "&&", def_value: None }]

@@ -17,19 +17,19 @@ MARK_REF_PTR_T(::UnityEngine::HumanTrait);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15096))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14869))
 // CS Name: ::UnityEngine::HumanTrait*
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MuscleCount addr 0x2b2aa28 size 0x28 virtual false final false
+  /// @brief Method get_MuscleCount, addr 0x2c906c8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_MuscleCount();
 
-  /// @brief Method GetBoneIndexFromMono addr 0x2b2996c size 0x3c virtual false final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x2c8e894, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
 
-  /// @brief Method get_MuscleName addr 0x2b2aa50 size 0x28 virtual false final false
+  /// @brief Method get_MuscleName, addr 0x2c906f0, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_MuscleName();
 
   // Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackedDeviceProperty);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8587))
 // CS Name: ::OVR.OpenVR::ETrackedDeviceProperty
 struct CORDL_TYPE ETrackedDeviceProperty {
 public:

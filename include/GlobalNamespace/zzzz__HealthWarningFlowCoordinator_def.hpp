@@ -8,22 +8,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HealthWarningFlowCoordinator)
 namespace GlobalNamespace {
-class SelectRegionViewController;
+class ISaveData;
 }
 namespace GlobalNamespace {
 class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
-class SelectLanguageViewController;
+class SelectRegionViewController;
 }
 namespace GlobalNamespace {
-class DlcPromoPanelModel;
+struct __PrivacyPolicyViewController__ButtonType;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
+class __HealthWarningFlowCoordinator__InitData;
+}
+namespace GlobalNamespace {
 class HealthWarningViewController;
+}
+namespace GlobalNamespace {
+class SelectLanguageViewController;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+struct __SelectRegionViewController__Region;
+}
+namespace GlobalNamespace {
+class EulaViewController;
 }
 namespace GlobalNamespace {
 class PrivacyPolicyViewController;
@@ -32,37 +53,16 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class ExplicitContentWarningViewController;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
 }
 namespace GlobalNamespace {
-class ISaveData;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace GlobalNamespace {
-struct __PrivacyPolicyViewController__ButtonType;
+struct __EulaViewController__ButtonType;
 }
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
-}
-namespace GlobalNamespace {
-class EulaViewController;
-}
-namespace GlobalNamespace {
-struct __SelectRegionViewController__Region;
-}
-namespace GlobalNamespace {
-struct __EulaViewController__ButtonType;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class __HealthWarningFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -81,8 +81,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5595))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5497))
 // CS Name: ::HealthWarningFlowCoordinator::InitData*
 class CORDL_TYPE __HealthWarningFlowCoordinator__InitData : public ::System::Object {
 public:
@@ -98,7 +98,7 @@ public:
 
   static inline ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method .ctor addr 0x2145c00 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2289c80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HealthWarningFlowCoordinator__InitData", modifiers: "&&", def_value: None }]
@@ -130,8 +130,8 @@ static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator__InitDa
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5847)), TypeDefinitionIndex(TypeDefinitionIndex(13699))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582)), TypeDefinitionIndex(TypeDefinitionIndex(5749))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5498))
 // CS Name: ::HealthWarningFlowCoordinator*
 class CORDL_TYPE HealthWarningFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -160,11 +160,12 @@ public:
   /// @brief Field _healthWarningViewController, offset 0xd8, size 0x8
   __declspec(property(get = __get__healthWarningViewController, put = __set__healthWarningViewController))::GlobalNamespace::HealthWarningViewController* _healthWarningViewController;
 
-  /// @brief Field _playerDataModel, offset 0xe0, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  /// @brief Field _explicitContentWarningViewController, offset 0xe0, size 0x8
+  __declspec(property(get = __get__explicitContentWarningViewController,
+                      put = __set__explicitContentWarningViewController))::GlobalNamespace::ExplicitContentWarningViewController* _explicitContentWarningViewController;
 
-  /// @brief Field _dlcPromoPanelModel, offset 0xe8, size 0x8
-  __declspec(property(get = __get__dlcPromoPanelModel, put = __set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
+  /// @brief Field _playerDataModel, offset 0xe8, size 0x8
+  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
 
   /// @brief Field _fadeInOut, offset 0xf0, size 0x8
   __declspec(property(get = __get__fadeInOut, put = __set__fadeInOut))::GlobalNamespace::FadeInOutController* _fadeInOut;
@@ -226,17 +227,17 @@ public:
 
   constexpr void __set__healthWarningViewController(::GlobalNamespace::HealthWarningViewController* value);
 
+  constexpr ::GlobalNamespace::ExplicitContentWarningViewController*& __get__explicitContentWarningViewController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExplicitContentWarningViewController*> const& __get__explicitContentWarningViewController() const;
+
+  constexpr void __set__explicitContentWarningViewController(::GlobalNamespace::ExplicitContentWarningViewController* value);
+
   constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
 
   constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
-
-  constexpr ::GlobalNamespace::DlcPromoPanelModel*& __get__dlcPromoPanelModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelModel*> const& __get__dlcPromoPanelModel() const;
-
-  constexpr void __set__dlcPromoPanelModel(::GlobalNamespace::DlcPromoPanelModel* value);
 
   constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOut();
 
@@ -274,48 +275,51 @@ public:
 
   constexpr void __set__selectedRegion(::GlobalNamespace::__SelectRegionViewController__Region value);
 
-  /// @brief Method DidActivate addr 0x2145084 size 0x460 virtual true final false
+  /// @brief Method DidActivate, addr 0x2289010, size 0x4c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2145534 size 0x264 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x2289520, size 0x2b0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method TopViewControllerWillChange addr 0x2145798 size 0x84 virtual true final false
+  /// @brief Method TopViewControllerWillChange, addr 0x22897d0, size 0x84, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method Update addr 0x214581c size 0x2c virtual false final false
+  /// @brief Method Update, addr 0x2289854, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage addr 0x21458dc size 0x84 virtual false final false
+  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguage, addr 0x2289970, size 0x84, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidChangeLanguage();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton addr 0x2145960 size 0x4c virtual false final false
+  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x22899f4, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidPressContinueButton();
 
-  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton addr 0x21459ac size 0x30 virtual false final false
+  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x2289a40, size 0x30, virtual false, abstract: false, final false
   inline void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::__SelectRegionViewController__Region region);
 
-  /// @brief Method HandleEulaViewControllerDidFinish addr 0x2145ad0 size 0x7c virtual false final false
+  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x2289b64, size 0x7c, virtual false, abstract: false, final false
   inline void HandleEulaViewControllerDidFinish(::GlobalNamespace::__EulaViewController__ButtonType buttonType);
 
-  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish addr 0x2145b4c size 0x58 virtual false final false
+  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x2289be0, size 0x58, virtual false, abstract: false, final false
   inline void HandlePrivacyPolicyViewControllerDidFinish(::GlobalNamespace::__PrivacyPolicyViewController__ButtonType buttonType);
 
-  /// @brief Method HandleHealthWarningViewControllerDidFinish addr 0x2145848 size 0x94 virtual false final false
+  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x2289880, size 0xf0, virtual false, abstract: false, final false
   inline void HandleHealthWarningViewControllerDidFinish();
 
-  /// @brief Method ResolveMainViewController addr 0x21454e4 size 0x50 virtual false final false
+  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x2289c74, size 0x4, virtual false, abstract: false, final false
+  inline void HandleExplicitContentWarningViewControllerDidFinish();
+
+  /// @brief Method ResolveMainViewController, addr 0x22894d0, size 0x50, virtual false, abstract: false, final false
   inline ::HMUI::ViewController* ResolveMainViewController();
 
-  /// @brief Method ResolvePlayerAgreementsViewController addr 0x21459dc size 0xf4 virtual false final false
+  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x2289a70, size 0xf4, virtual false, abstract: false, final false
   inline ::HMUI::ViewController* ResolvePlayerAgreementsViewController();
 
-  /// @brief Method GoToNextScene addr 0x2145ba4 size 0x54 virtual false final false
+  /// @brief Method GoToNextScene, addr 0x2289c38, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2145bf8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2289c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HealthWarningFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -353,11 +357,11 @@ public:
   /// @brief Field _healthWarningViewController, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::HealthWarningViewController* ____healthWarningViewController;
 
-  /// @brief Field _playerDataModel, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  /// @brief Field _explicitContentWarningViewController, offset: 0xe0, size: 0x8, def value: None
+  ::GlobalNamespace::ExplicitContentWarningViewController* ____explicitContentWarningViewController;
 
-  /// @brief Field _dlcPromoPanelModel, offset: 0xe8, size: 0x8, def value: None
-  ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;
+  /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
+  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
 
   /// @brief Field _fadeInOut, offset: 0xf0, size: 0x8, def value: None
   ::GlobalNamespace::FadeInOutController* ____fadeInOut;
@@ -396,9 +400,9 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____priv
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningViewController) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____playerDataModel) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____explicitContentWarningViewController) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____dlcPromoPanelModel) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____playerDataModel) == 0xe8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____fadeInOut) == 0xf0, "Offset mismatch!");
 

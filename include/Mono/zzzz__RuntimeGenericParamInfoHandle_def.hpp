@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeGenericParamInfoHandle)
-namespace System {
-class Type;
+namespace System::Reflection {
+struct GenericParameterAttributes;
 }
 namespace Mono {
 struct __RuntimeStructs__GenericParamInfo;
 }
-namespace System::Reflection {
-struct GenericParameterAttributes;
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Mono {
@@ -35,19 +35,19 @@ public:
 
   __declspec(property(get = get_Attributes))::System::Reflection::GenericParameterAttributes Attributes;
 
-  /// @brief Method .ctor addr 0x22b8bf8 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2412678, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method get_Constraints addr 0x22b8c18 size 0x4 virtual false final false
+  /// @brief Method get_Constraints, addr 0x2412698, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> get_Constraints();
 
-  /// @brief Method get_Attributes addr 0x22b8d48 size 0x1c virtual false final false
+  /// @brief Method get_Attributes, addr 0x24127c8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Reflection::GenericParameterAttributes get_Attributes();
 
-  /// @brief Method GetConstraints addr 0x22b8c1c size 0x12c virtual false final false
+  /// @brief Method GetConstraints, addr 0x241269c, size 0x12c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetConstraints();
 
-  /// @brief Method GetConstraintsCount addr 0x22b8d64 size 0x40 virtual false final false
+  /// @brief Method GetConstraintsCount, addr 0x24127e4, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetConstraintsCount();
 
   // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::__RuntimeStructs__GenericParamInfo>", modifiers: "", def_value: None }]

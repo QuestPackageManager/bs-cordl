@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderTextureMemoryless);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10049))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10121))
 // CS Name: ::UnityEngine::RenderTextureMemoryless
 struct CORDL_TYPE RenderTextureMemoryless {
 public:

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_Transform)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_Transform;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_Transform);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9653)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9726))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9894))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_Transform*
 class CORDL_TYPE Test_HAPI_Transform : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_Transform* New_ctor(::HoudiniEngineUnity::HAPI_Transform self);
 
-  /// @brief Method .ctor addr 0x208a518 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x21e2eb4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_Transform self);
 
-  /// @brief Method IsEquivalentTo addr 0x208a54c size 0x200 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e2ee8, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_Transform* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_Transform", modifiers: "&&", def_value: None }]

@@ -12,10 +12,10 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace TMPro {
-class TMP_FontAsset;
+class TMP_SpriteAsset;
 }
 namespace TMPro {
-class TMP_SpriteAsset;
+class TMP_FontAsset;
 }
 namespace UnityEngine {
 class Material;
@@ -31,23 +31,23 @@ MARK_VAL_T(::TMPro::MaterialReference);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12232))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12304))
 // CS Name: ::TMPro::MaterialReference
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2a6bf88 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2befcdc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
-  /// @brief Method Contains addr 0x2a6c004 size 0xfc virtual false final false
+  /// @brief Method Contains, addr 0x2befd58, size 0xfc, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*> materialReferences, ::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method AddMaterialReference addr 0x2a6c100 size 0x20c virtual false final false
+  /// @brief Method AddMaterialReference, addr 0x2befe54, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_FontAsset* fontAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference addr 0x2a6c30c size 0x1d8 virtual false final false
+  /// @brief Method AddMaterialReference, addr 0x2bf0060, size 0x1d8, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::TMPro::TMP_SpriteAsset* spriteAsset,
                                              ByRef<::ArrayW<::TMPro::MaterialReference, ::Array<::TMPro::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);

@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(CollectionPool_2)
 namespace UnityEngine::Pool {
+template <typename TCollection, typename TItem> class __CollectionPool_2____c;
+}
+namespace UnityEngine::Pool {
 template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::Pool {
 template <typename T> struct PooledObject_1;
-}
-namespace UnityEngine::Pool {
-template <typename TCollection, typename TItem> class __CollectionPool_2____c;
 }
 // Forward declare root types
 namespace UnityEngine::Pool {
@@ -30,8 +30,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10365))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10443))
 // CS Name: ::CollectionPool`2::<>c<TCollection,TItem>*
 class CORDL_TYPE __CollectionPool_2____c : public ::System::Object {
 public:
@@ -45,13 +45,13 @@ public:
 
   static inline ::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.cctor>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TCollection __cctor_b__5_0();
 
-  /// @brief Method <.cctor>b__5_1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.cctor>b__5_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__5_1(TCollection l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CollectionPool_2____c", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename TCollection, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10444))
 // CS Name: ::UnityEngine.Pool::CollectionPool`2<TCollection,TItem>*
 class CORDL_TYPE CollectionPool_2 : public ::System::Object {
 public:
@@ -93,13 +93,13 @@ public:
 
   static inline ::UnityEngine::Pool::ObjectPool_1<TCollection>* getStaticF_s_Pool();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TCollection Get();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pool::PooledObject_1<TCollection> Get(ByRef<TCollection> value);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(TCollection toRelease);
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionPool_2", modifiers: "&&", def_value: None }]

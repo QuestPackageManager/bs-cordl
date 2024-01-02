@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::RichPresenceExtraContext);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13382))
 // CS Name: ::Oculus.Platform::RichPresenceExtraContext
 struct CORDL_TYPE RichPresenceExtraContext {
 public:

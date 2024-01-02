@@ -26,13 +26,13 @@ namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10087))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10046))
 // CS Name: ::UnityEngine::ExposedReference`1<T>
 struct CORDL_TYPE ExposedReference_1 {
 public:
   // Declarations
-  /// @brief Method Resolve addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Resolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Resolve(::UnityEngine::IExposedPropertyTable* resolver);
 
   // Ctor Parameters [CppParam { name: "exposedName", ty: "::UnityEngine::PropertyName", modifiers: "", def_value: None }, CppParam { name: "defaultValue", ty: "::UnityEngine::Object*", modifiers: "",

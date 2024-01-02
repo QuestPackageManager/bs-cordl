@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflect
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10330))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10408))
 // CS Name: ::UnityEngine.Experimental.Rendering::IScriptableRuntimeReflectionSystem*
 class CORDL_TYPE IScriptableRuntimeReflectionSystem {
 public:
@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method TickRealtimeProbes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TickRealtimeProbes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TickRealtimeProbes();
 
   // Ctor Parameters [CppParam { name: "", ty: "IScriptableRuntimeReflectionSystem", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_ResourceManager)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace TMPro {
 class TMP_Settings;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace TMPro {
 class TMP_FontAsset;
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::TMPro::TMP_ResourceManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12335))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12407))
 // CS Name: ::TMPro::TMP_ResourceManager*
 class CORDL_TYPE TMP_ResourceManager : public ::System::Object {
 public:
@@ -63,21 +63,21 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_FontAsset*>* getStaticF_s_FontAssetReferenceLookup();
 
-  /// @brief Method GetTextSettings addr 0x2abb834 size 0x110 virtual false final false
+  /// @brief Method GetTextSettings, addr 0x2c3f588, size 0x110, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Settings* GetTextSettings();
 
-  /// @brief Method AddFontAsset addr 0x2abb944 size 0x154 virtual false final false
+  /// @brief Method AddFontAsset, addr 0x2c3f698, size 0x154, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method TryGetFontAsset addr 0x2abba98 size 0x94 virtual false final false
+  /// @brief Method TryGetFontAsset, addr 0x2c3f7ec, size 0x94, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashcode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method RebuildFontAssetCache addr 0x2abbb2c size 0x118 virtual false final false
+  /// @brief Method RebuildFontAssetCache, addr 0x2c3f880, size 0x118, virtual false, abstract: false, final false
   static inline void RebuildFontAssetCache(int32_t instanceID);
 
   static inline ::TMPro::TMP_ResourceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2abb82c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c3f580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ResourceManager", modifiers: "&&", def_value: None }]

@@ -34,24 +34,24 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13261))
 // CS Name: ::Message`1::Callback<T>*
 class CORDL_TYPE __Message_1__Callback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Oculus::Platform::__Message_1__Callback<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::Oculus::Platform::Message_1<T>* message);
 
-  /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Oculus::Platform::Message_1<T>* message, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Message_1__Callback", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13273))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13269))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13266))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13262))
 // CS Name: ::Oculus.Platform::Message`1<T>*
 class CORDL_TYPE Message_1 : public ::Oculus::Platform::Message {
 public:
@@ -99,13 +99,13 @@ public:
 
   static inline ::Oculus::Platform::Message_1<T>* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method get_Data addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Data();
 
-  /// @brief Method GetDataFromMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "Message_1", modifiers: "&&", def_value: None }]

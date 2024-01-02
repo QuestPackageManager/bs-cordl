@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserReportID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13554))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13491))
 // CS Name: ::Oculus.Platform.Models::UserReportID*
 class CORDL_TYPE UserReportID : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::UserReportID* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b85d8 size 0x108c virtual false final false
+  /// @brief Method .ctor, addr 0x2709434, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "UserReportID", modifiers: "&&", def_value: None }]

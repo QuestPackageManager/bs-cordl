@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDevices)
 namespace UnityEngine::XR {
-struct XRNode;
+struct InputDevice;
+}
+namespace UnityEngine::XR {
+struct ConnectionChangeType;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::XR {
-struct ConnectionChangeType;
-}
-namespace UnityEngine::XR {
-struct InputDevice;
+struct XRNode;
 }
 // Forward declare root types
 namespace UnityEngine::XR {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::InputDevices);
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15582))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15625))
 // CS Name: ::UnityEngine.XR::InputDevices*
 class CORDL_TYPE InputDevices : public ::System::Object {
 public:
@@ -56,22 +56,22 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::XR::InputDevice>* getStaticF_deviceConfigChanged();
 
-  /// @brief Method GetDeviceAtXRNode addr 0x2d49adc size 0x44 virtual false final false
+  /// @brief Method GetDeviceAtXRNode, addr 0x2eb28c8, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::XR::InputDevice GetDeviceAtXRNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method InvokeConnectionEvent addr 0x2d49b5c size 0xac virtual false final false
+  /// @brief Method InvokeConnectionEvent, addr 0x2eb2948, size 0xac, virtual false, abstract: false, final false
   static inline void InvokeConnectionEvent(uint64_t deviceId, ::UnityEngine::XR::ConnectionChangeType change);
 
-  /// @brief Method SendHapticImpulse addr 0x2d495e4 size 0x5c virtual false final false
+  /// @brief Method SendHapticImpulse, addr 0x2eb23d0, size 0x5c, virtual false, abstract: false, final false
   static inline bool SendHapticImpulse(uint64_t deviceId, uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics addr 0x2d49698 size 0x3c virtual false final false
+  /// @brief Method StopHaptics, addr 0x2eb2484, size 0x3c, virtual false, abstract: false, final false
   static inline void StopHaptics(uint64_t deviceId);
 
-  /// @brief Method IsDeviceValid addr 0x2d49410 size 0x3c virtual false final false
+  /// @brief Method IsDeviceValid, addr 0x2eb21fc, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsDeviceValid(uint64_t deviceId);
 
-  /// @brief Method GetDeviceManufacturer addr 0x2d494a8 size 0x3c virtual false final false
+  /// @brief Method GetDeviceManufacturer, addr 0x2eb2294, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetDeviceManufacturer(uint64_t deviceId);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputDevices", modifiers: "&&", def_value: None }]

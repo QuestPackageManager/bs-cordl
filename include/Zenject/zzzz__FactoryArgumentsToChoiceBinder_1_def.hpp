@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryToChoiceBinder_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryArgumentsToChoiceBinder_1)
+namespace Zenject {
+template <typename TContract> class FactoryToChoiceBinder_1;
+}
+namespace Zenject {
+class BindInfo;
+}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-template <typename TContract> class FactoryToChoiceBinder_1;
-}
-namespace Zenject {
-class DiContainer;
-}
-namespace Zenject {
 class FactoryBindInfo;
-}
-namespace Zenject {
-class BindInfo;
 }
 namespace Zenject {
 struct TypeValuePair;
@@ -38,42 +38,42 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10776)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10776), inst: 1842 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10631))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10848), inst: 1906 }), TypeDefinitionIndex(TypeDefinitionIndex(10848))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10703))
 // CS Name: ::Zenject::FactoryArgumentsToChoiceBinder`1<TContract>*
 class CORDL_TYPE FactoryArgumentsToChoiceBinder_1 : public ::Zenject::FactoryToChoiceBinder_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(T param);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2> inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(TParam1 param1, TParam2 param2);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3> inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4>
   inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
   inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
   inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6);
 
-  /// @brief Method WithFactoryArguments addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArguments, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method WithFactoryArgumentsExplicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithFactoryArgumentsExplicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryToChoiceBinder_1<TContract>* WithFactoryArgumentsExplicit(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryArgumentsToChoiceBinder_1", modifiers: "&&", def_value: None }]

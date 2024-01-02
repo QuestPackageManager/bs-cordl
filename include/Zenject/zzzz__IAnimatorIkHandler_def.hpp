@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IAnimatorIkHandler);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11231))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11303))
 // CS Name: ::Zenject::IAnimatorIkHandler*
 class CORDL_TYPE IAnimatorIkHandler {
 public:
   // Declarations
-  /// @brief Method OnAnimatorIk addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnAnimatorIk, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnAnimatorIk();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAnimatorIkHandler", modifiers: "&&", def_value: None }]

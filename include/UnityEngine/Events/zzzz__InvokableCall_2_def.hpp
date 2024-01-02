@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(InvokableCall_2)
-namespace System::Reflection {
-class MethodInfo;
+namespace UnityEngine::Events {
+template <typename T0, typename T1> class UnityAction_2;
 }
 namespace System {
 class Object;
 }
-namespace UnityEngine::Events {
-template <typename T0, typename T1> class UnityAction_2;
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -26,8 +26,8 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10372))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10450))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10453))
 // CS Name: ::UnityEngine.Events::InvokableCall`2<T1,T2>*
 class CORDL_TYPE InvokableCall_2 : public ::UnityEngine::Events::BaseInvokableCall {
 public:
@@ -43,13 +43,13 @@ public:
 
   static inline ::UnityEngine::Events::InvokableCall_2<T1, T2>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Find(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokableCall_2", modifiers: "&&", def_value: None }]

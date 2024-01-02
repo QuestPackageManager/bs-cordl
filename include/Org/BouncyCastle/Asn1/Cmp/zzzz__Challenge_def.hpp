@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(Challenge)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -13,11 +13,11 @@ class Asn1Sequence;
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -66,16 +66,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf0f00 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0xe660d0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf0fb4 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe66184, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Owf addr 0xdf113c size 0x8 virtual true final false
+  /// @brief Method get_Owf, addr 0xe6630c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Owf();
 
-  /// @brief Method ToAsn1Object addr 0xdf1144 size 0x180 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe66314, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Challenge", modifiers: "&&", def_value: None }]

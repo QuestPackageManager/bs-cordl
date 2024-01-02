@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::AssetLoadingSubsystem);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9914))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9986))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::AssetLoadingSubsystem
 struct CORDL_TYPE AssetLoadingSubsystem {
 public:

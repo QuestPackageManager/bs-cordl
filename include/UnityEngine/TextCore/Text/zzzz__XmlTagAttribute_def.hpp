@@ -19,8 +19,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::XmlTagAttribute);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13595))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13716))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13707))
 // CS Name: ::UnityEngine.TextCore.Text::XmlTagAttribute
 struct CORDL_TYPE XmlTagAttribute {
 public:

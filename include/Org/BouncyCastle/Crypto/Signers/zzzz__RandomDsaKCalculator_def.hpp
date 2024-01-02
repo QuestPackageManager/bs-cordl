@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomDsaKCalculator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1151))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::RandomDsaKCalculator*
 class CORDL_TYPE RandomDsaKCalculator : public ::System::Object {
@@ -54,21 +54,21 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method get_IsDeterministic addr 0xedfc64 size 0x8 virtual true final false
+  /// @brief Method get_IsDeterministic, addr 0xf55e74, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
-  /// @brief Method Init addr 0xedfc6c size 0x8 virtual true final false
+  /// @brief Method Init, addr 0xf55e7c, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0xedfc74 size 0x50 virtual true final false
+  /// @brief Method Init, addr 0xf55e84, size 0x50, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method NextK addr 0xedfcc4 size 0xc4 virtual true final false
+  /// @brief Method NextK, addr 0xf55ed4, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
 
-  /// @brief Method .ctor addr 0xedfd88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf55f98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "&&", def_value: None }]

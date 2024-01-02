@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::CloseExState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7941))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9104))
 // CS Name: ::System.Net::CloseExState
 struct CORDL_TYPE CloseExState {
 public:

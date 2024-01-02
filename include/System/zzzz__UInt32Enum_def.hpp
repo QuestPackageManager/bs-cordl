@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UInt32Enum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2599))
 // CS Name: ::System::UInt32Enum
 struct CORDL_TYPE UInt32Enum {
 public:

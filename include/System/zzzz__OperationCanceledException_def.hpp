@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__SystemException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OperationCanceledException)
-namespace System::Threading {
-struct CancellationToken;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace System {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::OperationCanceledException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479)), TypeDefinitionIndex(TypeDefinitionIndex(2675))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2455))
 // CS Name: ::System::OperationCanceledException*
 class CORDL_TYPE OperationCanceledException : public ::System::SystemException {
 public:
@@ -42,30 +42,30 @@ public:
 
   constexpr void __set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method get_CancellationToken addr 0x2460ffc size 0x8 virtual false final false
+  /// @brief Method get_CancellationToken, addr 0x25bdf24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken addr 0x2461004 size 0x8 virtual false final false
+  /// @brief Method set_CancellationToken, addr 0x25bdf2c, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
   static inline ::System::OperationCanceledException* New_ctor();
 
-  /// @brief Method .ctor addr 0x246100c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x25bdf34, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::OperationCanceledException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x24610dc size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x25be004, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::OperationCanceledException* New_ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method .ctor addr 0x24610fc size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x25be024, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
   static inline ::System::OperationCanceledException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x246112c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25be054, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "OperationCanceledException", modifiers: "&&", def_value: None }]

@@ -6,26 +6,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GatewayIPAddressInformationCollection)
+namespace System::Net::NetworkInformation {
+class GatewayIPAddressInformation;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class Collection_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class Collection_1;
-}
-namespace System::Collections {
-class IEnumerator;
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
-}
-namespace System::Net::NetworkInformation {
-class GatewayIPAddressInformation;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
 }
 // Forward declare root types
 namespace System::Net::NetworkInformation {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::GatewayIPAddressInformationCol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8083))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9246))
 // CS Name: ::System.Net.NetworkInformation::GatewayIPAddressInformationCollection*
 class CORDL_TYPE GatewayIPAddressInformationCollection : public ::System::Object {
 public:
@@ -67,37 +67,37 @@ public:
 
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x286e748 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x29eafcc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CopyTo addr 0x286e7c4 size 0x68 virtual true final false
+  /// @brief Method CopyTo, addr 0x29eb048, size 0x68, virtual true, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Net::NetworkInformation::GatewayIPAddressInformation*, ::Array<::System::Net::NetworkInformation::GatewayIPAddressInformation*>*> array, int32_t offset);
 
-  /// @brief Method get_Count addr 0x286e82c size 0x50 virtual true final false
+  /// @brief Method get_Count, addr 0x29eb0b0, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly addr 0x286e87c size 0x8 virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x29eb100, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method Add addr 0x286e884 size 0x60 virtual true final false
+  /// @brief Method Add, addr 0x29eb108, size 0x60, virtual true, abstract: false, final false
   inline void Add(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method InternalAdd addr 0x286e8e4 size 0x58 virtual false final false
+  /// @brief Method InternalAdd, addr 0x29eb168, size 0x58, virtual false, abstract: false, final false
   inline void InternalAdd(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method Contains addr 0x286e93c size 0x58 virtual true final false
+  /// @brief Method Contains, addr 0x29eb1c0, size 0x58, virtual true, abstract: false, final false
   inline bool Contains(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method GetEnumerator addr 0x286e994 size 0x50 virtual true final false
+  /// @brief Method GetEnumerator, addr 0x29eb218, size 0x50, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<::System::Net::NetworkInformation::GatewayIPAddressInformation*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x286e9e4 size 0x10 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29eb268, size 0x10, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Remove addr 0x286e9f4 size 0x60 virtual true final false
+  /// @brief Method Remove, addr 0x29eb278, size 0x60, virtual true, abstract: false, final false
   inline bool Remove(::System::Net::NetworkInformation::GatewayIPAddressInformation* address);
 
-  /// @brief Method Clear addr 0x286ea54 size 0x60 virtual true final false
+  /// @brief Method Clear, addr 0x29eb2d8, size 0x60, virtual true, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "GatewayIPAddressInformationCollection", modifiers: "&&", def_value: None }]

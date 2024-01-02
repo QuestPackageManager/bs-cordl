@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeProcessHandle);
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7697))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8860))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeProcessHandle*
 class CORDL_TYPE SafeProcessHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
@@ -30,15 +30,15 @@ public:
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* handle);
 
-  /// @brief Method .ctor addr 0x26afdcc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x282addc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(void* handle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor addr 0x26afb9c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x282abac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(void* existingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle addr 0x26afdf8 size 0x8 virtual true final false
+  /// @brief Method ReleaseHandle, addr 0x282ae08, size 0x8, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeProcessHandle", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HFLayerType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9951))
 // CS Name: ::HoudiniEngineUnity::HFLayerType
 struct CORDL_TYPE HFLayerType {
 public:

@@ -12,26 +12,26 @@ CORDL_MODULE_EXPORT(TaskExtensions)
 namespace GlobalNamespace {
 template <typename T> struct __TaskExtensions___WaitForTask_d__1_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 template <typename T> class __TaskExtensions____c__DisplayClass0_0_1;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2675))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12910))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12989))
 // CS Name: ::TaskExtensions::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __TaskExtensions____c__DisplayClass0_0_1 : public ::System::Object {
 public:
@@ -79,10 +79,10 @@ public:
 
   static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WithCancellation>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <WithCancellation>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _WithCancellation_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskExtensions____c__DisplayClass0_0_1", modifiers: "&&", def_value: None }]
@@ -115,18 +115,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 111
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12911)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -171,8 +171,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12912))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12991))
 // CS Name: ::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {
 public:
@@ -181,10 +181,10 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>;
 
-  /// @brief Method WithCancellation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithCancellation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Threading::Tasks::Task_1<T>* WithCancellation(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WaitForTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WaitForTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void WaitForTask(::System::Threading::Tasks::Task_1<T>* task, ::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskExtensions", modifiers: "&&", def_value: None }]

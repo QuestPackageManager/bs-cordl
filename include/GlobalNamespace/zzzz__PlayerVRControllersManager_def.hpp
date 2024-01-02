@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerVRControllersManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5373))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5278))
 // CS Name: ::PlayerVRControllersManager*
 class CORDL_TYPE PlayerVRControllersManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,18 +45,21 @@ public:
 
   constexpr void __set__rightHandVRController(::GlobalNamespace::VRController* value);
 
-  /// @brief Method get_leftHandVRController addr 0x211cf5c size 0x8 virtual false final false
+  /// @brief Method get_leftHandVRController, addr 0x22610f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRController* get_leftHandVRController();
 
-  /// @brief Method get_rightHandVRController addr 0x211cf64 size 0x8 virtual false final false
+  /// @brief Method get_rightHandVRController, addr 0x22610fc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRController* get_rightHandVRController();
 
-  /// @brief Method DisableAllVRControllers addr 0x211cf6c size 0x38 virtual false final false
+  /// @brief Method DisableAllVRControllers, addr 0x2261104, size 0x38, virtual false, abstract: false, final false
   inline void DisableAllVRControllers();
+
+  /// @brief Method EnableAllVRControllers, addr 0x226113c, size 0x38, virtual false, abstract: false, final false
+  inline void EnableAllVRControllers();
 
   static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x211cfa4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2261174, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "&&", def_value: None }]

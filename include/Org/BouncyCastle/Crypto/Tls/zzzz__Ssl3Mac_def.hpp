@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ssl3Mac)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Ssl3Mac);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1283))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Ssl3Mac*
 class CORDL_TYPE Ssl3Mac : public ::System::Object {
@@ -80,31 +80,31 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Ssl3Mac* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xf21b2c size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0xf97d68, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName addr 0xf21bf8 size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xf97e34, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf21cb8 size 0xd8 virtual true final false
+  /// @brief Method Init, addr 0xf97ef4, size 0xd8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetMacSize addr 0xf21d90 size 0xa4 virtual true final false
+  /// @brief Method GetMacSize, addr 0xf97fcc, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Update addr 0xf21e34 size 0xac virtual true final false
+  /// @brief Method Update, addr 0xf98070, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xf21ee0 size 0xc4 virtual true final false
+  /// @brief Method BlockUpdate, addr 0xf9811c, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0xf21fa4 size 0x37c virtual true final false
+  /// @brief Method DoFinal, addr 0xf981e0, size 0x37c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xf22320 size 0x1d4 virtual true final false
+  /// @brief Method Reset, addr 0xf9855c, size 0x1d4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GenPad addr 0xf224f4 size 0x98 virtual false final false
+  /// @brief Method GenPad, addr 0xf98730, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenPad(uint8_t b, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "Ssl3Mac", modifiers: "&&", def_value: None }]

@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__LazyState_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LazyHelper)
-namespace System::Threading {
-struct LazyThreadSafetyMode;
-}
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
 namespace System {
-struct LazyState;
+class Exception;
 }
 namespace System {
 class Type;
@@ -20,8 +17,11 @@ class Type;
 namespace System {
 class Object;
 }
+namespace System::Threading {
+struct LazyThreadSafetyMode;
+}
 namespace System {
-class Exception;
+struct LazyState;
 }
 // Forward declare root types
 namespace System {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::LazyHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2428)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2429))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2430))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2431))
 // CS Name: ::System::LazyHelper*
 class CORDL_TYPE LazyHelper : public ::System::Object {
 public:
@@ -95,26 +95,26 @@ public:
 
   static inline ::System::LazyHelper* getStaticF_PublicationOnlyWaitForOtherThreadToPublish();
 
-  /// @brief Method get_State addr 0x2451e2c size 0x8 virtual false final false
+  /// @brief Method get_State, addr 0x25add1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::LazyState get_State();
 
   static inline ::System::LazyHelper* New_ctor(::System::LazyState state);
 
-  /// @brief Method .ctor addr 0x2451e34 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x25add24, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LazyState state);
 
   static inline ::System::LazyHelper* New_ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x2451e5c size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x25add4c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::LazyThreadSafetyMode mode, ::System::Exception* exception);
 
-  /// @brief Method ThrowException addr 0x2451eac size 0x1c virtual false final false
+  /// @brief Method ThrowException, addr 0x25add9c, size 0x1c, virtual false, abstract: false, final false
   inline void ThrowException();
 
-  /// @brief Method Create addr 0x2451ec8 size 0x140 virtual false final false
+  /// @brief Method Create, addr 0x25addb8, size 0x140, virtual false, abstract: false, final false
   static inline ::System::LazyHelper* Create(::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-  /// @brief Method CreateViaDefaultConstructor addr 0x2452008 size 0xcc virtual false final false
+  /// @brief Method CreateViaDefaultConstructor, addr 0x25adef8, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateViaDefaultConstructor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyHelper", modifiers: "&&", def_value: None }]

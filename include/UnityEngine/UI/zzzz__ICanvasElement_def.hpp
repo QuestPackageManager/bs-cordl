@@ -20,26 +20,26 @@ MARK_REF_PTR_T(::UnityEngine::UI::ICanvasElement);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13026))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13021))
 // CS Name: ::UnityEngine.UI::ICanvasElement*
 class CORDL_TYPE ICanvasElement {
 public:
   // Declarations
   __declspec(property(get = get_transform))::UnityEngine::Transform* transform;
 
-  /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method get_transform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Transform* get_transform();
 
-  /// @brief Method LayoutComplete addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LayoutComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LayoutComplete();
 
-  /// @brief Method GraphicUpdateComplete addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GraphicUpdateComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method IsDestroyed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsDestroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsDestroyed();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICanvasElement", modifiers: "&&", def_value: None }]

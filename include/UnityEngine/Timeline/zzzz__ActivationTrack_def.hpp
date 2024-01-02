@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActivationTrack)
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 class IPropertyCollector;
@@ -19,17 +16,20 @@ class IPropertyCollector;
 namespace UnityEngine::Timeline {
 class ActivationMixerPlayable;
 }
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::Playables {
-struct Playable;
+namespace UnityEngine::Timeline {
+struct __ActivationTrack__PostPlaybackState;
 }
 namespace UnityEngine::Timeline {
 class TimelineClip;
 }
-namespace UnityEngine::Timeline {
-struct __ActivationTrack__PostPlaybackState;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationTrack);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13827))
 // CS Name: ::ActivationTrack::PostPlaybackState
 struct CORDL_TYPE __ActivationTrack__PostPlaybackState {
 public:
@@ -103,8 +103,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackS
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14133)), TypeDefinitionIndex(TypeDefinitionIndex(14098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14099))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13827)), TypeDefinitionIndex(TypeDefinitionIndex(13862))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13828))
 // CS Name: ::UnityEngine.Timeline::ActivationTrack*
 class CORDL_TYPE ActivationTrack : public ::UnityEngine::Timeline::TrackAsset {
 public:
@@ -131,30 +131,30 @@ public:
 
   constexpr void __set_m_ActivationMixer(::UnityEngine::Timeline::ActivationMixerPlayable* value);
 
-  /// @brief Method CanCompileClips addr 0x2acafc0 size 0x5c virtual true final false
+  /// @brief Method CanCompileClips, addr 0x2c4ed14, size 0x5c, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
-  /// @brief Method get_postPlaybackState addr 0x2acb0cc size 0x8 virtual false final false
+  /// @brief Method get_postPlaybackState, addr 0x2c4ee20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState get_postPlaybackState();
 
-  /// @brief Method set_postPlaybackState addr 0x2acb0d4 size 0x14 virtual false final false
+  /// @brief Method set_postPlaybackState, addr 0x2c4ee28, size 0x14, virtual false, abstract: false, final false
   inline void set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  /// @brief Method CreateTrackMixer addr 0x2acb0fc size 0xe4 virtual true final false
+  /// @brief Method CreateTrackMixer, addr 0x2c4ee50, size 0xe4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreateTrackMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
 
-  /// @brief Method UpdateTrackMode addr 0x2acb0e8 size 0x14 virtual false final false
+  /// @brief Method UpdateTrackMode, addr 0x2c4ee3c, size 0x14, virtual false, abstract: false, final false
   inline void UpdateTrackMode();
 
-  /// @brief Method GatherProperties addr 0x2acb1e0 size 0x12c virtual true final false
+  /// @brief Method GatherProperties, addr 0x2c4ef34, size 0x12c, virtual true, abstract: false, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
-  /// @brief Method OnCreateClip addr 0x2acb484 size 0x50 virtual true final false
+  /// @brief Method OnCreateClip, addr 0x2c4f1d8, size 0x50, virtual true, abstract: false, final false
   inline void OnCreateClip(::UnityEngine::Timeline::TimelineClip* clip);
 
   static inline ::UnityEngine::Timeline::ActivationTrack* New_ctor();
 
-  /// @brief Method .ctor addr 0x2acb4d8 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2c4f22c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivationTrack", modifiers: "&&", def_value: None }]

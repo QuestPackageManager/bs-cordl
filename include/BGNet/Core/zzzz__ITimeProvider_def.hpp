@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::BGNet::Core::ITimeProvider);
 namespace BGNet::Core {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12936))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13004))
 // CS Name: ::BGNet.Core::ITimeProvider*
 class CORDL_TYPE ITimeProvider {
 public:
   // Declarations
-  /// @brief Method GetTimeMs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetTimeMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t GetTimeMs();
 
-  /// @brief Method GetTicks addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetTicks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t GetTicks();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimeProvider", modifiers: "&&", def_value: None }]

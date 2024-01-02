@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SelectorMatchRecord)
 namespace UnityEngine::UIElements {
-class StyleSheet;
+class StyleComplexSelector;
 }
 namespace UnityEngine::UIElements {
-class StyleComplexSelector;
+class StyleSheet;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -22,15 +22,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord);
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7555))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7469))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::SelectorMatchRecord
 struct CORDL_TYPE SelectorMatchRecord {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c834d4 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2de9884, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t styleSheetIndexInStack);
 
-  /// @brief Method Compare addr 0x2c834e8 size 0xe8 virtual false final false
+  /// @brief Method Compare, addr 0x2de9898, size 0xe8, virtual false, abstract: false, final false
   static inline int32_t Compare(::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord a, ::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord b);
 
   // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None }, CppParam { name: "styleSheetIndexInStack", ty: "int32_t", modifiers: "",

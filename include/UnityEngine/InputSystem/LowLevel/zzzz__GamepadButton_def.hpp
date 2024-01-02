@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadButton);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6579))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6493))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GamepadButton
 struct CORDL_TYPE GamepadButton {
 public:

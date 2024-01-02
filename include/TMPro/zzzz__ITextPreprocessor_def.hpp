@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::TMPro::ITextPreprocessor);
 namespace TMPro {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12229))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12301))
 // CS Name: ::TMPro::ITextPreprocessor*
 class CORDL_TYPE ITextPreprocessor {
 public:
   // Declarations
-  /// @brief Method PreprocessText addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PreprocessText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW PreprocessText(::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextPreprocessor", modifiers: "&&", def_value: None }]

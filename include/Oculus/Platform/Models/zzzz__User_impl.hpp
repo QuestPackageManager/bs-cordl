@@ -6,10 +6,10 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::User::*)(void*)>(&::Oculus::Platform::Models::User::_ctor)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25b0e68;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x270414c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::User*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
@@ -51,18 +51,6 @@ constexpr ::StringW const& Oculus::Platform::Models::User::__get_ImageURL() cons
 constexpr void Oculus::Platform::Models::User::__set_ImageURL(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ImageURL)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& Oculus::Platform::Models::User::__get_InviteToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___InviteToken;
-}
-constexpr ::StringW const& Oculus::Platform::Models::User::__get_InviteToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___InviteToken;
-}
-constexpr void Oculus::Platform::Models::User::__set_InviteToken(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___InviteToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& Oculus::Platform::Models::User::__get_OculusID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

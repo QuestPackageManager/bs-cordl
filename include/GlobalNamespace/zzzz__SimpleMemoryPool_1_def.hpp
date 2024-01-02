@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimpleMemoryPool_1)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 template <typename T> class LazyCopyHashSet_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13815))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14340))
 // CS Name: ::SimpleMemoryPool`1<T>*
 class CORDL_TYPE SimpleMemoryPool_1 : public ::System::Object {
 public:
@@ -61,18 +61,18 @@ public:
 
   constexpr void __set__createNewItemFunc(::System::Func_1<T>* value);
 
-  /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* get_items();
 
   static inline ::GlobalNamespace::SimpleMemoryPool_1<T>* New_ctor(int32_t startCapacity, ::System::Func_1<T>* createNewItemFunc);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t startCapacity, ::System::Func_1<T>* createNewItemFunc);
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Spawn();
 
-  /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Despawn(T item);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimpleMemoryPool_1", modifiers: "&&", def_value: None }]

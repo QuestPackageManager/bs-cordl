@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Reflection::Emit::AssemblyBuilder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3506))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3511))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3534))
 // CS Name: ::System.Reflection.Emit::AssemblyBuilder*
 class CORDL_TYPE AssemblyBuilder : public ::System::Reflection::Assembly {
 public:

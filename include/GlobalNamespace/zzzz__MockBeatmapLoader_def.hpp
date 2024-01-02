@@ -13,68 +13,68 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapLoader)
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace GlobalNamespace {
-class __MockBeatmapLoader____c__DisplayClass2_0;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
-}
-namespace GlobalNamespace {
-class __MockBeatmapLoader____c;
+namespace System {
+class IDisposable;
 }
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
 namespace GlobalNamespace {
+class __MockBeatmapLoader____c__DisplayClass2_0;
+}
+namespace GlobalNamespace {
+class __MockBeatmapLoader____c;
+}
+namespace GlobalNamespace {
 struct __MockBeatmapLoader___GetBeatmapData_d__2;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+struct __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace GlobalNamespace {
-struct __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d;
-}
 namespace System::Threading::Tasks {
 class Task;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelsModel__GetBeatmapLevelResult;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -105,8 +105,8 @@ MARK_VAL_T(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0____GetBe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4292)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 873 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5277)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5172)) CS Name:
 // ::MockBeatmapLoader::<>c__DisplayClass2_0::<<GetBeatmapData>b__3>d
 struct CORDL_TYPE __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d {
 public:
@@ -114,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x20fe544 size 0x33c virtual true final true
+  /// @brief Method MoveNext, addr 0x23dee64, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x20fe880 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x23df0c8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -164,8 +164,8 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5278))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: ::MockBeatmapLoader::<>c__DisplayClass2_0*
 class CORDL_TYPE __MockBeatmapLoader____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -201,16 +201,16 @@ public:
 
   static inline ::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fe2fc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23dec1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapData>b__0 addr 0x20fe304 size 0xbc virtual false final false
+  /// @brief Method <GetBeatmapData>b__0, addr 0x23dec24, size 0xbc, virtual false, abstract: false, final false
   inline bool _GetBeatmapData_b__0(::GlobalNamespace::IDifficultyBeatmapSet* bds);
 
-  /// @brief Method <GetBeatmapData>b__2 addr 0x20fe3c0 size 0xbc virtual false final false
+  /// @brief Method <GetBeatmapData>b__2, addr 0x23dece0, size 0xbc, virtual false, abstract: false, final false
   inline bool _GetBeatmapData_b__2(::GlobalNamespace::IDifficultyBeatmap* dbm);
 
-  /// @brief Method <GetBeatmapData>b__3 addr 0x20fe47c size 0xc8 virtual false final false
+  /// @brief Method <GetBeatmapData>b__3, addr 0x23ded9c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _GetBeatmapData_b__3();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MockBeatmapLoader____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -252,8 +252,8 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5279))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5174))
 // CS Name: ::MockBeatmapLoader::<>c*
 class CORDL_TYPE __MockBeatmapLoader____c : public ::System::Object {
 public:
@@ -276,10 +276,10 @@ public:
 
   static inline ::GlobalNamespace::__MockBeatmapLoader____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fe8f0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23df138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetBeatmapData>b__2_1 addr 0x20fe8f8 size 0xa0 virtual false final false
+  /// @brief Method <GetBeatmapData>b__2_1, addr 0x23df140, size 0xa0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IDifficultyBeatmap*>* _GetBeatmapData_b__2_1(::GlobalNamespace::IDifficultyBeatmapSet* bds);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MockBeatmapLoader____c", modifiers: "&&", def_value: None }]
@@ -306,19 +306,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockBeatmapLo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(15493)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(4380)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 874 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 889 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5280)) CS Name: ::MockBeatmapLoader::<GetBeatmapData>d__2
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15509)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 892 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5175)) CS Name: ::MockBeatmapLoader::<GetBeatmapData>d__2
 struct CORDL_TYPE __MockBeatmapLoader___GetBeatmapData_d__2 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x20fe998 size 0x620 virtual true final true
+  /// @brief Method MoveNext, addr 0x23df1e0, size 0x620, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x20fefb8 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x23df800, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -384,8 +384,8 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader___GetBeatmapData_d
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5281))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5176))
 // CS Name: ::MockBeatmapLoader*
 class CORDL_TYPE MockBeatmapLoader : public ::System::Object {
 public:
@@ -413,14 +413,14 @@ public:
 
   static inline ::GlobalNamespace::MockBeatmapLoader* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method .ctor addr 0x20fe1c8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23deae8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method GetBeatmapData addr 0x20fe1f0 size 0x108 virtual true final true
+  /// @brief Method GetBeatmapData, addr 0x23deb10, size 0x108, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose addr 0x20fe2f8 size 0x4 virtual true final true
+  /// @brief Method Dispose, addr 0x23dec18, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapLoader", modifiers: "&&", def_value: None }]

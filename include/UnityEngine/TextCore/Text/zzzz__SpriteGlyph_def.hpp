@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::SpriteGlyph);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15514))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13613))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15530))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13734))
 // CS Name: ::UnityEngine.TextCore.Text::SpriteGlyph*
 class CORDL_TYPE SpriteGlyph : public ::UnityEngine::TextCore::Glyph {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::SpriteGlyph* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be4700 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4cab0, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpriteGlyph", modifiers: "&&", def_value: None }]

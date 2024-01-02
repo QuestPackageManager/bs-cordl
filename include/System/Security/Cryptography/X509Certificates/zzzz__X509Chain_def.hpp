@@ -6,11 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509Chain)
-namespace System {
-class IDisposable;
-}
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainElementCollection;
+struct X509ChainStatus;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2;
@@ -19,10 +16,13 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509ChainImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509ChainPolicy;
+class X509ChainElementCollection;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+class X509ChainPolicy;
 }
 // Forward declare root types
 namespace System::Security::Cryptography::X509Certificates {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Chain);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9002))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Chain*
 class CORDL_TYPE X509Chain : public ::System::Object {
 public:
@@ -61,54 +61,54 @@ public:
 
   constexpr void __set_impl(::System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
 
-  /// @brief Method get_Impl addr 0x2802080 size 0x20 virtual false final false
+  /// @brief Method get_Impl, addr 0x297f8f0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor();
 
-  /// @brief Method .ctor addr 0x28020a0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x297f910, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(bool useMachineContext);
 
-  /// @brief Method .ctor addr 0x28020c8 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x297f938, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool useMachineContext);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method .ctor addr 0x28020fc size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x297f96c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(void* chainContext);
 
-  /// @brief Method .ctor addr 0x2802130 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x297f9a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(void* chainContext);
 
-  /// @brief Method get_ChainElements addr 0x2802178 size 0x30 virtual false final false
+  /// @brief Method get_ChainElements, addr 0x297f9e8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy addr 0x28021a8 size 0x30 virtual false final false
+  /// @brief Method get_ChainPolicy, addr 0x297fa18, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus addr 0x28021d8 size 0x30 virtual false final false
+  /// @brief Method get_ChainStatus, addr 0x297fa48, size 0x30, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
 
-  /// @brief Method Build addr 0x28009dc size 0x40 virtual false final false
+  /// @brief Method Build, addr 0x297e748, size 0x40, virtual false, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Reset addr 0x2802208 size 0x30 virtual false final false
+  /// @brief Method Reset, addr 0x297fa78, size 0x30, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Create addr 0x2800970 size 0x6c virtual false final false
+  /// @brief Method Create, addr 0x297e6dc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* Create();
 
-  /// @brief Method Dispose addr 0x2802238 size 0x6c virtual true final true
+  /// @brief Method Dispose, addr 0x297faa8, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x28022a4 size 0x20 virtual true final false
+  /// @brief Method Dispose, addr 0x297fb14, size 0x20, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize addr 0x2802330 size 0xa0 virtual true final false
+  /// @brief Method Finalize, addr 0x297fba0, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Chain", modifiers: "&&", def_value: None }]

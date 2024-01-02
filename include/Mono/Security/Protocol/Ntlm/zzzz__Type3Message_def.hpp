@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type3Message);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14036)), TypeDefinitionIndex(TypeDefinitionIndex(14037))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14042))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765)), TypeDefinitionIndex(TypeDefinitionIndex(13766))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13771))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type3Message*
 class CORDL_TYPE Type3Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
@@ -116,31 +116,31 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::Type3Message* New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
 
-  /// @brief Method .ctor addr 0x22a7958 size 0x1ec virtual false final false
+  /// @brief Method .ctor, addr 0x2401c64, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
 
-  /// @brief Method Finalize addr 0x22a7b44 size 0xe0 virtual true final false
+  /// @brief Method Finalize, addr 0x2401e50, size 0xe0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method set_Domain addr 0x22a7c24 size 0x80 virtual false final false
+  /// @brief Method set_Domain, addr 0x2401f30, size 0x80, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Password addr 0x22a7ca4 size 0x8 virtual false final false
+  /// @brief Method set_Password, addr 0x2401fb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_Username addr 0x22a7cac size 0x8 virtual false final false
+  /// @brief Method set_Username, addr 0x2401fb8, size 0x8, virtual false, abstract: false, final false
   inline void set_Username(::StringW value);
 
-  /// @brief Method Decode addr 0x22a7cb4 size 0x220 virtual true final false
+  /// @brief Method Decode, addr 0x2401fc0, size 0x220, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method DecodeString addr 0x22a7ed4 size 0x58 virtual false final false
+  /// @brief Method DecodeString, addr 0x24021e0, size 0x58, virtual false, abstract: false, final false
   inline ::StringW DecodeString(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t len);
 
-  /// @brief Method EncodeString addr 0x22a7f2c size 0x90 virtual false final false
+  /// @brief Method EncodeString, addr 0x2402238, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeString(::StringW text);
 
-  /// @brief Method GetBytes addr 0x22a7fbc size 0x628 virtual true final false
+  /// @brief Method GetBytes, addr 0x24022c8, size 0x628, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "Type3Message", modifiers: "&&", def_value: None }]

@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::Tayx::Graphy::UI::IModifiableState);
 namespace Tayx::Graphy::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15252))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15074))
 // CS Name: ::Tayx.Graphy.UI::IModifiableState*
 class CORDL_TYPE IModifiableState {
 public:
   // Declarations
-  /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState newState, bool silentUpdate);
 
   // Ctor Parameters [CppParam { name: "", ty: "IModifiableState", modifiers: "&&", def_value: None }]

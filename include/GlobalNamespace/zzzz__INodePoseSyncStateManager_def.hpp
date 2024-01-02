@@ -4,6 +4,15 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INodePoseSyncStateManager)
 namespace GlobalNamespace {
+struct NodePoseSyncState;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateDeltaNetSerializable;
+}
+namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
@@ -11,15 +20,6 @@ template <typename TStateTable, typename TType, typename TState, typename TSeria
 }
 namespace GlobalNamespace {
 struct __NodePoseSyncState__NodePose;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateDeltaNetSerializable;
-}
-namespace GlobalNamespace {
-struct NodePoseSyncState;
-}
-namespace GlobalNamespace {
-struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INodePoseSyncStateManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14943))
 // CS Name: ::INodePoseSyncStateManager*
 class CORDL_TYPE INodePoseSyncStateManager {
 public:

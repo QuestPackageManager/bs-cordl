@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HeightFieldSampling);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9721))
 // CS Name: ::HoudiniEngineUnity::HAPI_HeightFieldSampling
 struct CORDL_TYPE HAPI_HeightFieldSampling {
 public:

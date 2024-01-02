@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNull)
-namespace System {
-class Object;
-}
 namespace HoudiniEngineUnity {
 struct __JSONNode__Enumerator;
-}
-namespace HoudiniEngineUnity {
-struct JSONNodeType;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace System {
+class Object;
+}
 namespace HoudiniEngineUnity {
 struct JSONTextMode;
+}
+namespace HoudiniEngineUnity {
+struct JSONNodeType;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONNull);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9796))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9805))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9878))
 // CS Name: ::HoudiniEngineUnity::JSONNull*
 class CORDL_TYPE JSONNull : public ::HoudiniEngineUnity::JSONNode {
 public:
@@ -59,42 +59,42 @@ public:
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method CreateOrGet addr 0x207daa8 size 0x94 virtual false final false
+  /// @brief Method CreateOrGet, addr 0x21d5444, size 0x94, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNull* CreateOrGet();
 
   static inline ::HoudiniEngineUnity::JSONNull* New_ctor();
 
-  /// @brief Method .ctor addr 0x2083710 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21db0ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Tag addr 0x2083718 size 0x8 virtual true final false
+  /// @brief Method get_Tag, addr 0x21db0b4, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();
 
-  /// @brief Method get_IsNull addr 0x2083720 size 0x8 virtual true final false
+  /// @brief Method get_IsNull, addr 0x21db0bc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method GetEnumerator addr 0x2083728 size 0x14 virtual true final false
+  /// @brief Method GetEnumerator, addr 0x21db0c4, size 0x14, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Value addr 0x208373c size 0x40 virtual true final false
+  /// @brief Method get_Value, addr 0x21db0d8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x208377c size 0x4 virtual true final false
+  /// @brief Method set_Value, addr 0x21db118, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_AsBool addr 0x2083780 size 0x8 virtual true final false
+  /// @brief Method get_AsBool, addr 0x21db11c, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method set_AsBool addr 0x2083788 size 0x4 virtual true final false
+  /// @brief Method set_AsBool, addr 0x21db124, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method Equals addr 0x208378c size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x21db128, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2083818 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x21db1b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method WriteToStringBuilder addr 0x2083820 size 0x54 virtual true final false
+  /// @brief Method WriteToStringBuilder, addr 0x21db1bc, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::HoudiniEngineUnity::JSONTextMode aMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "&&", def_value: None }]

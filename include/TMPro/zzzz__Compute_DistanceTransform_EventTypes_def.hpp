@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::Compute_DistanceTransform_EventTypes);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12239))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12311))
 // CS Name: ::TMPro::Compute_DistanceTransform_EventTypes
 struct CORDL_TYPE Compute_DistanceTransform_EventTypes {
 public:

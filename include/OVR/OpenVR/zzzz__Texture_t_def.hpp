@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Texture_t)
 namespace OVR::OpenVR {
-struct EColorSpace;
+struct ETextureType;
 }
 namespace OVR::OpenVR {
-struct ETextureType;
+struct EColorSpace;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -24,8 +24,8 @@ MARK_VAL_T(::OVR::OpenVR::Texture_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9350)), TypeDefinitionIndex(TypeDefinitionIndex(9351)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9426))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8582)), TypeDefinitionIndex(TypeDefinitionIndex(8581)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8657))
 // CS Name: ::OVR.OpenVR::Texture_t
 struct CORDL_TYPE Texture_t {
 public:

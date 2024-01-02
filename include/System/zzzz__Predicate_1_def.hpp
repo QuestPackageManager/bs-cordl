@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2341))
 // CS Name: ::System::Predicate`1<T>*
 class CORDL_TYPE Predicate_1 : public ::System::MulticastDelegate {
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Predicate_1<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(T obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "Predicate_1", modifiers: "&&", def_value: None }]

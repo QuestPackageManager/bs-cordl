@@ -5,19 +5,19 @@
 #include "LIV/SDK/Unity/zzzz__SDKPriority_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTransform_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKInputFrame_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
-#include "LIV/SDK/Unity/zzzz__SDKClipPlane_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTransform_def.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKPose_def.hpp"
+#include "LIV/SDK/Unity/zzzz__SDKClipPlane_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPriority_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKInputFrame.get_empty
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKInputFrame (*)()>(&::LIV::SDK::Unity::SDKInputFrame::get_empty)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x20ae3f4;
+  constexpr static std::size_t addrs = 0x220f32c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "get_empty",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -28,9 +28,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ReleaseControl)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x20b2920;
+  constexpr static std::size_t addrs = 0x2213858;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ReleaseControl",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -41,9 +41,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ObtainControl)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x20b2930;
+  constexpr static std::size_t addrs = 0x2213868;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ObtainControl",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -54,9 +54,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ToString)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x20b4344;
+  constexpr static std::size_t addrs = 0x221527c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), 3));
@@ -79,8 +79,8 @@ inline void LIV::SDK::Unity::SDKInputFrame::ObtainControl() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::StringW LIV::SDK::Unity::SDKInputFrame::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ToString",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "pose", ty: "::LIV::SDK::Unity::SDKPose", modifiers: "", def_value: Some("{}") }, CppParam { name: "clipPlane", ty: "::LIV::SDK::Unity::SDKClipPlane", modifiers:

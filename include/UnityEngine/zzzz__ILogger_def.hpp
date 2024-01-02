@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILogger)
+namespace System {
+class Object;
+}
+namespace UnityEngine {
+class ILogHandler;
+}
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine {
 struct LogType;
-}
-namespace UnityEngine {
-class ILogHandler;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ILogger);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10054))
 // CS Name: ::UnityEngine::ILogger*
 class CORDL_TYPE ILogger {
 public:
@@ -40,22 +40,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::ILogHandler"
   constexpr operator ::UnityEngine::ILogHandler*() noexcept;
 
-  /// @brief Method get_logHandler addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_logHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ILogHandler* get_logHandler();
 
-  /// @brief Method get_logEnabled addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_logEnabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_logEnabled();
 
-  /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message);
 
-  /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::UnityEngine::LogType logType, ::System::Object* message, ::UnityEngine::Object* context);
 
-  /// @brief Method LogError addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW tag, ::System::Object* message);
 
-  /// @brief Method LogFormat addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogFormat(::UnityEngine::LogType logType, ::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILogger", modifiers: "&&", def_value: None }]

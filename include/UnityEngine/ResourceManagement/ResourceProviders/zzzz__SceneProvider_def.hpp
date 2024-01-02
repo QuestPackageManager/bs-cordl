@@ -14,8 +14,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SceneProvider)
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
+namespace UnityEngine::SceneManagement {
+struct LoadSceneMode;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class __SceneProvider__UnloadSceneOp;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider2;
+}
+namespace UnityEngine::SceneManagement {
+struct UnloadSceneOptions;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 class __SceneProvider__SceneOp;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
@@ -23,50 +44,29 @@ struct SceneInstance;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class __SceneProvider__UnloadSceneOp;
-}
-namespace UnityEngine::SceneManagement {
-struct LoadSceneMode;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
-}
-namespace UnityEngine::SceneManagement {
-struct UnloadSceneOptions;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::ResourceLocations {
-class IResourceLocation;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider2;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
-}
-namespace UnityEngine {
-class AsyncOperation;
-}
-namespace UnityEngine::ResourceManagement {
-class IUpdateReceiver;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
+}
+namespace UnityEngine {
+class AsyncOperation;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -86,10 +86,10 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__SceneProv
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10297)), TypeDefinitionIndex(TypeDefinitionIndex(14305)), TypeDefinitionIndex(TypeDefinitionIndex(3823)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst: 781 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3823), inst: 279 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14303)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 786 }), TypeDefinitionIndex(TypeDefinitionIndex(14304)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14275))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14286)) CS Name: ::SceneProvider::SceneOp*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14004)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 797 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10375)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14015)) CS Name: ::SceneProvider::SceneOp*
 class CORDL_TYPE __SceneProvider__SceneOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
 public:
   // Declarations
@@ -172,45 +172,45 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__SceneProvider__SceneOp* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm);
 
-  /// @brief Method .ctor addr 0x2a55a70 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2bd87c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceManager* rm);
 
-  /// @brief Method GetDownloadStatus addr 0x2a55e7c size 0xdc virtual true final false
+  /// @brief Method GetDownloadStatus, addr 0x2bd8bd0, size 0xdc, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method Init addr 0x2a55acc size 0xc4 virtual false final false
+  /// @brief Method Init, addr 0x2bd8820, size 0xc4, virtual false, abstract: false, final false
   inline void
   Init(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority,
        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
            depOp);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2a55f58 size 0x338 virtual true final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2bd8cac, size 0x338, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method GetDependencies addr 0x2a56290 size 0x14c virtual true final false
+  /// @brief Method GetDependencies, addr 0x2bd8fe4, size 0x14c, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method get_DebugName addr 0x2a563dc size 0xa4 virtual true final false
+  /// @brief Method get_DebugName, addr 0x2bd9130, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method Execute addr 0x2a56480 size 0x588 virtual true final false
+  /// @brief Method Execute, addr 0x2bd91d4, size 0x588, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method InternalLoadScene addr 0x2a56ab0 size 0xd4 virtual false final false
+  /// @brief Method InternalLoadScene, addr 0x2bd9804, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance InternalLoadScene(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                bool loadingFromBundle, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad,
                                                                                                int32_t priority);
 
-  /// @brief Method InternalLoad addr 0x2a56b84 size 0x84 virtual false final false
+  /// @brief Method InternalLoad, addr 0x2bd98d8, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::AsyncOperation* InternalLoad(::StringW path, bool loadingFromBundle, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method Destroy addr 0x2a56c08 size 0x90 virtual true final false
+  /// @brief Method Destroy, addr 0x2bd995c, size 0x90, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method get_Progress addr 0x2a56c98 size 0xc0 virtual true final false
+  /// @brief Method get_Progress, addr 0x2bd99ec, size 0xc0, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
-  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update addr 0x2a56d58 size 0x128 virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x2bd9aac, size 0x128, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float_t unscaledDeltaTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SceneProvider__SceneOp", modifiers: "&&", def_value: None }]
@@ -273,9 +273,9 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__S
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14303)), TypeDefinitionIndex(TypeDefinitionIndex(14304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst:
-// 786 }), TypeDefinitionIndex(TypeDefinitionIndex(10300)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 786 }), TypeDefinitionIndex(TypeDefinitionIndex(14275))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14287))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst:
+// 797 }), TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 797 }), TypeDefinitionIndex(TypeDefinitionIndex(14004))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14016))
 // CS Name: ::SceneProvider::UnloadSceneOp*
 class CORDL_TYPE __SceneProvider__UnloadSceneOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
 public:
@@ -311,28 +311,28 @@ public:
 
   constexpr void __set_m_UnloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
 
-  /// @brief Method Init addr 0x2a55de0 size 0x94 virtual false final false
+  /// @brief Method Init, addr 0x2bd8b34, size 0x94, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,
                    ::UnityEngine::SceneManagement::UnloadSceneOptions options);
 
-  /// @brief Method Execute addr 0x2a56e80 size 0x134 virtual true final false
+  /// @brief Method Execute, addr 0x2bd9bd4, size 0x134, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method InvokeWaitForCompletion addr 0x2a570ec size 0xb4 virtual true final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x2bd9e40, size 0xb4, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method UnloadSceneCompleted addr 0x2a57024 size 0xc8 virtual false final false
+  /// @brief Method UnloadSceneCompleted, addr 0x2bd9d78, size 0xc8, virtual false, abstract: false, final false
   inline void UnloadSceneCompleted(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method UnloadSceneCompletedNoRelease addr 0x2a56fb4 size 0x70 virtual false final false
+  /// @brief Method UnloadSceneCompletedNoRelease, addr 0x2bd9d08, size 0x70, virtual false, abstract: false, final false
   inline void UnloadSceneCompletedNoRelease(::UnityEngine::AsyncOperation* obj);
 
-  /// @brief Method get_Progress addr 0x2a571a0 size 0x48 virtual true final false
+  /// @brief Method get_Progress, addr 0x2bd9ef4, size 0x48, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__SceneProvider__UnloadSceneOp* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a55d98 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd8aec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SceneProvider__UnloadSceneOp", modifiers: "&&", def_value: None }]
@@ -374,8 +374,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__S
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14288))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14017))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::SceneProvider*
 class CORDL_TYPE SceneProvider : public ::System::Object {
 public:
@@ -390,17 +390,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*() noexcept;
 
-  /// @brief Method ProvideScene addr 0x2a55714 size 0x35c virtual true final true
+  /// @brief Method ProvideScene, addr 0x2bd8468, size 0x35c, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method ReleaseScene addr 0x2a55b90 size 0xe8 virtual true final true
+  /// @brief Method ReleaseScene, addr 0x2bd88e4, size 0xe8, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
 
-  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2.ReleaseScene addr 0x2a55c78 size 0x120 virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2.ReleaseScene, addr 0x2bd89cc, size 0x120, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   UnityEngine_ResourceManagement_ResourceProviders_ISceneProvider2_ReleaseScene(
       ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
@@ -409,7 +409,7 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a55e74 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd8bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneProvider", modifiers: "&&", def_value: None }]

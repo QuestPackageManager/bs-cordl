@@ -9,13 +9,13 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockScoreSyncStateSender);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15524))
 // CS Name: ::MockScoreSyncStateSender*
 class CORDL_TYPE MockScoreSyncStateSender : public ::System::Object {
 public:
@@ -47,16 +47,16 @@ public:
 
   static inline ::GlobalNamespace::MockScoreSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method .ctor addr 0x228bbf0 size 0x17c virtual false final false
+  /// @brief Method .ctor, addr 0x23e71c8, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method Dispose addr 0x228bd98 size 0xc8 virtual true final true
+  /// @brief Method Dispose, addr 0x23e7370, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method SendScore addr 0x228f104 size 0x224 virtual false final false
+  /// @brief Method SendScore, addr 0x23ea708, size 0x224, virtual false, abstract: false, final false
   inline void SendScore(int32_t modifiedScore, int32_t multipliedScore, int32_t immediateMaxPossibleMultipliedScore, int32_t combo, int32_t multiplier);
 
-  /// @brief Method HandleScoreSyncStateUpdate addr 0x229163c size 0x4 virtual false final false
+  /// @brief Method HandleScoreSyncStateUpdate, addr 0x23ecb28, size 0x4, virtual false, abstract: false, final false
   inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockScoreSyncStateSender", modifiers: "&&", def_value: None }]

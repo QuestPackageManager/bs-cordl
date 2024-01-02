@@ -9,11 +9,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WarningHeaderValue)
-namespace System {
-class ICloneable;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 struct DateTimeOffset;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -21,14 +27,8 @@ class Object;
 namespace System::Net::Http::Headers {
 struct Token;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
-}
-namespace System {
-template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::WarningHeaderValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 2641 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14928)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2370))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14711)) CS Name:
 // ::System.Net.Http.Headers::WarningHeaderValue*
 class CORDL_TYPE WarningHeaderValue : public ::System::Object {
 public:
@@ -95,52 +95,52 @@ public:
 
   static inline ::System::Net::Http::Headers::WarningHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x26c7c90 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2842ca4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Agent addr 0x26c7c98 size 0x8 virtual false final false
+  /// @brief Method get_Agent, addr 0x2842cac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Agent();
 
-  /// @brief Method set_Agent addr 0x26c7ca0 size 0x8 virtual false final false
+  /// @brief Method set_Agent, addr 0x2842cb4, size 0x8, virtual false, abstract: false, final false
   inline void set_Agent(::StringW value);
 
-  /// @brief Method get_Code addr 0x26c7ca8 size 0x8 virtual false final false
+  /// @brief Method get_Code, addr 0x2842cbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Code();
 
-  /// @brief Method set_Code addr 0x26c7cb0 size 0x8 virtual false final false
+  /// @brief Method set_Code, addr 0x2842cc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Code(int32_t value);
 
-  /// @brief Method get_Date addr 0x26c7cb8 size 0x14 virtual false final false
+  /// @brief Method get_Date, addr 0x2842ccc, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method set_Date addr 0x26c7ccc size 0x14 virtual false final false
+  /// @brief Method set_Date, addr 0x2842ce0, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method get_Text addr 0x26c7ce0 size 0x8 virtual false final false
+  /// @brief Method get_Text, addr 0x2842cf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_Text addr 0x26c7ce8 size 0x8 virtual false final false
+  /// @brief Method set_Text, addr 0x2842cfc, size 0x8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method IsCodeValid addr 0x26c7cf0 size 0xc virtual false final false
+  /// @brief Method IsCodeValid, addr 0x2842d04, size 0xc, virtual false, abstract: false, final false
   static inline bool IsCodeValid(int32_t code);
 
-  /// @brief Method System.ICloneable.Clone addr 0x26c7cfc size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2842d10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26c7d04 size 0x158 virtual true final false
+  /// @brief Method Equals, addr 0x2842d18, size 0x158, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26c7e5c size 0xe0 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2842e70, size 0xe0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x26c7f3c size 0xb0 virtual false final false
+  /// @brief Method TryParse, addr 0x2842f50, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::WarningHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement addr 0x26c7fec size 0x28c virtual false final false
+  /// @brief Method TryParseElement, addr 0x2843000, size 0x28c, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::WarningHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString addr 0x26c8278 size 0x2a8 virtual true final false
+  /// @brief Method ToString, addr 0x284328c, size 0x12a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "WarningHeaderValue", modifiers: "&&", def_value: None }]

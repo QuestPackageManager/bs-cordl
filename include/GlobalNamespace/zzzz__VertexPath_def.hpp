@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexPath)
 namespace GlobalNamespace {
-class BezierPath;
+struct __VertexPath__Vertex;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace GlobalNamespace {
-struct __VertexPath__Vertex;
+class BezierPath;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_VAL_T(::GlobalNamespace::__VertexPath__Vertex);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6050))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5973))
 // CS Name: ::VertexPath::Vertex
 struct CORDL_TYPE __VertexPath__Vertex {
 public:
@@ -75,8 +75,8 @@ static_assert(offsetof(::GlobalNamespace::__VertexPath__Vertex, normal) == 0x18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5974))
 // CS Name: ::VertexPath*
 class CORDL_TYPE VertexPath : public ::System::Object {
 public:
@@ -137,30 +137,30 @@ public:
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length addr 0x21c1478 size 0x8 virtual false final false
+  /// @brief Method get_length, addr 0x230c4fc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method .ctor addr 0x21c0f08 size 0xe4 virtual false final false
+  /// @brief Method .ctor, addr 0x230bf8c, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method UpdateByBezierPath addr 0x21c0fec size 0x46c virtual false final false
+  /// @brief Method UpdateByBezierPath, addr 0x230c070, size 0x46c, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
-  /// @brief Method TimeAtPoint addr 0x21c19e4 size 0x38 virtual false final false
+  /// @brief Method TimeAtPoint, addr 0x230ca68, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method GetVertex addr 0x21c1a1c size 0x60 virtual false final false
+  /// @brief Method GetVertex, addr 0x230caa0, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> tangent, ByRef<::UnityEngine::Vector3> normal);
 
-  /// @brief Method GetPoint addr 0x21c1a7c size 0x38 virtual false final false
+  /// @brief Method GetPoint, addr 0x230cb00, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments addr 0x21c1480 size 0x564 virtual false final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x230c504, size 0x564, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method AddVertex addr 0x21c1ab4 size 0x40c virtual false final false
+  /// @brief Method AddVertex, addr 0x230cb38, size 0x40c, virtual false, abstract: false, final false
   inline void AddVertex(ByRef<::UnityEngine::Vector3> p0, ByRef<::UnityEngine::Vector3> p1, ByRef<::UnityEngine::Vector3> p2, ByRef<::UnityEngine::Vector3> p3, float_t t,
                         ByRef<::UnityEngine::Vector3> lastRotationAxis, ByRef<float_t> currentPathLength, ByRef<::GlobalNamespace::__VertexPath__Vertex> lastVertex, ByRef<int32_t> vertCount);
 

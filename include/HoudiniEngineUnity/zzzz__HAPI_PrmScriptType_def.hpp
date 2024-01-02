@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_PrmScriptType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9624))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9697))
 // CS Name: ::HoudiniEngineUnity::HAPI_PrmScriptType
 struct CORDL_TYPE HAPI_PrmScriptType {
 public:

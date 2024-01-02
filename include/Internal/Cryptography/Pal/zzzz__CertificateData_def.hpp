@@ -11,23 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateData)
-namespace System::Security::Cryptography {
-class DerSequenceReader;
-}
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X500DistinguishedName;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -35,32 +20,47 @@ template <typename T> class IEnumerator_1;
 namespace System {
 class Object;
 }
+namespace System::Security::Cryptography {
+class DerSequenceReader;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class IDisposable;
-}
-namespace System {
-struct DateTime;
-}
-namespace Internal::Cryptography::Pal {
-struct __CertificateData__AlgorithmIdentifier;
-}
-namespace Internal::Cryptography::Pal {
-class __CertificateData___ReadReverseRdns_d__21;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Extension;
+class X500DistinguishedName;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509NameType;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Internal::Cryptography::Pal {
+class __CertificateData___ReadReverseRdns_d__21;
+}
+namespace Internal::Cryptography::Pal {
+struct __CertificateData__AlgorithmIdentifier;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Extension;
+}
+namespace Internal::Cryptography::Pal {
 struct GeneralNameType;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509NameType;
+}
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Internal::Cryptography::Pal {
@@ -81,7 +81,7 @@ MARK_VAL_T(::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier
 namespace Internal::Cryptography::Pal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7693))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8856))
 // CS Name: ::CertificateData::AlgorithmIdentifier
 struct CORDL_TYPE __CertificateData__AlgorithmIdentifier {
 public:
@@ -117,8 +117,8 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData__Algorit
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3829)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 600 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7694)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 608
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::CertificateData::<ReadReverseRdns>d__21*
 class CORDL_TYPE __CertificateData___ReadReverseRdns_d__21 : public ::System::Object {
 public:
   // Declarations
@@ -207,30 +207,32 @@ public:
 
   static inline ::Internal::Cryptography::Pal::__CertificateData___ReadReverseRdns_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x26af42c size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x282a43c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x26af460 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x282a470, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x26af464 size 0x294 virtual true final true
+  /// @brief Method MoveNext, addr 0x282a474, size 0x294, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current addr 0x26af6f8 size 0xc virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.String>>.get_Current, addr 0x282a708, size 0xc, virtual true, abstract: false,
+  /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_String___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x26af704 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x282a714, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x26af744 size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x282a754, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator addr 0x26af7a0 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.String>>.GetEnumerator, addr 0x282a7b0, size 0xa4, virtual true, abstract:
+  /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_String___GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x26af844 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x282a854, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CertificateData___ReadReverseRdns_d__21", modifiers: "&&", def_value: None }]
@@ -292,8 +294,8 @@ static_assert(offsetof(::Internal::Cryptography::Pal::__CertificateData___ReadRe
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Cryptography::Pal {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7693)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7695))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8856)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8858))
 // CS Name: ::Internal.Cryptography.Pal::CertificateData
 struct CORDL_TYPE CertificateData {
 public:
@@ -302,19 +304,19 @@ public:
 
   using AlgorithmIdentifier = ::Internal::Cryptography::Pal::__CertificateData__AlgorithmIdentifier;
 
-  /// @brief Method .ctor addr 0x26ae03c size 0x718 virtual false final false
+  /// @brief Method .ctor, addr 0x282904c, size 0x718, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
-  /// @brief Method GetNameInfo addr 0x26ae754 size 0x640 virtual false final false
+  /// @brief Method GetNameInfo, addr 0x2829764, size 0x640, virtual false, abstract: false, final false
   inline ::StringW GetNameInfo(::System::Security::Cryptography::X509Certificates::X509NameType nameType, bool forIssuer);
 
-  /// @brief Method GetSimpleNameInfo addr 0x26aed94 size 0x45c virtual false final false
+  /// @brief Method GetSimpleNameInfo, addr 0x2829da4, size 0x45c, virtual false, abstract: false, final false
   static inline ::StringW GetSimpleNameInfo(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 
-  /// @brief Method FindAltNameMatch addr 0x26af1f0 size 0x1c4 virtual false final false
+  /// @brief Method FindAltNameMatch, addr 0x282a200, size 0x1c4, virtual false, abstract: false, final false
   static inline ::StringW FindAltNameMatch(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionBytes, ::Internal::Cryptography::Pal::GeneralNameType matchType, ::StringW otherOid);
 
-  /// @brief Method ReadReverseRdns addr 0x26af3b4 size 0x78 virtual false final false
+  /// @brief Method ReadReverseRdns, addr 0x282a3c4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>*
   ReadReverseRdns(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* name);
 

@@ -6,11 +6,11 @@ CORDL_MODULE_EXPORT(IMultiplayerStatusModel)
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace GlobalNamespace {
-class MultiplayerStatusData;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class MultiplayerStatusData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerStatusModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4467))
 // CS Name: ::IMultiplayerStatusModel*
 class CORDL_TYPE IMultiplayerStatusModel {
 public:
   // Declarations
-  /// @brief Method GetMultiplayerStatusAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerStatusModel", modifiers: "&&", def_value: None }]

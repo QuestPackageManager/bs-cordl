@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPlatformManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4573))
 // CS Name: ::ISonyPlatformManager*
 class CORDL_TYPE ISonyPlatformManager {
 public:
@@ -32,16 +32,16 @@ public:
 
   __declspec(property(get = get_initializationTask))::System::Threading::Tasks::Task* initializationTask;
 
-  /// @brief Method get_userAccountId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userAccountId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t get_userAccountId();
 
-  /// @brief Method get_userId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_userId();
 
-  /// @brief Method get_userName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_initializationTask addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_initializationTask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* get_initializationTask();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISonyPlatformManager", modifiers: "&&", def_value: None }]

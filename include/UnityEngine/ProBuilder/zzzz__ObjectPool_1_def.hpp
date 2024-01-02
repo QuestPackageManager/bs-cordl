@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -29,8 +29,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12075))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12147))
 // CS Name: ::UnityEngine.ProBuilder::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
@@ -86,22 +86,23 @@ public:
   static inline ::UnityEngine::ProBuilder::ObjectPool_1<T>* New_ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor,
                                                                      bool lazyInitialization);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param lazyInitialization: bool (default: false)
+  inline void _ctor(int32_t initialSize, int32_t desiredSize, ::System::Func_1<T>* constructor, ::System::Action_1<T>* destructor, bool lazyInitialization = false);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Enqueue(T obj);
 
-  /// @brief Method Empty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Empty();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectPool_1", modifiers: "&&", def_value: None }]

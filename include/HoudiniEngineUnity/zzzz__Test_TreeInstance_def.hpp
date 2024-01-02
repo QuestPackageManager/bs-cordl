@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__TreeInstance_def.hpp"
 CORDL_MODULE_EXPORT(Test_TreeInstance)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
-}
 namespace UnityEngine {
 struct TreeInstance;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TreeInstance);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15454)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15470))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9939))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance*
 class CORDL_TYPE Test_TreeInstance : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method .ctor addr 0x208f828 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x21e81c4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TreeInstance self);
 
-  /// @brief Method IsEquivalentTo addr 0x208f85c size 0x21c virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e81f8, size 0x21c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_TreeInstance", modifiers: "&&", def_value: None }]

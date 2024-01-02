@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADArgHolder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3151))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3152))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADArgHolder*
 class CORDL_TYPE CADArgHolder : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::CADArgHolder* New_ctor(int32_t i);
 
-  /// @brief Method .ctor addr 0x234f0c4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24a7bb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADArgHolder", modifiers: "&&", def_value: None }]

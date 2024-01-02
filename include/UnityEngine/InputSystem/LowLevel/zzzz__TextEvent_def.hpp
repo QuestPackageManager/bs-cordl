@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextEvent)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TextEvent);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6616))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6547))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TextEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE TextEvent {
@@ -59,17 +59,19 @@ public:
 
   constexpr void __set_character(int32_t value);
 
-  /// @brief Method get_typeStatic addr 0x2970a4c size 0x20 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2af07a0, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method From addr 0x2970a6c size 0x12c virtual false final false
+  /// @brief Method From, addr 0x2af07c0, size 0x12c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method Create addr 0x2970b98 size 0xa0 virtual false final false
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
+  /// @brief Method Create, addr 0x2af08ec, size 0xa0, virtual false, abstract: false, final false
+  /// @param time: double_t (default: -1.0)
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time = -1.0);
 
-  /// @brief Method Create addr 0x2970c38 size 0x9c virtual false final false
-  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
+  /// @brief Method Create, addr 0x2af098c, size 0x9c, virtual false, abstract: false, final false
+  /// @param time: double_t (default: -1.0)
+  static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time = -1.0);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "character", ty: "int32_t", modifiers:
   // "", def_value: None }]

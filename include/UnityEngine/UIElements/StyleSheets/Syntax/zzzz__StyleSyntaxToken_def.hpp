@@ -20,19 +20,19 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7574))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7488))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7489))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxToken
 struct CORDL_TYPE StyleSyntaxToken {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2c8ea04 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2df5db4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType t);
 
-  /// @brief Method .ctor addr 0x2c8ea14 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2df5dc4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, ::StringW text);
 
-  /// @brief Method .ctor addr 0x2c8ea24 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2df5dd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType type, int32_t number);
 
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenType", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW",

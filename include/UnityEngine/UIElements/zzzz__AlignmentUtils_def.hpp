@@ -15,17 +15,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::AlignmentUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6858))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6772))
 // CS Name: ::UnityEngine.UIElements::AlignmentUtils*
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RoundToPixelGrid addr 0x2c50710 size 0x1c virtual false final false
-  static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
+  /// @brief Method RoundToPixelGrid, addr 0x2db7ac0, size 0x1c, virtual false, abstract: false, final false
+  /// @param offset: float_t (default: 0.02)
+  static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset = 0.02);
 
-  /// @brief Method CeilToPixelGrid addr 0x2c5072c size 0x14 virtual false final false
-  static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
+  /// @brief Method CeilToPixelGrid, addr 0x2db7adc, size 0x14, virtual false, abstract: false, final false
+  /// @param offset: float_t (default: -0.02)
+  static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset = -0.02);
 
   // Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

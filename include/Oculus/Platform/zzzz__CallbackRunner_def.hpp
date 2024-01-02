@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Oculus::Platform::CallbackRunner);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13235))
 // CS Name: ::Oculus.Platform::CallbackRunner*
 class CORDL_TYPE CallbackRunner : public ::UnityEngine::MonoBehaviour {
@@ -29,24 +29,24 @@ public:
 
   constexpr void __set_IsPersistantBetweenSceneLoads(bool value);
 
-  /// @brief Method ovr_UnityResetTestPlatform addr 0x2568f88 size 0x64 virtual false final false
+  /// @brief Method ovr_UnityResetTestPlatform, addr 0x26cfaf0, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();
 
-  /// @brief Method Awake addr 0x2568fec size 0x100 virtual false final false
+  /// @brief Method Awake, addr 0x26cfb54, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x25690ec size 0xc virtual false final false
+  /// @brief Method Update, addr 0x26cfc54, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x25690f8 size 0x4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x26cfcc4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnApplicationQuit addr 0x25690fc size 0x4c virtual false final false
+  /// @brief Method OnApplicationQuit, addr 0x26cfcc8, size 0x4c, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
   static inline ::Oculus::Platform::CallbackRunner* New_ctor();
 
-  /// @brief Method .ctor addr 0x2569148 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x26cfd14, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CallbackRunner", modifiers: "&&", def_value: None }]

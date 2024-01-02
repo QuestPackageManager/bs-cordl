@@ -6,6 +6,9 @@ CORDL_MODULE_EXPORT(ICriticalNotifyCompletion)
 namespace System {
 class Action;
 }
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
@@ -17,12 +20,15 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ICriticalNotifyCompletion);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3374))
 // CS Name: ::System.Runtime.CompilerServices::ICriticalNotifyCompletion*
 class CORDL_TYPE ICriticalNotifyCompletion {
 public:
   // Declarations
-  /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*() noexcept;
+
+  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICriticalNotifyCompletion", modifiers: "&&", def_value: None }]

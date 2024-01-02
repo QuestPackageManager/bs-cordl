@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CircleTouchable)
 namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::HMUI::CircleTouchable);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13685))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13564))
 // CS Name: ::HMUI::CircleTouchable*
 class CORDL_TYPE CircleTouchable : public ::HMUI::Touchable {
 public:
@@ -61,24 +61,24 @@ public:
 
   constexpr void __set__containerRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method OnEnable addr 0x1fce610 size 0x1c virtual true final false
+  /// @brief Method OnEnable, addr 0x212486c, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateCachedReferences addr 0x1fce62c size 0x6c virtual false final false
+  /// @brief Method UpdateCachedReferences, addr 0x2124888, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method Raycast addr 0x1fce698 size 0xcc virtual true final false
+  /// @brief Method Raycast, addr 0x21248f4, size 0xcc, virtual true, abstract: false, final false
   inline bool Raycast(::UnityEngine::Vector2 sp, ::UnityEngine::Camera* eventCamera);
 
-  /// @brief Method OnDrawGizmosSelected addr 0x1fce764 size 0x110 virtual false final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x21249c0, size 0x110, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method DrawGizmoCircle addr 0x1fce874 size 0xe0 virtual false final false
+  /// @brief Method DrawGizmoCircle, addr 0x2124ad0, size 0xe0, virtual false, abstract: false, final false
   inline void DrawGizmoCircle(::UnityEngine::Vector3 center, float_t radius, int32_t steps);
 
   static inline ::HMUI::CircleTouchable* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fce954 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2124bb0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CircleTouchable", modifiers: "&&", def_value: None }]

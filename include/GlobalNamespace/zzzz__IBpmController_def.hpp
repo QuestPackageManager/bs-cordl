@@ -15,15 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::IBpmController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4834))
 // CS Name: ::IBpmController*
 class CORDL_TYPE IBpmController {
 public:
   // Declarations
   __declspec(property(get = get_currentBpm)) float_t currentBpm;
 
-  /// @brief Method get_currentBpm addr 0x0 size 0xffffffffffffffff virtual true final false
+  __declspec(property(get = get_oneBeatDuration)) float_t oneBeatDuration;
+
+  /// @brief Method get_currentBpm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_currentBpm();
+
+  /// @brief Method get_oneBeatDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline float_t get_oneBeatDuration();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBpmController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -6,11 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FieldBuilder)
-namespace System::Globalization {
-class CultureInfo;
+namespace System::Reflection {
+class Binder;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
+}
+namespace System::Globalization {
+class CultureInfo;
 }
 namespace System::Reflection {
 struct FieldAttributes;
@@ -18,14 +24,8 @@ struct FieldAttributes;
 namespace System {
 struct RuntimeFieldHandle;
 }
-namespace System {
-class Type;
-}
 namespace System::Reflection {
 struct BindingFlags;
-}
-namespace System::Reflection {
-class Binder;
 }
 // Forward declare root types
 namespace System::Reflection::Emit {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Reflection::Emit::FieldBuilder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3469))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3539))
 // CS Name: ::System.Reflection.Emit::FieldBuilder*
 class CORDL_TYPE FieldBuilder : public ::System::Reflection::FieldInfo {
 public:
@@ -55,37 +55,37 @@ public:
 
   __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
 
-  /// @brief Method get_Attributes addr 0x23a0b88 size 0x8 virtual true final false
+  /// @brief Method get_Attributes, addr 0x24fa704, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType addr 0x23a0b90 size 0x8 virtual true final false
+  /// @brief Method get_DeclaringType, addr 0x24fa70c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_FieldHandle addr 0x23a0b98 size 0x8 virtual true final false
+  /// @brief Method get_FieldHandle, addr 0x24fa714, size 0x8, virtual true, abstract: false, final false
   inline ::System::RuntimeFieldHandle get_FieldHandle();
 
-  /// @brief Method get_FieldType addr 0x23a0ba0 size 0x8 virtual true final false
+  /// @brief Method get_FieldType, addr 0x24fa71c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_FieldType();
 
-  /// @brief Method get_Name addr 0x23a0ba8 size 0x8 virtual true final false
+  /// @brief Method get_Name, addr 0x24fa724, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType addr 0x23a0bb0 size 0x8 virtual true final false
+  /// @brief Method get_ReflectedType, addr 0x24fa72c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method GetCustomAttributes addr 0x23a0bb8 size 0x8 virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x24fa734, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes addr 0x23a0bc0 size 0x8 virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x24fa73c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetValue addr 0x23a0bc8 size 0x8 virtual true final false
+  /// @brief Method GetValue, addr 0x24fa744, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method IsDefined addr 0x23a0bd0 size 0x8 virtual true final false
+  /// @brief Method IsDefined, addr 0x24fa74c, size 0x8, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method SetValue addr 0x23a0bd8 size 0x40 virtual true final false
+  /// @brief Method SetValue, addr 0x24fa754, size 0x40, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::System::Globalization::CultureInfo* culture);
 

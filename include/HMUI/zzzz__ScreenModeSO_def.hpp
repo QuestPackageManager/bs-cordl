@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::HMUI::ScreenModeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13709))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13592))
 // CS Name: ::HMUI::ScreenModeSO*
 class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -34,12 +34,12 @@ public:
 
   constexpr void __set__data(::HMUI::ScreenModeData* value);
 
-  /// @brief Method get_data addr 0x1fd4c44 size 0x8 virtual false final false
+  /// @brief Method get_data, addr 0x212c674, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();
 
   static inline ::HMUI::ScreenModeSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd4c4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212c67c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenModeSO", modifiers: "&&", def_value: None }]

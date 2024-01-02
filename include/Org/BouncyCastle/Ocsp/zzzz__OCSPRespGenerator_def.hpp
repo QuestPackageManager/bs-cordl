@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OCSPRespGenerator)
-namespace Org::BouncyCastle::Ocsp {
-class OcspResp;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Ocsp {
+class OcspResp;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OCSPRespGenerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1617))
 // CS Name: ::Org.BouncyCastle.Ocsp::OCSPRespGenerator*
 class CORDL_TYPE OCSPRespGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate addr 0x1030ff8 size 0x318 virtual false final false
+  /// @brief Method Generate, addr 0x10a2248, size 0x318, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspResp* Generate(int32_t status, ::System::Object* response);
 
   static inline ::Org::BouncyCastle::Ocsp::OCSPRespGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1031310 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10a2560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OCSPRespGenerator", modifiers: "&&", def_value: None }]

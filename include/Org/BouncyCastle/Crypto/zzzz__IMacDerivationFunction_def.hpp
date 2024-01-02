@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationFunction*() noexcept;
 
-  /// @brief Method GetMac addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMac, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMacDerivationFunction", modifiers: "&&", def_value: None }]

@@ -13,19 +13,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
+struct EaseType;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
+}
+namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace GlobalNamespace {
 class IBeatToTimeConvertor;
-}
-namespace GlobalNamespace {
-struct EaseType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBox);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4300))
 // CS Name: ::BeatmapEventDataBox::DistributionParamType
 struct CORDL_TYPE __BeatmapEventDataBox__DistributionParamType {
 public:
@@ -91,8 +91,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapEventDataBox__DistributionPar
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15944)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4326))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4327))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4300)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4301))
 // CS Name: ::BeatmapEventDataBox*
 class CORDL_TYPE BeatmapEventDataBox : public ::System::Object {
 public:
@@ -177,13 +177,13 @@ public:
 
   constexpr void __set__eventDistributionEaseType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method get_subtypeIdentifier addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_subtypeIdentifier, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_subtypeIdentifier();
 
-  /// @brief Method get_beatStep addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatStep, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beatStep();
 
-  /// @brief Method get_indexFilter addr 0x21ee078 size 0x8 virtual false final false
+  /// @brief Method get_indexFilter, addr 0x2338804, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter* get_indexFilter();
 
   static inline ::GlobalNamespace::BeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
@@ -191,25 +191,29 @@ public:
                                                                  float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                                                                  ::GlobalNamespace::EaseType eventDistributionEaseType);
 
-  /// @brief Method .ctor addr 0x21ee080 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x233880c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType eventDistributionParamType, float_t eventDistributionParam, bool eventDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType eventDistributionEaseType);
 
-  /// @brief Method Unpack addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Unpack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 
-  /// @brief Method GetBeatStep addr 0x21ee114 size 0x64 virtual false final false
+  /// @brief Method GetBeatStep, addr 0x23388ac, size 0x20, virtual false, abstract: false, final false
   inline float_t GetBeatStep(float_t lastBaseEventRelativeBeat);
 
-  /// @brief Method GetDistribution addr 0x21ee198 size 0x2c virtual false final false
+  /// @brief Method GetDistribution, addr 0x2338920, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetDistribution(bool isFirstBaseDataEvent, int32_t distributionOrderIndex);
 
-  /// @brief Method BeatDistributionParamToStep addr 0x21ee178 size 0x20 virtual false final false
+  /// @brief Method BeatDistributionParamToStep, addr 0x23389b8, size 0x20, virtual false, abstract: false, final false
   static inline float_t BeatDistributionParamToStep(float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count);
 
-  /// @brief Method EventDistributionParamToStep addr 0x21ee1c4 size 0x6c virtual false final false
+  /// @brief Method GetBeatStep, addr 0x23388cc, size 0x54, virtual false, abstract: false, final false
+  static inline float_t GetBeatStep(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, float_t distributionParam,
+                                    float_t lastBaseEventRelativeBeat);
+
+  /// @brief Method EventDistributionParamToStep, addr 0x233894c, size 0x6c, virtual false, abstract: false, final false
   static inline float_t EventDistributionParamToStep(int32_t index, float_t distributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType distributionParamType, int32_t count,
                                                      ::GlobalNamespace::EaseType easeType);
 

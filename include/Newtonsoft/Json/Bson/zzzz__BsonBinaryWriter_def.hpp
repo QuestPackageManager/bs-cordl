@@ -11,17 +11,17 @@ CORDL_MODULE_EXPORT(BsonBinaryWriter)
 namespace System {
 struct DateTimeKind;
 }
-namespace System::Text {
-class Encoding;
-}
-namespace Newtonsoft::Json::Bson {
-class BsonToken;
-}
 namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System::IO {
 class BinaryWriter;
+}
+namespace Newtonsoft::Json::Bson {
+class BsonToken;
+}
+namespace System::Text {
+class Encoding;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Bson {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinaryWriter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2369)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2369))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12070))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinaryWriter*
 class CORDL_TYPE BsonBinaryWriter : public ::System::Object {
 public:
@@ -75,42 +75,42 @@ public:
 
   static inline ::System::Text::Encoding* getStaticF_Encoding();
 
-  /// @brief Method get_DateTimeKindHandling addr 0x256125c size 0x8 virtual false final false
+  /// @brief Method get_DateTimeKindHandling, addr 0x26c49a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
-  /// @brief Method set_DateTimeKindHandling addr 0x2561264 size 0x8 virtual false final false
+  /// @brief Method set_DateTimeKindHandling, addr 0x26c49a8, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
   static inline ::Newtonsoft::Json::Bson::BsonBinaryWriter* New_ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method .ctor addr 0x256126c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x26c49b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method Flush addr 0x256129c size 0x20 virtual false final false
+  /// @brief Method Flush, addr 0x26c49e0, size 0x20, virtual false, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method Close addr 0x25612bc size 0x20 virtual false final false
+  /// @brief Method Close, addr 0x26c4a00, size 0x20, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method WriteToken addr 0x25612dc size 0x28 virtual false final false
+  /// @brief Method WriteToken, addr 0x26c4a20, size 0x28, virtual false, abstract: false, final false
   inline void WriteToken(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteTokenInternal addr 0x2561ba0 size 0xe50 virtual false final false
+  /// @brief Method WriteTokenInternal, addr 0x26c52e4, size 0xe54, virtual false, abstract: false, final false
   inline void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteString addr 0x2562a80 size 0xa4 virtual false final false
+  /// @brief Method WriteString, addr 0x26c61c8, size 0xa4, virtual false, abstract: false, final false
   inline void WriteString(::StringW s, int32_t byteCount, ::System::Nullable_1<int32_t> calculatedlengthPrefix);
 
-  /// @brief Method WriteUtf8Bytes addr 0x2562bb4 size 0x13c virtual false final false
+  /// @brief Method WriteUtf8Bytes, addr 0x26c62fc, size 0x144, virtual false, abstract: false, final false
   inline void WriteUtf8Bytes(::StringW s, int32_t byteCount);
 
-  /// @brief Method CalculateSize addr 0x2562cf0 size 0x8 virtual false final false
+  /// @brief Method CalculateSize, addr 0x26c6440, size 0x8, virtual false, abstract: false, final false
   inline int32_t CalculateSize(int32_t stringByteCount);
 
-  /// @brief Method CalculateSizeWithLength addr 0x2562cf8 size 0x14 virtual false final false
+  /// @brief Method CalculateSizeWithLength, addr 0x26c6448, size 0x14, virtual false, abstract: false, final false
   inline int32_t CalculateSizeWithLength(int32_t stringByteCount, bool includeSize);
 
-  /// @brief Method CalculateSize addr 0x2561304 size 0x89c virtual false final false
+  /// @brief Method CalculateSize, addr 0x26c4a48, size 0x89c, virtual false, abstract: false, final false
   inline int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonBinaryWriter", modifiers: "&&", def_value: None }]

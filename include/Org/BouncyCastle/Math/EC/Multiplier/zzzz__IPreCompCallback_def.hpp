@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE IPreCompCallback {
 public:
   // Declarations
-  /// @brief Method Precompute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Precompute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPreCompCallback", modifiers: "&&", def_value: None }]

@@ -8,56 +8,56 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DictionaryWrapper_2)
-namespace Newtonsoft::Json::Utilities {
-class IWrappedDictionary;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue> class __DictionaryWrapper_2____c;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace Newtonsoft::Json::Utilities {
-template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue> struct __DictionaryWrapper_2__DictionaryEnumerator_2;
+template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections {
 class IDictionary;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename TKey, typename TValue> class __DictionaryWrapper_2____c;
+}
+namespace Newtonsoft::Json::Utilities {
+class IWrappedDictionary;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IDictionaryEnumerator;
 }
 namespace System {
 class Array;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections {
 class ICollection;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace Newtonsoft::Json::Utilities {
+template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue> struct __DictionaryWrapper_2__DictionaryEnumerator_2;
+}
 namespace System::Collections {
-struct DictionaryEntry;
+class IEnumerable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections {
+struct DictionaryEntry;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -80,7 +80,7 @@ namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11809))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11881))
 // CS Name: ::DictionaryWrapper`2::DictionaryEnumerator`2<TKey,TValue,TEnumeratorKey,TEnumeratorValue>
 struct CORDL_TYPE __DictionaryWrapper_2__DictionaryEnumerator_2 {
 public:
@@ -99,25 +99,25 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
 
-  /// @brief Method get_Entry addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Entry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "_e", ty: "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey,TEnumeratorValue>>*", modifiers: "",
@@ -144,8 +144,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11810))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11882))
 // CS Name: ::DictionaryWrapper`2::<>c<TKey,TValue>*
 class CORDL_TYPE __DictionaryWrapper_2____c : public ::System::Object {
 public:
@@ -167,10 +167,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2____c<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetEnumerator>b__25_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetEnumerator>b__25_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _GetEnumerator_b__25_0(::System::Collections::DictionaryEntry de);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DictionaryWrapper_2____c", modifiers: "&&", def_value: None }]
@@ -197,8 +197,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11883))
 // CS Name: ::Newtonsoft.Json.Utilities::DictionaryWrapper`2<TKey,TValue>*
 class CORDL_TYPE DictionaryWrapper_2 : public ::System::Object {
 public:
@@ -282,102 +282,102 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::IDictionary* dictionary);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* dictionary);
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(TKey key, TValue value);
 
-  /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(TKey key);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<TValue>* get_Values();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue get_Item(TKey key);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> array, int32_t arrayIndex);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> item);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IDictionary.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IDictionary_Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method System.Collections.IDictionary.get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IDictionary_get_Item(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IDictionary_set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method System.Collections.IDictionary.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
 
-  /// @brief Method System.Collections.IDictionary.Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_Contains(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IDictionary.get_Keys addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Values();
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method get_UnderlyingDictionary addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_UnderlyingDictionary, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_UnderlyingDictionary();
 
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryWrapper_2", modifiers: "&&", def_value: None }]

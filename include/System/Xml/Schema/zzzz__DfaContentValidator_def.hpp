@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::DfaContentValidator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11538))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11612))
 // CS Name: ::System.Xml.Schema::DfaContentValidator*
 class CORDL_TYPE DfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
@@ -50,7 +50,7 @@ public:
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen,
                                                                      bool isEmptiable);
 
-  /// @brief Method .ctor addr 0x27339ec size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x28b0a10, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*> transitionTable, ::System::Xml::Schema::SymbolsDictionary* symbols,
                     ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 

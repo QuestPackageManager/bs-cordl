@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CreditsScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6120))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15414))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6062))
 // CS Name: ::CreditsScenesTransitionSetupDataSO*
 class CORDL_TYPE CreditsScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
 public:
@@ -32,18 +32,18 @@ public:
 
   constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method add_didFinishEvent addr 0x21c9608 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x231d0b8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x21c96b8 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x231d168, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* value);
 
-  /// @brief Method Finish addr 0x21c9768 size 0x20 virtual false final false
+  /// @brief Method Finish, addr 0x231d218, size 0x20, virtual false, abstract: false, final false
   inline void Finish();
 
   static inline ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c9788 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231d238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreditsScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

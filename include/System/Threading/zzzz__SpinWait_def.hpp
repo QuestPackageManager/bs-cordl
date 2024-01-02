@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::SpinWait);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2678))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2680))
 // CS Name: ::System.Threading::SpinWait
 struct CORDL_TYPE SpinWait {
 public:
@@ -32,22 +32,22 @@ public:
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count addr 0x24b707c size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x2612004, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield addr 0x24b7084 size 0x78 virtual false final false
+  /// @brief Method get_NextSpinWillYield, addr 0x261200c, size 0x78, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
-  /// @brief Method SpinOnce addr 0x24b6fe0 size 0x8 virtual false final false
+  /// @brief Method SpinOnce, addr 0x2611f68, size 0x8, virtual false, abstract: false, final false
   inline void SpinOnce();
 
-  /// @brief Method SpinOnce addr 0x24b6c70 size 0xac virtual false final false
+  /// @brief Method SpinOnce, addr 0x2611bf8, size 0xac, virtual false, abstract: false, final false
   inline void SpinOnce(int32_t sleep1Threshold);
 
-  /// @brief Method SpinOnceCore addr 0x24b70fc size 0x1a4 virtual false final false
+  /// @brief Method SpinOnceCore, addr 0x2612084, size 0x1a4, virtual false, abstract: false, final false
   inline void SpinOnceCore(int32_t sleep1Threshold);
 
-  /// @brief Method Reset addr 0x24b72a0 size 0x8 virtual false final false
+  /// @brief Method Reset, addr 0x2612228, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "_count", ty: "int32_t", modifiers: "", def_value: None }]

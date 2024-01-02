@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TagUnitType);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12410))
 // CS Name: ::TMPro::TagUnitType
 struct CORDL_TYPE TagUnitType {
 public:

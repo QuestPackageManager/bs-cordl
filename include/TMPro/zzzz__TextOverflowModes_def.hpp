@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextOverflowModes);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12435))
 // CS Name: ::TMPro::TextOverflowModes
 struct CORDL_TYPE TextOverflowModes {
 public:

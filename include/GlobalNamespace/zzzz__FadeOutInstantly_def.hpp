@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FadeOutInstantly);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15313))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15284))
 // CS Name: ::FadeOutInstantly*
 class CORDL_TYPE FadeOutInstantly : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__fadeInOut(::GlobalNamespace::FadeInOutController* value);
 
-  /// @brief Method Start addr 0x268cba8 size 0x1c virtual false final false
+  /// @brief Method Start, addr 0x2807840, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
 
-  /// @brief Method .ctor addr 0x268cbc4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x280785c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FadeOutInstantly", modifiers: "&&", def_value: None }]

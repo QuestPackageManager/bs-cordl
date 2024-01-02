@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataMinMaxFloatSO)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
 }
 namespace GlobalNamespace {
@@ -21,6 +18,9 @@ class MultiplayerPlayerResultsData;
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerBadgeDataMinMaxFloatSO;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5214)), TypeDefinitionIndex(TypeDefinitionIndex(5213))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5108)), TypeDefinitionIndex(TypeDefinitionIndex(5109))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5103))
 // CS Name: ::MultiplayerBadgeDataMinMaxFloatSO*
 class CORDL_TYPE MultiplayerBadgeDataMinMaxFloatSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
@@ -55,25 +55,25 @@ public:
 
   constexpr void __set__weightMultiplier(float_t value);
 
-  /// @brief Method CalculateBadgeData addr 0x20ec1e8 size 0x14 virtual true final false
+  /// @brief Method CalculateBadgeData, addr 0x23cdcf8, size 0x14, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                                                           float_t randomMultiplier);
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method CalculateMax addr 0x20ec1fc size 0x570 virtual false final false
+  /// @brief Method CalculateMax, addr 0x23cdd0c, size 0x570, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMax(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
-  /// @brief Method CalculateMin addr 0x20ec76c size 0x57c virtual false final false
+  /// @brief Method CalculateMin, addr 0x23ce27c, size 0x57c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateMin(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                     float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ec1d8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23cdce8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataMinMaxFloatSO", modifiers: "&&", def_value: None }]

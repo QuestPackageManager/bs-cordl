@@ -10,11 +10,11 @@ class StartDragArgs;
 namespace UnityEngine::UIElements {
 class IDragAndDrop;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine::UIElements {
 class IDragAndDropData;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultDragAndDropClient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7050))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6964))
 // CS Name: ::UnityEngine.UIElements::DefaultDragAndDropClient*
 class CORDL_TYPE DefaultDragAndDropClient : public ::System::Object {
 public:
@@ -51,18 +51,18 @@ public:
 
   constexpr void __set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value);
 
-  /// @brief Method get_userData addr 0x2ca6f28 size 0x18 virtual true final true
+  /// @brief Method get_userData, addr 0x2e0d2d8, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* get_userData();
 
-  /// @brief Method StartDrag addr 0x2ca6f40 size 0x8 virtual true final true
+  /// @brief Method StartDrag, addr 0x2e0d2f0, size 0x8, virtual true, abstract: false, final true
   inline void StartDrag(::UnityEngine::UIElements::StartDragArgs* args);
 
-  /// @brief Method get_data addr 0x2ca5278 size 0x4 virtual true final true
+  /// @brief Method get_data, addr 0x2e0b628, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IDragAndDropData* get_data();
 
   static inline ::UnityEngine::UIElements::DefaultDragAndDropClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca6f20 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0d2d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDragAndDropClient", modifiers: "&&", def_value: None }]

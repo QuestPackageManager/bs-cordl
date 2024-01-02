@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
+#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
+#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"
-#include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
-#include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__KeyedFactoryBase_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TBase, typename TKey> inline void Zenject::__KeyedFactoryBase_2____c<TBase, TKey>::setStaticF___9(::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* value) {
   ::cordl_internals::setStaticField<::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>*, "<>9",
@@ -141,8 +141,8 @@ template <typename TBase, typename TKey> inline ::Zenject::DiContainer* Zenject:
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method);
 }
 template <typename TBase, typename TKey> inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::KeyedFactoryBase_2<TBase, TKey>::get_ProvidedTypes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(),
-                                                                             "get_ProvidedTypes", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal_method);
 }
 template <typename TBase, typename TKey> inline ::System::Collections::Generic::ICollection_1<TKey>* Zenject::KeyedFactoryBase_2<TBase, TKey>::get_Keys() {
@@ -173,8 +173,8 @@ template <typename TBase, typename TKey> inline ::System::Type* Zenject::KeyedFa
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, key);
 }
 template <typename TBase, typename TKey> inline void Zenject::KeyedFactoryBase_2<TBase, TKey>::Validate() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(), "Validate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactoryBase_2<TBase, TKey>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TBase, typename TKey>

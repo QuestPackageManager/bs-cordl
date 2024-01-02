@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LogEventName);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13258))
 // CS Name: ::Oculus.Platform::LogEventName
 struct CORDL_TYPE LogEventName {
 public:

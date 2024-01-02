@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusGoController);
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15300))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15159))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15157))
 // CS Name: ::Unity.XR.Oculus.Input::OculusGoController*
 class CORDL_TYPE OculusGoController : public ::Unity::XR::Oculus::Input::GearVRTrackedController {
 public:
   // Declarations
   static inline ::Unity::XR::Oculus::Input::OculusGoController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af8e50 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c7cb78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusGoController", modifiers: "&&", def_value: None }]

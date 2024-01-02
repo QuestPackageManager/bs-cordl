@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContextAttribute);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3104))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3105))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContextAttribute*
 class CORDL_TYPE IContextAttribute {
 public:
   // Declarations
-  /// @brief Method GetPropertiesForNewContext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPropertiesForNewContext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method IsContextOK addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsContextOK, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContextAttribute", modifiers: "&&", def_value: None }]

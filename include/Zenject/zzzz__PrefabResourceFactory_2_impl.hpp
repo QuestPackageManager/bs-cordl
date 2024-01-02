@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabResourceFactory_2_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IFactory_3_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_3<::StringW,P1,T>"
 template <typename P1, typename T> constexpr Zenject::PrefabResourceFactory_2<P1, T>::operator ::Zenject::IFactory_3<::StringW, P1, T>*() noexcept {
@@ -32,9 +32,8 @@ template <typename P1, typename T> inline ::Zenject::DiContainer* Zenject::Prefa
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method);
 }
 template <typename P1, typename T> inline T Zenject::PrefabResourceFactory_2<P1, T>::Create(::StringW prefabResourceName, P1 param) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(), "Create", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<P1>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabResourceFactory_2<P1, T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, prefabResourceName, param);
 }
 template <typename P1, typename T> inline ::Zenject::PrefabResourceFactory_2<P1, T>* Zenject::PrefabResourceFactory_2<P1, T>::New_ctor() {

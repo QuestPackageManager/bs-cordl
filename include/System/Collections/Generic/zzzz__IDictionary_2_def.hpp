@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IDictionary_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -12,9 +15,6 @@ template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3828))
 // CS Name: ::System.Collections.Generic::IDictionary`2<TKey,TValue>*
 class CORDL_TYPE IDictionary_2 {
 public:
@@ -49,28 +49,28 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue get_Item(TKey key);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::ICollection_1<TValue>* get_Values();
 
-  /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(TKey key, TValue value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Remove(TKey key);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDictionary_2", modifiers: "&&", def_value: None }]

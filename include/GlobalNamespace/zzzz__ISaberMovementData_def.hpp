@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberMovementData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15012))
 // CS Name: ::ISaberMovementData*
 class CORDL_TYPE ISaberMovementData {
 public:
   // Declarations
   __declspec(property(get = get_lastAddedData))::GlobalNamespace::BladeMovementDataElement lastAddedData;
 
-  /// @brief Method get_lastAddedData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_lastAddedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
 
-  /// @brief Method AddDataProcessor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddDataProcessor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RemoveDataProcessor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveDataProcessor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RequestLastDataProcessing addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RequestLastDataProcessing, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method ComputeSwingRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeSwingRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ComputeSwingRating(float_t overrideSegmentAngle);
 
-  /// @brief Method ComputeSwingRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeSwingRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ComputeSwingRating();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberMovementData", modifiers: "&&", def_value: None }]

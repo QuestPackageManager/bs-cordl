@@ -19,19 +19,19 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringReferenceExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11867))
 // CS Name: ::Newtonsoft.Json.Utilities::StringReferenceExtensions*
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IndexOf addr 0x24f833c size 0x84 virtual false final false
+  /// @brief Method IndexOf, addr 0x265ba80, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith addr 0x24f83c0 size 0xb4 virtual false final false
+  /// @brief Method StartsWith, addr 0x265bb04, size 0xb4, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method EndsWith addr 0x24f8474 size 0xb8 virtual false final false
+  /// @brief Method EndsWith, addr 0x265bbb8, size 0xb8, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringReferenceExtensions", modifiers: "&&", def_value: None }]

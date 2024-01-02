@@ -10,14 +10,14 @@ class Type;
 namespace Zenject {
 class InjectContext;
 }
-namespace System {
-class Action;
-}
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class Action;
 }
 namespace System {
 class Object;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Zenject::IProvider);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11204))
 // CS Name: ::Zenject::IProvider*
 class CORDL_TYPE IProvider {
 public:
@@ -42,16 +42,16 @@ public:
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsCached();
 
-  /// @brief Method GetInstanceType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* instances);
 

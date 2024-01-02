@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor();
 
-  /// @brief Method .ctor addr 0x10bdc3c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112ee84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x10bdc44 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112ee8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::InvalidKeyException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x10bdc4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112ee94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidKeyException", modifiers: "&&", def_value: None }]

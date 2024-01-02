@@ -11,22 +11,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseSlider_1)
 namespace UnityEngine::UIElements {
-template <typename T> class ClampedDragger_1;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class TextField;
 }
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-struct SliderDirection;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+template <typename T> class ClampedDragger_1;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -39,6 +33,12 @@ template <typename TValueType> struct __BaseSlider_1__SliderKey;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
+}
+namespace UnityEngine::UIElements {
+struct SliderDirection;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -56,8 +56,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7186)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7186), inst: 2626 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7186))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7100), inst: 2686 }), TypeDefinitionIndex(TypeDefinitionIndex(7100))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7100))
 // CS Name: ::BaseSlider`1::SliderKey<TValueType>
 struct CORDL_TYPE __BaseSlider_1__SliderKey {
 public:
@@ -124,8 +124,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7216)), TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(7185)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7216), inst: 901 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7187)) CS Name:
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 918 }), TypeDefinitionIndex(TypeDefinitionIndex(7099)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7101)) CS Name:
 // ::UnityEngine.UIElements::BaseSlider`1<TValueType>*
 class CORDL_TYPE BaseSlider_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
@@ -346,172 +346,174 @@ public:
 
   static inline ::StringW getStaticF_textFieldClassName();
 
-  /// @brief Method get_dragContainer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_dragContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragContainer();
 
-  /// @brief Method set_dragContainer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_dragContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_dragElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragElement();
 
-  /// @brief Method set_dragElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_dragBorderElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_dragBorderElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragBorderElement();
 
-  /// @brief Method set_dragBorderElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_dragBorderElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragBorderElement(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_inputTextField addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_inputTextField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextField* get_inputTextField();
 
-  /// @brief Method set_inputTextField addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_inputTextField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_inputTextField(::UnityEngine::UIElements::TextField* value);
 
-  /// @brief Method get_lowValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_lowValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType get_lowValue();
 
-  /// @brief Method set_lowValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_lowValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_lowValue(TValueType value);
 
-  /// @brief Method get_highValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType get_highValue();
 
-  /// @brief Method set_highValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_highValue(TValueType value);
 
-  /// @brief Method SetHighValueWithoutNotify addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetHighValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetHighValueWithoutNotify(TValueType newHighValue);
 
-  /// @brief Method get_pageSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_pageSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_pageSize();
 
-  /// @brief Method set_pageSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_pageSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_pageSize(float_t value);
 
-  /// @brief Method get_showInputField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_showInputField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_showInputField();
 
-  /// @brief Method set_showInputField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_showInputField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_showInputField(bool value);
 
-  /// @brief Method get_clamped addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_clamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_clamped();
 
-  /// @brief Method set_clamped addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_clamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clamped(bool value);
 
-  /// @brief Method get_clampedDragger addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_clampedDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* get_clampedDragger();
 
-  /// @brief Method set_clampedDragger addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_clampedDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_clampedDragger(::UnityEngine::UIElements::ClampedDragger_1<TValueType>* value);
 
-  /// @brief Method Clamp addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clamp, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType Clamp(TValueType value, TValueType lowBound, TValueType highBound);
 
-  /// @brief Method GetClampedValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClampedValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType GetClampedValue(TValueType newValue);
 
-  /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValueType get_value();
 
-  /// @brief Method set_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_value(TValueType value);
 
-  /// @brief Method SetValueWithoutNotify addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(TValueType newValue);
 
-  /// @brief Method get_direction addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::SliderDirection get_direction();
 
-  /// @brief Method set_direction addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SliderDirection value);
 
-  /// @brief Method get_inverted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_inverted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_inverted();
 
-  /// @brief Method set_inverted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_inverted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_inverted(bool value);
 
   static inline ::UnityEngine::UIElements::BaseSlider_1<TValueType>* New_ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction,
                                                                               float_t pageSize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param direction: ::UnityEngine::UIElements::SliderDirection (default: static_cast<int32_t>(0x0))
+  /// @param pageSize: float_t (default: 0.0)
+  inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction = static_cast<int32_t>(0x0), float_t pageSize = 0.0);
 
-  /// @brief Method GetClosestPowerOfTen addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClosestPowerOfTen, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t GetClosestPowerOfTen(float_t positiveNumber);
 
-  /// @brief Method RoundToMultipleOf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RoundToMultipleOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t RoundToMultipleOf(float_t value, float_t roundingValue);
 
-  /// @brief Method ClampValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClampValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClampValue();
 
-  /// @brief Method SliderLerpUnclamped addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SliderLerpUnclamped, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant);
 
-  /// @brief Method SliderNormalizeValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SliderNormalizeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue);
 
-  /// @brief Method ParseStringToValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ParseStringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValueType ParseStringToValue(::StringW stringValue);
 
-  /// @brief Method ComputeValueFromKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeValueFromKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ComputeValueFromKey(::UnityEngine::UIElements::__BaseSlider_1__SliderKey<TValueType> sliderKey, bool isShift);
 
-  /// @brief Method SliderLerpDirectionalUnclamped addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SliderLerpDirectionalUnclamped, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant);
 
-  /// @brief Method SetSliderValueFromDrag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetSliderValueFromDrag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetSliderValueFromDrag();
 
-  /// @brief Method ComputeValueAndDirectionFromDrag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ComputeValueAndDirectionFromDrag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ComputeValueAndDirectionFromDrag(float_t sliderLength, float_t dragElementLength, float_t dragElementPos);
 
-  /// @brief Method SetSliderValueFromClick addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetSliderValueFromClick, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetSliderValueFromClick();
 
-  /// @brief Method OnKeyDown addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnKeyDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method ComputeValueAndDirectionFromClick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeValueAndDirectionFromClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos);
 
-  /// @brief Method AdjustDragElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AdjustDragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AdjustDragElement(float_t factor);
 
-  /// @brief Method UpdateDragElementPosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateDragElementPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateDragElementPosition(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method OnViewDataReady addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnViewDataReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method SameValues addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SameValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool SameValues(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method UpdateDragElementPosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateDragElementPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateDragElementPosition();
 
-  /// @brief Method ExecuteDefaultAction addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteDefaultAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method UpdateTextFieldVisibility addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateTextFieldVisibility, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateTextFieldVisibility();
 
-  /// @brief Method UpdateTextFieldValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateTextFieldValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateTextFieldValue();
 
-  /// @brief Method OnTextFieldFocusOut addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnTextFieldFocusOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnTextFieldFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
 
-  /// @brief Method OnTextFieldValueChange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnTextFieldValueChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnTextFieldValueChange(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt);
 
-  /// @brief Method UpdateMixedValueContent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1", modifiers: "&&", def_value: None }]

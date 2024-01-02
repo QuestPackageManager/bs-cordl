@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(X962Parameters)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Null;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
 }
 namespace System {
 class Object;
@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Null;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
@@ -56,39 +56,39 @@ public:
 
   constexpr void __set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance addr 0x113e7ec size 0x2bc virtual false final false
+  /// @brief Method GetInstance, addr 0x11afa34, size 0x2bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
 
-  /// @brief Method .ctor addr 0x113ead0 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x11afd18, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namedCurve);
 
-  /// @brief Method .ctor addr 0x113eb10 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11afd58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namedCurve);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
-  /// @brief Method .ctor addr 0x113eb38 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11afd80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method .ctor addr 0x113eaa8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11afcf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method get_IsNamedCurve addr 0x113eb60 size 0x7c virtual false final false
+  /// @brief Method get_IsNamedCurve, addr 0x11afda8, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsNamedCurve();
 
-  /// @brief Method get_IsImplicitlyCA addr 0x113ebdc size 0x7c virtual false final false
+  /// @brief Method get_IsImplicitlyCA, addr 0x11afe24, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsImplicitlyCA();
 
-  /// @brief Method get_Parameters addr 0x113ec58 size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0x11afea0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
-  /// @brief Method ToAsn1Object addr 0x113ec60 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x11afea8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "X962Parameters", modifiers: "&&", def_value: None }]

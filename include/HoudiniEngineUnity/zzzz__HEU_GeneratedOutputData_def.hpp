@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(HEU_GeneratedOutputData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class Collider;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace UnityEngine {
 class Material;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeneratedOutputData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9628))
 // CS Name: ::HoudiniEngineUnity::HEU_GeneratedOutputData*
 class CORDL_TYPE HEU_GeneratedOutputData : public ::System::Object {
 public:
@@ -66,12 +66,12 @@ public:
 
   constexpr void __set__colliders(::System::Collections::Generic::List_1<::UnityEngine::Collider*>* value);
 
-  /// @brief Method IsEquivalentTo addr 0x1fff7c8 size 0x1ec virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x2157164, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutputData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fff74c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x21570e8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_GeneratedOutputData", modifiers: "&&", def_value: None }]

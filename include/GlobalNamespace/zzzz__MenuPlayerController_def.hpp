@@ -8,13 +8,13 @@ namespace GlobalNamespace {
 class VRController;
 }
 namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
 struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace UnityEngine {
-class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MenuPlayerController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5628))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5535))
 // CS Name: ::MenuPlayerController*
 class CORDL_TYPE MenuPlayerController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -67,21 +67,21 @@ public:
 
   constexpr void __set__headTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_leftController addr 0x21598f0 size 0x8 virtual false final false
+  /// @brief Method get_leftController, addr 0x229e874, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRController* get_leftController();
 
-  /// @brief Method get_rightController addr 0x21598f8 size 0x8 virtual false final false
+  /// @brief Method get_rightController, addr 0x229e87c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::VRController* get_rightController();
 
-  /// @brief Method get_headPos addr 0x2159900 size 0x1c virtual false final false
+  /// @brief Method get_headPos, addr 0x229e884, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headPos();
 
-  /// @brief Method get_headRot addr 0x215991c size 0x1c virtual false final false
+  /// @brief Method get_headRot, addr 0x229e8a0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_headRot();
 
   static inline ::GlobalNamespace::MenuPlayerController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2159938 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229e8bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuPlayerController", modifiers: "&&", def_value: None }]

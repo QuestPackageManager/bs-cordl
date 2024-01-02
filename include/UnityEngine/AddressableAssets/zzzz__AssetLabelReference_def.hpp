@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetLabelReference)
-namespace System {
-class Object;
-}
 namespace UnityEngine::AddressableAssets {
 class IKeyEvaluator;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetLabelReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14352))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14081))
 // CS Name: ::UnityEngine.AddressableAssets::AssetLabelReference*
 class CORDL_TYPE AssetLabelReference : public ::System::Object {
 public:
@@ -44,24 +44,24 @@ public:
 
   constexpr void __set_m_LabelString(::StringW value);
 
-  /// @brief Method get_labelString addr 0x28a5c70 size 0x8 virtual false final false
+  /// @brief Method get_labelString, addr 0x2a239b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
-  /// @brief Method set_labelString addr 0x28a5c78 size 0x8 virtual false final false
+  /// @brief Method set_labelString, addr 0x2a239c0, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
-  /// @brief Method get_RuntimeKey addr 0x28a5c80 size 0x58 virtual true final true
+  /// @brief Method get_RuntimeKey, addr 0x2a239c8, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method RuntimeKeyIsValid addr 0x28a5cd8 size 0x7c virtual true final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x2a23a20, size 0x7c, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
-  /// @brief Method GetHashCode addr 0x28a5d54 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2a23a9c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x28a5d74 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23abc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetLabelReference", modifiers: "&&", def_value: None }]

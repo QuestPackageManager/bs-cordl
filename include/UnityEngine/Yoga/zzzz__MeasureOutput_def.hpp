@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::MeasureOutput);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15391))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15361))
 // CS Name: ::UnityEngine.Yoga::MeasureOutput*
 class CORDL_TYPE MeasureOutput : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Make addr 0x2d3ca64 size 0x4 virtual false final false
+  /// @brief Method Make, addr 0x2ea4e14, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaSize Make(float_t width, float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeasureOutput", modifiers: "&&", def_value: None }]

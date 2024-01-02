@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Zenject::NoReflectionBakingAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15810))
 // CS Name: ::Zenject::NoReflectionBakingAttribute*
 class CORDL_TYPE NoReflectionBakingAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Zenject::NoReflectionBakingAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d52c40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eba9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoReflectionBakingAttribute", modifiers: "&&", def_value: None }]

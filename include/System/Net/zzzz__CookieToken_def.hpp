@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::CookieToken);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7958))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9121))
 // CS Name: ::System.Net::CookieToken
 struct CORDL_TYPE CookieToken {
 public:

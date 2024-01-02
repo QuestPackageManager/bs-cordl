@@ -12,10 +12,13 @@ namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System::Runtime::CompilerServices {
-class ICriticalNotifyCompletion;
+class INotifyCompletion;
 }
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -31,8 +34,8 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2762))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3357))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
 // CS Name: ::ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter {
 public:
@@ -42,16 +45,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Method .ctor addr 0x2381170 size 0x8 virtual false final false
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method .ctor, addr 0x24da99c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted addr 0x2381178 size 0x108 virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x24da9a4, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult addr 0x2381280 size 0x100 virtual false final false
+  /// @brief Method GetResult, addr 0x24daaac, size 0x100, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method UnsafeOnCompleted addr 0x2381380 size 0x1ac virtual true final true
+  /// @brief Method OnCompleted, addr 0x24dabac, size 0x1b0, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x24dad70, size 0x1ac, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]
@@ -79,18 +88,18 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredValueTas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2762))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3358))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
 struct CORDL_TYPE ConfiguredValueTaskAwaitable {
 public:
   // Declarations
   using ConfiguredValueTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
 
-  /// @brief Method .ctor addr 0x238115c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24da988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method GetAwaiter addr 0x2381164 size 0xc virtual false final false
+  /// @brief Method GetAwaiter, addr 0x24da990, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter GetAwaiter();
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]

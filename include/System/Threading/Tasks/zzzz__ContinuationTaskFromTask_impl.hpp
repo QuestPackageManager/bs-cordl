@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationTaskFromTask_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::ContinuationTaskFromTask._ctor
 template <>
 
@@ -13,9 +13,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::Tasks::Task*, ::System::Delegate*, ::System::Object*, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::InternalTaskOptions)>(
     &::System::Threading::Tasks::ContinuationTaskFromTask::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24cdf0c;
+  constexpr static std::size_t addrs = 0x2628018;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
@@ -32,9 +32,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ContinuationTaskFromTask::*)()>(
     &::System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x24d12e4;
+  constexpr static std::size_t addrs = 0x262b3f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(),
@@ -73,8 +73,9 @@ inline void System::Threading::Tasks::ContinuationTaskFromTask::_ctor(::System::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, antecedent, action, state, creationOptions, internalOptions);
 }
 inline void System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(),
-                                                                             "InnerInvoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationTaskFromTask*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

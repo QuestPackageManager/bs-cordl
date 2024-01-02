@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 CORDL_MODULE_EXPORT(Gost3410KeyGenerationParameters)
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410Parameters;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -54,22 +54,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                    ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor addr 0xec0b9c size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0xf35d88, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xec0be8 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xf35dd4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Parameters addr 0xec0d9c size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0xf35f88, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet addr 0xec0da4 size 0x8 virtual false final false
+  /// @brief Method get_PublicKeyParamSet, addr 0xf35f90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
-  /// @brief Method LookupParameters addr 0xec0c24 size 0x178 virtual false final false
+  /// @brief Method LookupParameters, addr 0xf35e10, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyGenerationParameters", modifiers: "&&", def_value: None }]

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRLayoutUpdater)
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
-}
-namespace Unity::Profiling {
-struct ProfilerMarker;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRLayoutUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7329))
 // CS Name: ::UnityEngine.UIElements::UIRLayoutUpdater*
 class CORDL_TYPE UIRLayoutUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
@@ -48,21 +48,22 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker addr 0x2d0f6e0 size 0x58 virtual true final false
+  /// @brief Method get_profilerMarker, addr 0x2e78a90, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method OnVersionChanged addr 0x2d0f738 size 0x48 virtual true final false
+  /// @brief Method OnVersionChanged, addr 0x2e78ae8, size 0x48, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update addr 0x2d0f780 size 0x2ec virtual true final false
+  /// @brief Method Update, addr 0x2e78b30, size 0x2ec, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSubTree addr 0x2d0fa6c size 0x810 virtual false final false
-  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, int32_t currentLayoutPass, bool isDisplayed);
+  /// @brief Method UpdateSubTree, addr 0x2e78e1c, size 0x810, virtual false, abstract: false, final false
+  /// @param isDisplayed: bool (default: true)
+  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, int32_t currentLayoutPass, bool isDisplayed = true);
 
   static inline ::UnityEngine::UIElements::UIRLayoutUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1027c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e7962c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIRLayoutUpdater", modifiers: "&&", def_value: None }]

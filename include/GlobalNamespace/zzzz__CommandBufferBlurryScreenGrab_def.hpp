@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Rendering/zzzz__CameraEvent_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CommandBufferBlurryScreenGrab)
-namespace UnityEngine::Rendering {
-struct CameraEvent;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class KawaseBlurRendererSO;
 }
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
+}
+namespace UnityEngine::Rendering {
+struct CameraEvent;
 }
 namespace GlobalNamespace {
 class CommandBufferOwners;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+namespace UnityEngine {
+class Camera;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandBufferBlurryScreenGrab);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10259)), TypeDefinitionIndex(TypeDefinitionIndex(15307)), TypeDefinitionIndex(TypeDefinitionIndex(14721))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15305))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(15278)), TypeDefinitionIndex(TypeDefinitionIndex(14503))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15276))
 // CS Name: ::CommandBufferBlurryScreenGrab*
 class CORDL_TYPE CommandBufferBlurryScreenGrab : public ::GlobalNamespace::CommandBufferGOCore {
 public:
@@ -85,18 +85,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();
 
-  /// @brief Method CreateCommandBuffer addr 0x268b760 size 0xfc virtual true final false
+  /// @brief Method CreateCommandBuffer, addr 0x28063e8, size 0xfc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
-  /// @brief Method CamerasDict addr 0x268b85c size 0x58 virtual true final false
+  /// @brief Method CamerasDict, addr 0x28064e4, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Camera*, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent addr 0x268b8b4 size 0x8 virtual true final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x280653c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
   static inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* New_ctor();
 
-  /// @brief Method .ctor addr 0x268b8bc size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2806544, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CommandBufferBlurryScreenGrab", modifiers: "&&", def_value: None }]

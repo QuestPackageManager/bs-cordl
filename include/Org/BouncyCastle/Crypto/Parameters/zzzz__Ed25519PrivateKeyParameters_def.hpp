@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(Ed25519PrivateKeyParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Ed25519PublicKeyParameters;
 }
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 struct __Ed25519__Algorithm;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -68,33 +68,33 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xebedf4 size 0xd0 virtual false final false
+  /// @brief Method .ctor, addr 0xf33fe0, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor addr 0xebeec4 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0xf340b0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0xebef84 size 0x10c virtual false final false
+  /// @brief Method .ctor, addr 0xf34170, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode addr 0xebf090 size 0x84 virtual false final false
+  /// @brief Method Encode, addr 0xf3427c, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded addr 0xebf114 size 0x5c virtual false final false
+  /// @brief Method GetEncoded, addr 0xf34300, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GeneratePublicKey addr 0xebf170 size 0x174 virtual false final false
+  /// @brief Method GeneratePublicKey, addr 0xf3435c, size 0x174, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
 
-  /// @brief Method Sign addr 0xebf3a0 size 0x20 virtual false final false
+  /// @brief Method Sign, addr 0xf3458c, size 0x20, virtual false, abstract: false, final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey,
                    ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff, int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
-  /// @brief Method Sign addr 0xebf3c0 size 0x280 virtual false final false
+  /// @brief Method Sign, addr 0xf345ac, size 0x280, virtual false, abstract: false, final false
   inline void Sign(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed25519__Algorithm algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> ctx, ::ArrayW<uint8_t, ::Array<uint8_t>*> msg, int32_t msgOff,
                    int32_t msgLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 

@@ -17,19 +17,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JsonReader)
 namespace System {
-class Object;
-}
-namespace System {
-struct DateTime;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace Newtonsoft::Json {
-struct DateTimeZoneHandling;
-}
-namespace System::Globalization {
-class CultureInfo;
+struct DateTimeOffset;
 }
 namespace System {
 class Type;
@@ -37,35 +25,47 @@ class Type;
 namespace System {
 class IDisposable;
 }
-namespace System {
-struct DateTimeOffset;
-}
-namespace Newtonsoft::Json {
-struct FloatParseHandling;
-}
-namespace Newtonsoft::Json {
-struct JsonPosition;
-}
-namespace Newtonsoft::Json {
-struct __JsonReader__State;
-}
 namespace Newtonsoft::Json {
 struct DateParseHandling;
 }
 namespace Newtonsoft::Json {
-struct JsonContainerType;
+struct __JsonReader__State;
 }
 namespace System {
 struct Decimal;
 }
 namespace Newtonsoft::Json {
+struct JsonContainerType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Newtonsoft::Json {
+struct JsonPosition;
+}
+namespace Newtonsoft::Json {
 class JsonReaderException;
+}
+namespace System {
+class Object;
+}
+namespace Newtonsoft::Json {
+struct FloatParseHandling;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace Newtonsoft::Json {
+struct DateTimeZoneHandling;
 }
 namespace Newtonsoft::Json {
 struct JsonToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+struct DateTime;
 }
 // Forward declare root types
 namespace Newtonsoft::Json {
@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonReader);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11760))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11832))
 // CS Name: ::JsonReader::State
 struct CORDL_TYPE __JsonReader__State {
 public:
@@ -175,10 +175,10 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonReader__State, value__) == 0x0,
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 114, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11769)), TypeDefinitionIndex(TypeDefinitionIndex(11727)), TypeDefinitionIndex(TypeDefinitionIndex(11724)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11760)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(11735)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11725))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11761)) CS Name: ::Newtonsoft.Json::JsonReader*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11841)), TypeDefinitionIndex(TypeDefinitionIndex(11799)), TypeDefinitionIndex(TypeDefinitionIndex(11832)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(11807)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(11796))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11833)) CS
+// Name: ::Newtonsoft.Json::JsonReader*
 class CORDL_TYPE JsonReader : public ::System::Object {
 public:
   // Declarations
@@ -352,201 +352,201 @@ public:
 
   constexpr void __set__SupportMultipleContent_k__BackingField(bool value);
 
-  /// @brief Method get_CurrentState addr 0x24e7e30 size 0x8 virtual false final false
+  /// @brief Method get_CurrentState, addr 0x264a574, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::__JsonReader__State get_CurrentState();
 
-  /// @brief Method get_CloseInput addr 0x24e7e38 size 0x8 virtual false final false
+  /// @brief Method get_CloseInput, addr 0x264a57c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CloseInput();
 
-  /// @brief Method set_CloseInput addr 0x24e7e40 size 0xc virtual false final false
+  /// @brief Method set_CloseInput, addr 0x264a584, size 0xc, virtual false, abstract: false, final false
   inline void set_CloseInput(bool value);
 
-  /// @brief Method get_SupportMultipleContent addr 0x24e7e4c size 0x8 virtual false final false
+  /// @brief Method get_SupportMultipleContent, addr 0x264a590, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportMultipleContent();
 
-  /// @brief Method set_SupportMultipleContent addr 0x24e7e54 size 0xc virtual false final false
+  /// @brief Method set_SupportMultipleContent, addr 0x264a598, size 0xc, virtual false, abstract: false, final false
   inline void set_SupportMultipleContent(bool value);
 
-  /// @brief Method get_QuoteChar addr 0x24e7e60 size 0x8 virtual true final false
+  /// @brief Method get_QuoteChar, addr 0x264a5a4, size 0x8, virtual true, abstract: false, final false
   inline char16_t get_QuoteChar();
 
-  /// @brief Method set_QuoteChar addr 0x24e7e68 size 0x8 virtual true final false
+  /// @brief Method set_QuoteChar, addr 0x264a5ac, size 0x8, virtual true, abstract: false, final false
   inline void set_QuoteChar(char16_t value);
 
-  /// @brief Method get_DateTimeZoneHandling addr 0x24e7e70 size 0x8 virtual false final false
+  /// @brief Method get_DateTimeZoneHandling, addr 0x264a5b4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateTimeZoneHandling get_DateTimeZoneHandling();
 
-  /// @brief Method set_DateTimeZoneHandling addr 0x24e7e78 size 0x64 virtual false final false
+  /// @brief Method set_DateTimeZoneHandling, addr 0x264a5bc, size 0x64, virtual false, abstract: false, final false
   inline void set_DateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  /// @brief Method get_DateParseHandling addr 0x24e7edc size 0x8 virtual false final false
+  /// @brief Method get_DateParseHandling, addr 0x264a620, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::DateParseHandling get_DateParseHandling();
 
-  /// @brief Method set_DateParseHandling addr 0x24e7ee4 size 0x64 virtual false final false
+  /// @brief Method set_DateParseHandling, addr 0x264a628, size 0x64, virtual false, abstract: false, final false
   inline void set_DateParseHandling(::Newtonsoft::Json::DateParseHandling value);
 
-  /// @brief Method get_FloatParseHandling addr 0x24e7f48 size 0x8 virtual false final false
+  /// @brief Method get_FloatParseHandling, addr 0x264a68c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::FloatParseHandling get_FloatParseHandling();
 
-  /// @brief Method set_FloatParseHandling addr 0x24e7f50 size 0x64 virtual false final false
+  /// @brief Method set_FloatParseHandling, addr 0x264a694, size 0x64, virtual false, abstract: false, final false
   inline void set_FloatParseHandling(::Newtonsoft::Json::FloatParseHandling value);
 
-  /// @brief Method get_DateFormatString addr 0x24e7fb4 size 0x8 virtual false final false
+  /// @brief Method get_DateFormatString, addr 0x264a6f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DateFormatString();
 
-  /// @brief Method set_DateFormatString addr 0x24e7fbc size 0x8 virtual false final false
+  /// @brief Method set_DateFormatString, addr 0x264a700, size 0x8, virtual false, abstract: false, final false
   inline void set_DateFormatString(::StringW value);
 
-  /// @brief Method get_MaxDepth addr 0x24e7fc4 size 0x8 virtual false final false
+  /// @brief Method get_MaxDepth, addr 0x264a708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaxDepth();
 
-  /// @brief Method set_MaxDepth addr 0x24e7fcc size 0xc0 virtual false final false
+  /// @brief Method set_MaxDepth, addr 0x264a710, size 0xc0, virtual false, abstract: false, final false
   inline void set_MaxDepth(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method get_TokenType addr 0x24e808c size 0x8 virtual true final false
+  /// @brief Method get_TokenType, addr 0x264a7d0, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken get_TokenType();
 
-  /// @brief Method get_Value addr 0x24e8094 size 0x8 virtual true final false
+  /// @brief Method get_Value, addr 0x264a7d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_ValueType addr 0x24e809c size 0x14 virtual true final false
+  /// @brief Method get_ValueType, addr 0x264a7e0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_Depth addr 0x24e80b0 size 0x7c virtual true final false
+  /// @brief Method get_Depth, addr 0x264a7f4, size 0x7c, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_Path addr 0x24e812c size 0x120 virtual true final false
+  /// @brief Method get_Path, addr 0x264a870, size 0x120, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method get_Culture addr 0x24ded70 size 0x68 virtual false final false
+  /// @brief Method get_Culture, addr 0x26414b4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_Culture();
 
-  /// @brief Method set_Culture addr 0x24e824c size 0x8 virtual false final false
+  /// @brief Method set_Culture, addr 0x264a990, size 0x8, virtual false, abstract: false, final false
   inline void set_Culture(::System::Globalization::CultureInfo* value);
 
-  /// @brief Method GetPosition addr 0x24e8254 size 0xa4 virtual false final false
+  /// @brief Method GetPosition, addr 0x264a998, size 0xa4, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonPosition GetPosition(int32_t depth);
 
   static inline ::Newtonsoft::Json::JsonReader* New_ctor();
 
-  /// @brief Method .ctor addr 0x24de1dc size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2640920, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Push addr 0x24e82f8 size 0x288 virtual false final false
+  /// @brief Method Push, addr 0x264aa3c, size 0x288, virtual false, abstract: false, final false
   inline void Push(::Newtonsoft::Json::JsonContainerType value);
 
-  /// @brief Method Pop addr 0x24e8598 size 0x11c virtual false final false
+  /// @brief Method Pop, addr 0x264acdc, size 0x11c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Pop();
 
-  /// @brief Method Peek addr 0x24e86b4 size 0x8 virtual false final false
+  /// @brief Method Peek, addr 0x264adf8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType Peek();
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Read();
 
-  /// @brief Method ReadAsInt32 addr 0x24e86bc size 0x2dc virtual true final false
+  /// @brief Method ReadAsInt32, addr 0x264ae00, size 0x2dc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadInt32String addr 0x24e38c8 size 0x1e8 virtual false final false
+  /// @brief Method ReadInt32String, addr 0x264600c, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadInt32String(::StringW s);
 
-  /// @brief Method ReadAsString addr 0x24e8a0c size 0x368 virtual true final false
+  /// @brief Method ReadAsString, addr 0x264b150, size 0x368, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsBytes addr 0x24e8d74 size 0x3f8 virtual true final false
+  /// @brief Method ReadAsBytes, addr 0x264b4b8, size 0x3f8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadArrayIntoByteArray addr 0x24e12f4 size 0x29c virtual false final false
+  /// @brief Method ReadArrayIntoByteArray, addr 0x2643a38, size 0x29c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadArrayIntoByteArray();
 
-  /// @brief Method ReadAsDouble addr 0x24e916c size 0x2cc virtual true final false
+  /// @brief Method ReadAsDouble, addr 0x264b8b0, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadDoubleString addr 0x24e3cdc size 0x1dc virtual false final false
+  /// @brief Method ReadDoubleString, addr 0x2646420, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadDoubleString(::StringW s);
 
-  /// @brief Method ReadAsBoolean addr 0x24e9438 size 0x2c0 virtual true final false
+  /// @brief Method ReadAsBoolean, addr 0x264bb7c, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadBooleanString addr 0x24e35f0 size 0x1e8 virtual false final false
+  /// @brief Method ReadBooleanString, addr 0x2645d34, size 0x1e8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadBooleanString(::StringW s);
 
-  /// @brief Method ReadAsDecimal addr 0x24e96f8 size 0x310 virtual true final false
+  /// @brief Method ReadAsDecimal, addr 0x264be3c, size 0x310, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadDecimalString addr 0x24e3ab0 size 0x22c virtual false final false
+  /// @brief Method ReadDecimalString, addr 0x26461f4, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadDecimalString(::StringW s);
 
-  /// @brief Method ReadAsDateTime addr 0x24e9a08 size 0x2c0 virtual true final false
+  /// @brief Method ReadAsDateTime, addr 0x264c14c, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadDateTimeString addr 0x24e1974 size 0x288 virtual false final false
+  /// @brief Method ReadDateTimeString, addr 0x26440b8, size 0x288, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadDateTimeString(::StringW s);
 
-  /// @brief Method ReadAsDateTimeOffset addr 0x24e9cc8 size 0x2cc virtual true final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x264c40c, size 0x2cc, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadDateTimeOffsetString addr 0x24e1bfc size 0x268 virtual false final false
+  /// @brief Method ReadDateTimeOffsetString, addr 0x2644340, size 0x268, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadDateTimeOffsetString(::StringW s);
 
-  /// @brief Method ReaderReadAndAssert addr 0x24e10f8 size 0x44 virtual false final false
+  /// @brief Method ReaderReadAndAssert, addr 0x264383c, size 0x44, virtual false, abstract: false, final false
   inline void ReaderReadAndAssert();
 
-  /// @brief Method CreateUnexpectedEndException addr 0x24e41b0 size 0x4c virtual false final false
+  /// @brief Method CreateUnexpectedEndException, addr 0x26468f4, size 0x4c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedEndException();
 
-  /// @brief Method ReadIntoWrappedTypeObject addr 0x24e113c size 0x1b8 virtual false final false
+  /// @brief Method ReadIntoWrappedTypeObject, addr 0x2643880, size 0x1b8, virtual false, abstract: false, final false
   inline void ReadIntoWrappedTypeObject();
 
-  /// @brief Method Skip addr 0x24e9f94 size 0x98 virtual false final false
+  /// @brief Method Skip, addr 0x264c6d8, size 0x98, virtual false, abstract: false, final false
   inline void Skip();
 
-  /// @brief Method SetToken addr 0x24dfc3c size 0xc virtual false final false
+  /// @brief Method SetToken, addr 0x2642380, size 0xc, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken);
 
-  /// @brief Method SetToken addr 0x24e2e48 size 0x8 virtual false final false
+  /// @brief Method SetToken, addr 0x264558c, size 0x8, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value);
 
-  /// @brief Method SetToken addr 0x24dec18 size 0x158 virtual false final false
+  /// @brief Method SetToken, addr 0x264135c, size 0x158, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::JsonToken newToken, ::System::Object* value, bool updateIndex);
 
-  /// @brief Method SetPostValueState addr 0x24debd8 size 0x40 virtual false final false
+  /// @brief Method SetPostValueState, addr 0x264131c, size 0x40, virtual false, abstract: false, final false
   inline void SetPostValueState(bool updateIndex);
 
-  /// @brief Method UpdateScopeWithFinishedValue addr 0x24e8580 size 0x18 virtual false final false
+  /// @brief Method UpdateScopeWithFinishedValue, addr 0x264acc4, size 0x18, virtual false, abstract: false, final false
   inline void UpdateScopeWithFinishedValue();
 
-  /// @brief Method ValidateEnd addr 0x24ea02c size 0x100 virtual false final false
+  /// @brief Method ValidateEnd, addr 0x264c770, size 0x100, virtual false, abstract: false, final false
   inline void ValidateEnd(::Newtonsoft::Json::JsonToken endToken);
 
-  /// @brief Method SetStateBasedOnCurrent addr 0x24e37d8 size 0xf0 virtual false final false
+  /// @brief Method SetStateBasedOnCurrent, addr 0x2645f1c, size 0xf0, virtual false, abstract: false, final false
   inline void SetStateBasedOnCurrent();
 
-  /// @brief Method SetFinished addr 0x24ea12c size 0x18 virtual false final false
+  /// @brief Method SetFinished, addr 0x264c870, size 0x18, virtual false, abstract: false, final false
   inline void SetFinished();
 
-  /// @brief Method GetTypeForCloseToken addr 0x24ea144 size 0xa8 virtual false final false
+  /// @brief Method GetTypeForCloseToken, addr 0x264c888, size 0xa8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonContainerType GetTypeForCloseToken(::Newtonsoft::Json::JsonToken token);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x24ea1ec size 0x70 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x264c930, size 0x70, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method Dispose addr 0x24ea25c size 0x24 virtual true final false
+  /// @brief Method Dispose, addr 0x264c9a0, size 0x24, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Close addr 0x24e52c0 size 0x14 virtual true final false
+  /// @brief Method Close, addr 0x2647a04, size 0x14, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method ReadAndAssert addr 0x24ea280 size 0x54 virtual false final false
+  /// @brief Method ReadAndAssert, addr 0x264c9c4, size 0x54, virtual false, abstract: false, final false
   inline void ReadAndAssert();
 
-  /// @brief Method ReadAndMoveToContent addr 0x24ea2dc size 0x30 virtual false final false
+  /// @brief Method ReadAndMoveToContent, addr 0x264ca20, size 0x30, virtual false, abstract: false, final false
   inline bool ReadAndMoveToContent();
 
-  /// @brief Method MoveToContent addr 0x24ea30c size 0x58 virtual false final false
+  /// @brief Method MoveToContent, addr 0x264ca50, size 0x58, virtual false, abstract: false, final false
   inline bool MoveToContent();
 
-  /// @brief Method GetContentToken addr 0x24e8998 size 0x74 virtual false final false
+  /// @brief Method GetContentToken, addr 0x264b0dc, size 0x74, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonToken GetContentToken();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonReader", modifiers: "&&", def_value: None }]

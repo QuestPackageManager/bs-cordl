@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationPa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1028))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DsaParameterGenerationParameters*
 class CORDL_TYPE DsaParameterGenerationParameters : public ::System::Object {
@@ -81,28 +81,28 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xebc890 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0xf31a7c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* New_ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                     int32_t usageIndex);
 
-  /// @brief Method .ctor addr 0xebc8dc size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0xf31ac8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t L, int32_t N, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random, int32_t usageIndex);
 
-  /// @brief Method get_L addr 0xebc930 size 0x8 virtual true final false
+  /// @brief Method get_L, addr 0xf31b1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method get_N addr 0xebc938 size 0x8 virtual true final false
+  /// @brief Method get_N, addr 0xf31b24, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_N();
 
-  /// @brief Method get_UsageIndex addr 0xebc940 size 0x8 virtual true final false
+  /// @brief Method get_UsageIndex, addr 0xf31b2c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_UsageIndex();
 
-  /// @brief Method get_Certainty addr 0xebc948 size 0x8 virtual true final false
+  /// @brief Method get_Certainty, addr 0xf31b34, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Certainty();
 
-  /// @brief Method get_Random addr 0xebc950 size 0x8 virtual true final false
+  /// @brief Method get_Random, addr 0xf31b3c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameterGenerationParameters", modifiers: "&&", def_value: None }]

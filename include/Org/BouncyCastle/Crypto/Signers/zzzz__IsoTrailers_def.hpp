@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IsoTrailers)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::IsoTrailers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1148))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::IsoTrailers*
 class CORDL_TYPE IsoTrailers : public ::System::Object {
@@ -34,18 +34,18 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_trailerMap();
 
-  /// @brief Method CreateTrailerMap addr 0xedc748 size 0x674 virtual false final false
+  /// @brief Method CreateTrailerMap, addr 0xf52958, size 0x674, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* CreateTrailerMap();
 
-  /// @brief Method GetTrailer addr 0xed8e34 size 0x184 virtual false final false
+  /// @brief Method GetTrailer, addr 0xf4f044, size 0x184, virtual false, abstract: false, final false
   static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NoTrailerAvailable addr 0xed8ce0 size 0x154 virtual false final false
+  /// @brief Method NoTrailerAvailable, addr 0xf4eef0, size 0x154, virtual false, abstract: false, final false
   static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
 
-  /// @brief Method .ctor addr 0xedce08 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf53018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None }]

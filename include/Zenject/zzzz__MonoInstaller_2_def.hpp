@@ -23,24 +23,24 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11074))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11068))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11146))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11140))
 // CS Name: ::Zenject::MonoInstaller`2<TParam1,TDerived>*
 class CORDL_TYPE MonoInstaller_2 : public ::Zenject::MonoInstallerBase {
 public:
   // Declarations
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container, TParam1 p1);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container, TParam1 p1);
 
   static inline ::Zenject::MonoInstaller_2<TParam1, TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoInstaller_2", modifiers: "&&", def_value: None }]

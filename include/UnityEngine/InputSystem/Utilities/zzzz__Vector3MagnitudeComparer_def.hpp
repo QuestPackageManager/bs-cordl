@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector3MagnitudeComparer);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6662))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Vector3MagnitudeComparer
 #pragma pack(push, 0)
 struct CORDL_TYPE Vector3MagnitudeComparer {
@@ -31,7 +31,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare addr 0x298e420 size 0x40 virtual true final true
+  /// @brief Method Compare, addr 0x2b0f174, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   // Ctor Parameters []

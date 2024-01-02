@@ -16,7 +16,7 @@ MARK_VAL_T(::JetBrains::Annotations::CollectionAccessType);
 namespace JetBrains::Annotations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15734))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15784))
 // CS Name: ::JetBrains.Annotations::CollectionAccessType
 struct CORDL_TYPE CollectionAccessType {
 public:

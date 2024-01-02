@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IPrefabInstantiator)
-namespace UnityEngine {
-class Object;
+namespace System {
+class Action;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-struct TypeValuePair;
+class GameObjectCreationParameters;
 }
 namespace System {
 class Type;
 }
-namespace Zenject {
-class GameObjectCreationParameters;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace System {
-class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Zenject::IPrefabInstantiator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11227))
 // CS Name: ::Zenject::IPrefabInstantiator*
 class CORDL_TYPE IPrefabInstantiator {
 public:
@@ -50,19 +50,19 @@ public:
 
   __declspec(property(get = get_GameObjectCreationParameters))::Zenject::GameObjectCreationParameters* GameObjectCreationParameters;
 
-  /// @brief Method get_ArgumentTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ArgumentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ExtraArguments, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method get_GameObjectCreationParameters addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_GameObjectCreationParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
-  /// @brief Method Instantiate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
 
-  /// @brief Method GetPrefab addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPrefab, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Object* GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPrefabInstantiator", modifiers: "&&", def_value: None }]

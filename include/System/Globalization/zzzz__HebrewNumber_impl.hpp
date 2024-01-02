@@ -2,9 +2,9 @@
 #include "System/Globalization/zzzz__HebrewNumber_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__HebrewNumber_def.hpp"
-#include "System/Globalization/zzzz__HebrewNumberParsingState_def.hpp"
-#include "System/Globalization/zzzz__HebrewNumberParsingContext_def.hpp"
 #include "System/Globalization/zzzz__HebrewNumber_def.hpp"
+#include "System/Globalization/zzzz__HebrewNumberParsingContext_def.hpp"
+#include "System/Globalization/zzzz__HebrewNumberParsingState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int16_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::__HebrewNumber__HebrewToken::__HebrewNumber__HebrewToken(int16_t value__) noexcept {
   this->value__ = value__;
@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::__HebrewNumber__HebrewValue::*)(
     ::System::Globalization::__HebrewNumber__HebrewToken, int16_t)>(&::System::Globalization::__HebrewNumber__HebrewValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23f8f64;
+  constexpr static std::size_t addrs = 0x2555154;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::__HebrewNumber__HebrewValue>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::__HebrewNumber__HebrewToken>::get(),
@@ -83,9 +83,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Globalization::HebrewNumber::ToString)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x23f8a5c;
+  constexpr static std::size_t addrs = 0x2554c4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HebrewNumber*>::get(), "ToString", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -98,9 +98,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Globalization::HebrewNumberParsingState (*)(char16_t, ByRef<::System::Globalization::HebrewNumberParsingContext>)>(&::System::Globalization::HebrewNumber::ParseByChar)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x23f6c78;
+  constexpr static std::size_t addrs = 0x2552e6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HebrewNumber*>::get(), "ParseByChar", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
@@ -113,9 +113,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Globalization::HebrewNumber::IsDigit)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x23f6b9c;
+  constexpr static std::size_t addrs = 0x2552d90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::HebrewNumber*>::get(), "IsDigit", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));

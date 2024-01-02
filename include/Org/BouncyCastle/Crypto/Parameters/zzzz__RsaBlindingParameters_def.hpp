@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RsaBlindingParameters)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1078))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::RsaBlindingParameters*
 class CORDL_TYPE RsaBlindingParameters : public ::System::Object {
@@ -57,13 +57,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::RsaBlindingParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey,
                                                                                          ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method .ctor addr 0xec3320 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0xf3950c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method get_PublicKey addr 0xec33a8 size 0x8 virtual false final false
+  /// @brief Method get_PublicKey, addr 0xf39594, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
 
-  /// @brief Method get_BlindingFactor addr 0xec33b0 size 0x8 virtual false final false
+  /// @brief Method get_BlindingFactor, addr 0xf3959c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_BlindingFactor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingParameters", modifiers: "&&", def_value: None }]

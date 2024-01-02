@@ -8,10 +8,10 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Esf {
 class SignaturePolicyId;
@@ -46,23 +46,23 @@ public:
 
   constexpr void __set_sigPolicy(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* value);
 
-  /// @brief Method GetInstance addr 0xe23268 size 0x1dc virtual false final false
+  /// @brief Method GetInstance, addr 0xe9843c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor();
 
-  /// @brief Method .ctor addr 0xe234bc size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0xe98690, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method .ctor addr 0xe23444 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0xe98618, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method get_SignaturePolicyId addr 0xe234d8 size 0x8 virtual false final false
+  /// @brief Method get_SignaturePolicyId, addr 0xe986ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* get_SignaturePolicyId();
 
-  /// @brief Method ToAsn1Object addr 0xe234e0 size 0x78 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe986b4, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyIdentifier", modifiers: "&&", def_value: None }]

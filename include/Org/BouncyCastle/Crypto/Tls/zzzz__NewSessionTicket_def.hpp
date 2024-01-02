@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1257))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::NewSessionTicket*
 class CORDL_TYPE NewSessionTicket : public ::System::Object {
@@ -49,19 +49,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ticket);
 
-  /// @brief Method .ctor addr 0xf1bd04 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf91f28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ticket);
 
-  /// @brief Method get_TicketLifetimeHint addr 0xf1bd30 size 0x8 virtual true final false
+  /// @brief Method get_TicketLifetimeHint, addr 0xf91f54, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_TicketLifetimeHint();
 
-  /// @brief Method get_Ticket addr 0xf1bd38 size 0x8 virtual true final false
+  /// @brief Method get_Ticket, addr 0xf91f5c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ticket();
 
-  /// @brief Method Encode addr 0xf1bd40 size 0x7c virtual true final false
+  /// @brief Method Encode, addr 0xf91f64, size 0x7c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf1bdbc size 0xac virtual false final false
+  /// @brief Method Parse, addr 0xf91fe0, size 0xac, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "NewSessionTicket", modifiers: "&&", def_value: None }]

@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::CipherKeyGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(888))
 // CS Name: ::Org.BouncyCastle.Crypto::CipherKeyGenerator*
 class CORDL_TYPE CipherKeyGenerator : public ::System::Object {
@@ -68,27 +68,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe818c8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0xef6a9c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* New_ctor(int32_t defaultStrength);
 
-  /// @brief Method .ctor addr 0xe818d8 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xef6aac, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t defaultStrength);
 
-  /// @brief Method get_DefaultStrength addr 0xe81970 size 0x8 virtual false final false
+  /// @brief Method get_DefaultStrength, addr 0xef6b44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultStrength();
 
-  /// @brief Method Init addr 0xe81978 size 0x68 virtual false final false
+  /// @brief Method Init, addr 0xef6b4c, size 0x68, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method engineInit addr 0xe819e0 size 0x38 virtual true final false
+  /// @brief Method engineInit, addr 0xef6bb4, size 0x38, virtual true, abstract: false, final false
   inline void engineInit(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKey addr 0xe81a18 size 0x120 virtual false final false
+  /// @brief Method GenerateKey, addr 0xef6bec, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateKey();
 
-  /// @brief Method engineGenerateKey addr 0xe81b38 size 0x64 virtual true final false
+  /// @brief Method engineGenerateKey, addr 0xef6d0c, size 0x64, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> engineGenerateKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGenerator", modifiers: "&&", def_value: None }]

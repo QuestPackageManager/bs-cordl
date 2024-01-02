@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::RangedRecord);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9500))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8734))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8735))
 // CS Name: ::Assets.OVR.Scripts::RangedRecord*
 class CORDL_TYPE RangedRecord : public ::Assets::OVR::Scripts::Record {
 public:
@@ -52,7 +52,7 @@ public:
 
   static inline ::Assets::OVR::Scripts::RangedRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
-  /// @brief Method .ctor addr 0x268122c size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x27f84d4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
   // Ctor Parameters [CppParam { name: "", ty: "RangedRecord", modifiers: "&&", def_value: None }]

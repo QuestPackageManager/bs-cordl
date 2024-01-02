@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeccakDigest)
-namespace Org::BouncyCastle::Utilities {
-class IMemoable;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Utilities {
+class IMemoable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::KeccakDigest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(755))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::KeccakDigest*
 class CORDL_TYPE KeccakDigest : public ::System::Object {
@@ -100,80 +100,80 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::KeccakDigest* New_ctor();
 
-  /// @brief Method .ctor addr 0x11b5150 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12253a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::KeccakDigest* New_ctor(int32_t bitLength);
 
-  /// @brief Method .ctor addr 0x11b5158 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x12253a8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::KeccakDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::KeccakDigest* source);
 
-  /// @brief Method .ctor addr 0x11b529c size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x12254ec, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::KeccakDigest* source);
 
-  /// @brief Method CopyIn addr 0x11b5330 size 0x7c virtual false final false
+  /// @brief Method CopyIn, addr 0x1225580, size 0x7c, virtual false, abstract: false, final false
   inline void CopyIn(::Org::BouncyCastle::Crypto::Digests::KeccakDigest* source);
 
-  /// @brief Method get_AlgorithmName addr 0x11b53ac size 0x84 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0x12255fc, size 0x84, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0x11b5430 size 0xc virtual true final false
+  /// @brief Method GetDigestSize, addr 0x1225680, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Update addr 0x11b543c size 0x4 virtual true final false
+  /// @brief Method Update, addr 0x122568c, size 0x4, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0x11b5524 size 0x4 virtual true final false
+  /// @brief Method BlockUpdate, addr 0x1225774, size 0x4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal addr 0x11b569c size 0x3c virtual true final false
+  /// @brief Method DoFinal, addr 0x12258ec, size 0x3c, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0x11b581c size 0x70 virtual true final false
+  /// @brief Method DoFinal, addr 0x1225a6c, size 0x70, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, uint8_t partialByte, int32_t partialBits);
 
-  /// @brief Method Reset addr 0x11b59bc size 0x8 virtual true final false
+  /// @brief Method Reset, addr 0x1225c0c, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetByteLength addr 0x11b59c4 size 0xc virtual true final false
+  /// @brief Method GetByteLength, addr 0x1225c14, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method Init addr 0x11b51ec size 0xb0 virtual false final false
+  /// @brief Method Init, addr 0x122543c, size 0xb0, virtual false, abstract: false, final false
   inline void Init(int32_t bitLength);
 
-  /// @brief Method InitSponge addr 0x11b59d0 size 0xfc virtual false final false
+  /// @brief Method InitSponge, addr 0x1225c20, size 0xfc, virtual false, abstract: false, final false
   inline void InitSponge(int32_t rate);
 
-  /// @brief Method Absorb addr 0x11b5440 size 0xe4 virtual false final false
+  /// @brief Method Absorb, addr 0x1225690, size 0xe4, virtual false, abstract: false, final false
   inline void Absorb(uint8_t data);
 
-  /// @brief Method Absorb addr 0x11b5528 size 0x174 virtual false final false
+  /// @brief Method Absorb, addr 0x1225778, size 0x174, virtual false, abstract: false, final false
   inline void Absorb(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t len);
 
-  /// @brief Method AbsorbBits addr 0x11b588c size 0x130 virtual false final false
+  /// @brief Method AbsorbBits, addr 0x1225adc, size 0x130, virtual false, abstract: false, final false
   inline void AbsorbBits(int32_t data, int32_t bits);
 
-  /// @brief Method PadAndSwitchToSqueezingPhase addr 0x11b5b78 size 0x19c virtual false final false
+  /// @brief Method PadAndSwitchToSqueezingPhase, addr 0x1225dc8, size 0x19c, virtual false, abstract: false, final false
   inline void PadAndSwitchToSqueezingPhase();
 
-  /// @brief Method Squeeze addr 0x11b56d8 size 0x144 virtual false final false
+  /// @brief Method Squeeze, addr 0x1225928, size 0x144, virtual false, abstract: false, final false
   inline void Squeeze(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t offset, int64_t outputLength);
 
-  /// @brief Method KeccakAbsorb addr 0x11b5acc size 0xac virtual false final false
+  /// @brief Method KeccakAbsorb, addr 0x1225d1c, size 0xac, virtual false, abstract: false, final false
   inline void KeccakAbsorb(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off);
 
-  /// @brief Method KeccakExtract addr 0x11b5d14 size 0x38 virtual false final false
+  /// @brief Method KeccakExtract, addr 0x1225f64, size 0x38, virtual false, abstract: false, final false
   inline void KeccakExtract();
 
-  /// @brief Method KeccakPermutation addr 0x11b5d4c size 0x618 virtual false final false
+  /// @brief Method KeccakPermutation, addr 0x1225f9c, size 0x618, virtual false, abstract: false, final false
   inline void KeccakPermutation();
 
-  /// @brief Method Copy addr 0x11b6364 size 0x60 virtual true final false
+  /// @brief Method Copy, addr 0x12265b4, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0x11b63c4 size 0x84 virtual true final false
+  /// @brief Method Reset, addr 0x1226614, size 0x84, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeccakDigest", modifiers: "&&", def_value: None }]

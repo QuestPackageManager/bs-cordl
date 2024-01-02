@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509VerificationF
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7826))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8989))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509VerificationFlags
 struct CORDL_TYPE X509VerificationFlags {
 public:

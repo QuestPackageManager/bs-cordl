@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderTextureReadWrite);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10048))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10120))
 // CS Name: ::UnityEngine::RenderTextureReadWrite
 struct CORDL_TYPE RenderTextureReadWrite {
 public:

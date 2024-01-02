@@ -12,8 +12,8 @@ template <typename TValue> inline void Zenject::StaticMemoryPoolBase_1<TValue>::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, onDespawnedMethod);
 }
 template <typename TValue> inline TValue Zenject::StaticMemoryPoolBase_1<TValue>::Alloc() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticMemoryPoolBase_1<TValue>*>::get(), "Alloc",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticMemoryPoolBase_1<TValue>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
 }
 // Ctor Parameters []

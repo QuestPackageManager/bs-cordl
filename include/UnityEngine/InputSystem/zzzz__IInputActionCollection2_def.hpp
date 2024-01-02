@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputActionCollection2)
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
 }
-namespace UnityEngine::InputSystem {
-class IInputActionCollection;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection2);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6128))
 // CS Name: ::UnityEngine.InputSystem::IInputActionCollection2*
 class CORDL_TYPE IInputActionCollection2 {
 public:
@@ -48,13 +48,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_bindings addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_bindings, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* get_bindings();
 
-  /// @brief Method FindAction addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);
+  /// @brief Method FindAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param throwIfNotFound: bool (default: false)
+  inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound = false);
 
-  /// @brief Method FindBinding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FindBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t FindBinding(::UnityEngine::InputSystem::InputBinding mask, ByRef<::UnityEngine::InputSystem::InputAction*> action);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputActionCollection2", modifiers: "&&", def_value: None }]

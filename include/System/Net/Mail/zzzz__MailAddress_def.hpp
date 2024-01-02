@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Net::Mail::MailAddress);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8219))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9382))
 // CS Name: ::System.Net.Mail::MailAddress*
 class CORDL_TYPE MailAddress : public ::System::Object {
 public:
@@ -82,35 +82,35 @@ public:
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
-  /// @brief Method .ctor addr 0x2784934 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x290295c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW userName, ::StringW domain);
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW address);
 
-  /// @brief Method .ctor addr 0x2785248 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2903270, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW address);
 
   static inline ::System::Net::Mail::MailAddress* New_ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding);
 
-  /// @brief Method .ctor addr 0x2785254 size 0x24c virtual false final false
+  /// @brief Method .ctor, addr 0x290327c, size 0x24c, virtual false, abstract: false, final false
   inline void _ctor(::StringW address, ::StringW displayName, ::System::Text::Encoding* displayNameEncoding);
 
-  /// @brief Method get_DisplayName addr 0x27854a0 size 0x8 virtual false final false
+  /// @brief Method get_DisplayName, addr 0x29034c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Address addr 0x27854a8 size 0x4c virtual false final false
+  /// @brief Method get_Address, addr 0x29034d0, size 0x4c, virtual false, abstract: false, final false
   inline ::StringW get_Address();
 
-  /// @brief Method get_SmtpAddress addr 0x27854f4 size 0x78 virtual false final false
+  /// @brief Method get_SmtpAddress, addr 0x290351c, size 0x78, virtual false, abstract: false, final false
   inline ::StringW get_SmtpAddress();
 
-  /// @brief Method ToString addr 0x278556c size 0xa4 virtual true final false
+  /// @brief Method ToString, addr 0x2903594, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals addr 0x2785610 size 0x64 virtual true final false
+  /// @brief Method Equals, addr 0x2903638, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode addr 0x2785674 size 0x28 virtual true final false
+  /// @brief Method GetHashCode, addr 0x290369c, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "MailAddress", modifiers: "&&", def_value: None }]

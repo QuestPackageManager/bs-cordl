@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IDragAndDropData);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7052))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6966))
 // CS Name: ::UnityEngine.UIElements::IDragAndDropData*
 class CORDL_TYPE IDragAndDropData {
 public:
   // Declarations
   __declspec(property(get = get_userData))::System::Object* userData;
 
-  /// @brief Method get_userData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_userData();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDragAndDropData", modifiers: "&&", def_value: None }]

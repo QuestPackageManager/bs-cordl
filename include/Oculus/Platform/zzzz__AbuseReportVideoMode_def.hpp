@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::AbuseReportVideoMode);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13223))
 // CS Name: ::Oculus.Platform::AbuseReportVideoMode
 struct CORDL_TYPE AbuseReportVideoMode {
 public:

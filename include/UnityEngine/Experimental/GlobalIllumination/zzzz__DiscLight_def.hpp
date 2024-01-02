@@ -11,17 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DiscLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightMode;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
+struct FalloffType;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::DiscLight);
 // SizeInfo { instance_size: 80, native_size: 84, calculated_instance_size: 80, calculated_native_size: 93, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10310)), TypeDefinitionIndex(TypeDefinitionIndex(10309)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10312))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10317)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10387)), TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10395)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::DiscLight
 struct CORDL_TYPE DiscLight {
 public:

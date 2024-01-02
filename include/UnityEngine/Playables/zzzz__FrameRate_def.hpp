@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FrameRate)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
 class IFormatProvider;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameRate);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10420))
 // CS Name: ::UnityEngine.Playables::FrameRate
 struct CORDL_TYPE FrameRate {
 public:
@@ -95,37 +95,39 @@ public:
 
   static inline ::UnityEngine::Playables::FrameRate getStaticF_k_59_94Fps();
 
-  /// @brief Method get_dropFrame addr 0x2b8d0f4 size 0xc virtual false final false
+  /// @brief Method get_dropFrame, addr 0x2cf5434, size 0xc, virtual false, abstract: false, final false
   inline bool get_dropFrame();
 
-  /// @brief Method get_rate addr 0x2b8d100 size 0x28 virtual false final false
+  /// @brief Method get_rate, addr 0x2cf5440, size 0x28, virtual false, abstract: false, final false
   inline double_t get_rate();
 
-  /// @brief Method .ctor addr 0x2b8d128 size 0x18 virtual false final false
-  inline void _ctor(uint32_t frameRate, bool drop);
+  /// @brief Method .ctor, addr 0x2cf5468, size 0x18, virtual false, abstract: false, final false
+  /// @param frameRate: uint32_t (default: static_cast<uint32_t>(0x0u))
+  /// @param drop: bool (default: false)
+  inline void _ctor(uint32_t frameRate = static_cast<uint32_t>(0x0u), bool drop = false);
 
-  /// @brief Method IsValid addr 0x2b8d140 size 0x10 virtual false final false
+  /// @brief Method IsValid, addr 0x2cf5480, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid();
 
-  /// @brief Method Equals addr 0x2b8d150 size 0x10 virtual true final true
+  /// @brief Method Equals, addr 0x2cf5490, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::FrameRate other);
 
-  /// @brief Method Equals addr 0x2b8d160 size 0x78 virtual true final false
+  /// @brief Method Equals, addr 0x2cf54a0, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method op_Equality addr 0x2b8d1d8 size 0xc virtual false final false
+  /// @brief Method op_Equality, addr 0x2cf5518, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Playables::FrameRate a, ::UnityEngine::Playables::FrameRate b);
 
-  /// @brief Method GetHashCode addr 0x2b8d1e4 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2cf5524, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2b8d1ec size 0xc virtual true final false
+  /// @brief Method ToString, addr 0x2cf552c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2b8d1f8 size 0x194 virtual false final false
+  /// @brief Method ToString, addr 0x2cf5538, size 0x194, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method DoubleToFrameRate addr 0x2b8d38c size 0xc4 virtual false final false
+  /// @brief Method DoubleToFrameRate, addr 0x2cf56cc, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::FrameRate DoubleToFrameRate(double_t framerate);
 
   // Ctor Parameters [CppParam { name: "m_Rate", ty: "int32_t", modifiers: "", def_value: None }]

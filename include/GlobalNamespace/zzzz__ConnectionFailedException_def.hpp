@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559)), TypeDefinitionIndex(TypeDefinitionIndex(12636))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12635))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(12708))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12707))
 // CS Name: ::ConnectionFailedException*
 class CORDL_TYPE ConnectionFailedException : public ::System::Exception {
 public:
@@ -36,12 +36,12 @@ public:
 
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor addr 0xdac248 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xe32260, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
-  /// @brief Method .ctor addr 0xdac2b4 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0xe322cc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedException", modifiers: "&&", def_value: None }]

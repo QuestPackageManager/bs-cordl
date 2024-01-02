@@ -21,21 +21,21 @@ MARK_REF_PTR_T(::Oculus::Platform::AndroidPlatform);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13229))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13227))
 // CS Name: ::Oculus.Platform::AndroidPlatform*
 class CORDL_TYPE AndroidPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x2567670 size 0xb0 virtual false final false
+  /// @brief Method Initialize, addr 0x26ce4a8, size 0xb0, virtual false, abstract: false, final false
   inline bool Initialize(::StringW appId);
 
-  /// @brief Method AsyncInitialize addr 0x25677b8 size 0x108 virtual false final false
+  /// @brief Method AsyncInitialize, addr 0x26ce5f0, size 0x108, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
 
   static inline ::Oculus::Platform::AndroidPlatform* New_ctor();
 
-  /// @brief Method .ctor addr 0x2567954 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26ce78c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidPlatform", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::MaskingTypes);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12434))
 // CS Name: ::TMPro::MaskingTypes
 struct CORDL_TYPE MaskingTypes {
 public:

@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertStatus)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class RevokedInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Encodable;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1TaggedObject;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class RevokedInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -66,34 +66,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor();
 
-  /// @brief Method .ctor addr 0xf09ce0 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0xf7ff04, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor addr 0xf09d50 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xf7ff74, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor addr 0xf09d80 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xf7ffa4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
 
-  /// @brief Method .ctor addr 0xf09db0 size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0xf7ffd4, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* choice);
 
-  /// @brief Method GetInstance addr 0xf09f00 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf80124, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertStatus* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_TagNo addr 0xf0a088 size 0x8 virtual false final false
+  /// @brief Method get_TagNo, addr 0xf802ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TagNo();
 
-  /// @brief Method get_Status addr 0xf0a090 size 0x8 virtual false final false
+  /// @brief Method get_Status, addr 0xf802b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Status();
 
-  /// @brief Method ToAsn1Object addr 0xf0a098 size 0x74 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf802bc, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertStatus", modifiers: "&&", def_value: None }]

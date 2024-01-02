@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::AlternatingRowBackground);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7226))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7140))
 // CS Name: ::UnityEngine.UIElements::AlternatingRowBackground
 struct CORDL_TYPE AlternatingRowBackground {
 public:

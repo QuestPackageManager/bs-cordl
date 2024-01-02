@@ -1,27 +1,27 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileManagerSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemesListSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
-#include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
-#include "System/zzzz__Version_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSaveDataV1_0_1_def.hpp"
-#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
-#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__ISaveData_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListSO_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentTypeSO_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSaveData_def.hpp"
+#include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.Save
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::ISaveData*, ::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileManagerSO::Save)> {
   constexpr static std::size_t size = 0x110c;
-  constexpr static std::size_t addrs = 0x2237a70;
+  constexpr static std::size_t addrs = 0x236d5b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "Save", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
@@ -32,60 +32,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.Load
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::ISaveData*)>(
-    &::GlobalNamespace::PlayerDataFileManagerSO::Load)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2238ed8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (
+    ::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::ISaveData*, ::GlobalNamespace::BeatmapCharacteristicCollection*)>(&::GlobalNamespace::PlayerDataFileManagerSO::Load)> {
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x236e6c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "Load", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "Load", std::vector<Il2CppClass*>{},
+                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.LoadFromJSONString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::StringW)>(
-    &::GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2238fc4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (
+    ::GlobalNamespace::PlayerDataFileManagerSO::*)(::StringW, ::GlobalNamespace::BeatmapCharacteristicCollection*)>(&::GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString)> {
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x236e7c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromJSONString",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromJSONString", std::vector<Il2CppClass*>{},
+                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.LoadFromCurrentVersion
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::PlayerSaveData*)>(
-    &::GlobalNamespace::PlayerDataFileManagerSO::LoadFromCurrentVersion)> {
-  constexpr static std::size_t size = 0x1110;
-  constexpr static std::size_t addrs = 0x2239dec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::PlayerSaveData*, ::GlobalNamespace::BeatmapCharacteristicCollection*)>(
+        &::GlobalNamespace::PlayerDataFileManagerSO::LoadFromCurrentVersion)> {
+  constexpr static std::size_t size = 0x1190;
+  constexpr static std::size_t addrs = 0x236f610;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromCurrentVersion", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveData*>::get() })));
+                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveData*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.LoadFromVersionV1_0_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (
-    ::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::PlayerSaveDataV1_0_1*)>(&::GlobalNamespace::PlayerDataFileManagerSO::LoadFromVersionV1_0_1)> {
-  constexpr static std::size_t size = 0xb74;
-  constexpr static std::size_t addrs = 0x2239278;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::GlobalNamespace::PlayerSaveDataV1_0_1*, ::GlobalNamespace::BeatmapCharacteristicCollection*)>(
+        &::GlobalNamespace::PlayerDataFileManagerSO::LoadFromVersionV1_0_1)> {
+  constexpr static std::size_t size = 0xb88;
+  constexpr static std::size_t addrs = 0x236ea88;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromVersionV1_0_1", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveDataV1_0_1*>::get() })));
+                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveDataV1_0_1*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
     return ___internal_method;
   }
 };
@@ -94,10 +100,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(
     &::GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultPlayerData)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2239184;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x236e990;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(),
                                                                                "CreateDefaultPlayerData", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -109,9 +115,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1LevelId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x223b984;
+  constexpr static std::size_t addrs = 0x2370c70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "GetLevelIdFromV_1_0_1LevelId", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -122,15 +128,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileManagerSO.GetBeatmapCharacteristicFromV_1_0_1LevelId
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapCharacteristicSO* (*)(::GlobalNamespace::BeatmapCharacteristicCollectionSO*, ::StringW)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapCharacteristicSO* (*)(::GlobalNamespace::BeatmapCharacteristicCollection*, ::StringW)>(
     &::GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x223b868;
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x23708d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "GetBeatmapCharacteristicFromV_1_0_1LevelId", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollectionSO*>::get(),
+        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -140,10 +146,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OverrideEnvironmentSettings* (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(
     &::GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultOverrideEnvironmentSettings)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x223b224;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x23707a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(),
                                                                                "CreateDefaultOverrideEnvironmentSettings", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -155,9 +161,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentInfoSO* (::GlobalNamespace::PlayerDataFileManagerSO::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileManagerSO::GetEnvironmentInfoBySerializedName)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x223ba24;
+  constexpr static std::size_t addrs = 0x2370cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "GetEnvironmentInfoBySerializedName",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
@@ -169,10 +175,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerDataFileManagerSO::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x223b2e0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x2370850;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadCorrectedSongPackMask", std::vector<Il2CppClass*>{},
                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
@@ -184,26 +190,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileManagerSO::*)()>(&::GlobalNamespace::PlayerDataFileManagerSO::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x223ba40;
+  constexpr static std::size_t addrs = 0x2370cf4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& GlobalNamespace::PlayerDataFileManagerSO::__get__beatmapCharacteristicCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollectionSO*> const& GlobalNamespace::PlayerDataFileManagerSO::__get__beatmapCharacteristicCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCharacteristicCollection;
-}
-constexpr void GlobalNamespace::PlayerDataFileManagerSO::__set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollectionSO* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::GlobalNamespace::ColorSchemesListSO*& GlobalNamespace::PlayerDataFileManagerSO::__get__defaultColorSchemes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColorSchemes;
@@ -319,29 +313,37 @@ inline void GlobalNamespace::PlayerDataFileManagerSO::Save(::GlobalNamespace::IS
                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saveData, playerData);
 }
-inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::Load(::GlobalNamespace::ISaveData* saveData) {
+inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::Load(::GlobalNamespace::ISaveData* saveData,
+                                                                                     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "Load", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, saveData);
+                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaveData*>::get(),
+                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, saveData, beatmapCharacteristicCollection);
 }
-inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString(::StringW jsonString) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromJSONString",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, jsonString);
+inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromJSONString(::StringW jsonString,
+                                                                                                   ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromJSONString", std::vector<Il2CppClass*>{},
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, jsonString, beatmapCharacteristicCollection);
 }
-inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData) {
+inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromCurrentVersion(::GlobalNamespace::PlayerSaveData* playerSaveData,
+                                                                                                       ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromCurrentVersion", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, playerSaveData);
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveData*>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, playerSaveData, beatmapCharacteristicCollection);
 }
-inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData) {
+inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::LoadFromVersionV1_0_1(::GlobalNamespace::PlayerSaveDataV1_0_1* playerDataModelSaveData,
+                                                                                                      ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "LoadFromVersionV1_0_1", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveDataV1_0_1*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, playerDataModelSaveData);
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSaveDataV1_0_1*>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerData*, false>(this, ___internal_method, playerDataModelSaveData, beatmapCharacteristicCollection);
 }
 inline ::GlobalNamespace::PlayerData* GlobalNamespace::PlayerDataFileManagerSO::CreateDefaultPlayerData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(),
@@ -356,10 +358,10 @@ inline ::StringW GlobalNamespace::PlayerDataFileManagerSO::GetLevelIdFromV_1_0_1
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, oldLevelId, beatmapCharacteristic);
 }
 inline ::GlobalNamespace::BeatmapCharacteristicSO*
-GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollectionSO* beatmapCharacteristicCollection, ::StringW levelId) {
+GlobalNamespace::PlayerDataFileManagerSO::GetBeatmapCharacteristicFromV_1_0_1LevelId(::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::StringW levelId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileManagerSO*>::get(), "GetBeatmapCharacteristicFromV_1_0_1LevelId", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollectionSO*>::get(),
+      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get(),
                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapCharacteristicSO*, false>(nullptr, ___internal_method, beatmapCharacteristicCollection, levelId);
 }

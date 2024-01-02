@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventDescriptorCollection)
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class IComparer;
-}
-namespace System {
-class Array;
+namespace System::ComponentModel {
+class __EventDescriptorCollection__ArraySubsetEnumerator;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::ComponentModel {
-class EventDescriptor;
-}
-namespace System::ComponentModel {
-class __EventDescriptorCollection__ArraySubsetEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IList;
+}
+namespace System::ComponentModel {
+class EventDescriptor;
+}
+namespace System {
+class Array;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::System::ComponentModel::__EventDescriptorCollection__ArraySubse
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9424))
 // CS Name: ::EventDescriptorCollection::ArraySubsetEnumerator*
 class CORDL_TYPE __EventDescriptorCollection__ArraySubsetEnumerator : public ::System::Object {
 public:
@@ -88,16 +88,16 @@ public:
 
   static inline ::System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator* New_ctor(::System::Array* array, int32_t count);
 
-  /// @brief Method .ctor addr 0x27919c0 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x290f9e8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* array, int32_t count);
 
-  /// @brief Method MoveNext addr 0x2791f44 size 0x28 virtual true final true
+  /// @brief Method MoveNext, addr 0x290ff6c, size 0x28, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2791f6c size 0xc virtual true final true
+  /// @brief Method Reset, addr 0x290ff94, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x2791f78 size 0x64 virtual true final true
+  /// @brief Method get_Current, addr 0x290ffa0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EventDescriptorCollection__ArraySubsetEnumerator", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ static_assert(offsetof(::System::ComponentModel::__EventDescriptorCollection__Ar
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9425))
 // CS Name: ::System.ComponentModel::EventDescriptorCollection*
 class CORDL_TYPE EventDescriptorCollection : public ::System::Object {
 public:
@@ -246,112 +246,112 @@ public:
 
   static inline ::System::ComponentModel::EventDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> events);
 
-  /// @brief Method .ctor addr 0x2790e9c size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x290eec4, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> events);
 
   static inline ::System::ComponentModel::EventDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> events,
                                                                               bool readOnly);
 
-  /// @brief Method .ctor addr 0x2790f4c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x290ef74, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> events, bool readOnly);
 
-  /// @brief Method get_Count addr 0x2790f70 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x290ef98, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method set_Count addr 0x2790f78 size 0x8 virtual false final false
+  /// @brief Method set_Count, addr 0x290efa0, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method get_Item addr 0x2790f80 size 0x8c virtual true final false
+  /// @brief Method get_Item, addr 0x290efa8, size 0x8c, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* get_Item(int32_t index);
 
-  /// @brief Method get_Item addr 0x27910b8 size 0x14 virtual true final false
+  /// @brief Method get_Item, addr 0x290f0e0, size 0x14, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* get_Item(::StringW name);
 
-  /// @brief Method Add addr 0x27910cc size 0xd0 virtual false final false
+  /// @brief Method Add, addr 0x290f0f4, size 0xd0, virtual false, abstract: false, final false
   inline int32_t Add(::System::ComponentModel::EventDescriptor* value);
 
-  /// @brief Method Clear addr 0x279129c size 0x54 virtual false final false
+  /// @brief Method Clear, addr 0x290f2c4, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains addr 0x27912f0 size 0x18 virtual false final false
+  /// @brief Method Contains, addr 0x290f318, size 0x18, virtual false, abstract: false, final false
   inline bool Contains(::System::ComponentModel::EventDescriptor* value);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x2791368 size 0x3c virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x290f390, size 0x3c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method EnsureEventsOwned addr 0x279100c size 0xac virtual false final false
+  /// @brief Method EnsureEventsOwned, addr 0x290f034, size 0xac, virtual false, abstract: false, final false
   inline void EnsureEventsOwned();
 
-  /// @brief Method EnsureSize addr 0x279119c size 0x100 virtual false final false
+  /// @brief Method EnsureSize, addr 0x290f1c4, size 0x100, virtual false, abstract: false, final false
   inline void EnsureSize(int32_t sizeNeeded);
 
-  /// @brief Method Find addr 0x2791600 size 0x114 virtual true final false
+  /// @brief Method Find, addr 0x290f628, size 0x114, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* Find(::StringW name, bool ignoreCase);
 
-  /// @brief Method IndexOf addr 0x2791308 size 0x60 virtual false final false
+  /// @brief Method IndexOf, addr 0x290f330, size 0x60, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::ComponentModel::EventDescriptor* value);
 
-  /// @brief Method Insert addr 0x2791714 size 0xf0 virtual false final false
+  /// @brief Method Insert, addr 0x290f73c, size 0xf0, virtual false, abstract: false, final false
   inline void Insert(int32_t index, ::System::ComponentModel::EventDescriptor* value);
 
-  /// @brief Method Remove addr 0x2791804 size 0x70 virtual false final false
+  /// @brief Method Remove, addr 0x290f82c, size 0x70, virtual false, abstract: false, final false
   inline void Remove(::System::ComponentModel::EventDescriptor* value);
 
-  /// @brief Method RemoveAt addr 0x2791874 size 0xb4 virtual false final false
+  /// @brief Method RemoveAt, addr 0x290f89c, size 0xb4, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x2791928 size 0x98 virtual false final false
+  /// @brief Method GetEnumerator, addr 0x290f950, size 0x98, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method InternalSort addr 0x27913a4 size 0x25c virtual false final false
+  /// @brief Method InternalSort, addr 0x290f3cc, size 0x25c, virtual false, abstract: false, final false
   inline void InternalSort(::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method InternalSort addr 0x27919f4 size 0x78 virtual false final false
+  /// @brief Method InternalSort, addr 0x290fa1c, size 0x78, virtual false, abstract: false, final false
   inline void InternalSort(::System::Collections::IComparer* sorter);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x2791a6c size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x290fa94, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x2791a74 size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x290fa9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.ICollection.get_Count addr 0x2791a7c size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x290faa4, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2791a84 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x290faac, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IList.get_Item addr 0x2791a88 size 0x10 virtual true final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x290fab0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item addr 0x2791a98 size 0x178 virtual true final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x290fac0, size 0x178, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Add addr 0x2791c10 size 0x84 virtual true final true
+  /// @brief Method System.Collections.IList.Add, addr 0x290fc38, size 0x84, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Contains addr 0x2791c94 size 0x90 virtual true final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x290fcbc, size 0x90, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear addr 0x2791d24 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x290fd4c, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.IndexOf addr 0x2791d28 size 0x84 virtual true final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x290fd50, size 0x84, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert addr 0x2791dac size 0x94 virtual true final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x290fdd4, size 0x94, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Remove addr 0x2791e40 size 0x84 virtual true final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x290fe68, size 0x84, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt addr 0x2791ec4 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x290feec, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly addr 0x2791ec8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x290fef0, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize addr 0x2791ed0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x290fef8, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDescriptorCollection", modifiers: "&&", def_value: None }]

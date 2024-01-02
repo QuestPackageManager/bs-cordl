@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRProfile);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8793))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7949))
 // CS Name: ::OVRProfile::State
 struct CORDL_TYPE __OVRProfile__State {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRProfile__State, value__) == 0x0, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7950))
 // CS Name: ::OVRProfile*
 class CORDL_TYPE OVRProfile : public ::UnityEngine::Object {
 public:
@@ -107,33 +107,33 @@ public:
 
   __declspec(property(get = get_state))::GlobalNamespace::__OVRProfile__State state;
 
-  /// @brief Method get_id addr 0x2617aac size 0x40 virtual false final false
+  /// @brief Method get_id, addr 0x277eeb4, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userName addr 0x2617aec size 0x40 virtual false final false
+  /// @brief Method get_userName, addr 0x277eef4, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_locale addr 0x2617b2c size 0x40 virtual false final false
+  /// @brief Method get_locale, addr 0x277ef34, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_locale();
 
-  /// @brief Method get_ipd addr 0x2617b6c size 0x134 virtual false final false
+  /// @brief Method get_ipd, addr 0x277ef74, size 0x134, virtual false, abstract: false, final false
   inline float_t get_ipd();
 
-  /// @brief Method get_eyeHeight addr 0x2617ca0 size 0x50 virtual false final false
+  /// @brief Method get_eyeHeight, addr 0x277f0a8, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeHeight();
 
-  /// @brief Method get_eyeDepth addr 0x2617cf0 size 0x50 virtual false final false
+  /// @brief Method get_eyeDepth, addr 0x277f0f8, size 0x50, virtual false, abstract: false, final false
   inline float_t get_eyeDepth();
 
-  /// @brief Method get_neckHeight addr 0x2617d40 size 0x1c virtual false final false
+  /// @brief Method get_neckHeight, addr 0x277f148, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_neckHeight();
 
-  /// @brief Method get_state addr 0x2617d5c size 0x8 virtual false final false
+  /// @brief Method get_state, addr 0x277f164, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRProfile__State get_state();
 
   static inline ::GlobalNamespace::OVRProfile* New_ctor();
 
-  /// @brief Method .ctor addr 0x2617d64 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x277f16c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRProfile", modifiers: "&&", def_value: None }]

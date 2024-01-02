@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderSnapping)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 struct Ray;
+}
+namespace UnityEngine::ProBuilder {
+struct Vector3Mask;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -18,8 +18,8 @@ template <typename T> class IEnumerable_1;
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine::ProBuilder {
-struct Vector3Mask;
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -31,28 +31,28 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ProBuilderSnapping);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12104))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12176))
 // CS Name: ::UnityEngine.ProBuilder::ProBuilderSnapping*
 class CORDL_TYPE ProBuilderSnapping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsCardinalDirection addr 0x29de3b8 size 0x1e8 virtual false final false
+  /// @brief Method IsCardinalDirection, addr 0x2b6010c, size 0x1e8, virtual false, abstract: false, final false
   static inline bool IsCardinalDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method Snap addr 0x29de5a0 size 0xa0 virtual false final false
+  /// @brief Method Snap, addr 0x2b602f4, size 0xa0, virtual false, abstract: false, final false
   static inline float_t Snap(float_t val, float_t snap);
 
-  /// @brief Method Snap addr 0x29de640 size 0xa0 virtual false final false
+  /// @brief Method Snap, addr 0x2b60394, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Snap(::UnityEngine::Vector3 val, ::UnityEngine::Vector3 snap);
 
-  /// @brief Method SnapVertices addr 0x29de6e0 size 0x3d0 virtual false final false
+  /// @brief Method SnapVertices, addr 0x2b60434, size 0x3d0, virtual false, abstract: false, final false
   static inline void SnapVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes, ::UnityEngine::Vector3 snap);
 
-  /// @brief Method GetSnappingMaskBasedOnNormalVector addr 0x29deab0 size 0xd0 virtual false final false
+  /// @brief Method GetSnappingMaskBasedOnNormalVector, addr 0x2b60804, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetSnappingMaskBasedOnNormalVector(::UnityEngine::Vector3 normal);
 
-  /// @brief Method SnapValueOnRay addr 0x29deb80 size 0x4bc virtual false final false
+  /// @brief Method SnapValueOnRay, addr 0x2b608d4, size 0x4bc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 SnapValueOnRay(::UnityEngine::Ray ray, float_t distance, float_t snap, ::UnityEngine::ProBuilder::Vector3Mask mask);
 
   // Ctor Parameters [CppParam { name: "", ty: "ProBuilderSnapping", modifiers: "&&", def_value: None }]

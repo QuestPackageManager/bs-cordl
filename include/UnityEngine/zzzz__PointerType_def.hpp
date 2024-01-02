@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::PointerType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14603))
 // CS Name: ::UnityEngine::PointerType
 struct CORDL_TYPE PointerType {
 public:

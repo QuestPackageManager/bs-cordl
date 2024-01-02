@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsCloseable {
 public:
   // Declarations
-  /// @brief Method Close addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCloseable", modifiers: "&&", def_value: None }]

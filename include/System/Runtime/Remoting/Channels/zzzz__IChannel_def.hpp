@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannel);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3120))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3121))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannel*
 class CORDL_TYPE IChannel {
 public:
@@ -25,10 +25,10 @@ public:
 
   __declspec(property(get = get_ChannelPriority)) int32_t ChannelPriority;
 
-  /// @brief Method get_ChannelName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ChannelName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ChannelPriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ChannelPriority();
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannel", modifiers: "&&", def_value: None }]

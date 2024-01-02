@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LinearColor);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10312))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10390))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::LinearColor
 struct CORDL_TYPE LinearColor {
 public:
@@ -30,28 +30,28 @@ public:
 
   __declspec(property(get = get_blue, put = set_blue)) float_t blue;
 
-  /// @brief Method get_red addr 0x2b89ae4 size 0x8 virtual false final false
+  /// @brief Method get_red, addr 0x2cf1f08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_red();
 
-  /// @brief Method set_red addr 0x2b89aec size 0xb4 virtual false final false
+  /// @brief Method set_red, addr 0x2cf1f10, size 0xb4, virtual false, abstract: false, final false
   inline void set_red(float_t value);
 
-  /// @brief Method get_green addr 0x2b89ba0 size 0x8 virtual false final false
+  /// @brief Method get_green, addr 0x2cf1fc4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_green();
 
-  /// @brief Method set_green addr 0x2b89ba8 size 0xb4 virtual false final false
+  /// @brief Method set_green, addr 0x2cf1fcc, size 0xb4, virtual false, abstract: false, final false
   inline void set_green(float_t value);
 
-  /// @brief Method get_blue addr 0x2b89c5c size 0x8 virtual false final false
+  /// @brief Method get_blue, addr 0x2cf2080, size 0x8, virtual false, abstract: false, final false
   inline float_t get_blue();
 
-  /// @brief Method set_blue addr 0x2b89c64 size 0xb4 virtual false final false
+  /// @brief Method set_blue, addr 0x2cf2088, size 0xb4, virtual false, abstract: false, final false
   inline void set_blue(float_t value);
 
-  /// @brief Method Convert addr 0x2b89d18 size 0x3d4 virtual false final false
+  /// @brief Method Convert, addr 0x2cf213c, size 0x338, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Convert(::UnityEngine::Color color, float_t intensity);
 
-  /// @brief Method Black addr 0x2b8a0ec size 0x14 virtual false final false
+  /// @brief Method Black, addr 0x2cf2474, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::LinearColor Black();
 
   // Ctor Parameters [CppParam { name: "m_red", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_green", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_blue",

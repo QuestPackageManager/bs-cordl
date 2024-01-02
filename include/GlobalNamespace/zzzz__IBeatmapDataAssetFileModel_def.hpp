@@ -4,22 +4,22 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapDataAssetFileModel)
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
+}
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,22 +32,22 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapDataAssetFileModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4432))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4412))
 // CS Name: ::IBeatmapDataAssetFileModel*
 class CORDL_TYPE IBeatmapDataAssetFileModel {
 public:
   // Declarations
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetAssetBundleFileForPreviewLevelAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAssetBundleFileForPreviewLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 

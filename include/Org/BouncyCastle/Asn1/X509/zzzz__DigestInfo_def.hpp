@@ -9,9 +9,6 @@ CORDL_MODULE_EXPORT(DigestInfo)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
 namespace System {
 class Object;
 }
@@ -20,6 +17,9 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -57,29 +57,29 @@ public:
 
   constexpr void __set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method GetInstance addr 0x111b30c size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x118b554, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x111b324 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0x118b56c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method .ctor addr 0x111b5a4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x118b7ec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x111b4ac size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x118b6f4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_AlgorithmID addr 0x111b5d0 size 0x8 virtual false final false
+  /// @brief Method get_AlgorithmID, addr 0x118b818, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmID();
 
-  /// @brief Method GetDigest addr 0x111b5d8 size 0x8 virtual false final false
+  /// @brief Method GetDigest, addr 0x118b820, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
-  /// @brief Method ToAsn1Object addr 0x111b5e0 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x118b828, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestInfo", modifiers: "&&", def_value: None }]

@@ -3,10 +3,10 @@
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__TextAnchor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CursorPositionStylePainterParameters_def.hpp"
-#include "UnityEngine/UIElements/zzzz__TextNativeSettings_def.hpp"
-#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TextNativeSettings_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::CursorPositionStylePainterParameters.GetDefault
@@ -15,9 +15,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::CursorPositionStylePainterParameters (*)(
     ::UnityEngine::UIElements::VisualElement*, ::StringW)>(&::UnityEngine::UIElements::CursorPositionStylePainterParameters::GetDefault)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2c4fa30;
+  constexpr static std::size_t addrs = 0x2db6de0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorPositionStylePainterParameters>::get(), "GetDefault", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
@@ -31,9 +31,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextNativeSettings (::UnityEngine::UIElements::CursorPositionStylePainterParameters::*)(
     float_t)>(&::UnityEngine::UIElements::CursorPositionStylePainterParameters::GetTextNativeSettings)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2c4fb78;
+  constexpr static std::size_t addrs = 0x2db6f28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CursorPositionStylePainterParameters>::get(), "GetTextNativeSettings",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));

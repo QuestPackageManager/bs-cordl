@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CertHelper)
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
 namespace Mono::Unity {
 struct __UnityTls__unitytls_errorstate;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
 }
 namespace Mono::Unity {
 struct __UnityTls__unitytls_x509list;
@@ -26,18 +26,18 @@ MARK_REF_PTR_T(::Mono::Unity::CertHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7593))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8756))
 // CS Name: ::Mono.Unity::CertHelper*
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificatesToNativeChain addr 0x269c5d0 size 0x1d8 virtual false final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x28175e0, size 0x1d8, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
                                                   ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
-  /// @brief Method AddCertificateToNativeChain addr 0x269c7a8 size 0x1c4 virtual false final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x28177b8, size 0x1c0, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);

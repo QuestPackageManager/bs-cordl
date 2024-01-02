@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicServerInfo)
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,18 +23,18 @@ MARK_VAL_T(::GlobalNamespace::PublicServerInfo);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12934))
 // CS Name: ::PublicServerInfo
 struct CORDL_TYPE PublicServerInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0xdcf388 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0xe54368, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW code, int32_t currentPlayerCount);
 
-  /// @brief Method Serialize addr 0xdcf394 size 0x40 virtual false final false
+  /// @brief Method Serialize, addr 0xe54374, size 0x40, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0xdcf3d4 size 0x40 virtual false final false
+  /// @brief Method Deserialize, addr 0xe543b4, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]

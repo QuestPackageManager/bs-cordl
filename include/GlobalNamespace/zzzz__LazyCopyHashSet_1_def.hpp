@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10532))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15821))
 // CS Name: ::LazyCopyHashSet`1<T>*
 class CORDL_TYPE LazyCopyHashSet_1 : public ::System::Object {
 public:
@@ -64,24 +64,27 @@ public:
 
   constexpr void __set__dirty(bool value);
 
-  /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* get_items();
 
   static inline ::GlobalNamespace::LazyCopyHashSet_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LazyCopyHashSet_1<T>* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(T item);
+
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyCopyHashSet_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

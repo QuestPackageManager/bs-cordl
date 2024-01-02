@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerClickHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13176))
 // CS Name: ::UnityEngine.EventSystems::IPointerClickHandler*
 class CORDL_TYPE IPointerClickHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnPointerClick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPointerClick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerClickHandler", modifiers: "&&", def_value: None }]

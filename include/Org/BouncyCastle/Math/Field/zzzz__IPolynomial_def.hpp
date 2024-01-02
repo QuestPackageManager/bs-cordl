@@ -23,10 +23,10 @@ public:
   // Declarations
   __declspec(property(get = get_Degree)) int32_t Degree;
 
-  /// @brief Method get_Degree addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Degree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Degree();
 
-  /// @brief Method GetExponentsPresent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetExponentsPresent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetExponentsPresent();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPolynomial", modifiers: "&&", def_value: None }]

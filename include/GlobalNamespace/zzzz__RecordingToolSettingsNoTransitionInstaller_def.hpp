@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__NoTransitionInstaller_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolSettingsNoTransitionInstaller)
-namespace GlobalNamespace {
-class RecordingToolSceneSetupData;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class RecordingToolScenesTransitionSetupDataSO;
 }
-namespace Zenject {
-class DiContainer;
+namespace GlobalNamespace {
+class RecordingToolSceneSetupData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6096))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6041))
 // CS Name: ::RecordingToolSettingsNoTransitionInstaller*
 class CORDL_TYPE RecordingToolSettingsNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* value);
 
-  /// @brief Method InstallBindings addr 0x21c8398 size 0x44 virtual true final false
+  /// @brief Method InstallBindings, addr 0x231b6f8, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c83dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231b744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "&&", def_value: None }]

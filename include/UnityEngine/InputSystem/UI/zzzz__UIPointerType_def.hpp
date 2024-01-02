@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::UIPointerType);
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6458))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6372))
 // CS Name: ::UnityEngine.InputSystem.UI::UIPointerType
 struct CORDL_TYPE UIPointerType {
 public:

@@ -9,8 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlphabetScrollbar)
+namespace TMPro {
+class TextMeshProUGUI;
+}
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IPointerDownHandler;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
@@ -18,44 +21,41 @@ class IEventSystemHandler;
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine::UI {
-class Image;
+namespace HMUI {
+class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
 }
 namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
+class PointerEventData;
 }
 namespace HMUI {
 class TableView;
 }
 namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace System::Collections {
-class IEnumerator;
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
-namespace GlobalNamespace {
-class __AlphabetScrollInfo__Data;
+namespace UnityEngine::UI {
+class Image;
 }
-namespace HMUI {
-class __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class __AlphabetScrollInfo__Data;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -74,8 +74,8 @@ MARK_REF_PTR_T(::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13626))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13506))
 // CS Name: ::AlphabetScrollbar::<PointerMoveInsideCoroutine>d__18*
 class CORDL_TYPE __AlphabetScrollbar___PointerMoveInsideCoroutine_d__18 : public ::System::Object {
 public:
@@ -131,22 +131,22 @@ public:
 
   static inline ::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fc1f64 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2117aec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fc1fc8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2117b50, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fc1fcc size 0x134 virtual true final true
+  /// @brief Method MoveNext, addr 0x2117b54, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fc2100 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2117c88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fc2108 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2117c90, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fc2148 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2117cd0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18", modifiers: "&&", def_value: None }]
@@ -193,8 +193,8 @@ static_assert(offsetof(::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 117, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(13656))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13627))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13537))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13507))
 // CS Name: ::HMUI::AlphabetScrollbar*
 class CORDL_TYPE AlphabetScrollbar : public ::HMUI::Interactable {
 public:
@@ -307,42 +307,42 @@ public:
 
   constexpr void __set__pointerIsDown(bool value);
 
-  /// @brief Method Awake addr 0x1fc1140 size 0x20 virtual false final false
+  /// @brief Method Awake, addr 0x2116cc8, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SetData addr 0x1fc1160 size 0x26c virtual false final false
+  /// @brief Method SetData, addr 0x2116ce8, size 0x26c, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* characterScrollData);
 
-  /// @brief Method OnPointerDown addr 0x1fc199c size 0xe4 virtual true final true
+  /// @brief Method OnPointerDown, addr 0x2117524, size 0xe4, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp addr 0x1fc1d50 size 0x8 virtual true final true
+  /// @brief Method OnPointerUp, addr 0x21178d8, size 0x8, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter addr 0x1fc1d58 size 0x20 virtual true final true
+  /// @brief Method OnPointerEnter, addr 0x21178e0, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit addr 0x1fc1dec size 0x24 virtual true final true
+  /// @brief Method OnPointerExit, addr 0x2117974, size 0x24, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PrepareTransforms addr 0x1fc1480 size 0x51c virtual false final false
+  /// @brief Method PrepareTransforms, addr 0x2117008, size 0x51c, virtual false, abstract: false, final false
   inline void PrepareTransforms();
 
-  /// @brief Method RefreshHighlight addr 0x1fc1e10 size 0x154 virtual false final false
+  /// @brief Method RefreshHighlight, addr 0x2117998, size 0x154, virtual false, abstract: false, final false
   inline void RefreshHighlight();
 
-  /// @brief Method PointerMoveInsideCoroutine addr 0x1fc1d78 size 0x74 virtual false final false
+  /// @brief Method PointerMoveInsideCoroutine, addr 0x2117900, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method GetPointerCharacterIndex addr 0x1fc1a80 size 0x2d0 virtual false final false
+  /// @brief Method GetPointerCharacterIndex, addr 0x2117608, size 0x2d0, virtual false, abstract: false, final false
   inline int32_t GetPointerCharacterIndex(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method InitText addr 0x1fc13cc size 0xb4 virtual false final false
+  /// @brief Method InitText, addr 0x2116f54, size 0xb4, virtual false, abstract: false, final false
   inline void InitText(::TMPro::TextMeshProUGUI* text, char16_t character);
 
   static inline ::HMUI::AlphabetScrollbar* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc1f8c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2117b14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlphabetScrollbar", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::TransformLayouter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14381))
 // CS Name: ::TransformLayouter*
 class CORDL_TYPE TransformLayouter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::TransformLayouter* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9adf4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f45ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransformLayouter", modifiers: "&&", def_value: None }]

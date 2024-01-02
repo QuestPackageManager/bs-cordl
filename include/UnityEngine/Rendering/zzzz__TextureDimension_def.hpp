@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::TextureDimension);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10350))
 // CS Name: ::UnityEngine.Rendering::TextureDimension
 struct CORDL_TYPE TextureDimension {
 public:

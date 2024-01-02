@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Principal::WellKnownSidType);
 namespace System::Security::Principal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3003))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3004))
 // CS Name: ::System.Security.Principal::WellKnownSidType
 struct CORDL_TYPE WellKnownSidType {
 public:

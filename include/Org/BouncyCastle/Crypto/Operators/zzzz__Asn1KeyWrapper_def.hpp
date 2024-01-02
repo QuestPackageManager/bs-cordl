@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1KeyWrapper)
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
 }
 namespace System {
 class Object;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(984))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1KeyWrapper*
 class CORDL_TYPE Asn1KeyWrapper : public ::System::Object {
@@ -60,13 +60,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper* New_ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor addr 0xeb35e8 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xf287d4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method get_AlgorithmDetails addr 0xeb38c4 size 0xa0 virtual true final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf28ab0, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Wrap addr 0xeb3964 size 0xac virtual true final true
+  /// @brief Method Wrap, addr 0xf28b50, size 0xac, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1KeyWrapper", modifiers: "&&", def_value: None }]

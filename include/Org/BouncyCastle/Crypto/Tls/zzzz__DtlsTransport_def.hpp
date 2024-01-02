@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsTransport)
 namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsRecordLayer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class DatagramTransport;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCloseable;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsRecordLayer;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsTransport);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1237))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsTransport*
 class CORDL_TYPE DtlsTransport : public ::System::Object {
@@ -48,22 +48,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method .ctor addr 0xf1a9c8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf90bec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method GetReceiveLimit addr 0xf1a9f0 size 0x24 virtual true final false
+  /// @brief Method GetReceiveLimit, addr 0xf90c14, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit addr 0xf1aa14 size 0x24 virtual true final false
+  /// @brief Method GetSendLimit, addr 0xf90c38, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method Receive addr 0xf1aa38 size 0x39c virtual true final false
+  /// @brief Method Receive, addr 0xf90c5c, size 0x39c, virtual true, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send addr 0xf1add4 size 0x348 virtual true final false
+  /// @brief Method Send, addr 0xf90ff8, size 0x348, virtual true, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method Close addr 0xf1b11c size 0x24 virtual true final false
+  /// @brief Method Close, addr 0xf91340, size 0x24, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsTransport", modifiers: "&&", def_value: None }]

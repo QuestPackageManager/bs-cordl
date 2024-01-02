@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHKeyGenerationParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DHParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -41,13 +41,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebb134 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xf30320, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method get_Parameters addr 0xebb1a4 size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0xf30390, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* get_Parameters();
 
-  /// @brief Method GetStrength addr 0xebb170 size 0x34 virtual false final false
+  /// @brief Method GetStrength, addr 0xf3035c, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetStrength(::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyGenerationParameters", modifiers: "&&", def_value: None }]

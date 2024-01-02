@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerDownHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13179))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13174))
 // CS Name: ::UnityEngine.EventSystems::IPointerDownHandler*
 class CORDL_TYPE IPointerDownHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnPointerDown addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPointerDown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerDownHandler", modifiers: "&&", def_value: None }]

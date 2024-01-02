@@ -9,28 +9,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightSwitchEventEffect)
 namespace GlobalNamespace {
-class ColorBoostBeatmapEventData;
+class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
 class ColorManager;
+}
+namespace GlobalNamespace {
+struct BasicBeatmapEventType;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace GlobalNamespace {
+class LightWithIdManager;
+}
+namespace Tweening {
+class SongTimeTweeningManager;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace Tweening {
-class SongTimeTweeningManager;
-}
-namespace GlobalNamespace {
-class LightWithIdManager;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
+class ColorBoostBeatmapEventData;
 }
 namespace GlobalNamespace {
 class ColorSO;
@@ -48,8 +51,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightSwitchEventEffect);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5059))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4954))
 // CS Name: ::LightSwitchEventEffect*
 class CORDL_TYPE LightSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -123,6 +126,8 @@ public:
                       put = __set__colorBoostBeatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _colorBoostBeatmapDataCallbackWrapper;
 
   __declspec(property(get = get_lightsId)) int32_t lightsId;
+
+  __declspec(property(get = get_eventType))::GlobalNamespace::BasicBeatmapEventType eventType;
 
   constexpr ::GlobalNamespace::ColorSO*& __get__lightColor0();
 
@@ -256,42 +261,45 @@ public:
 
   constexpr void __set__colorBoostBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method get_lightsId addr 0x2275944 size 0x8 virtual false final false
+  /// @brief Method get_lightsId, addr 0x23ad984, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightsId();
 
-  /// @brief Method Awake addr 0x227594c size 0x1cc virtual false final false
+  /// @brief Method get_eventType, addr 0x23ad98c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
+
+  /// @brief Method Awake, addr 0x23ad994, size 0x1cc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2275b50 size 0x1c0 virtual false final false
+  /// @brief Method Start, addr 0x23adb98, size 0x1c0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2275d10 size 0xb0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23add58, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleColorChangeBeatmapEvent addr 0x2275dc0 size 0x348 virtual false final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x23ade08, size 0x348, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleColorBoostBeatmapEvent addr 0x227647c size 0xcc virtual false final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x23ae4c4, size 0xcc, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  /// @brief Method SetupTweenAndSaveOtherColors addr 0x2275b18 size 0x38 virtual false final false
+  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x23adb60, size 0x38, virtual false, abstract: false, final false
   inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
 
-  /// @brief Method CheckNextEventForFade addr 0x227612c size 0x218 virtual false final false
+  /// @brief Method CheckNextEventForFade, addr 0x23ae174, size 0x218, virtual false, abstract: false, final false
   inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetNormalColor addr 0x2276344 size 0x9c virtual false final false
+  /// @brief Method GetNormalColor, addr 0x23ae38c, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method GetHighlightColor addr 0x22763e0 size 0x9c virtual false final false
+  /// @brief Method GetHighlightColor, addr 0x23ae428, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method SetColor addr 0x2276108 size 0x24 virtual false final false
+  /// @brief Method SetColor, addr 0x23ae150, size 0x24, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2276548 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23ae590, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightSwitchEventEffect", modifiers: "&&", def_value: None }]

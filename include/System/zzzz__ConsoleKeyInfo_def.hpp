@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConsoleKeyInfo)
 namespace System {
-struct ConsoleModifiers;
+struct ConsoleKey;
 }
 namespace System {
-struct ConsoleKey;
+struct ConsoleModifiers;
 }
 namespace System {
 class Object;
@@ -26,8 +26,8 @@ MARK_VAL_T(::System::ConsoleKeyInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2519)), TypeDefinitionIndex(TypeDefinitionIndex(2517))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2518))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2519)), TypeDefinitionIndex(TypeDefinitionIndex(2521))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2520))
 // CS Name: ::System::ConsoleKeyInfo
 struct CORDL_TYPE ConsoleKeyInfo {
 public:
@@ -36,22 +36,22 @@ public:
 
   __declspec(property(get = get_Key))::System::ConsoleKey Key;
 
-  /// @brief Method .ctor addr 0x2472df8 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x25cfd20, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(char16_t keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control);
 
-  /// @brief Method get_KeyChar addr 0x2472ea0 size 0x8 virtual false final false
+  /// @brief Method get_KeyChar, addr 0x25cfdc8, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_KeyChar();
 
-  /// @brief Method get_Key addr 0x2472ea8 size 0x8 virtual false final false
+  /// @brief Method get_Key, addr 0x25cfdd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::ConsoleKey get_Key();
 
-  /// @brief Method Equals addr 0x2472eb0 size 0x98 virtual true final false
+  /// @brief Method Equals, addr 0x25cfdd8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method Equals addr 0x2472f48 size 0x34 virtual false final false
+  /// @brief Method Equals, addr 0x25cfe70, size 0x34, virtual false, abstract: false, final false
   inline bool Equals(::System::ConsoleKeyInfo obj);
 
-  /// @brief Method GetHashCode addr 0x2472f7c size 0x14 virtual true final false
+  /// @brief Method GetHashCode, addr 0x25cfea4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_keyChar", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "_key", ty: "::System::ConsoleKey", modifiers: "", def_value: None }, CppParam {

@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
-  /// @brief Method .ctor addr 0x1033c6c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x10a4ebc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 
   static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method .ctor addr 0x1033cd8 size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0x10a4f28, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime revocationDate, int32_t reason);
 
-  /// @brief Method get_RevocationTime addr 0x102db74 size 0x24 virtual false final false
+  /// @brief Method get_RevocationTime, addr 0x109edc4, size 0x24, virtual false, abstract: false, final false
   inline ::System::DateTime get_RevocationTime();
 
-  /// @brief Method get_HasRevocationReason addr 0x102dae0 size 0x24 virtual false final false
+  /// @brief Method get_HasRevocationReason, addr 0x109ed30, size 0x24, virtual false, abstract: false, final false
   inline bool get_HasRevocationReason();
 
-  /// @brief Method get_RevocationReason addr 0x102db04 size 0x70 virtual false final false
+  /// @brief Method get_RevocationReason, addr 0x109ed54, size 0x70, virtual false, abstract: false, final false
   inline int32_t get_RevocationReason();
 
   // Ctor Parameters [CppParam { name: "", ty: "RevokedStatus", modifiers: "&&", def_value: None }]

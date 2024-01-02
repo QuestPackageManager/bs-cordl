@@ -12,25 +12,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRScenePlaneMeshFilter)
 namespace UnityEngine {
+class MeshFilter;
+}
+namespace UnityEngine {
 class Mesh;
 }
 namespace GlobalNamespace {
 struct __OVRScenePlaneMeshFilter__TriangulateBoundaryJob;
 }
-namespace UnityEngine {
-class MeshFilter;
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace GlobalNamespace {
+struct __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
-}
 namespace Unity::Jobs {
 class IJob;
-}
-namespace GlobalNamespace {
-struct __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList;
 }
 namespace Unity::Collections {
 struct Allocator;
@@ -56,8 +56,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob_
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(9927))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8818))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9999))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7977))
 // CS Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob::NList
 struct CORDL_TYPE __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList {
 public:
@@ -69,25 +69,25 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method get_Count addr 0x26218a4 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x2789344, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method set_Count addr 0x26218ac size 0x8 virtual false final false
+  /// @brief Method set_Count, addr 0x278934c, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
-  /// @brief Method .ctor addr 0x26216c4 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x2789164, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method RemoveAt addr 0x2621868 size 0x3c virtual false final false
+  /// @brief Method RemoveAt, addr 0x2789308, size 0x3c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method GetAt addr 0x2621774 size 0x3c virtual false final false
+  /// @brief Method GetAt, addr 0x2789214, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetAt(int32_t index);
 
-  /// @brief Method get_Item addr 0x2621768 size 0xc virtual false final false
+  /// @brief Method get_Item, addr 0x2789208, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
-  /// @brief Method Dispose addr 0x26218b4 size 0x48 virtual true final true
+  /// @brief Method Dispose, addr 0x2789354, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_Count_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_data", ty: "::Unity::Collections::NativeArray_1<int32_t>",
@@ -121,9 +121,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 406 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 101 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9927)), TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS Name:
-// ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7978)) CS
+// Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob
 struct CORDL_TYPE __OVRScenePlaneMeshFilter__TriangulateBoundaryJob {
 public:
   // Declarations
@@ -132,13 +132,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute addr 0x2621330 size 0x394 virtual true final true
+  /// @brief Method Execute, addr 0x2788dd0, size 0x394, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method Cross addr 0x26217b0 size 0x10 virtual false final false
+  /// @brief Method Cross, addr 0x2789250, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method PointInTriangle addr 0x26217c0 size 0xa8 virtual false final false
+  /// @brief Method PointInTriangle, addr 0x2789260, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInTriangle(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c);
 
   // Ctor Parameters [CppParam { name: "Boundary", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>", modifiers: "", def_value: None }, CppParam { name: "Triangles", ty:
@@ -172,10 +172,10 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 406 }), TypeDefinitionIndex(TypeDefinitionIndex(9927)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9905)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 101 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4643 }), TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS Name: ::OVRScenePlaneMeshFilter*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9977)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4742 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7979)) CS Name: ::OVRScenePlaneMeshFilter*
 class CORDL_TYPE OVRScenePlaneMeshFilter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -235,24 +235,24 @@ public:
 
   constexpr void __set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method Start addr 0x26203f0 size 0x1ac virtual false final false
+  /// @brief Method Start, addr 0x2787e90, size 0x1ac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method ScheduleMeshGeneration addr 0x262059c size 0x5c8 virtual false final false
+  /// @brief Method ScheduleMeshGeneration, addr 0x278803c, size 0x5c8, virtual false, abstract: false, final false
   inline void ScheduleMeshGeneration();
 
-  /// @brief Method Update addr 0x2620b64 size 0x734 virtual false final false
+  /// @brief Method Update, addr 0x2788604, size 0x734, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method RequestMeshGeneration addr 0x2620038 size 0x30 virtual false final false
+  /// @brief Method RequestMeshGeneration, addr 0x2787ae0, size 0x30, virtual false, abstract: false, final false
   inline void RequestMeshGeneration();
 
-  /// @brief Method OnDisable addr 0x2621298 size 0x90 virtual false final false
+  /// @brief Method OnDisable, addr 0x2788d38, size 0x90, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::OVRScenePlaneMeshFilter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2621328 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2788dc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRScenePlaneMeshFilter", modifiers: "&&", def_value: None }]

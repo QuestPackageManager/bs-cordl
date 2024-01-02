@@ -7,15 +7,6 @@ CORDL_MODULE_EXPORT(KekRecipientInfo)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
@@ -27,6 +18,15 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class KekIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -92,34 +92,34 @@ public:
                                                                            ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                            ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor addr 0xe03d8c size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xe78f60, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekIdentifier* kekID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe03e1c size 0x188 virtual false final false
+  /// @brief Method .ctor, addr 0xe78ff0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe03fa4 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe79178, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe03fbc size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0xe79190, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version addr 0xe04134 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xe79308, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_KekID addr 0xe0413c size 0x8 virtual false final false
+  /// @brief Method get_KekID, addr 0xe79310, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::KekIdentifier* get_KekID();
 
-  /// @brief Method get_KeyEncryptionAlgorithm addr 0xe04144 size 0x8 virtual false final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe79318, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey addr 0xe0414c size 0x8 virtual false final false
+  /// @brief Method get_EncryptedKey, addr 0xe79320, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object addr 0xe04154 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe79328, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInfo", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockLevelEndActions)
-namespace GlobalNamespace {
-class ILevelEndActions;
-}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class ILevelEndActions;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5022))
 // CS Name: ::MockLevelEndActions*
 class CORDL_TYPE MockLevelEndActions : public ::System::Object {
 public:
@@ -47,21 +47,21 @@ public:
 
   constexpr void __set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFailedEvent addr 0x2283948 size 0x9c virtual true final true
+  /// @brief Method add_levelFailedEvent, addr 0x23bcbbc, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent addr 0x22839e4 size 0x9c virtual true final true
+  /// @brief Method remove_levelFailedEvent, addr 0x23bcc58, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent addr 0x2283a80 size 0x9c virtual true final true
+  /// @brief Method add_levelFinishedEvent, addr 0x23bccf4, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent addr 0x2283b1c size 0x9c virtual true final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x23bcd90, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
   static inline ::GlobalNamespace::MockLevelEndActions* New_ctor();
 
-  /// @brief Method .ctor addr 0x2283bb8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23bce2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockLevelEndActions", modifiers: "&&", def_value: None }]

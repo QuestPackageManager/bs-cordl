@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::HttpStatusCode);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7864))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9027))
 // CS Name: ::System.Net::HttpStatusCode
 struct CORDL_TYPE HttpStatusCode {
 public:

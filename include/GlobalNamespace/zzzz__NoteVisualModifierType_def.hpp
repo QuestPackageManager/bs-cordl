@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NoteVisualModifierType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4870))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4749))
 // CS Name: ::NoteVisualModifierType
 struct CORDL_TYPE NoteVisualModifierType {
 public:

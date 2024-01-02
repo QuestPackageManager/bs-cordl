@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::AbuseReportOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13221))
 // CS Name: ::Oculus.Platform::AbuseReportOptions*
 class CORDL_TYPE AbuseReportOptions : public ::System::Object {
 public:
@@ -36,19 +36,19 @@ public:
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x256690c size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x26cd744, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetPreventPeopleChooser addr 0x25669d8 size 0x68 virtual false final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x26cd810, size 0x68, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType addr 0x2566ac4 size 0x68 virtual false final false
+  /// @brief Method SetReportType, addr 0x26cd8fc, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  /// @brief Method op_Explicit addr 0x2566bb0 size 0x58 virtual false final false
+  /// @brief Method op_Explicit, addr 0x26cd9e8, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AbuseReportOptions* options);
 
-  /// @brief Method Finalize addr 0x2566c08 size 0xd4 virtual true final false
+  /// @brief Method Finalize, addr 0x26cda40, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbuseReportOptions", modifiers: "&&", def_value: None }]

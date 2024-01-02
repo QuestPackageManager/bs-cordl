@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithChallenge);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13269)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 1146 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13467))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13291)) CS Name: ::Oculus.Platform::MessageWithChallenge*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1171 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13426))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13283)) CS Name: ::Oculus.Platform::MessageWithChallenge*
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2592bbc size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26eee20, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetChallenge addr 0x25952fc size 0x3c virtual true final false
+  /// @brief Method GetChallenge, addr 0x26f1530, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage addr 0x2595338 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f156c, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallenge", modifiers: "&&", def_value: None }]

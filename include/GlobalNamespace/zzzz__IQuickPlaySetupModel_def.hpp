@@ -23,12 +23,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IQuickPlaySetupModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4479))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4468))
 // CS Name: ::IQuickPlaySetupModel*
 class CORDL_TYPE IQuickPlaySetupModel {
 public:
   // Declarations
-  /// @brief Method GetQuickPlaySetupAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IQuickPlaySetupModel", modifiers: "&&", def_value: None }]

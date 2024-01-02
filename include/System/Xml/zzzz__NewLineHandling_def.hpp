@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::NewLineHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11435))
 // CS Name: ::System.Xml::NewLineHandling
 struct CORDL_TYPE NewLineHandling {
 public:

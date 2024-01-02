@@ -13,53 +13,53 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerResultsPyramidViewAvatar)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayerResultsData;
-}
-namespace GlobalNamespace {
-class GhostDuplicationEffect;
-}
-namespace GlobalNamespace {
-class __MultiplayerResultsPyramidViewAvatar__Factory;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace Tweening {
-class FloatTween;
-}
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Playables {
-class PlayableDirector;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace Tweening {
-class Vector3Tween;
-}
-namespace HMUI {
-class ImageView;
+namespace UnityEngine::Playables {
+class PlayableDirector;
 }
 namespace Tweening {
 class ColorTween;
 }
 namespace GlobalNamespace {
+class MultiplayerPlayerResultsData;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace HMUI {
+class ImageView;
+}
+namespace GlobalNamespace {
+class GhostDuplicationEffect;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace Tweening {
+class FloatTween;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace Tweening {
+class Vector3Tween;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class __MultiplayerResultsPyramidViewAvatar__Factory;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(4979)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5340)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -399,21 +399,21 @@ public:
 
   constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method get_badgeDirector addr 0x2115034 size 0x8 virtual false final false
+  /// @brief Method get_badgeDirector, addr 0x22588a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableDirector* get_badgeDirector();
 
-  /// @brief Method Awake addr 0x211503c size 0x20 virtual false final false
+  /// @brief Method Awake, addr 0x22588ac, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Setup addr 0x2114b4c size 0x464 virtual false final false
+  /// @brief Method Setup, addr 0x22583bc, size 0x464, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline addr 0x2112618 size 0x57c virtual false final false
+  /// @brief Method SetupBadgeTimeline, addr 0x2257e40, size 0x57c, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method .ctor addr 0x211505c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x22588cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidViewAvatar", modifiers: "&&", def_value: None }]
@@ -615,16 +615,15 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, _
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10933)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10933), inst: 3415 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12705)), TypeDefinitionIndex(TypeDefinitionIndex(5340))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5339)) CS Name:
-// ::MultiplayerResultsPyramidViewAvatar::Factory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5245)), TypeDefinitionIndex(TypeDefinitionIndex(12778)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst:
+// 3489 }), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name: ::MultiplayerResultsPyramidViewAvatar::Factory*
 class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
     : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2115088 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x22588f8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerResultsPyramidViewAvatar__Factory", modifiers: "&&", def_value: None }]

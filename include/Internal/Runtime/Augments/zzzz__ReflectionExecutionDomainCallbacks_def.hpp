@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ReflectionExecutionDomainCallbacks)
 namespace System {
-class Exception;
+class Type;
 }
 namespace System {
-class Type;
+class Exception;
 }
 // Forward declare root types
 namespace Internal::Runtime::Augments {
@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2307))
 // CS Name: ::Internal.Runtime.Augments::ReflectionExecutionDomainCallbacks*
 class CORDL_TYPE ReflectionExecutionDomainCallbacks : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateMissingMetadataException addr 0x22d2c58 size 0x5c virtual false final false
+  /// @brief Method CreateMissingMetadataException, addr 0x242c6cc, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Exception* CreateMissingMetadataException(::System::Type* attributeType);
 
   static inline ::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks* New_ctor();
 
-  /// @brief Method .ctor addr 0x22d2c50 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x242c6c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectionExecutionDomainCallbacks", modifiers: "&&", def_value: None }]

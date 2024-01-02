@@ -3,8 +3,8 @@
 #include "GlobalNamespace/zzzz__SpriteLightWithId_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteLightWithId_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__SpriteLightWithId__MultiplyColorByAlphaType::__SpriteLightWithId__MultiplyColorByAlphaType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -19,9 +19,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1fbd448;
+  constexpr static std::size_t addrs = 0x2113eb4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), "get_color",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -33,9 +33,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SpriteLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x1fbd464;
+  constexpr static std::size_t addrs = 0x2113ed0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), 9));
@@ -46,10 +46,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteLightWithId::*)()>(&::GlobalNamespace::SpriteLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x1024;
-  constexpr static std::size_t addrs = 0x1fbd5a8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x2114014;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -181,9 +181,8 @@ inline ::UnityEngine::Color GlobalNamespace::SpriteLightWithId::get_color() {
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::SpriteLightWithId::ColorWasSet(::UnityEngine::Color color) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), "ColorWasSet", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteLightWithId*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::SpriteLightWithId* GlobalNamespace::SpriteLightWithId::New_ctor() {

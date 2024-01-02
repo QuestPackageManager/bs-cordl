@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataComboSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5209))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5204))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5104))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5099))
 // CS Name: ::MultiplayerBadgeDataComboSO*
 class CORDL_TYPE MultiplayerBadgeDataComboSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxIntSO {
 public:
   // Declarations
-  /// @brief Method GetValue addr 0x20ebc40 size 0x28 virtual true final false
+  /// @brief Method GetValue, addr 0x23cd750, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataComboSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ebc68 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23cd778, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataComboSO", modifiers: "&&", def_value: None }]

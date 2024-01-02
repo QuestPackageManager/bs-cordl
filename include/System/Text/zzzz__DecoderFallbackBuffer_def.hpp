@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Text::DecoderFallbackBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2830))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2834))
 // CS Name: ::System.Text::DecoderFallbackBuffer*
 class CORDL_TYPE DecoderFallbackBuffer : public ::System::Object {
 public:
@@ -43,36 +43,36 @@ public:
 
   constexpr void __set_charEnd(::cordl_internals::Ptr<char16_t> value);
 
-  /// @brief Method Fallback addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Fallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNextChar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method get_Remaining addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Remaining, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Remaining();
 
-  /// @brief Method Reset addr 0x24d735c size 0x28 virtual true final false
+  /// @brief Method Reset, addr 0x2631468, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method InternalReset addr 0x24d5b80 size 0x10 virtual false final false
+  /// @brief Method InternalReset, addr 0x262fc8c, size 0x10, virtual false, abstract: false, final false
   inline void InternalReset();
 
-  /// @brief Method InternalInitialize addr 0x24d58f0 size 0x8 virtual false final false
+  /// @brief Method InternalInitialize, addr 0x262f9fc, size 0x8, virtual false, abstract: false, final false
   inline void InternalInitialize(::cordl_internals::Ptr<uint8_t> byteStart, ::cordl_internals::Ptr<char16_t> charEnd);
 
-  /// @brief Method InternalFallback addr 0x24d7384 size 0x190 virtual true final false
+  /// @brief Method InternalFallback, addr 0x2631490, size 0x190, virtual true, abstract: false, final false
   inline bool InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes, ByRef<::cordl_internals::Ptr<char16_t>> chars);
 
-  /// @brief Method InternalFallback addr 0x24d7514 size 0x170 virtual true final false
+  /// @brief Method InternalFallback, addr 0x2631620, size 0x170, virtual true, abstract: false, final false
   inline int32_t InternalFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::cordl_internals::Ptr<uint8_t> pBytes);
 
-  /// @brief Method ThrowLastBytesRecursive addr 0x24d7684 size 0x1fc virtual false final false
+  /// @brief Method ThrowLastBytesRecursive, addr 0x2631790, size 0x1fc, virtual false, abstract: false, final false
   inline void ThrowLastBytesRecursive(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown);
 
   static inline ::System::Text::DecoderFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d6d2c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2630e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderFallbackBuffer", modifiers: "&&", def_value: None }]

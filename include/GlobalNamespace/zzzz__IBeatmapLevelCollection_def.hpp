@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapLevelCollection)
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelCollection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4363))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4344))
 // CS Name: ::IBeatmapLevelCollection*
 class CORDL_TYPE IBeatmapLevelCollection {
 public:
   // Declarations
   __declspec(property(get = get_beatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* beatmapLevels;
 
-  /// @brief Method get_beatmapLevels addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapLevels, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelCollection", modifiers: "&&", def_value: None }]

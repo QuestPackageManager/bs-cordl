@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackingUniverseOrigin);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9355))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8586))
 // CS Name: ::OVR.OpenVR::ETrackingUniverseOrigin
 struct CORDL_TYPE ETrackingUniverseOrigin {
 public:

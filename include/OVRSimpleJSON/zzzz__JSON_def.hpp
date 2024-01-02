@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::OVRSimpleJSON::JSON);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8984))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8215))
 // CS Name: ::OVRSimpleJSON::JSON*
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse addr 0x2658164 size 0x8 virtual false final false
+  /// @brief Method Parse, addr 0x27cf0ec, size 0x4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSON", modifiers: "&&", def_value: None }]

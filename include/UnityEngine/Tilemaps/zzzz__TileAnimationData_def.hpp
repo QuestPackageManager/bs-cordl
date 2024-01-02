@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileAnimationData);
 namespace UnityEngine::Tilemaps {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15836))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15944))
 // CS Name: ::UnityEngine.Tilemaps::TileAnimationData
 struct CORDL_TYPE TileAnimationData {
 public:

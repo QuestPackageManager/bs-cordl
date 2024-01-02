@@ -27,10 +27,10 @@ public:
 
   __declspec(property(get = get_Dimension)) int32_t Dimension;
 
-  /// @brief Method get_Characteristic addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Characteristic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Dimension, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Dimension();
 
   // Ctor Parameters [CppParam { name: "", ty: "IFiniteField", modifiers: "&&", def_value: None }]

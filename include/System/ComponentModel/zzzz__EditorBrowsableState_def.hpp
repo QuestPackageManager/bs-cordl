@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::EditorBrowsableState);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8222))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9385))
 // CS Name: ::System.ComponentModel::EditorBrowsableState
 struct CORDL_TYPE EditorBrowsableState {
 public:

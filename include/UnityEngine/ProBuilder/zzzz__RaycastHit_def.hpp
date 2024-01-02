@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12109))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12181))
 // CS Name: ::UnityEngine.ProBuilder::RaycastHit*
 class CORDL_TYPE RaycastHit : public ::System::Object {
 public:
@@ -64,7 +64,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::RaycastHit* New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
-  /// @brief Method .ctor addr 0x29e1c80 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x2b639d4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
   // Ctor Parameters [CppParam { name: "", ty: "RaycastHit", modifiers: "&&", def_value: None }]

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EventDispatchUtilities)
 namespace UnityEngine::UIElements {
-class EventBase;
+class IPanel;
 }
 namespace UnityEngine::UIElements {
-class IPanel;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -23,19 +23,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventDispatchUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7344))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7258))
 // CS Name: ::UnityEngine.UIElements::EventDispatchUtilities*
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropagateEvent addr 0x2ce39e4 size 0x74c virtual false final false
+  /// @brief Method PropagateEvent, addr 0x2e4bd94, size 0x74c, virtual false, abstract: false, final false
   static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method PropagateToIMGUIContainer addr 0x2ce413c size 0x224 virtual false final false
+  /// @brief Method PropagateToIMGUIContainer, addr 0x2e4c4ec, size 0x224, virtual false, abstract: false, final false
   static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultAction addr 0x2ceb2d0 size 0x1a8 virtual false final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2e53680, size 0x1a8, virtual false, abstract: false, final false
   static inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventDispatchUtilities", modifiers: "&&", def_value: None }]

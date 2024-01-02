@@ -25,8 +25,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10792))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10864))
 // CS Name: ::Zenject::PlaceholderFactoryBindingFinalizer`1<TContract>*
 class CORDL_TYPE PlaceholderFactoryBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -42,10 +42,10 @@ public:
 
   static inline ::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method OnFinalizeBinding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactoryBindingFinalizer_1", modifiers: "&&", def_value: None }]

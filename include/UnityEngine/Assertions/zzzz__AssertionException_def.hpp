@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10238))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10316))
 // CS Name: ::UnityEngine.Assertions::AssertionException*
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method .ctor addr 0x2b820b4 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x2ce94e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW userMessage);
 
-  /// @brief Method get_Message addr 0x2b827c8 size 0x74 virtual true final false
+  /// @brief Method get_Message, addr 0x2ce9bfc, size 0x74, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssertionException", modifiers: "&&", def_value: None }]

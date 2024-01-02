@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatmapObjectAvoidancePathEvaluator)
 namespace GlobalNamespace {
-class BezierSplineEvaluator;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
+class BezierSplineEvaluator;
+}
+namespace GlobalNamespace {
 class PlayerTransforms;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3943))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3957))
 // CS Name: ::BeatmapObjectAvoidancePathEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidancePathEvaluator : public ::System::Object {
 public:
@@ -118,11 +118,11 @@ public:
                                                                                  ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator, float_t jumpStartZ, float_t jumpEndZ,
                                                                                  float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method .ctor addr 0x20b618c size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x2217174, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 
-  /// @brief Method GetCurrentPathPosition addr 0x20b6204 size 0x104 virtual false final false
+  /// @brief Method GetCurrentPathPosition, addr 0x22171ec, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectAvoidancePathEvaluator", modifiers: "&&", def_value: None }]

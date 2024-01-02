@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAvatarEditorResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4475 }), TypeDefinitionIndex(TypeDefinitionIndex(13460)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13286)) CS Name: ::Oculus.Platform::MessageWithAvatarEditorResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13423)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4581 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13281)) CS Name: ::Oculus.Platform::MessageWithAvatarEditorResult*
 class CORDL_TYPE MessageWithAvatarEditorResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AvatarEditorResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithAvatarEditorResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2592a5c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26eed70, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetAvatarEditorResult addr 0x2594e6c size 0x3c virtual true final false
+  /// @brief Method GetAvatarEditorResult, addr 0x26f1380, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetAvatarEditorResult();
 
-  /// @brief Method GetDataFromMessage addr 0x2594ea8 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f13bc, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithAvatarEditorResult", modifiers: "&&", def_value: None }]

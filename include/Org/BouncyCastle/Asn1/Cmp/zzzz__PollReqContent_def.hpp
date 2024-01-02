@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PollReqContent)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -44,21 +44,21 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf8b1c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe6dcf0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf4cd4 size 0x18c virtual false final false
+  /// @brief Method GetInstance, addr 0xe69ea4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollReqContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetCertReqIDs addr 0xdf8b44 size 0x13c virtual true final false
+  /// @brief Method GetCertReqIDs, addr 0xe6dd18, size 0x13c, virtual true, abstract: false, final false
   inline ::ArrayW<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>,
                   ::Array<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>>*>
   GetCertReqIDs();
 
-  /// @brief Method SequenceToDerIntegerArray addr 0xdf8c80 size 0xf4 virtual false final false
+  /// @brief Method SequenceToDerIntegerArray, addr 0xe6de54, size 0xf4, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> SequenceToDerIntegerArray(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object addr 0xdf8d74 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe6df48, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PollReqContent", modifiers: "&&", def_value: None }]

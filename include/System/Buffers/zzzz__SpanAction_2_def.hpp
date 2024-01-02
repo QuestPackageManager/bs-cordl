@@ -23,18 +23,18 @@ namespace System::Buffers {
 // cpp template
 template <typename T, typename TArg>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3867))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3879))
 // CS Name: ::System.Buffers::SpanAction`2<T,TArg>*
 class CORDL_TYPE SpanAction_2 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Buffers::SpanAction_2<T, TArg>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::System::Span_1<T> span, TArg arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "SpanAction_2", modifiers: "&&", def_value: None }]

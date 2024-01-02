@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureOutEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7239), inst: 4542 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7240))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7153)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7153), inst: 4636 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7154))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureOutEvent*
 class CORDL_TYPE MouseCaptureOutEvent : public ::UnityEngine::UIElements::MouseCaptureEventBase_1<::UnityEngine::UIElements::MouseCaptureOutEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cdfafc size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e47eac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureOutEvent", modifiers: "&&", def_value: None }]

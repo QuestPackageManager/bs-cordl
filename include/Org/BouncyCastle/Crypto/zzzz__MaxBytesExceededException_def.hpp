@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor();
 
-  /// @brief Method .ctor addr 0xf50750 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0xfc599c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0xf50754 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0xfc59a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor addr 0xf50758 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0xfc59a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaxBytesExceededException", modifiers: "&&", def_value: None }]

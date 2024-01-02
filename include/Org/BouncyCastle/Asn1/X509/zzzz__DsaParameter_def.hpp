@@ -4,15 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(DsaParameter)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -20,7 +11,16 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -71,32 +71,32 @@ public:
 
   constexpr void __set_g(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0x111c714 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x118c95c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DsaParameter* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x111c72c size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0x118c974, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DsaParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DsaParameter* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0x111c9e4 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x118cc2c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DsaParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x111c8a4 size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0x118caec, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_P addr 0x111cab0 size 0x1c virtual false final false
+  /// @brief Method get_P, addr 0x118ccf8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q addr 0x111cacc size 0x1c virtual false final false
+  /// @brief Method get_Q, addr 0x118cd14, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_G addr 0x111cae8 size 0x1c virtual false final false
+  /// @brief Method get_G, addr 0x118cd30, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method ToAsn1Object addr 0x111cb04 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x118cd4c, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParameter", modifiers: "&&", def_value: None }]

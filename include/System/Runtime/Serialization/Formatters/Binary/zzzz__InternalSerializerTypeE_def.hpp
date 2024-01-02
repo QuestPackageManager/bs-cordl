@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::InternalSeriali
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3245))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3246))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::InternalSerializerTypeE
 struct CORDL_TYPE InternalSerializerTypeE {
 public:

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_Vector3SerializationSurrogate)
 namespace System::Runtime::Serialization {
+class ISurrogateSelector;
+}
+namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9615))
 // CS Name: ::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate*
 class CORDL_TYPE HEU_Vector3SerializationSurrogate : public ::System::Object {
 public:
@@ -38,18 +38,18 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData addr 0x1ff8a2c size 0xf4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.GetObjectData, addr 0x21503c8, size 0xf4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializationSurrogate_GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                  ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData addr 0x1ff8b20 size 0x1fc virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializationSurrogate.SetObjectData, addr 0x21504bc, size 0x1fc, virtual true, abstract: false, final true
   inline ::System::Object* System_Runtime_Serialization_ISerializationSurrogate_SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info,
                                                                                               ::System::Runtime::Serialization::StreamingContext context,
                                                                                               ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
   static inline ::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff7e2c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x214f7c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Vector3SerializationSurrogate", modifiers: "&&", def_value: None }]

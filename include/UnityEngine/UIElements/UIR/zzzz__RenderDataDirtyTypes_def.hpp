@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderDataDirtyTypes);
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7480))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7394))
 // CS Name: ::UnityEngine.UIElements.UIR::RenderDataDirtyTypes
 struct CORDL_TYPE RenderDataDirtyTypes {
 public:

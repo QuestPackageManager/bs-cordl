@@ -9,6 +9,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseField_1)
+namespace UnityEngine::UIElements {
+class CustomStyleResolvedEvent;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class INotifyValueChanged_1;
+}
 namespace UnityEngine {
 struct Rect;
 }
@@ -16,34 +22,28 @@ namespace UnityEngine::UIElements {
 template <typename TValueType> class __BaseField_1__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
-class Label;
-}
-namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class CustomStyleResolvedEvent;
-}
-namespace UnityEngine::UIElements {
-struct CreationContext;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -61,8 +61,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7215))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7129))
 // CS Name: ::BaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __BaseField_1__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -78,13 +78,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method ParseChoiceList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ParseChoiceList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* ParseChoiceList(::StringW choicesFromBag);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BaseField_1__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -114,8 +114,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6887)), TypeDefinitionIndex(TypeDefinitionIndex(7392)), TypeDefinitionIndex(TypeDefinitionIndex(10087)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 387 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7216)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(6801)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
 // ::UnityEngine.UIElements::BaseField`1<TValueType>*
 class CORDL_TYPE BaseField_1 : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -323,74 +323,74 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> getStaticF_s_LabelBaseMinWidthProperty();
 
-  /// @brief Method get_visualInput addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_visualInput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualInput();
 
-  /// @brief Method set_visualInput addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_visualInput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_visualInput(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_rawValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_rawValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType get_rawValue();
 
-  /// @brief Method set_rawValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_rawValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_rawValue(TValueType value);
 
-  /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValueType get_value();
 
-  /// @brief Method set_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_value(TValueType value);
 
-  /// @brief Method get_labelElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_labelElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Label* get_labelElement();
 
-  /// @brief Method set_labelElement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_labelElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_labelElement(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method get_label addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_label, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_label();
 
-  /// @brief Method set_label addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_label, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_label(::StringW value);
 
-  /// @brief Method get_showMixedValue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_showMixedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_showMixedValue();
 
-  /// @brief Method get_mixedValueLabel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_mixedValueLabel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Label* get_mixedValueLabel();
 
   static inline ::UnityEngine::UIElements::BaseField_1<TValueType>* New_ctor(::StringW label);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::UnityEngine::UIElements::BaseField_1<TValueType>* New_ctor(::StringW label, ::UnityEngine::UIElements::VisualElement* visualInput);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, ::UnityEngine::UIElements::VisualElement* visualInput);
 
-  /// @brief Method OnAttachToPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnAttachToPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* e);
 
-  /// @brief Method OnCustomStyleResolved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnCustomStyleResolved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* evt);
 
-  /// @brief Method OnInspectorFieldGeometryChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnInspectorFieldGeometryChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnInspectorFieldGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
-  /// @brief Method AlignLabel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AlignLabel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AlignLabel();
 
-  /// @brief Method UpdateMixedValueContent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
-  /// @brief Method SetValueWithoutNotify addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetValueWithoutNotify, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(TValueType newValue);
 
-  /// @brief Method OnViewDataReady addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnViewDataReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
-  /// @brief Method GetTooltipRect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetTooltipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect GetTooltipRect();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseField_1", modifiers: "&&", def_value: None }]

@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Collections::IEnumerable);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3747))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3759))
 // CS Name: ::System.Collections::IEnumerable*
 class CORDL_TYPE IEnumerable {
 public:
   // Declarations
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnumerable", modifiers: "&&", def_value: None }]

@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HoverTextController)
-namespace HMUI {
-class __HoverTextController___HideTextCoroutine_d__12;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
@@ -20,14 +17,17 @@ class IEnumerator;
 namespace HMUI {
 class __HoverTextController___ShowTextCoroutine_d__10;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace HMUI {
+class __HoverTextController___HideTextCoroutine_d__12;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class IDisposable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace HMUI {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::HMUI::__HoverTextController___ShowTextCoroutine_d__10);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13660))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13541))
 // CS Name: ::HoverTextController::<ShowTextCoroutine>d__10*
 class CORDL_TYPE __HoverTextController___ShowTextCoroutine_d__10 : public ::System::Object {
 public:
@@ -95,22 +95,22 @@ public:
 
   static inline ::HMUI::__HoverTextController___ShowTextCoroutine_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fc85bc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x211e818, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fc86fc size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x211e958, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fc8700 size 0x158 virtual true final true
+  /// @brief Method MoveNext, addr 0x211e95c, size 0x158, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fc8858 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x211eab4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fc8860 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x211eabc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fc88a0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x211eafc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HoverTextController___ShowTextCoroutine_d__10", modifiers: "&&", def_value: None }]
@@ -152,8 +152,8 @@ static_assert(offsetof(::HMUI::__HoverTextController___ShowTextCoroutine_d__10, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13542))
 // CS Name: ::HoverTextController::<HideTextCoroutine>d__12*
 class CORDL_TYPE __HoverTextController___HideTextCoroutine_d__12 : public ::System::Object {
 public:
@@ -200,22 +200,22 @@ public:
 
   static inline ::HMUI::__HoverTextController___HideTextCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fc86b8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x211e914, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fc88a8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x211eb04, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fc88ac size 0xe8 virtual true final true
+  /// @brief Method MoveNext, addr 0x211eb08, size 0xe8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fc8994 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x211ebf0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fc899c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x211ebf8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fc89dc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x211ec38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HoverTextController___HideTextCoroutine_d__12", modifiers: "&&", def_value: None }]
@@ -257,8 +257,8 @@ static_assert(offsetof(::HMUI::__HoverTextController___HideTextCoroutine_d__12, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 46, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13662))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13543))
 // CS Name: ::HMUI::HoverTextController*
 class CORDL_TYPE HoverTextController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -321,30 +321,30 @@ public:
 
   constexpr void __set__isFadingIn(bool value);
 
-  /// @brief Method Awake addr 0x1fc8480 size 0x20 virtual false final false
+  /// @brief Method Awake, addr 0x211e6dc, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDisable addr 0x1fc84a0 size 0x28 virtual false final false
+  /// @brief Method OnDisable, addr 0x211e6fc, size 0x28, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnApplicationFocus addr 0x1fc84c8 size 0x2c virtual false final false
+  /// @brief Method OnApplicationFocus, addr 0x211e724, size 0x2c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method ShowText addr 0x1fc84f4 size 0x60 virtual false final false
+  /// @brief Method ShowText, addr 0x211e750, size 0x60, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
-  /// @brief Method ShowTextCoroutine addr 0x1fc8554 size 0x68 virtual false final false
+  /// @brief Method ShowTextCoroutine, addr 0x211e7b0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowTextCoroutine();
 
-  /// @brief Method HideText addr 0x1fc85e4 size 0x6c virtual false final false
+  /// @brief Method HideText, addr 0x211e840, size 0x6c, virtual false, abstract: false, final false
   inline void HideText();
 
-  /// @brief Method HideTextCoroutine addr 0x1fc8650 size 0x68 virtual false final false
+  /// @brief Method HideTextCoroutine, addr 0x211e8ac, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideTextCoroutine();
 
   static inline ::HMUI::HoverTextController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc86e0 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x211e93c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoverTextController", modifiers: "&&", def_value: None }]

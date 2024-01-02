@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1073))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ParametersWithRandom*
 class CORDL_TYPE ParametersWithRandom : public ::System::Object {
@@ -54,21 +54,21 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                         ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xec2f20 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xf3910c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method .ctor addr 0xec2fc4 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0xf391b0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetRandom addr 0xec30ac size 0x8 virtual false final false
+  /// @brief Method GetRandom, addr 0xf39298, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* GetRandom();
 
-  /// @brief Method get_Random addr 0xec30b4 size 0x8 virtual false final false
+  /// @brief Method get_Random, addr 0xf392a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Parameters addr 0xec30bc size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0xf392a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithRandom", modifiers: "&&", def_value: None }]

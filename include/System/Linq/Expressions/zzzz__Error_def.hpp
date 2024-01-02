@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Error)
 namespace System {
-class Exception;
+class Object;
 }
 namespace System {
-class Object;
+class Exception;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {
@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::System::Linq::Expressions::Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14639))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
 // CS Name: ::System.Linq.Expressions::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExtensionNodeMustOverrideProperty addr 0x2698bf8 size 0x74 virtual false final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2813c0c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3291))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3292))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerStack*
 class CORDL_TYPE SerStack : public ::System::Object {
 public:
@@ -55,25 +55,25 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
 
-  /// @brief Method .ctor addr 0x2372790 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x24cb294, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW stackId);
 
-  /// @brief Method Push addr 0x23746a4 size 0xac virtual false final false
+  /// @brief Method Push, addr 0x24cd1a8, size 0xac, virtual false, abstract: false, final false
   inline void Push(::System::Object* obj);
 
-  /// @brief Method Pop addr 0x2374750 size 0x50 virtual false final false
+  /// @brief Method Pop, addr 0x24cd254, size 0x50, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method IncreaseCapacity addr 0x237ced8 size 0x88 virtual false final false
+  /// @brief Method IncreaseCapacity, addr 0x24d59dc, size 0x88, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method Peek addr 0x2374e2c size 0x40 virtual false final false
+  /// @brief Method Peek, addr 0x24cd930, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method PeekPeek addr 0x237be38 size 0x44 virtual false final false
+  /// @brief Method PeekPeek, addr 0x24d493c, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* PeekPeek();
 
-  /// @brief Method IsEmpty addr 0x2379334 size 0x10 virtual false final false
+  /// @brief Method IsEmpty, addr 0x24d1e38, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "SerStack", modifiers: "&&", def_value: None }]

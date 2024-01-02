@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_Format))::StringW Format;
 
-  /// @brief Method get_Format addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Format, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Format();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBcpgKey", modifiers: "&&", def_value: None }]

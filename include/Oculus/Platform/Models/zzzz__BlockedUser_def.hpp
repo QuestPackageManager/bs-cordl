@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::BlockedUser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13461))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13424))
 // CS Name: ::Oculus.Platform.Models::BlockedUser*
 class CORDL_TYPE BlockedUser : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::BlockedUser* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b19e8 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x2704cdc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "BlockedUser", modifiers: "&&", def_value: None }]

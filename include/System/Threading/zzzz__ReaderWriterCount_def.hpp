@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Threading::ReaderWriterCount);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14656))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14318))
 // CS Name: ::System.Threading::ReaderWriterCount*
 class CORDL_TYPE ReaderWriterCount : public ::System::Object {
 public:
@@ -68,7 +68,7 @@ public:
 
   static inline ::System::Threading::ReaderWriterCount* New_ctor();
 
-  /// @brief Method .ctor addr 0x2698f88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2813f9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterCount", modifiers: "&&", def_value: None }]

@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StringReader)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 // Forward declare root types
 namespace System::IO {
 class StringReader;
@@ -18,8 +21,8 @@ MARK_REF_PTR_T(::System::IO::StringReader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3572))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3611))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3623))
 // CS Name: ::System.IO::StringReader*
 class CORDL_TYPE StringReader : public ::System::IO::TextReader {
 public:
@@ -53,29 +56,32 @@ public:
 
   static inline ::System::IO::StringReader* New_ctor(::StringW s);
 
-  /// @brief Method .ctor addr 0x23df7e0 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x253b960, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method Close addr 0x23df8ac size 0x10 virtual true final false
+  /// @brief Method Close, addr 0x253ba2c, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x23df8bc size 0x10 virtual true final false
+  /// @brief Method Dispose, addr 0x253ba3c, size 0x10, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Peek addr 0x23df8cc size 0x3c virtual true final false
+  /// @brief Method Peek, addr 0x253ba4c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read addr 0x23df908 size 0x44 virtual true final false
+  /// @brief Method Read, addr 0x253ba88, size 0x44, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read addr 0x23df94c size 0x1bc virtual true final false
+  /// @brief Method Read, addr 0x253bacc, size 0x1bc, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadToEnd addr 0x23dfb08 size 0x3c virtual true final false
+  /// @brief Method ReadToEnd, addr 0x253bc88, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method ReadLine addr 0x23dfb44 size 0x114 virtual true final false
+  /// @brief Method ReadLine, addr 0x253bcc4, size 0x114, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
+
+  /// @brief Method ReadLineAsync, addr 0x253bdd8, size 0x88, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::StringW>* ReadLineAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "StringReader", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

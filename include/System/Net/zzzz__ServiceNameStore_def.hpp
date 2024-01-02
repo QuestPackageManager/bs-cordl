@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServiceNameStore)
-namespace System::Security::Authentication::ExtendedProtection {
-class ServiceNameCollection;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+class ServiceNameCollection;
 }
 // Forward declare root types
 namespace System::Net {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::ServiceNameStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7946))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9109))
 // CS Name: ::System.Net::ServiceNameStore*
 class CORDL_TYPE ServiceNameStore : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
 
   static inline ::System::Net::ServiceNameStore* New_ctor();
 
-  /// @brief Method .ctor addr 0x282b038 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x29a88b0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServiceNameStore", modifiers: "&&", def_value: None }]

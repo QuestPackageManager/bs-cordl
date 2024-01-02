@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextOverflowMode);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13687))
 // CS Name: ::UnityEngine.TextCore.Text::TextOverflowMode
 struct CORDL_TYPE TextOverflowMode {
 public:

@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerGameNoteController)
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
-}
-namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
 class NoteData;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
 }
 namespace GlobalNamespace {
-class INoteMovementProvider;
-}
-namespace GlobalNamespace {
 class __MultiplayerConnectedPlayerGameNoteController__Pool;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class NoteMovement;
+}
+namespace GlobalNamespace {
+template <typename T> class ICubeNoteControllerInitializable_1;
+}
+namespace GlobalNamespace {
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+struct __NoteData__GameplayType;
+}
+namespace GlobalNamespace {
+class INoteMovementProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14970)), TypeDefinitionIndex(TypeDefinitionIndex(4870)), TypeDefinitionIndex(TypeDefinitionIndex(5243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5242))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(5138)), TypeDefinitionIndex(TypeDefinitionIndex(4749))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5137))
 // CS Name: ::MultiplayerConnectedPlayerGameNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerGameNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
 public:
@@ -103,28 +103,28 @@ public:
 
   constexpr void __set__gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent addr 0x20f5ce8 size 0xb0 virtual true final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x23d7860, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent addr 0x20f5d98 size 0xb0 virtual true final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x23d7910, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
 
-  /// @brief Method get_noteMovement addr 0x20f5e48 size 0x8 virtual true final true
+  /// @brief Method get_noteMovement, addr 0x23d79c0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteMovement* get_noteMovement();
 
-  /// @brief Method get_gameplayType addr 0x20f5e50 size 0x8 virtual false final false
+  /// @brief Method get_gameplayType, addr 0x23d79c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method get_noteVisualModifierType addr 0x20f5e58 size 0x8 virtual true final true
+  /// @brief Method get_noteVisualModifierType, addr 0x23d79d0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Method Init addr 0x20f1d3c size 0x118 virtual false final false
+  /// @brief Method Init, addr 0x23d384c, size 0x118, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5e60 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23d79d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerGameNoteController", modifiers: "&&", def_value: None }]
@@ -166,14 +166,14 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteCont
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 353 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5242))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5241)) CS Name: ::MultiplayerConnectedPlayerGameNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5137)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 356 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5136)) CS Name: ::MultiplayerConnectedPlayerGameNoteController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerGameNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5e68 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23d79e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerGameNoteController__Pool", modifiers: "&&", def_value: None }]

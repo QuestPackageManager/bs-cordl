@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecP256R1FieldElement)
-namespace Org::BouncyCastle::Math::EC {
-class ECFieldElement;
-}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECFieldElement;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -58,74 +58,74 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1FieldElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method .ctor addr 0xf82128 size 0x118 virtual false final false
+  /// @brief Method .ctor, addr 0xff6374, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1FieldElement* New_ctor();
 
-  /// @brief Method .ctor addr 0xf83f58 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0xff81a4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1FieldElement* New_ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method .ctor addr 0xf82750 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xff699c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method get_IsZero addr 0xf83f7c size 0xc virtual true final false
+  /// @brief Method get_IsZero, addr 0xff81c8, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsZero();
 
-  /// @brief Method get_IsOne addr 0xf83f88 size 0xc virtual true final false
+  /// @brief Method get_IsOne, addr 0xff81d4, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsOne();
 
-  /// @brief Method TestBitZero addr 0xf83f94 size 0x24 virtual true final false
+  /// @brief Method TestBitZero, addr 0xff81e0, size 0x24, virtual true, abstract: false, final false
   inline bool TestBitZero();
 
-  /// @brief Method ToBigInteger addr 0xf83fb8 size 0xc virtual true final false
+  /// @brief Method ToBigInteger, addr 0xff8204, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
-  /// @brief Method get_FieldName addr 0xf83fc4 size 0x40 virtual true final false
+  /// @brief Method get_FieldName, addr 0xff8210, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_FieldName();
 
-  /// @brief Method get_FieldSize addr 0xf84004 size 0x64 virtual true final false
+  /// @brief Method get_FieldSize, addr 0xff8250, size 0x64, virtual true, abstract: false, final false
   inline int32_t get_FieldSize();
 
-  /// @brief Method Add addr 0xf84068 size 0xf0 virtual true final false
+  /// @brief Method Add, addr 0xff82b4, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Add(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method AddOne addr 0xf84158 size 0xa8 virtual true final false
+  /// @brief Method AddOne, addr 0xff83a4, size 0xa8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* AddOne();
 
-  /// @brief Method Subtract addr 0xf84200 size 0xf0 virtual true final false
+  /// @brief Method Subtract, addr 0xff844c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Subtract(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Multiply addr 0xf842f0 size 0xf0 virtual true final false
+  /// @brief Method Multiply, addr 0xff853c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Multiply(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Divide addr 0xf843e0 size 0xf8 virtual true final false
+  /// @brief Method Divide, addr 0xff862c, size 0xf8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Divide(::Org::BouncyCastle::Math::EC::ECFieldElement* b);
 
-  /// @brief Method Negate addr 0xf844d8 size 0xa8 virtual true final false
+  /// @brief Method Negate, addr 0xff8724, size 0xa8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Negate();
 
-  /// @brief Method Square addr 0xf84580 size 0xa8 virtual true final false
+  /// @brief Method Square, addr 0xff87cc, size 0xa8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Square();
 
-  /// @brief Method Invert addr 0xf84628 size 0xa8 virtual true final false
+  /// @brief Method Invert, addr 0xff8874, size 0xa8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Invert();
 
-  /// @brief Method Sqrt addr 0xf846d0 size 0x1dc virtual true final false
+  /// @brief Method Sqrt, addr 0xff891c, size 0x1dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* Sqrt();
 
-  /// @brief Method Equals addr 0xf848ac size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0xff8af8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xf84938 size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0xff8b84, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::ECFieldElement* other);
 
-  /// @brief Method Equals addr 0xf849c4 size 0x2c virtual true final false
+  /// @brief Method Equals, addr 0xff8c10, size 0x2c, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256R1FieldElement* other);
 
-  /// @brief Method GetHashCode addr 0xf849f0 size 0xb8 virtual true final false
+  /// @brief Method GetHashCode, addr 0xff8c3c, size 0xb8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecP256R1FieldElement", modifiers: "&&", def_value: None }]

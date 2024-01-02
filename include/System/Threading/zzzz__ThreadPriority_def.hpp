@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::ThreadPriority);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2670))
 // CS Name: ::System.Threading::ThreadPriority
 struct CORDL_TYPE ThreadPriority {
 public:

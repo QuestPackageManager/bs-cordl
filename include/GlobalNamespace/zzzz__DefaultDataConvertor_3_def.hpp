@@ -16,18 +16,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase, typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4319), inst: 1131 }), TypeDefinitionIndex(TypeDefinitionIndex(4319))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4320))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4292)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4292), inst: 1155 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4293))
 // CS Name: ::DefaultDataConvertor`3<TBase,TIn,TOut>*
 class CORDL_TYPE DefaultDataConvertor_3 : public ::GlobalNamespace::DataItemConvertor_3<TBase, TIn, TOut> {
 public:
   // Declarations
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TOut Convert(TIn item);
 
   static inline ::GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDataConvertor_3", modifiers: "&&", def_value: None }]

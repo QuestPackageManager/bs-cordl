@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::Orientation);
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15336))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::Orientation
 struct CORDL_TYPE Orientation {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::InheritanceFlags);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3038))
 // CS Name: ::System.Security.AccessControl::InheritanceFlags
 struct CORDL_TYPE InheritanceFlags {
 public:

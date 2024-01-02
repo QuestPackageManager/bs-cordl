@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::TerrainCollider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15476))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15492))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16202))
 // CS Name: ::UnityEngine::TerrainCollider*
 class CORDL_TYPE TerrainCollider : public ::UnityEngine::Collider {
 public:
   // Declarations
   __declspec(property(put = set_terrainData))::UnityEngine::TerrainData* terrainData;
 
-  /// @brief Method set_terrainData addr 0x2bb9094 size 0x44 virtual false final false
+  /// @brief Method set_terrainData, addr 0x2d20444, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainCollider", modifiers: "&&", def_value: None }]

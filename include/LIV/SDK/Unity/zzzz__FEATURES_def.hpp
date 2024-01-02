@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::FEATURES);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15101))
 // CS Name: ::LIV.SDK.Unity::FEATURES
 struct CORDL_TYPE FEATURES {
 public:

@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Collider)
-namespace UnityEngine {
-class Collider;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
+namespace UnityEngine {
+class Collider;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Collider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9840))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9913))
 // CS Name: ::HoudiniEngineUnity::Test_Collider*
 class CORDL_TYPE Test_Collider : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Collider* New_ctor(::UnityEngine::Collider* self);
 
-  /// @brief Method .ctor addr 0x208c980 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e531c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Collider* self);
 
-  /// @brief Method IsNull addr 0x208c9a8 size 0x60 virtual true final true
+  /// @brief Method IsNull, addr 0x21e5344, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x208ca08 size 0x8 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e53a4, size 0x8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Collider* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Collider", modifiers: "&&", def_value: None }]

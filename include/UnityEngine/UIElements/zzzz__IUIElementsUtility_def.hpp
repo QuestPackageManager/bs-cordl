@@ -19,27 +19,27 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IUIElementsUtility);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6985))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6899))
 // CS Name: ::UnityEngine.UIElements::IUIElementsUtility*
 class CORDL_TYPE IUIElementsUtility {
 public:
   // Declarations
-  /// @brief Method TakeCapture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TakeCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TakeCapture();
 
-  /// @brief Method ReleaseCapture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReleaseCapture();
 
-  /// @brief Method ProcessEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> eventHandled);
 
-  /// @brief Method CleanupRoots addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CleanupRoots, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CleanupRoots();
 
-  /// @brief Method EndContainerGUIFromException addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EndContainerGUIFromException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method MakeCurrentIMGUIContainerDirty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MakeCurrentIMGUIContainerDirty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MakeCurrentIMGUIContainerDirty();
 
   // Ctor Parameters [CppParam { name: "", ty: "IUIElementsUtility", modifiers: "&&", def_value: None }]

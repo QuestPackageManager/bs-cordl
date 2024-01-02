@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(IssuerSerial)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralNames;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
@@ -16,14 +16,14 @@ class DerBitString;
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -74,32 +74,32 @@ public:
 
   constexpr void __set_issuerUid(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0x1120cf4 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0x1190f3c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x111ffb8 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x1190200, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1120e7c size 0x1c0 virtual false final false
+  /// @brief Method .ctor, addr 0x11910c4, size 0x1c0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuer, ::Org::BouncyCastle::Asn1::DerInteger* serial);
 
-  /// @brief Method .ctor addr 0x112103c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x1191284, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* issuer, ::Org::BouncyCastle::Asn1::DerInteger* serial);
 
-  /// @brief Method get_Issuer addr 0x1121068 size 0x8 virtual false final false
+  /// @brief Method get_Issuer, addr 0x11912b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_Issuer();
 
-  /// @brief Method get_Serial addr 0x1121070 size 0x8 virtual false final false
+  /// @brief Method get_Serial, addr 0x11912b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Serial();
 
-  /// @brief Method get_IssuerUid addr 0x1121078 size 0x8 virtual false final false
+  /// @brief Method get_IssuerUid, addr 0x11912c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUid();
 
-  /// @brief Method ToAsn1Object addr 0x1121080 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x11912c8, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "IssuerSerial", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1648 }), TypeDefinitionIndex(TypeDefinitionIndex(7266))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7334))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1715 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7248))
 // CS Name: ::UnityEngine.UIElements::NavigationEventBase`1<T>*
 class CORDL_TYPE NavigationEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -30,13 +30,13 @@ public:
 
   static inline ::UnityEngine::UIElements::NavigationEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationEventBase_1", modifiers: "&&", def_value: None }]

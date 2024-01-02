@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TimeHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13828))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14348))
 // CS Name: ::TimeHelper*
 class CORDL_TYPE TimeHelper : public ::UnityEngine::MonoBehaviour {
 public:
@@ -58,45 +58,45 @@ public:
 
   static inline float_t getStaticF__interpolationFactor_k__BackingField();
 
-  /// @brief Method get_time addr 0x1f9320c size 0x48 virtual false final false
+  /// @brief Method get_time, addr 0x20f0890, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_time();
 
-  /// @brief Method set_time addr 0x1f93254 size 0x54 virtual false final false
+  /// @brief Method set_time, addr 0x20f08d8, size 0x54, virtual false, abstract: false, final false
   static inline void set_time(float_t value);
 
-  /// @brief Method get_deltaTime addr 0x1f932a8 size 0x48 virtual false final false
+  /// @brief Method get_deltaTime, addr 0x20f092c, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_deltaTime();
 
-  /// @brief Method set_deltaTime addr 0x1f932f0 size 0x54 virtual false final false
+  /// @brief Method set_deltaTime, addr 0x20f0974, size 0x54, virtual false, abstract: false, final false
   static inline void set_deltaTime(float_t value);
 
-  /// @brief Method get_fixedDeltaTime addr 0x1f93344 size 0x48 virtual false final false
+  /// @brief Method get_fixedDeltaTime, addr 0x20f09c8, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_fixedDeltaTime();
 
-  /// @brief Method set_fixedDeltaTime addr 0x1f9338c size 0x54 virtual false final false
+  /// @brief Method set_fixedDeltaTime, addr 0x20f0a10, size 0x54, virtual false, abstract: false, final false
   static inline void set_fixedDeltaTime(float_t value);
 
-  /// @brief Method get_interpolationFactor addr 0x1f933e0 size 0x48 virtual false final false
+  /// @brief Method get_interpolationFactor, addr 0x20f0a64, size 0x48, virtual false, abstract: false, final false
   static inline float_t get_interpolationFactor();
 
-  /// @brief Method set_interpolationFactor addr 0x1f93428 size 0x54 virtual false final false
+  /// @brief Method set_interpolationFactor, addr 0x20f0aac, size 0x54, virtual false, abstract: false, final false
   static inline void set_interpolationFactor(float_t value);
 
-  /// @brief Method Awake addr 0x1f9347c size 0x94 virtual false final false
+  /// @brief Method Awake, addr 0x20f0b00, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate addr 0x1f93510 size 0x94 virtual false final false
+  /// @brief Method FixedUpdate, addr 0x20f0b94, size 0x94, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Update addr 0x1f935a4 size 0x174 virtual false final false
+  /// @brief Method Update, addr 0x20f0c28, size 0x174, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method __SetTime addr 0x1f93718 size 0x4c virtual false final false
+  /// @brief Method __SetTime, addr 0x20f0d9c, size 0x4c, virtual false, abstract: false, final false
   static inline void __SetTime(float_t time);
 
   static inline ::GlobalNamespace::TimeHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f93764 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f0de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeHelper", modifiers: "&&", def_value: None }]

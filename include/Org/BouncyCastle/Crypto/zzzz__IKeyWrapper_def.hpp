@@ -29,10 +29,10 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
-  /// @brief Method get_AlgorithmDetails addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmDetails, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Wrap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Wrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyWrapper", modifiers: "&&", def_value: None }]

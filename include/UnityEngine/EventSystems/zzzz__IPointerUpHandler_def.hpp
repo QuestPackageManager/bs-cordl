@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerUpHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13175))
 // CS Name: ::UnityEngine.EventSystems::IPointerUpHandler*
 class CORDL_TYPE IPointerUpHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnPointerUp addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPointerUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerUpHandler", modifiers: "&&", def_value: None }]

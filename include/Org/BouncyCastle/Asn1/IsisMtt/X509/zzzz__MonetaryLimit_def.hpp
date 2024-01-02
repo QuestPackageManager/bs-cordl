@@ -7,7 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonetaryLimit)
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace System {
 class Object;
@@ -16,13 +19,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class DerPrintableString;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -73,29 +73,29 @@ public:
 
   constexpr void __set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0xf022d4 size 0x168 virtual false final false
+  /// @brief Method GetInstance, addr 0xf784f8, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0243c size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0xf78660, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::MonetaryLimit* New_ctor(::StringW currency, int32_t amount, int32_t exponent);
 
-  /// @brief Method .ctor addr 0xf0256c size 0xe4 virtual false final false
+  /// @brief Method .ctor, addr 0xf78790, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW currency, int32_t amount, int32_t exponent);
 
-  /// @brief Method get_Currency addr 0xf02650 size 0x20 virtual true final false
+  /// @brief Method get_Currency, addr 0xf78874, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_Currency();
 
-  /// @brief Method get_Amount addr 0xf02670 size 0x1c virtual true final false
+  /// @brief Method get_Amount, addr 0xf78894, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Amount();
 
-  /// @brief Method get_Exponent addr 0xf0268c size 0x1c virtual true final false
+  /// @brief Method get_Exponent, addr 0xf788b0, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
 
-  /// @brief Method ToAsn1Object addr 0xf026a8 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf788cc, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonetaryLimit", modifiers: "&&", def_value: None }]

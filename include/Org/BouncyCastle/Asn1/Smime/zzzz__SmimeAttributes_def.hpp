@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Smime::SmimeAttributes);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Smime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(291))
 // CS Name: ::Org.BouncyCastle.Asn1.Smime::SmimeAttributes*
 class CORDL_TYPE SmimeAttributes : public ::System::Object {
@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeAttributes* New_ctor();
 
-  /// @brief Method .ctor addr 0x1002100 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x107334c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SmimeAttributes", modifiers: "&&", def_value: None }]

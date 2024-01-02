@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixArpHardware);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9262))
 // CS Name: ::System.Net.NetworkInformation::AixArpHardware
 struct CORDL_TYPE AixArpHardware {
 public:

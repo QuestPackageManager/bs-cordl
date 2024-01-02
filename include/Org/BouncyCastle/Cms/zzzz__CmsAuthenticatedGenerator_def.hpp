@@ -25,12 +25,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1168544 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x11d9794, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor addr 0x1168598 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x11d97e8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedGenerator", modifiers: "&&", def_value: None }]

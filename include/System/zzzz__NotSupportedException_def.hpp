@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(NotSupportedException)
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
-namespace System {
-class Exception;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System {
@@ -24,30 +24,30 @@ MARK_REF_PTR_T(::System::NotSupportedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2444))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2446))
 // CS Name: ::System::NotSupportedException*
 class CORDL_TYPE NotSupportedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::NotSupportedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2453fa8 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x25afef4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::NotSupportedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2454004 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x25a8e44, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::NotSupportedException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2454028 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x25aff50, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::NotSupportedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x245404c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25aff74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "NotSupportedException", modifiers: "&&", def_value: None }]

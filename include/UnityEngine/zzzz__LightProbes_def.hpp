@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::LightProbes);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10021))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10093))
 // CS Name: ::UnityEngine::LightProbes*
 class CORDL_TYPE LightProbes : public ::UnityEngine::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Action* getStaticF_needsRetetrahedralization();
 
-  /// @brief Method Internal_CallTetrahedralizationCompletedFunction addr 0x2b51e20 size 0x64 virtual false final false
+  /// @brief Method Internal_CallTetrahedralizationCompletedFunction, addr 0x2cb7238, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallTetrahedralizationCompletedFunction();
 
-  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction addr 0x2b51e84 size 0x64 virtual false final false
+  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction, addr 0x2cb729c, size 0x64, virtual false, abstract: false, final false
   static inline void Internal_CallNeedsRetetrahedralizationFunction();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightProbes", modifiers: "&&", def_value: None }]

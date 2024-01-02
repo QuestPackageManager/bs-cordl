@@ -16,8 +16,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2705))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2707))
 // CS Name: ::System.Threading::SystemThreading_ThreadLocalDebugView`1<T>*
 class CORDL_TYPE SystemThreading_ThreadLocalDebugView_1 : public ::System::Object {
 public:

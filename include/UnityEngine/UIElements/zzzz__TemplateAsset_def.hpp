@@ -10,10 +10,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
-struct __TemplateAsset__AttributeOverride;
+struct __VisualTreeAsset__SlotUsageEntry;
 }
 namespace UnityEngine::UIElements {
-struct __VisualTreeAsset__SlotUsageEntry;
+struct __TemplateAsset__AttributeOverride;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__TemplateAsset__AttributeOverride);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7086))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7000))
 // CS Name: ::TemplateAsset::AttributeOverride
 struct CORDL_TYPE __TemplateAsset__AttributeOverride {
 public:
@@ -71,8 +71,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__TemplateAsset__AttributeOver
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7099))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7013))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7001))
 // CS Name: ::UnityEngine.UIElements::TemplateAsset*
 class CORDL_TYPE TemplateAsset : public ::UnityEngine::UIElements::VisualElementAsset {
 public:
@@ -111,10 +111,10 @@ public:
 
   constexpr void __set_m_SlotUsages(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* value);
 
-  /// @brief Method get_attributeOverrides addr 0x2ca9b6c size 0x80 virtual false final false
+  /// @brief Method get_attributeOverrides, addr 0x2e0ff1c, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages addr 0x2ca9bec size 0x8 virtual false final false
+  /// @brief Method get_slotUsages, addr 0x2e0ff9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* get_slotUsages();
 
   // Ctor Parameters [CppParam { name: "", ty: "TemplateAsset", modifiers: "&&", def_value: None }]

@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8Generator)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
@@ -18,6 +15,9 @@ class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::OpenSsl {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::Pkcs8Generator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1692))
 // CS Name: ::Org.BouncyCastle.OpenSsl::Pkcs8Generator*
 class CORDL_TYPE Pkcs8Generator : public ::System::Object {
@@ -133,24 +133,24 @@ public:
 
   static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
-  /// @brief Method .ctor addr 0x1063d64 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x10d4fb8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey);
 
   static inline ::Org::BouncyCastle::OpenSsl::Pkcs8Generator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
-  /// @brief Method .ctor addr 0x1063d8c size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x10d4fe0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privKey, ::StringW algorithm);
 
-  /// @brief Method set_SecureRandom addr 0x1063dc4 size 0x8 virtual false final false
+  /// @brief Method set_SecureRandom, addr 0x10d5018, size 0x8, virtual false, abstract: false, final false
   inline void set_SecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method set_Password addr 0x1063dcc size 0x8 virtual false final false
+  /// @brief Method set_Password, addr 0x10d5020, size 0x8, virtual false, abstract: false, final false
   inline void set_Password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_IterationCount addr 0x1063dd4 size 0x8 virtual false final false
+  /// @brief Method set_IterationCount, addr 0x10d5028, size 0x8, virtual false, abstract: false, final false
   inline void set_IterationCount(int32_t value);
 
-  /// @brief Method Generate addr 0x1063ddc size 0x270 virtual true final true
+  /// @brief Method Generate, addr 0x10d5030, size 0x270, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8Generator", modifiers: "&&", def_value: None }]

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Unity/XR/OpenVR/zzzz__ViveTracker_def.hpp"
 CORDL_MODULE_EXPORT(HandedViveTracker)
 namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class ButtonControl;
+class AxisControl;
 }
 // Forward declare root types
 namespace Unity::XR::OpenVR {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::HandedViveTracker);
 // SizeInfo { instance_size: 432, native_size: -1, calculated_instance_size: 432, calculated_native_size: 432, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6205))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6206))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6120))
 // CS Name: ::Unity.XR.OpenVR::HandedViveTracker*
 class CORDL_TYPE HandedViveTracker : public ::Unity::XR::OpenVR::ViveTracker {
 public:
@@ -81,42 +81,42 @@ public:
 
   constexpr void __set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_grip addr 0x28b5948 size 0x8 virtual false final false
+  /// @brief Method get_grip, addr 0x2a34690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method set_grip addr 0x28b5950 size 0x8 virtual false final false
+  /// @brief Method set_grip, addr 0x2a34698, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_gripPressed addr 0x28b5958 size 0x8 virtual false final false
+  /// @brief Method get_gripPressed, addr 0x2a346a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method set_gripPressed addr 0x28b5960 size 0x8 virtual false final false
+  /// @brief Method set_gripPressed, addr 0x2a346a8, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_primary addr 0x28b5968 size 0x8 virtual false final false
+  /// @brief Method get_primary, addr 0x2a346b0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primary();
 
-  /// @brief Method set_primary addr 0x28b5970 size 0x8 virtual false final false
+  /// @brief Method set_primary, addr 0x2a346b8, size 0x8, virtual false, abstract: false, final false
   inline void set_primary(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_trackpadPressed addr 0x28b5978 size 0x8 virtual false final false
+  /// @brief Method get_trackpadPressed, addr 0x2a346c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trackpadPressed();
 
-  /// @brief Method set_trackpadPressed addr 0x28b5980 size 0x8 virtual false final false
+  /// @brief Method set_trackpadPressed, addr 0x2a346c8, size 0x8, virtual false, abstract: false, final false
   inline void set_trackpadPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_triggerPressed addr 0x28b5988 size 0x8 virtual false final false
+  /// @brief Method get_triggerPressed, addr 0x2a346d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_triggerPressed addr 0x28b5990 size 0x8 virtual false final false
+  /// @brief Method set_triggerPressed, addr 0x2a346d8, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method FinishSetup addr 0x28b5998 size 0x138 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2a346e0, size 0x138, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::HandedViveTracker* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b5ad0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a34818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandedViveTracker", modifiers: "&&", def_value: None }]

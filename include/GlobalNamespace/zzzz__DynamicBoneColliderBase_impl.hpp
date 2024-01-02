@@ -3,8 +3,8 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
-#include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "GlobalNamespace/zzzz__DynamicBoneColliderBase_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction::__DynamicBoneColliderBase__Direction(int32_t value__) noexcept {
   this->value__ = value__;
@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneColliderBase::*)(ByRef<::UnityEngine::Vector3>, float_t)>(
     &::GlobalNamespace::DynamicBoneColliderBase::Collide)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x11c05b8;
+  constexpr static std::size_t addrs = 0x12308e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), 4));
@@ -42,9 +42,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DynamicBoneColliderBase::*)()>(&::GlobalNamespace::DynamicBoneColliderBase::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x11c0554;
+  constexpr static std::size_t addrs = 0x1230880;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -87,10 +87,8 @@ constexpr void GlobalNamespace::DynamicBoneColliderBase::__set_m_Bound(::GlobalN
   this->___m_Bound = value;
 }
 inline void GlobalNamespace::DynamicBoneColliderBase::Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), "Collide", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::Vector3>>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particlePosition, particleRadius);
 }
 inline ::GlobalNamespace::DynamicBoneColliderBase* GlobalNamespace::DynamicBoneColliderBase::New_ctor() {

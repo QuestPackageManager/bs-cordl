@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(INetLogger)
-namespace LiteNetLib {
-struct NetLogLevel;
-}
 namespace System {
 class Object;
+}
+namespace LiteNetLib {
+struct NetLogLevel;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -22,12 +22,12 @@ MARK_REF_PTR_T(::LiteNetLib::INetLogger);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14496))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
 // CS Name: ::LiteNetLib::INetLogger*
 class CORDL_TYPE INetLogger {
 public:
   // Declarations
-  /// @brief Method WriteNet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteNet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteNet(::LiteNetLib::NetLogLevel level, ::StringW str, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "INetLogger", modifiers: "&&", def_value: None }]

@@ -1,7 +1,7 @@
 #pragma once
 #include "GlobalNamespace/zzzz__IScoreSyncStateManager_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateNetSerializable_def.hpp"
+#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreSyncStateManager_5_def.hpp"
 /// @brief Convert operator to

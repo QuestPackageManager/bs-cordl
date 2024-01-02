@@ -2,10 +2,10 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TTask> constexpr TTask& Zenject::__TaskUpdater_1__TaskInfo<TTask>::__get_Task() {
@@ -236,9 +236,8 @@ template <typename TTask> inline void Zenject::TaskUpdater_1<TTask>::InsertTaskS
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, task);
 }
 template <typename TTask> inline void Zenject::TaskUpdater_1<TTask>::UpdateItem(TTask task) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TaskUpdater_1<TTask>*>::get(), "UpdateItem", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TTask>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::TaskUpdater_1<TTask>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, task);
 }
 template <typename TTask> inline ::Zenject::TaskUpdater_1<TTask>* Zenject::TaskUpdater_1<TTask>::New_ctor() {

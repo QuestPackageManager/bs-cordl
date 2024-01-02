@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::UnityEngine::ParticleSystemRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9992))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15783))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15891))
 // CS Name: ::UnityEngine::ParticleSystemRenderer*
 class CORDL_TYPE ParticleSystemRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method GetMeshes addr 0x2baa654 size 0x44 virtual false final false
+  /// @brief Method GetMeshes, addr 0x2d11a3c, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetMeshes(ByRef<::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*>> meshes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemRenderer", modifiers: "&&", def_value: None }]

@@ -10,86 +10,86 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dropdown)
-namespace UnityEngine::EventSystems {
-class BaseEventData;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine {
-class Canvas;
-}
-namespace UnityEngine::UI {
-class __Dropdown__OptionData;
-}
-namespace UnityEngine::EventSystems {
-class IPointerClickHandler;
-}
-namespace UnityEngine::UI::CoroutineTween {
-template <typename T> class TweenRunner_1;
-}
-namespace UnityEngine::UI {
-class __Dropdown__DropdownEvent;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::EventSystems {
-class PointerEventData;
-}
-namespace UnityEngine::UI {
-class __Dropdown__OptionDataList;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace UnityEngine::UI {
 class __Dropdown__DropdownItem;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace UnityEngine::EventSystems {
 class ISubmitHandler;
 }
 namespace UnityEngine::UI {
-class __Dropdown____c__DisplayClass63_0;
+class __Dropdown__OptionDataList;
 }
 namespace UnityEngine::UI {
-class Text;
+class Image;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Sprite;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine {
+class RectTransform;
+}
+namespace UnityEngine {
+class Canvas;
 }
 namespace UnityEngine::UI {
 class __Dropdown___DelayedDestroyDropdownList_d__75;
 }
+namespace UnityEngine::UI {
+class Text;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace UnityEngine::UI::CoroutineTween {
 struct FloatTween;
 }
+namespace UnityEngine::UI::CoroutineTween {
+template <typename T> class TweenRunner_1;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine::UI {
+class __Dropdown____c__DisplayClass63_0;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::UI {
+class __Dropdown__DropdownEvent;
+}
+namespace UnityEngine::UI {
+class __Dropdown__OptionData;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::EventSystems {
 class IPointerEnterHandler;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -125,8 +125,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Dropdown____c__DisplayClass63_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13038))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13033))
 // CS Name: ::Dropdown::DropdownItem*
 class CORDL_TYPE __Dropdown__DropdownItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -184,39 +184,39 @@ public:
 
   constexpr void __set_m_Toggle(::UnityEngine::UI::Toggle* value);
 
-  /// @brief Method get_text addr 0x2bf29f8 size 0x8 virtual false final false
+  /// @brief Method get_text, addr 0x2d5ada8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Text* get_text();
 
-  /// @brief Method set_text addr 0x2bf2a00 size 0x8 virtual false final false
+  /// @brief Method set_text, addr 0x2d5adb0, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::UnityEngine::UI::Text* value);
 
-  /// @brief Method get_image addr 0x2bf2a08 size 0x8 virtual false final false
+  /// @brief Method get_image, addr 0x2d5adb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image* get_image();
 
-  /// @brief Method set_image addr 0x2bf2a10 size 0x8 virtual false final false
+  /// @brief Method set_image, addr 0x2d5adc0, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_rectTransform addr 0x2bf2a18 size 0x8 virtual false final false
+  /// @brief Method get_rectTransform, addr 0x2d5adc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
-  /// @brief Method set_rectTransform addr 0x2bf2a20 size 0x8 virtual false final false
+  /// @brief Method set_rectTransform, addr 0x2d5add0, size 0x8, virtual false, abstract: false, final false
   inline void set_rectTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method get_toggle addr 0x2bf2a28 size 0x8 virtual false final false
+  /// @brief Method get_toggle, addr 0x2d5add8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Toggle* get_toggle();
 
-  /// @brief Method set_toggle addr 0x2bf2a30 size 0x8 virtual false final false
+  /// @brief Method set_toggle, addr 0x2d5ade0, size 0x8, virtual false, abstract: false, final false
   inline void set_toggle(::UnityEngine::UI::Toggle* value);
 
-  /// @brief Method OnPointerEnter addr 0x2bf2a38 size 0x7c virtual true final false
+  /// @brief Method OnPointerEnter, addr 0x2d5ade8, size 0x7c, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnCancel addr 0x2bf2ab4 size 0xac virtual true final false
+  /// @brief Method OnCancel, addr 0x2d5ae64, size 0xac, virtual true, abstract: false, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   static inline ::UnityEngine::UI::__Dropdown__DropdownItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bf2b60 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d5af10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown__DropdownItem", modifiers: "&&", def_value: None }]
@@ -263,8 +263,8 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown__DropdownItem, ___m_Toggle)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13034))
 // CS Name: ::Dropdown::OptionData*
 class CORDL_TYPE __Dropdown__OptionData : public ::System::Object {
 public:
@@ -291,36 +291,36 @@ public:
 
   constexpr void __set_m_Image(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_text addr 0x2bf2b68 size 0x8 virtual false final false
+  /// @brief Method get_text, addr 0x2d5af18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text addr 0x2bf2b70 size 0x8 virtual false final false
+  /// @brief Method set_text, addr 0x2d5af20, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_image addr 0x2bf2b78 size 0x8 virtual false final false
+  /// @brief Method get_image, addr 0x2d5af28, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_image();
 
-  /// @brief Method set_image addr 0x2bf2b80 size 0x8 virtual false final false
+  /// @brief Method set_image, addr 0x2d5af30, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Sprite* value);
 
   static inline ::UnityEngine::UI::__Dropdown__OptionData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bef104 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d574b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UI::__Dropdown__OptionData* New_ctor(::StringW text);
 
-  /// @brief Method .ctor addr 0x2bf0648 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d589f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::UnityEngine::UI::__Dropdown__OptionData* New_ctor(::UnityEngine::Sprite* image);
 
-  /// @brief Method .ctor addr 0x2bf07cc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d58b7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* image);
 
   static inline ::UnityEngine::UI::__Dropdown__OptionData* New_ctor(::StringW text, ::UnityEngine::Sprite* image);
 
-  /// @brief Method .ctor addr 0x2bf2b88 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2d5af38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::Sprite* image);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown__OptionData", modifiers: "&&", def_value: None }]
@@ -357,8 +357,8 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown__OptionData, ___m_Image) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13040))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13035))
 // CS Name: ::Dropdown::OptionDataList*
 class CORDL_TYPE __Dropdown__OptionDataList : public ::System::Object {
 public:
@@ -374,15 +374,15 @@ public:
 
   constexpr void __set_m_Options(::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* value);
 
-  /// @brief Method get_options addr 0x2bf2bb4 size 0x8 virtual false final false
+  /// @brief Method get_options, addr 0x2d5af64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* get_options();
 
-  /// @brief Method set_options addr 0x2bf2bbc size 0x8 virtual false final false
+  /// @brief Method set_options, addr 0x2d5af6c, size 0x8, virtual false, abstract: false, final false
   inline void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* value);
 
   static inline ::UnityEngine::UI::__Dropdown__OptionDataList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bf0028 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2d583d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown__OptionDataList", modifiers: "&&", def_value: None }]
@@ -414,15 +414,15 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown__OptionDataList, ___m_Optio
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10387), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(10387))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13041))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13036))
 // CS Name: ::Dropdown::DropdownEvent*
 class CORDL_TYPE __Dropdown__DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
 public:
   // Declarations
   static inline ::UnityEngine::UI::__Dropdown__DropdownEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bf00a8 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2d58458, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown__DropdownEvent", modifiers: "&&", def_value: None }]
@@ -449,8 +449,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Dropdown__Dro
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13042))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13037))
 // CS Name: ::Dropdown::<>c__DisplayClass63_0*
 class CORDL_TYPE __Dropdown____c__DisplayClass63_0 : public ::System::Object {
 public:
@@ -475,10 +475,10 @@ public:
 
   static inline ::UnityEngine::UI::__Dropdown____c__DisplayClass63_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bf1c04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d59fb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Show>b__0 addr 0x2bf2bc4 size 0x24 virtual false final false
+  /// @brief Method <Show>b__0, addr 0x2d5af74, size 0x24, virtual false, abstract: false, final false
   inline void _Show_b__0(bool x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown____c__DisplayClass63_0", modifiers: "&&", def_value: None }]
@@ -515,8 +515,8 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown____c__DisplayClass63_0, ___
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13038))
 // CS Name: ::Dropdown::<DelayedDestroyDropdownList>d__75*
 class CORDL_TYPE __Dropdown___DelayedDestroyDropdownList_d__75 : public ::System::Object {
 public:
@@ -572,22 +572,22 @@ public:
 
   static inline ::UnityEngine::UI::__Dropdown___DelayedDestroyDropdownList_d__75* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2bf2824 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d5abd4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2bf2be8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2d5af98, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2bf2bec size 0xac virtual true final true
+  /// @brief Method MoveNext, addr 0x2d5af9c, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2bf2c98 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2d5b048, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2bf2ca0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2d5b050, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2bf2ce0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2d5b090, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Dropdown___DelayedDestroyDropdownList_d__75", modifiers: "&&", def_value: None }]
@@ -634,8 +634,8 @@ static_assert(offsetof(::UnityEngine::UI::__Dropdown___DelayedDestroyDropdownLis
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13124))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13044))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13039))
 // CS Name: ::UnityEngine.UI::Dropdown*
 class CORDL_TYPE Dropdown : public ::UnityEngine::UI::Selectable {
 public:
@@ -816,154 +816,155 @@ public:
 
   static inline ::UnityEngine::UI::__Dropdown__OptionData* getStaticF_s_NoOptionData();
 
-  /// @brief Method get_template addr 0x2befd88 size 0x8 virtual false final false
+  /// @brief Method get_template, addr 0x2d58138, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectTransform* get_template();
 
-  /// @brief Method set_template addr 0x2bef0d0 size 0x8 virtual false final false
+  /// @brief Method set_template, addr 0x2d57480, size 0x8, virtual false, abstract: false, final false
   inline void set_template(::UnityEngine::RectTransform* value);
 
-  /// @brief Method get_captionText addr 0x2befd90 size 0x8 virtual false final false
+  /// @brief Method get_captionText, addr 0x2d58140, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Text* get_captionText();
 
-  /// @brief Method set_captionText addr 0x2bef0d8 size 0x8 virtual false final false
+  /// @brief Method set_captionText, addr 0x2d57488, size 0x8, virtual false, abstract: false, final false
   inline void set_captionText(::UnityEngine::UI::Text* value);
 
-  /// @brief Method get_captionImage addr 0x2befd98 size 0x8 virtual false final false
+  /// @brief Method get_captionImage, addr 0x2d58148, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image* get_captionImage();
 
-  /// @brief Method set_captionImage addr 0x2befda0 size 0x8 virtual false final false
+  /// @brief Method set_captionImage, addr 0x2d58150, size 0x8, virtual false, abstract: false, final false
   inline void set_captionImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_itemText addr 0x2befda8 size 0x8 virtual false final false
+  /// @brief Method get_itemText, addr 0x2d58158, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Text* get_itemText();
 
-  /// @brief Method set_itemText addr 0x2bef0e0 size 0x8 virtual false final false
+  /// @brief Method set_itemText, addr 0x2d57490, size 0x8, virtual false, abstract: false, final false
   inline void set_itemText(::UnityEngine::UI::Text* value);
 
-  /// @brief Method get_itemImage addr 0x2befdb0 size 0x8 virtual false final false
+  /// @brief Method get_itemImage, addr 0x2d58160, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Image* get_itemImage();
 
-  /// @brief Method set_itemImage addr 0x2befdb8 size 0x8 virtual false final false
+  /// @brief Method set_itemImage, addr 0x2d58168, size 0x8, virtual false, abstract: false, final false
   inline void set_itemImage(::UnityEngine::UI::Image* value);
 
-  /// @brief Method get_options addr 0x2bef0e8 size 0x1c virtual false final false
+  /// @brief Method get_options, addr 0x2d57498, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* get_options();
 
-  /// @brief Method set_options addr 0x2befdc0 size 0x1c virtual false final false
+  /// @brief Method set_options, addr 0x2d58170, size 0x1c, virtual false, abstract: false, final false
   inline void set_options(::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* value);
 
-  /// @brief Method get_onValueChanged addr 0x2befddc size 0x8 virtual false final false
+  /// @brief Method get_onValueChanged, addr 0x2d5818c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Dropdown__DropdownEvent* get_onValueChanged();
 
-  /// @brief Method set_onValueChanged addr 0x2befde4 size 0x8 virtual false final false
+  /// @brief Method set_onValueChanged, addr 0x2d58194, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::UnityEngine::UI::__Dropdown__DropdownEvent* value);
 
-  /// @brief Method get_alphaFadeSpeed addr 0x2befdec size 0x8 virtual false final false
+  /// @brief Method get_alphaFadeSpeed, addr 0x2d5819c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_alphaFadeSpeed();
 
-  /// @brief Method set_alphaFadeSpeed addr 0x2befdf4 size 0x8 virtual false final false
+  /// @brief Method set_alphaFadeSpeed, addr 0x2d581a4, size 0x8, virtual false, abstract: false, final false
   inline void set_alphaFadeSpeed(float_t value);
 
-  /// @brief Method get_value addr 0x2befdfc size 0x8 virtual false final false
+  /// @brief Method get_value, addr 0x2d581ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method set_value addr 0x2befe04 size 0x8 virtual false final false
+  /// @brief Method set_value, addr 0x2d581b4, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
-  /// @brief Method SetValueWithoutNotify addr 0x2beff1c size 0x8 virtual false final false
+  /// @brief Method SetValueWithoutNotify, addr 0x2d582cc, size 0x8, virtual false, abstract: false, final false
   inline void SetValueWithoutNotify(int32_t input);
 
-  /// @brief Method Set addr 0x2befe0c size 0x110 virtual false final false
-  inline void Set(int32_t value, bool sendCallback);
+  /// @brief Method Set, addr 0x2d581bc, size 0x110, virtual false, abstract: false, final false
+  /// @param sendCallback: bool (default: true)
+  inline void Set(int32_t value, bool sendCallback = true);
 
   static inline ::UnityEngine::UI::Dropdown* New_ctor();
 
-  /// @brief Method .ctor addr 0x2beff24 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x2d582d4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Awake addr 0x2bf00f0 size 0xfc virtual true final false
+  /// @brief Method Awake, addr 0x2d584a0, size 0xfc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x2bf01ec size 0x94 virtual true final false
+  /// @brief Method Start, addr 0x2d5859c, size 0x94, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDisable addr 0x2bf0280 size 0x94 virtual true final false
+  /// @brief Method OnDisable, addr 0x2d58630, size 0x94, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshShownValue addr 0x2bef10c size 0x1dc virtual false final false
+  /// @brief Method RefreshShownValue, addr 0x2d574bc, size 0x1dc, virtual false, abstract: false, final false
   inline void RefreshShownValue();
 
-  /// @brief Method AddOptions addr 0x2bf0484 size 0x68 virtual false final false
+  /// @brief Method AddOptions, addr 0x2d58834, size 0x68, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__OptionData*>* options);
 
-  /// @brief Method AddOptions addr 0x2bf04ec size 0x15c virtual false final false
+  /// @brief Method AddOptions, addr 0x2d5889c, size 0x15c, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
 
-  /// @brief Method AddOptions addr 0x2bf0670 size 0x15c virtual false final false
+  /// @brief Method AddOptions, addr 0x2d58a20, size 0x15c, virtual false, abstract: false, final false
   inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
 
-  /// @brief Method ClearOptions addr 0x2bf07f4 size 0x78 virtual false final false
+  /// @brief Method ClearOptions, addr 0x2d58ba4, size 0x78, virtual false, abstract: false, final false
   inline void ClearOptions();
 
-  /// @brief Method SetupTemplate addr 0x2bf086c size 0x678 virtual false final false
+  /// @brief Method SetupTemplate, addr 0x2d58c1c, size 0x678, virtual false, abstract: false, final false
   inline void SetupTemplate(::UnityEngine::Canvas* rootCanvas);
 
-  /// @brief Method GetOrAddComponent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method OnPointerClick addr 0x2bf0ee4 size 0x4 virtual true final false
+  /// @brief Method OnPointerClick, addr 0x2d59294, size 0x4, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit addr 0x2bf1b00 size 0x4 virtual true final false
+  /// @brief Method OnSubmit, addr 0x2d59eb0, size 0x4, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnCancel addr 0x2bf1b04 size 0x4 virtual true final false
+  /// @brief Method OnCancel, addr 0x2d59eb4, size 0x4, virtual true, abstract: false, final false
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Show addr 0x2bf0ee8 size 0xc18 virtual false final false
+  /// @brief Method Show, addr 0x2d59298, size 0xc18, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method CreateBlocker addr 0x2bf2020 size 0x4cc virtual true final false
+  /// @brief Method CreateBlocker, addr 0x2d5a3d0, size 0x4cc, virtual true, abstract: false, final false
   inline ::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* rootCanvas);
 
-  /// @brief Method DestroyBlocker addr 0x2bf24ec size 0x58 virtual true final false
+  /// @brief Method DestroyBlocker, addr 0x2d5a89c, size 0x58, virtual true, abstract: false, final false
   inline void DestroyBlocker(::UnityEngine::GameObject* blocker);
 
-  /// @brief Method CreateDropdownList addr 0x2bf2544 size 0x6c virtual true final false
+  /// @brief Method CreateDropdownList, addr 0x2d5a8f4, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* _cordl_template);
 
-  /// @brief Method DestroyDropdownList addr 0x2bf25b0 size 0x58 virtual true final false
+  /// @brief Method DestroyDropdownList, addr 0x2d5a960, size 0x58, virtual true, abstract: false, final false
   inline void DestroyDropdownList(::UnityEngine::GameObject* dropdownList);
 
-  /// @brief Method CreateItem addr 0x2bf2608 size 0x6c virtual true final false
+  /// @brief Method CreateItem, addr 0x2d5a9b8, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::UI::__Dropdown__DropdownItem* CreateItem(::UnityEngine::UI::__Dropdown__DropdownItem* itemTemplate);
 
-  /// @brief Method DestroyItem addr 0x2bf2674 size 0x4 virtual true final false
+  /// @brief Method DestroyItem, addr 0x2d5aa24, size 0x4, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UI::__Dropdown__DropdownItem* item);
 
-  /// @brief Method AddItem addr 0x2bf1c0c size 0x2ec virtual false final false
+  /// @brief Method AddItem, addr 0x2d59fbc, size 0x2ec, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Dropdown__DropdownItem* AddItem(::UnityEngine::UI::__Dropdown__OptionData* data, bool selected, ::UnityEngine::UI::__Dropdown__DropdownItem* itemTemplate,
                                                               ::System::Collections::Generic::List_1<::UnityEngine::UI::__Dropdown__DropdownItem*>* items);
 
-  /// @brief Method AlphaFadeList addr 0x2bf2678 size 0x80 virtual false final false
+  /// @brief Method AlphaFadeList, addr 0x2d5aa28, size 0x80, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t alpha);
 
-  /// @brief Method AlphaFadeList addr 0x2bf1ef8 size 0x128 virtual false final false
+  /// @brief Method AlphaFadeList, addr 0x2d5a2a8, size 0x128, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t start, float_t end);
 
-  /// @brief Method SetAlpha addr 0x2bf26f8 size 0xb4 virtual false final false
+  /// @brief Method SetAlpha, addr 0x2d5aaa8, size 0xb4, virtual false, abstract: false, final false
   inline void SetAlpha(float_t alpha);
 
-  /// @brief Method Hide addr 0x2bf1b08 size 0xfc virtual false final false
+  /// @brief Method Hide, addr 0x2d59eb8, size 0xfc, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method DelayedDestroyDropdownList addr 0x2bf27ac size 0x78 virtual false final false
+  /// @brief Method DelayedDestroyDropdownList, addr 0x2d5ab5c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedDestroyDropdownList(float_t delay);
 
-  /// @brief Method ImmediateDestroyDropdownList addr 0x2bf0314 size 0x170 virtual false final false
+  /// @brief Method ImmediateDestroyDropdownList, addr 0x2d586c4, size 0x170, virtual false, abstract: false, final false
   inline void ImmediateDestroyDropdownList();
 
-  /// @brief Method OnSelectItem addr 0x2bf284c size 0x134 virtual false final false
+  /// @brief Method OnSelectItem, addr 0x2d5abfc, size 0x134, virtual false, abstract: false, final false
   inline void OnSelectItem(::UnityEngine::UI::Toggle* toggle);
 
   // Ctor Parameters [CppParam { name: "", ty: "Dropdown", modifiers: "&&", def_value: None }]

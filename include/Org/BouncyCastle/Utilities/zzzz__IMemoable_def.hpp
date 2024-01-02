@@ -19,10 +19,10 @@ namespace Org::BouncyCastle::Utilities {
 class CORDL_TYPE IMemoable {
 public:
   // Declarations
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoable", modifiers: "&&", def_value: None }]

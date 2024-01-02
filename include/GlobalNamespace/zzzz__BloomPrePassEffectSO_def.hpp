@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassEffectSO)
 namespace GlobalNamespace {
-class IBloomPrePassParams;
-}
-namespace GlobalNamespace {
-class TextureEffectSO;
-}
-namespace GlobalNamespace {
 struct ToneMapping;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace GlobalNamespace {
+class IBloomPrePassParams;
+}
+namespace GlobalNamespace {
+class TextureEffectSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(14796))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14688))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14579)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::BloomPrePassEffectSO*
 class CORDL_TYPE BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO {
 public:
@@ -86,27 +86,27 @@ public:
 
   constexpr void __set__linesWidth(float_t value);
 
-  /// @brief Method get_textureEffect addr 0x1fb1508 size 0x4 virtual true final true
+  /// @brief Method get_textureEffect, addr 0x21068e4, size 0x4, virtual true, abstract: false, final true
   inline ::GlobalNamespace::TextureEffectSO* get_textureEffect();
 
-  /// @brief Method get_textureWidth addr 0x1fb150c size 0x8 virtual true final true
+  /// @brief Method get_textureWidth, addr 0x21068e8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureWidth();
 
-  /// @brief Method get_textureHeight addr 0x1fb1514 size 0x8 virtual true final true
+  /// @brief Method get_textureHeight, addr 0x21068f0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureHeight();
 
-  /// @brief Method get_fov addr 0x1fb151c size 0x8 virtual true final true
+  /// @brief Method get_fov, addr 0x21068f8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_fov();
 
-  /// @brief Method get_linesWidth addr 0x1fb1524 size 0x8 virtual true final true
+  /// @brief Method get_linesWidth, addr 0x2106900, size 0x8, virtual true, abstract: false, final true
   inline float_t get_linesWidth();
 
-  /// @brief Method get_toneMapping addr 0x1fb152c size 0x8 virtual true final false
+  /// @brief Method get_toneMapping, addr 0x2106908, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
   static inline ::GlobalNamespace::BloomPrePassEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb1534 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2106910, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassEffectSO", modifiers: "&&", def_value: None }]

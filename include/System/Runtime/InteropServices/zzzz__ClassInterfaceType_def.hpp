@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::ClassInterfaceType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3314))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3317))
 // CS Name: ::System.Runtime.InteropServices::ClassInterfaceType
 struct CORDL_TYPE ClassInterfaceType {
 public:

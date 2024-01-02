@@ -16,10 +16,10 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobRanges;
 }
 namespace Unity::Jobs {
-struct JobHandle;
+template <typename T> struct __IJobParallelForExtensions__ParallelForJobStruct_1;
 }
 namespace Unity::Jobs {
-template <typename T> struct __IJobParallelForExtensions__ParallelForJobStruct_1;
+struct JobHandle;
 }
 namespace GlobalNamespace {
 template <typename T> class __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction;
@@ -44,18 +44,18 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9898))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9970))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1::ExecuteJobFunction<T>*
 class CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(ByRef<T> data, void* additionalPtr, void* bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IJobParallelForExtensions__ParallelForJobStruct_1__ExecuteJobFunction", modifiers: "&&", def_value: None }]
@@ -82,8 +82,8 @@ namespace Unity::Jobs {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9899))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9971))
 // CS Name: ::IJobParallelForExtensions::ParallelForJobStruct`1<T>
 #pragma pack(push, 0)
 struct CORDL_TYPE __IJobParallelForExtensions__ParallelForJobStruct_1 {
@@ -98,7 +98,7 @@ public:
 
   static inline void* getStaticF_jobReflectionData();
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Execute(ByRef<T> jobData, void* additionalPtr, void* bufferRangePatchData, ByRef<::Unity::Jobs::LowLevel::Unsafe::JobRanges> ranges, int32_t jobIndex);
 
   // Ctor Parameters []
@@ -120,16 +120,17 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Jobs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9972))
 // CS Name: ::Unity.Jobs::IJobParallelForExtensions*
 class CORDL_TYPE IJobParallelForExtensions : public ::System::Object {
 public:
   // Declarations
   template <typename T> using ParallelForJobStruct_1 = ::Unity::Jobs::__IJobParallelForExtensions__ParallelForJobStruct_1<T>;
 
-  /// @brief Method Schedule addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn);
+  /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param dependsOn: ::Unity::Jobs::JobHandle (default: {})
+  template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn = {});
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelForExtensions", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

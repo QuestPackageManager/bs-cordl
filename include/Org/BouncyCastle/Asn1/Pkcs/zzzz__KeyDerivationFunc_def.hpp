@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 CORDL_MODULE_EXPORT(KeyDerivationFunc)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -31,12 +31,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf12c8c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0xf88eb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor addr 0xf12c90 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf88eb4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyDerivationFunc", modifiers: "&&", def_value: None }]

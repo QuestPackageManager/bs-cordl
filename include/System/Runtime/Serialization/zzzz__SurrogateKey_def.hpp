@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SurrogateKey)
-namespace System {
-class Type;
-}
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3234))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3238))
 // CS Name: ::System.Runtime.Serialization::SurrogateKey*
 class CORDL_TYPE SurrogateKey : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SurrogateKey* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x23670a0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x24bfb94, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetHashCode addr 0x23672d8 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x24bfdcc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "SurrogateKey", modifiers: "&&", def_value: None }]

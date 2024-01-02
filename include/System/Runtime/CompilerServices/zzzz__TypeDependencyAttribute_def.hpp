@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::TypeDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3412))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3417))
 // CS Name: ::System.Runtime.CompilerServices::TypeDependencyAttribute*
 class CORDL_TYPE TypeDependencyAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::TypeDependencyAttribute* New_ctor(::StringW typeName);
 
-  /// @brief Method .ctor addr 0x23841e8 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x24dec78, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDependencyAttribute", modifiers: "&&", def_value: None }]

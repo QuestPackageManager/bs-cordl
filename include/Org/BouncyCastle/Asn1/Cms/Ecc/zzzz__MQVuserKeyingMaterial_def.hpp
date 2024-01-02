@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(MQVuserKeyingMaterial)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -17,7 +17,7 @@ namespace Org::BouncyCastle::Asn1::Cms {
 class OriginatorPublicKey;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace System {
 class Object;
@@ -63,27 +63,27 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey,
                                                                                      ::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm);
 
-  /// @brief Method .ctor addr 0xdfa460 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe6f634, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey, ::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdfa48c size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xe6f660, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdfa6cc size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe6f8a0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance addr 0xdfa6e4 size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0xe6f8b8, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_EphemeralPublicKey addr 0xdfa85c size 0x8 virtual false final false
+  /// @brief Method get_EphemeralPublicKey, addr 0xe6fa30, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* get_EphemeralPublicKey();
 
-  /// @brief Method get_AddedUkm addr 0xdfa864 size 0x8 virtual false final false
+  /// @brief Method get_AddedUkm, addr 0xe6fa38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_AddedUkm();
 
-  /// @brief Method ToAsn1Object addr 0xdfa86c size 0x114 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe6fa40, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "MQVuserKeyingMaterial", modifiers: "&&", def_value: None }]

@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IInitializable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15655))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15705))
 // CS Name: ::Zenject::IInitializable*
 class CORDL_TYPE IInitializable {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInitializable", modifiers: "&&", def_value: None }]

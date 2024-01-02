@@ -8,23 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampTokenInfo)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::Tsp {
-class TstInfo;
-}
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Tsp {
-class GenTimeAccuracy;
 }
 namespace Org::BouncyCastle::Asn1::Tsp {
 class Accuracy;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class GeneralName;
+}
+namespace Org::BouncyCastle::Asn1::Tsp {
+class TstInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Tsp {
+class GenTimeAccuracy;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1772))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenInfo*
 class CORDL_TYPE TimeStampTokenInfo : public ::System::Object {
@@ -87,46 +87,46 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 
-  /// @brief Method .ctor addr 0x10e17dc size 0x134 virtual false final false
+  /// @brief Method .ctor, addr 0x1152a24, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 
-  /// @brief Method get_IsOrdered addr 0x10e2b54 size 0x24 virtual false final false
+  /// @brief Method get_IsOrdered, addr 0x1153d9c, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsOrdered();
 
-  /// @brief Method get_Accuracy addr 0x10e2b78 size 0x1c virtual false final false
+  /// @brief Method get_Accuracy, addr 0x1153dc0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_GenTime addr 0x10e2b94 size 0x8 virtual false final false
+  /// @brief Method get_GenTime, addr 0x1153ddc, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_GenTime();
 
-  /// @brief Method get_GenTimeAccuracy addr 0x10e2b9c size 0x7c virtual false final false
+  /// @brief Method get_GenTimeAccuracy, addr 0x1153de4, size 0x7c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* get_GenTimeAccuracy();
 
-  /// @brief Method get_Policy addr 0x10dfe2c size 0x24 virtual false final false
+  /// @brief Method get_Policy, addr 0x1151074, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_Policy();
 
-  /// @brief Method get_SerialNumber addr 0x10e2c18 size 0x24 virtual false final false
+  /// @brief Method get_SerialNumber, addr 0x1153e60, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Tsa addr 0x10e2c3c size 0x1c virtual false final false
+  /// @brief Method get_Tsa, addr 0x1153e84, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_Nonce addr 0x10dfd68 size 0x2c virtual false final false
+  /// @brief Method get_Nonce, addr 0x1150fb0, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Nonce();
 
-  /// @brief Method get_HashAlgorithm addr 0x10e2c58 size 0x24 virtual false final false
+  /// @brief Method get_HashAlgorithm, addr 0x1153ea0, size 0x24, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MessageImprintAlgOid addr 0x10dfdd4 size 0x3c virtual false final false
+  /// @brief Method get_MessageImprintAlgOid, addr 0x115101c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_MessageImprintAlgOid();
 
-  /// @brief Method GetMessageImprintDigest addr 0x10dfdb0 size 0x24 virtual false final false
+  /// @brief Method GetMessageImprintDigest, addr 0x1150ff8, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMessageImprintDigest();
 
-  /// @brief Method GetEncoded addr 0x10e2c7c size 0x1c virtual false final false
+  /// @brief Method GetEncoded, addr 0x1153ec4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method get_TstInfo addr 0x10e2c98 size 0x8 virtual false final false
+  /// @brief Method get_TstInfo, addr 0x1153ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* get_TstInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenInfo", modifiers: "&&", def_value: None }]

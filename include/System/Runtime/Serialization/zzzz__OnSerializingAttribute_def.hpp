@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::OnSerializingAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3228))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3229))
 // CS Name: ::System.Runtime.Serialization::OnSerializingAttribute*
 class CORDL_TYPE OnSerializingAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::Runtime::Serialization::OnSerializingAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x23653dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24bded0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OnSerializingAttribute", modifiers: "&&", def_value: None }]

@@ -21,33 +21,33 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatSaberLogger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5967))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5877))
 // CS Name: ::IBeatSaberLogger*
 class CORDL_TYPE IBeatSaberLogger {
 public:
   // Declarations
-  /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::StringW message);
 
-  /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogWarning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LogException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatSaberLogger", modifiers: "&&", def_value: None }]

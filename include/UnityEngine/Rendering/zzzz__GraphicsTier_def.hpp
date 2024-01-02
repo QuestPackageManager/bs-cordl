@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::GraphicsTier);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10265))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10343))
 // CS Name: ::UnityEngine.Rendering::GraphicsTier
 struct CORDL_TYPE GraphicsTier {
 public:

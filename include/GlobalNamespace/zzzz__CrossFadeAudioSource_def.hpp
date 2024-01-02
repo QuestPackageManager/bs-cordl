@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CrossFadeAudioSource)
-namespace UnityEngine {
-class AudioClip;
-}
 namespace GlobalNamespace {
 class AudioPitchGainEffect;
 }
 namespace Tweening {
-template <typename T> class Tween_1;
+class TimeTweeningManager;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace Tweening {
-class TimeTweeningManager;
+template <typename T> class Tween_1;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CrossFadeAudioSource);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4048))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4060))
 // CS Name: ::CrossFadeAudioSource*
 class CORDL_TYPE CrossFadeAudioSource : public ::UnityEngine::MonoBehaviour {
 public:
@@ -152,60 +152,60 @@ public:
 
   constexpr void __set__inactivePitchGainEffect(::GlobalNamespace::AudioPitchGainEffect* value);
 
-  /// @brief Method get_clip addr 0x20cd254 size 0x1c virtual false final false
+  /// @brief Method get_clip, addr 0x222cd40, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioClip* get_clip();
 
-  /// @brief Method set_clip addr 0x20cd270 size 0x40 virtual false final false
+  /// @brief Method set_clip, addr 0x222cd5c, size 0x40, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_pitch addr 0x20cd2b0 size 0x40 virtual false final false
+  /// @brief Method set_pitch, addr 0x222cd9c, size 0x40, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method set_time addr 0x20cd2f0 size 0x40 virtual false final false
+  /// @brief Method set_time, addr 0x222cddc, size 0x40, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_isPlaying addr 0x20cd330 size 0x1c virtual false final false
+  /// @brief Method get_isPlaying, addr 0x222ce1c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method Awake addr 0x20cd34c size 0x15c virtual false final false
+  /// @brief Method Awake, addr 0x222ce38, size 0x15c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x20cd4a8 size 0x88 virtual false final false
+  /// @brief Method OnDestroy, addr 0x222cf94, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayPitchGainEffect addr 0x20cd530 size 0x20 virtual false final false
+  /// @brief Method PlayPitchGainEffect, addr 0x222d01c, size 0x20, virtual false, abstract: false, final false
   inline void PlayPitchGainEffect(float_t volumeScale);
 
-  /// @brief Method InterruptLastPitchGainEffect addr 0x20cd550 size 0x1c virtual false final false
+  /// @brief Method InterruptLastPitchGainEffect, addr 0x222d03c, size 0x1c, virtual false, abstract: false, final false
   inline void InterruptLastPitchGainEffect();
 
-  /// @brief Method CrossFade addr 0x20cd56c size 0x1c8 virtual false final false
+  /// @brief Method CrossFade, addr 0x222d058, size 0x1c8, virtual false, abstract: false, final false
   inline void CrossFade(float_t toSongTime, float_t toVolume);
 
-  /// @brief Method Play addr 0x20cd734 size 0x1c virtual false final false
+  /// @brief Method Play, addr 0x222d220, size 0x1c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Stop addr 0x20cd750 size 0x50 virtual false final false
+  /// @brief Method Stop, addr 0x222d23c, size 0x50, virtual false, abstract: false, final false
   inline void Stop();
 
   static inline ::GlobalNamespace::CrossFadeAudioSource* New_ctor();
 
-  /// @brief Method .ctor addr 0x20cd7a0 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x222d28c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__21_0 addr 0x20cd7b4 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__21_0, addr 0x222d2a0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_0(float_t val);
 
-  /// @brief Method <Awake>b__21_1 addr 0x20cd7d0 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__21_1, addr 0x222d2bc, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__21_1(float_t val);
 
-  /// @brief Method <CrossFade>b__25_0 addr 0x20cd7ec size 0x1c virtual false final false
+  /// @brief Method <CrossFade>b__25_0, addr 0x222d2d8, size 0x1c, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_0(float_t val);
 
-  /// @brief Method <CrossFade>b__25_1 addr 0x20cd808 size 0x1c virtual false final false
+  /// @brief Method <CrossFade>b__25_1, addr 0x222d2f4, size 0x1c, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_1(float_t val);
 
-  /// @brief Method <CrossFade>b__25_2 addr 0x20cd824 size 0x30 virtual false final false
+  /// @brief Method <CrossFade>b__25_2, addr 0x222d310, size 0x30, virtual false, abstract: false, final false
   inline void _CrossFade_b__25_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossFadeAudioSource", modifiers: "&&", def_value: None }]

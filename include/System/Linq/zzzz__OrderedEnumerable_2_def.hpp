@@ -5,9 +5,6 @@ CORDL_MODULE_INIT
 #include "System/Linq/zzzz__OrderedEnumerable_1_def.hpp"
 CORDL_MODULE_EXPORT(OrderedEnumerable_2)
 namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
@@ -15,6 +12,9 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System::Linq {
 template <typename TElement> class EnumerableSorter_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System::Linq {
 template <typename TElement> class OrderedEnumerable_1;
@@ -31,8 +31,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14629), inst: 1612 }), TypeDefinitionIndex(TypeDefinitionIndex(14629))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14291), inst: 1678 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
 // CS Name: ::System.Linq::OrderedEnumerable`2<TElement,TKey>*
 class CORDL_TYPE OrderedEnumerable_2 : public ::System::Linq::OrderedEnumerable_1<TElement> {
 public:
@@ -76,11 +76,11 @@ public:
   static inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector,
                                                                               ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                     bool descending);
 
-  /// @brief Method GetEnumerableSorter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_2", modifiers: "&&", def_value: None }]

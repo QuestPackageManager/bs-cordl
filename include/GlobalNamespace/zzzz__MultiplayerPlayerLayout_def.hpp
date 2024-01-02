@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerPlayerLayout);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5327))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5233))
 // CS Name: ::MultiplayerPlayerLayout
 struct CORDL_TYPE MultiplayerPlayerLayout {
 public:

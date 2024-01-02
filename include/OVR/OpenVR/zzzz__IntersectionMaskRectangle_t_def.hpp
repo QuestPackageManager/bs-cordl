@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskRectangle_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8708))
 // CS Name: ::OVR.OpenVR::IntersectionMaskRectangle_t
 struct CORDL_TYPE IntersectionMaskRectangle_t {
 public:

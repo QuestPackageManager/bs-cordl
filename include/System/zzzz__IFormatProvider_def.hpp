@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFormatProvider)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::IFormatProvider);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2415))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2417))
 // CS Name: ::System::IFormatProvider*
 class CORDL_TYPE IFormatProvider {
 public:
   // Declarations
-  /// @brief Method GetFormat addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetFormat(::System::Type* formatType);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFormatProvider", modifiers: "&&", def_value: None }]

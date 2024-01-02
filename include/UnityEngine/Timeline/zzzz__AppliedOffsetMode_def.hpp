@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::AppliedOffsetMode);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13839))
 // CS Name: ::UnityEngine.Timeline::AppliedOffsetMode
 struct CORDL_TYPE AppliedOffsetMode {
 public:

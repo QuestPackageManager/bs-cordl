@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::MD4Managed);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2279))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2280))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13792))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13793))
 // CS Name: ::Mono.Security.Cryptography::MD4Managed*
 class CORDL_TYPE MD4Managed : public ::Mono::Security::Cryptography::MD4 {
 public:
@@ -70,49 +70,49 @@ public:
 
   static inline ::Mono::Security::Cryptography::MD4Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x22c74f4 size 0xd0 virtual false final false
+  /// @brief Method .ctor, addr 0x2404f68, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x22c75c4 size 0xb4 virtual true final false
+  /// @brief Method Initialize, addr 0x2405038, size 0xb4, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x22c7678 size 0x124 virtual true final false
+  /// @brief Method HashCore, addr 0x24050ec, size 0x124, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x22c7e14 size 0xfc virtual true final false
+  /// @brief Method HashFinal, addr 0x2405888, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Padding addr 0x22c8008 size 0x78 virtual false final false
+  /// @brief Method Padding, addr 0x2405a7c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Padding(int32_t nLength);
 
-  /// @brief Method F addr 0x22c8080 size 0x10 virtual false final false
+  /// @brief Method F, addr 0x2405af4, size 0x10, virtual false, abstract: false, final false
   inline uint32_t F(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method G addr 0x22c8090 size 0x14 virtual false final false
+  /// @brief Method G, addr 0x2405b04, size 0x14, virtual false, abstract: false, final false
   inline uint32_t G(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method H addr 0x22c80a4 size 0xc virtual false final false
+  /// @brief Method H, addr 0x2405b18, size 0xc, virtual false, abstract: false, final false
   inline uint32_t H(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method ROL addr 0x22c80b0 size 0x10 virtual false final false
+  /// @brief Method ROL, addr 0x2405b24, size 0x10, virtual false, abstract: false, final false
   inline uint32_t ROL(uint32_t x, uint8_t n);
 
-  /// @brief Method FF addr 0x22c80c0 size 0x2c virtual false final false
+  /// @brief Method FF, addr 0x2405b34, size 0x2c, virtual false, abstract: false, final false
   inline void FF(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method GG addr 0x22c80ec size 0x3c virtual false final false
+  /// @brief Method GG, addr 0x2405b60, size 0x3c, virtual false, abstract: false, final false
   inline void GG(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method HH addr 0x22c8128 size 0x34 virtual false final false
+  /// @brief Method HH, addr 0x2405b9c, size 0x34, virtual false, abstract: false, final false
   inline void HH(ByRef<uint32_t> a, uint32_t b, uint32_t c, uint32_t d, uint32_t x, uint8_t s);
 
-  /// @brief Method Encode addr 0x22c7f10 size 0xf8 virtual false final false
+  /// @brief Method Encode, addr 0x2405984, size 0xf8, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint32_t, ::Array<uint32_t>*> input);
 
-  /// @brief Method Decode addr 0x22c815c size 0xb4 virtual false final false
+  /// @brief Method Decode, addr 0x2405bd0, size 0xb4, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint32_t, ::Array<uint32_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t index);
 
-  /// @brief Method MD4Transform addr 0x22c779c size 0x678 virtual false final false
+  /// @brief Method MD4Transform, addr 0x2405210, size 0x678, virtual false, abstract: false, final false
   inline void MD4Transform(::ArrayW<uint32_t, ::Array<uint32_t>*> state, ::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MD4Managed", modifiers: "&&", def_value: None }]

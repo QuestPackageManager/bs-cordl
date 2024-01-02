@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Net::BufferOffsetSize);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7937))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9100))
 // CS Name: ::System.Net::BufferOffsetSize*
 class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
@@ -51,12 +51,12 @@ public:
 
   static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
-  /// @brief Method .ctor addr 0x28284d8 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0x29a5d50, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, bool copyBuffer);
 
   static inline ::System::Net::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
-  /// @brief Method .ctor addr 0x2828584 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x29a5dfc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool copyBuffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize", modifiers: "&&", def_value: None }]

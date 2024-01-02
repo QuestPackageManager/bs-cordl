@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "RootMotion/zzzz__AvatarUtility_def.hpp"
-#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
 #include "UnityEngine/zzzz__HumanBodyBones_def.hpp"
-#include "UnityEngine/zzzz__Quaternion_def.hpp"
+#include "UnityEngine/zzzz__AvatarIKGoal_def.hpp"
 #include "UnityEngine/zzzz__Avatar_def.hpp"
+#include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "RootMotion/zzzz__TQ_def.hpp"
 //  Writing Method size for method: ::RootMotion::AvatarUtility.GetPostRotation
 template <>
@@ -12,9 +12,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Avatar*, ::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::AvatarUtility::GetPostRotation)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x11c19a0;
+  constexpr static std::size_t addrs = 0x1231ccc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::AvatarUtility*>::get(), "GetPostRotation", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Avatar*>::get(),
@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::RootMotion::TQ* (*)(::UnityEngine::Avatar*, float_t, ::UnityEngine::AvatarIKGoal, ::RootMotion::TQ*, ::RootMotion::TQ*)>(&::RootMotion::AvatarUtility::GetIKGoalTQ)> {
   constexpr static std::size_t size = 0x658;
-  constexpr static std::size_t addrs = 0x11c1bf0;
+  constexpr static std::size_t addrs = 0x1231f1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::AvatarUtility*>::get(), "GetIKGoalTQ", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Avatar*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
@@ -46,9 +46,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::HumanBodyBones (*)(::UnityEngine::AvatarIKGoal)>(
     &::RootMotion::AvatarUtility::HumanIDFromAvatarIKGoal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x11c1bd0;
+  constexpr static std::size_t addrs = 0x1231efc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::AvatarUtility*>::get(), "HumanIDFromAvatarIKGoal", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AvatarIKGoal>::get() })));
@@ -60,9 +60,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::RootMotion::AvatarUtility::*)()>(&::RootMotion::AvatarUtility::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11c2248;
+  constexpr static std::size_t addrs = 0x1232574;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::AvatarUtility*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

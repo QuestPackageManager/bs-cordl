@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::ReferenceLoopHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11767))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11839))
 // CS Name: ::Newtonsoft.Json::ReferenceLoopHandling
 struct CORDL_TYPE ReferenceLoopHandling {
 public:

@@ -1,7 +1,7 @@
 #pragma once
 #include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
 template <typename TKey, typename TValue> constexpr IntervalTree::RangeValuePair_2<TKey, TValue>::operator ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*() {
   return static_cast<::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(::cordl_internals::Box(this)));
@@ -29,13 +29,13 @@ template <typename TKey, typename TValue> inline void IntervalTree::RangeValuePa
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, from, to, value);
 }
 template <typename TKey, typename TValue> inline ::StringW IntervalTree::RangeValuePair_2<TKey, TValue>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), "ToString",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline int32_t IntervalTree::RangeValuePair_2<TKey, TValue>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(),
-                                                                             "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::Equals(::IntervalTree::RangeValuePair_2<TKey, TValue> other) {
@@ -45,9 +45,8 @@ template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePa
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 template <typename TKey, typename TValue> inline bool IntervalTree::RangeValuePair_2<TKey, TValue>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename TKey, typename TValue>

@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMoveHandler)
 namespace UnityEngine::EventSystems {
-class AxisEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class AxisEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IMoveHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13191))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13186))
 // CS Name: ::UnityEngine.EventSystems::IMoveHandler*
 class CORDL_TYPE IMoveHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnMove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnMove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMoveHandler", modifiers: "&&", def_value: None }]

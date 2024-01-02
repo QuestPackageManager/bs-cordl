@@ -18,16 +18,16 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedReasonMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4496))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4485))
 // CS Name: ::ConnectionFailedReasonMethods*
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey addr 0x220691c size 0xb4 virtual false final false
+  /// @brief Method LocalizedKey, addr 0x2355918, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method ErrorCode addr 0x22069d0 size 0x80 virtual false final false
+  /// @brief Method ErrorCode, addr 0x23559cc, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectionFailedReasonMethods", modifiers: "&&", def_value: None }]

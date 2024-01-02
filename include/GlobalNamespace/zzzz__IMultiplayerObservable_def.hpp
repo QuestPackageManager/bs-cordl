@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(IMultiplayerObservable)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,19 +15,19 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerObservable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5143))
 // CS Name: ::IMultiplayerObservable*
 class CORDL_TYPE IMultiplayerObservable {
 public:
   // Declarations
-  __declspec(property(get = get_offsetSyncTime)) float_t offsetSyncTime;
+  __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
   __declspec(property(get = get_isFailed)) bool isFailed;
 
-  /// @brief Method get_offsetSyncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_offsetSyncTime();
+  /// @brief Method get_offsetSyncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_isFailed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isFailed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isFailed();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerObservable", modifiers: "&&", def_value: None }]

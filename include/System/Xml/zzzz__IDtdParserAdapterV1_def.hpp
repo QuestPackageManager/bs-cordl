@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Xml::IDtdParserAdapterV1);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11357))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11429))
 // CS Name: ::System.Xml::IDtdParserAdapterV1*
 class CORDL_TYPE IDtdParserAdapterV1 {
 public:
@@ -37,13 +37,13 @@ public:
   /// @brief Convert operator to "::System::Xml::IDtdParserAdapter"
   constexpr operator ::System::Xml::IDtdParserAdapter*() noexcept;
 
-  /// @brief Method get_V1CompatibilityMode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_V1CompatibilityMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_V1CompatibilityMode();
 
-  /// @brief Method get_Normalization addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Normalization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_Normalization();
 
-  /// @brief Method get_Namespaces addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Namespaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_Namespaces();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDtdParserAdapterV1", modifiers: "&&", def_value: None }]

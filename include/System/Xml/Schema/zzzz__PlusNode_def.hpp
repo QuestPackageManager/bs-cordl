@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::PlusNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11530))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11602))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11606))
 // CS Name: ::System.Xml.Schema::PlusNode*
 class CORDL_TYPE PlusNode : public ::System::Xml::Schema::InteriorNode {
 public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos addr 0x2731b3c size 0x9c virtual true final false
+  /// @brief Method ConstructPos, addr 0x28aeb60, size 0x9c, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable addr 0x2731bd8 size 0x20 virtual true final false
+  /// @brief Method get_IsNullable, addr 0x28aebfc, size 0x20, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
   static inline ::System::Xml::Schema::PlusNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2731bf8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28aec1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlusNode", modifiers: "&&", def_value: None }]

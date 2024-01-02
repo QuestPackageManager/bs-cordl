@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentTypeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4214))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4182))
 // CS Name: ::EnvironmentTypeSO*
 class CORDL_TYPE EnvironmentTypeSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__typeNameLocalizationKey(::StringW value);
 
-  /// @brief Method get_typeNameLocalizationKey addr 0x21d1d94 size 0x8 virtual false final false
+  /// @brief Method get_typeNameLocalizationKey, addr 0x23230f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_typeNameLocalizationKey();
 
   static inline ::GlobalNamespace::EnvironmentTypeSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21d1d9c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2323100, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentTypeSO", modifiers: "&&", def_value: None }]

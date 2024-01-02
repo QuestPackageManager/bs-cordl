@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CryptoApiEntropySourceProvider)
+namespace Org::BouncyCastle::Crypto {
+class IEntropySourceProvider;
+}
 namespace Org::BouncyCastle::Crypto::Prng {
 class __CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 }
@@ -14,9 +17,6 @@ class RandomNumberGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
-}
-namespace Org::BouncyCastle::Crypto {
-class IEntropySourceProvider;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvid
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1103))
 // CS Name: ::CryptoApiEntropySourceProvider::CryptoApiEntropySource*
 class CORDL_TYPE __CryptoApiEntropySourceProvider__CryptoApiEntropySource : public ::System::Object {
@@ -75,16 +75,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng,
                                                                                                                       bool predictionResistant, int32_t entropySize);
 
-  /// @brief Method .ctor addr 0xecbb7c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0xf41d68, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool predictionResistant, int32_t entropySize);
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant addr 0xecbbbc size 0x8 virtual true final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0xf41da8, size 0x8, virtual true, abstract: false, final true
   inline bool Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy addr 0xecbbc4 size 0x88 virtual true final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0xf41db0, size 0x88, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org_BouncyCastle_Crypto_IEntropySource_GetEntropy();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize addr 0xecbc4c size 0x8 virtual true final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0xf41e38, size 0x8, virtual true, abstract: false, final true
   inline int32_t Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CryptoApiEntropySourceProvider__CryptoApiEntropySource", modifiers: "&&", def_value: None }]
@@ -126,7 +126,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySour
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1104))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::CryptoApiEntropySourceProvider*
 class CORDL_TYPE CryptoApiEntropySourceProvider : public ::System::Object {
@@ -157,15 +157,15 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0xecba54 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0xf41c40, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool isPredictionResistant);
 
-  /// @brief Method .ctor addr 0xecba78 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0xf41c64, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::RandomNumberGenerator* rng, bool isPredictionResistant);
 
-  /// @brief Method Get addr 0xecbafc size 0x80 virtual true final true
+  /// @brief Method Get, addr 0xf41ce8, size 0x80, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptoApiEntropySourceProvider", modifiers: "&&", def_value: None }]

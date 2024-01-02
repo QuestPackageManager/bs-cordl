@@ -11,34 +11,34 @@ namespace HMUI {
 class __ViewControllerTransitionHelpers____c__DisplayClass6_0;
 }
 namespace HMUI {
+class __ViewControllerTransitionHelpers___DoVerticalTransition_d__6;
+}
+namespace HMUI {
 class __ViewControllerTransitionHelpers___DoPresentTransition_d__3;
 }
 namespace HMUI {
 class __ViewControllerTransitionHelpers___DoDismissTransition_d__4;
 }
 namespace HMUI {
-struct __ViewController__AnimationDirection;
+class __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace HMUI {
+class __ViewControllerTransitionHelpers____c__DisplayClass5_0;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace HMUI {
-class ViewController;
-}
-namespace HMUI {
-class __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5;
+struct __ViewController__AnimationDirection;
 }
 namespace HMUI {
 class __ViewControllerTransitionHelpers___AnimationCoroutine_d__8;
 }
 namespace HMUI {
-class __ViewControllerTransitionHelpers___DoVerticalTransition_d__6;
-}
-namespace HMUI {
-class __ViewControllerTransitionHelpers____c__DisplayClass5_0;
+class ViewController;
 }
 namespace System {
 class Object;
@@ -87,8 +87,8 @@ MARK_REF_PTR_T(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13718))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13606))
 // CS Name: ::ViewControllerTransitionHelpers::<DoPresentTransition>d__3*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoPresentTransition_d__3 : public ::System::Object {
 public:
@@ -162,22 +162,22 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fd6d94 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x212e730, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fd6fd4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x212e970, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fd6fd8 size 0x94 virtual true final true
+  /// @brief Method MoveNext, addr 0x212e974, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd706c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x212ea08, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd7074 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x212ea10, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd70b4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x212ea50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers___DoPresentTransition_d__3", modifiers: "&&", def_value: None }]
@@ -234,8 +234,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoPresentTran
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13718))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13724))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13607))
 // CS Name: ::ViewControllerTransitionHelpers::<DoDismissTransition>d__4*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoDismissTransition_d__4 : public ::System::Object {
 public:
@@ -309,22 +309,22 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fd6dbc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x212e758, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fd70bc size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x212ea58, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fd70c0 size 0x94 virtual true final true
+  /// @brief Method MoveNext, addr 0x212ea5c, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd7154 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x212eaf0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd715c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x212eaf8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd719c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x212eb38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers___DoDismissTransition_d__4", modifiers: "&&", def_value: None }]
@@ -381,8 +381,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoDismissTran
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13725))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13608))
 // CS Name: ::ViewControllerTransitionHelpers::<>c__DisplayClass5_0*
 class CORDL_TYPE __ViewControllerTransitionHelpers____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -425,10 +425,10 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd71a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212eb40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DoHorizontalTransition>b__0 addr 0x1fd71ac size 0xd0 virtual false final false
+  /// @brief Method <DoHorizontalTransition>b__0, addr 0x212eb48, size 0xd0, virtual false, abstract: false, final false
   inline void _DoHorizontalTransition_b__0(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -475,8 +475,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers____c__DisplayCl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13609))
 // CS Name: ::ViewControllerTransitionHelpers::<DoHorizontalTransition>d__5*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5 : public ::System::Object {
 public:
@@ -550,22 +550,22 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fd6e68 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x212e804, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fd727c size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x212ec18, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fd7280 size 0x158 virtual true final true
+  /// @brief Method MoveNext, addr 0x212ec1c, size 0x158, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd73d8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x212ed74, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd73e0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x212ed7c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd7420 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x212edbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5", modifiers: "&&", def_value: None }]
@@ -622,8 +622,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoHorizontalT
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13727))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13610))
 // CS Name: ::ViewControllerTransitionHelpers::<>c__DisplayClass6_0*
 class CORDL_TYPE __ViewControllerTransitionHelpers____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -666,10 +666,10 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd7428 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212edc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DoVerticalTransition>b__0 addr 0x1fd7430 size 0xe4 virtual false final false
+  /// @brief Method <DoVerticalTransition>b__0, addr 0x212edcc, size 0xe4, virtual false, abstract: false, final false
   inline void _DoVerticalTransition_b__0(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -716,8 +716,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers____c__DisplayCl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13728))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13611))
 // CS Name: ::ViewControllerTransitionHelpers::<DoVerticalTransition>d__6*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoVerticalTransition_d__6 : public ::System::Object {
 public:
@@ -791,22 +791,22 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fd6f14 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x212e8b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fd7514 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x212eeb0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fd7518 size 0x15c virtual true final true
+  /// @brief Method MoveNext, addr 0x212eeb4, size 0x15c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd7674 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x212f010, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd767c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x212f018, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd76bc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x212f058, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers___DoVerticalTransition_d__6", modifiers: "&&", def_value: None }]
@@ -863,8 +863,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoVerticalTra
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13729))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13612))
 // CS Name: ::ViewControllerTransitionHelpers::<AnimationCoroutine>d__8*
 class CORDL_TYPE __ViewControllerTransitionHelpers___AnimationCoroutine_d__8 : public ::System::Object {
 public:
@@ -920,22 +920,22 @@ public:
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1fd6fa4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x212e940, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1fd76c4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x212f060, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1fd76c8 size 0xdc virtual true final true
+  /// @brief Method MoveNext, addr 0x212f064, size 0xdc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1fd77a4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x212f140, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1fd77ac size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x212f148, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1fd77ec size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x212f188, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ViewControllerTransitionHelpers___AnimationCoroutine_d__8", modifiers: "&&", def_value: None }]
@@ -982,8 +982,8 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___AnimationCoro
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13730))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13613))
 // CS Name: ::HMUI::ViewControllerTransitionHelpers*
 class CORDL_TYPE ViewControllerTransitionHelpers : public ::System::Object {
 public:
@@ -1002,31 +1002,31 @@ public:
 
   using _DoPresentTransition_d__3 = ::HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3;
 
-  /// @brief Method DoPresentTransition addr 0x1fd668c size 0x8c virtual false final false
+  /// @brief Method DoPresentTransition, addr 0x212e028, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoPresentTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                         ::HMUI::__ViewController__AnimationDirection animationDirection, float_t moveOffsetMultiplier);
 
-  /// @brief Method DoDismissTransition addr 0x1fd6cb8 size 0x8c virtual false final false
+  /// @brief Method DoDismissTransition, addr 0x212e654, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoDismissTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                         ::HMUI::__ViewController__AnimationDirection animationDirection, float_t moveOffsetMultiplier);
 
-  /// @brief Method DoHorizontalTransition addr 0x1fd6de4 size 0x84 virtual false final false
+  /// @brief Method DoHorizontalTransition, addr 0x212e780, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoHorizontalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                            float_t moveOffsetMultiplier);
 
-  /// @brief Method DoVerticalTransition addr 0x1fd6e90 size 0x84 virtual false final false
+  /// @brief Method DoVerticalTransition, addr 0x212e82c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoVerticalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                          float_t moveOffsetMultiplier);
 
-  /// @brief Method ImmediateTransition addr 0x1fd6718 size 0xfc virtual false final false
+  /// @brief Method ImmediateTransition, addr 0x212e0b4, size 0xfc, virtual false, abstract: false, final false
   static inline void ImmediateTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController);
 
-  /// @brief Method AnimationCoroutine addr 0x1fd6f3c size 0x68 virtual false final false
+  /// @brief Method AnimationCoroutine, addr 0x212e8d8, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* AnimationCoroutine(::System::Action_1<float_t>* transitionAnimation);
 
   static inline ::HMUI::ViewControllerTransitionHelpers* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd6fcc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212e968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ViewControllerTransitionHelpers", modifiers: "&&", def_value: None }]

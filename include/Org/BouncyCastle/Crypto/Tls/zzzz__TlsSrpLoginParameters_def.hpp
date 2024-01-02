@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSrpLoginParameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1327))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSrpLoginParameters*
 class CORDL_TYPE TlsSrpLoginParameters : public ::System::Object {
@@ -64,16 +64,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor addr 0xf427dc size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xfb8a24, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method get_Group addr 0xf42818 size 0x8 virtual true final false
+  /// @brief Method get_Group, addr 0xfb8a60, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* get_Group();
 
-  /// @brief Method get_Salt addr 0xf42820 size 0x8 virtual true final false
+  /// @brief Method get_Salt, addr 0xfb8a68, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method get_Verifier addr 0xf42828 size 0x8 virtual true final false
+  /// @brief Method get_Verifier, addr 0xfb8a70, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Verifier();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSrpLoginParameters", modifiers: "&&", def_value: None }]

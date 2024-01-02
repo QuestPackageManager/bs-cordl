@@ -8,8 +8,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReflectPropertyDescriptor)
+namespace System::ComponentModel {
+class IExtenderProvider;
+}
+namespace System::ComponentModel {
+class PropertyDescriptor;
+}
 namespace System {
-class Type;
+class Object;
+}
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class EventArgs;
 }
 namespace System::Diagnostics {
 class TraceSwitch;
@@ -17,29 +32,14 @@ class TraceSwitch;
 namespace System {
 class Attribute;
 }
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class PropertyDescriptor;
-}
-namespace System {
-class EventArgs;
-}
-namespace System::Reflection {
-class PropertyInfo;
-}
 namespace System::ComponentModel {
 class EventDescriptor;
 }
-namespace System::ComponentModel {
-class IExtenderProvider;
+namespace System {
+class Type;
 }
 namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Collections {
-class IList;
+class PropertyInfo;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::System::ComponentModel::ReflectPropertyDescriptor);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8344)), TypeDefinitionIndex(TypeDefinitionIndex(8281))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9507)), TypeDefinitionIndex(TypeDefinitionIndex(9444))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9475))
 // CS Name: ::System.ComponentModel::ReflectPropertyDescriptor*
 class CORDL_TYPE ReflectPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
@@ -286,14 +286,14 @@ public:
   static inline ::System::ComponentModel::ReflectPropertyDescriptor* New_ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type,
                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method .ctor addr 0x27a0dc0 size 0x2f0 virtual false final false
+  /// @brief Method .ctor, addr 0x291ede8, size 0x2f0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
   static inline ::System::ComponentModel::ReflectPropertyDescriptor* New_ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::System::Reflection::PropertyInfo* propInfo,
                                                                               ::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod,
                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x27a10b0 size 0x120 virtual false final false
+  /// @brief Method .ctor, addr 0x291f0d8, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::System::Reflection::PropertyInfo* propInfo, ::System::Reflection::MethodInfo* getMethod,
                     ::System::Reflection::MethodInfo* setMethod, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
@@ -301,80 +301,80 @@ public:
                                                                               ::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod,
                                                                               ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x27a11d0 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x291f1f8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentClass, ::StringW name, ::System::Type* type, ::System::Type* receiverType, ::System::Reflection::MethodInfo* getMethod,
                     ::System::Reflection::MethodInfo* setMethod, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method get_AmbientValue addr 0x27a129c size 0x17c virtual false final false
+  /// @brief Method get_AmbientValue, addr 0x291f2c4, size 0x17c, virtual false, abstract: false, final false
   inline ::System::Object* get_AmbientValue();
 
-  /// @brief Method get_ComponentType addr 0x27a1418 size 0x8 virtual true final false
+  /// @brief Method get_ComponentType, addr 0x291f440, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_DefaultValue addr 0x27a1420 size 0x290 virtual false final false
+  /// @brief Method get_DefaultValue, addr 0x291f448, size 0x290, virtual false, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_GetMethodValue addr 0x27a16b0 size 0x43c virtual false final false
+  /// @brief Method get_GetMethodValue, addr 0x291f6d8, size 0x43c, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_GetMethodValue();
 
-  /// @brief Method get_IsExtender addr 0x27a1aec size 0x60 virtual false final false
+  /// @brief Method get_IsExtender, addr 0x291fb14, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsExtender();
 
-  /// @brief Method get_IsReadOnly addr 0x27a1b4c size 0x100 virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x291fb74, size 0x100, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType addr 0x27a2150 size 0x8 virtual true final false
+  /// @brief Method get_PropertyType, addr 0x2920178, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_ResetMethodValue addr 0x27a2158 size 0x208 virtual false final false
+  /// @brief Method get_ResetMethodValue, addr 0x2920180, size 0x208, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_ResetMethodValue();
 
-  /// @brief Method get_SetMethodValue addr 0x27a1c4c size 0x504 virtual false final false
+  /// @brief Method get_SetMethodValue, addr 0x291fc74, size 0x504, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_SetMethodValue();
 
-  /// @brief Method get_ShouldSerializeMethodValue addr 0x27a2360 size 0x208 virtual false final false
+  /// @brief Method get_ShouldSerializeMethodValue, addr 0x2920388, size 0x208, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_ShouldSerializeMethodValue();
 
-  /// @brief Method ExtenderCanResetValue addr 0x27a2568 size 0x284 virtual false final false
+  /// @brief Method ExtenderCanResetValue, addr 0x2920590, size 0x284, virtual false, abstract: false, final false
   inline bool ExtenderCanResetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method ExtenderGetReceiverType addr 0x27a291c size 0x8 virtual false final false
+  /// @brief Method ExtenderGetReceiverType, addr 0x2920944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* ExtenderGetReceiverType();
 
-  /// @brief Method ExtenderGetType addr 0x27a2924 size 0x10 virtual false final false
+  /// @brief Method ExtenderGetType, addr 0x292094c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* ExtenderGetType(::System::ComponentModel::IExtenderProvider* provider);
 
-  /// @brief Method ExtenderGetValue addr 0x27a27ec size 0x130 virtual false final false
+  /// @brief Method ExtenderGetValue, addr 0x2920814, size 0x130, virtual false, abstract: false, final false
   inline ::System::Object* ExtenderGetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method ExtenderResetValue addr 0x27a2934 size 0x514 virtual false final false
+  /// @brief Method ExtenderResetValue, addr 0x292095c, size 0x514, virtual false, abstract: false, final false
   inline void ExtenderResetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component, ::System::ComponentModel::PropertyDescriptor* notifyDesc);
 
-  /// @brief Method ExtenderSetValue addr 0x27a2e48 size 0x460 virtual false final false
+  /// @brief Method ExtenderSetValue, addr 0x2920e70, size 0x460, virtual false, abstract: false, final false
   inline void ExtenderSetValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component, ::System::Object* value, ::System::ComponentModel::PropertyDescriptor* notifyDesc);
 
-  /// @brief Method ExtenderShouldSerializeValue addr 0x27a32a8 size 0x430 virtual false final false
+  /// @brief Method ExtenderShouldSerializeValue, addr 0x29212d0, size 0x430, virtual false, abstract: false, final false
   inline bool ExtenderShouldSerializeValue(::System::ComponentModel::IExtenderProvider* provider, ::System::Object* component);
 
-  /// @brief Method CanResetValue addr 0x27a36d8 size 0x274 virtual true final false
+  /// @brief Method CanResetValue, addr 0x2921700, size 0x274, virtual true, abstract: false, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method FillAttributes addr 0x27a394c size 0xab8 virtual true final false
+  /// @brief Method FillAttributes, addr 0x2921974, size 0xab8, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributes);
 
-  /// @brief Method GetValue addr 0x27a4560 size 0x3c8 virtual true final false
+  /// @brief Method GetValue, addr 0x2922588, size 0x3c8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method OnValueChanged addr 0x27a4928 size 0xa8 virtual true final false
+  /// @brief Method OnValueChanged, addr 0x2922950, size 0xa8, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
-  /// @brief Method ResetValue addr 0x27a49d0 size 0x454 virtual true final false
+  /// @brief Method ResetValue, addr 0x29229f8, size 0x454, virtual true, abstract: false, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue addr 0x27a4e24 size 0x5dc virtual true final false
+  /// @brief Method SetValue, addr 0x2922e4c, size 0x5dc, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue addr 0x27a5400 size 0x328 virtual true final false
+  /// @brief Method ShouldSerializeValue, addr 0x2923428, size 0x328, virtual true, abstract: false, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReflectPropertyDescriptor", modifiers: "&&", def_value: None }]

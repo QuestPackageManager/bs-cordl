@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BerSequenceParser)
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1StreamParser;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class IAsn1Convertible;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1StreamParser;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSequenceParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(490))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSequenceParser*
 class CORDL_TYPE BerSequenceParser : public ::System::Object {
@@ -49,13 +49,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerSequenceParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method .ctor addr 0x1145544 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11b6794, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject addr 0x114d194 size 0x20 virtual true final true
+  /// @brief Method ReadObject, addr 0x11be3e4, size 0x20, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object addr 0x114556c size 0x74 virtual true final true
+  /// @brief Method ToAsn1Object, addr 0x11b67bc, size 0x74, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "BerSequenceParser", modifiers: "&&", def_value: None }]

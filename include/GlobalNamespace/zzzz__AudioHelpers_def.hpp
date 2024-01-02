@@ -15,16 +15,16 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15841))
 // CS Name: ::AudioHelpers*
 class CORDL_TYPE AudioHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizedVolumeToDB addr 0x1f8eb50 size 0x74 virtual false final false
+  /// @brief Method NormalizedVolumeToDB, addr 0xe265e4, size 0x74, virtual false, abstract: false, final false
   static inline float_t NormalizedVolumeToDB(float_t normalizedVolume);
 
-  /// @brief Method DBToNormalizedVolume addr 0x1f8ebc4 size 0x18 virtual false final false
+  /// @brief Method DBToNormalizedVolume, addr 0xe26658, size 0x18, virtual false, abstract: false, final false
   static inline float_t DBToNormalizedVolume(float_t db);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioHelpers", modifiers: "&&", def_value: None }]

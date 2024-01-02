@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IFlyingObjectEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
 // CS Name: ::IFlyingObjectEffectDidFinishEvent*
 class CORDL_TYPE IFlyingObjectEffectDidFinishEvent {
 public:
   // Declarations
-  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFlyingObjectEffectDidFinishEvent", modifiers: "&&", def_value: None }]

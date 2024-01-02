@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
 // CS Name: ::IMultiplayerLevelEndActionsPublisher*
 class CORDL_TYPE IMultiplayerLevelEndActionsPublisher {
 public:
   // Declarations
-  /// @brief Method add_playerDidFinishEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_playerDidFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerDidFinishEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_playerDidFinishEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerLevelEndActionsPublisher", modifiers: "&&", def_value: None }]

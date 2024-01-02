@@ -16,40 +16,40 @@ MARK_REF_PTR_T(::System::Numerics::ConstantHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Numerics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3550))
 // CS Name: ::System.Numerics::ConstantHelper*
 class CORDL_TYPE ConstantHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetByteWithAllBitsSet addr 0x23a2320 size 0x8 virtual false final false
+  /// @brief Method GetByteWithAllBitsSet, addr 0x24fbe9c, size 0x8, virtual false, abstract: false, final false
   static inline uint8_t GetByteWithAllBitsSet();
 
-  /// @brief Method GetSByteWithAllBitsSet addr 0x23a2328 size 0x8 virtual false final false
+  /// @brief Method GetSByteWithAllBitsSet, addr 0x24fbea4, size 0x8, virtual false, abstract: false, final false
   static inline int8_t GetSByteWithAllBitsSet();
 
-  /// @brief Method GetUInt16WithAllBitsSet addr 0x23a2330 size 0x8 virtual false final false
+  /// @brief Method GetUInt16WithAllBitsSet, addr 0x24fbeac, size 0x8, virtual false, abstract: false, final false
   static inline uint16_t GetUInt16WithAllBitsSet();
 
-  /// @brief Method GetInt16WithAllBitsSet addr 0x23a2338 size 0x8 virtual false final false
+  /// @brief Method GetInt16WithAllBitsSet, addr 0x24fbeb4, size 0x8, virtual false, abstract: false, final false
   static inline int16_t GetInt16WithAllBitsSet();
 
-  /// @brief Method GetUInt32WithAllBitsSet addr 0x23a2340 size 0x8 virtual false final false
+  /// @brief Method GetUInt32WithAllBitsSet, addr 0x24fbebc, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetUInt32WithAllBitsSet();
 
-  /// @brief Method GetInt32WithAllBitsSet addr 0x23a2348 size 0x8 virtual false final false
+  /// @brief Method GetInt32WithAllBitsSet, addr 0x24fbec4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetInt32WithAllBitsSet();
 
-  /// @brief Method GetUInt64WithAllBitsSet addr 0x23a2350 size 0x8 virtual false final false
+  /// @brief Method GetUInt64WithAllBitsSet, addr 0x24fbecc, size 0x8, virtual false, abstract: false, final false
   static inline uint64_t GetUInt64WithAllBitsSet();
 
-  /// @brief Method GetInt64WithAllBitsSet addr 0x23a2358 size 0x8 virtual false final false
+  /// @brief Method GetInt64WithAllBitsSet, addr 0x24fbed4, size 0x8, virtual false, abstract: false, final false
   static inline int64_t GetInt64WithAllBitsSet();
 
-  /// @brief Method GetSingleWithAllBitsSet addr 0x23a2360 size 0xc virtual false final false
+  /// @brief Method GetSingleWithAllBitsSet, addr 0x24fbedc, size 0xc, virtual false, abstract: false, final false
   static inline float_t GetSingleWithAllBitsSet();
 
-  /// @brief Method GetDoubleWithAllBitsSet addr 0x23a236c size 0x8 virtual false final false
+  /// @brief Method GetDoubleWithAllBitsSet, addr 0x24fbee8, size 0x8, virtual false, abstract: false, final false
   static inline double_t GetDoubleWithAllBitsSet();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstantHelper", modifiers: "&&", def_value: None }]

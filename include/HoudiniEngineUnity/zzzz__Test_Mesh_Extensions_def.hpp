@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Test_Mesh_Extensions)
-namespace UnityEngine {
-class Mesh;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
-class Test_Mesh;
+class __Test_Mesh_Extensions____c;
+}
+namespace UnityEngine {
+class Mesh;
 }
 namespace HoudiniEngineUnity {
-class __Test_Mesh_Extensions____c;
+class Test_Mesh;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Mesh_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9844))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9917))
 // CS Name: ::Test_Mesh_Extensions::<>c*
 class CORDL_TYPE __Test_Mesh_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Mesh_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x208d4a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21e5e44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0 addr 0x208d4b0 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x21e5e4c, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__1_0(::UnityEngine::Mesh* lod);
 
-  /// @brief Method <ToTestObject>b__2_0 addr 0x208d514 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x21e5eb0, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Mesh* _ToTestObject_b__2_0(::UnityEngine::Mesh* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Mesh_Extensions____c", modifiers: "&&", def_value: None }]
@@ -96,21 +96,21 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Mesh_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9845))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9918))
 // CS Name: ::HoudiniEngineUnity::Test_Mesh_Extensions*
 class CORDL_TYPE Test_Mesh_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Mesh_Extensions____c;
 
-  /// @brief Method ToTestObject addr 0x208d1ec size 0x64 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e5b88, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Mesh* ToTestObject(::UnityEngine::Mesh* self);
 
-  /// @brief Method ToTestObject addr 0x208d250 size 0xf8 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e5bec, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Mesh*, ::Array<::HoudiniEngineUnity::Test_Mesh*>*> ToTestObject(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> self);
 
-  /// @brief Method ToTestObject addr 0x208d348 size 0xfc virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e5ce4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Mesh*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Mesh_Extensions", modifiers: "&&", def_value: None }]

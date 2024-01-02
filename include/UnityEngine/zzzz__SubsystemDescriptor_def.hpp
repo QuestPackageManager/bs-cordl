@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SubsystemDescriptor)
 namespace UnityEngine {
-class ISubsystemDescriptor;
+class ISubsystem;
 }
 namespace UnityEngine {
-class ISubsystem;
+class ISubsystemDescriptor;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemDescriptor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15854))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15962))
 // CS Name: ::UnityEngine::SubsystemDescriptor*
 class CORDL_TYPE SubsystemDescriptor : public ::System::Object {
 public:
@@ -41,18 +41,18 @@ public:
 
   constexpr void __set__id_k__BackingField(::StringW value);
 
-  /// @brief Method get_id addr 0x2bb2e24 size 0x8 virtual true final true
+  /// @brief Method get_id, addr 0x2d1a1d4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create addr 0x2bb2e2c size 0xc virtual true final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x2d1a1dc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
-  /// @brief Method CreateImpl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateImpl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* CreateImpl();
 
   static inline ::UnityEngine::SubsystemDescriptor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb2e38 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1a1e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptor", modifiers: "&&", def_value: None }]

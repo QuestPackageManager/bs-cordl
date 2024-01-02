@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorArrayLightWithIdsGroupEntry)
 namespace GlobalNamespace {
-class ColorArrayLightWithIds;
+class LightGroupSO;
 }
 namespace GlobalNamespace {
-class LightGroupSO;
+class ColorArrayLightWithIds;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorArrayLightWithIdsGroupEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14737))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14521))
 // CS Name: ::ColorArrayLightWithIdsGroupEntry*
 class CORDL_TYPE ColorArrayLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,12 +57,12 @@ public:
 
   constexpr void __set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method get_lightGroups addr 0x1fb9a64 size 0x8 virtual false final false
+  /// @brief Method get_lightGroups, addr 0x210f088, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> get_lightGroups();
 
   static inline ::GlobalNamespace::ColorArrayLightWithIdsGroupEntry* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb9a6c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210f090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]

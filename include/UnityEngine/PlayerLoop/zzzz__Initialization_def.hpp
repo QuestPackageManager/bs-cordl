@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(Initialization)
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__AsyncUploadTimeSlicedUpdate;
+struct __Initialization__DirectorSampleTime;
+}
+namespace UnityEngine::PlayerLoop {
+struct __Initialization__ProfilerStartFrame;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Initialization__XREarlyUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Initialization__DirectorSampleTime;
-}
-namespace UnityEngine::PlayerLoop {
-struct __Initialization__ProfilerStartFrame;
+struct __Initialization__AsyncUploadTimeSlicedUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Initialization__UpdateCameraMotionVectors;
@@ -64,7 +64,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__Initialization__XREarlyUpdate);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10399))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10477))
 // CS Name: ::Initialization::ProfilerStartFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__ProfilerStartFrame {
@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10400))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10478))
 // CS Name: ::Initialization::UpdateCameraMotionVectors
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__UpdateCameraMotionVectors {
@@ -120,7 +120,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10401))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10479))
 // CS Name: ::Initialization::DirectorSampleTime
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__DirectorSampleTime {
@@ -148,7 +148,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10402))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10480))
 // CS Name: ::Initialization::AsyncUploadTimeSlicedUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__AsyncUploadTimeSlicedUpdate {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10403))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10481))
 // CS Name: ::Initialization::SynchronizeState
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__SynchronizeState {
@@ -204,7 +204,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10404))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10482))
 // CS Name: ::Initialization::SynchronizeInputs
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__SynchronizeInputs {
@@ -232,7 +232,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10405))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10483))
 // CS Name: ::Initialization::XREarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Initialization__XREarlyUpdate {
@@ -260,7 +260,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Initi
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10484))
 // CS Name: ::UnityEngine.PlayerLoop::Initialization
 #pragma pack(push, 0)
 struct CORDL_TYPE Initialization {

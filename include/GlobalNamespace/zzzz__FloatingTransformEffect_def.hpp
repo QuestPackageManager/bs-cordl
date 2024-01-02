@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloatingTransformEffect)
-namespace Zenject {
-class ITickable;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatingTransformEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4970)) CS Name: ::FloatingTransformEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4850)) CS Name: ::FloatingTransformEffect*
 class CORDL_TYPE FloatingTransformEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -233,21 +233,21 @@ public:
 
   constexpr void __set__targetRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method Start addr 0x2263484 size 0x38 virtual false final false
+  /// @brief Method Start, addr 0x2397e88, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Tick addr 0x2263594 size 0x150 virtual true final true
+  /// @brief Method Tick, addr 0x2397f98, size 0x150, virtual true, abstract: false, final true
   inline void Tick();
 
-  /// @brief Method Refresh addr 0x22634bc size 0xd8 virtual false final false
+  /// @brief Method Refresh, addr 0x2397ec0, size 0xd8, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method GetPoint addr 0x22636e4 size 0x8c virtual false final false
+  /// @brief Method GetPoint, addr 0x23980e8, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(float_t time);
 
   static inline ::GlobalNamespace::FloatingTransformEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2263770 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2398174, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatingTransformEffect", modifiers: "&&", def_value: None }]

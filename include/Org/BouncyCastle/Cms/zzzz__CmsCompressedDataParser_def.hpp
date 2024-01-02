@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsCompressedDataParser)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -30,15 +30,15 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor addr 0x116bce8 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x11dcf38, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method .ctor addr 0x116bd60 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11dcfb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedData);
 
-  /// @brief Method GetContent addr 0x116bd64 size 0x300 virtual false final false
+  /// @brief Method GetContent, addr 0x11dcfb4, size 0x300, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "&&", def_value: None }]

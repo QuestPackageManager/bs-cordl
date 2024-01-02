@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ECPrivateKeyParameters)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECDomainParameters;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECDomainParameters;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -48,36 +48,36 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d,
                                                                                           ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebe704 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0xf338f0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xebe7fc size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0xf339e8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d,
                                                                                           ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebe764 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xf33950, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d,
                                                                                           ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xebe89c size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xf33a88, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Math::BigInteger* d, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_D addr 0xebe934 size 0x8 virtual false final false
+  /// @brief Method get_D, addr 0xf33b20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_D();
 
-  /// @brief Method Equals addr 0xebe93c size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0xf33b28, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xebe9d8 size 0x58 virtual false final false
+  /// @brief Method Equals, addr 0xf33bc4, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xebea30 size 0x40 virtual true final false
+  /// @brief Method GetHashCode, addr 0xf33c1c, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPrivateKeyParameters", modifiers: "&&", def_value: None }]

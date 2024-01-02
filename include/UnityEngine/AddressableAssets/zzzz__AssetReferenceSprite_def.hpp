@@ -16,17 +16,17 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceSprite);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10213)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14353), inst: 765 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14353))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14358)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceSprite*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(14082)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst:
+// 777 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14087)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceSprite*
 class CORDL_TYPE AssetReferenceSprite : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Sprite*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceSprite* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x28a5edc size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23c24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset addr 0x28a5f34 size 0x8 virtual true final false
+  /// @brief Method ValidateAsset, addr 0x2a23c7c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceSprite", modifiers: "&&", def_value: None }]

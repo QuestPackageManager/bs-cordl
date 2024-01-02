@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WTauNafMultiplier)
-namespace Org::BouncyCastle::Math::EC {
-class AbstractF2mPoint;
+namespace Org::BouncyCastle::Math::EC::Abc {
+class ZTauElement;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Math::EC {
+class ECPoint;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class __WTauNafMultiplier__WTauNafCallback;
 }
 namespace Org::BouncyCastle::Math::EC {
-class ECPoint;
+class AbstractF2mPoint;
 }
-namespace Org::BouncyCastle::Math::EC::Abc {
-class ZTauElement;
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class IPreCompCallback;
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__W
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1547))
 // CS Name: ::WTauNafMultiplier::WTauNafCallback*
 class CORDL_TYPE __WTauNafMultiplier__WTauNafCallback : public ::System::Object {
@@ -72,10 +72,10 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback* New_ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
-  /// @brief Method .ctor addr 0xfc8a14 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x103ac60, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
-  /// @brief Method Precompute addr 0xfc8aac size 0xe8 virtual true final true
+  /// @brief Method Precompute, addr 0x103acf8, size 0xe8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WTauNafMultiplier__WTauNafCallback", modifiers: "&&", def_value: None }]
@@ -127,19 +127,19 @@ public:
 
   static inline ::StringW getStaticF_PRECOMP_NAME();
 
-  /// @brief Method MultiplyPositive addr 0xfc8280 size 0x1f4 virtual true final false
+  /// @brief Method MultiplyPositive, addr 0x103a4cc, size 0x1f4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* point, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MultiplyWTnaf addr 0xfc8474 size 0x14c virtual false final false
+  /// @brief Method MultiplyWTnaf, addr 0x103a6c0, size 0x14c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a,
                                                                         int8_t mu);
 
-  /// @brief Method MultiplyFromWTnaf addr 0xfc85c0 size 0x454 virtual false final false
+  /// @brief Method MultiplyFromWTnaf, addr 0x103a80c, size 0x454, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t, ::Array<int8_t>*> u);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc8aa4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x103acf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WTauNafMultiplier", modifiers: "&&", def_value: None }]

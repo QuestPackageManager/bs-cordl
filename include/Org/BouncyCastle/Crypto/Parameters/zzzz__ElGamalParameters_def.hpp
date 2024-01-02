@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1048))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalParameters*
 class CORDL_TYPE ElGamalParameters : public ::System::Object {
@@ -68,30 +68,30 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0xec05dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf357c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method .ctor addr 0xec05e4 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0xf357d0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, int32_t l);
 
-  /// @brief Method get_P addr 0xec0698 size 0x8 virtual false final false
+  /// @brief Method get_P, addr 0xf35884, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_G addr 0xec06a0 size 0x8 virtual false final false
+  /// @brief Method get_G, addr 0xf3588c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_L addr 0xec06a8 size 0x8 virtual false final false
+  /// @brief Method get_L, addr 0xf35894, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_L();
 
-  /// @brief Method Equals addr 0xec06b0 size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0xf3589c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xec074c size 0x74 virtual false final false
+  /// @brief Method Equals, addr 0xf35938, size 0x74, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* other);
 
-  /// @brief Method GetHashCode addr 0xec07c0 size 0x58 virtual true final false
+  /// @brief Method GetHashCode, addr 0xf359ac, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ElGamalParameters", modifiers: "&&", def_value: None }]

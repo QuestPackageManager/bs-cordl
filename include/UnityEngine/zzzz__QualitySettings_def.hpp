@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(QualitySettings)
-namespace UnityEngine::Rendering {
-class RenderPipelineAsset;
+namespace UnityEngine {
+struct ColorSpace;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
-namespace UnityEngine {
-struct ColorSpace;
+namespace UnityEngine::Rendering {
+class RenderPipelineAsset;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,37 +24,37 @@ MARK_REF_PTR_T(::UnityEngine::QualitySettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10085))
 // CS Name: ::UnityEngine::QualitySettings*
 class CORDL_TYPE QualitySettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method set_vSyncCount addr 0x2b51274 size 0x3c virtual false final false
+  /// @brief Method set_vSyncCount, addr 0x2cb668c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_vSyncCount(int32_t value);
 
-  /// @brief Method get_antiAliasing addr 0x2b512b0 size 0x28 virtual false final false
+  /// @brief Method get_antiAliasing, addr 0x2cb66c8, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_antiAliasing();
 
-  /// @brief Method set_antiAliasing addr 0x2b512d8 size 0x3c virtual false final false
+  /// @brief Method set_antiAliasing, addr 0x2cb66f0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_antiAliasing(int32_t value);
 
-  /// @brief Method get_INTERNAL_renderPipeline addr 0x2b51314 size 0x28 virtual false final false
+  /// @brief Method get_INTERNAL_renderPipeline, addr 0x2cb672c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ScriptableObject* get_INTERNAL_renderPipeline();
 
-  /// @brief Method set_INTERNAL_renderPipeline addr 0x2b5133c size 0x3c virtual false final false
+  /// @brief Method set_INTERNAL_renderPipeline, addr 0x2cb6754, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_renderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method get_renderPipeline addr 0x2b51378 size 0x90 virtual false final false
+  /// @brief Method get_renderPipeline, addr 0x2cb6790, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rendering::RenderPipelineAsset* get_renderPipeline();
 
-  /// @brief Method set_renderPipeline addr 0x2b51408 size 0x3c virtual false final false
+  /// @brief Method set_renderPipeline, addr 0x2cb6820, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_maxQueuedFrames addr 0x2b51444 size 0x3c virtual false final false
+  /// @brief Method set_maxQueuedFrames, addr 0x2cb685c, size 0x3c, virtual false, abstract: false, final false
   static inline void set_maxQueuedFrames(int32_t value);
 
-  /// @brief Method get_activeColorSpace addr 0x2b51480 size 0x28 virtual false final false
+  /// @brief Method get_activeColorSpace, addr 0x2cb6898, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::ColorSpace get_activeColorSpace();
 
   // Ctor Parameters [CppParam { name: "", ty: "QualitySettings", modifiers: "&&", def_value: None }]

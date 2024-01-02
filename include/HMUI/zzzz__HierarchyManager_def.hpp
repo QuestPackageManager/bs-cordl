@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HierarchyManager)
 namespace HMUI {
-class FlowCoordinator;
-}
-namespace HMUI {
 class ScreenSystem;
 }
 namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+class GameScenesManager;
+}
+namespace HMUI {
+class FlowCoordinator;
 }
 namespace GlobalNamespace {
-class GameScenesManager;
+class ScenesTransitionSetupDataSO;
 }
 namespace Zenject {
 class DiContainer;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HMUI::HierarchyManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13700))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13583))
 // CS Name: ::HMUI::HierarchyManager*
 class CORDL_TYPE HierarchyManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -62,24 +62,24 @@ public:
 
   constexpr void __set__rootFlowCoordinator(::HMUI::FlowCoordinator* value);
 
-  /// @brief Method Start addr 0x1fd3148 size 0x11c virtual false final false
+  /// @brief Method Start, addr 0x212a800, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x1fd3310 size 0x140 virtual false final false
+  /// @brief Method OnDestroy, addr 0x212a9d0, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSceneTransitionDidFinish addr 0x1fd3264 size 0xac virtual false final false
+  /// @brief Method HandleSceneTransitionDidFinish, addr 0x212a91c, size 0xb4, virtual false, abstract: false, final false
   inline void HandleSceneTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method HandleBeforeDismissingScenes addr 0x1fd3450 size 0xac virtual false final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x212ab10, size 0xb4, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes();
 
-  /// @brief Method StartWithFlowCoordinator addr 0x1fd34fc size 0x24 virtual false final false
+  /// @brief Method StartWithFlowCoordinator, addr 0x212abc4, size 0x28, virtual false, abstract: false, final false
   inline void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
 
   static inline ::HMUI::HierarchyManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd3520 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212abec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HierarchyManager", modifiers: "&&", def_value: None }]

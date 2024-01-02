@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDifficultyBeatmapSet)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IDifficultyBeatmapSet);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4418))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4396))
 // CS Name: ::IDifficultyBeatmapSet*
 class CORDL_TYPE IDifficultyBeatmapSet {
 public:
@@ -32,10 +32,10 @@ public:
 
   __declspec(property(get = get_difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
 
-  /// @brief Method get_beatmapCharacteristic addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method get_difficultyBeatmaps addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_difficultyBeatmaps, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDifficultyBeatmapSet", modifiers: "&&", def_value: None }]

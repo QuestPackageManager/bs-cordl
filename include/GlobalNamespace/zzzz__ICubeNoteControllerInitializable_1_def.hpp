@@ -19,15 +19,15 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4745))
 // CS Name: ::ICubeNoteControllerInitializable`1<T>*
 class CORDL_TYPE ICubeNoteControllerInitializable_1 {
 public:
   // Declarations
-  /// @brief Method add_cubeNoteControllerDidInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<T>* value);
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<T>* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICubeNoteControllerInitializable_1", modifiers: "&&", def_value: None }]

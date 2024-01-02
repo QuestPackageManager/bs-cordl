@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRInitError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9376))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8607))
 // CS Name: ::OVR.OpenVR::EVRInitError
 struct CORDL_TYPE EVRInitError {
 public:

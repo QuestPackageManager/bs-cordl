@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachePolicy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(8158))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9321)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9322))
 // CS Name: ::System.Net.Cache::RequestCachePolicy*
 class CORDL_TYPE RequestCachePolicy : public ::System::Object {
 public:
@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Net::Cache::RequestCachePolicy* New_ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method .ctor addr 0x2874af0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x29f1374, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCacheLevel level);
 
-  /// @brief Method get_Level addr 0x2874c00 size 0x8 virtual false final false
+  /// @brief Method get_Level, addr 0x29f1484, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheLevel get_Level();
 
-  /// @brief Method ToString addr 0x2874c08 size 0x98 virtual true final false
+  /// @brief Method ToString, addr 0x29f148c, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCachePolicy", modifiers: "&&", def_value: None }]

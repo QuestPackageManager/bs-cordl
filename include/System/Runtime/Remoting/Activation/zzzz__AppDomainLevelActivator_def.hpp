@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AppDomainLevelActivator)
 namespace System::Runtime::Remoting::Activation {
+class IConstructionCallMessage;
+}
+namespace System::Runtime::Remoting::Activation {
 class IConstructionReturnMessage;
 }
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
-}
-namespace System::Runtime::Remoting::Activation {
-class IConstructionCallMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::AppDomainLevelActivator)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3129))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3130))
 // CS Name: ::System.Runtime.Remoting.Activation::AppDomainLevelActivator*
 class CORDL_TYPE AppDomainLevelActivator : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Activation::AppDomainLevelActivator* New_ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method .ctor addr 0x234ba08 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x24a44fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW activationUrl, ::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator addr 0x234bfa8 size 0x8 virtual true final true
+  /// @brief Method get_NextActivator, addr 0x24a4a9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
-  /// @brief Method Activate addr 0x234bfb0 size 0x4dc virtual true final true
+  /// @brief Method Activate, addr 0x24a4aa4, size 0x4dc, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainLevelActivator", modifiers: "&&", def_value: None }]

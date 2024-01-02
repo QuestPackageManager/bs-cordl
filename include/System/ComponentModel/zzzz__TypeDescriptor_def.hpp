@@ -10,49 +10,64 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeDescriptor)
 namespace System::ComponentModel {
-class __TypeDescriptor__MemberDescriptorComparer;
-}
-namespace System::ComponentModel {
-class AttributeCollection;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__AttributeFilterCacheItem;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptionNode;
+class MemberDescriptor;
 }
 namespace System::Collections {
-class Hashtable;
+class ICollection;
 }
 namespace System::ComponentModel {
 class ICustomTypeDescriptor;
 }
 namespace System::ComponentModel {
-class EventDescriptorCollection;
-}
-namespace System::ComponentModel {
-class MemberDescriptor;
-}
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__IUnimplemented;
-}
-namespace System::ComponentModel {
-class TypeDescriptionProvider;
-}
-namespace System::ComponentModel {
-class __TypeDescriptor__TypeDescriptorComObject;
+class WeakHashtable;
 }
 namespace System {
 struct Guid;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__MergedTypeDescriptor;
+}
+namespace System::ComponentModel {
+class PropertyDescriptorCollection;
+}
+namespace System::ComponentModel {
+class EventDescriptorCollection;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__IUnimplemented;
 }
 namespace System::Collections {
 class IList;
 }
 namespace System::ComponentModel {
-class __TypeDescriptor__MergedTypeDescriptor;
+class RefreshEventHandler;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__FilterCacheItem;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__MemberDescriptorComparer;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__TypeDescriptorComObject;
+}
+namespace System::Diagnostics {
+class BooleanSwitch;
+}
+namespace System {
+class Type;
+}
+namespace System::ComponentModel {
+class __TypeDescriptor__AttributeFilterCacheItem;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::ComponentModel {
+class AttributeCollection;
+}
+namespace System::ComponentModel {
+class TypeDescriptionProvider;
 }
 namespace System::Collections {
 class ArrayList;
@@ -60,35 +75,20 @@ class ArrayList;
 namespace System::ComponentModel {
 class TypeConverter;
 }
-namespace System {
-class Attribute;
-}
-namespace System::ComponentModel {
-class PropertyDescriptorCollection;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::ComponentModel {
-class WeakHashtable;
-}
 namespace System::ComponentModel {
 class __TypeDescriptor__TypeDescriptorInterface;
 }
-namespace System::ComponentModel {
-class RefreshEventHandler;
-}
-namespace System::Diagnostics {
-class BooleanSwitch;
+namespace System {
+class Object;
 }
 namespace System::ComponentModel {
-class __TypeDescriptor__FilterCacheItem;
+class __TypeDescriptor__TypeDescriptionNode;
 }
 namespace System {
-class Type;
+class Attribute;
+}
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::ComponentModel::Design {
 class ITypeDescriptorFilterService;
@@ -97,10 +97,10 @@ namespace System::Collections {
 class IComparer;
 }
 namespace System::ComponentModel {
-class PropertyDescriptor;
+class EventDescriptor;
 }
 namespace System::ComponentModel {
-class EventDescriptor;
+class PropertyDescriptor;
 }
 namespace GlobalNamespace {
 struct __TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor;
@@ -161,8 +161,8 @@ MARK_VAL_T(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode__DefaultType
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9481))
 // CS Name: ::TypeDescriptor::AttributeFilterCacheItem*
 class CORDL_TYPE __TypeDescriptor__AttributeFilterCacheItem : public ::System::Object {
 public:
@@ -188,10 +188,10 @@ public:
   static inline ::System::ComponentModel::__TypeDescriptor__AttributeFilterCacheItem* New_ctor(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> filter,
                                                                                                ::System::Collections::ICollection* filteredMembers);
 
-  /// @brief Method .ctor addr 0x27b576c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2933794, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> filter, ::System::Collections::ICollection* filteredMembers);
 
-  /// @brief Method IsValid addr 0x27b56f4 size 0x78 virtual false final false
+  /// @brief Method IsValid, addr 0x293371c, size 0x78, virtual false, abstract: false, final false
   inline bool IsValid(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> filter);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeDescriptor__AttributeFilterCacheItem", modifiers: "&&", def_value: None }]
@@ -228,8 +228,8 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__AttributeFilt
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8319))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9482))
 // CS Name: ::TypeDescriptor::FilterCacheItem*
 class CORDL_TYPE __TypeDescriptor__FilterCacheItem : public ::System::Object {
 public:
@@ -255,10 +255,10 @@ public:
   static inline ::System::ComponentModel::__TypeDescriptor__FilterCacheItem* New_ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService,
                                                                                       ::System::Collections::ICollection* filteredMembers);
 
-  /// @brief Method .ctor addr 0x27b57a8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x29337d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService, ::System::Collections::ICollection* filteredMembers);
 
-  /// @brief Method IsValid addr 0x27b5798 size 0x10 virtual false final false
+  /// @brief Method IsValid, addr 0x29337c0, size 0x10, virtual false, abstract: false, final false
   inline bool IsValid(::System::ComponentModel::Design::ITypeDescriptorFilterService* filterService);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeDescriptor__FilterCacheItem", modifiers: "&&", def_value: None }]
@@ -296,7 +296,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__FilterCacheIt
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8320))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9483))
 // CS Name: ::TypeDescriptor::IUnimplemented*
 class CORDL_TYPE __TypeDescriptor__IUnimplemented {
 public:
@@ -317,8 +317,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8321))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9484))
 // CS Name: ::TypeDescriptor::MemberDescriptorComparer*
 class CORDL_TYPE __TypeDescriptor__MemberDescriptorComparer : public ::System::Object {
 public:
@@ -333,12 +333,12 @@ public:
 
   static inline ::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer* getStaticF_Instance();
 
-  /// @brief Method Compare addr 0x27b5c7c size 0x16c virtual true final true
+  /// @brief Method Compare, addr 0x2933ca4, size 0x16c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* left, ::System::Object* right);
 
   static inline ::System::ComponentModel::__TypeDescriptor__MemberDescriptorComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x27b5de8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2933e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeDescriptor__MemberDescriptorComparer", modifiers: "&&", def_value: None }]
@@ -365,8 +365,8 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9485))
 // CS Name: ::TypeDescriptor::MergedTypeDescriptor*
 class CORDL_TYPE __TypeDescriptor__MergedTypeDescriptor : public ::System::Object {
 public:
@@ -395,43 +395,43 @@ public:
   static inline ::System::ComponentModel::__TypeDescriptor__MergedTypeDescriptor* New_ctor(::System::ComponentModel::ICustomTypeDescriptor* primary,
                                                                                            ::System::ComponentModel::ICustomTypeDescriptor* secondary);
 
-  /// @brief Method .ctor addr 0x27b3eb8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2931ee0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ICustomTypeDescriptor* primary, ::System::ComponentModel::ICustomTypeDescriptor* secondary);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes addr 0x27b5e54 size 0x110 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes, addr 0x2933e7c, size 0x110, virtual true, abstract: false, final true
   inline ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName addr 0x27b5f64 size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName, addr 0x2933f8c, size 0x118, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetClassName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName addr 0x27b607c size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName, addr 0x29340a4, size 0x118, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetComponentName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter addr 0x27b6194 size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter, addr 0x29341bc, size 0x118, virtual true, abstract: false, final true
   inline ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent addr 0x27b62ac size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent, addr 0x29342d4, size 0x118, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty addr 0x27b63c4 size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty, addr 0x29343ec, size 0x118, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor addr 0x27b64dc size 0x1b4 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor, addr 0x2934504, size 0x1b4, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27b6690 size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x29346b8, size 0x118, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27b67a8 size 0x130 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x29347d0, size 0x130, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27b68d8 size 0x118 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x2934900, size 0x118, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27b69f0 size 0x130 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x2934a18, size 0x130, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner addr 0x27b6b20 size 0x130 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner, addr 0x2934b48, size 0x130, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeDescriptor__MergedTypeDescriptor", modifiers: "&&", def_value: None }]
@@ -469,7 +469,7 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__MergedTypeDes
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8323))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9486))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode::DefaultExtendedTypeDescriptor
 struct CORDL_TYPE __TypeDescriptor__TypeDescriptionNode__DefaultExtendedTypeDescriptor {
 public:
@@ -477,43 +477,43 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*();
 
-  /// @brief Method .ctor addr 0x27b6d6c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2934d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* node, ::System::Object* instance);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes addr 0x27b7038 size 0x2dc virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes, addr 0x2935060, size 0x2dc, virtual true, abstract: false, final true
   inline ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName addr 0x27b7314 size 0x244 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName, addr 0x293533c, size 0x244, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetClassName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName addr 0x27b7558 size 0x20c virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName, addr 0x2935580, size 0x20c, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetComponentName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter addr 0x27b7764 size 0x2a8 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter, addr 0x293578c, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent addr 0x27b7a0c size 0x20c virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent, addr 0x2935a34, size 0x20c, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty addr 0x27b7c18 size 0x20c virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty, addr 0x2935c40, size 0x20c, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor addr 0x27b7e24 size 0x2a8 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor, addr 0x2935e4c, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27b80cc size 0x2e0 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x29360f4, size 0x2e0, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27b83ac size 0x2e8 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x29363d4, size 0x2e8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27b8694 size 0x2a8 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x29366bc, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27b893c size 0x2b0 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x2936964, size 0x2b0, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner addr 0x27b8bec size 0x1228 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner, addr 0x2936c14, size 0x1228, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*", modifiers: "", def_value: None }, CppParam { name: "_instance", ty:
@@ -548,7 +548,7 @@ static_assert(offsetof(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode_
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8324))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9487))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode::DefaultTypeDescriptor
 struct CORDL_TYPE __TypeDescriptor__TypeDescriptionNode__DefaultTypeDescriptor {
 public:
@@ -556,43 +556,43 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*();
 
-  /// @brief Method .ctor addr 0x27b9e14 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2937e3c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* node, ::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes addr 0x27b9e20 size 0x2a8 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes, addr 0x2937e48, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName addr 0x27ba0c8 size 0x23c virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName, addr 0x29380f0, size 0x23c, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetClassName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName addr 0x27ba304 size 0x210 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName, addr 0x293832c, size 0x210, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetComponentName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter addr 0x27ba514 size 0x2ac virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter, addr 0x293853c, size 0x2ac, virtual true, abstract: false, final true
   inline ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent addr 0x27ba7c0 size 0x210 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent, addr 0x29387e8, size 0x210, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty addr 0x27ba9d0 size 0x210 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty, addr 0x29389f8, size 0x210, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor addr 0x27babe0 size 0x2ac virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor, addr 0x2938c08, size 0x2ac, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27bae8c size 0x2ac virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x2938eb4, size 0x2ac, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents addr 0x27bb138 size 0x2b4 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x2939160, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27bb3ec size 0x2ac virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x2939414, size 0x2ac, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties addr 0x27bb698 size 0x2b4 virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x29396c0, size 0x2b4, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner addr 0x27bb94c size 0x22c virtual true final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner, addr 0x2939974, size 0x22c, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   // Ctor Parameters [CppParam { name: "_node", ty: "::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode*", modifiers: "", def_value: None }, CppParam { name: "_objectType", ty:
@@ -632,8 +632,8 @@ static_assert(offsetof(::GlobalNamespace::__TypeDescriptor__TypeDescriptionNode_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8297))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9460))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9488))
 // CS Name: ::TypeDescriptor::TypeDescriptionNode*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptionNode : public ::System::ComponentModel::TypeDescriptionProvider {
 public:
@@ -662,22 +662,22 @@ public:
 
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* New_ctor(::System::ComponentModel::TypeDescriptionProvider* provider);
 
-  /// @brief Method .ctor addr 0x27af3a4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x292d3cc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::TypeDescriptionProvider* provider);
 
-  /// @brief Method GetCache addr 0x27b6c50 size 0x70 virtual true final false
+  /// @brief Method GetCache, addr 0x2934c78, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetExtendedTypeDescriptor addr 0x27b6cc0 size 0xac virtual true final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x2934ce8, size 0xac, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders addr 0x27b6d74 size 0x70 virtual true final false
+  /// @brief Method GetExtenderProviders, addr 0x2934d9c, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetReflectionType addr 0x27b6de4 size 0xdc virtual true final false
+  /// @brief Method GetReflectionType, addr 0x2934e0c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeDescriptor addr 0x27b6ec0 size 0x178 virtual true final false
+  /// @brief Method GetTypeDescriptor, addr 0x2934ee8, size 0x178, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeDescriptor__TypeDescriptionNode", modifiers: "&&", def_value: None }]
@@ -714,8 +714,8 @@ static_assert(offsetof(::System::ComponentModel::__TypeDescriptor__TypeDescripti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8326))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9489))
 // CS Name: ::TypeDescriptor::TypeDescriptorComObject*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptorComObject : public ::System::Object {
 public:
@@ -744,8 +744,8 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8327))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9490))
 // CS Name: ::TypeDescriptor::TypeDescriptorInterface*
 class CORDL_TYPE __TypeDescriptor__TypeDescriptorInterface : public ::System::Object {
 public:
@@ -774,8 +774,8 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8328))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9491))
 // CS Name: ::System.ComponentModel::TypeDescriptor*
 class CORDL_TYPE TypeDescriptor : public ::System::Object {
 public:
@@ -888,131 +888,131 @@ public:
 
   static inline ::System::ComponentModel::RefreshEventHandler* getStaticF_Refreshed();
 
-  /// @brief Method get_ComObjectType addr 0x27aead8 size 0x6c virtual false final false
+  /// @brief Method get_ComObjectType, addr 0x292cb00, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Type* get_ComObjectType();
 
-  /// @brief Method get_InterfaceType addr 0x27aeb44 size 0x6c virtual false final false
+  /// @brief Method get_InterfaceType, addr 0x292cb6c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Type* get_InterfaceType();
 
-  /// @brief Method get_MetadataVersion addr 0x27aebb0 size 0x58 virtual false final false
+  /// @brief Method get_MetadataVersion, addr 0x292cbd8, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_MetadataVersion();
 
-  /// @brief Method AddProvider addr 0x27aec08 size 0x284 virtual false final false
+  /// @brief Method AddProvider, addr 0x292cc30, size 0x284, virtual false, abstract: false, final false
   static inline void AddProvider(::System::ComponentModel::TypeDescriptionProvider* provider, ::System::Type* type);
 
-  /// @brief Method CheckDefaultProvider addr 0x27af9f4 size 0x60c virtual false final false
+  /// @brief Method CheckDefaultProvider, addr 0x292da1c, size 0x60c, virtual false, abstract: false, final false
   static inline void CheckDefaultProvider(::System::Type* type);
 
-  /// @brief Method FilterMembers addr 0x27b0000 size 0x358 virtual false final false
+  /// @brief Method FilterMembers, addr 0x292e028, size 0x358, virtual false, abstract: false, final false
   static inline ::System::Collections::ArrayList* FilterMembers(::System::Collections::IList* members, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetAssociation addr 0x27a05f0 size 0x6d4 virtual false final false
+  /// @brief Method GetAssociation, addr 0x291e618, size 0x6d4, virtual false, abstract: false, final false
   static inline ::System::Object* GetAssociation(::System::Type* type, ::System::Object* primary);
 
-  /// @brief Method GetAttributes addr 0x27a4404 size 0x15c virtual false final false
+  /// @brief Method GetAttributes, addr 0x292242c, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* componentType);
 
-  /// @brief Method GetAttributes addr 0x27ad13c size 0x58 virtual false final false
+  /// @brief Method GetAttributes, addr 0x292b164, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Object* component);
 
-  /// @brief Method GetAttributes addr 0x27b04dc size 0x420 virtual false final false
+  /// @brief Method GetAttributes, addr 0x292e504, size 0x420, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Object* component, bool noCustomTypeDesc);
 
-  /// @brief Method GetCache addr 0x27a8ed4 size 0x6c virtual false final false
+  /// @brief Method GetCache, addr 0x2926efc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetConverter addr 0x27b3d78 size 0xe8 virtual false final false
+  /// @brief Method GetConverter, addr 0x2931da0, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
 
-  /// @brief Method GetDescriptor addr 0x27b03e8 size 0xf4 virtual false final false
+  /// @brief Method GetDescriptor, addr 0x292e410, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::System::Type* type, ::StringW typeName);
 
-  /// @brief Method GetDescriptor addr 0x27b08fc size 0x214 virtual false final false
+  /// @brief Method GetDescriptor, addr 0x292e924, size 0x214, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ICustomTypeDescriptor* GetDescriptor(::System::Object* component, bool noCustomTypeDesc);
 
-  /// @brief Method GetExtendedDescriptor addr 0x27b0b10 size 0xbc virtual false final false
+  /// @brief Method GetExtendedDescriptor, addr 0x292eb38, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedDescriptor(::System::Object* component);
 
-  /// @brief Method GetEvents addr 0x27ad398 size 0x164 virtual false final false
+  /// @brief Method GetEvents, addr 0x292b3c0, size 0x164, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Type* componentType);
 
-  /// @brief Method GetEvents addr 0x27ad33c size 0x5c virtual false final false
+  /// @brief Method GetEvents, addr 0x292b364, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Object* component);
 
-  /// @brief Method GetEvents addr 0x27b3ee4 size 0x4e4 virtual false final false
+  /// @brief Method GetEvents, addr 0x2931f0c, size 0x4e4, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Object* component, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes,
                                                                                bool noCustomTypeDesc);
 
-  /// @brief Method GetExtenderCollisionSuffix addr 0x27b4a18 size 0x318 virtual false final false
+  /// @brief Method GetExtenderCollisionSuffix, addr 0x2932a40, size 0x318, virtual false, abstract: false, final false
   static inline ::StringW GetExtenderCollisionSuffix(::System::ComponentModel::MemberDescriptor* member);
 
-  /// @brief Method GetNodeForBaseType addr 0x27b4d30 size 0xd4 virtual false final false
+  /// @brief Method GetNodeForBaseType, addr 0x2932d58, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Type* GetNodeForBaseType(::System::Type* searchType);
 
-  /// @brief Method GetProperties addr 0x27ad554 size 0x164 virtual false final false
+  /// @brief Method GetProperties, addr 0x292b57c, size 0x164, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Type* componentType);
 
-  /// @brief Method GetProperties addr 0x27ad4fc size 0x58 virtual false final false
+  /// @brief Method GetProperties, addr 0x292b524, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component);
 
-  /// @brief Method GetProperties addr 0x27b4e04 size 0x6c virtual false final false
+  /// @brief Method GetProperties, addr 0x2932e2c, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component, bool noCustomTypeDesc);
 
-  /// @brief Method GetProperties addr 0x279c4d8 size 0x68 virtual false final false
+  /// @brief Method GetProperties, addr 0x291a500, size 0x68, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetProperties addr 0x27b54c0 size 0x70 virtual false final false
+  /// @brief Method GetProperties, addr 0x29334e8, size 0x70, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Object* component, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes,
                                                                                       bool noCustomTypeDesc);
 
-  /// @brief Method GetPropertiesImpl addr 0x27b4e70 size 0x650 virtual false final false
+  /// @brief Method GetPropertiesImpl, addr 0x2932e98, size 0x650, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::PropertyDescriptorCollection* GetPropertiesImpl(::System::Object* component, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes,
                                                                                           bool noCustomTypeDesc, bool noAttributes);
 
-  /// @brief Method GetProviderRecursive addr 0x27b5530 size 0x58 virtual false final false
+  /// @brief Method GetProviderRecursive, addr 0x2933558, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeDescriptionProvider* GetProviderRecursive(::System::Type* type);
 
-  /// @brief Method GetReflectionType addr 0x279ee34 size 0xf4 virtual false final false
+  /// @brief Method GetReflectionType, addr 0x291ce5c, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetReflectionType(::System::Type* type);
 
-  /// @brief Method NodeFor addr 0x27b3e60 size 0x58 virtual false final false
+  /// @brief Method NodeFor, addr 0x2931e88, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* NodeFor(::System::Type* type);
 
-  /// @brief Method NodeFor addr 0x27aee8c size 0x518 virtual false final false
+  /// @brief Method NodeFor, addr 0x292ceb4, size 0x518, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* NodeFor(::System::Type* type, bool createDelegator);
 
-  /// @brief Method NodeFor addr 0x27b3d20 size 0x58 virtual false final false
+  /// @brief Method NodeFor, addr 0x2931d48, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* NodeFor(::System::Object* instance);
 
-  /// @brief Method NodeFor addr 0x27b5588 size 0x16c virtual false final false
+  /// @brief Method NodeFor, addr 0x29335b0, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::__TypeDescriptor__TypeDescriptionNode* NodeFor(::System::Object* instance, bool createDelegator);
 
-  /// @brief Method PipelineAttributeFilter addr 0x27b43c8 size 0x650 virtual false final false
+  /// @brief Method PipelineAttributeFilter, addr 0x29323f0, size 0x650, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* PipelineAttributeFilter(int32_t pipelineType, ::System::Collections::ICollection* members,
                                                                             ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> filter, ::System::Object* instance,
                                                                             ::System::Collections::IDictionary* cache);
 
-  /// @brief Method PipelineFilter addr 0x27b1d10 size 0x18fc virtual false final false
+  /// @brief Method PipelineFilter, addr 0x292fd38, size 0x18fc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* PipelineFilter(int32_t pipelineType, ::System::Collections::ICollection* members, ::System::Object* instance,
                                                                    ::System::Collections::IDictionary* cache);
 
-  /// @brief Method PipelineInitialize addr 0x27b360c size 0x714 virtual false final false
+  /// @brief Method PipelineInitialize, addr 0x2931634, size 0x714, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* PipelineInitialize(int32_t pipelineType, ::System::Collections::ICollection* members, ::System::Collections::IDictionary* cache);
 
-  /// @brief Method PipelineMerge addr 0x27b0bcc size 0x1144 virtual false final false
+  /// @brief Method PipelineMerge, addr 0x292ebf4, size 0x1144, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* PipelineMerge(int32_t pipelineType, ::System::Collections::ICollection* primary, ::System::Collections::ICollection* secondary,
                                                                   ::System::Object* instance, ::System::Collections::IDictionary* cache);
 
-  /// @brief Method RaiseRefresh addr 0x27b57d4 size 0xb0 virtual false final false
+  /// @brief Method RaiseRefresh, addr 0x29337fc, size 0xb0, virtual false, abstract: false, final false
   static inline void RaiseRefresh(::System::Type* type);
 
-  /// @brief Method Refresh addr 0x27af3cc size 0x628 virtual false final false
+  /// @brief Method Refresh, addr 0x292d3f4, size 0x628, virtual false, abstract: false, final false
   static inline void Refresh(::System::Type* type);
 
-  /// @brief Method ShouldHideMember addr 0x27b0358 size 0x90 virtual false final false
+  /// @brief Method ShouldHideMember, addr 0x292e380, size 0x90, virtual false, abstract: false, final false
   static inline bool ShouldHideMember(::System::ComponentModel::MemberDescriptor* member, ::System::Attribute* attribute);
 
-  /// @brief Method SortDescriptorArray addr 0x27b5884 size 0xd8 virtual false final false
+  /// @brief Method SortDescriptorArray, addr 0x29338ac, size 0xd8, virtual false, abstract: false, final false
   static inline void SortDescriptorArray(::System::Collections::IList* infos);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeDescriptor", modifiers: "&&", def_value: None }]

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Security::Principal::IIdentity);
 namespace System::Security::Principal {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2994))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2995))
 // CS Name: ::System.Security.Principal::IIdentity*
 class CORDL_TYPE IIdentity {
 public:
@@ -24,10 +24,10 @@ public:
 
   __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_AuthenticationType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AuthenticationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AuthenticationType();
 
   // Ctor Parameters [CppParam { name: "", ty: "IIdentity", modifiers: "&&", def_value: None }]

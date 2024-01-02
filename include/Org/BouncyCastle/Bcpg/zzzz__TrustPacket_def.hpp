@@ -39,18 +39,18 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115db08 size 0xdc virtual false final false
+  /// @brief Method .ctor, addr 0x11ced58, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* New_ctor(int32_t trustCode);
 
-  /// @brief Method .ctor addr 0x1163b74 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x11d4dc4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(int32_t trustCode);
 
-  /// @brief Method GetLevelAndTrustAmount addr 0x1163bf4 size 0x78 virtual false final false
+  /// @brief Method GetLevelAndTrustAmount, addr 0x11d4e44, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetLevelAndTrustAmount();
 
-  /// @brief Method Encode addr 0x1163c6c size 0x28 virtual true final false
+  /// @brief Method Encode, addr 0x11d4ebc, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrustPacket", modifiers: "&&", def_value: None }]

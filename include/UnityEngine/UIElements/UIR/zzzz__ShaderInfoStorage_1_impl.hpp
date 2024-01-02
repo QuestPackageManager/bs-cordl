@@ -3,13 +3,13 @@
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_def.hpp"
-#include "UnityEngine/zzzz__RectInt_def.hpp"
-#include "UnityEngine/zzzz__Texture2D_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__TextureFormat_def.hpp"
-#include "UnityEngine/zzzz__Color_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIRAtlasAllocator_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/zzzz__Texture2D_def.hpp"
 template <typename T> constexpr int32_t& UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::__get_m_InitialSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InitialSize;
@@ -114,33 +114,33 @@ inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::_ctor(::UnityE
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, format, convert, initialSize, maxSize);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::Dispose(bool disposing) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), "Dispose",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 template <typename T> inline ::UnityEngine::Texture2D* UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::get_texture() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(),
-                                                                             "get_texture", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Texture2D*, false>(this, ___internal_method);
 }
 template <typename T> inline bool UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), "AllocateRect", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::RectInt>>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, width, height, uvs);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::SetTexel(int32_t x, int32_t y, ::UnityEngine::Color color) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), "SetTexel", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, x, y, color);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::UpdateTexture() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(),
-                                                                             "UpdateTexture", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>::CreateOrExpandTexture() {

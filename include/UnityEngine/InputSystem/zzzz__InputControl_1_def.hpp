@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputControl_1)
-namespace System {
-class Type;
-}
 namespace UnityEngine::InputSystem {
 template <typename TValue> class InputProcessor_1;
 }
 namespace System {
 class Object;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -29,8 +29,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6301)), TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3772
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6322), inst: 3807 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6302))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(6236), inst: 3898 }), TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6216))
 // CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
 public:
@@ -51,66 +51,66 @@ public:
 
   constexpr void __set_m_ProcessorStack(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> value);
 
-  /// @brief Method get_valueType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_valueSizeInBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadValue();
 
-  /// @brief Method ReadValueFromPreviousFrame addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadValueFromPreviousFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadValueFromPreviousFrame();
 
-  /// @brief Method ReadDefaultValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadDefaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadDefaultValue();
 
-  /// @brief Method ReadValueFromState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadValueFromState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadUnprocessedValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadUnprocessedValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadUnprocessedValue();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadValueFromStateAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValueFromStateAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueFromStateAsObject(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadValueFromStateIntoBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValueFromStateIntoBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
 
-  /// @brief Method WriteValueFromBufferIntoState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteValueFromBufferIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueFromObjectIntoState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteValueFromObjectIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteValueIntoState(TValue value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method ReadValueFromBufferAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValueFromBufferAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method CompareValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method ProcessValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ProcessValue(TValue value);
 
-  /// @brief Method TryGetProcessor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TProcessor> inline TProcessor TryGetProcessor();
 
-  /// @brief Method AddProcessor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddProcessor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddProcessor(::System::Object* processor);
 
-  /// @brief Method get_processors addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_processors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*> get_processors();
 
   static inline ::UnityEngine::InputSystem::InputControl_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputControl_1", modifiers: "&&", def_value: None }]

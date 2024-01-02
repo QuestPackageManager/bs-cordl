@@ -13,14 +13,14 @@ class ProBuilderMesh;
 namespace UnityEngine {
 struct Quaternion;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::ProBuilder::Shapes {
 class Shape;
 }
 namespace UnityEngine {
 struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Sphere);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12161))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12163))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12235))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Sphere*
 class CORDL_TYPE Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -79,21 +79,21 @@ public:
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_IcosphereTriangles();
 
-  /// @brief Method CopyShape addr 0x2a0cf14 size 0x84 virtual true final false
+  /// @brief Method CopyShape, addr 0x2b8dc68, size 0x84, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method UpdateBounds addr 0x2a0cf98 size 0x6c virtual true final false
+  /// @brief Method UpdateBounds, addr 0x2b8dcec, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method RebuildMesh addr 0x2a0d004 size 0x8fc virtual true final false
+  /// @brief Method RebuildMesh, addr 0x2b8dd58, size 0x8fc, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SubdivideIcosahedron addr 0x2a0d900 size 0x62c virtual false final false
+  /// @brief Method SubdivideIcosahedron, addr 0x2b8e654, size 0x62c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> SubdivideIcosahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, float_t radius);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Sphere* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0df2c size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x2b8ec80, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Sphere", modifiers: "&&", def_value: None }]

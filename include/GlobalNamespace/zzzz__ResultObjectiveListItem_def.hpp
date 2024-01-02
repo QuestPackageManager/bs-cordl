@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResultObjectiveListItem)
 namespace UnityEngine {
-class Sprite;
-}
-namespace UnityEngine::UI {
-class Image;
+struct Color;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
+namespace UnityEngine::UI {
+class Image;
+}
 namespace UnityEngine {
-struct Color;
+class Sprite;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultObjectiveListItem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5804))
 // CS Name: ::ResultObjectiveListItem*
 class CORDL_TYPE ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -94,33 +94,33 @@ public:
 
   constexpr void __set__valueText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method set_iconColor addr 0x21a3e70 size 0x24 virtual false final false
+  /// @brief Method set_iconColor, addr 0x22e7fc8, size 0x24, virtual false, abstract: false, final false
   inline void set_iconColor(::UnityEngine::Color value);
 
-  /// @brief Method set_icon addr 0x21a3e94 size 0x1c virtual false final false
+  /// @brief Method set_icon, addr 0x22e7fec, size 0x1c, virtual false, abstract: false, final false
   inline void set_icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_iconGlow addr 0x21a3eb0 size 0x1c virtual false final false
+  /// @brief Method set_iconGlow, addr 0x22e8008, size 0x1c, virtual false, abstract: false, final false
   inline void set_iconGlow(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_title addr 0x21a3ecc size 0x24 virtual false final false
+  /// @brief Method set_title, addr 0x22e8024, size 0x24, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
-  /// @brief Method set_conditionText addr 0x21a3ef0 size 0x24 virtual false final false
+  /// @brief Method set_conditionText, addr 0x22e8048, size 0x24, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideConditionText addr 0x21a3f14 size 0x34 virtual false final false
+  /// @brief Method set_hideConditionText, addr 0x22e806c, size 0x34, virtual false, abstract: false, final false
   inline void set_hideConditionText(bool value);
 
-  /// @brief Method set_valueText addr 0x21a3f48 size 0x24 virtual false final false
+  /// @brief Method set_valueText, addr 0x22e80a0, size 0x24, virtual false, abstract: false, final false
   inline void set_valueText(::StringW value);
 
-  /// @brief Method set_hideValueText addr 0x21a3f6c size 0x34 virtual false final false
+  /// @brief Method set_hideValueText, addr 0x22e80c4, size 0x34, virtual false, abstract: false, final false
   inline void set_hideValueText(bool value);
 
   static inline ::GlobalNamespace::ResultObjectiveListItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a3fa0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22e80f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "&&", def_value: None }]

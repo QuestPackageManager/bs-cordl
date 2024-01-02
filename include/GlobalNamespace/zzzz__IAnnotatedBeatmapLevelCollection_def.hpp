@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAnnotatedBeatmapLevelCollection)
-namespace GlobalNamespace {
-class IBeatmapLevelCollection;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAnnotatedBeatmapLevelCollection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4440))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4419))
 // CS Name: ::IAnnotatedBeatmapLevelCollection*
 class CORDL_TYPE IAnnotatedBeatmapLevelCollection {
 public:
@@ -34,16 +34,16 @@ public:
 
   __declspec(property(get = get_beatmapLevelCollection))::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
 
-  /// @brief Method get_collectionName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_collectionName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_collectionName();
 
-  /// @brief Method get_coverImage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_coverImage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Sprite* get_coverImage();
 
-  /// @brief Method get_smallCoverImage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_smallCoverImage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Sprite* get_smallCoverImage();
 
-  /// @brief Method get_beatmapLevelCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapLevelCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAnnotatedBeatmapLevelCollection", modifiers: "&&", def_value: None }]

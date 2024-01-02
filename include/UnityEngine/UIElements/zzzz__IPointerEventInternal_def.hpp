@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPointerEventInternal);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7283))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7197))
 // CS Name: ::UnityEngine.UIElements::IPointerEventInternal*
 class CORDL_TYPE IPointerEventInternal {
 public:
@@ -23,16 +23,16 @@ public:
 
   __declspec(property(get = get_recomputeTopElementUnderPointer, put = set_recomputeTopElementUnderPointer)) bool recomputeTopElementUnderPointer;
 
-  /// @brief Method get_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_triggeredByOS();
 
-  /// @brief Method set_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_triggeredByOS(bool value);
 
-  /// @brief Method get_recomputeTopElementUnderPointer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_recomputeTopElementUnderPointer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_recomputeTopElementUnderPointer();
 
-  /// @brief Method set_recomputeTopElementUnderPointer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_recomputeTopElementUnderPointer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_recomputeTopElementUnderPointer(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerEventInternal", modifiers: "&&", def_value: None }]

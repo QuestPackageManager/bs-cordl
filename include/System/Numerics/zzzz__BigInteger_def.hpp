@@ -9,21 +9,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BigInteger)
 namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System {
-class IFormattable;
-}
-namespace System {
-class IComparable;
-}
-namespace System::Numerics {
-struct __BigInteger__GetBytesMode;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
 class IFormatProvider;
 }
 namespace System {
@@ -31,6 +16,21 @@ template <typename T> class IComparable_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class IFormattable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System::Numerics {
+struct __BigInteger__GetBytesMode;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace System {
 class Object;
@@ -50,7 +50,7 @@ MARK_VAL_T(::System::Numerics::BigInteger);
 namespace System::Numerics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15632))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15647))
 // CS Name: ::BigInteger::GetBytesMode
 struct CORDL_TYPE __BigInteger__GetBytesMode {
 public:
@@ -104,7 +104,7 @@ static_assert(offsetof(::System::Numerics::__BigInteger__GetBytesMode, value__) 
 namespace System::Numerics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15648))
 // CS Name: ::System.Numerics::BigInteger
 struct CORDL_TYPE BigInteger {
 public:
@@ -158,89 +158,95 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_success();
 
-  /// @brief Method .ctor addr 0x26c8520 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2844534, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor addr 0x26c859c size 0x118 virtual false final false
+  /// @brief Method .ctor, addr 0x28445b0, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method .ctor addr 0x26c86b4 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x28446c8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor addr 0x26c8754 size 0x52c virtual false final false
-  inline void _ctor(::System::ReadOnlySpan_1<uint8_t> value, bool isUnsigned, bool isBigEndian);
+  /// @brief Method .ctor, addr 0x2844768, size 0x52c, virtual false, abstract: false, final false
+  /// @param isUnsigned: bool (default: false)
+  /// @param isBigEndian: bool (default: false)
+  inline void _ctor(::System::ReadOnlySpan_1<uint8_t> value, bool isUnsigned = false, bool isBigEndian = false);
 
-  /// @brief Method .ctor addr 0x26c8d3c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2844d50, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t n, ::ArrayW<uint32_t, ::Array<uint32_t>*> rgu);
 
-  /// @brief Method .ctor addr 0x26c8d48 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0x2844d5c, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint32_t, ::Array<uint32_t>*> value, bool negative);
 
-  /// @brief Method get_MinusOne addr 0x26c8eec size 0x58 virtual false final false
+  /// @brief Method get_MinusOne, addr 0x2844f00, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger get_MinusOne();
 
-  /// @brief Method GetHashCode addr 0x26c8f44 size 0x4c virtual true final false
+  /// @brief Method GetHashCode, addr 0x2844f58, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x26c8f98 size 0x78 virtual true final false
+  /// @brief Method Equals, addr 0x2844fac, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x26c9010 size 0xbc virtual true final true
+  /// @brief Method Equals, addr 0x2845024, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::System::Numerics::BigInteger other);
 
-  /// @brief Method CompareTo addr 0x26c9134 size 0x128 virtual true final true
+  /// @brief Method CompareTo, addr 0x2845148, size 0x128, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Numerics::BigInteger other);
 
-  /// @brief Method CompareTo addr 0x26c925c size 0xd8 virtual true final true
+  /// @brief Method CompareTo, addr 0x2845270, size 0xd8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method TryWriteBytes addr 0x26c9334 size 0x40 virtual false final false
-  inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned, bool isBigEndian);
+  /// @brief Method TryWriteBytes, addr 0x2845348, size 0x40, virtual false, abstract: false, final false
+  /// @param isUnsigned: bool (default: false)
+  /// @param isBigEndian: bool (default: false)
+  inline bool TryWriteBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned = false, bool isBigEndian = false);
 
-  /// @brief Method TryWriteOrCountBytes addr 0x26c9860 size 0x34 virtual false final false
-  inline bool TryWriteOrCountBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned, bool isBigEndian);
+  /// @brief Method TryWriteOrCountBytes, addr 0x2845874, size 0x34, virtual false, abstract: false, final false
+  /// @param isUnsigned: bool (default: false)
+  /// @param isBigEndian: bool (default: false)
+  inline bool TryWriteOrCountBytes(::System::Span_1<uint8_t> destination, ByRef<int32_t> bytesWritten, bool isUnsigned = false, bool isBigEndian = false);
 
-  /// @brief Method TryGetBytes addr 0x26c9374 size 0x4ec virtual false final false
+  /// @brief Method TryGetBytes, addr 0x2845388, size 0x4ec, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TryGetBytes(::System::Numerics::__BigInteger__GetBytesMode mode, ::System::Span_1<uint8_t> destination, bool isUnsigned, bool isBigEndian,
                                                           ByRef<int32_t> bytesWritten);
 
-  /// @brief Method ToString addr 0x26c9894 size 0x30 virtual true final false
+  /// @brief Method ToString, addr 0x28458a8, size 0x30, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x26c9970 size 0x38 virtual true final true
+  /// @brief Method ToString, addr 0x2845984, size 0x38, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* provider);
 
-  /// @brief Method Add addr 0x26c99a8 size 0x14c virtual false final false
+  /// @brief Method Add, addr 0x28459bc, size 0x14c, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger Add(::ArrayW<uint32_t, ::Array<uint32_t>*> leftBits, int32_t leftSign, ::ArrayW<uint32_t, ::Array<uint32_t>*> rightBits, int32_t rightSign);
 
-  /// @brief Method Subtract addr 0x26c9cf8 size 0x180 virtual false final false
+  /// @brief Method Subtract, addr 0x2845d0c, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> leftBits, int32_t leftSign, ::ArrayW<uint32_t, ::Array<uint32_t>*> rightBits, int32_t rightSign);
 
-  /// @brief Method op_Implicit addr 0x26ca0b0 size 0x28 virtual false final false
+  /// @brief Method op_Implicit, addr 0x28460c4, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(uint8_t value);
 
-  /// @brief Method op_Implicit addr 0x26ca0d8 size 0x28 virtual false final false
+  /// @brief Method op_Implicit, addr 0x28460ec, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(int32_t value);
 
-  /// @brief Method op_Implicit addr 0x26c9af4 size 0x28 virtual false final false
+  /// @brief Method op_Implicit, addr 0x2845b08, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Implicit___System__Numerics__BigInteger(int64_t value);
 
-  /// @brief Method op_Explicit addr 0x26ca100 size 0xdc virtual false final false
+  /// @brief Method op_Explicit, addr 0x2846114, size 0xdc, virtual false, abstract: false, final false
   static inline int32_t op_Explicit_int32_t(::System::Numerics::BigInteger value);
 
-  /// @brief Method op_LeftShift addr 0x26ca1dc size 0x24c virtual false final false
+  /// @brief Method op_LeftShift, addr 0x28461f0, size 0x24c, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_LeftShift(::System::Numerics::BigInteger value, int32_t shift);
 
-  /// @brief Method op_RightShift addr 0x26ca428 size 0x304 virtual false final false
+  /// @brief Method op_RightShift, addr 0x284643c, size 0x304, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_RightShift(::System::Numerics::BigInteger value, int32_t shift);
 
-  /// @brief Method op_Addition addr 0x26ca7ec size 0xac virtual false final false
+  /// @brief Method op_Addition, addr 0x2846800, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Numerics::BigInteger op_Addition(::System::Numerics::BigInteger left, ::System::Numerics::BigInteger right);
 
-  /// @brief Method GetPartsForBitManipulation addr 0x26ca72c size 0xc0 virtual false final false
+  /// @brief Method GetPartsForBitManipulation, addr 0x2846740, size 0xc0, virtual false, abstract: false, final false
   static inline bool GetPartsForBitManipulation(ByRef<::System::Numerics::BigInteger> x, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> xd, ByRef<int32_t> xl);
 
-  /// @brief Method GetDiffLength addr 0x26c90cc size 0x68 virtual false final false
+  /// @brief Method GetDiffLength, addr 0x28450e0, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetDiffLength(::ArrayW<uint32_t, ::Array<uint32_t>*> rgu1, ::ArrayW<uint32_t, ::Array<uint32_t>*> rgu2, int32_t cu);
 
   // Ctor Parameters [CppParam { name: "_sign", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_bits", ty: "::ArrayW<uint32_t,::Array<uint32_t>*>", modifiers: "", def_value: None

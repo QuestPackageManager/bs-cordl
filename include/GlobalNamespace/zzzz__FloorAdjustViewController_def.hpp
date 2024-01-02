@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(FloorAdjustViewController)
 namespace GlobalNamespace {
 class Vector3SO;
 }
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
 namespace UnityEngine::UI {
 class Button;
 }
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FloorAdjustViewController);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5633))
 // CS Name: ::FloorAdjustViewController*
 class CORDL_TYPE FloorAdjustViewController : public ::HMUI::ViewController {
 public:
@@ -87,21 +87,21 @@ public:
 
   constexpr void __set__playerHeight(float_t value);
 
-  /// @brief Method DidActivate addr 0x216e6f8 size 0x108 virtual true final false
+  /// @brief Method DidActivate, addr 0x22b0cf4, size 0x108, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Update addr 0x216e800 size 0x240 virtual false final false
+  /// @brief Method Update, addr 0x22b0dfc, size 0x240, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::FloorAdjustViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x216ea40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22b103c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__9_0 addr 0x216ea48 size 0x7c virtual false final false
+  /// @brief Method <DidActivate>b__9_0, addr 0x22b1044, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_0();
 
-  /// @brief Method <DidActivate>b__9_1 addr 0x216eac4 size 0x7c virtual false final false
+  /// @brief Method <DidActivate>b__9_1, addr 0x22b10c0, size 0x7c, virtual false, abstract: false, final false
   inline void _DidActivate_b__9_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloorAdjustViewController", modifiers: "&&", def_value: None }]

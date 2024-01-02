@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4188))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4153))
 // CS Name: ::SelectSubMenuDestination::Destination
 struct CORDL_TYPE __SelectSubMenuDestination__Destination {
 public:
@@ -94,8 +94,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destinatio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4187)), TypeDefinitionIndex(TypeDefinitionIndex(4188))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4189))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152)), TypeDefinitionIndex(TypeDefinitionIndex(4153))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4154))
 // CS Name: ::SelectSubMenuDestination*
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
 public:
@@ -113,7 +113,7 @@ public:
 
   static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
-  /// @brief Method .ctor addr 0x21ced04 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x223d0a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectSubMenuDestination", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BodyTilt);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12584)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12564))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
 // CS Name: ::RootMotion.FinalIK::BodyTilt*
 class CORDL_TYPE BodyTilt : public ::RootMotion::FinalIK::OffsetModifier {
 public:
@@ -79,15 +79,15 @@ public:
 
   constexpr void __set_lastForward(::UnityEngine::Vector3 value);
 
-  /// @brief Method Start addr 0x1223700 size 0x48 virtual true final false
+  /// @brief Method Start, addr 0x1294a2c, size 0x48, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnModifyOffset addr 0x1223768 size 0x1ec virtual true final false
+  /// @brief Method OnModifyOffset, addr 0x1294a94, size 0x1ec, virtual true, abstract: false, final false
   inline void OnModifyOffset();
 
   static inline ::RootMotion::FinalIK::BodyTilt* New_ctor();
 
-  /// @brief Method .ctor addr 0x1223a08 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x1294d34, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BodyTilt", modifiers: "&&", def_value: None }]

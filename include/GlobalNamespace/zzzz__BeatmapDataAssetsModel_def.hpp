@@ -15,16 +15,16 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataAssetsModel);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4327))
 // CS Name: ::BeatmapDataAssetsModel*
 class CORDL_TYPE BeatmapDataAssetsModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapLevelDataAssetNameForBeatmapLevel addr 0x21f20d8 size 0x4c virtual false final false
+  /// @brief Method BeatmapLevelDataAssetNameForBeatmapLevel, addr 0x233de8c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW BeatmapLevelDataAssetNameForBeatmapLevel(::StringW levelID);
 
-  /// @brief Method AssetBundleNameForBeatmapLevel addr 0x21f2124 size 0x14 virtual false final false
+  /// @brief Method AssetBundleNameForBeatmapLevel, addr 0x233ded8, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW AssetBundleNameForBeatmapLevel(::StringW levelID);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataAssetsModel", modifiers: "&&", def_value: None }]

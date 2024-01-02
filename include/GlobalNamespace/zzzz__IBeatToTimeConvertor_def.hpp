@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatToTimeConvertor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4291))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4259))
 // CS Name: ::IBeatToTimeConvertor*
 class CORDL_TYPE IBeatToTimeConvertor {
 public:
   // Declarations
-  /// @brief Method ConvertBeatToTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ConvertBeatToTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t ConvertBeatToTime(float_t beat);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatToTimeConvertor", modifiers: "&&", def_value: None }]

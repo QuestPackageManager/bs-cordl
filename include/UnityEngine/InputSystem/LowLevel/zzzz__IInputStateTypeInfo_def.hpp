@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6649))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6563))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateTypeInfo*
 class CORDL_TYPE IInputStateTypeInfo {
 public:
   // Declarations
   __declspec(property(get = get_format))::UnityEngine::InputSystem::Utilities::FourCC format;
 
-  /// @brief Method get_format addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_format, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputStateTypeInfo", modifiers: "&&", def_value: None }]

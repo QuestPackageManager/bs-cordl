@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapDataBasicInfo);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4290))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4258))
 // CS Name: ::IBeatmapDataBasicInfo*
 class CORDL_TYPE IBeatmapDataBasicInfo {
 public:
@@ -34,19 +34,19 @@ public:
 
   __declspec(property(get = get_specialBasicBeatmapEventKeywords))::System::Collections::Generic::IEnumerable_1<::StringW>* specialBasicBeatmapEventKeywords;
 
-  /// @brief Method get_numberOfLines addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_numberOfLines, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method get_cuttableNotesCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_cuttableNotesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_cuttableNotesCount();
 
-  /// @brief Method get_obstaclesCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_obstaclesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_obstaclesCount();
 
-  /// @brief Method get_bombsCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_bombsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_bombsCount();
 
-  /// @brief Method get_specialBasicBeatmapEventKeywords addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_specialBasicBeatmapEventKeywords, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_specialBasicBeatmapEventKeywords();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapDataBasicInfo", modifiers: "&&", def_value: None }]

@@ -8,16 +8,16 @@ namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
-class ISubContainerCreator;
+class DiContainer;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
+namespace Zenject {
+class ISubContainerCreator;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorCached);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11222))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11294))
 // CS Name: ::Zenject::SubContainerCreatorCached*
 class CORDL_TYPE SubContainerCreatorCached : public ::System::Object {
 public:
@@ -67,10 +67,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method .ctor addr 0x2da561c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0d3ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
-  /// @brief Method CreateSubContainer addr 0x2da5644 size 0x180 virtual true final true
+  /// @brief Method CreateSubContainer, addr 0x2f0d414, size 0x180, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorCached", modifiers: "&&", def_value: None }]

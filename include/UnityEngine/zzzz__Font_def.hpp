@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Font)
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine {
 class __Font__FontTextureRebuildCallback;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace UnityEngine {
 class Material;
@@ -33,18 +33,18 @@ MARK_REF_PTR_T(::UnityEngine::__Font__FontTextureRebuildCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15800))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15908))
 // CS Name: ::Font::FontTextureRebuildCallback*
 class CORDL_TYPE __Font__FontTextureRebuildCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::__Font__FontTextureRebuildCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2be6454 size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x2d4f804, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2be6510 size 0x1014 virtual true final false
+  /// @brief Method Invoke, addr 0x2d4f8c0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Font__FontTextureRebuildCallback", modifiers: "&&", def_value: None }]
@@ -71,8 +71,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Font__FontTexture
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15801))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15909))
 // CS Name: ::UnityEngine::Font*
 class CORDL_TYPE Font : public ::UnityEngine::Object {
 public:
@@ -101,36 +101,36 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Font*>* getStaticF_textureRebuilt();
 
-  /// @brief Method add_textureRebuilt addr 0x2be6068 size 0xcc virtual false final false
+  /// @brief Method add_textureRebuilt, addr 0x2d4f418, size 0xcc, virtual false, abstract: false, final false
   static inline void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
 
-  /// @brief Method remove_textureRebuilt addr 0x2be6134 size 0xcc virtual false final false
+  /// @brief Method remove_textureRebuilt, addr 0x2d4f4e4, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
 
-  /// @brief Method get_material addr 0x2be6200 size 0x3c virtual false final false
+  /// @brief Method get_material, addr 0x2d4f5b0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Material* get_material();
 
-  /// @brief Method get_dynamic addr 0x2be51c8 size 0x3c virtual false final false
+  /// @brief Method get_dynamic, addr 0x2d4e578, size 0x3c, virtual false, abstract: false, final false
   inline bool get_dynamic();
 
-  /// @brief Method get_fontSize addr 0x2be623c size 0x3c virtual false final false
+  /// @brief Method get_fontSize, addr 0x2d4f5ec, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_fontSize();
 
   static inline ::UnityEngine::Font* New_ctor();
 
-  /// @brief Method .ctor addr 0x2be6278 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4f628, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method InvokeTextureRebuilt_Internal addr 0x2be6340 size 0x8c virtual false final false
+  /// @brief Method InvokeTextureRebuilt_Internal, addr 0x2d4f6f0, size 0x8c, virtual false, abstract: false, final false
   static inline void InvokeTextureRebuilt_Internal(::UnityEngine::Font* font);
 
-  /// @brief Method HasCharacter addr 0x2be63cc size 0x44 virtual false final false
+  /// @brief Method HasCharacter, addr 0x2d4f77c, size 0x44, virtual false, abstract: false, final false
   inline bool HasCharacter(char16_t c);
 
-  /// @brief Method HasCharacter addr 0x2be6410 size 0x44 virtual false final false
+  /// @brief Method HasCharacter, addr 0x2d4f7c0, size 0x44, virtual false, abstract: false, final false
   inline bool HasCharacter(int32_t c);
 
-  /// @brief Method Internal_CreateFont addr 0x2be62fc size 0x44 virtual false final false
+  /// @brief Method Internal_CreateFont, addr 0x2d4f6ac, size 0x44, virtual false, abstract: false, final false
   static inline void Internal_CreateFont(::UnityEngine::Font* self, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "Font", modifiers: "&&", def_value: None }]

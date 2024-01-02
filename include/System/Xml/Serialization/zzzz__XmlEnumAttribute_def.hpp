@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlEnumAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11516))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11588))
 // CS Name: ::System.Xml.Serialization::XmlEnumAttribute*
 class CORDL_TYPE XmlEnumAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x272ef08 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x28abf2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlEnumAttribute", modifiers: "&&", def_value: None }]

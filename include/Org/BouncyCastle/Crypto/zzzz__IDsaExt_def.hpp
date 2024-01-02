@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IDsa*() noexcept;
 
-  /// @brief Method get_Order addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Order, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Order();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDsaExt", modifiers: "&&", def_value: None }]

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutOption)
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 struct __GUILayoutOption__Type;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutOption);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14846))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
 // CS Name: ::GUILayoutOption::Type
 struct CORDL_TYPE __GUILayoutOption__Type {
 public:
@@ -125,8 +125,8 @@ static_assert(offsetof(::UnityEngine::__GUILayoutOption__Type, value__) == 0x0, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14846))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14629))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14630))
 // CS Name: ::UnityEngine::GUILayoutOption*
 class CORDL_TYPE GUILayoutOption : public ::System::Object {
 public:
@@ -153,7 +153,7 @@ public:
 
   static inline ::UnityEngine::GUILayoutOption* New_ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 
-  /// @brief Method .ctor addr 0x2ba6d14 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2d0e124, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutOption", modifiers: "&&", def_value: None }]

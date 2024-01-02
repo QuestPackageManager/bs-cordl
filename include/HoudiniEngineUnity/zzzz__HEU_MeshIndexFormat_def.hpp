@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshIndexFormat);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9779))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10328))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9852))
 // CS Name: ::HoudiniEngineUnity::HEU_MeshIndexFormat*
 class CORDL_TYPE HEU_MeshIndexFormat : public ::System::Object {
 public:
@@ -34,15 +34,15 @@ public:
 
   constexpr void __set__indexFormat(::UnityEngine::Rendering::IndexFormat value);
 
-  /// @brief Method CalculateIndexFormat addr 0x207880c size 0x78 virtual false final false
+  /// @brief Method CalculateIndexFormat, addr 0x21d01a8, size 0x78, virtual false, abstract: false, final false
   inline void CalculateIndexFormat(int32_t numVertices);
 
-  /// @brief Method SetFormatForMesh addr 0x2078884 size 0x24 virtual false final false
+  /// @brief Method SetFormatForMesh, addr 0x21d0220, size 0x24, virtual false, abstract: false, final false
   inline void SetFormatForMesh(::UnityEngine::Mesh* mesh);
 
   static inline ::HoudiniEngineUnity::HEU_MeshIndexFormat* New_ctor();
 
-  /// @brief Method .ctor addr 0x20788a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21d0244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_MeshIndexFormat", modifiers: "&&", def_value: None }]

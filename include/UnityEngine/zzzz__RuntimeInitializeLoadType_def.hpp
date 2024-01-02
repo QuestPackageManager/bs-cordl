@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RuntimeInitializeLoadType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10122))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10194))
 // CS Name: ::UnityEngine::RuntimeInitializeLoadType
 struct CORDL_TYPE RuntimeInitializeLoadType {
 public:

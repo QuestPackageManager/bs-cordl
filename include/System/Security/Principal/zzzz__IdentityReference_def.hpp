@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Security::Principal::IdentityReference);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2999))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3000))
 // CS Name: ::System.Security.Principal::IdentityReference*
 class CORDL_TYPE IdentityReference : public ::System::Object {
 public:
@@ -32,25 +32,25 @@ public:
 
   static inline ::System::Security::Principal::IdentityReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f330 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2476e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Translate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method op_Equality addr 0x231f338 size 0x68 virtual false final false
+  /// @brief Method op_Equality, addr 0x2476e2c, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::IdentityReference* left, ::System::Security::Principal::IdentityReference* right);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityReference", modifiers: "&&", def_value: None }]

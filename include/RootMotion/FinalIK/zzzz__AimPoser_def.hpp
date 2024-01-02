@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AimPoser)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace RootMotion::FinalIK {
 class __AimPoser__Pose;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__AimPoser__Pose);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12559))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12631))
 // CS Name: ::AimPoser::Pose*
 class CORDL_TYPE __AimPoser__Pose : public ::System::Object {
 public:
@@ -89,15 +89,15 @@ public:
 
   constexpr void __set_angleBuffer(float_t value);
 
-  /// @brief Method IsInDirection addr 0x1222cbc size 0x4b0 virtual false final false
+  /// @brief Method IsInDirection, addr 0x1293fe8, size 0x4b0, virtual false, abstract: false, final false
   inline bool IsInDirection(::UnityEngine::Vector3 d);
 
-  /// @brief Method SetAngleBuffer addr 0x122322c size 0x8 virtual false final false
+  /// @brief Method SetAngleBuffer, addr 0x1294558, size 0x8, virtual false, abstract: false, final false
   inline void SetAngleBuffer(float_t value);
 
   static inline ::RootMotion::FinalIK::__AimPoser__Pose* New_ctor();
 
-  /// @brief Method .ctor addr 0x1223234 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x1294560, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AimPoser__Pose", modifiers: "&&", def_value: None }]
@@ -154,8 +154,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__AimPoser__Pose, ___angleBuffer) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12560))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12632))
 // CS Name: ::RootMotion.FinalIK::AimPoser*
 class CORDL_TYPE AimPoser : public ::UnityEngine::MonoBehaviour {
 public:
@@ -180,15 +180,15 @@ public:
 
   constexpr void __set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
 
-  /// @brief Method GetPose addr 0x1222bec size 0xd0 virtual false final false
+  /// @brief Method GetPose, addr 0x1293f18, size 0xd0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__AimPoser__Pose* GetPose(::UnityEngine::Vector3 localDirection);
 
-  /// @brief Method SetPoseActive addr 0x122316c size 0x60 virtual false final false
+  /// @brief Method SetPoseActive, addr 0x1294498, size 0x60, virtual false, abstract: false, final false
   inline void SetPoseActive(::RootMotion::FinalIK::__AimPoser__Pose* pose);
 
   static inline ::RootMotion::FinalIK::AimPoser* New_ctor();
 
-  /// @brief Method .ctor addr 0x12231cc size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x12944f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AimPoser", modifiers: "&&", def_value: None }]

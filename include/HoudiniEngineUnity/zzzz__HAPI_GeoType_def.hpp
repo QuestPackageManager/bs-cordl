@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_GeoType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9636))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9709))
 // CS Name: ::HoudiniEngineUnity::HAPI_GeoType
 struct CORDL_TYPE HAPI_GeoType {
 public:

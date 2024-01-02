@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum)
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3253))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3254))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ValueFixupEnum
 struct CORDL_TYPE ValueFixupEnum {
 public:

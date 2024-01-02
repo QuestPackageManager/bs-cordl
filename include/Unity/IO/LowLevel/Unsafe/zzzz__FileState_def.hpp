@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::IO::LowLevel::Unsafe::FileState);
 namespace Unity::IO::LowLevel::Unsafe {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9985))
 // CS Name: ::Unity.IO.LowLevel.Unsafe::FileState
 struct CORDL_TYPE FileState {
 public:

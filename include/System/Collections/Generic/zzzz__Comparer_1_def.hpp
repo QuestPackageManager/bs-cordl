@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer_1)
-namespace System::Collections {
-class IComparer;
-}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace System::Collections {
+class IComparer;
 }
 namespace System {
 class Object;
@@ -26,8 +26,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3865))
 // CS Name: ::System.Collections.Generic::Comparer`1<T>*
 class CORDL_TYPE Comparer_1 : public ::System::Object {
 public:
@@ -45,21 +45,21 @@ public:
 
   static inline ::System::Collections::Generic::Comparer_1<T>* getStaticF_defaultComparer();
 
-  /// @brief Method get_Default addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Default, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Comparer_1<T>* get_Default();
 
-  /// @brief Method CreateComparer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Comparer_1<T>* CreateComparer();
 
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(T x, T y);
 
-  /// @brief Method System.Collections.IComparer.Compare addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* x, ::System::Object* y);
 
   static inline ::System::Collections::Generic::Comparer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Comparer_1", modifiers: "&&", def_value: None }]

@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedIesCipher)
-namespace Org::BouncyCastle::Crypto::Engines {
-class IesEngine;
-}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace Org::BouncyCastle::Crypto::Engines {
+class IesEngine;
 }
 namespace System::IO {
 class MemoryStream;
@@ -63,37 +63,37 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::BufferedIesCipher* New_ctor(::Org::BouncyCastle::Crypto::Engines::IesEngine* engine);
 
-  /// @brief Method .ctor addr 0xf4f83c size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0xfc4a88, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Engines::IesEngine* engine);
 
-  /// @brief Method get_AlgorithmName addr 0xf4f92c size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xfc4b78, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xf4f96c size 0x4c virtual true final false
+  /// @brief Method Init, addr 0xfc4bb8, size 0x4c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetBlockSize addr 0xf4f9b8 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize, addr 0xfc4c04, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetOutputSize addr 0xf4f9c0 size 0xa0 virtual true final false
+  /// @brief Method GetOutputSize, addr 0xfc4c0c, size 0xa0, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize addr 0xf4fa60 size 0x8 virtual true final false
+  /// @brief Method GetUpdateOutputSize, addr 0xfc4cac, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method ProcessByte addr 0xf4fa68 size 0x2c virtual true final false
+  /// @brief Method ProcessByte, addr 0xfc4cb4, size 0x2c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessBytes addr 0xf4fa94 size 0x114 virtual true final false
+  /// @brief Method ProcessBytes, addr 0xfc4ce0, size 0x114, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method DoFinal addr 0xf4fba8 size 0x6c virtual true final false
+  /// @brief Method DoFinal, addr 0xfc4df4, size 0x6c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal addr 0xf4fc14 size 0x30 virtual true final false
+  /// @brief Method DoFinal, addr 0xfc4e60, size 0x30, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Reset addr 0xf4fc44 size 0x28 virtual true final false
+  /// @brief Method Reset, addr 0xfc4e90, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedIesCipher", modifiers: "&&", def_value: None }]

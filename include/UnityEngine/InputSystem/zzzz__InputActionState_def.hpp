@@ -18,62 +18,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputActionState)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+namespace UnityEngine::InputSystem {
+class InputProcessor;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__UnmanagedMemory;
-}
-namespace System {
-class Object;
+class InputDevice;
 }
 namespace UnityEngine::InputSystem {
-template <typename TControl> struct InputControlList_1;
-}
-namespace UnityEngine::InputSystem {
-class InputBindingComposite;
+struct __InputActionState__BindingState;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine::InputSystem {
-struct InputDeviceChange;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__GlobalState;
-}
-namespace UnityEngine::InputSystem {
-struct InputActionChange;
-}
-namespace UnityEngine::InputSystem::Utilities {
-class ISavedState;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateChangeMonitor;
 }
 namespace UnityEngine::InputSystem {
 class IInputInteraction;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__ActionMapIndices;
-}
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
-namespace UnityEngine::InputSystem {
-class InputProcessor;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::InputSystem {
-class InputActionMap;
-}
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
 }
 namespace UnityEngine::InputSystem {
 struct __InputAction__CallbackContext;
@@ -82,43 +43,82 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::InputSystem {
-struct __InputActionState__TriggerState;
+template <typename TValue> class InputControl_1;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__GlobalState;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::InputSystem {
+class InputActionMap;
+}
+namespace UnityEngine::InputSystem {
+class InputBindingComposite;
 }
 namespace UnityEngine::InputSystem {
 struct InputActionPhase;
 }
-namespace UnityEngine::InputSystem {
-struct InputBindingResolver;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__InteractionState;
-}
-namespace UnityEngine::InputSystem {
-class InputControl;
-}
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
-namespace UnityEngine::InputSystem {
-struct __InputActionState__BindingState;
-}
-namespace UnityEngine::InputSystem {
-template <typename TValue> class InputControl_1;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateChangeMonitor;
+struct InputEventPtr;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::InputSystem {
+struct InputActionChange;
+}
+namespace UnityEngine::InputSystem {
+template <typename TControl> struct InputControlList_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__UnmanagedMemory;
+}
+namespace UnityEngine::InputSystem {
 class __InputActionState____c;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__InteractionState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+class ISavedState;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TDelegate> struct CallbackArray_1;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__TriggerState;
+}
+namespace UnityEngine::InputSystem {
+struct __InputActionState__ActionMapIndices;
+}
+namespace UnityEngine::InputSystem {
+class InputControl;
 }
 namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+namespace System {
+class ICloneable;
+}
+namespace System {
+class Object;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
+}
+namespace UnityEngine::InputSystem {
+struct InputDeviceChange;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingResolver;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename T> class __SavedStructState_1__TypedRestore;
@@ -192,7 +192,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6257))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6171))
 // CS Name: ::InputActionState::InteractionState::Flags
 struct CORDL_TYPE __InputActionState__InteractionState__Flags {
 public:
@@ -238,7 +238,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__InteractionState__
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6258))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6172))
 // CS Name: ::InputActionState::InteractionState
 #pragma pack(push, 0)
 struct CORDL_TYPE __InputActionState__InteractionState {
@@ -356,64 +356,64 @@ public:
 
   constexpr void __set_m_TimerMonitorIndex(int64_t value);
 
-  /// @brief Method get_triggerControlIndex addr 0x28cecf8 size 0x14 virtual false final false
+  /// @brief Method get_triggerControlIndex, addr 0x2a4ea40, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_triggerControlIndex();
 
-  /// @brief Method set_triggerControlIndex addr 0x28cfb1c size 0x74 virtual false final false
+  /// @brief Method set_triggerControlIndex, addr 0x2a4f864, size 0x74, virtual false, abstract: false, final false
   inline void set_triggerControlIndex(int32_t value);
 
-  /// @brief Method get_startTime addr 0x28d46c4 size 0x8 virtual false final false
+  /// @brief Method get_startTime, addr 0x2a5440c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method set_startTime addr 0x28d46cc size 0x8 virtual false final false
+  /// @brief Method set_startTime, addr 0x2a54414, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(double_t value);
 
-  /// @brief Method get_performedTime addr 0x28d46d4 size 0x8 virtual false final false
+  /// @brief Method get_performedTime, addr 0x2a5441c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_performedTime();
 
-  /// @brief Method set_performedTime addr 0x28d46dc size 0x8 virtual false final false
+  /// @brief Method set_performedTime, addr 0x2a54424, size 0x8, virtual false, abstract: false, final false
   inline void set_performedTime(double_t value);
 
-  /// @brief Method get_timerStartTime addr 0x28d46e4 size 0x8 virtual false final false
+  /// @brief Method get_timerStartTime, addr 0x2a5442c, size 0x8, virtual false, abstract: false, final false
   inline double_t get_timerStartTime();
 
-  /// @brief Method set_timerStartTime addr 0x28d46ec size 0x8 virtual false final false
+  /// @brief Method set_timerStartTime, addr 0x2a54434, size 0x8, virtual false, abstract: false, final false
   inline void set_timerStartTime(double_t value);
 
-  /// @brief Method get_timerDuration addr 0x28d46f4 size 0x8 virtual false final false
+  /// @brief Method get_timerDuration, addr 0x2a5443c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_timerDuration();
 
-  /// @brief Method set_timerDuration addr 0x28d46fc size 0x8 virtual false final false
+  /// @brief Method set_timerDuration, addr 0x2a54444, size 0x8, virtual false, abstract: false, final false
   inline void set_timerDuration(float_t value);
 
-  /// @brief Method get_totalTimeoutCompletionDone addr 0x28d4704 size 0x8 virtual false final false
+  /// @brief Method get_totalTimeoutCompletionDone, addr 0x2a5444c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_totalTimeoutCompletionDone();
 
-  /// @brief Method set_totalTimeoutCompletionDone addr 0x28d470c size 0x8 virtual false final false
+  /// @brief Method set_totalTimeoutCompletionDone, addr 0x2a54454, size 0x8, virtual false, abstract: false, final false
   inline void set_totalTimeoutCompletionDone(float_t value);
 
-  /// @brief Method get_totalTimeoutCompletionTimeRemaining addr 0x28d4714 size 0x8 virtual false final false
+  /// @brief Method get_totalTimeoutCompletionTimeRemaining, addr 0x2a5445c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_totalTimeoutCompletionTimeRemaining();
 
-  /// @brief Method set_totalTimeoutCompletionTimeRemaining addr 0x28d471c size 0x8 virtual false final false
+  /// @brief Method set_totalTimeoutCompletionTimeRemaining, addr 0x2a54464, size 0x8, virtual false, abstract: false, final false
   inline void set_totalTimeoutCompletionTimeRemaining(float_t value);
 
-  /// @brief Method get_timerMonitorIndex addr 0x28d4724 size 0x8 virtual false final false
+  /// @brief Method get_timerMonitorIndex, addr 0x2a5446c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_timerMonitorIndex();
 
-  /// @brief Method set_timerMonitorIndex addr 0x28d472c size 0x8 virtual false final false
+  /// @brief Method set_timerMonitorIndex, addr 0x2a54474, size 0x8, virtual false, abstract: false, final false
   inline void set_timerMonitorIndex(int64_t value);
 
-  /// @brief Method get_isTimerRunning addr 0x28cfb90 size 0xc virtual false final false
+  /// @brief Method get_isTimerRunning, addr 0x2a4f8d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isTimerRunning();
 
-  /// @brief Method set_isTimerRunning addr 0x28d21e0 size 0x1c virtual false final false
+  /// @brief Method set_isTimerRunning, addr 0x2a51f28, size 0x1c, virtual false, abstract: false, final false
   inline void set_isTimerRunning(bool value);
 
-  /// @brief Method get_phase addr 0x28d4734 size 0x8 virtual false final false
+  /// @brief Method get_phase, addr 0x2a5447c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method set_phase addr 0x28cfb14 size 0x8 virtual false final false
+  /// @brief Method set_phase, addr 0x2a4f85c, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::InputActionPhase value);
 
   // Ctor Parameters [CppParam { name: "m_TriggerControlIndex", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "", def_value: None }, CppParam
@@ -590,7 +590,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6259))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6173))
 // CS Name: ::InputActionState::BindingState::Flags
 struct CORDL_TYPE __InputActionState__BindingState__Flags {
 public:
@@ -656,7 +656,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__BindingState__Flag
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6174))
 // CS Name: ::InputActionState::BindingState
 #pragma pack(push, 0)
 struct CORDL_TYPE __InputActionState__BindingState {
@@ -830,121 +830,121 @@ public:
 
   constexpr void __set___padding(int32_t value);
 
-  /// @brief Method get_controlStartIndex addr 0x28d473c size 0x8 virtual false final false
+  /// @brief Method get_controlStartIndex, addr 0x2a54484, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_controlStartIndex();
 
-  /// @brief Method set_controlStartIndex addr 0x28d4744 size 0x98 virtual false final false
+  /// @brief Method set_controlStartIndex, addr 0x2a5448c, size 0x98, virtual false, abstract: false, final false
   inline void set_controlStartIndex(int32_t value);
 
-  /// @brief Method get_controlCount addr 0x28d47dc size 0x8 virtual false final false
+  /// @brief Method get_controlCount, addr 0x2a54524, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_controlCount();
 
-  /// @brief Method set_controlCount addr 0x28d47e4 size 0x98 virtual false final false
+  /// @brief Method set_controlCount, addr 0x2a5452c, size 0x98, virtual false, abstract: false, final false
   inline void set_controlCount(int32_t value);
 
-  /// @brief Method get_interactionStartIndex addr 0x28cece4 size 0x14 virtual false final false
+  /// @brief Method get_interactionStartIndex, addr 0x2a4ea2c, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_interactionStartIndex();
 
-  /// @brief Method set_interactionStartIndex addr 0x28d487c size 0xa8 virtual false final false
+  /// @brief Method set_interactionStartIndex, addr 0x2a545c4, size 0xa8, virtual false, abstract: false, final false
   inline void set_interactionStartIndex(int32_t value);
 
-  /// @brief Method get_interactionCount addr 0x28d4924 size 0x8 virtual false final false
+  /// @brief Method get_interactionCount, addr 0x2a5466c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_interactionCount();
 
-  /// @brief Method set_interactionCount addr 0x28d492c size 0x98 virtual false final false
+  /// @brief Method set_interactionCount, addr 0x2a54674, size 0x98, virtual false, abstract: false, final false
   inline void set_interactionCount(int32_t value);
 
-  /// @brief Method get_processorStartIndex addr 0x28d3124 size 0x14 virtual false final false
+  /// @brief Method get_processorStartIndex, addr 0x2a52e6c, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_processorStartIndex();
 
-  /// @brief Method set_processorStartIndex addr 0x28d49c4 size 0xa8 virtual false final false
+  /// @brief Method set_processorStartIndex, addr 0x2a5470c, size 0xa8, virtual false, abstract: false, final false
   inline void set_processorStartIndex(int32_t value);
 
-  /// @brief Method get_processorCount addr 0x28d4a6c size 0x8 virtual false final false
+  /// @brief Method get_processorCount, addr 0x2a547b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_processorCount();
 
-  /// @brief Method set_processorCount addr 0x28d4a74 size 0x98 virtual false final false
+  /// @brief Method set_processorCount, addr 0x2a547bc, size 0x98, virtual false, abstract: false, final false
   inline void set_processorCount(int32_t value);
 
-  /// @brief Method get_actionIndex addr 0x28cf7d0 size 0x14 virtual false final false
+  /// @brief Method get_actionIndex, addr 0x2a4f518, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_actionIndex();
 
-  /// @brief Method set_actionIndex addr 0x28d4b0c size 0xa8 virtual false final false
+  /// @brief Method set_actionIndex, addr 0x2a54854, size 0xa8, virtual false, abstract: false, final false
   inline void set_actionIndex(int32_t value);
 
-  /// @brief Method get_mapIndex addr 0x28d4bb4 size 0x8 virtual false final false
+  /// @brief Method get_mapIndex, addr 0x2a548fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mapIndex();
 
-  /// @brief Method set_mapIndex addr 0x28d4bbc size 0x98 virtual false final false
+  /// @brief Method set_mapIndex, addr 0x2a54904, size 0x98, virtual false, abstract: false, final false
   inline void set_mapIndex(int32_t value);
 
-  /// @brief Method get_compositeOrCompositeBindingIndex addr 0x28cdaa4 size 0x14 virtual false final false
+  /// @brief Method get_compositeOrCompositeBindingIndex, addr 0x2a4d7ec, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_compositeOrCompositeBindingIndex();
 
-  /// @brief Method set_compositeOrCompositeBindingIndex addr 0x28d4c54 size 0xa8 virtual false final false
+  /// @brief Method set_compositeOrCompositeBindingIndex, addr 0x2a5499c, size 0xa8, virtual false, abstract: false, final false
   inline void set_compositeOrCompositeBindingIndex(int32_t value);
 
-  /// @brief Method get_triggerEventIdForComposite addr 0x28d4cfc size 0x8 virtual false final false
+  /// @brief Method get_triggerEventIdForComposite, addr 0x2a54a44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_triggerEventIdForComposite();
 
-  /// @brief Method set_triggerEventIdForComposite addr 0x28d4d04 size 0x8 virtual false final false
+  /// @brief Method set_triggerEventIdForComposite, addr 0x2a54a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEventIdForComposite(int32_t value);
 
-  /// @brief Method get_pressTime addr 0x28d4d0c size 0x8 virtual false final false
+  /// @brief Method get_pressTime, addr 0x2a54a54, size 0x8, virtual false, abstract: false, final false
   inline double_t get_pressTime();
 
-  /// @brief Method set_pressTime addr 0x28d4d14 size 0x8 virtual false final false
+  /// @brief Method set_pressTime, addr 0x2a54a5c, size 0x8, virtual false, abstract: false, final false
   inline void set_pressTime(double_t value);
 
-  /// @brief Method get_flags addr 0x28d4d1c size 0x8 virtual false final false
+  /// @brief Method get_flags, addr 0x2a54a64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__InputActionState__BindingState__Flags get_flags();
 
-  /// @brief Method set_flags addr 0x28d4d24 size 0x8 virtual false final false
+  /// @brief Method set_flags, addr 0x2a54a6c, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::GlobalNamespace::__InputActionState__BindingState__Flags value);
 
-  /// @brief Method get_chainsWithNext addr 0x28d4d2c size 0xc virtual false final false
+  /// @brief Method get_chainsWithNext, addr 0x2a54a74, size 0xc, virtual false, abstract: false, final false
   inline bool get_chainsWithNext();
 
-  /// @brief Method set_chainsWithNext addr 0x28d4d38 size 0x1c virtual false final false
+  /// @brief Method set_chainsWithNext, addr 0x2a54a80, size 0x1c, virtual false, abstract: false, final false
   inline void set_chainsWithNext(bool value);
 
-  /// @brief Method get_isEndOfChain addr 0x28d4d54 size 0xc virtual false final false
+  /// @brief Method get_isEndOfChain, addr 0x2a54a9c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isEndOfChain();
 
-  /// @brief Method set_isEndOfChain addr 0x28d4d60 size 0x1c virtual false final false
+  /// @brief Method set_isEndOfChain, addr 0x2a54aa8, size 0x1c, virtual false, abstract: false, final false
   inline void set_isEndOfChain(bool value);
 
-  /// @brief Method get_isPartOfChain addr 0x28d4d7c size 0x10 virtual false final false
+  /// @brief Method get_isPartOfChain, addr 0x2a54ac4, size 0x10, virtual false, abstract: false, final false
   inline bool get_isPartOfChain();
 
-  /// @brief Method get_isComposite addr 0x28ce6b8 size 0xc virtual false final false
+  /// @brief Method get_isComposite, addr 0x2a4e400, size 0xc, virtual false, abstract: false, final false
   inline bool get_isComposite();
 
-  /// @brief Method set_isComposite addr 0x28d4d8c size 0x1c virtual false final false
+  /// @brief Method set_isComposite, addr 0x2a54ad4, size 0x1c, virtual false, abstract: false, final false
   inline void set_isComposite(bool value);
 
-  /// @brief Method get_isPartOfComposite addr 0x28cda98 size 0xc virtual false final false
+  /// @brief Method get_isPartOfComposite, addr 0x2a4d7e0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPartOfComposite();
 
-  /// @brief Method set_isPartOfComposite addr 0x28d4da8 size 0x1c virtual false final false
+  /// @brief Method set_isPartOfComposite, addr 0x2a54af0, size 0x1c, virtual false, abstract: false, final false
   inline void set_isPartOfComposite(bool value);
 
-  /// @brief Method get_initialStateCheckPending addr 0x28d0d84 size 0xc virtual false final false
+  /// @brief Method get_initialStateCheckPending, addr 0x2a50acc, size 0xc, virtual false, abstract: false, final false
   inline bool get_initialStateCheckPending();
 
-  /// @brief Method set_initialStateCheckPending addr 0x28cf800 size 0x1c virtual false final false
+  /// @brief Method set_initialStateCheckPending, addr 0x2a4f548, size 0x1c, virtual false, abstract: false, final false
   inline void set_initialStateCheckPending(bool value);
 
-  /// @brief Method get_wantsInitialStateCheck addr 0x28cf7f4 size 0xc virtual false final false
+  /// @brief Method get_wantsInitialStateCheck, addr 0x2a4f53c, size 0xc, virtual false, abstract: false, final false
   inline bool get_wantsInitialStateCheck();
 
-  /// @brief Method set_wantsInitialStateCheck addr 0x28d4dc4 size 0x1c virtual false final false
+  /// @brief Method set_wantsInitialStateCheck, addr 0x2a54b0c, size 0x1c, virtual false, abstract: false, final false
   inline void set_wantsInitialStateCheck(bool value);
 
-  /// @brief Method get_partIndex addr 0x28d4de0 size 0x8 virtual false final false
+  /// @brief Method get_partIndex, addr 0x2a54b28, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_partIndex();
 
-  /// @brief Method set_partIndex addr 0x28d4de8 size 0x8 virtual false final false
+  /// @brief Method set_partIndex, addr 0x2a54b30, size 0x8, virtual false, abstract: false, final false
   inline void set_partIndex(int32_t value);
 
   // Ctor Parameters [CppParam { name: "m_ControlCount", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_InteractionCount", ty: "uint8_t", modifiers: "", def_value: None },
@@ -1179,7 +1179,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6175))
 // CS Name: ::InputActionState::TriggerState::Flags
 struct CORDL_TYPE __InputActionState__TriggerState__Flags {
 public:
@@ -1249,7 +1249,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__TriggerState__Flag
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6176))
 // CS Name: ::InputActionState::TriggerState
 #pragma pack(push, 0)
 struct CORDL_TYPE __InputActionState__TriggerState {
@@ -1424,136 +1424,136 @@ public:
 
   constexpr void __set_m_ReleasedInUpdate(uint32_t value);
 
-  /// @brief Method get_phase addr 0x28d4df0 size 0x8 virtual false final false
+  /// @brief Method get_phase, addr 0x2a54b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
 
-  /// @brief Method set_phase addr 0x28cf7c8 size 0x8 virtual false final false
+  /// @brief Method set_phase, addr 0x2a4f510, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::InputActionPhase value);
 
-  /// @brief Method get_isDisabled addr 0x28cf7e4 size 0x10 virtual false final false
+  /// @brief Method get_isDisabled, addr 0x2a4f52c, size 0x10, virtual false, abstract: false, final false
   inline bool get_isDisabled();
 
-  /// @brief Method get_isWaiting addr 0x28d4df8 size 0x10 virtual false final false
+  /// @brief Method get_isWaiting, addr 0x2a54b40, size 0x10, virtual false, abstract: false, final false
   inline bool get_isWaiting();
 
-  /// @brief Method get_isStarted addr 0x28d4e08 size 0x10 virtual false final false
+  /// @brief Method get_isStarted, addr 0x2a54b50, size 0x10, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_isPerformed addr 0x28d4e18 size 0x10 virtual false final false
+  /// @brief Method get_isPerformed, addr 0x2a54b60, size 0x10, virtual false, abstract: false, final false
   inline bool get_isPerformed();
 
-  /// @brief Method get_isCanceled addr 0x28d4e28 size 0x10 virtual false final false
+  /// @brief Method get_isCanceled, addr 0x2a54b70, size 0x10, virtual false, abstract: false, final false
   inline bool get_isCanceled();
 
-  /// @brief Method get_time addr 0x28d4e38 size 0x8 virtual false final false
+  /// @brief Method get_time, addr 0x2a54b80, size 0x8, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method set_time addr 0x28d4e40 size 0x8 virtual false final false
+  /// @brief Method set_time, addr 0x2a54b88, size 0x8, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
-  /// @brief Method get_startTime addr 0x28d4e48 size 0x8 virtual false final false
+  /// @brief Method get_startTime, addr 0x2a54b90, size 0x8, virtual false, abstract: false, final false
   inline double_t get_startTime();
 
-  /// @brief Method set_startTime addr 0x28d4e50 size 0x8 virtual false final false
+  /// @brief Method set_startTime, addr 0x2a54b98, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(double_t value);
 
-  /// @brief Method get_magnitude addr 0x28d4e58 size 0x8 virtual false final false
+  /// @brief Method get_magnitude, addr 0x2a54ba0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_magnitude();
 
-  /// @brief Method set_magnitude addr 0x28cfa78 size 0x14 virtual false final false
+  /// @brief Method set_magnitude, addr 0x2a4f7c0, size 0x14, virtual false, abstract: false, final false
   inline void set_magnitude(float_t value);
 
-  /// @brief Method get_haveMagnitude addr 0x28d4e60 size 0xc virtual false final false
+  /// @brief Method get_haveMagnitude, addr 0x2a54ba8, size 0xc, virtual false, abstract: false, final false
   inline bool get_haveMagnitude();
 
-  /// @brief Method get_mapIndex addr 0x28d4e6c size 0x8 virtual false final false
+  /// @brief Method get_mapIndex, addr 0x2a54bb4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_mapIndex();
 
-  /// @brief Method set_mapIndex addr 0x28cfb9c size 0x64 virtual false final false
+  /// @brief Method set_mapIndex, addr 0x2a4f8e4, size 0x64, virtual false, abstract: false, final false
   inline void set_mapIndex(int32_t value);
 
-  /// @brief Method get_controlIndex addr 0x28cecd0 size 0x14 virtual false final false
+  /// @brief Method get_controlIndex, addr 0x2a4ea18, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_controlIndex();
 
-  /// @brief Method set_controlIndex addr 0x28cfa04 size 0x74 virtual false final false
+  /// @brief Method set_controlIndex, addr 0x2a4f74c, size 0x74, virtual false, abstract: false, final false
   inline void set_controlIndex(int32_t value);
 
-  /// @brief Method get_bindingIndex addr 0x28d4e74 size 0x8 virtual false final false
+  /// @brief Method get_bindingIndex, addr 0x2a54bbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method set_bindingIndex addr 0x28cfc00 size 0x64 virtual false final false
+  /// @brief Method set_bindingIndex, addr 0x2a4f948, size 0x64, virtual false, abstract: false, final false
   inline void set_bindingIndex(int32_t value);
 
-  /// @brief Method get_interactionIndex addr 0x28cfa8c size 0x14 virtual false final false
+  /// @brief Method get_interactionIndex, addr 0x2a4f7d4, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_interactionIndex();
 
-  /// @brief Method set_interactionIndex addr 0x28cfaa0 size 0x74 virtual false final false
+  /// @brief Method set_interactionIndex, addr 0x2a4f7e8, size 0x74, virtual false, abstract: false, final false
   inline void set_interactionIndex(int32_t value);
 
-  /// @brief Method get_lastPerformedInUpdate addr 0x28d4e7c size 0x8 virtual false final false
+  /// @brief Method get_lastPerformedInUpdate, addr 0x2a54bc4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_lastPerformedInUpdate();
 
-  /// @brief Method set_lastPerformedInUpdate addr 0x28d4e84 size 0x8 virtual false final false
+  /// @brief Method set_lastPerformedInUpdate, addr 0x2a54bcc, size 0x8, virtual false, abstract: false, final false
   inline void set_lastPerformedInUpdate(uint32_t value);
 
-  /// @brief Method get_lastCanceledInUpdate addr 0x28d4e8c size 0x8 virtual false final false
+  /// @brief Method get_lastCanceledInUpdate, addr 0x2a54bd4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_lastCanceledInUpdate();
 
-  /// @brief Method set_lastCanceledInUpdate addr 0x28d4e94 size 0x8 virtual false final false
+  /// @brief Method set_lastCanceledInUpdate, addr 0x2a54bdc, size 0x8, virtual false, abstract: false, final false
   inline void set_lastCanceledInUpdate(uint32_t value);
 
-  /// @brief Method get_pressedInUpdate addr 0x28d4e9c size 0x8 virtual false final false
+  /// @brief Method get_pressedInUpdate, addr 0x2a54be4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_pressedInUpdate();
 
-  /// @brief Method set_pressedInUpdate addr 0x28d4ea4 size 0x8 virtual false final false
+  /// @brief Method set_pressedInUpdate, addr 0x2a54bec, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedInUpdate(uint32_t value);
 
-  /// @brief Method get_releasedInUpdate addr 0x28d4eac size 0x8 virtual false final false
+  /// @brief Method get_releasedInUpdate, addr 0x2a54bf4, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_releasedInUpdate();
 
-  /// @brief Method set_releasedInUpdate addr 0x28d4eb4 size 0x8 virtual false final false
+  /// @brief Method set_releasedInUpdate, addr 0x2a54bfc, size 0x8, virtual false, abstract: false, final false
   inline void set_releasedInUpdate(uint32_t value);
 
-  /// @brief Method get_isPassThrough addr 0x28d0270 size 0xc virtual false final false
+  /// @brief Method get_isPassThrough, addr 0x2a4ffb8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPassThrough();
 
-  /// @brief Method set_isPassThrough addr 0x28d1598 size 0x1c virtual false final false
+  /// @brief Method set_isPassThrough, addr 0x2a512e0, size 0x1c, virtual false, abstract: false, final false
   inline void set_isPassThrough(bool value);
 
-  /// @brief Method get_isButton addr 0x28d15b4 size 0xc virtual false final false
+  /// @brief Method get_isButton, addr 0x2a512fc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isButton();
 
-  /// @brief Method set_isButton addr 0x28d15c0 size 0x1c virtual false final false
+  /// @brief Method set_isButton, addr 0x2a51308, size 0x1c, virtual false, abstract: false, final false
   inline void set_isButton(bool value);
 
-  /// @brief Method get_isPressed addr 0x28d2114 size 0xc virtual false final false
+  /// @brief Method get_isPressed, addr 0x2a51e5c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method set_isPressed addr 0x28d0638 size 0x1c virtual false final false
+  /// @brief Method set_isPressed, addr 0x2a50380, size 0x1c, virtual false, abstract: false, final false
   inline void set_isPressed(bool value);
 
-  /// @brief Method get_mayNeedConflictResolution addr 0x28d2120 size 0xc virtual false final false
+  /// @brief Method get_mayNeedConflictResolution, addr 0x2a51e68, size 0xc, virtual false, abstract: false, final false
   inline bool get_mayNeedConflictResolution();
 
-  /// @brief Method set_mayNeedConflictResolution addr 0x28d4ebc size 0x1c virtual false final false
+  /// @brief Method set_mayNeedConflictResolution, addr 0x2a54c04, size 0x1c, virtual false, abstract: false, final false
   inline void set_mayNeedConflictResolution(bool value);
 
-  /// @brief Method get_hasMultipleConcurrentActuations addr 0x28d212c size 0xc virtual false final false
+  /// @brief Method get_hasMultipleConcurrentActuations, addr 0x2a51e74, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasMultipleConcurrentActuations();
 
-  /// @brief Method set_hasMultipleConcurrentActuations addr 0x28d0600 size 0x1c virtual false final false
+  /// @brief Method set_hasMultipleConcurrentActuations, addr 0x2a50348, size 0x1c, virtual false, abstract: false, final false
   inline void set_hasMultipleConcurrentActuations(bool value);
 
-  /// @brief Method get_inProcessing addr 0x28d2960 size 0xc virtual false final false
+  /// @brief Method get_inProcessing, addr 0x2a526a8, size 0xc, virtual false, abstract: false, final false
   inline bool get_inProcessing();
 
-  /// @brief Method set_inProcessing addr 0x28d061c size 0x1c virtual false final false
+  /// @brief Method set_inProcessing, addr 0x2a50364, size 0x1c, virtual false, abstract: false, final false
   inline void set_inProcessing(bool value);
 
-  /// @brief Method get_flags addr 0x28d4ed8 size 0x8 virtual false final false
+  /// @brief Method get_flags, addr 0x2a54c20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__InputActionState__TriggerState__Flags get_flags();
 
-  /// @brief Method set_flags addr 0x28d296c size 0x8 virtual false final false
+  /// @brief Method set_flags, addr 0x2a526b4, size 0x8, virtual false, abstract: false, final false
   inline void set_flags(::GlobalNamespace::__InputActionState__TriggerState__Flags value);
 
   // Ctor Parameters [CppParam { name: "m_Phase", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Flags", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:
@@ -1782,7 +1782,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6177))
 // CS Name: ::InputActionState::ActionMapIndices
 struct CORDL_TYPE __InputActionState__ActionMapIndices {
 public:
@@ -1875,7 +1875,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__ActionMap
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6264))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6178))
 // CS Name: ::InputActionState::UnmanagedMemory
 struct CORDL_TYPE __InputActionState__UnmanagedMemory {
 public:
@@ -1887,22 +1887,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method get_isAllocated addr 0x28d4ee0 size 0x10 virtual false final false
+  /// @brief Method get_isAllocated, addr 0x2a54c28, size 0x10, virtual false, abstract: false, final false
   inline bool get_isAllocated();
 
-  /// @brief Method get_sizeInBytes addr 0x28d4ef0 size 0x4c virtual false final false
+  /// @brief Method get_sizeInBytes, addr 0x2a54c38, size 0x4c, virtual false, abstract: false, final false
   inline int32_t get_sizeInBytes();
 
-  /// @brief Method Allocate addr 0x28d4f3c size 0x128 virtual false final false
+  /// @brief Method Allocate, addr 0x2a54c84, size 0x128, virtual false, abstract: false, final false
   inline void Allocate(int32_t mapCount, int32_t actionCount, int32_t bindingCount, int32_t controlCount, int32_t interactionCount, int32_t compositeCount);
 
-  /// @brief Method Dispose addr 0x28cdfa0 size 0x3c virtual true final true
+  /// @brief Method Dispose, addr 0x2a4dce8, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method CopyDataFrom addr 0x28d5064 size 0x16c virtual false final false
+  /// @brief Method CopyDataFrom, addr 0x2a54dac, size 0x16c, virtual false, abstract: false, final false
   inline void CopyDataFrom(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory);
 
-  /// @brief Method Clone addr 0x28ce134 size 0xa4 virtual false final false
+  /// @brief Method Clone, addr 0x2a4de7c, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory Clone();
 
   // Ctor Parameters [CppParam { name: "basePtr", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "mapCount", ty: "int32_t", modifiers: "", def_value: None },
@@ -2038,11 +2038,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__Unmanaged
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6226)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(6755)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6746)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 973 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2324), inst: 557 }), TypeDefinitionIndex(TypeDefinitionIndex(3332)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3773 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6746), inst: 981 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6265)) CS Name: ::InputActionState::GlobalState
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }), TypeDefinitionIndex(TypeDefinitionIndex(3336)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 565 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 995 }), TypeDefinitionIndex(TypeDefinitionIndex(6140))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
 struct CORDL_TYPE __InputActionState__GlobalState {
 public:
   // Declarations
@@ -2087,8 +2087,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__GlobalSta
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6266))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6180))
 // CS Name: ::InputActionState::<>c*
 class CORDL_TYPE __InputActionState____c : public ::System::Object {
 public:
@@ -2118,13 +2118,13 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputActionState____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x28d5234 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a54f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SaveAndResetState>b__135_0 addr 0x28d523c size 0x6c virtual false final false
+  /// @brief Method <SaveAndResetState>b__135_0, addr 0x2a54f84, size 0x6c, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__135_0(ByRef<::UnityEngine::InputSystem::__InputActionState__GlobalState> state);
 
-  /// @brief Method <SaveAndResetState>b__135_1 addr 0x28d52a8 size 0x4 virtual false final false
+  /// @brief Method <SaveAndResetState>b__135_1, addr 0x2a54ff0, size 0x4, virtual false, abstract: false, final false
   inline void _SaveAndResetState_b__135_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputActionState____c", modifiers: "&&", def_value: None }]
@@ -2151,8 +2151,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6264)), TypeDefinitionIndex(TypeDefinitionIndex(6265)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6622))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6267)) CS Name: ::UnityEngine.InputSystem::InputActionState*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
 class CORDL_TYPE InputActionState : public ::System::Object {
 public:
   // Declarations
@@ -2335,355 +2335,368 @@ public:
 
   static inline ::UnityEngine::InputSystem::__InputActionState__GlobalState getStaticF_s_GlobalState();
 
-  /// @brief Method get_totalCompositeCount addr 0x28cd6c4 size 0x8 virtual false final false
+  /// @brief Method get_totalCompositeCount, addr 0x2a4d40c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalCompositeCount();
 
-  /// @brief Method get_totalMapCount addr 0x28cd6cc size 0x8 virtual false final false
+  /// @brief Method get_totalMapCount, addr 0x2a4d414, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
-  /// @brief Method get_totalActionCount addr 0x28cd6d4 size 0x8 virtual false final false
+  /// @brief Method get_totalActionCount, addr 0x2a4d41c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount addr 0x28cd6dc size 0x8 virtual false final false
+  /// @brief Method get_totalBindingCount, addr 0x2a4d424, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalInteractionCount addr 0x28cd6e4 size 0x8 virtual false final false
+  /// @brief Method get_totalInteractionCount, addr 0x2a4d42c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalInteractionCount();
 
-  /// @brief Method get_totalControlCount addr 0x28cd6ec size 0x8 virtual false final false
+  /// @brief Method get_totalControlCount, addr 0x2a4d434, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method get_mapIndices addr 0x28cd6f4 size 0x8 virtual false final false
+  /// @brief Method get_mapIndices, addr 0x2a4d43c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__ActionMapIndices> get_mapIndices();
 
-  /// @brief Method get_actionStates addr 0x28cd6fc size 0x8 virtual false final false
+  /// @brief Method get_actionStates, addr 0x2a4d444, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__TriggerState> get_actionStates();
 
-  /// @brief Method get_bindingStates addr 0x28cd704 size 0x8 virtual false final false
+  /// @brief Method get_bindingStates, addr 0x2a4d44c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__BindingState> get_bindingStates();
 
-  /// @brief Method get_interactionStates addr 0x28cd70c size 0x8 virtual false final false
+  /// @brief Method get_interactionStates, addr 0x2a4d454, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__InteractionState> get_interactionStates();
 
-  /// @brief Method get_controlIndexToBindingIndex addr 0x28cd714 size 0x8 virtual false final false
+  /// @brief Method get_controlIndexToBindingIndex, addr 0x2a4d45c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<int32_t> get_controlIndexToBindingIndex();
 
-  /// @brief Method get_controlGroupingAndComplexity addr 0x28cd71c size 0x8 virtual false final false
+  /// @brief Method get_controlGroupingAndComplexity, addr 0x2a4d464, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint16_t> get_controlGroupingAndComplexity();
 
-  /// @brief Method get_controlMagnitudes addr 0x28cd724 size 0x8 virtual false final false
+  /// @brief Method get_controlMagnitudes, addr 0x2a4d46c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<float_t> get_controlMagnitudes();
 
-  /// @brief Method get_enabledControls addr 0x28cd72c size 0x8 virtual false final false
+  /// @brief Method get_enabledControls, addr 0x2a4d474, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint32_t> get_enabledControls();
 
-  /// @brief Method get_isProcessingControlStateChange addr 0x28cd734 size 0x8 virtual false final false
+  /// @brief Method get_isProcessingControlStateChange, addr 0x2a4d47c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isProcessingControlStateChange();
 
-  /// @brief Method Initialize addr 0x28cd73c size 0x78 virtual false final false
+  /// @brief Method Initialize, addr 0x2a4d484, size 0x78, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::InputSystem::InputBindingResolver resolver);
 
-  /// @brief Method ComputeControlGroupingIfNecessary addr 0x28cd8d0 size 0x1c8 virtual false final false
+  /// @brief Method ComputeControlGroupingIfNecessary, addr 0x2a4d618, size 0x1c8, virtual false, abstract: false, final false
   inline void ComputeControlGroupingIfNecessary();
 
-  /// @brief Method ClaimDataFrom addr 0x28cd7b4 size 0x94 virtual false final false
+  /// @brief Method ClaimDataFrom, addr 0x2a4d4fc, size 0x94, virtual false, abstract: false, final false
   inline void ClaimDataFrom(::UnityEngine::InputSystem::InputBindingResolver resolver);
 
-  /// @brief Method Finalize addr 0x28cdab8 size 0x98 virtual true final false
+  /// @brief Method Finalize, addr 0x2a4d800, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Dispose addr 0x28cdce0 size 0x8 virtual true final true
+  /// @brief Method Dispose, addr 0x2a4da28, size 0x8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Destroy addr 0x28cdb50 size 0x190 virtual false final false
-  inline void Destroy(bool isFinalizing);
+  /// @brief Method Destroy, addr 0x2a4d898, size 0x190, virtual false, abstract: false, final false
+  /// @param isFinalizing: bool (default: false)
+  inline void Destroy(bool isFinalizing = false);
 
-  /// @brief Method Clone addr 0x28cdfdc size 0x150 virtual false final false
+  /// @brief Method Clone, addr 0x2a4dd24, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionState* Clone();
 
-  /// @brief Method System.ICloneable.Clone addr 0x28ce1d8 size 0x4 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2a4df20, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method IsUsingDevice addr 0x28ce1dc size 0x198 virtual false final false
+  /// @brief Method IsUsingDevice, addr 0x2a4df24, size 0x198, virtual false, abstract: false, final false
   inline bool IsUsingDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method CanUseDevice addr 0x28ce374 size 0x200 virtual false final false
+  /// @brief Method CanUseDevice, addr 0x2a4e0bc, size 0x200, virtual false, abstract: false, final false
   inline bool CanUseDevice(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method HasEnabledActions addr 0x28ce58c size 0x78 virtual false final false
+  /// @brief Method HasEnabledActions, addr 0x2a4e2d4, size 0x78, virtual false, abstract: false, final false
   inline bool HasEnabledActions();
 
-  /// @brief Method FinishBindingCompositeSetups addr 0x28ce604 size 0xb4 virtual false final false
+  /// @brief Method FinishBindingCompositeSetups, addr 0x2a4e34c, size 0xb4, virtual false, abstract: false, final false
   inline void FinishBindingCompositeSetups();
 
-  /// @brief Method PrepareForBindingReResolution addr 0x28ce6d0 size 0x500 virtual false final false
+  /// @brief Method PrepareForBindingReResolution, addr 0x2a4e418, size 0x500, virtual false, abstract: false, final false
   inline void PrepareForBindingReResolution(bool needFullResolve, ByRef<::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*>> activeControls,
                                             ByRef<bool> hasEnabledActions);
 
-  /// @brief Method FinishBindingResolution addr 0x28cf0b4 size 0x88 virtual false final false
+  /// @brief Method FinishBindingResolution, addr 0x2a4edfc, size 0x88, virtual false, abstract: false, final false
   inline void FinishBindingResolution(bool hasEnabledActions, ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory oldMemory,
                                       ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> activeControls, bool isFullResolve);
 
-  /// @brief Method RestoreActionStatesAfterReResolvingBindings addr 0x28cf13c size 0x68c virtual false final false
+  /// @brief Method RestoreActionStatesAfterReResolvingBindings, addr 0x2a4ee84, size 0x68c, virtual false, abstract: false, final false
   inline void RestoreActionStatesAfterReResolvingBindings(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory oldState,
                                                           ::UnityEngine::InputSystem::InputControlList_1<::UnityEngine::InputSystem::InputControl*> activeControls, bool isFullResolve);
 
-  /// @brief Method IsActiveControl addr 0x28cff90 size 0xa8 virtual false final false
+  /// @brief Method IsActiveControl, addr 0x2a4fcd8, size 0xa8, virtual false, abstract: false, final false
   inline bool IsActiveControl(int32_t bindingIndex, int32_t controlIndex);
 
-  /// @brief Method FindControlIndexOnBinding addr 0x28cf9a4 size 0x60 virtual false final false
+  /// @brief Method FindControlIndexOnBinding, addr 0x2a4f6ec, size 0x60, virtual false, abstract: false, final false
   inline int32_t FindControlIndexOnBinding(int32_t bindingIndex, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ResetActionStatesDrivenBy addr 0x28d0038 size 0x238 virtual false final false
+  /// @brief Method ResetActionStatesDrivenBy, addr 0x2a4fd80, size 0x238, virtual false, abstract: false, final false
   inline void ResetActionStatesDrivenBy(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method IsActionBoundToControlFromDevice addr 0x28d027c size 0xb0 virtual false final false
+  /// @brief Method IsActionBoundToControlFromDevice, addr 0x2a4ffc4, size 0xb0, virtual false, abstract: false, final false
   inline bool IsActionBoundToControlFromDevice(::UnityEngine::InputSystem::InputDevice* device, int32_t actionIndex);
 
-  /// @brief Method ResetActionState addr 0x28cee64 size 0x11c virtual false final false
-  inline void ResetActionState(int32_t actionIndex, ::UnityEngine::InputSystem::InputActionPhase toPhase, bool hardReset);
+  /// @brief Method ResetActionState, addr 0x2a4ebac, size 0x11c, virtual false, abstract: false, final false
+  /// @param toPhase: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
+  /// @param hardReset: bool (default: false)
+  inline void ResetActionState(int32_t actionIndex, ::UnityEngine::InputSystem::InputActionPhase toPhase = static_cast<int32_t>(0x1), bool hardReset = false);
 
-  /// @brief Method FetchActionState addr 0x28d0654 size 0x24 virtual false final false
+  /// @brief Method FetchActionState, addr 0x2a5039c, size 0x24, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> FetchActionState(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method FetchMapIndices addr 0x28d0678 size 0x34 virtual false final false
+  /// @brief Method FetchMapIndices, addr 0x2a503c0, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::__InputActionState__ActionMapIndices FetchMapIndices(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method EnableAllActions addr 0x28d06ac size 0xac virtual false final false
+  /// @brief Method EnableAllActions, addr 0x2a503f4, size 0xac, virtual false, abstract: false, final false
   inline void EnableAllActions(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method EnableControls addr 0x28d0758 size 0x40 virtual false final false
+  /// @brief Method EnableControls, addr 0x2a504a0, size 0x40, virtual false, abstract: false, final false
   inline void EnableControls(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method EnableSingleAction addr 0x28d0798 size 0x64 virtual false final false
+  /// @brief Method EnableSingleAction, addr 0x2a504e0, size 0x64, virtual false, abstract: false, final false
   inline void EnableSingleAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method EnableControls addr 0x28d07fc size 0xb0 virtual false final false
+  /// @brief Method EnableControls, addr 0x2a50544, size 0xb0, virtual false, abstract: false, final false
   inline void EnableControls(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method DisableAllActions addr 0x28cebd0 size 0x100 virtual false final false
+  /// @brief Method DisableAllActions, addr 0x2a4e918, size 0x100, virtual false, abstract: false, final false
   inline void DisableAllActions(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method DisableControls addr 0x28cef80 size 0x40 virtual false final false
+  /// @brief Method DisableControls, addr 0x2a4ecc8, size 0x40, virtual false, abstract: false, final false
   inline void DisableControls(::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method DisableSingleAction addr 0x28d08ac size 0x58 virtual false final false
+  /// @brief Method DisableSingleAction, addr 0x2a505f4, size 0x58, virtual false, abstract: false, final false
   inline void DisableSingleAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method DisableControls addr 0x28d0904 size 0xb0 virtual false final false
+  /// @brief Method DisableControls, addr 0x2a5064c, size 0xb0, virtual false, abstract: false, final false
   inline void DisableControls(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method EnableControls addr 0x28cf81c size 0x188 virtual false final false
+  /// @brief Method EnableControls, addr 0x2a4f564, size 0x188, virtual false, abstract: false, final false
   inline void EnableControls(int32_t mapIndex, int32_t controlStartIndex, int32_t numControls);
 
-  /// @brief Method DisableControls addr 0x28cdce8 size 0x180 virtual false final false
+  /// @brief Method DisableControls, addr 0x2a4da30, size 0x180, virtual false, abstract: false, final false
   inline void DisableControls(int32_t mapIndex, int32_t controlStartIndex, int32_t numControls);
 
-  /// @brief Method SetInitialStateCheckPending addr 0x28d0a88 size 0x90 virtual false final false
-  inline void SetInitialStateCheckPending(int32_t actionIndex, bool value);
+  /// @brief Method SetInitialStateCheckPending, addr 0x2a507d0, size 0x90, virtual false, abstract: false, final false
+  /// @param value: bool (default: true)
+  inline void SetInitialStateCheckPending(int32_t actionIndex, bool value = true);
 
-  /// @brief Method SetInitialStateCheckPending addr 0x28d0a08 size 0x48 virtual false final false
+  /// @brief Method SetInitialStateCheckPending, addr 0x2a50750, size 0x48, virtual false, abstract: false, final false
   inline void SetInitialStateCheckPending(::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__BindingState> bindingStatePtr, bool value);
 
-  /// @brief Method IsControlEnabled addr 0x28d09b4 size 0x2c virtual false final false
+  /// @brief Method IsControlEnabled, addr 0x2a506fc, size 0x2c, virtual false, abstract: false, final false
   inline bool IsControlEnabled(int32_t controlIndex);
 
-  /// @brief Method SetControlEnabled addr 0x28d0a50 size 0x38 virtual false final false
+  /// @brief Method SetControlEnabled, addr 0x2a50798, size 0x38, virtual false, abstract: false, final false
   inline void SetControlEnabled(int32_t controlIndex, bool state);
 
-  /// @brief Method HookOnBeforeUpdate addr 0x28cfdbc size 0xd4 virtual false final false
+  /// @brief Method HookOnBeforeUpdate, addr 0x2a4fb04, size 0xd4, virtual false, abstract: false, final false
   inline void HookOnBeforeUpdate();
 
-  /// @brief Method UnhookOnBeforeUpdate addr 0x28d0b18 size 0x7c virtual false final false
+  /// @brief Method UnhookOnBeforeUpdate, addr 0x2a50860, size 0x7c, virtual false, abstract: false, final false
   inline void UnhookOnBeforeUpdate();
 
-  /// @brief Method OnBeforeInitialUpdate addr 0x28d0b94 size 0x1f0 virtual false final false
+  /// @brief Method OnBeforeInitialUpdate, addr 0x2a508dc, size 0x1f0, virtual false, abstract: false, final false
   inline void OnBeforeInitialUpdate();
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged addr 0x28d0d90 size 0x18 virtual true final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyControlStateChanged, addr 0x2a50ad8, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time,
                                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t mapControlAndBindingIndex);
 
-  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired addr 0x28d1378 size 0x18 virtual true final true
+  /// @brief Method UnityEngine.InputSystem.LowLevel.IInputStateChangeMonitor.NotifyTimerExpired, addr 0x2a510c0, size 0x18, virtual true, abstract: false, final true
   inline void UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired(::UnityEngine::InputSystem::InputControl* control, double_t time, int64_t mapControlAndBindingIndex,
                                                                                            int32_t interactionIndex);
 
-  /// @brief Method ToCombinedMapAndControlAndBindingIndex addr 0x28d09e0 size 0x28 virtual false final false
+  /// @brief Method ToCombinedMapAndControlAndBindingIndex, addr 0x2a50728, size 0x28, virtual false, abstract: false, final false
   inline int64_t ToCombinedMapAndControlAndBindingIndex(int32_t mapIndex, int32_t controlIndex, int32_t bindingIndex);
 
-  /// @brief Method SplitUpMapAndControlAndBindingIndex addr 0x28d0da8 size 0x1c virtual false final false
+  /// @brief Method SplitUpMapAndControlAndBindingIndex, addr 0x2a50af0, size 0x1c, virtual false, abstract: false, final false
   inline void SplitUpMapAndControlAndBindingIndex(int64_t mapControlAndBindingIndex, ByRef<int32_t> mapIndex, ByRef<int32_t> controlIndex, ByRef<int32_t> bindingIndex);
 
-  /// @brief Method GetComplexityFromMonitorIndex addr 0x28d1590 size 0x8 virtual false final false
+  /// @brief Method GetComplexityFromMonitorIndex, addr 0x2a512d8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetComplexityFromMonitorIndex(int64_t mapControlAndBindingIndex);
 
-  /// @brief Method ProcessControlStateChange addr 0x28d0dc4 size 0x5b4 virtual false final false
+  /// @brief Method ProcessControlStateChange, addr 0x2a50b0c, size 0x5b4, virtual false, abstract: false, final false
   inline void ProcessControlStateChange(int32_t mapIndex, int32_t controlIndex, int32_t bindingIndex, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method ProcessButtonState addr 0x28d1bc8 size 0x1b0 virtual false final false
+  /// @brief Method ProcessButtonState, addr 0x2a51910, size 0x1b0, virtual false, abstract: false, final false
   inline void ProcessButtonState(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, int32_t actionIndex,
                                  ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__BindingState> bindingStatePtr);
 
-  /// @brief Method ShouldIgnoreInputOnCompositeBinding addr 0x28d15dc size 0x4c virtual false final false
+  /// @brief Method ShouldIgnoreInputOnCompositeBinding, addr 0x2a51324, size 0x4c, virtual false, abstract: false, final false
   static inline bool ShouldIgnoreInputOnCompositeBinding(::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__BindingState> binding,
                                                          ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
 
-  /// @brief Method IsConflictingInput addr 0x28d17bc size 0x40c virtual false final false
+  /// @brief Method IsConflictingInput, addr 0x2a51504, size 0x40c, virtual false, abstract: false, final false
   inline bool IsConflictingInput(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, int32_t actionIndex);
 
-  /// @brief Method GetActionBindingStartIndexAndCount addr 0x28d032c size 0x20 virtual false final false
+  /// @brief Method GetActionBindingStartIndexAndCount, addr 0x2a50074, size 0x20, virtual false, abstract: false, final false
   inline uint16_t GetActionBindingStartIndexAndCount(int32_t actionIndex, ByRef<uint16_t> bindingCount);
 
-  /// @brief Method ProcessDefaultInteraction addr 0x28d1d78 size 0x39c virtual false final false
+  /// @brief Method ProcessDefaultInteraction, addr 0x2a51ac0, size 0x39c, virtual false, abstract: false, final false
   inline void ProcessDefaultInteraction(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, int32_t actionIndex);
 
-  /// @brief Method ProcessInteractions addr 0x28d1628 size 0x194 virtual false final false
+  /// @brief Method ProcessInteractions, addr 0x2a51370, size 0x194, virtual false, abstract: false, final false
   inline void ProcessInteractions(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, int32_t interactionStartIndex, int32_t interactionCount);
 
-  /// @brief Method ProcessTimeout addr 0x28d1390 size 0x200 virtual false final false
+  /// @brief Method ProcessTimeout, addr 0x2a510d8, size 0x200, virtual false, abstract: false, final false
   inline void ProcessTimeout(double_t time, int32_t mapIndex, int32_t controlIndex, int32_t bindingIndex, int32_t interactionIndex);
 
-  /// @brief Method SetTotalTimeoutCompletionTime addr 0x28d21fc size 0x30 virtual false final false
+  /// @brief Method SetTotalTimeoutCompletionTime, addr 0x2a51f44, size 0x30, virtual false, abstract: false, final false
   inline void SetTotalTimeoutCompletionTime(float_t seconds, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method StartTimeout addr 0x28cfc64 size 0x158 virtual false final false
+  /// @brief Method StartTimeout, addr 0x2a4f9ac, size 0x158, virtual false, abstract: false, final false
   inline void StartTimeout(float_t seconds, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method StopTimeout addr 0x28d222c size 0xc4 virtual false final false
+  /// @brief Method StopTimeout, addr 0x2a51f74, size 0xc4, virtual false, abstract: false, final false
   inline void StopTimeout(int32_t interactionIndex);
 
-  /// @brief Method ChangePhaseOfInteraction addr 0x28d22f0 size 0x400 virtual false final false
+  /// @brief Method ChangePhaseOfInteraction, addr 0x2a52038, size 0x400, virtual false, abstract: false, final false
+  /// @param phaseAfterPerformed: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
+  /// @param processNextInteractionOnCancel: bool (default: true)
   inline void ChangePhaseOfInteraction(::UnityEngine::InputSystem::InputActionPhase newPhase, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger,
-                                       ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformed, bool processNextInteractionOnCancel);
+                                       ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformed = static_cast<int32_t>(0x1), bool processNextInteractionOnCancel = true);
 
-  /// @brief Method ChangePhaseOfAction addr 0x28d03f4 size 0x20c virtual false final false
+  /// @brief Method ChangePhaseOfAction, addr 0x2a5013c, size 0x20c, virtual false, abstract: false, final false
+  /// @param phaseAfterPerformedOrCanceled: ::UnityEngine::InputSystem::InputActionPhase (default: static_cast<int32_t>(0x1))
   inline bool ChangePhaseOfAction(::UnityEngine::InputSystem::InputActionPhase newPhase, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger,
-                                  ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformedOrCanceled);
+                                  ::UnityEngine::InputSystem::InputActionPhase phaseAfterPerformedOrCanceled = static_cast<int32_t>(0x1));
 
-  /// @brief Method ChangePhaseOfActionInternal addr 0x28d26f0 size 0x270 virtual false final false
+  /// @brief Method ChangePhaseOfActionInternal, addr 0x2a52438, size 0x270, virtual false, abstract: false, final false
   inline void ChangePhaseOfActionInternal(int32_t actionIndex, ::cordl_internals::Ptr<::UnityEngine::InputSystem::__InputActionState__TriggerState> actionState,
                                           ::UnityEngine::InputSystem::InputActionPhase newPhase, ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method CallActionListeners addr 0x28d2974 size 0x1d0 virtual false final false
+  /// @brief Method CallActionListeners, addr 0x2a526bc, size 0x1d0, virtual false, abstract: false, final false
   inline void CallActionListeners(int32_t actionIndex, ::UnityEngine::InputSystem::InputActionMap* actionMap, ::UnityEngine::InputSystem::InputActionPhase phase,
                                   ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*>> listeners,
                                   ::StringW callbackName);
 
-  /// @brief Method GetActionOrNoneString addr 0x28d2b44 size 0x64 virtual false final false
+  /// @brief Method GetActionOrNoneString, addr 0x2a5288c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* GetActionOrNoneString(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method GetActionOrNull addr 0x28d2c3c size 0x94 virtual false final false
+  /// @brief Method GetActionOrNull, addr 0x2a52984, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* GetActionOrNull(int32_t bindingIndex);
 
-  /// @brief Method GetActionOrNull addr 0x28d2ba8 size 0x94 virtual false final false
+  /// @brief Method GetActionOrNull, addr 0x2a528f0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* GetActionOrNull(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method GetControl addr 0x28d2cd0 size 0x40 virtual false final false
+  /// @brief Method GetControl, addr 0x2a52a18, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* GetControl(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method GetInteractionOrNull addr 0x28d2d10 size 0x4c virtual false final false
+  /// @brief Method GetInteractionOrNull, addr 0x2a52a58, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::IInputInteraction* GetInteractionOrNull(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger);
 
-  /// @brief Method GetBindingIndexInMap addr 0x28d2d5c size 0x3c virtual false final false
+  /// @brief Method GetBindingIndexInMap, addr 0x2a52aa4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetBindingIndexInMap(int32_t bindingIndex);
 
-  /// @brief Method GetBindingIndexInState addr 0x28d2d98 size 0x28 virtual false final false
+  /// @brief Method GetBindingIndexInState, addr 0x2a52ae0, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetBindingIndexInState(int32_t mapIndex, int32_t bindingIndexInMap);
 
-  /// @brief Method GetBindingState addr 0x28d2dc0 size 0x10 virtual false final false
+  /// @brief Method GetBindingState, addr 0x2a52b08, size 0x10, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::InputSystem::__InputActionState__BindingState> GetBindingState(int32_t bindingIndex);
 
-  /// @brief Method GetBinding addr 0x28d2dd0 size 0x80 virtual false final false
+  /// @brief Method GetBinding, addr 0x2a52b18, size 0x80, virtual false, abstract: false, final false
   inline ByRef<::UnityEngine::InputSystem::InputBinding> GetBinding(int32_t bindingIndex);
 
-  /// @brief Method GetActionMap addr 0x28d2e50 size 0x40 virtual false final false
+  /// @brief Method GetActionMap, addr 0x2a52b98, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionMap* GetActionMap(int32_t bindingIndex);
 
-  /// @brief Method ResetInteractionStateAndCancelIfNecessary addr 0x28d034c size 0xa8 virtual false final false
+  /// @brief Method ResetInteractionStateAndCancelIfNecessary, addr 0x2a50094, size 0xa8, virtual false, abstract: false, final false
   inline void ResetInteractionStateAndCancelIfNecessary(int32_t mapIndex, int32_t bindingIndex, int32_t interactionIndex);
 
-  /// @brief Method ResetInteractionState addr 0x28ced0c size 0x158 virtual false final false
+  /// @brief Method ResetInteractionState, addr 0x2a4ea54, size 0x158, virtual false, abstract: false, final false
   inline void ResetInteractionState(int32_t interactionIndex);
 
-  /// @brief Method GetValueSizeInBytes addr 0x28d2e90 size 0x94 virtual false final false
+  /// @brief Method GetValueSizeInBytes, addr 0x2a52bd8, size 0x94, virtual false, abstract: false, final false
   inline int32_t GetValueSizeInBytes(int32_t bindingIndex, int32_t controlIndex);
 
-  /// @brief Method GetValueType addr 0x28d2f24 size 0x94 virtual false final false
+  /// @brief Method GetValueType, addr 0x2a52c6c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Type* GetValueType(int32_t bindingIndex, int32_t controlIndex);
 
-  /// @brief Method IsActuated addr 0x28d2138 size 0xa8 virtual false final false
-  static inline bool IsActuated(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, float_t threshold);
+  /// @brief Method IsActuated, addr 0x2a51e80, size 0xa8, virtual false, abstract: false, final false
+  /// @param threshold: float_t (default: 0.0)
+  static inline bool IsActuated(ByRef<::UnityEngine::InputSystem::__InputActionState__TriggerState> trigger, float_t threshold = 0.0);
 
-  /// @brief Method ReadValue addr 0x28d2fb8 size 0x16c virtual false final false
-  inline void ReadValue(int32_t bindingIndex, int32_t controlIndex, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize, bool ignoreComposites);
+  /// @brief Method ReadValue, addr 0x2a52d00, size 0x16c, virtual false, abstract: false, final false
+  /// @param ignoreComposites: bool (default: false)
+  inline void ReadValue(int32_t bindingIndex, int32_t controlIndex, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize, bool ignoreComposites = false);
 
-  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename TValue> inline TValue ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites);
+  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param ignoreComposites: bool (default: false)
+  template <typename TValue> inline TValue ReadValue(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites = false);
 
-  /// @brief Method ApplyProcessors addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename TValue> inline TValue ApplyProcessors(int32_t bindingIndex, TValue value, ::UnityEngine::InputSystem::InputControl_1<TValue>* controlOfType);
+  /// @brief Method ApplyProcessors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param controlOfType: ::UnityEngine::InputSystem::InputControl_1<TValue>* (default: nullptr)
+  template <typename TValue> inline TValue ApplyProcessors(int32_t bindingIndex, TValue value, ::UnityEngine::InputSystem::InputControl_1<TValue>* controlOfType = nullptr);
 
-  /// @brief Method EvaluateCompositePartMagnitude addr 0x28d3138 size 0xd4 virtual false final false
+  /// @brief Method EvaluateCompositePartMagnitude, addr 0x2a52e80, size 0xd4, virtual false, abstract: false, final false
   inline float_t EvaluateCompositePartMagnitude(int32_t bindingIndex, int32_t partNumber);
 
-  /// @brief Method GetCompositePartPressTime addr 0x28d320c size 0x80 virtual false final false
+  /// @brief Method GetCompositePartPressTime, addr 0x2a52f54, size 0x80, virtual false, abstract: false, final false
   inline double_t GetCompositePartPressTime(int32_t bindingIndex, int32_t partNumber);
 
-  /// @brief Method ReadCompositePartValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadCompositePartValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param comparer: TComparer (default: nullptr)
   template <typename TValue, typename TComparer>
-  inline TValue ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<bool> buttonValuePtr, ByRef<int32_t> controlIndex, TComparer comparer);
+  inline TValue ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<bool> buttonValuePtr, ByRef<int32_t> controlIndex, TComparer comparer = nullptr);
 
-  /// @brief Method ReadCompositePartValue addr 0x28d328c size 0x114 virtual false final false
+  /// @brief Method ReadCompositePartValue, addr 0x2a52fd4, size 0x114, virtual false, abstract: false, final false
   inline bool ReadCompositePartValue(int32_t bindingIndex, int32_t partNumber, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadCompositePartValueAsObject addr 0x28d33a0 size 0xfc virtual false final false
+  /// @brief Method ReadCompositePartValueAsObject, addr 0x2a530e8, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Object* ReadCompositePartValueAsObject(int32_t bindingIndex, int32_t partNumber);
 
-  /// @brief Method ReadValueAsObject addr 0x28d349c size 0x16c virtual false final false
-  inline ::System::Object* ReadValueAsObject(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites);
+  /// @brief Method ReadValueAsObject, addr 0x2a531e4, size 0x16c, virtual false, abstract: false, final false
+  /// @param ignoreComposites: bool (default: false)
+  inline ::System::Object* ReadValueAsObject(int32_t bindingIndex, int32_t controlIndex, bool ignoreComposites = false);
 
-  /// @brief Method ReadValueAsButton addr 0x28d3608 size 0x130 virtual false final false
+  /// @brief Method ReadValueAsButton, addr 0x2a53350, size 0x130, virtual false, abstract: false, final false
   inline bool ReadValueAsButton(int32_t bindingIndex, int32_t controlIndex);
 
-  /// @brief Method SaveAndResetState addr 0x28d3738 size 0x1e4 virtual false final false
+  /// @brief Method SaveAndResetState, addr 0x2a53480, size 0x1e4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ISavedState* SaveAndResetState();
 
-  /// @brief Method AddToGlobalList addr 0x28cd848 size 0x88 virtual false final false
+  /// @brief Method AddToGlobalList, addr 0x2a4d590, size 0x88, virtual false, abstract: false, final false
   inline void AddToGlobalList();
 
-  /// @brief Method RemoveMapFromGlobalList addr 0x28cde68 size 0x138 virtual false final false
+  /// @brief Method RemoveMapFromGlobalList, addr 0x2a4dbb0, size 0x138, virtual false, abstract: false, final false
   inline void RemoveMapFromGlobalList();
 
-  /// @brief Method CompactGlobalList addr 0x28d391c size 0x168 virtual false final false
+  /// @brief Method CompactGlobalList, addr 0x2a53664, size 0x168, virtual false, abstract: false, final false
   static inline void CompactGlobalList();
 
-  /// @brief Method NotifyListenersOfActionChange addr 0x28cefc0 size 0xf4 virtual false final false
+  /// @brief Method NotifyListenersOfActionChange, addr 0x2a4ed08, size 0xf4, virtual false, abstract: false, final false
   inline void NotifyListenersOfActionChange(::UnityEngine::InputSystem::InputActionChange change);
 
-  /// @brief Method NotifyListenersOfActionChange addr 0x28cfe90 size 0x100 virtual false final false
+  /// @brief Method NotifyListenersOfActionChange, addr 0x2a4fbd8, size 0x100, virtual false, abstract: false, final false
   static inline void NotifyListenersOfActionChange(::UnityEngine::InputSystem::InputActionChange change, ::System::Object* actionOrMapOrAsset);
 
-  /// @brief Method ResetGlobals addr 0x28d3a84 size 0x124 virtual false final false
+  /// @brief Method ResetGlobals, addr 0x2a537cc, size 0x124, virtual false, abstract: false, final false
   static inline void ResetGlobals();
 
-  /// @brief Method FindAllEnabledActions addr 0x28d3d18 size 0x2b4 virtual false final false
+  /// @brief Method FindAllEnabledActions, addr 0x2a53a60, size 0x2b4, virtual false, abstract: false, final false
   static inline int32_t FindAllEnabledActions(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::InputAction*>* result);
 
-  /// @brief Method OnDeviceChange addr 0x28d3fcc size 0x314 virtual false final false
+  /// @brief Method OnDeviceChange, addr 0x2a53d14, size 0x314, virtual false, abstract: false, final false
   static inline void OnDeviceChange(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::InputDeviceChange change);
 
-  /// @brief Method DeferredResolutionOfBindings addr 0x28d42e0 size 0x294 virtual false final false
+  /// @brief Method DeferredResolutionOfBindings, addr 0x2a54028, size 0x294, virtual false, abstract: false, final false
   static inline void DeferredResolutionOfBindings();
 
-  /// @brief Method DisableAllActions addr 0x28d4574 size 0x150 virtual false final false
+  /// @brief Method DisableAllActions, addr 0x2a542bc, size 0x150, virtual false, abstract: false, final false
   static inline void DisableAllActions();
 
-  /// @brief Method DestroyAllActionMapStates addr 0x28d3ba8 size 0x170 virtual false final false
+  /// @brief Method DestroyAllActionMapStates, addr 0x2a538f0, size 0x170, virtual false, abstract: false, final false
   static inline void DestroyAllActionMapStates();
 
   static inline ::UnityEngine::InputSystem::InputActionState* New_ctor();
 
-  /// @brief Method .ctor addr 0x28ce12c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a4de74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputActionState", modifiers: "&&", def_value: None }]

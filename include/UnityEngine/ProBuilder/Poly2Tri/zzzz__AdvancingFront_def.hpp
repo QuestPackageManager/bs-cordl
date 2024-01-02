@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(AdvancingFront)
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class AdvancingFrontNode;
+class TriangulationPoint;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
-class TriangulationPoint;
+class AdvancingFrontNode;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Poly2Tri {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15354))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15324))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFront*
 class CORDL_TYPE AdvancingFront : public ::System::Object {
 public:
@@ -58,28 +58,28 @@ public:
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head,
                                                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
 
-  /// @brief Method .ctor addr 0x29aed10 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2b30a64, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
 
-  /// @brief Method AddNode addr 0x29aed40 size 0x4 virtual false final false
+  /// @brief Method AddNode, addr 0x2b30a94, size 0x4, virtual false, abstract: false, final false
   inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method RemoveNode addr 0x29aed44 size 0x4 virtual false final false
+  /// @brief Method RemoveNode, addr 0x2b30a98, size 0x4, virtual false, abstract: false, final false
   inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
 
-  /// @brief Method ToString addr 0x29aed48 size 0xe8 virtual true final false
+  /// @brief Method ToString, addr 0x2b30a9c, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method FindSearchNode addr 0x29aee30 size 0x8 virtual false final false
+  /// @brief Method FindSearchNode, addr 0x2b30b84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double_t x);
 
-  /// @brief Method LocateNode addr 0x29aee38 size 0x18 virtual false final false
+  /// @brief Method LocateNode, addr 0x2b30b8c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method LocateNode addr 0x29aee50 size 0x5c virtual false final false
+  /// @brief Method LocateNode, addr 0x2b30ba4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double_t x);
 
-  /// @brief Method LocatePoint addr 0x29aeeac size 0xf4 virtual false final false
+  /// @brief Method LocatePoint, addr 0x2b30c00, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
   // Ctor Parameters [CppParam { name: "", ty: "AdvancingFront", modifiers: "&&", def_value: None }]

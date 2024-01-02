@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignerCategoryAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9390))
 // CS Name: ::System.ComponentModel::DesignerCategoryAttribute*
 class CORDL_TYPE DesignerCategoryAttribute : public ::System::Attribute {
 public:
@@ -68,27 +68,27 @@ public:
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2786604 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x290462c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::DesignerCategoryAttribute* New_ctor(::StringW category);
 
-  /// @brief Method .ctor addr 0x2786660 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2904688, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW category);
 
-  /// @brief Method get_Category addr 0x2786688 size 0x8 virtual false final false
+  /// @brief Method get_Category, addr 0x29046b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Category();
 
-  /// @brief Method Equals addr 0x2786690 size 0x90 virtual true final false
+  /// @brief Method Equals, addr 0x29046b8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2786720 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2904748, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute addr 0x2786740 size 0x78 virtual true final false
+  /// @brief Method IsDefaultAttribute, addr 0x2904768, size 0x78, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
-  /// @brief Method get_TypeId addr 0x27867b8 size 0x38 virtual true final false
+  /// @brief Method get_TypeId, addr 0x29047e0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* get_TypeId();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesignerCategoryAttribute", modifiers: "&&", def_value: None }]

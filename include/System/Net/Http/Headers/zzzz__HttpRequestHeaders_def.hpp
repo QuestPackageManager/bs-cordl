@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpRequestHeaders)
-namespace System {
-template <typename T> struct Nullable_1;
+namespace System::Net::Http::Headers {
+class AuthenticationHeaderValue;
 }
 namespace System::Net::Http::Headers {
 template <typename T> class HttpHeaderValueCollection_1;
 }
 namespace System::Net::Http::Headers {
-class __HttpRequestHeaders____c;
-}
-namespace System::Net::Http::Headers {
-class AuthenticationHeaderValue;
-}
-namespace System::Net::Http::Headers {
 class TransferCodingHeaderValue;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Net::Http::Headers {
+class __HttpRequestHeaders____c;
 }
 namespace System {
 template <typename T> class Predicate_1;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__HttpRequestHeaders____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14895))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14678))
 // CS Name: ::HttpRequestHeaders::<>c*
 class CORDL_TYPE __HttpRequestHeaders____c : public ::System::Object {
 public:
@@ -75,16 +75,16 @@ public:
 
   static inline ::System::Net::Http::Headers::__HttpRequestHeaders____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x26c166c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x283c680, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_ConnectionClose>b__19_0 addr 0x26c1674 size 0x50 virtual false final false
+  /// @brief Method <get_ConnectionClose>b__19_0, addr 0x283c688, size 0x50, virtual false, abstract: false, final false
   inline bool _get_ConnectionClose_b__19_0(::StringW l);
 
-  /// @brief Method <get_ExpectContinue>b__29_0 addr 0x26c16c4 size 0x58 virtual false final false
+  /// @brief Method <get_ExpectContinue>b__29_0, addr 0x283c6d8, size 0x58, virtual false, abstract: false, final false
   inline bool _get_ExpectContinue_b__29_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
-  /// @brief Method <get_TransferEncodingChunked>b__71_0 addr 0x26c171c size 0x58 virtual false final false
+  /// @brief Method <get_TransferEncodingChunked>b__71_0, addr 0x283c730, size 0x58, virtual false, abstract: false, final false
   inline bool _get_TransferEncodingChunked_b__71_0(::System::Net::Http::Headers::TransferCodingHeaderValue* l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HttpRequestHeaders____c", modifiers: "&&", def_value: None }]
@@ -111,8 +111,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Ht
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14894)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 112 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14896)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14677)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14679)) CS Name: ::System.Net.Http.Headers::HttpRequestHeaders*
 class CORDL_TYPE HttpRequestHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
@@ -143,31 +143,31 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpRequestHeaders* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b8b74 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x2833b84, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Authorization addr 0x26c152c size 0x74 virtual false final false
+  /// @brief Method set_Authorization, addr 0x283c540, size 0x74, virtual false, abstract: false, final false
   inline void set_Authorization(::System::Net::Http::Headers::AuthenticationHeaderValue* value);
 
-  /// @brief Method get_Connection addr 0x26b23d0 size 0x68 virtual false final false
+  /// @brief Method get_Connection, addr 0x282d3e0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::StringW>* get_Connection();
 
-  /// @brief Method get_ConnectionClose addr 0x26b2cc0 size 0x184 virtual false final false
+  /// @brief Method get_ConnectionClose, addr 0x282dcd0, size 0x184, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ConnectionClose();
 
-  /// @brief Method get_ExpectContinue addr 0x26b2e44 size 0x164 virtual false final false
+  /// @brief Method get_ExpectContinue, addr 0x282de54, size 0x164, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_ExpectContinue();
 
-  /// @brief Method get_Host addr 0x26b3010 size 0x68 virtual false final false
+  /// @brief Method get_Host, addr 0x282e020, size 0x68, virtual false, abstract: false, final false
   inline ::StringW get_Host();
 
-  /// @brief Method get_TransferEncoding addr 0x26c15a0 size 0x68 virtual false final false
+  /// @brief Method get_TransferEncoding, addr 0x283c5b4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<::System::Net::Http::Headers::TransferCodingHeaderValue*>* get_TransferEncoding();
 
-  /// @brief Method get_TransferEncodingChunked addr 0x26b5154 size 0x164 virtual false final false
+  /// @brief Method get_TransferEncodingChunked, addr 0x2830164, size 0x164, virtual false, abstract: false, final false
   inline ::System::Nullable_1<bool> get_TransferEncodingChunked();
 
-  /// @brief Method AddHeaders addr 0x26b6410 size 0x298 virtual false final false
+  /// @brief Method AddHeaders, addr 0x2831420, size 0x298, virtual false, abstract: false, final false
   inline void AddHeaders(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestHeaders", modifiers: "&&", def_value: None }]

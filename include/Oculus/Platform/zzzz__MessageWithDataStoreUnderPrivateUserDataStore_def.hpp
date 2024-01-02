@@ -20,21 +20,21 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3812), inst: 600 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4464 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3812)), TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13299)) CS Name:
-// ::Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4568 }), TypeDefinitionIndex(TypeDefinitionIndex(13262)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3824)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3824), inst: 608 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13286)) CS
+// Name: ::Oculus.Platform::MessageWithDataStoreUnderPrivateUserDataStore*
 class CORDL_TYPE MessageWithDataStoreUnderPrivateUserDataStore : public ::Oculus::Platform::Message_1<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithDataStoreUnderPrivateUserDataStore* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2592e7c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26eef28, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetDataStore addr 0x25959bc size 0x3c virtual true final false
+  /// @brief Method GetDataStore, addr 0x26f17b8, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataStore();
 
-  /// @brief Method GetDataFromMessage addr 0x25959f8 size 0x5c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f17f4, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithDataStoreUnderPrivateUserDataStore", modifiers: "&&", def_value: None }]

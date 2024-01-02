@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DateTimeToken)
 namespace System {
-struct TokenType;
+struct __DateTimeParse__DTT;
 }
 namespace System {
-struct __DateTimeParse__DTT;
+struct TokenType;
 }
 // Forward declare root types
 namespace System {

@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfoConverter)
 namespace System::ComponentModel {
-class __CultureInfoConverter__CultureInfoMapper;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace System {
-class Type;
+class ITypeDescriptorContext;
 }
 namespace System::ComponentModel {
-class ITypeDescriptorContext;
+class __CultureInfoConverter__CultureInfoMapper;
 }
 namespace System {
 class Object;
 }
 namespace System::ComponentModel {
 class __CultureInfoConverter__CultureComparer;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
+namespace System {
+class Type;
 }
 namespace System::ComponentModel {
 class __TypeConverter__StandardValuesCollection;
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::System::ComponentModel::__CultureInfoConverter__CultureInfoMapp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8248))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9411))
 // CS Name: ::CultureInfoConverter::CultureComparer*
 class CORDL_TYPE __CultureInfoConverter__CultureComparer : public ::System::Object {
 public:
@@ -72,10 +72,10 @@ public:
 
   static inline ::System::ComponentModel::__CultureInfoConverter__CultureComparer* New_ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
 
-  /// @brief Method .ctor addr 0x278a934 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x290895c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
 
-  /// @brief Method Compare addr 0x278a974 size 0x16c virtual true final true
+  /// @brief Method Compare, addr 0x290899c, size 0x16c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CultureInfoConverter__CultureComparer", modifiers: "&&", def_value: None }]
@@ -107,8 +107,8 @@ static_assert(offsetof(::System::ComponentModel::__CultureInfoConverter__Culture
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8249))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9412))
 // CS Name: ::CultureInfoConverter::CultureInfoMapper*
 class CORDL_TYPE __CultureInfoConverter__CultureInfoMapper : public ::System::Object {
 public:
@@ -120,10 +120,10 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_cultureInfoNameMap();
 
-  /// @brief Method CreateMap addr 0x278aae0 size 0x40e0 virtual false final false
+  /// @brief Method CreateMap, addr 0x2908b08, size 0x40e0, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateMap();
 
-  /// @brief Method GetCultureInfoName addr 0x278a250 size 0xa0 virtual false final false
+  /// @brief Method GetCultureInfoName, addr 0x2908278, size 0xa0, virtual false, abstract: false, final false
   static inline ::StringW GetCultureInfoName(::StringW cultureInfoDisplayName);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CultureInfoConverter__CultureInfoMapper", modifiers: "&&", def_value: None }]
@@ -150,8 +150,8 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__Cultur
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8317))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8250))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9413))
 // CS Name: ::System.ComponentModel::CultureInfoConverter*
 class CORDL_TYPE CultureInfoConverter : public ::System::ComponentModel::TypeConverter {
 public:
@@ -171,37 +171,37 @@ public:
 
   constexpr void __set__values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
-  /// @brief Method get_DefaultCultureString addr 0x2789744 size 0x40 virtual false final false
+  /// @brief Method get_DefaultCultureString, addr 0x290776c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_DefaultCultureString();
 
-  /// @brief Method GetCultureName addr 0x2789784 size 0x20 virtual true final false
+  /// @brief Method GetCultureName, addr 0x29077ac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetCultureName(::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method CanConvertFrom addr 0x27897a4 size 0xc8 virtual true final false
+  /// @brief Method CanConvertFrom, addr 0x29077cc, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo addr 0x278986c size 0xc8 virtual true final false
+  /// @brief Method CanConvertTo, addr 0x2907894, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom addr 0x2789934 size 0x91c virtual true final false
+  /// @brief Method ConvertFrom, addr 0x290795c, size 0x91c, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo addr 0x278a2f0 size 0x464 virtual true final false
+  /// @brief Method ConvertTo, addr 0x2908318, size 0x464, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetStandardValues addr 0x278a754 size 0x1e0 virtual true final false
+  /// @brief Method GetStandardValues, addr 0x290877c, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive addr 0x278a95c size 0x8 virtual true final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x2908984, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported addr 0x278a964 size 0x8 virtual true final false
+  /// @brief Method GetStandardValuesSupported, addr 0x290898c, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CultureInfoConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x278a96c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2908994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "&&", def_value: None }]

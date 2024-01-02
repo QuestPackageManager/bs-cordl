@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TMP_Vertex)
 namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -26,8 +26,8 @@ MARK_VAL_T(::TMPro::TMP_Vertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12329))
 // CS Name: ::TMPro::TMP_Vertex
 struct CORDL_TYPE TMP_Vertex {
 public:
@@ -39,7 +39,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero addr 0x2a7caac size 0x68 virtual false final false
+  /// @brief Method get_zero, addr 0x2c01800, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None

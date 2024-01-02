@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::SamplingFrequency);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6156))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16214))
 // CS Name: ::UnityOpus::SamplingFrequency
 struct CORDL_TYPE SamplingFrequency {
 public:

@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::BitSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11594))
 // CS Name: ::System.Xml.Schema::BitSet*
 class CORDL_TYPE BitSet : public ::System::Object {
 public:
@@ -49,54 +49,54 @@ public:
 
   static inline ::System::Xml::Schema::BitSet* New_ctor();
 
-  /// @brief Method .ctor addr 0x272f334 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28ac358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::BitSet* New_ctor(int32_t count);
 
-  /// @brief Method .ctor addr 0x272f33c size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x28ac360, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int32_t count);
 
-  /// @brief Method get_Count addr 0x272f3b4 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x28ac3d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x272f3bc size 0x4 virtual false final false
+  /// @brief Method get_Item, addr 0x28ac3e0, size 0x4, virtual false, abstract: false, final false
   inline bool get_Item(int32_t index);
 
-  /// @brief Method Clear addr 0x272f41c size 0x54 virtual false final false
+  /// @brief Method Clear, addr 0x28ac440, size 0x54, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Set addr 0x272f470 size 0x5c virtual false final false
+  /// @brief Method Set, addr 0x28ac494, size 0x5c, virtual false, abstract: false, final false
   inline void Set(int32_t index);
 
-  /// @brief Method Get addr 0x272f3c0 size 0x5c virtual false final false
+  /// @brief Method Get, addr 0x28ac3e4, size 0x5c, virtual false, abstract: false, final false
   inline bool Get(int32_t index);
 
-  /// @brief Method NextSet addr 0x272f560 size 0x9c virtual false final false
+  /// @brief Method NextSet, addr 0x28ac584, size 0x9c, virtual false, abstract: false, final false
   inline int32_t NextSet(int32_t startFrom);
 
-  /// @brief Method And addr 0x272f5fc size 0xb8 virtual false final false
+  /// @brief Method And, addr 0x28ac620, size 0xb8, virtual false, abstract: false, final false
   inline void And(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Or addr 0x272f6b4 size 0xa4 virtual false final false
+  /// @brief Method Or, addr 0x28ac6d8, size 0xa4, virtual false, abstract: false, final false
   inline void Or(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method GetHashCode addr 0x272f758 size 0x38 virtual true final false
+  /// @brief Method GetHashCode, addr 0x28ac77c, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x272f790 size 0x148 virtual true final false
+  /// @brief Method Equals, addr 0x28ac7b4, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Clone addr 0x272f8d8 size 0xd4 virtual false final false
+  /// @brief Method Clone, addr 0x28ac8fc, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::BitSet* Clone();
 
-  /// @brief Method Intersects addr 0x272f9ac size 0xe0 virtual false final false
+  /// @brief Method Intersects, addr 0x28ac9d0, size 0xe0, virtual false, abstract: false, final false
   inline bool Intersects(::System::Xml::Schema::BitSet* other);
 
-  /// @brief Method Subscript addr 0x272f3ac size 0x8 virtual false final false
+  /// @brief Method Subscript, addr 0x28ac3d0, size 0x8, virtual false, abstract: false, final false
   inline int32_t Subscript(int32_t bitIndex);
 
-  /// @brief Method EnsureLength addr 0x272f4cc size 0x94 virtual false final false
+  /// @brief Method EnsureLength, addr 0x28ac4f0, size 0x94, virtual false, abstract: false, final false
   inline void EnsureLength(int32_t nRequiredLength);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitSet", modifiers: "&&", def_value: None }]

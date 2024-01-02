@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::EnumMemberAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16241))
 // CS Name: ::System.Runtime.Serialization::EnumMemberAttribute*
 class CORDL_TYPE EnumMemberAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   constexpr void __set_value(::StringW value);
 
-  /// @brief Method get_Value addr 0x26d1608 size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x284d61c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumMemberAttribute", modifiers: "&&", def_value: None }]

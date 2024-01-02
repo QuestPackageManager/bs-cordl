@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15340))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationConstraint*
 class CORDL_TYPE TriangulationConstraint : public ::System::Object {
 public:
@@ -43,7 +43,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint* New_ctor();
 
-  /// @brief Method .ctor addr 0x29b2638 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b3438c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TriangulationConstraint", modifiers: "&&", def_value: None }]

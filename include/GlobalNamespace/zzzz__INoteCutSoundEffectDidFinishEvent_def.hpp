@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteCutSoundEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4056))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4068))
 // CS Name: ::INoteCutSoundEffectDidFinishEvent*
 class CORDL_TYPE INoteCutSoundEffectDidFinishEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteCutSoundEffectDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteCutSoundEffectDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteCutSoundEffectDidFinish(::GlobalNamespace::NoteCutSoundEffect* noteCutSoundEffect);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteCutSoundEffectDidFinishEvent", modifiers: "&&", def_value: None }]

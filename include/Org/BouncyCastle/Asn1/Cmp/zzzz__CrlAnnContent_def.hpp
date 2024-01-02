@@ -11,11 +11,11 @@ class CertificateList;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -44,16 +44,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf1ab4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe66c84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf1adc size 0x18c virtual false final false
+  /// @brief Method GetInstance, addr 0xe66cac, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CrlAnnContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method ToCertificateListArray addr 0xdf1c68 size 0xf8 virtual true final false
+  /// @brief Method ToCertificateListArray, addr 0xe66e38, size 0xf8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> ToCertificateListArray();
 
-  /// @brief Method ToAsn1Object addr 0xdf1d60 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe66f30, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlAnnContent", modifiers: "&&", def_value: None }]

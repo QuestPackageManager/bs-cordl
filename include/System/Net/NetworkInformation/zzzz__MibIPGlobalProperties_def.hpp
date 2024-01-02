@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::MibIPGlobalProperties);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8123))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8125))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9286))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9288))
 // CS Name: ::System.Net.NetworkInformation::MibIPGlobalProperties*
 class CORDL_TYPE MibIPGlobalProperties : public ::System::Net::NetworkInformation::UnixIPGlobalProperties {
 public:
@@ -85,7 +85,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::MibIPGlobalProperties* New_ctor(::StringW procDir);
 
-  /// @brief Method .ctor addr 0x2873dc4 size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0x29f0648, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   // Ctor Parameters [CppParam { name: "", ty: "MibIPGlobalProperties", modifiers: "&&", def_value: None }]

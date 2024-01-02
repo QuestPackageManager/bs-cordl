@@ -6,8 +6,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Datatype_QName)
-namespace System::Xml::Schema {
-class XmlValueConverter;
+namespace System::Xml {
+class XmlNameTable;
 }
 namespace System {
 class Exception;
@@ -15,17 +15,20 @@ class Exception;
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
-}
-namespace System::Xml {
-struct XmlTokenizedType;
+namespace System {
+class Type;
 }
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
 namespace System::Xml {
-class XmlNameTable;
+struct XmlTokenizedType;
 }
 namespace System {
 class Object;
@@ -35,9 +38,6 @@ class FacetsChecker;
 }
 namespace System::Xml::Schema {
 struct XmlTypeCode;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_QName);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11651))
 // CS Name: ::System.Xml.Schema::Datatype_QName*
 class CORDL_TYPE Datatype_QName : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -81,33 +81,33 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method CreateValueConverter addr 0x273d1b8 size 0xc virtual true final false
+  /// @brief Method CreateValueConverter, addr 0x28bb1dc, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method get_FacetsChecker addr 0x273d1c4 size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker, addr 0x28bb1e8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode addr 0x273d21c size 0x8 virtual true final false
+  /// @brief Method get_TypeCode, addr 0x28bb240, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TokenizedType addr 0x273d224 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType, addr 0x28bb248, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
-  /// @brief Method get_ValueType addr 0x273d22c size 0x58 virtual true final false
+  /// @brief Method get_ValueType, addr 0x28bb250, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x273d284 size 0x58 virtual true final false
+  /// @brief Method get_ListValueType, addr 0x28bb2a8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet addr 0x273d2dc size 0x8 virtual true final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x28bb300, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method TryParseValue addr 0x273d2e4 size 0x238 virtual true final false
+  /// @brief Method TryParseValue, addr 0x28bb308, size 0x238, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_QName* New_ctor();
 
-  /// @brief Method .ctor addr 0x273d51c size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x28bb540, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_QName", modifiers: "&&", def_value: None }]

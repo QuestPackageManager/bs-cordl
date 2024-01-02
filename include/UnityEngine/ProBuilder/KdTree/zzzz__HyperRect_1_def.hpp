@@ -22,7 +22,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15803))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15911))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::HyperRect`1<T>
 struct CORDL_TYPE HyperRect_1 {
 public:
@@ -31,25 +31,25 @@ public:
 
   __declspec(property(get = get_MaxPoint, put = set_MaxPoint))::ArrayW<T, ::Array<T>*> MaxPoint;
 
-  /// @brief Method get_MinPoint addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_MinPoint, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> get_MinPoint();
 
-  /// @brief Method set_MinPoint addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_MinPoint, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_MinPoint(::ArrayW<T, ::Array<T>*> value);
 
-  /// @brief Method get_MaxPoint addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_MaxPoint, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> get_MaxPoint();
 
-  /// @brief Method set_MaxPoint addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_MaxPoint, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_MaxPoint(::ArrayW<T, ::Array<T>*> value);
 
-  /// @brief Method Infinite addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Infinite, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Infinite(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* math);
 
-  /// @brief Method GetClosestPoint addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClosestPoint, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> GetClosestPoint(::ArrayW<T, ::Array<T>*> toPoint, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>* math);
 
-  /// @brief Method Clone addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::KdTree::HyperRect_1<T> Clone();
 
   // Ctor Parameters [CppParam { name: "minPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "maxPoint", ty: "::ArrayW<T,::Array<T>*>", modifiers: "",

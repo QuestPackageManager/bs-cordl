@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
 namespace System {
+class Object;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System {
@@ -30,7 +30,7 @@ namespace System {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2461))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2463))
 // CS Name: ::System::ReadOnlyMemory`1<T>
 struct CORDL_TYPE ReadOnlyMemory_1 {
 public:
@@ -42,40 +42,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>"
   constexpr operator ::System::IEquatable_1<::System::ReadOnlyMemory_1<T>>*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::ArrayW<T, ::Array<T>*> array);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, int32_t start, int32_t length);
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlyMemory_1<T> Slice(int32_t start);
 
-  /// @brief Method get_Span addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Span, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> get_Span();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::System::ReadOnlyMemory_1<T> other);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method CombineHashCodes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t left, int32_t right);
 
-  /// @brief Method CombineHashCodes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CombineHashCodes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method GetObjectStartLength addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetObjectStartLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* GetObjectStartLength(ByRef<int32_t> start, ByRef<int32_t> length);
 
   // Ctor Parameters [CppParam { name: "_object", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "", def_value: None }, CppParam {

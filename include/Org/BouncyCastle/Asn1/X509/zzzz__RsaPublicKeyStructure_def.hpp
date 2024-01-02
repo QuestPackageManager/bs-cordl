@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RsaPublicKeyStructure)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
@@ -18,6 +12,12 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -57,29 +57,29 @@ public:
 
   constexpr void __set_publicExponent(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method GetInstance addr 0x1125efc size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x1196144, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x1125f14 size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0x119615c, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent);
 
-  /// @brief Method .ctor addr 0x11261b4 size 0x13c virtual false final false
+  /// @brief Method .ctor, addr 0x11963fc, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent);
 
   static inline ::Org::BouncyCastle::Asn1::X509::RsaPublicKeyStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x112608c size 0x128 virtual false final false
+  /// @brief Method .ctor, addr 0x11962d4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Modulus addr 0x11262f0 size 0x8 virtual false final false
+  /// @brief Method get_Modulus, addr 0x1196538, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_PublicExponent addr 0x11262f8 size 0x8 virtual false final false
+  /// @brief Method get_PublicExponent, addr 0x1196540, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method ToAsn1Object addr 0x1126300 size 0x140 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1196548, size 0x140, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPublicKeyStructure", modifiers: "&&", def_value: None }]

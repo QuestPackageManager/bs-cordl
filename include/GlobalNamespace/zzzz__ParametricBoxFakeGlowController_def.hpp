@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParametricBoxFakeGlowController)
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
+}
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace UnityEngine {
 struct Vector3;
-}
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParametricBoxFakeGlowController);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14705))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14487))
 // CS Name: ::ParametricBoxFakeGlowController*
 class CORDL_TYPE ParametricBoxFakeGlowController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -120,24 +120,24 @@ public:
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method set_localPosition addr 0x1fb3f64 size 0x48 virtual false final false
+  /// @brief Method set_localPosition, addr 0x2109340, size 0x48, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method Awake addr 0x1fb3fac size 0x20 virtual false final false
+  /// @brief Method Awake, addr 0x2109388, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x1fb3fcc size 0x28 virtual false final false
+  /// @brief Method OnEnable, addr 0x21093a8, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fb4118 size 0x20 virtual false final false
+  /// @brief Method OnDisable, addr 0x21094f4, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Refresh addr 0x1fb3ff4 size 0x124 virtual false final false
+  /// @brief Method Refresh, addr 0x21093d0, size 0x124, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::ParametricBoxFakeGlowController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb4138 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2109514, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametricBoxFakeGlowController", modifiers: "&&", def_value: None }]

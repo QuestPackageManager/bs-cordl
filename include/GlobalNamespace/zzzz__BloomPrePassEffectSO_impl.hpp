@@ -2,19 +2,19 @@
 #include "GlobalNamespace/zzzz__TextureEffectSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
-#include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+#include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
+#include "GlobalNamespace/zzzz__TextureEffectSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassEffectSO.get_textureEffect
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TextureEffectSO* (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_textureEffect)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1fb1508;
+  constexpr static std::size_t addrs = 0x21068e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                "get_textureEffect", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -25,9 +25,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_textureWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb150c;
+  constexpr static std::size_t addrs = 0x21068e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                "get_textureWidth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -39,9 +39,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_textureHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb1514;
+  constexpr static std::size_t addrs = 0x21068f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                "get_textureHeight", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -53,9 +53,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_fov)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb151c;
+  constexpr static std::size_t addrs = 0x21068f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), "get_fov",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -66,9 +66,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::get_linesWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb1524;
+  constexpr static std::size_t addrs = 0x2106900;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                "get_linesWidth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -80,9 +80,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ToneMapping (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_toneMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb152c;
+  constexpr static std::size_t addrs = 0x2106908;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), 12));
@@ -94,9 +94,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassEffectSO::*)()>(&::GlobalNamespace::BloomPrePassEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1fb1534;
+  constexpr static std::size_t addrs = 0x2106910;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -180,8 +180,8 @@ inline float_t GlobalNamespace::BloomPrePassEffectSO::get_linesWidth() {
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ToneMapping GlobalNamespace::BloomPrePassEffectSO::get_toneMapping() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), "get_toneMapping",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ToneMapping, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BloomPrePassEffectSO* GlobalNamespace::BloomPrePassEffectSO::New_ctor() {

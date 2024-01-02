@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4637))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4550))
 // CS Name: ::PS4ActivePublisherSKUSettingsSO*
 class CORDL_TYPE PS4ActivePublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222dd04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23680bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS4ActivePublisherSKUSettingsSO", modifiers: "&&", def_value: None }]

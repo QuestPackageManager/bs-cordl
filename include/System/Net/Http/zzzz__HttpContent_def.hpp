@@ -13,47 +13,47 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpContent)
+namespace System {
+class IDisposable;
+}
+namespace System::Net::Http {
+class __HttpContent__FixedMemoryStream;
+}
+namespace System {
+template <typename T> struct Nullable_1;
+}
+namespace System::Text {
+class Encoding;
+}
 namespace System::Net::Http::Headers {
 class HttpContentHeaders;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Net {
+class TransportContext;
 }
 namespace System::Net::Http {
 struct __HttpContent___LoadIntoBufferAsync_d__17;
 }
 namespace System::Net::Http {
-class __HttpContent__FixedMemoryStream;
-}
-namespace System::Text {
-class Encoding;
+struct __HttpContent___ReadAsStringAsync_d__20;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class IDisposable;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace System::Net::Http {
-struct __HttpContent___ReadAsStringAsync_d__20;
-}
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::Net {
-class TransportContext;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -80,8 +80,8 @@ MARK_VAL_T(::System::Net::Http::__HttpContent___ReadAsStringAsync_d__20);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14863))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14646))
 // CS Name: ::HttpContent::FixedMemoryStream*
 class CORDL_TYPE __HttpContent__FixedMemoryStream : public ::System::IO::MemoryStream {
 public:
@@ -97,16 +97,16 @@ public:
 
   static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* New_ctor(int64_t maxSize);
 
-  /// @brief Method .ctor addr 0x26b787c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x283288c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t maxSize);
 
-  /// @brief Method CheckOverflow addr 0x26b7ad4 size 0xb0 virtual false final false
+  /// @brief Method CheckOverflow, addr 0x2832ae4, size 0xb0, virtual false, abstract: false, final false
   inline void CheckOverflow(int32_t count);
 
-  /// @brief Method WriteByte addr 0x26b7bec size 0x30 virtual true final false
+  /// @brief Method WriteByte, addr 0x2832bfc, size 0x30, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method Write addr 0x26b7c1c size 0x48 virtual true final false
+  /// @brief Method Write, addr 0x2832c2c, size 0x48, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HttpContent__FixedMemoryStream", modifiers: "&&", def_value: None }]
@@ -138,8 +138,8 @@ static_assert(offsetof(::System::Net::Http::__HttpContent__FixedMemoryStream, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(3390))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14864))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
 // CS Name: ::HttpContent::<LoadIntoBufferAsync>d__17
 struct CORDL_TYPE __HttpContent___LoadIntoBufferAsync_d__17 {
 public:
@@ -147,10 +147,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x26b7c64 size 0x264 virtual true final true
+  /// @brief Method MoveNext, addr 0x2832c74, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x26b7ec8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x2832ed8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -202,18 +202,18 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___LoadIntoBufferAsync_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 393 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3390))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14865)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
 struct CORDL_TYPE __HttpContent___ReadAsStringAsync_d__20 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x26b7ed4 size 0x370 virtual true final true
+  /// @brief Method MoveNext, addr 0x2832ee4, size 0x370, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x26b83c0 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x28333d0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -259,8 +259,8 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___ReadAsStringAsync_d_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14866))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14649))
 // CS Name: ::System.Net.Http::HttpContent*
 class CORDL_TYPE HttpContent : public ::System::Object {
 public:
@@ -305,51 +305,51 @@ public:
 
   constexpr void __set_headers(::System::Net::Http::Headers::HttpContentHeaders* value);
 
-  /// @brief Method get_Headers addr 0x26b33a4 size 0x6c virtual false final false
+  /// @brief Method get_Headers, addr 0x282e3b4, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
 
-  /// @brief Method get_LoadedBufferLength addr 0x26b7720 size 0x7c virtual false final false
+  /// @brief Method get_LoadedBufferLength, addr 0x2832730, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_LoadedBufferLength();
 
-  /// @brief Method CopyToAsync addr 0x26b54b8 size 0x8 virtual false final false
+  /// @brief Method CopyToAsync, addr 0x28304c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
 
-  /// @brief Method CopyToAsync addr 0x26b779c size 0x7c virtual false final false
+  /// @brief Method CopyToAsync, addr 0x28327ac, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method CreateFixedMemoryStream addr 0x26b7818 size 0x64 virtual false final false
+  /// @brief Method CreateFixedMemoryStream, addr 0x2832828, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
 
-  /// @brief Method Dispose addr 0x26b78a4 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x28328b4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x26b78b4 size 0x2c virtual true final false
+  /// @brief Method Dispose, addr 0x28328c4, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method LoadIntoBufferAsync addr 0x26b78e0 size 0x8 virtual false final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x28328f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
 
-  /// @brief Method LoadIntoBufferAsync addr 0x26b53e0 size 0xd8 virtual false final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x28303f0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
 
-  /// @brief Method ReadAsStringAsync addr 0x26b7568 size 0xf0 virtual false final false
+  /// @brief Method ReadAsStringAsync, addr 0x2832578, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
 
-  /// @brief Method GetEncodingFromBuffer addr 0x26b78e8 size 0x178 virtual false final false
+  /// @brief Method GetEncodingFromBuffer, addr 0x28328f8, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t length, ByRef<int32_t> preambleLength);
 
-  /// @brief Method StartsWith addr 0x26b7a60 size 0x74 virtual false final false
+  /// @brief Method StartsWith, addr 0x2832a70, size 0x74, virtual false, abstract: false, final false
   static inline int32_t StartsWith(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method SerializeToStreamAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SerializeToStreamAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryComputeLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   static inline ::System::Net::Http::HttpContent* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b5b8c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2830b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpContent", modifiers: "&&", def_value: None }]

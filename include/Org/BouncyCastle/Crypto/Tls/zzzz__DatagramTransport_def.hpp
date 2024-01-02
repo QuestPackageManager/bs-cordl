@@ -27,16 +27,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method GetReceiveLimit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReceiveLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSendLimit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetSendLimit();
 
-  /// @brief Method Receive addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Receive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "DatagramTransport", modifiers: "&&", def_value: None }]

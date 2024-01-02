@@ -29,21 +29,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5243))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5134))
 // CS Name: ::MultiplayerConnectedPlayerBombNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
 public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool;
 
-  /// @brief Method Init addr 0x20f1ce4 size 0x58 virtual false final false
+  /// @brief Method Init, addr 0x23d37f4, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5c1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23d7794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerBombNoteController", modifiers: "&&", def_value: None }]
@@ -70,14 +70,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
-// 2759 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5238)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2819 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5134))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5133)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
 class CORDL_TYPE __MultiplayerConnectedPlayerBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5c2c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23d77a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerConnectedPlayerBombNoteController__Pool", modifiers: "&&", def_value: None }]

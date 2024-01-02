@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerBuffer);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9927)), TypeDefinitionIndex(TypeDefinitionIndex(15564)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 730
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15565)) CS Name: ::UnityEngine.Networking::DownloadHandlerBuffer*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15581)) CS Name: ::UnityEngine.Networking::DownloadHandlerBuffer*
 class CORDL_TYPE DownloadHandlerBuffer : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
@@ -33,21 +33,21 @@ public:
 
   constexpr void __set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  /// @brief Method Create addr 0x2d46d98 size 0x3c virtual false final false
+  /// @brief Method Create, addr 0x2eafb84, size 0x3c, virtual false, abstract: false, final false
   static inline void* Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj);
 
-  /// @brief Method InternalCreateBuffer addr 0x2d46dd4 size 0x44 virtual false final false
+  /// @brief Method InternalCreateBuffer, addr 0x2eafbc0, size 0x44, virtual false, abstract: false, final false
   inline void InternalCreateBuffer();
 
   static inline ::UnityEngine::Networking::DownloadHandlerBuffer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d46448 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x2eaf234, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetNativeData addr 0x2d46e18 size 0x8 virtual true final false
+  /// @brief Method GetNativeData, addr 0x2eafc04, size 0x8, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method Dispose addr 0x2d46e20 size 0x1c virtual true final false
+  /// @brief Method Dispose, addr 0x2eafc0c, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "&&", def_value: None }]

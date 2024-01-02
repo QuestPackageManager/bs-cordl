@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__UxmlEnumAttributeDescription_1_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
 template <typename T> inline void UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>*, "<>9",
@@ -67,10 +67,9 @@ template <typename T> inline void UnityEngine::UIElements::UxmlEnumAttributeDesc
 }
 template <typename T>
 inline T UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>::GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>*>::get(), "GetValueFromBag", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IUxmlAttributes*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CreationContext>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, bag, cc);
 }
 template <typename T>

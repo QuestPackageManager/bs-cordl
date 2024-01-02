@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketError);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8184))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9347))
 // CS Name: ::System.Net.Sockets::SocketError
 struct CORDL_TYPE SocketError {
 public:

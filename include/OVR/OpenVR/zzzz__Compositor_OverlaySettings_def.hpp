@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_OverlaySettings);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9415))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9467))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8646))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8698))
 // CS Name: ::OVR.OpenVR::Compositor_OverlaySettings
 struct CORDL_TYPE Compositor_OverlaySettings {
 public:

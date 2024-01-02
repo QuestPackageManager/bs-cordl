@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(BeatLine)
-namespace UnityEngine {
-class AnimationCurve;
-}
-namespace GlobalNamespace {
-class __BeatLine__Pool;
-}
-namespace GlobalNamespace {
-struct __BeatLine__HighlightData;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Color;
+}
+namespace GlobalNamespace {
+class __BeatLine__Pool;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace UnityEngine {
+class AnimationCurve;
+}
+namespace GlobalNamespace {
+struct __BeatLine__HighlightData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,8 @@ MARK_VAL_T(::GlobalNamespace::__BeatLine__HighlightData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4700))
 // CS Name: ::BeatLine*
 class CORDL_TYPE BeatLine : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -133,27 +133,27 @@ public:
 
   constexpr void __set__rotation(float_t value);
 
-  /// @brief Method get_isFinished addr 0x2242334 size 0x50 virtual false final false
+  /// @brief Method get_isFinished, addr 0x2376a3c, size 0x50, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation addr 0x2242384 size 0x8 virtual false final false
+  /// @brief Method get_rotation, addr 0x2376a8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method Init addr 0x224238c size 0xcc virtual false final false
+  /// @brief Method Init, addr 0x2376a94, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ColorWasSet addr 0x2242458 size 0xc virtual true final false
+  /// @brief Method ColorWasSet, addr 0x2376b60, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method AddHighlight addr 0x2242464 size 0xdc virtual false final false
+  /// @brief Method AddHighlight, addr 0x2376b6c, size 0xdc, virtual false, abstract: false, final false
   inline void AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration);
 
-  /// @brief Method ManualUpdate addr 0x2242540 size 0x14c virtual false final false
+  /// @brief Method ManualUpdate, addr 0x2376c48, size 0x14c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
 
-  /// @brief Method .ctor addr 0x224268c size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x2376d94, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLine", modifiers: "&&", def_value: None }]
@@ -220,14 +220,14 @@ static_assert(offsetof(::GlobalNamespace::BeatLine, ____rotation) == 0x68, "Offs
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 2749 }), TypeDefinitionIndex(TypeDefinitionIndex(4821)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10978))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4819)) CS Name: ::BeatLine::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4700)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2809 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
 class CORDL_TYPE __BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatLine__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2242758 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2376e60, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatLine__Pool", modifiers: "&&", def_value: None }]
@@ -255,7 +255,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatLine__Poo
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4820))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4699))
 // CS Name: ::BeatLine::HighlightData
 struct CORDL_TYPE __BeatLine__HighlightData {
 public:

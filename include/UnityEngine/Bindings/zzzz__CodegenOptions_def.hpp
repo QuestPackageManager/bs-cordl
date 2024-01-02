@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Bindings::CodegenOptions);
 namespace UnityEngine::Bindings {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15884))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16020))
 // CS Name: ::UnityEngine.Bindings::CodegenOptions
 struct CORDL_TYPE CodegenOptions {
 public:

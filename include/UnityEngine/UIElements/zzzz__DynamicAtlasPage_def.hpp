@@ -10,11 +10,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicAtlasPage)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 struct FilterMode;
 }
+namespace UnityEngine {
+class RenderTexture;
+}
+namespace UnityEngine::UIElements::UIR {
+class Allocator2D;
+}
 namespace UnityEngine::UIElements::UIR {
 class TextureBlitter;
+}
+namespace UnityEngine::UIElements::UIR {
+struct __Allocator2D__Alloc2D;
+}
+namespace UnityEngine {
+struct RectInt;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 struct RenderTextureFormat;
@@ -22,26 +40,8 @@ struct RenderTextureFormat;
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
-namespace UnityEngine::UIElements::UIR {
-class Allocator2D;
-}
-namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
 namespace UnityEngine {
 struct Vector2Int;
-}
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __Allocator2D__Alloc2D;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasPage);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10041)), TypeDefinitionIndex(TypeDefinitionIndex(7425)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10045)), TypeDefinitionIndex(TypeDefinitionIndex(10171))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7428)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10113)), TypeDefinitionIndex(TypeDefinitionIndex(10244)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10117))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7342)) CS Name:
 // ::UnityEngine.UIElements::DynamicAtlasPage*
 class CORDL_TYPE DynamicAtlasPage : public ::System::Object {
 public:
@@ -187,58 +187,58 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_textureId addr 0x2d14c08 size 0x8 virtual false final false
+  /// @brief Method get_textureId, addr 0x2e7cfb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextureId get_textureId();
 
-  /// @brief Method set_textureId addr 0x2d14c10 size 0x8 virtual false final false
+  /// @brief Method set_textureId, addr 0x2e7cfc0, size 0x8, virtual false, abstract: false, final false
   inline void set_textureId(::UnityEngine::UIElements::TextureId value);
 
-  /// @brief Method get_atlas addr 0x2d14c18 size 0x8 virtual false final false
+  /// @brief Method get_atlas, addr 0x2e7cfc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTexture* get_atlas();
 
-  /// @brief Method set_atlas addr 0x2d14c20 size 0x8 virtual false final false
+  /// @brief Method set_atlas, addr 0x2e7cfd0, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method get_format addr 0x2d14c28 size 0x8 virtual false final false
+  /// @brief Method get_format, addr 0x2e7cfd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureFormat get_format();
 
-  /// @brief Method get_filterMode addr 0x2d14c30 size 0x8 virtual false final false
+  /// @brief Method get_filterMode, addr 0x2e7cfe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::FilterMode get_filterMode();
 
   static inline ::UnityEngine::UIElements::DynamicAtlasPage* New_ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize,
                                                                       ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method .ctor addr 0x2d14c38 size 0x154 virtual false final false
+  /// @brief Method .ctor, addr 0x2e7cfe8, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RenderTextureFormat format, ::UnityEngine::FilterMode filterMode, ::UnityEngine::Vector2Int minSize, ::UnityEngine::Vector2Int maxSize);
 
-  /// @brief Method get_disposed addr 0x2d14e40 size 0x8 virtual false final false
+  /// @brief Method get_disposed, addr 0x2e7d1f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2d14e48 size 0xc virtual false final false
+  /// @brief Method set_disposed, addr 0x2e7d1f8, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2d14e54 size 0x6c virtual true final true
+  /// @brief Method Dispose, addr 0x2e7d204, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2d14ec0 size 0x1d4 virtual true final false
+  /// @brief Method Dispose, addr 0x2e7d270, size 0x1d4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method TryAdd addr 0x2d15100 size 0x1e4 virtual false final false
+  /// @brief Method TryAdd, addr 0x2e7d4b0, size 0x1e4, virtual false, abstract: false, final false
   inline bool TryAdd(::UnityEngine::Texture2D* image, ByRef<::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D> alloc, ByRef<::UnityEngine::RectInt> rect);
 
-  /// @brief Method Update addr 0x2d152e4 size 0x19c virtual false final false
+  /// @brief Method Update, addr 0x2e7d694, size 0x19c, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Texture2D* image, ::UnityEngine::RectInt rect);
 
-  /// @brief Method Remove addr 0x2d15624 size 0xfc virtual false final false
+  /// @brief Method Remove, addr 0x2e7d9d4, size 0xfc, virtual false, abstract: false, final false
   inline void Remove(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc);
 
-  /// @brief Method Commit addr 0x2d15720 size 0x40 virtual false final false
+  /// @brief Method Commit, addr 0x2e7dad0, size 0x40, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method UpdateAtlasTexture addr 0x2d15760 size 0x380 virtual false final false
+  /// @brief Method UpdateAtlasTexture, addr 0x2e7db10, size 0x380, virtual false, abstract: false, final false
   inline void UpdateAtlasTexture();
 
-  /// @brief Method CreateAtlasTexture addr 0x2d15bcc size 0x138 virtual false final false
+  /// @brief Method CreateAtlasTexture, addr 0x2e7df7c, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTexture* CreateAtlasTexture();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasPage", modifiers: "&&", def_value: None }]

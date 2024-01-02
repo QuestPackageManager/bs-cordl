@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::WebExceptionInternalStatus);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9086))
 // CS Name: ::System.Net::WebExceptionInternalStatus
 struct CORDL_TYPE WebExceptionInternalStatus {
 public:

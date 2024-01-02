@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 template <typename TKey, typename TItem> constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::__get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
@@ -121,33 +121,33 @@ template <typename TKey, typename TItem> inline ::System::Collections::Generic::
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IDictionary_2<TKey, TItem>*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TItem> inline void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::ClearItems() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), "ClearItems",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TItem> inline TKey System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::GetKeyForItem(TItem item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), "GetKeyForItem",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), 39)));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method, item);
 }
 template <typename TKey, typename TItem> inline void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::InsertItem(int32_t index, TItem item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), "InsertItem", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), 36)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, item);
 }
 template <typename TKey, typename TItem> inline void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::RemoveItem(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), "RemoveItem",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), 37)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
 template <typename TKey, typename TItem> inline void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::SetItem(int32_t index, TItem item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), "SetItem", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TItem>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>*>::get(), 38)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, item);
 }
 template <typename TKey, typename TItem> inline void System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>::AddKey(TKey key, TItem item) {

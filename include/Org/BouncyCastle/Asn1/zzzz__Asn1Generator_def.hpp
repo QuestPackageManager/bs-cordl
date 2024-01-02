@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Generator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(451))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Generator*
 class CORDL_TYPE Asn1Generator : public ::System::Object {
@@ -39,19 +39,19 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor addr 0x1142b2c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x11b3d74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method get_Out addr 0x1142b54 size 0x8 virtual false final false
+  /// @brief Method get_Out, addr 0x11b3d9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_Out();
 
-  /// @brief Method AddObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
-  /// @brief Method GetRawOutputStream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* GetRawOutputStream();
 
-  /// @brief Method Close addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None }]

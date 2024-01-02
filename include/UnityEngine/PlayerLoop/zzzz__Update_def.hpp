@@ -8,10 +8,10 @@ namespace UnityEngine::PlayerLoop {
 struct __Update__DirectorUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunDelayedTasks;
+struct __Update__ScriptRunBehaviourUpdate;
 }
 namespace UnityEngine::PlayerLoop {
-struct __Update__ScriptRunBehaviourUpdate;
+struct __Update__ScriptRunDelayedTasks;
 }
 namespace UnityEngine::PlayerLoop {
 struct __Update__ScriptRunDelayedDynamicFrameRate;
@@ -43,7 +43,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks);
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10541))
 // CS Name: ::Update::ScriptRunBehaviourUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunBehaviourUpdate {
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10464))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10542))
 // CS Name: ::Update::DirectorUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__DirectorUpdate {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10465))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10543))
 // CS Name: ::Update::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunDelayedDynamicFrameRate {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10544))
 // CS Name: ::Update::ScriptRunDelayedTasks
 #pragma pack(push, 0)
 struct CORDL_TYPE __Update__ScriptRunDelayedTasks {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10467))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10545))
 // CS Name: ::UnityEngine.PlayerLoop::Update
 #pragma pack(push, 0)
 struct CORDL_TYPE Update {

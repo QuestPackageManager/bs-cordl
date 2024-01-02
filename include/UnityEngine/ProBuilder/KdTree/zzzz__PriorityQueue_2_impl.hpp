@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
 /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
 template <typename TItem, typename TPriority>
 constexpr UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>::operator ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>*() noexcept {

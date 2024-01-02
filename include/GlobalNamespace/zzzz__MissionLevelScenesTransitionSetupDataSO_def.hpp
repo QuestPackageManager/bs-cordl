@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionLevelScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class MissionCompletionResults;
+class ColorScheme;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class MissionObjective;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
+class MissionObjective;
 }
 namespace GlobalNamespace {
 class SceneInfo;
 }
 namespace GlobalNamespace {
-class ColorScheme;
+class MainSettingsModelSO;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class MissionCompletionResults;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6125))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6135))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6075))
 // CS Name: ::MissionLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE MissionLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
@@ -112,35 +112,35 @@ public:
 
   constexpr void __set__difficultyBeatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  /// @brief Method add_didFinishEvent addr 0x21e1c78 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x231d828, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x21e206c size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x231dc1c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_missionId addr 0x21e5788 size 0x8 virtual false final false
+  /// @brief Method get_missionId, addr 0x231fe6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method set_missionId addr 0x21e5790 size 0x8 virtual false final false
+  /// @brief Method set_missionId, addr 0x231fe74, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
-  /// @brief Method get_difficultyBeatmap addr 0x21e5798 size 0x8 virtual false final false
+  /// @brief Method get_difficultyBeatmap, addr 0x231fe7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_difficultyBeatmap();
 
-  /// @brief Method set_difficultyBeatmap addr 0x21e57a0 size 0x8 virtual false final false
+  /// @brief Method set_difficultyBeatmap, addr 0x231fe84, size 0x8, virtual false, abstract: false, final false
   inline void set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  /// @brief Method Init addr 0x21e2d80 size 0x514 virtual false final false
+  /// @brief Method Init, addr 0x231b1b4, size 0x534, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                    ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText);
 
-  /// @brief Method Finish addr 0x21e57a8 size 0x28 virtual false final false
+  /// @brief Method Finish, addr 0x231fe8c, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e57d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231feb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

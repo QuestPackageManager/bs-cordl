@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Destination);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13477))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
 // CS Name: ::Oculus.Platform.Models::Destination*
 class CORDL_TYPE Destination : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b0dd0 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x27040b4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Destination", modifiers: "&&", def_value: None }]

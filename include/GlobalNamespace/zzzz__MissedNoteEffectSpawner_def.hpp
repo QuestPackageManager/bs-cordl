@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MissedNoteEffectSpawner)
 namespace GlobalNamespace {
-class AudioTimeSyncController;
+class FlyingSpriteSpawner;
 }
 namespace GlobalNamespace {
-class NoteController;
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class __CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
-class FlyingSpriteSpawner;
+class NoteController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissedNoteEffectSpawner);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5010))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4892))
 // CS Name: ::MissedNoteEffectSpawner*
 class CORDL_TYPE MissedNoteEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -81,18 +81,18 @@ public:
 
   constexpr void __set__spawnPosZ(float_t value);
 
-  /// @brief Method Start addr 0x226c2dc size 0xd4 virtual false final false
+  /// @brief Method Start, addr 0x23a2254, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226c3b0 size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23a2328, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasMissed addr 0x226c448 size 0x18c virtual false final false
+  /// @brief Method HandleNoteWasMissed, addr 0x23a23c0, size 0x18c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226c5d4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23a254c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissedNoteEffectSpawner", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::FrameTiming);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10060))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10132))
 // CS Name: ::UnityEngine::FrameTiming
 struct CORDL_TYPE FrameTiming {
 public:

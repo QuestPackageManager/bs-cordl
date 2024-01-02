@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MeshRendererSwitchEventEffect)
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
 }
 namespace UnityEngine {
 class MeshRenderer;
@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MeshRendererSwitchEventEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5060))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4955))
 // CS Name: ::MeshRendererSwitchEventEffect*
 class CORDL_TYPE MeshRendererSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -81,21 +81,21 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x2276550 size 0x124 virtual false final false
+  /// @brief Method Start, addr 0x23ae598, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2276674 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x23ae6bc, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x2276690 size 0x20 virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x23ae6d8, size 0x20, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method ToggleObjects addr 0x22766b0 size 0xc4 virtual false final false
+  /// @brief Method ToggleObjects, addr 0x23ae6f8, size 0xc4, virtual false, abstract: false, final false
   inline void ToggleObjects(bool isBoostOn);
 
   static inline ::GlobalNamespace::MeshRendererSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2276774 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23ae7bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshRendererSwitchEventEffect", modifiers: "&&", def_value: None }]

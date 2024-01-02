@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 CORDL_MODULE_EXPORT(GameServerListTableCell)
+namespace UnityEngine {
+class GameObject;
+}
+namespace HMUI {
+class CurvedTextMeshPro;
+}
 namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
 class SongPackMasksModel;
-}
-namespace HMUI {
-class CurvedTextMeshPro;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListTableCell);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5521))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5422))
 // CS Name: ::GameServerListTableCell*
 class CORDL_TYPE GameServerListTableCell : public ::HMUI::TableCell {
 public:
@@ -86,12 +86,12 @@ public:
 
   constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  /// @brief Method SetData addr 0x2135c80 size 0x388 virtual false final false
+  /// @brief Method SetData, addr 0x2278f74, size 0x390, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::GameServerListTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2136008 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2279304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListTableCell", modifiers: "&&", def_value: None }]

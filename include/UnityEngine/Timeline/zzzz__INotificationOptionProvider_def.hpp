@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::INotificationOptionProvider);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13887))
 // CS Name: ::UnityEngine.Timeline::INotificationOptionProvider*
 class CORDL_TYPE INotificationOptionProvider {
 public:
   // Declarations
   __declspec(property(get = get_flags))::UnityEngine::Timeline::NotificationFlags flags;
 
-  /// @brief Method get_flags addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_flags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Timeline::NotificationFlags get_flags();
 
   // Ctor Parameters [CppParam { name: "", ty: "INotificationOptionProvider", modifiers: "&&", def_value: None }]

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(JoiningLobbyViewController)
+namespace UnityEngine::UI {
+class Button;
+}
 namespace GlobalNamespace {
 class LoadingControl;
 }
 namespace System {
 class Action;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::JoiningLobbyViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5715))
 // CS Name: ::JoiningLobbyViewController*
 class CORDL_TYPE JoiningLobbyViewController : public ::HMUI::ViewController {
 public:
@@ -66,27 +66,27 @@ public:
 
   constexpr void __set_didCancelEvent(::System::Action* value);
 
-  /// @brief Method add_didCancelEvent addr 0x218ad34 size 0x9c virtual false final false
+  /// @brief Method add_didCancelEvent, addr 0x22cd794, size 0x9c, virtual false, abstract: false, final false
   inline void add_didCancelEvent(::System::Action* value);
 
-  /// @brief Method remove_didCancelEvent addr 0x218add0 size 0x9c virtual false final false
+  /// @brief Method remove_didCancelEvent, addr 0x22cd830, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didCancelEvent(::System::Action* value);
 
-  /// @brief Method Init addr 0x218ae6c size 0x34 virtual false final false
+  /// @brief Method Init, addr 0x22cd8cc, size 0x34, virtual false, abstract: false, final false
   inline void Init(::StringW text);
 
-  /// @brief Method HideLoading addr 0x218aea0 size 0x40 virtual false final false
+  /// @brief Method HideLoading, addr 0x22cd900, size 0x40, virtual false, abstract: false, final false
   inline void HideLoading();
 
-  /// @brief Method DidActivate addr 0x218aee0 size 0xc8 virtual true final false
+  /// @brief Method DidActivate, addr 0x22cd940, size 0xc8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::JoiningLobbyViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x218afa8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22cda08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__8_0 addr 0x218afb0 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x22cda10, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "JoiningLobbyViewController", modifiers: "&&", def_value: None }]

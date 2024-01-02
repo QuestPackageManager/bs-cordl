@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmanagedMemoryStream)
-namespace System::IO {
-struct SeekOrigin;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
 }
-namespace System::Runtime::InteropServices {
-class SafeBuffer;
+namespace System {
+template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct FileAccess;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
-}
-namespace System {
-template <typename T> struct Memory_1;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System {
-template <typename T> struct Span_1;
-}
-namespace System {
-template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
+}
+namespace System::Runtime::InteropServices {
+class SafeBuffer;
+}
+namespace System::IO {
+struct FileAccess;
+}
+namespace System {
+template <typename T> struct Span_1;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace System::IO {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::System::IO::UnmanagedMemoryStream);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607)), TypeDefinitionIndex(TypeDefinitionIndex(3554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3576))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::UnmanagedMemoryStream*
 class CORDL_TYPE UnmanagedMemoryStream : public ::System::IO::Stream {
 public:
@@ -154,96 +154,98 @@ public:
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a667c size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x2500348, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
-  /// @brief Method .ctor addr 0x23abb30 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x2507ec8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
-  /// @brief Method Initialize addr 0x23a66e0 size 0x208 virtual false final false
+  /// @brief Method Initialize, addr 0x25003ac, size 0x208, virtual false, abstract: false, final false
   inline void Initialize(::cordl_internals::Ptr<uint8_t> pointer, int64_t length, int64_t capacity, ::System::IO::FileAccess access);
 
-  /// @brief Method get_CanRead addr 0x23abbc0 size 0x1c virtual true final false
+  /// @brief Method get_CanRead, addr 0x2507f58, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x23abbdc size 0x8 virtual true final false
+  /// @brief Method get_CanSeek, addr 0x2507f74, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0x23abbe4 size 0x1c virtual true final false
+  /// @brief Method get_CanWrite, addr 0x2507f7c, size 0x1c, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method Dispose addr 0x23a6f0c size 0x14 virtual true final false
+  /// @brief Method Dispose, addr 0x2500bd8, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureNotClosed addr 0x23abc00 size 0x34 virtual false final false
+  /// @brief Method EnsureNotClosed, addr 0x2507f98, size 0x34, virtual false, abstract: false, final false
   inline void EnsureNotClosed();
 
-  /// @brief Method EnsureReadable addr 0x23abc34 size 0x3c virtual false final false
+  /// @brief Method EnsureReadable, addr 0x2507fcc, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureReadable();
 
-  /// @brief Method EnsureWriteable addr 0x23abc70 size 0x3c virtual false final false
+  /// @brief Method EnsureWriteable, addr 0x2508008, size 0x3c, virtual false, abstract: false, final false
   inline void EnsureWriteable();
 
-  /// @brief Method Flush addr 0x23abcac size 0x4 virtual true final false
+  /// @brief Method Flush, addr 0x2508044, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync addr 0x23abcb0 size 0x174 virtual true final false
+  /// @brief Method FlushAsync, addr 0x2508048, size 0x174, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_Length addr 0x23abe24 size 0x1c virtual true final false
+  /// @brief Method get_Length, addr 0x25081bc, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x23abe40 size 0x48 virtual true final false
+  /// @brief Method get_Position, addr 0x25081d8, size 0x48, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x23abe88 size 0xa8 virtual true final false
+  /// @brief Method set_Position, addr 0x2508220, size 0xa8, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method get_PositionPointer addr 0x23abf30 size 0xc0 virtual false final false
+  /// @brief Method get_PositionPointer, addr 0x25082c8, size 0xc0, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_PositionPointer();
 
-  /// @brief Method Read addr 0x23abff0 size 0x1c0 virtual true final false
+  /// @brief Method Read, addr 0x2508388, size 0x1c0, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Read addr 0x23ac1b0 size 0xe4 virtual true final false
+  /// @brief Method Read, addr 0x2508548, size 0xe4, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadCore addr 0x23a68ec size 0x22c virtual false final false
+  /// @brief Method ReadCore, addr 0x25005b8, size 0x22c, virtual false, abstract: false, final false
   inline int32_t ReadCore(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadAsync addr 0x23ac294 size 0x310 virtual true final false
+  /// @brief Method ReadAsync, addr 0x250862c, size 0x310, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync addr 0x23ac5a4 size 0x294 virtual true final false
-  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method ReadAsync, addr 0x250893c, size 0x294, virtual true, abstract: false, final false
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method ReadByte addr 0x23ac838 size 0x160 virtual true final false
+  /// @brief Method ReadByte, addr 0x2508bd0, size 0x160, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek addr 0x23ac998 size 0x110 virtual true final false
+  /// @brief Method Seek, addr 0x2508d30, size 0x110, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin loc);
 
-  /// @brief Method SetLength addr 0x23acaa8 size 0x190 virtual true final false
+  /// @brief Method SetLength, addr 0x2508e40, size 0x190, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0x23acc38 size 0x1ec virtual true final false
+  /// @brief Method Write, addr 0x2508fd0, size 0x1ec, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write addr 0x23ace24 size 0xe4 virtual true final false
+  /// @brief Method Write, addr 0x25091bc, size 0xe4, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteCore addr 0x23a6b1c size 0x2fc virtual false final false
+  /// @brief Method WriteCore, addr 0x25007e8, size 0x2fc, virtual false, abstract: false, final false
   inline void WriteCore(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteAsync addr 0x23acf08 size 0x2c0 virtual true final false
+  /// @brief Method WriteAsync, addr 0x25092a0, size 0x2c0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync addr 0x23ad1c8 size 0x214 virtual true final false
-  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method WriteAsync, addr 0x2509560, size 0x214, virtual true, abstract: false, final false
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method WriteByte addr 0x23ad3dc size 0x228 virtual true final false
+  /// @brief Method WriteByte, addr 0x2509774, size 0x228, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmanagedMemoryStream", modifiers: "&&", def_value: None }]

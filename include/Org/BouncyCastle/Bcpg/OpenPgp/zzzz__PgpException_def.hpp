@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1635))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpException*
 class CORDL_TYPE PgpException : public ::System::Exception {
@@ -28,20 +28,20 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor();
 
-  /// @brief Method .ctor addr 0x1038290 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x10a94e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x103432c size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x10a557c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x10382e8 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x10a9538, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method get_UnderlyingException addr 0x1038358 size 0x8 virtual false final false
+  /// @brief Method get_UnderlyingException, addr 0x10a95a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_UnderlyingException();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpException", modifiers: "&&", def_value: None }]

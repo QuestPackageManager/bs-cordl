@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CompletionActionInvoker)
 namespace System::Threading {
-class IThreadPoolWorkItem;
-}
-namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+class ThreadAbortException;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
 namespace System::Threading {
-class ThreadAbortException;
+class IThreadPoolWorkItem;
+}
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::CompletionActionInvoker);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2788))
 // CS Name: ::System.Threading.Tasks::CompletionActionInvoker*
 class CORDL_TYPE CompletionActionInvoker : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::System::Threading::Tasks::CompletionActionInvoker* New_ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method .ctor addr 0x24cdae8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2627bf4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ITaskCompletionAction* action, ::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x24d11e4 size 0xa8 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x262b2f0, size 0xa8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method MarkAborted addr 0x24d128c size 0x4 virtual true final true
+  /// @brief Method MarkAborted, addr 0x262b398, size 0x4, virtual true, abstract: false, final true
   inline void MarkAborted(::System::Threading::ThreadAbortException* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "CompletionActionInvoker", modifiers: "&&", def_value: None }]

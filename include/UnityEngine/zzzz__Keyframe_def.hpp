@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::Keyframe);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9969))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10041))
 // CS Name: ::UnityEngine::Keyframe
 struct CORDL_TYPE Keyframe {
 public:
@@ -30,34 +30,34 @@ public:
 
   __declspec(property(get = get_outTangent, put = set_outTangent)) float_t outTangent;
 
-  /// @brief Method .ctor addr 0x2b39d74 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9ea74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value);
 
-  /// @brief Method .ctor addr 0x2b39d84 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9ea84, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t time, float_t value, float_t inTangent, float_t outTangent);
 
-  /// @brief Method get_time addr 0x2b39d98 size 0x8 virtual false final false
+  /// @brief Method get_time, addr 0x2c9ea98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_time addr 0x2b39da0 size 0x8 virtual false final false
+  /// @brief Method set_time, addr 0x2c9eaa0, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_value addr 0x2b39da8 size 0x8 virtual false final false
+  /// @brief Method get_value, addr 0x2c9eaa8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method set_value addr 0x2b39db0 size 0x8 virtual false final false
+  /// @brief Method set_value, addr 0x2c9eab0, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
-  /// @brief Method get_inTangent addr 0x2b39db8 size 0x8 virtual false final false
+  /// @brief Method get_inTangent, addr 0x2c9eab8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_inTangent();
 
-  /// @brief Method set_inTangent addr 0x2b39dc0 size 0x8 virtual false final false
+  /// @brief Method set_inTangent, addr 0x2c9eac0, size 0x8, virtual false, abstract: false, final false
   inline void set_inTangent(float_t value);
 
-  /// @brief Method get_outTangent addr 0x2b39dc8 size 0x8 virtual false final false
+  /// @brief Method get_outTangent, addr 0x2c9eac8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_outTangent();
 
-  /// @brief Method set_outTangent addr 0x2b39dd0 size 0x8 virtual false final false
+  /// @brief Method set_outTangent, addr 0x2c9ead0, size 0x8, virtual false, abstract: false, final false
   inline void set_outTangent(float_t value);
 
   // Ctor Parameters [CppParam { name: "m_Time", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Value", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:

@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_CertificateProvider))::Mono::ISystemCertificateProvider* CertificateProvider;
 
-  /// @brief Method get_CertificateProvider addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CertificateProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Mono::ISystemCertificateProvider* get_CertificateProvider();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISystemDependencyProvider", modifiers: "&&", def_value: None }]

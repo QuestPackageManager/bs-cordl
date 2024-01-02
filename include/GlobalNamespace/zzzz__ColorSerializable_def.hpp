@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorSerializable)
 namespace System {
+class Object;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace UnityEngine {
-struct Color;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,8 +35,8 @@ MARK_VAL_T(::GlobalNamespace::ColorSerializable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15043))
 // CS Name: ::ColorSerializable
 struct CORDL_TYPE ColorSerializable {
 public:
@@ -47,31 +47,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::ColorSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::ColorSerializable>*();
 
-  /// @brief Method .ctor addr 0x12366f4 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x12a87f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method Serialize addr 0x1236700 size 0x60 virtual true final true
+  /// @brief Method Serialize, addr 0x12a87fc, size 0x60, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x1236760 size 0x64 virtual true final true
+  /// @brief Method Deserialize, addr 0x12a885c, size 0x64, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method op_Implicit addr 0x12367c4 size 0x4 virtual false final false
+  /// @brief Method op_Implicit, addr 0x12a88c0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSerializable c);
 
-  /// @brief Method op_Implicit addr 0x12367c8 size 0x4 virtual false final false
+  /// @brief Method op_Implicit, addr 0x12a88c4, size 0x4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorSerializable op_Implicit___GlobalNamespace__ColorSerializable(::UnityEngine::Color c);
 
-  /// @brief Method Equals addr 0x12367cc size 0x13c virtual true final true
+  /// @brief Method Equals, addr 0x12a88c8, size 0x13c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::ColorSerializable other);
 
-  /// @brief Method Equals addr 0x1236908 size 0x7c virtual true final false
+  /// @brief Method Equals, addr 0x12a8a04, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x1236984 size 0x84 virtual true final false
+  /// @brief Method GetHashCode, addr 0x12a8a80, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x1236a08 size 0x8 virtual true final false
+  /// @brief Method ToString, addr 0x12a8b04, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "_color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]

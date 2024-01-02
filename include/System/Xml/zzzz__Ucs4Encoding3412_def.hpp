@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Encoding3412);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11485))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11489))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11557))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11561))
 // CS Name: ::System.Xml::Ucs4Encoding3412*
 class CORDL_TYPE Ucs4Encoding3412 : public ::System::Xml::Ucs4Encoding {
 public:
@@ -27,13 +27,13 @@ public:
 
   static inline ::System::Xml::Ucs4Encoding3412* New_ctor();
 
-  /// @brief Method .ctor addr 0x2728f30 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x28a5f54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EncodingName addr 0x27291d4 size 0x40 virtual true final false
+  /// @brief Method get_EncodingName, addr 0x28a61f8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_EncodingName();
 
-  /// @brief Method GetPreamble addr 0x2729214 size 0x74 virtual true final false
+  /// @brief Method GetPreamble, addr 0x28a6238, size 0x74, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPreamble();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ucs4Encoding3412", modifiers: "&&", def_value: None }]

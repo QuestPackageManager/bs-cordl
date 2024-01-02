@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6454))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorType
 struct CORDL_TYPE AndroidSensorType {
 public:

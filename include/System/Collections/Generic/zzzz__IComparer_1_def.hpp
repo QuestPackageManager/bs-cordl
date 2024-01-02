@@ -17,12 +17,12 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3815))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3827))
 // CS Name: ::System.Collections.Generic::IComparer`1<T>*
 class CORDL_TYPE IComparer_1 {
 public:
   // Declarations
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(T x, T y);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComparer_1", modifiers: "&&", def_value: None }]

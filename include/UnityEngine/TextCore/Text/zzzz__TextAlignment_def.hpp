@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextAlignment);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13597))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13718))
 // CS Name: ::UnityEngine.TextCore.Text::TextAlignment
 struct CORDL_TYPE TextAlignment {
 public:

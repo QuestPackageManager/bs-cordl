@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(UIKeyboardManager)
-namespace UnityEngine {
-class Transform;
-}
-namespace HMUI {
-class ModalView;
-}
-namespace UnityEngine {
-class RectTransform;
-}
 namespace VRUIControls {
 class VRInputModule;
-}
-namespace HMUI {
-class UIKeyboard;
 }
 namespace UnityEngine {
 class GameObject;
 }
+namespace UnityEngine {
+class RectTransform;
+}
+namespace HMUI {
+class ModalView;
+}
+namespace HMUI {
+class UIKeyboard;
+}
 namespace HMUI {
 class InputFieldView;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::UIKeyboardManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5467))
 // CS Name: ::UIKeyboardManager*
 class CORDL_TYPE UIKeyboardManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -98,42 +98,42 @@ public:
 
   constexpr void __set__selectedInput(::HMUI::InputFieldView* value);
 
-  /// @brief Method get_keyboard addr 0x213ffe8 size 0x8 virtual false final false
+  /// @brief Method get_keyboard, addr 0x2281570, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::UIKeyboard* get_keyboard();
 
-  /// @brief Method Start addr 0x213fff0 size 0x8c virtual false final false
+  /// @brief Method Start, addr 0x2281578, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x214007c size 0x8c virtual false final false
+  /// @brief Method OnEnable, addr 0x2281604, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2140108 size 0x8c virtual false final false
+  /// @brief Method OnDisable, addr 0x2281690, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2140194 size 0xd0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x228171c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OpenKeyboardFor addr 0x2140264 size 0x200 virtual false final false
+  /// @brief Method OpenKeyboardFor, addr 0x22817ec, size 0x200, virtual false, abstract: false, final false
   inline void OpenKeyboardFor(::HMUI::InputFieldView* input);
 
-  /// @brief Method CloseKeyboard addr 0x2140464 size 0x98 virtual false final false
+  /// @brief Method CloseKeyboard, addr 0x22819ec, size 0x98, virtual false, abstract: false, final false
   inline void CloseKeyboard();
 
-  /// @brief Method TransferKeyboardTo addr 0x21404fc size 0x94 virtual false final false
+  /// @brief Method TransferKeyboardTo, addr 0x2281a84, size 0x94, virtual false, abstract: false, final false
   inline void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
 
-  /// @brief Method ShouldCloseKeyboard addr 0x2140590 size 0x58 virtual false final false
+  /// @brief Method ShouldCloseKeyboard, addr 0x2281b18, size 0x58, virtual false, abstract: false, final false
   inline bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
 
-  /// @brief Method ProcessMousePress addr 0x21405e8 size 0x168 virtual false final false
+  /// @brief Method ProcessMousePress, addr 0x2281b70, size 0x168, virtual false, abstract: false, final false
   inline void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
 
-  /// @brief Method HandleKeyboardOkButton addr 0x2140750 size 0x160 virtual false final false
+  /// @brief Method HandleKeyboardOkButton, addr 0x2281cd8, size 0x160, virtual false, abstract: false, final false
   inline void HandleKeyboardOkButton();
 
   static inline ::GlobalNamespace::UIKeyboardManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x21408b0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2281e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "&&", def_value: None }]

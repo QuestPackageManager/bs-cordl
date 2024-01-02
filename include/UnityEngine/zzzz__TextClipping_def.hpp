@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextClipping);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14845))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14628))
 // CS Name: ::UnityEngine::TextClipping
 struct CORDL_TYPE TextClipping {
 public:

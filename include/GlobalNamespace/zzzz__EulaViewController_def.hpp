@@ -12,32 +12,35 @@ CORDL_MODULE_EXPORT(EulaViewController)
 namespace GlobalNamespace {
 class LocalizedTextAsset;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::UI {
+class Image;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace HMUI {
-class TextPageScrollView;
+namespace GlobalNamespace {
+class __EulaViewController___EnableButtonsCoroutine_d__21;
 }
 namespace GlobalNamespace {
 class __EulaViewController__InitData;
-}
-namespace UnityEngine::UI {
-class Image;
-}
-namespace UnityEngine::UI {
-class Button;
-}
-namespace GlobalNamespace {
-class __EulaViewController___EnableButtonsCoroutine_d__21;
 }
 namespace GlobalNamespace {
 struct __EulaViewController__ButtonType;
 }
 namespace UnityEngine {
 class Coroutine;
+}
+namespace HMUI {
+class TextPageScrollView;
+}
+namespace GlobalNamespace {
+class ICoroutineStarter;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;
@@ -71,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5728))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5627))
 // CS Name: ::EulaViewController::ButtonType
 struct CORDL_TYPE __EulaViewController__ButtonType {
 public:
@@ -120,8 +123,8 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__ButtonType, valu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5729))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5628))
 // CS Name: ::EulaViewController::InitData*
 class CORDL_TYPE __EulaViewController__InitData : public ::System::Object {
 public:
@@ -137,7 +140,7 @@ public:
 
   static inline ::GlobalNamespace::__EulaViewController__InitData* New_ctor(bool showDoNotAgreeButton);
 
-  /// @brief Method .ctor addr 0x216e500 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22b059c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool showDoNotAgreeButton);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController__InitData", modifiers: "&&", def_value: None }]
@@ -169,8 +172,8 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController__InitData, ___sho
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5730))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5629))
 // CS Name: ::EulaViewController::<EnableButtonsCoroutine>d__21*
 class CORDL_TYPE __EulaViewController___EnableButtonsCoroutine_d__21 : public ::System::Object {
 public:
@@ -244,22 +247,22 @@ public:
 
   static inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x216e468 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22b0504, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x216e528 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22b05c4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x216e52c size 0x17c virtual true final true
+  /// @brief Method MoveNext, addr 0x22b05c8, size 0x17c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x216e6a8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b0744, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x216e6b0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b074c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x216e6f0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b078c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EulaViewController___EnableButtonsCoroutine_d__21", modifiers: "&&", def_value: None }]
@@ -316,8 +319,8 @@ static_assert(offsetof(::GlobalNamespace::__EulaViewController___EnableButtonsCo
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5731))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5630))
 // CS Name: ::EulaViewController*
 class CORDL_TYPE EulaViewController : public ::HMUI::ViewController {
 public:
@@ -349,14 +352,14 @@ public:
   /// @brief Field _eulaLocalizedTextAsset, offset 0xa0, size 0x8
   __declspec(property(get = __get__eulaLocalizedTextAsset, put = __set__eulaLocalizedTextAsset))::GlobalNamespace::LocalizedTextAsset* _eulaLocalizedTextAsset;
 
-  /// @brief Field _defaultEulaHeaderLocalizationKey, offset 0xa8, size 0x8
-  __declspec(property(get = __get__defaultEulaHeaderLocalizationKey, put = __set__defaultEulaHeaderLocalizationKey))::StringW _defaultEulaHeaderLocalizationKey;
-
-  /// @brief Field _updateNoticeLocalizationKey, offset 0xb0, size 0x8
+  /// @brief Field _updateNoticeLocalizationKey, offset 0xa8, size 0x8
   __declspec(property(get = __get__updateNoticeLocalizationKey, put = __set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
 
-  /// @brief Field _initData, offset 0xb8, size 0x8
+  /// @brief Field _initData, offset 0xb0, size 0x8
   __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__EulaViewController__InitData* _initData;
+
+  /// @brief Field _coroutineStarter, offset 0xb8, size 0x8
+  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
   /// @brief Field didFinishEvent, offset 0xc0, size 0x8
   __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* didFinishEvent;
@@ -412,12 +415,6 @@ public:
 
   constexpr void __set__eulaLocalizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value);
 
-  constexpr ::StringW& __get__defaultEulaHeaderLocalizationKey();
-
-  constexpr ::StringW const& __get__defaultEulaHeaderLocalizationKey() const;
-
-  constexpr void __set__defaultEulaHeaderLocalizationKey(::StringW value);
-
   constexpr ::StringW& __get__updateNoticeLocalizationKey();
 
   constexpr ::StringW const& __get__updateNoticeLocalizationKey() const;
@@ -429,6 +426,12 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& __get__initData() const;
 
   constexpr void __set__initData(::GlobalNamespace::__EulaViewController__InitData* value);
+
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
+
+  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
   constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& __get_didFinishEvent();
 
@@ -454,36 +457,36 @@ public:
 
   constexpr void __set__buttonsCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method add_didFinishEvent addr 0x216dea8 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x22aff24, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x216df58 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x22affd4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value);
 
-  /// @brief Method DidActivate addr 0x216e008 size 0x310 virtual true final false
+  /// @brief Method DidActivate, addr 0x22b0084, size 0x334, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x216e390 size 0xc4 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22b0430, size 0xc0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Init addr 0x216e454 size 0x14 virtual false final false
+  /// @brief Method Init, addr 0x22b04f0, size 0x14, virtual false, abstract: false, final false
   inline void Init(bool showUpdate, bool showOnlyContinueButton);
 
-  /// @brief Method EnableButtonsCoroutine addr 0x216e318 size 0x78 virtual false final false
+  /// @brief Method EnableButtonsCoroutine, addr 0x22b03b8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* EnableButtonsCoroutine(float_t delay);
 
   static inline ::GlobalNamespace::EulaViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x216e490 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x22b052c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__18_0 addr 0x216e4a0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__18_0, addr 0x22b053c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_0();
 
-  /// @brief Method <DidActivate>b__18_1 addr 0x216e4c0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__18_1, addr 0x22b055c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_1();
 
-  /// @brief Method <DidActivate>b__18_2 addr 0x216e4e0 size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__18_2, addr 0x22b057c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__18_2();
 
   // Ctor Parameters [CppParam { name: "", ty: "EulaViewController", modifiers: "&&", def_value: None }]
@@ -521,14 +524,14 @@ public:
   /// @brief Field _eulaLocalizedTextAsset, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::LocalizedTextAsset* ____eulaLocalizedTextAsset;
 
-  /// @brief Field _defaultEulaHeaderLocalizationKey, offset: 0xa8, size: 0x8, def value: None
-  ::StringW ____defaultEulaHeaderLocalizationKey;
-
-  /// @brief Field _updateNoticeLocalizationKey, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _updateNoticeLocalizationKey, offset: 0xa8, size: 0x8, def value: None
   ::StringW ____updateNoticeLocalizationKey;
 
-  /// @brief Field _initData, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _initData, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::__EulaViewController__InitData* ____initData;
+
+  /// @brief Field _coroutineStarter, offset: 0xb8, size: 0x8, def value: None
+  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
 
   /// @brief Field didFinishEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* ___didFinishEvent;
@@ -561,11 +564,11 @@ static_assert(offsetof(::GlobalNamespace::EulaViewController, ____textPageScroll
 
 static_assert(offsetof(::GlobalNamespace::EulaViewController, ____eulaLocalizedTextAsset) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EulaViewController, ____defaultEulaHeaderLocalizationKey) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController, ____updateNoticeLocalizationKey) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EulaViewController, ____updateNoticeLocalizationKey) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController, ____initData) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EulaViewController, ____initData) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EulaViewController, ____coroutineStarter) == 0xb8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::EulaViewController, ___didFinishEvent) == 0xc0, "Offset mismatch!");
 

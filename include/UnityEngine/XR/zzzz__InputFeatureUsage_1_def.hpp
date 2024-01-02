@@ -25,7 +25,7 @@ namespace UnityEngine::XR {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15577))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15620))
 // CS Name: ::UnityEngine.XR::InputFeatureUsage`1<T>
 struct CORDL_TYPE InputFeatureUsage_1 {
 public:
@@ -35,22 +35,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputFeatureUsage_1<T>>*();
 
-  /// @brief Method get_name addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW usageName);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputFeatureUsage_1<T> other);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_name_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }]

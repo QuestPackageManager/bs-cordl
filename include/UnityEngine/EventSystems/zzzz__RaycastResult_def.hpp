@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RaycastResult)
-namespace UnityEngine {
-class GameObject;
+namespace UnityEngine::EventSystems {
+class BaseRaycaster;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -18,8 +18,8 @@ struct Vector3;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::EventSystems {
-class BaseRaycaster;
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::EventSystems::RaycastResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13218))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13213))
 // CS Name: ::UnityEngine.EventSystems::RaycastResult
 struct CORDL_TYPE RaycastResult {
 public:
@@ -41,19 +41,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method get_gameObject addr 0x2c3904c size 0x8 virtual false final false
+  /// @brief Method get_gameObject, addr 0x2da13fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_gameObject();
 
-  /// @brief Method set_gameObject addr 0x2c39054 size 0x8 virtual false final false
+  /// @brief Method set_gameObject, addr 0x2da1404, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_isValid addr 0x2c3905c size 0x98 virtual false final false
+  /// @brief Method get_isValid, addr 0x2da140c, size 0x98, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method Clear addr 0x2c390f4 size 0xa4 virtual false final false
+  /// @brief Method Clear, addr 0x2da14a4, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString addr 0x2c2de54 size 0x6d8 virtual true final false
+  /// @brief Method ToString, addr 0x2d96204, size 0x6d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_GameObject", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "module", ty: "::UnityEngine::EventSystems::BaseRaycaster*",

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
-namespace System::Collections {
-class IEnumerator;
+namespace TMPro {
+template <typename T> class __TweenRunner_1___Start_d__2;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace TMPro {
-template <typename T> class __TweenRunner_1___Start_d__2;
+namespace System::Collections {
+class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace TMPro {
@@ -40,8 +40,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12271))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12343))
 // CS Name: ::TweenRunner`1::<Start>d__2<T>*
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
@@ -97,22 +97,22 @@ public:
 
   static inline ::TMPro::__TweenRunner_1___Start_d__2<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TweenRunner_1___Start_d__2", modifiers: "&&", def_value: None }]
@@ -151,8 +151,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12344))
 // CS Name: ::TMPro::TweenRunner`1<T>*
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
 public:
@@ -177,21 +177,21 @@ public:
 
   constexpr void __set_m_Tween(::System::Collections::IEnumerator* value);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* Start(T tweenInfo);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::MonoBehaviour* coroutineContainer);
 
-  /// @brief Method StartTween addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method StartTween, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void StartTween(T info);
 
-  /// @brief Method StopTween addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method StopTween, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void StopTween();
 
   static inline ::TMPro::TweenRunner_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TweenRunner_1", modifiers: "&&", def_value: None }]

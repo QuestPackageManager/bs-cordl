@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HelpBox)
 namespace UnityEngine::UIElements {
-class __HelpBox__UxmlFactory;
+class Label;
 }
 namespace UnityEngine::UIElements {
 class __HelpBox__UxmlTraits;
 }
 namespace UnityEngine::UIElements {
-class Label;
+class __HelpBox__UxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -23,16 +23,16 @@ namespace UnityEngine::UIElements {
 struct HelpBoxMessageType;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+template <typename T> class UxmlEnumAttributeDescription_1;
+}
+namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class UxmlEnumAttributeDescription_1;
-}
-namespace UnityEngine::UIElements {
-class UxmlStringAttributeDescription;
+struct CreationContext;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__HelpBox__UxmlTraits);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7197))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7111))
 // CS Name: ::HelpBox::UxmlTraits*
 class CORDL_TYPE __HelpBox__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
@@ -76,12 +76,12 @@ public:
 
   constexpr void __set_m_MessageType(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::HelpBoxMessageType>* value);
 
-  /// @brief Method Init addr 0x2cd0118 size 0x154 virtual true final false
+  /// @brief Method Init, addr 0x2e374c8, size 0x154, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__HelpBox__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cd026c size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0x2e3761c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HelpBox__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -118,8 +118,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__HelpBox__UxmlTraits, ___m_Me
 // SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(7195))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7198))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7109)), TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7112))
 // CS Name: ::UnityEngine.UIElements::HelpBox*
 class CORDL_TYPE HelpBox : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -210,26 +210,26 @@ public:
 
   static inline ::StringW getStaticF_iconErrorUssClassName();
 
-  /// @brief Method set_text addr 0x2ccfc18 size 0x24 virtual false final false
+  /// @brief Method set_text, addr 0x2e36fc8, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_messageType addr 0x2ccfc3c size 0x18 virtual false final false
+  /// @brief Method set_messageType, addr 0x2e36fec, size 0x18, virtual false, abstract: false, final false
   inline void set_messageType(::UnityEngine::UIElements::HelpBoxMessageType value);
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ccfd08 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x2e370b8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method .ctor addr 0x2ccfd5c size 0x150 virtual false final false
+  /// @brief Method .ctor, addr 0x2e3710c, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method GetIconClass addr 0x2ccfeac size 0xb8 virtual false final false
+  /// @brief Method GetIconClass, addr 0x2e3725c, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW GetIconClass(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method UpdateIcon addr 0x2ccfc54 size 0xb4 virtual false final false
+  /// @brief Method UpdateIcon, addr 0x2e37004, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateIcon(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   // Ctor Parameters [CppParam { name: "", ty: "HelpBox", modifiers: "&&", def_value: None }]
@@ -276,14 +276,14 @@ static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Label) == 0x3c8,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7197)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5146
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7198))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7196)) CS Name: ::HelpBox::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5262 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7112)), TypeDefinitionIndex(TypeDefinitionIndex(7111))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7110)) CS Name: ::HelpBox::UxmlFactory*
 class CORDL_TYPE __HelpBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::HelpBox*, ::UnityEngine::UIElements::__HelpBox__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__HelpBox__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cd00d0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e37480, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HelpBox__UxmlFactory", modifiers: "&&", def_value: None }]

@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::GlobalNamespace::FixedUpdateVector3SmoothValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13804)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13804), inst:
-// 407 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13805)) CS Name: ::FixedUpdateVector3SmoothValue*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14333)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14333), inst: 412 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14334)) CS Name: ::FixedUpdateVector3SmoothValue*
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
 
-  /// @brief Method .ctor addr 0x1f90db4 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x20ef5e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(float_t smooth);
 
-  /// @brief Method Interpolate addr 0x1f90e0c size 0x28 virtual true final false
+  /// @brief Method Interpolate, addr 0x20ef63c, size 0x28, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None }]

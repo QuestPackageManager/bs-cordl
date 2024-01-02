@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::StringEscapeHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11738))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11810))
 // CS Name: ::Newtonsoft.Json::StringEscapeHandling
 struct CORDL_TYPE StringEscapeHandling {
 public:

@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneStartHandler)
 namespace GlobalNamespace {
-class PlayersSpecificSettingsAtGameStartModel;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettingsAtStartNetSerializable;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsNetSerializable;
 }
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettingsAtStartNetSerializable;
+}
+namespace GlobalNamespace {
+class PlayersSpecificSettingsAtGameStartModel;
 }
 namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+class IMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneStartHandler);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12876))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12955))
 // CS Name: ::SceneStartHandler*
 class CORDL_TYPE SceneStartHandler : public ::System::Object {
 public:
@@ -135,50 +135,50 @@ public:
 
   constexpr void __set_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_sceneSetupDidFinishEvent addr 0xdcf774 size 0xb0 virtual false final false
+  /// @brief Method add_sceneSetupDidFinishEvent, addr 0xe54748, size 0xb0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_sceneSetupDidFinishEvent addr 0xdcf824 size 0xb0 virtual false final false
+  /// @brief Method remove_sceneSetupDidFinishEvent, addr 0xe547f8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_sceneSetupDidReceiveTooLateEvent addr 0xdcf8d4 size 0xb0 virtual false final false
+  /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0xe548a8, size 0xb0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent addr 0xdcf984 size 0xb0 virtual false final false
+  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0xe54958, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
   static inline ::GlobalNamespace::SceneStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                                ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method .ctor addr 0xdcfa34 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xe54a08, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method Dispose addr 0xdcfb1c size 0x364 virtual true final true
+  /// @brief Method Dispose, addr 0xe54af0, size 0x364, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetSceneLoadStatus addr 0xdcfe80 size 0x6e4 virtual false final false
+  /// @brief Method GetSceneLoadStatus, addr 0xe54e54, size 0x6e4, virtual false, abstract: false, final false
   inline void GetSceneLoadStatus();
 
-  /// @brief Method ForceStart addr 0xdd08d8 size 0x6f0 virtual false final false
+  /// @brief Method ForceStart, addr 0xe558ac, size 0x6f0, virtual false, abstract: false, final false
   inline void ForceStart();
 
-  /// @brief Method HandleSetGameplaySceneReady addr 0xdd0fc8 size 0x3c8 virtual false final false
+  /// @brief Method HandleSetGameplaySceneReady, addr 0xe55f9c, size 0x3c8, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneReady(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
 
-  /// @brief Method HandleGetGameplaySceneReady addr 0xdd1390 size 0xb4 virtual false final false
+  /// @brief Method HandleGetGameplaySceneReady, addr 0xe56364, size 0xb4, virtual false, abstract: false, final false
   inline void HandleGetGameplaySceneReady(::StringW userId);
 
-  /// @brief Method HandleSetGameplaySceneSyncFinished addr 0xdd1444 size 0x68 virtual false final false
+  /// @brief Method HandleSetGameplaySceneSyncFinished, addr 0xe56418, size 0x68, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneSyncFinished(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
-  /// @brief Method HandleSetPlayerDidConnectLate addr 0xdd14ac size 0x2a0 virtual false final false
+  /// @brief Method HandleSetPlayerDidConnectLate, addr 0xe56480, size 0x2a0, virtual false, abstract: false, final false
   inline void HandleSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
-  /// @brief Method AddPlayerSpecificSettingsToDictionary addr 0xdd0564 size 0x6c virtual false final false
+  /// @brief Method AddPlayerSpecificSettingsToDictionary, addr 0xe55538, size 0x6c, virtual false, abstract: false, final false
   inline void AddPlayerSpecificSettingsToDictionary(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
 
-  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData addr 0xdd05d0 size 0x308 virtual false final false
+  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData, addr 0xe555a4, size 0x308, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneStartHandler", modifiers: "&&", def_value: None }]

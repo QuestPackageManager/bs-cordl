@@ -13,19 +13,19 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 struct BinaryHeaderEnum;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
+struct BinaryTypeEnum;
+}
+namespace System::Runtime::Serialization::Formatters::Binary {
 class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryTypeEnum;
+struct BinaryArrayTypeEnum;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-struct BinaryArrayTypeEnum;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArray
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3242)), TypeDefinitionIndex(TypeDefinitionIndex(3244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3269)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3243)), TypeDefinitionIndex(TypeDefinitionIndex(3244)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3270)) CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArray*
 class CORDL_TYPE BinaryArray : public ::System::Object {
 public:
   // Declarations
@@ -125,23 +125,23 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor();
 
-  /// @brief Method .ctor addr 0x236a1a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c2c9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method .ctor addr 0x236a1b0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24c2ca4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Set addr 0x236a1d8 size 0x54 virtual false final false
+  /// @brief Method Set, addr 0x24c2ccc, size 0x54, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t rank, ::ArrayW<int32_t, ::Array<int32_t>*> lengthA, ::ArrayW<int32_t, ::Array<int32_t>*> lowerBoundA,
                   ::System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::System::Object* typeInformation,
                   ::System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int32_t assemId);
 
-  /// @brief Method Write addr 0x236a22c size 0x2d8 virtual true final true
+  /// @brief Method Write, addr 0x24c2d20, size 0x2d8, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x236a504 size 0x300 virtual true final true
+  /// @brief Method Read, addr 0x24c2ff8, size 0x300, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryArray", modifiers: "&&", def_value: None }]

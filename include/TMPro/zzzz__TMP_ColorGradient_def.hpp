@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::TMPro::TMP_ColorGradient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10137)), TypeDefinitionIndex(TypeDefinitionIndex(12261))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12333)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12334))
 // CS Name: ::TMPro::TMP_ColorGradient*
 class CORDL_TYPE TMP_ColorGradient : public ::UnityEngine::ScriptableObject {
 public:
@@ -79,17 +79,17 @@ public:
 
   static inline ::TMPro::TMP_ColorGradient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a7d164 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x2c01eb8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::TMP_ColorGradient* New_ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor addr 0x2a7d200 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x2c01f54, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
   static inline ::TMPro::TMP_ColorGradient* New_ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
-  /// @brief Method .ctor addr 0x2a7d26c size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x2c01fc0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ColorGradient", modifiers: "&&", def_value: None }]

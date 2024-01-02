@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SecureRandomProvider__SecureRandomState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12956))
 // CS Name: ::SecureRandomProvider::SecureRandomState*
 class CORDL_TYPE __SecureRandomProvider__SecureRandomState : public ::System::Object {
 public:
@@ -68,18 +68,18 @@ public:
 
   constexpr void __set__index(int32_t value);
 
-  /// @brief Method GetBytes addr 0xdd17f4 size 0xb8 virtual false final false
+  /// @brief Method GetBytes, addr 0xe567c8, size 0xb8, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method GetByte addr 0xdd190c size 0xa8 virtual false final false
+  /// @brief Method GetByte, addr 0xe568e0, size 0xa8, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method FillBuffer addr 0xdd1bc0 size 0x114 virtual false final false
+  /// @brief Method FillBuffer, addr 0xe56b94, size 0x114, virtual false, abstract: false, final false
   inline void FillBuffer();
 
   static inline ::GlobalNamespace::__SecureRandomProvider__SecureRandomState* New_ctor();
 
-  /// @brief Method .ctor addr 0xdd1b1c size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xe56af0, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SecureRandomProvider__SecureRandomState", modifiers: "&&", def_value: None }]
@@ -129,8 +129,8 @@ static_assert(offsetof(::GlobalNamespace::__SecureRandomProvider__SecureRandomSt
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12957))
 // CS Name: ::SecureRandomProvider*
 class CORDL_TYPE SecureRandomProvider : public ::System::Object {
 public:
@@ -144,16 +144,16 @@ public:
 
   static inline ::GlobalNamespace::__SecureRandomProvider__SecureRandomState* getStaticF__secureRandomState();
 
-  /// @brief Method GetBytes addr 0xdd174c size 0xa8 virtual false final false
+  /// @brief Method GetBytes, addr 0xe56720, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t length);
 
-  /// @brief Method GetByte addr 0xdd18ac size 0x60 virtual false final false
+  /// @brief Method GetByte, addr 0xe56880, size 0x60, virtual false, abstract: false, final false
   static inline uint8_t GetByte();
 
-  /// @brief Method GetBytes addr 0xdd19b4 size 0x80 virtual false final false
+  /// @brief Method GetBytes, addr 0xe56988, size 0x80, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method GetBytes addr 0xdd1a34 size 0x74 virtual false final false
+  /// @brief Method GetBytes, addr 0xe56a08, size 0x74, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureRandomProvider", modifiers: "&&", def_value: None }]

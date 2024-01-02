@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::ParserTimeZone);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11773))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11845))
 // CS Name: ::Newtonsoft.Json.Utilities::ParserTimeZone
 struct CORDL_TYPE ParserTimeZone {
 public:

@@ -9,47 +9,47 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_BaseSync)
-namespace HoudiniEngineUnity {
-class HEU_ThreadedTaskLoadGeo;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferMesh;
-}
-namespace HoudiniEngineUnity {
-class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_GeneratedOutput;
-}
-namespace HoudiniEngineUnity {
-class HEU_SessionBase;
-}
-namespace HoudiniEngineUnity {
-class HEU_LoadBufferInstancer;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace UnityEngine {
-class GameObject;
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class HEU_LoadBufferVolume;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+class HEU_SessionBase;
 }
 namespace System::Text {
 class StringBuilder;
 }
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferBase;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferMesh;
+}
 namespace UnityEngine {
 class Transform;
+}
+namespace HoudiniEngineUnity {
+class HEU_GeneratedOutput;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_ThreadedTaskLoadGeo;
+}
+namespace HoudiniEngineUnity {
+class HEU_LoadBufferInstancer;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_Transform;
+}
+namespace HoudiniEngineUnity {
+class __HEU_ThreadedTaskLoadGeo__HEU_LoadData;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BaseSync);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9721)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9720))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9794))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9793))
 // CS Name: ::HoudiniEngineUnity::HEU_BaseSync*
 class CORDL_TYPE HEU_BaseSync : public ::UnityEngine::MonoBehaviour {
 public:
@@ -211,123 +211,123 @@ public:
 
   constexpr void __set__firstSyncComplete(bool value);
 
-  /// @brief Method Awake addr 0x204f044 size 0x4 virtual false final false
+  /// @brief Method Awake, addr 0x21a59e0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x204f048 size 0xc virtual false final false
+  /// @brief Method OnDestroy, addr 0x21a59e4, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method DeleteSessionData addr 0x204f054 size 0x78 virtual true final false
+  /// @brief Method DeleteSessionData, addr 0x21a59f0, size 0x78, virtual true, abstract: false, final false
   inline void DeleteSessionData();
 
-  /// @brief Method DestroyGeneratedData addr 0x204f128 size 0x4 virtual true final false
+  /// @brief Method DestroyGeneratedData, addr 0x21a5ac4, size 0x4, virtual true, abstract: false, final false
   inline void DestroyGeneratedData();
 
-  /// @brief Method Initialize addr 0x204f368 size 0x1c virtual true final false
+  /// @brief Method Initialize, addr 0x21a5d04, size 0x1c, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method GetHoudiniSession addr 0x204f384 size 0x15c virtual true final false
+  /// @brief Method GetHoudiniSession, addr 0x21a5d20, size 0x15c, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetHoudiniSession(bool bCreateIfNotFound);
 
-  /// @brief Method GetParentNodeID addr 0x204f0cc size 0x5c virtual false final false
+  /// @brief Method GetParentNodeID, addr 0x21a5a68, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetParentNodeID(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method Log addr 0x204f4e0 size 0xd8 virtual false final false
+  /// @brief Method Log, addr 0x21a5e7c, size 0xd8, virtual false, abstract: false, final false
   inline void Log(::StringW msg);
 
-  /// @brief Method ClearLog addr 0x204f5b8 size 0x104 virtual false final false
+  /// @brief Method ClearLog, addr 0x21a5f54, size 0x104, virtual false, abstract: false, final false
   inline void ClearLog();
 
-  /// @brief Method Error addr 0x204f6bc size 0x1c virtual false final false
+  /// @brief Method Error, addr 0x21a6058, size 0x1c, virtual false, abstract: false, final false
   inline void Error(::StringW error);
 
-  /// @brief Method IsLoaded addr 0x204f6d8 size 0x24 virtual false final false
+  /// @brief Method IsLoaded, addr 0x21a6074, size 0x24, virtual false, abstract: false, final false
   inline bool IsLoaded();
 
-  /// @brief Method StartSync addr 0x204f6fc size 0x128 virtual true final false
+  /// @brief Method StartSync, addr 0x21a6098, size 0x128, virtual true, abstract: false, final false
   inline void StartSync();
 
-  /// @brief Method SetupLoadTask addr 0x204f824 size 0x4 virtual true final false
+  /// @brief Method SetupLoadTask, addr 0x21a61c0, size 0x4, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method StopSync addr 0x204f828 size 0x74 virtual true final false
+  /// @brief Method StopSync, addr 0x21a61c4, size 0x74, virtual true, abstract: false, final false
   inline void StopSync();
 
-  /// @brief Method Resync addr 0x204f89c size 0x3c virtual true final false
+  /// @brief Method Resync, addr 0x21a6238, size 0x3c, virtual true, abstract: false, final false
   inline void Resync();
 
-  /// @brief Method Bake addr 0x204f8d8 size 0x3a4 virtual true final false
+  /// @brief Method Bake, addr 0x21a6274, size 0x3a4, virtual true, abstract: false, final false
   inline void Bake();
 
-  /// @brief Method Unload addr 0x204fc7c size 0x94 virtual true final false
+  /// @brief Method Unload, addr 0x21a6618, size 0x94, virtual true, abstract: false, final false
   inline void Unload();
 
-  /// @brief Method Reset addr 0x204fd10 size 0xc0 virtual true final false
+  /// @brief Method Reset, addr 0x21a66ac, size 0xc0, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method OnLoadComplete addr 0x204eca8 size 0x84 virtual true final false
+  /// @brief Method OnLoadComplete, addr 0x21a5644, size 0x84, virtual true, abstract: false, final false
   inline void OnLoadComplete(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method GenerateObjects addr 0x204fdd0 size 0x8c virtual true final false
+  /// @brief Method GenerateObjects, addr 0x21a676c, size 0x8c, virtual true, abstract: false, final false
   inline void GenerateObjects(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method GenerateGeometry addr 0x204fe5c size 0x108 virtual true final false
+  /// @brief Method GenerateGeometry, addr 0x21a67f8, size 0x108, virtual true, abstract: false, final false
   inline void GenerateGeometry(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData, int32_t objIndex);
 
-  /// @brief Method OnStopped addr 0x2051c64 size 0x50 virtual false final false
+  /// @brief Method OnStopped, addr 0x21a8600, size 0x50, virtual false, abstract: false, final false
   inline void OnStopped(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method GenerateTerrain addr 0x2050578 size 0x1638 virtual false final false
+  /// @brief Method GenerateTerrain, addr 0x21a6f14, size 0x1638, virtual false, abstract: false, final false
   inline void GenerateTerrain(int32_t cookNodeId, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* terrainBuffers);
 
-  /// @brief Method GenerateMesh addr 0x204ff64 size 0x614 virtual false final false
+  /// @brief Method GenerateMesh, addr 0x21a6900, size 0x614, virtual false, abstract: false, final false
   inline void GenerateMesh(int32_t cookNodeId, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* meshBuffers);
 
-  /// @brief Method GenerateAllInstancers addr 0x2051bb0 size 0xb4 virtual false final false
+  /// @brief Method GenerateAllInstancers, addr 0x21a854c, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAllInstancers(int32_t cookNodeId, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* instancerBuffers,
                                     ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method GenerateInstancer addr 0x2052060 size 0x310 virtual false final false
+  /// @brief Method GenerateInstancer, addr 0x21a89fc, size 0x310, virtual false, abstract: false, final false
   inline void GenerateInstancer(int32_t cookNodeId, ::HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap);
 
-  /// @brief Method GenerateInstancesFromNodeIDs addr 0x2052370 size 0x740 virtual false final false
+  /// @brief Method GenerateInstancesFromNodeIDs, addr 0x21a8d0c, size 0x740, virtual false, abstract: false, final false
   inline void GenerateInstancesFromNodeIDs(int32_t cookNodeId, ::HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer,
                                            ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap,
                                            ::UnityEngine::Transform* instanceRootTransform);
 
-  /// @brief Method GenerateInstancesFromAssetPaths addr 0x2052ab0 size 0x950 virtual false final false
+  /// @brief Method GenerateInstancesFromAssetPaths, addr 0x21a944c, size 0x950, virtual false, abstract: false, final false
   inline void GenerateInstancesFromAssetPaths(::HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, ::UnityEngine::Transform* instanceRootTransform);
 
-  /// @brief Method CreateNewInstanceFromObject addr 0x2053400 size 0x1c0 virtual false final false
+  /// @brief Method CreateNewInstanceFromObject, addr 0x21a9d9c, size 0x1c0, virtual false, abstract: false, final false
   inline void CreateNewInstanceFromObject(::UnityEngine::GameObject* assetSourceGO, int32_t instanceIndex, ::UnityEngine::Transform* parentTransform,
                                           ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes, ::StringW instanceName,
                                           ::UnityEngine::GameObject* collisionSourceGO);
 
-  /// @brief Method ApplyAttributeModifiersOnGameObjectOutput addr 0x2051dfc size 0x70 virtual false final false
+  /// @brief Method ApplyAttributeModifiersOnGameObjectOutput, addr 0x21a8798, size 0x70, virtual false, abstract: false, final false
   inline void ApplyAttributeModifiersOnGameObjectOutput(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, int32_t partId, ByRef<::UnityEngine::GameObject*> go);
 
-  /// @brief Method DestroyOutputs addr 0x204f12c size 0x23c virtual false final false
+  /// @brief Method DestroyOutputs, addr 0x21a5ac8, size 0x23c, virtual false, abstract: false, final false
   inline void DestroyOutputs();
 
-  /// @brief Method SetOutputVisiblity addr 0x2051e6c size 0x1f4 virtual false final false
+  /// @brief Method SetOutputVisiblity, addr 0x21a8808, size 0x1f4, virtual false, abstract: false, final false
   inline void SetOutputVisiblity(::HoudiniEngineUnity::HEU_LoadBufferBase* buffer);
 
-  /// @brief Method GetOutputCacheDirectory addr 0x2051cb4 size 0x64 virtual false final false
+  /// @brief Method GetOutputCacheDirectory, addr 0x21a8650, size 0x64, virtual false, abstract: false, final false
   inline ::StringW GetOutputCacheDirectory();
 
-  /// @brief Method SetOutputCacheDirectory addr 0x20535c0 size 0x8 virtual false final false
+  /// @brief Method SetOutputCacheDirectory, addr 0x21a9f5c, size 0x8, virtual false, abstract: false, final false
   inline void SetOutputCacheDirectory(::StringW directory);
 
-  /// @brief Method AddGeneratedOutputFilePath addr 0x2051d18 size 0xe4 virtual false final false
+  /// @brief Method AddGeneratedOutputFilePath, addr 0x21a86b4, size 0xe4, virtual false, abstract: false, final false
   inline void AddGeneratedOutputFilePath(::StringW path);
 
-  /// @brief Method SyncUpdate addr 0x20535c8 size 0x4 virtual true final false
+  /// @brief Method SyncUpdate, addr 0x21a9f64, size 0x4, virtual true, abstract: false, final false
   inline void SyncUpdate();
 
   static inline ::HoudiniEngineUnity::HEU_BaseSync* New_ctor();
 
-  /// @brief Method .ctor addr 0x204ed68 size 0x170 virtual false final false
+  /// @brief Method .ctor, addr 0x21a5704, size 0x170, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BaseSync", modifiers: "&&", def_value: None }]

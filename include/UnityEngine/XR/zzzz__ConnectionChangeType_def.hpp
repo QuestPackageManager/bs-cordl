@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::ConnectionChangeType);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15573))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15616))
 // CS Name: ::UnityEngine.XR::ConnectionChangeType
 struct CORDL_TYPE ConnectionChangeType {
 public:

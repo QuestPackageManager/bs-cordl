@@ -7,6 +7,15 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerGameplayAnimator)
+namespace GlobalNamespace {
+class ColorSO;
+}
+namespace GlobalNamespace {
+class MultiplayerLeadPlayerProvider;
+}
+namespace GlobalNamespace {
+class MultiplayerController;
+}
 namespace Tweening {
 class TimeTweeningManager;
 }
@@ -14,19 +23,10 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace GlobalNamespace {
 class LightsAnimator;
 }
 namespace GlobalNamespace {
-class ColorSO;
-}
-namespace GlobalNamespace {
-class MultiplayerController;
-}
-namespace GlobalNamespace {
-class MultiplayerLeadPlayerProvider;
+struct __MultiplayerController__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerGameplayAnimator);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5311))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5207))
 // CS Name: ::MultiplayerGameplayAnimator*
 class CORDL_TYPE MultiplayerGameplayAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -135,24 +135,24 @@ public:
 
   constexpr void __set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method Start addr 0x210b390 size 0x94 virtual true final false
+  /// @brief Method Start, addr 0x224c8c4, size 0x94, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20fa0d4 size 0x18c virtual true final false
+  /// @brief Method OnDestroy, addr 0x224c958, size 0x18c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method AnimateNewLeaderSelected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleStateChanged addr 0x20fa4d4 size 0x164 virtual true final false
+  /// @brief Method HandleStateChanged, addr 0x224cb94, size 0x164, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HandleNewLeaderWasSelected addr 0x210b584 size 0xe8 virtual false final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x224cda8, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fa820 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x224ce90, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerGameplayAnimator", modifiers: "&&", def_value: None }]

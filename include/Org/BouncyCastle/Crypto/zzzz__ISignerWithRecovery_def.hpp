@@ -27,13 +27,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method HasFullMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HasFullMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasFullMessage();
 
-  /// @brief Method GetRecoveredMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetRecoveredMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRecoveredMessage();
 
-  /// @brief Method UpdateWithRecoveredMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateWithRecoveredMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateWithRecoveredMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISignerWithRecovery", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::NetLogLevel);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14495))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14157))
 // CS Name: ::LiteNetLib::NetLogLevel
 struct CORDL_TYPE NetLogLevel {
 public:

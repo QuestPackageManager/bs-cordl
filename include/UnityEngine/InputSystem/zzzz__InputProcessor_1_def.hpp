@@ -23,24 +23,24 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6321))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6235))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6236))
 // CS Name: ::UnityEngine.InputSystem::InputProcessor`1<TValue>*
 class CORDL_TYPE InputProcessor_1 : public ::UnityEngine::InputSystem::InputProcessor {
 public:
   // Declarations
-  /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Process(TValue value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ProcessAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method Process addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
 
   static inline ::UnityEngine::InputSystem::InputProcessor_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputProcessor_1", modifiers: "&&", def_value: None }]

@@ -13,23 +13,23 @@ CORDL_MODULE_EXPORT(FileSystemEnumerator_1)
 namespace System::IO {
 class EnumerationOptions;
 }
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections::Generic {
 template <typename T> class Queue_1;
@@ -49,8 +49,8 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2214))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3643))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2214))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
@@ -178,73 +178,76 @@ public:
 
   static inline ::System::IO::Enumeration::FileSystemEnumerator_1<TResult>* New_ctor(::StringW directory, ::System::IO::EnumerationOptions* options);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::StringW directory, ::System::IO::EnumerationOptions* options);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
+  inline void _ctor(::StringW directory, ::System::IO::EnumerationOptions* options = nullptr);
 
-  /// @brief Method InternalContinueOnError addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline bool InternalContinueOnError(::GlobalNamespace::__Interop__ErrorInfo info, bool ignoreNotFound);
+  /// @brief Method InternalContinueOnError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param ignoreNotFound: bool (default: false)
+  inline bool InternalContinueOnError(::GlobalNamespace::__Interop__ErrorInfo info, bool ignoreNotFound = false);
 
-  /// @brief Method IsDirectoryNotFound addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsDirectoryNotFound, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsDirectoryNotFound(::GlobalNamespace::__Interop__ErrorInfo info);
 
-  /// @brief Method IsAccessError addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsAccessError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsAccessError(::GlobalNamespace::__Interop__ErrorInfo info);
 
-  /// @brief Method CreateDirectoryHandle addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void* CreateDirectoryHandle(::StringW path, bool ignoreNotFound);
+  /// @brief Method CreateDirectoryHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param ignoreNotFound: bool (default: false)
+  inline void* CreateDirectoryHandle(::StringW path, bool ignoreNotFound = false);
 
-  /// @brief Method CloseDirectoryHandle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CloseDirectoryHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CloseDirectoryHandle();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method FindNextEntry addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FindNextEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FindNextEntry();
 
-  /// @brief Method FindNextEntry addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FindNextEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FindNextEntry(::cordl_internals::Ptr<uint8_t> entryBufferPtr, int32_t bufferLength);
 
-  /// @brief Method DequeueNextDirectory addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DequeueNextDirectory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool DequeueNextDirectory();
 
-  /// @brief Method InternalDispose addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalDispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InternalDispose(bool disposing);
 
-  /// @brief Method ShouldIncludeEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldIncludeEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method ShouldRecurseIntoEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldRecurseIntoEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method TransformEntry addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TransformEntry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TResult TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry);
 
-  /// @brief Method OnDirectoryFinished addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDirectoryFinished, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDirectoryFinished(::System::ReadOnlySpan_1<char16_t> directory);
 
-  /// @brief Method ContinueOnError addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ContinueOnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ContinueOnError(int32_t error);
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TResult get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method DirectoryFinished addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DirectoryFinished, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void DirectoryFinished();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSystemEnumerator_1", modifiers: "&&", def_value: None }]

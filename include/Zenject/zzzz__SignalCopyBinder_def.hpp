@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignalCopyBinder)
 namespace Zenject {
-struct BindingInheritanceMethods;
+class BindInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Zenject {
-class BindInfo;
+struct BindingInheritanceMethods;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Zenject::SignalCopyBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10583))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10655))
 // CS Name: ::Zenject::SignalCopyBinder*
 class CORDL_TYPE SignalCopyBinder : public ::System::Object {
 public:
@@ -40,30 +40,30 @@ public:
 
   static inline ::Zenject::SignalCopyBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d5a748 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec24c8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::SignalCopyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2d5a7c8 size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec2548, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method AddCopyBindInfo addr 0x2d5a8c0 size 0xa8 virtual false final false
+  /// @brief Method AddCopyBindInfo, addr 0x2ec2640, size 0xa8, virtual false, abstract: false, final false
   inline void AddCopyBindInfo(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method CopyIntoAllSubContainers addr 0x2d5a968 size 0x8 virtual false final false
+  /// @brief Method CopyIntoAllSubContainers, addr 0x2ec26e8, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoAllSubContainers();
 
-  /// @brief Method CopyIntoDirectSubContainers addr 0x2d5aa04 size 0x8 virtual false final false
+  /// @brief Method CopyIntoDirectSubContainers, addr 0x2ec2784, size 0x8, virtual false, abstract: false, final false
   inline void CopyIntoDirectSubContainers();
 
-  /// @brief Method MoveIntoAllSubContainers addr 0x2d5aa0c size 0x8 virtual false final false
+  /// @brief Method MoveIntoAllSubContainers, addr 0x2ec278c, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoAllSubContainers();
 
-  /// @brief Method MoveIntoDirectSubContainers addr 0x2d5aa14 size 0x8 virtual false final false
+  /// @brief Method MoveIntoDirectSubContainers, addr 0x2ec2794, size 0x8, virtual false, abstract: false, final false
   inline void MoveIntoDirectSubContainers();
 
-  /// @brief Method SetInheritanceMethod addr 0x2d5a970 size 0x94 virtual false final false
+  /// @brief Method SetInheritanceMethod, addr 0x2ec26f0, size 0x94, virtual false, abstract: false, final false
   inline void SetInheritanceMethod(::Zenject::BindingInheritanceMethods method);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalCopyBinder", modifiers: "&&", def_value: None }]

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRDebugInfo);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 205, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8092))
 // CS Name: ::OVRDebugInfo*
 class CORDL_TYPE OVRDebugInfo : public ::UnityEngine::MonoBehaviour {
 public:
@@ -278,60 +278,60 @@ public:
 
   constexpr void __set_showVRVars(bool value);
 
-  /// @brief Method Awake addr 0x26357e0 size 0x1e4 virtual false final false
+  /// @brief Method Awake, addr 0x27aa268, size 0x1e4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x26359c4 size 0xb8 virtual false final false
+  /// @brief Method Update, addr 0x27aa44c, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x26360cc size 0x8 virtual false final false
+  /// @brief Method OnDestroy, addr 0x27aab54, size 0x8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method InitUIComponents addr 0x2635a7c size 0x3b4 virtual false final false
+  /// @brief Method InitUIComponents, addr 0x27aa504, size 0x3b4, virtual false, abstract: false, final false
   inline void InitUIComponents();
 
-  /// @brief Method UpdateVariable addr 0x2635e64 size 0x38 virtual false final false
+  /// @brief Method UpdateVariable, addr 0x27aa8ec, size 0x38, virtual false, abstract: false, final false
   inline void UpdateVariable();
 
-  /// @brief Method UpdateStrings addr 0x2635e9c size 0x230 virtual false final false
+  /// @brief Method UpdateStrings, addr 0x27aa924, size 0x230, virtual false, abstract: false, final false
   inline void UpdateStrings();
 
-  /// @brief Method RiftPresentGUI addr 0x263687c size 0x184 virtual false final false
+  /// @brief Method RiftPresentGUI, addr 0x27ab304, size 0x184, virtual false, abstract: false, final false
   inline void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
 
-  /// @brief Method UpdateDeviceDetection addr 0x2635e30 size 0x34 virtual false final false
+  /// @brief Method UpdateDeviceDetection, addr 0x27aa8b8, size 0x34, virtual false, abstract: false, final false
   inline void UpdateDeviceDetection();
 
-  /// @brief Method VariableObjectManager addr 0x26360d4 size 0x1ac virtual false final false
+  /// @brief Method VariableObjectManager, addr 0x27aab5c, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize);
 
-  /// @brief Method ComponentComposition addr 0x2636a00 size 0x338 virtual false final false
+  /// @brief Method ComponentComposition, addr 0x27ab488, size 0x338, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* ComponentComposition(::UnityEngine::GameObject* GO);
 
-  /// @brief Method UpdateIPD addr 0x2636280 size 0xcc virtual false final false
+  /// @brief Method UpdateIPD, addr 0x27aad08, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateIPD();
 
-  /// @brief Method UpdateEyeHeightOffset addr 0x263634c size 0xc0 virtual false final false
+  /// @brief Method UpdateEyeHeightOffset, addr 0x27aadd4, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateEyeHeightOffset();
 
-  /// @brief Method UpdateEyeDepthOffset addr 0x263640c size 0xc0 virtual false final false
+  /// @brief Method UpdateEyeDepthOffset, addr 0x27aae94, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateEyeDepthOffset();
 
-  /// @brief Method UpdateFOV addr 0x26364cc size 0x100 virtual false final false
+  /// @brief Method UpdateFOV, addr 0x27aaf54, size 0x100, virtual false, abstract: false, final false
   inline void UpdateFOV();
 
-  /// @brief Method UpdateResolutionEyeTexture addr 0x26365cc size 0x1cc virtual false final false
+  /// @brief Method UpdateResolutionEyeTexture, addr 0x27ab054, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateResolutionEyeTexture();
 
-  /// @brief Method UpdateLatencyValues addr 0x2636798 size 0x4 virtual false final false
+  /// @brief Method UpdateLatencyValues, addr 0x27ab220, size 0x4, virtual false, abstract: false, final false
   inline void UpdateLatencyValues();
 
-  /// @brief Method UpdateFPS addr 0x263679c size 0xe0 virtual false final false
+  /// @brief Method UpdateFPS, addr 0x27ab224, size 0xe0, virtual false, abstract: false, final false
   inline void UpdateFPS();
 
   static inline ::GlobalNamespace::OVRDebugInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x2636d38 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x27ab7c0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRDebugInfo", modifiers: "&&", def_value: None }]

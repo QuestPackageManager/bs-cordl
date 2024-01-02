@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRPointerEventData);
 // SizeInfo { instance_size: 384, native_size: -1, calculated_instance_size: 384, calculated_native_size: 384, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10097)), TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13173))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9507))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13168)), TypeDefinitionIndex(TypeDefinitionIndex(10169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8742))
 // CS Name: ::UnityEngine.EventSystems::OVRPointerEventData*
 class CORDL_TYPE OVRPointerEventData : public ::UnityEngine::EventSystems::PointerEventData {
 public:
@@ -46,10 +46,10 @@ public:
 
   static inline ::UnityEngine::EventSystems::OVRPointerEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method .ctor addr 0x2682f70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x27fa218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
-  /// @brief Method ToString addr 0x268505c size 0x3b4 virtual true final false
+  /// @brief Method ToString, addr 0x27fc304, size 0x13b4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPointerEventData", modifiers: "&&", def_value: None }]

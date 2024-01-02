@@ -16,16 +16,16 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemDescriptorBindings);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15961))
 // CS Name: ::UnityEngine::SubsystemDescriptorBindings*
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x2bb2de8 size 0x3c virtual false final false
+  /// @brief Method Create, addr 0x2d1a198, size 0x3c, virtual false, abstract: false, final false
   static inline void* Create(void* descriptorPtr);
 
-  /// @brief Method GetId addr 0x2bb2d98 size 0x3c virtual false final false
+  /// @brief Method GetId, addr 0x2d1a148, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetId(void* descriptorPtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemDescriptorBindings", modifiers: "&&", def_value: None }]

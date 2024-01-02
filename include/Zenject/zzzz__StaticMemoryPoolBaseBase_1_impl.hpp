@@ -1,13 +1,13 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBaseBase_1_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
-#include "System/zzzz__Type_def.hpp"
-#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
+#include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::Zenject::IDespawnableMemoryPool_1<TValue>"
 template <typename TValue> constexpr Zenject::StaticMemoryPoolBaseBase_1<TValue>::operator ::Zenject::IDespawnableMemoryPool_1<TValue>*() noexcept {
   return static_cast<::Zenject::IDespawnableMemoryPool_1<TValue>*>(static_cast<void*>(this));
@@ -148,8 +148,8 @@ template <typename TValue> inline void Zenject::StaticMemoryPoolBaseBase_1<TValu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, element);
 }
 template <typename TValue> inline TValue Zenject::StaticMemoryPoolBaseBase_1<TValue>::Alloc() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticMemoryPoolBaseBase_1<TValue>*>::get(), "Alloc",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticMemoryPoolBaseBase_1<TValue>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
 }
 // Ctor Parameters []

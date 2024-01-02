@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ShaderPropertyFlags);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10294))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10372))
 // CS Name: ::UnityEngine.Rendering::ShaderPropertyFlags
 struct CORDL_TYPE ShaderPropertyFlags {
 public:

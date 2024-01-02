@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncComputeOperation_1)
-namespace System {
-class Exception;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12607))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12679))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12680))
 // CS Name: ::AsyncComputeOperation`1<T>*
 class CORDL_TYPE AsyncComputeOperation_1 : public ::GlobalNamespace::AsyncComputeOperation {
 public:
@@ -43,33 +43,33 @@ public:
 
   constexpr void __set__tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
 
-  /// @brief Method get_task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<T>* get_task();
 
   static inline ::GlobalNamespace::AsyncComputeOperation_1<T>* New_ctor(int32_t timeoutMs);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Execute(bool disposed);
 
-  /// @brief Method IsValidRequest addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsValidRequest, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsValidRequest();
 
-  /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Complete(T computeResult);
 
-  /// @brief Method Cancel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Cancel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Cancel();
 
-  /// @brief Method Fail addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Fail, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Fail(::System::Exception* ex);
 
-  /// @brief Method Compute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Compute();
 
-  /// @brief Method Finally addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finally, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finally();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation_1", modifiers: "&&", def_value: None }]

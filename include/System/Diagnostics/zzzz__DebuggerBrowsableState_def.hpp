@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::DebuggerBrowsableState);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3734))
 // CS Name: ::System.Diagnostics::DebuggerBrowsableState
 struct CORDL_TYPE DebuggerBrowsableState {
 public:

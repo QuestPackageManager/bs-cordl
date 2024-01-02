@@ -1,20 +1,19 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserViewController_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
-#include "UnityEngine/UI/zzzz__Toggle_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__GameServersListTableView_def.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersListTableView_def.hpp"
+#include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerBrowserViewController._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerBrowserViewController::*)()>(
     &::GlobalNamespace::GameServerBrowserViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x218a8e0;
+  constexpr static std::size_t addrs = 0x22cd30c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerBrowserViewController*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -43,18 +42,6 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServersFilt
 constexpr void GlobalNamespace::GameServerBrowserViewController::__set__filterText(::GlobalNamespace::GameServersFilterText* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServerBrowserViewController::__get__canBeInvitedOnLocalNetworkToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____canBeInvitedOnLocalNetworkToggle;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServerBrowserViewController::__get__canBeInvitedOnLocalNetworkToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____canBeInvitedOnLocalNetworkToggle;
-}
-constexpr void GlobalNamespace::GameServerBrowserViewController::__set__canBeInvitedOnLocalNetworkToggle(::UnityEngine::UI::Toggle* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____canBeInvitedOnLocalNetworkToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServerBrowserViewController::__get__createServerButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ReloadDataEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10387)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10387), inst: 5122 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9523))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9528)) CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5239 }), TypeDefinitionIndex(TypeDefinitionIndex(9596)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9601)) CS Name: ::HoudiniEngineUnity::HEU_ReloadDataEvent*
 class CORDL_TYPE HEU_ReloadDataEvent : public ::UnityEngine::Events::UnityEvent_1<::HoudiniEngineUnity::HEU_ReloadEventData*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_ReloadDataEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff6a64 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x214e400, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ReloadDataEvent", modifiers: "&&", def_value: None }]

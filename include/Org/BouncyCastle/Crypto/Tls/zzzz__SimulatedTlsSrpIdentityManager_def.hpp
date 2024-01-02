@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimulatedTlsSrpIdentityManager)
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpLoginParameters;
+}
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 class Srp6VerifierGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpIdentityManager;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSrpLoginParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1279))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SimulatedTlsSrpIdentityManager*
 class CORDL_TYPE SimulatedTlsSrpIdentityManager : public ::System::Object {
@@ -81,7 +81,7 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_PREFIX_SALT();
 
-  /// @brief Method GetRfc5054Default addr 0xf209f8 size 0x17c virtual false final false
+  /// @brief Method GetRfc5054Default, addr 0xf96c34, size 0x17c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* GetRfc5054Default(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seedKey);
 
@@ -89,11 +89,11 @@ public:
                                                                                            ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                                                                                            ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method .ctor addr 0xf20b74 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xf96db0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                     ::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method GetLoginParameters addr 0xf20bb0 size 0x4bc virtual true final false
+  /// @brief Method GetLoginParameters, addr 0xf96dec, size 0x4bc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* GetLoginParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
   // Ctor Parameters [CppParam { name: "", ty: "SimulatedTlsSrpIdentityManager", modifiers: "&&", def_value: None }]

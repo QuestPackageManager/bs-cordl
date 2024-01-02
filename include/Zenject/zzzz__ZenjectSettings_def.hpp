@@ -20,16 +20,16 @@ namespace Zenject {
 struct RootResolveMethods;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
 struct SignalDefaultSyncModes;
 }
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 struct SignalMissingHandlerResponses;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::Zenject::__ZenjectSettings__SignalSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11100)), TypeDefinitionIndex(TypeDefinitionIndex(11099))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11101))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11171)), TypeDefinitionIndex(TypeDefinitionIndex(11172)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11173))
 // CS Name: ::ZenjectSettings::SignalSettings*
 class CORDL_TYPE __ZenjectSettings__SignalSettings : public ::System::Object {
 public:
@@ -105,31 +105,34 @@ public:
   static inline ::Zenject::__ZenjectSettings__SignalSettings* New_ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse,
                                                                        bool requireStrictUnsubscribe, int32_t defaultAsyncTickPriority);
 
-  /// @brief Method .ctor addr 0x2d9c8bc size 0x44 virtual false final false
-  inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse, bool requireStrictUnsubscribe,
-                    int32_t defaultAsyncTickPriority);
+  /// @brief Method .ctor, addr 0x2f0468c, size 0x44, virtual false, abstract: false, final false
+  /// @param missingHandlerDefaultResponse: ::Zenject::SignalMissingHandlerResponses (default: static_cast<int32_t>(0x2))
+  /// @param requireStrictUnsubscribe: bool (default: false)
+  /// @param defaultAsyncTickPriority: int32_t (default: static_cast<int32_t>(0x1))
+  inline void _ctor(::Zenject::SignalDefaultSyncModes defaultSyncMode, ::Zenject::SignalMissingHandlerResponses missingHandlerDefaultResponse = static_cast<int32_t>(0x2),
+                    bool requireStrictUnsubscribe = false, int32_t defaultAsyncTickPriority = static_cast<int32_t>(0x1));
 
   static inline ::Zenject::__ZenjectSettings__SignalSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d9c900 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2f046d0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DefaultAsyncTickPriority addr 0x2d9c930 size 0x8 virtual false final false
+  /// @brief Method get_DefaultAsyncTickPriority, addr 0x2f04700, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DefaultAsyncTickPriority();
 
-  /// @brief Method get_DefaultSyncMode addr 0x2d9c938 size 0x8 virtual false final false
+  /// @brief Method get_DefaultSyncMode, addr 0x2f04708, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDefaultSyncModes get_DefaultSyncMode();
 
-  /// @brief Method get_MissingHandlerDefaultResponse addr 0x2d9c940 size 0x8 virtual false final false
+  /// @brief Method get_MissingHandlerDefaultResponse, addr 0x2f04710, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalMissingHandlerResponses get_MissingHandlerDefaultResponse();
 
-  /// @brief Method get_RequireStrictUnsubscribe addr 0x2d9c948 size 0x8 virtual false final false
+  /// @brief Method get_RequireStrictUnsubscribe, addr 0x2f04718, size 0x8, virtual false, abstract: false, final false
   inline bool get_RequireStrictUnsubscribe();
 
-  /// @brief Method __zenCreate addr 0x2d9c9cc size 0x74 virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f0479c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d9ca40 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f04810, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ZenjectSettings__SignalSettings", modifiers: "&&", def_value: None }]
@@ -176,8 +179,8 @@ static_assert(offsetof(::Zenject::__ZenjectSettings__SignalSettings, ____default
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11097)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(11098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11102))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11170)), TypeDefinitionIndex(TypeDefinitionIndex(11169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11174))
 // CS Name: ::Zenject::ZenjectSettings*
 class CORDL_TYPE ZenjectSettings : public ::System::Object {
 public:
@@ -251,28 +254,33 @@ public:
                                                      bool displayWarningWhenResolvingDuringInstall, bool ensureDeterministicDestructionOrderOnApplicationQuit,
                                                      ::Zenject::__ZenjectSettings__SignalSettings* signalSettings);
 
-  /// @brief Method .ctor addr 0x2d9c768 size 0xa0 virtual false final false
-  inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod, bool displayWarningWhenResolvingDuringInstall,
-                    bool ensureDeterministicDestructionOrderOnApplicationQuit, ::Zenject::__ZenjectSettings__SignalSettings* signalSettings);
+  /// @brief Method .ctor, addr 0x2f04538, size 0xa0, virtual false, abstract: false, final false
+  /// @param validationRootResolveMethod: ::Zenject::RootResolveMethods (default: static_cast<int32_t>(0x0))
+  /// @param displayWarningWhenResolvingDuringInstall: bool (default: true)
+  /// @param ensureDeterministicDestructionOrderOnApplicationQuit: bool (default: false)
+  /// @param signalSettings: ::Zenject::__ZenjectSettings__SignalSettings* (default: nullptr)
+  inline void _ctor(::Zenject::ValidationErrorResponses validationErrorResponse, ::Zenject::RootResolveMethods validationRootResolveMethod = static_cast<int32_t>(0x0),
+                    bool displayWarningWhenResolvingDuringInstall = true, bool ensureDeterministicDestructionOrderOnApplicationQuit = false,
+                    ::Zenject::__ZenjectSettings__SignalSettings* signalSettings = nullptr);
 
   static inline ::Zenject::ZenjectSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d9c808 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x2f045d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Signals addr 0x2d9c820 size 0x8 virtual false final false
+  /// @brief Method get_Signals, addr 0x2f045f0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenjectSettings__SignalSettings* get_Signals();
 
-  /// @brief Method get_ValidationErrorResponse addr 0x2d9c828 size 0x8 virtual false final false
+  /// @brief Method get_ValidationErrorResponse, addr 0x2f045f8, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ValidationErrorResponses get_ValidationErrorResponse();
 
-  /// @brief Method get_ValidationRootResolveMethod addr 0x2d9c830 size 0x8 virtual false final false
+  /// @brief Method get_ValidationRootResolveMethod, addr 0x2f04600, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::RootResolveMethods get_ValidationRootResolveMethod();
 
-  /// @brief Method get_DisplayWarningWhenResolvingDuringInstall addr 0x2d9c838 size 0x8 virtual false final false
+  /// @brief Method get_DisplayWarningWhenResolvingDuringInstall, addr 0x2f04608, size 0x8, virtual false, abstract: false, final false
   inline bool get_DisplayWarningWhenResolvingDuringInstall();
 
-  /// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit addr 0x2d9c840 size 0x8 virtual false final false
+  /// @brief Method get_EnsureDeterministicDestructionOrderOnApplicationQuit, addr 0x2f04610, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnsureDeterministicDestructionOrderOnApplicationQuit();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectSettings", modifiers: "&&", def_value: None }]

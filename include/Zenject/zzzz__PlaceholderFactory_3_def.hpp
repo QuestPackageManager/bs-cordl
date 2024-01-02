@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_3)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TValue> class __PlaceholderFactory_3___get_ParamTypes_d__2;
+class IFactory;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TParam1, typename TParam2, typename TValue> class __PlaceholderFactory_3___get_ParamTypes_d__2;
 }
 namespace System {
 class Type;
 }
 namespace Zenject {
-class IFactory;
-}
-namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 namespace System {
-class IDisposable;
-}
-namespace System::Collections {
-class IEnumerable;
+class Object;
 }
 namespace System::Collections {
 class IEnumerator;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace Zenject {
@@ -56,8 +56,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10935))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11007))
 // CS Name: ::PlaceholderFactory`3::<get_ParamTypes>d__2<TParam1,TParam2,TValue>*
 class CORDL_TYPE __PlaceholderFactory_3___get_ParamTypes_d__2 : public ::System::Object {
 public:
@@ -110,34 +110,34 @@ public:
 
   static inline ::Zenject::__PlaceholderFactory_3___get_ParamTypes_d__2<TParam1, TParam2, TValue>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlaceholderFactory_3___get_ParamTypes_d__2", modifiers: "&&", def_value: None }]
@@ -173,8 +173,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10954)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10954), inst: 4725 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10936))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11026), inst: 4823 }), TypeDefinitionIndex(TypeDefinitionIndex(11026))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11008))
 // CS Name: ::Zenject::PlaceholderFactory`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE PlaceholderFactory_3 : public ::Zenject::PlaceholderFactoryBase_1<TValue> {
 public:
@@ -189,21 +189,21 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Create(TParam1 param1, TParam2 param2);
 
-  /// @brief Method get_ParamTypes addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ParamTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ParamTypes();
 
   static inline ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlaceholderFactory_3", modifiers: "&&", def_value: None }]

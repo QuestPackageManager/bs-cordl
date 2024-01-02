@@ -8,20 +8,20 @@ CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupLists)
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupList;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace GlobalNamespace {
-class BeatmapData;
-}
-namespace GlobalNamespace {
-class IBeatToTimeConvertor;
-}
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace GlobalNamespace {
+class BeatmapData;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class IBeatToTimeConvertor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupLists);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4333))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4307))
 // CS Name: ::BeatmapEventDataBoxGroupLists*
 class CORDL_TYPE BeatmapEventDataBoxGroupLists : public ::System::Object {
 public:
@@ -81,19 +81,19 @@ public:
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupLists* New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor,
                                                                            bool updateBeatmapDataOnInsert);
 
-  /// @brief Method .ctor addr 0x21efa94 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x23329a8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, bool updateBeatmapDataOnInsert);
 
-  /// @brief Method Insert addr 0x21edd54 size 0xfc virtual false final false
+  /// @brief Method Insert, addr 0x2333104, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(int32_t groupId, ::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
-  /// @brief Method Remove addr 0x21efb3c size 0xc0 virtual false final false
+  /// @brief Method Remove, addr 0x233a24c, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(int32_t groupId, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method ToggleUpdateBeatmapDataOnInsert addr 0x21efbfc size 0x15c virtual false final false
+  /// @brief Method ToggleUpdateBeatmapDataOnInsert, addr 0x233a30c, size 0x15c, virtual false, abstract: false, final false
   inline void ToggleUpdateBeatmapDataOnInsert(bool enableUpdateOnInsert);
 
-  /// @brief Method SyncWithBeatmapData addr 0x21efd58 size 0x158 virtual false final false
+  /// @brief Method SyncWithBeatmapData, addr 0x2333bdc, size 0x158, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupLists", modifiers: "&&", def_value: None }]

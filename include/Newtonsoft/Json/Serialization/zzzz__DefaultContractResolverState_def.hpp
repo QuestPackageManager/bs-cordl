@@ -10,11 +10,11 @@ template <typename TKey, typename TValue> class Dictionary_2;
 namespace Newtonsoft::Json::Serialization {
 struct ResolverContractKey;
 }
-namespace Newtonsoft::Json::Utilities {
-class PropertyNameTable;
-}
 namespace Newtonsoft::Json::Serialization {
 class JsonContract;
+}
+namespace Newtonsoft::Json::Utilities {
+class PropertyNameTable;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultContractResolverState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11920))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultContractResolverState*
 class CORDL_TYPE DefaultContractResolverState : public ::System::Object {
 public:
@@ -56,7 +56,7 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::DefaultContractResolverState* New_ctor();
 
-  /// @brief Method .ctor addr 0x250b674 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x266edb8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultContractResolverState", modifiers: "&&", def_value: None }]

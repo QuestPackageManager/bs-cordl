@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CertificatePair)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -54,27 +54,27 @@ public:
 
   constexpr void __set_reverse(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value);
 
-  /// @brief Method GetInstance addr 0x1015e90 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0x10870e0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1016018 size 0x450 virtual false final false
+  /// @brief Method .ctor, addr 0x1087268, size 0x450, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificatePair* New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* forward,
                                                                            ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* reverse);
 
-  /// @brief Method .ctor addr 0x1016468 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x10876b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* forward, ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* reverse);
 
-  /// @brief Method ToAsn1Object addr 0x1016494 size 0xc0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x10876e4, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_Forward addr 0x1016554 size 0x8 virtual false final false
+  /// @brief Method get_Forward, addr 0x10877a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_Forward();
 
-  /// @brief Method get_Reverse addr 0x101655c size 0x8 virtual false final false
+  /// @brief Method get_Reverse, addr 0x10877ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* get_Reverse();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificatePair", modifiers: "&&", def_value: None }]

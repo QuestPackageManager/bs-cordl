@@ -11,8 +11,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelBar)
+namespace UnityEngine {
+class GameObject;
+}
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 struct __LevelBar___Setup_d__17;
@@ -20,17 +26,11 @@ struct __LevelBar___Setup_d__17;
 namespace HMUI {
 class ImageView;
 }
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace UnityEngine {
-class GameObject;
-}
 namespace System::Threading {
 class CancellationTokenSource;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficulty;
+class IPreviewBeatmapLevel;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -39,16 +39,16 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+struct AsyncVoidMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -64,19 +64,20 @@ MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__17);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5881)) CS Name: ::LevelBar::<Setup>d__17
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(10291))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5790))
+// CS Name: ::LevelBar::<Setup>d__17
 struct CORDL_TYPE __LevelBar___Setup_d__17 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x219e858 size 0x940 virtual true final true
+  /// @brief Method MoveNext, addr 0x22e3230, size 0x940, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x219f198 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22e3b70, size 0x100c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -147,8 +148,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__17, __u__1) == 0
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5882))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5791))
 // CS Name: ::LevelBar*
 class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
 public:
@@ -283,22 +284,22 @@ public:
 
   constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method set_hide addr 0x219e748 size 0x2c virtual false final false
+  /// @brief Method set_hide, addr 0x22dfa2c, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
-  /// @brief Method Setup addr 0x219e774 size 0xc virtual false final false
+  /// @brief Method Setup, addr 0x22e3208, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
 
-  /// @brief Method Setup addr 0x219e780 size 0xbc virtual false final false
+  /// @brief Method Setup, addr 0x22cff58, size 0xbc, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                     ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method OnDestroy addr 0x219e83c size 0x14 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22e3214, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method .ctor addr 0x219e850 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22e3228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelBar", modifiers: "&&", def_value: None }]

@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IDictionaryService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9500))
 // CS Name: ::System.ComponentModel.Design::IDictionaryService*
 class CORDL_TYPE IDictionaryService {
 public:
   // Declarations
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* key);
 
-  /// @brief Method SetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* key, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDictionaryService", modifiers: "&&", def_value: None }]

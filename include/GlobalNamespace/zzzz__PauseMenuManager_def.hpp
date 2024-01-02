@@ -9,34 +9,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PauseMenuManager)
 namespace GlobalNamespace {
-class LevelBar;
+class PauseAnimationController;
 }
-namespace System {
-class Action;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class PauseAnimationController;
+class __PauseMenuManager__InitData;
 }
 namespace UnityEngine::UI {
 class Button;
 }
-namespace HMUI {
-class ButtonBinder;
-}
 namespace GlobalNamespace {
-class __PauseMenuManager__InitData;
-}
-namespace TMPro {
-class TextMeshProUGUI;
+class LevelBar;
 }
 namespace GlobalNamespace {
 class EnvironmentSpawnRotation;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace System {
+class Action;
+}
+namespace HMUI {
+class ButtonBinder;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
@@ -61,8 +61,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__PauseMenuManager__InitData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5066))
 // CS Name: ::PauseMenuManager::InitData*
 class CORDL_TYPE __PauseMenuManager__InitData : public ::System::Object {
 public:
@@ -125,7 +125,7 @@ public:
                                                                           ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                           bool showRestartButton, bool showLevelBar);
 
-  /// @brief Method .ctor addr 0x20e760c size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x23c911c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW backButtonText, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool showRestartButton, bool showLevelBar);
 
@@ -183,8 +183,8 @@ static_assert(offsetof(::GlobalNamespace::__PauseMenuManager__InitData, ___showL
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5067))
 // CS Name: ::PauseMenuManager*
 class CORDL_TYPE PauseMenuManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -335,63 +335,63 @@ public:
 
   constexpr void __set__disabledInteractionRemainingTime(float_t value);
 
-  /// @brief Method add_didPressContinueButtonEvent addr 0x20e60e8 size 0x9c virtual false final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x23c85d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent addr 0x20e6904 size 0x9c virtual false final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x23c866c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressMenuButtonEvent addr 0x20e6220 size 0x9c virtual false final false
+  /// @brief Method add_didPressMenuButtonEvent, addr 0x23c8708, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressMenuButtonEvent addr 0x20e6a3c size 0x9c virtual false final false
+  /// @brief Method remove_didPressMenuButtonEvent, addr 0x23c87a4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressMenuButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didPressRestartButtonEvent addr 0x20e6184 size 0x9c virtual false final false
+  /// @brief Method add_didPressRestartButtonEvent, addr 0x23c8840, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressRestartButtonEvent addr 0x20e69a0 size 0x9c virtual false final false
+  /// @brief Method remove_didPressRestartButtonEvent, addr 0x23c88dc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRestartButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didFinishResumeAnimationEvent addr 0x20e604c size 0x9c virtual false final false
+  /// @brief Method add_didFinishResumeAnimationEvent, addr 0x23c8978, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishResumeAnimationEvent addr 0x20e6868 size 0x9c virtual false final false
+  /// @brief Method remove_didFinishResumeAnimationEvent, addr 0x23c8a14, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishResumeAnimationEvent(::System::Action* value);
 
-  /// @brief Method Awake addr 0x20e7030 size 0x1c4 virtual false final false
+  /// @brief Method Awake, addr 0x23c8ab0, size 0x1c8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x20e71f4 size 0x128 virtual false final false
+  /// @brief Method Start, addr 0x23c8c78, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20e731c size 0xe0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23c8da0, size 0xe4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x20e73fc size 0x130 virtual false final false
+  /// @brief Method Update, addr 0x23c8e84, size 0x130, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method ShowMenu addr 0x20e6bf4 size 0x58 virtual false final false
+  /// @brief Method ShowMenu, addr 0x23c9070, size 0x5c, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method StartResumeAnimation addr 0x20e6e70 size 0x28 virtual false final false
+  /// @brief Method StartResumeAnimation, addr 0x23c90cc, size 0x2c, virtual false, abstract: false, final false
   inline void StartResumeAnimation();
 
-  /// @brief Method HandleResumeFromPauseAnimationDidFinish addr 0x20e75e8 size 0x1c virtual false final false
+  /// @brief Method HandleResumeFromPauseAnimationDidFinish, addr 0x23c90f8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method MenuButtonPressed addr 0x20e75b0 size 0x38 virtual false final false
+  /// @brief Method MenuButtonPressed, addr 0x23c9038, size 0x38, virtual false, abstract: false, final false
   inline void MenuButtonPressed();
 
-  /// @brief Method RestartButtonPressed addr 0x20e7564 size 0x4c virtual false final false
+  /// @brief Method RestartButtonPressed, addr 0x23c8fec, size 0x4c, virtual false, abstract: false, final false
   inline void RestartButtonPressed();
 
-  /// @brief Method ContinueButtonPressed addr 0x20e752c size 0x38 virtual false final false
+  /// @brief Method ContinueButtonPressed, addr 0x23c8fb4, size 0x38, virtual false, abstract: false, final false
   inline void ContinueButtonPressed();
 
   static inline ::GlobalNamespace::PauseMenuManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e7604 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23c9114, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PauseMenuManager", modifiers: "&&", def_value: None }]

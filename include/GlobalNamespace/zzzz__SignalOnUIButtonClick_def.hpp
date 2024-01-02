@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalOnUIButtonClick);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14398))
 // CS Name: ::SignalOnUIButtonClick*
 class CORDL_TYPE SignalOnUIButtonClick : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,18 +44,18 @@ public:
 
   constexpr void __set__button(::UnityEngine::UI::Button* value);
 
-  /// @brief Method OnReset addr 0x1fa1e5c size 0x50 virtual false final false
+  /// @brief Method OnReset, addr 0x20f5934, size 0x50, virtual false, abstract: false, final false
   inline void OnReset();
 
-  /// @brief Method Start addr 0x1fa1eac size 0x8c virtual false final false
+  /// @brief Method Start, addr 0x20f5984, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x1fa1f38 size 0xd0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x20f5a10, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::SignalOnUIButtonClick* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fa2008 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f5ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalOnUIButtonClick", modifiers: "&&", def_value: None }]

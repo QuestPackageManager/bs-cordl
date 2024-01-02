@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Mono::Security::Interface::ICertificateValidator);
 namespace Mono::Security::Interface {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14047))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13776))
 // CS Name: ::Mono.Security.Interface::ICertificateValidator*
 class CORDL_TYPE ICertificateValidator {
 public:

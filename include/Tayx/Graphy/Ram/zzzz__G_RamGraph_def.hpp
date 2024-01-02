@@ -10,17 +10,17 @@ CORDL_MODULE_EXPORT(G_RamGraph)
 namespace Tayx::Graphy {
 class G_GraphShader;
 }
-namespace Tayx::Graphy {
-class GraphyManager;
+namespace Tayx::Graphy::Ram {
+class G_RamMonitor;
 }
 namespace UnityEngine {
 class Shader;
 }
-namespace Tayx::Graphy::Ram {
-class G_RamMonitor;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Ram {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamGraph);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15258))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15254))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15080))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15076))
 // CS Name: ::Tayx.Graphy.Ram::G_RamGraph*
 class CORDL_TYPE G_RamGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
@@ -182,24 +182,24 @@ public:
 
   constexpr void __set_m_highestMemory(float_t value);
 
-  /// @brief Method Update addr 0x2889e70 size 0xc virtual false final false
+  /// @brief Method Update, addr 0x2a07654, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x2889e7c size 0x258 virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a07660, size 0x258, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method UpdateGraph addr 0x288a0d4 size 0x268 virtual true final false
+  /// @brief Method Init, addr 0x2a078b8, size 0x160, virtual false, abstract: false, final false
+  inline void Init();
+
+  /// @brief Method UpdateGraph, addr 0x2a07a18, size 0x268, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method CreatePoints addr 0x288a460 size 0x2ec virtual true final false
+  /// @brief Method CreatePoints, addr 0x2a07c80, size 0x2ec, virtual true, abstract: false, final false
   inline void CreatePoints();
-
-  /// @brief Method Init addr 0x288a33c size 0x124 virtual false final false
-  inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamGraph* New_ctor();
 
-  /// @brief Method .ctor addr 0x288a74c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2a07f6c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamGraph", modifiers: "&&", def_value: None }]

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AndroidAssetPackState)
 namespace UnityEngine::Android {
-struct AndroidAssetPackError;
+struct AndroidAssetPackStatus;
 }
 namespace UnityEngine::Android {
-struct AndroidAssetPackStatus;
+struct AndroidAssetPackError;
 }
 // Forward declare root types
 namespace UnityEngine::Android {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(15066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15068))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14920)), TypeDefinitionIndex(TypeDefinitionIndex(14921)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14923))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackState*
 class CORDL_TYPE AndroidAssetPackState : public ::System::Object {
 public:
@@ -58,7 +58,7 @@ public:
 
   static inline ::UnityEngine::Android::AndroidAssetPackState* New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
-  /// @brief Method .ctor addr 0x2b27ca0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2c8cbc8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidAssetPackState", modifiers: "&&", def_value: None }]

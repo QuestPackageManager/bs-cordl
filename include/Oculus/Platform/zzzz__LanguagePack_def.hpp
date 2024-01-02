@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LanguagePack)
-namespace Oculus::Platform::Models {
-class AssetFileDownloadResult;
+namespace Oculus::Platform {
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
 class AssetDetails;
 }
-namespace Oculus::Platform {
-template <typename T> class Request_1;
+namespace Oculus::Platform::Models {
+class AssetFileDownloadResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -24,16 +24,16 @@ MARK_REF_PTR_T(::Oculus::Platform::LanguagePack);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13397))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13363))
 // CS Name: ::Oculus.Platform::LanguagePack*
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent addr 0x25aa8dc size 0x15c virtual false final false
+  /// @brief Method GetCurrent, addr 0x26fe808, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent addr 0x25aaa38 size 0x164 virtual false final false
+  /// @brief Method SetCurrent, addr 0x26fe960, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
   // Ctor Parameters [CppParam { name: "", ty: "LanguagePack", modifiers: "&&", def_value: None }]

@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAP)
 namespace Oculus::Platform {
-class Request;
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
 class PurchaseList;
@@ -15,11 +15,11 @@ class PurchaseList;
 namespace Oculus::Platform::Models {
 class Purchase;
 }
+namespace Oculus::Platform {
+class Request;
+}
 namespace Oculus::Platform::Models {
 class ProductList;
-}
-namespace Oculus::Platform {
-template <typename T> class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -31,31 +31,31 @@ MARK_REF_PTR_T(::Oculus::Platform::IAP);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13396))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13362))
 // CS Name: ::Oculus.Platform::IAP*
 class CORDL_TYPE IAP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConsumePurchase addr 0x25a9de0 size 0x150 virtual false final false
+  /// @brief Method ConsumePurchase, addr 0x26fdd28, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ConsumePurchase(::StringW sku);
 
-  /// @brief Method GetProductsBySKU addr 0x25a9f30 size 0x178 virtual false final false
+  /// @brief Method GetProductsBySKU, addr 0x26fde74, size 0x174, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayW<::StringW, ::Array<::StringW>*> skus);
 
-  /// @brief Method GetViewerPurchases addr 0x25aa0a8 size 0x15c virtual false final false
+  /// @brief Method GetViewerPurchases, addr 0x26fdfe8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
 
-  /// @brief Method GetViewerPurchasesDurableCache addr 0x25aa204 size 0x15c virtual false final false
+  /// @brief Method GetViewerPurchasesDurableCache, addr 0x26fe140, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetViewerPurchasesDurableCache();
 
-  /// @brief Method LaunchCheckoutFlow addr 0x25aa360 size 0x1bc virtual false final false
+  /// @brief Method LaunchCheckoutFlow, addr 0x26fe298, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Purchase*>* LaunchCheckoutFlow(::StringW sku);
 
-  /// @brief Method GetNextProductListPage addr 0x25aa51c size 0x1e0 virtual false final false
+  /// @brief Method GetNextProductListPage, addr 0x26fe450, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ProductList*>* GetNextProductListPage(::Oculus::Platform::Models::ProductList* list);
 
-  /// @brief Method GetNextPurchaseListPage addr 0x25aa6fc size 0x1e0 virtual false final false
+  /// @brief Method GetNextPurchaseListPage, addr 0x26fe62c, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PurchaseList*>* GetNextPurchaseListPage(::Oculus::Platform::Models::PurchaseList* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAP", modifiers: "&&", def_value: None }]

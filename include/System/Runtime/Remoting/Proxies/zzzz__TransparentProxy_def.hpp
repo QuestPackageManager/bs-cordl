@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransparentProxy)
-namespace System::Runtime::Remoting::Contexts {
-class Context;
-}
-namespace System::Runtime::Remoting::Proxies {
-class RealProxy;
-}
 namespace System {
 class Object;
 }
+namespace System::Runtime::Remoting::Contexts {
+class Context;
+}
 namespace System {
 class RuntimeType;
+}
+namespace System::Runtime::Remoting::Proxies {
+class RealProxy;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Proxies {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::TransparentProxy);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2229))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3086))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2229)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3087))
 // CS Name: ::System.Runtime.Remoting.Proxies::TransparentProxy*
 class CORDL_TYPE TransparentProxy : public ::System::Object {
 public:
@@ -65,27 +65,27 @@ public:
 
   constexpr void __set__custom_type_info(bool value);
 
-  /// @brief Method GetProxyType addr 0x233da6c size 0xd0 virtual false final false
+  /// @brief Method GetProxyType, addr 0x2496560, size 0xd0, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetProxyType();
 
-  /// @brief Method get_IsContextBoundObject addr 0x233db3c size 0x1c virtual false final false
+  /// @brief Method get_IsContextBoundObject, addr 0x2496630, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsContextBoundObject();
 
-  /// @brief Method get_TargetContext addr 0x233db58 size 0x1c virtual false final false
+  /// @brief Method get_TargetContext, addr 0x249664c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
 
-  /// @brief Method InCurrentContext addr 0x233db74 size 0x40 virtual false final false
+  /// @brief Method InCurrentContext, addr 0x2496668, size 0x40, virtual false, abstract: false, final false
   inline bool InCurrentContext();
 
-  /// @brief Method LoadRemoteFieldNew addr 0x233dbb4 size 0x2d8 virtual false final false
+  /// @brief Method LoadRemoteFieldNew, addr 0x24966a8, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* LoadRemoteFieldNew(void* classPtr, void* fieldPtr);
 
-  /// @brief Method StoreRemoteField addr 0x233e898 size 0x2d8 virtual false final false
+  /// @brief Method StoreRemoteField, addr 0x249738c, size 0x2d8, virtual false, abstract: false, final false
   inline void StoreRemoteField(void* classPtr, void* fieldPtr, ::System::Object* arg);
 
   static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
 
-  /// @brief Method .ctor addr 0x233eb70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2497664, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransparentProxy", modifiers: "&&", def_value: None }]

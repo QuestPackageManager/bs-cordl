@@ -4,6 +4,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(PosePrediction)
 namespace GlobalNamespace {
 struct PoseSerializable;
@@ -21,28 +22,28 @@ MARK_REF_PTR_T(::GlobalNamespace::PosePrediction);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12976))
 // CS Name: ::PosePrediction*
 class CORDL_TYPE PosePrediction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PredictPose addr 0xdd4f68 size 0xb4 virtual false final false
-  static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, float_t prevTime, ::UnityEngine::Pose curr, float_t currTime, float_t time);
+  /// @brief Method PredictPose, addr 0xe59ff0, size 0xf0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, int64_t prevTime, ::UnityEngine::Pose curr, int64_t currTime, int64_t time);
 
-  /// @brief Method InterpolatePose addr 0xdd501c size 0x2cc virtual false final false
+  /// @brief Method InterpolatePose, addr 0xe5a0e0, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t);
 
-  /// @brief Method PredictPoseSerializable addr 0xdd52e8 size 0xe0 virtual false final false
-  static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, float_t prevTime, ::GlobalNamespace::PoseSerializable curr, float_t currTime,
-                                                                            float_t time);
+  /// @brief Method PredictPoseSerializable, addr 0xe5a3ac, size 0xe0, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime,
+                                                                            int64_t time);
 
-  /// @brief Method InterpolatePoseSerializable addr 0xdd53c8 size 0xf0 virtual false final false
+  /// @brief Method InterpolatePoseSerializable, addr 0xe5a48c, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t);
 
   static inline ::GlobalNamespace::PosePrediction* New_ctor();
 
-  /// @brief Method .ctor addr 0xdd54b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe5a57c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PosePrediction", modifiers: "&&", def_value: None }]

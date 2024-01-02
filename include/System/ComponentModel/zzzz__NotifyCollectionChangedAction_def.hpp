@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::NotifyCollectionChangedAction);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11789))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedAction
 struct CORDL_TYPE NotifyCollectionChangedAction {
 public:

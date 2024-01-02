@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseShaderInfoStorage)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 class Texture2D;
 }
@@ -15,9 +18,6 @@ struct Color;
 }
 namespace UnityEngine {
 struct RectInt;
-}
-namespace System {
-class IDisposable;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7466))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7380))
 // CS Name: ::UnityEngine.UIElements.UIR::BaseShaderInfoStorage*
 class CORDL_TYPE BaseShaderInfoStorage : public ::System::Object {
 public:
@@ -79,33 +79,33 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerUpdateTexture();
 
-  /// @brief Method get_texture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Texture2D* get_texture();
 
-  /// @brief Method AllocateRect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
 
-  /// @brief Method SetTexel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetTexel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetTexel(int32_t x, int32_t y, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateTexture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateTexture();
 
-  /// @brief Method get_disposed addr 0x2d22ee8 size 0x8 virtual false final false
+  /// @brief Method get_disposed, addr 0x2e8b298, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method set_disposed addr 0x2d22ef0 size 0xc virtual false final false
+  /// @brief Method set_disposed, addr 0x2e8b2a0, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method Dispose addr 0x2d2178c size 0x6c virtual true final true
+  /// @brief Method Dispose, addr 0x2e89b3c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2d22efc size 0x18 virtual true final false
+  /// @brief Method Dispose, addr 0x2e8b2ac, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d22f14 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e8b2c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseShaderInfoStorage", modifiers: "&&", def_value: None }]

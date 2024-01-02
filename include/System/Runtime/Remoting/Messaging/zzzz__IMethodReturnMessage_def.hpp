@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IMethodReturnMessage)
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMethodMessage;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System {
 class Exception;
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3173))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodReturnMessage*
 class CORDL_TYPE IMethodReturnMessage {
 public:
@@ -44,13 +44,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessage*() noexcept;
 
-  /// @brief Method get_Exception addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Exception, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Exception* get_Exception();
 
-  /// @brief Method get_OutArgs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_OutArgs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_OutArgs();
 
-  /// @brief Method get_ReturnValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ReturnValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_ReturnValue();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMethodReturnMessage", modifiers: "&&", def_value: None }]

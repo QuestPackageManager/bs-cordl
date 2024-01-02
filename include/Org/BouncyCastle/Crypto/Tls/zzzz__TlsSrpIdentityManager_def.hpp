@@ -24,7 +24,7 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsSrpIdentityManager {
 public:
   // Declarations
-  /// @brief Method GetLoginParameters addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetLoginParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* GetLoginParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSrpIdentityManager", modifiers: "&&", def_value: None }]

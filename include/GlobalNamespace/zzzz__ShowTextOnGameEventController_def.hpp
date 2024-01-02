@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ShowTextOnGameEventController)
 namespace GlobalNamespace {
-class TextFadeTransitions;
+class __ShowTextOnGameEventController__EventTextBinding;
 }
 namespace GlobalNamespace {
-class __ShowTextOnGameEventController__EventTextBinding;
+class TextFadeTransitions;
 }
 namespace GlobalNamespace {
 class Signal;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ShowTextOnGameEventController__EventTextBind
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5369))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5274))
 // CS Name: ::ShowTextOnGameEventController::EventTextBinding*
 class CORDL_TYPE __ShowTextOnGameEventController__EventTextBinding : public ::System::Object {
 public:
@@ -63,18 +63,18 @@ public:
 
   constexpr void __set__textFadeTransitions(::GlobalNamespace::TextFadeTransitions* value);
 
-  /// @brief Method Init addr 0x211c914 size 0x9c virtual false final false
+  /// @brief Method Init, addr 0x2260aac, size 0x9c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::TextFadeTransitions* textFadeTransitions);
 
-  /// @brief Method Deinit addr 0x211ca0c size 0x8c virtual false final false
+  /// @brief Method Deinit, addr 0x2260ba4, size 0x8c, virtual false, abstract: false, final false
   inline void Deinit();
 
-  /// @brief Method HandleGameEvent addr 0x211caa0 size 0x2c virtual false final false
+  /// @brief Method HandleGameEvent, addr 0x2260c38, size 0x2c, virtual false, abstract: false, final false
   inline void HandleGameEvent();
 
   static inline ::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding* New_ctor();
 
-  /// @brief Method .ctor addr 0x211cb40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2260cd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShowTextOnGameEventController__EventTextBinding", modifiers: "&&", def_value: None }]
@@ -116,8 +116,8 @@ static_assert(offsetof(::GlobalNamespace::__ShowTextOnGameEventController__Event
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5275))
 // CS Name: ::ShowTextOnGameEventController*
 class CORDL_TYPE ShowTextOnGameEventController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -146,15 +146,15 @@ public:
   constexpr void
   __set__eventTextBindings(::ArrayW<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*, ::Array<::GlobalNamespace::__ShowTextOnGameEventController__EventTextBinding*>*> value);
 
-  /// @brief Method Awake addr 0x211c8b0 size 0x64 virtual false final false
+  /// @brief Method Awake, addr 0x2260a48, size 0x64, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x211c9b0 size 0x5c virtual false final false
+  /// @brief Method OnDestroy, addr 0x2260b48, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::ShowTextOnGameEventController* New_ctor();
 
-  /// @brief Method .ctor addr 0x211ca98 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2260c30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShowTextOnGameEventController", modifiers: "&&", def_value: None }]

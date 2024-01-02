@@ -11,35 +11,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionSelectionMapViewController)
-namespace HMUI {
-class ScrollView;
-}
 namespace GlobalNamespace {
-struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
-}
-namespace GlobalNamespace {
-class MissionNodeVisualController;
-}
-namespace GlobalNamespace {
-class MissionNodeSelectionManager;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class MissionNode;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace GlobalNamespace {
-class MissionMapAnimationController;
-}
-namespace GlobalNamespace {
-class __MissionSelectionMapViewController____c__DisplayClass15_0;
-}
-namespace GlobalNamespace {
-class SongPreviewPlayer;
+class MissionNodeVisualController;
 }
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
+}
+namespace GlobalNamespace {
+class MissionNodeSelectionManager;
+}
+namespace GlobalNamespace {
+class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
@@ -47,8 +35,23 @@ class AudioClipAsyncLoader;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
+namespace GlobalNamespace {
+class __MissionSelectionMapViewController____c__DisplayClass15_0;
+}
+namespace HMUI {
+class ScrollView;
+}
+namespace GlobalNamespace {
+struct __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15;
+}
+namespace GlobalNamespace {
+class MissionMapAnimationController;
+}
 namespace System {
 class Action;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -58,9 +61,6 @@ struct AsyncVoidMethodBuilder;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,8 +80,8 @@ MARK_VAL_T(::GlobalNamespace::__MissionSelectionMapViewController___SongPlayerCr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5802))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5703))
 // CS Name: ::MissionSelectionMapViewController::<>c__DisplayClass15_0*
 class CORDL_TYPE __MissionSelectionMapViewController____c__DisplayClass15_0 : public ::System::Object {
 public:
@@ -106,10 +106,10 @@ public:
 
   static inline ::GlobalNamespace::__MissionSelectionMapViewController____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2188de4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22cb7e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0 addr 0x2188dec size 0x2c virtual false final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x22cb7e8, size 0x2c, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MissionSelectionMapViewController____c__DisplayClass15_0", modifiers: "&&", def_value: None }]
@@ -146,8 +146,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 280 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5803)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5704)) CS Name:
 // ::MissionSelectionMapViewController::<SongPlayerCrossfadeToLevelAsync>d__15
 struct CORDL_TYPE __MissionSelectionMapViewController___SongPlayerCrossfadeToLevelAsync_d__15 {
 public:
@@ -155,10 +155,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2188e18 size 0x49c virtual true final true
+  /// @brief Method MoveNext, addr 0x22cb814, size 0x49c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21892b4 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22cbcb0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -224,8 +224,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionMapViewController___
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5705))
 // CS Name: ::MissionSelectionMapViewController*
 class CORDL_TYPE MissionSelectionMapViewController : public ::HMUI::ViewController {
 public:
@@ -310,36 +310,36 @@ public:
 
   constexpr void __set__selectedMissionNode(::GlobalNamespace::MissionNode* value);
 
-  /// @brief Method add_didSelectMissionLevelEvent addr 0x21888a0 size 0xb0 virtual false final false
+  /// @brief Method add_didSelectMissionLevelEvent, addr 0x22cb29c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
 
-  /// @brief Method remove_didSelectMissionLevelEvent addr 0x2188950 size 0xb0 virtual false final false
+  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x22cb34c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionLevelEvent(::System::Action_2<::GlobalNamespace::MissionSelectionMapViewController*, ::GlobalNamespace::MissionNode*>* value);
 
-  /// @brief Method get_animatedUpdateIsRequired addr 0x2188a00 size 0x1c virtual false final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x22cb3fc, size 0x1c, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method DidActivate addr 0x2188a1c size 0x144 virtual true final false
+  /// @brief Method DidActivate, addr 0x22cb418, size 0x144, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2188b60 size 0x130 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22cb55c, size 0x130, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode addr 0x2188c90 size 0x6c virtual false final false
+  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x22cb68c, size 0x6c, virtual false, abstract: false, final false
   inline void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync addr 0x2188cfc size 0xa0 virtual false final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x22cb6f8, size 0xa0, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* level);
 
-  /// @brief Method ShowMissionClearedAnimation addr 0x2188d9c size 0x24 virtual false final false
+  /// @brief Method ShowMissionClearedAnimation, addr 0x22cb798, size 0x24, virtual false, abstract: false, final false
   inline void ShowMissionClearedAnimation(::System::Action* finishCallback);
 
-  /// @brief Method DeselectSelectedNode addr 0x2188dc0 size 0x1c virtual false final false
+  /// @brief Method DeselectSelectedNode, addr 0x22cb7bc, size 0x1c, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2188ddc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22cb7d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionSelectionMapViewController", modifiers: "&&", def_value: None }]

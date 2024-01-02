@@ -10,23 +10,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKMapping)
-namespace UnityEngine {
-struct Vector3;
+namespace RootMotion {
+class __Warning__Logger;
 }
 namespace RootMotion::FinalIK {
 class IKSolverFullBody;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace RootMotion::FinalIK {
+class IKSolver;
 }
 namespace RootMotion::FinalIK {
 class __IKMapping__BoneMap;
 }
-namespace RootMotion {
-class __Warning__Logger;
-}
-namespace RootMotion::FinalIK {
-class IKSolver;
+namespace UnityEngine {
+class Transform;
 }
 namespace RootMotion::FinalIK {
 class __IKSolver__Node;
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKMapping__BoneMap);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12481))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12553))
 // CS Name: ::IKMapping::BoneMap*
 class CORDL_TYPE __IKMapping__BoneMap : public ::System::Object {
 public:
@@ -258,84 +258,85 @@ public:
 
   constexpr void __set_plane3NodeIndex(int32_t value);
 
-  /// @brief Method Initiate addr 0x11eaed0 size 0x28 virtual false final false
+  /// @brief Method Initiate, addr 0x125b1fc, size 0x28, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Transform* transform, ::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method get_swingDirection addr 0x11eaef8 size 0x30 virtual false final false
+  /// @brief Method get_swingDirection, addr 0x125b224, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_swingDirection();
 
-  /// @brief Method StoreDefaultLocalState addr 0x11eaf28 size 0x44 virtual false final false
+  /// @brief Method StoreDefaultLocalState, addr 0x125b254, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransform addr 0x11eaf6c size 0x44 virtual false final false
+  /// @brief Method FixTransform, addr 0x125b298, size 0x44, virtual false, abstract: false, final false
   inline void FixTransform(bool position);
 
-  /// @brief Method get_isNodeBone addr 0x11eafb0 size 0x10 virtual false final false
+  /// @brief Method get_isNodeBone, addr 0x125b2dc, size 0x10, virtual false, abstract: false, final false
   inline bool get_isNodeBone();
 
-  /// @brief Method SetLength addr 0x11eafc0 size 0xd4 virtual false final false
+  /// @brief Method SetLength, addr 0x125b2ec, size 0xd4, virtual false, abstract: false, final false
   inline void SetLength(::RootMotion::FinalIK::__IKMapping__BoneMap* nextBone);
 
-  /// @brief Method SetLocalSwingAxis addr 0x11eb094 size 0x8 virtual false final false
+  /// @brief Method SetLocalSwingAxis, addr 0x125b3c0, size 0x8, virtual false, abstract: false, final false
   inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* swingTarget);
 
-  /// @brief Method SetLocalSwingAxis addr 0x11eb09c size 0xcc virtual false final false
+  /// @brief Method SetLocalSwingAxis, addr 0x125b3c8, size 0xcc, virtual false, abstract: false, final false
   inline void SetLocalSwingAxis(::RootMotion::FinalIK::__IKMapping__BoneMap* bone1, ::RootMotion::FinalIK::__IKMapping__BoneMap* bone2);
 
-  /// @brief Method SetLocalTwistAxis addr 0x11eb168 size 0x6c virtual false final false
+  /// @brief Method SetLocalTwistAxis, addr 0x125b494, size 0x6c, virtual false, abstract: false, final false
   inline void SetLocalTwistAxis(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection);
 
-  /// @brief Method SetPlane addr 0x11eb1d4 size 0x88 virtual false final false
+  /// @brief Method SetPlane, addr 0x125b500, size 0x88, virtual false, abstract: false, final false
   inline void SetPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, ::UnityEngine::Transform* planeBone1, ::UnityEngine::Transform* planeBone2, ::UnityEngine::Transform* planeBone3);
 
-  /// @brief Method UpdatePlane addr 0x11eb25c size 0x110 virtual false final false
+  /// @brief Method UpdatePlane, addr 0x125b588, size 0x110, virtual false, abstract: false, final false
   inline void UpdatePlane(bool rotation, bool position);
 
-  /// @brief Method SetIKPosition addr 0x11eb4d4 size 0x2c virtual false final false
+  /// @brief Method SetIKPosition, addr 0x125b800, size 0x2c, virtual false, abstract: false, final false
   inline void SetIKPosition();
 
-  /// @brief Method MaintainRotation addr 0x11eb500 size 0x2c virtual false final false
+  /// @brief Method MaintainRotation, addr 0x125b82c, size 0x2c, virtual false, abstract: false, final false
   inline void MaintainRotation();
 
-  /// @brief Method SetToIKPosition addr 0x11eb52c size 0x28 virtual false final false
+  /// @brief Method SetToIKPosition, addr 0x125b858, size 0x28, virtual false, abstract: false, final false
   inline void SetToIKPosition();
 
-  /// @brief Method FixToNode addr 0x11eb554 size 0xc0 virtual false final false
-  inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode);
+  /// @brief Method FixToNode, addr 0x125b880, size 0xc0, virtual false, abstract: false, final false
+  /// @param fixNode: ::RootMotion::FinalIK::__IKSolver__Node* (default: nullptr)
+  inline void FixToNode(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight, ::RootMotion::FinalIK::__IKSolver__Node* fixNode = nullptr);
 
-  /// @brief Method GetPlanePosition addr 0x11eb614 size 0x74 virtual false final false
+  /// @brief Method GetPlanePosition, addr 0x125b940, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPlanePosition(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method PositionToPlane addr 0x11eb798 size 0x24 virtual false final false
+  /// @brief Method PositionToPlane, addr 0x125bac4, size 0x24, virtual false, abstract: false, final false
   inline void PositionToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method RotateToPlane addr 0x11eb7bc size 0x120 virtual false final false
+  /// @brief Method RotateToPlane, addr 0x125bae8, size 0x120, virtual false, abstract: false, final false
   inline void RotateToPlane(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
 
-  /// @brief Method Swing addr 0x11eb8dc size 0x64 virtual false final false
+  /// @brief Method Swing, addr 0x125bc08, size 0x64, virtual false, abstract: false, final false
   inline void Swing(::UnityEngine::Vector3 swingTarget, float_t weight);
 
-  /// @brief Method Swing addr 0x11eb940 size 0x180 virtual false final false
+  /// @brief Method Swing, addr 0x125bc6c, size 0x180, virtual false, abstract: false, final false
   inline void Swing(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t weight);
 
-  /// @brief Method Twist addr 0x11ebac0 size 0x180 virtual false final false
+  /// @brief Method Twist, addr 0x125bdec, size 0x180, virtual false, abstract: false, final false
   inline void Twist(::UnityEngine::Vector3 twistDirection, ::UnityEngine::Vector3 normalDirection, float_t weight);
 
-  /// @brief Method RotateToMaintain addr 0x11ebc40 size 0x7c virtual false final false
+  /// @brief Method RotateToMaintain, addr 0x125bf6c, size 0x7c, virtual false, abstract: false, final false
   inline void RotateToMaintain(float_t weight);
 
-  /// @brief Method RotateToEffector addr 0x11ebcbc size 0x11c virtual false final false
+  /// @brief Method RotateToEffector, addr 0x125bfe8, size 0x11c, virtual false, abstract: false, final false
   inline void RotateToEffector(::RootMotion::FinalIK::IKSolverFullBody* solver, float_t weight);
 
-  /// @brief Method GetTargetRotation addr 0x11eb688 size 0x110 virtual false final false
+  /// @brief Method GetTargetRotation, addr 0x125b9b4, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetTargetRotation(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method get_lastAnimatedTargetRotation addr 0x11eb36c size 0x168 virtual false final false
+  /// @brief Method get_lastAnimatedTargetRotation, addr 0x125b698, size 0x168, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_lastAnimatedTargetRotation();
 
   static inline ::RootMotion::FinalIK::__IKMapping__BoneMap* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ebdd8 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x125c104, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IKMapping__BoneMap", modifiers: "&&", def_value: None }]
@@ -472,29 +473,30 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKMapping__BoneMap, ___plane3Nod
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12554))
 // CS Name: ::RootMotion.FinalIK::IKMapping*
 class CORDL_TYPE IKMapping : public ::System::Object {
 public:
   // Declarations
   using BoneMap = ::RootMotion::FinalIK::__IKMapping__BoneMap;
 
-  /// @brief Method IsValid addr 0x11eac6c size 0x8 virtual true final false
+  /// @brief Method IsValid, addr 0x125af98, size 0x8, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
-  /// @brief Method Initiate addr 0x11eac74 size 0x4 virtual true final false
+  /// @brief Method Initiate, addr 0x125afa0, size 0x4, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method BoneIsValid addr 0x11eac78 size 0x13c virtual false final false
-  inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger);
+  /// @brief Method BoneIsValid, addr 0x125afa4, size 0x13c, virtual false, abstract: false, final false
+  /// @param logger: ::RootMotion::__Warning__Logger* (default: nullptr)
+  inline bool BoneIsValid(::UnityEngine::Transform* bone, ::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message, ::RootMotion::__Warning__Logger* logger = nullptr);
 
-  /// @brief Method SolveFABRIKJoint addr 0x11eadb4 size 0x114 virtual false final false
+  /// @brief Method SolveFABRIKJoint, addr 0x125b0e0, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 SolveFABRIKJoint(::UnityEngine::Vector3 pos1, ::UnityEngine::Vector3 pos2, float_t length);
 
   static inline ::RootMotion::FinalIK::IKMapping* New_ctor();
 
-  /// @brief Method .ctor addr 0x11eaec8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x125b1f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKMapping", modifiers: "&&", def_value: None }]

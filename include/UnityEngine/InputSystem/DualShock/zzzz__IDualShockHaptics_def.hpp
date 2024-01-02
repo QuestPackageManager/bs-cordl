@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDualShockHaptics)
 namespace UnityEngine::InputSystem::Haptics {
-class IHaptics;
+class IDualMotorRumble;
 }
 namespace UnityEngine::InputSystem::Haptics {
-class IDualMotorRumble;
+class IHaptics;
 }
 namespace UnityEngine {
 struct Color;
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::DualShock::IDualShockHaptics);
 namespace UnityEngine::InputSystem::DualShock {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6511))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6425))
 // CS Name: ::UnityEngine.InputSystem.DualShock::IDualShockHaptics*
 class CORDL_TYPE IDualShockHaptics {
 public:
@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::Haptics::IHaptics"
   constexpr operator ::UnityEngine::InputSystem::Haptics::IHaptics*() noexcept;
 
-  /// @brief Method SetLightBarColor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetLightBarColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLightBarColor(::UnityEngine::Color color);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDualShockHaptics", modifiers: "&&", def_value: None }]

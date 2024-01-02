@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(DirectionalLightWithIds)
-namespace UnityEngine {
-struct Color;
-}
 namespace GlobalNamespace {
 class DirectionalLight;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14770)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14739))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
 // CS Name: ::DirectionalLightWithIds*
 class CORDL_TYPE DirectionalLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -54,12 +54,12 @@ public:
 
   constexpr void __set__defaultColor(::UnityEngine::Color value);
 
-  /// @brief Method ColorWasSet addr 0x1fb9ac0 size 0x44 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x210f0e4, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb9b04 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x210f128, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectionalLightWithIds", modifiers: "&&", def_value: None }]

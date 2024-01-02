@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::TouchFlags);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6599))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6513))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchFlags
 struct CORDL_TYPE TouchFlags {
 public:

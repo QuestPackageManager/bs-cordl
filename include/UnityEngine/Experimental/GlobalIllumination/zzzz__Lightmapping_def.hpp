@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lightmapping)
-namespace UnityEngine {
-class Light;
+namespace UnityEngine::Experimental::GlobalIllumination {
+class __Lightmapping____c;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 class __Lightmapping__RequestLightsDelegate;
 }
-namespace UnityEngine::Experimental::GlobalIllumination {
-class __Lightmapping____c;
+namespace UnityEngine {
+class Light;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LightDataGI;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -43,18 +43,18 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10321))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10399))
 // CS Name: ::Lightmapping::RequestLightsDelegate*
 class CORDL_TYPE __Lightmapping__RequestLightsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2b8b1bc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf34fc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2b8b294 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2cf35d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                      ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
@@ -82,8 +82,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Globa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10322))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10400))
 // CS Name: ::Lightmapping::<>c*
 class CORDL_TYPE __Lightmapping____c : public ::System::Object {
 public:
@@ -97,10 +97,10 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b8b30c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf364c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__7_0 addr 0x2b8b314 size 0x4c0 virtual false final false
+  /// @brief Method <.cctor>b__7_0, addr 0x2cf3654, size 0x4c0, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                              ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
@@ -128,8 +128,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Globa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10401))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::Lightmapping*
 class CORDL_TYPE Lightmapping : public ::System::Object {
 public:
@@ -154,16 +154,16 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* getStaticF_s_RequestLightsDelegate();
 
-  /// @brief Method SetDelegate addr 0x2b8aef4 size 0x78 virtual false final false
+  /// @brief Method SetDelegate, addr 0x2cf3234, size 0x78, virtual false, abstract: false, final false
   static inline void SetDelegate(::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* del);
 
-  /// @brief Method GetDelegate addr 0x2b8af6c size 0x58 virtual false final false
+  /// @brief Method GetDelegate, addr 0x2cf32ac, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::__Lightmapping__RequestLightsDelegate* GetDelegate();
 
-  /// @brief Method ResetDelegate addr 0x2b8afc4 size 0x5c virtual false final false
+  /// @brief Method ResetDelegate, addr 0x2cf3304, size 0x5c, virtual false, abstract: false, final false
   static inline void ResetDelegate();
 
-  /// @brief Method RequestLights addr 0x2b8b020 size 0xcc virtual false final false
+  /// @brief Method RequestLights, addr 0x2cf3360, size 0xcc, virtual false, abstract: false, final false
   static inline void RequestLights(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> lights, void* outLightsPtr, int32_t outLightsCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "Lightmapping", modifiers: "&&", def_value: None }]

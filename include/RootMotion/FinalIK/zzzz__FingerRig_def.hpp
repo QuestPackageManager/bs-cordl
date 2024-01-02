@@ -9,11 +9,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FingerRig)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class Finger;
+}
+namespace UnityEngine {
+class Transform;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FingerRig);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12427))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12444))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12499))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12516))
 // CS Name: ::RootMotion.FinalIK::FingerRig*
 class CORDL_TYPE FingerRig : public ::RootMotion::SolverManager {
 public:
@@ -60,48 +60,49 @@ public:
 
   constexpr void __set__initiated_k__BackingField(bool value);
 
-  /// @brief Method get_initiated addr 0x11d370c size 0x8 virtual false final false
+  /// @brief Method get_initiated, addr 0x1243a38, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
 
-  /// @brief Method set_initiated addr 0x11d3714 size 0xc virtual false final false
+  /// @brief Method set_initiated, addr 0x1243a40, size 0xc, virtual false, abstract: false, final false
   inline void set_initiated(bool value);
 
-  /// @brief Method IsValid addr 0x11d3720 size 0x74 virtual false final false
+  /// @brief Method IsValid, addr 0x1243a4c, size 0x74, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> errorMessage);
 
-  /// @brief Method AutoDetect addr 0x11d3794 size 0x224 virtual false final false
+  /// @brief Method AutoDetect, addr 0x1243ac0, size 0x224, virtual false, abstract: false, final false
   inline void AutoDetect();
 
-  /// @brief Method AddFinger addr 0x11d3aa0 size 0x16c virtual false final false
-  inline void AddFinger(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* tip, ::UnityEngine::Transform* target);
+  /// @brief Method AddFinger, addr 0x1243dcc, size 0x16c, virtual false, abstract: false, final false
+  /// @param target: ::UnityEngine::Transform* (default: nullptr)
+  inline void AddFinger(::UnityEngine::Transform* bone1, ::UnityEngine::Transform* bone2, ::UnityEngine::Transform* bone3, ::UnityEngine::Transform* tip, ::UnityEngine::Transform* target = nullptr);
 
-  /// @brief Method RemoveFinger addr 0x11d3c0c size 0x160 virtual false final false
+  /// @brief Method RemoveFinger, addr 0x1243f38, size 0x160, virtual false, abstract: false, final false
   inline void RemoveFinger(int32_t index);
 
-  /// @brief Method AddChildrenRecursive addr 0x11d39b8 size 0xe8 virtual false final false
+  /// @brief Method AddChildrenRecursive, addr 0x1243ce4, size 0xe8, virtual false, abstract: false, final false
   inline void AddChildrenRecursive(::UnityEngine::Transform* parent, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>> array);
 
-  /// @brief Method InitiateSolver addr 0x11d3d6c size 0xa8 virtual true final false
+  /// @brief Method InitiateSolver, addr 0x1244098, size 0xa8, virtual true, abstract: false, final false
   inline void InitiateSolver();
 
-  /// @brief Method UpdateFingerSolvers addr 0x11d3e14 size 0x64 virtual false final false
+  /// @brief Method UpdateFingerSolvers, addr 0x1244140, size 0x64, virtual false, abstract: false, final false
   inline void UpdateFingerSolvers();
 
-  /// @brief Method FixFingerTransforms addr 0x11d3e78 size 0x68 virtual false final false
+  /// @brief Method FixFingerTransforms, addr 0x12441a4, size 0x68, virtual false, abstract: false, final false
   inline void FixFingerTransforms();
 
-  /// @brief Method StoreDefaultLocalState addr 0x11d3ee0 size 0x5c virtual false final false
+  /// @brief Method StoreDefaultLocalState, addr 0x124420c, size 0x5c, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method UpdateSolver addr 0x11d3f3c size 0x4 virtual true final false
+  /// @brief Method UpdateSolver, addr 0x1244268, size 0x4, virtual true, abstract: false, final false
   inline void UpdateSolver();
 
-  /// @brief Method FixTransforms addr 0x11d3f40 size 0x14 virtual true final false
+  /// @brief Method FixTransforms, addr 0x124426c, size 0x14, virtual true, abstract: false, final false
   inline void FixTransforms();
 
   static inline ::RootMotion::FinalIK::FingerRig* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d3f54 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x1244280, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FingerRig", modifiers: "&&", def_value: None }]

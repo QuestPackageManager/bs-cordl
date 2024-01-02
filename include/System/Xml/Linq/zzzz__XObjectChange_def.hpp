@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Linq::XObjectChange);
 namespace System::Xml::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15433))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15449))
 // CS Name: ::System.Xml.Linq::XObjectChange
 struct CORDL_TYPE XObjectChange {
 public:

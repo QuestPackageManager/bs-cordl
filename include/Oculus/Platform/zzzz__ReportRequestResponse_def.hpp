@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ReportRequestResponse);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13379))
 // CS Name: ::Oculus.Platform::ReportRequestResponse
 struct CORDL_TYPE ReportRequestResponse {
 public:

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::Ipv6Element);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16080))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9573))
 // CS Name: ::System.Net.Configuration::Ipv6Element*
 class CORDL_TYPE Ipv6Element : public ::System::Configuration::ConfigurationElement {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline ::System::Net::Configuration::Ipv6Element* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c6dbc size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2944edc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties addr 0x27c6df4 size 0x38 virtual true final false
+  /// @brief Method get_Properties, addr 0x2944f14, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ipv6Element", modifiers: "&&", def_value: None }]

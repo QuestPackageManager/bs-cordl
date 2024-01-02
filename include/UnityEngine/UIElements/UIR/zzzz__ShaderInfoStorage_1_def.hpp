@@ -9,25 +9,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ShaderInfoStorage_1)
 namespace UnityEngine {
-struct RectInt;
-}
-namespace UnityEngine {
-class Texture2D;
+struct TextureFormat;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace UnityEngine {
-struct TextureFormat;
+namespace UnityEngine::UIElements {
+class UIRAtlasAllocator;
 }
 namespace UnityEngine {
 struct Color;
 }
-namespace UnityEngine::UIElements {
-class UIRAtlasAllocator;
+namespace UnityEngine {
+struct RectInt;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -41,8 +41,8 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 4593 }), TypeDefinitionIndex(TypeDefinitionIndex(10043)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7466)), TypeDefinitionIndex(TypeDefinitionIndex(9927))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7467)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7380)), TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 4692 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7381)) CS Name:
 // ::UnityEngine.UIElements.UIR::ShaderInfoStorage`1<T>*
 class CORDL_TYPE ShaderInfoStorage_1 : public ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage {
 public:
@@ -115,28 +115,31 @@ public:
   static inline ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<T>* New_ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize,
                                                                                  int32_t maxSize);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize, int32_t maxSize);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param initialSize: int32_t (default: static_cast<int32_t>(0x40))
+  /// @param maxSize: int32_t (default: static_cast<int32_t>(0x1000))
+  inline void _ctor(::UnityEngine::TextureFormat format, ::System::Func_2<::UnityEngine::Color, T>* convert, int32_t initialSize = static_cast<int32_t>(0x40),
+                    int32_t maxSize = static_cast<int32_t>(0x1000));
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_texture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_texture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_texture();
 
-  /// @brief Method AllocateRect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AllocateRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AllocateRect(int32_t width, int32_t height, ByRef<::UnityEngine::RectInt> uvs);
 
-  /// @brief Method SetTexel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetTexel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetTexel(int32_t x, int32_t y, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateTexture addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateTexture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateTexture();
 
-  /// @brief Method CreateOrExpandTexture addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateOrExpandTexture, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CreateOrExpandTexture();
 
-  /// @brief Method CpuBlit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CpuBlit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CpuBlit(::Unity::Collections::NativeArray_1<T> src, int32_t srcWidth, int32_t srcHeight, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstWidth, int32_t dstHeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderInfoStorage_1", modifiers: "&&", def_value: None }]

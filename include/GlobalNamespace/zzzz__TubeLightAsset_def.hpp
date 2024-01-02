@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 CORDL_MODULE_EXPORT(TubeLightAsset)
-namespace UnityEngine::Timeline {
-class ITimelineClipAsset;
-}
 namespace UnityEngine::Playables {
 struct Playable;
-}
-namespace UnityEngine::Playables {
-struct PlayableGraph;
 }
 namespace GlobalNamespace {
 class TubeLightBehaviour;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
+}
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6075))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6020))
 // CS Name: ::TubeLightAsset*
 class CORDL_TYPE TubeLightAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -52,15 +52,15 @@ public:
 
   constexpr void __set__template(::GlobalNamespace::TubeLightBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x21c4ee4 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps, addr 0x2317d08, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable addr 0x21c4eec size 0xa8 virtual true final false
+  /// @brief Method CreatePlayable, addr 0x2317d10, size 0xa8, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::TubeLightAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c4f94 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2317db8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightAsset", modifiers: "&&", def_value: None }]

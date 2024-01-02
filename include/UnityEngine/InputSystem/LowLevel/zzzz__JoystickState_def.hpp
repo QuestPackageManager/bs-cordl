@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(JoystickState)
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+struct __JoystickState__Button;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct __JoystickState__Button;
+class IInputStateTypeInfo;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::JoystickState);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6500))
 // CS Name: ::JoystickState::Button
 struct CORDL_TYPE __JoystickState__Button {
 public:
@@ -94,8 +94,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__JoystickState__Bu
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6501))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::JoystickState
 struct CORDL_TYPE JoystickState {
 public:
@@ -107,10 +107,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_kFormat addr 0x2968b08 size 0x30 virtual false final false
+  /// @brief Method get_kFormat, addr 0x2ae8850, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-  /// @brief Method get_format addr 0x2968b38 size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ae8880, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "buttons", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "stick", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]

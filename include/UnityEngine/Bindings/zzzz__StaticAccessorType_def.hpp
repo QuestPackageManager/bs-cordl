@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Bindings::StaticAccessorType);
 namespace UnityEngine::Bindings {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16027))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorType
 struct CORDL_TYPE StaticAccessorType {
 public:

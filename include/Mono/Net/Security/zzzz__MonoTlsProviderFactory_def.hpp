@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoTlsProviderFactory)
 namespace System {
-struct Guid;
+class Object;
 }
 namespace System {
 template <typename T1, typename T2> class Tuple_2;
 }
-namespace System {
-class Object;
-}
 namespace Mono::Net::Security {
 class MobileTlsProvider;
+}
+namespace System {
+struct Guid;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoTlsProviderFactory);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7679))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8842))
 // CS Name: ::Mono.Net.Security::MonoTlsProviderFactory*
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
@@ -95,28 +95,28 @@ public:
 
   static inline ::System::Guid getStaticF_BtlsId();
 
-  /// @brief Method GetProviderInternal addr 0x26a52f4 size 0x11c virtual false final false
+  /// @brief Method GetProviderInternal, addr 0x2820300, size 0x11c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProviderInternal();
 
-  /// @brief Method InitializeInternal addr 0x26a9368 size 0x3ac virtual false final false
+  /// @brief Method InitializeInternal, addr 0x2824378, size 0x3ac, virtual false, abstract: false, final false
   static inline void InitializeInternal();
 
-  /// @brief Method LookupProvider addr 0x26a9ab4 size 0x594 virtual false final false
+  /// @brief Method LookupProvider, addr 0x2824ac4, size 0x594, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* LookupProvider(::StringW name, bool throwOnError);
 
-  /// @brief Method InitializeProviderRegistration addr 0x26a9714 size 0x20c virtual false final false
+  /// @brief Method InitializeProviderRegistration, addr 0x2824724, size 0x20c, virtual false, abstract: false, final false
   static inline void InitializeProviderRegistration();
 
-  /// @brief Method PopulateUnityProviders addr 0x26aa048 size 0x13c virtual false final false
+  /// @brief Method PopulateUnityProviders, addr 0x2825058, size 0x13c, virtual false, abstract: false, final false
   static inline void PopulateUnityProviders();
 
-  /// @brief Method PopulateProviders addr 0x26aa184 size 0x50 virtual false final false
+  /// @brief Method PopulateProviders, addr 0x2825194, size 0x50, virtual false, abstract: false, final false
   static inline void PopulateProviders();
 
-  /// @brief Method CreateDefaultProviderImpl addr 0x26a9920 size 0x194 virtual false final false
+  /// @brief Method CreateDefaultProviderImpl, addr 0x2824930, size 0x194, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* CreateDefaultProviderImpl();
 
-  /// @brief Method GetProvider addr 0x26aa1d4 size 0x4c virtual false final false
+  /// @brief Method GetProvider, addr 0x28251e4, size 0x4c, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::MobileTlsProvider* GetProvider();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_VAL_T(::GlobalNamespace::OVRSpaceUser);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8840))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8006))
 // CS Name: ::OVRSpaceUser
 struct CORDL_TYPE OVRSpaceUser {
 public:
@@ -31,16 +31,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method get_Valid addr 0x2628208 size 0x28 virtual false final false
+  /// @brief Method get_Valid, addr 0x2792de0, size 0x28, virtual false, abstract: false, final false
   inline bool get_Valid();
 
-  /// @brief Method .ctor addr 0x2628230 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2792e08, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(uint64_t spaceUserId);
 
-  /// @brief Method get_Id addr 0x2624e1c size 0x7c virtual false final false
+  /// @brief Method get_Id, addr 0x2792d44, size 0x7c, virtual false, abstract: false, final false
   inline uint64_t get_Id();
 
-  /// @brief Method Dispose addr 0x2628298 size 0x64 virtual true final true
+  /// @brief Method Dispose, addr 0x2792e70, size 0x64, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_handle", ty: "uint64_t", modifiers: "", def_value: None }]

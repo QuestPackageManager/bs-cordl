@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETextureType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9350))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8581))
 // CS Name: ::OVR.OpenVR::ETextureType
 struct CORDL_TYPE ETextureType {
 public:

@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapLevelMask)
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
-namespace GlobalNamespace {
-class BitMaskSparse;
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace System {
 class Object;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace LiteNetLib::Utils {
-class INetSerializable;
+namespace GlobalNamespace {
+class BitMaskSparse;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelMask);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15136))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14988))
 // CS Name: ::BeatmapLevelMask*
 class CORDL_TYPE BeatmapLevelMask : public ::System::Object {
 public:
@@ -60,41 +60,41 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor();
 
-  /// @brief Method .ctor addr 0x122e0e8 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x12a0410, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor(::StringW level);
 
-  /// @brief Method .ctor addr 0x122e1e0 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x12a0508, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW level);
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
-  /// @brief Method .ctor addr 0x122e280 size 0x198 virtual false final false
+  /// @brief Method .ctor, addr 0x12a05a8, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
-  /// @brief Method Contains addr 0x122e418 size 0x60 virtual false final false
+  /// @brief Method Contains, addr 0x12a0740, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::StringW state);
 
-  /// @brief Method AddLevel addr 0x122e478 size 0x60 virtual false final false
+  /// @brief Method AddLevel, addr 0x12a07a0, size 0x60, virtual false, abstract: false, final false
   inline void AddLevel(::StringW state);
 
-  /// @brief Method Serialize addr 0x122e4d8 size 0x18 virtual true final true
+  /// @brief Method Serialize, addr 0x12a0800, size 0x18, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x122e684 size 0x18 virtual true final true
+  /// @brief Method Deserialize, addr 0x12a09ac, size 0x18, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ToString addr 0x122e730 size 0x84 virtual true final false
+  /// @brief Method ToString, addr 0x12a0a58, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode addr 0x122e7b4 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x12a0adc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x122e7d4 size 0x20 virtual true final true
+  /// @brief Method Equals, addr 0x12a0afc, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapLevelMask* other);
 
-  /// @brief Method Equals addr 0x122e7f4 size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x12a0b1c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelMask", modifiers: "&&", def_value: None }]

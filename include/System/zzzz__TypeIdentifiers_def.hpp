@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifiers)
 namespace System {
-class TypeIdentifier;
-}
-namespace System {
 class __TypeIdentifiers__Display;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+class TypeIdentifier;
 }
 namespace System {
 class TypeName;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace System {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::__TypeIdentifiers__Display);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2627))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2629))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2631))
 // CS Name: ::TypeIdentifiers::Display*
 class CORDL_TYPE __TypeIdentifiers__Display : public ::System::__TypeNames__ATypeName {
 public:
@@ -71,16 +71,16 @@ public:
 
   static inline ::System::__TypeIdentifiers__Display* New_ctor(::StringW displayName);
 
-  /// @brief Method .ctor addr 0x24ab950 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26068d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName addr 0x24ab958 size 0x8 virtual true final false
+  /// @brief Method get_DisplayName, addr 0x26068e0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_InternalName addr 0x24ab960 size 0x28 virtual true final true
+  /// @brief Method get_InternalName, addr 0x26068e8, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_InternalName();
 
-  /// @brief Method GetInternalName addr 0x24ab988 size 0xc virtual false final false
+  /// @brief Method GetInternalName, addr 0x2606910, size 0xc, virtual false, abstract: false, final false
   inline ::StringW GetInternalName();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TypeIdentifiers__Display", modifiers: "&&", def_value: None }]
@@ -117,15 +117,15 @@ static_assert(offsetof(::System::__TypeIdentifiers__Display, ___internal_name) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2632))
 // CS Name: ::System::TypeIdentifiers*
 class CORDL_TYPE TypeIdentifiers : public ::System::Object {
 public:
   // Declarations
   using Display = ::System::__TypeIdentifiers__Display;
 
-  /// @brief Method FromDisplay addr 0x24ab8fc size 0x54 virtual false final false
+  /// @brief Method FromDisplay, addr 0x2606884, size 0x54, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* FromDisplay(::StringW displayName);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeIdentifiers", modifiers: "&&", def_value: None }]

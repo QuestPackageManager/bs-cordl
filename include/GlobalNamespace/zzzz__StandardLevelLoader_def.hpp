@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelLoader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4683))
 // CS Name: ::StandardLevelLoader*
 class CORDL_TYPE StandardLevelLoader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadStandardLevelSaveData addr 0x2241b30 size 0x18 virtual false final false
+  /// @brief Method LoadStandardLevelSaveData, addr 0x2376238, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::StandardLevelInfoSaveData* LoadStandardLevelSaveData(::StringW levelInfoFilenamePath);
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelLoader", modifiers: "&&", def_value: None }]

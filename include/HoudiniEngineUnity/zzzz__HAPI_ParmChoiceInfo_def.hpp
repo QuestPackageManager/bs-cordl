@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmChoiceInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9662))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9735))
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmChoiceInfo
 struct CORDL_TYPE HAPI_ParmChoiceInfo {
 public:

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::TypeEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3078))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3079))
 // CS Name: ::System.Runtime.Remoting::TypeEntry*
 class CORDL_TYPE TypeEntry : public ::System::Object {
 public:
@@ -45,19 +45,19 @@ public:
 
   static inline ::System::Runtime::Remoting::TypeEntry* New_ctor();
 
-  /// @brief Method .ctor addr 0x233cb38 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x249562c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AssemblyName addr 0x233cb40 size 0x8 virtual false final false
+  /// @brief Method get_AssemblyName, addr 0x2495634, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssemblyName();
 
-  /// @brief Method set_AssemblyName addr 0x233cb48 size 0x8 virtual false final false
+  /// @brief Method set_AssemblyName, addr 0x249563c, size 0x8, virtual false, abstract: false, final false
   inline void set_AssemblyName(::StringW value);
 
-  /// @brief Method get_TypeName addr 0x233cb50 size 0x8 virtual false final false
+  /// @brief Method get_TypeName, addr 0x2495644, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method set_TypeName addr 0x233cb58 size 0x8 virtual false final false
+  /// @brief Method set_TypeName, addr 0x249564c, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeName(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeEntry", modifiers: "&&", def_value: None }]

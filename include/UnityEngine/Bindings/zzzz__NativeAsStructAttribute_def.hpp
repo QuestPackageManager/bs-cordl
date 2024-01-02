@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeAsStructAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15885))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16021))
 // CS Name: ::UnityEngine.Bindings::NativeAsStructAttribute*
 class CORDL_TYPE NativeAsStructAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::NativeAsStructAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb132c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d186dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "&&", def_value: None }]

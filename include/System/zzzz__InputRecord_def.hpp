@@ -16,7 +16,7 @@ MARK_VAL_T(::System::InputRecord);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
 // CS Name: ::System::InputRecord
 struct CORDL_TYPE InputRecord {
 public:

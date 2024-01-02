@@ -7,34 +7,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SoloFreePlayFlowCoordinator)
 namespace GlobalNamespace {
-class MenuLightsManager;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardsModel;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
-}
-namespace GlobalNamespace {
-class __SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
-}
-namespace GlobalNamespace {
-class ResultsViewController;
-}
-namespace GlobalNamespace {
-class MenuLightsPresetSO;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class PlatformLeaderboardViewController;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class PlayerLevelStatsData;
 }
 namespace GlobalNamespace {
 class LeaderboardViewController;
@@ -43,7 +16,34 @@ namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardsModel;
+}
+namespace GlobalNamespace {
+class MenuLightsManager;
+}
+namespace GlobalNamespace {
+class ResultsViewController;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+class PlayerLevelStatsData;
+}
+namespace GlobalNamespace {
+class __SoloFreePlayFlowCoordinator____c__DisplayClass21_0;
+}
+namespace GlobalNamespace {
 class RunLevelMenuDestination;
+}
+namespace GlobalNamespace {
+class PlatformLeaderboardViewController;
+}
+namespace GlobalNamespace {
+class MenuLightsPresetSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,8 +59,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayCla
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5620))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5527))
 // CS Name: ::SoloFreePlayFlowCoordinator::<>c__DisplayClass21_0*
 class CORDL_TYPE __SoloFreePlayFlowCoordinator____c__DisplayClass21_0 : public ::System::Object {
 public:
@@ -85,10 +85,10 @@ public:
 
   static inline ::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2158e8c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229e130, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0 addr 0x21591b4 size 0x50 virtual false final false
+  /// @brief Method <HandleResultsViewControllerRestartButtonPressed>b__0, addr 0x229e138, size 0x50, virtual false, abstract: false, final false
   inline void _HandleResultsViewControllerRestartButtonPressed_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SoloFreePlayFlowCoordinator____c__DisplayClass21_0", modifiers: "&&", def_value: None }]
@@ -125,8 +125,8 @@ static_assert(offsetof(::GlobalNamespace::__SoloFreePlayFlowCoordinator____c__Di
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5619))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5526))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5528))
 // CS Name: ::SoloFreePlayFlowCoordinator*
 class CORDL_TYPE SoloFreePlayFlowCoordinator : public ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator {
 public:
@@ -205,46 +205,46 @@ public:
 
   constexpr void __set__platformLeaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel* value);
 
-  /// @brief Method get_gameMode addr 0x215886c size 0x40 virtual true final false
+  /// @brief Method get_gameMode, addr 0x229cad8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_gameMode();
 
-  /// @brief Method get_leaderboardViewController addr 0x21588ac size 0x8 virtual true final false
+  /// @brief Method get_leaderboardViewController, addr 0x229cb18, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::LeaderboardViewController* get_leaderboardViewController();
 
-  /// @brief Method get_showBackButtonForMainViewController addr 0x21588b4 size 0x8 virtual true final false
+  /// @brief Method get_showBackButtonForMainViewController, addr 0x229cb20, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
 
-  /// @brief Method get_mainTitle addr 0x21588bc size 0x44 virtual true final false
+  /// @brief Method get_mainTitle, addr 0x229cb28, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_mainTitle();
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate addr 0x2158900 size 0x17c virtual true final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidActivate, addr 0x229cb6c, size 0x17c, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
 
-  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate addr 0x2158a7c size 0x134 virtual true final false
+  /// @brief Method SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate, addr 0x229cce8, size 0x134, virtual true, abstract: false, final false
   inline void SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate(bool removedFromHierarchy);
 
-  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish addr 0x2158bb0 size 0x170 virtual true final false
+  /// @brief Method ProcessLevelCompletionResultsAfterLevelDidFinish, addr 0x229ce1c, size 0x198, virtual true, abstract: false, final false
   inline void ProcessLevelCompletionResultsAfterLevelDidFinish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
                                                                ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool practice);
 
-  /// @brief Method IsNewHighScore addr 0x2158d20 size 0x28 virtual false final false
+  /// @brief Method IsNewHighScore, addr 0x229cfb4, size 0x28, virtual false, abstract: false, final false
   inline bool IsNewHighScore(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Refresh addr 0x2158d48 size 0x40 virtual true final false
+  /// @brief Method Refresh, addr 0x229cfdc, size 0x48, virtual true, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method HandleResultsViewControllerContinueButtonPressed addr 0x2158d88 size 0x3c virtual false final false
+  /// @brief Method HandleResultsViewControllerContinueButtonPressed, addr 0x229d024, size 0x3c, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerContinueButtonPressed(::GlobalNamespace::ResultsViewController* viewController);
 
-  /// @brief Method HandleResultsViewControllerRestartButtonPressed addr 0x2158dc4 size 0xc8 virtual false final false
+  /// @brief Method HandleResultsViewControllerRestartButtonPressed, addr 0x229d060, size 0xc8, virtual false, abstract: false, final false
   inline void HandleResultsViewControllerRestartButtonPressed(::GlobalNamespace::ResultsViewController* resultsViewController);
 
-  /// @brief Method __SetupFromDestination addr 0x2158e94 size 0x318 virtual false final false
+  /// @brief Method __SetupFromDestination, addr 0x228dda4, size 0x32c, virtual false, abstract: false, final false
   inline void __SetupFromDestination(::GlobalNamespace::RunLevelMenuDestination* runLevelMenuDestination);
 
   static inline ::GlobalNamespace::SoloFreePlayFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x21591ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229d128, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SoloFreePlayFlowCoordinator", modifiers: "&&", def_value: None }]

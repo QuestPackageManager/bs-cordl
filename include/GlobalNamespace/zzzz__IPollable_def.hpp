@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IPollable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12805))
 // CS Name: ::IPollable*
 class CORDL_TYPE IPollable {
 public:
   // Declarations
-  /// @brief Method PollUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PollUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PollUpdate();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPollable", modifiers: "&&", def_value: None }]

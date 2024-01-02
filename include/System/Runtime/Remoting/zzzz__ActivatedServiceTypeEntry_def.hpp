@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ActivatedServiceTypeEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3078))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3053))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3054))
 // CS Name: ::System.Runtime.Remoting::ActivatedServiceTypeEntry*
 class CORDL_TYPE ActivatedServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method .ctor addr 0x232d404 size 0x128 virtual false final false
+  /// @brief Method .ctor, addr 0x2484ef8, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName);
 
-  /// @brief Method get_ObjectType addr 0x232d52c size 0x8 virtual false final false
+  /// @brief Method get_ObjectType, addr 0x2485020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method ToString addr 0x232d534 size 0x10 virtual true final false
+  /// @brief Method ToString, addr 0x2485028, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivatedServiceTypeEntry", modifiers: "&&", def_value: None }]

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1075))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ParametersWithSBox*
 class CORDL_TYPE ParametersWithSBox : public ::System::Object {
@@ -50,13 +50,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSBox* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  /// @brief Method .ctor addr 0xec3184 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf39370, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> sBox);
 
-  /// @brief Method GetSBox addr 0xec31b0 size 0x8 virtual false final false
+  /// @brief Method GetSBox, addr 0xf3939c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSBox();
 
-  /// @brief Method get_Parameters addr 0xec31b8 size 0x8 virtual false final false
+  /// @brief Method get_Parameters, addr 0xf393a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParametersWithSBox", modifiers: "&&", def_value: None }]

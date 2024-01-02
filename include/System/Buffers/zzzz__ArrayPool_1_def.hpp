@@ -18,8 +18,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3880))
 // CS Name: ::System.Buffers::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::System::Object {
 public:
@@ -31,18 +31,19 @@ public:
 
   static inline ::System::Buffers::ArrayPool_1<T>* getStaticF__Shared_k__BackingField();
 
-  /// @brief Method get_Shared addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Shared, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Buffers::ArrayPool_1<T>* get_Shared();
 
-  /// @brief Method Rent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
 
-  /// @brief Method Return addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param clearArray: bool (default: false)
+  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray = false);
 
   static inline ::System::Buffers::ArrayPool_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "&&", def_value: None }]

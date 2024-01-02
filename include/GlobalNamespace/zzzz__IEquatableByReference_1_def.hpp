@@ -17,12 +17,12 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12712))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12785))
 // CS Name: ::IEquatableByReference`1<T>*
 class CORDL_TYPE IEquatableByReference_1 {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(ByRef<T> other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEquatableByReference_1", modifiers: "&&", def_value: None }]

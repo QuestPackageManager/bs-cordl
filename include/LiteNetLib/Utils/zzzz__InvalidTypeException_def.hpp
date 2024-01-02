@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::InvalidTypeException);
 namespace LiteNetLib::Utils {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14545))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14207))
 // CS Name: ::LiteNetLib.Utils::InvalidTypeException*
 class CORDL_TYPE InvalidTypeException : public ::System::ArgumentException {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::InvalidTypeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x20aad8c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x220bcc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidTypeException", modifiers: "&&", def_value: None }]

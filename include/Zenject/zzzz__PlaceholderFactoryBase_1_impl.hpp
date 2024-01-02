@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
-#include "Zenject/zzzz__InjectContext_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
 /// @brief Convert operator to "::Zenject::IPlaceholderFactory"
 template <typename TValue> constexpr Zenject::PlaceholderFactoryBase_1<TValue>::operator ::Zenject::IPlaceholderFactory*() noexcept {
@@ -57,13 +57,13 @@ template <typename TValue> inline TValue Zenject::PlaceholderFactoryBase_1<TValu
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, extraArgs);
 }
 template <typename TValue> inline void Zenject::PlaceholderFactoryBase_1<TValue>::Validate() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(), "Validate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValue> inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::PlaceholderFactoryBase_1<TValue>::get_ParamTypes() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(),
-                                                                             "get_ParamTypes", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBase_1<TValue>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal_method);
 }
 template <typename TValue> inline ::Zenject::PlaceholderFactoryBase_1<TValue>* Zenject::PlaceholderFactoryBase_1<TValue>::New_ctor() {

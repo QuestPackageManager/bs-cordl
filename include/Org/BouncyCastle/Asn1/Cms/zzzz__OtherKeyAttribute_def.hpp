@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherKeyAttribute)
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_keyAttr(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xe038e8 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe78abc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe06584 size 0xe0 virtual false final false
+  /// @brief Method .ctor, addr 0xe7b758, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
-  /// @brief Method .ctor addr 0xe06664 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe7b838, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId, ::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr);
 
-  /// @brief Method get_KeyAttrId addr 0xe06690 size 0x8 virtual false final false
+  /// @brief Method get_KeyAttrId, addr 0xe7b864, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_KeyAttrId();
 
-  /// @brief Method get_KeyAttr addr 0xe06698 size 0x8 virtual false final false
+  /// @brief Method get_KeyAttr, addr 0xe7b86c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_KeyAttr();
 
-  /// @brief Method ToAsn1Object addr 0xe066a0 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe7b874, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherKeyAttribute", modifiers: "&&", def_value: None }]

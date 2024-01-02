@@ -16,10 +16,10 @@ namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace GlobalNamespace {
-struct __OVRPlatformMenu__eHandler;
+struct __OVRPlatformMenu__eBackButtonAction;
 }
 namespace GlobalNamespace {
-struct __OVRPlatformMenu__eBackButtonAction;
+struct __OVRPlatformMenu__eHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRPlatformMenu);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8561))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7682))
 // CS Name: ::OVRPlatformMenu::eHandler
 struct CORDL_TYPE __OVRPlatformMenu__eHandler {
 public:
@@ -90,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlatformMenu__eHandler, value__) 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7683))
 // CS Name: ::OVRPlatformMenu::eBackButtonAction
 struct CORDL_TYPE __OVRPlatformMenu__eBackButtonAction {
 public:
@@ -139,8 +139,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlatformMenu__eBackButtonAction, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8482)), TypeDefinitionIndex(TypeDefinitionIndex(8561)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8563))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7682)), TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7684))
 // CS Name: ::OVRPlatformMenu*
 class CORDL_TYPE OVRPlatformMenu : public ::UnityEngine::MonoBehaviour {
 public:
@@ -183,24 +183,24 @@ public:
 
   static inline ::System::Collections::Generic::Stack_1<::StringW>* getStaticF_sceneStack();
 
-  /// @brief Method HandleBackButtonState addr 0x25f2608 size 0x68 virtual false final false
+  /// @brief Method HandleBackButtonState, addr 0x2753e74, size 0x68, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlatformMenu__eBackButtonAction HandleBackButtonState();
 
-  /// @brief Method Awake addr 0x25f2670 size 0x170 virtual false final false
+  /// @brief Method Awake, addr 0x2753edc, size 0x170, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ShowConfirmQuitMenu addr 0x25f27e0 size 0xd4 virtual false final false
+  /// @brief Method ShowConfirmQuitMenu, addr 0x275404c, size 0xd4, virtual false, abstract: false, final false
   inline void ShowConfirmQuitMenu();
 
-  /// @brief Method RetreatOneLevel addr 0x25f28b4 size 0xf8 virtual false final false
+  /// @brief Method RetreatOneLevel, addr 0x2754120, size 0xf8, virtual false, abstract: false, final false
   static inline bool RetreatOneLevel();
 
-  /// @brief Method Update addr 0x25f29ac size 0x40 virtual false final false
+  /// @brief Method Update, addr 0x2754218, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::OVRPlatformMenu* New_ctor();
 
-  /// @brief Method .ctor addr 0x25f29ec size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2754258, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRPlatformMenu", modifiers: "&&", def_value: None }]

@@ -1,26 +1,26 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
-#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 template <typename TStateTable, typename TType, typename TState>
 inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::get_stateBuffer() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), "get_stateBuffer",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState> inline ::GlobalNamespace::IConnectedPlayer* GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::get_player() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), "get_player",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnectedPlayer*, false>(this, ___internal_method);
 }
-template <typename TStateTable, typename TType, typename TState> inline float_t GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::GetLatestTime() {
+template <typename TStateTable, typename TType, typename TState> inline int64_t GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::GetLatestTime() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), "GetLatestTime",
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState> inline TState GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::GetLatestState(TType type) {
   static auto* ___internal_method =
@@ -28,10 +28,10 @@ template <typename TStateTable, typename TType, typename TState> inline TState G
                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TType>::get() })));
   return ::cordl_internals::RunMethodRethrow<TState, false>(this, ___internal_method, type);
 }
-template <typename TStateTable, typename TType, typename TState> inline TState GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::GetState(TType type, float_t time) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), "GetState", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+template <typename TStateTable, typename TType, typename TState> inline TState GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::GetState(TType type, int64_t time) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<TState, false>(this, ___internal_method, type, time);
 }
 template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>::ClearBufferedStates() {

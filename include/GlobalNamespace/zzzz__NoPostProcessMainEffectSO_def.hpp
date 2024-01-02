@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoPostProcessMainEffectSO)
 namespace UnityEngine {
-class Shader;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Shader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoPostProcessMainEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15322))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15293))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15294))
 // CS Name: ::NoPostProcessMainEffectSO*
 class CORDL_TYPE NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
@@ -65,27 +65,27 @@ public:
 
   constexpr void __set__fadeMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method get_hasPostProcessEffect addr 0x268ddfc size 0x8 virtual true final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x28089e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
-  /// @brief Method OnEnable addr 0x268de04 size 0x80 virtual true final false
+  /// @brief Method OnEnable, addr 0x28089ec, size 0x80, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x268de84 size 0xc virtual false final false
+  /// @brief Method OnDisable, addr 0x2808a6c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method PreRender addr 0x268de90 size 0x64 virtual true final false
+  /// @brief Method PreRender, addr 0x2808a78, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method PostRender addr 0x268def4 size 0xc virtual true final false
+  /// @brief Method PostRender, addr 0x2808adc, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method DrawFadeQuad addr 0x268df00 size 0xec virtual false final false
+  /// @brief Method DrawFadeQuad, addr 0x2808ae8, size 0xec, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x268dfec size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2808bd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoPostProcessMainEffectSO", modifiers: "&&", def_value: None }]

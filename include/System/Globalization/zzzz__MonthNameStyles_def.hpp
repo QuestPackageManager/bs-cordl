@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::MonthNameStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3662))
 // CS Name: ::System.Globalization::MonthNameStyles
 struct CORDL_TYPE MonthNameStyles {
 public:

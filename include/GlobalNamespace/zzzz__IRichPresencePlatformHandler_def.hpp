@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IRichPresencePlatformHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4679))
 // CS Name: ::IRichPresencePlatformHandler*
 class CORDL_TYPE IRichPresencePlatformHandler {
 public:
   // Declarations
-  /// @brief Method SetPresence addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetPresence, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "IRichPresencePlatformHandler", modifiers: "&&", def_value: None }]

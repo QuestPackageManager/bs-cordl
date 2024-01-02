@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::AngularFalloffType);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10389))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::AngularFalloffType
 struct CORDL_TYPE AngularFalloffType {
 public:

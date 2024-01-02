@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnitySerializationHolder)
-namespace System::Reflection {
-class RuntimeAssembly;
-}
 namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class IObjectReference;
+class SerializationInfo;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
 class RuntimeType;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Reflection {
 class MethodBase;
 }
-namespace System {
-class Object;
+namespace System::Runtime::Serialization {
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System::Reflection {
+class RuntimeAssembly;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::System::UnitySerializationHolder);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2572))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2574))
 // CS Name: ::System::UnitySerializationHolder*
 class CORDL_TYPE UnitySerializationHolder : public ::System::Object {
 public:
@@ -128,33 +128,33 @@ public:
 
   constexpr void __set_m_unityType(int32_t value);
 
-  /// @brief Method AddElementTypes addr 0x249784c size 0x3cc virtual false final false
+  /// @brief Method AddElementTypes, addr 0x25f2774, size 0x3cc, virtual false, abstract: false, final false
   static inline ::System::RuntimeType* AddElementTypes(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
 
-  /// @brief Method MakeElementTypes addr 0x2497c18 size 0xf8 virtual false final false
+  /// @brief Method MakeElementTypes, addr 0x25f2b40, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Type* MakeElementTypes(::System::Type* type);
 
-  /// @brief Method GetUnitySerializationInfo addr 0x2497d10 size 0x154 virtual false final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x25f2c38, size 0x154, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int32_t unityType);
 
-  /// @brief Method GetUnitySerializationInfo addr 0x2497e64 size 0x388 virtual false final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x25f2d8c, size 0x388, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::System::RuntimeType* type);
 
-  /// @brief Method GetUnitySerializationInfo addr 0x24981ec size 0x18c virtual false final false
+  /// @brief Method GetUnitySerializationInfo, addr 0x25f3114, size 0x18c, virtual false, abstract: false, final false
   static inline void GetUnitySerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, int32_t unityType, ::StringW data, ::System::Reflection::RuntimeAssembly* assembly);
 
   static inline ::System::UnitySerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2498378 size 0x3f4 virtual false final false
+  /// @brief Method .ctor, addr 0x25f32a0, size 0x3f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ThrowInsufficientInformation addr 0x249876c size 0x9c virtual false final false
+  /// @brief Method ThrowInsufficientInformation, addr 0x25f3694, size 0x9c, virtual false, abstract: false, final false
   inline void ThrowInsufficientInformation(::StringW field);
 
-  /// @brief Method GetObjectData addr 0x2498878 size 0x58 virtual true final false
+  /// @brief Method GetObjectData, addr 0x25f37a0, size 0x58, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject addr 0x24988d0 size 0x50c virtual true final false
+  /// @brief Method GetRealObject, addr 0x25f37f8, size 0x50c, virtual true, abstract: false, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnitySerializationHolder", modifiers: "&&", def_value: None }]

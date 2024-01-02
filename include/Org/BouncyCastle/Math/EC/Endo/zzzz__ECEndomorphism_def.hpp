@@ -26,10 +26,10 @@ public:
 
   __declspec(property(get = get_HasEfficientPointMap)) bool HasEfficientPointMap;
 
-  /// @brief Method get_PointMap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_PointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPointMap* get_PointMap();
 
-  /// @brief Method get_HasEfficientPointMap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_HasEfficientPointMap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasEfficientPointMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "ECEndomorphism", modifiers: "&&", def_value: None }]

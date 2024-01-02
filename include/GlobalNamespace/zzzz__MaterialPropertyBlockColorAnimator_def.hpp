@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(14780))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14781))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14564))
 // CS Name: ::MaterialPropertyBlockColorAnimator*
 class CORDL_TYPE MaterialPropertyBlockColorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -35,18 +35,18 @@ public:
 
   constexpr void __set__color(::UnityEngine::Color value);
 
-  /// @brief Method get_color addr 0x1fbf274 size 0xc virtual false final false
+  /// @brief Method get_color, addr 0x2114d14, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x1fbf280 size 0xc virtual false final false
+  /// @brief Method set_color, addr 0x2114d20, size 0xc, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method SetProperty addr 0x1fbf28c size 0x34 virtual true final false
+  /// @brief Method SetProperty, addr 0x2114d2c, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockColorAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbf32c size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x2114dcc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockColorAnimator", modifiers: "&&", def_value: None }]

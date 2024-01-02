@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameObjectIntSwitchEventEffect)
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class BeatmapDataCallbackWrapper;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __GameObjectIntSwitchEventEffect__GameObjectValueList;
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectVa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5016))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4898))
 // CS Name: ::GameObjectIntSwitchEventEffect::GameObjectValueList*
 class CORDL_TYPE __GameObjectIntSwitchEventEffect__GameObjectValueList : public ::System::Object {
 public:
@@ -75,18 +75,18 @@ public:
 
   constexpr void __set__isActive_k__BackingField(bool value);
 
-  /// @brief Method get_isActive addr 0x226f1e0 size 0x8 virtual false final false
+  /// @brief Method get_isActive, addr 0x23a545c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method set_isActive addr 0x226f1e8 size 0xc virtual false final false
+  /// @brief Method set_isActive, addr 0x23a5464, size 0xc, virtual false, abstract: false, final false
   inline void set_isActive(bool value);
 
-  /// @brief Method SetActive addr 0x226f15c size 0x7c virtual false final false
+  /// @brief Method SetActive, addr 0x23a5268, size 0x7c, virtual false, abstract: false, final false
   inline void SetActive(bool active);
 
   static inline ::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList* New_ctor();
 
-  /// @brief Method .ctor addr 0x226f1f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23a5470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GameObjectIntSwitchEventEffect__GameObjectValueList", modifiers: "&&", def_value: None }]
@@ -128,8 +128,8 @@ static_assert(offsetof(::GlobalNamespace::__GameObjectIntSwitchEventEffect__Game
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5017))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4899))
 // CS Name: ::GameObjectIntSwitchEventEffect*
 class CORDL_TYPE GameObjectIntSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,6 +138,9 @@ public:
 
   /// @brief Field _beatmapEventType, offset 0x18, size 0x4
   __declspec(property(get = __get__beatmapEventType, put = __set__beatmapEventType))::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
+
+  /// @brief Field _defaultValue, offset 0x1c, size 0x4
+  __declspec(property(get = __get__defaultValue, put = __set__defaultValue)) int32_t _defaultValue;
 
   /// @brief Field _gameObjectsValueLists, offset 0x20, size 0x8
   __declspec(property(get = __get__gameObjectsValueLists,
@@ -162,6 +165,12 @@ public:
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __get__beatmapEventType() const;
 
   constexpr void __set__beatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
+
+  constexpr int32_t& __get__defaultValue();
+
+  constexpr int32_t const& __get__defaultValue() const;
+
+  constexpr void __set__defaultValue(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*, ::Array<::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*>*>&
   __get__gameObjectsValueLists();
@@ -197,18 +206,18 @@ public:
 
   constexpr void __set__previousActiveIdx(int32_t value);
 
-  /// @brief Method Start addr 0x226ee58 size 0x194 virtual false final false
+  /// @brief Method Start, addr 0x23a50b0, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226efec size 0x2c virtual false final false
+  /// @brief Method OnDestroy, addr 0x23a52e4, size 0x2c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBasicBeatmapEventData addr 0x226f018 size 0x144 virtual false final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x23a5310, size 0x144, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
   static inline ::GlobalNamespace::GameObjectIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x226f1d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23a5454, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameObjectIntSwitchEventEffect", modifiers: "&&", def_value: None }]
@@ -227,6 +236,9 @@ protected:
 public:
   /// @brief Field _beatmapEventType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
+
+  /// @brief Field _defaultValue, offset: 0x1c, size: 0x4, def value: None
+  int32_t ____defaultValue;
 
   /// @brief Field _gameObjectsValueLists, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*, ::Array<::GlobalNamespace::__GameObjectIntSwitchEventEffect__GameObjectValueList*>*> ____gameObjectsValueLists;
@@ -249,6 +261,8 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameObjectIntSwitchEventEffect, 0x48>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____beatmapEventType) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____defaultValue) == 0x1c, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameObjectIntSwitchEventEffect, ____gameObjectsValueLists) == 0x20, "Offset mismatch!");
 

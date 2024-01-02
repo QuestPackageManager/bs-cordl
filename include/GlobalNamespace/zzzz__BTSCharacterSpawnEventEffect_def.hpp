@@ -3,52 +3,51 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BTSCharacterSpawnEventEffect)
-namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
-}
-namespace GlobalNamespace {
-class BTSCharacter;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine {
-class AnimationClip;
+class Transform;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
+class BTSCharacterDataModel;
+}
+namespace UnityEngine {
+class AnimationClip;
+}
+namespace GlobalNamespace {
+class BTSCharacter;
+}
+namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class BeatmapCallbacksController;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
-namespace UnityEngine {
-class Transform;
+namespace System {
+template <typename T1, typename T2> class Tuple_2;
 }
-namespace GlobalNamespace {
-class BTSCharacterDataModel;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -57,11 +56,11 @@ class BTSCharacterSpawnEventEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BTSCharacterSpawnEventEffect);
 // Type: ::BTSCharacterSpawnEventEffect
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5087)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3959))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3973))
 // CS Name: ::BTSCharacterSpawnEventEffect*
 class CORDL_TYPE BTSCharacterSpawnEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -84,31 +83,28 @@ public:
   /// @brief Field _audioTimeSource, offset 0x40, size 0x8
   __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Field _environmentContext, offset 0x48, size 0x4
-  __declspec(property(get = __get__environmentContext, put = __set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
-
-  /// @brief Field startCharacterAnimationEvent, offset 0x50, size 0x8
+  /// @brief Field startCharacterAnimationEvent, offset 0x48, size 0x8
   __declspec(property(get = __get_startCharacterAnimationEvent, put = __set_startCharacterAnimationEvent))::System::Action_1<::GlobalNamespace::BTSCharacter*>* startCharacterAnimationEvent;
 
-  /// @brief Field _idsToCharacterPrefabsDictionary, offset 0x58, size 0x8
+  /// @brief Field _idsToCharacterPrefabsDictionary, offset 0x50, size 0x8
   __declspec(property(get = __get__idsToCharacterPrefabsDictionary,
                       put = __set__idsToCharacterPrefabsDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* _idsToCharacterPrefabsDictionary;
 
-  /// @brief Field _idsToCharactersDictionary, offset 0x60, size 0x8
+  /// @brief Field _idsToCharactersDictionary, offset 0x58, size 0x8
   __declspec(property(get = __get__idsToCharactersDictionary,
                       put = __set__idsToCharactersDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* _idsToCharactersDictionary;
 
-  /// @brief Field _idsToAnimationClipsDictionary, offset 0x68, size 0x8
+  /// @brief Field _idsToAnimationClipsDictionary, offset 0x60, size 0x8
   __declspec(property(get = __get__idsToAnimationClipsDictionary,
                       put = __set__idsToAnimationClipsDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* _idsToAnimationClipsDictionary;
 
-  /// @brief Field _isInitialized, offset 0x70, size 0x1
+  /// @brief Field _isInitialized, offset 0x68, size 0x1
   __declspec(property(get = __get__isInitialized, put = __set__isInitialized)) bool _isInitialized;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x78, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x70, size 0x8
   __declspec(property(get = __get__beatmapDataCallbackWrapper, put = __set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  /// @brief Field _asyncOperationHandles, offset 0x80, size 0x8
+  /// @brief Field _asyncOperationHandles, offset 0x78, size 0x8
   __declspec(property(get = __get__asyncOperationHandles,
                       put = __set__asyncOperationHandles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _asyncOperationHandles;
 
@@ -149,12 +145,6 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
 
   constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
-
-  constexpr ::GlobalNamespace::EnvironmentContext& __get__environmentContext();
-
-  constexpr ::GlobalNamespace::EnvironmentContext const& __get__environmentContext() const;
-
-  constexpr void __set__environmentContext(::GlobalNamespace::EnvironmentContext value);
 
   constexpr ::System::Action_1<::GlobalNamespace::BTSCharacter*>*& __get_startCharacterAnimationEvent();
 
@@ -199,38 +189,38 @@ public:
 
   constexpr void __set__asyncOperationHandles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method add_startCharacterAnimationEvent addr 0x20b9768 size 0xb0 virtual false final false
+  /// @brief Method add_startCharacterAnimationEvent, addr 0x221a750, size 0xb0, virtual false, abstract: false, final false
   inline void add_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
 
-  /// @brief Method remove_startCharacterAnimationEvent addr 0x20b9bb8 size 0xb0 virtual false final false
+  /// @brief Method remove_startCharacterAnimationEvent, addr 0x221aba0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_startCharacterAnimationEvent(::System::Action_1<::GlobalNamespace::BTSCharacter*>* value);
 
-  /// @brief Method get_isInitialized addr 0x20b9fb8 size 0x8 virtual false final false
+  /// @brief Method get_isInitialized, addr 0x221afa0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method Start addr 0x20b9fc0 size 0x5a8 virtual false final false
+  /// @brief Method Start, addr 0x221afa8, size 0x5a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LoadAddressables addr 0x20ba568 size 0x86c virtual false final false
+  /// @brief Method LoadAddressables, addr 0x221b550, size 0x86c, virtual false, abstract: false, final false
   inline void LoadAddressables();
 
-  /// @brief Method CleanupAddressables addr 0x20baf54 size 0x154 virtual false final false
+  /// @brief Method CleanupAddressables, addr 0x221bf3c, size 0x154, virtual false, abstract: false, final false
   inline void CleanupAddressables();
 
-  /// @brief Method OnDestroy addr 0x20bb0a8 size 0x28 virtual false final false
+  /// @brief Method OnDestroy, addr 0x221c090, size 0x28, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x20bb0d0 size 0x144 virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x221c0b8, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetCharacterWithAnimationClip addr 0x20bade4 size 0x170 virtual false final false
+  /// @brief Method GetCharacterWithAnimationClip, addr 0x221bdcc, size 0x170, virtual false, abstract: false, final false
   static inline ::System::Tuple_2<::GlobalNamespace::BTSCharacter*, ::UnityEngine::AnimationClip*>*
   GetCharacterWithAnimationClip(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* charDictionary,
                                 ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* animDictionary, int32_t prefabId, int32_t animationId);
 
   static inline ::GlobalNamespace::BTSCharacterSpawnEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x20bb21c size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x221c204, size 0x130, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BTSCharacterSpawnEventEffect", modifiers: "&&", def_value: None }]
@@ -265,28 +255,25 @@ public:
   /// @brief Field _audioTimeSource, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field _environmentContext, offset: 0x48, size: 0x4, def value: None
-  ::GlobalNamespace::EnvironmentContext ____environmentContext;
-
-  /// @brief Field startCharacterAnimationEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field startCharacterAnimationEvent, offset: 0x48, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BTSCharacter*>* ___startCharacterAnimationEvent;
 
-  /// @brief Field _idsToCharacterPrefabsDictionary, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _idsToCharacterPrefabsDictionary, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* ____idsToCharacterPrefabsDictionary;
 
-  /// @brief Field _idsToCharactersDictionary, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _idsToCharactersDictionary, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BTSCharacter*>* ____idsToCharactersDictionary;
 
-  /// @brief Field _idsToAnimationClipsDictionary, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _idsToAnimationClipsDictionary, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AnimationClip*>* ____idsToAnimationClipsDictionary;
 
-  /// @brief Field _isInitialized, offset: 0x70, size: 0x1, def value: None
+  /// @brief Field _isInitialized, offset: 0x68, size: 0x1, def value: None
   bool ____isInitialized;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
-  /// @brief Field _asyncOperationHandles, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _asyncOperationHandles, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* ____asyncOperationHandles;
 
   /// @brief Field kCharacterDisplayEventType value: static_cast<int32_t>(0x28)
@@ -295,7 +282,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterSpawnEventEffect, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BTSCharacterSpawnEventEffect, 0x80>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____animationStartAheadTime) == 0x18, "Offset mismatch!");
 
@@ -309,21 +296,19 @@ static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____beat
 
 static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____audioTimeSource) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____environmentContext) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ___startCharacterAnimationEvent) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ___startCharacterAnimationEvent) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToCharacterPrefabsDictionary) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToCharacterPrefabsDictionary) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToCharactersDictionary) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToCharactersDictionary) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToAnimationClipsDictionary) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____idsToAnimationClipsDictionary) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____isInitialized) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____isInitialized) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____beatmapDataCallbackWrapper) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____beatmapDataCallbackWrapper) == 0x78, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____asyncOperationHandles) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BTSCharacterSpawnEventEffect, ____asyncOperationHandles) == 0x78, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BTSCharacterSpawnEventEffect);

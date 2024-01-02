@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMRAudioFilter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8429))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7508))
 // CS Name: ::OVRMRAudioFilter*
 class CORDL_TYPE OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_composition(::GlobalNamespace::OVRExternalComposition* value);
 
-  /// @brief Method Start addr 0x25bd880 size 0xc virtual false final false
+  /// @brief Method Start, addr 0x2710e7c, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnAudioFilterRead addr 0x25bd88c size 0x18 virtual false final false
+  /// @brief Method OnAudioFilterRead, addr 0x2710e88, size 0x18, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
   static inline ::GlobalNamespace::OVRMRAudioFilter* New_ctor();
 
-  /// @brief Method .ctor addr 0x25bd8a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2710ea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRMRAudioFilter", modifiers: "&&", def_value: None }]

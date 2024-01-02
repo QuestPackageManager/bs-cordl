@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongProgressUIController)
-namespace UnityEngine::UI {
-class Image;
-}
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace UnityEngine::UI {
-class Slider;
+class Image;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine {
 class RectTransform;
+}
+namespace UnityEngine::UI {
+class Slider;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SongProgressUIController);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
 // CS Name: ::SongProgressUIController*
 class CORDL_TYPE SongProgressUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,15 +138,15 @@ public:
 
   constexpr void __set__progressImageRectTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method Start addr 0x20e1450 size 0x1a4 virtual false final false
+  /// @brief Method Start, addr 0x23c32f8, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x20e15f4 size 0x2e8 virtual false final false
+  /// @brief Method Update, addr 0x23c349c, size 0x2c0, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SongProgressUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e18dc size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23c375c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SongProgressUIController", modifiers: "&&", def_value: None }]

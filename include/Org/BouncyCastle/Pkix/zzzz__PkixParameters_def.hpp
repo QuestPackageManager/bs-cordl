@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkixParameters)
-namespace Org::BouncyCastle::Utilities::Date {
-class DateTimeObject;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPathChecker;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
 }
 namespace Org::BouncyCastle::X509::Store {
-class X509CertStoreSelector;
+class IX509Store;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::Utilities::Date {
+class DateTimeObject;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixCertPathChecker;
 }
 namespace System::Collections {
 class IList;
 }
 namespace Org::BouncyCastle::X509::Store {
-class IX509Store;
+class X509CertStoreSelector;
 }
 namespace System {
 class Object;
@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixParameters);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1713))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixParameters*
 class CORDL_TYPE PkixParameters : public ::System::Object {
@@ -245,139 +245,139 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
 
-  /// @brief Method .ctor addr 0x107b21c size 0x160 virtual false final false
+  /// @brief Method .ctor, addr 0x10ec470, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
 
-  /// @brief Method get_IsRevocationEnabled addr 0x107b37c size 0x8 virtual true final false
+  /// @brief Method get_IsRevocationEnabled, addr 0x10ec5d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRevocationEnabled();
 
-  /// @brief Method set_IsRevocationEnabled addr 0x107b384 size 0xc virtual true final false
+  /// @brief Method set_IsRevocationEnabled, addr 0x10ec5d8, size 0xc, virtual true, abstract: false, final false
   inline void set_IsRevocationEnabled(bool value);
 
-  /// @brief Method get_IsExplicitPolicyRequired addr 0x107b390 size 0x8 virtual true final false
+  /// @brief Method get_IsExplicitPolicyRequired, addr 0x10ec5e4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsExplicitPolicyRequired();
 
-  /// @brief Method set_IsExplicitPolicyRequired addr 0x107b398 size 0xc virtual true final false
+  /// @brief Method set_IsExplicitPolicyRequired, addr 0x10ec5ec, size 0xc, virtual true, abstract: false, final false
   inline void set_IsExplicitPolicyRequired(bool value);
 
-  /// @brief Method get_IsAnyPolicyInhibited addr 0x107b3a4 size 0x8 virtual true final false
+  /// @brief Method get_IsAnyPolicyInhibited, addr 0x10ec5f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAnyPolicyInhibited();
 
-  /// @brief Method set_IsAnyPolicyInhibited addr 0x107b3ac size 0xc virtual true final false
+  /// @brief Method set_IsAnyPolicyInhibited, addr 0x10ec600, size 0xc, virtual true, abstract: false, final false
   inline void set_IsAnyPolicyInhibited(bool value);
 
-  /// @brief Method get_IsPolicyMappingInhibited addr 0x107b3b8 size 0x8 virtual true final false
+  /// @brief Method get_IsPolicyMappingInhibited, addr 0x10ec60c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPolicyMappingInhibited();
 
-  /// @brief Method set_IsPolicyMappingInhibited addr 0x107b3c0 size 0xc virtual true final false
+  /// @brief Method set_IsPolicyMappingInhibited, addr 0x10ec614, size 0xc, virtual true, abstract: false, final false
   inline void set_IsPolicyMappingInhibited(bool value);
 
-  /// @brief Method get_IsPolicyQualifiersRejected addr 0x107b3cc size 0x8 virtual true final false
+  /// @brief Method get_IsPolicyQualifiersRejected, addr 0x10ec620, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPolicyQualifiersRejected();
 
-  /// @brief Method set_IsPolicyQualifiersRejected addr 0x107b3d4 size 0xc virtual true final false
+  /// @brief Method set_IsPolicyQualifiersRejected, addr 0x10ec628, size 0xc, virtual true, abstract: false, final false
   inline void set_IsPolicyQualifiersRejected(bool value);
 
-  /// @brief Method get_Date addr 0x107b3e0 size 0x8 virtual true final false
+  /// @brief Method get_Date, addr 0x10ec634, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_Date();
 
-  /// @brief Method set_Date addr 0x107b3e8 size 0x8 virtual true final false
+  /// @brief Method set_Date, addr 0x10ec63c, size 0x8, virtual true, abstract: false, final false
   inline void set_Date(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method GetTrustAnchors addr 0x107b3f0 size 0x68 virtual true final false
+  /// @brief Method GetTrustAnchors, addr 0x10ec644, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustAnchors();
 
-  /// @brief Method SetTrustAnchors addr 0x107b458 size 0x4dc virtual true final false
+  /// @brief Method SetTrustAnchors, addr 0x10ec6ac, size 0x4dc, virtual true, abstract: false, final false
   inline void SetTrustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet* tas);
 
-  /// @brief Method GetTargetCertConstraints addr 0x107b934 size 0xf0 virtual true final false
+  /// @brief Method GetTargetCertConstraints, addr 0x10ecb88, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* GetTargetCertConstraints();
 
-  /// @brief Method SetTargetCertConstraints addr 0x107ba24 size 0x108 virtual true final false
+  /// @brief Method SetTargetCertConstraints, addr 0x10ecc78, size 0x108, virtual true, abstract: false, final false
   inline void SetTargetCertConstraints(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
-  /// @brief Method GetInitialPolicies addr 0x107bb2c size 0x84 virtual true final false
+  /// @brief Method GetInitialPolicies, addr 0x10ecd80, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetInitialPolicies();
 
-  /// @brief Method SetInitialPolicies addr 0x107bbb0 size 0x3cc virtual true final false
+  /// @brief Method SetInitialPolicies, addr 0x10ece04, size 0x3cc, virtual true, abstract: false, final false
   inline void SetInitialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* initialPolicies);
 
-  /// @brief Method SetCertPathCheckers addr 0x107bf7c size 0x3fc virtual true final false
+  /// @brief Method SetCertPathCheckers, addr 0x10ed1d0, size 0x3fc, virtual true, abstract: false, final false
   inline void SetCertPathCheckers(::System::Collections::IList* checkers);
 
-  /// @brief Method GetCertPathCheckers addr 0x107c378 size 0x3f0 virtual true final false
+  /// @brief Method GetCertPathCheckers, addr 0x10ed5cc, size 0x3f0, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetCertPathCheckers();
 
-  /// @brief Method AddCertPathChecker addr 0x107c768 size 0xd0 virtual true final false
+  /// @brief Method AddCertPathChecker, addr 0x10ed9bc, size 0xd0, virtual true, abstract: false, final false
   inline void AddCertPathChecker(::Org::BouncyCastle::Pkix::PkixCertPathChecker* checker);
 
-  /// @brief Method Clone addr 0x107c838 size 0x94 virtual true final false
+  /// @brief Method Clone, addr 0x10eda8c, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method SetParams addr 0x107c8cc size 0x394 virtual true final false
+  /// @brief Method SetParams, addr 0x10edb20, size 0x394, virtual true, abstract: false, final false
   inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters* parameters);
 
-  /// @brief Method get_IsUseDeltasEnabled addr 0x107cc60 size 0x8 virtual true final false
+  /// @brief Method get_IsUseDeltasEnabled, addr 0x10edeb4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsUseDeltasEnabled();
 
-  /// @brief Method set_IsUseDeltasEnabled addr 0x107cc68 size 0xc virtual true final false
+  /// @brief Method set_IsUseDeltasEnabled, addr 0x10edebc, size 0xc, virtual true, abstract: false, final false
   inline void set_IsUseDeltasEnabled(bool value);
 
-  /// @brief Method get_ValidityModel addr 0x107cc74 size 0x8 virtual true final false
+  /// @brief Method get_ValidityModel, addr 0x10edec8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ValidityModel();
 
-  /// @brief Method set_ValidityModel addr 0x107cc7c size 0x8 virtual true final false
+  /// @brief Method set_ValidityModel, addr 0x10eded0, size 0x8, virtual true, abstract: false, final false
   inline void set_ValidityModel(int32_t value);
 
-  /// @brief Method SetStores addr 0x107cc84 size 0x41c virtual true final false
+  /// @brief Method SetStores, addr 0x10eded8, size 0x41c, virtual true, abstract: false, final false
   inline void SetStores(::System::Collections::IList* stores);
 
-  /// @brief Method AddStore addr 0x107d0a0 size 0xbc virtual true final false
+  /// @brief Method AddStore, addr 0x10ee2f4, size 0xbc, virtual true, abstract: false, final false
   inline void AddStore(::Org::BouncyCastle::X509::Store::IX509Store* store);
 
-  /// @brief Method AddAdditionalStore addr 0x107d15c size 0xbc virtual true final false
+  /// @brief Method AddAdditionalStore, addr 0x10ee3b0, size 0xbc, virtual true, abstract: false, final false
   inline void AddAdditionalStore(::Org::BouncyCastle::X509::Store::IX509Store* store);
 
-  /// @brief Method GetAdditionalStores addr 0x107d218 size 0x5c virtual true final false
+  /// @brief Method GetAdditionalStores, addr 0x10ee46c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetAdditionalStores();
 
-  /// @brief Method GetStores addr 0x107d274 size 0x5c virtual true final false
+  /// @brief Method GetStores, addr 0x10ee4c8, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetStores();
 
-  /// @brief Method get_IsAdditionalLocationsEnabled addr 0x107d2d0 size 0x8 virtual true final false
+  /// @brief Method get_IsAdditionalLocationsEnabled, addr 0x10ee524, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAdditionalLocationsEnabled();
 
-  /// @brief Method SetAdditionalLocationsEnabled addr 0x107d2d8 size 0xc virtual true final false
+  /// @brief Method SetAdditionalLocationsEnabled, addr 0x10ee52c, size 0xc, virtual true, abstract: false, final false
   inline void SetAdditionalLocationsEnabled(bool enabled);
 
-  /// @brief Method GetTargetConstraints addr 0x107d2e4 size 0xe0 virtual true final false
+  /// @brief Method GetTargetConstraints, addr 0x10ee538, size 0xe0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::X509::Store::IX509Selector* GetTargetConstraints();
 
-  /// @brief Method SetTargetConstraints addr 0x107d3c4 size 0x108 virtual true final false
+  /// @brief Method SetTargetConstraints, addr 0x10ee618, size 0x108, virtual true, abstract: false, final false
   inline void SetTargetConstraints(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
-  /// @brief Method GetTrustedACIssuers addr 0x107d4cc size 0x68 virtual true final false
+  /// @brief Method GetTrustedACIssuers, addr 0x10ee720, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustedACIssuers();
 
-  /// @brief Method SetTrustedACIssuers addr 0x107d534 size 0x458 virtual true final false
+  /// @brief Method SetTrustedACIssuers, addr 0x10ee788, size 0x458, virtual true, abstract: false, final false
   inline void SetTrustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet* trustedACIssuers);
 
-  /// @brief Method GetNecessaryACAttributes addr 0x107d98c size 0x68 virtual true final false
+  /// @brief Method GetNecessaryACAttributes, addr 0x10eebe0, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNecessaryACAttributes();
 
-  /// @brief Method SetNecessaryACAttributes addr 0x107d9f4 size 0x3b4 virtual true final false
+  /// @brief Method SetNecessaryACAttributes, addr 0x10eec48, size 0x3b4, virtual true, abstract: false, final false
   inline void SetNecessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* necessaryACAttributes);
 
-  /// @brief Method GetProhibitedACAttributes addr 0x107dda8 size 0x68 virtual true final false
+  /// @brief Method GetProhibitedACAttributes, addr 0x10eeffc, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetProhibitedACAttributes();
 
-  /// @brief Method SetProhibitedACAttributes addr 0x107de10 size 0x3b4 virtual true final false
+  /// @brief Method SetProhibitedACAttributes, addr 0x10ef064, size 0x3b4, virtual true, abstract: false, final false
   inline void SetProhibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* prohibitedACAttributes);
 
-  /// @brief Method GetAttrCertCheckers addr 0x107e1c4 size 0x68 virtual true final false
+  /// @brief Method GetAttrCertCheckers, addr 0x10ef418, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetAttrCertCheckers();
 
-  /// @brief Method SetAttrCertCheckers addr 0x107e22c size 0x458 virtual true final false
+  /// @brief Method SetAttrCertCheckers, addr 0x10ef480, size 0x458, virtual true, abstract: false, final false
   inline void SetAttrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet* attrCertCheckers);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "&&", def_value: None }]

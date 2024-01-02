@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConnectionRequestHandler)
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,15 +22,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionRequestHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12783))
 // CS Name: ::IConnectionRequestHandler*
 class CORDL_TYPE IConnectionRequestHandler {
 public:
   // Declarations
-  /// @brief Method GetConnectionMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetConnectionMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetConnectionMessage(::LiteNetLib::Utils::NetDataWriter* writer, ::StringW userId, ::StringW userName, bool isConnectionOwner);
 
-  /// @brief Method ValidateConnectionMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidateConnectionMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ValidateConnectionMessage(::LiteNetLib::Utils::NetDataReader* reader, ByRef<::StringW> userId, ByRef<::StringW> userName, ByRef<bool> isConnectionOwner);
 
   // Ctor Parameters [CppParam { name: "", ty: "IConnectionRequestHandler", modifiers: "&&", def_value: None }]

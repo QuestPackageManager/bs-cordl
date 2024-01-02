@@ -9,32 +9,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerIntroAnimationController)
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+template <typename T> class IReadOnlyList_1;
+}
+namespace UnityEngine {
+struct PropertyName;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class MultiplayerPlayersManager;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
-class MultiplayerTimelineMock;
-}
-namespace UnityEngine {
-struct PropertyName;
-}
-namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class MultiplayerScoreRingManager;
@@ -42,8 +33,17 @@ class MultiplayerScoreRingManager;
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-class GameObject;
+namespace System {
+class Random;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,11 +52,11 @@ class MultiplayerIntroAnimationController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerIntroAnimationController);
 // Type: ::MultiplayerIntroAnimationController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10087)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5208))
 // CS Name: ::MultiplayerIntroAnimationController*
 class CORDL_TYPE MultiplayerIntroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -107,11 +107,14 @@ public:
   /// @brief Field _onCompleted, offset 0x80, size 0x8
   __declspec(property(get = __get__onCompleted, put = __set__onCompleted))::System::Action* _onCompleted;
 
-  /// @brief Field _introDuration, offset 0x88, size 0x4
-  __declspec(property(get = __get__introDuration, put = __set__introDuration)) float_t _introDuration;
+  /// @brief Field _introDuration, offset 0x88, size 0x8
+  __declspec(property(get = __get__introDuration, put = __set__introDuration)) int64_t _introDuration;
 
-  /// @brief Field _bindingFinished, offset 0x8c, size 0x1
+  /// @brief Field _bindingFinished, offset 0x90, size 0x1
   __declspec(property(get = __get__bindingFinished, put = __set__bindingFinished)) bool _bindingFinished;
+
+  /// @brief Field _random, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__random, put = setStaticF__random))::System::Random* _random;
 
   constexpr ::UnityEngine::Playables::PlayableDirector*& __get__introPlayableDirector();
 
@@ -203,11 +206,11 @@ public:
 
   constexpr void __set__onCompleted(::System::Action* value);
 
-  constexpr float_t& __get__introDuration();
+  constexpr int64_t& __get__introDuration();
 
-  constexpr float_t const& __get__introDuration() const;
+  constexpr int64_t const& __get__introDuration() const;
 
-  constexpr void __set__introDuration(float_t value);
+  constexpr void __set__introDuration(int64_t value);
 
   constexpr bool& __get__bindingFinished();
 
@@ -215,39 +218,43 @@ public:
 
   constexpr void __set__bindingFinished(bool value);
 
-  /// @brief Method OnValidate addr 0x210b66c size 0x57c virtual false final false
+  static inline void setStaticF__random(::System::Random* value);
+
+  static inline ::System::Random* getStaticF__random();
+
+  /// @brief Method OnValidate, addr 0x224cea4, size 0x57c, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetBeforeIntroValue addr 0x2109f68 size 0x480 virtual false final false
+  /// @brief Method SetBeforeIntroValue, addr 0x224b254, size 0x478, virtual false, abstract: false, final false
   inline void SetBeforeIntroValue();
 
-  /// @brief Method PlayIntroAnimation addr 0x21078b0 size 0x114 virtual false final false
+  /// @brief Method PlayIntroAnimation, addr 0x2248c00, size 0x118, virtual false, abstract: false, final false
   inline void PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
 
-  /// @brief Method GetFullIntroAnimationTime addr 0x21074d4 size 0x3dc virtual false final false
-  inline float_t GetFullIntroAnimationTime();
+  /// @brief Method GetFullIntroAnimationTime, addr 0x22487e8, size 0x418, virtual false, abstract: false, final false
+  inline int64_t GetFullIntroAnimationTime();
 
-  /// @brief Method BindTimeline addr 0x210bbe8 size 0x788 virtual false final false
+  /// @brief Method BindTimeline, addr 0x224d420, size 0x78c, virtual false, abstract: false, final false
   inline void BindTimeline();
 
-  /// @brief Method BindRingsAndSetTiming addr 0x210c8fc size 0x7f4 virtual false final false
-  inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings, ::UnityEngine::GameObject* localRing);
+  /// @brief Method BindRingsAndSetTiming, addr 0x224e234, size 0x7f4, virtual false, abstract: false, final false
+  /// @param connectedRings: ::ArrayW<::UnityEngine::GameObject*,::Array<::UnityEngine::GameObject*>*> (default: nullptr)
+  /// @param localRing: ::UnityEngine::GameObject* (default: nullptr)
+  inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings = nullptr,
+                                    ::UnityEngine::GameObject* localRing = nullptr);
 
-  /// @brief Method TransitionToAfterIntroAnimationState addr 0x21079c4 size 0xd0 virtual false final false
+  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x2248d18, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();
 
-  /// @brief Method CalculatePlayerIndexSequence addr 0x210c370 size 0x58c virtual false final false
+  /// @brief Method CalculatePlayerIndexSequence, addr 0x224dbac, size 0x584, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<int32_t>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
 
-  /// @brief Method SetTimelineMock addr 0x210d0f0 size 0x12c virtual false final false
-  inline void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
-
-  /// @brief Method Completed addr 0x210d21c size 0x38 virtual false final false
+  /// @brief Method Completed, addr 0x224ea28, size 0x38, virtual false, abstract: false, final false
   inline void Completed();
 
   static inline ::GlobalNamespace::MultiplayerIntroAnimationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x210d254 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x224ea60, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerIntroAnimationController", modifiers: "&&", def_value: None }]
@@ -309,16 +316,16 @@ public:
   /// @brief Field _onCompleted, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ____onCompleted;
 
-  /// @brief Field _introDuration, offset: 0x88, size: 0x4, def value: None
-  float_t ____introDuration;
+  /// @brief Field _introDuration, offset: 0x88, size: 0x8, def value: None
+  int64_t ____introDuration;
 
-  /// @brief Field _bindingFinished, offset: 0x8c, size: 0x1, def value: None
+  /// @brief Field _bindingFinished, offset: 0x90, size: 0x1, def value: None
   bool ____bindingFinished;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroAnimationController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerIntroAnimationController, 0x98>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____introPlayableDirector) == 0x18, "Offset mismatch!");
 
@@ -352,7 +359,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, _
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____introDuration) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____bindingFinished) == 0x8c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerIntroAnimationController, ____bindingFinished) == 0x90, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerIntroAnimationController);

@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FlickeringNeonSign)
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
-}
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+class __FlickeringNeonSign___FlickeringCoroutine_d__16;
 }
 namespace UnityEngine {
 class SpriteRenderer;
 }
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+template <typename T> class RandomObjectPicker_1;
+}
 namespace UnityEngine {
-class Material;
+class ParticleSystem;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace UnityEngine {
-class ParticleSystem;
+class Material;
 }
 namespace UnityEngine {
 class AudioClip;
-}
-namespace GlobalNamespace {
-class __FlickeringNeonSign___FlickeringCoroutine_d__16;
 }
 namespace System {
 class Object;
@@ -56,8 +56,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5089))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4984))
 // CS Name: ::FlickeringNeonSign::<FlickeringCoroutine>d__16*
 class CORDL_TYPE __FlickeringNeonSign___FlickeringCoroutine_d__16 : public ::System::Object {
 public:
@@ -104,22 +104,22 @@ public:
 
   static inline ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x227b4b0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23b42c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x227b5fc size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23b4414, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x227b600 size 0x118 virtual true final true
+  /// @brief Method MoveNext, addr 0x23b4418, size 0x118, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x227b718 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23b4530, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x227b720 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23b4538, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x227b760 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23b4578, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FlickeringNeonSign___FlickeringCoroutine_d__16", modifiers: "&&", def_value: None }]
@@ -161,8 +161,8 @@ static_assert(offsetof(::GlobalNamespace::__FlickeringNeonSign___FlickeringCorou
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5090))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4985))
 // CS Name: ::FlickeringNeonSign*
 class CORDL_TYPE FlickeringNeonSign : public ::UnityEngine::MonoBehaviour {
 public:
@@ -286,24 +286,24 @@ public:
 
   constexpr void __set__sparksAudioClipPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
 
-  /// @brief Method Awake addr 0x227b368 size 0x84 virtual false final false
+  /// @brief Method Awake, addr 0x23b4180, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x227b3ec size 0x3c virtual false final false
+  /// @brief Method Start, addr 0x23b4204, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x227b428 size 0x20 virtual false final false
+  /// @brief Method OnEnable, addr 0x23b4240, size 0x20, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method FlickeringCoroutine addr 0x227b448 size 0x68 virtual false final false
+  /// @brief Method FlickeringCoroutine, addr 0x23b4260, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* FlickeringCoroutine();
 
-  /// @brief Method SetOn addr 0x227b4d8 size 0x110 virtual false final false
+  /// @brief Method SetOn, addr 0x23b42f0, size 0x110, virtual false, abstract: false, final false
   inline void SetOn(bool on);
 
   static inline ::GlobalNamespace::FlickeringNeonSign* New_ctor();
 
-  /// @brief Method .ctor addr 0x227b5e8 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x23b4400, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlickeringNeonSign", modifiers: "&&", def_value: None }]

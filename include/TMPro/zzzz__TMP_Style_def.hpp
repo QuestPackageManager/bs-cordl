@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::TMPro::TMP_Style);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12352))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12424))
 // CS Name: ::TMPro::TMP_Style*
 class CORDL_TYPE TMP_Style : public ::System::Object {
 public:
@@ -114,39 +114,39 @@ public:
 
   static inline ::TMPro::TMP_Style* getStaticF_k_NormalStyle();
 
-  /// @brief Method get_NormalStyle addr 0x2ac0ddc size 0xbc virtual false final false
+  /// @brief Method get_NormalStyle, addr 0x2c44b30, size 0xbc, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Style* get_NormalStyle();
 
-  /// @brief Method get_name addr 0x2ac0f28 size 0x8 virtual false final false
+  /// @brief Method get_name, addr 0x2c44c7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2ac0f30 size 0x38 virtual false final false
+  /// @brief Method set_name, addr 0x2c44c84, size 0x38, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method get_hashCode addr 0x2ac0f68 size 0x8 virtual false final false
+  /// @brief Method get_hashCode, addr 0x2c44cbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_hashCode();
 
-  /// @brief Method set_hashCode addr 0x2ac0f70 size 0x14 virtual false final false
+  /// @brief Method set_hashCode, addr 0x2c44cc4, size 0x14, virtual false, abstract: false, final false
   inline void set_hashCode(int32_t value);
 
-  /// @brief Method get_styleOpeningDefinition addr 0x2ac0f84 size 0x8 virtual false final false
+  /// @brief Method get_styleOpeningDefinition, addr 0x2c44cd8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleOpeningDefinition();
 
-  /// @brief Method get_styleClosingDefinition addr 0x2ac0f8c size 0x8 virtual false final false
+  /// @brief Method get_styleClosingDefinition, addr 0x2c44ce0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_styleClosingDefinition();
 
-  /// @brief Method get_styleOpeningTagArray addr 0x2ac0f94 size 0x8 virtual false final false
+  /// @brief Method get_styleOpeningTagArray, addr 0x2c44ce8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleOpeningTagArray();
 
-  /// @brief Method get_styleClosingTagArray addr 0x2ac0f9c size 0x8 virtual false final false
+  /// @brief Method get_styleClosingTagArray, addr 0x2c44cf0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_styleClosingTagArray();
 
   static inline ::TMPro::TMP_Style* New_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method .ctor addr 0x2ac0e98 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x2c44bec, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition);
 
-  /// @brief Method RefreshStyle addr 0x2ac1060 size 0x1f8 virtual false final false
+  /// @brief Method RefreshStyle, addr 0x2c44db4, size 0x1f8, virtual false, abstract: false, final false
   inline void RefreshStyle();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Style", modifiers: "&&", def_value: None }]

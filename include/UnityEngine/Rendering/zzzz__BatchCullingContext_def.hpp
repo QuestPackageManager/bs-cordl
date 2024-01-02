@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchCullingContext)
 namespace UnityEngine::Rendering {
-struct LODParameters;
+struct BatchVisibility;
 }
 namespace UnityEngine {
-struct Plane;
+struct Matrix4x4;
 }
 namespace UnityEngine::Rendering {
-struct BatchVisibility;
+struct LODParameters;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine {
-struct Matrix4x4;
+struct Plane;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
@@ -36,14 +36,14 @@ MARK_VAL_T(::UnityEngine::Rendering::BatchCullingContext);
 // SizeInfo { instance_size: 160, native_size: 160, calculated_instance_size: 160, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 737 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9927)), TypeDefinitionIndex(TypeDefinitionIndex(10277)), TypeDefinitionIndex(TypeDefinitionIndex(10091)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9927), inst: 727 }), TypeDefinitionIndex(TypeDefinitionIndex(10286)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9927), inst: 101 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(10287)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10364)), TypeDefinitionIndex(TypeDefinitionIndex(10355)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 748 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 738 }), TypeDefinitionIndex(TypeDefinitionIndex(10163))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(10365)) CS Name: ::UnityEngine.Rendering::BatchCullingContext
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2b87868 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x2ceec9c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility,
                     ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndices, ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndicesY,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inCullingMatrix, float_t inNearPlane);

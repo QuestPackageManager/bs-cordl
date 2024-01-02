@@ -7,7 +7,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(CircleSlider)
 namespace UnityEngine::UI {
+class ICanvasElement;
+}
+namespace UnityEngine::UI {
 struct CanvasUpdate;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class PointerEventData;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -15,32 +24,23 @@ template <typename T1, typename T2> class Action_2;
 namespace UnityEngine {
 struct Color;
 }
+namespace UnityEngine {
+class RectTransform;
+}
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IBeginDragHandler;
 }
 namespace UnityEngine::UI {
-class ICanvasElement;
-}
-namespace UnityEngine::EventSystems {
-class IDragHandler;
+class Graphic;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::EventSystems {
-class IBeginDragHandler;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
 class IInitializePotentialDragHandler;
-}
-namespace UnityEngine {
-class RectTransform;
-}
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::UI {
-class Graphic;
 }
 // Forward declare root types
 namespace HMUI {
@@ -52,8 +52,8 @@ MARK_REF_PTR_T(::HMUI::CircleSlider);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 289, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10205)), TypeDefinitionIndex(TypeDefinitionIndex(13124))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13554))
 // CS Name: ::HMUI::CircleSlider*
 class CORDL_TYPE CircleSlider : public ::UnityEngine::UI::Selectable {
 public:
@@ -142,81 +142,81 @@ public:
 
   constexpr void __set__tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  /// @brief Method get_handleRect addr 0x1fca5f8 size 0x8 virtual false final false
+  /// @brief Method get_handleRect, addr 0x2120854, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectTransform* get_handleRect();
 
-  /// @brief Method set_handleRect addr 0x1fca600 size 0x88 virtual false final false
+  /// @brief Method set_handleRect, addr 0x212085c, size 0x88, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_handleColor addr 0x1fca7c0 size 0xc4 virtual false final false
+  /// @brief Method set_handleColor, addr 0x2120a1c, size 0xc4, virtual false, abstract: false, final false
   inline void set_handleColor(::UnityEngine::Color value);
 
-  /// @brief Method get_normalizedValue addr 0x1fca884 size 0x8 virtual false final false
+  /// @brief Method get_normalizedValue, addr 0x2120ae0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedValue();
 
-  /// @brief Method set_normalizedValue addr 0x1fca88c size 0x38 virtual false final false
+  /// @brief Method set_normalizedValue, addr 0x2120ae8, size 0x38, virtual false, abstract: false, final false
   inline void set_normalizedValue(float_t value);
 
-  /// @brief Method add_normalizedValueDidChangeEvent addr 0x1fca940 size 0xb4 virtual false final false
+  /// @brief Method add_normalizedValueDidChangeEvent, addr 0x2120b9c, size 0xb4, virtual false, abstract: false, final false
   inline void add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value);
 
-  /// @brief Method remove_normalizedValueDidChangeEvent addr 0x1fca9f4 size 0xb4 virtual false final false
+  /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x2120c50, size 0xb4, virtual false, abstract: false, final false
   inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::CircleSlider*, float_t>* value);
 
-  /// @brief Method Rebuild addr 0x1fcaaa8 size 0x4 virtual true final false
+  /// @brief Method Rebuild, addr 0x2120d04, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method LayoutComplete addr 0x1fcaaac size 0x4 virtual true final false
+  /// @brief Method LayoutComplete, addr 0x2120d08, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method GraphicUpdateComplete addr 0x1fcaab0 size 0x4 virtual true final false
+  /// @brief Method GraphicUpdateComplete, addr 0x2120d0c, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method OnEnable addr 0x1fcaab4 size 0x68 virtual true final false
+  /// @brief Method OnEnable, addr 0x2120d10, size 0x68, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x1fcab1c size 0x24 virtual true final false
+  /// @brief Method OnDisable, addr 0x2120d78, size 0x24, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method UpdateCachedReferences addr 0x1fca688 size 0x138 virtual false final false
+  /// @brief Method UpdateCachedReferences, addr 0x21208e4, size 0x138, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method SetNormalizedValue addr 0x1fcab40 size 0x8 virtual false final false
+  /// @brief Method SetNormalizedValue, addr 0x2120d9c, size 0x8, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input);
 
-  /// @brief Method SetNormalizedValue addr 0x1fca8c4 size 0x7c virtual false final false
+  /// @brief Method SetNormalizedValue, addr 0x2120b20, size 0x7c, virtual false, abstract: false, final false
   inline void SetNormalizedValue(float_t input, bool sendCallback);
 
-  /// @brief Method OnRectTransformDimensionsChange addr 0x1fcab48 size 0x44 virtual true final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x2120da4, size 0x44, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method UpdateVisuals addr 0x1fcab8c size 0x168 virtual true final false
+  /// @brief Method UpdateVisuals, addr 0x2120de8, size 0x168, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
-  /// @brief Method UpdateDrag addr 0x1fcacf4 size 0x27c virtual false final false
+  /// @brief Method UpdateDrag, addr 0x2120f50, size 0x27c, virtual false, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method MayDrag addr 0x1fcaf70 size 0x64 virtual false final false
+  /// @brief Method MayDrag, addr 0x21211cc, size 0x64, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnBeginDrag addr 0x1fcafd4 size 0x80 virtual true final false
+  /// @brief Method OnBeginDrag, addr 0x2121230, size 0x80, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDrag addr 0x1fcb054 size 0x90 virtual true final false
+  /// @brief Method OnDrag, addr 0x21212b0, size 0x90, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown addr 0x1fcb0e4 size 0xa0 virtual true final false
+  /// @brief Method OnPointerDown, addr 0x2121340, size 0xa0, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnInitializePotentialDrag addr 0x1fcb184 size 0x18 virtual true final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x21213e0, size 0x18, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::CircleSlider* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fcb19c size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x21213f8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform addr 0x1fcb1fc size 0x8 virtual true final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2121458, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "CircleSlider", modifiers: "&&", def_value: None }]

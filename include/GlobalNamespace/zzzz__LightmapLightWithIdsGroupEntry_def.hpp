@@ -2,12 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__LightmapLightWithIdsGroupEntry_def.hpp"
+#include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightmapLightWithIdsGroupEntry)
 namespace GlobalNamespace {
@@ -16,19 +15,19 @@ class __LightmapLightWithIdsGroupEntry__LightIntensitiesWithId;
 namespace GlobalNamespace {
 class LightmapLightWithIds;
 }
-namespace GlobalNamespace {
-struct __LightmapLightWithIdsGroupEntry__GroupLightsWeighting;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __LightmapLightWithIdsGroupEntry__GroupLightData;
 }
 namespace GlobalNamespace {
+struct ColorMixAndWeightingApproach;
+}
+namespace GlobalNamespace {
 class LightGroupSO;
 }
 // Forward declare root types
-namespace GlobalNamespace {
-struct __LightmapLightWithIdsGroupEntry__GroupLightsWeighting;
-}
 namespace GlobalNamespace {
 class LightmapLightWithIdsGroupEntry;
 }
@@ -39,66 +38,15 @@ namespace GlobalNamespace {
 class __LightmapLightWithIdsGroupEntry__LightIntensitiesWithId;
 }
 // Write type traits
-MARK_VAL_T(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting);
 MARK_REF_PTR_T(::GlobalNamespace::LightmapLightWithIdsGroupEntry);
 MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData);
 MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId);
-// Type: ::GroupLightsWeighting
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14755))
-// CS Name: ::LightmapLightWithIdsGroupEntry::GroupLightsWeighting
-struct CORDL_TYPE __LightmapLightWithIdsGroupEntry__GroupLightsWeighting {
-public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
-
-  /// @brief Nested struct ____LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped
-  enum struct ____LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped : int32_t {
-    __E_Maximum = static_cast<int32_t>(0x0),
-    __E_LinearFraction = static_cast<int32_t>(0x1),
-  };
-
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped() const noexcept {
-    return static_cast<____LightmapLightWithIdsGroupEntry__GroupLightsWeighting_Unwrapped>(this->value__);
-  }
-
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __LightmapLightWithIdsGroupEntry__GroupLightsWeighting(int32_t value__) noexcept;
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LightmapLightWithIdsGroupEntry__GroupLightsWeighting();
-
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
-
-  /// @brief Field Maximum value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting const Maximum;
-
-  /// @brief Field LinearFraction value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting const LinearFraction;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting, 0x4>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting, value__) == 0x0, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::GroupLightData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14538))
 // CS Name: ::LightmapLightWithIdsGroupEntry::GroupLightData*
 class CORDL_TYPE __LightmapLightWithIdsGroupEntry__GroupLightData : public ::System::Object {
 public:
@@ -136,19 +84,19 @@ public:
 
   constexpr void __set__groupProbeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method get_lightGroup addr 0x1fba740 size 0x8 virtual false final false
+  /// @brief Method get_lightGroup, addr 0x2110164, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightGroupSO* get_lightGroup();
 
-  /// @brief Method get_groupIntensity addr 0x1fba748 size 0x8 virtual false final false
+  /// @brief Method get_groupIntensity, addr 0x211016c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_groupProbeHighlightsIntensityMultiplier addr 0x1fba750 size 0x8 virtual false final false
+  /// @brief Method get_groupProbeHighlightsIntensityMultiplier, addr 0x2110174, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupProbeHighlightsIntensityMultiplier();
 
   static inline ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData* New_ctor(::GlobalNamespace::LightGroupSO* lightGroup, float_t groupIntensity,
                                                                                               float_t groupProbeHighlightsIntensityMultiplier);
 
-  /// @brief Method .ctor addr 0x1fba758 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x211017c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightWithIdsGroupEntry__GroupLightData", modifiers: "&&", def_value: None }]
@@ -190,8 +138,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__Grou
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14757))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14539))
 // CS Name: ::LightmapLightWithIdsGroupEntry::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightWithIdsGroupEntry__LightIntensitiesWithId : public ::System::Object {
 public:
@@ -229,18 +177,18 @@ public:
 
   constexpr void __set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method get_lightId addr 0x1fba794 size 0x8 virtual false final false
+  /// @brief Method get_lightId, addr 0x21101b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
-  /// @brief Method get_intensity addr 0x1fba79c size 0x8 virtual false final false
+  /// @brief Method get_intensity, addr 0x21101c0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier addr 0x1fba7a4 size 0x8 virtual false final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x21101c8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
   static inline ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId* New_ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier);
 
-  /// @brief Method .ctor addr 0x1fba7ac size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x21101d0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId", modifiers: "&&", def_value: None }]
@@ -282,8 +230,8 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__Ligh
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14758))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14540))
 // CS Name: ::LightmapLightWithIdsGroupEntry*
 class CORDL_TYPE LightmapLightWithIdsGroupEntry : public ::UnityEngine::MonoBehaviour {
 public:
@@ -292,27 +240,30 @@ public:
 
   using GroupLightData = ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData;
 
-  using GroupLightsWeighting = ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting;
-
   /// @brief Field _lightmapLightWithIds, offset 0x18, size 0x8
   __declspec(property(get = __get__lightmapLightWithIds, put = __set__lightmapLightWithIds))::GlobalNamespace::LightmapLightWithIds* _lightmapLightWithIds;
 
   /// @brief Field _groupLightData, offset 0x20, size 0x8
-  __declspec(property(get = __get__groupLightData, put = __set__groupLightData))::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*,
-                                                                                         ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*> _groupLightData;
+  __declspec(property(get = __get__groupLightData,
+                      put = __set__groupLightData))::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* _groupLightData;
 
   /// @brief Field _individualLightData, offset 0x28, size 0x8
   __declspec(property(get = __get__individualLightData,
-                      put = __set__individualLightData))::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*,
-                                                                 ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*> _individualLightData;
+                      put = __set__individualLightData))::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* _individualLightData;
 
   /// @brief Field _excludedLightIds, offset 0x30, size 0x8
   __declspec(property(get = __get__excludedLightIds, put = __set__excludedLightIds))::ArrayW<int32_t, ::Array<int32_t>*> _excludedLightIds;
 
   /// @brief Field _groupLightsWeighting, offset 0x38, size 0x4
-  __declspec(property(get = __get__groupLightsWeighting, put = __set__groupLightsWeighting))::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting _groupLightsWeighting;
+  __declspec(property(get = __get__groupLightsWeighting, put = __set__groupLightsWeighting))::GlobalNamespace::ColorMixAndWeightingApproach _groupLightsWeighting;
 
   __declspec(property(get = get_lightmapLightWithIds))::GlobalNamespace::LightmapLightWithIds* lightmapLightWithIds;
+
+  __declspec(property(get = get_groupLightData))::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* groupLightData;
+
+  __declspec(property(get = get_individualLightData))::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* individualLightData;
+
+  __declspec(property(get = get_groupLightsWeighting))::GlobalNamespace::ColorMixAndWeightingApproach groupLightsWeighting;
 
   constexpr ::GlobalNamespace::LightmapLightWithIds*& __get__lightmapLightWithIds();
 
@@ -320,22 +271,18 @@ public:
 
   constexpr void __set__lightmapLightWithIds(::GlobalNamespace::LightmapLightWithIds* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*>& __get__groupLightData();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*& __get__groupLightData();
 
-  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*> const&
-  __get__groupLightData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*> const& __get__groupLightData() const;
 
-  constexpr void
-  __set__groupLightData(::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*> value);
+  constexpr void __set__groupLightData(::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*>&
-  __get__individualLightData();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*& __get__individualLightData();
 
-  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*> const&
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*> const&
   __get__individualLightData() const;
 
-  constexpr void __set__individualLightData(
-      ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*> value);
+  constexpr void __set__individualLightData(::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* value);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__excludedLightIds();
 
@@ -343,18 +290,27 @@ public:
 
   constexpr void __set__excludedLightIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting& __get__groupLightsWeighting();
+  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& __get__groupLightsWeighting();
 
-  constexpr ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting const& __get__groupLightsWeighting() const;
+  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& __get__groupLightsWeighting() const;
 
-  constexpr void __set__groupLightsWeighting(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting value);
+  constexpr void __set__groupLightsWeighting(::GlobalNamespace::ColorMixAndWeightingApproach value);
 
-  /// @brief Method get_lightmapLightWithIds addr 0x1fba730 size 0x8 virtual false final false
+  /// @brief Method get_lightmapLightWithIds, addr 0x211013c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightmapLightWithIds* get_lightmapLightWithIds();
+
+  /// @brief Method get_groupLightData, addr 0x2110144, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* get_groupLightData();
+
+  /// @brief Method get_individualLightData, addr 0x211014c, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* get_individualLightData();
+
+  /// @brief Method get_groupLightsWeighting, addr 0x2110154, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
   static inline ::GlobalNamespace::LightmapLightWithIdsGroupEntry* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fba738 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x211015c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightmapLightWithIdsGroupEntry", modifiers: "&&", def_value: None }]
@@ -375,17 +331,16 @@ public:
   ::GlobalNamespace::LightmapLightWithIds* ____lightmapLightWithIds;
 
   /// @brief Field _groupLightData, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>*> ____groupLightData;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* ____groupLightData;
 
   /// @brief Field _individualLightData, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>*>
-      ____individualLightData;
+  ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* ____individualLightData;
 
   /// @brief Field _excludedLightIds, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____excludedLightIds;
 
   /// @brief Field _groupLightsWeighting, offset: 0x38, size: 0x4, def value: None
-  ::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting ____groupLightsWeighting;
+  ::GlobalNamespace::ColorMixAndWeightingApproach ____groupLightsWeighting;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -403,7 +358,6 @@ static_assert(offsetof(::GlobalNamespace::LightmapLightWithIdsGroupEntry, ____ex
 static_assert(offsetof(::GlobalNamespace::LightmapLightWithIdsGroupEntry, ____groupLightsWeighting) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightsWeighting, "", "LightmapLightWithIdsGroupEntry/GroupLightsWeighting");
 NEED_NO_BOX(::GlobalNamespace::LightmapLightWithIdsGroupEntry);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmapLightWithIdsGroupEntry*, "", "LightmapLightWithIdsGroupEntry");
 NEED_NO_BOX(::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData);

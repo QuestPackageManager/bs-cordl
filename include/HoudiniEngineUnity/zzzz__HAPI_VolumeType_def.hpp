@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_VolumeType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9632))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9705))
 // CS Name: ::HoudiniEngineUnity::HAPI_VolumeType
 struct CORDL_TYPE HAPI_VolumeType {
 public:

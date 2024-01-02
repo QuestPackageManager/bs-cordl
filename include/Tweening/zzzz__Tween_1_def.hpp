@@ -23,8 +23,8 @@ namespace Tweening {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15952))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15953))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16099))
 // CS Name: ::Tweening::Tween`1<T>*
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:
@@ -56,35 +56,36 @@ public:
 
   constexpr void __set_onUpdate(::System::Action_1<T>* value);
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay, ::Tweening::Tween_1<T>* t);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::Tweening::Tween_1<T>* t);
 
   static inline ::Tweening::Tween_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tweening::Tween_1<T>* New_ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param delay: float_t (default: 0.0)
+  inline void Init(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay = 0.0);
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Update(float_t currentTime);
 
-  /// @brief Method Sample addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Sample(float_t t);
 
-  /// @brief Method ForceOnUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ForceOnUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ForceOnUpdate();
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetValue(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "Tween_1", modifiers: "&&", def_value: None }]

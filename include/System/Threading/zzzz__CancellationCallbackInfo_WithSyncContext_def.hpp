@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 CORDL_MODULE_EXPORT(CancellationCallbackInfo_WithSyncContext)
-namespace System::Threading {
-class SynchronizationContext;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
+}
+namespace System::Threading {
+class SynchronizationContext;
 }
 namespace System::Threading {
 class ExecutionContext;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Threading::__CancellationCallbackInfo__WithSyncContext)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2689))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2688))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2691))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2690))
 // CS Name: ::CancellationCallbackInfo::WithSyncContext*
 class CORDL_TYPE __CancellationCallbackInfo__WithSyncContext : public ::System::Threading::CancellationCallbackInfo {
 public:
@@ -49,7 +49,7 @@ public:
                                                                                            ::System::Threading::CancellationTokenSource* cancellationTokenSource,
                                                                                            ::System::Threading::SynchronizationContext* targetSyncContext);
 
-  /// @brief Method .ctor addr 0x24b8030 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x261304c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 

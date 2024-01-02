@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFocusRing)
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class Focusable;
 }
 namespace UnityEngine::UIElements {
-class Focusable;
+class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -23,15 +23,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IFocusRing);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6882))
 // CS Name: ::UnityEngine.UIElements::IFocusRing*
 class CORDL_TYPE IFocusRing {
 public:
   // Declarations
-  /// @brief Method GetFocusChangeDirection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetFocusChangeDirection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::FocusChangeDirection* GetFocusChangeDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method GetNextFocusable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNextFocusable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Focusable* GetNextFocusable(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFocusRing", modifiers: "&&", def_value: None }]

@@ -8,10 +8,10 @@ namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceStatus;
 }
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+class Object;
 }
 namespace System::Threading::Tasks::Sources {
 struct ValueTaskSourceOnCompletedFlags;
@@ -27,18 +27,18 @@ MARK_REF_PTR_T(::System::Threading::Tasks::Sources::IValueTaskSource);
 namespace System::Threading::Tasks::Sources {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2819))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2823))
 // CS Name: ::System.Threading.Tasks.Sources::IValueTaskSource*
 class CORDL_TYPE IValueTaskSource {
 public:
   // Declarations
-  /// @brief Method GetStatus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Sources::ValueTaskSourceStatus GetStatus(int16_t token);
 
-  /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnCompleted(::System::Action_1<::System::Object*>* continuation, ::System::Object* state, int16_t token, ::System::Threading::Tasks::Sources::ValueTaskSourceOnCompletedFlags flags);
 
-  /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetResult(int16_t token);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueTaskSource", modifiers: "&&", def_value: None }]

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::SdkAccount);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(13423))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13385))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13478))
 // CS Name: ::Oculus.Platform.Models::SdkAccount*
 class CORDL_TYPE SdkAccount : public ::System::Object {
 public:
@@ -42,7 +42,7 @@ public:
 
   static inline ::Oculus::Platform::Models::SdkAccount* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b78e0 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2708b4c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "SdkAccount", modifiers: "&&", def_value: None }]

@@ -24,13 +24,13 @@ MARK_REF_PTR_T(::UnityEngine::LineRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9992))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10065))
 // CS Name: ::UnityEngine::LineRenderer*
 class CORDL_TYPE LineRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  __declspec(property(put = set_startWidth)) float_t startWidth;
+  __declspec(property(get = get_startWidth, put = set_startWidth)) float_t startWidth;
 
   __declspec(property(put = set_endWidth)) float_t endWidth;
 
@@ -42,37 +42,40 @@ public:
 
   __declspec(property(put = set_positionCount)) int32_t positionCount;
 
-  /// @brief Method set_startWidth addr 0x2b3e8e0 size 0x4c virtual false final false
+  /// @brief Method get_startWidth, addr 0x2ca3778, size 0x3c, virtual false, abstract: false, final false
+  inline float_t get_startWidth();
+
+  /// @brief Method set_startWidth, addr 0x2ca37b4, size 0x4c, virtual false, abstract: false, final false
   inline void set_startWidth(float_t value);
 
-  /// @brief Method set_endWidth addr 0x2b3e92c size 0x4c virtual false final false
+  /// @brief Method set_endWidth, addr 0x2ca3800, size 0x4c, virtual false, abstract: false, final false
   inline void set_endWidth(float_t value);
 
-  /// @brief Method set_useWorldSpace addr 0x2b3e978 size 0x44 virtual false final false
+  /// @brief Method set_useWorldSpace, addr 0x2ca384c, size 0x44, virtual false, abstract: false, final false
   inline void set_useWorldSpace(bool value);
 
-  /// @brief Method set_startColor addr 0x2b3e9bc size 0x54 virtual false final false
+  /// @brief Method set_startColor, addr 0x2ca3890, size 0x54, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color value);
 
-  /// @brief Method set_endColor addr 0x2b3ea54 size 0x54 virtual false final false
+  /// @brief Method set_endColor, addr 0x2ca3928, size 0x54, virtual false, abstract: false, final false
   inline void set_endColor(::UnityEngine::Color value);
 
-  /// @brief Method set_positionCount addr 0x2b3eaec size 0x44 virtual false final false
+  /// @brief Method set_positionCount, addr 0x2ca39c0, size 0x44, virtual false, abstract: false, final false
   inline void set_positionCount(int32_t value);
 
-  /// @brief Method SetPosition addr 0x2b3eb30 size 0x5c virtual false final false
+  /// @brief Method SetPosition, addr 0x2ca3a04, size 0x5c, virtual false, abstract: false, final false
   inline void SetPosition(int32_t index, ::UnityEngine::Vector3 position);
 
-  /// @brief Method SetPositions addr 0x2b3ebe0 size 0x44 virtual false final false
+  /// @brief Method SetPositions, addr 0x2ca3ab4, size 0x44, virtual false, abstract: false, final false
   inline void SetPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
 
-  /// @brief Method set_startColor_Injected addr 0x2b3ea10 size 0x44 virtual false final false
+  /// @brief Method set_startColor_Injected, addr 0x2ca38e4, size 0x44, virtual false, abstract: false, final false
   inline void set_startColor_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_endColor_Injected addr 0x2b3eaa8 size 0x44 virtual false final false
+  /// @brief Method set_endColor_Injected, addr 0x2ca397c, size 0x44, virtual false, abstract: false, final false
   inline void set_endColor_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method SetPosition_Injected addr 0x2b3eb8c size 0x54 virtual false final false
+  /// @brief Method SetPosition_Injected, addr 0x2ca3a60, size 0x54, virtual false, abstract: false, final false
   inline void SetPosition_Injected(int32_t index, ByRef<::UnityEngine::Vector3> position);
 
   // Ctor Parameters [CppParam { name: "", ty: "LineRenderer", modifiers: "&&", def_value: None }]

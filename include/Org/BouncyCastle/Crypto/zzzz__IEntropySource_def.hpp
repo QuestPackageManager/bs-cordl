@@ -25,13 +25,13 @@ public:
 
   __declspec(property(get = get_EntropySize)) int32_t EntropySize;
 
-  /// @brief Method get_IsPredictionResistant addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsPredictionResistant, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsPredictionResistant();
 
-  /// @brief Method GetEntropy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEntropy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
-  /// @brief Method get_EntropySize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_EntropySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_EntropySize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEntropySource", modifiers: "&&", def_value: None }]

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamMonitor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15256))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15078))
 // CS Name: ::Tayx.Graphy.Ram::G_RamMonitor*
 class CORDL_TYPE G_RamMonitor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -54,30 +54,33 @@ public:
 
   constexpr void __set__MonoRam_k__BackingField(float_t value);
 
-  /// @brief Method get_AllocatedRam addr 0x288ad90 size 0x8 virtual false final false
+  /// @brief Method get_AllocatedRam, addr 0x2a0823c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();
 
-  /// @brief Method set_AllocatedRam addr 0x288ad98 size 0x8 virtual false final false
+  /// @brief Method set_AllocatedRam, addr 0x2a08244, size 0x8, virtual false, abstract: false, final false
   inline void set_AllocatedRam(float_t value);
 
-  /// @brief Method get_ReservedRam addr 0x288ada0 size 0x8 virtual false final false
+  /// @brief Method get_ReservedRam, addr 0x2a0824c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ReservedRam();
 
-  /// @brief Method set_ReservedRam addr 0x288ada8 size 0x8 virtual false final false
+  /// @brief Method set_ReservedRam, addr 0x2a08254, size 0x8, virtual false, abstract: false, final false
   inline void set_ReservedRam(float_t value);
 
-  /// @brief Method get_MonoRam addr 0x288adb0 size 0x8 virtual false final false
+  /// @brief Method get_MonoRam, addr 0x2a0825c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_MonoRam();
 
-  /// @brief Method set_MonoRam addr 0x288adb8 size 0x8 virtual false final false
+  /// @brief Method set_MonoRam, addr 0x2a08264, size 0x8, virtual false, abstract: false, final false
   inline void set_MonoRam(float_t value);
 
-  /// @brief Method Update addr 0x288adc0 size 0x5c virtual false final false
+  /// @brief Method Update, addr 0x2a0826c, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
+
+  /// @brief Method Init, addr 0x2a036c4, size 0x4, virtual false, abstract: false, final false
+  inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamMonitor* New_ctor();
 
-  /// @brief Method .ctor addr 0x288ae1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a082c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_RamMonitor", modifiers: "&&", def_value: None }]

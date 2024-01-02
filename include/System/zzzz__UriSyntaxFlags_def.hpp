@@ -16,7 +16,7 @@ MARK_VAL_T(::System::UriSyntaxFlags);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7727))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8890))
 // CS Name: ::System::UriSyntaxFlags
 struct CORDL_TYPE UriSyntaxFlags {
 public:

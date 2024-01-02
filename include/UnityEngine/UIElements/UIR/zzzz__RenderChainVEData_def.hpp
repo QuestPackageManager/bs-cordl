@@ -11,26 +11,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderChainVEData)
-namespace UnityEngine {
-struct Color;
-}
-namespace UnityEngine::UIElements::UIR {
-struct RenderDataDirtyTypes;
-}
-namespace UnityEngine::UIElements::UIR {
-class MeshHandle;
-}
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
-}
-namespace UnityEngine::UIElements::UIR {
-class RenderChainCommand;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements::UIR::Implementation {
-struct ClipMethod;
 }
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class BasicNode_1;
@@ -42,10 +24,28 @@ namespace UnityEngine {
 struct Matrix4x4;
 }
 namespace UnityEngine::UIElements::UIR {
-struct TextureEntry;
+class MeshHandle;
+}
+namespace UnityEngine::UIElements::UIR::Implementation {
+struct ClipMethod;
 }
 namespace UnityEngine::UIElements::UIR {
 struct RenderChainTextEntry;
+}
+namespace UnityEngine::UIElements::UIR {
+class RenderChainCommand;
+}
+namespace UnityEngine::UIElements::UIR {
+struct TextureEntry;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Color;
+}
+namespace UnityEngine::UIElements::UIR {
+struct RenderDataDirtyTypes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -57,21 +57,21 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::RenderChainVEData);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(7531)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7480)), TypeDefinitionIndex(TypeDefinitionIndex(7460))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7482)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7394)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7445))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7396)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChainVEData
 struct CORDL_TYPE RenderChainVEData {
 public:
   // Declarations
   __declspec(property(get = get_lastClosingOrLastCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* lastClosingOrLastCommand;
 
-  /// @brief Method get_lastClosingOrLastCommand addr 0x2d29a68 size 0x18 virtual false final false
+  /// @brief Method get_lastClosingOrLastCommand, addr 0x2e91e18, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::RenderChainCommand* get_lastClosingOrLastCommand();
 
-  /// @brief Method AllocatesID addr 0x2d29a80 size 0x34 virtual false final false
+  /// @brief Method AllocatesID, addr 0x2e91e30, size 0x34, virtual false, abstract: false, final false
   static inline bool AllocatesID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
-  /// @brief Method InheritsID addr 0x2d29ab4 size 0x30 virtual false final false
+  /// @brief Method InheritsID, addr 0x2e91e64, size 0x30, virtual false, abstract: false, final false
   static inline bool InheritsID(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
 
   // Ctor Parameters [CppParam { name: "prev", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "next", ty:

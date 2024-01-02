@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::MCMDictionary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3174))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3175))
 // CS Name: ::System.Runtime.Remoting.Messaging::MCMDictionary*
 class CORDL_TYPE MCMDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor addr 0x23556a0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x24ae194, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MCMDictionary", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CookieParser)
 namespace System::Net {
-class CookieTokenizer;
+class Cookie;
 }
 namespace System::Net {
-class Cookie;
+class CookieTokenizer;
 }
 // Forward declare root types
 namespace System::Net {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::CookieParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7961))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9124))
 // CS Name: ::System.Net::CookieParser*
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
@@ -38,13 +38,13 @@ public:
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
 
-  /// @brief Method .ctor addr 0x282fdcc size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x29ad644, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW cookieString);
 
-  /// @brief Method Get addr 0x282fe44 size 0x55c virtual false final false
+  /// @brief Method Get, addr 0x29ad6bc, size 0x55c, virtual false, abstract: false, final false
   inline ::System::Net::Cookie* Get();
 
-  /// @brief Method CheckQuoted addr 0x282e4ac size 0xc4 virtual false final false
+  /// @brief Method CheckQuoted, addr 0x29abd24, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CheckQuoted(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CookieParser", modifiers: "&&", def_value: None }]

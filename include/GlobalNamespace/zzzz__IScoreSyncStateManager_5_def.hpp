@@ -2,17 +2,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager_5)
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
-}
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,30 +26,30 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4541))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14944))
 // CS Name: ::IScoreSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE IScoreSyncStateManager_5 {
 public:
   // Declarations
-  __declspec(property(get = get_syncTime)) float_t syncTime;
+  __declspec(property(get = get_syncTime)) int64_t syncTime;
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
   __declspec(property(get = get_localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
 
-  /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_syncTime();
+  /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t get_syncTime();
 
-  /// @brief Method get_connectedPlayerCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_connectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_localState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_localState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState();
 
-  /// @brief Method GetSyncStateForPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSyncStateForPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method GetSyncState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSyncState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "IScoreSyncStateManager_5", modifiers: "&&", def_value: None }]

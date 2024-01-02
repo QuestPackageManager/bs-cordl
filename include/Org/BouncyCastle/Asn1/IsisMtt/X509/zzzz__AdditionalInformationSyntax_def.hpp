@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AdditionalInformationSyntax)
+namespace Org::BouncyCastle::Asn1::X500 {
+class DirectoryString;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1::X500 {
-class DirectoryString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
@@ -41,23 +41,23 @@ public:
 
   constexpr void __set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  /// @brief Method GetInstance addr 0xf00590 size 0x158 virtual false final false
+  /// @brief Method GetInstance, addr 0xf767b4, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
-  /// @brief Method .ctor addr 0xf006e8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf7690c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* information);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* New_ctor(::StringW information);
 
-  /// @brief Method .ctor addr 0xf00710 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf76934, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW information);
 
-  /// @brief Method get_Information addr 0xf0078c size 0x8 virtual true final false
+  /// @brief Method get_Information, addr 0xf769b0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_Information();
 
-  /// @brief Method ToAsn1Object addr 0xf00794 size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf769b8, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AdditionalInformationSyntax", modifiers: "&&", def_value: None }]

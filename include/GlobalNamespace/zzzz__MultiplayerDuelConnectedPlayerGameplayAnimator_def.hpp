@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerDuelConnectedPlayerGameplayAnimator)
 namespace GlobalNamespace {
+struct __MultiplayerController__State;
+}
+namespace GlobalNamespace {
 class ScaleAnimator;
 }
 namespace GlobalNamespace {
 class MultiplayerConnectedPlayerLevelFailController;
-}
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5311))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5234))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5207))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5129))
 // CS Name: ::MultiplayerDuelConnectedPlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerDuelConnectedPlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
@@ -47,24 +47,24 @@ public:
 
   constexpr void __set__failController(::GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* value);
 
-  /// @brief Method OnDestroy addr 0x20f50c8 size 0xdc virtual true final false
+  /// @brief Method OnDestroy, addr 0x23d6c40, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method TransitionIntoFailedState addr 0x20f51a4 size 0xd4 virtual false final false
+  /// @brief Method TransitionIntoFailedState, addr 0x23d6d1c, size 0xd4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
-  /// @brief Method AnimateNewLeaderSelected addr 0x20f5278 size 0xdc virtual true final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x23d6df0, size 0xdc, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleStateChanged addr 0x20f5354 size 0x110 virtual true final false
+  /// @brief Method HandleStateChanged, addr 0x23d6ecc, size 0x110, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method HandlePlayerDidFail addr 0x20f5464 size 0x4 virtual false final false
+  /// @brief Method HandlePlayerDidFail, addr 0x23d6fdc, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
   static inline ::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x20f5468 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23d6fe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerDuelConnectedPlayerGameplayAnimator", modifiers: "&&", def_value: None }]

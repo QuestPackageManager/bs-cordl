@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(PlatformMappingService)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-struct RuntimePlatform;
-}
 namespace UnityEngine::AddressableAssets {
 struct AddressablesPlatform;
+}
+namespace UnityEngine {
+struct RuntimePlatform;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::PlatformMappingService);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14099))
 // CS Name: ::UnityEngine.AddressableAssets::PlatformMappingService*
 class CORDL_TYPE PlatformMappingService : public ::System::Object {
 public:
@@ -39,21 +39,21 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::RuntimePlatform, ::UnityEngine::AddressableAssets::AddressablesPlatform>* getStaticF_s_RuntimeTargetMapping();
 
-  /// @brief Method GetAddressablesPlatformInternal addr 0x28aa600 size 0xd4 virtual false final false
+  /// @brief Method GetAddressablesPlatformInternal, addr 0x2a28348, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetAddressablesPlatformInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetAddressablesPlatformPathInternal addr 0x28aa6d4 size 0x120 virtual false final false
+  /// @brief Method GetAddressablesPlatformPathInternal, addr 0x2a2841c, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW GetAddressablesPlatformPathInternal(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method GetPlatform addr 0x28aa7f4 size 0x60 virtual false final false
+  /// @brief Method GetPlatform, addr 0x2a2853c, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::AddressableAssets::AddressablesPlatform GetPlatform();
 
-  /// @brief Method GetPlatformPathSubFolder addr 0x289e4ac size 0x60 virtual false final false
+  /// @brief Method GetPlatformPathSubFolder, addr 0x2a1c1f4, size 0x60, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPathSubFolder();
 
   static inline ::UnityEngine::AddressableAssets::PlatformMappingService* New_ctor();
 
-  /// @brief Method .ctor addr 0x28aa854 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a2859c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformMappingService", modifiers: "&&", def_value: None }]

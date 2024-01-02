@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Mono::Security::Authenticode::PrivateKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Authenticode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13803))
 // CS Name: ::Mono.Security.Authenticode::PrivateKey*
 class CORDL_TYPE PrivateKey : public ::System::Object {
 public:
@@ -66,22 +66,22 @@ public:
 
   static inline ::Mono::Security::Authenticode::PrivateKey* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method .ctor addr 0x22b2e10 size 0xe4 virtual false final false
+  /// @brief Method .ctor, addr 0x240c890, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW password);
 
-  /// @brief Method get_RSA addr 0x22b3344 size 0x8 virtual false final false
+  /// @brief Method get_RSA, addr 0x240cdc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::RSA* get_RSA();
 
-  /// @brief Method DeriveKey addr 0x22b334c size 0x118 virtual false final false
+  /// @brief Method DeriveKey, addr 0x240cdcc, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DeriveKey(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::StringW password);
 
-  /// @brief Method Decode addr 0x22b2ef4 size 0x450 virtual false final false
+  /// @brief Method Decode, addr 0x240c974, size 0x450, virtual false, abstract: false, final false
   inline bool Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> pvk, ::StringW password);
 
-  /// @brief Method CreateFromFile addr 0x22b3464 size 0x8 virtual false final false
+  /// @brief Method CreateFromFile, addr 0x240cee4, size 0x8, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename);
 
-  /// @brief Method CreateFromFile addr 0x22b346c size 0x2bc virtual false final false
+  /// @brief Method CreateFromFile, addr 0x240ceec, size 0x2bc, virtual false, abstract: false, final false
   static inline ::Mono::Security::Authenticode::PrivateKey* CreateFromFile(::StringW filename, ::StringW password);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivateKey", modifiers: "&&", def_value: None }]

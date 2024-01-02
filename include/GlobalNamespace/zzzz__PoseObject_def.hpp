@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PoseObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6018))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5927))
 // CS Name: ::PoseObject*
 class CORDL_TYPE PoseObject : public ::System::Object {
 public:
@@ -49,15 +49,15 @@ public:
 
   constexpr void __set__poseObjectId(::GlobalNamespace::PoseObjectIdSO* value);
 
-  /// @brief Method get_objectTransform addr 0x21b81dc size 0x8 virtual false final false
+  /// @brief Method get_objectTransform, addr 0x230178c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_objectTransform();
 
-  /// @brief Method get_id addr 0x21b81e4 size 0x1c virtual false final false
+  /// @brief Method get_id, addr 0x2301794, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
   static inline ::GlobalNamespace::PoseObject* New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method .ctor addr 0x21b6360 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x22ff910, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoseObject", modifiers: "&&", def_value: None }]

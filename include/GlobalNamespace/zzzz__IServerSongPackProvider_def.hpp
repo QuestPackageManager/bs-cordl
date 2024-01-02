@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerSongPackProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12733))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12815))
 // CS Name: ::IServerSongPackProvider*
 class CORDL_TYPE IServerSongPackProvider {
 public:
   // Declarations
-  /// @brief Method DecomposeSongPackMask addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DecomposeSongPackMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::GlobalNamespace::SongPackMask, ::Array<::GlobalNamespace::SongPackMask>*> DecomposeSongPackMask(::GlobalNamespace::SongPackMask songPackMask);
 
   // Ctor Parameters [CppParam { name: "", ty: "IServerSongPackProvider", modifiers: "&&", def_value: None }]

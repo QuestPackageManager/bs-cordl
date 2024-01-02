@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::GuidAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3320))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3323))
 // CS Name: ::System.Runtime.InteropServices::GuidAttribute*
 class CORDL_TYPE GuidAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::GuidAttribute* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x237e3b8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24d72a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
   // Ctor Parameters [CppParam { name: "", ty: "GuidAttribute", modifiers: "&&", def_value: None }]

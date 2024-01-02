@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordInfo);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13712))
 // CS Name: ::UnityEngine.TextCore.Text::WordInfo
 struct CORDL_TYPE WordInfo {
 public:

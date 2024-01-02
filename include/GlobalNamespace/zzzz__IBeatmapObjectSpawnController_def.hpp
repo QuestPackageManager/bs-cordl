@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBeatmapObjectSpawnController)
-namespace UnityEngine {
-struct Vector2;
-}
-namespace GlobalNamespace {
-class BeatmapObjectSpawnMovementData;
-}
 namespace GlobalNamespace {
 struct NoteLineLayer;
 }
+namespace UnityEngine {
+struct Vector2;
+}
 namespace System {
 class Action;
+}
+namespace GlobalNamespace {
+class BeatmapObjectSpawnMovementData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapObjectSpawnController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4851))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4730))
 // CS Name: ::IBeatmapObjectSpawnController*
 class CORDL_TYPE IBeatmapObjectSpawnController {
 public:
@@ -53,46 +53,46 @@ public:
 
   __declspec(property(get = get_isInitialized)) bool isInitialized;
 
-  /// @brief Method get_noteLinesCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteLinesCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_noteLinesCount();
 
-  /// @brief Method get_jumpOffsetY addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_jumpOffsetY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpOffsetY();
 
-  /// @brief Method get_moveDuration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_moveDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_moveDuration();
 
-  /// @brief Method get_jumpDuration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_jumpDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpDuration();
 
-  /// @brief Method get_jumpDistance addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_jumpDistance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpDistance();
 
-  /// @brief Method get_verticalLayerDistance addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_verticalLayerDistance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_verticalLayerDistance();
 
-  /// @brief Method get_noteJumpMovementSpeed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteJumpMovementSpeed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_noteJumpMovementSpeed();
 
-  /// @brief Method get_noteLinesDistance addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteLinesDistance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_noteLinesDistance();
 
-  /// @brief Method get_beatmapObjectSpawnMovementData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapObjectSpawnMovementData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapObjectSpawnMovementData* get_beatmapObjectSpawnMovementData();
 
-  /// @brief Method get_isInitialized addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isInitialized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isInitialized();
 
-  /// @brief Method add_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didInitEvent(::System::Action* value);
 
-  /// @brief Method remove_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didInitEvent(::System::Action* value);
 
-  /// @brief Method Get2DNoteOffset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get2DNoteOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t JumpPosYForLineLayerAtDistanceFromPlayerWithoutJumpOffset(::GlobalNamespace::NoteLineLayer lineLayer, float_t distanceFromPlayer);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapObjectSpawnController", modifiers: "&&", def_value: None }]

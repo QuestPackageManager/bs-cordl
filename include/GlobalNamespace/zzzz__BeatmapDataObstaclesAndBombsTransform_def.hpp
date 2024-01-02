@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-struct __GameplayModifiers__EnabledObstacleType;
+class __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
 }
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
-class __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
+struct __GameplayModifiers__EnabledObstacleType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15146))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4161))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14999)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4127))
 // CS Name: ::BeatmapDataObstaclesAndBombsTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -57,10 +57,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cc4c4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x223a678, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0 addr 0x21cc5d4 size 0x2c virtual false final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x223a788, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -97,19 +97,19 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransfor
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4162))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4128))
 // CS Name: ::BeatmapDataObstaclesAndBombsTransform*
 class CORDL_TYPE BeatmapDataObstaclesAndBombsTransform : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData addr 0x21cc390 size 0x134 virtual false final false
+  /// @brief Method CreateTransformedData, addr 0x223a544, size 0x134, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
-  /// @brief Method ShouldUseBeatmapDataItem addr 0x21cc4cc size 0x108 virtual false final false
+  /// @brief Method ShouldUseBeatmapDataItem, addr 0x223a680, size 0x108, virtual false, abstract: false, final false
   static inline bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesAndBombsTransform", modifiers: "&&", def_value: None }]

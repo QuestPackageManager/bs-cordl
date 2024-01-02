@@ -26,18 +26,18 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Audio::__AudioSampleProvider__Sample
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15609))
 // CS Name: ::AudioSampleProvider::SampleFramesHandler*
 class CORDL_TYPE __AudioSampleProvider__SampleFramesHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2b385e8 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9d310, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2b38718 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2c9d440, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Experimental::Audio::AudioSampleProvider* provider, uint32_t sampleFrameCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AudioSampleProvider__SampleFramesHandler", modifiers: "&&", def_value: None }]
@@ -64,8 +64,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Audio
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15630))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15610))
 // CS Name: ::UnityEngine.Experimental.Audio::AudioSampleProvider*
 class CORDL_TYPE AudioSampleProvider : public ::System::Object {
 public:
@@ -90,10 +90,10 @@ public:
 
   constexpr void __set_sampleFramesOverflow(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value);
 
-  /// @brief Method InvokeSampleFramesAvailable addr 0x2b38598 size 0x28 virtual false final false
+  /// @brief Method InvokeSampleFramesAvailable, addr 0x2c9d2c0, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesAvailable(int32_t sampleFrameCount);
 
-  /// @brief Method InvokeSampleFramesOverflow addr 0x2b385c0 size 0x28 virtual false final false
+  /// @brief Method InvokeSampleFramesOverflow, addr 0x2c9d2e8, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesOverflow(int32_t droppedSampleFrameCount);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioSampleProvider", modifiers: "&&", def_value: None }]

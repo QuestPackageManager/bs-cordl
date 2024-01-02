@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::WhiteSpace);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6897))
 // CS Name: ::UnityEngine.UIElements::WhiteSpace
 struct CORDL_TYPE WhiteSpace {
 public:

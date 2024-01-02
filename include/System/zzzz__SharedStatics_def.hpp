@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::SharedStatics);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2569))
 // CS Name: ::System::SharedStatics*
 class CORDL_TYPE SharedStatics : public ::System::Object {
 public:
@@ -42,13 +42,13 @@ public:
 
   static inline ::System::SharedStatics* New_ctor();
 
-  /// @brief Method .ctor addr 0x2496998 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25f18c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetSharedStringMaker addr 0x24969a0 size 0x1d0 virtual false final false
+  /// @brief Method GetSharedStringMaker, addr 0x25f18c8, size 0x1d0, virtual false, abstract: false, final false
   static inline ::System::Security::Util::__Tokenizer__StringMaker* GetSharedStringMaker();
 
-  /// @brief Method ReleaseSharedStringMaker addr 0x2496b70 size 0x150 virtual false final false
+  /// @brief Method ReleaseSharedStringMaker, addr 0x25f1a98, size 0x150, virtual false, abstract: false, final false
   static inline void ReleaseSharedStringMaker(ByRef<::System::Security::Util::__Tokenizer__StringMaker*> maker);
 
   // Ctor Parameters [CppParam { name: "", ty: "SharedStatics", modifiers: "&&", def_value: None }]

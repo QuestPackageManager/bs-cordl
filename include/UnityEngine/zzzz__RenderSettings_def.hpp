@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::UnityEngine::RenderSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10015))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10087))
 // CS Name: ::UnityEngine::RenderSettings*
 class CORDL_TYPE RenderSettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method get_fogColor addr 0x2b514b0 size 0x48 virtual false final false
+  /// @brief Method get_fogColor, addr 0x2cb68c8, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color get_fogColor();
 
-  /// @brief Method set_fogColor addr 0x2b51534 size 0x44 virtual false final false
+  /// @brief Method set_fogColor, addr 0x2cb694c, size 0x44, virtual false, abstract: false, final false
   static inline void set_fogColor(::UnityEngine::Color value);
 
-  /// @brief Method get_fogColor_Injected addr 0x2b514f8 size 0x3c virtual false final false
+  /// @brief Method get_fogColor_Injected, addr 0x2cb6910, size 0x3c, virtual false, abstract: false, final false
   static inline void get_fogColor_Injected(ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method set_fogColor_Injected addr 0x2b51578 size 0x3c virtual false final false
+  /// @brief Method set_fogColor_Injected, addr 0x2cb6990, size 0x3c, virtual false, abstract: false, final false
   static inline void set_fogColor_Injected(ByRef<::UnityEngine::Color> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RenderSettings", modifiers: "&&", def_value: None }]

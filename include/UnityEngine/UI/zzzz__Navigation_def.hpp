@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Navigation)
+namespace UnityEngine::UI {
+class Selectable;
+}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UI {
 struct __Navigation__Mode;
-}
-namespace UnityEngine::UI {
-class Selectable;
 }
 // Forward declare root types
 namespace UnityEngine::UI {
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UI::Navigation);
 namespace UnityEngine::UI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13109))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13104))
 // CS Name: ::Navigation::Mode
 struct CORDL_TYPE __Navigation__Mode {
 public:
@@ -91,8 +91,8 @@ static_assert(offsetof(::UnityEngine::UI::__Navigation__Mode, value__) == 0x0, "
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13109))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13110))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13104))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13105))
 // CS Name: ::UnityEngine.UI::Navigation
 struct CORDL_TYPE Navigation {
 public:
@@ -114,46 +114,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UI::Navigation>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UI::Navigation>*();
 
-  /// @brief Method get_mode addr 0x2c15c7c size 0x8 virtual false final false
+  /// @brief Method get_mode, addr 0x2d7e02c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Navigation__Mode get_mode();
 
-  /// @brief Method set_mode addr 0x2c15c84 size 0x8 virtual false final false
+  /// @brief Method set_mode, addr 0x2d7e034, size 0x8, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::UI::__Navigation__Mode value);
 
-  /// @brief Method get_wrapAround addr 0x2c15c8c size 0x8 virtual false final false
+  /// @brief Method get_wrapAround, addr 0x2d7e03c, size 0x8, virtual false, abstract: false, final false
   inline bool get_wrapAround();
 
-  /// @brief Method set_wrapAround addr 0x2c15c94 size 0xc virtual false final false
+  /// @brief Method set_wrapAround, addr 0x2d7e044, size 0xc, virtual false, abstract: false, final false
   inline void set_wrapAround(bool value);
 
-  /// @brief Method get_selectOnUp addr 0x2c15ca0 size 0x8 virtual false final false
+  /// @brief Method get_selectOnUp, addr 0x2d7e050, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* get_selectOnUp();
 
-  /// @brief Method set_selectOnUp addr 0x2c15ca8 size 0x8 virtual false final false
+  /// @brief Method set_selectOnUp, addr 0x2d7e058, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnUp(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method get_selectOnDown addr 0x2c15cb0 size 0x8 virtual false final false
+  /// @brief Method get_selectOnDown, addr 0x2d7e060, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* get_selectOnDown();
 
-  /// @brief Method set_selectOnDown addr 0x2c15cb8 size 0x8 virtual false final false
+  /// @brief Method set_selectOnDown, addr 0x2d7e068, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnDown(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method get_selectOnLeft addr 0x2c15cc0 size 0x8 virtual false final false
+  /// @brief Method get_selectOnLeft, addr 0x2d7e070, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* get_selectOnLeft();
 
-  /// @brief Method set_selectOnLeft addr 0x2c15cc8 size 0x8 virtual false final false
+  /// @brief Method set_selectOnLeft, addr 0x2d7e078, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnLeft(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method get_selectOnRight addr 0x2c15cd0 size 0x8 virtual false final false
+  /// @brief Method get_selectOnRight, addr 0x2d7e080, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Selectable* get_selectOnRight();
 
-  /// @brief Method set_selectOnRight addr 0x2c15cd8 size 0x8 virtual false final false
+  /// @brief Method set_selectOnRight, addr 0x2d7e088, size 0x8, virtual false, abstract: false, final false
   inline void set_selectOnRight(::UnityEngine::UI::Selectable* value);
 
-  /// @brief Method get_defaultNavigation addr 0x2c15ce0 size 0x20 virtual false final false
+  /// @brief Method get_defaultNavigation, addr 0x2d7e090, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::Navigation get_defaultNavigation();
 
-  /// @brief Method Equals addr 0x2c15d00 size 0x118 virtual true final true
+  /// @brief Method Equals, addr 0x2d7e0b0, size 0x118, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UI::Navigation other);
 
   // Ctor Parameters [CppParam { name: "m_Mode", ty: "::UnityEngine::UI::__Navigation__Mode", modifiers: "", def_value: None }, CppParam { name: "m_WrapAround", ty: "bool", modifiers: "", def_value:

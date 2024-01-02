@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_TextElementType);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12433))
 // CS Name: ::TMPro::TMP_TextElementType
 struct CORDL_TYPE TMP_TextElementType {
 public:

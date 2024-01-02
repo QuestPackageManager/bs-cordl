@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::DateTimeConverterBase);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12032))
 // CS Name: ::Newtonsoft.Json.Converters::DateTimeConverterBase*
 class CORDL_TYPE DateTimeConverterBase : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert addr 0x254f560 size 0x140 virtual true final false
+  /// @brief Method CanConvert, addr 0x26b3ca4, size 0x140, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::DateTimeConverterBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x254f6a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26b3de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeConverterBase", modifiers: "&&", def_value: None }]

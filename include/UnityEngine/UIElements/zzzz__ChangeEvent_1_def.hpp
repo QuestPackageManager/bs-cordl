@@ -16,9 +16,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1653 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7267), inst: 993 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7267)), TypeDefinitionIndex(TypeDefinitionIndex(7266))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7267)) CS Name:
-// ::UnityEngine.UIElements::ChangeEvent`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7181), inst: 1012 }), TypeDefinitionIndex(TypeDefinitionIndex(7181)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1720 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7181)) CS
+// Name: ::UnityEngine.UIElements::ChangeEvent`1<T>*
 class CORDL_TYPE ChangeEvent_1 : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::ChangeEvent_1<T>*> {
 public:
   // Declarations
@@ -44,30 +44,30 @@ public:
 
   constexpr void __set__newValue_k__BackingField(T value);
 
-  /// @brief Method get_previousValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_previousValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_previousValue();
 
-  /// @brief Method set_previousValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_previousValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_previousValue(T value);
 
-  /// @brief Method get_newValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_newValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_newValue();
 
-  /// @brief Method set_newValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_newValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_newValue(T value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ChangeEvent_1<T>* GetPooled(T previousValue, T newValue);
 
   static inline ::UnityEngine::UIElements::ChangeEvent_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChangeEvent_1", modifiers: "&&", def_value: None }]

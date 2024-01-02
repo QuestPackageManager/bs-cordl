@@ -15,40 +15,40 @@ namespace GlobalNamespace {
 class OVRTrackedKeyboard;
 }
 namespace GlobalNamespace {
+class OVRCameraRig;
+}
+namespace GlobalNamespace {
+struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+}
+namespace GlobalNamespace {
 class OVRHand;
 }
 namespace UnityEngine {
-class GameObject;
+class SkinnedMeshRenderer;
 }
 namespace GlobalNamespace {
-class OVRSkeleton;
+class OVRMeshRenderer;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine {
-class SkinnedMeshRenderer;
-}
-namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-class OVRMeshRenderer;
-}
-namespace GlobalNamespace {
-struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
-}
-namespace GlobalNamespace {
-class OVRCameraRig;
+class GameObject;
 }
 namespace GlobalNamespace {
 class OVRSkeletonRenderer;
 }
 namespace GlobalNamespace {
+struct __OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace GlobalNamespace {
 struct __OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent;
 }
 namespace GlobalNamespace {
-struct __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent;
+class OVRSkeleton;
 }
 namespace GlobalNamespace {
 struct __OVRTrackedKeyboardHands__HandBoneMapping;
@@ -74,8 +74,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyboardHandsVis
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8944))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8855))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8169))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8039))
 // CS Name: ::OVRTrackedKeyboardHands::HandBoneMapping
 struct CORDL_TYPE __OVRTrackedKeyboardHands__HandBoneMapping {
 public:
@@ -142,7 +142,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__HandBoneMap
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8856))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8040))
 // CS Name: ::OVRTrackedKeyboardHands::TrackedKeyboardHandsVisibilityChangedEvent
 struct CORDL_TYPE __OVRTrackedKeyboardHands__TrackedKeyboardHandsVisibilityChangedEvent {
 public:
@@ -177,8 +177,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardHands__TrackedKeyb
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 212, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(2446)), TypeDefinitionIndex(TypeDefinitionIndex(8856)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4676 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8857)) CS Name: ::OVRTrackedKeyboardHands*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4776 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8040)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8041)) CS Name: ::OVRTrackedKeyboardHands*
 class CORDL_TYPE OVRTrackedKeyboardHands : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -466,63 +466,63 @@ public:
 
   static inline float_t getStaticF_minimumModelHandsDistance_();
 
-  /// @brief Method get_RightHandOverKeyboard addr 0x262c9dc size 0x8 virtual false final false
+  /// @brief Method get_RightHandOverKeyboard, addr 0x2796e5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_RightHandOverKeyboard();
 
-  /// @brief Method set_RightHandOverKeyboard addr 0x262c9e4 size 0xc virtual false final false
+  /// @brief Method set_RightHandOverKeyboard, addr 0x2796e64, size 0xc, virtual false, abstract: false, final false
   inline void set_RightHandOverKeyboard(bool value);
 
-  /// @brief Method get_LeftHandOverKeyboard addr 0x262c9f0 size 0x8 virtual false final false
+  /// @brief Method get_LeftHandOverKeyboard, addr 0x2796e70, size 0x8, virtual false, abstract: false, final false
   inline bool get_LeftHandOverKeyboard();
 
-  /// @brief Method set_LeftHandOverKeyboard addr 0x262c9f8 size 0xc virtual false final false
+  /// @brief Method set_LeftHandOverKeyboard, addr 0x2796e78, size 0xc, virtual false, abstract: false, final false
   inline void set_LeftHandOverKeyboard(bool value);
 
-  /// @brief Method Awake addr 0x262ca04 size 0x1e4 virtual false final false
+  /// @brief Method Awake, addr 0x2796e84, size 0x1e4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x262cbe8 size 0x290 virtual false final false
+  /// @brief Method Start, addr 0x2797068, size 0x304, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method get_AreControllersActive addr 0x262cfe8 size 0x3c virtual false final false
+  /// @brief Method get_AreControllersActive, addr 0x27974dc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_AreControllersActive();
 
-  /// @brief Method LateUpdate addr 0x262d024 size 0x7e0 virtual false final false
+  /// @brief Method LateUpdate, addr 0x2797518, size 0x7dc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ShouldEnablePassthrough addr 0x262dbcc size 0x6c virtual false final false
+  /// @brief Method ShouldEnablePassthrough, addr 0x27980b0, size 0x6c, virtual false, abstract: false, final false
   inline bool ShouldEnablePassthrough(float_t distance);
 
-  /// @brief Method ShouldEnableModel addr 0x262dc38 size 0x6c virtual false final false
+  /// @brief Method ShouldEnableModel, addr 0x279811c, size 0x6c, virtual false, abstract: false, final false
   inline bool ShouldEnableModel(float_t distance);
 
-  /// @brief Method GetHandDistanceToKeyboard addr 0x262d8f0 size 0x2dc virtual false final false
+  /// @brief Method GetHandDistanceToKeyboard, addr 0x2797de0, size 0x2d0, virtual false, abstract: false, final false
   inline float_t GetHandDistanceToKeyboard(::GlobalNamespace::OVRSkeleton* handSkeleton);
 
-  /// @brief Method ComputeOpacity addr 0x262deac size 0x24 virtual false final false
+  /// @brief Method ComputeOpacity, addr 0x2798390, size 0x24, virtual false, abstract: false, final false
   inline float_t ComputeOpacity(float_t distance, float_t innerThreshold, float_t outerThreshold);
 
-  /// @brief Method SetHandModelsEnabled addr 0x262dca4 size 0x208 virtual false final false
+  /// @brief Method SetHandModelsEnabled, addr 0x2798188, size 0x208, virtual false, abstract: false, final false
   inline void SetHandModelsEnabled(bool enableLeftModel, bool enableRightModel);
 
-  /// @brief Method RetargetHandTrackingToHandPresence addr 0x262ce78 size 0x170 virtual false final false
+  /// @brief Method RetargetHandTrackingToHandPresence, addr 0x279736c, size 0x170, virtual false, abstract: false, final false
   inline void RetargetHandTrackingToHandPresence();
 
-  /// @brief Method StopHandPresence addr 0x262ded0 size 0x30 virtual false final false
+  /// @brief Method StopHandPresence, addr 0x27983b4, size 0x30, virtual false, abstract: false, final false
   inline void StopHandPresence();
 
-  /// @brief Method DisableHandObjects addr 0x262d804 size 0xec virtual false final false
+  /// @brief Method DisableHandObjects, addr 0x2797cf4, size 0xec, virtual false, abstract: false, final false
   inline void DisableHandObjects();
 
-  /// @brief Method TrackedKeyboardActiveUpdated addr 0x262df00 size 0xc virtual false final false
+  /// @brief Method TrackedKeyboardActiveUpdated, addr 0x27983e4, size 0xc, virtual false, abstract: false, final false
   inline void TrackedKeyboardActiveUpdated(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardSetActiveEvent e);
 
-  /// @brief Method TrackedKeyboardVisibilityChanged addr 0x262df0c size 0x1b0 virtual false final false
+  /// @brief Method TrackedKeyboardVisibilityChanged, addr 0x27983f0, size 0x1b0, virtual false, abstract: false, final false
   inline void TrackedKeyboardVisibilityChanged(::GlobalNamespace::__OVRTrackedKeyboard__TrackedKeyboardVisibilityChangedEvent e);
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardHands* New_ctor();
 
-  /// @brief Method .ctor addr 0x262e0bc size 0x750 virtual false final false
+  /// @brief Method .ctor, addr 0x27985a0, size 0x750, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardHands", modifiers: "&&", def_value: None }]

@@ -11,17 +11,20 @@ template <typename T> class List_1;
 namespace Tayx::Graphy::UI {
 class IMovable;
 }
-namespace Tayx::Graphy::Fps {
-class G_FpsGraph;
+namespace Tayx::Graphy::UI {
+class IModifiableState;
 }
 namespace UnityEngine::UI {
 class Image;
 }
-namespace Tayx::Graphy::Fps {
-class G_FpsText;
-}
 namespace Tayx::Graphy {
 struct __GraphyManager__ModuleState;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace Tayx::Graphy::Fps {
+class G_FpsMonitor;
 }
 namespace Tayx::Graphy {
 class GraphyManager;
@@ -29,17 +32,14 @@ class GraphyManager;
 namespace UnityEngine {
 class RectTransform;
 }
-namespace Tayx::Graphy::UI {
-class IModifiableState;
+namespace Tayx::Graphy::Fps {
+class G_FpsText;
 }
 namespace Tayx::Graphy {
 struct __GraphyManager__ModulePosition;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace Tayx::Graphy::Fps {
-class G_FpsMonitor;
+class G_FpsGraph;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsManager);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15242)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15082))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsManager*
 class CORDL_TYPE G_FpsManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -162,36 +162,37 @@ public:
 
   constexpr void __set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  /// @brief Method Awake addr 0x288b5dc size 0x4 virtual false final false
+  /// @brief Method Awake, addr 0x2a08a04, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x288ba84 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x2a08a08, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method SetPosition addr 0x288504c size 0x2e8 virtual true final true
+  /// @brief Method SetPosition, addr 0x2a008cc, size 0x2e8, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::__GraphyManager__ModulePosition newModulePosition);
 
-  /// @brief Method SetState addr 0x2885948 size 0x1b0 virtual true final true
-  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate);
+  /// @brief Method SetState, addr 0x2a011c8, size 0x1b0, virtual true, abstract: false, final true
+  /// @param silentUpdate: bool (default: false)
+  inline void SetState(::Tayx::Graphy::__GraphyManager__ModuleState state, bool silentUpdate = false);
 
-  /// @brief Method RestorePreviousState addr 0x2887d10 size 0xc virtual false final false
+  /// @brief Method RestorePreviousState, addr 0x2a035f0, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method UpdateParameters addr 0x2885b28 size 0x1fc virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a013a8, size 0x1fc, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method RefreshParameters addr 0x2888388 size 0x1f4 virtual false final false
+  /// @brief Method RefreshParameters, addr 0x2a05b6c, size 0x1f4, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method Init addr 0x288b5e0 size 0x4a4 virtual false final false
+  /// @brief Method Init, addr 0x2a037f4, size 0x4e4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method SetGraphActive addr 0x288ba88 size 0x44 virtual false final false
+  /// @brief Method SetGraphActive, addr 0x2a08a0c, size 0x44, virtual false, abstract: false, final false
   inline void SetGraphActive(bool active);
 
   static inline ::Tayx::Graphy::Fps::G_FpsManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x288bb2c size 0xe4 virtual false final false
+  /// @brief Method .ctor, addr 0x2a08bf4, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsManager", modifiers: "&&", def_value: None }]

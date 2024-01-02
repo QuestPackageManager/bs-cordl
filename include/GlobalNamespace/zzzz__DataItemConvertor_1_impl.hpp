@@ -4,14 +4,13 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename TOut> inline TOut GlobalNamespace::DataItemConvertor_1<TOut>::Convert(::System::Object* item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DataItemConvertor_1<TOut>*>::get(), "Convert", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DataItemConvertor_1<TOut>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<TOut, false>(this, ___internal_method, item);
 }
 template <typename TOut> inline ::System::Type* GlobalNamespace::DataItemConvertor_1<TOut>::get_inputDataType() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DataItemConvertor_1<TOut>*>::get(),
-                                                                             "get_inputDataType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DataItemConvertor_1<TOut>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 template <typename TOut> inline ::GlobalNamespace::DataItemConvertor_1<TOut>* GlobalNamespace::DataItemConvertor_1<TOut>::New_ctor() {

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::JsonPath::QueryOperator);
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11949))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12021))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryOperator
 struct CORDL_TYPE QueryOperator {
 public:

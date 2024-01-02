@@ -17,21 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelEndActions);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5120))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5015))
 // CS Name: ::ILevelEndActions*
 class CORDL_TYPE ILevelEndActions {
 public:
   // Declarations
-  /// @brief Method add_levelFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_levelFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_levelFinishedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_levelFinishedEvent(::System::Action* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelEndActions", modifiers: "&&", def_value: None }]

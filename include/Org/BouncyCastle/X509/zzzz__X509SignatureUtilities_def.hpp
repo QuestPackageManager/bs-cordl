@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509SignatureUtilities)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1Null;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Null;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509 {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509SignatureUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1868))
 // CS Name: ::Org.BouncyCastle.X509::X509SignatureUtilities*
 class CORDL_TYPE X509SignatureUtilities : public ::System::Object {
@@ -43,18 +43,18 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull();
 
-  /// @brief Method SetSignatureParameters addr 0x110ed04 size 0x7c virtual false final false
+  /// @brief Method SetSignatureParameters, addr 0x117ef4c, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner* signature, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method GetSignatureName addr 0x110731c size 0x2e4 virtual false final false
+  /// @brief Method GetSignatureName, addr 0x1177564, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
-  /// @brief Method GetDigestAlgName addr 0x110ed80 size 0x370 virtual false final false
+  /// @brief Method GetDigestAlgName, addr 0x117efc8, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
   static inline ::Org::BouncyCastle::X509::X509SignatureUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x110f168 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x117f3b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509SignatureUtilities", modifiers: "&&", def_value: None }]

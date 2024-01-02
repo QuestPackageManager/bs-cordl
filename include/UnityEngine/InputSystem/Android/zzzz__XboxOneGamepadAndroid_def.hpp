@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);
 // SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 500, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6517))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6355))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6431))
 // CS Name: ::UnityEngine.InputSystem.Android::XboxOneGamepadAndroid*
 class CORDL_TYPE XboxOneGamepadAndroid : public ::UnityEngine::InputSystem::XInput::XInputController {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor addr 0x2965c78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ae59c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XboxOneGamepadAndroid", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent);
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14024))
 // CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEvent
 struct CORDL_TYPE DiagnosticEvent {
 public:
@@ -37,34 +37,34 @@ public:
 
   __declspec(property(get = get_Value)) int32_t Value;
 
-  /// @brief Method get_Graph addr 0x2a588b4 size 0x8 virtual false final false
+  /// @brief Method get_Graph, addr 0x2bdb608, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Graph();
 
-  /// @brief Method get_ObjectId addr 0x2a588bc size 0x8 virtual false final false
+  /// @brief Method get_ObjectId, addr 0x2bdb610, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectId();
 
-  /// @brief Method get_DisplayName addr 0x2a588c4 size 0x8 virtual false final false
+  /// @brief Method get_DisplayName, addr 0x2bdb618, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_Dependencies addr 0x2a588cc size 0x8 virtual false final false
+  /// @brief Method get_Dependencies, addr 0x2bdb620, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_Dependencies();
 
-  /// @brief Method get_Stream addr 0x2a588d4 size 0x8 virtual false final false
+  /// @brief Method get_Stream, addr 0x2bdb628, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Stream();
 
-  /// @brief Method get_Frame addr 0x2a588dc size 0x8 virtual false final false
+  /// @brief Method get_Frame, addr 0x2bdb630, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Frame();
 
-  /// @brief Method get_Value addr 0x2a588e4 size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x2bdb638, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
-  /// @brief Method .ctor addr 0x2a588ec size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x2bdb640, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW graph, ::StringW name, int32_t id, int32_t stream, int32_t frame, int32_t value, ::ArrayW<int32_t, ::Array<int32_t>*> deps);
 
-  /// @brief Method Serialize addr 0x2a58904 size 0x98 virtual false final false
+  /// @brief Method Serialize, addr 0x2bdb658, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Serialize();
 
-  /// @brief Method Deserialize addr 0x2a5899c size 0x8c virtual false final false
+  /// @brief Method Deserialize, addr 0x2bdb6f0, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent Deserialize(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "m_Graph", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Dependencies", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "",

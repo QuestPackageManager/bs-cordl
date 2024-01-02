@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Joystick)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
 namespace UnityEngine::InputSystem::Controls {
 class AxisControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class StickControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class Vector2Control;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Joystick);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6327))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6241))
 // CS Name: ::UnityEngine.InputSystem::Joystick*
 class CORDL_TYPE Joystick : public ::UnityEngine::InputSystem::InputDevice {
 public:
@@ -102,54 +102,54 @@ public:
 
   static inline ::ArrayW<::UnityEngine::InputSystem::Joystick*, ::Array<::UnityEngine::InputSystem::Joystick*>*> getStaticF_s_Joysticks();
 
-  /// @brief Method get_trigger addr 0x28ebec8 size 0x8 virtual false final false
+  /// @brief Method get_trigger, addr 0x2a6bc10, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_trigger();
 
-  /// @brief Method set_trigger addr 0x28ebed0 size 0x8 virtual false final false
+  /// @brief Method set_trigger, addr 0x2a6bc18, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_stick addr 0x28ebed8 size 0x8 virtual false final false
+  /// @brief Method get_stick, addr 0x2a6bc20, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::StickControl* get_stick();
 
-  /// @brief Method set_stick addr 0x28ebee0 size 0x8 virtual false final false
+  /// @brief Method set_stick, addr 0x2a6bc28, size 0x8, virtual false, abstract: false, final false
   inline void set_stick(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  /// @brief Method get_twist addr 0x28ebee8 size 0x8 virtual false final false
+  /// @brief Method get_twist, addr 0x2a6bc30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
-  /// @brief Method set_twist addr 0x28ebef0 size 0x8 virtual false final false
+  /// @brief Method set_twist, addr 0x2a6bc38, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_hatswitch addr 0x28ebef8 size 0x8 virtual false final false
+  /// @brief Method get_hatswitch, addr 0x2a6bc40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_hatswitch();
 
-  /// @brief Method set_hatswitch addr 0x28ebf00 size 0x8 virtual false final false
+  /// @brief Method set_hatswitch, addr 0x2a6bc48, size 0x8, virtual false, abstract: false, final false
   inline void set_hatswitch(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_current addr 0x28ebf08 size 0x48 virtual false final false
+  /// @brief Method get_current, addr 0x2a6bc50, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Joystick* get_current();
 
-  /// @brief Method set_current addr 0x28ebf50 size 0x4c virtual false final false
+  /// @brief Method set_current, addr 0x2a6bc98, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Joystick* value);
 
-  /// @brief Method get_all addr 0x28ebf9c size 0x80 virtual false final false
+  /// @brief Method get_all, addr 0x2a6bce4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Joystick*> get_all();
 
-  /// @brief Method FinishSetup addr 0x28ec01c size 0x13c virtual true final false
+  /// @brief Method FinishSetup, addr 0x2a6bd64, size 0x13c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent addr 0x28ec158 size 0x4c virtual true final false
+  /// @brief Method MakeCurrent, addr 0x2a6bea0, size 0x4c, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnAdded addr 0x28ec1a4 size 0x78 virtual true final false
+  /// @brief Method OnAdded, addr 0x2a6beec, size 0x78, virtual true, abstract: false, final false
   inline void OnAdded();
 
-  /// @brief Method OnRemoved addr 0x28ec21c size 0x118 virtual true final false
+  /// @brief Method OnRemoved, addr 0x2a6bf64, size 0x118, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   static inline ::UnityEngine::InputSystem::Joystick* New_ctor();
 
-  /// @brief Method .ctor addr 0x28ec334 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2a6c07c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Joystick", modifiers: "&&", def_value: None }]

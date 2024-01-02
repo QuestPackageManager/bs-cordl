@@ -9,10 +9,10 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
+class IBeatmapLevelCollection;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+class IPreviewBeatmapLevel;
 }
 namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewBeatmapLevelCollectionSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4423))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4403))
 // CS Name: ::PreviewBeatmapLevelCollectionSO*
 class CORDL_TYPE PreviewBeatmapLevelCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -47,12 +47,12 @@ public:
 
   constexpr void __set__beatmapLevels(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> value);
 
-  /// @brief Method get_beatmapLevels addr 0x21ff420 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevels, addr 0x234ba98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
 
   static inline ::GlobalNamespace::PreviewBeatmapLevelCollectionSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ff428 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234baa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreviewBeatmapLevelCollectionSO", modifiers: "&&", def_value: None }]

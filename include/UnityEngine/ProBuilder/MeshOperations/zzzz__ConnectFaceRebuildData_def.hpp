@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConnectFaceRebuildData)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine::ProBuilder {
 class FaceRebuildData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12250))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData*
 class CORDL_TYPE ConnectFaceRebuildData : public ::System::Object {
 public:
@@ -48,7 +48,7 @@ public:
   static inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData,
                                                                                             ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
-  /// @brief Method .ctor addr 0x2a2268c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2ba43e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConnectFaceRebuildData", modifiers: "&&", def_value: None }]

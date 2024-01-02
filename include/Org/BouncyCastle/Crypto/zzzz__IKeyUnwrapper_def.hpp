@@ -29,10 +29,10 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
-  /// @brief Method get_AlgorithmDetails addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmDetails, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Unwrap addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Unwrap, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyUnwrapper", modifiers: "&&", def_value: None }]

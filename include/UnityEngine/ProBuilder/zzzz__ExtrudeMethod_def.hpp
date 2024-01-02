@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ExtrudeMethod);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12169))
 // CS Name: ::UnityEngine.ProBuilder::ExtrudeMethod
 struct CORDL_TYPE ExtrudeMethod {
 public:

@@ -7,10 +7,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightColorBeatmapEventDataBox)
 namespace GlobalNamespace {
-class BeatmapEventData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+struct EaseType;
 }
 namespace GlobalNamespace {
 class IndexFilter;
@@ -18,17 +15,20 @@ class IndexFilter;
 namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
-namespace GlobalNamespace {
-struct EaseType;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class LightColorBaseData;
+}
+namespace GlobalNamespace {
+class BeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4327))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4340))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4320))
 // CS Name: ::LightColorBeatmapEventDataBox*
 class CORDL_TYPE LightColorBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
@@ -88,10 +88,10 @@ public:
 
   constexpr void __set__brightnessDistributionShouldAffectFirstBaseEvent(bool value);
 
-  /// @brief Method get_subtypeIdentifier addr 0x21f1170 size 0x8 virtual true final false
+  /// @brief Method get_subtypeIdentifier, addr 0x233b82c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
-  /// @brief Method get_beatStep addr 0x21f1178 size 0x8 virtual true final false
+  /// @brief Method get_beatStep, addr 0x233b834, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
   static inline ::GlobalNamespace::LightColorBeatmapEventDataBox*
@@ -99,13 +99,13 @@ public:
            float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent,
            ::GlobalNamespace::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method .ctor addr 0x21eb60c size 0x200 virtual false final false
+  /// @brief Method .ctor, addr 0x23366d4, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
                     float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType,
                     bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
                     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
 
-  /// @brief Method Unpack addr 0x21f1180 size 0x4d4 virtual true final false
+  /// @brief Method Unpack, addr 0x233b83c, size 0x14e8, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 

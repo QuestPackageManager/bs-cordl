@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StackGuard);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2789))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2793))
 // CS Name: ::System.Threading.Tasks::StackGuard*
 class CORDL_TYPE StackGuard : public ::System::Object {
 public:
@@ -30,15 +30,15 @@ public:
 
   constexpr void __set_m_inliningDepth(int32_t value);
 
-  /// @brief Method TryBeginInliningScope addr 0x24d1290 size 0x40 virtual false final false
+  /// @brief Method TryBeginInliningScope, addr 0x262b39c, size 0x40, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
-  /// @brief Method EndInliningScope addr 0x24d12d0 size 0x14 virtual false final false
+  /// @brief Method EndInliningScope, addr 0x262b3dc, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c9fb8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26240c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StackGuard", modifiers: "&&", def_value: None }]

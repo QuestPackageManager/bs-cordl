@@ -11,8 +11,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedMediaAsyncLoader)
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
 namespace GlobalNamespace {
 template <typename TKey, typename TValue> class AsyncCachedLoader_2;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 struct __CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
@@ -20,23 +29,14 @@ struct __CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
 namespace GlobalNamespace {
 class ISpriteAsyncLoader;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace UnityEngine {
-class Sprite;
-}
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -52,19 +52,19 @@ MARK_VAL_T(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 765 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10213))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6001)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __CachedMediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21b5484 size 0x2c0 virtual true final true
+  /// @brief Method MoveNext, addr 0x22fea34, size 0x2c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21b5744 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22fecf4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -123,8 +123,8 @@ static_assert(offsetof(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteA
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5911))
 // CS Name: ::CachedMediaAsyncLoader*
 class CORDL_TYPE CachedMediaAsyncLoader : public ::UnityEngine::MonoBehaviour {
 public:
@@ -152,15 +152,15 @@ public:
 
   constexpr void __set__spriteAsyncCachedLoader(::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>* value);
 
-  /// @brief Method ClearCache addr 0x21b5318 size 0x58 virtual false final false
+  /// @brief Method ClearCache, addr 0x22fe8c8, size 0x58, virtual false, abstract: false, final false
   inline void ClearCache();
 
-  /// @brief Method LoadSpriteAsync addr 0x21b5370 size 0x104 virtual true final true
+  /// @brief Method LoadSpriteAsync, addr 0x22fe920, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::CachedMediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b5474 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x22fea24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedMediaAsyncLoader", modifiers: "&&", def_value: None }]

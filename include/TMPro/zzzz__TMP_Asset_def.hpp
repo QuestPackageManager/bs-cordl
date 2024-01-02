@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::TMPro::TMP_Asset);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12255))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12327))
 // CS Name: ::TMPro::TMP_Asset*
 class CORDL_TYPE TMP_Asset : public ::UnityEngine::ScriptableObject {
 public:
@@ -62,12 +62,12 @@ public:
 
   constexpr void __set_materialHashCode(int32_t value);
 
-  /// @brief Method get_instanceID addr 0x2a7c960 size 0x28 virtual false final false
+  /// @brief Method get_instanceID, addr 0x2c016b4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
   static inline ::TMPro::TMP_Asset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a7c988 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c016dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_Asset", modifiers: "&&", def_value: None }]

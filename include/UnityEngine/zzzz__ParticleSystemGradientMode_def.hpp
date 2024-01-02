@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemGradientMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15785))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15893))
 // CS Name: ::UnityEngine::ParticleSystemGradientMode
 struct CORDL_TYPE ParticleSystemGradientMode {
 public:

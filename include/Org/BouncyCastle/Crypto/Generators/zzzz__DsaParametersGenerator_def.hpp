@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DsaParametersGenerator)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class DsaParameters;
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class DsaParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DsaParameterGenerationParameters;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(898))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DsaParametersGenerator*
 class CORDL_TYPE DsaParametersGenerator : public ::System::Object {
@@ -102,51 +102,51 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe8332c size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xef8500, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xe83398 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xef856c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Init addr 0xe833c0 size 0x9c virtual true final false
+  /// @brief Method Init, addr 0xef8594, size 0x9c, virtual true, abstract: false, final false
   inline void Init(int32_t size, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0xe8348c size 0x29c virtual true final false
+  /// @brief Method Init, addr 0xef8660, size 0x29c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Parameters::DsaParameterGenerationParameters* parameters);
 
-  /// @brief Method GenerateParameters addr 0xe83728 size 0x1c virtual true final false
+  /// @brief Method GenerateParameters, addr 0xef88fc, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters();
 
-  /// @brief Method GenerateParameters_FIPS186_2 addr 0xe83744 size 0x538 virtual true final false
+  /// @brief Method GenerateParameters_FIPS186_2, addr 0xef8918, size 0x538, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters_FIPS186_2();
 
-  /// @brief Method CalculateGenerator_FIPS186_2 addr 0xe83dec size 0x114 virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_2, addr 0xef8fc0, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_2(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                              ::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method GenerateParameters_FIPS186_3 addr 0xe83f00 size 0x58c virtual true final false
+  /// @brief Method GenerateParameters_FIPS186_3, addr 0xef90d4, size 0x58c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::DsaParameters* GenerateParameters_FIPS186_3();
 
-  /// @brief Method CalculateGenerator_FIPS186_3_Unverifiable addr 0xe8448c size 0xc virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_3_Unverifiable, addr 0xef9660, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_3_Unverifiable(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                           ::Org::BouncyCastle::Security::SecureRandom* r);
 
-  /// @brief Method CalculateGenerator_FIPS186_3_Verifiable addr 0xe84498 size 0x2b0 virtual true final false
+  /// @brief Method CalculateGenerator_FIPS186_3_Verifiable, addr 0xef966c, size 0x2b0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateGenerator_FIPS186_3_Verifiable(::Org::BouncyCastle::Crypto::IDigest* d, ::Org::BouncyCastle::Math::BigInteger* p,
                                                                                         ::Org::BouncyCastle::Math::BigInteger* q, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t index);
 
-  /// @brief Method IsValidDsaStrength addr 0xe8345c size 0x1c virtual false final false
+  /// @brief Method IsValidDsaStrength, addr 0xef8630, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsValidDsaStrength(int32_t strength);
 
-  /// @brief Method Hash addr 0xe83c7c size 0x128 virtual false final false
+  /// @brief Method Hash, addr 0xef8e50, size 0x128, virtual false, abstract: false, final false
   static inline void Hash(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetDefaultN addr 0xe83478 size 0x14 virtual false final false
+  /// @brief Method GetDefaultN, addr 0xef864c, size 0x14, virtual false, abstract: false, final false
   static inline int32_t GetDefaultN(int32_t L);
 
-  /// @brief Method Inc addr 0xe83da4 size 0x48 virtual false final false
+  /// @brief Method Inc, addr 0xef8f78, size 0x48, virtual false, abstract: false, final false
   static inline void Inc(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
   // Ctor Parameters [CppParam { name: "", ty: "DsaParametersGenerator", modifiers: "&&", def_value: None }]

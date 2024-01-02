@@ -6,29 +6,29 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIItemsList_1)
-namespace HMUI {
-template <typename T> class __UIItemsList_1__DataCallback;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Transform;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace HMUI {
+template <typename T> class __UIItemsList_1__DataCallback;
 }
 namespace Zenject {
 class DiContainer;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class IAsyncResult;
 }
 // Forward declare root types
 namespace HMUI {
@@ -46,24 +46,24 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
 // CS Name: ::UIItemsList`1::DataCallback<T>*
 class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(int32_t idx, T item);
 
-  /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(int32_t idx, T item, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UIItemsList_1__DataCallback", modifiers: "&&", def_value: None }]
@@ -90,8 +90,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13674))
 // CS Name: ::HMUI::UIItemsList`1<T>*
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,15 +145,15 @@ public:
 
   constexpr void __set__items(::System::Collections::Generic::List_1<T>* value);
 
-  /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<T>* get_items();
 
-  /// @brief Method SetData addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetData(int32_t numberOfElements, ::HMUI::__UIItemsList_1__DataCallback<T>* dataCallback);
 
   static inline ::HMUI::UIItemsList_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UIItemsList_1", modifiers: "&&", def_value: None }]

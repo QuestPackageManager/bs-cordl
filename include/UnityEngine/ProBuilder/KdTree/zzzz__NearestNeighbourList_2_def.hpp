@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NearestNeighbourList_2)
 namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TDistance> class INearestNeighbourList_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TItem, typename TPriority> class PriorityQueue_2;
-}
-namespace UnityEngine::ProBuilder::KdTree {
-template <typename T> class ITypeMath_1;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree {
@@ -26,8 +26,8 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15922))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::NearestNeighbourList`2<TItem,TDistance>*
 class CORDL_TYPE NearestNeighbourList_2 : public ::System::Object {
 public:
@@ -70,28 +70,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2<TItem, TDistance>* New_ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCapacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TDistance>* distanceMath);
 
-  /// @brief Method get_MaxCapacity addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_MaxCapacity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_MaxCapacity();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Add(TItem item, TDistance distance);
 
-  /// @brief Method GetFurtherest addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem GetFurtherest();
 
-  /// @brief Method GetFurtherestDistance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetFurtherestDistance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TDistance GetFurtherestDistance();
 
-  /// @brief Method RemoveFurtherest addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RemoveFurtherest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem RemoveFurtherest();
 
-  /// @brief Method get_IsCapacityReached addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCapacityReached, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCapacityReached();
 
   // Ctor Parameters [CppParam { name: "", ty: "NearestNeighbourList_2", modifiers: "&&", def_value: None }]

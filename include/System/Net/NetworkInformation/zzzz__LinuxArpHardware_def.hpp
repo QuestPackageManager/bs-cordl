@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::LinuxArpHardware);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8113))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9276))
 // CS Name: ::System.Net.NetworkInformation::LinuxArpHardware
 struct CORDL_TYPE LinuxArpHardware {
 public:

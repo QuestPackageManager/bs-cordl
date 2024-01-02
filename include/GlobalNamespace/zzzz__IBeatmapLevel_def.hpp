@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4391))
 // CS Name: ::IBeatmapLevel*
 class CORDL_TYPE IBeatmapLevel {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr operator ::GlobalNamespace::IPreviewBeatmapLevel*() noexcept;
 
-  /// @brief Method get_beatmapLevelData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapLevelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevel", modifiers: "&&", def_value: None }]

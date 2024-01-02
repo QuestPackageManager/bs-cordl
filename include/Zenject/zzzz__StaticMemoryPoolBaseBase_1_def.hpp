@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StaticMemoryPoolBaseBase_1)
-namespace System {
-template <typename T> class Action_1;
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 namespace System {
 class Type;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
-namespace Zenject {
-class IMemoryPool;
-}
 namespace System {
-class Object;
+template <typename T> class Action_1;
 }
 namespace System {
 class IDisposable;
 }
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class IMemoryPool;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11084))
 // CS Name: ::Zenject::StaticMemoryPoolBaseBase`1<TValue>*
 class CORDL_TYPE StaticMemoryPoolBaseBase_1 : public ::System::Object {
 public:
@@ -92,55 +92,55 @@ public:
 
   static inline ::Zenject::StaticMemoryPoolBaseBase_1<TValue>* New_ctor(::System::Action_1<TValue>* onDespawnedMethod);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<TValue>* onDespawnedMethod);
 
-  /// @brief Method set_OnDespawnedMethod addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_OnDespawnedMethod, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OnDespawnedMethod(::System::Action_1<TValue>* value);
 
-  /// @brief Method get_NumTotal addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumTotal();
 
-  /// @brief Method get_NumActive addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumActive();
 
-  /// @brief Method get_NumInactive addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumInactive();
 
-  /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Resize(int32_t desiredPoolSize);
 
-  /// @brief Method ResizeInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ResizeInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResizeInternal(int32_t desiredPoolSize);
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ClearActiveCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClearActiveCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearActiveCount();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method ShrinkBy addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ShrinkBy(int32_t numToRemove);
 
-  /// @brief Method ExpandBy addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ExpandBy(int32_t numToAdd);
 
-  /// @brief Method SpawnInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SpawnInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue SpawnInternal();
 
-  /// @brief Method Zenject.IMemoryPool.Despawn addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Zenject.IMemoryPool.Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Zenject_IMemoryPool_Despawn(::System::Object* item);
 
-  /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Despawn(TValue element);
 
-  /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Alloc();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBaseBase_1", modifiers: "&&", def_value: None }]

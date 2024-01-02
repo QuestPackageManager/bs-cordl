@@ -12,20 +12,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoChunkStream)
-namespace System::Net {
-struct __MonoChunkStream___FinishReading_d__8;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace System::IO {
 class Stream;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::Net {
-class WebOperation;
 }
 namespace System::Net {
 class WebHeaderCollection;
@@ -34,10 +22,22 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System::Net {
-struct __MonoChunkStream___ProcessReadAsync_d__7;
+struct __MonoChunkStream___FinishReading_d__8;
 }
 namespace System::Net {
 class MonoChunkParser;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System::Net {
+struct __MonoChunkStream___ProcessReadAsync_d__7;
+}
+namespace System::Net {
+class WebOperation;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
@@ -46,10 +46,10 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
@@ -72,8 +72,8 @@ MARK_VAL_T(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8031)) CS
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9194)) CS
 // Name: ::MonoChunkStream::<ProcessReadAsync>d__7
 struct CORDL_TYPE __MonoChunkStream___ProcessReadAsync_d__7 {
 public:
@@ -81,10 +81,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2858580 size 0x36c virtual true final true
+  /// @brief Method MoveNext, addr 0x29d4df4, size 0x36c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x28588ec size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x29d5160, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -160,19 +160,19 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3392)), TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8032))
-// CS Name: ::MonoChunkStream::<FinishReading>d__8
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9195)) CS
+// Name: ::MonoChunkStream::<FinishReading>d__8
 struct CORDL_TYPE __MonoChunkStream___FinishReading_d__8 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2858944 size 0x3d0 virtual true final true
+  /// @brief Method MoveNext, addr 0x29d51b8, size 0x3d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2858d14 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x29d5588, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -238,8 +238,8 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___FinishReading_d__8, __
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8033))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9196))
 // CS Name: ::System.Net::MonoChunkStream*
 class CORDL_TYPE MonoChunkStream : public ::System::Net::WebReadStream {
 public:
@@ -268,25 +268,25 @@ public:
 
   constexpr void __set__Decoder_k__BackingField(::System::Net::MonoChunkParser* value);
 
-  /// @brief Method get_Decoder addr 0x2858110 size 0x8 virtual false final false
+  /// @brief Method get_Decoder, addr 0x29d4984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::MonoChunkParser* get_Decoder();
 
   static inline ::System::Net::MonoChunkStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method .ctor addr 0x2858118 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x29d498c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method ProcessReadAsync addr 0x2858218 size 0x124 virtual true final false
+  /// @brief Method ProcessReadAsync, addr 0x29d4a8c, size 0x124, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FinishReading addr 0x285833c size 0xe0 virtual true final false
+  /// @brief Method FinishReading, addr 0x29d4bb0, size 0xe0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ThrowExpectingChunkTrailer addr 0x285841c size 0x5c virtual false final false
+  /// @brief Method ThrowExpectingChunkTrailer, addr 0x29d4c90, size 0x5c, virtual false, abstract: false, final false
   static inline void ThrowExpectingChunkTrailer();
 
-  /// @brief Method <>n__0 addr 0x2858478 size 0x4 virtual false final false
+  /// @brief Method <>n__0, addr 0x29d4cec, size 0x4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* __n__0(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoChunkStream", modifiers: "&&", def_value: None }]

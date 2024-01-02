@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Security::ISecurityEncodable);
 namespace System::Security {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2879))
 // CS Name: ::System.Security::ISecurityEncodable*
 class CORDL_TYPE ISecurityEncodable {
 public:
   // Declarations
-  /// @brief Method ToXml addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToXml, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::SecurityElement* ToXml();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISecurityEncodable", modifiers: "&&", def_value: None }]

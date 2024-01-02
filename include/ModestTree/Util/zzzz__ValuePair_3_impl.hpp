@@ -57,9 +57,8 @@ template <typename T1, typename T2, typename T3> inline void ModestTree::Util::V
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, first, second, third);
 }
 template <typename T1, typename T2, typename T3> inline bool ModestTree::Util::ValuePair_3<T1, T2, T3>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T1, typename T2, typename T3> inline bool ModestTree::Util::ValuePair_3<T1, T2, T3>::Equals(::ModestTree::Util::ValuePair_3<T1, T2, T3>* that) {
@@ -69,8 +68,8 @@ template <typename T1, typename T2, typename T3> inline bool ModestTree::Util::V
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, that);
 }
 template <typename T1, typename T2, typename T3> inline int32_t ModestTree::Util::ValuePair_3<T1, T2, T3>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), "GetHashCode",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::Util::ValuePair_3<T1, T2, T3>*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 // Ctor Parameters []

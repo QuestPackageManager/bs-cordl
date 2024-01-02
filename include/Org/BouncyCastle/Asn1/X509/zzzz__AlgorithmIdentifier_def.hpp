@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AlgorithmIdentifier)
 namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -63,42 +63,42 @@ public:
 
   constexpr void __set_parameters(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0xf12064 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xf88288, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xeff194 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf753b8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method .ctor addr 0xf1221c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf88440, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::StringW algorithm);
 
-  /// @brief Method .ctor addr 0xf12244 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf88468, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor addr 0xf122c0 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf884e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf1207c size 0x1a0 virtual false final false
+  /// @brief Method .ctor, addr 0xf882a0, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Algorithm addr 0xf122ec size 0x8 virtual true final false
+  /// @brief Method get_Algorithm, addr 0xf88510, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Algorithm();
 
-  /// @brief Method get_ObjectID addr 0xf122f4 size 0x8 virtual true final false
+  /// @brief Method get_ObjectID, addr 0xf88518, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ObjectID();
 
-  /// @brief Method get_Parameters addr 0xf122fc size 0x8 virtual true final false
+  /// @brief Method get_Parameters, addr 0xf88520, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Parameters();
 
-  /// @brief Method ToAsn1Object addr 0xf12304 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf88528, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifier", modifiers: "&&", def_value: None }]

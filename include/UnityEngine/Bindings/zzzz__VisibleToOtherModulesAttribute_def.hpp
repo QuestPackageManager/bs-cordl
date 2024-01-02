@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::VisibleToOtherModulesAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15876))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16012))
 // CS Name: ::UnityEngine.Bindings::VisibleToOtherModulesAttribute*
 class CORDL_TYPE VisibleToOtherModulesAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb0e6c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1821c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor addr 0x2bb0e74 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisibleToOtherModulesAttribute", modifiers: "&&", def_value: None }]

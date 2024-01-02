@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDeclaration)
 namespace System::Xml {
-struct XmlNodeType;
-}
-namespace System::Xml {
 class XmlDocument;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System::Xml {
+struct XmlNodeType;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlDeclaration);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11441))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11432))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11504))
 // CS Name: ::System.Xml::XmlDeclaration*
 class CORDL_TYPE XmlDeclaration : public ::System::Xml::XmlLinkedNode {
 public:
@@ -75,52 +75,52 @@ public:
 
   static inline ::System::Xml::XmlDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x27070c8 size 0x190 virtual false final false
+  /// @brief Method .ctor, addr 0x28840e8, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Version addr 0x2707488 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x28844a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
-  /// @brief Method set_Version addr 0x2707490 size 0x8 virtual false final false
+  /// @brief Method set_Version, addr 0x28844b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
-  /// @brief Method get_Encoding addr 0x2707498 size 0x8 virtual false final false
+  /// @brief Method get_Encoding, addr 0x28844b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding addr 0x27072d4 size 0x68 virtual false final false
+  /// @brief Method set_Encoding, addr 0x28842f4, size 0x68, virtual false, abstract: false, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone addr 0x27074a0 size 0x8 virtual false final false
+  /// @brief Method get_Standalone, addr 0x28844c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone addr 0x270733c size 0x14c virtual false final false
+  /// @brief Method set_Standalone, addr 0x288435c, size 0x14c, virtual false, abstract: false, final false
   inline void set_Standalone(::StringW value);
 
-  /// @brief Method get_Value addr 0x27074a8 size 0x10 virtual true final false
+  /// @brief Method get_Value, addr 0x28844c8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x27074b8 size 0x10 virtual true final false
+  /// @brief Method set_Value, addr 0x28844d8, size 0x10, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_InnerText addr 0x27074c8 size 0x168 virtual true final false
+  /// @brief Method get_InnerText, addr 0x28844e8, size 0x168, virtual true, abstract: false, final false
   inline ::StringW get_InnerText();
 
-  /// @brief Method set_InnerText addr 0x2707630 size 0x18c virtual true final false
+  /// @brief Method set_InnerText, addr 0x2884650, size 0x18c, virtual true, abstract: false, final false
   inline void set_InnerText(::StringW value);
 
-  /// @brief Method get_Name addr 0x27077bc size 0x40 virtual true final false
+  /// @brief Method get_Name, addr 0x28847dc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x27077fc size 0xc virtual true final false
+  /// @brief Method get_LocalName, addr 0x288481c, size 0xc, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2707808 size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x2884828, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode addr 0x2707810 size 0x3c virtual true final false
+  /// @brief Method CloneNode, addr 0x2884830, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method IsValidXmlVersion addr 0x2707258 size 0x7c virtual false final false
+  /// @brief Method IsValidXmlVersion, addr 0x2884278, size 0x7c, virtual false, abstract: false, final false
   inline bool IsValidXmlVersion(::StringW ver);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlDeclaration", modifiers: "&&", def_value: None }]

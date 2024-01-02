@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKTransform)
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -23,16 +23,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTransform);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15213)), TypeDefinitionIndex(TypeDefinitionIndex(15214))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15119))
 // CS Name: ::LIV.SDK.Unity::SDKTransform
 struct CORDL_TYPE SDKTransform {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20b4330 size 0x14 virtual false final false
+  /// @brief Method get_empty, addr 0x2215268, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTransform get_empty();
 
-  /// @brief Method ToString addr 0x20b4d88 size 0xe8 virtual true final false
+  /// @brief Method ToString, addr 0x2215cc0, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "localPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "localRotation", ty: "::LIV::SDK::Unity::SDKQuaternion",

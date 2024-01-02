@@ -10,10 +10,10 @@ namespace GlobalNamespace {
 struct __PlaybackRenderer__PlaybackScreenshot__Type;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__Mode;
+struct __ObjectsMovementRecorder__CameraView;
 }
 namespace GlobalNamespace {
-struct __ObjectsMovementRecorder__CameraView;
+struct __ObjectsMovementRecorder__Mode;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,28 +25,28 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorderSerializedMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6013))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5922))
 // CS Name: ::ObjectsMovementRecorderSerializedMethods*
 class CORDL_TYPE ObjectsMovementRecorderSerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SerializedName addr 0x21b6c38 size 0x74 virtual false final false
+  /// @brief Method SerializedName, addr 0x23001e8, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode);
 
-  /// @brief Method ModeFromSerializedName addr 0x21b6cac size 0xcc virtual false final false
+  /// @brief Method ModeFromSerializedName, addr 0x230025c, size 0xcc, virtual false, abstract: false, final false
   static inline bool ModeFromSerializedName(::StringW name, ByRef<::GlobalNamespace::__ObjectsMovementRecorder__Mode> mode);
 
-  /// @brief Method SerializedName addr 0x21b6d78 size 0x70 virtual false final false
+  /// @brief Method SerializedName, addr 0x2300328, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView);
 
-  /// @brief Method CameraViewFromSerializedName addr 0x21b6de8 size 0x9c virtual false final false
+  /// @brief Method CameraViewFromSerializedName, addr 0x2300398, size 0x9c, virtual false, abstract: false, final false
   static inline bool CameraViewFromSerializedName(::StringW name, ByRef<::GlobalNamespace::__ObjectsMovementRecorder__CameraView> cameraView);
 
-  /// @brief Method SerializedName addr 0x21b6e84 size 0x68 virtual false final false
+  /// @brief Method SerializedName, addr 0x2300434, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type type);
 
-  /// @brief Method PlaybackScreenshotTypeFromSerializedName addr 0x21b6eec size 0xa4 virtual false final false
+  /// @brief Method PlaybackScreenshotTypeFromSerializedName, addr 0x230049c, size 0xa4, virtual false, abstract: false, final false
   static inline bool PlaybackScreenshotTypeFromSerializedName(::StringW name, ByRef<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type> type);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorderSerializedMethods", modifiers: "&&", def_value: None }]

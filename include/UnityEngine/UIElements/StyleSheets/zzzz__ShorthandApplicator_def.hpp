@@ -12,23 +12,23 @@ class StylePropertyReader;
 namespace UnityEngine::UIElements {
 struct EasingFunction;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UIElements {
+struct TimeValue;
 }
 namespace UnityEngine::UIElements {
 struct StylePropertyName;
 }
 namespace UnityEngine::UIElements {
-struct Length;
-}
-namespace UnityEngine::UIElements {
 struct ComputedStyle;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::UIElements {
-struct TimeValue;
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -40,8 +40,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::ShorthandApplicator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7546))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7460))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::ShorthandApplicator*
 class CORDL_TYPE ShorthandApplicator : public ::System::Object {
 public:
@@ -78,57 +78,57 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* getStaticF_s_TransitionTimingFunctionList();
 
-  /// @brief Method CompileFlexShorthand addr 0x2c7daa0 size 0x1e8 virtual false final false
+  /// @brief Method CompileFlexShorthand, addr 0x2de3e50, size 0x1e8, virtual false, abstract: false, final false
   static inline bool CompileFlexShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> grow, ByRef<float_t> shrink,
                                           ByRef<::UnityEngine::UIElements::Length> basis);
 
-  /// @brief Method CompileBorderRadius addr 0x2c7df9c size 0x148 virtual false final false
+  /// @brief Method CompileBorderRadius, addr 0x2de434c, size 0x148, virtual false, abstract: false, final false
   static inline void CompileBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top,
                                          ByRef<::UnityEngine::UIElements::Length> right, ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
 
-  /// @brief Method CompileBoxArea addr 0x2c7e0e4 size 0x15c virtual false final false
+  /// @brief Method CompileBoxArea, addr 0x2de4494, size 0x15c, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::Length> top, ByRef<::UnityEngine::UIElements::Length> right,
                                     ByRef<::UnityEngine::UIElements::Length> bottom, ByRef<::UnityEngine::UIElements::Length> left);
 
-  /// @brief Method CompileBoxArea addr 0x2c7e240 size 0xb8 virtual false final false
+  /// @brief Method CompileBoxArea, addr 0x2de45f0, size 0xb8, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<float_t> top, ByRef<float_t> right, ByRef<float_t> bottom, ByRef<float_t> left);
 
-  /// @brief Method CompileBoxArea addr 0x2c7e2f8 size 0x168 virtual false final false
+  /// @brief Method CompileBoxArea, addr 0x2de46a8, size 0x168, virtual false, abstract: false, final false
   static inline void CompileBoxArea(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> top, ByRef<::UnityEngine::Color> right,
                                     ByRef<::UnityEngine::Color> bottom, ByRef<::UnityEngine::Color> left);
 
-  /// @brief Method CompileTextOutline addr 0x2c7e564 size 0xa0 virtual false final false
+  /// @brief Method CompileTextOutline, addr 0x2de4914, size 0xa0, virtual false, abstract: false, final false
   static inline void CompileTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::Color> outlineColor, ByRef<float_t> outlineWidth);
 
-  /// @brief Method CompileTransition addr 0x2c7e604 size 0x694 virtual false final false
+  /// @brief Method CompileTransition, addr 0x2de49b4, size 0x694, virtual false, abstract: false, final false
   static inline void CompileTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDelay,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*> outDuration,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*> outProperty,
                                        ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*> outTimingFunction);
 
-  /// @brief Method ApplyBorderColor addr 0x2c7ed90 size 0xf4 virtual false final false
+  /// @brief Method ApplyBorderColor, addr 0x2de5140, size 0xf4, virtual false, abstract: false, final false
   static inline void ApplyBorderColor(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyBorderRadius addr 0x2c7ee84 size 0xf0 virtual false final false
+  /// @brief Method ApplyBorderRadius, addr 0x2de5234, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyBorderRadius(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyBorderWidth addr 0x2c7ef74 size 0xec virtual false final false
+  /// @brief Method ApplyBorderWidth, addr 0x2de5324, size 0xec, virtual false, abstract: false, final false
   static inline void ApplyBorderWidth(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyFlex addr 0x2c7f060 size 0xd0 virtual false final false
+  /// @brief Method ApplyFlex, addr 0x2de5410, size 0xd0, virtual false, abstract: false, final false
   static inline void ApplyFlex(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyMargin addr 0x2c7f130 size 0xf0 virtual false final false
+  /// @brief Method ApplyMargin, addr 0x2de54e0, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyMargin(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyPadding addr 0x2c7f220 size 0xf0 virtual false final false
+  /// @brief Method ApplyPadding, addr 0x2de55d0, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyPadding(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyTransition addr 0x2c7f310 size 0x150 virtual false final false
+  /// @brief Method ApplyTransition, addr 0x2de56c0, size 0x150, virtual false, abstract: false, final false
   static inline void ApplyTransition(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method ApplyUnityTextOutline addr 0x2c7f460 size 0xb8 virtual false final false
+  /// @brief Method ApplyUnityTextOutline, addr 0x2de5810, size 0xb8, virtual false, abstract: false, final false
   static inline void ApplyUnityTextOutline(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* reader, ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
   // Ctor Parameters [CppParam { name: "", ty: "ShorthandApplicator", modifiers: "&&", def_value: None }]

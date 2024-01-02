@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GraphicRegistry)
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::UI {
+class Graphic;
 }
 namespace UnityEngine {
 class Canvas;
@@ -13,8 +13,8 @@ class Canvas;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine::UI {
-class Graphic;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace UnityEngine::UI::Collections {
 template <typename T> class IndexedSet_1;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UI::GraphicRegistry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13046))
 // CS Name: ::UnityEngine.UI::GraphicRegistry*
 class CORDL_TYPE GraphicRegistry : public ::System::Object {
 public:
@@ -79,34 +79,34 @@ public:
 
   static inline ::UnityEngine::UI::GraphicRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bf85dc size 0x1a8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d6098c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instance addr 0x2bf8784 size 0xa8 virtual false final false
+  /// @brief Method get_instance, addr 0x2d60b34, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::GraphicRegistry* get_instance();
 
-  /// @brief Method RegisterGraphicForCanvas addr 0x2bf4434 size 0x1f4 virtual false final false
+  /// @brief Method RegisterGraphicForCanvas, addr 0x2d5c7e4, size 0x1f4, virtual false, abstract: false, final false
   static inline void RegisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method RegisterRaycastGraphicForCanvas addr 0x2bf390c size 0x1f4 virtual false final false
+  /// @brief Method RegisterRaycastGraphicForCanvas, addr 0x2d5bcbc, size 0x1f4, virtual false, abstract: false, final false
   static inline void RegisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterGraphicForCanvas addr 0x2bf4e38 size 0x1a4 virtual false final false
+  /// @brief Method UnregisterGraphicForCanvas, addr 0x2d5d1e8, size 0x1a4, virtual false, abstract: false, final false
   static inline void UnregisterGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method UnregisterRaycastGraphicForCanvas addr 0x2bf3790 size 0x17c virtual false final false
+  /// @brief Method UnregisterRaycastGraphicForCanvas, addr 0x2d5bb40, size 0x17c, virtual false, abstract: false, final false
   static inline void UnregisterRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method DisableGraphicForCanvas addr 0x2bf4090 size 0x180 virtual false final false
+  /// @brief Method DisableGraphicForCanvas, addr 0x2d5c440, size 0x180, virtual false, abstract: false, final false
   static inline void DisableGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method DisableRaycastGraphicForCanvas addr 0x2bf882c size 0x180 virtual false final false
+  /// @brief Method DisableRaycastGraphicForCanvas, addr 0x2d60bdc, size 0x180, virtual false, abstract: false, final false
   static inline void DisableRaycastGraphicForCanvas(::UnityEngine::Canvas* c, ::UnityEngine::UI::Graphic* graphic);
 
-  /// @brief Method GetGraphicsForCanvas addr 0x2bf89ac size 0xbc virtual false final false
+  /// @brief Method GetGraphicsForCanvas, addr 0x2d60d5c, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* GetGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetRaycastableGraphicsForCanvas addr 0x2bf7da4 size 0xbc virtual false final false
+  /// @brief Method GetRaycastableGraphicsForCanvas, addr 0x2d60154, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::UnityEngine::UI::Graphic*>* GetRaycastableGraphicsForCanvas(::UnityEngine::Canvas* canvas);
 
   // Ctor Parameters [CppParam { name: "", ty: "GraphicRegistry", modifiers: "&&", def_value: None }]

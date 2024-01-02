@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_month);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11563))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11635))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11647))
 // CS Name: ::System.Xml.Schema::Datatype_month*
 class CORDL_TYPE Datatype_month : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  /// @brief Method get_TypeCode addr 0x273c1a8 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode, addr 0x28ba1cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
   static inline ::System::Xml::Schema::Datatype_month* New_ctor();
 
-  /// @brief Method .ctor addr 0x273c1b0 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x28ba1d4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_month", modifiers: "&&", def_value: None }]

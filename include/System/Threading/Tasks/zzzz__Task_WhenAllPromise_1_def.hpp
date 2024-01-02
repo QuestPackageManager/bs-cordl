@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise_1)
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+class ITaskCompletionAction;
 }
 namespace System::Threading::Tasks {
-class ITaskCompletionAction;
+template <typename TResult> class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -27,8 +27,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 5022 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2781))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5134 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2785))
 // CS Name: ::Task::WhenAllPromise`1<T>*
 class CORDL_TYPE __Task__WhenAllPromise_1 : public ::System::Threading::Tasks::Task_1<::ArrayW<T, ::Array<T>*>> {
 public:
@@ -60,16 +60,16 @@ public:
 
   static inline ::System::Threading::Tasks::__Task__WhenAllPromise_1<T>* New_ctor(::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> tasks);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> tasks);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
-  /// @brief Method get_InvokeMayRunArbitraryCode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Task__WhenAllPromise_1", modifiers: "&&", def_value: None }]

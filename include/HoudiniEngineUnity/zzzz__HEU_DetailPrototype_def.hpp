@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_DetailPrototype);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9956))
 // CS Name: ::HoudiniEngineUnity::HEU_DetailPrototype*
 class CORDL_TYPE HEU_DetailPrototype : public ::System::Object {
 public:
@@ -131,10 +131,10 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_DetailPrototype* New_ctor();
 
-  /// @brief Method .ctor addr 0x2091e78 size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0x21ea814, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method IsEquivalentTo addr 0x2091f74 size 0xec virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21ea910, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_DetailPrototype* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_DetailPrototype", modifiers: "&&", def_value: None }]

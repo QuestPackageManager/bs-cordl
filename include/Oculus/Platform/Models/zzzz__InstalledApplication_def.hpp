@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::InstalledApplication);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13483))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13437))
 // CS Name: ::Oculus.Platform.Models::InstalledApplication*
 class CORDL_TYPE InstalledApplication : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::Oculus::Platform::Models::InstalledApplication* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b36e8 size 0xb8 virtual false final false
+  /// @brief Method .ctor, addr 0x2706094, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "InstalledApplication", modifiers: "&&", def_value: None }]

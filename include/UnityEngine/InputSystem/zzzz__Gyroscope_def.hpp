@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Gyroscope);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6362))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6276))
 // CS Name: ::UnityEngine.InputSystem::Gyroscope*
 class CORDL_TYPE Gyroscope : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -42,30 +42,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::Gyroscope* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_angularVelocity addr 0x2929088 size 0x8 virtual false final false
+  /// @brief Method get_angularVelocity, addr 0x2aa7dd0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity();
 
-  /// @brief Method set_angularVelocity addr 0x2929090 size 0x8 virtual false final false
+  /// @brief Method set_angularVelocity, addr 0x2aa7dd8, size 0x8, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_current addr 0x2929098 size 0x48 virtual false final false
+  /// @brief Method get_current, addr 0x2aa7de0, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Gyroscope* get_current();
 
-  /// @brief Method set_current addr 0x29290e0 size 0x4c virtual false final false
+  /// @brief Method set_current, addr 0x2aa7e28, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Gyroscope* value);
 
-  /// @brief Method MakeCurrent addr 0x292912c size 0x54 virtual true final false
+  /// @brief Method MakeCurrent, addr 0x2aa7e74, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x2929180 size 0x84 virtual true final false
+  /// @brief Method OnRemoved, addr 0x2aa7ec8, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x2929204 size 0x78 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2aa7f4c, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Gyroscope* New_ctor();
 
-  /// @brief Method .ctor addr 0x292927c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa7fc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gyroscope", modifiers: "&&", def_value: None }]

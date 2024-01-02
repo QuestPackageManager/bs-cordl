@@ -17,19 +17,19 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::TilemapRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9992))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15832))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15940))
 // CS Name: ::UnityEngine.Tilemaps::TilemapRenderer*
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method RegisterSpriteAtlasRegistered addr 0x2be7d88 size 0x80 virtual false final false
+  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x2d50138, size 0x80, virtual false, abstract: false, final false
   inline void RegisterSpriteAtlasRegistered();
 
-  /// @brief Method UnregisterSpriteAtlasRegistered addr 0x2be7e08 size 0x80 virtual false final false
+  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x2d501b8, size 0x80, virtual false, abstract: false, final false
   inline void UnregisterSpriteAtlasRegistered();
 
-  /// @brief Method OnSpriteAtlasRegistered addr 0x2be7e88 size 0x44 virtual false final false
+  /// @brief Method OnSpriteAtlasRegistered, addr 0x2d50238, size 0x44, virtual false, abstract: false, final false
   inline void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
 
   // Ctor Parameters [CppParam { name: "", ty: "TilemapRenderer", modifiers: "&&", def_value: None }]

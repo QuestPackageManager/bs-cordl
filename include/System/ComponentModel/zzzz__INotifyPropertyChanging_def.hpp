@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::ComponentModel::INotifyPropertyChanging);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11716))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11788))
 // CS Name: ::System.ComponentModel::INotifyPropertyChanging*
 class CORDL_TYPE INotifyPropertyChanging {
 public:
   // Declarations
-  /// @brief Method add_PropertyChanging addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_PropertyChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
 
-  /// @brief Method remove_PropertyChanging addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_PropertyChanging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "INotifyPropertyChanging", modifiers: "&&", def_value: None }]

@@ -6,14 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerCenterTextAnimator)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace Tweening {
 template <typename T> class Tween_1;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace Tweening {
+class TimeTweeningManager;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace GlobalNamespace {
 struct EaseType;
@@ -21,11 +24,8 @@ struct EaseType;
 namespace TMPro {
 class TextMeshPro;
 }
-namespace Tweening {
-class TimeTweeningManager;
-}
 namespace UnityEngine {
-struct Color;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterTextAnimator);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5194))
 // CS Name: ::MultiplayerCenterTextAnimator*
 class CORDL_TYPE MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -115,48 +115,48 @@ public:
 
   constexpr void __set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method Awake addr 0x210489c size 0x408 virtual false final false
+  /// @brief Method Awake, addr 0x22459c0, size 0x408, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2104ca4 size 0x88 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2245dc8, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method AnimateTextColor addr 0x2104d2c size 0x98 virtual false final false
+  /// @brief Method AnimateTextColor, addr 0x2245e50, size 0x98, virtual false, abstract: false, final false
   inline void AnimateTextColor(::UnityEngine::Color color, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateFontSize addr 0x2104dc4 size 0x44 virtual false final false
+  /// @brief Method AnimateFontSize, addr 0x2245ee8, size 0x44, virtual false, abstract: false, final false
   inline void AnimateFontSize(float_t fontSize, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimatePositionOffsetSize addr 0x2104e08 size 0x8c virtual false final false
+  /// @brief Method AnimatePositionOffsetSize, addr 0x2245f2c, size 0x8c, virtual false, abstract: false, final false
   inline void AnimatePositionOffsetSize(::UnityEngine::Vector3 offset, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method AnimateEnabled addr 0x2104e94 size 0x148 virtual false final false
+  /// @brief Method AnimateEnabled, addr 0x2245fb8, size 0x148, virtual false, abstract: false, final false
   inline void AnimateEnabled(bool isEnabled, float_t duration, ::GlobalNamespace::EaseType easeType);
 
-  /// @brief Method SetText addr 0x2104fdc size 0x24 virtual false final false
+  /// @brief Method SetText, addr 0x2246100, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
   static inline ::GlobalNamespace::MultiplayerCenterTextAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2105000 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2246124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__8_0 addr 0x2105008 size 0x78 virtual false final false
+  /// @brief Method <Awake>b__8_0, addr 0x224612c, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_0(float_t val);
 
-  /// @brief Method <Awake>b__8_1 addr 0x2105080 size 0x78 virtual false final false
+  /// @brief Method <Awake>b__8_1, addr 0x22461a4, size 0x78, virtual false, abstract: false, final false
   inline void _Awake_b__8_1(float_t val);
 
-  /// @brief Method <Awake>b__8_5 addr 0x21050f8 size 0x2c virtual false final false
+  /// @brief Method <Awake>b__8_5, addr 0x224621c, size 0x2c, virtual false, abstract: false, final false
   inline void _Awake_b__8_5();
 
-  /// @brief Method <Awake>b__8_2 addr 0x2105124 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__8_2, addr 0x2246248, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_2(float_t val);
 
-  /// @brief Method <Awake>b__8_3 addr 0x2105140 size 0x24 virtual false final false
+  /// @brief Method <Awake>b__8_3, addr 0x2246264, size 0x24, virtual false, abstract: false, final false
   inline void _Awake_b__8_3(::UnityEngine::Color val);
 
-  /// @brief Method <Awake>b__8_4 addr 0x2105164 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__8_4, addr 0x2246288, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__8_4(::UnityEngine::Vector3 val);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCenterTextAnimator", modifiers: "&&", def_value: None }]

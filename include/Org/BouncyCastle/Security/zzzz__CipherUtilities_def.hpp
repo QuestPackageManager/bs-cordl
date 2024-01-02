@@ -7,20 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CipherUtilities)
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
-}
-namespace System::Collections {
-class IDictionary;
-}
 namespace Org::BouncyCastle::Security {
 struct __CipherUtilities__CipherMode;
 }
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
 namespace Org::BouncyCastle::Security {
 struct __CipherUtilities__CipherAlgorithm;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -30,6 +24,12 @@ class ICollection;
 }
 namespace Org::BouncyCastle::Security {
 struct __CipherUtilities__CipherPadding;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
+namespace System::Collections {
+class IDictionary;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -519,7 +519,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__CipherUtilities__CipherP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1743))
 // CS Name: ::Org.BouncyCastle.Security::CipherUtilities*
 class CORDL_TYPE CipherUtilities : public ::System::Object {
@@ -547,28 +547,28 @@ public:
 
   static inline ::Org::BouncyCastle::Security::CipherUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x10b0324 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1121578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetObjectIdentifier addr 0x10b032c size 0x25c virtual false final false
+  /// @brief Method GetObjectIdentifier, addr 0x1121580, size 0x25c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetObjectIdentifier(::StringW mechanism);
 
-  /// @brief Method get_Algorithms addr 0x10b0588 size 0xcc virtual false final false
+  /// @brief Method get_Algorithms, addr 0x11217dc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* get_Algorithms();
 
-  /// @brief Method GetCipher addr 0x10b0654 size 0x60 virtual false final false
+  /// @brief Method GetCipher, addr 0x11218a8, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetCipher addr 0x10b06b4 size 0x21cc virtual false final false
+  /// @brief Method GetCipher, addr 0x1121908, size 0x21cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBufferedCipher* GetCipher(::StringW algorithm);
 
-  /// @brief Method GetAlgorithmName addr 0x10b2ecc size 0x108 virtual false final false
+  /// @brief Method GetAlgorithmName, addr 0x1124120, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetDigitIndex addr 0x10b2880 size 0xb0 virtual false final false
+  /// @brief Method GetDigitIndex, addr 0x1123ad4, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetDigitIndex(::StringW s);
 
-  /// @brief Method CreateBlockCipher addr 0x10b2930 size 0x59c virtual false final false
+  /// @brief Method CreateBlockCipher, addr 0x1123b84, size 0x59c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBlockCipher* CreateBlockCipher(::Org::BouncyCastle::Security::__CipherUtilities__CipherAlgorithm cipherAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "CipherUtilities", modifiers: "&&", def_value: None }]

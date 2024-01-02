@@ -8,13 +8,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -57,34 +57,34 @@ public:
 
   constexpr void __set_locator(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method GetInstance addr 0xf0d83c size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xf83a60, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf0d854 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf83a78, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method .ctor addr 0xf0dab4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf83cd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer, ::Org::BouncyCastle::Asn1::Asn1Object* locator);
 
-  /// @brief Method .ctor addr 0xf0dabc size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf83ce0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer, ::Org::BouncyCastle::Asn1::Asn1Object* locator);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0d9dc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0xf83c00, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Issuer addr 0xf0db38 size 0x8 virtual false final false
+  /// @brief Method get_Issuer, addr 0xf83d5c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_Locator addr 0xf0db40 size 0x8 virtual false final false
+  /// @brief Method get_Locator, addr 0xf83d64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Locator();
 
-  /// @brief Method ToAsn1Object addr 0xf0db48 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf83d6c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServiceLocator", modifiers: "&&", def_value: None }]

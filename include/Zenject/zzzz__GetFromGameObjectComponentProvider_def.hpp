@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(GetFromGameObjectComponentProvider)
-namespace Zenject {
-class InjectContext;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Action;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Zenject {
-class IProvider;
-}
 namespace System {
 class Type;
 }
 namespace Zenject {
 struct TypeValuePair;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+class Object;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class IProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::Zenject::GetFromGameObjectComponentProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11115))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11187))
 // CS Name: ::Zenject::GetFromGameObjectComponentProvider*
 class CORDL_TYPE GetFromGameObjectComponentProvider : public ::System::Object {
 public:
@@ -81,19 +81,19 @@ public:
 
   static inline ::Zenject::GetFromGameObjectComponentProvider* New_ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
 
-  /// @brief Method .ctor addr 0x2d9ee84 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2f06c54, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::UnityEngine::GameObject* gameObject, bool matchSingle);
 
-  /// @brief Method get_IsCached addr 0x2d9eec0 size 0x8 virtual true final true
+  /// @brief Method get_IsCached, addr 0x2f06c90, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2d9eec8 size 0x8 virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f06c98, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2d9eed0 size 0x8 virtual true final true
+  /// @brief Method GetInstanceType, addr 0x2f06ca0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2d9eed8 size 0x1b4 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f06ca8, size 0x1b4, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

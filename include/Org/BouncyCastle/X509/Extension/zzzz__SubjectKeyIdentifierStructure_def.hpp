@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_def.hpp"
 CORDL_MODULE_EXPORT(SubjectKeyIdentifierStructure)
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Extension {
@@ -28,15 +28,15 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method .ctor addr 0x10ff13c size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x116f384, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* encodedValue);
 
-  /// @brief Method FromPublicKey addr 0x10ff1d0 size 0x1bc virtual false final false
+  /// @brief Method FromPublicKey, addr 0x116f418, size 0x1bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* FromPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   static inline ::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
-  /// @brief Method .ctor addr 0x10ff38c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x116f5d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubjectKeyIdentifierStructure", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::WWWTranscoder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15574))
 // CS Name: ::UnityEngine::WWWTranscoder*
 class CORDL_TYPE WWWTranscoder : public ::System::Object {
 public:
@@ -86,29 +86,29 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_qpForbidden();
 
-  /// @brief Method Hex2Byte addr 0x2d44100 size 0xac virtual false final false
+  /// @brief Method Hex2Byte, addr 0x2eaceec, size 0xac, virtual false, abstract: false, final false
   static inline uint8_t Hex2Byte(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t offset);
 
-  /// @brief Method Byte2Hex addr 0x2d441ac size 0x54 virtual false final false
+  /// @brief Method Byte2Hex, addr 0x2eacf98, size 0x54, virtual false, abstract: false, final false
   static inline void Byte2Hex(uint8_t b, ::ArrayW<uint8_t, ::Array<uint8_t>*> hexChars, ByRef<uint8_t> byte0, ByRef<uint8_t> byte1);
 
-  /// @brief Method URLEncode addr 0x2d44200 size 0x6c virtual false final false
+  /// @brief Method URLEncode, addr 0x2eacfec, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> URLEncode(::ArrayW<uint8_t, ::Array<uint8_t>*> toEncode);
 
-  /// @brief Method Encode addr 0x2d4426c size 0x3ac virtual false final false
+  /// @brief Method Encode, addr 0x2ead058, size 0x3ac, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint8_t escapeChar, ::ArrayW<uint8_t, ::Array<uint8_t>*> space,
                                                             ::ArrayW<uint8_t, ::Array<uint8_t>*> forbidden, bool uppercase);
 
-  /// @brief Method ByteArrayContains addr 0x2d44618 size 0x4c virtual false final false
+  /// @brief Method ByteArrayContains, addr 0x2ead404, size 0x4c, virtual false, abstract: false, final false
   static inline bool ByteArrayContains(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t b);
 
-  /// @brief Method URLDecode addr 0x2d43dcc size 0x64 virtual false final false
+  /// @brief Method URLDecode, addr 0x2eacbb8, size 0x64, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> URLDecode(::ArrayW<uint8_t, ::Array<uint8_t>*> toEncode);
 
-  /// @brief Method ByteSubArrayEquals addr 0x2d44944 size 0x78 virtual false final false
+  /// @brief Method ByteSubArrayEquals, addr 0x2ead730, size 0x78, virtual false, abstract: false, final false
   static inline bool ByteSubArrayEquals(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> comperand);
 
-  /// @brief Method Decode addr 0x2d44664 size 0x2e0 virtual false final false
+  /// @brief Method Decode, addr 0x2ead450, size 0x2e0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint8_t escapeChar, ::ArrayW<uint8_t, ::Array<uint8_t>*> space);
 
   // Ctor Parameters [CppParam { name: "", ty: "WWWTranscoder", modifiers: "&&", def_value: None }]

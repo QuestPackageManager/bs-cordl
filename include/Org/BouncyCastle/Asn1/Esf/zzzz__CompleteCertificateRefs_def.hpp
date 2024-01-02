@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(CompleteCertificateRefs)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Esf {
+class OtherCertID;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Esf {
-class OtherCertID;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -45,29 +45,29 @@ public:
 
   constexpr void __set_otherCertIDs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe1ade0 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe8ffb4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe1af68 size 0x34c virtual false final false
+  /// @brief Method .ctor, addr 0xe9013c, size 0x34c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs);
 
-  /// @brief Method .ctor addr 0xe1b43c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0xe90610, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> otherCertIDs);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteCertificateRefs* New_ctor(::System::Collections::IEnumerable* otherCertIDs);
 
-  /// @brief Method .ctor addr 0xe1b500 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0xe906d4, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* otherCertIDs);
 
-  /// @brief Method GetOtherCertIDs addr 0xe1b6a4 size 0x120 virtual false final false
+  /// @brief Method GetOtherCertIDs, addr 0xe90878, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OtherCertID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>*> GetOtherCertIDs();
 
-  /// @brief Method ToAsn1Object addr 0xe1b7c4 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe90998, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompleteCertificateRefs", modifiers: "&&", def_value: None }]

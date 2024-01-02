@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTreeNode_2)
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace IntervalTree {
 template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTreeNode_2____c;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -43,8 +43,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15987))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16133))
 // CS Name: ::IntervalTreeNode`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTreeNode_2____c : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
 
   static inline ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Max>b__13_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Max>b__13_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _get_Max_b__13_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
-  /// @brief Method <get_Min>b__15_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Min>b__15_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _get_Min_b__15_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTreeNode_2____c", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15988))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16134))
 // CS Name: ::IntervalTree::IntervalTreeNode`2<TKey,TValue>*
 class CORDL_TYPE IntervalTreeNode_2 : public ::System::Object {
 public:
@@ -167,35 +167,35 @@ public:
 
   static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
   static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
                                                                            ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items, ::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey value);
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TValue>* Query(TKey from, TKey to);
 
-  /// @brief Method QueryClosestPrev addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method QueryClosestPrev, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* QueryClosestPrev(TKey value);
 
-  /// @brief Method GetClosestNodeTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClosestNodeTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* GetClosestNodeTo(TKey key);
 
-  /// @brief Method System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IComparer_IntervalTree_RangeValuePair_TKey_TValue___Compare(::IntervalTree::RangeValuePair_2<TKey, TValue> x,
                                                                                                         ::IntervalTree::RangeValuePair_2<TKey, TValue> y);
 
-  /// @brief Method get_Max addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Max();
 
-  /// @brief Method get_Min addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Min();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTreeNode_2", modifiers: "&&", def_value: None }]

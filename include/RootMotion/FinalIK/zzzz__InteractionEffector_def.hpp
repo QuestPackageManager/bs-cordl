@@ -11,13 +11,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractionEffector)
 namespace RootMotion::FinalIK {
-class InteractionObject;
+class Poser;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace RootMotion::FinalIK {
+class InteractionObject;
 }
 namespace UnityEngine {
 class Transform;
@@ -26,13 +26,13 @@ namespace RootMotion::FinalIK {
 class InteractionTarget;
 }
 namespace RootMotion::FinalIK {
-class Poser;
+struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
 class InteractionSystem;
 }
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::InteractionEffector);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(12499)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12523)) CS Name: ::RootMotion.FinalIK::InteractionEffector*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12595)) CS Name: ::RootMotion.FinalIK::InteractionEffector*
 class CORDL_TYPE InteractionEffector : public ::System::Object {
 public:
   // Declarations
@@ -383,66 +383,66 @@ public:
 
   constexpr void __set_started(bool value);
 
-  /// @brief Method get_effectorType addr 0x12125b0 size 0x8 virtual false final false
+  /// @brief Method get_effectorType, addr 0x12838dc, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FullBodyBipedEffector get_effectorType();
 
-  /// @brief Method set_effectorType addr 0x12125b8 size 0x8 virtual false final false
+  /// @brief Method set_effectorType, addr 0x12838e4, size 0x8, virtual false, abstract: false, final false
   inline void set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  /// @brief Method get_isPaused addr 0x12125c0 size 0x8 virtual false final false
+  /// @brief Method get_isPaused, addr 0x12838ec, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
-  /// @brief Method set_isPaused addr 0x12125c8 size 0xc virtual false final false
+  /// @brief Method set_isPaused, addr 0x12838f4, size 0xc, virtual false, abstract: false, final false
   inline void set_isPaused(bool value);
 
-  /// @brief Method get_interactionObject addr 0x12125d4 size 0x8 virtual false final false
+  /// @brief Method get_interactionObject, addr 0x1283900, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::InteractionObject* get_interactionObject();
 
-  /// @brief Method set_interactionObject addr 0x12125dc size 0x8 virtual false final false
+  /// @brief Method set_interactionObject, addr 0x1283908, size 0x8, virtual false, abstract: false, final false
   inline void set_interactionObject(::RootMotion::FinalIK::InteractionObject* value);
 
-  /// @brief Method get_inInteraction addr 0x12125e4 size 0x60 virtual false final false
+  /// @brief Method get_inInteraction, addr 0x1283910, size 0x60, virtual false, abstract: false, final false
   inline bool get_inInteraction();
 
   static inline ::RootMotion::FinalIK::InteractionEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method .ctor addr 0x1212644 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x1283970, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method Initiate addr 0x12126d4 size 0x94 virtual false final false
+  /// @brief Method Initiate, addr 0x1283a00, size 0x94, virtual false, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  /// @brief Method StoreDefaults addr 0x1212768 size 0x16c virtual false final false
+  /// @brief Method StoreDefaults, addr 0x1283a94, size 0x16c, virtual false, abstract: false, final false
   inline void StoreDefaults();
 
-  /// @brief Method ResetToDefaults addr 0x12128d4 size 0x3dc virtual false final false
+  /// @brief Method ResetToDefaults, addr 0x1283c00, size 0x3dc, virtual false, abstract: false, final false
   inline bool ResetToDefaults(float_t speed);
 
-  /// @brief Method Pause addr 0x1212cb0 size 0x120 virtual false final false
+  /// @brief Method Pause, addr 0x1283fdc, size 0x120, virtual false, abstract: false, final false
   inline bool Pause();
 
-  /// @brief Method Resume addr 0x1212dd0 size 0x54 virtual false final false
+  /// @brief Method Resume, addr 0x12840fc, size 0x54, virtual false, abstract: false, final false
   inline bool Resume();
 
-  /// @brief Method Start addr 0x1212e24 size 0x48c virtual false final false
+  /// @brief Method Start, addr 0x1284150, size 0x48c, virtual false, abstract: false, final false
   inline bool Start(::RootMotion::FinalIK::InteractionObject* interactionObject, ::StringW tag, float_t fadeInTime, bool interrupt);
 
-  /// @brief Method Update addr 0x121392c size 0x640 virtual false final false
+  /// @brief Method Update, addr 0x1284c58, size 0x640, virtual false, abstract: false, final false
   inline void Update(::UnityEngine::Transform* root, float_t speed);
 
-  /// @brief Method get_progress addr 0x1214b00 size 0x30 virtual false final false
+  /// @brief Method get_progress, addr 0x1285e2c, size 0x30, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method TriggerUntriggeredEvents addr 0x1214374 size 0x220 virtual false final false
+  /// @brief Method TriggerUntriggeredEvents, addr 0x12856a0, size 0x220, virtual false, abstract: false, final false
   inline void TriggerUntriggeredEvents(bool checkTime, ByRef<bool> pickUp, ByRef<bool> pause);
 
-  /// @brief Method PickUp addr 0x1214594 size 0x218 virtual false final false
+  /// @brief Method PickUp, addr 0x12858c0, size 0x218, virtual false, abstract: false, final false
   inline void PickUp(::UnityEngine::Transform* root);
 
-  /// @brief Method Stop addr 0x12149b8 size 0x148 virtual false final false
+  /// @brief Method Stop, addr 0x1285ce4, size 0x148, virtual false, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method OnPostFBBIK addr 0x1214d00 size 0x23c virtual false final false
+  /// @brief Method OnPostFBBIK, addr 0x128602c, size 0x23c, virtual false, abstract: false, final false
   inline void OnPostFBBIK();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionEffector", modifiers: "&&", def_value: None }]

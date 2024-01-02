@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextAsset)
 namespace GlobalNamespace {
+class __LocalizedTextAsset____c__DisplayClass6_0;
+}
+namespace GlobalNamespace {
 class __LocalizedTextAsset____c;
 }
 namespace GlobalNamespace {
 class __LocalizedTextAsset__TextInfo;
-}
-namespace GlobalNamespace {
-class __LocalizedTextAsset____c__DisplayClass6_0;
 }
 namespace UnityEngine {
 class TextAsset;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15538))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5872))
 // CS Name: ::LocalizedTextAsset::TextInfo*
 class CORDL_TYPE __LocalizedTextAsset__TextInfo : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedTextAsset__TextInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b0278 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f8944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedTextAsset__TextInfo", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedTextAsset__TextInfo, ___loc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15538))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5963))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5873))
 // CS Name: ::LocalizedTextAsset::<>c__DisplayClass6_0*
 class CORDL_TYPE __LocalizedTextAsset____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -125,10 +125,10 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b0268 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f8934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__1 addr 0x21b0280 size 0x24 virtual false final false
+  /// @brief Method <get_localizedText>b__1, addr 0x22f894c, size 0x24, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__1(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedTextAsset____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedTextAsset____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5874))
 // CS Name: ::LocalizedTextAsset::<>c*
 class CORDL_TYPE __LocalizedTextAsset____c : public ::System::Object {
 public:
@@ -182,10 +182,10 @@ public:
 
   static inline ::GlobalNamespace::__LocalizedTextAsset____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b0308 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f89d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__6_0 addr 0x21b0310 size 0x20 virtual false final false
+  /// @brief Method <get_localizedText>b__6_0, addr 0x22f89dc, size 0x20, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__6_0(::GlobalNamespace::__LocalizedTextAsset__TextInfo* t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LocalizedTextAsset____c", modifiers: "&&", def_value: None }]
@@ -212,8 +212,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedText
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5965))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5875))
 // CS Name: ::LocalizedTextAsset*
 class CORDL_TYPE LocalizedTextAsset : public ::UnityEngine::ScriptableObject {
 public:
@@ -247,15 +247,15 @@ public:
 
   constexpr void __set__lastTextInfo(::GlobalNamespace::__LocalizedTextAsset__TextInfo* value);
 
-  /// @brief Method get_textInfos addr 0x21aff54 size 0x8 virtual false final false
+  /// @brief Method get_textInfos, addr 0x22f8620, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> get_textInfos();
 
-  /// @brief Method get_localizedText addr 0x21aff5c size 0x30c virtual false final false
+  /// @brief Method get_localizedText, addr 0x22f8628, size 0x30c, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
   static inline ::GlobalNamespace::LocalizedTextAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b0270 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22f893c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextAsset", modifiers: "&&", def_value: None }]

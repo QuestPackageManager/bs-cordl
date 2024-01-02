@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ThemeStyleSheet);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7365))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7359))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7273))
 // CS Name: ::UnityEngine.UIElements::ThemeStyleSheet*
 class CORDL_TYPE ThemeStyleSheet : public ::UnityEngine::UIElements::StyleSheet {
 public:
   // Declarations
-  /// @brief Method OnEnable addr 0x2d01ea8 size 0x1c virtual true final false
+  /// @brief Method OnEnable, addr 0x2e6b258, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d02028 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2e6b3d8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThemeStyleSheet", modifiers: "&&", def_value: None }]

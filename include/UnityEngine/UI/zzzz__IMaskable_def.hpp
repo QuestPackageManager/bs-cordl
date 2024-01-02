@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMaskable);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13062))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13057))
 // CS Name: ::UnityEngine.UI::IMaskable*
 class CORDL_TYPE IMaskable {
 public:
   // Declarations
-  /// @brief Method RecalculateMasking addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RecalculateMasking, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateMasking();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMaskable", modifiers: "&&", def_value: None }]

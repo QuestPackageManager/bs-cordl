@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkConfig)
 namespace GlobalNamespace {
-class DnsEndPoint;
+struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+class DnsEndPoint;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::GlobalNamespace::INetworkConfig);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12717))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12800))
 // CS Name: ::INetworkConfig*
 class CORDL_TYPE INetworkConfig {
 public:
@@ -49,37 +49,37 @@ public:
 
   __declspec(property(get = get_serviceEnvironment))::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
-  /// @brief Method get_maxPartySize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_maxPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_discoveryPort addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_discoveryPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_partyPort addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_partyPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_partyPort();
 
-  /// @brief Method get_multiplayerPort addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_multiplayerPort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_masterServerEndPoint addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_masterServerEndPoint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_multiplayerStatusUrl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_multiplayerStatusUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_quickPlaySetupUrl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_quickPlaySetupUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_graphUrl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_graphUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_graphAccessToken addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_graphAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_forceGameLift addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_forceGameLift, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_forceGameLift();
 
-  /// @brief Method get_serviceEnvironment addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_serviceEnvironment, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
   // Ctor Parameters [CppParam { name: "", ty: "INetworkConfig", modifiers: "&&", def_value: None }]

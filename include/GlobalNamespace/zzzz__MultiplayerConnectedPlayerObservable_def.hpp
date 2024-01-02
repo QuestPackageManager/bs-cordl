@@ -3,7 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerConnectedPlayerObservable)
 namespace GlobalNamespace {
 class IMultiplayerObservable;
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerObservable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5301))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5197))
 // CS Name: ::MultiplayerConnectedPlayerObservable*
 class CORDL_TYPE MultiplayerConnectedPlayerObservable : public ::System::Object {
 public:
@@ -30,7 +30,7 @@ public:
   /// @brief Field _connectedPlayer, offset 0x10, size 0x8
   __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  __declspec(property(get = get_offsetSyncTime)) float_t offsetSyncTime;
+  __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
   __declspec(property(get = get_isFailed)) bool isFailed;
 
@@ -45,13 +45,13 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerObservable* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method .ctor addr 0x2105280 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22463a4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_offsetSyncTime addr 0x21052a8 size 0xa4 virtual true final true
-  inline float_t get_offsetSyncTime();
+  /// @brief Method get_offsetSyncTime, addr 0x22463cc, size 0xa4, virtual true, abstract: false, final true
+  inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_isFailed addr 0x210534c size 0xc virtual true final true
+  /// @brief Method get_isFailed, addr 0x2246470, size 0xc, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerObservable", modifiers: "&&", def_value: None }]

@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LoadingControl)
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace UnityEngine::UI {
+class Image;
+}
 namespace HMUI {
 class ButtonBinder;
 }
 namespace System {
 class Action;
 }
-namespace UnityEngine::UI {
-class Image;
-}
 namespace TMPro {
 class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine::UI {
-class Button;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LoadingControl);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5533))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5432))
 // CS Name: ::LoadingControl*
 class CORDL_TYPE LoadingControl : public ::UnityEngine::MonoBehaviour {
 public:
@@ -132,39 +132,40 @@ public:
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method add_didPressRefreshButtonEvent addr 0x2138eb8 size 0x9c virtual false final false
+  /// @brief Method add_didPressRefreshButtonEvent, addr 0x227be88, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressRefreshButtonEvent addr 0x2138f54 size 0x9c virtual false final false
+  /// @brief Method remove_didPressRefreshButtonEvent, addr 0x227bf24, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressRefreshButtonEvent(::System::Action* value);
 
-  /// @brief Method get_isLoading addr 0x2138ff0 size 0x1c virtual false final false
+  /// @brief Method get_isLoading, addr 0x227bfc0, size 0x1c, virtual false, abstract: false, final false
   inline bool get_isLoading();
 
-  /// @brief Method Awake addr 0x213900c size 0xc4 virtual false final false
+  /// @brief Method Awake, addr 0x227bfdc, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x21390d0 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x227c0a0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ShowLoading addr 0x21390ec size 0x8c virtual false final false
-  inline void ShowLoading(::StringW text);
+  /// @brief Method ShowLoading, addr 0x227c0bc, size 0x8c, virtual false, abstract: false, final false
+  /// @param text: ::StringW (default: u"")
+  inline void ShowLoading(::StringW text = u"");
 
-  /// @brief Method ShowText addr 0x2139178 size 0xb0 virtual false final false
+  /// @brief Method ShowText, addr 0x227c148, size 0xb0, virtual false, abstract: false, final false
   inline void ShowText(::StringW text, bool showRefreshButton);
 
-  /// @brief Method ShowDownloadingProgress addr 0x2139228 size 0xac virtual false final false
+  /// @brief Method ShowDownloadingProgress, addr 0x227c1f8, size 0xac, virtual false, abstract: false, final false
   inline void ShowDownloadingProgress(::StringW text, float_t downloadingProgress);
 
-  /// @brief Method Hide addr 0x21392d4 size 0x24 virtual false final false
+  /// @brief Method Hide, addr 0x227c2a4, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
   static inline ::GlobalNamespace::LoadingControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x21392f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x227c2c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__14_0 addr 0x2139300 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__14_0, addr 0x227c2d0, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__14_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "LoadingControl", modifiers: "&&", def_value: None }]

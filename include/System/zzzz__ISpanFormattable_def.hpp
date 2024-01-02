@@ -25,12 +25,12 @@ MARK_REF_PTR_T(::System::ISpanFormattable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2419))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2421))
 // CS Name: ::System::ISpanFormattable*
 class CORDL_TYPE ISpanFormattable {
 public:
   // Declarations
-  /// @brief Method TryFormat addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISpanFormattable", modifiers: "&&", def_value: None }]

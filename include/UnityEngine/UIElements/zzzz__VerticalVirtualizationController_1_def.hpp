@@ -7,11 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VerticalVirtualizationController_1)
+namespace UnityEngine::UIElements {
+template <typename T> class __VerticalVirtualizationController_1____c;
+}
 namespace UnityEngine::Pool {
 template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
-class ReusableCollectionItem;
+class VisualElement;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -19,23 +25,17 @@ template <typename T> class IEnumerable_1;
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine::UIElements {
-template <typename T> class __VerticalVirtualizationController_1____c;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
+class ReusableCollectionItem;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,8 +53,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7455))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7369))
 // CS Name: ::VerticalVirtualizationController`1::<>c<T>*
 class CORDL_TYPE __VerticalVirtualizationController_1____c : public ::System::Object {
 public:
@@ -82,13 +82,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__25_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.ctor>b__25_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T __ctor_b__25_0();
 
-  /// @brief Method <.ctor>b__25_1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.ctor>b__25_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __ctor_b__25_1(T i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__VerticalVirtualizationController_1____c", modifiers: "&&", def_value: None }]
@@ -115,8 +115,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7457))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7456))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7371))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7370))
 // CS Name: ::UnityEngine.UIElements::VerticalVirtualizationController`1<T>*
 class CORDL_TYPE VerticalVirtualizationController_1 : public ::UnityEngine::UIElements::CollectionVirtualizationController {
 public:
@@ -217,57 +217,57 @@ public:
 
   constexpr void __set_k_EmptyRows(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_activeItems addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* get_activeItems();
 
-  /// @brief Method VisibleItemPredicate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VisibleItemPredicate(T i);
 
-  /// @brief Method get_firstVisibleItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_firstVisibleItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_firstVisibleItem();
 
-  /// @brief Method get_lastVisibleItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_lastVisibleItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_lastVisibleItem();
 
-  /// @brief Method get_visibleItemCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_visibleItemCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_visibleItemCount();
 
-  /// @brief Method get_lastVisibleIndex addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_lastVisibleIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_lastVisibleIndex();
 
-  /// @brief Method get_lastHeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_lastHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_lastHeight();
 
   static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Refresh(bool rebuild);
 
-  /// @brief Method Setup addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Setup(T recycledItem, int32_t newIndex);
 
-  /// @brief Method OnFocus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget);
 
-  /// @brief Method OnBlur addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnBlur, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::VisualElement* willFocus);
 
-  /// @brief Method HandleFocus addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleFocus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleFocus(::UnityEngine::UIElements::ReusableCollectionItem* recycledItem, int32_t previousIndex);
 
-  /// @brief Method UpdateBackground addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateBackground();
 
-  /// @brief Method ReplaceActiveItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReplaceActiveItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReplaceActiveItem(int32_t index);
 
-  /// @brief Method GetOrMakeItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOrMakeItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetOrMakeItem();
 
-  /// @brief Method ReleaseItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseItem(int32_t activeItemsIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "VerticalVirtualizationController_1", modifiers: "&&", def_value: None }]

@@ -18,17 +18,17 @@ MARK_REF_PTR_T(::UnityEngine::ISubsystemDescriptor);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15970))
 // CS Name: ::UnityEngine::ISubsystemDescriptor*
 class CORDL_TYPE ISubsystemDescriptor {
 public:
   // Declarations
   __declspec(property(get = get_id))::StringW id;
 
-  /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_id();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ISubsystem* Create();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISubsystemDescriptor", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11012)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11012), inst: 2745 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11022))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 2805 }), TypeDefinitionIndex(TypeDefinitionIndex(11084))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11094))
 // CS Name: ::Zenject::ArrayPool`1<T>*
 class CORDL_TYPE ArrayPool_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<::ArrayW<T, ::Array<T>*>> {
 public:
@@ -45,19 +45,19 @@ public:
 
   static inline ::Zenject::ArrayPool_1<T>* New_ctor(int32_t length);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::ArrayW<T, ::Array<T>*> arr);
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Spawn();
 
-  /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Alloc();
 
-  /// @brief Method GetPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::ArrayPool_1<T>* GetPool(int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPool_1", modifiers: "&&", def_value: None }]

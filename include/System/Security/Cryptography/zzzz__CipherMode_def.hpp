@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CipherMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2921))
 // CS Name: ::System.Security.Cryptography::CipherMode
 struct CORDL_TYPE CipherMode {
 public:

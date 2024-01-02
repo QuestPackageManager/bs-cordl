@@ -5,44 +5,44 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IStylePropertyAnimations)
-namespace UnityEngine::UIElements {
-struct FontDefinition;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class Font;
 }
-namespace UnityEngine::UIElements {
-struct Length;
+namespace UnityEngine {
+struct Color;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
+struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
-struct Translate;
+struct Rotate;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
 namespace UnityEngine::UIElements {
-struct TransformOrigin;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct Length;
 }
 namespace UnityEngine::UIElements {
-struct Rotate;
+struct FontDefinition;
+}
+namespace UnityEngine::UIElements {
+struct Background;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
 }
 namespace UnityEngine::UIElements {
 struct TextShadow;
 }
 namespace UnityEngine::UIElements {
-struct Background;
-}
-namespace UnityEngine {
-struct Color;
+struct Translate;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePropertyAnimations);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6867))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6781))
 // CS Name: ::UnityEngine.UIElements::IStylePropertyAnimations*
 class CORDL_TYPE IStylePropertyAnimations {
 public:
@@ -64,77 +64,77 @@ public:
 
   __declspec(property(get = get_completedAnimationCount, put = set_completedAnimationCount)) int32_t completedAnimationCount;
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, float_t from, float_t to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t from, int32_t to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Length from, ::UnityEngine::UIElements::Length to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Color from, ::UnityEngine::Color to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method StartEnum addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StartEnum, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool StartEnum(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, int32_t from, int32_t to, int32_t durationMs, int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Background from, ::UnityEngine::UIElements::Background to, int32_t durationMs,
                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::FontDefinition from, ::UnityEngine::UIElements::FontDefinition to, int32_t durationMs,
                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::Font* from, ::UnityEngine::Font* to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::TextShadow from, ::UnityEngine::UIElements::TextShadow to, int32_t durationMs,
                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Scale from, ::UnityEngine::UIElements::Scale to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Translate from, ::UnityEngine::UIElements::Translate to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::Rotate from, ::UnityEngine::UIElements::Rotate to, int32_t durationMs, int32_t delayMs,
                     ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Start(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::TransformOrigin from, ::UnityEngine::UIElements::TransformOrigin to, int32_t durationMs,
                     int32_t delayMs, ::System::Func_2<float_t, float_t>* easingCurve);
 
-  /// @brief Method UpdateAnimation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateAnimation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetAllAnimations addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* outPropertyIds);
 
-  /// @brief Method CancelAnimation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CancelAnimation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CancelAnimation(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method CancelAllAnimations addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CancelAllAnimations, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CancelAllAnimations();
 
-  /// @brief Method get_runningAnimationCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_runningAnimationCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_runningAnimationCount();
 
-  /// @brief Method set_runningAnimationCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_runningAnimationCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_runningAnimationCount(int32_t value);
 
-  /// @brief Method get_completedAnimationCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_completedAnimationCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_completedAnimationCount();
 
-  /// @brief Method set_completedAnimationCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_completedAnimationCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_completedAnimationCount(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStylePropertyAnimations", modifiers: "&&", def_value: None }]

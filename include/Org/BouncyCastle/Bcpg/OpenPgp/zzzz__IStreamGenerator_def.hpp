@@ -19,7 +19,7 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE IStreamGenerator {
 public:
   // Declarations
-  /// @brief Method Close addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStreamGenerator", modifiers: "&&", def_value: None }]

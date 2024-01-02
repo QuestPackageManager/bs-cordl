@@ -6,46 +6,46 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_2)
 namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass24_0;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass20_0;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class IIntervalTree_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> struct RangeValuePair_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace IntervalTree {
-template <typename TKey, typename TValue> class __IntervalTree_2____c;
-}
-namespace IntervalTree {
 template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass23_0;
 }
 namespace IntervalTree {
 template <typename TKey, typename TValue> class IntervalTreeNode_2;
 }
+namespace IntervalTree {
+template <typename TKey, typename TValue> class IIntervalTree_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass24_0;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass20_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> struct RangeValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c__DisplayClass19_0;
+}
+namespace IntervalTree {
+template <typename TKey, typename TValue> class __IntervalTree_2____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -82,8 +82,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16127))
 // CS Name: ::IntervalTree`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c : public ::System::Object {
 public:
@@ -104,10 +104,10 @@ public:
 
   static inline ::IntervalTree::__IntervalTree_2____c<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Values>b__10_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Values>b__10_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue _get_Values_b__10_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTree_2____c", modifiers: "&&", def_value: None }]
@@ -134,8 +134,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15982))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16128))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass19_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass19_0 : public ::System::Object {
 public:
@@ -151,10 +151,10 @@ public:
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Remove>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Remove>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTree_2____c__DisplayClass19_0", modifiers: "&&", def_value: None }]
@@ -184,8 +184,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15983))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16129))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass20_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -201,10 +201,10 @@ public:
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Remove>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Remove>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTree_2____c__DisplayClass20_0", modifiers: "&&", def_value: None }]
@@ -234,8 +234,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15984))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16130))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass23_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass23_0 : public ::System::Object {
 public:
@@ -260,10 +260,10 @@ public:
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetClosestPrevValueTo>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetClosestPrevValueTo>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _GetClosestPrevValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTree_2____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
@@ -296,8 +296,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15985))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16131))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass24_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass24_0 : public ::System::Object {
 public:
@@ -322,10 +322,10 @@ public:
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetClosestNextValueTo>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetClosestNextValueTo>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _GetClosestNextValueTo_b__0(::IntervalTree::RangeValuePair_2<TKey, TValue> pair);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntervalTree_2____c__DisplayClass24_0", modifiers: "&&", def_value: None }]
@@ -358,8 +358,8 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15986))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16132))
 // CS Name: ::IntervalTree::IntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IntervalTree_2 : public ::System::Object {
 public:
@@ -427,62 +427,62 @@ public:
 
   constexpr void __set_isInSync(bool value);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Max addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Max();
 
-  /// @brief Method get_Min addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_Min();
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* get_Values();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
   static inline ::IntervalTree::IntervalTree_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::IntervalTree::IntervalTree_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey value);
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey from, TKey to);
 
-  /// @brief Method QueryWithCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method QueryWithCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<TValue>* QueryWithCount(TKey from, TKey to);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(TKey from, TKey to, TValue value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(TValue value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(::System::Collections::Generic::IEnumerable_1<TValue>* items);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* GetEnumerator();
 
-  /// @brief Method GetClosestPrevValueTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClosestPrevValueTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue GetClosestPrevValueTo(TKey key);
 
-  /// @brief Method GetClosestNextValueTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetClosestNextValueTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue GetClosestNextValueTo(TKey key);
 
-  /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Rebuild();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_2", modifiers: "&&", def_value: None }]

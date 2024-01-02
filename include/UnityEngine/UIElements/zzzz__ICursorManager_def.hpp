@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICursorManager);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6809))
 // CS Name: ::UnityEngine.UIElements::ICursorManager*
 class CORDL_TYPE ICursorManager {
 public:
   // Declarations
-  /// @brief Method SetCursor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetCursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
-  /// @brief Method ResetCursor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResetCursor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetCursor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICursorManager", modifiers: "&&", def_value: None }]

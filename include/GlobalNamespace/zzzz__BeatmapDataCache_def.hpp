@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCache)
 namespace GlobalNamespace {
-class IDifficultyBeatmap;
+struct __BeatmapDataCache___GetBeatmapData_d__4;
 }
 namespace GlobalNamespace {
-struct __BeatmapDataCache___GetBeatmapData_d__4;
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
@@ -21,20 +21,20 @@ class EnvironmentInfoSO;
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,19 +50,19 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapDataCache___GetBeatmapData_d__4);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4292)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 873 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 873 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5912)) CS Name: ::BeatmapDataCache::<GetBeatmapData>d__4
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5819)) CS
+// Name: ::BeatmapDataCache::<GetBeatmapData>d__4
 struct CORDL_TYPE __BeatmapDataCache___GetBeatmapData_d__4 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21a5fe8 size 0x474 virtual true final true
+  /// @brief Method MoveNext, addr 0x22eb1dc, size 0x474, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21a645c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22eb650, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -128,8 +128,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataCache___GetBeatmapData_d_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5913))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5820))
 // CS Name: ::BeatmapDataCache*
 class CORDL_TYPE BeatmapDataCache : public ::System::Object {
 public:
@@ -172,13 +172,13 @@ public:
 
   constexpr void __set_cachedMap(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  /// @brief Method GetBeatmapData addr 0x21a5ed0 size 0x110 virtual false final false
+  /// @brief Method GetBeatmapData, addr 0x22eb0c4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IReadonlyBeatmapData*>*
   GetBeatmapData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   static inline ::GlobalNamespace::BeatmapDataCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a5fe0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22eb1d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCache", modifiers: "&&", def_value: None }]

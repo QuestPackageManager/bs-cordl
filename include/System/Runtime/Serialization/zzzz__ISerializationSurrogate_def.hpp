@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISerializationSurrogate)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
-}
-namespace System::Runtime::Serialization {
-class ISurrogateSelector;
-}
-namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Runtime::Serialization {
+class ISurrogateSelector;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -26,15 +26,15 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISerializationSurrogate);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3202))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3203))
 // CS Name: ::System.Runtime.Serialization::ISerializationSurrogate*
 class CORDL_TYPE ISerializationSurrogate {
 public:
   // Declarations
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 

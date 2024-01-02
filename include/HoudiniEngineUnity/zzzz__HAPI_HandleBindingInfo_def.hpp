@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_HandleBindingInfo);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9664))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9737))
 // CS Name: ::HoudiniEngineUnity::HAPI_HandleBindingInfo
 struct CORDL_TYPE HAPI_HandleBindingInfo {
 public:

@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DifficultyBeatmapSet)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
+class IDifficultyBeatmapSet;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-class IDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
+class BeatmapCharacteristicSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyBeatmapSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4419))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4397))
 // CS Name: ::DifficultyBeatmapSet*
 class CORDL_TYPE DifficultyBeatmapSet : public ::System::Object {
 public:
@@ -59,16 +59,16 @@ public:
 
   constexpr void __set__difficultyBeatmaps_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method get_beatmapCharacteristic addr 0x21fee78 size 0x8 virtual true final true
+  /// @brief Method get_beatmapCharacteristic, addr 0x234954c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
 
-  /// @brief Method get_difficultyBeatmaps addr 0x21fee80 size 0x8 virtual true final true
+  /// @brief Method get_difficultyBeatmaps, addr 0x2349554, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
 
   static inline ::GlobalNamespace::DifficultyBeatmapSet* New_ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
                                                                   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
 
-  /// @brief Method .ctor addr 0x21fee88 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x234955c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps);
 
   // Ctor Parameters [CppParam { name: "", ty: "DifficultyBeatmapSet", modifiers: "&&", def_value: None }]

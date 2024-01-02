@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 CORDL_MODULE_EXPORT(LightTranslationGroup)
-namespace UnityEngine {
-struct Vector2;
-}
 namespace GlobalNamespace {
 class IEditTimeValidated;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,9 +24,9 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationGroup);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5048), inst: 3865 }), TypeDefinitionIndex(TypeDefinitionIndex(10170)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5042)), TypeDefinitionIndex(TypeDefinitionIndex(5043)), TypeDefinitionIndex(TypeDefinitionIndex(5048)), TypeDefinitionIndex(TypeDefinitionIndex(5041))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5049)) CS Name: ::LightTranslationGroup*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(4943)), TypeDefinitionIndex(TypeDefinitionIndex(4937)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4943), inst: 3960 }), TypeDefinitionIndex(TypeDefinitionIndex(4936)), TypeDefinitionIndex(TypeDefinitionIndex(4938))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4944)) CS Name: ::LightTranslationGroup*
 class CORDL_TYPE LightTranslationGroup : public ::GlobalNamespace::LightTransformGroup_3<::GlobalNamespace::LightGroupTranslationXTransform*, ::GlobalNamespace::LightGroupTranslationYTransform*,
                                                                                          ::GlobalNamespace::LightGroupTranslationZTransform*> {
 public:
@@ -100,30 +100,30 @@ public:
 
   constexpr void __set__zDistributionLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_xTranslationLimits addr 0x22727a8 size 0x8 virtual false final false
+  /// @brief Method get_xTranslationLimits, addr 0x23aa7e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xTranslationLimits();
 
-  /// @brief Method get_yTranslationLimits addr 0x22727b0 size 0x8 virtual false final false
+  /// @brief Method get_yTranslationLimits, addr 0x23aa7f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yTranslationLimits();
 
-  /// @brief Method get_zTranslationLimits addr 0x22727b8 size 0x8 virtual false final false
+  /// @brief Method get_zTranslationLimits, addr 0x23aa7f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zTranslationLimits();
 
-  /// @brief Method get_xDistributionLimits addr 0x22727c0 size 0x8 virtual false final false
+  /// @brief Method get_xDistributionLimits, addr 0x23aa800, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_xDistributionLimits();
 
-  /// @brief Method get_yDistributionLimits addr 0x22727c8 size 0x8 virtual false final false
+  /// @brief Method get_yDistributionLimits, addr 0x23aa808, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_yDistributionLimits();
 
-  /// @brief Method get_zDistributionLimits addr 0x22727d0 size 0x8 virtual false final false
+  /// @brief Method get_zDistributionLimits, addr 0x23aa810, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_zDistributionLimits();
 
-  /// @brief Method __Validate addr 0x22727d8 size 0x21c virtual false final false
+  /// @brief Method __Validate, addr 0x23aa818, size 0x21c, virtual false, abstract: false, final false
   inline bool __Validate();
 
   static inline ::GlobalNamespace::LightTranslationGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x22729f4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23aaa34, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationGroup", modifiers: "&&", def_value: None }]

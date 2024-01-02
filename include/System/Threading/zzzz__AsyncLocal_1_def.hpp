@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncLocal_1)
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
 class Object;
+}
+namespace System::Threading {
+template <typename T> struct AsyncLocalValueChangedArgs_1;
 }
 namespace System::Threading {
 class IAsyncLocal;
 }
-namespace System::Threading {
-template <typename T> struct AsyncLocalValueChangedArgs_1;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -28,8 +28,8 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2657))
 // CS Name: ::System.Threading::AsyncLocal`1<T>*
 class CORDL_TYPE AsyncLocal_1 : public ::System::Object {
 public:
@@ -50,13 +50,13 @@ public:
 
   static inline ::System::Threading::AsyncLocal_1<T>* New_ctor(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler);
 
-  /// @brief Method set_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Value(T value);
 
-  /// @brief Method System.Threading.IAsyncLocal.OnValueChanged addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Threading.IAsyncLocal.OnValueChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Threading_IAsyncLocal_OnValueChanged(::System::Object* previousValueObj, ::System::Object* currentValueObj, bool contextChanged);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncLocal_1", modifiers: "&&", def_value: None }]

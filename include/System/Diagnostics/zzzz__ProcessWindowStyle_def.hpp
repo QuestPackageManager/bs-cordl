@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Diagnostics::ProcessWindowStyle);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7797))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8960))
 // CS Name: ::System.Diagnostics::ProcessWindowStyle
 struct CORDL_TYPE ProcessWindowStyle {
 public:

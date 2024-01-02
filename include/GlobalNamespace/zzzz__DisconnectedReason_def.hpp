@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::DisconnectedReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12648))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12720))
 // CS Name: ::DisconnectedReason
 struct CORDL_TYPE DisconnectedReason {
 public:

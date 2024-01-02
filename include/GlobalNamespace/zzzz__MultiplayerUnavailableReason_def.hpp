@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerUnavailableReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4526))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4515))
 // CS Name: ::MultiplayerUnavailableReason
 struct CORDL_TYPE MultiplayerUnavailableReason {
 public:

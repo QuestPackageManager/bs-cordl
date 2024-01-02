@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_dateTime);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11563))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11635))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11638))
 // CS Name: ::System.Xml.Schema::Datatype_dateTime*
 class CORDL_TYPE Datatype_dateTime : public ::System::Xml::Schema::Datatype_dateTimeBase {
 public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_dateTime* New_ctor();
 
-  /// @brief Method .ctor addr 0x273be60 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x28b9e84, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_dateTime", modifiers: "&&", def_value: None }]

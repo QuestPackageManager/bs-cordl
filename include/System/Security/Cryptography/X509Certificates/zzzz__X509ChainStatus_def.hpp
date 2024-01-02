@@ -19,8 +19,8 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509ChainStatus);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7819))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8982))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9009))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainStatus
 struct CORDL_TYPE X509ChainStatus {
 public:
@@ -29,19 +29,19 @@ public:
 
   __declspec(property(put = set_StatusInformation))::StringW StatusInformation;
 
-  /// @brief Method .ctor addr 0x2803a6c size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x29812dc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flag);
 
-  /// @brief Method get_Status addr 0x28063d8 size 0x8 virtual false final false
+  /// @brief Method get_Status, addr 0x2983c48, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_Status();
 
-  /// @brief Method set_Status addr 0x28063e0 size 0x8 virtual false final false
+  /// @brief Method set_Status, addr 0x2983c50, size 0x8, virtual false, abstract: false, final false
   inline void set_Status(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
-  /// @brief Method set_StatusInformation addr 0x28063e8 size 0x8 virtual false final false
+  /// @brief Method set_StatusInformation, addr 0x2983c58, size 0x8, virtual false, abstract: false, final false
   inline void set_StatusInformation(::StringW value);
 
-  /// @brief Method GetInformation addr 0x28024f4 size 0x198 virtual false final false
+  /// @brief Method GetInformation, addr 0x297fd64, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetInformation(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
 
   // Ctor Parameters [CppParam { name: "status", ty: "::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags", modifiers: "", def_value: None }, CppParam { name: "info", ty:

@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crmf {
 class CORDL_TYPE IEncryptedValuePadder {
 public:
   // Declarations
-  /// @brief Method GetPaddedData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPaddedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPaddedData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method GetUnpaddedData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetUnpaddedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnpaddedData(::ArrayW<uint8_t, ::Array<uint8_t>*> paddedData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEncryptedValuePadder", modifiers: "&&", def_value: None }]

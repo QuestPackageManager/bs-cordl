@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ExceptionType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11474))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11546))
 // CS Name: ::System.Xml::ExceptionType
 struct CORDL_TYPE ExceptionType {
 public:

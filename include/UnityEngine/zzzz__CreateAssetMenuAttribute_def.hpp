@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::CreateAssetMenuAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10216))
 // CS Name: ::UnityEngine::CreateAssetMenuAttribute*
 class CORDL_TYPE CreateAssetMenuAttribute : public ::System::Attribute {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set__fileName_k__BackingField(::StringW value);
 
-  /// @brief Method set_menuName addr 0x2b6c09c size 0x8 virtual false final false
+  /// @brief Method set_menuName, addr 0x2cd281c, size 0x8, virtual false, abstract: false, final false
   inline void set_menuName(::StringW value);
 
-  /// @brief Method set_fileName addr 0x2b6c0a4 size 0x8 virtual false final false
+  /// @brief Method set_fileName, addr 0x2cd2824, size 0x8, virtual false, abstract: false, final false
   inline void set_fileName(::StringW value);
 
   static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b6c0ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd282c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]

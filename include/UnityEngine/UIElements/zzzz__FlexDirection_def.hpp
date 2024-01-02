@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::FlexDirection);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6889))
 // CS Name: ::UnityEngine.UIElements::FlexDirection
 struct CORDL_TYPE FlexDirection {
 public:

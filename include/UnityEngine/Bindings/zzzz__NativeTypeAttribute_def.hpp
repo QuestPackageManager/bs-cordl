@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeTypeAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15884)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(16020))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16022))
 // CS Name: ::UnityEngine.Bindings::NativeTypeAttribute*
 class CORDL_TYPE NativeTypeAttribute : public ::System::Attribute {
 public:
@@ -59,33 +59,33 @@ public:
 
   constexpr void __set__CodegenOptions_k__BackingField(::UnityEngine::Bindings::CodegenOptions value);
 
-  /// @brief Method set_Header addr 0x2bb1334 size 0x8 virtual true final true
+  /// @brief Method set_Header, addr 0x2d186e4, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
-  /// @brief Method set_IntermediateScriptingStructName addr 0x2bb133c size 0x8 virtual false final false
+  /// @brief Method set_IntermediateScriptingStructName, addr 0x2d186ec, size 0x8, virtual false, abstract: false, final false
   inline void set_IntermediateScriptingStructName(::StringW value);
 
-  /// @brief Method set_CodegenOptions addr 0x2bb1344 size 0x8 virtual true final true
+  /// @brief Method set_CodegenOptions, addr 0x2d186f4, size 0x8, virtual true, abstract: false, final true
   inline void set_CodegenOptions(::UnityEngine::Bindings::CodegenOptions value);
 
   static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb134c size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2d186fc, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
-  /// @brief Method .ctor addr 0x2bb1368 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18718, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions);
 
   static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::StringW header);
 
-  /// @brief Method .ctor addr 0x2bb1390 size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18740, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::UnityEngine::Bindings::NativeTypeAttribute* New_ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
-  /// @brief Method .ctor addr 0x2bb1498 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18848, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Bindings::CodegenOptions codegenOptions, ::StringW intermediateStructName);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeTypeAttribute", modifiers: "&&", def_value: None }]

@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TraceFilter)
+namespace System::Diagnostics {
+struct TraceEventType;
+}
 namespace System {
 class Object;
 }
 namespace System::Diagnostics {
 class TraceEventCache;
-}
-namespace System::Diagnostics {
-struct TraceEventType;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceFilter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7777))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8940))
 // CS Name: ::System.Diagnostics::TraceFilter*
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldTrace addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage,
                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Object* data1, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data);
 
-  /// @brief Method ShouldTrace addr 0x27ef78c size 0x2c virtual false final false
+  /// @brief Method ShouldTrace, addr 0x296d088, size 0x2c, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
   // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None }]

@@ -9,14 +9,14 @@ class MockBeatmapData;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System {
-class IDisposable;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class BeatmapIdentifierNetSerializable;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMockBeatmapDataProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15507))
 // CS Name: ::IMockBeatmapDataProvider*
 class CORDL_TYPE IMockBeatmapDataProvider {
 public:
@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method GetBeatmapData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetBeatmapData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 

@@ -7,53 +7,53 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashSet_1)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__ElementCount;
+template <typename T> struct __HashSet_1__Slot;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
 }
 namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Enumerator;
-}
-namespace System::Collections {
-class IEnumerator;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
+namespace System::Runtime::Serialization {
+class SerializationInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections::Generic {
-template <typename T> struct __HashSet_1__Slot;
+namespace System {
+template <typename T> class Predicate_1;
 }
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+namespace System {
+class Object;
 }
 namespace System::Runtime::Serialization {
 class IDeserializationCallback;
 }
-namespace System {
-template <typename T> class Predicate_1;
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> struct __HashSet_1__Enumerator;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> struct __HashSet_1__ElementCount;
 }
 namespace System {
 class IDisposable;
@@ -83,7 +83,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14650))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14312))
 // CS Name: ::HashSet`1::ElementCount<T>
 struct CORDL_TYPE __HashSet_1__ElementCount {
 public:
@@ -115,7 +115,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14313))
 // CS Name: ::HashSet`1::Slot<T>
 struct CORDL_TYPE __HashSet_1__Slot {
 public:
@@ -151,7 +151,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
 // CS Name: ::HashSet`1::Enumerator<T>
 struct CORDL_TYPE __HashSet_1__Enumerator {
 public:
@@ -169,22 +169,22 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<T>* set);
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
   // Ctor Parameters [CppParam { name: "_set", ty: "::System::Collections::Generic::HashSet_1<T>*", modifiers: "", def_value: None }, CppParam { name: "_index", ty: "int32_t", modifiers: "",
@@ -220,8 +220,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
 // CS Name: ::System.Collections.Generic::HashSet`1<T>*
 class CORDL_TYPE HashSet_1 : public ::System::Object {
 public:
@@ -330,132 +330,142 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
+
+  static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(int32_t capacity);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Collections::Generic::HashSet_1<T>* source);
 
-  /// @brief Method System.Collections.Generic.ICollection<T>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<T>* comparer);
+
+  /// @brief Method System.Collections.Generic.ICollection<T>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_T__Add(T item);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T item);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method System.Collections.Generic.ICollection<T>.get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<T>.get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_T__get_IsReadOnly();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__HashSet_1__Enumerator<T> GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialization addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Add(T item);
 
-  /// @brief Method UnionWith addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnionWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnionWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IntersectWith addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method IntersectWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void IntersectWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method ExceptWith addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method SetEquals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetEquals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex, int32_t count);
 
-  /// @brief Method RemoveWhere addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveWhere, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t RemoveWhere(::System::Predicate_1<T>* match);
 
-  /// @brief Method get_Comparer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Comparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEqualityComparer_1<T>* get_Comparer();
 
-  /// @brief Method TrimExcess addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrimExcess, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void TrimExcess();
 
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Initialize(int32_t capacity);
 
-  /// @brief Method IncreaseCapacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IncreaseCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method SetCapacity addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetCapacity(int32_t newSize);
 
-  /// @brief Method AddIfNotPresent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddIfNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool AddIfNotPresent(T value);
 
-  /// @brief Method AddValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddValue(int32_t index, int32_t hashCode, T value);
 
-  /// @brief Method ContainsAllElements addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ContainsAllElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsAllElements(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method IntersectWithHashSetWithSameEC addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntersectWithHashSetWithSameEC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IntersectWithHashSetWithSameEC(::System::Collections::Generic::HashSet_1<T>* other);
 
-  /// @brief Method IntersectWithEnumerable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntersectWithEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IntersectWithEnumerable(::System::Collections::Generic::IEnumerable_1<T>* other);
 
-  /// @brief Method InternalIndexOf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalIndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t InternalIndexOf(T item);
 
-  /// @brief Method CheckUniqueAndUnfoundElements addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CheckUniqueAndUnfoundElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__HashSet_1__ElementCount<T> CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other, bool returnIfUnfound);
 
-  /// @brief Method AreEqualityComparersEqual addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AreEqualityComparersEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool AreEqualityComparersEqual(::System::Collections::Generic::HashSet_1<T>* set1, ::System::Collections::Generic::HashSet_1<T>* set2);
 
-  /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalGetHashCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t InternalGetHashCode(T item);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSet_1", modifiers: "&&", def_value: None }]

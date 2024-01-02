@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::PlayMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15089))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14859))
 // CS Name: ::UnityEngine::PlayMode
 struct CORDL_TYPE PlayMode {
 public:

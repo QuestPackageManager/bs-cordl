@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6611))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6525))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputEventTypeInfo*
 class CORDL_TYPE IInputEventTypeInfo {
 public:
   // Declarations
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
-  /// @brief Method get_typeStatic addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_typeStatic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputEventTypeInfo", modifiers: "&&", def_value: None }]

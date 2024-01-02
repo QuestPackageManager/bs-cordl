@@ -21,26 +21,26 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CryptographicUnexpectedOperatio
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2923))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2924))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2924))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2925))
 // CS Name: ::System.Security.Cryptography::CryptographicUnexpectedOperationException*
 class CORDL_TYPE CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2302ba0 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x245c218, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2301958 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x245b474, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                       ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2302bc4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x245c23c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CryptographicUnexpectedOperationException", modifiers: "&&", def_value: None }]

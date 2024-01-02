@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9474))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8705))
 // CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
 struct CORDL_TYPE Compositor_CumulativeStats {
 public:

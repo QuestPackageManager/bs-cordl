@@ -23,21 +23,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10936), inst: 3421 }), TypeDefinitionIndex(TypeDefinitionIndex(10936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10937))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11008)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11008), inst: 3495 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11009))
 // CS Name: ::Zenject::Factory`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE Factory_3 : public ::Zenject::PlaceholderFactory_3<TParam1, TParam2, TValue> {
 public:
   // Declarations
   static inline ::Zenject::Factory_3<TParam1, TParam2, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Factory_3", modifiers: "&&", def_value: None }]

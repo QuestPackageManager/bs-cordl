@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IObservableChange);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13971))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15866))
 // CS Name: ::IObservableChange*
 class CORDL_TYPE IObservableChange {
 public:
   // Declarations
-  /// @brief Method add_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didChangeEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_didChangeEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didChangeEvent(::System::Action* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IObservableChange", modifiers: "&&", def_value: None }]

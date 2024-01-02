@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(PressInteraction)
 namespace UnityEngine::InputSystem {
-struct InputInteractionContext;
+class IInputInteraction;
 }
 namespace UnityEngine::InputSystem {
-class IInputInteraction;
+struct InputInteractionContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Interactions {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::PressInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(6736))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6735))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6650)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6649))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressInteraction*
 class CORDL_TYPE PressInteraction : public ::System::Object {
 public:
@@ -63,21 +63,21 @@ public:
 
   constexpr void __set_m_WaitingForRelease(bool value);
 
-  /// @brief Method get_pressPointOrDefault addr 0x298bdec size 0x58 virtual false final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2b0cb40, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_releasePointOrDefault addr 0x298be44 size 0x88 virtual false final false
+  /// @brief Method get_releasePointOrDefault, addr 0x2b0cb98, size 0x88, virtual false, abstract: false, final false
   inline float_t get_releasePointOrDefault();
 
-  /// @brief Method Process addr 0x298becc size 0x3c4 virtual true final true
+  /// @brief Method Process, addr 0x2b0cc20, size 0x3c4, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset addr 0x298c290 size 0x8 virtual true final true
+  /// @brief Method Reset, addr 0x2b0cfe4, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::PressInteraction* New_ctor();
 
-  /// @brief Method .ctor addr 0x298c298 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b0cfec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PressInteraction", modifiers: "&&", def_value: None }]

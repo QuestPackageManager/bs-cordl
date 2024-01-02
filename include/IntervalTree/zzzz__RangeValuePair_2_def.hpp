@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeValuePair_2)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace IntervalTree {
@@ -25,7 +25,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16135))
 // CS Name: ::IntervalTree::RangeValuePair`2<TKey,TValue>
 struct CORDL_TYPE RangeValuePair_2 {
 public:
@@ -39,34 +39,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey,TValue>>"
   constexpr operator ::System::IEquatable_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*();
 
-  /// @brief Method get_From addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_From();
 
-  /// @brief Method get_To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey get_To();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue get_Value();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TKey from, TKey to, TValue value);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::IntervalTree::RangeValuePair_2<TKey, TValue> other);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method op_Equality addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Equality(::IntervalTree::RangeValuePair_2<TKey, TValue> left, ::IntervalTree::RangeValuePair_2<TKey, TValue> right);
 
-  /// @brief Method op_Inequality addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Inequality(::IntervalTree::RangeValuePair_2<TKey, TValue> left, ::IntervalTree::RangeValuePair_2<TKey, TValue> right);
 
   // Ctor Parameters [CppParam { name: "_From_k__BackingField", ty: "TKey", modifiers: "", def_value: None }, CppParam { name: "_To_k__BackingField", ty: "TKey", modifiers: "", def_value: None },

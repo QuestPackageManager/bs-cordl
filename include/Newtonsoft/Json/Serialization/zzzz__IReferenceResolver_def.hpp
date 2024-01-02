@@ -18,21 +18,21 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IReferenceResolver);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11947))
 // CS Name: ::Newtonsoft.Json.Serialization::IReferenceResolver*
 class CORDL_TYPE IReferenceResolver {
 public:
   // Declarations
-  /// @brief Method ResolveReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResolveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ResolveReference(::System::Object* context, ::StringW reference);
 
-  /// @brief Method GetReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetReference(::System::Object* context, ::System::Object* value);
 
-  /// @brief Method IsReferenced addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsReferenced, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsReferenced(::System::Object* context, ::System::Object* value);
 
-  /// @brief Method AddReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddReference(::System::Object* context, ::StringW reference, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReferenceResolver", modifiers: "&&", def_value: None }]

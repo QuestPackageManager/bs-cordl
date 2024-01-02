@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ChoiceListType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9698))
 // CS Name: ::HoudiniEngineUnity::HAPI_ChoiceListType
 struct CORDL_TYPE HAPI_ChoiceListType {
 public:

@@ -6,38 +6,38 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertificateList)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class CrlEntry;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class Time;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateList;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateList;
 }
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+class CrlEntry;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class Time;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -96,48 +96,48 @@ public:
 
   constexpr void __set_sig(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0x1015a88 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x1086cd8, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x1015aa0 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1086cf0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::CertificateList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1015b44 size 0x150 virtual false final false
+  /// @brief Method .ctor, addr 0x1086d94, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_TbsCertList addr 0x1015c94 size 0x8 virtual false final false
+  /// @brief Method get_TbsCertList, addr 0x1086ee4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateList* get_TbsCertList();
 
-  /// @brief Method GetRevokedCertificates addr 0x1015c9c size 0x1c virtual false final false
+  /// @brief Method GetRevokedCertificates, addr 0x1086eec, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CrlEntry*, ::Array<::Org::BouncyCastle::Asn1::X509::CrlEntry*>*> GetRevokedCertificates();
 
-  /// @brief Method GetRevokedCertificateEnumeration addr 0x1015cb8 size 0x1c virtual false final false
+  /// @brief Method GetRevokedCertificateEnumeration, addr 0x1086f08, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetRevokedCertificateEnumeration();
 
-  /// @brief Method get_SignatureAlgorithm addr 0x1015cd4 size 0x8 virtual false final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x1086f24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
 
-  /// @brief Method get_Signature addr 0x1015cdc size 0x8 virtual false final false
+  /// @brief Method get_Signature, addr 0x1086f2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_Signature();
 
-  /// @brief Method GetSignatureOctets addr 0x1015ce4 size 0x20 virtual false final false
+  /// @brief Method GetSignatureOctets, addr 0x1086f34, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignatureOctets();
 
-  /// @brief Method get_Version addr 0x1015d04 size 0x1c virtual false final false
+  /// @brief Method get_Version, addr 0x1086f54, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Issuer addr 0x1015d20 size 0x1c virtual false final false
+  /// @brief Method get_Issuer, addr 0x1086f70, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_ThisUpdate addr 0x1015d3c size 0x1c virtual false final false
+  /// @brief Method get_ThisUpdate, addr 0x1086f8c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_ThisUpdate();
 
-  /// @brief Method get_NextUpdate addr 0x1015d58 size 0x1c virtual false final false
+  /// @brief Method get_NextUpdate, addr 0x1086fa8, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NextUpdate();
 
-  /// @brief Method ToAsn1Object addr 0x1015d74 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1086fc4, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateList", modifiers: "&&", def_value: None }]

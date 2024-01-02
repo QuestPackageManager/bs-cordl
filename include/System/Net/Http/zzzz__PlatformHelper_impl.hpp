@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__PlatformHelper_def.hpp"
-#include "System/Net/Http/zzzz__StreamContent_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Net/Http/zzzz__StreamContent_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::PlatformHelper.IsContentHeader
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::PlatformHelper::IsContentHeader)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26b3344;
+  constexpr static std::size_t addrs = 0x282e354;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::PlatformHelper*>::get(), "IsContentHeader", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::System::Net::Http::PlatformHelper::GetSingleHeaderString)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26b3078;
+  constexpr static std::size_t addrs = 0x282e088;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::PlatformHelper*>::get(), "GetSingleHeaderString", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
@@ -41,9 +41,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::StreamContent* (*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::PlatformHelper::CreateStreamContent)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26b32d0;
+  constexpr static std::size_t addrs = 0x282e2e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::PlatformHelper*>::get(), "CreateStreamContent", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(),

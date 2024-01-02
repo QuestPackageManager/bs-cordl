@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XRMeshSubsystem)
 namespace UnityEngine::XR {
-struct MeshGenerationResult;
-}
-namespace UnityEngine::XR {
 struct __XRMeshSubsystem__MeshTransformList;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::XR {
+struct MeshGenerationResult;
 }
 namespace System {
 class IDisposable;
@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15638))
 // CS Name: ::XRMeshSubsystem::MeshTransformList
 struct CORDL_TYPE __XRMeshSubsystem__MeshTransformList {
 public:
@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose addr 0x2d4b08c size 0x3c virtual true final true
+  /// @brief Method Dispose, addr 0x2eb3e34, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2d4b0c8 size 0x3c virtual false final false
+  /// @brief Method Dispose, addr 0x2eb3e70, size 0x3c, virtual false, abstract: false, final false
   static inline void Dispose(void* self);
 
   // Ctor Parameters [CppParam { name: "m_Self", ty: "void*", modifiers: "", def_value: None }]
@@ -73,20 +73,20 @@ static_assert(offsetof(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15857), inst: 3826 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15597))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
 class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {
 public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate addr 0x2d4afec size 0x58 virtual false final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x2eb3d94, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d4b044 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb3dec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRMeshSubsystem", modifiers: "&&", def_value: None }]

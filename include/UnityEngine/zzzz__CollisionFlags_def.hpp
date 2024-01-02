@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CollisionFlags);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15502))
 // CS Name: ::UnityEngine::CollisionFlags
 struct CORDL_TYPE CollisionFlags {
 public:

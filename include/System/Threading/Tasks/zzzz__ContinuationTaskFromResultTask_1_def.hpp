@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(ContinuationTaskFromResultTask_1)
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-class Delegate;
-}
 namespace System::Threading::Tasks {
 struct TaskCreationOptions;
+}
+namespace System {
+class Object;
 }
 namespace System::Threading::Tasks {
 struct InternalTaskOptions;
 }
 namespace System {
-class Object;
+class Delegate;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -31,8 +31,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2783))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2799))
 // CS Name: ::System.Threading.Tasks::ContinuationTaskFromResultTask`1<TAntecedentResult>*
 class CORDL_TYPE ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task {
 public:
@@ -50,11 +50,11 @@ public:
                                                                                                           ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                                                           ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action, ::System::Object* state,
                     ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 
-  /// @brief Method InnerInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InnerInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InnerInvoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContinuationTaskFromResultTask_1", modifiers: "&&", def_value: None }]

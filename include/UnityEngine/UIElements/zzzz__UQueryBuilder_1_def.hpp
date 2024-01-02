@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryBuilder_1)
-namespace UnityEngine::UIElements {
-class VisualElement;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements {
-struct RuleMatcher;
+namespace System {
+class Object;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
-template <typename T> struct UQueryState_1;
-}
-namespace System {
-class Object;
-}
-namespace UnityEngine::UIElements {
 class StyleSelector;
 }
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::UIElements {
+struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorPart;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct UQueryState_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -46,8 +46,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7356))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7017))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7270))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6931))
 // CS Name: ::UnityEngine.UIElements::UQueryBuilder`1<T>
 struct CORDL_TYPE UQueryBuilder_1 {
 public:
@@ -59,64 +59,66 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UQueryBuilder_1<T>>*();
 
-  /// @brief Method get_styleSelectors addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_styleSelectors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>* get_styleSelectors();
 
-  /// @brief Method get_parts addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_parts, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelectorPart>* get_parts();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* visualElement);
 
-  /// @brief Method Class addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Class, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Class(::StringW classname);
 
-  /// @brief Method Name addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Name(::StringW id);
 
-  /// @brief Method OfType addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::StringW className);
+  /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param name: ::StringW (default: nullptr)
+  /// @param className: ::StringW (default: nullptr)
+  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name = nullptr, ::StringW className = nullptr);
 
-  /// @brief Method SingleBaseType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SingleBaseType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> SingleBaseType();
 
-  /// @brief Method AddClass addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddClass(::StringW c);
 
-  /// @brief Method AddName addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddName(::StringW id);
 
-  /// @brief Method AddType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T2> inline void AddType();
 
-  /// @brief Method AddRelationship addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddRelationship, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> AddRelationship(::UnityEngine::UIElements::StyleSelectorRelationship relationship);
 
-  /// @brief Method AddPseudoStatesRuleIfNecessasy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddPseudoStatesRuleIfNecessasy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddPseudoStatesRuleIfNecessasy();
 
-  /// @brief Method FinishSelector addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FinishSelector, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FinishSelector();
 
-  /// @brief Method CurrentSelectorEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CurrentSelectorEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool CurrentSelectorEmpty();
 
-  /// @brief Method FinishCurrentSelector addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FinishCurrentSelector, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FinishCurrentSelector();
 
-  /// @brief Method Build addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryState_1<T> Build();
 
-  /// @brief Method ToList addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ToList(::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::UQueryBuilder_1<T> other);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_StyleSelectors", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSelector*>*", modifiers: "", def_value: None }, CppParam { name:

@@ -20,8 +20,9 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11014), inst: 2743 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14653), inst: 2521
-// }), TypeDefinitionIndex(TypeDefinitionIndex(11014)), TypeDefinitionIndex(TypeDefinitionIndex(14653))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11024)) CS Name: ::Zenject::HashSetPool`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11086)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 2803 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(14315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14315), inst: 2578 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11096)) CS
+// Name: ::Zenject::HashSetPool`1<T>*
 class CORDL_TYPE HashSetPool_1 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::HashSet_1<T>*> {
 public:
   // Declarations
@@ -34,16 +35,16 @@ public:
 
   static inline ::Zenject::HashSetPool_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::HashSetPool_1<T>* get_Instance();
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(::System::Collections::Generic::HashSet_1<T>* items);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::System::Collections::Generic::HashSet_1<T>* items);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashSetPool_1", modifiers: "&&", def_value: None }]

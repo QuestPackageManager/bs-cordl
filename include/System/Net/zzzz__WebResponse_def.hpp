@@ -4,12 +4,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(WebResponse)
-namespace System::Net {
-class WebHeaderCollection;
-}
-namespace System {
-class Uri;
-}
 namespace System {
 class IDisposable;
 }
@@ -17,10 +11,16 @@ namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System {
+class Uri;
+}
+namespace System::Net {
+class WebHeaderCollection;
 }
 namespace System::IO {
 class Stream;
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Net::WebResponse);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7934))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9097))
 // CS Name: ::System.Net::WebResponse*
 class CORDL_TYPE WebResponse : public ::System::MarshalByRefObject {
 public:
@@ -64,40 +64,40 @@ public:
 
   static inline ::System::Net::WebResponse* New_ctor();
 
-  /// @brief Method .ctor addr 0x28275ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29a4e24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::WebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x28275b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29a4e2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x28275bc size 0xc virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29a4e34, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData addr 0x28275c8 size 0x4 virtual true final false
+  /// @brief Method GetObjectData, addr 0x29a4e40, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method Close addr 0x28275cc size 0x4 virtual true final false
+  /// @brief Method Close, addr 0x29a4e44, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x28275d0 size 0x6c virtual true final true
+  /// @brief Method Dispose, addr 0x29a4e48, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x282763c size 0x8c virtual true final false
+  /// @brief Method Dispose, addr 0x29a4eb4, size 0x8c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_IsFromCache addr 0x28276c8 size 0x8 virtual true final false
+  /// @brief Method get_IsFromCache, addr 0x29a4f40, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFromCache();
 
-  /// @brief Method GetResponseStream addr 0x28276d0 size 0x24 virtual true final false
+  /// @brief Method GetResponseStream, addr 0x29a4f48, size 0x24, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
-  /// @brief Method get_ResponseUri addr 0x28276f4 size 0x24 virtual true final false
+  /// @brief Method get_ResponseUri, addr 0x29a4f6c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_Headers addr 0x2827718 size 0x24 virtual true final false
+  /// @brief Method get_Headers, addr 0x29a4f90, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
   // Ctor Parameters [CppParam { name: "", ty: "WebResponse", modifiers: "&&", def_value: None }]

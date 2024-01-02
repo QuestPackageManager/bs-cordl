@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoRenderMode);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15917))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16076))
 // CS Name: ::UnityEngine.Video::VideoRenderMode
 struct CORDL_TYPE VideoRenderMode {
 public:

@@ -10,13 +10,13 @@ namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 struct __InitiateUserAccountPairingCommand__Result;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingComma
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6553))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6467))
 // CS Name: ::InitiateUserAccountPairingCommand::Result
 struct CORDL_TYPE __InitiateUserAccountPairingCommand__Result {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InitiateUserAccou
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6554))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6468))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InitiateUserAccountPairingCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE InitiateUserAccountPairingCommand {
@@ -109,13 +109,13 @@ public:
 
   constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type addr 0x29678e8 size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae7630, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x2967918 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae7660, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2967948 size 0x34 virtual false final false
+  /// @brief Method Create, addr 0x2ae7690, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }]

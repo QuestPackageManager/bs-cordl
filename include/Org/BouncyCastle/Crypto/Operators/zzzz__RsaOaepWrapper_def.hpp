@@ -6,18 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaOaepWrapper)
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class IKeyUnwrapper;
-}
-namespace Org::BouncyCastle::Crypto {
-class IKeyWrapper;
-}
-namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
-}
 namespace Org::BouncyCastle::Crypto {
 class IBlockResult;
 }
@@ -27,8 +15,20 @@ class ICipherParameters;
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Crypto {
+class IKeyUnwrapper;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(988))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::RsaOaepWrapper*
 class CORDL_TYPE RsaOaepWrapper : public ::System::Object {
@@ -75,16 +75,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper* New_ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method .ctor addr 0xeb40f0 size 0x2a0 virtual false final false
+  /// @brief Method .ctor, addr 0xf292dc, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method get_AlgorithmDetails addr 0xeb4390 size 0x8 virtual true final true
+  /// @brief Method get_AlgorithmDetails, addr 0xf2957c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method Unwrap addr 0xeb4398 size 0x104 virtual true final true
+  /// @brief Method Unwrap, addr 0xf29584, size 0x104, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
 
-  /// @brief Method Wrap addr 0xeb449c size 0x104 virtual true final true
+  /// @brief Method Wrap, addr 0xf29688, size 0x104, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaOaepWrapper", modifiers: "&&", def_value: None }]

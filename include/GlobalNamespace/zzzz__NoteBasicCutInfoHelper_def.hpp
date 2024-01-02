@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteBasicCutInfoHelper)
-namespace GlobalNamespace {
-struct ColorType;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace GlobalNamespace {
 struct SaberType;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct ColorType;
 }
 namespace UnityEngine {
-struct Vector3;
+class Transform;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
@@ -31,13 +31,13 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteBasicCutInfoHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15168))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15023))
 // CS Name: ::NoteBasicCutInfoHelper*
 class CORDL_TYPE NoteBasicCutInfoHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBasicCutInfo addr 0x1231cfc size 0x198 virtual false final false
+  /// @brief Method GetBasicCutInfo, addr 0x12a3df8, size 0x198, virtual false, abstract: false, final false
   static inline void GetBasicCutInfo(::UnityEngine::Transform* noteTransform, ::GlobalNamespace::ColorType colorType, ::GlobalNamespace::NoteCutDirection cutDirection,
                                      ::GlobalNamespace::SaberType saberType, float_t saberBladeSpeed, ::UnityEngine::Vector3 cutDirVec, float_t cutAngleTolerance, ByRef<bool> directionOK,
                                      ByRef<bool> speedOK, ByRef<bool> saberTypeOK, ByRef<float_t> cutDirDeviation, ByRef<float_t> cutDirAngle);

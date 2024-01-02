@@ -7,40 +7,40 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(KeyboardTextEditorEventHandler)
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine::UIElements {
-class ValidateCommandEvent;
-}
-namespace UnityEngine::UIElements {
 class BlurEvent;
-}
-namespace UnityEngine::UIElements {
-class MouseUpEvent;
-}
-namespace UnityEngine::UIElements {
-class ITextInputField;
 }
 namespace UnityEngine::UIElements {
 class MouseMoveEvent;
 }
 namespace UnityEngine::UIElements {
-class KeyDownEvent;
-}
-namespace UnityEngine::UIElements {
-class ExecuteCommandEvent;
-}
-namespace UnityEngine {
-class Event;
+class MouseUpEvent;
 }
 namespace UnityEngine::UIElements {
 class FocusEvent;
 }
 namespace UnityEngine::UIElements {
-class MouseDownEvent;
+class ExecuteCommandEvent;
+}
+namespace UnityEngine::UIElements {
+class ITextInputField;
+}
+namespace UnityEngine::UIElements {
+class KeyDownEvent;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+class MouseDownEvent;
+}
+namespace UnityEngine::UIElements {
+class ValidateCommandEvent;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -55,8 +55,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyboardTextEditorEventHandler);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7127))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7094))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7041))
 // CS Name: ::UnityEngine.UIElements::KeyboardTextEditorEventHandler*
 class CORDL_TYPE KeyboardTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
@@ -135,55 +135,55 @@ public:
 
   constexpr void __set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method get_isClicking addr 0x2cb81f8 size 0x8 virtual false final false
+  /// @brief Method get_isClicking, addr 0x2e1e5a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isClicking();
 
-  /// @brief Method set_isClicking addr 0x2cb8200 size 0x34 virtual false final false
+  /// @brief Method set_isClicking, addr 0x2e1e5b0, size 0x34, virtual false, abstract: false, final false
   inline void set_isClicking(bool value);
 
   static inline ::UnityEngine::UIElements::KeyboardTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
                                                                                     ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method .ctor addr 0x2cb8234 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2e1e5e4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
 
-  /// @brief Method ExecuteDefaultActionAtTarget addr 0x2cb82b4 size 0x5bc virtual true final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x2e1e664, size 0x5bc, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method OnFocus addr 0x2cb8870 size 0x190 virtual false final false
+  /// @brief Method OnFocus, addr 0x2e1ec20, size 0x190, virtual false, abstract: false, final false
   inline void OnFocus(::UnityEngine::UIElements::FocusEvent* _);
 
-  /// @brief Method OnBlur addr 0x2cb8a00 size 0xc virtual false final false
+  /// @brief Method OnBlur, addr 0x2e1edb0, size 0xc, virtual false, abstract: false, final false
   inline void OnBlur(::UnityEngine::UIElements::BlurEvent* _);
 
-  /// @brief Method OnMouseDown addr 0x2cb8a0c size 0x3f4 virtual false final false
+  /// @brief Method OnMouseDown, addr 0x2e1edbc, size 0x3f4, virtual false, abstract: false, final false
   inline void OnMouseDown(::UnityEngine::UIElements::MouseDownEvent* evt);
 
-  /// @brief Method OnMouseUp addr 0x2cb8e00 size 0x168 virtual false final false
+  /// @brief Method OnMouseUp, addr 0x2e1f1b0, size 0x168, virtual false, abstract: false, final false
   inline void OnMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt);
 
-  /// @brief Method OnMouseMove addr 0x2cb8f68 size 0x148 virtual false final false
+  /// @brief Method OnMouseMove, addr 0x2e1f318, size 0x148, virtual false, abstract: false, final false
   inline void OnMouseMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
-  /// @brief Method ProcessDragMove addr 0x2cba038 size 0x134 virtual false final false
+  /// @brief Method ProcessDragMove, addr 0x2e203e8, size 0x134, virtual false, abstract: false, final false
   inline void ProcessDragMove(::UnityEngine::UIElements::MouseMoveEvent* evt);
 
-  /// @brief Method MoveDistanceQualifiesForDrag addr 0x2cba014 size 0x24 virtual false final false
+  /// @brief Method MoveDistanceQualifiesForDrag, addr 0x2e203c4, size 0x24, virtual false, abstract: false, final false
   inline bool MoveDistanceQualifiesForDrag(::UnityEngine::Vector2 start, ::UnityEngine::Vector2 current);
 
-  /// @brief Method OnKeyDown addr 0x2cb90b0 size 0x608 virtual false final false
+  /// @brief Method OnKeyDown, addr 0x2e1f460, size 0x608, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnValidateCommandEvent addr 0x2cb96b8 size 0x364 virtual false final false
+  /// @brief Method OnValidateCommandEvent, addr 0x2e1fa68, size 0x364, virtual false, abstract: false, final false
   inline void OnValidateCommandEvent(::UnityEngine::UIElements::ValidateCommandEvent* evt);
 
-  /// @brief Method OnExecuteCommandEvent addr 0x2cb9a1c size 0x5f8 virtual false final false
+  /// @brief Method OnExecuteCommandEvent, addr 0x2e1fdcc, size 0x5f8, virtual false, abstract: false, final false
   inline void OnExecuteCommandEvent(::UnityEngine::UIElements::ExecuteCommandEvent* evt);
 
-  /// @brief Method PreDrawCursor addr 0x2cba16c size 0x340 virtual false final false
+  /// @brief Method PreDrawCursor, addr 0x2e2051c, size 0x340, virtual false, abstract: false, final false
   inline void PreDrawCursor(::StringW newText);
 
-  /// @brief Method PostDrawCursor addr 0x2cba4ac size 0x24 virtual false final false
+  /// @brief Method PostDrawCursor, addr 0x2e2085c, size 0x24, virtual false, abstract: false, final false
   inline void PostDrawCursor();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyboardTextEditorEventHandler", modifiers: "&&", def_value: None }]

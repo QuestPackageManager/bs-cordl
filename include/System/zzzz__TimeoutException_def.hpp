@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::TimeoutException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2485))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2487))
 // CS Name: ::System::TimeoutException*
 class CORDL_TYPE TimeoutException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::TimeoutException* New_ctor();
 
-  /// @brief Method .ctor addr 0x246a3e8 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x25c7310, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TimeoutException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x246a440 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x25c7368, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::TimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x246a460 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25c7388, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeoutException", modifiers: "&&", def_value: None }]

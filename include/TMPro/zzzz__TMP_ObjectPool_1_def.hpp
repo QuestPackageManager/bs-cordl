@@ -23,8 +23,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12334))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
 // CS Name: ::TMPro::TMP_ObjectPool`1<T>*
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {
 public:
@@ -71,27 +71,27 @@ public:
 
   constexpr void __set__countAll_k__BackingField(int32_t value);
 
-  /// @brief Method get_countAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countAll();
 
-  /// @brief Method set_countAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_countAll(int32_t value);
 
-  /// @brief Method get_countActive addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_countActive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countActive();
 
-  /// @brief Method get_countInactive addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_countInactive, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countInactive();
 
   static inline ::TMPro::TMP_ObjectPool_1<T>* New_ctor(::UnityEngine::Events::UnityAction_1<T>* actionOnGet, ::UnityEngine::Events::UnityAction_1<T>* actionOnRelease);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Events::UnityAction_1<T>* actionOnGet, ::UnityEngine::Events::UnityAction_1<T>* actionOnRelease);
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Get();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release(T element);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ObjectPool_1", modifiers: "&&", def_value: None }]

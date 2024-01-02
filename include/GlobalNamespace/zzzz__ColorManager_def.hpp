@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(ColorManager)
 namespace GlobalNamespace {
 class ColorScheme;
 }
+namespace GlobalNamespace {
+struct SaberType;
+}
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
 struct ColorType;
-}
-namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
-struct SaberType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorManager);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5826))
 // CS Name: ::ColorManager*
 class CORDL_TYPE ColorManager : public ::System::Object {
 public:
@@ -46,27 +46,30 @@ public:
 
   constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method get_obstaclesColor addr 0x21a6ed8 size 0x20 virtual false final false
+  /// @brief Method get_obstaclesColor, addr 0x22ec0cc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method ColorForType addr 0x21a6ef8 size 0xe8 virtual false final false
+  /// @brief Method SetColorScheme, addr 0x22ec0ec, size 0x8, virtual false, abstract: false, final false
+  inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
+
+  /// @brief Method ColorForType, addr 0x22ec0f4, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
 
-  /// @brief Method ColorForType addr 0x21a6fe0 size 0x74 virtual false final false
+  /// @brief Method ColorForType, addr 0x22ec1dc, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
 
-  /// @brief Method ColorForSaberType addr 0x21a7054 size 0x54 virtual false final false
+  /// @brief Method ColorForSaberType, addr 0x22ec250, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method EffectsColorForSaberType addr 0x21a70a8 size 0x90 virtual false final false
+  /// @brief Method EffectsColorForSaberType, addr 0x22ec2a4, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method GetObstacleEffectColor addr 0x21a7138 size 0x5c virtual false final false
+  /// @brief Method GetObstacleEffectColor, addr 0x22ec334, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetObstacleEffectColor();
 
   static inline ::GlobalNamespace::ColorManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a7194 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ec390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorManager", modifiers: "&&", def_value: None }]

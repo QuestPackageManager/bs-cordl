@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyedCollection_2)
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Collections::ObjectModel {
@@ -30,8 +30,8 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3802)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3802), inst: 999 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3804))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
 // CS Name: ::System.Collections.ObjectModel::KeyedCollection`2<TKey,TItem>*
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:
@@ -80,56 +80,56 @@ public:
 
   static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer, int32_t dictionaryCreationThreshold);
 
-  /// @brief Method get_Items addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TItem>* get_Items();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TItem get_Item(TKey key);
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Contains(TKey key);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(TKey key, ByRef<TItem> item);
 
-  /// @brief Method get_Dictionary addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Dictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<TKey, TItem>* get_Dictionary();
 
-  /// @brief Method ClearItems addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ClearItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ClearItems();
 
-  /// @brief Method GetKeyForItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetKeyForItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey GetKeyForItem(TItem item);
 
-  /// @brief Method InsertItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InsertItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void InsertItem(int32_t index, TItem item);
 
-  /// @brief Method RemoveItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void RemoveItem(int32_t index);
 
-  /// @brief Method SetItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetItem(int32_t index, TItem item);
 
-  /// @brief Method AddKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddKey(TKey key, TItem item);
 
-  /// @brief Method CreateDictionary addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateDictionary, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CreateDictionary();
 
-  /// @brief Method RemoveKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveKey(TKey key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedCollection_2", modifiers: "&&", def_value: None }]

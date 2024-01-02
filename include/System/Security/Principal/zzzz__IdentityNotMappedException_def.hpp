@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IdentityNotMappedException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Security::Principal {
@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::System::Security::Principal::IdentityNotMappedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2999))
 // CS Name: ::System.Security.Principal::IdentityNotMappedException*
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
 
-  /// @brief Method .ctor addr 0x231f2cc size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2476dc0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x231f324 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2476e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method GetObjectData addr 0x231f32c size 0x4 virtual true final false
+  /// @brief Method GetObjectData, addr 0x2476e20, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None }]

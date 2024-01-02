@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyCenterStageLayoutAnimator)
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class RectTransform;
 }
 namespace Tweening {
 class TimeTweeningManager;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5562))
 // CS Name: ::MultiplayerLobbyCenterStageLayoutAnimator*
 class CORDL_TYPE MultiplayerLobbyCenterStageLayoutAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,21 +75,21 @@ public:
 
   constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
 
-  /// @brief Method StartCountdown addr 0x215e724 size 0x84 virtual false final false
+  /// @brief Method StartCountdown, addr 0x22a36bc, size 0x84, virtual false, abstract: false, final false
   inline void StartCountdown();
 
-  /// @brief Method StopCountdown addr 0x215e8e4 size 0xa0 virtual false final false
+  /// @brief Method StopCountdown, addr 0x22a387c, size 0xa0, virtual false, abstract: false, final false
   inline void StopCountdown(bool instant);
 
-  /// @brief Method Move addr 0x215e7a8 size 0x13c virtual false final false
+  /// @brief Method Move, addr 0x22a3740, size 0x13c, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 from, ::UnityEngine::Vector3 to, float_t duration);
 
   static inline ::GlobalNamespace::MultiplayerLobbyCenterStageLayoutAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x215e984 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22a391c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Move>b__7_0 addr 0x215e98c size 0x1c virtual false final false
+  /// @brief Method <Move>b__7_0, addr 0x22a3924, size 0x1c, virtual false, abstract: false, final false
   inline void _Move_b__7_0(::UnityEngine::Vector3 pos);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyCenterStageLayoutAnimator", modifiers: "&&", def_value: None }]

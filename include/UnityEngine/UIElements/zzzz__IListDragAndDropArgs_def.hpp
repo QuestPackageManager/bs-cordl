@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IListDragAndDropArgs)
 namespace UnityEngine::UIElements {
-class IDragAndDropData;
+struct DragAndDropPosition;
 }
 namespace UnityEngine::UIElements {
-struct DragAndDropPosition;
+class IDragAndDropData;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IListDragAndDropArgs);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6952))
 // CS Name: ::UnityEngine.UIElements::IListDragAndDropArgs*
 class CORDL_TYPE IListDragAndDropArgs {
 public:
@@ -32,13 +32,13 @@ public:
 
   __declspec(property(get = get_dragAndDropPosition))::UnityEngine::UIElements::DragAndDropPosition dragAndDropPosition;
 
-  /// @brief Method get_insertAtIndex addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_insertAtIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_insertAtIndex();
 
-  /// @brief Method get_dragAndDropData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_dragAndDropData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IDragAndDropData* get_dragAndDropData();
 
-  /// @brief Method get_dragAndDropPosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_dragAndDropPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DragAndDropPosition get_dragAndDropPosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "IListDragAndDropArgs", modifiers: "&&", def_value: None }]

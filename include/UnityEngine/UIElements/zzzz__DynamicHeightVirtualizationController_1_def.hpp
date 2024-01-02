@@ -6,17 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DynamicHeightVirtualizationController_1)
-namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace System {
-template <typename T> class Action_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine::UIElements {
+class BaseVerticalCollectionView;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
@@ -25,19 +28,16 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-class Action;
+class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
-class BaseVerticalCollectionView;
+class VisualElement;
 }
 namespace System {
 template <typename T> class Predicate_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -51,8 +51,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7456), inst: 5227 }), TypeDefinitionIndex(TypeDefinitionIndex(7456))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5349 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7366))
 // CS Name: ::UnityEngine.UIElements::DynamicHeightVirtualizationController`1<T>*
 class CORDL_TYPE DynamicHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:
@@ -174,73 +174,73 @@ public:
 
   static inline ::UnityEngine::UIElements::DynamicHeightVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Refresh(bool rebuild);
 
-  /// @brief Method ScrollToItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ScrollToItem(int32_t index);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
 
-  /// @brief Method OnScroll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::Vector2 scrollOffset);
 
-  /// @brief Method NeedsFill addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method NeedsFill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool NeedsFill();
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Fill();
 
-  /// @brief Method GetIndexFromPosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetIndexFromPosition(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetItemHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t GetItemHeight(int32_t index);
 
-  /// @brief Method GetFirstVisibleItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetFirstVisibleItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetFirstVisibleItem(float_t offset);
 
-  /// @brief Method UpdateScrollViewContainer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateScrollViewContainer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateScrollViewContainer(int32_t index, float_t previousHeight, float_t newHeight);
 
-  /// @brief Method ApplyScrollViewUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ApplyScrollViewUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ApplyScrollViewUpdate();
 
-  /// @brief Method OnViewportGeometryChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnViewportGeometryChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnViewportGeometryChanged(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method GetContentHeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetContentHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t GetContentHeight();
 
-  /// @brief Method GetContentHeightForIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetContentHeightForIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t GetContentHeightForIndex(int32_t lastIndex);
 
-  /// @brief Method RegisterItemHeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterItemHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RegisterItemHeight(int32_t index, float_t height);
 
-  /// @brief Method UnregisterItemHeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnregisterItemHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnregisterItemHeight(int32_t index, float_t height);
 
-  /// @brief Method OnRecycledItemGeometryChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnRecycledItemGeometryChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnRecycledItemGeometryChanged(::UnityEngine::UIElements::ReusableCollectionItem* item);
 
-  /// @brief Method GetOrMakeItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOrMakeItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetOrMakeItem();
 
-  /// @brief Method ReplaceActiveItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReplaceActiveItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReplaceActiveItem(int32_t index);
 
-  /// @brief Method ReleaseItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseItem(int32_t activeItemsIndex);
 
-  /// @brief Method IsIndexOutOfBounds addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsIndexOutOfBounds, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsIndexOutOfBounds(int32_t i);
 
-  /// @brief Method <.ctor>b__13_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.ctor>b__13_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __ctor_b__13_0(::UnityEngine::UIElements::VisualElement* element);
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicHeightVirtualizationController_1", modifiers: "&&", def_value: None }]

@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ValueChangedBinder_1)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace HMUI {
 template <typename T> class IValueChanger_1;
 }
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class Action_1;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2> class Tuple_2;
 }
 // Forward declare root types
 namespace HMUI {
@@ -28,8 +28,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13644))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13524))
 // CS Name: ::HMUI::ValueChangedBinder`1<T>*
 class CORDL_TYPE ValueChangedBinder_1 : public ::System::Object {
 public:
@@ -45,29 +45,29 @@ public:
 
   static inline ::HMUI::ValueChangedBinder_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HMUI::ValueChangedBinder_1<T>* New_ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action);
 
   static inline ::HMUI::ValueChangedBinder_1<T>* New_ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method AddBindings addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::HMUI::IValueChanger_1<T>*, ::System::Action_1<T>*>*>* bindingData);
 
-  /// @brief Method AddBinding addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBinding, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddBinding(::HMUI::IValueChanger_1<T>* valueChanger, ::System::Action_1<T>* action);
 
-  /// @brief Method ClearBindings addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClearBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueChangedBinder_1", modifiers: "&&", def_value: None }]

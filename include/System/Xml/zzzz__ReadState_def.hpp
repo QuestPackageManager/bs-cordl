@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ReadState);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11440))
 // CS Name: ::System.Xml::ReadState
 struct CORDL_TYPE ReadState {
 public:

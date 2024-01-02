@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDocumentType);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12055))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDocumentType*
 class CORDL_TYPE IXmlDocumentType {
 public:
@@ -34,16 +34,16 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_System addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_System, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_System();
 
-  /// @brief Method get_Public addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Public, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Public();
 
-  /// @brief Method get_InternalSubset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InternalSubset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalSubset();
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlDocumentType", modifiers: "&&", def_value: None }]

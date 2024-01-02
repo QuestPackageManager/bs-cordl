@@ -24,8 +24,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3851))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3863))
 // CS Name: ::System.Collections.Generic::ArraySortHelper`1<T>*
 class CORDL_TYPE ArraySortHelper_1 : public ::System::Object {
 public:
@@ -37,48 +37,48 @@ public:
 
   static inline ::System::Collections::Generic::ArraySortHelper_1<T>* getStaticF_s_defaultArraySortHelper();
 
-  /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Sort(::ArrayW<T, ::Array<T>*> keys, int32_t index, int32_t length, ::System::Collections::Generic::IComparer_1<T>* comparer);
 
-  /// @brief Method BinarySearch addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method BinarySearch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t BinarySearch(::ArrayW<T, ::Array<T>*> array, int32_t index, int32_t length, T value, ::System::Collections::Generic::IComparer_1<T>* comparer);
 
-  /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Sort(::ArrayW<T, ::Array<T>*> keys, int32_t index, int32_t length, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method InternalBinarySearch addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalBinarySearch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t InternalBinarySearch(::ArrayW<T, ::Array<T>*> array, int32_t index, int32_t length, T value, ::System::Collections::Generic::IComparer_1<T>* comparer);
 
-  /// @brief Method SwapIfGreater addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SwapIfGreater, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void SwapIfGreater(::ArrayW<T, ::Array<T>*> keys, ::System::Comparison_1<T>* comparer, int32_t a, int32_t b);
 
-  /// @brief Method Swap addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Swap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Swap(::ArrayW<T, ::Array<T>*> a, int32_t i, int32_t j);
 
-  /// @brief Method IntrospectiveSort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntrospectiveSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void IntrospectiveSort(::ArrayW<T, ::Array<T>*> keys, int32_t left, int32_t length, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method IntroSort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntroSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void IntroSort(::ArrayW<T, ::Array<T>*> keys, int32_t lo, int32_t hi, int32_t depthLimit, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method PickPivotAndPartition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PickPivotAndPartition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t PickPivotAndPartition(::ArrayW<T, ::Array<T>*> keys, int32_t lo, int32_t hi, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method Heapsort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Heapsort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Heapsort(::ArrayW<T, ::Array<T>*> keys, int32_t lo, int32_t hi, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method DownHeap addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DownHeap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void DownHeap(::ArrayW<T, ::Array<T>*> keys, int32_t i, int32_t n, int32_t lo, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method InsertionSort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InsertionSort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void InsertionSort(::ArrayW<T, ::Array<T>*> keys, int32_t lo, int32_t hi, ::System::Comparison_1<T>* comparer);
 
-  /// @brief Method get_Default addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Default, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::ArraySortHelper_1<T>* get_Default();
 
   static inline ::System::Collections::Generic::ArraySortHelper_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ArraySortHelper_1", modifiers: "&&", def_value: None }]

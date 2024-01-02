@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlexyFollow);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13862))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14368))
 // CS Name: ::FlexyFollow*
 class CORDL_TYPE FlexyFollow : public ::UnityEngine::MonoBehaviour {
 public:
@@ -48,6 +48,9 @@ public:
 
   /// @brief Field _useLocalPosition, offset 0x33, size 0x1
   __declspec(property(get = __get__useLocalPosition, put = __set__useLocalPosition)) bool _useLocalPosition;
+
+  /// @brief Field _instant, offset 0x34, size 0x1
+  __declspec(property(get = __get__instant, put = __set__instant)) bool _instant;
 
   /// @brief Field _followTransform, offset 0x38, size 0x8
   __declspec(property(get = __get__followTransform, put = __set__followTransform))::UnityEngine::Transform* _followTransform;
@@ -97,6 +100,12 @@ public:
 
   constexpr void __set__useLocalPosition(bool value);
 
+  constexpr bool& __get__instant();
+
+  constexpr bool const& __get__instant() const;
+
+  constexpr void __set__instant(bool value);
+
   constexpr ::UnityEngine::Transform*& __get__followTransform();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__followTransform() const;
@@ -109,15 +118,15 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method Start addr 0x1f965b8 size 0x84 virtual false final false
+  /// @brief Method Start, addr 0x20f2cec, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x1f9663c size 0x13c virtual false final false
+  /// @brief Method LateUpdate, addr 0x20f2d70, size 0x128, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlexyFollow* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f96778 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x20f2e98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlexyFollow", modifiers: "&&", def_value: None }]
@@ -155,6 +164,9 @@ public:
   /// @brief Field _useLocalPosition, offset: 0x33, size: 0x1, def value: None
   bool ____useLocalPosition;
 
+  /// @brief Field _instant, offset: 0x34, size: 0x1, def value: None
+  bool ____instant;
+
   /// @brief Field _followTransform, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::Transform* ____followTransform;
 
@@ -179,6 +191,8 @@ static_assert(offsetof(::GlobalNamespace::FlexyFollow, ____fixedYOffset) == 0x31
 static_assert(offsetof(::GlobalNamespace::FlexyFollow, ____fixedZOffset) == 0x32, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlexyFollow, ____useLocalPosition) == 0x33, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FlexyFollow, ____instant) == 0x34, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::FlexyFollow, ____followTransform) == 0x38, "Offset mismatch!");
 

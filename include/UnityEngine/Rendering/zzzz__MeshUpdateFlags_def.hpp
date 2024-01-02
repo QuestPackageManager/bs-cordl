@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::MeshUpdateFlags);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10251))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10329))
 // CS Name: ::UnityEngine.Rendering::MeshUpdateFlags
 struct CORDL_TYPE MeshUpdateFlags {
 public:

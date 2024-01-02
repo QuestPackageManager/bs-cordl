@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsStream)
-namespace System::IO {
-struct SeekOrigin;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsProtocol;
+}
+namespace System::IO {
+struct SeekOrigin;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1330))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsStream*
 class CORDL_TYPE TlsStream : public ::System::IO::Stream {
@@ -49,49 +49,49 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsStream* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 
-  /// @brief Method .ctor addr 0xf43184 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xfb93cc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsProtocol* handler);
 
-  /// @brief Method get_CanRead addr 0xf431f0 size 0x30 virtual true final false
+  /// @brief Method get_CanRead, addr 0xfb9438, size 0x30, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0xf43220 size 0x8 virtual true final false
+  /// @brief Method get_CanSeek, addr 0xfb9468, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0xf43228 size 0x30 virtual true final false
+  /// @brief Method get_CanWrite, addr 0xfb9470, size 0x30, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method Close addr 0xf43258 size 0x34 virtual true final false
+  /// @brief Method Close, addr 0xfb94a0, size 0x34, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush addr 0xf4328c size 0x24 virtual true final false
+  /// @brief Method Flush, addr 0xfb94d4, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method get_Length addr 0xf432b0 size 0x40 virtual true final false
+  /// @brief Method get_Length, addr 0xfb94f8, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0xf432f0 size 0x40 virtual true final false
+  /// @brief Method get_Position, addr 0xfb9538, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0xf43330 size 0x40 virtual true final false
+  /// @brief Method set_Position, addr 0xfb9578, size 0x40, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method Read addr 0xf43370 size 0x24 virtual true final false
+  /// @brief Method Read, addr 0xfb95b8, size 0x24, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte addr 0xf43394 size 0x98 virtual true final false
+  /// @brief Method ReadByte, addr 0xfb95dc, size 0x98, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek addr 0xf4342c size 0x40 virtual true final false
+  /// @brief Method Seek, addr 0xfb9674, size 0x40, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0xf4346c size 0x40 virtual true final false
+  /// @brief Method SetLength, addr 0xfb96b4, size 0x40, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write addr 0xf434ac size 0x24 virtual true final false
+  /// @brief Method Write, addr 0xfb96f4, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte addr 0xf434d0 size 0x94 virtual true final false
+  /// @brief Method WriteByte, addr 0xfb9718, size 0x94, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsStream", modifiers: "&&", def_value: None }]

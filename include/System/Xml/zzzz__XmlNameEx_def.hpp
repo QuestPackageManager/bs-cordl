@@ -7,16 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNameEx)
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
+class IXmlSchemaInfo;
 }
 namespace System::Xml::Schema {
-class XmlSchemaType;
+class XmlSchemaElement;
 }
 namespace System::Xml {
 class XmlDocument;
 }
-namespace System::Xml {
-class XmlName;
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
 }
 namespace System {
 class Object;
@@ -25,13 +28,10 @@ namespace System::Xml::Schema {
 struct XmlSchemaValidity;
 }
 namespace System::Xml::Schema {
-class XmlSchemaElement;
-}
-namespace System::Xml::Schema {
-class IXmlSchemaInfo;
-}
-namespace System::Xml::Schema {
 class XmlSchemaAttribute;
+}
+namespace System::Xml {
+class XmlName;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -43,8 +43,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNameEx);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11443))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11444))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11515))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11516))
 // CS Name: ::System.Xml::XmlNameEx*
 class CORDL_TYPE XmlNameEx : public ::System::Xml::XmlName {
 public:
@@ -102,41 +102,41 @@ public:
   static inline ::System::Xml::XmlNameEx* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                                                    ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method .ctor addr 0x27112b0 size 0x3cc virtual false final false
+  /// @brief Method .ctor, addr 0x288e2d0, size 0x3cc, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                     ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
-  /// @brief Method get_Validity addr 0x2711798 size 0x30 virtual true final false
+  /// @brief Method get_Validity, addr 0x288e7b8, size 0x30, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
-  /// @brief Method get_IsDefault addr 0x27117c8 size 0xc virtual true final false
+  /// @brief Method get_IsDefault, addr 0x288e7e8, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil addr 0x27117d4 size 0xc virtual true final false
+  /// @brief Method get_IsNil, addr 0x288e7f4, size 0xc, virtual true, abstract: false, final false
   inline bool get_IsNil();
 
-  /// @brief Method get_MemberType addr 0x27117e0 size 0x8 virtual true final false
+  /// @brief Method get_MemberType, addr 0x288e800, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaType addr 0x27117e8 size 0x8 virtual true final false
+  /// @brief Method get_SchemaType, addr 0x288e808, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_SchemaElement addr 0x27117f0 size 0x7c virtual true final false
+  /// @brief Method get_SchemaElement, addr 0x288e810, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaAttribute addr 0x271186c size 0x7c virtual true final false
+  /// @brief Method get_SchemaAttribute, addr 0x288e88c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
-  /// @brief Method SetValidity addr 0x271174c size 0x14 virtual false final false
+  /// @brief Method SetValidity, addr 0x288e76c, size 0x14, virtual false, abstract: false, final false
   inline void SetValidity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method SetIsDefault addr 0x2711760 size 0x1c virtual false final false
+  /// @brief Method SetIsDefault, addr 0x288e780, size 0x1c, virtual false, abstract: false, final false
   inline void SetIsDefault(bool value);
 
-  /// @brief Method SetIsNil addr 0x271177c size 0x1c virtual false final false
+  /// @brief Method SetIsNil, addr 0x288e79c, size 0x1c, virtual false, abstract: false, final false
   inline void SetIsNil(bool value);
 
-  /// @brief Method Equals addr 0x27118e8 size 0x3d4 virtual true final false
+  /// @brief Method Equals, addr 0x288e908, size 0x3d4, virtual true, abstract: false, final false
   inline bool Equals(::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNameEx", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XPath::XPathNamespaceScope);
 namespace System::Xml::XPath {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11509))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11581))
 // CS Name: ::System.Xml.XPath::XPathNamespaceScope
 struct CORDL_TYPE XPathNamespaceScope {
 public:

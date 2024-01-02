@@ -4,13 +4,9 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__NullAllowed_def.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullAllowed)
-namespace System {
-class Object;
-}
 namespace GlobalNamespace {
 struct __NullAllowed__Context;
 }
@@ -29,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowed);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16251))
 // CS Name: ::NullAllowed::Context
 struct CORDL_TYPE __NullAllowed__Context {
 public:
@@ -75,58 +71,34 @@ static_assert(offsetof(::GlobalNamespace::__NullAllowed__Context, value__) == 0x
 
 } // namespace GlobalNamespace
 // Type: ::NullAllowed
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16096)), TypeDefinitionIndex(TypeDefinitionIndex(10098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16097))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16251)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16252))
 // CS Name: ::NullAllowed*
 class CORDL_TYPE NullAllowed : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   using Context = ::GlobalNamespace::__NullAllowed__Context;
 
-  /// @brief Field context, offset 0x10, size 0x4
-  __declspec(property(get = __get_context, put = __set_context))::GlobalNamespace::__NullAllowed__Context context;
+  /// @brief Field _context, offset 0x10, size 0x4
+  __declspec(property(get = __get__context, put = __set__context))::GlobalNamespace::__NullAllowed__Context _context;
 
-  /// @brief Field propertyName, offset 0x18, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  constexpr ::GlobalNamespace::__NullAllowed__Context& __get__context();
 
-  /// @brief Field ifNotValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_ifNotValue, put = __set_ifNotValue))::System::Object* ifNotValue;
+  constexpr ::GlobalNamespace::__NullAllowed__Context const& __get__context() const;
 
-  constexpr ::GlobalNamespace::__NullAllowed__Context& __get_context();
-
-  constexpr ::GlobalNamespace::__NullAllowed__Context const& __get_context() const;
-
-  constexpr void __set_context(::GlobalNamespace::__NullAllowed__Context value);
-
-  constexpr ::StringW& __get_propertyName();
-
-  constexpr ::StringW const& __get_propertyName() const;
-
-  constexpr void __set_propertyName(::StringW value);
-
-  constexpr ::System::Object*& __get_ifNotValue();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_ifNotValue() const;
-
-  constexpr void __set_ifNotValue(::System::Object* value);
-
-  static inline ::GlobalNamespace::NullAllowed* New_ctor();
-
-  /// @brief Method .ctor addr 0x1fac2d0 size 0x1c virtual false final false
-  inline void _ctor();
+  constexpr void __set__context(::GlobalNamespace::__NullAllowed__Context value);
 
   static inline ::GlobalNamespace::NullAllowed* New_ctor(::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method .ctor addr 0x1fac2ec size 0x28 virtual false final false
-  inline void _ctor(::GlobalNamespace::__NullAllowed__Context context);
+  /// @brief Method .ctor, addr 0x21010b8, size 0x28, virtual false, abstract: false, final false
+  /// @param context: ::GlobalNamespace::__NullAllowed__Context (default: static_cast<int32_t>(0x0))
+  inline void _ctor(::GlobalNamespace::__NullAllowed__Context context = static_cast<int32_t>(0x0));
 
-  static inline ::GlobalNamespace::NullAllowed* New_ctor(::StringW propertyName, ::System::Object* ifNotValue);
-
-  /// @brief Method .ctor addr 0x1fac314 size 0x30 virtual false final false
-  inline void _ctor(::StringW propertyName, ::System::Object* ifNotValue);
+  /// @brief Method IsNullAllowedFor, addr 0x21010e0, size 0x1c, virtual false, abstract: false, final false
+  inline bool IsNullAllowedFor(::GlobalNamespace::__NullAllowed__Context context);
 
   // Ctor Parameters [CppParam { name: "", ty: "NullAllowed", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -142,25 +114,15 @@ protected:
   constexpr NullAllowed();
 
 public:
-  /// @brief Field context, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::__NullAllowed__Context ___context;
-
-  /// @brief Field propertyName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___propertyName;
-
-  /// @brief Field ifNotValue, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ___ifNotValue;
+  /// @brief Field _context, offset: 0x10, size: 0x4, def value: None
+  ::GlobalNamespace::__NullAllowed__Context ____context;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullAllowed, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NullAllowed, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NullAllowed, ___context) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::NullAllowed, ___propertyName) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::NullAllowed, ___ifNotValue) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NullAllowed, ____context) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__NullAllowed__Context, "", "NullAllowed/Context");

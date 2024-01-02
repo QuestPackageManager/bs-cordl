@@ -11,73 +11,73 @@ namespace LiteNetLib::Utils {
 template <typename T> class __NetPacketProcessor____c__DisplayClass32_0_1;
 }
 namespace LiteNetLib::Utils {
-class __NetPacketProcessor__SubscribeDelegate;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass29_0_2;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace LiteNetLib::Utils {
 template <typename T> class __NetPacketProcessor____c__DisplayClass27_0_1;
 }
-namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass28_0_2;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace LiteNetLib::Utils {
-template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass31_0_2;
+class __NetPacketProcessor__SubscribeDelegate;
 }
 namespace LiteNetLib {
 struct DeliveryMethod;
 }
 namespace System {
-template <typename TResult> class Func_1;
+class Object;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass28_0_2;
 }
 namespace LiteNetLib::Utils {
 class NetSerializer;
 }
-namespace LiteNetLib {
-class NetPeer;
+namespace LiteNetLib::Utils {
+template <typename T> class __NetPacketProcessor____c__DisplayClass30_0_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace System {
-class Object;
+template <typename TResult> class Func_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass29_0_2;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace LiteNetLib {
-class NetManager;
+namespace LiteNetLib::Utils {
+template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass31_0_2;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetPacketProcessor__HashCache_1;
 }
+namespace LiteNetLib {
+class NetPeer;
+}
 namespace LiteNetLib::Utils {
 template <typename T, typename TUserData> class __NetPacketProcessor____c__DisplayClass26_0_2;
 }
-namespace LiteNetLib::Utils {
-template <typename T> class __NetPacketProcessor____c__DisplayClass25_0_1;
-}
-namespace System {
-class AsyncCallback;
+namespace LiteNetLib {
+class NetManager;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
 }
 // Forward declare root types
 namespace LiteNetLib::Utils {
@@ -131,8 +131,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14196))
 // CS Name: ::NetPacketProcessor::HashCache`1<T>*
 class CORDL_TYPE __NetPacketProcessor__HashCache_1 : public ::System::Object {
 public:
@@ -173,24 +173,24 @@ public:
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14535))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14197))
 // CS Name: ::NetPacketProcessor::SubscribeDelegate*
 class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x20aac14 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x220bb4c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x20aad44 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x220bc7c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method BeginInvoke addr 0x20aad58 size 0x28 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x220bc90, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x20aad80 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x220bcb8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor__SubscribeDelegate", modifiers: "&&", def_value: None }]
@@ -219,8 +219,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14536))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass25_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass25_0_1 : public ::System::Object {
 public:
@@ -254,10 +254,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Subscribe>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Subscribe>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass25_0_1", modifiers: "&&", def_value: None }]
@@ -293,8 +293,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14199))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass26_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass26_0_2 : public ::System::Object {
 public:
@@ -328,10 +328,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Subscribe>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Subscribe>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Subscribe_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass26_0_2", modifiers: "&&", def_value: None }]
@@ -367,8 +367,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14200))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass27_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass27_0_1 : public ::System::Object {
 public:
@@ -402,10 +402,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeReusable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeReusable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass27_0_1", modifiers: "&&", def_value: None }]
@@ -441,8 +441,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14201))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass28_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass28_0_2 : public ::System::Object {
 public:
@@ -476,10 +476,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeReusable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeReusable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeReusable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass28_0_2", modifiers: "&&", def_value: None }]
@@ -515,8 +515,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14202))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass29_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass29_0_2 : public ::System::Object {
 public:
@@ -541,10 +541,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeNetSerializable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass29_0_2", modifiers: "&&", def_value: None }]
@@ -577,8 +577,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14203))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass30_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass30_0_1 : public ::System::Object {
 public:
@@ -603,10 +603,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeNetSerializable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass30_0_1", modifiers: "&&", def_value: None }]
@@ -639,8 +639,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14204))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass31_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass31_0_2 : public ::System::Object {
 public:
@@ -665,10 +665,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeNetSerializable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass31_0_2", modifiers: "&&", def_value: None }]
@@ -701,8 +701,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14543))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass32_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass32_0_1 : public ::System::Object {
 public:
@@ -727,10 +727,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SubscribeNetSerializable>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <SubscribeNetSerializable>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _SubscribeNetSerializable_b__0(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetPacketProcessor____c__DisplayClass32_0_1", modifiers: "&&", def_value: None }]
@@ -761,8 +761,8 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14206))
 // CS Name: ::LiteNetLib.Utils::NetPacketProcessor*
 class CORDL_TYPE NetPacketProcessor : public ::System::Object {
 public:
@@ -816,94 +816,94 @@ public:
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x20aa78c size 0xe0 virtual false final false
+  /// @brief Method .ctor, addr 0x220b6c4, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method .ctor addr 0x20aa874 size 0xec virtual false final false
+  /// @brief Method .ctor, addr 0x220b7ac, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
-  /// @brief Method GetHash addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline uint64_t GetHash();
 
-  /// @brief Method GetCallbackFromData addr 0x20aa9f0 size 0xd0 virtual true final false
+  /// @brief Method GetCallbackFromData, addr 0x220b928, size 0xd0, virtual true, abstract: false, final false
   inline ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate* GetCallbackFromData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method WriteHash addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteHash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline void WriteHash(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType();
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   inline void RegisterNestedType(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, T>* writeDelegate, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, T>* readDelegate);
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType(::System::Func_1<T>* constructor);
 
-  /// @brief Method ReadAllPackets addr 0x20aab28 size 0x4c virtual false final false
+  /// @brief Method ReadAllPackets, addr 0x220ba60, size 0x4c, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method ReadAllPackets addr 0x20aab7c size 0x50 virtual false final false
+  /// @brief Method ReadAllPackets, addr 0x220bab4, size 0x50, virtual false, abstract: false, final false
   inline void ReadAllPackets(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method ReadPacket addr 0x20aab74 size 0x8 virtual false final false
+  /// @brief Method ReadPacket, addr 0x220baac, size 0x8, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SendNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SendNetSerializable(::LiteNetLib::NetPeer* peer, T packet, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method SendNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SendNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SendNetSerializable(::LiteNetLib::NetManager* manager, T packet, ::LiteNetLib::DeliveryMethod options);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Write(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
 
-  /// @brief Method WriteNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void WriteNetSerializable(::LiteNetLib::Utils::NetDataWriter* writer, T packet);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Write(T packet);
 
-  /// @brief Method WriteNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WriteNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<uint8_t, ::Array<uint8_t>*> WriteNetSerializable(T packet);
 
-  /// @brief Method ReadPacket addr 0x20aabcc size 0x48 virtual false final false
+  /// @brief Method ReadPacket, addr 0x220bb04, size 0x48, virtual false, abstract: false, final false
   inline void ReadPacket(::LiteNetLib::Utils::NetDataReader* reader, ::System::Object* userData);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Subscribe(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename TUserData> inline void Subscribe(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
 
-  /// @brief Method SubscribeReusable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeReusable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SubscribeReusable(::System::Action_1<T>* onReceive);
 
-  /// @brief Method SubscribeReusable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeReusable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename TUserData> inline void SubscribeReusable(::System::Action_2<T, TUserData>* onReceive);
 
-  /// @brief Method SubscribeNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename TUserData> inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive, ::System::Func_1<T>* packetConstructor);
 
-  /// @brief Method SubscribeNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive, ::System::Func_1<T>* packetConstructor);
 
-  /// @brief Method SubscribeNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename TUserData> inline void SubscribeNetSerializable(::System::Action_2<T, TUserData>* onReceive);
 
-  /// @brief Method SubscribeNetSerializable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SubscribeNetSerializable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void SubscribeNetSerializable(::System::Action_1<T>* onReceive);
 
-  /// @brief Method RemoveSubscription addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveSubscription, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool RemoveSubscription();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketProcessor", modifiers: "&&", def_value: None }]

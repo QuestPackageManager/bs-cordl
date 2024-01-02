@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1157))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsCredentials*
 class CORDL_TYPE AbstractTlsCredentials : public ::System::Object {
@@ -31,12 +31,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
 
-  /// @brief Method get_Certificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Certificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials* New_ctor();
 
-  /// @brief Method .ctor addr 0xee40f0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf5a300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsCredentials", modifiers: "&&", def_value: None }]

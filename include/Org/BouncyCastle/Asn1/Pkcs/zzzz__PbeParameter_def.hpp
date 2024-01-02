@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PbeParameter)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -60,26 +60,26 @@ public:
 
   constexpr void __set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method GetInstance addr 0xf13348 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf8956c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf134d0 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xf896f4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor addr 0xf135b8 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0xf897dc, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method GetSalt addr 0xf1366c size 0x20 virtual false final false
+  /// @brief Method GetSalt, addr 0xf89890, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
-  /// @brief Method get_IterationCount addr 0xf1368c size 0x1c virtual false final false
+  /// @brief Method get_IterationCount, addr 0xf898b0, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_IterationCount();
 
-  /// @brief Method ToAsn1Object addr 0xf136a8 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf898cc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PbeParameter", modifiers: "&&", def_value: None }]

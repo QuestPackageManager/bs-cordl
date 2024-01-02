@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::Mono::X509Pal);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7589))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8752))
 // CS Name: ::Mono::X509Pal*
 class CORDL_TYPE X509Pal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Instance addr 0x269be68 size 0x60 virtual false final false
+  /// @brief Method get_Instance, addr 0x2816e78, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::X509PalImpl* get_Instance();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Pal", modifiers: "&&", def_value: None }]

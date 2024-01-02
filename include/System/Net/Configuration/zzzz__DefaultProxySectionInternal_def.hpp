@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Net::Configuration::DefaultProxySectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8149))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9312))
 // CS Name: ::System.Net.Configuration::DefaultProxySectionInternal*
 class CORDL_TYPE DefaultProxySectionInternal : public ::System::Object {
 public:
@@ -44,24 +44,24 @@ public:
 
   static inline ::System::Object* getStaticF_classSyncObject();
 
-  /// @brief Method GetDefaultProxy_UsingOldMonoCode addr 0x2874358 size 0x8 virtual false final false
+  /// @brief Method GetDefaultProxy_UsingOldMonoCode, addr 0x29f0bdc, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
 
-  /// @brief Method GetSystemWebProxy addr 0x2874360 size 0x8 virtual false final false
+  /// @brief Method GetSystemWebProxy, addr 0x29f0be4, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetSystemWebProxy();
 
-  /// @brief Method get_ClassSyncObject addr 0x2874368 size 0xa0 virtual false final false
+  /// @brief Method get_ClassSyncObject, addr 0x29f0bec, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Object* get_ClassSyncObject();
 
-  /// @brief Method GetSection addr 0x2874408 size 0x114 virtual false final false
+  /// @brief Method GetSection, addr 0x29f0c8c, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* GetSection();
 
-  /// @brief Method get_WebProxy addr 0x2874524 size 0x8 virtual false final false
+  /// @brief Method get_WebProxy, addr 0x29f0da8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IWebProxy* get_WebProxy();
 
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* New_ctor();
 
-  /// @brief Method .ctor addr 0x287451c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29f0da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultProxySectionInternal", modifiers: "&&", def_value: None }]

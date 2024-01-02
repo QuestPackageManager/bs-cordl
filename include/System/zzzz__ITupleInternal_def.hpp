@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITupleInternal)
-namespace System::Runtime::CompilerServices {
-class ITuple;
-}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
 }
 // Forward declare root types
 namespace System {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ITupleInternal);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2486))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2488))
 // CS Name: ::System::ITupleInternal*
 class CORDL_TYPE ITupleInternal {
 public:
@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ITuple"
   constexpr operator ::System::Runtime::CompilerServices::ITuple*() noexcept;
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::System::Text::StringBuilder* sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITupleInternal", modifiers: "&&", def_value: None }]

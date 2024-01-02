@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15161))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15014))
 // CS Name: ::ISaberSwingRatingCounterDidChangeReceiver*
 class CORDL_TYPE ISaberSwingRatingCounterDidChangeReceiver {
 public:
   // Declarations
-  /// @brief Method HandleSaberSwingRatingCounterDidChange addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleSaberSwingRatingCounterDidChange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* saberSwingRatingCounter, float_t rating);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounterDidChangeReceiver", modifiers: "&&", def_value: None }]

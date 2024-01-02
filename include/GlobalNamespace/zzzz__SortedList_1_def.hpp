@@ -19,20 +19,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14992)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14992), inst: 4878 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14780)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14780), inst: 4984 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14779))
 // CS Name: ::SortedList`1<TBase>*
 class CORDL_TYPE SortedList_1 : public ::GlobalNamespace::SortedList_2<TBase, TBase> {
 public:
   // Declarations
   static inline ::GlobalNamespace::SortedList_1<TBase>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::SortedList_1<TBase>* New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_1", modifiers: "&&", def_value: None }]

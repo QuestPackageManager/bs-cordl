@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/XR/Management/zzzz__XRLoader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XRLoaderHelper)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Type;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class ISubsystem;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15899))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16035))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16036))
 // CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
 class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
 public:
@@ -43,33 +43,33 @@ public:
 
   constexpr void __set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
-  /// @brief Method GetLoadedSubsystem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline T GetLoadedSubsystem();
 
-  /// @brief Method StartSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method StartSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StartSubsystem();
 
-  /// @brief Method StopSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method StopSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void StopSubsystem();
 
-  /// @brief Method DestroySubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DestroySubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void DestroySubsystem();
 
-  /// @brief Method CreateSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method CreateIntegratedSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateIntegratedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateIntegratedSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method CreateStandaloneSubsystem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateStandaloneSubsystem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDescriptor, typename TSubsystem> inline void CreateStandaloneSubsystem(::System::Collections::Generic::List_1<TDescriptor>* descriptors, ::StringW id);
 
-  /// @brief Method Deinitialize addr 0x2af27c0 size 0x58 virtual true final false
+  /// @brief Method Deinitialize, addr 0x2c76514, size 0x58, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   static inline ::UnityEngine::XR::Management::XRLoaderHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af2818 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2c7656c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XRLoaderHelper", modifiers: "&&", def_value: None }]

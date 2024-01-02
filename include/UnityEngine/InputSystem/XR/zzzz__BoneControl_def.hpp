@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/XR/zzzz__Bone_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(BoneControl)
-namespace UnityEngine::InputSystem::XR {
-struct Bone;
-}
 namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
+class QuaternionControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
+class Vector3Control;
+}
+namespace UnityEngine::InputSystem::XR {
+struct Bone;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::XR {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::BoneControl);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 3799 }), TypeDefinitionIndex(TypeDefinitionIndex(6423)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6425)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3892 }), TypeDefinitionIndex(TypeDefinitionIndex(6216)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6337))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6339)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
 class CORDL_TYPE BoneControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Bone> {
 public:
   // Declarations
@@ -66,36 +66,36 @@ public:
 
   constexpr void __set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method get_parentBoneIndex addr 0x29496c8 size 0x8 virtual false final false
+  /// @brief Method get_parentBoneIndex, addr 0x2ac8410, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_parentBoneIndex();
 
-  /// @brief Method set_parentBoneIndex addr 0x29496d0 size 0x8 virtual false final false
+  /// @brief Method set_parentBoneIndex, addr 0x2ac8418, size 0x8, virtual false, abstract: false, final false
   inline void set_parentBoneIndex(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_position addr 0x29496d8 size 0x8 virtual false final false
+  /// @brief Method get_position, addr 0x2ac8420, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_position();
 
-  /// @brief Method set_position addr 0x29496e0 size 0x8 virtual false final false
+  /// @brief Method set_position, addr 0x2ac8428, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method get_rotation addr 0x29496e8 size 0x8 virtual false final false
+  /// @brief Method get_rotation, addr 0x2ac8430, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rotation();
 
-  /// @brief Method set_rotation addr 0x29496f0 size 0x8 virtual false final false
+  /// @brief Method set_rotation, addr 0x2ac8438, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method FinishSetup addr 0x29496f8 size 0x100 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2ac8440, size 0x100, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x29497f8 size 0xb4 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2ac8540, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::Bone ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x29498ac size 0x84 virtual true final false
+  /// @brief Method WriteValueIntoState, addr 0x2ac85f4, size 0x84, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, ::cordl_internals::Ptr<void> statePtr);
 
   static inline ::UnityEngine::InputSystem::XR::BoneControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x2949930 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2ac8678, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BoneControl", modifiers: "&&", def_value: None }]

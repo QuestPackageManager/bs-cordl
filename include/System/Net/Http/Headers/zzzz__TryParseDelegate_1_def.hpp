@@ -22,18 +22,18 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14884))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14667))
 // CS Name: ::System.Net.Http.Headers::TryParseDelegate`1<T>*
 class CORDL_TYPE TryParseDelegate_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::TryParseDelegate_1<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::StringW value, ByRef<T> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "TryParseDelegate_1", modifiers: "&&", def_value: None }]

@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GenericPriorityQueue_2)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___GetEnumerator_d__25;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
+template <typename TItem, typename TPriority> class __GenericPriorityQueue_2___GetEnumerator_d__25;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 namespace System {
 class Object;
@@ -55,8 +55,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
 // CS Name: ::GenericPriorityQueue`2::<GetEnumerator>d__25<TItem,TPriority>*
 class CORDL_TYPE __GenericPriorityQueue_2___GetEnumerator_d__25 : public ::System::Object {
 public:
@@ -112,22 +112,22 @@ public:
 
   static inline ::Priority_Queue::__GenericPriorityQueue_2___GetEnumerator_d__25<TItem, TPriority>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<TItem>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<TItem>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem System_Collections_Generic_IEnumerator_TItem__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GenericPriorityQueue_2___GetEnumerator_d__25", modifiers: "&&", def_value: None }]
@@ -166,8 +166,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6166))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6095))
 // CS Name: ::Priority_Queue::GenericPriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE GenericPriorityQueue_2 : public ::System::Object {
 public:
@@ -230,71 +230,71 @@ public:
 
   static inline ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int32_t maxNodes);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNodes);
 
   static inline ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<TPriority>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNodes, ::System::Collections::Generic::IComparer_1<TPriority>* comparer);
 
   static inline ::Priority_Queue::GenericPriorityQueue_2<TItem, TPriority>* New_ctor(int32_t maxNodes, ::System::Comparison_1<TPriority>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNodes, ::System::Comparison_1<TPriority>* comparer);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_MaxSize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_MaxSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_MaxSize();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(TItem node);
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(TItem node, TPriority priority);
 
-  /// @brief Method CascadeUp addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CascadeUp, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CascadeUp(TItem node);
 
-  /// @brief Method CascadeDown addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CascadeDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CascadeDown(TItem node);
 
-  /// @brief Method HasHigherPriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasHigherPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool HasHigherPriority(TItem higher, TItem lower);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem Dequeue();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Resize(int32_t maxNodes);
 
-  /// @brief Method get_First addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_First, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem get_First();
 
-  /// @brief Method UpdatePriority addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UpdatePriority(TItem node, TPriority priority);
 
-  /// @brief Method OnNodeUpdated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnNodeUpdated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnNodeUpdated(TItem node);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(TItem node);
 
-  /// @brief Method ResetNode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ResetNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ResetNode(TItem node);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TItem>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsValidQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsValidQueue();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueue_2", modifiers: "&&", def_value: None }]

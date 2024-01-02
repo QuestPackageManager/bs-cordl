@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UI::ILayoutController);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13085))
 // CS Name: ::UnityEngine.UI::ILayoutController*
 class CORDL_TYPE ILayoutController {
 public:
   // Declarations
-  /// @brief Method SetLayoutHorizontal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetLayoutHorizontal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetLayoutVertical, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLayoutVertical();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILayoutController", modifiers: "&&", def_value: None }]

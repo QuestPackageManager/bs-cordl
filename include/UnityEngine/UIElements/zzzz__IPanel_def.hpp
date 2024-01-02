@@ -4,22 +4,22 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPanel)
 namespace UnityEngine::UIElements {
-class FocusController;
+struct ContextType;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System {
 class IDisposable;
 }
 namespace UnityEngine::UIElements {
-class EventDispatcher;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-struct ContextType;
+class FocusController;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class EventDispatcher;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IPanel);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6869))
 // CS Name: ::UnityEngine.UIElements::IPanel*
 class CORDL_TYPE IPanel {
 public:
@@ -48,19 +48,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_visualTree addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_visualTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
 
-  /// @brief Method get_dispatcher addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_dispatcher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::EventDispatcher* get_dispatcher();
 
-  /// @brief Method get_contextType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_contextType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
-  /// @brief Method get_focusController addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method Pick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Pick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* Pick(::UnityEngine::Vector2 point);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPanel", modifiers: "&&", def_value: None }]

@@ -9,35 +9,35 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseRuntimePanel)
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine {
-class ScriptableObject;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class EventDispatcher;
+class GameObject;
 }
 namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-class Shader;
-}
-namespace UnityEngine {
-class GameObject;
+class ScriptableObject;
 }
 namespace UnityEngine {
 class RenderTexture;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements {
+class __BaseRuntimePanel____c;
+}
+namespace System {
+class Action;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine::UIElements {
-class __BaseRuntimePanel____c;
+class EventDispatcher;
+}
+namespace UnityEngine {
+class Shader;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__BaseRuntimePanel____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6876))
 // CS Name: ::BaseRuntimePanel::<>c*
 class CORDL_TYPE __BaseRuntimePanel____c : public ::System::Object {
 public:
@@ -68,10 +68,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__BaseRuntimePanel____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c935d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2df9988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__44_0 addr 0x2c935e0 size 0x4 virtual false final false
+  /// @brief Method <.cctor>b__44_0, addr 0x2df9990, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 __cctor_b__44_0(::UnityEngine::Vector2 p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BaseRuntimePanel____c", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__BaseR
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(6961))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6963))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6875))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6877))
 // CS Name: ::UnityEngine.UIElements::BaseRuntimePanel*
 class CORDL_TYPE BaseRuntimePanel : public ::UnityEngine::UIElements::Panel {
 public:
@@ -227,76 +227,78 @@ public:
 
   static inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* getStaticF_DefaultScreenToPanelSpace();
 
-  /// @brief Method get_selectableGameObject addr 0x2c92540 size 0x8 virtual true final true
+  /// @brief Method get_selectableGameObject, addr 0x2df88f0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::GameObject* get_selectableGameObject();
 
-  /// @brief Method set_selectableGameObject addr 0x2c92548 size 0x9c virtual true final true
+  /// @brief Method set_selectableGameObject, addr 0x2df88f8, size 0x9c, virtual true, abstract: false, final true
   inline void set_selectableGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_sortingPriority addr 0x2c92910 size 0x8 virtual false final false
+  /// @brief Method get_sortingPriority, addr 0x2df8cc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingPriority();
 
-  /// @brief Method set_sortingPriority addr 0x2c92918 size 0xf8 virtual false final false
+  /// @brief Method set_sortingPriority, addr 0x2df8cc8, size 0xf8, virtual false, abstract: false, final false
   inline void set_sortingPriority(float_t value);
 
-  /// @brief Method add_destroyed addr 0x2c92a6c size 0xa0 virtual false final false
+  /// @brief Method add_destroyed, addr 0x2df8e1c, size 0xa0, virtual false, abstract: false, final false
   inline void add_destroyed(::System::Action* value);
 
-  /// @brief Method remove_destroyed addr 0x2c92b0c size 0xa0 virtual false final false
+  /// @brief Method remove_destroyed, addr 0x2df8ebc, size 0xa0, virtual false, abstract: false, final false
   inline void remove_destroyed(::System::Action* value);
 
   static inline ::UnityEngine::UIElements::BaseRuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
-  /// @brief Method .ctor addr 0x2c92bac size 0x110 virtual false final false
-  inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
+  /// @brief Method .ctor, addr 0x2df8f5c, size 0x110, virtual false, abstract: false, final false
+  /// @param dispatcher: ::UnityEngine::UIElements::EventDispatcher* (default: nullptr)
+  inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher = nullptr);
 
-  /// @brief Method Dispose addr 0x2c92cbc size 0x58 virtual true final false
+  /// @brief Method Dispose, addr 0x2df906c, size 0x58, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method get_standardWorldSpaceShader addr 0x2c92d14 size 0x8 virtual true final false
+  /// @brief Method get_standardWorldSpaceShader, addr 0x2df90c4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Shader* get_standardWorldSpaceShader();
 
-  /// @brief Method get_drawToCameras addr 0x2c92d1c size 0x8 virtual false final false
+  /// @brief Method get_drawToCameras, addr 0x2df90cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawToCameras();
 
-  /// @brief Method set_drawToCameras addr 0x2c92d24 size 0xb0 virtual false final false
+  /// @brief Method set_drawToCameras, addr 0x2df90d4, size 0xb0, virtual false, abstract: false, final false
   inline void set_drawToCameras(bool value);
 
-  /// @brief Method get_targetDisplay addr 0x2c92dd4 size 0x8 virtual false final false
+  /// @brief Method get_targetDisplay, addr 0x2df9184, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
-  /// @brief Method set_targetDisplay addr 0x2c92ddc size 0x8 virtual false final false
+  /// @brief Method set_targetDisplay, addr 0x2df918c, size 0x8, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
-  /// @brief Method get_screenRenderingWidth addr 0x2c92de4 size 0xcc virtual false final false
+  /// @brief Method get_screenRenderingWidth, addr 0x2df9194, size 0xcc, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingWidth();
 
-  /// @brief Method get_screenRenderingHeight addr 0x2c92eb0 size 0xcc virtual false final false
+  /// @brief Method get_screenRenderingHeight, addr 0x2df9260, size 0xcc, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingHeight();
 
-  /// @brief Method Repaint addr 0x2c92f7c size 0x1e8 virtual true final false
+  /// @brief Method Repaint, addr 0x2df932c, size 0x1e8, virtual true, abstract: false, final false
   inline void Repaint(::UnityEngine::Event* e);
 
-  /// @brief Method get_screenToPanelSpace addr 0x2c93164 size 0x8 virtual false final false
+  /// @brief Method get_screenToPanelSpace, addr 0x2df9514, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* get_screenToPanelSpace();
 
-  /// @brief Method set_screenToPanelSpace addr 0x2c9316c size 0x78 virtual false final false
+  /// @brief Method set_screenToPanelSpace, addr 0x2df951c, size 0x78, virtual false, abstract: false, final false
   inline void set_screenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method ScreenToPanel addr 0x2c931e4 size 0x54 virtual false final false
+  /// @brief Method ScreenToPanel, addr 0x2df9594, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ScreenToPanel(::UnityEngine::Vector2 screen);
 
-  /// @brief Method ScreenToPanel addr 0x2c93238 size 0x104 virtual false final false
+  /// @brief Method ScreenToPanel, addr 0x2df95e8, size 0x104, virtual false, abstract: false, final false
+  /// @param allowOutside: bool (default: false)
   inline bool ScreenToPanel(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 screenDelta, ByRef<::UnityEngine::Vector2> panelPosition, ByRef<::UnityEngine::Vector2> panelDelta,
-                            bool allowOutside);
+                            bool allowOutside = false);
 
-  /// @brief Method AssignPanelToComponents addr 0x2c925e4 size 0x32c virtual false final false
+  /// @brief Method AssignPanelToComponents, addr 0x2df8994, size 0x32c, virtual false, abstract: false, final false
   inline void AssignPanelToComponents(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method PointerLeavesPanel addr 0x2c9333c size 0xc0 virtual false final false
+  /// @brief Method PointerLeavesPanel, addr 0x2df96ec, size 0xc0, virtual false, abstract: false, final false
   inline void PointerLeavesPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
-  /// @brief Method PointerEntersPanel addr 0x2c933fc size 0xa0 virtual false final false
+  /// @brief Method PointerEntersPanel, addr 0x2df97ac, size 0xa0, virtual false, abstract: false, final false
   inline void PointerEntersPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseRuntimePanel", modifiers: "&&", def_value: None }]

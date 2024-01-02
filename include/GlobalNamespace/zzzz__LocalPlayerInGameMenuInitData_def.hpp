@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LocalPlayerInGameMenuInitData)
 namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalPlayerInGameMenuInitData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14934)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5156))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5051))
 // CS Name: ::LocalPlayerInGameMenuInitData*
 class CORDL_TYPE LocalPlayerInGameMenuInitData : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
   static inline ::GlobalNamespace::LocalPlayerInGameMenuInitData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                            ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
 
-  /// @brief Method .ctor addr 0x20e1f64 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23c3de4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
 

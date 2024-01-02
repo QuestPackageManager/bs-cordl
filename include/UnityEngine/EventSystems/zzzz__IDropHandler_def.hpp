@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDropHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IDropHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13186))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13181))
 // CS Name: ::UnityEngine.EventSystems::IDropHandler*
 class CORDL_TYPE IDropHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnDrop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDropHandler", modifiers: "&&", def_value: None }]

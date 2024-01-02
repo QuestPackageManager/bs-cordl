@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CameraClearFlags);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10035))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10107))
 // CS Name: ::UnityEngine::CameraClearFlags
 struct CORDL_TYPE CameraClearFlags {
 public:

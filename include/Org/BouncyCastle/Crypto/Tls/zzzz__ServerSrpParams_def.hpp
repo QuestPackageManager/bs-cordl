@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServerSrpParams)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerSrpParams);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1271))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerSrpParams*
 class CORDL_TYPE ServerSrpParams : public ::System::Object {
@@ -75,25 +75,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s,
                                                                             ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method .ctor addr 0xf1f878 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xf95aa8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s, ::Org::BouncyCastle::Math::BigInteger* B);
 
-  /// @brief Method get_B addr 0xf1f908 size 0x8 virtual true final false
+  /// @brief Method get_B, addr 0xf95b38, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_B();
 
-  /// @brief Method get_G addr 0xf1f910 size 0x8 virtual true final false
+  /// @brief Method get_G, addr 0xf95b40, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_N addr 0xf1f918 size 0x8 virtual true final false
+  /// @brief Method get_N, addr 0xf95b48, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
-  /// @brief Method get_S addr 0xf1f920 size 0x8 virtual true final false
+  /// @brief Method get_S, addr 0xf95b50, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_S();
 
-  /// @brief Method Encode addr 0xf1f928 size 0x9c virtual true final false
+  /// @brief Method Encode, addr 0xf95b58, size 0x9c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xf1f9c4 size 0xe0 virtual false final false
+  /// @brief Method Parse, addr 0xf95bf4, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* Parse(::System::IO::Stream* input);
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerSrpParams", modifiers: "&&", def_value: None }]

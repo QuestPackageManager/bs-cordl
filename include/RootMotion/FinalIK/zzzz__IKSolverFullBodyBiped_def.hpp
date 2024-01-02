@@ -10,43 +10,43 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IKSolverFullBodyBiped)
 namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
-namespace RootMotion {
-class BipedLimbOrientations;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace RootMotion::FinalIK {
 class IKMappingLimb;
-}
-namespace RootMotion::FinalIK {
-class FBIKChain;
-}
-namespace RootMotion::FinalIK {
-class IKMappingSpine;
-}
-namespace RootMotion::FinalIK {
-class IKEffector;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedChain;
 }
 namespace RootMotion {
-class __BipedLimbOrientations__LimbOrientation;
+class BipedReferences;
 }
 namespace RootMotion::FinalIK {
-class IKMappingBone;
+class IKEffector;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace RootMotion::FinalIK {
+class IKMappingSpine;
+}
+namespace RootMotion {
+class BipedLimbOrientations;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class FBIKChain;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace RootMotion::FinalIK {
 class IKConstraintBend;
 }
+namespace RootMotion::FinalIK {
+class IKMappingBone;
+}
 namespace RootMotion {
-class BipedReferences;
+class __BipedLimbOrientations__LimbOrientation;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFullBodyBiped);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12498)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12501))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12570))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12573))
 // CS Name: ::RootMotion.FinalIK::IKSolverFullBodyBiped*
 class CORDL_TYPE IKSolverFullBodyBiped : public ::RootMotion::FinalIK::IKSolverFullBody {
 public:
@@ -156,144 +156,146 @@ public:
 
   constexpr void __set_offset(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_bodyEffector addr 0x11f7104 size 0x8 virtual false final false
+  /// @brief Method get_bodyEffector, addr 0x1267430, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_bodyEffector();
 
-  /// @brief Method get_leftShoulderEffector addr 0x11f7244 size 0x8 virtual false final false
+  /// @brief Method get_leftShoulderEffector, addr 0x1267570, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_leftShoulderEffector();
 
-  /// @brief Method get_rightShoulderEffector addr 0x11f724c size 0x8 virtual false final false
+  /// @brief Method get_rightShoulderEffector, addr 0x1267578, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_rightShoulderEffector();
 
-  /// @brief Method get_leftThighEffector addr 0x11f7254 size 0x8 virtual false final false
+  /// @brief Method get_leftThighEffector, addr 0x1267580, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_leftThighEffector();
 
-  /// @brief Method get_rightThighEffector addr 0x11f725c size 0x8 virtual false final false
+  /// @brief Method get_rightThighEffector, addr 0x1267588, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_rightThighEffector();
 
-  /// @brief Method get_leftHandEffector addr 0x11f7264 size 0x8 virtual false final false
+  /// @brief Method get_leftHandEffector, addr 0x1267590, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_leftHandEffector();
 
-  /// @brief Method get_rightHandEffector addr 0x11f726c size 0x8 virtual false final false
+  /// @brief Method get_rightHandEffector, addr 0x1267598, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_rightHandEffector();
 
-  /// @brief Method get_leftFootEffector addr 0x11f7274 size 0x8 virtual false final false
+  /// @brief Method get_leftFootEffector, addr 0x12675a0, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_leftFootEffector();
 
-  /// @brief Method get_rightFootEffector addr 0x11f727c size 0x8 virtual false final false
+  /// @brief Method get_rightFootEffector, addr 0x12675a8, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_rightFootEffector();
 
-  /// @brief Method get_leftArmChain addr 0x11f7284 size 0x2c virtual false final false
+  /// @brief Method get_leftArmChain, addr 0x12675b0, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* get_leftArmChain();
 
-  /// @brief Method get_rightArmChain addr 0x11f72b0 size 0x2c virtual false final false
+  /// @brief Method get_rightArmChain, addr 0x12675dc, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* get_rightArmChain();
 
-  /// @brief Method get_leftLegChain addr 0x11f72dc size 0x2c virtual false final false
+  /// @brief Method get_leftLegChain, addr 0x1267608, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* get_leftLegChain();
 
-  /// @brief Method get_rightLegChain addr 0x11f7308 size 0x2c virtual false final false
+  /// @brief Method get_rightLegChain, addr 0x1267634, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* get_rightLegChain();
 
-  /// @brief Method get_leftArmMapping addr 0x11f7334 size 0x28 virtual false final false
+  /// @brief Method get_leftArmMapping, addr 0x1267660, size 0x28, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* get_leftArmMapping();
 
-  /// @brief Method get_rightArmMapping addr 0x11f735c size 0x2c virtual false final false
+  /// @brief Method get_rightArmMapping, addr 0x1267688, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* get_rightArmMapping();
 
-  /// @brief Method get_leftLegMapping addr 0x11f7388 size 0x2c virtual false final false
+  /// @brief Method get_leftLegMapping, addr 0x12676b4, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* get_leftLegMapping();
 
-  /// @brief Method get_rightLegMapping addr 0x11f73b4 size 0x2c virtual false final false
+  /// @brief Method get_rightLegMapping, addr 0x12676e0, size 0x2c, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* get_rightLegMapping();
 
-  /// @brief Method get_headMapping addr 0x11f73e0 size 0x28 virtual false final false
+  /// @brief Method get_headMapping, addr 0x126770c, size 0x28, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingBone* get_headMapping();
 
-  /// @brief Method SetChainWeights addr 0x11f7408 size 0x50 virtual false final false
-  inline void SetChainWeights(::RootMotion::FinalIK::FullBodyBipedChain c, float_t pull, float_t reach);
+  /// @brief Method SetChainWeights, addr 0x1267734, size 0x50, virtual false, abstract: false, final false
+  /// @param reach: float_t (default: 0.0)
+  inline void SetChainWeights(::RootMotion::FinalIK::FullBodyBipedChain c, float_t pull, float_t reach = 0.0);
 
-  /// @brief Method SetEffectorWeights addr 0x11f7508 size 0x78 virtual false final false
+  /// @brief Method SetEffectorWeights, addr 0x1267834, size 0x78, virtual false, abstract: false, final false
   inline void SetEffectorWeights(::RootMotion::FinalIK::FullBodyBipedEffector effector, float_t positionWeight, float_t rotationWeight);
 
-  /// @brief Method GetChain addr 0x11f7458 size 0xb0 virtual false final false
+  /// @brief Method GetChain, addr 0x1267784, size 0xb0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* GetChain(::RootMotion::FinalIK::FullBodyBipedChain c);
 
-  /// @brief Method GetChain addr 0x11f7580 size 0xc8 virtual false final false
+  /// @brief Method GetChain, addr 0x12678ac, size 0xc8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::FBIKChain* GetChain(::RootMotion::FinalIK::FullBodyBipedEffector effector);
 
-  /// @brief Method GetEffector addr 0x11f710c size 0x138 virtual false final false
+  /// @brief Method GetEffector, addr 0x1267438, size 0x138, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* GetEffector(::RootMotion::FinalIK::FullBodyBipedEffector effector);
 
-  /// @brief Method GetEndEffector addr 0x11f7648 size 0xb0 virtual false final false
+  /// @brief Method GetEndEffector, addr 0x1267974, size 0xb0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* GetEndEffector(::RootMotion::FinalIK::FullBodyBipedChain c);
 
-  /// @brief Method GetLimbMapping addr 0x11f76f8 size 0xac virtual false final false
+  /// @brief Method GetLimbMapping, addr 0x1267a24, size 0xac, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* GetLimbMapping(::RootMotion::FinalIK::FullBodyBipedChain chain);
 
-  /// @brief Method GetLimbMapping addr 0x11f77a4 size 0xac virtual false final false
+  /// @brief Method GetLimbMapping, addr 0x1267ad0, size 0xac, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingLimb* GetLimbMapping(::RootMotion::FinalIK::FullBodyBipedEffector effector);
 
-  /// @brief Method GetSpineMapping addr 0x11f7850 size 0x8 virtual false final false
+  /// @brief Method GetSpineMapping, addr 0x1267b7c, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingSpine* GetSpineMapping();
 
-  /// @brief Method GetHeadMapping addr 0x11f7858 size 0x28 virtual false final false
+  /// @brief Method GetHeadMapping, addr 0x1267b84, size 0x28, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKMappingBone* GetHeadMapping();
 
-  /// @brief Method GetBendConstraint addr 0x11f7880 size 0xc0 virtual false final false
+  /// @brief Method GetBendConstraint, addr 0x1267bac, size 0xc0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKConstraintBend* GetBendConstraint(::RootMotion::FinalIK::FullBodyBipedChain limb);
 
-  /// @brief Method IsValid addr 0x11f7940 size 0x190 virtual true final false
+  /// @brief Method IsValid, addr 0x1267c6c, size 0x190, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
 
-  /// @brief Method SetToReferences addr 0x11f7ad0 size 0xf80 virtual false final false
-  inline void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
+  /// @brief Method SetToReferences, addr 0x1267dfc, size 0xf80, virtual false, abstract: false, final false
+  /// @param rootNode: ::UnityEngine::Transform* (default: nullptr)
+  inline void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode = nullptr);
 
-  /// @brief Method DetectRootNodeBone addr 0x11f8a50 size 0x450 virtual false final false
+  /// @brief Method DetectRootNodeBone, addr 0x1268d7c, size 0x450, virtual false, abstract: false, final false
   static inline ::UnityEngine::Transform* DetectRootNodeBone(::RootMotion::BipedReferences* references);
 
-  /// @brief Method SetLimbOrientations addr 0x11f9000 size 0x5c virtual false final false
+  /// @brief Method SetLimbOrientations, addr 0x126932c, size 0x5c, virtual false, abstract: false, final false
   inline void SetLimbOrientations(::RootMotion::BipedLimbOrientations* o);
 
-  /// @brief Method get_pullBodyOffset addr 0x11f9154 size 0xc virtual false final false
+  /// @brief Method get_pullBodyOffset, addr 0x1269480, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pullBodyOffset();
 
-  /// @brief Method set_pullBodyOffset addr 0x11f9160 size 0xc virtual false final false
+  /// @brief Method set_pullBodyOffset, addr 0x126948c, size 0xc, virtual false, abstract: false, final false
   inline void set_pullBodyOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method SetLimbOrientation addr 0x11f905c size 0xf8 virtual false final false
+  /// @brief Method SetLimbOrientation, addr 0x1269388, size 0xf8, virtual false, abstract: false, final false
   inline void SetLimbOrientation(::RootMotion::FinalIK::FullBodyBipedChain chain, ::RootMotion::__BipedLimbOrientations__LimbOrientation* limbOrientation);
 
-  /// @brief Method GetLeftClavicle addr 0x11f8ea0 size 0xb0 virtual false final false
+  /// @brief Method GetLeftClavicle, addr 0x12691cc, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Transform* GetLeftClavicle(::RootMotion::BipedReferences* references);
 
-  /// @brief Method GetRightClavicle addr 0x11f8f50 size 0xb0 virtual false final false
+  /// @brief Method GetRightClavicle, addr 0x126927c, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Transform* GetRightClavicle(::RootMotion::BipedReferences* references);
 
-  /// @brief Method Contains addr 0x11f916c size 0xc4 virtual false final false
+  /// @brief Method Contains, addr 0x1269498, size 0xc4, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array, ::UnityEngine::Transform* transform);
 
-  /// @brief Method ReadPose addr 0x11f9230 size 0xcc virtual true final false
+  /// @brief Method ReadPose, addr 0x126955c, size 0xcc, virtual true, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method PullBody addr 0x11f92fc size 0x11c virtual false final false
+  /// @brief Method PullBody, addr 0x1269628, size 0x11c, virtual false, abstract: false, final false
   inline void PullBody();
 
-  /// @brief Method GetBodyOffset addr 0x11f9418 size 0x190 virtual false final false
+  /// @brief Method GetBodyOffset, addr 0x1269744, size 0x190, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetBodyOffset();
 
-  /// @brief Method GetHandBodyPull addr 0x11f95a8 size 0x178 virtual false final false
+  /// @brief Method GetHandBodyPull, addr 0x12698d4, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetHandBodyPull(::RootMotion::FinalIK::IKEffector* effector, ::RootMotion::FinalIK::FBIKChain* arm, ::UnityEngine::Vector3 offset);
 
-  /// @brief Method ApplyBendConstraints addr 0x11f9720 size 0x25c virtual true final false
+  /// @brief Method ApplyBendConstraints, addr 0x1269a4c, size 0x25c, virtual true, abstract: false, final false
   inline void ApplyBendConstraints();
 
-  /// @brief Method WritePose addr 0x11f997c size 0x78 virtual true final false
+  /// @brief Method WritePose, addr 0x1269ca8, size 0x78, virtual true, abstract: false, final false
   inline void WritePose();
 
   static inline ::RootMotion::FinalIK::IKSolverFullBodyBiped* New_ctor();
 
-  /// @brief Method .ctor addr 0x11f99f4 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x1269d20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverFullBodyBiped", modifiers: "&&", def_value: None }]

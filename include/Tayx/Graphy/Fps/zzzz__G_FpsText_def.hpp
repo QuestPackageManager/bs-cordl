@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(G_FpsText)
-namespace Tayx::Graphy {
-class GraphyManager;
-}
 namespace UnityEngine::UI {
 class Text;
 }
 namespace Tayx::Graphy::Fps {
 class G_FpsMonitor;
+}
+namespace Tayx::Graphy {
+class GraphyManager;
 }
 // Forward declare root types
 namespace Tayx::Graphy::Fps {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::Fps::G_FpsText);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Fps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15263))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15085))
 // CS Name: ::Tayx.Graphy.Fps::G_FpsText*
 class CORDL_TYPE G_FpsText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -139,24 +139,24 @@ public:
 
   constexpr void __set_m_ms(float_t value);
 
-  /// @brief Method Awake addr 0x288c128 size 0x4 virtual false final false
+  /// @brief Method Awake, addr 0x2a09154, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x288c230 size 0x30c virtual false final false
+  /// @brief Method Update, addr 0x2a09158, size 0x30c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters addr 0x288bb0c size 0x20 virtual false final false
+  /// @brief Method UpdateParameters, addr 0x2a08a90, size 0x20, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
-  /// @brief Method SetFpsRelatedTextColor addr 0x288c53c size 0x7c virtual false final false
-  inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
-
-  /// @brief Method Init addr 0x288c12c size 0x104 virtual false final false
+  /// @brief Method Init, addr 0x2a08ab0, size 0x144, virtual false, abstract: false, final false
   inline void Init();
+
+  /// @brief Method SetFpsRelatedTextColor, addr 0x2a09464, size 0x7c, virtual false, abstract: false, final false
+  inline void SetFpsRelatedTextColor(::UnityEngine::UI::Text* text, float_t fps);
 
   static inline ::Tayx::Graphy::Fps::G_FpsText* New_ctor();
 
-  /// @brief Method .ctor addr 0x288c5b8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2a094e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_FpsText", modifiers: "&&", def_value: None }]

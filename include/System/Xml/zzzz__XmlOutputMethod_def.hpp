@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlOutputMethod);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11492))
 // CS Name: ::System.Xml::XmlOutputMethod
 struct CORDL_TYPE XmlOutputMethod {
 public:

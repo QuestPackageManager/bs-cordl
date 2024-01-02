@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabProviderResource)
-namespace Zenject {
-class IPrefabProvider;
-}
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Zenject::PrefabProviderResource);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11161))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11233))
 // CS Name: ::Zenject::PrefabProviderResource*
 class CORDL_TYPE PrefabProviderResource : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
 
-  /// @brief Method .ctor addr 0x2da1e6c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2f09c3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
-  /// @brief Method GetPrefab addr 0x2da1e94 size 0xcc virtual true final true
+  /// @brief Method GetPrefab, addr 0x2f09c64, size 0xcc, virtual true, abstract: false, final true
   inline ::UnityEngine::Object* GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]

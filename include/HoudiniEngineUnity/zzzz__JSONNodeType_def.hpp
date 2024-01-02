@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::JSONNodeType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9860))
 // CS Name: ::HoudiniEngineUnity::JSONNodeType
 struct CORDL_TYPE JSONNodeType {
 public:

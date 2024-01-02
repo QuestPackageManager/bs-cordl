@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::CaptureCollection);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7738))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8901))
 // CS Name: ::System.Text.RegularExpressions::CaptureCollection*
 class CORDL_TYPE CaptureCollection : public ::System::Object {
 public:

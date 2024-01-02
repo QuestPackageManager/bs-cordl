@@ -10,9 +10,6 @@ CORDL_MODULE_EXPORT(ContentDispositionHeaderValue)
 namespace System::Net::Http::Headers {
 class NameValueHeaderValue;
 }
-namespace System {
-class ICloneable;
-}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
@@ -21,6 +18,9 @@ class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ContentDispositionHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14880))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14663))
 // CS Name: ::System.Net.Http.Headers::ContentDispositionHeaderValue*
 class CORDL_TYPE ContentDispositionHeaderValue : public ::System::Object {
 public:
@@ -63,30 +63,30 @@ public:
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x26bc580 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2837594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method .ctor addr 0x26bc588 size 0x278 virtual false final false
+  /// @brief Method .ctor, addr 0x283759c, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source);
 
-  /// @brief Method get_Parameters addr 0x26bc800 size 0x80 virtual false final false
+  /// @brief Method get_Parameters, addr 0x2837814, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Parameters();
 
-  /// @brief Method System.ICloneable.Clone addr 0x26bc8b4 size 0x60 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x28378c8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26bc914 size 0xc8 virtual true final false
+  /// @brief Method Equals, addr 0x2837928, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26bc9dc size 0x7c virtual true final false
+  /// @brief Method GetHashCode, addr 0x28379f0, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x26bca58 size 0x58 virtual true final false
+  /// @brief Method ToString, addr 0x2837a6c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse addr 0x26bcab0 size 0x170 virtual false final false
+  /// @brief Method TryParse, addr 0x2837ac4, size 0x170, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*> parsedValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentDispositionHeaderValue", modifiers: "&&", def_value: None }]

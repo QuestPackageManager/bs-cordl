@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Zenject/zzzz__ArgConditionCopyNonLazyBinder_def.hpp"
 CORDL_MODULE_EXPORT(ConcreteIdArgConditionCopyNonLazyBinder)
-namespace Zenject {
-class BindInfo;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class ArgConditionCopyNonLazyBinder;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class BindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::Zenject::ConcreteIdArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10597))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10669))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10675))
 // CS Name: ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE ConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2d5f66c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec73ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId addr 0x2d5f674 size 0x1c virtual false final false
+  /// @brief Method WithConcreteId, addr 0x2ec73f4, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

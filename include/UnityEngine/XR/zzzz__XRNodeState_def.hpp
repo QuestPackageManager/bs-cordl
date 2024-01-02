@@ -13,11 +13,11 @@ CORDL_MODULE_EXPORT(XRNodeState)
 namespace UnityEngine::XR {
 struct AvailableTrackingData;
 }
-namespace UnityEngine::XR {
-struct XRNode;
-}
 namespace UnityEngine {
 struct Vector3;
+}
+namespace UnityEngine::XR {
+struct XRNode;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::XR::XRNodeState);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15585)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(15571)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15586)) CS Name: ::UnityEngine.XR::XRNodeState
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15628)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15614))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15629)) CS Name: ::UnityEngine.XR::XRNodeState
 struct CORDL_TYPE XRNodeState {
 public:
   // Declarations
@@ -43,40 +43,40 @@ public:
 
   __declspec(property(put = set_tracked)) bool tracked;
 
-  /// @brief Method set_uniqueID addr 0x2d4a1d4 size 0x8 virtual false final false
+  /// @brief Method set_uniqueID, addr 0x2eb2fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_uniqueID(uint64_t value);
 
-  /// @brief Method get_nodeType addr 0x2d4a1f0 size 0x8 virtual false final false
+  /// @brief Method get_nodeType, addr 0x2eb2fdc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::XR::XRNode get_nodeType();
 
-  /// @brief Method set_nodeType addr 0x2d4a1dc size 0x8 virtual false final false
+  /// @brief Method set_nodeType, addr 0x2eb2fc8, size 0x8, virtual false, abstract: false, final false
   inline void set_nodeType(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method set_tracked addr 0x2d4a1e4 size 0xc virtual false final false
+  /// @brief Method set_tracked, addr 0x2eb2fd0, size 0xc, virtual false, abstract: false, final false
   inline void set_tracked(bool value);
 
-  /// @brief Method TryGetPosition addr 0x2d4a1f8 size 0x14 virtual false final false
+  /// @brief Method TryGetPosition, addr 0x2eb2fe4, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetPosition(ByRef<::UnityEngine::Vector3> position);
 
-  /// @brief Method TryGetRotation addr 0x2d4a288 size 0x14 virtual false final false
+  /// @brief Method TryGetRotation, addr 0x2eb3074, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetRotation(ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method TryGetVelocity addr 0x2d4a310 size 0x14 virtual false final false
+  /// @brief Method TryGetVelocity, addr 0x2eb30fc, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetVelocity(ByRef<::UnityEngine::Vector3> velocity);
 
-  /// @brief Method TryGetAngularVelocity addr 0x2d4a324 size 0x14 virtual false final false
+  /// @brief Method TryGetAngularVelocity, addr 0x2eb3110, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularVelocity(ByRef<::UnityEngine::Vector3> angularVelocity);
 
-  /// @brief Method TryGetAcceleration addr 0x2d4a338 size 0x14 virtual false final false
+  /// @brief Method TryGetAcceleration, addr 0x2eb3124, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAcceleration(ByRef<::UnityEngine::Vector3> acceleration);
 
-  /// @brief Method TryGetAngularAcceleration addr 0x2d4a34c size 0x14 virtual false final false
+  /// @brief Method TryGetAngularAcceleration, addr 0x2eb3138, size 0x14, virtual false, abstract: false, final false
   inline bool TryGetAngularAcceleration(ByRef<::UnityEngine::Vector3> angularAcceleration);
 
-  /// @brief Method TryGet addr 0x2d4a20c size 0x7c virtual false final false
+  /// @brief Method TryGet, addr 0x2eb2ff8, size 0x7c, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Vector3 inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ByRef<::UnityEngine::Vector3> outValue);
 
-  /// @brief Method TryGet addr 0x2d4a29c size 0x74 virtual false final false
+  /// @brief Method TryGet, addr 0x2eb3088, size 0x74, virtual false, abstract: false, final false
   inline bool TryGet(::UnityEngine::Quaternion inValue, ::UnityEngine::XR::AvailableTrackingData availabilityFlag, ByRef<::UnityEngine::Quaternion> outValue);
 
   // Ctor Parameters [CppParam { name: "m_Type", ty: "::UnityEngine::XR::XRNode", modifiers: "", def_value: None }, CppParam { name: "m_AvailableFields", ty:

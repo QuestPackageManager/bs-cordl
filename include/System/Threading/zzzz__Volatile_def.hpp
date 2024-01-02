@@ -42,7 +42,7 @@ MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
 // CS Name: ::Volatile::VolatileBoolean
 struct CORDL_TYPE __Volatile__VolatileBoolean {
 public:
@@ -73,7 +73,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) 
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2751))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
 // CS Name: ::Volatile::VolatileInt32
 struct CORDL_TYPE __Volatile__VolatileInt32 {
 public:
@@ -104,7 +104,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) ==
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2754))
 // CS Name: ::Volatile::VolatileObject
 struct CORDL_TYPE __Volatile__VolatileObject {
 public:
@@ -134,8 +134,8 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
 // CS Name: ::System.Threading::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {
 public:
@@ -146,22 +146,22 @@ public:
 
   using VolatileBoolean = ::System::Threading::__Volatile__VolatileBoolean;
 
-  /// @brief Method Read addr 0x24c6ad0 size 0x18 virtual false final false
+  /// @brief Method Read, addr 0x2620b84, size 0x18, virtual false, abstract: false, final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Write addr 0x24c6ae8 size 0x24 virtual false final false
+  /// @brief Method Write, addr 0x2620b9c, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Read addr 0x24c6b0c size 0x18 virtual false final false
+  /// @brief Method Read, addr 0x2620bc0, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Read(ByRef<int32_t> location);
 
-  /// @brief Method Write addr 0x24c6b24 size 0x24 virtual false final false
+  /// @brief Method Write, addr 0x2620bd8, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(ByRef<T> location);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(ByRef<T> location, T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "Volatile", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/Xml/Schema/zzzz__Datatype_token_def.hpp"
 CORDL_MODULE_EXPORT(Datatype_NMTOKEN)
-namespace System::Xml {
-struct XmlTokenizedType;
-}
 namespace System::Xml::Schema {
 struct XmlTypeCode;
+}
+namespace System::Xml {
+struct XmlTokenizedType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_NMTOKEN);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11582))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11585))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11654))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11657))
 // CS Name: ::System.Xml.Schema::Datatype_NMTOKEN*
 class CORDL_TYPE Datatype_NMTOKEN : public ::System::Xml::Schema::Datatype_token {
 public:
@@ -30,15 +30,15 @@ public:
 
   __declspec(property(get = get_TokenizedType))::System::Xml::XmlTokenizedType TokenizedType;
 
-  /// @brief Method get_TypeCode addr 0x273d678 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode, addr 0x28bb69c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_TokenizedType addr 0x273d680 size 0x8 virtual true final false
+  /// @brief Method get_TokenizedType, addr 0x28bb6a4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlTokenizedType get_TokenizedType();
 
   static inline ::System::Xml::Schema::Datatype_NMTOKEN* New_ctor();
 
-  /// @brief Method .ctor addr 0x273d688 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x28bb6ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_NMTOKEN", modifiers: "&&", def_value: None }]

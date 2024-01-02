@@ -14,14 +14,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::ISecurableChannel);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3125))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3126))
 // CS Name: ::System.Runtime.Remoting.Channels::ISecurableChannel*
 class CORDL_TYPE ISecurableChannel {
 public:
   // Declarations
   __declspec(property(put = set_IsSecured)) bool IsSecured;
 
-  /// @brief Method set_IsSecured addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_IsSecured, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_IsSecured(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISecurableChannel", modifiers: "&&", def_value: None }]

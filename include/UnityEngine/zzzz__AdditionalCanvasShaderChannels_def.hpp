@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AdditionalCanvasShaderChannels);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15766))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15660))
 // CS Name: ::UnityEngine::AdditionalCanvasShaderChannels
 struct CORDL_TYPE AdditionalCanvasShaderChannels {
 public:

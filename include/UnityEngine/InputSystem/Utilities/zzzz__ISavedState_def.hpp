@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ISavedState);
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6703))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ISavedState*
 class CORDL_TYPE ISavedState {
 public:
   // Declarations
-  /// @brief Method StaticDisposeCurrentState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StaticDisposeCurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StaticDisposeCurrentState();
 
-  /// @brief Method RestoreSavedState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RestoreSavedState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RestoreSavedState();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISavedState", modifiers: "&&", def_value: None }]

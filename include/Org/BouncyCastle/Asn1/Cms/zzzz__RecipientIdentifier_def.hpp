@@ -4,23 +4,23 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(RecipientIdentifier)
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
 }
 namespace Org::BouncyCastle::Asn1 {
-class IAsn1Choice;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -56,29 +56,29 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
-  /// @brief Method .ctor addr 0xe076fc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe7c8d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
-  /// @brief Method .ctor addr 0xe07724 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0xe7c8f8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method .ctor addr 0xe077a8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe7c97c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* id);
 
-  /// @brief Method GetInstance addr 0xe04f48 size 0x230 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7a11c, size 0x230, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientIdentifier* GetInstance(::System::Object* o);
 
-  /// @brief Method get_IsTagged addr 0xe077d0 size 0x7c virtual false final false
+  /// @brief Method get_IsTagged, addr 0xe7c9a4, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsTagged();
 
-  /// @brief Method get_ID addr 0xe0784c size 0x88 virtual false final false
+  /// @brief Method get_ID, addr 0xe7ca20, size 0x88, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_ID();
 
-  /// @brief Method ToAsn1Object addr 0xe078d4 size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe7caa8, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecipientIdentifier", modifiers: "&&", def_value: None }]

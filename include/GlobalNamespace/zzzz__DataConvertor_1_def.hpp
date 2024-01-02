@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DataConvertor_1)
-namespace GlobalNamespace {
-template <typename TOut> class DataItemConvertor_1;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
+}
+namespace GlobalNamespace {
+template <typename TOut> class DataItemConvertor_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4317))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4290))
 // CS Name: ::DataConvertor`1<T>*
 class CORDL_TYPE DataConvertor_1 : public ::System::Object {
 public:
@@ -43,15 +43,15 @@ public:
 
   constexpr void __set__convertors(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_1<T>*>* value);
 
-  /// @brief Method ProcessItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T ProcessItem(::System::Object* item);
 
-  /// @brief Method AddConvertor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddConvertor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddConvertor(::GlobalNamespace::DataItemConvertor_1<T>* dataItemConvertor);
 
   static inline ::GlobalNamespace::DataConvertor_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataConvertor_1", modifiers: "&&", def_value: None }]

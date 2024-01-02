@@ -7,29 +7,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossAppDomainSink)
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
-namespace System::Reflection {
-class MethodInfo;
-}
-namespace System::Runtime::Remoting::Messaging {
-class CADMethodCallMessage;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Runtime::Remoting::Messaging {
+class CADMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 namespace System::Runtime::Remoting::Channels {
 struct __CrossAppDomainSink__ProcessMessageRes;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System::Reflection {
+class MethodInfo;
+}
+namespace System {
+class Object;
 }
 namespace System::Runtime::Remoting::Messaging {
 class CADMethodReturnMessage;
@@ -49,7 +49,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessM
 namespace System::Runtime::Remoting::Channels {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3116))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3117))
 // CS Name: ::CrossAppDomainSink::ProcessMessageRes
 struct CORDL_TYPE __CrossAppDomainSink__ProcessMessageRes {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::System::Runtime::Remoting::Channels::__CrossAppDomainSi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3117))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3118))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainSink*
 class CORDL_TYPE CrossAppDomainSink : public ::System::Object {
 public:
@@ -123,30 +123,30 @@ public:
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* New_ctor(int32_t domainID);
 
-  /// @brief Method .ctor addr 0x234a750 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24a3244, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainID);
 
-  /// @brief Method GetSink addr 0x234a438 size 0x2a0 virtual false final false
+  /// @brief Method GetSink, addr 0x24a2f2c, size 0x2a0, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainSink* GetSink(int32_t domainID);
 
-  /// @brief Method get_TargetDomainId addr 0x234a778 size 0x8 virtual false final false
+  /// @brief Method get_TargetDomainId, addr 0x24a326c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TargetDomainId();
 
-  /// @brief Method ProcessMessageInDomain addr 0x234a780 size 0x138 virtual false final false
+  /// @brief Method ProcessMessageInDomain, addr 0x24a3274, size 0x138, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest,
                                                                                                                       ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
 
-  /// @brief Method SyncProcessMessage addr 0x234a9f8 size 0x434 virtual true final false
+  /// @brief Method SyncProcessMessage, addr 0x24a34ec, size 0x434, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msgRequest);
 
-  /// @brief Method AsyncProcessMessage addr 0x234b140 size 0xcc virtual true final false
+  /// @brief Method AsyncProcessMessage, addr 0x24a3c34, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* reqMsg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method SendAsyncMessage addr 0x234b238 size 0x10c virtual false final false
+  /// @brief Method SendAsyncMessage, addr 0x24a3d2c, size 0x10c, virtual false, abstract: false, final false
   inline void SendAsyncMessage(::System::Object* data);
 
-  /// @brief Method <AsyncProcessMessage>b__10_0 addr 0x234b440 size 0x80 virtual false final false
+  /// @brief Method <AsyncProcessMessage>b__10_0, addr 0x24a3f34, size 0x80, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__10_0(::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "CrossAppDomainSink", modifiers: "&&", def_value: None }]

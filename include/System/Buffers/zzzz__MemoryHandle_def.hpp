@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(MemoryHandle)
-namespace System::Buffers {
-class IPinnable;
+namespace System {
+class IDisposable;
 }
 namespace System::Runtime::InteropServices {
 struct GCHandle;
 }
-namespace System {
-class IDisposable;
+namespace System::Buffers {
+class IPinnable;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -24,8 +24,8 @@ MARK_VAL_T(::System::Buffers::MemoryHandle);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3332))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3872))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3884))
 // CS Name: ::System.Buffers::MemoryHandle
 struct CORDL_TYPE MemoryHandle {
 public:
@@ -35,13 +35,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method .ctor addr 0x2430fc4 size 0xc virtual false final false
-  inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle, ::System::Buffers::IPinnable* pinnable);
+  /// @brief Method .ctor, addr 0x258c520, size 0xc, virtual false, abstract: false, final false
+  /// @param handle: ::System::Runtime::InteropServices::GCHandle (default: {})
+  /// @param pinnable: ::System::Buffers::IPinnable* (default: nullptr)
+  inline void _ctor(::cordl_internals::Ptr<void> pointer, ::System::Runtime::InteropServices::GCHandle handle = {}, ::System::Buffers::IPinnable* pinnable = nullptr);
 
-  /// @brief Method get_Pointer addr 0x2430fd0 size 0x8 virtual false final false
+  /// @brief Method get_Pointer, addr 0x258c52c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_Pointer();
 
-  /// @brief Method Dispose addr 0x2430fd8 size 0xc8 virtual true final true
+  /// @brief Method Dispose, addr 0x258c534, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "_pointer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::Runtime::InteropServices::GCHandle",

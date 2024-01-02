@@ -9,38 +9,35 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuDestinationRequestController)
+namespace GlobalNamespace {
+struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
+}
+namespace GlobalNamespace {
+class IDestinationRequestManager;
+}
+namespace System {
+class IDisposable;
+}
+namespace GlobalNamespace {
+class MenuScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class ScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
+class GameScenesManager;
+}
 namespace Zenject {
 class IInitializable;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace GlobalNamespace {
-struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__8;
-}
-namespace GlobalNamespace {
-class IDestinationRequestManager;
-}
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class MenuDestination;
-}
-namespace GlobalNamespace {
-class GameScenesManager;
-}
-namespace System {
-class IDisposable;
-}
-namespace GlobalNamespace {
-class __MainMenuDestinationRequestController____c__DisplayClass8_0;
-}
-namespace GlobalNamespace {
-class MenuScenesTransitionSetupDataSO;
-}
-namespace Zenject {
-class DiContainer;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -59,101 +56,42 @@ namespace GlobalNamespace {
 class MainMenuDestinationRequestController;
 }
 namespace GlobalNamespace {
-class __MainMenuDestinationRequestController____c__DisplayClass8_0;
-}
-namespace GlobalNamespace {
-struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__8;
+struct __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuDestinationRequestController);
-MARK_REF_PTR_T(::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0);
-MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8);
-// Type: ::<>c__DisplayClass8_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4184))
-// CS Name: ::MainMenuDestinationRequestController::<>c__DisplayClass8_0*
-class CORDL_TYPE __MainMenuDestinationRequestController____c__DisplayClass8_0 : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field menuDestination, offset 0x10, size 0x8
-  __declspec(property(get = __get_menuDestination, put = __set_menuDestination))::GlobalNamespace::MenuDestination* menuDestination;
-
-  constexpr ::GlobalNamespace::MenuDestination*& __get_menuDestination();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __get_menuDestination() const;
-
-  constexpr void __set_menuDestination(::GlobalNamespace::MenuDestination* value);
-
-  static inline ::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0* New_ctor();
-
-  /// @brief Method .ctor addr 0x21cf40c size 0x8 virtual false final false
-  inline void _ctor();
-
-  /// @brief Method <ProcessDestinationRequest>b__0 addr 0x21cf414 size 0xd4 virtual false final false
-  inline void _ProcessDestinationRequest_b__0(::Zenject::DiContainer* container);
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MainMenuDestinationRequestController____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __MainMenuDestinationRequestController____c__DisplayClass8_0(__MainMenuDestinationRequestController____c__DisplayClass8_0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__MainMenuDestinationRequestController____c__DisplayClass8_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __MainMenuDestinationRequestController____c__DisplayClass8_0(__MainMenuDestinationRequestController____c__DisplayClass8_0 const&) = delete;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __MainMenuDestinationRequestController____c__DisplayClass8_0();
-
-public:
-  /// @brief Field menuDestination, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuDestination* ___menuDestination;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0, 0x18>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0, ___menuDestination) == 0x10, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<ProcessDestinationRequest>d__8
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9);
+// Type: ::<ProcessDestinationRequest>d__9
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4185))
-// CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__8
-struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__8 {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4150))
+// CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
+struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21cf4e8 size 0x560 virtual true final true
+  /// @brief Method MoveNext, addr 0x223d848, size 0x4cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21cfa48 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x223dd14, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "menuDestination", ty: "::GlobalNamespace::MenuDestination*", modifiers: "",
-  // def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MainMenuDestinationRequestController*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
-  // "::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MainMenuDestinationRequestController*",
+  // modifiers: "", def_value: None }, CppParam { name: "menuDestination", ty: "::GlobalNamespace::MenuDestination*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __MainMenuDestinationRequestController___ProcessDestinationRequest_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                    ::GlobalNamespace::MenuDestination* menuDestination,
+  constexpr __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                     ::GlobalNamespace::MainMenuDestinationRequestController* __4__this,
-                                                                                    ::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0* __8__1,
-                                                                                    ::System::Threading::CancellationToken _cancellationToken_5__2,
+                                                                                    ::GlobalNamespace::MenuDestination* menuDestination, ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MainMenuDestinationRequestController___ProcessDestinationRequest_d__8();
+  constexpr __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -161,57 +99,50 @@ public:
   /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
-  /// @brief Field menuDestination, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MenuDestination* menuDestination;
-
-  /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MainMenuDestinationRequestController* __4__this;
 
-  /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0* __8__1;
+  /// @brief Field menuDestination, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::MenuDestination* menuDestination;
 
-  /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field <cancellationToken>5__2, offset: 0x38, size: 0x8, def value: None
   ::System::Threading::CancellationToken _cancellationToken_5__2;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, menuDestination) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, __4__this) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, menuDestination) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, __8__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, _cancellationToken_5__2) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, __u__1) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, __u__1) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::MainMenuDestinationRequestController
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4186))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4151))
 // CS Name: ::MainMenuDestinationRequestController*
 class CORDL_TYPE MainMenuDestinationRequestController : public ::System::Object {
 public:
   // Declarations
-  using _ProcessDestinationRequest_d__8 = ::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8;
-
-  using __c__DisplayClass8_0 = ::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0;
+  using _ProcessDestinationRequest_d__9 = ::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 
   /// @brief Field _destinationRequestManager, offset 0x10, size 0x8
   __declspec(property(get = __get__destinationRequestManager, put = __set__destinationRequestManager))::GlobalNamespace::IDestinationRequestManager* _destinationRequestManager;
@@ -224,6 +155,9 @@ public:
 
   /// @brief Field _cancellationTokenSource, offset 0x28, size 0x8
   __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+
+  /// @brief Field _nextMenuDestination, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__nextMenuDestination, put = setStaticF__nextMenuDestination))::GlobalNamespace::MenuDestination* _nextMenuDestination;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
@@ -255,24 +189,28 @@ public:
 
   constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method Initialize addr 0x21ced3c size 0x1dc virtual true final true
+  static inline void setStaticF__nextMenuDestination(::GlobalNamespace::MenuDestination* value);
+
+  static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();
+
+  /// @brief Method Initialize, addr 0x223d0e0, size 0x274, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose addr 0x21cefb8 size 0x1b4 virtual true final true
+  /// @brief Method Dispose, addr 0x223d3f4, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings addr 0x21cf16c size 0x294 virtual false final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x223d5a8, size 0x294, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest addr 0x21cf400 size 0x4 virtual false final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x223d83c, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method ProcessDestinationRequest addr 0x21cef18 size 0xa0 virtual false final false
+  /// @brief Method ProcessDestinationRequest, addr 0x223d354, size 0xa0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cf404 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x223d840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainMenuDestinationRequestController", modifiers: "&&", def_value: None }]
@@ -317,6 +255,4 @@ static_assert(offsetof(::GlobalNamespace::MainMenuDestinationRequestController, 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainMenuDestinationRequestController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainMenuDestinationRequestController*, "", "MainMenuDestinationRequestController");
-NEED_NO_BOX(::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuDestinationRequestController____c__DisplayClass8_0*, "", "MainMenuDestinationRequestController/<>c__DisplayClass8_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__8, "", "MainMenuDestinationRequestController/<ProcessDestinationRequest>d__8");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9, "", "MainMenuDestinationRequestController/<ProcessDestinationRequest>d__9");

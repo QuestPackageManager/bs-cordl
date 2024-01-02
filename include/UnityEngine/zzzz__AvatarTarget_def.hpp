@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AvatarTarget);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15097))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14870))
 // CS Name: ::UnityEngine::AvatarTarget
 struct CORDL_TYPE AvatarTarget {
 public:

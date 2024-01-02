@@ -5,17 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BeatLineManager)
-namespace UnityEngine {
-struct Vector4;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class __BeatLine__Pool;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class BeatmapObjectManager;
@@ -23,11 +20,14 @@ class BeatmapObjectManager;
 namespace GlobalNamespace {
 class NoteController;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class BeatLine;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatLineManager);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4822))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4701))
 // CS Name: ::BeatLineManager*
 class CORDL_TYPE BeatLineManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -132,30 +132,30 @@ public:
 
   constexpr void __set__rotationRange(float_t value);
 
-  /// @brief Method get_isMidRotationValid addr 0x22427a0 size 0x8 virtual false final false
+  /// @brief Method get_isMidRotationValid, addr 0x2376ea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isMidRotationValid();
 
-  /// @brief Method get_midRotation addr 0x22427a8 size 0x8 virtual false final false
+  /// @brief Method get_midRotation, addr 0x2376eb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_midRotation();
 
-  /// @brief Method get_rotationRange addr 0x22427b0 size 0x8 virtual false final false
+  /// @brief Method get_rotationRange, addr 0x2376eb8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationRange();
 
-  /// @brief Method Start addr 0x22427b8 size 0x88 virtual false final false
+  /// @brief Method Start, addr 0x2376ec0, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x22428f0 size 0x88 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2376ff8, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x2242a28 size 0x52c virtual false final false
+  /// @brief Method Update, addr 0x2377130, size 0x52c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleNoteWasSpawned addr 0x2242f54 size 0x1a0 virtual false final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x237765c, size 0x1b4, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::BeatLineManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x22430f4 size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0x237789c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatLineManager", modifiers: "&&", def_value: None }]

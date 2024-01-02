@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableListViewItem);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7458))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7372))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7368))
 // CS Name: ::UnityEngine.UIElements::ReusableListViewItem*
 class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
@@ -52,27 +52,27 @@ public:
 
   constexpr void __set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method get_rootElement addr 0x2d1f200 size 0x18 virtual true final false
+  /// @brief Method get_rootElement, addr 0x2e875b0, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
 
-  /// @brief Method Init addr 0x2d1d5a0 size 0x10 virtual false final false
+  /// @brief Method Init, addr 0x2e85950, size 0x10, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
-  /// @brief Method UpdateHierarchy addr 0x2d1f220 size 0x274 virtual false final false
+  /// @brief Method UpdateHierarchy, addr 0x2e875d0, size 0x274, virtual false, abstract: false, final false
   inline void UpdateHierarchy(bool usesAnimatedDragger);
 
-  /// @brief Method UpdateDragHandle addr 0x2d1d69c size 0x13c virtual false final false
+  /// @brief Method UpdateDragHandle, addr 0x2e85a4c, size 0x13c, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method PreAttachElement addr 0x2d1f494 size 0x8c virtual true final false
+  /// @brief Method PreAttachElement, addr 0x2e87844, size 0x8c, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method DetachElement addr 0x2d1f5dc size 0x8c virtual true final false
+  /// @brief Method DetachElement, addr 0x2e8798c, size 0x8c, virtual true, abstract: false, final false
   inline void DetachElement();
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d1f760 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2e87b10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "&&", def_value: None }]

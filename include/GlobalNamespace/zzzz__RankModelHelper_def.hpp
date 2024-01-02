@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-struct __RankModel__Rank;
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
+struct __RankModel__Rank;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,13 +24,13 @@ MARK_REF_PTR_T(::GlobalNamespace::RankModelHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4662))
 // CS Name: ::RankModelHelper*
 class CORDL_TYPE RankModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MaxRankForGameplayModifiers addr 0x223eda8 size 0x68 virtual false final false
+  /// @brief Method MaxRankForGameplayModifiers, addr 0x2373270, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__RankModel__Rank MaxRankForGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                                  ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 

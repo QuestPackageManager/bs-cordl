@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformInternal)
 namespace Oculus::Platform {
-class __PlatformInternal__HTTP;
-}
-namespace Oculus::Platform {
 class Message;
+}
+namespace Oculus::Platform::Models {
+class PlatformInitialize;
 }
 namespace Oculus::Platform {
 class __PlatformInternal__Users;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+class __PlatformInternal__HTTP;
 }
 namespace Oculus::Platform {
 struct __PlatformInternal__MessageTypeInternal;
@@ -26,14 +26,14 @@ struct __PlatformInternal__MessageTypeInternal;
 namespace Oculus::Platform {
 struct __Message__MessageType;
 }
-namespace Oculus::Platform::Models {
-class PlatformInitialize;
-}
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template <typename T> class Request_1;
 }
 namespace Oculus::Platform::Models {
 class HttpTransferUpdate;
+}
+namespace Oculus::Platform {
+template <typename T> class __Message_1__Callback;
 }
 namespace Oculus::Platform::Models {
 class LinkedAccountList;
@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::Oculus::Platform::__PlatformInternal__Users);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13374))
 // CS Name: ::PlatformInternal::MessageTypeInternal
 struct CORDL_TYPE __PlatformInternal__MessageTypeInternal {
 public:
@@ -127,7 +127,6 @@ public:
     __E_User_CancelRecordingForReportFlow = static_cast<uint32_t>(0x49d1e0c3u),
     __E_User_GetLinkedAccounts = static_cast<uint32_t>(0x93f456f0u),
     __E_User_GetUserCapabilities = static_cast<uint32_t>(0x7c311cd2u),
-    __E_User_LaunchProfile = static_cast<uint32_t>(0x977239cau),
     __E_User_LaunchReportFlow = static_cast<uint32_t>(0x62a011f0u),
     __E_User_LaunchReportFlow2 = static_cast<uint32_t>(0x835863f0u),
     __E_User_NewEntitledTestUser = static_cast<uint32_t>(0x31f74d1u),
@@ -320,9 +319,6 @@ public:
   /// @brief Field User_GetUserCapabilities value: static_cast<uint32_t>(0x7c311cd2u)
   static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const User_GetUserCapabilities;
 
-  /// @brief Field User_LaunchProfile value: static_cast<uint32_t>(0x977239cau)
-  static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const User_LaunchProfile;
-
   /// @brief Field User_LaunchReportFlow value: static_cast<uint32_t>(0x62a011f0u)
   static ::Oculus::Platform::__PlatformInternal__MessageTypeInternal const User_LaunchReportFlow;
 
@@ -365,13 +361,13 @@ static_assert(offsetof(::Oculus::Platform::__PlatformInternal__MessageTypeIntern
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13408))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13375))
 // CS Name: ::PlatformInternal::HTTP*
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetHttpTransferUpdateCallback addr 0x25ad4d0 size 0x74 virtual false final false
+  /// @brief Method SetHttpTransferUpdateCallback, addr 0x2700730, size 0x74, virtual false, abstract: false, final false
   static inline void SetHttpTransferUpdateCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformInternal__HTTP", modifiers: "&&", def_value: None }]
@@ -398,13 +394,13 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13409))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13376))
 // CS Name: ::PlatformInternal::Users*
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLinkedAccounts addr 0x25ad544 size 0x1b4 virtual false final false
+  /// @brief Method GetLinkedAccounts, addr 0x27007a4, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>*
   GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*> providers);
 
@@ -432,8 +428,8 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13377))
 // CS Name: ::Oculus.Platform::PlatformInternal*
 class CORDL_TYPE PlatformInternal : public ::System::Object {
 public:
@@ -444,13 +440,13 @@ public:
 
   using MessageTypeInternal = ::Oculus::Platform::__PlatformInternal__MessageTypeInternal;
 
-  /// @brief Method CrashApplication addr 0x25ac7b4 size 0x50 virtual false final false
+  /// @brief Method CrashApplication, addr 0x27004ac, size 0x4c, virtual false, abstract: false, final false
   static inline void CrashApplication();
 
-  /// @brief Method ParseMessageHandle addr 0x25ac804 size 0xa7c virtual false final false
+  /// @brief Method ParseMessageHandle, addr 0x26efc38, size 0x8b4, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Message* ParseMessageHandle(void* messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
 
-  /// @brief Method InitializeStandaloneAsync addr 0x25ad280 size 0x158 virtual false final false
+  /// @brief Method InitializeStandaloneAsync, addr 0x27004f8, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformInternal", modifiers: "&&", def_value: None }]

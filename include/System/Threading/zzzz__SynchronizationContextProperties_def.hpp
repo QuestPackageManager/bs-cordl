@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::SynchronizationContextProperties);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2714))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2716))
 // CS Name: ::System.Threading::SynchronizationContextProperties
 struct CORDL_TYPE SynchronizationContextProperties {
 public:

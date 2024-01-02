@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSceneSetupData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6103))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6048))
 // CS Name: ::EnvironmentSceneSetupData*
 class CORDL_TYPE EnvironmentSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -56,7 +56,7 @@ public:
   static inline ::GlobalNamespace::EnvironmentSceneSetupData* New_ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                        bool hideBranding);
 
-  /// @brief Method .ctor addr 0x21c8778 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x231c3d0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool hideBranding);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentSceneSetupData", modifiers: "&&", def_value: None }]

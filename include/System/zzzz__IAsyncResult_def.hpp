@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IAsyncResult);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2409))
 // CS Name: ::System::IAsyncResult*
 class CORDL_TYPE IAsyncResult {
 public:
@@ -33,16 +33,16 @@ public:
 
   __declspec(property(get = get_CompletedSynchronously)) bool CompletedSynchronously;
 
-  /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AsyncWaitHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_AsyncState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AsyncState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CompletedSynchronously addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CompletedSynchronously, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CompletedSynchronously();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncResult", modifiers: "&&", def_value: None }]

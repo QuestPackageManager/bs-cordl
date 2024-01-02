@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::InputTrackingState);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15575))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15618))
 // CS Name: ::UnityEngine.XR::InputTrackingState
 struct CORDL_TYPE InputTrackingState {
 public:

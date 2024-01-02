@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TwofishEngine)
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TwofishEngine);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(881))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TwofishEngine*
 class CORDL_TYPE TwofishEngine : public ::System::Object {
@@ -126,79 +126,79 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TwofishEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe7d3b8 size 0x2f0 virtual false final false
+  /// @brief Method .ctor, addr 0xef258c, size 0x2f0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0xe7d704 size 0x164 virtual true final true
+  /// @brief Method Init, addr 0xef28d8, size 0x164, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xe7e078 size 0x40 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xef324c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xe7e0b8 size 0x8 virtual true final true
+  /// @brief Method get_IsPartialBlockOkay, addr 0xef328c, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method ProcessBlock addr 0xe7e0c0 size 0x138 virtual true final true
+  /// @brief Method ProcessBlock, addr 0xef3294, size 0x138, virtual true, abstract: false, final true
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe7e6e8 size 0x10 virtual true final true
+  /// @brief Method Reset, addr 0xef38bc, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method GetBlockSize addr 0xe7e6f8 size 0x8 virtual true final true
+  /// @brief Method GetBlockSize, addr 0xef38cc, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetBlockSize();
 
-  /// @brief Method SetKey addr 0xe7d868 size 0x810 virtual false final false
+  /// @brief Method SetKey, addr 0xef2a3c, size 0x810, virtual false, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method EncryptBlock addr 0xe7e1f8 size 0x278 virtual false final false
+  /// @brief Method EncryptBlock, addr 0xef33cc, size 0x278, virtual false, abstract: false, final false
   inline void EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method DecryptBlock addr 0xe7e470 size 0x278 virtual false final false
+  /// @brief Method DecryptBlock, addr 0xef3644, size 0x278, virtual false, abstract: false, final false
   inline void DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method F32 addr 0xe7e810 size 0x458 virtual false final false
+  /// @brief Method F32, addr 0xef39e4, size 0x458, virtual false, abstract: false, final false
   inline int32_t F32(int32_t x, ::ArrayW<int32_t, ::Array<int32_t>*> k32);
 
-  /// @brief Method RS_MDS_Encode addr 0xe7e770 size 0xa0 virtual false final false
+  /// @brief Method RS_MDS_Encode, addr 0xef3944, size 0xa0, virtual false, abstract: false, final false
   inline int32_t RS_MDS_Encode(int32_t k0, int32_t k1);
 
-  /// @brief Method RS_rem addr 0xe7ee28 size 0x40 virtual false final false
+  /// @brief Method RS_rem, addr 0xef3ffc, size 0x40, virtual false, abstract: false, final false
   inline int32_t RS_rem(int32_t x);
 
-  /// @brief Method LFSR1 addr 0xe7ee68 size 0x14 virtual false final false
+  /// @brief Method LFSR1, addr 0xef403c, size 0x14, virtual false, abstract: false, final false
   inline int32_t LFSR1(int32_t x);
 
-  /// @brief Method LFSR2 addr 0xe7ee7c size 0x24 virtual false final false
+  /// @brief Method LFSR2, addr 0xef4050, size 0x24, virtual false, abstract: false, final false
   inline int32_t LFSR2(int32_t x);
 
-  /// @brief Method Mx_X addr 0xe7d6a8 size 0x28 virtual false final false
+  /// @brief Method Mx_X, addr 0xef287c, size 0x28, virtual false, abstract: false, final false
   inline int32_t Mx_X(int32_t x);
 
-  /// @brief Method Mx_Y addr 0xe7d6d0 size 0x34 virtual false final false
+  /// @brief Method Mx_Y, addr 0xef28a4, size 0x34, virtual false, abstract: false, final false
   inline int32_t Mx_Y(int32_t x);
 
-  /// @brief Method M_b0 addr 0xe7ec68 size 0x8 virtual false final false
+  /// @brief Method M_b0, addr 0xef3e3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b0(int32_t x);
 
-  /// @brief Method M_b1 addr 0xe7ec70 size 0x8 virtual false final false
+  /// @brief Method M_b1, addr 0xef3e44, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b1(int32_t x);
 
-  /// @brief Method M_b2 addr 0xe7ec78 size 0x8 virtual false final false
+  /// @brief Method M_b2, addr 0xef3e4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b2(int32_t x);
 
-  /// @brief Method M_b3 addr 0xe7ec80 size 0x8 virtual false final false
+  /// @brief Method M_b3, addr 0xef3e54, size 0x8, virtual false, abstract: false, final false
   inline int32_t M_b3(int32_t x);
 
-  /// @brief Method Fe32_0 addr 0xe7ec88 size 0x8c virtual false final false
+  /// @brief Method Fe32_0, addr 0xef3e5c, size 0x8c, virtual false, abstract: false, final false
   inline int32_t Fe32_0(int32_t x);
 
-  /// @brief Method Fe32_3 addr 0xe7ed14 size 0x94 virtual false final false
+  /// @brief Method Fe32_3, addr 0xef3ee8, size 0x94, virtual false, abstract: false, final false
   inline int32_t Fe32_3(int32_t x);
 
-  /// @brief Method BytesTo32Bits addr 0xe7e700 size 0x70 virtual false final false
+  /// @brief Method BytesTo32Bits, addr 0xef38d4, size 0x70, virtual false, abstract: false, final false
   inline int32_t BytesTo32Bits(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t p);
 
-  /// @brief Method Bits32ToBytes addr 0xe7eda8 size 0x80 virtual false final false
+  /// @brief Method Bits32ToBytes, addr 0xef3f7c, size 0x80, virtual false, abstract: false, final false
   inline void Bits32ToBytes(int32_t inData, ::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "TwofishEngine", modifiers: "&&", def_value: None }]

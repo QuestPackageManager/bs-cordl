@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LdsVersionInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerPrintableString;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerPrintableString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -53,24 +53,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
-  /// @brief Method .ctor addr 0xeff6e0 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0xf75904, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xeff780 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xf759a4, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xeff238 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf7545c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetLdsVersion addr 0xeff868 size 0x20 virtual true final false
+  /// @brief Method GetLdsVersion, addr 0xf75a8c, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetLdsVersion();
 
-  /// @brief Method GetUnicodeVersion addr 0xeff888 size 0x20 virtual true final false
+  /// @brief Method GetUnicodeVersion, addr 0xf75aac, size 0x20, virtual true, abstract: false, final false
   inline ::StringW GetUnicodeVersion();
 
-  /// @brief Method ToAsn1Object addr 0xeff8a8 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf75acc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "&&", def_value: None }]

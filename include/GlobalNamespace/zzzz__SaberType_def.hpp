@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::SaberType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15036))
 // CS Name: ::SaberType
 struct CORDL_TYPE SaberType {
 public:

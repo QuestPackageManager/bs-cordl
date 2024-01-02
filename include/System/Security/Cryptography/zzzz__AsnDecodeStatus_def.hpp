@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::AsnDecodeStatus);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8976))
 // CS Name: ::System.Security.Cryptography::AsnDecodeStatus
 struct CORDL_TYPE AsnDecodeStatus {
 public:

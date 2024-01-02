@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Pool/zzzz__CollectionPool_2_def.hpp"
+#include "UnityEngine/Pool/zzzz__CollectionPool_2_def.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
-#include "UnityEngine/Pool/zzzz__CollectionPool_2_def.hpp"
 template <typename TCollection, typename TItem>
 inline void UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>::setStaticF___9(::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::Pool::__CollectionPool_2____c<TCollection, TItem>*, "<>9",

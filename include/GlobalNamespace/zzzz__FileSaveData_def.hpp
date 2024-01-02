@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FileSaveData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13917))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14385))
 // CS Name: ::FileSaveData*
 class CORDL_TYPE FileSaveData : public ::System::Object {
 public:
@@ -28,27 +28,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaveData"
   constexpr operator ::GlobalNamespace::ISaveData*() noexcept;
 
-  /// @brief Method Save addr 0x1f9c2f8 size 0x10 virtual true final true
+  /// @brief Method Save, addr 0x20f498c, size 0x10, virtual true, abstract: false, final true
   inline void Save(::StringW key, ::StringW value);
 
-  /// @brief Method Load addr 0x1f9c308 size 0x80 virtual true final true
+  /// @brief Method Load, addr 0x20f499c, size 0x80, virtual true, abstract: false, final true
   inline bool Load(::StringW key, ByRef<::StringW> value);
 
-  /// @brief Method Save addr 0x1f9c388 size 0x78 virtual true final true
+  /// @brief Method Save, addr 0x20f4a1c, size 0x78, virtual true, abstract: false, final true
   inline void Save(::StringW key, ::StringW value, ::StringW tempKey, ::StringW backupKey);
 
-  /// @brief Method Load addr 0x1f9c400 size 0x168 virtual true final true
+  /// @brief Method Load, addr 0x20f4a94, size 0x168, virtual true, abstract: false, final true
   inline bool Load(::StringW key, ByRef<::StringW> value, ::StringW backupKey);
 
-  /// @brief Method Delete addr 0x1f9c568 size 0xc virtual true final true
+  /// @brief Method Delete, addr 0x20f4bfc, size 0xc, virtual true, abstract: false, final true
   inline void Delete(::StringW key);
 
-  /// @brief Method HasKey addr 0x1f9c574 size 0xc virtual true final true
+  /// @brief Method HasKey, addr 0x20f4c08, size 0xc, virtual true, abstract: false, final true
   inline bool HasKey(::StringW key);
 
   static inline ::GlobalNamespace::FileSaveData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9c580 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f4c14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileSaveData", modifiers: "&&", def_value: None }]

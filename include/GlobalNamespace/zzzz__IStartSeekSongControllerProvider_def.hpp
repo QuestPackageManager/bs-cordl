@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IStartSeekSongControllerProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5271))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5166))
 // CS Name: ::IStartSeekSongControllerProvider*
 class CORDL_TYPE IStartSeekSongControllerProvider {
 public:
   // Declarations
   __declspec(property(get = get_songController))::GlobalNamespace::IStartSeekSongController* songController;
 
-  /// @brief Method get_songController addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStartSeekSongControllerProvider", modifiers: "&&", def_value: None }]

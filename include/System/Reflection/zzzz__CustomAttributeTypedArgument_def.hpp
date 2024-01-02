@@ -23,7 +23,7 @@ MARK_VAL_T(::System::Reflection::CustomAttributeTypedArgument);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3499))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3504))
 // CS Name: ::System.Reflection::CustomAttributeTypedArgument
 struct CORDL_TYPE CustomAttributeTypedArgument {
 public:
@@ -32,37 +32,37 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  /// @brief Method .ctor addr 0x23940d4 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x24edb8c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value);
 
-  /// @brief Method .ctor addr 0x238d9c0 size 0x2b0 virtual false final false
+  /// @brief Method .ctor, addr 0x24e7478, size 0x2b0, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* argumentType, ::System::Object* value);
 
-  /// @brief Method get_ArgumentType addr 0x2394214 size 0x8 virtual false final false
+  /// @brief Method get_ArgumentType, addr 0x24edccc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ArgumentType();
 
-  /// @brief Method get_Value addr 0x239421c size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x24edcd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method Equals addr 0x2394224 size 0x70 virtual true final false
+  /// @brief Method Equals, addr 0x24edcdc, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2394294 size 0x64 virtual true final false
+  /// @brief Method GetHashCode, addr 0x24edd4c, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Equality addr 0x23942f8 size 0x78 virtual false final false
+  /// @brief Method op_Equality, addr 0x24eddb0, size 0x78, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeTypedArgument left, ::System::Reflection::CustomAttributeTypedArgument right);
 
-  /// @brief Method op_Inequality addr 0x2394370 size 0x7c virtual false final false
+  /// @brief Method op_Inequality, addr 0x24ede28, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeTypedArgument left, ::System::Reflection::CustomAttributeTypedArgument right);
 
-  /// @brief Method ToString addr 0x23943ec size 0x8 virtual true final false
+  /// @brief Method ToString, addr 0x24edea4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x23937dc size 0x8f8 virtual false final false
+  /// @brief Method ToString, addr 0x24ed294, size 0x8f8, virtual false, abstract: false, final false
   inline ::StringW ToString(bool typed);
 
-  /// @brief Method CanonicalizeValue addr 0x239415c size 0xb8 virtual false final false
+  /// @brief Method CanonicalizeValue, addr 0x24edc14, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Object* CanonicalizeValue(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "_ArgumentType_k__BackingField", ty: "::System::Type*", modifiers: "", def_value: None }, CppParam { name: "_Value_k__BackingField", ty: "::System::Object*",

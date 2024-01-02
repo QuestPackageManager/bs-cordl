@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampRequestGenerator)
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampRequest;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBoolean;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
 }
 namespace System::Collections {
 class IDictionary;
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1765))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampRequestGenerator*
 class CORDL_TYPE TimeStampRequestGenerator : public ::System::Object {
@@ -80,40 +80,40 @@ public:
 
   constexpr void __set_extOrdering(::System::Collections::IList* value);
 
-  /// @brief Method SetReqPolicy addr 0x10deca0 size 0x70 virtual false final false
+  /// @brief Method SetReqPolicy, addr 0x114fee8, size 0x70, virtual false, abstract: false, final false
   inline void SetReqPolicy(::StringW reqPolicy);
 
-  /// @brief Method SetCertReq addr 0x10ded10 size 0x6c virtual false final false
+  /// @brief Method SetCertReq, addr 0x114ff58, size 0x6c, virtual false, abstract: false, final false
   inline void SetCertReq(bool certReq);
 
-  /// @brief Method AddExtension addr 0x10ded7c size 0x44 virtual false final false
+  /// @brief Method AddExtension, addr 0x114ffc4, size 0x44, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method AddExtension addr 0x10dedc0 size 0x1d8 virtual false final false
+  /// @brief Method AddExtension, addr 0x1150008, size 0x1d8, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method AddExtension addr 0x10def98 size 0x4c virtual true final false
+  /// @brief Method AddExtension, addr 0x11501e0, size 0x4c, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method AddExtension addr 0x10defe4 size 0x1a8 virtual true final false
+  /// @brief Method AddExtension, addr 0x115022c, size 0x1a8, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method Generate addr 0x10df18c size 0x8 virtual false final false
+  /// @brief Method Generate, addr 0x11503d4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate addr 0x10df194 size 0x2d0 virtual false final false
+  /// @brief Method Generate, addr 0x11503dc, size 0x2d0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Math::BigInteger* nonce);
 
-  /// @brief Method Generate addr 0x10df464 size 0x1c virtual true final false
+  /// @brief Method Generate, addr 0x11506ac, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate addr 0x10df480 size 0x18 virtual true final false
+  /// @brief Method Generate, addr 0x11506c8, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
                                                               ::Org::BouncyCastle::Math::BigInteger* nonce);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x10df498 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x11506e0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampRequestGenerator", modifiers: "&&", def_value: None }]

@@ -10,28 +10,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ChainOperationTypelessDepedency_1)
 namespace System {
-class Object;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace System {
 template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -45,9 +45,9 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14303)), TypeDefinitionIndex(TypeDefinitionIndex(14304)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14304), inst:
-// 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14305)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14303), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14307))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14221))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }), GenericInstantiation(GenericInstantiation
+// { tdi: TypeDefinitionIndex(14033), inst: 788 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14036))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13950))
 // CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
 class CORDL_TYPE ChainOperationTypelessDepedency_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
@@ -128,43 +128,44 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DebugName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void
   Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependentOp,
        ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* callback,
        bool releaseDependenciesOnFailure);
 
-  /// @brief Method InvokeWaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method OnWrappedCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnWrappedCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnWrappedCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> x);
 
-  /// @brief Method Destroy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
-  /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDownloadStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method RefreshDownloadStatus addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void RefreshDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
+  /// @brief Method RefreshDownloadStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param visited: ::System::Collections::Generic::HashSet_1<::System::Object*>* (default: nullptr)
+  inline void RefreshDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited = nullptr);
 
-  /// @brief Method get_Progress addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Progress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChainOperationTypelessDepedency_1", modifiers: "&&", def_value: None }]

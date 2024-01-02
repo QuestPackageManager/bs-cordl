@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IntSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13974)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13974), inst: 101 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13970))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(15869))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15865))
 // CS Name: ::IntSO*
 class CORDL_TYPE IntSO : public ::GlobalNamespace::ObservableVariableSO_1<int32_t> {
 public:
   // Declarations
   static inline ::GlobalNamespace::IntSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fa30bc size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0xe28a30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntSO", modifiers: "&&", def_value: None }]

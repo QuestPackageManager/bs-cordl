@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::AlertLevel);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13772))
 // CS Name: ::Mono.Security.Interface::AlertLevel
 struct CORDL_TYPE AlertLevel {
 public:

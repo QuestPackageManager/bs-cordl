@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
 namespace GlobalNamespace {
-template <typename T> class ILazyCopyHashSet_1;
+class NoteControllerBase;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+template <typename T> class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
-class NoteData;
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class INoteControllerNoteDidStartDissolvingEvent;
+template <typename T> class ILazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
+class NoteData;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4891))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4770))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4756))
 // CS Name: ::MirroredNoteController`1<T>*
 class CORDL_TYPE MirroredNoteController_1 : public ::GlobalNamespace::NoteControllerBase {
 public:
@@ -121,45 +121,45 @@ public:
 
   constexpr void __set__noteDidStartDissolvingEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* value);
 
-  /// @brief Method get_didInitEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_didInitEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* get_didInitEvent();
 
-  /// @brief Method get_noteDidPassJumpThreeQuartersEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteDidPassJumpThreeQuartersEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* get_noteDidPassJumpThreeQuartersEvent();
 
-  /// @brief Method get_noteDidStartDissolvingEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteDidStartDissolvingEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* get_noteDidStartDissolvingEvent();
 
-  /// @brief Method get_noteData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::NoteData* get_noteData();
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdatePositionAndRotation addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdatePositionAndRotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotation();
 
-  /// @brief Method Mirror addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Mirror, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Mirror(T noteController);
 
-  /// @brief Method RemoveListeners addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveListeners, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method Hide addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Hide, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Hide(bool hide);
 
   static inline ::GlobalNamespace::MirroredNoteController_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MirroredNoteController_1", modifiers: "&&", def_value: None }]

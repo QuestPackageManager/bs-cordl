@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::UsedImplicitlyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15701)), TypeDefinitionIndex(TypeDefinitionIndex(15700)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10029)), TypeDefinitionIndex(TypeDefinitionIndex(10028))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10027))
 // CS Name: ::JetBrains.Annotations::UsedImplicitlyAttribute*
 class CORDL_TYPE UsedImplicitlyAttribute : public ::System::Attribute {
 public:
@@ -33,10 +33,6 @@ public:
 
   /// @brief Field <TargetFlags>k__BackingField, offset 0x14, size 0x4
   __declspec(property(get = __get__TargetFlags_k__BackingField, put = __set__TargetFlags_k__BackingField))::JetBrains::Annotations::ImplicitUseTargetFlags _TargetFlags_k__BackingField;
-
-  __declspec(property(get = get_UseKindFlags, put = set_UseKindFlags))::JetBrains::Annotations::ImplicitUseKindFlags UseKindFlags;
-
-  __declspec(property(get = get_TargetFlags, put = set_TargetFlags))::JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
 
   constexpr ::JetBrains::Annotations::ImplicitUseKindFlags& __get__UseKindFlags_k__BackingField();
 
@@ -52,35 +48,13 @@ public:
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d523cc size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9e630, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
-
-  static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
-
-  /// @brief Method .ctor addr 0x2d5241c size 0x2c virtual false final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags);
-
-  static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// @brief Method .ctor addr 0x2d52448 size 0x2c virtual false final false
-  inline void _ctor(::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
   static inline ::JetBrains::Annotations::UsedImplicitlyAttribute* New_ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
 
-  /// @brief Method .ctor addr 0x2d523f0 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2c9e654, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::ImplicitUseKindFlags useKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags targetFlags);
-
-  /// @brief Method get_UseKindFlags addr 0x2d52474 size 0x8 virtual false final false
-  inline ::JetBrains::Annotations::ImplicitUseKindFlags get_UseKindFlags();
-
-  /// @brief Method set_UseKindFlags addr 0x2d5247c size 0x8 virtual false final false
-  inline void set_UseKindFlags(::JetBrains::Annotations::ImplicitUseKindFlags value);
-
-  /// @brief Method get_TargetFlags addr 0x2d52484 size 0x8 virtual false final false
-  inline ::JetBrains::Annotations::ImplicitUseTargetFlags get_TargetFlags();
-
-  /// @brief Method set_TargetFlags addr 0x2d5248c size 0x8 virtual false final false
-  inline void set_TargetFlags(::JetBrains::Annotations::ImplicitUseTargetFlags value);
 
   // Ctor Parameters [CppParam { name: "", ty: "UsedImplicitlyAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

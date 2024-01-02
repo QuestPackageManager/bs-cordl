@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AsyncComputeOperation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12679))
 // CS Name: ::AsyncComputeOperation*
 class CORDL_TYPE AsyncComputeOperation : public ::System::Object {
 public:
@@ -47,18 +47,18 @@ public:
 
   constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  /// @brief Method get_elapsedTime addr 0xda3620 size 0x84 virtual false final false
+  /// @brief Method get_elapsedTime, addr 0xe292b8, size 0x84, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut addr 0xda36a4 size 0x30 virtual false final false
+  /// @brief Method get_hasTimedOut, addr 0xe2933c, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
   static inline ::GlobalNamespace::AsyncComputeOperation* New_ctor(int32_t timeoutMs);
 
-  /// @brief Method .ctor addr 0xda36d4 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0xe2936c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute(bool disposed);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncComputeOperation", modifiers: "&&", def_value: None }]

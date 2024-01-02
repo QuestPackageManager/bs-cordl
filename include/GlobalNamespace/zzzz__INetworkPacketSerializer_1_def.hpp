@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(INetworkPacketSerializer_1)
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -25,15 +25,15 @@ namespace GlobalNamespace {
 template <typename TData>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12890))
 // CS Name: ::INetworkPacketSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSerializer_1 {
 public:
   // Declarations
-  /// @brief Method ProcessAllPackets addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessAllPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data);
 
-  /// @brief Method SerializePacket addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SerializePacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "&&", def_value: None }]

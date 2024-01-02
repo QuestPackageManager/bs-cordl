@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_def.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventData_def.hpp"
 CORDL_MODULE_EXPORT(LightTranslationBeatmapEventDataProcessor)
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
-}
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LightTranslationBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 919 }), TypeDefinitionIndex(TypeDefinitionIndex(14952)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14956))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14960)) CS Name: ::LightTranslationBeatmapEventDataProcessor*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 936 }), TypeDefinitionIndex(TypeDefinitionIndex(14737)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14747)) CS Name: ::LightTranslationBeatmapEventDataProcessor*
 class CORDL_TYPE LightTranslationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightTranslationBeatmapEventData*> {
 public:
   // Declarations
-  /// @brief Method ProcessInsertedEventDataInternal addr 0xd9a458 size 0x110 virtual true final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0xdffe68, size 0x110, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal addr 0xd9a568 size 0xfc virtual true final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xdfff78, size 0xfc, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
   static inline ::GlobalNamespace::LightTranslationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0xd9a664 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0xe00074, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTranslationBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]

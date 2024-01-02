@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentBag_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class IProducerConsumerCollection_1;
-}
-namespace System::Collections::Concurrent {
-template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
-}
-namespace System::Threading {
-template <typename T> class ThreadLocal_1;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class ICollection;
+namespace System {
+class Array;
 }
 namespace System::Collections::Concurrent {
 template <typename T> class __ConcurrentBag_1__Enumerator;
 }
-namespace System {
-class Array;
+namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Threading {
+template <typename T> class ThreadLocal_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Concurrent {
+template <typename T> class __ConcurrentBag_1__WorkStealingQueue;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -66,8 +66,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8364))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9527))
 // CS Name: ::ConcurrentBag`1::WorkStealingQueue<T>*
 class CORDL_TYPE __ConcurrentBag_1__WorkStealingQueue : public ::System::Object {
 public:
@@ -166,25 +166,25 @@ public:
 
   static inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* New_ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
 
-  /// @brief Method LocalPush addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalPush(T item, ByRef<int64_t> emptyToNonEmptyListTransitionCount);
 
-  /// @brief Method LocalClear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalClear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalClear();
 
-  /// @brief Method TryLocalPop addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryLocalPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryLocalPop(ByRef<T> result);
 
-  /// @brief Method TrySteal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySteal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<T> result, bool take);
 
-  /// @brief Method DangerousCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DangerousCopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t DangerousCopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  /// @brief Method get_DangerousCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_DangerousCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_DangerousCount();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentBag_1__WorkStealingQueue", modifiers: "&&", def_value: None }]
@@ -247,8 +247,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8365))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9528))
 // CS Name: ::ConcurrentBag`1::Enumerator<T>*
 class CORDL_TYPE __ConcurrentBag_1__Enumerator : public ::System::Object {
 public:
@@ -295,22 +295,22 @@ public:
 
   static inline ::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>* New_ctor(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentBag_1__Enumerator", modifiers: "&&", def_value: None }]
@@ -346,8 +346,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8366))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
 // CS Name: ::System.Collections.Concurrent::ConcurrentBag`1<T>*
 class CORDL_TYPE ConcurrentBag_1 : public ::System::Object {
 public:
@@ -410,74 +410,74 @@ public:
 
   static inline ::System::Collections::Concurrent::ConcurrentBag_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Concurrent.IProducerConsumerCollection<T>.TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Concurrent_IProducerConsumerCollection_T__TryAdd(T item);
 
-  /// @brief Method TryTake addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryTake(ByRef<T> result);
 
-  /// @brief Method GetCurrentThreadWorkStealingQueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCurrentThreadWorkStealingQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* GetCurrentThreadWorkStealingQueue(bool forceCreate);
 
-  /// @brief Method CreateWorkStealingQueueForCurrentThread addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateWorkStealingQueueForCurrentThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* CreateWorkStealingQueueForCurrentThread();
 
-  /// @brief Method GetUnownedWorkStealingQueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnownedWorkStealingQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* GetUnownedWorkStealingQueue();
 
-  /// @brief Method TrySteal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TrySteal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TrySteal(ByRef<T> result, bool take);
 
-  /// @brief Method TryStealFromTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryStealFromTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryStealFromTo(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* startInclusive,
                              ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* endExclusive, ByRef<T> result, bool take);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
-  /// @brief Method CopyFromEachQueueToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyFromEachQueueToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t CopyFromEachQueueToArray(::ArrayW<T, ::Array<T>*> array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_DangerousCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_DangerousCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_DangerousCount();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method get_GlobalQueuesLock addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_GlobalQueuesLock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* get_GlobalQueuesLock();
 
-  /// @brief Method FreezeBag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void FreezeBag(ByRef<bool> lockTaken);
 
-  /// @brief Method UnfreezeBag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnfreezeBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnfreezeBag(bool lockTaken);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentBag_1", modifiers: "&&", def_value: None }]

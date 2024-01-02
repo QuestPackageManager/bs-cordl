@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IReferenceService)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel::Design {
@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::IReferenceService);
 namespace System::ComponentModel::Design {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9502))
 // CS Name: ::System.ComponentModel.Design::IReferenceService*
 class CORDL_TYPE IReferenceService {
 public:
   // Declarations
-  /// @brief Method GetReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetReference(::StringW name);
 
-  /// @brief Method GetName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetName(::System::Object* reference);
 
-  /// @brief Method GetReferences addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReferences, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetReferences(::System::Type* baseType);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReferenceService", modifiers: "&&", def_value: None }]

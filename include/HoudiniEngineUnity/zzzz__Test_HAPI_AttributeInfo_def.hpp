@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_HAPI_AttributeInfo)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+struct HAPI_AttributeInfo;
 }
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeInfo;
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9668)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9825))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9741))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9898))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo*
 class CORDL_TYPE Test_HAPI_AttributeInfo : public ::System::Object {
 public:
@@ -41,10 +41,10 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
-  /// @brief Method .ctor addr 0x208ab90 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x21e352c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
-  /// @brief Method IsEquivalentTo addr 0x208abc4 size 0xec virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e3560, size 0xec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_HAPI_AttributeInfo* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AttributeInfo", modifiers: "&&", def_value: None }]

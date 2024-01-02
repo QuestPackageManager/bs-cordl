@@ -4,8 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInfo)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
@@ -14,16 +20,10 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -88,41 +88,41 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor addr 0xe06cb8 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0xe7be8c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                                                                                 ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
-  /// @brief Method .ctor addr 0xe06d3c size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xe7bf10, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedKey);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe06dcc size 0x244 virtual false final false
+  /// @brief Method .ctor, addr 0xe7bfa0, size 0x244, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe07010 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7c1e4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe07028 size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7c1fc, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version addr 0xe071a0 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xe7c374, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_KeyDerivationAlgorithm addr 0xe071a8 size 0x8 virtual false final false
+  /// @brief Method get_KeyDerivationAlgorithm, addr 0xe7c37c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyDerivationAlgorithm();
 
-  /// @brief Method get_KeyEncryptionAlgorithm addr 0xe071b0 size 0x8 virtual false final false
+  /// @brief Method get_KeyEncryptionAlgorithm, addr 0xe7c384, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithm();
 
-  /// @brief Method get_EncryptedKey addr 0xe071b8 size 0x8 virtual false final false
+  /// @brief Method get_EncryptedKey, addr 0xe7c38c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_EncryptedKey();
 
-  /// @brief Method ToAsn1Object addr 0xe071c0 size 0x18c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe7c394, size 0x18c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PasswordRecipientInfo", modifiers: "&&", def_value: None }]

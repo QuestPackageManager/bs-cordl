@@ -22,7 +22,7 @@ namespace System::Linq {
 template <typename TKey, typename TElement>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14620))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14282))
 // CS Name: ::System.Linq::IGrouping`2<TKey,TElement>*
 class CORDL_TYPE IGrouping_2 {
 public:
@@ -35,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TKey get_Key();
 
   // Ctor Parameters [CppParam { name: "", ty: "IGrouping_2", modifiers: "&&", def_value: None }]

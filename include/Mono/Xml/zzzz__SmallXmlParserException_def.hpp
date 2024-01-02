@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Mono::Xml::SmallXmlParserException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2255))
 // CS Name: ::Mono.Xml::SmallXmlParserException*
 class CORDL_TYPE SmallXmlParserException : public ::System::SystemException {
@@ -42,7 +42,7 @@ public:
 
   static inline ::Mono::Xml::SmallXmlParserException* New_ctor(::StringW msg, int32_t line, int32_t column);
 
-  /// @brief Method .ctor addr 0x22b9db0 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x2413830, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, int32_t line, int32_t column);
 
   // Ctor Parameters [CppParam { name: "", ty: "SmallXmlParserException", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::VarEnum);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3317))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3320))
 // CS Name: ::System.Runtime.InteropServices::VarEnum
 struct CORDL_TYPE VarEnum {
 public:

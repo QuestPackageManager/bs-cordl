@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapObjectsInstaller)
 namespace GlobalNamespace {
-class NoteLineConnectionController;
+class BeatLine;
 }
 namespace GlobalNamespace {
 class GameNoteController;
 }
 namespace GlobalNamespace {
-class BeatLine;
-}
-namespace GlobalNamespace {
-class SliderController;
+class BombNoteController;
 }
 namespace GlobalNamespace {
 class ObstacleController;
 }
 namespace GlobalNamespace {
-class BurstSliderGameNoteController;
-}
-namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class BombNoteController;
+class SliderController;
+}
+namespace GlobalNamespace {
+class BurstSliderGameNoteController;
+}
+namespace GlobalNamespace {
+class NoteLineConnectionController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsInstaller);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5479))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5388))
 // CS Name: ::BeatmapObjectsInstaller*
 class CORDL_TYPE BeatmapObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -162,12 +162,12 @@ public:
 
   constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method InstallBindings addr 0x2129ac0 size 0x4d4 virtual true final false
+  /// @brief Method InstallBindings, addr 0x226f0c0, size 0x4d4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BeatmapObjectsInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x2129f94 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226f594, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectsInstaller", modifiers: "&&", def_value: None }]

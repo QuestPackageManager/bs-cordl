@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PropagationPhase);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7342))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7256))
 // CS Name: ::UnityEngine.UIElements::PropagationPhase
 struct CORDL_TYPE PropagationPhase {
 public:

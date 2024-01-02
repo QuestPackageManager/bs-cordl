@@ -9,22 +9,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimelineArrayReference)
 namespace GlobalNamespace {
+struct __TimelineArrayReference__ArrayTypes;
+}
+namespace GlobalNamespace {
 class TubeBloomPrePassLight;
 }
 namespace UnityEngine {
-class Transform;
+class CanvasGroup;
 }
 namespace TMPro {
 class TextMeshPro;
 }
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
 class DirectionalLight;
-}
-namespace GlobalNamespace {
-struct __TimelineArrayReference__ArrayTypes;
-}
-namespace UnityEngine {
-class CanvasGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelineArrayReference);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6073))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6018))
 // CS Name: ::TimelineArrayReference::ArrayTypes
 struct CORDL_TYPE __TimelineArrayReference__ArrayTypes {
 public:
@@ -102,8 +102,8 @@ static_assert(offsetof(::GlobalNamespace::__TimelineArrayReference__ArrayTypes, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6073)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6018)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6019))
 // CS Name: ::TimelineArrayReference*
 class CORDL_TYPE TimelineArrayReference : public ::UnityEngine::MonoBehaviour {
 public:
@@ -167,7 +167,7 @@ public:
 
   static inline ::GlobalNamespace::TimelineArrayReference* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c4edc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2317d00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineArrayReference", modifiers: "&&", def_value: None }]

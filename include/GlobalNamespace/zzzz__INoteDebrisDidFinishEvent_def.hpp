@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteDebrisDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4771))
 // CS Name: ::INoteDebrisDidFinishEvent*
 class CORDL_TYPE INoteDebrisDidFinishEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteDebrisDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteDebrisDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteDebrisDidFinishEvent", modifiers: "&&", def_value: None }]

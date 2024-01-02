@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRApplicationType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9372))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8603))
 // CS Name: ::OVR.OpenVR::EVRApplicationType
 struct CORDL_TYPE EVRApplicationType {
 public:

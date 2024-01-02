@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputUpdateCallbackReceive
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6498))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputUpdateCallbackReceiver*
 class CORDL_TYPE IInputUpdateCallbackReceiver {
 public:
   // Declarations
-  /// @brief Method OnUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnUpdate();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputUpdateCallbackReceiver", modifiers: "&&", def_value: None }]

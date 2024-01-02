@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor();
 
-  /// @brief Method .ctor addr 0x10ac7b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111da0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor addr 0x10ac7c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111da14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
   static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW msg, ::System::Exception* e);
 
-  /// @brief Method .ctor addr 0x10ac7c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111da1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg, ::System::Exception* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "CrlException", modifiers: "&&", def_value: None }]

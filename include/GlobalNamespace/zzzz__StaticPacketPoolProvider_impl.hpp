@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticPacketPoolProvider_def.hpp"
+#include "System/zzzz__Type_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
-#include "System/zzzz__Type_def.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StaticPacketPoolProvider.TryGetPacketPool
 template <>
@@ -11,9 +11,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::GlobalNamespace::IPacketPool*>)>(
     &::GlobalNamespace::StaticPacketPoolProvider::TryGetPacketPool)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xdb8568;
+  constexpr static std::size_t addrs = 0xe3f4dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPacketPoolProvider*>::get(), "TryGetPacketPool", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),

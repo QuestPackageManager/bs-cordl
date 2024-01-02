@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HEU_Shelf)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace HoudiniEngineUnity {
 class HEU_ShelfToolData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Shelf);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9858))
 // CS Name: ::HoudiniEngineUnity::HEU_Shelf*
 class CORDL_TYPE HEU_Shelf : public ::System::Object {
 public:
@@ -65,7 +65,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Shelf* New_ctor();
 
-  /// @brief Method .ctor addr 0x2078d5c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x21d06f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_Shelf", modifiers: "&&", def_value: None }]

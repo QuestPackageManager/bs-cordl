@@ -17,10 +17,9 @@ template <typename T> constexpr void UnityEngine::UIElements::TypedUxmlAttribute
 }
 template <typename T>
 inline T UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>::GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>*>::get(), "GetValueFromBag", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IUxmlAttributes*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CreationContext>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, bag, cc);
 }
 template <typename T> inline T UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>::get_defaultValue() {

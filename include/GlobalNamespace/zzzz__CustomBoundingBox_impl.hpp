@@ -3,15 +3,14 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomBoundingBox_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
-#include "UnityEngine/zzzz__MeshFilter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomBoundingBox.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomBoundingBox::*)()>(&::GlobalNamespace::CustomBoundingBox::Awake)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1f94ef8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x20f1db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), "Awake",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -22,26 +21,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomBoundingBox::*)()>(&::GlobalNamespace::CustomBoundingBox::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1f94f80;
+  constexpr static std::size_t addrs = 0x20f1e20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomBoundingBox*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::MeshFilter*& GlobalNamespace::CustomBoundingBox::__get__meshFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____meshFilter;
-}
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& GlobalNamespace::CustomBoundingBox::__get__meshFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____meshFilter;
-}
-constexpr void GlobalNamespace::CustomBoundingBox::__set__meshFilter(::UnityEngine::MeshFilter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityEngine::Vector3& GlobalNamespace::CustomBoundingBox::__get__boundingBoxCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____boundingBoxCenter;

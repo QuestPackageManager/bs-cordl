@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WeakHashtable)
+namespace System {
+class Object;
+}
 namespace System::ComponentModel {
 class __WeakHashtable__WeakKeyComparer;
 }
 namespace System::Collections {
 class IEqualityComparer;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::ComponentModel::__WeakHashtable__WeakKeyComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
 // CS Name: ::WeakHashtable::WeakKeyComparer*
 class CORDL_TYPE __WeakHashtable__WeakKeyComparer : public ::System::Object {
 public:
@@ -38,15 +38,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals addr 0x27bc948 size 0x15c virtual true final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x293a970, size 0x15c, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode addr 0x27bcaa4 size 0x20 virtual true final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x293aacc, size 0x20, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
   static inline ::System::ComponentModel::__WeakHashtable__WeakKeyComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x27bc940 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x293a968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__WeakHashtable__WeakKeyComparer", modifiers: "&&", def_value: None }]
@@ -73,8 +73,8 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__WeakHa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3786))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8332))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3798))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9495))
 // CS Name: ::System.ComponentModel::WeakHashtable*
 class CORDL_TYPE WeakHashtable : public ::System::Collections::Hashtable {
 public:
@@ -90,13 +90,13 @@ public:
 
   static inline ::System::ComponentModel::WeakHashtable* New_ctor();
 
-  /// @brief Method .ctor addr 0x27bc854 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x293a87c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Clear addr 0x27bc8b8 size 0x8 virtual true final false
+  /// @brief Method Clear, addr 0x293a8e0, size 0x8, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove addr 0x27bc8c0 size 0x8 virtual true final false
+  /// @brief Method Remove, addr 0x293a8e8, size 0x8, virtual true, abstract: false, final false
   inline void Remove(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "WeakHashtable", modifiers: "&&", def_value: None }]

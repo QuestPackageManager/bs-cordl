@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRControllerAxisType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8599))
 // CS Name: ::OVR.OpenVR::EVRControllerAxisType
 struct CORDL_TYPE EVRControllerAxisType {
 public:

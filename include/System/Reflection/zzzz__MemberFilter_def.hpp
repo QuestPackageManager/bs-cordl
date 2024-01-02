@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::System::Reflection::MemberFilter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3468))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3473))
 // CS Name: ::System.Reflection::MemberFilter*
 class CORDL_TYPE MemberFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Reflection::MemberFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x238dd60 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x24e7818, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x238de90 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x24e7948, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberFilter", modifiers: "&&", def_value: None }]

@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Converter)
+namespace System::Runtime::Serialization::Formatters::Binary {
+struct InternalPrimitiveTypeE;
+}
 namespace System {
-class Array;
+class Type;
 }
 namespace System::Reflection {
 class Assembly;
 }
 namespace System {
-class Object;
+class Array;
 }
 namespace System {
-class Type;
-}
-namespace System::Runtime::Serialization::Formatters::Binary {
-struct InternalPrimitiveTypeE;
+class Object;
 }
 namespace System {
 struct TypeCode;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::Converter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3277))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::Converter*
 class CORDL_TYPE Converter : public ::System::Object {
 public:
@@ -374,52 +374,52 @@ public:
 
   static inline ::System::Type* getStaticF_typeofMarshalByRefObject();
 
-  /// @brief Method ToCode addr 0x2367bc0 size 0x124 virtual false final false
+  /// @brief Method ToCode, addr 0x24c06b4, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToCode(::System::Type* type);
 
-  /// @brief Method IsWriteAsByteArray addr 0x236b92c size 0x24 virtual false final false
+  /// @brief Method IsWriteAsByteArray, addr 0x24c4420, size 0x24, virtual false, abstract: false, final false
   static inline bool IsWriteAsByteArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method TypeLength addr 0x236b950 size 0x24 virtual false final false
+  /// @brief Method TypeLength, addr 0x24c4444, size 0x24, virtual false, abstract: false, final false
   static inline int32_t TypeLength(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method ToArrayType addr 0x23685a8 size 0xb8 virtual false final false
+  /// @brief Method ToArrayType, addr 0x24c109c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToArrayType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitTypeA addr 0x236bd2c size 0x3b8 virtual false final false
+  /// @brief Method InitTypeA, addr 0x24c4820, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitTypeA();
 
-  /// @brief Method InitArrayTypeA addr 0x236b974 size 0x3b8 virtual false final false
+  /// @brief Method InitArrayTypeA, addr 0x24c4468, size 0x3b8, virtual false, abstract: false, final false
   static inline void InitArrayTypeA();
 
-  /// @brief Method ToType addr 0x23684f0 size 0xb8 virtual false final false
+  /// @brief Method ToType, addr 0x24c0fe4, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Type* ToType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method CreatePrimitiveArray addr 0x236c0e4 size 0x120 virtual false final false
+  /// @brief Method CreatePrimitiveArray, addr 0x24c4bd8, size 0x120, virtual false, abstract: false, final false
   static inline ::System::Array* CreatePrimitiveArray(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, int32_t length);
 
-  /// @brief Method IsPrimitiveArray addr 0x2367710 size 0x290 virtual false final false
+  /// @brief Method IsPrimitiveArray, addr 0x24c0204, size 0x290, virtual false, abstract: false, final false
   static inline bool IsPrimitiveArray(::System::Type* type, ByRef<::System::Object*> typeInformation);
 
-  /// @brief Method InitValueA addr 0x236c204 size 0x46c virtual false final false
+  /// @brief Method InitValueA, addr 0x24c4cf8, size 0x46c, virtual false, abstract: false, final false
   static inline void InitValueA();
 
-  /// @brief Method ToComType addr 0x2368438 size 0xb8 virtual false final false
+  /// @brief Method ToComType, addr 0x24c0f2c, size 0xb8, virtual false, abstract: false, final false
   static inline ::StringW ToComType(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitTypeCodeA addr 0x236c670 size 0x194 virtual false final false
+  /// @brief Method InitTypeCodeA, addr 0x24c5164, size 0x194, virtual false, abstract: false, final false
   static inline void InitTypeCodeA();
 
-  /// @brief Method ToTypeCode addr 0x236c804 size 0xb8 virtual false final false
+  /// @brief Method ToTypeCode, addr 0x24c52f8, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::TypeCode ToTypeCode(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
-  /// @brief Method InitCodeA addr 0x236c8bc size 0x1a8 virtual false final false
+  /// @brief Method InitCodeA, addr 0x24c53b0, size 0x1a8, virtual false, abstract: false, final false
   static inline void InitCodeA();
 
-  /// @brief Method ToPrimitiveTypeEnum addr 0x236b874 size 0xb8 virtual false final false
+  /// @brief Method ToPrimitiveTypeEnum, addr 0x24c4368, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ToPrimitiveTypeEnum(::System::TypeCode typeCode);
 
-  /// @brief Method FromString addr 0x236ca64 size 0xec virtual false final false
+  /// @brief Method FromString, addr 0x24c5558, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Object* FromString(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code);
 
   // Ctor Parameters [CppParam { name: "", ty: "Converter", modifiers: "&&", def_value: None }]

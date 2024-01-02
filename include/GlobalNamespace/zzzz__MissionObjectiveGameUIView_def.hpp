@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionObjectiveGameUIView)
+namespace GlobalNamespace {
+class MissionObjectiveChecker;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace UnityEngine {
+class Sprite;
+}
 namespace UnityEngine::UI {
 class Image;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace UnityEngine {
-class Sprite;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class MissionObjectiveChecker;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5140))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -163,24 +163,24 @@ public:
 
   constexpr void __set__missionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* value);
 
-  /// @brief Method SetMissionObjectiveChecker addr 0x2287cc8 size 0x27c virtual false final false
+  /// @brief Method SetMissionObjectiveChecker, addr 0x23c1034, size 0x27c, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveStatusDidChange addr 0x22880a0 size 0x4 virtual false final false
+  /// @brief Method HandleMissionObjectiveStatusDidChange, addr 0x23c140c, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method HandleMissionObjectiveCheckedValueDidChange addr 0x22880a4 size 0x4 virtual false final false
+  /// @brief Method HandleMissionObjectiveCheckedValueDidChange, addr 0x23c1410, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckedValueDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
 
-  /// @brief Method RefreshIcon addr 0x2287f44 size 0x104 virtual false final false
+  /// @brief Method RefreshIcon, addr 0x23c12b0, size 0x104, virtual false, abstract: false, final false
   inline void RefreshIcon();
 
-  /// @brief Method RefreshValue addr 0x2288048 size 0x58 virtual false final false
+  /// @brief Method RefreshValue, addr 0x23c13b4, size 0x58, virtual false, abstract: false, final false
   inline void RefreshValue();
 
   static inline ::GlobalNamespace::MissionObjectiveGameUIView* New_ctor();
 
-  /// @brief Method .ctor addr 0x22880a8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23c1414, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveGameUIView", modifiers: "&&", def_value: None }]

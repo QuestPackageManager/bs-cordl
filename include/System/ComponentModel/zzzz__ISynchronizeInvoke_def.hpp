@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ISynchronizeInvoke)
 namespace System {
-class Object;
+class Delegate;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System {
-class Delegate;
+class Object;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -24,17 +24,17 @@ MARK_REF_PTR_T(::System::ComponentModel::ISynchronizeInvoke);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9398))
 // CS Name: ::System.ComponentModel::ISynchronizeInvoke*
 class CORDL_TYPE ISynchronizeInvoke {
 public:
   // Declarations
   __declspec(property(get = get_InvokeRequired)) bool InvokeRequired;
 
-  /// @brief Method get_InvokeRequired addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InvokeRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_InvokeRequired();
 
-  /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Delegate* method, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISynchronizeInvoke", modifiers: "&&", def_value: None }]

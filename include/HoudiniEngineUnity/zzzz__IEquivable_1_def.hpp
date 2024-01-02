@@ -16,12 +16,12 @@ namespace HoudiniEngineUnity {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9810))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9883))
 // CS Name: ::HoudiniEngineUnity::IEquivable`1<T>*
 class CORDL_TYPE IEquivable_1 {
 public:
   // Declarations
-  /// @brief Method IsEquivalentTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsEquivalentTo(T other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEquivable_1", modifiers: "&&", def_value: None }]

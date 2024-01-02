@@ -9,13 +9,13 @@ namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Pkix {
+class PkixCertPath;
+}
+namespace Org::BouncyCastle::Pkix {
 class TrustAnchor;
 }
 namespace Org::BouncyCastle::Pkix {
 class PkixPolicyNode;
-}
-namespace Org::BouncyCastle::Pkix {
-class PkixCertPath;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -48,14 +48,14 @@ public:
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method .ctor addr 0x107a1ec size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x10eb440, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath addr 0x1083008 size 0x8 virtual false final false
+  /// @brief Method get_CertPath, addr 0x10f425c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
-  /// @brief Method ToString addr 0x1083010 size 0x1a8 virtual true final false
+  /// @brief Method ToString, addr 0x10f4264, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilderResult", modifiers: "&&", def_value: None }]

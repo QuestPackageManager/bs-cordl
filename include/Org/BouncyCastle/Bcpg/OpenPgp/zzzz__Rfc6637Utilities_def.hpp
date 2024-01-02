@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Rfc6637Utilities)
-namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
-}
-namespace Org::BouncyCastle::Bcpg {
-struct HashAlgorithmTag;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
+class PublicKeyPacket;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct HashAlgorithmTag;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1675))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::Rfc6637Utilities*
 class CORDL_TYPE Rfc6637Utilities : public ::System::Object {
@@ -47,25 +47,25 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::Rfc6637Utilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x105e08c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10cf2e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetAgreementAlgorithm addr 0x105e094 size 0x174 virtual false final false
+  /// @brief Method GetAgreementAlgorithm, addr 0x10cf2e8, size 0x174, virtual false, abstract: false, final false
   static inline ::StringW GetAgreementAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method GetKeyEncryptionOID addr 0x105e208 size 0x128 virtual false final false
+  /// @brief Method GetKeyEncryptionOID, addr 0x10cf45c, size 0x128, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetKeyEncryptionOID(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method GetKeyLength addr 0x105e330 size 0x98 virtual false final false
+  /// @brief Method GetKeyLength, addr 0x10cf584, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetKeyLength(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algID);
 
-  /// @brief Method CreateKey addr 0x10488dc size 0x108 virtual false final false
+  /// @brief Method CreateKey, addr 0x10b9b2c, size 0x108, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateKey(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData, ::Org::BouncyCastle::Math::EC::ECPoint* s);
 
-  /// @brief Method CreateUserKeyingMaterial addr 0x105e3c8 size 0x268 virtual false final false
+  /// @brief Method CreateUserKeyingMaterial, addr 0x10cf61c, size 0x268, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUserKeyingMaterial(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyData);
 
-  /// @brief Method Kdf addr 0x105e630 size 0x37c virtual false final false
+  /// @brief Method Kdf, addr 0x10cf884, size 0x37c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Kdf(::Org::BouncyCastle::Bcpg::HashAlgorithmTag digestAlg, ::Org::BouncyCastle::Math::EC::ECPoint* s, int32_t keyLen,
                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> parameters);
 

@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(V1TbsCertificateGenerator)
 namespace Org::BouncyCastle::Asn1::X509 {
-class TbsCertificateStructure;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerUtcTime;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerTaggedObject;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
+namespace Org::BouncyCastle::Asn1 {
+class DerUtcTime;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class TbsCertificateStructure;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerTaggedObject;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(396))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::V1TbsCertificateGenerator*
 class CORDL_TYPE V1TbsCertificateGenerator : public ::System::Object {
@@ -118,37 +118,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x112a6bc size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x119a904, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetSerialNumber addr 0x112a75c size 0x8 virtual false final false
+  /// @brief Method SetSerialNumber, addr 0x119a9a4, size 0x8, virtual false, abstract: false, final false
   inline void SetSerialNumber(::Org::BouncyCastle::Asn1::DerInteger* serialNumber);
 
-  /// @brief Method SetSignature addr 0x112a764 size 0x8 virtual false final false
+  /// @brief Method SetSignature, addr 0x119a9ac, size 0x8, virtual false, abstract: false, final false
   inline void SetSignature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature);
 
-  /// @brief Method SetIssuer addr 0x112a76c size 0x8 virtual false final false
+  /// @brief Method SetIssuer, addr 0x119a9b4, size 0x8, virtual false, abstract: false, final false
   inline void SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetStartDate addr 0x112a774 size 0x8 virtual false final false
+  /// @brief Method SetStartDate, addr 0x119a9bc, size 0x8, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::X509::Time* startDate);
 
-  /// @brief Method SetStartDate addr 0x112a77c size 0x6c virtual false final false
+  /// @brief Method SetStartDate, addr 0x119a9c4, size 0x6c, virtual false, abstract: false, final false
   inline void SetStartDate(::Org::BouncyCastle::Asn1::DerUtcTime* startDate);
 
-  /// @brief Method SetEndDate addr 0x112a7e8 size 0x8 virtual false final false
+  /// @brief Method SetEndDate, addr 0x119aa30, size 0x8, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::X509::Time* endDate);
 
-  /// @brief Method SetEndDate addr 0x112a7f0 size 0x6c virtual false final false
+  /// @brief Method SetEndDate, addr 0x119aa38, size 0x6c, virtual false, abstract: false, final false
   inline void SetEndDate(::Org::BouncyCastle::Asn1::DerUtcTime* endDate);
 
-  /// @brief Method SetSubject addr 0x112a85c size 0x8 virtual false final false
+  /// @brief Method SetSubject, addr 0x119aaa4, size 0x8, virtual false, abstract: false, final false
   inline void SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
-  /// @brief Method SetSubjectPublicKeyInfo addr 0x112a864 size 0x8 virtual false final false
+  /// @brief Method SetSubjectPublicKeyInfo, addr 0x119aaac, size 0x8, virtual false, abstract: false, final false
   inline void SetSubjectPublicKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* pubKeyInfo);
 
-  /// @brief Method GenerateTbsCertificate addr 0x112a86c size 0x2d4 virtual false final false
+  /// @brief Method GenerateTbsCertificate, addr 0x119aab4, size 0x2d4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GenerateTbsCertificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "V1TbsCertificateGenerator", modifiers: "&&", def_value: None }]

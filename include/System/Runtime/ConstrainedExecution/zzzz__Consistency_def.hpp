@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::ConstrainedExecution::Consistency);
 namespace System::Runtime::ConstrainedExecution {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3347))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3351))
 // CS Name: ::System.Runtime.ConstrainedExecution::Consistency
 struct CORDL_TYPE Consistency {
 public:

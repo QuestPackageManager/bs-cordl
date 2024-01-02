@@ -18,7 +18,7 @@ MARK_VAL_T(::TMPro::TMP_FontWeightPair);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12360))
 // CS Name: ::TMPro::TMP_FontWeightPair
 struct CORDL_TYPE TMP_FontWeightPair {
 public:

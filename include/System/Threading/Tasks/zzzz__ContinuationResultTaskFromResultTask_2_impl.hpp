@@ -1,11 +1,11 @@
 #pragma once
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationResultTaskFromResultTask_2_def.hpp"
+#include "System/zzzz__Delegate_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
-#include "System/zzzz__Delegate_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
 template <typename TAntecedentResult, typename TResult>
 constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>::__get_m_antecedent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -46,9 +46,9 @@ inline void System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAn
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, antecedent, function, state, creationOptions, internalOptions);
 }
 template <typename TAntecedentResult, typename TResult> inline void System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>::InnerInvoke() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*>::get(),
-                                  "InnerInvoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+      il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

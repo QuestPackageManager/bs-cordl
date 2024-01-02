@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::RefreshMask);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12168))
 // CS Name: ::UnityEngine.ProBuilder::RefreshMask
 struct CORDL_TYPE RefreshMask {
 public:

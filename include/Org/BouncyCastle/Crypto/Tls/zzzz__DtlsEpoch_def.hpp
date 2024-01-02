@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsEpoch)
 namespace Org::BouncyCastle::Crypto::Tls {
-class DtlsReplayWindow;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class DtlsReplayWindow;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsEpoch);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1225))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsEpoch*
 class CORDL_TYPE DtlsEpoch : public ::System::Object {
@@ -73,22 +73,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsEpoch* New_ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method .ctor addr 0xef71d4 size 0x134 virtual false final false
+  /// @brief Method .ctor, addr 0xf6d3f8, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(int32_t epoch, ::Org::BouncyCastle::Crypto::Tls::TlsCipher* cipher);
 
-  /// @brief Method AllocateSequenceNumber addr 0xef731c size 0xf4 virtual false final false
+  /// @brief Method AllocateSequenceNumber, addr 0xf6d540, size 0xf4, virtual false, abstract: false, final false
   inline int64_t AllocateSequenceNumber();
 
-  /// @brief Method get_Cipher addr 0xef7410 size 0x8 virtual false final false
+  /// @brief Method get_Cipher, addr 0xf6d634, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCipher* get_Cipher();
 
-  /// @brief Method get_Epoch addr 0xef7418 size 0x8 virtual false final false
+  /// @brief Method get_Epoch, addr 0xf6d63c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Epoch();
 
-  /// @brief Method get_ReplayWindow addr 0xef7420 size 0x8 virtual false final false
+  /// @brief Method get_ReplayWindow, addr 0xf6d644, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* get_ReplayWindow();
 
-  /// @brief Method get_SequenceNumber addr 0xef7428 size 0x34 virtual false final false
+  /// @brief Method get_SequenceNumber, addr 0xf6d64c, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_SequenceNumber();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsEpoch", modifiers: "&&", def_value: None }]

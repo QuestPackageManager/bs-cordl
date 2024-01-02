@@ -64,24 +64,24 @@ public:
 
   constexpr void __set_forEncryption(bool value);
 
-  /// @brief Method Init addr 0xe5636c size 0x2a4 virtual true final false
+  /// @brief Method Init, addr 0xeca540, size 0x2a4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xe56610 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xeca7e4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetBlockSize addr 0xe56650 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize, addr 0xeca824, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xe56658 size 0x1f0 virtual true final false
+  /// @brief Method ProcessBlock, addr 0xeca82c, size 0x1f0, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe56848 size 0x4 virtual true final false
+  /// @brief Method Reset, addr 0xecaa1c, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe5684c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0xecaa20, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DesEdeEngine", modifiers: "&&", def_value: None }]

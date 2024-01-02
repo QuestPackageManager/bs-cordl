@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IVerifier {
 public:
   // Declarations
-  /// @brief Method IsVerified addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsVerified, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method IsVerified addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsVerified, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> source, int32_t off, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVerifier", modifiers: "&&", def_value: None }]

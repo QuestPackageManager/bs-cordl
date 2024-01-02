@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::InternalTaskOptions);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2791))
 // CS Name: ::System.Threading.Tasks::InternalTaskOptions
 struct CORDL_TYPE InternalTaskOptions {
 public:

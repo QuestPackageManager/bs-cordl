@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IAssetSongAudioClipProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5981))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5890))
 // CS Name: ::IAssetSongAudioClipProvider*
 class CORDL_TYPE IAssetSongAudioClipProvider {
 public:
   // Declarations
   __declspec(property(get = get_songAudioClip))::UnityEngine::AudioClip* songAudioClip;
 
-  /// @brief Method get_songAudioClip addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::AudioClip* get_songAudioClip();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAssetSongAudioClipProvider", modifiers: "&&", def_value: None }]

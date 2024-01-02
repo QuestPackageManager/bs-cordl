@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5ActivityDataSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4560))
 // CS Name: ::PS5ActivityDataSO*
 class CORDL_TYPE PS5ActivityDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__activityId(::StringW value);
 
-  /// @brief Method get_activityId addr 0x222e364 size 0x8 virtual false final false
+  /// @brief Method get_activityId, addr 0x2368290, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_activityId();
 
   static inline ::GlobalNamespace::PS5ActivityDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e344 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2368270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5ActivityDataSO", modifiers: "&&", def_value: None }]

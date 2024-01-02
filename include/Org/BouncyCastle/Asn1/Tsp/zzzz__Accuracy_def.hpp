@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Accuracy)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerInteger;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -69,27 +69,27 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis,
                                                                    ::Org::BouncyCastle::Asn1::DerInteger* micros);
 
-  /// @brief Method .ctor addr 0x10076b8 size 0xe4 virtual false final false
+  /// @brief Method .ctor, addr 0x1078904, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* seconds, ::Org::BouncyCastle::Asn1::DerInteger* millis, ::Org::BouncyCastle::Asn1::DerInteger* micros);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x100779c size 0x310 virtual false final false
+  /// @brief Method .ctor, addr 0x10789e8, size 0x310, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0x1007aac size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1078cf8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Seconds addr 0x1007b50 size 0x8 virtual false final false
+  /// @brief Method get_Seconds, addr 0x1078d9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Seconds();
 
-  /// @brief Method get_Millis addr 0x1007b58 size 0x8 virtual false final false
+  /// @brief Method get_Millis, addr 0x1078da4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Millis();
 
-  /// @brief Method get_Micros addr 0x1007b60 size 0x8 virtual false final false
+  /// @brief Method get_Micros, addr 0x1078dac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Micros();
 
-  /// @brief Method ToAsn1Object addr 0x1007b68 size 0x138 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1078db4, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "Accuracy", modifiers: "&&", def_value: None }]

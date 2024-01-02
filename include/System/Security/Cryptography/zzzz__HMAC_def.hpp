@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMAC);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2941))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2942))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2934))
 // CS Name: ::System.Security.Cryptography::HMAC*
 class CORDL_TYPE HMAC : public ::System::Security::Cryptography::KeyedHashAlgorithm {
 public:
@@ -93,42 +93,42 @@ public:
 
   constexpr void __set_m_hashing(bool value);
 
-  /// @brief Method get_BlockSizeValue addr 0x2304b90 size 0x8 virtual false final false
+  /// @brief Method get_BlockSizeValue, addr 0x245e208, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();
 
-  /// @brief Method set_BlockSizeValue addr 0x2304b98 size 0x8 virtual false final false
+  /// @brief Method set_BlockSizeValue, addr 0x245e210, size 0x8, virtual false, abstract: false, final false
   inline void set_BlockSizeValue(int32_t value);
 
-  /// @brief Method UpdateIOPadBuffers addr 0x2304ba0 size 0x164 virtual false final false
+  /// @brief Method UpdateIOPadBuffers, addr 0x245e218, size 0x164, virtual false, abstract: false, final false
   inline void UpdateIOPadBuffers();
 
-  /// @brief Method InitializeKey addr 0x2304d04 size 0xd4 virtual false final false
+  /// @brief Method InitializeKey, addr 0x245e37c, size 0xd4, virtual false, abstract: false, final false
   inline void InitializeKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_Key addr 0x2304dd8 size 0x78 virtual true final false
+  /// @brief Method get_Key, addr 0x245e450, size 0x78, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Key();
 
-  /// @brief Method set_Key addr 0x2304e50 size 0x74 virtual true final false
+  /// @brief Method set_Key, addr 0x245e4c8, size 0x74, virtual true, abstract: false, final false
   inline void set_Key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method Create addr 0x2304ec4 size 0x70 virtual false final false
+  /// @brief Method Create, addr 0x245e53c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::HMAC* Create();
 
-  /// @brief Method Initialize addr 0x2304f5c size 0x48 virtual true final false
+  /// @brief Method Initialize, addr 0x245e5d4, size 0x48, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x2304fa4 size 0x88 virtual true final false
+  /// @brief Method HashCore, addr 0x245e61c, size 0x88, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ib, int32_t cb);
 
-  /// @brief Method HashFinal addr 0x230502c size 0x144 virtual true final false
+  /// @brief Method HashFinal, addr 0x245e6a4, size 0x144, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Dispose addr 0x2305170 size 0x148 virtual true final false
+  /// @brief Method Dispose, addr 0x245e7e8, size 0x148, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Security::Cryptography::HMAC* New_ctor();
 
-  /// @brief Method .ctor addr 0x2305300 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x245e978, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMAC", modifiers: "&&", def_value: None }]

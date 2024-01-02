@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(FocusEventBase_1)
 namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
 class FocusChangeDirection;
 }
 namespace UnityEngine::UIElements {
 class FocusController;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
 }
 namespace UnityEngine::UIElements {
 class Focusable;
@@ -28,8 +28,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7266)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1645 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1712 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7232))
 // CS Name: ::UnityEngine.UIElements::FocusEventBase`1<T>*
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -78,43 +78,44 @@ public:
 
   constexpr void __set__IsFocusDelegated_k__BackingField(bool value);
 
-  /// @brief Method get_relatedTarget addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Focusable* get_relatedTarget();
 
-  /// @brief Method set_relatedTarget addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_relatedTarget(::UnityEngine::UIElements::Focusable* value);
 
-  /// @brief Method get_direction addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_direction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::FocusChangeDirection* get_direction();
 
-  /// @brief Method set_direction addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_direction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::FocusChangeDirection* value);
 
-  /// @brief Method get_focusController addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_focusController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusController* get_focusController();
 
-  /// @brief Method set_focusController addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_focusController, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_focusController(::UnityEngine::UIElements::FocusController* value);
 
-  /// @brief Method get_IsFocusDelegated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsFocusDelegated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsFocusDelegated();
 
-  /// @brief Method set_IsFocusDelegated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_IsFocusDelegated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_IsFocusDelegated(bool value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param bIsFocusDelegated: bool (default: false)
   static inline T GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::Focusable* relatedTarget, ::UnityEngine::UIElements::FocusChangeDirection* direction,
-                            ::UnityEngine::UIElements::FocusController* focusController, bool bIsFocusDelegated);
+                            ::UnityEngine::UIElements::FocusController* focusController, bool bIsFocusDelegated = false);
 
   static inline ::UnityEngine::UIElements::FocusEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FocusEventBase_1", modifiers: "&&", def_value: None }]

@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IIntervalTree_2)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace IntervalTree {
 template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
@@ -12,9 +15,6 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 // Forward declare root types
 namespace IntervalTree {
@@ -29,7 +29,7 @@ namespace IntervalTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16126))
 // CS Name: ::IntervalTree::IIntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IIntervalTree_2 {
 public:
@@ -44,31 +44,31 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* get_Values();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey value);
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<TValue>* Query(TKey from, TKey to);
 
-  /// @brief Method QueryWithCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method QueryWithCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<TValue>* QueryWithCount(TKey from, TKey to);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(TKey from, TKey to, TValue value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(TValue item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(::System::Collections::Generic::IEnumerable_1<TValue>* items);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "IIntervalTree_2", modifiers: "&&", def_value: None }]

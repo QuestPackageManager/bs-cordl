@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVROverlayError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9371))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8602))
 // CS Name: ::OVR.OpenVR::EVROverlayError
 struct CORDL_TYPE EVROverlayError {
 public:

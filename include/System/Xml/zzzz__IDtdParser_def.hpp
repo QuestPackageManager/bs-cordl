@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IDtdParser)
 namespace System::Xml {
-class IDtdParserAdapter;
+class IDtdInfo;
 }
 namespace System::Xml {
-class IDtdInfo;
+class IDtdParserAdapter;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::System::Xml::IDtdParser);
 namespace System::Xml {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11426))
 // CS Name: ::System.Xml::IDtdParser*
 class CORDL_TYPE IDtdParser {
 public:
   // Declarations
-  /// @brief Method ParseInternalDtd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ParseInternalDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdInfo* ParseInternalDtd(::System::Xml::IDtdParserAdapter* adapter, bool saveInternalSubset);
 
-  /// @brief Method ParseFreeFloatingDtd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ParseFreeFloatingDtd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::IDtdInfo* ParseFreeFloatingDtd(::StringW baseUri, ::StringW docTypeName, ::StringW publicId, ::StringW systemId, ::StringW internalSubset,
                                                        ::System::Xml::IDtdParserAdapter* adapter);
 

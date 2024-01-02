@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Zenject::PrefabProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11160))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11232))
 // CS Name: ::Zenject::PrefabProvider*
 class CORDL_TYPE PrefabProvider : public ::System::Object {
 public:
@@ -40,10 +40,10 @@ public:
 
   static inline ::Zenject::PrefabProvider* New_ctor(::UnityEngine::Object* prefab);
 
-  /// @brief Method .ctor addr 0x2da1e30 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x2f09c00, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* prefab);
 
-  /// @brief Method GetPrefab addr 0x2da1e64 size 0x8 virtual true final true
+  /// @brief Method GetPrefab, addr 0x2f09c34, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Object* GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProvider", modifiers: "&&", def_value: None }]

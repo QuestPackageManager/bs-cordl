@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricSignatureDeformatter)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2918))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2919))
 // CS Name: ::System.Security.Cryptography::AsymmetricSignatureDeformatter*
 class CORDL_TYPE AsymmetricSignatureDeformatter : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2302914 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x245bff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
 
-  /// @brief Method SetHashAlgorithm addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetHashAlgorithm(::StringW strName);
 
-  /// @brief Method VerifySignature addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "&&", def_value: None }]

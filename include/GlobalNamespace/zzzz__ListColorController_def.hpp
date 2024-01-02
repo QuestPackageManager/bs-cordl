@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ListColorController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5526))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5532))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16146))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16148))
 // CS Name: ::ListColorController*
 class CORDL_TYPE ListColorController : public ::GlobalNamespace::IncDecColorController {
 public:
@@ -43,33 +43,33 @@ public:
 
   constexpr void __set__numberOfElements(int32_t value);
 
-  /// @brief Method GetInitValues addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ApplyValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method ColorForValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ColorForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color ColorForValue(int32_t idx);
 
-  /// @brief Method OnEnable addr 0x2138d58 size 0x34 virtual false final false
+  /// @brief Method OnEnable, addr 0x23e4f0c, size 0x34, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshUI addr 0x2138d8c size 0x50 virtual false final false
+  /// @brief Method RefreshUI, addr 0x23e4f40, size 0x50, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method Refresh addr 0x2138ddc size 0x5c virtual false final false
+  /// @brief Method Refresh, addr 0x23e4f90, size 0x5c, virtual false, abstract: false, final false
   inline void Refresh(bool applyValue);
 
-  /// @brief Method IncButtonPressed addr 0x2138e38 size 0x40 virtual true final false
+  /// @brief Method IncButtonPressed, addr 0x23e4fec, size 0x40, virtual true, abstract: false, final false
   inline void IncButtonPressed();
 
-  /// @brief Method DecButtonPressed addr 0x2138e78 size 0x38 virtual true final false
+  /// @brief Method DecButtonPressed, addr 0x23e502c, size 0x38, virtual true, abstract: false, final false
   inline void DecButtonPressed();
 
   static inline ::GlobalNamespace::ListColorController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2138eb0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23e5064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ListColorController", modifiers: "&&", def_value: None }]

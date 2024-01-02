@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleCache)
 namespace UnityEngine::UIElements {
-struct ComputedStyle;
+struct ComputedTransitionProperty;
+}
+namespace UnityEngine::UIElements {
+class StyleVariableContext;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-struct ComputedTransitionProperty;
-}
-namespace UnityEngine::UIElements {
-class StyleVariableContext;
+struct ComputedStyle;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleCache);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6901))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6815))
 // CS Name: ::UnityEngine.UIElements::StyleCache*
 class CORDL_TYPE StyleCache : public ::System::Object {
 public:
@@ -62,22 +62,22 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>>*
   getStaticF_s_ComputedTransitionsCache();
 
-  /// @brief Method TryGetValue addr 0x2c596d4 size 0x90 virtual false final false
+  /// @brief Method TryGetValue, addr 0x2dc0a84, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method SetValue addr 0x2c59764 size 0xc4 virtual false final false
+  /// @brief Method SetValue, addr 0x2dc0b14, size 0xc4, virtual false, abstract: false, final false
   static inline void SetValue(int64_t hash, ByRef<::UnityEngine::UIElements::ComputedStyle> data);
 
-  /// @brief Method TryGetValue addr 0x2c59828 size 0x90 virtual false final false
+  /// @brief Method TryGetValue, addr 0x2dc0bd8, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ByRef<::UnityEngine::UIElements::StyleVariableContext*> data);
 
-  /// @brief Method SetValue addr 0x2c598b8 size 0x90 virtual false final false
+  /// @brief Method SetValue, addr 0x2dc0c68, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::UnityEngine::UIElements::StyleVariableContext* data);
 
-  /// @brief Method TryGetValue addr 0x2c59948 size 0x90 virtual false final false
+  /// @brief Method TryGetValue, addr 0x2dc0cf8, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetValue(int32_t hash, ByRef<::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>> data);
 
-  /// @brief Method SetValue addr 0x2c599d8 size 0x90 virtual false final false
+  /// @brief Method SetValue, addr 0x2dc0d88, size 0x90, virtual false, abstract: false, final false
   static inline void SetValue(int32_t hash, ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleCache", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Threading::Lock);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2694))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2696))
 // CS Name: ::System.Threading::Lock*
 class CORDL_TYPE Lock : public ::System::Object {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__lock(::System::Object* value);
 
-  /// @brief Method Acquire addr 0x24b9160 size 0x8 virtual false final false
+  /// @brief Method Acquire, addr 0x261417c, size 0x8, virtual false, abstract: false, final false
   inline void Acquire();
 
-  /// @brief Method Release addr 0x24b9184 size 0x8 virtual false final false
+  /// @brief Method Release, addr 0x26141a0, size 0x8, virtual false, abstract: false, final false
   inline void Release();
 
   static inline ::System::Threading::Lock* New_ctor();
 
-  /// @brief Method .ctor addr 0x24b9194 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x26141b0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Lock", modifiers: "&&", def_value: None }]

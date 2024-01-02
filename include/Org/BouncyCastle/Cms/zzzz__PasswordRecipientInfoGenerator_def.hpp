@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInfoGenerator)
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class RecipientInfo;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(682))
 // CS Name: ::Org.BouncyCastle.Cms::PasswordRecipientInfoGenerator*
 class CORDL_TYPE PasswordRecipientInfoGenerator : public ::System::Object {
@@ -84,19 +84,19 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x119633c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x120758c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KeyDerivationAlgorithm addr 0x1196344 size 0x8 virtual false final false
+  /// @brief Method set_KeyDerivationAlgorithm, addr 0x1207594, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey addr 0x119634c size 0x8 virtual false final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x120759c, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID addr 0x1196354 size 0x8 virtual false final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x12075a4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method Generate addr 0x119635c size 0x4bc virtual true final true
+  /// @brief Method Generate, addr 0x12075ac, size 0x4bc, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   // Ctor Parameters [CppParam { name: "", ty: "PasswordRecipientInfoGenerator", modifiers: "&&", def_value: None }]

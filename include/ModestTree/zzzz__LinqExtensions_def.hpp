@@ -5,29 +5,20 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinqExtensions)
-namespace ModestTree {
-template <typename T> class __LinqExtensions____c__8_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace ModestTree {
+template <typename T> class __LinqExtensions____c__DisplayClass10_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace ModestTree {
-template <typename T> class __LinqExtensions____c__DisplayClass10_0_1;
-}
-namespace ModestTree {
 template <typename T> class __LinqExtensions___Yield_d__0_1;
 }
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System {
-class Object;
+namespace ModestTree {
+template <typename T> class __LinqExtensions____c__8_1;
 }
 namespace System {
 class IDisposable;
@@ -36,10 +27,19 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+class Object;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace ModestTree {
@@ -65,8 +65,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10610))
 // CS Name: ::LinqExtensions::<Yield>d__0`1<T>*
 class CORDL_TYPE __LinqExtensions___Yield_d__0_1 : public ::System::Object {
 public:
@@ -137,28 +137,28 @@ public:
 
   static inline ::ModestTree::__LinqExtensions___Yield_d__0_1<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<T>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T System_Collections_Generic_IEnumerator_T__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<T>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* System_Collections_Generic_IEnumerable_T__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions___Yield_d__0_1", modifiers: "&&", def_value: None }]
@@ -200,8 +200,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10611))
 // CS Name: ::LinqExtensions::<>c__8`1<T>*
 class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
 public:
@@ -236,16 +236,16 @@ public:
 
   static inline ::ModestTree::__LinqExtensions____c__8_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetDuplicates>b__8_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetDuplicates>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _GetDuplicates_b__8_0(T x);
 
-  /// @brief Method <GetDuplicates>b__8_1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetDuplicates>b__8_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _GetDuplicates_b__8_1(::System::Linq::IGrouping_2<T, T>* x);
 
-  /// @brief Method <GetDuplicates>b__8_2 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetDuplicates>b__8_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _GetDuplicates_b__8_2(::System::Linq::IGrouping_2<T, T>* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__8_1", modifiers: "&&", def_value: None }]
@@ -272,8 +272,8 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10612))
 // CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
 class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
 public:
@@ -289,10 +289,10 @@ public:
 
   static inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ContainsItem>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ContainsItem>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _ContainsItem_b__0(T x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LinqExtensions____c__DisplayClass10_0_1", modifiers: "&&", def_value: None }]
@@ -320,8 +320,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10613))
 // CS Name: ::ModestTree::LinqExtensions*
 class CORDL_TYPE LinqExtensions : public ::System::Object {
 public:
@@ -332,37 +332,37 @@ public:
 
   template <typename T> using _Yield_d__0_1 = ::ModestTree::__LinqExtensions___Yield_d__0_1<T>;
 
-  /// @brief Method Yield addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Yield, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Yield(T item);
 
-  /// @brief Method OnlyOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnlyOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource OnlyOrDefault(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method HasAtLeast addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasAtLeast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAtLeast(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
-  /// @brief Method HasMoreThan addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasMoreThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasMoreThan(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
-  /// @brief Method HasLessThan addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasLessThan(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
-  /// @brief Method HasAtMost addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasAtMost, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool HasAtMost(::System::Collections::Generic::IEnumerable_1<T>* enumerable, int32_t amount);
 
-  /// @brief Method IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsEmpty(::System::Collections::Generic::List_1<T>* list);
 
-  /// @brief Method IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsEmpty(::System::Collections::Generic::IEnumerable_1<T>* enumerable);
 
-  /// @brief Method GetDuplicates addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetDuplicates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* GetDuplicates(::System::Collections::Generic::IEnumerable_1<T>* list);
 
-  /// @brief Method Except addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Except, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<T>* Except(::System::Collections::Generic::IEnumerable_1<T>* list, T item);
 
-  /// @brief Method ContainsItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ContainsItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsItem(::System::Collections::Generic::IEnumerable_1<T>* list, T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LinqExtensions", modifiers: "&&", def_value: None }]

@@ -9,10 +9,10 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class Queue_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename K, typename V>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13870))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14372))
 // CS Name: ::HMCache`2<K,V>*
 class CORDL_TYPE HMCache_2 : public ::System::Object {
 public:
@@ -68,30 +68,30 @@ public:
 
   constexpr void __set__maxNumberElements(int32_t value);
 
-  /// @brief Method add_itemWillBeRemovedFromCacheEvent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value);
 
-  /// @brief Method remove_itemWillBeRemovedFromCacheEvent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value);
 
   static inline ::GlobalNamespace::HMCache_2<K, V>* New_ctor(int32_t maxNumberElements);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxNumberElements);
 
-  /// @brief Method IsInCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsInCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsInCache(K key);
 
-  /// @brief Method UpdateOrderInCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateOrderInCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateOrderInCache(K key);
 
-  /// @brief Method GetFromCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetFromCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline V GetFromCache(K key);
 
-  /// @brief Method PutToCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PutToCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PutToCache(K key, V value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMCache_2", modifiers: "&&", def_value: None }]

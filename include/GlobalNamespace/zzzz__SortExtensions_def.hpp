@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortExtensions)
-namespace GlobalNamespace {
-template <typename T> class __SortExtensions____c__DisplayClass1_0_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace GlobalNamespace {
+template <typename T> class __SortExtensions____c__DisplayClass1_0_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,8 +30,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12882))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12961))
 // CS Name: ::SortExtensions::<>c__DisplayClass1_0`1<T>*
 class CORDL_TYPE __SortExtensions____c__DisplayClass1_0_1 : public ::System::Object {
 public:
@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Sort>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Sort>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t _Sort_b__0(T a, T b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SortExtensions____c__DisplayClass1_0_1", modifiers: "&&", def_value: None }]
@@ -78,18 +78,18 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12962))
 // CS Name: ::SortExtensions*
 class CORDL_TYPE SortExtensions : public ::System::Object {
 public:
   // Declarations
   template <typename T> using __c__DisplayClass1_0_1 = ::GlobalNamespace::__SortExtensions____c__DisplayClass1_0_1<T>;
 
-  /// @brief Method InsertSorted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InsertSorted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void InsertSorted(::System::Collections::Generic::List_1<T>* list, T item, ::System::Func_2<T, int32_t>* getSortIndex);
 
-  /// @brief Method Sort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Sort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Sort(::System::Collections::Generic::List_1<T>* list, ::System::Func_2<T, int32_t>* getSortIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "SortExtensions", modifiers: "&&", def_value: None }]

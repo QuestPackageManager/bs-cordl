@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Set_1)
-namespace System::Linq {
-template <typename TElement> struct __Set_1__Slot;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Linq {
+template <typename TElement> struct __Set_1__Slot;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -30,7 +30,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14287))
 // CS Name: ::Set`1::Slot<TElement>
 struct CORDL_TYPE __Set_1__Slot {
 public:
@@ -65,8 +65,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14626))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14288))
 // CS Name: ::System.Linq::Set`1<TElement>*
 class CORDL_TYPE Set_1 : public ::System::Object {
 public:
@@ -120,19 +120,22 @@ public:
 
   static inline ::System::Linq::Set_1<TElement>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TElement>* comparer);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Add(TElement value);
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Remove(TElement value);
+
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Find(TElement value, bool add);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Resize();
 
-  /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalGetHashCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t InternalGetHashCode(TElement value);
 
   // Ctor Parameters [CppParam { name: "", ty: "Set_1", modifiers: "&&", def_value: None }]

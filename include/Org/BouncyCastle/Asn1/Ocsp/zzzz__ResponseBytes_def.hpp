@@ -5,22 +5,22 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ResponseBytes)
 namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
+}
+namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ocsp {
@@ -60,29 +60,29 @@ public:
 
   constexpr void __set_response(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xf0b35c size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xf81580, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xf0c7fc size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf82a20, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* responseType, ::Org::BouncyCastle::Asn1::Asn1OctetString* response);
 
-  /// @brief Method .ctor addr 0xf0cab4 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xf82cd8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* responseType, ::Org::BouncyCastle::Asn1::Asn1OctetString* response);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0c984 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0xf82ba8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ResponseType addr 0xf0cb58 size 0x8 virtual false final false
+  /// @brief Method get_ResponseType, addr 0xf82d7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ResponseType();
 
-  /// @brief Method get_Response addr 0xf0cb60 size 0x8 virtual false final false
+  /// @brief Method get_Response, addr 0xf82d84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Response();
 
-  /// @brief Method ToAsn1Object addr 0xf0cb68 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf82d8c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResponseBytes", modifiers: "&&", def_value: None }]

@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::ILateTickable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15684))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15734))
 // CS Name: ::Zenject::ILateTickable*
 class CORDL_TYPE ILateTickable {
 public:
   // Declarations
-  /// @brief Method LateTick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LateTick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LateTick();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILateTickable", modifiers: "&&", def_value: None }]

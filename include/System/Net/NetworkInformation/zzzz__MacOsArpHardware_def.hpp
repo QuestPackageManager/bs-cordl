@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsArpHardware);
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8118))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9281))
 // CS Name: ::System.Net.NetworkInformation::MacOsArpHardware
 struct CORDL_TYPE MacOsArpHardware {
 public:

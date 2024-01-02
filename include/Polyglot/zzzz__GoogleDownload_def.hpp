@@ -12,28 +12,28 @@ namespace Polyglot {
 class __GoogleDownload___DownloadSheet_d__0;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace Polyglot {
-struct GoogleDriveDownloadFormat;
-}
-namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections {
 class IEnumerator;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequest;
+namespace Polyglot {
+struct GoogleDriveDownloadFormat;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class IDisposable;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::Polyglot::__GoogleDownload___DownloadSheet_d__0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15536))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15534))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15552)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::GoogleDownload::<DownloadSheet>d__0*
 class CORDL_TYPE __GoogleDownload___DownloadSheet_d__0 : public ::System::Object {
 public:
@@ -151,22 +151,22 @@ public:
 
   static inline ::Polyglot::__GoogleDownload___DownloadSheet_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2686d88 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x28019ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2686db0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x28019d4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x2686db4 size 0x300 virtual true final true
+  /// @brief Method MoveNext, addr 0x28019d8, size 0x300, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x26870b4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2801cd8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x26870bc size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2801ce0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x26870fc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2801d20, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GoogleDownload___DownloadSheet_d__0", modifiers: "&&", def_value: None }]
@@ -238,17 +238,19 @@ static_assert(offsetof(::Polyglot::__GoogleDownload___DownloadSheet_d__0, ____ww
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15535))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15551))
 // CS Name: ::Polyglot::GoogleDownload*
 class CORDL_TYPE GoogleDownload : public ::System::Object {
 public:
   // Declarations
   using _DownloadSheet_d__0 = ::Polyglot::__GoogleDownload___DownloadSheet_d__0;
 
-  /// @brief Method DownloadSheet addr 0x2686cf8 size 0x90 virtual false final false
-  static inline ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done, ::Polyglot::GoogleDriveDownloadFormat format,
-                                                                  ::System::Func_2<float_t, bool>* progressbar);
+  /// @brief Method DownloadSheet, addr 0x280191c, size 0x90, virtual false, abstract: false, final false
+  /// @param format: ::Polyglot::GoogleDriveDownloadFormat (default: static_cast<int32_t>(0x0))
+  /// @param progressbar: ::System::Func_2<float_t,bool>* (default: nullptr)
+  static inline ::System::Collections::IEnumerator* DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done,
+                                                                  ::Polyglot::GoogleDriveDownloadFormat format = static_cast<int32_t>(0x0), ::System::Func_2<float_t, bool>* progressbar = nullptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "GoogleDownload", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

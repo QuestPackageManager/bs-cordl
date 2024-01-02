@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(GradientRemapPool)
 namespace UnityEngine::UIElements::UIR {
 class __GradientRemapPool____c;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace UnityEngine::UIElements::UIR {
 class GradientRemap;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__GradientRemapPool____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7506))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7420))
 // CS Name: ::GradientRemapPool::<>c*
 class CORDL_TYPE __GradientRemapPool____c : public ::System::Object {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c66cf4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2dcd0a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__0_0 addr 0x2c66cfc size 0x58 virtual false final false
+  /// @brief Method <.ctor>b__0_0, addr 0x2dcd0ac, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1 addr 0x2c66d9c size 0x14 virtual false final false
+  /// @brief Method <.ctor>b__0_1, addr 0x2dcd14c, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GradientRemapPool____c", modifiers: "&&", def_value: None }]
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7486)), TypeDefinitionIndex(TypeDefinitionIndex(7508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7486), inst: 314
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7507)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(7422)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7421)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
 class CORDL_TYPE GradientRemapPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations
@@ -103,7 +103,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c66b08 size 0x188 virtual false final false
+  /// @brief Method .ctor, addr 0x2dcceb8, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GradientRemapPool", modifiers: "&&", def_value: None }]

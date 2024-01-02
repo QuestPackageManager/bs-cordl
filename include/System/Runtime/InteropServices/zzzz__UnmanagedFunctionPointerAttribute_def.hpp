@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(3330))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3310))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3313))
 // CS Name: ::System.Runtime.InteropServices::UnmanagedFunctionPointerAttribute*
 class CORDL_TYPE UnmanagedFunctionPointerAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute* New_ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
-  /// @brief Method .ctor addr 0x237e2e8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24d71d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnmanagedFunctionPointerAttribute", modifiers: "&&", def_value: None }]

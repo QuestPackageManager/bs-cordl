@@ -16,8 +16,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5548))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5442))
 // CS Name: ::BaseStateTransition`1<T>*
 class CORDL_TYPE BaseStateTransition_1 : public ::GlobalNamespace::BaseStateTransition {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::BaseStateTransition_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseStateTransition_1", modifiers: "&&", def_value: None }]

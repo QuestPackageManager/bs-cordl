@@ -3,14 +3,14 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IFormatter)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Serialization {
 class ISurrogateSelector;
 }
 namespace System::IO {
 class Stream;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IFormatter);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3214))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3215))
 // CS Name: ::System.Runtime.Serialization::IFormatter*
 class CORDL_TYPE IFormatter {
 public:
   // Declarations
   __declspec(property(put = set_SurrogateSelector))::System::Runtime::Serialization::ISurrogateSelector* SurrogateSelector;
 
-  /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph);
 
-  /// @brief Method set_SurrogateSelector addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_SurrogateSelector, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFormatter", modifiers: "&&", def_value: None }]

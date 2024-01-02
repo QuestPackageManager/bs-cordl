@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DroneHover)
-namespace GlobalNamespace {
-class __DroneHover__SineLayer;
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class Cloth;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class Cloth;
-}
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
 struct Vector3;
+}
+namespace GlobalNamespace {
+class __DroneHover__SineLayer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__DroneHover__SineLayer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4012))
 // CS Name: ::DroneHover::SineLayer*
 class CORDL_TYPE __DroneHover__SineLayer : public ::System::Object {
 public:
@@ -62,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::__DroneHover__SineLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x20c1490 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2222b7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__DroneHover__SineLayer", modifiers: "&&", def_value: None }]
@@ -99,8 +99,8 @@ static_assert(offsetof(::GlobalNamespace::__DroneHover__SineLayer, ___offset) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3996))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4013))
 // CS Name: ::DroneHover*
 class CORDL_TYPE DroneHover : public ::UnityEngine::MonoBehaviour {
 public:
@@ -197,24 +197,25 @@ public:
 
   constexpr void __set__cloth(::UnityEngine::Cloth* value);
 
-  /// @brief Method Start addr 0x20c0ef4 size 0x30 virtual false final false
+  /// @brief Method Start, addr 0x22225e0, size 0x30, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x20c0f24 size 0x120 virtual false final false
+  /// @brief Method Update, addr 0x2222610, size 0x120, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method GetNoiseVec3 addr 0x20c1044 size 0x7c virtual false final false
+  /// @brief Method GetNoiseVec3, addr 0x2222730, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNoiseVec3(float_t time);
 
-  /// @brief Method GetNoise addr 0x20c1380 size 0xf4 virtual false final false
-  inline float_t GetNoise(float_t time, float_t offset);
+  /// @brief Method GetNoise, addr 0x2222a6c, size 0xf4, virtual false, abstract: false, final false
+  /// @param offset: float_t (default: 0.0)
+  inline float_t GetNoise(float_t time, float_t offset = 0.0);
 
-  /// @brief Method UpdateTiltTransform addr 0x20c10c0 size 0x2c0 virtual false final false
+  /// @brief Method UpdateTiltTransform, addr 0x22227ac, size 0x2c0, virtual false, abstract: false, final false
   inline void UpdateTiltTransform();
 
   static inline ::GlobalNamespace::DroneHover* New_ctor();
 
-  /// @brief Method .ctor addr 0x20c1474 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2222b60, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DroneHover", modifiers: "&&", def_value: None }]

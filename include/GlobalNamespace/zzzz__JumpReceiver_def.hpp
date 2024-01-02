@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(JumpReceiver)
+namespace UnityEngine::Playables {
+class INotification;
+}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
-}
-namespace UnityEngine::Playables {
-class INotification;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpReceiver);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14405))
 // CS Name: ::JumpReceiver*
 class CORDL_TYPE JumpReceiver : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,18 +46,18 @@ public:
 
   constexpr void __set__jumpToDestinationValid_k__BackingField(bool value);
 
-  /// @brief Method get_jumpToDestinationValid addr 0x1fa2bf0 size 0x8 virtual false final false
+  /// @brief Method get_jumpToDestinationValid, addr 0x20f5bc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_jumpToDestinationValid();
 
-  /// @brief Method set_jumpToDestinationValid addr 0x1fa2bf8 size 0xc virtual false final false
+  /// @brief Method set_jumpToDestinationValid, addr 0x20f5bc8, size 0xc, virtual false, abstract: false, final false
   inline void set_jumpToDestinationValid(bool value);
 
-  /// @brief Method OnNotify addr 0x1fa2c04 size 0x140 virtual true final true
+  /// @brief Method OnNotify, addr 0x20f5bd4, size 0x140, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
 
   static inline ::GlobalNamespace::JumpReceiver* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fa2d44 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f5d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "&&", def_value: None }]

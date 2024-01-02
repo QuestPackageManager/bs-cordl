@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KnownAce)
 namespace System::Security::AccessControl {
-struct AceFlags;
+struct AceType;
 }
 namespace System::Security::Principal {
 class SecurityIdentifier;
 }
 namespace System::Security::AccessControl {
-struct AceType;
+struct AceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::KnownAce);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3034))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3038))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3035))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3039))
 // CS Name: ::System.Security.AccessControl::KnownAce*
 class CORDL_TYPE KnownAce : public ::System::Security::AccessControl::GenericAce {
 public:
@@ -55,24 +55,24 @@ public:
 
   static inline ::System::Security::AccessControl::KnownAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method .ctor addr 0x232c3dc size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2483ed0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
   static inline ::System::Security::AccessControl::KnownAce* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor addr 0x232c3e0 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x2483ed4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method get_AccessMask addr 0x232c3e4 size 0x8 virtual false final false
+  /// @brief Method get_AccessMask, addr 0x2483ed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
-  /// @brief Method set_AccessMask addr 0x232c3ec size 0x8 virtual false final false
+  /// @brief Method set_AccessMask, addr 0x2483ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessMask(int32_t value);
 
-  /// @brief Method get_SecurityIdentifier addr 0x232c3f4 size 0x8 virtual false final false
+  /// @brief Method get_SecurityIdentifier, addr 0x2483ee8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Principal::SecurityIdentifier* get_SecurityIdentifier();
 
-  /// @brief Method set_SecurityIdentifier addr 0x232c3fc size 0x8 virtual false final false
+  /// @brief Method set_SecurityIdentifier, addr 0x2483ef0, size 0x8, virtual false, abstract: false, final false
   inline void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownAce", modifiers: "&&", def_value: None }]

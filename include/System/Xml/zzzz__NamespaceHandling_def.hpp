@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::NamespaceHandling);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11362))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11434))
 // CS Name: ::System.Xml::NamespaceHandling
 struct CORDL_TYPE NamespaceHandling {
 public:

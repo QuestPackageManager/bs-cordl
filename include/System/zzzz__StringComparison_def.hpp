@@ -16,7 +16,7 @@ MARK_VAL_T(::System::StringComparison);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2477))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2479))
 // CS Name: ::System::StringComparison
 struct CORDL_TYPE StringComparison {
 public:

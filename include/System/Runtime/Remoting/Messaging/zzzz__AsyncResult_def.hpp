@@ -6,23 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncResult)
-namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
-}
 namespace System::Threading {
-class ThreadAbortException;
-}
-namespace System {
-class Object;
+class WaitCallback;
 }
 namespace System::Runtime::Remoting::Messaging {
 class MonoMethodMessage;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System {
+class Object;
 }
 namespace System::Threading {
-class WaitCallback;
+class IThreadPoolWorkItem;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessage;
@@ -31,13 +25,19 @@ namespace System {
 class IAsyncResult;
 }
 namespace System::Threading {
-class IThreadPoolWorkItem;
+class ThreadAbortException;
 }
-namespace System::Threading {
-class WaitHandle;
+namespace System::Runtime::Remoting::Messaging {
+class IMessageCtrl;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
+}
+namespace System::Threading {
+class WaitHandle;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -49,8 +49,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::AsyncResult);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3150))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3151))
 // CS Name: ::System.Runtime.Remoting.Messaging::AsyncResult*
 class CORDL_TYPE AsyncResult : public ::System::Object {
 public:
@@ -226,65 +226,65 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::AsyncResult* New_ctor();
 
-  /// @brief Method .ctor addr 0x234ed54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24a7848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AsyncState addr 0x234ed5c size 0x8 virtual true final false
+  /// @brief Method get_AsyncState, addr 0x24a7850, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x234ed64 size 0x124 virtual true final false
+  /// @brief Method get_AsyncWaitHandle, addr 0x24a7858, size 0x124, virtual true, abstract: false, final false
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously addr 0x234ee88 size 0x8 virtual true final false
+  /// @brief Method get_CompletedSynchronously, addr 0x24a797c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted addr 0x234ee90 size 0x8 virtual true final false
+  /// @brief Method get_IsCompleted, addr 0x24a7984, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_EndInvokeCalled addr 0x234ee98 size 0x8 virtual false final false
+  /// @brief Method get_EndInvokeCalled, addr 0x24a798c, size 0x8, virtual false, abstract: false, final false
   inline bool get_EndInvokeCalled();
 
-  /// @brief Method set_EndInvokeCalled addr 0x234eea0 size 0xc virtual false final false
+  /// @brief Method set_EndInvokeCalled, addr 0x24a7994, size 0xc, virtual false, abstract: false, final false
   inline void set_EndInvokeCalled(bool value);
 
-  /// @brief Method get_AsyncDelegate addr 0x234eeac size 0x8 virtual true final false
+  /// @brief Method get_AsyncDelegate, addr 0x24a79a0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_AsyncDelegate();
 
-  /// @brief Method get_NextSink addr 0x234eeb4 size 0x8 virtual true final true
+  /// @brief Method get_NextSink, addr 0x24a79a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_NextSink();
 
-  /// @brief Method AsyncProcessMessage addr 0x234eebc size 0x40 virtual true final false
+  /// @brief Method AsyncProcessMessage, addr 0x24a79b0, size 0x40, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetReplyMessage addr 0x234eefc size 0x8 virtual true final false
+  /// @brief Method GetReplyMessage, addr 0x24a79f0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* GetReplyMessage();
 
-  /// @brief Method SetMessageCtrl addr 0x234ef04 size 0x8 virtual true final false
+  /// @brief Method SetMessageCtrl, addr 0x24a79f8, size 0x8, virtual true, abstract: false, final false
   inline void SetMessageCtrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* mc);
 
-  /// @brief Method SetCompletedSynchronously addr 0x234ef0c size 0xc virtual false final false
+  /// @brief Method SetCompletedSynchronously, addr 0x24a7a00, size 0xc, virtual false, abstract: false, final false
   inline void SetCompletedSynchronously(bool completed);
 
-  /// @brief Method EndInvoke addr 0x233ef58 size 0x110 virtual false final false
+  /// @brief Method EndInvoke, addr 0x2497a4c, size 0x110, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* EndInvoke();
 
-  /// @brief Method SyncProcessMessage addr 0x234ef18 size 0x190 virtual true final false
+  /// @brief Method SyncProcessMessage, addr 0x24a7a0c, size 0x190, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method get_CallMessage addr 0x234f0a8 size 0x8 virtual false final false
+  /// @brief Method get_CallMessage, addr 0x24a7b9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* get_CallMessage();
 
-  /// @brief Method set_CallMessage addr 0x234f0b0 size 0x8 virtual false final false
+  /// @brief Method set_CallMessage, addr 0x24a7ba4, size 0x8, virtual false, abstract: false, final false
   inline void set_CallMessage(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem addr 0x234f0b8 size 0x4 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x24a7bac, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted addr 0x234f0c0 size 0x4 virtual true final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x24a7bb4, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method Invoke addr 0x234f0bc size 0x4 virtual false final false
+  /// @brief Method Invoke, addr 0x24a7bb0, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncResult", modifiers: "&&", def_value: None }]

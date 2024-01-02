@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__TaskUpdater_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(LateTickablesTaskUpdater)
-namespace System {
-class Object;
+namespace Zenject {
+class ILateTickable;
 }
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace Zenject {
-class ILateTickable;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::Zenject::LateTickablesTaskUpdater);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11265)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11265), inst: 4105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15684))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11267)) CS Name: ::Zenject::LateTickablesTaskUpdater*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15734)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11337), inst: 4201 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(11337))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11339)) CS Name: ::Zenject::LateTickablesTaskUpdater*
 class CORDL_TYPE LateTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ILateTickable*> {
 public:
   // Declarations
-  /// @brief Method UpdateItem addr 0x2db1350 size 0x9c virtual true final false
+  /// @brief Method UpdateItem, addr 0x2f19120, size 0x9c, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::ILateTickable* task);
 
   static inline ::Zenject::LateTickablesTaskUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db13ec size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2f191bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x2db1434 size 0x58 virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f19204, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db148c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f1925c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "LateTickablesTaskUpdater", modifiers: "&&", def_value: None }]

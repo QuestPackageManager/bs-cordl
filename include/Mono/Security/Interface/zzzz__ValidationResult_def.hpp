@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ValidationResult)
-namespace System {
-template <typename T> struct Nullable_1;
-}
 namespace Mono::Security::Interface {
 struct MonoSslPolicyErrors;
+}
+namespace System {
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::Mono::Security::Interface::ValidationResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2446)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 4647 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14046)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4746 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13779)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13775)) CS Name:
 // ::Mono.Security.Interface::ValidationResult*
 class CORDL_TYPE ValidationResult : public ::System::Object {
 public:
@@ -72,13 +72,13 @@ public:
   static inline ::Mono::Security::Interface::ValidationResult* New_ctor(bool trusted, bool user_denied, int32_t error_code,
                                                                         ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method .ctor addr 0x22a875c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2402a68, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted addr 0x22a87a4 size 0x8 virtual false final false
+  /// @brief Method get_Trusted, addr 0x2402ab0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied addr 0x22a87ac size 0x8 virtual false final false
+  /// @brief Method get_UserDenied, addr 0x2402ab8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidationResult", modifiers: "&&", def_value: None }]

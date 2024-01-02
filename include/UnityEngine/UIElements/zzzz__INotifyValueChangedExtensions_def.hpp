@@ -8,10 +8,10 @@ namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
+template <typename TEventType> class EventCallback_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::INotifyValueChangedExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7214))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7128))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChangedExtensions*
 class CORDL_TYPE INotifyValueChangedExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RegisterValueChangedCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterValueChangedCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool RegisterValueChangedCallback(::UnityEngine::UIElements::INotifyValueChanged_1<T>* control,
                                                   ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<T>*>* callback);
 
-  /// @brief Method UnregisterValueChangedCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnregisterValueChangedCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline bool UnregisterValueChangedCallback(::UnityEngine::UIElements::INotifyValueChanged_1<T>* control,
                                                     ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::ChangeEvent_1<T>*>* callback);

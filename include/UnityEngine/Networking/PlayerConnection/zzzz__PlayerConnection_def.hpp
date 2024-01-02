@@ -9,32 +9,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerConnection)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerConnection____c__DisplayClass12_0;
 }
-namespace UnityEngine::Networking::PlayerConnection {
-class PlayerEditorConnectionEvents;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class IEditorPlayerConnection;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class __PlayerConnection____c__DisplayClass20_0;
-}
 namespace System {
 struct Guid;
-}
-namespace UnityEngine::Networking::PlayerConnection {
-class MessageEventArgs;
 }
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
 }
 namespace UnityEngine::Networking::PlayerConnection {
+class PlayerEditorConnectionEvents;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class MessageEventArgs;
+}
+namespace UnityEngine::Networking::PlayerConnection {
 class __PlayerConnection____c__DisplayClass13_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::Networking::PlayerConnection {
+class __PlayerConnection____c__DisplayClass20_0;
+}
+namespace UnityEngine::Networking::PlayerConnection {
+class IEditorPlayerConnection;
 }
 namespace UnityEngine {
 class IPlayerEditorConnectionNative;
@@ -64,8 +64,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerConnection__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10230))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10308))
 // CS Name: ::PlayerConnection::<>c__DisplayClass12_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass12_0 : public ::System::Object {
 public:
@@ -81,10 +81,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b80d10 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ce8144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Register>b__0 addr 0x2b81a14 size 0x48 virtual false final false
+  /// @brief Method <Register>b__0, addr 0x2ce8e48, size 0x48, virtual false, abstract: false, final false
   inline bool _Register_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerConnection____c__DisplayClass12_0", modifiers: "&&", def_value: None }]
@@ -116,8 +116,8 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10231))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10309))
 // CS Name: ::PlayerConnection::<>c__DisplayClass13_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass13_0 : public ::System::Object {
 public:
@@ -133,10 +133,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b80ec0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ce82f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Unregister>b__0 addr 0x2b81a5c size 0x48 virtual false final false
+  /// @brief Method <Unregister>b__0, addr 0x2ce8e90, size 0x48, virtual false, abstract: false, final false
   inline bool _Unregister_b__0(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerConnection____c__DisplayClass13_0", modifiers: "&&", def_value: None }]
@@ -168,8 +168,8 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10232))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10310))
 // CS Name: ::PlayerConnection::<>c__DisplayClass20_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass20_0 : public ::System::Object {
 public:
@@ -185,10 +185,10 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b81640 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ce8a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <BlockUntilRecvMsg>b__0 addr 0x2b81aa4 size 0xc virtual false final false
+  /// @brief Method <BlockUntilRecvMsg>b__0, addr 0x2ce8ed8, size 0xc, virtual false, abstract: false, final false
   inline void _BlockUntilRecvMsg_b__0(::UnityEngine::Networking::PlayerConnection::MessageEventArgs* args);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlayerConnection____c__DisplayClass20_0", modifiers: "&&", def_value: None }]
@@ -220,8 +220,8 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10233))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10311))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerConnection*
 class CORDL_TYPE PlayerConnection : public ::UnityEngine::ScriptableObject {
 public:
@@ -279,63 +279,63 @@ public:
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* getStaticF_s_Instance();
 
-  /// @brief Method get_instance addr 0x2b807d4 size 0x98 virtual false final false
+  /// @brief Method get_instance, addr 0x2ce7c08, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();
 
-  /// @brief Method get_isConnected addr 0x2b808f0 size 0x9c virtual false final false
+  /// @brief Method get_isConnected, addr 0x2ce7d24, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
-  /// @brief Method CreateInstance addr 0x2b8086c size 0x84 virtual false final false
+  /// @brief Method CreateInstance, addr 0x2ce7ca0, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* CreateInstance();
 
-  /// @brief Method OnEnable addr 0x2b80a0c size 0xc0 virtual false final false
+  /// @brief Method OnEnable, addr 0x2ce7e40, size 0xc0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method GetConnectionNativeApi addr 0x2b8098c size 0x80 virtual false final false
+  /// @brief Method GetConnectionNativeApi, addr 0x2ce7dc0, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::IPlayerEditorConnectionNative* GetConnectionNativeApi();
 
-  /// @brief Method Register addr 0x2b80acc size 0x244 virtual true final true
+  /// @brief Method Register, addr 0x2ce7f00, size 0x244, virtual true, abstract: false, final true
   inline void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method Unregister addr 0x2b80d18 size 0x1a8 virtual true final true
+  /// @brief Method Unregister, addr 0x2ce814c, size 0x1a8, virtual true, abstract: false, final true
   inline void Unregister(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method RegisterConnection addr 0x2b80ec8 size 0x1a0 virtual true final true
+  /// @brief Method RegisterConnection, addr 0x2ce82fc, size 0x1a0, virtual true, abstract: false, final true
   inline void RegisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method RegisterDisconnection addr 0x2b81068 size 0x60 virtual true final true
+  /// @brief Method RegisterDisconnection, addr 0x2ce849c, size 0x60, virtual true, abstract: false, final true
   inline void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method UnregisterConnection addr 0x2b810c8 size 0x60 virtual true final true
+  /// @brief Method UnregisterConnection, addr 0x2ce84fc, size 0x60, virtual true, abstract: false, final true
   inline void UnregisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method UnregisterDisconnection addr 0x2b81128 size 0x60 virtual true final true
+  /// @brief Method UnregisterDisconnection, addr 0x2ce855c, size 0x60, virtual true, abstract: false, final true
   inline void UnregisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method Send addr 0x2b81188 size 0x15c virtual true final true
+  /// @brief Method Send, addr 0x2ce85bc, size 0x15c, virtual true, abstract: false, final true
   inline void Send(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method TrySend addr 0x2b812e4 size 0x15c virtual true final true
+  /// @brief Method TrySend, addr 0x2ce8718, size 0x15c, virtual true, abstract: false, final true
   inline bool TrySend(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method BlockUntilRecvMsg addr 0x2b81440 size 0x200 virtual false final false
+  /// @brief Method BlockUntilRecvMsg, addr 0x2ce8874, size 0x200, virtual false, abstract: false, final false
   inline bool BlockUntilRecvMsg(::System::Guid messageId, int32_t timeout);
 
-  /// @brief Method DisconnectAll addr 0x2b81648 size 0x9c virtual true final true
+  /// @brief Method DisconnectAll, addr 0x2ce8a7c, size 0x9c, virtual true, abstract: false, final true
   inline void DisconnectAll();
 
-  /// @brief Method MessageCallbackInternal addr 0x2b816e4 size 0x118 virtual false final false
+  /// @brief Method MessageCallbackInternal, addr 0x2ce8b18, size 0x118, virtual false, abstract: false, final false
   static inline void MessageCallbackInternal(void* data, uint64_t size, uint64_t guid, ::StringW messageId);
 
-  /// @brief Method ConnectedCallbackInternal addr 0x2b817fc size 0xdc virtual false final false
+  /// @brief Method ConnectedCallbackInternal, addr 0x2ce8c30, size 0xdc, virtual false, abstract: false, final false
   static inline void ConnectedCallbackInternal(int32_t playerId);
 
-  /// @brief Method DisconnectedCallback addr 0x2b818d8 size 0x94 virtual false final false
+  /// @brief Method DisconnectedCallback, addr 0x2ce8d0c, size 0x94, virtual false, abstract: false, final false
   static inline void DisconnectedCallback(int32_t playerId);
 
   static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b8196c size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ce8da0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerConnection", modifiers: "&&", def_value: None }]

@@ -17,13 +17,13 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMidAnchorModeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14980))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14767))
 // CS Name: ::SliderMidAnchorModeExtensions*
 class CORDL_TYPE SliderMidAnchorModeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection addr 0xd9c244 size 0x1c virtual false final false
+  /// @brief Method OppositeDirection, addr 0xe01c54, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderMidAnchorModeExtensions", modifiers: "&&", def_value: None }]

@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA256Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2959))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2960))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2961))
 // CS Name: ::System.Security.Cryptography::SHA256Managed*
 class CORDL_TYPE SHA256Managed : public ::System::Security::Cryptography::SHA256 {
 public:
@@ -67,52 +67,52 @@ public:
 
   static inline ::System::Security::Cryptography::SHA256Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x23058dc size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0x245ef54, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x230e80c size 0x44 virtual true final false
+  /// @brief Method Initialize, addr 0x2467580, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x230e850 size 0x4 virtual true final false
+  /// @brief Method HashCore, addr 0x24675c4, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x230ea20 size 0x4 virtual true final false
+  /// @brief Method HashFinal, addr 0x2467794, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitializeState addr 0x230e74c size 0xc0 virtual false final false
+  /// @brief Method InitializeState, addr 0x24674c0, size 0xc0, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method _HashData addr 0x230e854 size 0x1cc virtual false final false
+  /// @brief Method _HashData, addr 0x24675c8, size 0x1cc, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method _EndHash addr 0x230ea24 size 0x1a8 virtual false final false
+  /// @brief Method _EndHash, addr 0x2467798, size 0x1a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method SHATransform addr 0x230ebcc size 0x56c virtual false final false
+  /// @brief Method SHATransform, addr 0x2467940, size 0x56c, virtual false, abstract: false, final false
   static inline void SHATransform(::cordl_internals::Ptr<uint32_t> expandedBuffer, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method RotateRight addr 0x230f2bc size 0x8 virtual false final false
+  /// @brief Method RotateRight, addr 0x2468030, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t x, int32_t n);
 
-  /// @brief Method Ch addr 0x230f23c size 0x10 virtual false final false
+  /// @brief Method Ch, addr 0x2467fb0, size 0x10, virtual false, abstract: false, final false
   static inline uint32_t Ch(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method Maj addr 0x230f2a8 size 0x14 virtual false final false
+  /// @brief Method Maj, addr 0x246801c, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t Maj(uint32_t x, uint32_t y, uint32_t z);
 
-  /// @brief Method sigma_0 addr 0x230f2c4 size 0x5c virtual false final false
+  /// @brief Method sigma_0, addr 0x2468038, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t sigma_0(uint32_t x);
 
-  /// @brief Method sigma_1 addr 0x230f320 size 0x5c virtual false final false
+  /// @brief Method sigma_1, addr 0x2468094, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t sigma_1(uint32_t x);
 
-  /// @brief Method Sigma_0 addr 0x230f24c size 0x5c virtual false final false
+  /// @brief Method Sigma_0, addr 0x2467fc0, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t Sigma_0(uint32_t x);
 
-  /// @brief Method Sigma_1 addr 0x230f1e0 size 0x5c virtual false final false
+  /// @brief Method Sigma_1, addr 0x2467f54, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t Sigma_1(uint32_t x);
 
-  /// @brief Method SHA256Expand addr 0x230f138 size 0xa8 virtual false final false
+  /// @brief Method SHA256Expand, addr 0x2467eac, size 0xa8, virtual false, abstract: false, final false
   static inline void SHA256Expand(::cordl_internals::Ptr<uint32_t> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA256Managed", modifiers: "&&", def_value: None }]

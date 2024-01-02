@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Configuration::IConfigurationSectionHandler);
 namespace System::Configuration {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8400))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9564))
 // CS Name: ::System.Configuration::IConfigurationSectionHandler*
 class CORDL_TYPE IConfigurationSectionHandler {
 public:

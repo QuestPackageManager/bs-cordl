@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationLayerMixerPlayable)
-namespace UnityEngine::Playables {
-struct PlayableHandle;
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct Playable;
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
-class IPlayable;
+struct Playable;
 }
 namespace UnityEngine {
 class AvatarMask;
 }
-namespace System {
-template <typename T> class IEquatable_1;
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -35,8 +35,8 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationLayerMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15121))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14894))
 // CS Name: ::UnityEngine.Animations::AnimationLayerMixerPlayable
 struct CORDL_TYPE AnimationLayerMixerPlayable {
 public:
@@ -54,40 +54,43 @@ public:
 
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable getStaticF_m_NullPlayable();
 
-  /// @brief Method Create addr 0x2b31bf0 size 0x70 virtual false final false
-  static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
+  /// @brief Method Create, addr 0x2c97890, size 0x70, virtual false, abstract: false, final false
+  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
+  static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
 
-  /// @brief Method Create addr 0x2b31c60 size 0xa8 virtual false final false
+  /// @brief Method Create, addr 0x2c97900, size 0xa8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount, bool singleLayerOptimization);
 
-  /// @brief Method CreateHandle addr 0x2b31d08 size 0xe4 virtual false final false
-  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
+  /// @brief Method CreateHandle, addr 0x2c979a8, size 0xe4, virtual false, abstract: false, final false
+  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
+  static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
 
-  /// @brief Method .ctor addr 0x2b31dec size 0x114 virtual false final false
-  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle, bool singleLayerOptimization);
+  /// @brief Method .ctor, addr 0x2c97a8c, size 0x114, virtual false, abstract: false, final false
+  /// @param singleLayerOptimization: bool (default: true)
+  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle, bool singleLayerOptimization = true);
 
-  /// @brief Method GetHandle addr 0x2b31fd0 size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2c97c70, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method op_Implicit addr 0x2b31fdc size 0x30 virtual false final false
+  /// @brief Method op_Implicit, addr 0x2c97c7c, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationLayerMixerPlayable playable);
 
-  /// @brief Method Equals addr 0x2b3200c size 0x78 virtual true final true
+  /// @brief Method Equals, addr 0x2c97cac, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationLayerMixerPlayable other);
 
-  /// @brief Method SetLayerMaskFromAvatarMask addr 0x2b32084 size 0x1e0 virtual false final false
+  /// @brief Method SetLayerMaskFromAvatarMask, addr 0x2c97d24, size 0x1e0, virtual false, abstract: false, final false
   inline void SetLayerMaskFromAvatarMask(uint32_t layerIndex, ::UnityEngine::AvatarMask* mask);
 
-  /// @brief Method CreateHandleInternal addr 0x2b31f00 size 0x8c virtual false final false
+  /// @brief Method CreateHandleInternal, addr 0x2c97ba0, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method SetSingleLayerOptimizationInternal addr 0x2b31f8c size 0x44 virtual false final false
+  /// @brief Method SetSingleLayerOptimizationInternal, addr 0x2c97c2c, size 0x44, virtual false, abstract: false, final false
   static inline void SetSingleLayerOptimizationInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method SetLayerMaskFromAvatarMaskInternal addr 0x2b32264 size 0x54 virtual false final false
+  /// @brief Method SetLayerMaskFromAvatarMaskInternal, addr 0x2c97f04, size 0x54, virtual false, abstract: false, final false
   static inline void SetLayerMaskFromAvatarMaskInternal(ByRef<::UnityEngine::Playables::PlayableHandle> handle, uint32_t layerIndex, ::UnityEngine::AvatarMask* mask);
 
-  /// @brief Method CreateHandleInternal_Injected addr 0x2b322b8 size 0x44 virtual false final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x2c97f58, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

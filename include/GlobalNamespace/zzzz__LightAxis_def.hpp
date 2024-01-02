@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::LightAxis);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14948))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14733))
 // CS Name: ::LightAxis
 struct CORDL_TYPE LightAxis {
 public:

@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JSONNull)
-namespace System::Text {
-class StringBuilder;
-}
 namespace OVRSimpleJSON {
 struct JSONNodeType;
+}
+namespace OVRSimpleJSON {
+struct __JSONNode__Enumerator;
 }
 namespace System {
 class Object;
 }
-namespace OVRSimpleJSON {
-struct __JSONNode__Enumerator;
+namespace System::Text {
+class StringBuilder;
 }
 namespace OVRSimpleJSON {
 struct JSONTextMode;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::OVRSimpleJSON::JSONNull);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8973))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8982))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8204))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8213))
 // CS Name: ::OVRSimpleJSON::JSONNull*
 class CORDL_TYPE JSONNull : public ::OVRSimpleJSON::JSONNode {
 public:
@@ -59,42 +59,42 @@ public:
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method CreateOrGet addr 0x2655038 size 0x94 virtual false final false
+  /// @brief Method CreateOrGet, addr 0x27c8d68, size 0x94, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
   static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-  /// @brief Method .ctor addr 0x26573d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ce358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Tag addr 0x26573d8 size 0x8 virtual true final false
+  /// @brief Method get_Tag, addr 0x27ce360, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_IsNull addr 0x26573e0 size 0x8 virtual true final false
+  /// @brief Method get_IsNull, addr 0x27ce368, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method GetEnumerator addr 0x26573e8 size 0x14 virtual true final false
+  /// @brief Method GetEnumerator, addr 0x27ce370, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::__JSONNode__Enumerator GetEnumerator();
 
-  /// @brief Method get_Value addr 0x26573fc size 0x40 virtual true final false
+  /// @brief Method get_Value, addr 0x27ce384, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x265743c size 0x4 virtual true final false
+  /// @brief Method set_Value, addr 0x27ce3c4, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_AsBool addr 0x2657440 size 0x8 virtual true final false
+  /// @brief Method get_AsBool, addr 0x27ce3c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method set_AsBool addr 0x2657448 size 0x4 virtual true final false
+  /// @brief Method set_AsBool, addr 0x27ce3d0, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method Equals addr 0x265744c size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x27ce3d4, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26574d8 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x27ce460, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method WriteToStringBuilder addr 0x26574e0 size 0x54 virtual true final false
+  /// @brief Method WriteToStringBuilder, addr 0x27ce468, size 0x54, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
   // Ctor Parameters [CppParam { name: "", ty: "JSONNull", modifiers: "&&", def_value: None }]

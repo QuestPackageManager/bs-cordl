@@ -11,29 +11,29 @@ CORDL_MODULE_EXPORT(ValueTask_1)
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
-}
 namespace System {
 template <typename T> class Action_1;
 }
+namespace GlobalNamespace {
+template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask____c;
+}
 namespace System::Threading::Tasks::Sources {
 template <typename TResult> class IValueTaskSource_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ValueTaskAwaiter_1;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct ConfiguredValueTaskAwaitable_1;
-}
-namespace System {
-template <typename T> class IEquatable_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class __ValueTask_1__ValueTaskSourceAsTask;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -55,8 +55,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask::<>c<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Object {
 public:
@@ -70,10 +70,10 @@ public:
 
   static inline ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.cctor>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask____c", modifiers: "&&", def_value: None }]
@@ -100,8 +100,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 3758 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2764))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3850 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2766))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
@@ -135,7 +135,7 @@ public:
 
   static inline ::System::Threading::Tasks::__ValueTask_1__ValueTaskSourceAsTask<TResult>* New_ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTask_1__ValueTaskSourceAsTask", modifiers: "&&", def_value: None }]
@@ -169,7 +169,7 @@ namespace System::Threading::Tasks {
 template <typename TResult>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2767))
 // CS Name: ::System.Threading.Tasks::ValueTask`1<TResult>
 struct CORDL_TYPE ValueTask_1 {
 public:
@@ -192,49 +192,49 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<TResult>* getStaticF_s_canceledTask();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TResult result);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* source, int16_t token);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, TResult result, int16_t token, bool continueOnCapturedContext);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::Tasks::ValueTask_1<TResult> other);
 
-  /// @brief Method AsTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AsTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* AsTask();
 
-  /// @brief Method GetTaskForValueTaskSource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetTaskForValueTaskSource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* GetTaskForValueTaskSource(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* t);
 
-  /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method get_IsCompletedSuccessfully addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCompletedSuccessfully, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompletedSuccessfully();
 
-  /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult get_Result();
 
-  /// @brief Method GetAwaiter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult> GetAwaiter();
 
-  /// @brief Method ConfigureAwait addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ConfigureAwait, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult> ConfigureAwait(bool continueOnCapturedContext);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: None }, CppParam { name:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketOperation);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8197))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9360))
 // CS Name: ::System.Net.Sockets::SocketOperation
 struct CORDL_TYPE SocketOperation {
 public:

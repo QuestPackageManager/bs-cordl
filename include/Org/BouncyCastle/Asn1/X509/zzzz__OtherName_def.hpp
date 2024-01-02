@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(OtherName)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Encodable;
 }
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
@@ -57,26 +57,26 @@ public:
 
   constexpr void __set_value(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0x1123c74 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1193ebc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* typeID, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor addr 0x1123dd8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x1194020, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* typeID, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::OtherName* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1123d18 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x1193f60, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_TypeID addr 0x1123e04 size 0x8 virtual true final false
+  /// @brief Method get_TypeID, addr 0x119404c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_TypeID();
 
-  /// @brief Method get_Value addr 0x1123e0c size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x1194054, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0x1123e14 size 0x124 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x119405c, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherName", modifiers: "&&", def_value: None }]

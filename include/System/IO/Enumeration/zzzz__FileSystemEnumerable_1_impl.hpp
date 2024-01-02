@@ -3,12 +3,12 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
-#include "System/IO/zzzz__EnumerationOptions_def.hpp"
-#include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/IO/Enumeration/zzzz__FileSystemEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/IO/zzzz__EnumerationOptions_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TResult>
@@ -23,9 +23,9 @@ template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline bool System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>::Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::Enumeration::FileSystemEntry>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindPredicate<TResult>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
 // Ctor Parameters []
@@ -42,9 +42,9 @@ template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline TResult System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>::Invoke(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::Enumeration::FileSystemEntry>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__FindTransform<TResult>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method, entry);
 }
 // Ctor Parameters []
@@ -76,22 +76,22 @@ template <typename TResult> inline void System::IO::Enumeration::__FileSystemEnu
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enumerable);
 }
 template <typename TResult> inline TResult System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>::TransformEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), "TransformEntry", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::Enumeration::FileSystemEntry>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method, entry);
 }
 template <typename TResult>
 inline bool System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>::ShouldRecurseIntoEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), "ShouldRecurseIntoEntry",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::Enumeration::FileSystemEntry>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
 template <typename TResult> inline bool System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>::ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), "ShouldIncludeEntry",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::IO::Enumeration::FileSystemEntry>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::__FileSystemEnumerable_1__DelegateEnumerator<TResult>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
 }
 // Ctor Parameters []

@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Match addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Match, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Match(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IX509Selector", modifiers: "&&", def_value: None }]

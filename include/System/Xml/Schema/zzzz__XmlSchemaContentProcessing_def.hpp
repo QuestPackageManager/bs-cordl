@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaContentProcessing);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11649))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11721))
 // CS Name: ::System.Xml.Schema::XmlSchemaContentProcessing
 struct CORDL_TYPE XmlSchemaContentProcessing {
 public:

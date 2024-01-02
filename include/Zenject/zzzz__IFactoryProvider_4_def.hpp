@@ -9,22 +9,22 @@ namespace System {
 struct Guid;
 }
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
+namespace System {
+class Object;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-class Object;
-}
-namespace System {
 class Action;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,18 +38,18 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11122)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11122), inst: 3387 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11126))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11194)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11194), inst: 3461 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11198))
 // CS Name: ::Zenject::IFactoryProvider`4<TParam1,TParam2,TParam3,TContract>*
 class CORDL_TYPE IFactoryProvider_4 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::IFactoryProvider_4<TParam1, TParam2, TParam3, TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

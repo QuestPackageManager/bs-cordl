@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::BuiltinRenderTextureType);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10339))
 // CS Name: ::UnityEngine.Rendering::BuiltinRenderTextureType
 struct CORDL_TYPE BuiltinRenderTextureType {
 public:

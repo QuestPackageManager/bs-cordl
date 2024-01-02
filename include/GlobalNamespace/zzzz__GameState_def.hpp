@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12693))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12764))
 // CS Name: ::GameState*
 class CORDL_TYPE GameState : public ::System::Object {
 public:
@@ -40,13 +40,13 @@ public:
 
   static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
-  /// @brief Method .ctor addr 0xdb7df0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe3c22c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispose();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameState", modifiers: "&&", def_value: None }]

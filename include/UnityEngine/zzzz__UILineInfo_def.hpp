@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::UILineInfo);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15798))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15906))
 // CS Name: ::UnityEngine::UILineInfo
 struct CORDL_TYPE UILineInfo {
 public:

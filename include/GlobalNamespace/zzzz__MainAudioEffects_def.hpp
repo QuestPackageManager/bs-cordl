@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainAudioEffects);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4054))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4066))
 // CS Name: ::MainAudioEffects*
 class CORDL_TYPE MainAudioEffects : public ::UnityEngine::MonoBehaviour {
 public:
@@ -52,21 +52,21 @@ public:
 
   constexpr void __set__targetFrequency(float_t value);
 
-  /// @brief Method Start addr 0x20ce52c size 0x34 virtual false final false
+  /// @brief Method Start, addr 0x222e018, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x20ce560 size 0xbc virtual false final false
+  /// @brief Method LateUpdate, addr 0x222e04c, size 0xbc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ResumeNormalSound addr 0x20ce61c size 0x28 virtual false final false
+  /// @brief Method ResumeNormalSound, addr 0x222e108, size 0x28, virtual false, abstract: false, final false
   inline void ResumeNormalSound();
 
-  /// @brief Method TriggerLowPass addr 0x20ce644 size 0x3c virtual false final false
+  /// @brief Method TriggerLowPass, addr 0x222e130, size 0x3c, virtual false, abstract: false, final false
   inline void TriggerLowPass();
 
   static inline ::GlobalNamespace::MainAudioEffects* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ce680 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x222e16c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainAudioEffects", modifiers: "&&", def_value: None }]

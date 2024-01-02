@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15358))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15328))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepBasin*
 class CORDL_TYPE DTSweepBasin : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* New_ctor();
 
-  /// @brief Method .ctor addr 0x29b2630 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b34384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DTSweepBasin", modifiers: "&&", def_value: None }]

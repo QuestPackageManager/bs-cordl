@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_AssetUpdater)
 namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
-}
-namespace HoudiniEngineUnity {
 class HEU_BaseSync;
 }
 namespace UnityEngine {
 class GameObject;
+}
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,36 +23,36 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetUpdater);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9545))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9618))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetUpdater*
 class CORDL_TYPE HEU_AssetUpdater : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OnBeforeAssemblyReload addr 0x1ff90d4 size 0x50 virtual false final false
+  /// @brief Method OnBeforeAssemblyReload, addr 0x2150a70, size 0x50, virtual false, abstract: false, final false
   static inline void OnBeforeAssemblyReload();
 
-  /// @brief Method Update addr 0x1ff9124 size 0x4 virtual false final false
+  /// @brief Method Update, addr 0x2150ac0, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method AddAssetForUpdate addr 0x1ff9128 size 0x4 virtual false final false
+  /// @brief Method AddAssetForUpdate, addr 0x2150ac4, size 0x4, virtual false, abstract: false, final false
   static inline void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method RemoveAsset addr 0x1ff912c size 0x4 virtual false final false
+  /// @brief Method RemoveAsset, addr 0x2150ac8, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method AddNodeSyncForUpdate addr 0x1ff9130 size 0x4 virtual false final false
+  /// @brief Method AddNodeSyncForUpdate, addr 0x2150acc, size 0x4, virtual false, abstract: false, final false
   static inline void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
-  /// @brief Method RemoveNodeSync addr 0x1ff9134 size 0x4 virtual false final false
+  /// @brief Method RemoveNodeSync, addr 0x2150ad0, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
-  /// @brief Method OnPrefabInstanceUpdate addr 0x1ff9138 size 0x4 virtual false final false
+  /// @brief Method OnPrefabInstanceUpdate, addr 0x2150ad4, size 0x4, virtual false, abstract: false, final false
   static inline void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
 
   static inline ::HoudiniEngineUnity::HEU_AssetUpdater* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff913c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2150ad8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetUpdater", modifiers: "&&", def_value: None }]

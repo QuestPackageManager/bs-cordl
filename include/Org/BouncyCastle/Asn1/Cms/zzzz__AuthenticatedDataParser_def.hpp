@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthenticatedDataParser)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1SetParser;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfoParser;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1SetParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1SequenceParser;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+class ContentInfoParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(59))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthenticatedDataParser*
 class CORDL_TYPE AuthenticatedDataParser : public ::System::Object {
@@ -84,34 +84,34 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method .ctor addr 0xdfdbe8 size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0xe72dbc, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version addr 0xdfdd0c size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xe72ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method GetOriginatorInfo addr 0xdfdd14 size 0x2e0 virtual false final false
+  /// @brief Method GetOriginatorInfo, addr 0xe72ee8, size 0x2e0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos addr 0xdfe16c size 0x100 virtual false final false
+  /// @brief Method GetRecipientInfos, addr 0xe73340, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetMacAlgorithm addr 0xdfe26c size 0x168 virtual false final false
+  /// @brief Method GetMacAlgorithm, addr 0xe73440, size 0x168, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetMacAlgorithm();
 
-  /// @brief Method GetDigestAlgorithm addr 0xdfe3d4 size 0x19c virtual false final false
+  /// @brief Method GetDigestAlgorithm, addr 0xe735a8, size 0x19c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetDigestAlgorithm();
 
-  /// @brief Method GetEnapsulatedContentInfo addr 0xdfe570 size 0x120 virtual false final false
+  /// @brief Method GetEnapsulatedContentInfo, addr 0xe73744, size 0x120, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEnapsulatedContentInfo();
 
-  /// @brief Method GetAuthAttrs addr 0xdfe870 size 0x1b8 virtual false final false
+  /// @brief Method GetAuthAttrs, addr 0xe73a44, size 0x1b8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetMac addr 0xdfea28 size 0x130 virtual false final false
+  /// @brief Method GetMac, addr 0xe73bfc, size 0x130, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetUnauthAttrs addr 0xdfeb58 size 0x1ac virtual false final false
+  /// @brief Method GetUnauthAttrs, addr 0xe73d2c, size 0x1ac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedDataParser", modifiers: "&&", def_value: None }]

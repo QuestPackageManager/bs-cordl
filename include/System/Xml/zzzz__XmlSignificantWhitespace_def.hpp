@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlSignificantWhitespace);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11428))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11526))
 // CS Name: ::System.Xml::XmlSignificantWhitespace*
 class CORDL_TYPE XmlSignificantWhitespace : public ::System::Xml::XmlCharacterData {
 public:
@@ -44,31 +44,31 @@ public:
 
   static inline ::System::Xml::XmlSignificantWhitespace* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x270fdfc size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x288ce1c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x2714b98 size 0x28 virtual true final false
+  /// @brief Method get_Name, addr 0x2891bb8, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x2714bc0 size 0x28 virtual true final false
+  /// @brief Method get_LocalName, addr 0x2891be0, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2714be8 size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x2891c08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode addr 0x2714bf0 size 0x88 virtual true final false
+  /// @brief Method get_ParentNode, addr 0x2891c10, size 0x88, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method CloneNode addr 0x2714c78 size 0x5c virtual true final false
+  /// @brief Method CloneNode, addr 0x2891c98, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
-  /// @brief Method get_Value addr 0x2714cd4 size 0x10 virtual true final false
+  /// @brief Method get_Value, addr 0x2891cf4, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value addr 0x2714ce4 size 0x94 virtual true final false
+  /// @brief Method set_Value, addr 0x2891d04, size 0x94, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
-  /// @brief Method get_IsText addr 0x2714d78 size 0x8 virtual true final false
+  /// @brief Method get_IsText, addr 0x2891d98, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSignificantWhitespace", modifiers: "&&", def_value: None }]

@@ -6,19 +6,19 @@
 #include "LIV/SDK/Unity/zzzz__TEXTURE_TYPE_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTexture_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_DEVICE_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_COLOR_SPACE_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_FORMAT_def.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_ID_def.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_TYPE_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_FORMAT_def.hpp"
-#include "LIV/SDK/Unity/zzzz__TEXTURE_COLOR_SPACE_def.hpp"
+#include "LIV/SDK/Unity/zzzz__TEXTURE_DEVICE_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKTexture.get_empty
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKTexture (*)()>(&::LIV::SDK::Unity::SDKTexture::get_empty)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x20ae70c;
+  constexpr static std::size_t addrs = 0x220f644;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTexture>::get(), "get_empty",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -29,9 +29,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKTexture::*)()>(&::LIV::SDK::Unity::SDKTexture::ToString)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x20b49e4;
+  constexpr static std::size_t addrs = 0x221591c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTexture>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTexture>::get(), 3));
@@ -44,8 +44,8 @@ inline ::LIV::SDK::Unity::SDKTexture LIV::SDK::Unity::SDKTexture::get_empty() {
   return ::cordl_internals::RunMethodRethrow<::LIV::SDK::Unity::SDKTexture, false>(nullptr, ___internal_method);
 }
 inline ::StringW LIV::SDK::Unity::SDKTexture::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTexture>::get(), "ToString",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTexture>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "id", ty: "::LIV::SDK::Unity::TEXTURE_ID", modifiers: "", def_value: Some("{}") }, CppParam { name: "texturePtr", ty: "void*", modifiers: "", def_value: Some("{}")

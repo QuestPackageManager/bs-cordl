@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskCircle_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8709))
 // CS Name: ::OVR.OpenVR::IntersectionMaskCircle_t
 struct CORDL_TYPE IntersectionMaskCircle_t {
 public:

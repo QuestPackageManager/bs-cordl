@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SaberModelContainer)
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
 class SaberModelController;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace GlobalNamespace {
 class Saber;
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberModelContainer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5392))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5297))
 // CS Name: ::SaberModelContainer*
 class CORDL_TYPE SaberModelContainer : public ::UnityEngine::MonoBehaviour {
 public:
@@ -56,12 +56,12 @@ public:
 
   constexpr void __set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method Start addr 0x211ff58 size 0x84 virtual false final false
+  /// @brief Method Start, addr 0x2264128, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  /// @brief Method .ctor addr 0x21202cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226449c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberModelContainer", modifiers: "&&", def_value: None }]

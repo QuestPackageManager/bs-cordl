@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MatchType);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3598))
 // CS Name: ::System.IO::MatchType
 struct CORDL_TYPE MatchType {
 public:

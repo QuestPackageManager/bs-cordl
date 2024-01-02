@@ -26,8 +26,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14279))
 // CS Name: ::IdentityFunction`1::<>c<TElement>*
 class CORDL_TYPE __IdentityFunction_1____c : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   static inline ::System::Linq::__IdentityFunction_1____c<TElement>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_Instance>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <get_Instance>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TElement _get_Instance_b__1_0(TElement x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IdentityFunction_1____c", modifiers: "&&", def_value: None }]
@@ -78,15 +78,15 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14618))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14280))
 // CS Name: ::System.Linq::IdentityFunction`1<TElement>*
 class CORDL_TYPE IdentityFunction_1 : public ::System::Object {
 public:
   // Declarations
   using __c = ::System::Linq::__IdentityFunction_1____c<TElement>;
 
-  /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Func_2<TElement, TElement>* get_Instance();
 
   // Ctor Parameters [CppParam { name: "", ty: "IdentityFunction_1", modifiers: "&&", def_value: None }]

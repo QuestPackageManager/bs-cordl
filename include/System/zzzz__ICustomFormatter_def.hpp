@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ICustomFormatter)
 namespace System {
-class Object;
+class IFormatProvider;
 }
 namespace System {
-class IFormatProvider;
+class Object;
 }
 // Forward declare root types
 namespace System {
@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::System::ICustomFormatter);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2412))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2414))
 // CS Name: ::System::ICustomFormatter*
 class CORDL_TYPE ICustomFormatter {
 public:
   // Declarations
-  /// @brief Method Format addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Format, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW Format(::StringW format, ::System::Object* arg, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomFormatter", modifiers: "&&", def_value: None }]

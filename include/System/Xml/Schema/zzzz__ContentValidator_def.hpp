@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::ContentValidator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11650)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11610))
 // CS Name: ::System.Xml.Schema::ContentValidator*
 class CORDL_TYPE ContentValidator : public ::System::Object {
 public:
@@ -85,18 +85,18 @@ public:
 
   static inline ::System::Xml::Schema::ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
-  /// @brief Method .ctor addr 0x2731d04 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x28aed28, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
   static inline ::System::Xml::Schema::ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method .ctor addr 0x2731d34 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x28aed58, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method get_ContentType addr 0x2731d74 size 0x8 virtual false final false
+  /// @brief Method get_ContentType, addr 0x28aed98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
 
-  /// @brief Method get_IsOpen addr 0x2731d7c size 0x24 virtual false final false
+  /// @brief Method get_IsOpen, addr 0x28aeda0, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsOpen();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentValidator", modifiers: "&&", def_value: None }]

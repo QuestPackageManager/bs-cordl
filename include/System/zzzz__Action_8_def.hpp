@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2330))
 // CS Name: ::System::Action`8<T1,T2,T3,T4,T5,T6,T7,T8>*
 class CORDL_TYPE Action_8 : public ::System::MulticastDelegate {
@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Action_8<T1, T2, T3, T4, T5, T6, T7, T8>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
 
   // Ctor Parameters [CppParam { name: "", ty: "Action_8", modifiers: "&&", def_value: None }]

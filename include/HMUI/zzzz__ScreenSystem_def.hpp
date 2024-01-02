@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(ScreenSystem)
 namespace HMUI {
 class ButtonBinder;
 }
-namespace UnityEngine::UI {
-class Button;
-}
 namespace HMUI {
 class Screen;
 }
 namespace HMUI {
 class TitleViewController;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace System {
 class Action;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HMUI::ScreenSystem);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13711))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13594))
 // CS Name: ::HMUI::ScreenSystem*
 class CORDL_TYPE ScreenSystem : public ::UnityEngine::MonoBehaviour {
 public:
@@ -137,45 +137,45 @@ public:
 
   constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  /// @brief Method get_titleViewController addr 0x1fd4c54 size 0x8 virtual false final false
+  /// @brief Method get_titleViewController, addr 0x212c684, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::TitleViewController* get_titleViewController();
 
-  /// @brief Method get_mainScreen addr 0x1fd4c5c size 0x8 virtual false final false
+  /// @brief Method get_mainScreen, addr 0x212c68c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::Screen* get_mainScreen();
 
-  /// @brief Method get_leftScreen addr 0x1fd4c64 size 0x8 virtual false final false
+  /// @brief Method get_leftScreen, addr 0x212c694, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::Screen* get_leftScreen();
 
-  /// @brief Method get_rightScreen addr 0x1fd4c6c size 0x8 virtual false final false
+  /// @brief Method get_rightScreen, addr 0x212c69c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::Screen* get_rightScreen();
 
-  /// @brief Method get_bottomScreen addr 0x1fd4c74 size 0x8 virtual false final false
+  /// @brief Method get_bottomScreen, addr 0x212c6a4, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::Screen* get_bottomScreen();
 
-  /// @brief Method get_topScreen addr 0x1fd4c7c size 0x8 virtual false final false
+  /// @brief Method get_topScreen, addr 0x212c6ac, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::Screen* get_topScreen();
 
-  /// @brief Method add_backButtonWasPressedEvent addr 0x1fd4c84 size 0x9c virtual false final false
+  /// @brief Method add_backButtonWasPressedEvent, addr 0x212c6b4, size 0x9c, virtual false, abstract: false, final false
   inline void add_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_backButtonWasPressedEvent addr 0x1fd4d20 size 0x9c virtual false final false
+  /// @brief Method remove_backButtonWasPressedEvent, addr 0x212c750, size 0x9c, virtual false, abstract: false, final false
   inline void remove_backButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method Awake addr 0x1fd4dbc size 0xc4 virtual false final false
+  /// @brief Method Awake, addr 0x212c7ec, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x1fd4e80 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x212c8b0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetBackButton addr 0x1fd4e9c size 0x30 virtual false final false
+  /// @brief Method SetBackButton, addr 0x212c8cc, size 0x30, virtual false, abstract: false, final false
   inline void SetBackButton(bool visible, bool animated);
 
   static inline ::HMUI::ScreenSystem* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd4ecc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x212c8fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Awake>b__24_0 addr 0x1fd4ed4 size 0x1c virtual false final false
+  /// @brief Method <Awake>b__24_0, addr 0x212c904, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__24_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenSystem", modifiers: "&&", def_value: None }]

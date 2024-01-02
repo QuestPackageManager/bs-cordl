@@ -9,14 +9,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshWriteData)
-namespace UnityEngine::UIElements {
-struct Vertex;
+namespace UnityEngine {
+struct Rect;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
 }
-namespace UnityEngine {
-struct Rect;
+namespace UnityEngine::UIElements {
+struct Vertex;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,10 +28,9 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshWriteData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 745 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9922), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7416)), TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(9922))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7417))
-// CS Name: ::UnityEngine.UIElements::MeshWriteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7330)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 752
+// }), TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 756 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7331)) CS Name: ::UnityEngine.UIElements::MeshWriteData*
 class CORDL_TYPE MeshWriteData : public ::System::Object {
 public:
   // Declarations
@@ -88,34 +87,34 @@ public:
 
   static inline ::UnityEngine::UIElements::MeshWriteData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d10310 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e796c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_vertexCount addr 0x2d10318 size 0x48 virtual false final false
+  /// @brief Method get_vertexCount, addr 0x2e796c8, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_vertexCount();
 
-  /// @brief Method get_indexCount addr 0x2d10360 size 0x48 virtual false final false
+  /// @brief Method get_indexCount, addr 0x2e79710, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_indexCount();
 
-  /// @brief Method get_uvRegion addr 0x2d103a8 size 0xc virtual false final false
+  /// @brief Method get_uvRegion, addr 0x2e79758, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_uvRegion();
 
-  /// @brief Method SetNextVertex addr 0x2d103b4 size 0x9c virtual false final false
+  /// @brief Method SetNextVertex, addr 0x2e79764, size 0x9c, virtual false, abstract: false, final false
   inline void SetNextVertex(::UnityEngine::UIElements::Vertex vertex);
 
-  /// @brief Method SetNextIndex addr 0x2d10450 size 0x64 virtual false final false
+  /// @brief Method SetNextIndex, addr 0x2e79800, size 0x64, virtual false, abstract: false, final false
   inline void SetNextIndex(uint16_t index);
 
-  /// @brief Method SetAllVertices addr 0x2d104b4 size 0xd8 virtual false final false
+  /// @brief Method SetAllVertices, addr 0x2e79864, size 0xd8, virtual false, abstract: false, final false
   inline void SetAllVertices(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices);
 
-  /// @brief Method SetAllIndices addr 0x2d1058c size 0xd8 virtual false final false
+  /// @brief Method SetAllIndices, addr 0x2e7993c, size 0xd8, virtual false, abstract: false, final false
   inline void SetAllIndices(::ArrayW<uint16_t, ::Array<uint16_t>*> indices);
 
-  /// @brief Method Reset addr 0x2d10664 size 0x4c virtual false final false
+  /// @brief Method Reset, addr 0x2e79a14, size 0x4c, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices);
 
-  /// @brief Method Reset addr 0x2d106b0 size 0x18 virtual false final false
+  /// @brief Method Reset, addr 0x2e79a60, size 0x18, virtual false, abstract: false, final false
   inline void Reset(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices, ::Unity::Collections::NativeSlice_1<uint16_t> indices, ::UnityEngine::Rect uvRegion);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshWriteData", modifiers: "&&", def_value: None }]

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Threading::InternalThread);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3350)), TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2636)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2670))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2745)) CS Name: ::System.Threading::InternalThread*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2672)), TypeDefinitionIndex(TypeDefinitionIndex(2638)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3354))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2747)) CS Name: ::System.Threading::InternalThread*
 class CORDL_TYPE InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
@@ -387,15 +387,15 @@ public:
 
   constexpr void __set_last(void* value);
 
-  /// @brief Method Thread_free_internal addr 0x24c57e4 size 0x4 virtual false final false
+  /// @brief Method Thread_free_internal, addr 0x261f804, size 0x4, virtual false, abstract: false, final false
   inline void Thread_free_internal();
 
-  /// @brief Method Finalize addr 0x24c57e8 size 0x94 virtual true final false
+  /// @brief Method Finalize, addr 0x261f808, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::InternalThread* New_ctor();
 
-  /// @brief Method .ctor addr 0x24c587c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x261f89c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalThread", modifiers: "&&", def_value: None }]

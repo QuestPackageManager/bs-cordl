@@ -6,25 +6,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_2)
 namespace Zenject {
-class IMemoryPool;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 template <typename TValue> class IDespawnableMemoryPool_1;
-}
-namespace Zenject {
-template <typename TParam1, typename TValue> class IMemoryPool_2;
-}
-namespace Zenject {
-class IFactory;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IMemoryPool_2;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
 template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IFactory;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,8 +38,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10977)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10977), inst: 2699 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10967))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11049), inst: 2759 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11039))
 // CS Name: ::Zenject::MemoryPool`2<TParam1,TValue>*
 class CORDL_TYPE MemoryPool_2 : public ::Zenject::MemoryPoolBase_1<TValue> {
 public:
@@ -59,24 +59,24 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue Spawn(TParam1 param);
 
-  /// @brief Method Reinitialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reinitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reinitialize(TParam1 p1, TValue item);
 
-  /// @brief Method Zenject.IFactory<TParam1,TValue>.Create addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Zenject.IFactory<TParam1,TValue>.Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue Zenject_IFactory_TParam1_TValue__Create(TParam1 p1);
 
   static inline ::Zenject::MemoryPool_2<TParam1, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPool_2", modifiers: "&&", def_value: None }]

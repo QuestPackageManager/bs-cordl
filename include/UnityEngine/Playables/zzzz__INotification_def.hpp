@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::Playables::INotification);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10341))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10419))
 // CS Name: ::UnityEngine.Playables::INotification*
 class CORDL_TYPE INotification {
 public:
   // Declarations
   __declspec(property(get = get_id))::UnityEngine::PropertyName id;
 
-  /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::PropertyName get_id();
 
   // Ctor Parameters [CppParam { name: "", ty: "INotification", modifiers: "&&", def_value: None }]

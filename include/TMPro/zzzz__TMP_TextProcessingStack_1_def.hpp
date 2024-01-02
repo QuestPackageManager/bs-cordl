@@ -19,7 +19,7 @@ namespace TMPro {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12381))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12453))
 // CS Name: ::TMPro::TMP_TextProcessingStack`1<T>
 struct CORDL_TYPE TMP_TextProcessingStack_1 {
 public:
@@ -30,55 +30,55 @@ public:
 
   __declspec(property(get = get_rolloverSize, put = set_rolloverSize)) int32_t rolloverSize;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> stack);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, int32_t rolloverSize);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_current addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_current, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_current();
 
-  /// @brief Method get_rolloverSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_rolloverSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_rolloverSize();
 
-  /// @brief Method set_rolloverSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_rolloverSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_rolloverSize(int32_t value);
 
-  /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void SetDefault(::ArrayW<::TMPro::TMP_TextProcessingStack_1<T>, ::Array<::TMPro::TMP_TextProcessingStack_1<T>>*> stack, T item);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method SetDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetDefault(T item);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Remove();
 
-  /// @brief Method Push addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Push, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Push(T item);
 
-  /// @brief Method Pop addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Pop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Pop();
 
-  /// @brief Method Peek addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Peek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Peek();
 
-  /// @brief Method CurrentItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CurrentItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T CurrentItem();
 
-  /// @brief Method PreviousItem addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PreviousItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T PreviousItem();
 
   // Ctor Parameters [CppParam { name: "itemStack", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam

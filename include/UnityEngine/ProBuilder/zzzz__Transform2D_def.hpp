@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Transform2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12135))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12207))
 // CS Name: ::UnityEngine.ProBuilder::Transform2D*
 class CORDL_TYPE Transform2D : public ::System::Object {
 public:
@@ -55,13 +55,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Transform2D* New_ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method .ctor addr 0x29fb2e8 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2b7c03c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 position, float_t rotation, ::UnityEngine::Vector2 scale);
 
-  /// @brief Method TransformPoint addr 0x29fb338 size 0x64 virtual false final false
+  /// @brief Method TransformPoint, addr 0x2b7c08c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 TransformPoint(::UnityEngine::Vector2 p);
 
-  /// @brief Method ToString addr 0x29fb39c size 0x1f4 virtual true final false
+  /// @brief Method ToString, addr 0x2b7c0f0, size 0x1f4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "Transform2D", modifiers: "&&", def_value: None }]

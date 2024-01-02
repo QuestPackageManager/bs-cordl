@@ -8,26 +8,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ChunkedInputStream)
-namespace System::Net {
-class MonoChunkParser;
-}
 namespace System {
 class AsyncCallback;
-}
-namespace System {
-class Object;
-}
-namespace System::IO {
-class Stream;
 }
 namespace System {
 class IAsyncResult;
 }
 namespace System::Net {
-class HttpListenerContext;
+class MonoChunkParser;
 }
 namespace System::Net {
 class __ChunkedInputStream__ReadBufferState;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
+namespace System::IO {
+class Stream;
 }
 namespace System::Net {
 class HttpStreamAsyncResult;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::Net::__ChunkedInputStream__ReadBufferState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7990))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9153))
 // CS Name: ::ChunkedInputStream::ReadBufferState*
 class CORDL_TYPE __ChunkedInputStream__ReadBufferState : public ::System::Object {
 public:
@@ -99,7 +99,7 @@ public:
 
   static inline ::System::Net::__ChunkedInputStream__ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
-  /// @brief Method .ctor addr 0x283f21c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x29bca94, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ChunkedInputStream__ReadBufferState", modifiers: "&&", def_value: None }]
@@ -151,8 +151,8 @@ static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8035))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9198))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9154))
 // CS Name: ::System.Net::ChunkedInputStream*
 class CORDL_TYPE ChunkedInputStream : public ::System::Net::RequestStream {
 public:
@@ -198,22 +198,22 @@ public:
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                             int32_t length);
 
-  /// @brief Method .ctor addr 0x283ec6c size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x29bc4e4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
-  /// @brief Method Read addr 0x283ed70 size 0x3c virtual true final false
+  /// @brief Method Read, addr 0x29bc5e8, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginRead addr 0x283edac size 0x308 virtual true final false
+  /// @brief Method BeginRead, addr 0x29bc624, size 0x308, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cback, ::System::Object* state);
 
-  /// @brief Method OnRead addr 0x283f264 size 0x3a4 virtual false final false
+  /// @brief Method OnRead, addr 0x29bcadc, size 0x3a4, virtual false, abstract: false, final false
   inline void OnRead(::System::IAsyncResult* base_ares);
 
-  /// @brief Method EndRead addr 0x283f7e8 size 0x2a0 virtual true final false
+  /// @brief Method EndRead, addr 0x29bd060, size 0x2a0, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ares);
 
-  /// @brief Method Close addr 0x283fa88 size 0x1c virtual true final false
+  /// @brief Method Close, addr 0x29bd300, size 0x1c, virtual true, abstract: false, final false
   inline void Close();
 
   // Ctor Parameters [CppParam { name: "", ty: "ChunkedInputStream", modifiers: "&&", def_value: None }]

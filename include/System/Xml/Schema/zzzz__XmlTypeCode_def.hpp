@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlTypeCode);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11674))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11746))
 // CS Name: ::System.Xml.Schema::XmlTypeCode
 struct CORDL_TYPE XmlTypeCode {
 public:

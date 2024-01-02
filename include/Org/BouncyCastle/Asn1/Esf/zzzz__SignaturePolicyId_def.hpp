@@ -8,23 +8,23 @@ CORDL_MODULE_EXPORT(SignaturePolicyId)
 namespace Org::BouncyCastle::Asn1::Esf {
 class SigPolicyQualifierInfo;
 }
-namespace System::Collections {
-class IEnumerable;
-}
 namespace Org::BouncyCastle::Asn1::Esf {
 class OtherHashAlgAndValue;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -73,25 +73,25 @@ public:
 
   constexpr void __set_sigPolicyQualifiers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe22700 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe978d4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe22888 size 0x2e4 virtual false final false
+  /// @brief Method .ctor, addr 0xe97a5c, size 0x2e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier,
                                                                             ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash);
 
-  /// @brief Method .ctor addr 0xe22b6c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe97d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*
   New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
            ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> sigPolicyQualifiers);
 
-  /// @brief Method .ctor addr 0xe22b74 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0xe97d48, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> sigPolicyQualifiers);
 
@@ -99,20 +99,20 @@ public:
                                                                             ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                                                                             ::System::Collections::IEnumerable* sigPolicyQualifiers);
 
-  /// @brief Method .ctor addr 0xe22c78 size 0x1e4 virtual false final false
+  /// @brief Method .ctor, addr 0xe97e4c, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyIdentifier, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* sigPolicyHash,
                     ::System::Collections::IEnumerable* sigPolicyQualifiers);
 
-  /// @brief Method get_SigPolicyIdentifier addr 0xe22e5c size 0x8 virtual false final false
+  /// @brief Method get_SigPolicyIdentifier, addr 0xe98030, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SigPolicyIdentifier();
 
-  /// @brief Method get_SigPolicyHash addr 0xe22e64 size 0x8 virtual false final false
+  /// @brief Method get_SigPolicyHash, addr 0xe98038, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* get_SigPolicyHash();
 
-  /// @brief Method GetSigPolicyQualifiers addr 0xe22e6c size 0x114 virtual false final false
+  /// @brief Method GetSigPolicyQualifiers, addr 0xe98040, size 0x114, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> GetSigPolicyQualifiers();
 
-  /// @brief Method ToAsn1Object addr 0xe23108 size 0x160 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe982dc, size 0x160, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignaturePolicyId", modifiers: "&&", def_value: None }]

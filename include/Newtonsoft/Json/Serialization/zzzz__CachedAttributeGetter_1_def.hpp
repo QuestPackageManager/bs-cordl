@@ -22,8 +22,8 @@ namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11962))
 // CS Name: ::Newtonsoft.Json.Serialization::CachedAttributeGetter`1<T>*
 class CORDL_TYPE CachedAttributeGetter_1 : public ::System::Object {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::System::Object*, T>* getStaticF_TypeAttributeCache();
 
-  /// @brief Method GetAttribute addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetAttribute(::System::Object* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "CachedAttributeGetter_1", modifiers: "&&", def_value: None }]

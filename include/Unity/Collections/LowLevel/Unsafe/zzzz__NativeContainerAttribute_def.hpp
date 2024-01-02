@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9942))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10014))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeContainerAttribute*
 class CORDL_TYPE NativeContainerAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b398d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9e5f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeContainerAttribute", modifiers: "&&", def_value: None }]

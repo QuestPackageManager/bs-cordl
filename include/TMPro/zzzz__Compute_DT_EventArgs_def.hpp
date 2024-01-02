@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::TMPro::Compute_DT_EventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12239)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12241))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12311)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12313))
 // CS Name: ::TMPro::Compute_DT_EventArgs*
 class CORDL_TYPE Compute_DT_EventArgs : public ::System::Object {
 public:
@@ -58,12 +58,12 @@ public:
 
   static inline ::TMPro::Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
-  /// @brief Method .ctor addr 0x2a7b69c size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2bff3f0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
   static inline ::TMPro::Compute_DT_EventArgs* New_ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method .ctor addr 0x2a7b6d4 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2bff428, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
   // Ctor Parameters [CppParam { name: "", ty: "Compute_DT_EventArgs", modifiers: "&&", def_value: None }]

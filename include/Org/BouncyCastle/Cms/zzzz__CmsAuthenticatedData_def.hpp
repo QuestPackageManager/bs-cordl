@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthenticatedData)
-namespace System::IO {
-class Stream;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
+namespace System::IO {
+class Stream;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(616))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedData*
 class CORDL_TYPE CmsAuthenticatedData : public ::System::Object {
@@ -103,41 +103,41 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  /// @brief Method .ctor addr 0x116711c size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x11d836c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::System::IO::Stream* authData);
 
-  /// @brief Method .ctor addr 0x11672a8 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x11d84f8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authData);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method .ctor addr 0x1167140 size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0x11d8390, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method GetMac addr 0x11672cc size 0x5c virtual false final false
+  /// @brief Method GetMac, addr 0x11d851c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method get_MacAlgorithmID addr 0x1167328 size 0x8 virtual false final false
+  /// @brief Method get_MacAlgorithmID, addr 0x11d8578, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
 
-  /// @brief Method get_MacAlgOid addr 0x1167330 size 0x2c virtual false final false
+  /// @brief Method get_MacAlgOid, addr 0x11d8580, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MacAlgOid();
 
-  /// @brief Method GetRecipientInfos addr 0x116735c size 0x8 virtual false final false
+  /// @brief Method GetRecipientInfos, addr 0x11d85ac, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method get_ContentInfo addr 0x1167364 size 0x8 virtual false final false
+  /// @brief Method get_ContentInfo, addr 0x11d85b4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method GetAuthAttrs addr 0x116736c size 0x74 virtual false final false
+  /// @brief Method GetAuthAttrs, addr 0x11d85bc, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
 
-  /// @brief Method GetUnauthAttrs addr 0x11673e0 size 0x74 virtual false final false
+  /// @brief Method GetUnauthAttrs, addr 0x11d8630, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
 
-  /// @brief Method GetEncoded addr 0x1167454 size 0x1c virtual false final false
+  /// @brief Method GetEncoded, addr 0x11d86a4, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsAuthenticatedData", modifiers: "&&", def_value: None }]

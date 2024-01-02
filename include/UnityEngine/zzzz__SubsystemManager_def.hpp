@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubsystemManager)
+namespace UnityEngine {
+class Subsystem;
+}
 namespace System {
 class Action;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace UnityEngine {
 class IntegratedSubsystem;
 }
-namespace UnityEngine {
-class Subsystem;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::SubsystemsImplementation {
 class SubsystemWithProvider;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15860))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15968))
 // CS Name: ::UnityEngine::SubsystemManager*
 class CORDL_TYPE SubsystemManager : public ::System::Object {
 public:
@@ -88,44 +88,44 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Subsystem*>* getStaticF_s_DeprecatedSubsystems();
 
-  /// @brief Method GetInstances addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetInstances, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetInstances(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method RemoveDeprecatedSubsystem addr 0x2bb3324 size 0x80 virtual false final false
+  /// @brief Method RemoveDeprecatedSubsystem, addr 0x2d1a6d4, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveDeprecatedSubsystem(::UnityEngine::Subsystem* subsystem);
 
-  /// @brief Method GetSubsystemDescriptors addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetSubsystemDescriptors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystemDescriptors(::System::Collections::Generic::List_1<T>* descriptors);
 
-  /// @brief Method GetSubsystems addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetSubsystems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void GetSubsystems(::System::Collections::Generic::List_1<T>* subsystems);
 
-  /// @brief Method AddSubsystemSubset addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddSubsystemSubset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TBaseTypeInList, typename TQueryType>
   static inline void AddSubsystemSubset(::System::Collections::Generic::List_1<TBaseTypeInList>* copyFrom, ::System::Collections::Generic::List_1<TQueryType>* copyTo);
 
-  /// @brief Method GetIntegratedSubsystemByPtr addr 0x2bb350c size 0x184 virtual false final false
+  /// @brief Method GetIntegratedSubsystemByPtr, addr 0x2d1a8bc, size 0x184, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetIntegratedSubsystemByPtr(void* ptr);
 
-  /// @brief Method RemoveIntegratedSubsystemByPtr addr 0x2bb3078 size 0x184 virtual false final false
+  /// @brief Method RemoveIntegratedSubsystemByPtr, addr 0x2d1a428, size 0x184, virtual false, abstract: false, final false
   static inline void RemoveIntegratedSubsystemByPtr(void* ptr);
 
-  /// @brief Method RemoveStandaloneSubsystem addr 0x2bb3690 size 0x80 virtual false final false
+  /// @brief Method RemoveStandaloneSubsystem, addr 0x2d1aa40, size 0x80, virtual false, abstract: false, final false
   static inline bool RemoveStandaloneSubsystem(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider* subsystem);
 
-  /// @brief Method ReloadSubsystemsStarted addr 0x2bb3710 size 0xe0 virtual false final false
+  /// @brief Method ReloadSubsystemsStarted, addr 0x2d1aac0, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsStarted();
 
-  /// @brief Method ReloadSubsystemsCompleted addr 0x2bb37f0 size 0xe0 virtual false final false
+  /// @brief Method ReloadSubsystemsCompleted, addr 0x2d1aba0, size 0xe0, virtual false, abstract: false, final false
   static inline void ReloadSubsystemsCompleted();
 
-  /// @brief Method InitializeIntegratedSubsystem addr 0x2bb38d0 size 0x108 virtual false final false
+  /// @brief Method InitializeIntegratedSubsystem, addr 0x2d1ac80, size 0x108, virtual false, abstract: false, final false
   static inline void InitializeIntegratedSubsystem(void* ptr, ::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method ClearSubsystems addr 0x2bb39d8 size 0x274 virtual false final false
+  /// @brief Method ClearSubsystems, addr 0x2d1ad88, size 0x274, virtual false, abstract: false, final false
   static inline void ClearSubsystems();
 
-  /// @brief Method StaticConstructScriptingClassMap addr 0x2bb34e4 size 0x28 virtual false final false
+  /// @brief Method StaticConstructScriptingClassMap, addr 0x2d1a894, size 0x28, virtual false, abstract: false, final false
   static inline void StaticConstructScriptingClassMap();
 
   // Ctor Parameters [CppParam { name: "", ty: "SubsystemManager", modifiers: "&&", def_value: None }]

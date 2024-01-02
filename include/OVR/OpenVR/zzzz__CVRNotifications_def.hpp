@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRNotifications)
 namespace OVR::OpenVR {
-struct EVRNotificationType;
-}
-namespace OVR::OpenVR {
-struct EVRNotificationError;
+struct NotificationBitmap_t;
 }
 namespace OVR::OpenVR {
 struct EVRNotificationStyle;
 }
 namespace OVR::OpenVR {
-struct NotificationBitmap_t;
+struct EVRNotificationType;
+}
+namespace OVR::OpenVR {
+struct EVRNotificationError;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRNotifications);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9262))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9340))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8493))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8571))
 // CS Name: ::OVR.OpenVR::CVRNotifications*
 class CORDL_TYPE CVRNotifications : public ::System::Object {
 public:
@@ -47,14 +47,14 @@ public:
 
   static inline ::OVR::OpenVR::CVRNotifications* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor addr 0x267e168 size 0x10c virtual false final false
+  /// @brief Method .ctor, addr 0x27f50ec, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method CreateNotification addr 0x267e274 size 0x2c virtual false final false
+  /// @brief Method CreateNotification, addr 0x27f51f8, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError CreateNotification(uint64_t ulOverlayHandle, uint64_t ulUserValue, ::OVR::OpenVR::EVRNotificationType type, ::StringW pchText,
                                                                 ::OVR::OpenVR::EVRNotificationStyle style, ByRef<::OVR::OpenVR::NotificationBitmap_t> pImage, ByRef<uint32_t> pNotificationId);
 
-  /// @brief Method RemoveNotification addr 0x267e2a0 size 0x24 virtual false final false
+  /// @brief Method RemoveNotification, addr 0x27f5224, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRNotificationError RemoveNotification(uint32_t notificationId);
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRNotifications", modifiers: "&&", def_value: None }]

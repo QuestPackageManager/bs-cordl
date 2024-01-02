@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::UsageHint);
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6334))
 // CS Name: ::UnityEngine.InputSystem.XR::UsageHint
 struct CORDL_TYPE UsageHint {
 public:

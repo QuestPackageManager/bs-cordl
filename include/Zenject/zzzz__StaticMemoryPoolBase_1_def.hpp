@@ -19,18 +19,18 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11012), inst: 164 }), TypeDefinitionIndex(TypeDefinitionIndex(11012))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11013))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11084), inst: 159 }), TypeDefinitionIndex(TypeDefinitionIndex(11084))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11085))
 // CS Name: ::Zenject::StaticMemoryPoolBase`1<TValue>*
 class CORDL_TYPE StaticMemoryPoolBase_1 : public ::Zenject::StaticMemoryPoolBaseBase_1<TValue> {
 public:
   // Declarations
   static inline ::Zenject::StaticMemoryPoolBase_1<TValue>* New_ctor(::System::Action_1<TValue>* onDespawnedMethod);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<TValue>* onDespawnedMethod);
 
-  /// @brief Method Alloc addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Alloc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValue Alloc();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticMemoryPoolBase_1", modifiers: "&&", def_value: None }]

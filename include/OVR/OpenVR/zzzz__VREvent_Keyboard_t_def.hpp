@@ -17,14 +17,14 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Keyboard_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9443))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8674))
 // CS Name: ::OVR.OpenVR::VREvent_Keyboard_t
 struct CORDL_TYPE VREvent_Keyboard_t {
 public:
   // Declarations
   __declspec(property(get = get_cNewInput))::StringW cNewInput;
 
-  /// @brief Method get_cNewInput addr 0x267f6dc size 0xec virtual false final false
+  /// @brief Method get_cNewInput, addr 0x27f6660, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters [CppParam { name: "cNewInput0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "cNewInput1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

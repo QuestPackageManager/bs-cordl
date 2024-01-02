@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectExecutionRating);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4169))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4135))
 // CS Name: ::BeatmapObjectExecutionRating*
 class CORDL_TYPE BeatmapObjectExecutionRating : public ::System::Object {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__time_k__BackingField(float_t value);
 
-  /// @brief Method get_time addr 0x21cdb2c size 0x8 virtual false final false
+  /// @brief Method get_time, addr 0x223bf8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
   static inline ::GlobalNamespace::BeatmapObjectExecutionRating* New_ctor(float_t time);
 
-  /// @brief Method .ctor addr 0x21cdb34 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x223bf94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapObjectExecutionRating", modifiers: "&&", def_value: None }]

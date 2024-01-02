@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneMode);
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10375))
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneMode
 struct CORDL_TYPE LoadSceneMode {
 public:

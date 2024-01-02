@@ -7,23 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorArrayLightWithIds)
+namespace GlobalNamespace {
+class __LightWithIds__LightWithId;
+}
+namespace GlobalNamespace {
+class MaterialController;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace UnityEngine {
 struct Vector4;
+}
+namespace GlobalNamespace {
+class __ColorArrayLightWithIds__ColorArrayLightWithId;
 }
 namespace UnityEngine {
 struct Color;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
-}
-namespace GlobalNamespace {
-class __ColorArrayLightWithIds__ColorArrayLightWithId;
-}
-namespace GlobalNamespace {
-class __LightWithIds__LightWithId;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
@@ -42,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithI
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14761))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14735))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14519))
 // CS Name: ::ColorArrayLightWithIds::ColorArrayLightWithId*
 class CORDL_TYPE __ColorArrayLightWithIds__ColorArrayLightWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
@@ -66,18 +69,18 @@ public:
 
   constexpr void __set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method add_didSetColorEvent addr 0x1fb982c size 0xb0 virtual false final false
+  /// @brief Method add_didSetColorEvent, addr 0x210ede4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didSetColorEvent addr 0x1fb98dc size 0xb0 virtual false final false
+  /// @brief Method remove_didSetColorEvent, addr 0x210ee94, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
   static inline ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId* New_ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method .ctor addr 0x1fb999c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x210efc0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method ColorWasSet addr 0x1fb99f4 size 0x48 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x210f018, size 0x48, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ColorArrayLightWithIds__ColorArrayLightWithId", modifiers: "&&", def_value: None }]
@@ -111,11 +114,11 @@ static_assert(offsetof(::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLi
 
 } // namespace GlobalNamespace
 // Type: ::ColorArrayLightWithIds
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14736))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14544))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14520))
 // CS Name: ::ColorArrayLightWithIds*
 class CORDL_TYPE ColorArrayLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
@@ -127,16 +130,27 @@ public:
                       put = __set__colorArrayLightWithIds))::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*,
                                                                     ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> _colorArrayLightWithIds;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x38, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  /// @brief Field _materialController, offset 0x38, size 0x8
+  __declspec(property(get = __get__materialController, put = __set__materialController))::GlobalNamespace::MaterialController* _materialController;
 
-  /// @brief Field _colorsArrayPropertyName, offset 0x40, size 0x8
+  /// @brief Field _materialPropertyBlockControllers, offset 0x40, size 0x8
+  __declspec(property(get = __get__materialPropertyBlockControllers,
+                      put = __set__materialPropertyBlockControllers))::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*,
+                                                                              ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> _materialPropertyBlockControllers;
+
+  /// @brief Field _colorsArrayPropertyName, offset 0x48, size 0x8
   __declspec(property(get = __get__colorsArrayPropertyName, put = __set__colorsArrayPropertyName))::StringW _colorsArrayPropertyName;
 
-  /// @brief Field _colorsPropertyId, offset 0x48, size 0x4
-  __declspec(property(get = __get__colorsPropertyId, put = __set__colorsPropertyId)) int32_t _colorsPropertyId;
+  /// @brief Field _colorsArrayOffsetPropertyName, offset 0x50, size 0x8
+  __declspec(property(get = __get__colorsArrayOffsetPropertyName, put = __set__colorsArrayOffsetPropertyName))::StringW _colorsArrayOffsetPropertyName;
 
-  /// @brief Field _colorsArray, offset 0x50, size 0x8
+  /// @brief Field _colorsArrayPropertyId, offset 0x58, size 0x4
+  __declspec(property(get = __get__colorsArrayPropertyId, put = __set__colorsArrayPropertyId)) int32_t _colorsArrayPropertyId;
+
+  /// @brief Field _colorsArrayOffsetPropertyId, offset 0x5c, size 0x4
+  __declspec(property(get = __get__colorsArrayOffsetPropertyId, put = __set__colorsArrayOffsetPropertyId)) int32_t _colorsArrayOffsetPropertyId;
+
+  /// @brief Field _colorsArray, offset 0x60, size 0x8
   __declspec(property(get = __get__colorsArray, put = __set__colorsArray))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colorsArray;
 
   constexpr ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*>&
@@ -148,11 +162,17 @@ public:
   constexpr void
   __set__colorArrayLightWithIds(::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::GlobalNamespace::MaterialController*& __get__materialController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialController*> const& __get__materialController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __set__materialController(::GlobalNamespace::MaterialController* value);
+
+  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>& __get__materialPropertyBlockControllers();
+
+  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const& __get__materialPropertyBlockControllers() const;
+
+  constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value);
 
   constexpr ::StringW& __get__colorsArrayPropertyName();
 
@@ -160,11 +180,23 @@ public:
 
   constexpr void __set__colorsArrayPropertyName(::StringW value);
 
-  constexpr int32_t& __get__colorsPropertyId();
+  constexpr ::StringW& __get__colorsArrayOffsetPropertyName();
 
-  constexpr int32_t const& __get__colorsPropertyId() const;
+  constexpr ::StringW const& __get__colorsArrayOffsetPropertyName() const;
 
-  constexpr void __set__colorsPropertyId(int32_t value);
+  constexpr void __set__colorsArrayOffsetPropertyName(::StringW value);
+
+  constexpr int32_t& __get__colorsArrayPropertyId();
+
+  constexpr int32_t const& __get__colorsArrayPropertyId() const;
+
+  constexpr void __set__colorsArrayPropertyId(int32_t value);
+
+  constexpr int32_t& __get__colorsArrayOffsetPropertyId();
+
+  constexpr int32_t const& __get__colorsArrayOffsetPropertyId() const;
+
+  constexpr void __set__colorsArrayOffsetPropertyId(int32_t value);
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__colorsArray();
 
@@ -172,33 +204,36 @@ public:
 
   constexpr void __set__colorsArray(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  /// @brief Method OnEnable addr 0x1fb94f4 size 0x18 virtual true final false
+  /// @brief Method OnEnable, addr 0x210e9d8, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy addr 0x1fb9678 size 0x4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x210eb78, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessNewColorData addr 0x1fb9750 size 0x4 virtual true final false
+  /// @brief Method ProcessNewColorData, addr 0x210ec50, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method GetLightWithIds addr 0x1fb9798 size 0x8 virtual true final false
+  /// @brief Method GetLightWithIds, addr 0x210ec84, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method HandleColorLightWithIdDidSetColor addr 0x1fb97a0 size 0x8c virtual false final false
+  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x210ec8c, size 0x8c, virtual false, abstract: false, final false
   inline void HandleColorLightWithIdDidSetColor(int32_t index, ::UnityEngine::Color color);
 
-  /// @brief Method SetColorDataToShader addr 0x1fb9754 size 0x44 virtual false final false
-  inline void SetColorDataToShader();
+  /// @brief Method SetColorDataToMaterial, addr 0x210ec54, size 0x30, virtual false, abstract: false, final false
+  inline void SetColorDataToMaterial();
 
-  /// @brief Method RegisterArrayForColorChanges addr 0x1fb9510 size 0x168 virtual false final false
+  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x210ed18, size 0xcc, virtual false, abstract: false, final false
+  inline void SetColorArrayOffsetToMaterialPropertyBlocks();
+
+  /// @brief Method RegisterArrayForColorChanges, addr 0x210e9f4, size 0x184, virtual false, abstract: false, final false
   inline void RegisterArrayForColorChanges();
 
-  /// @brief Method UnregisterArrayFromColorChanges addr 0x1fb967c size 0xd4 virtual false final false
+  /// @brief Method UnregisterArrayFromColorChanges, addr 0x210eb7c, size 0xd4, virtual false, abstract: false, final false
   inline void UnregisterArrayFromColorChanges();
 
   static inline ::GlobalNamespace::ColorArrayLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb998c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210ef44, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorArrayLightWithIds", modifiers: "&&", def_value: None }]
@@ -218,32 +253,47 @@ public:
   /// @brief Field _colorArrayLightWithIds, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> ____colorArrayLightWithIds;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  /// @brief Field _materialController, offset: 0x38, size: 0x8, def value: None
+  ::GlobalNamespace::MaterialController* ____materialController;
 
-  /// @brief Field _colorsArrayPropertyName, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _materialPropertyBlockControllers, offset: 0x40, size: 0x8, def value: None
+  ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> ____materialPropertyBlockControllers;
+
+  /// @brief Field _colorsArrayPropertyName, offset: 0x48, size: 0x8, def value: None
   ::StringW ____colorsArrayPropertyName;
 
-  /// @brief Field _colorsPropertyId, offset: 0x48, size: 0x4, def value: None
-  int32_t ____colorsPropertyId;
+  /// @brief Field _colorsArrayOffsetPropertyName, offset: 0x50, size: 0x8, def value: None
+  ::StringW ____colorsArrayOffsetPropertyName;
 
-  /// @brief Field _colorsArray, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _colorsArrayPropertyId, offset: 0x58, size: 0x4, def value: None
+  int32_t ____colorsArrayPropertyId;
+
+  /// @brief Field _colorsArrayOffsetPropertyId, offset: 0x5c, size: 0x4, def value: None
+  int32_t ____colorsArrayOffsetPropertyId;
+
+  /// @brief Field _colorsArray, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____colorsArray;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorArrayLightWithIds, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorArrayLightWithIds, 0x68>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorArrayLightWithIds) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____materialPropertyBlockController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____materialController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArrayPropertyName) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____materialPropertyBlockControllers) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsPropertyId) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArrayPropertyName) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArray) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArrayOffsetPropertyName) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArrayPropertyId) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArrayOffsetPropertyId) == 0x5c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::ColorArrayLightWithIds, ____colorsArray) == 0x60, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorArrayLightWithIds);

@@ -5,7 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template <typename T> class IObserver_1;
+}
+namespace System {
+template <typename T> class IObservable_1;
 }
 namespace System {
 class IDisposable;
@@ -14,10 +17,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __WhereObservable_1__Where;
 }
 namespace System {
-template <typename T> class IObserver_1;
-}
-namespace System {
-template <typename T> class IObservable_1;
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 class Exception;
@@ -38,8 +38,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6694))
 // CS Name: ::WhereObservable`1::Where<TValue>*
 class CORDL_TYPE __WhereObservable_1__Where : public ::System::Object {
 public:
@@ -68,16 +68,16 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::__WhereObservable_1__Where<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* observable,
                                                                                                     ::System::IObserver_1<TValue>* observer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* observable, ::System::IObserver_1<TValue>* observer);
 
-  /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WhereObservable_1__Where", modifiers: "&&", def_value: None }]
@@ -110,8 +110,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6781))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6695))
 // CS Name: ::UnityEngine.InputSystem.Utilities::WhereObservable`1<TValue>*
 class CORDL_TYPE WhereObservable_1 : public ::System::Object {
 public:
@@ -141,10 +141,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<TValue>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "WhereObservable_1", modifiers: "&&", def_value: None }]

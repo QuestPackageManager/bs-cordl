@@ -7,8 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Projection)
+namespace UnityEngine::ProBuilder {
+class Face;
+}
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::ProBuilder {
+struct ProjectionAxis;
+}
+namespace UnityEngine {
+struct Plane;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -16,38 +25,29 @@ struct Vector3;
 namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
-namespace UnityEngine {
-struct Plane;
+namespace UnityEngine::ProBuilder {
+class __Projection____c;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine::ProBuilder {
 struct SortMethod;
 }
 namespace UnityEngine::ProBuilder {
-class __Projection____c;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+struct AutoUnwrapSettings;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
-namespace UnityEngine::ProBuilder {
-struct ProjectionAxis;
-}
-namespace UnityEngine::ProBuilder {
-struct AutoUnwrapSettings;
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T> class Comparison_1;
 }
 namespace UnityEngine::ProBuilder {
 template <typename T1, typename T2> struct SimpleTuple_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
@@ -63,8 +63,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__Projection____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12107))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12179))
 // CS Name: ::Projection::<>c*
 class CORDL_TYPE __Projection____c : public ::System::Object {
 public:
@@ -93,13 +93,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__Projection____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x29e1bec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b63940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Sort>b__6_0 addr 0x29e1bf4 size 0x48 virtual false final false
+  /// @brief Method <Sort>b__6_0, addr 0x2b63948, size 0x48, virtual false, abstract: false, final false
   inline int32_t _Sort_b__6_0(::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> a, ::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> b);
 
-  /// @brief Method <Sort>b__6_1 addr 0x29e1c3c size 0x44 virtual false final false
+  /// @brief Method <Sort>b__6_1, addr 0x2b63990, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 _Sort_b__6_1(::UnityEngine::ProBuilder::SimpleTuple_2<float_t, ::UnityEngine::Vector2> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Projection____c", modifiers: "&&", def_value: None }]
@@ -126,53 +126,58 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Proje
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12108))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12180))
 // CS Name: ::UnityEngine.ProBuilder::Projection*
 class CORDL_TYPE Projection : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::__Projection____c;
 
-  /// @brief Method PlanarProject addr 0x29df04c size 0x48 virtual false final false
+  /// @brief Method PlanarProject, addr 0x2b60da0, size 0x48, virtual false, abstract: false, final false
+  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions,
-                                                                                                 ::System::Collections::Generic::IList_1<int32_t>* indexes);
+                                                                                                 ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
 
-  /// @brief Method PlanarProject addr 0x29df9ac size 0x1b8 virtual false final false
+  /// @brief Method PlanarProject, addr 0x2b61700, size 0x1b8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions,
                                                                                                  ::System::Collections::Generic::IList_1<int32_t>* indexes, ::UnityEngine::Vector3 direction);
 
-  /// @brief Method PlanarProject addr 0x29dfb64 size 0x784 virtual false final false
+  /// @brief Method PlanarProject, addr 0x2b618b8, size 0x784, virtual false, abstract: false, final false
   static inline void PlanarProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* positions, ::System::Collections::Generic::IList_1<int32_t>* indexes,
                                    ::UnityEngine::Vector3 direction, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* results);
 
-  /// @brief Method PlanarProject addr 0x29e04c4 size 0x43c virtual false final false
+  /// @brief Method PlanarProject, addr 0x2b62218, size 0x43c, virtual false, abstract: false, final false
   static inline void PlanarProject(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t textureGroup, ::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
 
-  /// @brief Method PlanarProject addr 0x29e0900 size 0x3d8 virtual false final false
-  static inline void PlanarProject(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection);
+  /// @brief Method PlanarProject, addr 0x2b62654, size 0x3d8, virtual false, abstract: false, final false
+  /// @param projection: ::UnityEngine::Vector3 (default: {})
+  static inline void PlanarProject(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face, ::UnityEngine::Vector3 projection = {});
 
-  /// @brief Method SphericalProject addr 0x29e0cd8 size 0x3cc virtual false final false
+  /// @brief Method SphericalProject, addr 0x2b62a2c, size 0x3cc, virtual false, abstract: false, final false
+  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
   static inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> SphericalProject(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* vertices,
-                                                                                                    ::System::Collections::Generic::IList_1<int32_t>* indexes);
+                                                                                                    ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
 
-  /// @brief Method Sort addr 0x29e10a4 size 0x4e0 virtual false final false
+  /// @brief Method Sort, addr 0x2b62df8, size 0x4e0, virtual false, abstract: false, final false
+  /// @param method: ::UnityEngine::ProBuilder::SortMethod (default: static_cast<int32_t>(0x1))
   static inline ::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* Sort(::System::Collections::Generic::IList_1<::UnityEngine::Vector2>* verts,
-                                                                                      ::UnityEngine::ProBuilder::SortMethod method);
+                                                                                      ::UnityEngine::ProBuilder::SortMethod method = static_cast<int32_t>(0x1));
 
-  /// @brief Method GetTangentToAxis addr 0x29e0408 size 0xbc virtual false final false
+  /// @brief Method GetTangentToAxis, addr 0x2b6215c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetTangentToAxis(::UnityEngine::ProBuilder::ProjectionAxis axis);
 
-  /// @brief Method ProjectionAxisToVector addr 0x29e1584 size 0x1a0 virtual false final false
+  /// @brief Method ProjectionAxisToVector, addr 0x2b632d8, size 0x1a0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 ProjectionAxisToVector(::UnityEngine::ProBuilder::ProjectionAxis axis);
 
-  /// @brief Method VectorToProjectionAxis addr 0x29e02e8 size 0x120 virtual false final false
+  /// @brief Method VectorToProjectionAxis, addr 0x2b6203c, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ProjectionAxis VectorToProjectionAxis(::UnityEngine::Vector3 direction);
 
-  /// @brief Method FindBestPlane addr 0x29df094 size 0x918 virtual false final false
-  static inline ::UnityEngine::Plane FindBestPlane(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes);
+  /// @brief Method FindBestPlane, addr 0x2b60de8, size 0x918, virtual false, abstract: false, final false
+  /// @param indexes: ::System::Collections::Generic::IList_1<int32_t>* (default: nullptr)
+  static inline ::UnityEngine::Plane FindBestPlane(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* points, ::System::Collections::Generic::IList_1<int32_t>* indexes = nullptr);
 
-  /// @brief Method FindBestPlane addr 0x29e1724 size 0x464 virtual false final false
+  /// @brief Method FindBestPlane, addr 0x2b63478, size 0x464, virtual false, abstract: false, final false
   static inline ::UnityEngine::Plane FindBestPlane(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, int32_t textureGroup);
 
   // Ctor Parameters [CppParam { name: "", ty: "Projection", modifiers: "&&", def_value: None }]

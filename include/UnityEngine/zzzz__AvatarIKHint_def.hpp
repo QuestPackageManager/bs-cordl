@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AvatarIKHint);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15099))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14872))
 // CS Name: ::UnityEngine::AvatarIKHint
 struct CORDL_TYPE AvatarIKHint {
 public:

@@ -4,17 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(KeyAgreeRecipientInfoGenerator)
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
-}
 namespace Org::BouncyCastle::Cms {
 class RecipientInfoGenerator;
 }
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
@@ -22,20 +16,26 @@ class AsymmetricCipherKeyPair;
 namespace System::Collections {
 class ICollection;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace System::Collections {
 class IList;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorPublicKey;
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
+}
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedHelper;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorPublicKey;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(673))
 // CS Name: ::Org.BouncyCastle.Cms::KeyAgreeRecipientInfoGenerator*
 class CORDL_TYPE KeyAgreeRecipientInfoGenerator : public ::System::Object {
@@ -109,25 +109,25 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x1191824 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1202a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_KeyAgreementOID addr 0x119182c size 0x8 virtual false final false
+  /// @brief Method set_KeyAgreementOID, addr 0x1202a7c, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionOID addr 0x1191834 size 0x8 virtual false final false
+  /// @brief Method set_KeyEncryptionOID, addr 0x1202a84, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method set_RecipientCerts addr 0x119183c size 0x6c virtual false final false
+  /// @brief Method set_RecipientCerts, addr 0x1202a8c, size 0x6c, virtual false, abstract: false, final false
   inline void set_RecipientCerts(::System::Collections::ICollection* value);
 
-  /// @brief Method set_SenderKeyPair addr 0x11918a8 size 0x8 virtual false final false
+  /// @brief Method set_SenderKeyPair, addr 0x1202af8, size 0x8, virtual false, abstract: false, final false
   inline void set_SenderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
-  /// @brief Method Generate addr 0x11918b0 size 0x11f8 virtual true final true
+  /// @brief Method Generate, addr 0x1202b00, size 0x11f8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CreateOriginatorPublicKey addr 0x1192aa8 size 0x120 virtual false final false
+  /// @brief Method CreateOriginatorPublicKey, addr 0x1203cf8, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* CreateOriginatorPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyAgreeRecipientInfoGenerator", modifiers: "&&", def_value: None }]

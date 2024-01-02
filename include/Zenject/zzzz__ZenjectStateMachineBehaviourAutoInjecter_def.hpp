@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ZenjectStateMachineBehaviourAutoInjecter)
-namespace UnityEngine {
-class Animator;
-}
 namespace Zenject {
 class DiContainer;
+}
+namespace UnityEngine {
+class Animator;
 }
 namespace System {
 class Object;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::ZenjectStateMachineBehaviourAutoInjecter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11292))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11364))
 // CS Name: ::Zenject::ZenjectStateMachineBehaviourAutoInjecter*
 class CORDL_TYPE ZenjectStateMachineBehaviourAutoInjecter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -51,21 +51,21 @@ public:
 
   constexpr void __set__animator(::UnityEngine::Animator* value);
 
-  /// @brief Method Construct addr 0x2db9060 size 0x64 virtual false final false
+  /// @brief Method Construct, addr 0x2f20e30, size 0x64, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* container);
 
-  /// @brief Method Start addr 0x2db90c4 size 0xe8 virtual false final false
+  /// @brief Method Start, addr 0x2f20e94, size 0xe8, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::Zenject::ZenjectStateMachineBehaviourAutoInjecter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2db91ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f20f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenInjectMethod0 addr 0x2db91b4 size 0xe8 virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x2f20f84, size 0xe8, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2db929c size 0x2f8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f2106c, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ZenjectStateMachineBehaviourAutoInjecter", modifiers: "&&", def_value: None }]

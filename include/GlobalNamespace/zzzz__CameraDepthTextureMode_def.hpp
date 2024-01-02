@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CameraDepthTextureMode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13842))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14354))
 // CS Name: ::CameraDepthTextureMode*
 class CORDL_TYPE CameraDepthTextureMode : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,12 +30,12 @@ public:
 
   constexpr void __set__depthTextureMode(::UnityEngine::DepthTextureMode value);
 
-  /// @brief Method Awake addr 0x1f94094 size 0x5c virtual false final false
+  /// @brief Method Awake, addr 0x20f1204, size 0x5c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::CameraDepthTextureMode* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f940f0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f1260, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CameraDepthTextureMode", modifiers: "&&", def_value: None }]

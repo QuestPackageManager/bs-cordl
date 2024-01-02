@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerBadgeDataSO)
-namespace UnityEngine {
-class Sprite;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeAwardData;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5213))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5108))
 // CS Name: ::MultiplayerBadgeDataSO*
 class CORDL_TYPE MultiplayerBadgeDataSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -73,23 +73,23 @@ public:
 
   constexpr void __set__icon(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_icon addr 0x20eddec size 0x8 virtual false final false
+  /// @brief Method get_icon, addr 0x23cf8fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_icon();
 
-  /// @brief Method get_titleLocalizationKey addr 0x20eddf4 size 0x8 virtual false final false
+  /// @brief Method get_titleLocalizationKey, addr 0x23cf904, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
-  /// @brief Method get_subtitleLocalizationKey addr 0x20eddfc size 0x8 virtual false final false
+  /// @brief Method get_subtitleLocalizationKey, addr 0x23cf90c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitleLocalizationKey();
 
-  /// @brief Method CalculateBadgeData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CalculateBadgeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap,
                                                                           float_t randomMultiplier);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ec15c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cdc6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataSO", modifiers: "&&", def_value: None }]

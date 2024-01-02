@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509BasicCons
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7813)), TypeDefinitionIndex(TypeDefinitionIndex(7848))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7829))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8992))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509BasicConstraintsExtension*
 class CORDL_TYPE X509BasicConstraintsExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
@@ -74,39 +74,39 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor();
 
-  /// @brief Method .ctor addr 0x27faf04 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2978c7c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor(::System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
 
-  /// @brief Method .ctor addr 0x27f98cc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2977644, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::AsnEncodedData* encodedBasicConstraints, bool critical);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension* New_ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint,
                                                                                                             bool critical);
 
-  /// @brief Method .ctor addr 0x27fb170 size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0x2978ee8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(bool certificateAuthority, bool hasPathLengthConstraint, int32_t pathLengthConstraint, bool critical);
 
-  /// @brief Method get_CertificateAuthority addr 0x27fb408 size 0x6c virtual false final false
+  /// @brief Method get_CertificateAuthority, addr 0x2979180, size 0x6c, virtual false, abstract: false, final false
   inline bool get_CertificateAuthority();
 
-  /// @brief Method get_HasPathLengthConstraint addr 0x27fb474 size 0x6c virtual false final false
+  /// @brief Method get_HasPathLengthConstraint, addr 0x29791ec, size 0x6c, virtual false, abstract: false, final false
   inline bool get_HasPathLengthConstraint();
 
-  /// @brief Method get_PathLengthConstraint addr 0x27fb4e0 size 0x6c virtual false final false
+  /// @brief Method get_PathLengthConstraint, addr 0x2979258, size 0x6c, virtual false, abstract: false, final false
   inline int32_t get_PathLengthConstraint();
 
-  /// @brief Method CopyFrom addr 0x27fb54c size 0x1dc virtual true final false
+  /// @brief Method CopyFrom, addr 0x29792c4, size 0x1dc, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method Decode addr 0x27fafac size 0x1c4 virtual false final false
+  /// @brief Method Decode, addr 0x2978d24, size 0x1c4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> extension);
 
-  /// @brief Method Encode addr 0x27fb2b0 size 0x158 virtual false final false
+  /// @brief Method Encode, addr 0x2979028, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode();
 
-  /// @brief Method ToString addr 0x27fb728 size 0x298 virtual true final false
+  /// @brief Method ToString, addr 0x29794a0, size 0x298, virtual true, abstract: false, final false
   inline ::StringW ToString(bool multiLine);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509BasicConstraintsExtension", modifiers: "&&", def_value: None }]

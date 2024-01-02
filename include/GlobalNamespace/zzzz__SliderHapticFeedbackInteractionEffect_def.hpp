@@ -7,7 +7,7 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(SliderHapticFeedbackInteractionEffect)
 namespace GlobalNamespace {
-class HapticFeedbackController;
+class HapticFeedbackManager;
 }
 namespace GlobalNamespace {
 class IGamePause;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15181)), TypeDefinitionIndex(TypeDefinitionIndex(4939))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4933))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4813))
 // CS Name: ::SliderHapticFeedbackInteractionEffect*
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
@@ -34,8 +34,8 @@ public:
   /// @brief Field _hapticPreset, offset 0x20, size 0x8
   __declspec(property(get = __get__hapticPreset, put = __set__hapticPreset))::Libraries::HM::HMLib::VR::HapticPresetSO* _hapticPreset;
 
-  /// @brief Field _hapticFeedbackController, offset 0x28, size 0x8
-  __declspec(property(get = __get__hapticFeedbackController, put = __set__hapticFeedbackController))::GlobalNamespace::HapticFeedbackController* _hapticFeedbackController;
+  /// @brief Field _hapticFeedbackManager, offset 0x28, size 0x8
+  __declspec(property(get = __get__hapticFeedbackManager, put = __set__hapticFeedbackManager))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackManager;
 
   /// @brief Field _gamePause, offset 0x30, size 0x8
   __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
@@ -49,11 +49,11 @@ public:
 
   constexpr void __set__hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackController*& __get__hapticFeedbackController();
+  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackController*> const& __get__hapticFeedbackController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackManager() const;
 
-  constexpr void __set__hapticFeedbackController(::GlobalNamespace::HapticFeedbackController* value);
+  constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value);
 
   constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
 
@@ -67,24 +67,24 @@ public:
 
   constexpr void __set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method Start addr 0x225e25c size 0x40 virtual true final false
+  /// @brief Method Start, addr 0x2392c34, size 0x40, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x225e3a4 size 0xd4 virtual false final false
+  /// @brief Method Update, addr 0x2392d7c, size 0xd4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method StartEffect addr 0x225e4d4 size 0x48 virtual true final false
+  /// @brief Method StartEffect, addr 0x2392eac, size 0x48, virtual true, abstract: false, final false
   inline void StartEffect(float_t saberInteractionParam);
 
-  /// @brief Method EndEffect addr 0x225e51c size 0xc virtual true final false
+  /// @brief Method EndEffect, addr 0x2392ef4, size 0xc, virtual true, abstract: false, final false
   inline void EndEffect();
 
-  /// @brief Method Vibrate addr 0x225e494 size 0x40 virtual false final false
+  /// @brief Method Vibrate, addr 0x2392e6c, size 0x40, virtual false, abstract: false, final false
   inline void Vibrate();
 
   static inline ::GlobalNamespace::SliderHapticFeedbackInteractionEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x225e528 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2392f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderHapticFeedbackInteractionEffect", modifiers: "&&", def_value: None }]
@@ -104,8 +104,8 @@ public:
   /// @brief Field _hapticPreset, offset: 0x20, size: 0x8, def value: None
   ::Libraries::HM::HMLib::VR::HapticPresetSO* ____hapticPreset;
 
-  /// @brief Field _hapticFeedbackController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackController* ____hapticFeedbackController;
+  /// @brief Field _hapticFeedbackManager, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackManager;
 
   /// @brief Field _gamePause, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;
@@ -123,7 +123,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderHapticFee
 
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____hapticPreset) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____hapticFeedbackController) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____hapticFeedbackManager) == 0x28, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SliderHapticFeedbackInteractionEffect, ____gamePause) == 0x30, "Offset mismatch!");
 

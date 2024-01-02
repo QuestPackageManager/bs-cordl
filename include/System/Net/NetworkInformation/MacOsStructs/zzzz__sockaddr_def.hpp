@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9295))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr
 struct CORDL_TYPE sockaddr {
 public:

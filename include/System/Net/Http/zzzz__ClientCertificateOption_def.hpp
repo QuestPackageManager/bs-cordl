@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Http::ClientCertificateOption);
 namespace System::Net::Http {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14858))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14641))
 // CS Name: ::System.Net.Http::ClientCertificateOption
 struct CORDL_TYPE ClientCertificateOption {
 public:

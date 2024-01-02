@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::Threading::ThreadAbortException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2723))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2725))
 // CS Name: ::System.Threading::ThreadAbortException*
 class CORDL_TYPE ThreadAbortException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Threading::ThreadAbortException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24bf388 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x261a3a4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::ThreadAbortException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x24bf404 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x261a420, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadAbortException", modifiers: "&&", def_value: None }]

@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BinaryObject)
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryParser;
+class __BinaryWriter;
 }
 namespace System::Runtime::Serialization::Formatters::Binary {
-class __BinaryWriter;
+class __BinaryParser;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3260))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3261))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObject*
 class CORDL_TYPE BinaryObject : public ::System::Object {
 public:
@@ -47,19 +47,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x23693f0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c1ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set addr 0x23693f8 size 0x8 virtual false final false
+  /// @brief Method Set, addr 0x24c1eec, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, int32_t mapId);
 
-  /// @brief Method Write addr 0x2369400 size 0x70 virtual true final true
+  /// @brief Method Write, addr 0x24c1ef4, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x2369470 size 0x44 virtual true final true
+  /// @brief Method Read, addr 0x24c1f64, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x23694b4 size 0x4 virtual false final false
+  /// @brief Method Dump, addr 0x24c1fa8, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryObject", modifiers: "&&", def_value: None }]

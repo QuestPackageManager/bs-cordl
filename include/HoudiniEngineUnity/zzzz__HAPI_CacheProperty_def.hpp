@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CacheProperty);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9720))
 // CS Name: ::HoudiniEngineUnity::HAPI_CacheProperty
 struct CORDL_TYPE HAPI_CacheProperty {
 public:

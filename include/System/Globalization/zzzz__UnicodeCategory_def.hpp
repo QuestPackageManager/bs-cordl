@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::UnicodeCategory);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3682))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3694))
 // CS Name: ::System.Globalization::UnicodeCategory
 struct CORDL_TYPE UnicodeCategory {
 public:

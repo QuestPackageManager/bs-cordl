@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::BootConfigData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10186))
 // CS Name: ::UnityEngine::BootConfigData*
 class CORDL_TYPE BootConfigData : public ::System::Object {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method WrapBootConfigData addr 0x2b66b8c size 0x60 virtual false final false
+  /// @brief Method WrapBootConfigData, addr 0x2ccd090, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
 
   static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
 
-  /// @brief Method .ctor addr 0x2b66bec size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccd0f0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* nativeHandle);
 
   // Ctor Parameters [CppParam { name: "", ty: "BootConfigData", modifiers: "&&", def_value: None }]

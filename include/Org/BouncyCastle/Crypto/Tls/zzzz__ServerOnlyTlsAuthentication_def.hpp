@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerOnlyTlsAuthentication)
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsAuthentication;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
-class CertificateRequest;
-}
-namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class CertificateRequest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1270))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerOnlyTlsAuthentication*
 class CORDL_TYPE ServerOnlyTlsAuthentication : public ::System::Object {
@@ -35,15 +35,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*() noexcept;
 
-  /// @brief Method NotifyServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method NotifyServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method GetClientCredentials addr 0xf1f868 size 0x8 virtual true final true
+  /// @brief Method GetClientCredentials, addr 0xf95a98, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication* New_ctor();
 
-  /// @brief Method .ctor addr 0xf1f870 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf95aa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerOnlyTlsAuthentication", modifiers: "&&", def_value: None }]

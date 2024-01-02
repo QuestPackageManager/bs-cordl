@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSource)
 namespace UnityEngine {
-class AudioClip;
+struct FFTWindow;
 }
 namespace UnityEngine {
-struct FFTWindow;
+class AudioClip;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::AudioSource);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15617))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15595))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15597))
 // CS Name: ::UnityEngine::AudioSource*
 class CORDL_TYPE AudioSource : public ::UnityEngine::AudioBehaviour {
 public:
@@ -48,6 +48,8 @@ public:
 
   __declspec(property(put = set_ignoreListenerPause)) bool ignoreListenerPause;
 
+  __declspec(property(put = set_panStereo)) float_t panStereo;
+
   __declspec(property(put = set_spatialBlend)) float_t spatialBlend;
 
   __declspec(property(put = set_reverbZoneMix)) float_t reverbZoneMix;
@@ -64,115 +66,118 @@ public:
 
   __declspec(property(put = set_minDistance)) float_t minDistance;
 
-  /// @brief Method GetPitch addr 0x2b36820 size 0x3c virtual false final false
+  /// @brief Method GetPitch, addr 0x2c9b4fc, size 0x3c, virtual false, abstract: false, final false
   static inline float_t GetPitch(::UnityEngine::AudioSource* source);
 
-  /// @brief Method SetPitch addr 0x2b3685c size 0x4c virtual false final false
+  /// @brief Method SetPitch, addr 0x2c9b538, size 0x4c, virtual false, abstract: false, final false
   static inline void SetPitch(::UnityEngine::AudioSource* source, float_t pitch);
 
-  /// @brief Method PlayHelper addr 0x2b368a8 size 0x44 virtual false final false
+  /// @brief Method PlayHelper, addr 0x2c9b584, size 0x44, virtual false, abstract: false, final false
   static inline void PlayHelper(::UnityEngine::AudioSource* source, uint64_t delay);
 
-  /// @brief Method Play addr 0x2b368ec size 0x4c virtual false final false
+  /// @brief Method Play, addr 0x2c9b5c8, size 0x4c, virtual false, abstract: false, final false
   inline void Play(double_t delay);
 
-  /// @brief Method PlayOneShotHelper addr 0x2b36938 size 0x54 virtual false final false
+  /// @brief Method PlayOneShotHelper, addr 0x2c9b614, size 0x54, virtual false, abstract: false, final false
   static inline void PlayOneShotHelper(::UnityEngine::AudioSource* source, ::UnityEngine::AudioClip* clip, float_t volumeScale);
 
-  /// @brief Method Stop addr 0x2b3698c size 0x44 virtual false final false
+  /// @brief Method Stop, addr 0x2c9b668, size 0x44, virtual false, abstract: false, final false
   inline void Stop(bool stopOneShots);
 
-  /// @brief Method GetSpectrumDataHelper addr 0x2b369d0 size 0x5c virtual false final false
+  /// @brief Method GetSpectrumDataHelper, addr 0x2c9b6ac, size 0x5c, virtual false, abstract: false, final false
   static inline void GetSpectrumDataHelper(::UnityEngine::AudioSource* source, ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
-  /// @brief Method get_volume addr 0x2b36a2c size 0x3c virtual false final false
+  /// @brief Method get_volume, addr 0x2c9b708, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_volume();
 
-  /// @brief Method set_volume addr 0x2b36a68 size 0x4c virtual false final false
+  /// @brief Method set_volume, addr 0x2c9b744, size 0x4c, virtual false, abstract: false, final false
   inline void set_volume(float_t value);
 
-  /// @brief Method get_pitch addr 0x2b36ab4 size 0x3c virtual false final false
+  /// @brief Method get_pitch, addr 0x2c9b790, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_pitch();
 
-  /// @brief Method set_pitch addr 0x2b36af0 size 0x4c virtual false final false
+  /// @brief Method set_pitch, addr 0x2c9b7cc, size 0x4c, virtual false, abstract: false, final false
   inline void set_pitch(float_t value);
 
-  /// @brief Method get_time addr 0x2b36b3c size 0x3c virtual false final false
+  /// @brief Method get_time, addr 0x2c9b818, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_time addr 0x2b36b78 size 0x4c virtual false final false
+  /// @brief Method set_time, addr 0x2c9b854, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_timeSamples addr 0x2b36bc4 size 0x3c virtual false final false
+  /// @brief Method get_timeSamples, addr 0x2c9b8a0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_timeSamples();
 
-  /// @brief Method get_clip addr 0x2b36c00 size 0x3c virtual false final false
+  /// @brief Method get_clip, addr 0x2c9b8dc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AudioClip* get_clip();
 
-  /// @brief Method set_clip addr 0x2b36c3c size 0x44 virtual false final false
+  /// @brief Method set_clip, addr 0x2c9b918, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method Play addr 0x2b36c80 size 0x40 virtual false final false
+  /// @brief Method Play, addr 0x2c9b95c, size 0x40, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method PlayScheduled addr 0x2b36cc0 size 0x58 virtual false final false
+  /// @brief Method PlayScheduled, addr 0x2c9b99c, size 0x58, virtual false, abstract: false, final false
   inline void PlayScheduled(double_t time);
 
-  /// @brief Method PlayOneShot addr 0x2b36d18 size 0x8 virtual false final false
+  /// @brief Method PlayOneShot, addr 0x2c9b9f4, size 0x8, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip);
 
-  /// @brief Method PlayOneShot addr 0x2b36d20 size 0xfc virtual false final false
+  /// @brief Method PlayOneShot, addr 0x2c9b9fc, size 0xfc, virtual false, abstract: false, final false
   inline void PlayOneShot(::UnityEngine::AudioClip* clip, float_t volumeScale);
 
-  /// @brief Method Stop addr 0x2b36e1c size 0x40 virtual false final false
+  /// @brief Method Stop, addr 0x2c9baf8, size 0x40, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Pause addr 0x2b36e5c size 0x3c virtual false final false
+  /// @brief Method Pause, addr 0x2c9bb38, size 0x3c, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method UnPause addr 0x2b36e98 size 0x3c virtual false final false
+  /// @brief Method UnPause, addr 0x2c9bb74, size 0x3c, virtual false, abstract: false, final false
   inline void UnPause();
 
-  /// @brief Method get_isPlaying addr 0x2b36ed4 size 0x3c virtual false final false
+  /// @brief Method get_isPlaying, addr 0x2c9bbb0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method set_loop addr 0x2b36f10 size 0x44 virtual false final false
+  /// @brief Method set_loop, addr 0x2c9bbec, size 0x44, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
-  /// @brief Method get_playOnAwake addr 0x2b36f54 size 0x3c virtual false final false
+  /// @brief Method get_playOnAwake, addr 0x2c9bc30, size 0x3c, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method set_playOnAwake addr 0x2b36f90 size 0x44 virtual false final false
+  /// @brief Method set_playOnAwake, addr 0x2c9bc6c, size 0x44, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_ignoreListenerPause addr 0x2b36fd4 size 0x44 virtual false final false
+  /// @brief Method set_ignoreListenerPause, addr 0x2c9bcb0, size 0x44, virtual false, abstract: false, final false
   inline void set_ignoreListenerPause(bool value);
 
-  /// @brief Method set_spatialBlend addr 0x2b37018 size 0x4c virtual false final false
+  /// @brief Method set_panStereo, addr 0x2c9bcf4, size 0x4c, virtual false, abstract: false, final false
+  inline void set_panStereo(float_t value);
+
+  /// @brief Method set_spatialBlend, addr 0x2c9bd40, size 0x4c, virtual false, abstract: false, final false
   inline void set_spatialBlend(float_t value);
 
-  /// @brief Method set_reverbZoneMix addr 0x2b37064 size 0x4c virtual false final false
+  /// @brief Method set_reverbZoneMix, addr 0x2c9bd8c, size 0x4c, virtual false, abstract: false, final false
   inline void set_reverbZoneMix(float_t value);
 
-  /// @brief Method set_bypassEffects addr 0x2b370b0 size 0x44 virtual false final false
+  /// @brief Method set_bypassEffects, addr 0x2c9bdd8, size 0x44, virtual false, abstract: false, final false
   inline void set_bypassEffects(bool value);
 
-  /// @brief Method set_bypassReverbZones addr 0x2b370f4 size 0x44 virtual false final false
+  /// @brief Method set_bypassReverbZones, addr 0x2c9be1c, size 0x44, virtual false, abstract: false, final false
   inline void set_bypassReverbZones(bool value);
 
-  /// @brief Method set_dopplerLevel addr 0x2b37138 size 0x4c virtual false final false
+  /// @brief Method set_dopplerLevel, addr 0x2c9be60, size 0x4c, virtual false, abstract: false, final false
   inline void set_dopplerLevel(float_t value);
 
-  /// @brief Method set_spread addr 0x2b37184 size 0x4c virtual false final false
+  /// @brief Method set_spread, addr 0x2c9beac, size 0x4c, virtual false, abstract: false, final false
   inline void set_spread(float_t value);
 
-  /// @brief Method set_priority addr 0x2b371d0 size 0x44 virtual false final false
+  /// @brief Method set_priority, addr 0x2c9bef8, size 0x44, virtual false, abstract: false, final false
   inline void set_priority(int32_t value);
 
-  /// @brief Method set_minDistance addr 0x2b37214 size 0x4c virtual false final false
+  /// @brief Method set_minDistance, addr 0x2c9bf3c, size 0x4c, virtual false, abstract: false, final false
   inline void set_minDistance(float_t value);
 
-  /// @brief Method GetSpectrumData addr 0x2b37260 size 0x5c virtual false final false
+  /// @brief Method GetSpectrumData, addr 0x2c9bf88, size 0x5c, virtual false, abstract: false, final false
   inline void GetSpectrumData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel, ::UnityEngine::FFTWindow window);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioSource", modifiers: "&&", def_value: None }]

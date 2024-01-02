@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IPAPluginsDirDeleter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5462))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5369))
 // CS Name: ::IPAPluginsDirDeleter*
 class CORDL_TYPE IPAPluginsDirDeleter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   static inline ::GlobalNamespace::IPAPluginsDirDeleter* New_ctor();
 
-  /// @brief Method .ctor addr 0x21287c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226ca3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPAPluginsDirDeleter", modifiers: "&&", def_value: None }]

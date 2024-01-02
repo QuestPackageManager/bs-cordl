@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::IPProtectionLevel);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9340))
 // CS Name: ::System.Net.Sockets::IPProtectionLevel
 struct CORDL_TYPE IPProtectionLevel {
 public:

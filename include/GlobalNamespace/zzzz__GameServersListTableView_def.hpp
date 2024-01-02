@@ -8,16 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameServersListTableView)
 namespace GlobalNamespace {
-class INetworkPlayer;
+class GameServerListTableCell;
+}
+namespace Zenject {
+class DiContainer;
 }
 namespace HMUI {
-class TableView;
+class TableCell;
 }
 namespace GlobalNamespace {
 class GameServerListDetailTableCell;
 }
 namespace HMUI {
-class TableCell;
+class TableView;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -25,17 +28,14 @@ template <typename T> class IEnumerable_1;
 namespace GlobalNamespace {
 class TableViewWithDetailCell;
 }
-namespace System {
-template <typename T> class Action_1;
-}
 namespace GlobalNamespace {
 class __TableViewWithDetailCell__IDataSource;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace GlobalNamespace {
-class GameServerListTableCell;
+class INetworkPlayer;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServersListTableView);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5783))
 // CS Name: ::GameServersListTableView*
 class CORDL_TYPE GameServersListTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -128,45 +128,45 @@ public:
 
   constexpr void __set__selectedServer(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method add_joinButtonPressedEvent addr 0x219cd0c size 0xb0 virtual false final false
+  /// @brief Method add_joinButtonPressedEvent, addr 0x22e21a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_joinButtonPressedEvent addr 0x219cdbc size 0xb0 virtual false final false
+  /// @brief Method remove_joinButtonPressedEvent, addr 0x22e2254, size 0xb0, virtual false, abstract: false, final false
   inline void remove_joinButtonPressedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method CellSize addr 0x219ce6c size 0xc virtual true final true
+  /// @brief Method CellSize, addr 0x22e2304, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x219ce78 size 0x18 virtual true final true
+  /// @brief Method NumberOfCells, addr 0x22e2310, size 0x18, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method Init addr 0x219ce90 size 0x114 virtual false final false
+  /// @brief Method Init, addr 0x22e2328, size 0x114, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method CellForContent addr 0x219cfa4 size 0x164 virtual true final true
+  /// @brief Method CellForContent, addr 0x22e243c, size 0x164, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForContent(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t idx, bool detailOpened);
 
-  /// @brief Method CellForDetail addr 0x219d108 size 0x1bc virtual true final true
+  /// @brief Method CellForDetail, addr 0x22e25a0, size 0x1bc, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForDetail(::GlobalNamespace::TableViewWithDetailCell* tableView, int32_t contentIdx);
 
-  /// @brief Method SetData addr 0x219d2c4 size 0x124 virtual false final false
+  /// @brief Method SetData, addr 0x22e275c, size 0x124, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* servers, bool clearSelection);
 
-  /// @brief Method HandleGameServerListDetailTableCellJoinServerButtonWasPressed addr 0x219d3e8 size 0x24 virtual false final false
+  /// @brief Method HandleGameServerListDetailTableCellJoinServerButtonWasPressed, addr 0x22e2880, size 0x24, virtual false, abstract: false, final false
   inline void HandleGameServerListDetailTableCellJoinServerButtonWasPressed();
 
-  /// @brief Method HandleTableViewDidSelectCellWithIdx addr 0x219d40c size 0x34 virtual false final false
+  /// @brief Method HandleTableViewDidSelectCellWithIdx, addr 0x22e28a4, size 0x34, virtual false, abstract: false, final false
   inline void HandleTableViewDidSelectCellWithIdx(::HMUI::TableView* tableView, int32_t id);
 
-  /// @brief Method HandleTableViewDidDeselectCellWithIdx addr 0x219d440 size 0x8 virtual false final false
+  /// @brief Method HandleTableViewDidDeselectCellWithIdx, addr 0x22e28d8, size 0x8, virtual false, abstract: false, final false
   inline void HandleTableViewDidDeselectCellWithIdx(::GlobalNamespace::TableViewWithDetailCell* arg1, int32_t arg2);
 
-  /// @brief Method OnDestroy addr 0x219d448 size 0xf4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22e28e0, size 0xf4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::GameServersListTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x219d53c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22e29d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServersListTableView", modifiers: "&&", def_value: None }]

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OidEnumerator)
 namespace System::Security::Cryptography {
-class Oid;
+class OidCollection;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
 }
 namespace System::Security::Cryptography {
-class OidCollection;
-}
-namespace System::Collections {
-class IEnumerator;
+class Oid;
 }
 // Forward declare root types
 namespace System::Security::Cryptography {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::OidEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7811))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8974))
 // CS Name: ::System.Security.Cryptography::OidEnumerator*
 class CORDL_TYPE OidEnumerator : public ::System::Object {
 public:
@@ -60,19 +60,19 @@ public:
 
   static inline ::System::Security::Cryptography::OidEnumerator* New_ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method .ctor addr 0x27f8358 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x29760d0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::OidCollection* oids);
 
-  /// @brief Method get_Current addr 0x27f8554 size 0x20 virtual false final false
+  /// @brief Method get_Current, addr 0x29762cc, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27f8574 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x29762ec, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method MoveNext addr 0x27f8578 size 0x50 virtual true final true
+  /// @brief Method MoveNext, addr 0x29762f0, size 0x50, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x27f85c8 size 0xc virtual true final true
+  /// @brief Method Reset, addr 0x2976340, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "OidEnumerator", modifiers: "&&", def_value: None }]

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityWebRequestResult)
 namespace UnityEngine::Networking {
-struct __UnityWebRequest__Result;
+class UnityWebRequest;
 }
 namespace UnityEngine::Networking {
-class UnityWebRequest;
+struct __UnityWebRequest__Result;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15562))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14258))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15578))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
 // CS Name: ::UnityEngine.ResourceManagement.Util::UnityWebRequestResult*
 class CORDL_TYPE UnityWebRequestResult : public ::System::Object {
 public:
@@ -86,31 +86,31 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method .ctor addr 0x2a50554 size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd32a8, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method ToString addr 0x2a50664 size 0x180 virtual true final false
+  /// @brief Method ToString, addr 0x2bd33b8, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_Error addr 0x2a507e4 size 0x8 virtual false final false
+  /// @brief Method get_Error, addr 0x2bd3538, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Error();
 
-  /// @brief Method set_Error addr 0x2a507ec size 0x8 virtual false final false
+  /// @brief Method set_Error, addr 0x2bd3540, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::StringW value);
 
-  /// @brief Method get_ResponseCode addr 0x2a507f4 size 0x8 virtual false final false
+  /// @brief Method get_ResponseCode, addr 0x2bd3548, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ResponseCode();
 
-  /// @brief Method get_Result addr 0x2a507fc size 0x8 virtual false final false
+  /// @brief Method get_Result, addr 0x2bd3550, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::__UnityWebRequest__Result get_Result();
 
-  /// @brief Method get_Method addr 0x2a50804 size 0x8 virtual false final false
+  /// @brief Method get_Method, addr 0x2bd3558, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_Url addr 0x2a5080c size 0x8 virtual false final false
+  /// @brief Method get_Url, addr 0x2bd3560, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method ShouldRetryDownloadError addr 0x2a50814 size 0x2d0 virtual false final false
+  /// @brief Method ShouldRetryDownloadError, addr 0x2bd3568, size 0x2d0, virtual false, abstract: false, final false
   inline bool ShouldRetryDownloadError();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestResult", modifiers: "&&", def_value: None }]

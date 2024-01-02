@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::EventAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3464))
 // CS Name: ::System.Reflection::EventAttributes
 struct CORDL_TYPE EventAttributes {
 public:

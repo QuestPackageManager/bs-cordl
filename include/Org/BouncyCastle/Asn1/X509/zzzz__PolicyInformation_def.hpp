@@ -4,8 +4,8 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PolicyInformation)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -13,8 +13,8 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -56,30 +56,30 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1123f38 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0x1194180, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
 
-  /// @brief Method .ctor addr 0x11240dc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1194324, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier,
                                                                              ::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers);
 
-  /// @brief Method .ctor addr 0x1124104 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x119434c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier, ::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers);
 
-  /// @brief Method GetInstance addr 0x1124130 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1194378, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_PolicyIdentifier addr 0x11241d4 size 0x8 virtual false final false
+  /// @brief Method get_PolicyIdentifier, addr 0x119441c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PolicyIdentifier();
 
-  /// @brief Method get_PolicyQualifiers addr 0x11241dc size 0x8 virtual false final false
+  /// @brief Method get_PolicyQualifiers, addr 0x1194424, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* get_PolicyQualifiers();
 
-  /// @brief Method ToAsn1Object addr 0x11241e4 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x119442c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PolicyInformation", modifiers: "&&", def_value: None }]

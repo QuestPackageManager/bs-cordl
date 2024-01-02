@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInformationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8329))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8088))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9492))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9251))
 // CS Name: ::System.Net.NetworkInformation::NetworkInformationException*
 class CORDL_TYPE NetworkInformationException : public ::System::ComponentModel::Win32Exception {
 public:
@@ -31,16 +31,16 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor();
 
-  /// @brief Method .ctor addr 0x286ee90 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x29eb714, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x286eef4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29eb778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode addr 0x286eefc size 0x8 virtual true final false
+  /// @brief Method get_ErrorCode, addr 0x29eb780, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkInformationException", modifiers: "&&", def_value: None }]

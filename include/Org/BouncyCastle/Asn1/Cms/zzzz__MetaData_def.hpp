@@ -5,10 +5,16 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(MetaData)
 namespace Org::BouncyCastle::Asn1 {
-class DerIA5String;
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerUtf8String;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBoolean;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class Attributes;
@@ -17,13 +23,7 @@ namespace System {
 class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerUtf8String;
+class DerIA5String;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -88,31 +88,31 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
                                                                    ::Org::BouncyCastle::Asn1::DerIA5String* mediaType, ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
-  /// @brief Method .ctor addr 0xe05458 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0xe7a62c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName, ::Org::BouncyCastle::Asn1::DerIA5String* mediaType,
                     ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe05498 size 0x214 virtual false final false
+  /// @brief Method .ctor, addr 0xe7a66c, size 0x214, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe056ac size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xe7a880, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* GetInstance(::System::Object* obj);
 
-  /// @brief Method ToAsn1Object addr 0xe05750 size 0x1a0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe7a924, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method get_IsHashProtected addr 0xe058f0 size 0x1c virtual true final false
+  /// @brief Method get_IsHashProtected, addr 0xe7aac4, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsHashProtected();
 
-  /// @brief Method get_FileName addr 0xe0590c size 0x8 virtual true final false
+  /// @brief Method get_FileName, addr 0xe7aae0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerUtf8String* get_FileName();
 
-  /// @brief Method get_MediaType addr 0xe05914 size 0x8 virtual true final false
+  /// @brief Method get_MediaType, addr 0xe7aae8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_MediaType();
 
-  /// @brief Method get_OtherMetaData addr 0xe0591c size 0x8 virtual true final false
+  /// @brief Method get_OtherMetaData, addr 0xe7aaf0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Attributes* get_OtherMetaData();
 
   // Ctor Parameters [CppParam { name: "", ty: "MetaData", modifiers: "&&", def_value: None }]

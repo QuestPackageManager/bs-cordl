@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DerGeneralString)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerOutputStream;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerOutputStream;
+class Asn1Object;
 }
 namespace System {
 class Object;
@@ -44,32 +44,32 @@ public:
 
   constexpr void __set_str(::StringW value);
 
-  /// @brief Method GetInstance addr 0x115153c size 0xf0 virtual false final false
+  /// @brief Method GetInstance, addr 0x11c278c, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGeneralString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x115162c size 0x140 virtual false final false
+  /// @brief Method GetInstance, addr 0x11c287c, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGeneralString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::DerGeneralString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method .ctor addr 0x1146028 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x11b7278, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
   static inline ::Org::BouncyCastle::Asn1::DerGeneralString* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x115176c size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x11c29bc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method GetString addr 0x11517e4 size 0x8 virtual true final false
+  /// @brief Method GetString, addr 0x11c2a34, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
-  /// @brief Method GetOctets addr 0x11517ec size 0xc virtual false final false
+  /// @brief Method GetOctets, addr 0x11c2a3c, size 0xc, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method Encode addr 0x11517f8 size 0x30 virtual true final false
+  /// @brief Method Encode, addr 0x11c2a48, size 0x30, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method Asn1Equals addr 0x1151828 size 0xa0 virtual true final false
+  /// @brief Method Asn1Equals, addr 0x11c2a78, size 0xa0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
   // Ctor Parameters [CppParam { name: "", ty: "DerGeneralString", modifiers: "&&", def_value: None }]

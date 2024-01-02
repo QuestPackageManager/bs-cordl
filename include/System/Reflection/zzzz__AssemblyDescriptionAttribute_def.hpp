@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyDescriptionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3445))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3450))
 // CS Name: ::System.Reflection::AssemblyDescriptionAttribute*
 class CORDL_TYPE AssemblyDescriptionAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyDescriptionAttribute* New_ctor(::StringW description);
 
-  /// @brief Method .ctor addr 0x238c490 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24e5f48, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW description);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyDescriptionAttribute", modifiers: "&&", def_value: None }]

@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyBeatmapSerializedMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4417))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4395))
 // CS Name: ::DifficultyBeatmapSerializedMethods*
 class CORDL_TYPE DifficultyBeatmapSerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SerializedName addr 0x21fec0c size 0x26c virtual false final false
+  /// @brief Method SerializedName, addr 0x23492e0, size 0x26c, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
   // Ctor Parameters [CppParam { name: "", ty: "DifficultyBeatmapSerializedMethods", modifiers: "&&", def_value: None }]

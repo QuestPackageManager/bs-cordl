@@ -1,8 +1,8 @@
 #pragma once
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderGeneric_1_def.hpp"
-#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"
 #include "Zenject/zzzz__BindStatement_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked2Cancellati
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2686)), TypeDefinitionIndex(TypeDefinitionIndex(2681))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2688)), TypeDefinitionIndex(TypeDefinitionIndex(2683))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2685))
 // CS Name: ::CancellationTokenSource::Linked2CancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__Linked2CancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::System::Threading::__CancellationTokenSource__Linked2CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method .ctor addr 0x24b893c size 0x10c virtual false final false
+  /// @brief Method .ctor, addr 0x2613958, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
 
-  /// @brief Method Dispose addr 0x24b8cac size 0x3c virtual true final false
+  /// @brief Method Dispose, addr 0x2613cc8, size 0x3c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CancellationTokenSource__Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]

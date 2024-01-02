@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LegacyResourcesLocator)
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
@@ -18,11 +15,14 @@ class IResourceLocation;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 class IResourceLocator;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourc
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14384))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14113))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::LegacyResourcesLocator*
 class CORDL_TYPE LegacyResourcesLocator : public ::System::Object {
 public:
@@ -47,18 +47,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Locate addr 0x28b094c size 0x274 virtual true final true
+  /// @brief Method Locate, addr 0x2a2e694, size 0x274, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
-  /// @brief Method get_Keys addr 0x28b0bc0 size 0x8 virtual true final true
+  /// @brief Method get_Keys, addr 0x2a2e908, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId addr 0x28b0bc8 size 0x40 virtual true final true
+  /// @brief Method get_LocatorId, addr 0x2a2e910, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
 
-  /// @brief Method .ctor addr 0x28b0c08 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2a2e950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::MatchCasing);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3586))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3597))
 // CS Name: ::System.IO::MatchCasing
 struct CORDL_TYPE MatchCasing {
 public:

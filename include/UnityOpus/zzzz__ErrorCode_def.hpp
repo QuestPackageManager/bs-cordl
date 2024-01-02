@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityOpus::ErrorCode);
 namespace UnityOpus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6160))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16218))
 // CS Name: ::UnityOpus::ErrorCode
 struct CORDL_TYPE ErrorCode {
 public:

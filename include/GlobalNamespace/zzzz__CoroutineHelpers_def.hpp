@@ -3,26 +3,33 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CoroutineHelpers)
+namespace GlobalNamespace {
+class __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace GlobalNamespace {
+class ICoroutineStarter;
+}
+namespace UnityEngine {
+class Coroutine;
 }
 namespace System {
 class Action;
 }
-namespace GlobalNamespace {
-class __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
-}
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutin
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13847))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15848))
 // CS Name: ::CoroutineHelpers::<ExecuteAfterDelayCoroutine>d__0*
 class CORDL_TYPE __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 : public ::System::Object {
 public:
@@ -50,8 +57,8 @@ public:
   /// @brief Field <>2__current, offset 0x18, size 0x8
   __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
 
-  /// @brief Field time, offset 0x20, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  /// @brief Field timeSeconds, offset 0x20, size 0x4
+  __declspec(property(get = __get_timeSeconds, put = __set_timeSeconds)) float_t timeSeconds;
 
   /// @brief Field action, offset 0x28, size 0x8
   __declspec(property(get = __get_action, put = __set_action))::System::Action* action;
@@ -81,11 +88,11 @@ public:
 
   constexpr void __set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __get_timeSeconds();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __get_timeSeconds() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __set_timeSeconds(float_t value);
 
   constexpr ::System::Action*& __get_action();
 
@@ -95,22 +102,22 @@ public:
 
   static inline ::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x1f94db4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe27058, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x1f94de4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0xe271fc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x1f94de8 size 0xb8 virtual true final true
+  /// @brief Method MoveNext, addr 0xe27200, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x1f94ea0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xe272b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x1f94ea8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xe272c0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x1f94ee8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xe27300, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0", modifiers: "&&", def_value: None }]
@@ -133,8 +140,8 @@ public:
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
   ::System::Object* _____2__current;
 
-  /// @brief Field time, offset: 0x20, size: 0x4, def value: None
-  float_t ___time;
+  /// @brief Field timeSeconds, offset: 0x20, size: 0x4, def value: None
+  float_t ___timeSeconds;
 
   /// @brief Field action, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ___action;
@@ -148,7 +155,7 @@ static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelay
 
 static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, ___time) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, ___timeSeconds) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0, ___action) == 0x28, "Offset mismatch!");
 
@@ -157,21 +164,22 @@ static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelay
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13848))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15849))
 // CS Name: ::CoroutineHelpers*
 class CORDL_TYPE CoroutineHelpers : public ::System::Object {
 public:
   // Declarations
   using _ExecuteAfterDelayCoroutine_d__0 = ::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0;
 
-  /// @brief Method ExecuteAfterDelayCoroutine addr 0x1f94d3c size 0x78 virtual false final false
-  static inline ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float_t time);
+  /// @brief Method ExecuteAfterDelayCoroutine, addr 0xe26fe0, size 0x78, virtual false, abstract: false, final false
+  static inline ::System::Collections::IEnumerator* ExecuteAfterDelayCoroutine(::System::Action* action, float_t timeSeconds);
 
-  static inline ::GlobalNamespace::CoroutineHelpers* New_ctor();
+  /// @brief Method StartSingleCoroutine, addr 0xe27080, size 0xc4, virtual false, abstract: false, final false
+  static inline void StartSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ByRef<::UnityEngine::Coroutine*> handle, ::System::Collections::IEnumerator* routine);
 
-  /// @brief Method .ctor addr 0x1f94ddc size 0x8 virtual false final false
-  inline void _ctor();
+  /// @brief Method StopSingleCoroutine, addr 0xe27144, size 0xb8, virtual false, abstract: false, final false
+  static inline void StopSingleCoroutine(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ByRef<::UnityEngine::Coroutine*> handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "CoroutineHelpers", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

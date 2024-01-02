@@ -7,71 +7,71 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TeleTrusTNamedCurves)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
-}
 namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParameters;
-}
-namespace System::Collections {
-class IDictionary;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160t1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+class X9ECPoint;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP160r1Holder;
-}
-namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP320r1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP256r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP384r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP512r1Holder;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP320t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP224t1Holder;
 }
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECParametersHolder;
-}
-namespace Org::BouncyCastle::Asn1::X9 {
-class X9ECPoint;
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP160t1Holder;
 }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 class __TeleTrusTNamedCurves__BrainpoolP256t1Holder;
 }
+namespace System::Collections {
+class IEnumerable;
+}
 namespace Org::BouncyCastle::Asn1::TeleTrust {
-class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+class __TeleTrusTNamedCurves__BrainpoolP512t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParametersHolder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP224r1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP192r1Holder;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECCurve;
+}
+namespace Org::BouncyCastle::Asn1::X9 {
+class X9ECParameters;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP384t1Holder;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP192t1Holder;
+}
+namespace Org::BouncyCastle::Asn1::TeleTrust {
+class __TeleTrusTNamedCurves__BrainpoolP160r1Holder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::TeleTrust {
@@ -154,10 +154,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1004ed8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1076124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1004ee0 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x107612c, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160r1Holder", modifiers: "&&", def_value: None }]
@@ -199,10 +199,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP160t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1005114 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1076360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x100511c size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1076368, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP160t1Holder", modifiers: "&&", def_value: None }]
@@ -244,10 +244,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1005350 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x107659c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1005358 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x10765a4, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192r1Holder", modifiers: "&&", def_value: None }]
@@ -289,10 +289,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP192t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x100558c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10767d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1005594 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x10767e0, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP192t1Holder", modifiers: "&&", def_value: None }]
@@ -334,10 +334,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x10057c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1076a14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x10057d0 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1076a1c, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224r1Holder", modifiers: "&&", def_value: None }]
@@ -379,10 +379,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP224t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1005a04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1076c50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1005a0c size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1076c58, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP224t1Holder", modifiers: "&&", def_value: None }]
@@ -424,10 +424,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1005c40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1076e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1005c48 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1076e94, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256r1Holder", modifiers: "&&", def_value: None }]
@@ -469,10 +469,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP256t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1005e7c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10770c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1005e84 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x10770d0, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP256t1Holder", modifiers: "&&", def_value: None }]
@@ -514,10 +514,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x10060b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1077304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x10060c0 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x107730c, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320r1Holder", modifiers: "&&", def_value: None }]
@@ -559,10 +559,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP320t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x10062f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1077540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x10062fc size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1077548, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP320t1Holder", modifiers: "&&", def_value: None }]
@@ -604,10 +604,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1006530 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x107777c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1006538 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1077784, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384r1Holder", modifiers: "&&", def_value: None }]
@@ -649,10 +649,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP384t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x100676c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10779b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1006774 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x10779c0, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP384t1Holder", modifiers: "&&", def_value: None }]
@@ -694,10 +694,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512r1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x10069a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1077bf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x10069b0 size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1077bfc, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512r1Holder", modifiers: "&&", def_value: None }]
@@ -739,10 +739,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__BrainpoolP512t1Holder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1006be4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1077e30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateParameters addr 0x1006bec size 0x1d0 virtual true final false
+  /// @brief Method CreateParameters, addr 0x1077e38, size 0x1d0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TeleTrusTNamedCurves__BrainpoolP512t1Holder", modifiers: "&&", def_value: None }]
@@ -769,7 +769,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(312))
 // CS Name: ::Org.BouncyCastle.Asn1.TeleTrust::TeleTrusTNamedCurves*
 class CORDL_TYPE TeleTrusTNamedCurves : public ::System::Object {
@@ -824,39 +824,39 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_names();
 
-  /// @brief Method ConfigureBasepoint addr 0x1003e74 size 0xf0 virtual false final false
+  /// @brief Method ConfigureBasepoint, addr 0x10750c0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
 
-  /// @brief Method ConfigureCurve addr 0x1003f64 size 0x4 virtual false final false
+  /// @brief Method ConfigureCurve, addr 0x10751b0, size 0x4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
 
-  /// @brief Method FromHex addr 0x1003f68 size 0xa0 virtual false final false
+  /// @brief Method FromHex, addr 0x10751b4, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method DefineCurve addr 0x1004008 size 0x210 virtual false final false
+  /// @brief Method DefineCurve, addr 0x1075254, size 0x210, virtual false, abstract: false, final false
   static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
 
-  /// @brief Method GetByName addr 0x10047e8 size 0x80 virtual false final false
+  /// @brief Method GetByName, addr 0x1075a34, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid addr 0x10049bc size 0x12c virtual false final false
+  /// @brief Method GetByOid, addr 0x1075c08, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid addr 0x1004868 size 0x154 virtual false final false
+  /// @brief Method GetOid, addr 0x1075ab4, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
-  /// @brief Method GetName addr 0x1004ae8 size 0x100 virtual false final false
+  /// @brief Method GetName, addr 0x1075d34, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method get_Names addr 0x1004be8 size 0x10c virtual false final false
+  /// @brief Method get_Names, addr 0x1075e34, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
-  /// @brief Method GetOid addr 0x1004cf4 size 0x1dc virtual false final false
+  /// @brief Method GetOid, addr 0x1075f40, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(int16_t curvesize, bool twisted);
 
   static inline ::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves* New_ctor();
 
-  /// @brief Method .ctor addr 0x1004ed0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x107611c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TeleTrusTNamedCurves", modifiers: "&&", def_value: None }]

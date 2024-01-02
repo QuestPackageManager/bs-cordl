@@ -16,7 +16,7 @@ MARK_VAL_T(::System::IO::FileMode);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3556))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3561))
 // CS Name: ::System.IO::FileMode
 struct CORDL_TYPE FileMode {
 public:

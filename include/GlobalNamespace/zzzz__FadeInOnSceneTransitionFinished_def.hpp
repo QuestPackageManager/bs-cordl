@@ -2,21 +2,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FadeInOnSceneTransitionFinished)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace GlobalNamespace {
-class __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+class __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
 }
 namespace GlobalNamespace {
 class FadeInOutController;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class GameScenesManager;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -24,27 +27,24 @@ class Object;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System {
-class IDisposable;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class FadeInOnSceneTransitionFinished;
 }
 namespace GlobalNamespace {
-class __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+class __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FadeInOnSceneTransitionFinished);
-MARK_REF_PTR_T(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3);
-// Type: ::<FadeInAfterSceneTransitionCoroutine>d__3
+MARK_REF_PTR_T(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4);
+// Type: ::<FadeCoroutine>d__4
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15311))
-// CS Name: ::FadeInOnSceneTransitionFinished::<FadeInAfterSceneTransitionCoroutine>d__3*
-class CORDL_TYPE __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15282))
+// CS Name: ::FadeInOnSceneTransitionFinished::<FadeCoroutine>d__4*
+class CORDL_TYPE __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -87,38 +87,38 @@ public:
 
   constexpr void __set___4__this(::GlobalNamespace::FadeInOnSceneTransitionFinished* value);
 
-  static inline ::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x268ca94 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x28076fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x268cac4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2807734, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x268cac8 size 0x90 virtual true final true
+  /// @brief Method MoveNext, addr 0x2807738, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x268cb58 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x28077f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x268cb60 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x28077f8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x268cba0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2807838, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3&&) = delete;
+  __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4(__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3(__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3 const&) = delete;
+  __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4(__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3();
+  constexpr __FadeInOnSceneTransitionFinished___FadeCoroutine_d__4();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -133,31 +133,31 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4, _____4__this) == 0x20, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::FadeInOnSceneTransitionFinished
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15312))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15314))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15283))
 // CS Name: ::FadeInOnSceneTransitionFinished*
-class CORDL_TYPE FadeInOnSceneTransitionFinished : public ::UnityEngine::MonoBehaviour {
+class CORDL_TYPE FadeInOnSceneTransitionFinished : public ::GlobalNamespace::ZenjectSafeBehaviour {
 public:
   // Declarations
-  using _FadeInAfterSceneTransitionCoroutine_d__3 = ::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3;
+  using _FadeCoroutine_d__4 = ::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4;
 
-  /// @brief Field _fadeInOut, offset 0x18, size 0x8
+  /// @brief Field _fadeInOut, offset 0x20, size 0x8
   __declspec(property(get = __get__fadeInOut, put = __set__fadeInOut))::GlobalNamespace::FadeInOutController* _fadeInOut;
 
-  /// @brief Field _gameScenesManager, offset 0x20, size 0x8
+  /// @brief Field _gameScenesManager, offset 0x28, size 0x8
   __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
 
   constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOut();
@@ -172,15 +172,18 @@ public:
 
   constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
 
-  /// @brief Method OnEnable addr 0x268c9e4 size 0x48 virtual false final false
-  inline void OnEnable();
+  /// @brief Method OnEnablePostInjection, addr 0x280766c, size 0x20, virtual true, abstract: false, final false
+  inline void OnEnablePostInjection();
 
-  /// @brief Method FadeInAfterSceneTransitionCoroutine addr 0x268ca2c size 0x68 virtual false final false
-  inline ::System::Collections::IEnumerator* FadeInAfterSceneTransitionCoroutine();
+  /// @brief Method OnDisable, addr 0x28076f4, size 0x8, virtual false, abstract: false, final false
+  inline void OnDisable();
+
+  /// @brief Method FadeCoroutine, addr 0x280768c, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Collections::IEnumerator* FadeCoroutine();
 
   static inline ::GlobalNamespace::FadeInOnSceneTransitionFinished* New_ctor();
 
-  /// @brief Method .ctor addr 0x268cabc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2807724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FadeInOnSceneTransitionFinished", modifiers: "&&", def_value: None }]
@@ -197,24 +200,23 @@ protected:
   constexpr FadeInOnSceneTransitionFinished();
 
 public:
-  /// @brief Field _fadeInOut, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field _fadeInOut, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::FadeInOutController* ____fadeInOut;
 
-  /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeInOnSceneTransitionFinished, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FadeInOnSceneTransitionFinished, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FadeInOnSceneTransitionFinished, ____fadeInOut) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FadeInOnSceneTransitionFinished, ____fadeInOut) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FadeInOnSceneTransitionFinished, ____gameScenesManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FadeInOnSceneTransitionFinished, ____gameScenesManager) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FadeInOnSceneTransitionFinished);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FadeInOnSceneTransitionFinished*, "", "FadeInOnSceneTransitionFinished");
-NEED_NO_BOX(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeInAfterSceneTransitionCoroutine_d__3*, "",
-                       "FadeInOnSceneTransitionFinished/<FadeInAfterSceneTransitionCoroutine>d__3");
+NEED_NO_BOX(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__FadeInOnSceneTransitionFinished___FadeCoroutine_d__4*, "", "FadeInOnSceneTransitionFinished/<FadeCoroutine>d__4");

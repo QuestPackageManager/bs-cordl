@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::MediaContentType);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13267))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
 // CS Name: ::Oculus.Platform::MediaContentType
 struct CORDL_TYPE MediaContentType {
 public:

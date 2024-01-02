@@ -6,40 +6,40 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyedFactoryBase_2)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System {
-class Object;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class ConditionCopyNonLazyBinder;
+}
+namespace ModestTree::Util {
+template <typename T1, typename T2> class ValuePair_2;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-class ConditionCopyNonLazyBinder;
-}
-namespace Zenject {
-template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
 class IValidatable;
 }
-namespace ModestTree::Util {
-template <typename T1, typename T2> class ValuePair_2;
-}
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class ICollection_1;
+}
+namespace System {
+class Object;
+}
+namespace System {
+class Type;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System {
-class Type;
+namespace Zenject {
+template <typename TBase, typename TKey> class __KeyedFactoryBase_2____c;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -60,8 +60,8 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10994))
 // CS Name: ::KeyedFactoryBase`2::<>c<TBase,TKey>*
 class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
 public:
@@ -89,19 +89,19 @@ public:
 
   static inline ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Initialize>b__12_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Initialize>b__12_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TKey _Initialize_b__12_0(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x);
 
-  /// @brief Method <Initialize>b__12_1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Initialize>b__12_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Type* _Initialize_b__12_1(::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__KeyedFactoryBase_2____c", modifiers: "&&", def_value: None }]
@@ -128,8 +128,8 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10923))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
 // CS Name: ::Zenject::KeyedFactoryBase`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactoryBase_2 : public ::System::Object {
 public:
@@ -183,51 +183,51 @@ public:
 
   constexpr void __set__fallbackType(::System::Type* value);
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_ProvidedTypes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ProvidedTypes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ProvidedTypes();
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
 
-  /// @brief Method get_TypeMap addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_TypeMap, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* get_TypeMap();
 
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HasKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HasKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool HasKey(TKey key);
 
-  /// @brief Method GetTypeForKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetTypeForKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeForKey(TKey key);
 
-  /// @brief Method Validate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method AddBindingInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBindingInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDerived> static inline ::Zenject::ConditionCopyNonLazyBinder* AddBindingInternal(::Zenject::DiContainer* container, TKey key);
 
   static inline ::Zenject::KeyedFactoryBase_2<TBase, TKey>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenFieldSetter0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenFieldSetter1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenFieldSetter2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenInjectMethod0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyedFactoryBase_2", modifiers: "&&", def_value: None }]

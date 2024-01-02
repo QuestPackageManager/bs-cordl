@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IReadOnlyCollection_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -23,7 +23,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
 // CS Name: ::System.Collections.Generic::IReadOnlyCollection`1<T>*
 class CORDL_TYPE IReadOnlyCollection_1 {
 public:
@@ -36,7 +36,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyCollection_1", modifiers: "&&", def_value: None }]

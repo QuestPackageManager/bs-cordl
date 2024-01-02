@@ -15,21 +15,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::IntegerControl);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 101 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6723))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(6216))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6637))
 // CS Name: ::UnityEngine.InputSystem.Controls::IntegerControl*
 class CORDL_TYPE IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<int32_t> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x298a2b4 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2b0b008, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x298a33c size 0xc virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0b090, size 0xc, virtual true, abstract: false, final false
   inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x298a348 size 0x18 virtual true final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0b09c, size 0x18, virtual true, abstract: false, final false
   inline void WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "&&", def_value: None }]

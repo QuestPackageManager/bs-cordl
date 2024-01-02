@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FocusType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14814))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14597))
 // CS Name: ::UnityEngine::FocusType
 struct CORDL_TYPE FocusType {
 public:

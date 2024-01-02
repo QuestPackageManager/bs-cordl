@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DnsEndPoint)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace BGNet::Core {
+class ITaskUtility;
 }
 namespace System {
 class Object;
-}
-namespace BGNet::Core {
-class ITaskUtility;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DnsEndPoint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12722))
 // CS Name: ::DnsEndPoint*
 class CORDL_TYPE DnsEndPoint : public ::System::Object {
 public:
@@ -69,38 +69,38 @@ public:
 
   constexpr void __set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value);
 
-  /// @brief Method get_endPoint addr 0xdadb74 size 0x74 virtual false final false
+  /// @brief Method get_endPoint, addr 0xe33b78, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method .ctor addr 0xdaca04 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe32a1c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW hostName, int32_t port);
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method .ctor addr 0xdadbe8 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0xe33bec, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method GetEndPointAsync addr 0xdadc9c size 0x120 virtual false final false
+  /// @brief Method GetEndPointAsync, addr 0xe33ca0, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method GetEndPoint addr 0xdaddbc size 0x94 virtual false final false
+  /// @brief Method GetEndPoint, addr 0xe33dc0, size 0x94, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPoint();
 
-  /// @brief Method GetEndPointInternal addr 0xdade50 size 0xb0 virtual false final false
+  /// @brief Method GetEndPointInternal, addr 0xe33e54, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPointInternal();
 
-  /// @brief Method ToString addr 0xdadf00 size 0x8c virtual true final false
+  /// @brief Method ToString, addr 0xe33f04, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Equals addr 0xdadf8c size 0xa0 virtual true final false
+  /// @brief Method Equals, addr 0xe33f90, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xdae02c size 0x4c virtual true final true
+  /// @brief Method Equals, addr 0xe34030, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
 
-  /// @brief Method GetHashCode addr 0xdae078 size 0x2c virtual true final false
+  /// @brief Method GetHashCode, addr 0xe3407c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DnsEndPoint", modifiers: "&&", def_value: None }]

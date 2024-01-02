@@ -10,10 +10,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(RotationLimit)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimit);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12622))
 // CS Name: ::RootMotion.FinalIK::RotationLimit*
 class CORDL_TYPE RotationLimit : public ::UnityEngine::MonoBehaviour {
 public:
@@ -91,57 +91,57 @@ public:
 
   constexpr void __set_defaultLocalRotationSet(bool value);
 
-  /// @brief Method SetDefaultLocalRotation addr 0x121d940 size 0x3c virtual false final false
+  /// @brief Method SetDefaultLocalRotation, addr 0x128ec6c, size 0x3c, virtual false, abstract: false, final false
   inline void SetDefaultLocalRotation();
 
-  /// @brief Method SetDefaultLocalRotation addr 0x121d97c size 0x18 virtual false final false
+  /// @brief Method SetDefaultLocalRotation, addr 0x128eca8, size 0x18, virtual false, abstract: false, final false
   inline void SetDefaultLocalRotation(::UnityEngine::Quaternion localRotation);
 
-  /// @brief Method GetLimitedLocalRotation addr 0x121d994 size 0x284 virtual false final false
+  /// @brief Method GetLimitedLocalRotation, addr 0x128ecc0, size 0x284, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetLimitedLocalRotation(::UnityEngine::Quaternion localRotation, ByRef<bool> changed);
 
-  /// @brief Method Apply addr 0x121dd14 size 0x64 virtual false final false
+  /// @brief Method Apply, addr 0x128f040, size 0x64, virtual false, abstract: false, final false
   inline bool Apply();
 
-  /// @brief Method Disable addr 0x121dd78 size 0x2c virtual false final false
+  /// @brief Method Disable, addr 0x128f0a4, size 0x2c, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method get_secondaryAxis addr 0x121dda4 size 0xc virtual false final false
+  /// @brief Method get_secondaryAxis, addr 0x128f0d0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_secondaryAxis();
 
-  /// @brief Method get_crossAxis addr 0x121ddb0 size 0x30 virtual false final false
+  /// @brief Method get_crossAxis, addr 0x128f0dc, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_crossAxis();
 
-  /// @brief Method get_defaultLocalRotationOverride addr 0x121dde0 size 0x8 virtual false final false
+  /// @brief Method get_defaultLocalRotationOverride, addr 0x128f10c, size 0x8, virtual false, abstract: false, final false
   inline bool get_defaultLocalRotationOverride();
 
-  /// @brief Method set_defaultLocalRotationOverride addr 0x121dde8 size 0xc virtual false final false
+  /// @brief Method set_defaultLocalRotationOverride, addr 0x128f114, size 0xc, virtual false, abstract: false, final false
   inline void set_defaultLocalRotationOverride(bool value);
 
-  /// @brief Method LimitRotation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LimitRotation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Quaternion LimitRotation(::UnityEngine::Quaternion rotation);
 
-  /// @brief Method Awake addr 0x121dc18 size 0xfc virtual false final false
+  /// @brief Method Awake, addr 0x128ef44, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate addr 0x121ddf4 size 0x4 virtual false final false
+  /// @brief Method LateUpdate, addr 0x128f120, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LogWarning addr 0x121ddf8 size 0x28 virtual false final false
+  /// @brief Method LogWarning, addr 0x128f124, size 0x28, virtual false, abstract: false, final false
   inline void LogWarning(::StringW message);
 
-  /// @brief Method Limit1DOF addr 0x121de20 size 0xd4 virtual false final false
+  /// @brief Method Limit1DOF, addr 0x128f14c, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion Limit1DOF(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis);
 
-  /// @brief Method LimitTwist addr 0x121def4 size 0x258 virtual false final false
+  /// @brief Method LimitTwist, addr 0x128f220, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion LimitTwist(::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 axis, ::UnityEngine::Vector3 orthoAxis, float_t twistLimit);
 
-  /// @brief Method GetOrthogonalAngle addr 0x121e14c size 0x154 virtual false final false
+  /// @brief Method GetOrthogonalAngle, addr 0x128f478, size 0x154, virtual false, abstract: false, final false
   static inline float_t GetOrthogonalAngle(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, ::UnityEngine::Vector3 normal);
 
   static inline ::RootMotion::FinalIK::RotationLimit* New_ctor();
 
-  /// @brief Method .ctor addr 0x121e2a0 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x128f5cc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RotationLimit", modifiers: "&&", def_value: None }]

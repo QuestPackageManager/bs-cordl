@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::EventInterests);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14821))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14604))
 // CS Name: ::UnityEngine::EventInterests
 struct CORDL_TYPE EventInterests {
 public:
@@ -29,25 +29,25 @@ public:
 
   __declspec(property(get = get_wantsLessLayoutEvents)) bool wantsLessLayoutEvents;
 
-  /// @brief Method get_wantsMouseMove addr 0x2b96110 size 0x8 virtual false final false
+  /// @brief Method get_wantsMouseMove, addr 0x2cfe520, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseMove();
 
-  /// @brief Method set_wantsMouseMove addr 0x2b96118 size 0xc virtual false final false
+  /// @brief Method set_wantsMouseMove, addr 0x2cfe528, size 0xc, virtual false, abstract: false, final false
   inline void set_wantsMouseMove(bool value);
 
-  /// @brief Method get_wantsMouseEnterLeaveWindow addr 0x2b96124 size 0x8 virtual false final false
+  /// @brief Method get_wantsMouseEnterLeaveWindow, addr 0x2cfe534, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsMouseEnterLeaveWindow();
 
-  /// @brief Method set_wantsMouseEnterLeaveWindow addr 0x2b9612c size 0xc virtual false final false
+  /// @brief Method set_wantsMouseEnterLeaveWindow, addr 0x2cfe53c, size 0xc, virtual false, abstract: false, final false
   inline void set_wantsMouseEnterLeaveWindow(bool value);
 
-  /// @brief Method get_wantsLessLayoutEvents addr 0x2b96138 size 0x8 virtual false final false
+  /// @brief Method get_wantsLessLayoutEvents, addr 0x2cfe548, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsLessLayoutEvents();
 
-  /// @brief Method WantsEvent addr 0x2b96140 size 0x30 virtual false final false
+  /// @brief Method WantsEvent, addr 0x2cfe550, size 0x30, virtual false, abstract: false, final false
   inline bool WantsEvent(::UnityEngine::EventType type);
 
-  /// @brief Method WantsLayoutPass addr 0x2b96170 size 0x94 virtual false final false
+  /// @brief Method WantsLayoutPass, addr 0x2cfe580, size 0x94, virtual false, abstract: false, final false
   inline bool WantsLayoutPass(::UnityEngine::EventType type);
 
   // Ctor Parameters [CppParam { name: "_wantsMouseMove_k__BackingField", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_wantsMouseEnterLeaveWindow_k__BackingField", ty: "bool",

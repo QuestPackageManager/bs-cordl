@@ -16,12 +16,12 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2416))
 // CS Name: ::System::IEquatable`1<T>*
 class CORDL_TYPE IEquatable_1 {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(T other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEquatable_1", modifiers: "&&", def_value: None }]

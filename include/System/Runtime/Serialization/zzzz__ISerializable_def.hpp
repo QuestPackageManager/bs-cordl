@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISerializable)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ISerializable);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3196))
 // CS Name: ::System.Runtime.Serialization::ISerializable*
 class CORDL_TYPE ISerializable {
 public:
   // Declarations
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISerializable", modifiers: "&&", def_value: None }]

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MemoryPool_3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPool_3)
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,27 +23,27 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10968)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10968), inst: 3426 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11040)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11040), inst: 3500 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11067))
 // CS Name: ::Zenject::PoolableMemoryPool`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE PoolableMemoryPool_3 : public ::Zenject::MemoryPool_3<TParam1, TParam2, TValue> {
 public:
   // Declarations
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDespawned(TValue item);
 
-  /// @brief Method Reinitialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reinitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Reinitialize(TParam1 p1, TParam2 p2, TValue item);
 
   static inline ::Zenject::PoolableMemoryPool_3<TParam1, TParam2, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPool_3", modifiers: "&&", def_value: None }]

@@ -24,15 +24,15 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleVariable);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7265))
 // CS Name: ::UnityEngine.UIElements::StyleVariable
 struct CORDL_TYPE StyleVariable {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2d00748 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2e69af8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
-  /// @brief Method GetHashCode addr 0x2d00754 size 0x78 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e69b04, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None

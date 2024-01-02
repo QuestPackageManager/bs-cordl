@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ProviderBindingFinalizer_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPoolBindingFinalizer_1)
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class MemoryPoolBindInfo;
-}
-namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
 class FactoryBindInfo;
+}
+namespace Zenject {
+class BindInfo;
+}
+namespace Zenject {
+class MemoryPoolBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10793))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10865))
 // CS Name: ::Zenject::MemoryPoolBindingFinalizer`1<TContract>*
 class CORDL_TYPE MemoryPoolBindingFinalizer_1 : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -54,10 +54,10 @@ public:
 
   static inline ::Zenject::MemoryPoolBindingFinalizer_1<TContract>* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method OnFinalizeBinding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnFinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBindingFinalizer_1", modifiers: "&&", def_value: None }]

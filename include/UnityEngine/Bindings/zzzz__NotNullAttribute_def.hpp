@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NotNullAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16023))
 // CS Name: ::UnityEngine.Bindings::NotNullAttribute*
 class CORDL_TYPE NotNullAttribute : public ::System::Attribute {
 public:
@@ -32,13 +32,14 @@ public:
 
   constexpr void __set__Exception_k__BackingField(::StringW value);
 
-  /// @brief Method set_Exception addr 0x2bb14c8 size 0x8 virtual false final false
+  /// @brief Method set_Exception, addr 0x2d18878, size 0x8, virtual false, abstract: false, final false
   inline void set_Exception(::StringW value);
 
   static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor(::StringW exception);
 
-  /// @brief Method .ctor addr 0x2bb14d0 size 0x28 virtual false final false
-  inline void _ctor(::StringW exception);
+  /// @brief Method .ctor, addr 0x2d18880, size 0x28, virtual false, abstract: false, final false
+  /// @param exception: ::StringW (default: u"ArgumentNullException")
+  inline void _ctor(::StringW exception = u"ArgumentNullException");
 
   // Ctor Parameters [CppParam { name: "", ty: "NotNullAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

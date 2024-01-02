@@ -8,25 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BufferedLightColorGroupEffect)
 namespace GlobalNamespace {
-struct EnvironmentColorType;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-struct Vector4;
+class __BufferedLightColorGroupEffect__InitData;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
-class __BufferedLightColorGroupEffect__InitData;
+class ColorManager;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
-class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -34,8 +25,17 @@ class BeatmapDataCallbackWrapper;
 namespace GlobalNamespace {
 class ColorBoostBeatmapEventData;
 }
+namespace GlobalNamespace {
+struct EnvironmentColorType;
+}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine {
+struct Vector4;
+}
+namespace GlobalNamespace {
+class LightColorBeatmapEventData;
 }
 namespace GlobalNamespace {
 class LightGroup;
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5020))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4918))
 // CS Name: ::BufferedLightColorGroupEffect::InitData*
 class CORDL_TYPE __BufferedLightColorGroupEffect__InitData : public ::System::Object {
 public:
@@ -81,7 +81,7 @@ public:
   static inline ::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* New_ctor(::GlobalNamespace::LightGroup* lightGroup,
                                                                                        ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
-  /// @brief Method .ctor addr 0x226fb68 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x23a7e20, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BufferedLightColorGroupEffect__InitData", modifiers: "&&", def_value: None }]
@@ -118,8 +118,8 @@ static_assert(offsetof(::GlobalNamespace::__BufferedLightColorGroupEffect__InitD
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5021))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4919))
 // CS Name: ::BufferedLightColorGroupEffect*
 class CORDL_TYPE BufferedLightColorGroupEffect : public ::System::Object {
 public:
@@ -252,23 +252,23 @@ public:
   static inline ::GlobalNamespace::BufferedLightColorGroupEffect* New_ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                                                                            ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method .ctor addr 0x226f408 size 0x348 virtual false final false
+  /// @brief Method .ctor, addr 0x23a76c0, size 0x348, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__BufferedLightColorGroupEffect__InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method Cleanup addr 0x226f750 size 0x11c virtual false final false
+  /// @brief Method Cleanup, addr 0x23a7a08, size 0x11c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleColorBoostBeatmapEvent addr 0x226f86c size 0x1c virtual false final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x23a7b24, size 0x1c, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* colorBoost);
 
-  /// @brief Method HandleColorChangeBeatmapEvent addr 0x226f888 size 0xdc virtual false final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x23a7b40, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEvent);
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame addr 0x226f964 size 0x108 virtual false final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x23a7c1c, size 0x108, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
-  /// @brief Method GetColor addr 0x226fa6c size 0x34 virtual true final false
+  /// @brief Method GetColor, addr 0x23a7d24, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedLightColorGroupEffect", modifiers: "&&", def_value: None }]

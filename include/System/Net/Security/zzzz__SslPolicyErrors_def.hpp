@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Security::SslPolicyErrors);
 namespace System::Net::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8206))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9369))
 // CS Name: ::System.Net.Security::SslPolicyErrors
 struct CORDL_TYPE SslPolicyErrors {
 public:

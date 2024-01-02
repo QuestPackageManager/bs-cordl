@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NullableComparer_1)
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
 }
 namespace System {
-class Object;
+template <typename T> struct Nullable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -24,24 +24,24 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3853), inst: 1012 }), TypeDefinitionIndex(TypeDefinitionIndex(3853)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2446), inst: 2624 }), TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3855)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3865)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3865), inst: 1033
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2684 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3867)) CS Name:
 // ::System.Collections.Generic::NullableComparer`1<T>*
 class CORDL_TYPE NullableComparer_1 : public ::System::Collections::Generic::Comparer_1<::System::Nullable_1<T>> {
 public:
   // Declarations
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Nullable_1<T> x, ::System::Nullable_1<T> y);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Collections::Generic::NullableComparer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NullableComparer_1", modifiers: "&&", def_value: None }]

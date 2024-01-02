@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKTrackedSpace)
 namespace LIV::SDK::Unity {
+struct SDKMatrix4x4;
+}
+namespace LIV::SDK::Unity {
 struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
 struct SDKQuaternion;
-}
-namespace LIV::SDK::Unity {
-struct SDKMatrix4x4;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -27,16 +27,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKTrackedSpace);
 // SizeInfo { instance_size: 168, native_size: 168, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15214)), TypeDefinitionIndex(TypeDefinitionIndex(15215)), TypeDefinitionIndex(TypeDefinitionIndex(15213))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15221))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15110)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15111))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15117))
 // CS Name: ::LIV.SDK.Unity::SDKTrackedSpace
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20b4678 size 0x64 virtual false final false
+  /// @brief Method get_empty, addr 0x22155b0, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
-  /// @brief Method ToString addr 0x20b47a0 size 0x244 virtual true final false
+  /// @brief Method ToString, addr 0x22156d8, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "trackedSpaceWorldPosition", ty: "::LIV::SDK::Unity::SDKVector3", modifiers: "", def_value: None }, CppParam { name: "trackedSpaceWorldRotation", ty:

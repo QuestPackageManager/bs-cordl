@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(IDragAndDropController_1)
 namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
-namespace UnityEngine::UIElements {
-class StartDragArgs;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class StartDragArgs;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,21 +26,22 @@ namespace UnityEngine::UIElements {
 template <typename TArgs>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7041))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::UnityEngine.UIElements::IDragAndDropController`1<TArgs>*
 class CORDL_TYPE IDragAndDropController_1 {
 public:
   // Declarations
-  /// @brief Method CanStartDrag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanStartDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices);
 
-  /// @brief Method SetupDragAndDrop addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText);
+  /// @brief Method SetupDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param skipText: bool (default: false)
+  inline ::UnityEngine::UIElements::StartDragArgs* SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIndices, bool skipText = false);
 
-  /// @brief Method HandleDragAndDrop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleDragAndDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::DragVisualMode HandleDragAndDrop(TArgs args);
 
-  /// @brief Method OnDrop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDrop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnDrop(TArgs args);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDragAndDropController_1", modifiers: "&&", def_value: None }]

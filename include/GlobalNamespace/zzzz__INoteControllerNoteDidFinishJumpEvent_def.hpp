@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4885))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4764))
 // CS Name: ::INoteControllerNoteDidFinishJumpEvent*
 class CORDL_TYPE INoteControllerNoteDidFinishJumpEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerNoteDidFinishJump addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteControllerNoteDidFinishJump, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteControllerNoteDidFinishJump(::GlobalNamespace::NoteController* noteController);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteDidFinishJumpEvent", modifiers: "&&", def_value: None }]

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelReturnToMenuController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5188))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5083))
 // CS Name: ::StandardLevelReturnToMenuController*
 class CORDL_TYPE StandardLevelReturnToMenuController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -50,12 +50,12 @@ public:
 
   constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults* value);
 
-  /// @brief Method ReturnToMenu addr 0x20e94c0 size 0x40 virtual true final true
+  /// @brief Method ReturnToMenu, addr 0x23cafd0, size 0x40, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e9500 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cb010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelReturnToMenuController", modifiers: "&&", def_value: None }]

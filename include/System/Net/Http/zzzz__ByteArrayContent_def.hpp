@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(ByteArrayContent)
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace System::IO {
-class Stream;
-}
 namespace System::Net {
 class TransportContext;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Net::Http::ByteArrayContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14866))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14857))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14649))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14640))
 // CS Name: ::System.Net.Http::ByteArrayContent*
 class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
 public:
@@ -61,13 +61,13 @@ public:
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method .ctor addr 0x26b5b0c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2830b1c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 
-  /// @brief Method SerializeToStreamAsync addr 0x26b5b94 size 0x28 virtual true final false
+  /// @brief Method SerializeToStreamAsync, addr 0x2830ba4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method TryComputeLength addr 0x26b5bbc size 0x10 virtual true final false
+  /// @brief Method TryComputeLength, addr 0x2830bcc, size 0x10, virtual true, abstract: false, final false
   inline bool TryComputeLength(ByRef<int64_t> length);
 
   // Ctor Parameters [CppParam { name: "", ty: "ByteArrayContent", modifiers: "&&", def_value: None }]

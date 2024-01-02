@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ShelfToolData);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9856))
 // CS Name: ::HEU_ShelfToolData::ToolType
 struct CORDL_TYPE __HEU_ShelfToolData__ToolType {
 public:
@@ -84,8 +84,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ShelfToolData__ToolType, valu
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9783))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9856))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9857))
 // CS Name: ::HoudiniEngineUnity::HEU_ShelfToolData*
 class CORDL_TYPE HEU_ShelfToolData : public ::System::Object {
 public:
@@ -166,7 +166,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_ShelfToolData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2078d00 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x21d069c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_ShelfToolData", modifiers: "&&", def_value: None }]

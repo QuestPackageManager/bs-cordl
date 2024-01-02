@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IContainer)
-namespace System::ComponentModel {
-class IComponent;
-}
 namespace System {
 class IDisposable;
 }
 namespace System::ComponentModel {
 class ComponentCollection;
+}
+namespace System::ComponentModel {
+class IComponent;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IContainer);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9396))
 // CS Name: ::System.ComponentModel::IContainer*
 class CORDL_TYPE IContainer {
 public:
@@ -33,10 +33,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_Components addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Components, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::ComponentCollection* get_Components();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(::System::ComponentModel::IComponent* component);
 
   // Ctor Parameters [CppParam { name: "", ty: "IContainer", modifiers: "&&", def_value: None }]

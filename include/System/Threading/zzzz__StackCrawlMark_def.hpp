@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::StackCrawlMark);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2722))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2724))
 // CS Name: ::System.Threading::StackCrawlMark
 struct CORDL_TYPE StackCrawlMark {
 public:

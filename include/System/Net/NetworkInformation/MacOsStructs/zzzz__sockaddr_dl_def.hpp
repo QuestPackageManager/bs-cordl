@@ -17,12 +17,12 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl);
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9299))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_dl
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read addr 0x2873784 size 0x190 virtual false final false
+  /// @brief Method Read, addr 0x29f0008, size 0x190, virtual false, abstract: false, final false
   inline void Read(void* ptr);
 
   // Ctor Parameters [CppParam { name: "sdl_len", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "sdl_family", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

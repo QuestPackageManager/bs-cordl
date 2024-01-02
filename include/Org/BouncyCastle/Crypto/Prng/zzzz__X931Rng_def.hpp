@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931Rng)
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class IEntropySource;
 }
 namespace Org::BouncyCastle::Crypto {
-class IEntropySource;
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931Rng);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1120))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931Rng*
 class CORDL_TYPE X931Rng : public ::System::Object {
@@ -96,25 +96,25 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::X931Rng* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector,
                                                                      ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method .ctor addr 0xecf1a4 size 0x1f8 virtual false final false
+  /// @brief Method .ctor, addr 0xf45390, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource);
 
-  /// @brief Method Generate addr 0xecf39c size 0x488 virtual false final false
+  /// @brief Method Generate, addr 0xf45588, size 0x488, virtual false, abstract: false, final false
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, bool predictionResistant);
 
-  /// @brief Method Reseed addr 0xecf9b4 size 0x18c virtual false final false
+  /// @brief Method Reseed, addr 0xf45ba0, size 0x18c, virtual false, abstract: false, final false
   inline void Reseed();
 
-  /// @brief Method get_EntropySource addr 0xecfb40 size 0x8 virtual false final false
+  /// @brief Method get_EntropySource, addr 0xf45d2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* get_EntropySource();
 
-  /// @brief Method Process addr 0xecf838 size 0x134 virtual false final false
+  /// @brief Method Process, addr 0xf45a24, size 0x134, virtual false, abstract: false, final false
   inline void Process(::ArrayW<uint8_t, ::Array<uint8_t>*> res, ::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method Increment addr 0xecf96c size 0x48 virtual false final false
+  /// @brief Method Increment, addr 0xf45b58, size 0x48, virtual false, abstract: false, final false
   inline void Increment(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method IsTooLarge addr 0xecf824 size 0x14 virtual false final false
+  /// @brief Method IsTooLarge, addr 0xf45a10, size 0x14, virtual false, abstract: false, final false
   static inline bool IsTooLarge(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t maxBytes);
 
   // Ctor Parameters [CppParam { name: "", ty: "X931Rng", modifiers: "&&", def_value: None }]

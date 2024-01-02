@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlEnumAttributeDescription_1)
 namespace UnityEngine::UIElements {
+template <typename T> class __UxmlEnumAttributeDescription_1____c;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class __UxmlEnumAttributeDescription_1____c;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
@@ -35,8 +35,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7079))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6993))
 // CS Name: ::UxmlEnumAttributeDescription`1::<>c<T>*
 class CORDL_TYPE __UxmlEnumAttributeDescription_1____c : public ::System::Object {
 public:
@@ -64,13 +64,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlEnumAttributeDescription_1____c<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _GetValueFromBag_b__3_0(::StringW s, T convertible);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T _TryGetValueFromBag_b__4_0(::StringW s, T convertible);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UxmlEnumAttributeDescription_1____c", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7068)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7068), inst: 5099 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumAttributeDescription`1<T>*
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {
 public:
@@ -107,16 +107,16 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetValueFromBag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method TryGetValueFromBag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<T> value);
 
-  /// @brief Method ConvertValueToEnum addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ConvertValueToEnum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline U ConvertValueToEnum(::StringW v, U defaultValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlEnumAttributeDescription_1", modifiers: "&&", def_value: None }]

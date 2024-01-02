@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Subdivision)
 namespace UnityEngine::ProBuilder {
-class ActionResult;
-}
-namespace UnityEngine::ProBuilder {
-class Face;
-}
-namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
+}
+namespace UnityEngine::ProBuilder {
+class ActionResult;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace UnityEngine::ProBuilder {
+class Face;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::MeshOperations {
@@ -27,16 +27,16 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::Subdivision);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12208))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12280))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Subdivision*
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide addr 0x2a3d3e0 size 0xb4 virtual false final false
+  /// @brief Method Subdivide, addr 0x2bbf134, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
-  /// @brief Method Subdivide addr 0x2a3d494 size 0x8 virtual false final false
+  /// @brief Method Subdivide, addr 0x2bbf1e8, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 

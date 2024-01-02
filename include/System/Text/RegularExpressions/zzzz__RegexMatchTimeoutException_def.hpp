@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__TimeoutException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegexMatchTimeoutException)
-namespace System {
-struct TimeSpan;
-}
 namespace System::Runtime::Serialization {
-class ISerializable;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISerializable;
+}
+namespace System {
+struct TimeSpan;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexMatchTimeoutException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2482)), TypeDefinitionIndex(TypeDefinitionIndex(2485))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7760))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2487))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8923))
 // CS Name: ::System.Text.RegularExpressions::RegexMatchTimeoutException*
 class CORDL_TYPE RegexMatchTimeoutException : public ::System::TimeoutException {
 public:
@@ -72,30 +72,30 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method .ctor addr 0x27e4c54 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x2962550, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor();
 
-  /// @brief Method .ctor addr 0x27e4d20 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x296261c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                          ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x27e4db4 size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0x29626b0, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x27e4eec size 0xd4 virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29627e8, size 0xd4, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Input addr 0x27e4fc0 size 0x8 virtual false final false
+  /// @brief Method get_Input, addr 0x29628bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
-  /// @brief Method get_Pattern addr 0x27e4fc8 size 0x8 virtual false final false
+  /// @brief Method get_Pattern, addr 0x29628c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
-  /// @brief Method get_MatchTimeout addr 0x27e4fd0 size 0x8 virtual false final false
+  /// @brief Method get_MatchTimeout, addr 0x29628cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
   // Ctor Parameters [CppParam { name: "", ty: "RegexMatchTimeoutException", modifiers: "&&", def_value: None }]

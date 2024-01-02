@@ -8,74 +8,74 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentDictionary_2)
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
-}
-namespace System::Collections {
-struct DictionaryEntry;
 }
 namespace System::Collections::Concurrent {
 template <typename TKey, typename TValue> class __ConcurrentDictionary_2___GetEnumerator_d__35;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IDictionary;
+template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Node;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
-}
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class __ConcurrentDictionary_2__Tables;
 }
 namespace System {
 class Array;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Concurrent {
+template <typename TKey, typename TValue> class __ConcurrentDictionary_2__DictionaryEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+struct DictionaryEntry;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections::ObjectModel {
+template <typename T> class ReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System {
 class IDisposable;
@@ -108,8 +108,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3794))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3806))
 // CS Name: ::ConcurrentDictionary`2::Tables<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Tables : public ::System::Object {
 public:
@@ -150,7 +150,7 @@ public:
       ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> buckets,
       ::ArrayW<::System::Object*, ::Array<::System::Object*>*> locks, ::ArrayW<int32_t, ::Array<int32_t>*> countPerLock);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void
   _ctor(::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> buckets,
         ::ArrayW<::System::Object*, ::Array<::System::Object*>*> locks, ::ArrayW<int32_t, ::Array<int32_t>*> countPerLock);
@@ -188,8 +188,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3807))
 // CS Name: ::ConcurrentDictionary`2::Node<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Node : public ::System::Object {
 public:
@@ -233,7 +233,7 @@ public:
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* New_ctor(TKey key, TValue value, int32_t hashcode,
                                                                                                           ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* next);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TKey key, TValue value, int32_t hashcode, ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* next);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentDictionary_2__Node", modifiers: "&&", def_value: None }]
@@ -272,8 +272,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3796))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3808))
 // CS Name: ::ConcurrentDictionary`2::DictionaryEnumerator<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__DictionaryEnumerator : public ::System::Object {
 public:
@@ -304,25 +304,25 @@ public:
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*
   New_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary);
 
-  /// @brief Method get_Entry addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Entry, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentDictionary_2__DictionaryEnumerator", modifiers: "&&", def_value: None }]
@@ -352,8 +352,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3829)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3829), inst: 1082
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3797)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2___GetEnumerator_d__35 : public ::System::Object {
 public:
   // Declarations
@@ -432,22 +432,23 @@ public:
 
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
+  /// true
   inline ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcurrentDictionary_2___GetEnumerator_d__35", modifiers: "&&", def_value: None }]
@@ -493,8 +494,8 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3798))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3810))
 // CS Name: ::System.Collections.Concurrent::ConcurrentDictionary`2<TKey,TValue>*
 class CORDL_TYPE ConcurrentDictionary_2 : public ::System::Object {
 public:
@@ -628,195 +629,196 @@ public:
 
   static inline bool getStaticF_s_isValueWriteAtomic();
 
-  /// @brief Method IsValueWriteAtomic addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsValueWriteAtomic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsValueWriteAtomic();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method InitializeFromCollection addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InitializeFromCollection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InitializeFromCollection(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* New_ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray,
                                                                                                   ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t concurrencyLevel, int32_t capacity, bool growLockArray, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method TryAdd addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryAdd(TKey key, TValue value);
 
-  /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method TryRemove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryRemove(TKey key, ByRef<TValue> value);
 
-  /// @brief Method TryRemoveInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryRemoveInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryRemoveInternal(TKey key, ByRef<TValue> value, bool matchValue, TValue oldValue);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
-  /// @brief Method TryGetValueInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValueInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValueInternal(TKey key, int32_t hashcode, ByRef<TValue> value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___CopyTo(
       ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> array, int32_t index);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> ToArray();
 
-  /// @brief Method CopyToPairs addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyToPairs, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyToPairs(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> array, int32_t index);
 
-  /// @brief Method CopyToEntries addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyToEntries, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyToEntries(::ArrayW<::System::Collections::DictionaryEntry, ::Array<::System::Collections::DictionaryEntry>*> array, int32_t index);
 
-  /// @brief Method CopyToObjects addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyToObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyToObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* GetEnumerator();
 
-  /// @brief Method TryAddInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryAddInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryAddInternal(TKey key, int32_t hashcode, TValue value, bool updateIfExists, bool acquireLock, ByRef<TValue> resultingValue);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue get_Item(TKey key);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method ThrowKeyNotFoundException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ThrowKeyNotFoundException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ThrowKeyNotFoundException(::System::Object* key);
 
-  /// @brief Method ThrowKeyNullException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ThrowKeyNullException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void ThrowKeyNullException();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method GetCountInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCountInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetCountInternal();
 
-  /// @brief Method GetOrAdd addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetOrAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue GetOrAdd(TKey key, ::System::Func_2<TKey, TValue>* valueFactory);
 
-  /// @brief Method GetOrAdd addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetOrAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue GetOrAdd(TKey key, TValue value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<TKey,TValue>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IDictionary<TKey,TValue>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IDictionary_TKey_TValue__Add(TKey key, TValue value);
 
-  /// @brief Method System.Collections.Generic.IDictionary<TKey,TValue>.Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IDictionary<TKey,TValue>.Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_IDictionary_TKey_TValue__Remove(TKey key);
 
-  /// @brief Method get_Keys addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<TKey>* get_Keys();
 
-  /// @brief Method get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<TValue>* get_Values();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___Add(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___Contains(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final
+  /// true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_TKey_TValue___Remove(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> keyValuePair);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IDictionary.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IDictionary_Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method System.Collections.IDictionary.Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_Contains(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
 
-  /// @brief Method System.Collections.IDictionary.get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IDictionary.get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IDictionary_get_IsReadOnly();
 
-  /// @brief Method System.Collections.IDictionary.get_Keys addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Keys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
 
-  /// @brief Method System.Collections.IDictionary.Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IDictionary_Remove(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.get_Values addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Values, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Values();
 
-  /// @brief Method System.Collections.IDictionary.get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IDictionary_get_Item(::System::Object* key);
 
-  /// @brief Method System.Collections.IDictionary.set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IDictionary.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IDictionary_set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method GrowTable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GrowTable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void GrowTable(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* tables);
 
-  /// @brief Method GetBucket addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t GetBucket(int32_t hashcode, int32_t bucketCount);
 
-  /// @brief Method GetBucketAndLockNo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetBucketAndLockNo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void GetBucketAndLockNo(int32_t hashcode, ByRef<int32_t> bucketNo, ByRef<int32_t> lockNo, int32_t bucketCount, int32_t lockCount);
 
-  /// @brief Method get_DefaultConcurrencyLevel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_DefaultConcurrencyLevel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t get_DefaultConcurrencyLevel();
 
-  /// @brief Method AcquireAllLocks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AcquireAllLocks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AcquireAllLocks(ByRef<int32_t> locksAcquired);
 
-  /// @brief Method AcquireLocks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AcquireLocks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AcquireLocks(int32_t fromInclusive, int32_t toExclusive, ByRef<int32_t> locksAcquired);
 
-  /// @brief Method ReleaseLocks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReleaseLocks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReleaseLocks(int32_t fromInclusive, int32_t toExclusive);
 
-  /// @brief Method GetKeys addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetKeys, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<TKey>* GetKeys();
 
-  /// @brief Method GetValues addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<TValue>* GetValues();
 
-  /// @brief Method OnSerializing addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSerializing, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnSerializing(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnSerialized addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSerialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnSerialized(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserialized addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDeserialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDeserialized(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcurrentDictionary_2", modifiers: "&&", def_value: None }]

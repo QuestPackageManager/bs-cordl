@@ -19,18 +19,18 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2535))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2537))
 // CS Name: ::System::ByReference`1<T>
 struct CORDL_TYPE ByReference_1 {
 public:
   // Declarations
   __declspec(property(get = get_Value)) T Value;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<T> value);
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ByRef<T> get_Value();
 
   // Ctor Parameters [CppParam { name: "_value", ty: "void*", modifiers: "", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RuntimePlatform);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10034))
 // CS Name: ::UnityEngine::RuntimePlatform
 struct CORDL_TYPE RuntimePlatform {
 public:

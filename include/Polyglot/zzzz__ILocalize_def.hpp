@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Polyglot::ILocalize);
 namespace Polyglot {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15537))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15553))
 // CS Name: ::Polyglot::ILocalize*
 class CORDL_TYPE ILocalize {
 public:
   // Declarations
-  /// @brief Method OnLocalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnLocalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnLocalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILocalize", modifiers: "&&", def_value: None }]

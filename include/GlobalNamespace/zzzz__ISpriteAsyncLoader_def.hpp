@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ISpriteAsyncLoader)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
 namespace UnityEngine {
 class Sprite;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -24,12 +24,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISpriteAsyncLoader);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5989))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5898))
 // CS Name: ::ISpriteAsyncLoader*
 class CORDL_TYPE ISpriteAsyncLoader {
 public:
   // Declarations
-  /// @brief Method LoadSpriteAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LoadSpriteAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISpriteAsyncLoader", modifiers: "&&", def_value: None }]

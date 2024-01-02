@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Mono::Globalization::Unicode::Level2Map);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Globalization::Unicode {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2262))
 // CS Name: ::Mono.Globalization.Unicode::Level2Map*
 class CORDL_TYPE Level2Map : public ::System::Object {
@@ -41,7 +41,7 @@ public:
 
   static inline ::Mono::Globalization::Unicode::Level2Map* New_ctor(uint8_t source, uint8_t replace);
 
-  /// @brief Method .ctor addr 0x22bbc44 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x24156c4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t source, uint8_t replace);
 
   // Ctor Parameters [CppParam { name: "", ty: "Level2Map", modifiers: "&&", def_value: None }]

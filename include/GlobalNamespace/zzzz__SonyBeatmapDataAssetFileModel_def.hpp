@@ -15,9 +15,6 @@ struct CancellationToken;
 namespace GlobalNamespace {
 class IBeatmapDataAssetFileModel;
 }
-namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -25,22 +22,25 @@ namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
-struct GetAssetBundleFileResult;
-}
-namespace GlobalNamespace {
 struct __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct GetAssetBundleFileResult;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,19 +56,19 @@ MARK_VAL_T(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetAssetBundleFi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 865 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 865 }), TypeDefinitionIndex(TypeDefinitionIndex(4433))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4671)) CS Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4580)) CS
+// Name: ::SonyBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__3
 struct CORDL_TYPE __SonyBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__3 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x222f2d8 size 0x238 virtual true final true
+  /// @brief Method MoveNext, addr 0x2369358, size 0x238, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x222f510 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x2369590, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -110,8 +110,8 @@ static_assert(offsetof(::GlobalNamespace::__SonyBeatmapDataAssetFileModel___GetA
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4672))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4581))
 // CS Name: ::SonyBeatmapDataAssetFileModel*
 class CORDL_TYPE SonyBeatmapDataAssetFileModel : public ::System::Object {
 public:
@@ -131,23 +131,23 @@ public:
 
   constexpr void __set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent addr 0x222f01c size 0xb0 virtual true final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x236909c, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent addr 0x222f0cc size 0xb0 virtual true final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x236914c, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method GetAssetBundleFileForPreviewLevelAsync addr 0x222f17c size 0xec virtual true final true
+  /// @brief Method GetAssetBundleFileForPreviewLevelAsync, addr 0x23691fc, size 0xec, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync addr 0x222f268 size 0x68 virtual true final true
+  /// @brief Method TryDeleteAssetBundleFileForPreviewLevelAsync, addr 0x23692e8, size 0x68, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForPreviewLevelAsync(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::SonyBeatmapDataAssetFileModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x222f2d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2369350, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyBeatmapDataAssetFileModel", modifiers: "&&", def_value: None }]

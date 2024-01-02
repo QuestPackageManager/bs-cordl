@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpMethodFlags);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7882))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9045))
 // CS Name: ::System.Net::FtpMethodFlags
 struct CORDL_TYPE FtpMethodFlags {
 public:

@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineClipAsset);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13927))
 // CS Name: ::UnityEngine.Timeline::ITimelineClipAsset*
 class CORDL_TYPE ITimelineClipAsset {
 public:
   // Declarations
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
-  /// @brief Method get_clipCaps addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_clipCaps, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimelineClipAsset", modifiers: "&&", def_value: None }]

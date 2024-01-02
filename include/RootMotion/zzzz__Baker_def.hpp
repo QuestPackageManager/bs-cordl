@@ -12,19 +12,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Baker)
 namespace UnityEngine {
-class Animator;
+class Transform;
+}
+namespace RootMotion {
+struct __Baker__Mode;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
 }
 namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-class AnimationClip;
-}
-namespace RootMotion {
-struct __Baker__Mode;
+class Animator;
 }
 // Forward declare root types
 namespace RootMotion {
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::RootMotion::Baker);
 namespace RootMotion {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12398))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12470))
 // CS Name: ::Baker::Mode
 struct CORDL_TYPE __Baker__Mode {
 public:
@@ -98,8 +98,8 @@ static_assert(offsetof(::RootMotion::__Baker__Mode, value__) == 0x0, "Offset mis
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12398)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12399))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12470)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12471))
 // CS Name: ::RootMotion::Baker*
 class CORDL_TYPE Baker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -238,63 +238,63 @@ public:
 
   constexpr void __set__clipLength_k__BackingField(float_t value);
 
-  /// @brief Method OpenUserManual addr 0x11c08ac size 0x44 virtual false final false
+  /// @brief Method OpenUserManual, addr 0x1230bd8, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x11c08f0 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference, addr 0x1230c1c, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method SupportGroup addr 0x11c0934 size 0x44 virtual false final false
+  /// @brief Method SupportGroup, addr 0x1230c60, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x11c0978 size 0x44 virtual false final false
+  /// @brief Method ASThread, addr 0x1230ca4, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method get_isBaking addr 0x11c09bc size 0x8 virtual false final false
+  /// @brief Method get_isBaking, addr 0x1230ce8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isBaking();
 
-  /// @brief Method set_isBaking addr 0x11c09c4 size 0xc virtual false final false
+  /// @brief Method set_isBaking, addr 0x1230cf0, size 0xc, virtual false, abstract: false, final false
   inline void set_isBaking(bool value);
 
-  /// @brief Method get_bakingProgress addr 0x11c09d0 size 0x8 virtual false final false
+  /// @brief Method get_bakingProgress, addr 0x1230cfc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bakingProgress();
 
-  /// @brief Method set_bakingProgress addr 0x11c09d8 size 0x8 virtual false final false
+  /// @brief Method set_bakingProgress, addr 0x1230d04, size 0x8, virtual false, abstract: false, final false
   inline void set_bakingProgress(float_t value);
 
-  /// @brief Method GetCharacterRoot addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCharacterRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Transform* GetCharacterRoot();
 
-  /// @brief Method OnStartBaking addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnStartBaking, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStartBaking();
 
-  /// @brief Method OnSetLoopFrame addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSetLoopFrame, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSetLoopFrame(float_t time);
 
-  /// @brief Method OnSetCurves addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSetCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSetCurves(ByRef<::UnityEngine::AnimationClip*> clip);
 
-  /// @brief Method OnSetKeyframes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSetKeyframes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSetKeyframes(float_t time, bool lastFrame);
 
-  /// @brief Method get_clipLength addr 0x11c09e0 size 0x8 virtual false final false
+  /// @brief Method get_clipLength, addr 0x1230d0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_clipLength();
 
-  /// @brief Method set_clipLength addr 0x11c09e8 size 0x8 virtual false final false
+  /// @brief Method set_clipLength, addr 0x1230d14, size 0x8, virtual false, abstract: false, final false
   inline void set_clipLength(float_t value);
 
-  /// @brief Method BakeClip addr 0x11c09f0 size 0x4 virtual false final false
+  /// @brief Method BakeClip, addr 0x1230d1c, size 0x4, virtual false, abstract: false, final false
   inline void BakeClip();
 
-  /// @brief Method StartBaking addr 0x11c09f4 size 0x4 virtual false final false
+  /// @brief Method StartBaking, addr 0x1230d20, size 0x4, virtual false, abstract: false, final false
   inline void StartBaking();
 
-  /// @brief Method StopBaking addr 0x11c09f8 size 0x4 virtual false final false
+  /// @brief Method StopBaking, addr 0x1230d24, size 0x4, virtual false, abstract: false, final false
   inline void StopBaking();
 
   static inline ::RootMotion::Baker* New_ctor();
 
-  /// @brief Method .ctor addr 0x11c09fc size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x1230d28, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Baker", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IEntropySourceProvider {
 public:
   // Declarations
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEntropySourceProvider", modifiers: "&&", def_value: None }]

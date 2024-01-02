@@ -16,48 +16,48 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Raw::Interleave);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Raw {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1588))
 // CS Name: ::Org.BouncyCastle.Math.Raw::Interleave*
 class CORDL_TYPE Interleave : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Expand8to16 addr 0xfea998 size 0x20 virtual false final false
+  /// @brief Method Expand8to16, addr 0x105bbe4, size 0x20, virtual false, abstract: false, final false
   static inline uint32_t Expand8to16(uint32_t x);
 
-  /// @brief Method Expand16to32 addr 0xfea9b8 size 0x28 virtual false final false
+  /// @brief Method Expand16to32, addr 0x105bc04, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t Expand16to32(uint32_t x);
 
-  /// @brief Method Expand32to64 addr 0xfea9e0 size 0x58 virtual false final false
+  /// @brief Method Expand32to64, addr 0x105bc2c, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t Expand32to64(uint32_t x);
 
-  /// @brief Method Expand64To128 addr 0xfeaa38 size 0xa8 virtual false final false
+  /// @brief Method Expand64To128, addr 0x105bc84, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Expand64To128Rev addr 0xfeaae0 size 0xa8 virtual false final false
+  /// @brief Method Expand64To128Rev, addr 0x105bd2c, size 0xa8, virtual false, abstract: false, final false
   static inline void Expand64To128Rev(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Shuffle addr 0xfeab88 size 0x48 virtual false final false
+  /// @brief Method Shuffle, addr 0x105bdd4, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Shuffle(uint32_t x);
 
-  /// @brief Method Shuffle addr 0xfeabd0 size 0x5c virtual false final false
+  /// @brief Method Shuffle, addr 0x105be1c, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Shuffle(uint64_t x);
 
-  /// @brief Method Shuffle2 addr 0xfeac2c size 0x54 virtual false final false
+  /// @brief Method Shuffle2, addr 0x105be78, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Shuffle2(uint32_t x);
 
-  /// @brief Method Unshuffle addr 0xfeac80 size 0x48 virtual false final false
+  /// @brief Method Unshuffle, addr 0x105becc, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle(uint32_t x);
 
-  /// @brief Method Unshuffle addr 0xfeacc8 size 0x5c virtual false final false
+  /// @brief Method Unshuffle, addr 0x105bf14, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t Unshuffle(uint64_t x);
 
-  /// @brief Method Unshuffle2 addr 0xfead24 size 0x54 virtual false final false
+  /// @brief Method Unshuffle2, addr 0x105bf70, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t Unshuffle2(uint32_t x);
 
   static inline ::Org::BouncyCastle::Math::Raw::Interleave* New_ctor();
 
-  /// @brief Method .ctor addr 0xfead78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x105bfc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LookAtController)
-namespace UnityEngine {
-class Transform;
-}
 namespace RootMotion::FinalIK {
 class LookAtIK;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::LookAtController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 149, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12653))
 // CS Name: ::RootMotion.FinalIK::LookAtController*
 class CORDL_TYPE LookAtController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -213,24 +213,24 @@ public:
 
   constexpr void __set_lastSmoothTowardsTarget(bool value);
 
-  /// @brief Method Start addr 0x1225e8c size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x12971b8, size 0x68, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x1225f78 size 0x4e8 virtual false final false
+  /// @brief Method LateUpdate, addr 0x12972a4, size 0x4e8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method get_pivot addr 0x1225ef4 size 0x84 virtual false final false
+  /// @brief Method get_pivot, addr 0x1297220, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivot();
 
-  /// @brief Method ApplyMinDistance addr 0x1226460 size 0x184 virtual false final false
+  /// @brief Method ApplyMinDistance, addr 0x129778c, size 0x184, virtual false, abstract: false, final false
   inline void ApplyMinDistance();
 
-  /// @brief Method RootRotation addr 0x12265e4 size 0x24c virtual false final false
+  /// @brief Method RootRotation, addr 0x1297910, size 0x24c, virtual false, abstract: false, final false
   inline void RootRotation();
 
   static inline ::RootMotion::FinalIK::LookAtController* New_ctor();
 
-  /// @brief Method .ctor addr 0x1226830 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x1297b5c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LookAtController", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1307))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsException*
 class CORDL_TYPE TlsException : public ::System::IO::IOException {
@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW message, ::System::Exception* cause);
 
-  /// @brief Method .ctor addr 0xf35d50 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xfabf98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* cause);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "&&", def_value: None }]

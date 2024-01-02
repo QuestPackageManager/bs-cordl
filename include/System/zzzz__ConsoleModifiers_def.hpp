@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ConsoleModifiers);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2519))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2521))
 // CS Name: ::System::ConsoleModifiers
 struct CORDL_TYPE ConsoleModifiers {
 public:

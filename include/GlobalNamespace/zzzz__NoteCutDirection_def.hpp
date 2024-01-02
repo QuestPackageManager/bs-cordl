@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NoteCutDirection);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14968))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14755))
 // CS Name: ::NoteCutDirection
 struct CORDL_TYPE NoteCutDirection {
 public:

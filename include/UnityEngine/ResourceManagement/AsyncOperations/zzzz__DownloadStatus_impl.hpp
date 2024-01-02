@@ -6,9 +6,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus::get_Percent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2a5a964;
+  constexpr static std::size_t addrs = 0x2bdd6b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>::get(), "get_Percent",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));

@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaPublicBcpgKey)
 namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgOutputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
 class MPInteger;
 }
-namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -67,27 +67,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x11612b8 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x11d2508, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::RsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method .ctor addr 0x1161650 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x11d28a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* e);
 
-  /// @brief Method get_PublicExponent addr 0x11616e8 size 0x1c virtual false final false
+  /// @brief Method get_PublicExponent, addr 0x11d2938, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
 
-  /// @brief Method get_Modulus addr 0x1161704 size 0x1c virtual false final false
+  /// @brief Method get_Modulus, addr 0x11d2954, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Modulus();
 
-  /// @brief Method get_Format addr 0x1161720 size 0x40 virtual true final true
+  /// @brief Method get_Format, addr 0x11d2970, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded addr 0x1161760 size 0x84 virtual true final false
+  /// @brief Method GetEncoded, addr 0x11d29b0, size 0x84, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Encode addr 0x11617e4 size 0xd4 virtual true final false
+  /// @brief Method Encode, addr 0x11d2a34, size 0xd4, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaPublicBcpgKey", modifiers: "&&", def_value: None }]

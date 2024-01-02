@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::FieldAttributes);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3468))
 // CS Name: ::System.Reflection::FieldAttributes
 struct CORDL_TYPE FieldAttributes {
 public:

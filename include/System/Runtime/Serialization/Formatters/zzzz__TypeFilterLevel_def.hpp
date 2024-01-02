@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::TypeFilterLevel);
 namespace System::Runtime::Serialization::Formatters {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3241))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3242))
 // CS Name: ::System.Runtime.Serialization.Formatters::TypeFilterLevel
 struct CORDL_TYPE TypeFilterLevel {
 public:

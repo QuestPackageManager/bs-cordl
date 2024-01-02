@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1OutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method .ctor addr 0x1146d9c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11b7fec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteObject addr 0x1146da0 size 0x15c virtual true final false
+  /// @brief Method WriteObject, addr 0x11b7ff0, size 0x15c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1OutputStream", modifiers: "&&", def_value: None }]

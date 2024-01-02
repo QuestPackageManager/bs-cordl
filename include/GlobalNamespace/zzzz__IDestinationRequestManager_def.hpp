@@ -20,26 +20,26 @@ MARK_REF_PTR_T(::GlobalNamespace::IDestinationRequestManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4183))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4149))
 // CS Name: ::IDestinationRequestManager*
 class CORDL_TYPE IDestinationRequestManager {
 public:
   // Declarations
   __declspec(property(get = get_currentMenuDestinationRequest, put = set_currentMenuDestinationRequest))::GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
 
-  /// @brief Method add_didSendMenuDestinationRequestEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method remove_didSendMenuDestinationRequestEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_didSendMenuDestinationRequestEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  /// @brief Method get_currentMenuDestinationRequest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_currentMenuDestinationRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::MenuDestination* get_currentMenuDestinationRequest();
 
-  /// @brief Method set_currentMenuDestinationRequest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_currentMenuDestinationRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDestinationRequestManager", modifiers: "&&", def_value: None }]

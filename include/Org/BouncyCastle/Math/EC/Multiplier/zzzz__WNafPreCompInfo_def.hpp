@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1541))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::WNafPreCompInfo*
 class CORDL_TYPE WNafPreCompInfo : public ::System::Object {
@@ -99,51 +99,51 @@ public:
 
   constexpr void __set_m_width(int32_t value);
 
-  /// @brief Method DecrementPromotionCountdown addr 0xfc5ca4 size 0x38 virtual false final false
+  /// @brief Method DecrementPromotionCountdown, addr 0x1037ef0, size 0x38, virtual false, abstract: false, final false
   inline int32_t DecrementPromotionCountdown();
 
-  /// @brief Method get_PromotionCountdown addr 0xfc5cdc size 0x18 virtual false final false
+  /// @brief Method get_PromotionCountdown, addr 0x1037f28, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_PromotionCountdown();
 
-  /// @brief Method set_PromotionCountdown addr 0xfc5cf4 size 0x24 virtual false final false
+  /// @brief Method set_PromotionCountdown, addr 0x1037f40, size 0x24, virtual false, abstract: false, final false
   inline void set_PromotionCountdown(int32_t value);
 
-  /// @brief Method get_IsPromoted addr 0xfc5d18 size 0x1c virtual true final false
+  /// @brief Method get_IsPromoted, addr 0x1037f64, size 0x1c, virtual true, abstract: false, final false
   inline bool get_IsPromoted();
 
-  /// @brief Method get_ConfWidth addr 0xfc5d34 size 0x8 virtual true final false
+  /// @brief Method get_ConfWidth, addr 0x1037f80, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConfWidth();
 
-  /// @brief Method set_ConfWidth addr 0xfc5d3c size 0x8 virtual true final false
+  /// @brief Method set_ConfWidth, addr 0x1037f88, size 0x8, virtual true, abstract: false, final false
   inline void set_ConfWidth(int32_t value);
 
-  /// @brief Method get_PreComp addr 0xfc5d44 size 0x8 virtual true final false
+  /// @brief Method get_PreComp, addr 0x1037f90, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> get_PreComp();
 
-  /// @brief Method set_PreComp addr 0xfc5d4c size 0x8 virtual true final false
+  /// @brief Method set_PreComp, addr 0x1037f98, size 0x8, virtual true, abstract: false, final false
   inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  /// @brief Method get_PreCompNeg addr 0xfc5d54 size 0x8 virtual true final false
+  /// @brief Method get_PreCompNeg, addr 0x1037fa0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> get_PreCompNeg();
 
-  /// @brief Method set_PreCompNeg addr 0xfc5d5c size 0x8 virtual true final false
+  /// @brief Method set_PreCompNeg, addr 0x1037fa8, size 0x8, virtual true, abstract: false, final false
   inline void set_PreCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  /// @brief Method get_Twice addr 0xfc5d64 size 0x8 virtual true final false
+  /// @brief Method get_Twice, addr 0x1037fb0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
 
-  /// @brief Method set_Twice addr 0xfc5d6c size 0x8 virtual true final false
+  /// @brief Method set_Twice, addr 0x1037fb8, size 0x8, virtual true, abstract: false, final false
   inline void set_Twice(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method get_Width addr 0xfc5d74 size 0x8 virtual true final false
+  /// @brief Method get_Width, addr 0x1037fc0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
-  /// @brief Method set_Width addr 0xfc5d7c size 0x8 virtual true final false
+  /// @brief Method set_Width, addr 0x1037fc8, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc5d84 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x1037fd0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WNafPreCompInfo", modifiers: "&&", def_value: None }]

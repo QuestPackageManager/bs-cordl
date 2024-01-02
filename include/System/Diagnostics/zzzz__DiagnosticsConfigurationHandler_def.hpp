@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsConfigurationHandler)
+namespace System::Configuration {
+class IConfigurationSectionHandler;
+}
 namespace System::Xml {
 class XmlNode;
 }
 namespace System {
 class Object;
-}
-namespace System::Configuration {
-class IConfigurationSectionHandler;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DiagnosticsConfigurationHandler);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8419))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9583))
 // CS Name: ::System.Diagnostics::DiagnosticsConfigurationHandler*
 class CORDL_TYPE DiagnosticsConfigurationHandler : public ::System::Object {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Diagnostics::DiagnosticsConfigurationHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x27c713c size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x294525c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Create addr 0x27c7174 size 0x38 virtual true final false
+  /// @brief Method Create, addr 0x2945294, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Create(::System::Object* parent, ::System::Object* configContext, ::System::Xml::XmlNode* section);
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticsConfigurationHandler", modifiers: "&&", def_value: None }]

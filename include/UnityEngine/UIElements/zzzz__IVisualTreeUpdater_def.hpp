@@ -3,20 +3,20 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVisualTreeUpdater)
-namespace System {
-class IDisposable;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine::UIElements {
-class BaseVisualElementPanel;
+namespace Unity::Profiling {
+struct ProfilerMarker;
 }
 namespace UnityEngine::UIElements {
 struct VersionChangeType;
 }
-namespace Unity::Profiling {
-struct ProfilerMarker;
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualTreeUpdater);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6753))
 // CS Name: ::UnityEngine.UIElements::IVisualTreeUpdater*
 class CORDL_TYPE IVisualTreeUpdater {
 public:
@@ -41,16 +41,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method set_panel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_panel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  /// @brief Method get_profilerMarker addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_profilerMarker, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
-  /// @brief Method OnVersionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnVersionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVisualTreeUpdater", modifiers: "&&", def_value: None }]

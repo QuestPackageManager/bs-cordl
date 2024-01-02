@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PackLevelListHeaderTableCell)
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace System::Threading {
 class CancellationTokenSource;
 }
-namespace HMUI {
-struct __SelectableCell__TransitionType;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PackLevelListHeaderTableCell);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5433))
 // CS Name: ::PackLevelListHeaderTableCell*
 class CORDL_TYPE PackLevelListHeaderTableCell : public ::HMUI::TableCell {
 public:
@@ -90,24 +90,24 @@ public:
 
   constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  /// @brief Method set_text addr 0x213983c size 0x24 virtual false final false
+  /// @brief Method set_text, addr 0x227c2ec, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_text addr 0x2139860 size 0x24 virtual false final false
+  /// @brief Method get_text, addr 0x227c310, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method SelectionDidChange addr 0x2139884 size 0x4 virtual true final false
+  /// @brief Method SelectionDidChange, addr 0x227c334, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x2139910 size 0x4 virtual true final false
+  /// @brief Method HighlightDidChange, addr 0x227c3c0, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x2139888 size 0x88 virtual false final false
+  /// @brief Method RefreshVisuals, addr 0x227c338, size 0x88, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::PackLevelListHeaderTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2139914 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x227c3c4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PackLevelListHeaderTableCell", modifiers: "&&", def_value: None }]

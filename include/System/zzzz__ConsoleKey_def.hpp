@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ConsoleKey);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2517))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2519))
 // CS Name: ::System::ConsoleKey
 struct CORDL_TYPE ConsoleKey {
 public:

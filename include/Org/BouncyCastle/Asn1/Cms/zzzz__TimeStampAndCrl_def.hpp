@@ -4,6 +4,12 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampAndCrl)
+namespace Org::BouncyCastle::Asn1::Cms {
+class ContentInfo;
+}
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
@@ -12,12 +18,6 @@ class CertificateList;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class ContentInfo;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
-  /// @brief Method .ctor addr 0xe0ce68 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe8203c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe0ce90 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0xe82064, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe0cf18 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xe820ec, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_TimeStampToken addr 0xe0cfbc size 0x8 virtual true final false
+  /// @brief Method get_TimeStampToken, addr 0xe82190, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_TimeStampToken();
 
-  /// @brief Method get_Crl addr 0xe0cfc4 size 0x8 virtual true final false
+  /// @brief Method get_Crl, addr 0xe82198, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::CertificateList* get_Crl();
 
-  /// @brief Method ToAsn1Object addr 0xe0cfcc size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe821a0, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampAndCrl", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::ComponentModel::BrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8223))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9386))
 // CS Name: ::System.ComponentModel::BrowsableAttribute*
 class CORDL_TYPE BrowsableAttribute : public ::System::Attribute {
 public:
@@ -58,19 +58,19 @@ public:
 
   static inline ::System::ComponentModel::BrowsableAttribute* New_ctor(bool browsable);
 
-  /// @brief Method .ctor addr 0x27859a8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x29039d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool browsable);
 
-  /// @brief Method get_Browsable addr 0x27859d0 size 0x8 virtual false final false
+  /// @brief Method get_Browsable, addr 0x29039f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_Browsable();
 
-  /// @brief Method Equals addr 0x27859d8 size 0xe4 virtual true final false
+  /// @brief Method Equals, addr 0x2903a00, size 0xe4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2785abc size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2903ae4, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsDefaultAttribute addr 0x2785adc size 0x68 virtual true final false
+  /// @brief Method IsDefaultAttribute, addr 0x2903b04, size 0x68, virtual true, abstract: false, final false
   inline bool IsDefaultAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "BrowsableAttribute", modifiers: "&&", def_value: None }]

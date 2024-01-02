@@ -7,17 +7,16 @@
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3>
 inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>::get_ProvidedTypes() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>*>::get(), "get_ProvidedTypes",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::System::Type*>*, false>(this, ___internal_method);
 }
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3>
 inline TBase Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>::Create(TKey key, TParam1 param1, TParam2 param2, TParam3 param3) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>*>::get(), "Create", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::KeyedFactory_5<TBase, TKey, TParam1, TParam2, TParam3>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<TBase, false>(this, ___internal_method, key, param1, param2, param3);
 }
 template <typename TBase, typename TKey, typename TParam1, typename TParam2, typename TParam3>

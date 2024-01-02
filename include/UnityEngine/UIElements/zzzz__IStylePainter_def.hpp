@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IStylePainter)
 namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__RectangleParams;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__TextParams;
+}
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContextUtils__RectangleParams;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -27,18 +27,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IStylePainter);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6855))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6769))
 // CS Name: ::UnityEngine.UIElements::IStylePainter*
 class CORDL_TYPE IStylePainter {
 public:
   // Declarations
-  /// @brief Method DrawText addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DrawText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method DrawRectangle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DrawRectangle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawImmediate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DrawImmediate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStylePainter", modifiers: "&&", def_value: None }]

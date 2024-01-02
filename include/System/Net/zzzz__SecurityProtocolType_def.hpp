@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::SecurityProtocolType);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9055))
 // CS Name: ::System.Net::SecurityProtocolType
 struct CORDL_TYPE SecurityProtocolType {
 public:

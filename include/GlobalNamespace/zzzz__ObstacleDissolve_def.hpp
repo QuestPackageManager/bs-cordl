@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleDissolve);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4915))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4794))
 // CS Name: ::ObstacleDissolve*
 class CORDL_TYPE ObstacleDissolve : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,21 +45,21 @@ public:
 
   constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect* value);
 
-  /// @brief Method Awake addr 0x2259e94 size 0xec virtual false final false
+  /// @brief Method Awake, addr 0x238e2c0, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2259f80 size 0x134 virtual false final false
+  /// @brief Method OnDestroy, addr 0x238e3ac, size 0x134, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleObstacleDidInitEvent addr 0x225a0b4 size 0x30 virtual false final false
+  /// @brief Method HandleObstacleDidInitEvent, addr 0x238e4e0, size 0x30, virtual false, abstract: false, final false
   inline void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObcstacleDidStartDissolvingEvent addr 0x225a0e4 size 0x24 virtual false final false
+  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x238e534, size 0x24, virtual false, abstract: false, final false
   inline void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
   static inline ::GlobalNamespace::ObstacleDissolve* New_ctor();
 
-  /// @brief Method .ctor addr 0x225a15c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x238e5ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleDissolve", modifiers: "&&", def_value: None }]

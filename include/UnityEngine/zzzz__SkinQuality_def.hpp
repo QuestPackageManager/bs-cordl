@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SkinQuality);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10110))
 // CS Name: ::UnityEngine::SkinQuality
 struct CORDL_TYPE SkinQuality {
 public:

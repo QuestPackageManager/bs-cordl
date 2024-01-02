@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationHeaderValue)
 namespace System {
+class ICloneable;
+}
+namespace System::Net::Http::Headers {
+struct Token;
+}
+namespace System {
 class Object;
 }
 namespace System::Collections::Generic {
@@ -15,12 +21,6 @@ template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
-}
-namespace System {
-class ICloneable;
-}
-namespace System::Net::Http::Headers {
-struct Token;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::AuthenticationHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14875))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14658))
 // CS Name: ::System.Net.Http.Headers::AuthenticationHeaderValue*
 class CORDL_TYPE AuthenticationHeaderValue : public ::System::Object {
 public:
@@ -65,46 +65,46 @@ public:
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor(::StringW scheme, ::StringW parameter);
 
-  /// @brief Method .ctor addr 0x26b98e8 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x28348fc, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW scheme, ::StringW parameter);
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b991c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2834930, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Parameter addr 0x26b9924 size 0x8 virtual false final false
+  /// @brief Method get_Parameter, addr 0x2834938, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Parameter();
 
-  /// @brief Method set_Parameter addr 0x26b992c size 0x8 virtual false final false
+  /// @brief Method set_Parameter, addr 0x2834940, size 0x8, virtual false, abstract: false, final false
   inline void set_Parameter(::StringW value);
 
-  /// @brief Method get_Scheme addr 0x26b9934 size 0x8 virtual false final false
+  /// @brief Method get_Scheme, addr 0x2834948, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Scheme();
 
-  /// @brief Method set_Scheme addr 0x26b993c size 0x8 virtual false final false
+  /// @brief Method set_Scheme, addr 0x2834950, size 0x8, virtual false, abstract: false, final false
   inline void set_Scheme(::StringW value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x26b9944 size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2834958, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26b994c size 0xb4 virtual true final false
+  /// @brief Method Equals, addr 0x2834960, size 0xb4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26b9a00 size 0x7c virtual true final false
+  /// @brief Method GetHashCode, addr 0x2834a14, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x26b9a7c size 0xd0 virtual false final false
+  /// @brief Method TryParse, addr 0x2834a90, size 0xd0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue);
 
-  /// @brief Method TryParse addr 0x26b9ca8 size 0xb0 virtual false final false
+  /// @brief Method TryParse, addr 0x2834cbc, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::AuthenticationHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement addr 0x26b9b74 size 0x134 virtual false final false
+  /// @brief Method TryParseElement, addr 0x2834b88, size 0x134, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::AuthenticationHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method ToString addr 0x26ba0b0 size 0x5c virtual true final false
+  /// @brief Method ToString, addr 0x28350c4, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationHeaderValue", modifiers: "&&", def_value: None }]

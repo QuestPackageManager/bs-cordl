@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(BufferedCipherWrapper)
 namespace System::IO {
 class Stream;
 }
+namespace Org::BouncyCastle::Crypto {
+class IBufferedCipher;
+}
 namespace Org::BouncyCastle::Crypto::IO {
 class CipherStream;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipher;
-}
-namespace Org::BouncyCastle::Crypto {
-class IBufferedCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(982))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::BufferedCipherWrapper*
 class CORDL_TYPE BufferedCipherWrapper : public ::System::Object {
@@ -58,16 +58,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method .ctor addr 0xeb33f4 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0xf285e0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 
-  /// @brief Method GetMaxOutputSize addr 0xeb3488 size 0xac virtual true final true
+  /// @brief Method GetMaxOutputSize, addr 0xf28674, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method GetUpdateOutputSize addr 0xeb3534 size 0xac virtual true final true
+  /// @brief Method GetUpdateOutputSize, addr 0xf28720, size 0xac, virtual true, abstract: false, final true
   inline int32_t GetUpdateOutputSize(int32_t inputLen);
 
-  /// @brief Method get_Stream addr 0xeb35e0 size 0x8 virtual true final true
+  /// @brief Method get_Stream, addr 0xf287cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedCipherWrapper", modifiers: "&&", def_value: None }]

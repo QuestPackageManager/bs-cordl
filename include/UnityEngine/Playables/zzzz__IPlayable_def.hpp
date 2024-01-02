@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayable);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10358))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10436))
 // CS Name: ::UnityEngine.Playables::IPlayable*
 class CORDL_TYPE IPlayable {
 public:
   // Declarations
-  /// @brief Method GetHandle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayable", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerator)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1779))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EmptyEnumerator*
 class CORDL_TYPE EmptyEnumerator : public ::System::Object {
@@ -40,16 +40,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x10e686c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1157ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method MoveNext addr 0x10e6874 size 0x8 virtual true final true
+  /// @brief Method MoveNext, addr 0x1157abc, size 0x8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x10e687c size 0x4 virtual true final true
+  /// @brief Method Reset, addr 0x1157ac4, size 0x4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x10e6880 size 0x50 virtual true final true
+  /// @brief Method get_Current, addr 0x1157ac8, size 0x50, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "EmptyEnumerator", modifiers: "&&", def_value: None }]

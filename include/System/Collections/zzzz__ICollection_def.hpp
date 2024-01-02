@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Collections::ICollection);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3743))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3755))
 // CS Name: ::System.Collections::ICollection*
 class CORDL_TYPE ICollection {
 public:
@@ -38,16 +38,16 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_SyncRoot addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_IsSynchronized addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSynchronized();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICollection", modifiers: "&&", def_value: None }]

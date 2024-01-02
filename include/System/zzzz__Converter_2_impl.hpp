@@ -12,9 +12,8 @@ template <typename TInput, typename TOutput> inline void System::Converter_2<TIn
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TInput, typename TOutput> inline TOutput System::Converter_2<TInput, TOutput>::Invoke(TInput input) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Converter_2<TInput, TOutput>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TInput>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Converter_2<TInput, TOutput>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<TOutput, false>(this, ___internal_method, input);
 }
 // Ctor Parameters []

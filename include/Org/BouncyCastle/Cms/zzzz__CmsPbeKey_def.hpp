@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(CmsPbeKey)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsPbeKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(642))
 // CS Name: ::Org.BouncyCastle.Cms::CmsPbeKey*
 class CORDL_TYPE CmsPbeKey : public ::System::Object {
@@ -74,49 +74,49 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor addr 0x11738a4 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x11e4af4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor addr 0x11739dc size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x11e4c2c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
-  /// @brief Method .ctor addr 0x11738e8 size 0xf4 virtual false final false
+  /// @brief Method .ctor, addr 0x11e4b38, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method .ctor addr 0x1173a18 size 0x210 virtual false final false
+  /// @brief Method .ctor, addr 0x11e4c68, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyDerivationAlgorithm);
 
-  /// @brief Method Finalize addr 0x1173c28 size 0xac virtual true final false
+  /// @brief Method Finalize, addr 0x11e4e78, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_Password addr 0x1173cd4 size 0x10 virtual false final false
+  /// @brief Method get_Password, addr 0x11e4f24, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method get_Salt addr 0x1173ce4 size 0x5c virtual false final false
+  /// @brief Method get_Salt, addr 0x11e4f34, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
 
-  /// @brief Method GetSalt addr 0x1173d40 size 0x4 virtual false final false
+  /// @brief Method GetSalt, addr 0x11e4f90, size 0x4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
-  /// @brief Method get_IterationCount addr 0x1173d44 size 0x8 virtual false final false
+  /// @brief Method get_IterationCount, addr 0x11e4f94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_IterationCount();
 
-  /// @brief Method get_Algorithm addr 0x1173d4c size 0x40 virtual false final false
+  /// @brief Method get_Algorithm, addr 0x11e4f9c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Format addr 0x1173d8c size 0x40 virtual false final false
+  /// @brief Method get_Format, addr 0x11e4fdc, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method GetEncoded addr 0x1173dcc size 0x8 virtual false final false
+  /// @brief Method GetEncoded, addr 0x11e501c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEncoded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetEncoded(::StringW algorithmOid);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsPbeKey", modifiers: "&&", def_value: None }]

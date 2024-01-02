@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14353)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14353), inst:
-// 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14355)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 402 }), TypeDefinitionIndex(TypeDefinitionIndex(14082)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10071))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14084)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture*
 class CORDL_TYPE AssetReferenceTexture : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x28a5dd4 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23b1c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture", modifiers: "&&", def_value: None }]

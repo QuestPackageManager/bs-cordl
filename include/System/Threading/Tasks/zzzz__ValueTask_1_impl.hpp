@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 template <typename TResult>
 inline void GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>::setStaticF___9(::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>* value) {
   ::cordl_internals::setStaticField<::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>*, "<>9",
@@ -128,14 +128,13 @@ template <typename TResult> inline void System::Threading::Tasks::ValueTask_1<TR
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, result, token, continueOnCapturedContext);
 }
 template <typename TResult> inline int32_t System::Threading::Tasks::ValueTask_1<TResult>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(),
-                                                                             "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename TResult> inline bool System::Threading::Tasks::ValueTask_1<TResult>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename TResult> inline bool System::Threading::Tasks::ValueTask_1<TResult>::Equals(::System::Threading::Tasks::ValueTask_1<TResult> other) {
@@ -184,8 +183,8 @@ inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResu
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable_1<TResult>, false>(this, ___internal_method, continueOnCapturedContext);
 }
 template <typename TResult> inline ::StringW System::Threading::Tasks::ValueTask_1<TResult>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(),
-                                                                             "ToString", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask_1<TResult>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_obj", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_result", ty: "TResult", modifiers: "", def_value: Some("nullptr")

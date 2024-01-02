@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OriginatorInfoGenerator)
-namespace System::Collections {
-class IList;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class OriginatorInfo;
+namespace Org::BouncyCastle::X509 {
+class X509Certificate;
 }
 namespace Org::BouncyCastle::X509::Store {
 class IX509Store;
 }
-namespace Org::BouncyCastle::X509 {
-class X509Certificate;
+namespace Org::BouncyCastle::Asn1::Cms {
+class OriginatorInfo;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInfoGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(680))
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInfoGenerator*
 class CORDL_TYPE OriginatorInfoGenerator : public ::System::Object {
@@ -52,20 +52,20 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
-  /// @brief Method .ctor addr 0x11956d8 size 0x110 virtual false final false
+  /// @brief Method .ctor, addr 0x1206928, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* origCert);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
-  /// @brief Method .ctor addr 0x11957e8 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x1206a38, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInfoGenerator* New_ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
-  /// @brief Method .ctor addr 0x1195818 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x1206a68, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::IX509Store* origCerts, ::Org::BouncyCastle::X509::Store::IX509Store* origCrls);
 
-  /// @brief Method Generate addr 0x1195864 size 0x90 virtual true final false
+  /// @brief Method Generate, addr 0x1206ab4, size 0x90, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "OriginatorInfoGenerator", modifiers: "&&", def_value: None }]

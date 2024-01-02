@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightSettingsController)
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace GlobalNamespace {
-class IVRPlatformHelper;
-}
 namespace UnityEngine::UI {
 class Button;
-}
-namespace GlobalNamespace {
-class Vector3SO;
 }
 namespace HMUI {
 class ButtonBinder;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class Vector3SO;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IVRPlatformHelper;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightSettingsController);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5703))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5608))
 // CS Name: ::PlayerHeightSettingsController*
 class CORDL_TYPE PlayerHeightSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -104,30 +104,30 @@ public:
 
   constexpr void __set__value(float_t value);
 
-  /// @brief Method add_valueDidChangeEvent addr 0x2166a74 size 0xb0 virtual false final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x22aba80, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_valueDidChangeEvent addr 0x2166b24 size 0xb0 virtual false final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x22abb30, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value addr 0x2166bd4 size 0x8 virtual false final false
+  /// @brief Method get_value, addr 0x22abbe0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method Awake addr 0x2166bdc size 0xc4 virtual false final false
+  /// @brief Method Awake, addr 0x22abbe8, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init addr 0x2166ca0 size 0x8 virtual false final false
+  /// @brief Method Init, addr 0x22abcac, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
-  /// @brief Method AutoSetHeight addr 0x2166d50 size 0x120 virtual false final false
+  /// @brief Method AutoSetHeight, addr 0x22abd5c, size 0x120, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method RefreshUI addr 0x2166ca8 size 0xa8 virtual false final false
+  /// @brief Method RefreshUI, addr 0x22abcb4, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2166e70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22abe7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerHeightSettingsController", modifiers: "&&", def_value: None }]

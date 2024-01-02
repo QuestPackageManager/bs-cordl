@@ -6,8 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509AttrCertStoreSelector)
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::X509 {
 class IX509AttributeCertificate;
+}
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
+}
+namespace Org::BouncyCastle::X509 {
+class AttributeCertificateIssuer;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 namespace System {
 class Object;
@@ -15,26 +30,11 @@ class Object;
 namespace System::Collections {
 class IEnumerable;
 }
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
 namespace Org::BouncyCastle::X509 {
 class AttributeCertificateHolder;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Utilities::Collections {
-class ISet;
-}
 namespace System {
 class ICloneable;
-}
-namespace Org::BouncyCastle::X509 {
-class AttributeCertificateIssuer;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1846))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509AttrCertStoreSelector*
 class CORDL_TYPE X509AttrCertStoreSelector : public ::System::Object {
@@ -138,81 +138,81 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor();
 
-  /// @brief Method .ctor addr 0x10fffcc size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x1170214, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
 
-  /// @brief Method .ctor addr 0x1100050 size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x1170298, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
 
-  /// @brief Method Match addr 0x1100148 size 0x814 virtual true final true
+  /// @brief Method Match, addr 0x1170390, size 0x814, virtual true, abstract: false, final true
   inline bool Match(::System::Object* obj);
 
-  /// @brief Method Clone addr 0x110095c size 0x60 virtual true final true
+  /// @brief Method Clone, addr 0x1170ba4, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method get_AttributeCert addr 0x11009bc size 0x8 virtual false final false
+  /// @brief Method get_AttributeCert, addr 0x1170c04, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttributeCert();
 
-  /// @brief Method set_AttributeCert addr 0x11009c4 size 0x8 virtual false final false
+  /// @brief Method set_AttributeCert, addr 0x1170c0c, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
 
-  /// @brief Method get_AttribueCertificateValid addr 0x11009cc size 0x8 virtual false final false
+  /// @brief Method get_AttribueCertificateValid, addr 0x1170c14, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttribueCertificateValid();
 
-  /// @brief Method set_AttribueCertificateValid addr 0x11009d4 size 0x8 virtual false final false
+  /// @brief Method set_AttribueCertificateValid, addr 0x1170c1c, size 0x8, virtual false, abstract: false, final false
   inline void set_AttribueCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_AttributeCertificateValid addr 0x11009dc size 0x8 virtual false final false
+  /// @brief Method get_AttributeCertificateValid, addr 0x1170c24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttributeCertificateValid();
 
-  /// @brief Method set_AttributeCertificateValid addr 0x11009e4 size 0x8 virtual false final false
+  /// @brief Method set_AttributeCertificateValid, addr 0x1170c2c, size 0x8, virtual false, abstract: false, final false
   inline void set_AttributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  /// @brief Method get_Holder addr 0x11009ec size 0x8 virtual false final false
+  /// @brief Method get_Holder, addr 0x1170c34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder();
 
-  /// @brief Method set_Holder addr 0x11009f4 size 0x8 virtual false final false
+  /// @brief Method set_Holder, addr 0x1170c3c, size 0x8, virtual false, abstract: false, final false
   inline void set_Holder(::Org::BouncyCastle::X509::AttributeCertificateHolder* value);
 
-  /// @brief Method get_Issuer addr 0x11009fc size 0x8 virtual false final false
+  /// @brief Method get_Issuer, addr 0x1170c44, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer();
 
-  /// @brief Method set_Issuer addr 0x1100a04 size 0x8 virtual false final false
+  /// @brief Method set_Issuer, addr 0x1170c4c, size 0x8, virtual false, abstract: false, final false
   inline void set_Issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* value);
 
-  /// @brief Method get_SerialNumber addr 0x1100a0c size 0x8 virtual false final false
+  /// @brief Method get_SerialNumber, addr 0x1170c54, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method set_SerialNumber addr 0x1100a14 size 0x8 virtual false final false
+  /// @brief Method set_SerialNumber, addr 0x1170c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_SerialNumber(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method AddTargetName addr 0x1100a1c size 0xa8 virtual false final false
+  /// @brief Method AddTargetName, addr 0x1170c64, size 0xa8, virtual false, abstract: false, final false
   inline void AddTargetName(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method AddTargetName addr 0x1100ac4 size 0x2c virtual false final false
+  /// @brief Method AddTargetName, addr 0x1170d0c, size 0x2c, virtual false, abstract: false, final false
   inline void AddTargetName(::ArrayW<uint8_t, ::Array<uint8_t>*> name);
 
-  /// @brief Method SetTargetNames addr 0x1100af0 size 0x18 virtual false final false
+  /// @brief Method SetTargetNames, addr 0x1170d38, size 0x18, virtual false, abstract: false, final false
   inline void SetTargetNames(::System::Collections::IEnumerable* names);
 
-  /// @brief Method GetTargetNames addr 0x1100f88 size 0x68 virtual false final false
+  /// @brief Method GetTargetNames, addr 0x11711d0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetTargetNames();
 
-  /// @brief Method AddTargetGroup addr 0x1100ff0 size 0xa8 virtual false final false
+  /// @brief Method AddTargetGroup, addr 0x1171238, size 0xa8, virtual false, abstract: false, final false
   inline void AddTargetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* group);
 
-  /// @brief Method AddTargetGroup addr 0x1101098 size 0x2c virtual false final false
+  /// @brief Method AddTargetGroup, addr 0x11712e0, size 0x2c, virtual false, abstract: false, final false
   inline void AddTargetGroup(::ArrayW<uint8_t, ::Array<uint8_t>*> name);
 
-  /// @brief Method SetTargetGroups addr 0x11010c4 size 0x18 virtual false final false
+  /// @brief Method SetTargetGroups, addr 0x117130c, size 0x18, virtual false, abstract: false, final false
   inline void SetTargetGroups(::System::Collections::IEnumerable* names);
 
-  /// @brief Method GetTargetGroups addr 0x11010dc size 0x68 virtual false final false
+  /// @brief Method GetTargetGroups, addr 0x1171324, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetTargetGroups();
 
-  /// @brief Method ExtractGeneralNames addr 0x1100b08 size 0x480 virtual false final false
+  /// @brief Method ExtractGeneralNames, addr 0x1170d50, size 0x480, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* ExtractGeneralNames(::System::Collections::IEnumerable* names);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ParsingError);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7718))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8881))
 // CS Name: ::System::ParsingError
 struct CORDL_TYPE ParsingError {
 public:

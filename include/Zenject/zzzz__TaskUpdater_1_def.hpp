@@ -9,12 +9,6 @@ CORDL_MODULE_EXPORT(TaskUpdater_1)
 namespace Zenject {
 template <typename TTask> class __TaskUpdater_1__TaskInfo;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
 template <typename TTask> class __TaskUpdater_1____c;
 }
@@ -22,10 +16,16 @@ namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
 namespace Zenject {
-class InjectTypeInfo;
+template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-template <typename TTask> class __TaskUpdater_1____c__DisplayClass8_0;
+class InjectTypeInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
@@ -57,8 +57,8 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11262))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11334))
 // CS Name: ::TaskUpdater`1::TaskInfo<TTask>*
 class CORDL_TYPE __TaskUpdater_1__TaskInfo : public ::System::Object {
 public:
@@ -92,13 +92,13 @@ public:
 
   static inline ::Zenject::__TaskUpdater_1__TaskInfo<TTask>* New_ctor(TTask task, int32_t priority);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TTask task, int32_t priority);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskUpdater_1__TaskInfo", modifiers: "&&", def_value: None }]
@@ -134,8 +134,8 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11263))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11335))
 // CS Name: ::TaskUpdater`1::<>c<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c : public ::System::Object {
 public:
@@ -156,16 +156,16 @@ public:
 
   static inline ::Zenject::__TaskUpdater_1____c<TTask>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddTaskInternal>b__7_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddTaskInternal>b__7_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TTask _AddTaskInternal_b__7_0(::Zenject::__TaskUpdater_1__TaskInfo<TTask>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskUpdater_1____c", modifiers: "&&", def_value: None }]
@@ -192,8 +192,8 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11336))
 // CS Name: ::TaskUpdater`1::<>c__DisplayClass8_0<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -209,16 +209,16 @@ public:
 
   static inline ::Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RemoveTask>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RemoveTask>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _RemoveTask_b__0(::Zenject::__TaskUpdater_1__TaskInfo<TTask>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskUpdater_1____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -248,8 +248,8 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11265))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11337))
 // CS Name: ::Zenject::TaskUpdater`1<TTask>*
 class CORDL_TYPE TaskUpdater_1 : public ::System::Object {
 public:
@@ -282,48 +282,48 @@ public:
 
   constexpr void __set__queuedTasks(::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value);
 
-  /// @brief Method get_AllTasks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_AllTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* get_AllTasks();
 
-  /// @brief Method get_ActiveTasks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_ActiveTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* get_ActiveTasks();
 
-  /// @brief Method AddTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddTask(TTask task, int32_t priority);
 
-  /// @brief Method AddTaskInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddTaskInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddTaskInternal(TTask task, int32_t priority);
 
-  /// @brief Method RemoveTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveTask(TTask task);
 
-  /// @brief Method OnFrameStart addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnFrameStart, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnFrameStart();
 
-  /// @brief Method UpdateAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateAll();
 
-  /// @brief Method UpdateRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateRange(int32_t minPriority, int32_t maxPriority);
 
-  /// @brief Method ClearRemovedTasks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ClearRemovedTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ClearRemovedTasks(::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* tasks);
 
-  /// @brief Method AddQueuedTasks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddQueuedTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddQueuedTasks();
 
-  /// @brief Method InsertTaskSorted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InsertTaskSorted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InsertTaskSorted(::Zenject::__TaskUpdater_1__TaskInfo<TTask>* task);
 
-  /// @brief Method UpdateItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateItem(TTask task);
 
   static inline ::Zenject::TaskUpdater_1<TTask>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskUpdater_1", modifiers: "&&", def_value: None }]

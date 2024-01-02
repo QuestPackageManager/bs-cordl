@@ -13,17 +13,17 @@ CORDL_MODULE_EXPORT(StyleValue)
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
-namespace UnityEngine::UIElements {
-struct Length;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace System::Runtime::InteropServices {
+struct GCHandle;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
 }
-namespace System::Runtime::InteropServices {
-struct GCHandle;
+namespace UnityEngine::UIElements {
+struct Length;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -35,8 +35,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::StyleValue);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7386)), TypeDefinitionIndex(TypeDefinitionIndex(3332)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7573)), TypeDefinitionIndex(TypeDefinitionIndex(10178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7552)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(7487)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(3336))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7466)) CS Name:
 // ::UnityEngine.UIElements.StyleSheets::StyleValue
 struct CORDL_TYPE StyleValue {
 public:

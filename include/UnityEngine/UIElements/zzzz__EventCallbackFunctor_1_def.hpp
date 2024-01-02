@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctor_1)
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
 struct PropagationPhase;
-}
-namespace System {
-class Delegate;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
+struct CallbackPhase;
+}
+namespace System {
+class Delegate;
+}
+namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
+struct InvokePolicy;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -35,8 +35,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7269))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7270))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
@@ -62,13 +62,15 @@ public:
   static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
                                                                                         ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
+  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase,
+                    ::UnityEngine::UIElements::InvokePolicy invokePolicy = static_cast<int32_t>(0x0));
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
-  /// @brief Method IsEquivalentTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
 
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_1", modifiers: "&&", def_value: None }]

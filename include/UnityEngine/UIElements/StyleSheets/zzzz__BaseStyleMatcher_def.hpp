@@ -8,17 +8,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseStyleMatcher)
-namespace UnityEngine::UIElements::StyleSheets {
-struct __BaseStyleMatcher__MatchContext;
-}
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
-namespace System::Text::RegularExpressions {
-class Regex;
-}
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 class Expression;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct __BaseStyleMatcher__MatchContext;
+}
+namespace System::Text::RegularExpressions {
+class Regex;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::StyleSheets {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchCont
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7568))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7482))
 // CS Name: ::BaseStyleMatcher::MatchContext
 struct CORDL_TYPE __BaseStyleMatcher__MatchContext {
 public:
@@ -70,8 +70,8 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatche
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7568)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7482))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7483))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::BaseStyleMatcher*
 class CORDL_TYPE BaseStyleMatcher : public ::System::Object {
 public:
@@ -116,117 +116,117 @@ public:
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_CustomIdentRegex();
 
-  /// @brief Method MatchKeyword addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchKeyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchKeyword(::StringW keyword);
 
-  /// @brief Method MatchNumber addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchNumber();
 
-  /// @brief Method MatchInteger addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchInteger, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchInteger();
 
-  /// @brief Method MatchLength addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchLength();
 
-  /// @brief Method MatchPercentage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchPercentage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchPercentage();
 
-  /// @brief Method MatchColor addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchColor, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchColor();
 
-  /// @brief Method MatchResource addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchResource, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchResource();
 
-  /// @brief Method MatchUrl addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchUrl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchUrl();
 
-  /// @brief Method MatchTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchTime();
 
-  /// @brief Method MatchAngle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchAngle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchAngle();
 
-  /// @brief Method MatchCustomIdent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MatchCustomIdent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MatchCustomIdent();
 
-  /// @brief Method get_valueCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_valueCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_valueCount();
 
-  /// @brief Method get_isCurrentVariable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isCurrentVariable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isCurrentVariable();
 
-  /// @brief Method get_isCurrentComma addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isCurrentComma, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isCurrentComma();
 
-  /// @brief Method get_hasCurrent addr 0x2c8a060 size 0x28 virtual false final false
+  /// @brief Method get_hasCurrent, addr 0x2df1410, size 0x28, virtual false, abstract: false, final false
   inline bool get_hasCurrent();
 
-  /// @brief Method get_currentIndex addr 0x2c8a088 size 0x8 virtual false final false
+  /// @brief Method get_currentIndex, addr 0x2df1438, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentIndex();
 
-  /// @brief Method set_currentIndex addr 0x2c8a090 size 0x8 virtual false final false
+  /// @brief Method set_currentIndex, addr 0x2df1440, size 0x8, virtual false, abstract: false, final false
   inline void set_currentIndex(int32_t value);
 
-  /// @brief Method get_matchedVariableCount addr 0x2c8a098 size 0x8 virtual false final false
+  /// @brief Method get_matchedVariableCount, addr 0x2df1448, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_matchedVariableCount();
 
-  /// @brief Method set_matchedVariableCount addr 0x2c8a0a0 size 0x8 virtual false final false
+  /// @brief Method set_matchedVariableCount, addr 0x2df1450, size 0x8, virtual false, abstract: false, final false
   inline void set_matchedVariableCount(int32_t value);
 
-  /// @brief Method Initialize addr 0x2c8a0a8 size 0x54 virtual false final false
+  /// @brief Method Initialize, addr 0x2df1458, size 0x54, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method MoveNext addr 0x2c8a0fc size 0x44 virtual false final false
+  /// @brief Method MoveNext, addr 0x2df14ac, size 0x44, virtual false, abstract: false, final false
   inline void MoveNext();
 
-  /// @brief Method SaveContext addr 0x2c8a140 size 0x54 virtual false final false
+  /// @brief Method SaveContext, addr 0x2df14f0, size 0x54, virtual false, abstract: false, final false
   inline void SaveContext();
 
-  /// @brief Method RestoreContext addr 0x2c8a194 size 0x58 virtual false final false
+  /// @brief Method RestoreContext, addr 0x2df1544, size 0x58, virtual false, abstract: false, final false
   inline void RestoreContext();
 
-  /// @brief Method DropContext addr 0x2c8a1ec size 0x50 virtual false final false
+  /// @brief Method DropContext, addr 0x2df159c, size 0x50, virtual false, abstract: false, final false
   inline void DropContext();
 
-  /// @brief Method Match addr 0x2c8a23c size 0xb4 virtual false final false
+  /// @brief Method Match, addr 0x2df15ec, size 0xb4, virtual false, abstract: false, final false
   inline bool Match(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchExpression addr 0x2c8a2f8 size 0x114 virtual false final false
+  /// @brief Method MatchExpression, addr 0x2df16a8, size 0x114, virtual false, abstract: false, final false
   inline bool MatchExpression(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchExpressionWithMultiplier addr 0x2c8a40c size 0x14c virtual false final false
+  /// @brief Method MatchExpressionWithMultiplier, addr 0x2df17bc, size 0x14c, virtual false, abstract: false, final false
   inline bool MatchExpressionWithMultiplier(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchGroup addr 0x2c8a720 size 0xb4 virtual false final false
+  /// @brief Method MatchGroup, addr 0x2df1ad0, size 0xb4, virtual false, abstract: false, final false
   inline bool MatchGroup(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchCombinator addr 0x2c8a558 size 0xcc virtual false final false
+  /// @brief Method MatchCombinator, addr 0x2df1908, size 0xcc, virtual false, abstract: false, final false
   inline bool MatchCombinator(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchOr addr 0x2c8a7d4 size 0xd0 virtual false final false
+  /// @brief Method MatchOr, addr 0x2df1b84, size 0xd0, virtual false, abstract: false, final false
   inline bool MatchOr(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchOrOr addr 0x2c8a8a4 size 0x18 virtual false final false
+  /// @brief Method MatchOrOr, addr 0x2df1c54, size 0x18, virtual false, abstract: false, final false
   inline bool MatchOrOr(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchAndAnd addr 0x2c8a8bc size 0x30 virtual false final false
+  /// @brief Method MatchAndAnd, addr 0x2df1c6c, size 0x30, virtual false, abstract: false, final false
   inline bool MatchAndAnd(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchMany addr 0x2c8a958 size 0x180 virtual false final false
+  /// @brief Method MatchMany, addr 0x2df1d08, size 0x180, virtual false, abstract: false, final false
   inline int32_t MatchMany(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchManyByOrder addr 0x2c8aad8 size 0x190 virtual false final false
+  /// @brief Method MatchManyByOrder, addr 0x2df1e88, size 0x190, virtual false, abstract: false, final false
   inline int32_t MatchManyByOrder(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp, ::cordl_internals::Ptr<int32_t> matchOrder);
 
-  /// @brief Method MatchJuxtaposition addr 0x2c8a8ec size 0x6c virtual false final false
+  /// @brief Method MatchJuxtaposition, addr 0x2df1c9c, size 0x6c, virtual false, abstract: false, final false
   inline bool MatchJuxtaposition(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
-  /// @brief Method MatchDataType addr 0x2c8a624 size 0xfc virtual false final false
+  /// @brief Method MatchDataType, addr 0x2df19d4, size 0xfc, virtual false, abstract: false, final false
   inline bool MatchDataType(::UnityEngine::UIElements::StyleSheets::Syntax::Expression* exp);
 
   static inline ::UnityEngine::UIElements::StyleSheets::BaseStyleMatcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c8ac68 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2df2018, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseStyleMatcher", modifiers: "&&", def_value: None }]

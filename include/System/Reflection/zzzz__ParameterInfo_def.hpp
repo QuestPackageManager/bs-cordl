@@ -8,29 +8,29 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterInfo)
-namespace System::Reflection {
-struct ParameterAttributes;
-}
-namespace System::Reflection {
-class ICustomAttributeProvider;
+namespace System::Runtime::Serialization {
+class IObjectReference;
 }
 namespace System::Reflection {
 class MemberInfo;
 }
-namespace System::Runtime::Serialization {
-struct StreamingContext;
+namespace System::Reflection {
+class ICustomAttributeProvider;
 }
 namespace System::Runtime::Serialization {
-class IObjectReference;
+struct StreamingContext;
 }
 namespace System::Runtime::InteropServices {
 class _ParameterInfo;
 }
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
+}
+namespace System::Reflection {
+struct ParameterAttributes;
 }
 // Forward declare root types
 namespace System::Reflection {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::System::Reflection::ParameterInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3477)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3478))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3482)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3483))
 // CS Name: ::System.Reflection::ParameterInfo*
 class CORDL_TYPE ParameterInfo : public ::System::Object {
 public:
@@ -131,49 +131,49 @@ public:
 
   static inline ::System::Reflection::ParameterInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0x238f70c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24e91c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes addr 0x238f714 size 0x8 virtual true final false
+  /// @brief Method get_Attributes, addr 0x24e91cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ParameterAttributes get_Attributes();
 
-  /// @brief Method get_Member addr 0x238f71c size 0x8 virtual true final false
+  /// @brief Method get_Member, addr 0x24e91d4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_Name addr 0x238f724 size 0x8 virtual true final false
+  /// @brief Method get_Name, addr 0x24e91dc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ParameterType addr 0x238f72c size 0x8 virtual true final false
+  /// @brief Method get_ParameterType, addr 0x24e91e4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ParameterType();
 
-  /// @brief Method get_Position addr 0x238f734 size 0x8 virtual true final false
+  /// @brief Method get_Position, addr 0x24e91ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Position();
 
-  /// @brief Method get_IsIn addr 0x238f73c size 0x1c virtual false final false
+  /// @brief Method get_IsIn, addr 0x24e91f4, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsIn();
 
-  /// @brief Method get_IsOptional addr 0x238f758 size 0x1c virtual false final false
+  /// @brief Method get_IsOptional, addr 0x24e9210, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOptional();
 
-  /// @brief Method get_IsOut addr 0x238f774 size 0x1c virtual false final false
+  /// @brief Method get_IsOut, addr 0x24e922c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOut();
 
-  /// @brief Method get_DefaultValue addr 0x238f790 size 0x28 virtual true final false
+  /// @brief Method get_DefaultValue, addr 0x24e9248, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method IsDefined addr 0x238f7b8 size 0xb4 virtual true final false
+  /// @brief Method IsDefined, addr 0x24e9270, size 0xb4, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes addr 0x238f86c size 0x7c virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x24e9324, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes addr 0x238f8e8 size 0x104 virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x24e93a0, size 0x104, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetRealObject addr 0x238f9ec size 0x2e0 virtual true final true
+  /// @brief Method GetRealObject, addr 0x24e94a4, size 0x2e0, virtual true, abstract: false, final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString addr 0x238fccc size 0x84 virtual true final false
+  /// @brief Method ToString, addr 0x24e9784, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterInfo", modifiers: "&&", def_value: None }]

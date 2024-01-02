@@ -9,28 +9,28 @@ CORDL_MODULE_EXPORT(ScriptPlayable_1)
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
-namespace UnityEngine {
-class Object;
+namespace UnityEngine::Playables {
+struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::Playables {
-struct PlayableGraph;
-}
-namespace System {
-class ICloneable;
-}
-namespace UnityEngine::Playables {
 class IPlayableBehaviour;
 }
-namespace UnityEngine::Playables {
-class IPlayable;
+namespace System {
+class Object;
 }
 namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace System {
+class ICloneable;
+}
+namespace UnityEngine {
 class Object;
 }
 // Forward declare root types
@@ -45,8 +45,8 @@ namespace UnityEngine::Playables {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10345)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10345), inst: 4841 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10362))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10345)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10423), inst: 4948 }), TypeDefinitionIndex(TypeDefinitionIndex(10440)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10423))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10423)) CS Name: ::UnityEngine.Playables::ScriptPlayable`1<T>
 struct CORDL_TYPE ScriptPlayable_1 {
 public:
   // Declarations
@@ -63,46 +63,48 @@ public:
 
   static inline ::UnityEngine::Playables::ScriptPlayable_1<T> getStaticF_m_NullPlayable();
 
-  /// @brief Method get_Null addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Null, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<T> get_Null();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount = static_cast<int32_t>(0x0));
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount);
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param inputCount: int32_t (default: static_cast<int32_t>(0x0))
+  static inline ::UnityEngine::Playables::ScriptPlayable_1<T> Create(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount = static_cast<int32_t>(0x0));
 
-  /// @brief Method CreateHandle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, T _cordl_template, int32_t inputCount);
 
-  /// @brief Method CreateScriptInstance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateScriptInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* CreateScriptInstance();
 
-  /// @brief Method CloneScriptInstance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CloneScriptInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* CloneScriptInstance(::UnityEngine::Playables::IPlayableBehaviour* source);
 
-  /// @brief Method CloneScriptInstanceFromEngineObject addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CloneScriptInstanceFromEngineObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* CloneScriptInstanceFromEngineObject(::UnityEngine::Object* source);
 
-  /// @brief Method CloneScriptInstanceFromIClonable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CloneScriptInstanceFromIClonable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* CloneScriptInstanceFromIClonable(::System::ICloneable* source);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
-  /// @brief Method GetHandle addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method GetBehaviour addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetBehaviour, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetBehaviour();
 
-  /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Playables::ScriptPlayable_1<T> playable);
 
-  /// @brief Method op_Explicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Explicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<T> op_Explicit___UnityEngine__Playables__ScriptPlayable_1_T_(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::ScriptPlayable_1<T> other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

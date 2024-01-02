@@ -19,8 +19,8 @@ MARK_VAL_T(::TMPro::Extents);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12250))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12322))
 // CS Name: ::TMPro::Extents
 struct CORDL_TYPE Extents {
 public:
@@ -39,10 +39,10 @@ public:
 
   static inline ::TMPro::Extents getStaticF_uninitialized();
 
-  /// @brief Method .ctor addr 0x2a7c35c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2c010b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
-  /// @brief Method ToString addr 0x2a7c368 size 0x2ac virtual true final false
+  /// @brief Method ToString, addr 0x2c010bc, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "min", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "max", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]

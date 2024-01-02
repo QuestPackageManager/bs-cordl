@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE ECMultiplier {
 public:
   // Declarations
-  /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Multiply, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECMultiplier", modifiers: "&&", def_value: None }]

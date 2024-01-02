@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::DateTimeFormatFlags);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3663))
 // CS Name: ::System.Globalization::DateTimeFormatFlags
 struct CORDL_TYPE DateTimeFormatFlags {
 public:

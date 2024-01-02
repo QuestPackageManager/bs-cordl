@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
-#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<T>"
 template <typename T> constexpr Priority_Queue::__StablePriorityQueue_1___GetEnumerator_d__22<T>::operator ::System::Collections::Generic::IEnumerator_1<T>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<T>*>(static_cast<void*>(this));

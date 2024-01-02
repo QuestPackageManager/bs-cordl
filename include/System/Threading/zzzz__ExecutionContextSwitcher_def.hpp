@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ExecutionContextSwitcher)
-namespace System::Threading {
-class Thread;
+namespace System {
+class Object;
 }
 namespace System::Threading {
 struct __ExecutionContext__Reader;
 }
-namespace System {
-class Object;
+namespace System::Threading {
+class Thread;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -24,16 +24,16 @@ MARK_VAL_T(::System::Threading::ExecutionContextSwitcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2710))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2712))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2710))
 // CS Name: ::System.Threading::ExecutionContextSwitcher
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method UndoNoThrow addr 0x24bbc2c size 0x88 virtual false final false
+  /// @brief Method UndoNoThrow, addr 0x2616c48, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
-  /// @brief Method Undo addr 0x24bbcb4 size 0x88 virtual false final false
+  /// @brief Method Undo, addr 0x2616cd0, size 0x88, virtual false, abstract: false, final false
   inline void Undo();
 
   // Ctor Parameters [CppParam { name: "outerEC", ty: "::System::Threading::__ExecutionContext__Reader", modifiers: "", def_value: None }, CppParam { name: "outerECBelongsToScope", ty: "bool",

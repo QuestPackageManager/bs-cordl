@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICustomStyle)
-namespace UnityEngine {
-class Texture2D;
-}
-namespace UnityEngine {
-struct Color;
+namespace UnityEngine::UIElements {
+template <typename T> struct CustomStyleProperty_1;
 }
 namespace UnityEngine::UIElements {
 class VectorImage;
 }
-namespace UnityEngine::UIElements {
-template <typename T> struct CustomStyleProperty_1;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace UnityEngine {
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,30 +33,30 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ICustomStyle);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7393))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7307))
 // CS Name: ::UnityEngine.UIElements::ICustomStyle*
 class CORDL_TYPE ICustomStyle {
 public:
   // Declarations
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> property, ByRef<float_t> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<int32_t> property, ByRef<int32_t> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> property, ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> property, ByRef<::UnityEngine::Texture2D*> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> property, ByRef<::UnityEngine::Sprite*> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> property, ByRef<::UnityEngine::UIElements::VectorImage*> value);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> property, ByRef<::StringW> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomStyle", modifiers: "&&", def_value: None }]

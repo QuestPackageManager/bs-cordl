@@ -10,26 +10,26 @@ CORDL_MODULE_EXPORT(NetSocket)
 namespace System::Net::Sockets {
 struct SocketError;
 }
+namespace System::Net {
+class IPAddress;
+}
+namespace System {
+class Object;
+}
+namespace System::Net {
+class IPEndPoint;
+}
 namespace LiteNetLib {
 class INetSocketListener;
 }
 namespace System::Threading {
 class Thread;
 }
-namespace System {
-class Object;
-}
 namespace System::Threading {
 struct ThreadPriority;
 }
 namespace System::Net::Sockets {
 class Socket;
-}
-namespace System::Net {
-class IPEndPoint;
-}
-namespace System::Net {
-class IPAddress;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14518))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {
 public:
@@ -128,42 +128,44 @@ public:
 
   static inline bool getStaticF_IPv6Support();
 
-  /// @brief Method get_LocalPort addr 0x20a3084 size 0x8 virtual false final false
+  /// @brief Method get_LocalPort, addr 0x2204ed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LocalPort();
 
-  /// @brief Method set_LocalPort addr 0x20a308c size 0x8 virtual false final false
+  /// @brief Method set_LocalPort, addr 0x2204ee0, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalPort(int32_t value);
 
-  /// @brief Method get_Ttl addr 0x20a3094 size 0x1c virtual false final false
+  /// @brief Method get_Ttl, addr 0x2204ee8, size 0x1c, virtual false, abstract: false, final false
   inline int16_t get_Ttl();
 
-  /// @brief Method set_Ttl addr 0x2099a88 size 0x1c virtual false final false
+  /// @brief Method set_Ttl, addr 0x21fb8dc, size 0x1c, virtual false, abstract: false, final false
   inline void set_Ttl(int16_t value);
 
   static inline ::LiteNetLib::NetSocket* New_ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method .ctor addr 0x209b38c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21fd1e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::INetSocketListener* listener);
 
-  /// @brief Method IsActive addr 0x20a3178 size 0x18 virtual false final false
+  /// @brief Method IsActive, addr 0x2204fcc, size 0x18, virtual false, abstract: false, final false
   inline bool IsActive();
 
-  /// @brief Method ReceiveLogic addr 0x20a3190 size 0x578 virtual false final false
+  /// @brief Method ReceiveLogic, addr 0x2204fe4, size 0x578, virtual false, abstract: false, final false
   inline void ReceiveLogic(::System::Object* state);
 
-  /// @brief Method Bind addr 0x209eff0 size 0x404 virtual false final false
-  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6, ::System::Threading::ThreadPriority priority);
+  /// @brief Method Bind, addr 0x2200e44, size 0x404, virtual false, abstract: false, final false
+  /// @param priority: ::System::Threading::ThreadPriority (default: static_cast<int32_t>(0x2))
+  inline bool Bind(::System::Net::IPAddress* addressIPv4, ::System::Net::IPAddress* addressIPv6, int32_t port, bool reuseAddress, bool ipv6,
+                   ::System::Threading::ThreadPriority priority = static_cast<int32_t>(0x2));
 
-  /// @brief Method BindSocket addr 0x20a3708 size 0x6bc virtual false final false
+  /// @brief Method BindSocket, addr 0x220555c, size 0x6bc, virtual false, abstract: false, final false
   inline bool BindSocket(::System::Net::Sockets::Socket* socket, ::System::Net::IPEndPoint* ep, bool reuseAddress);
 
-  /// @brief Method SendBroadcast addr 0x209f9b8 size 0x30c virtual false final false
+  /// @brief Method SendBroadcast, addr 0x220180c, size 0x30c, virtual false, abstract: false, final false
   inline bool SendBroadcast(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, int32_t port);
 
-  /// @brief Method SendTo addr 0x2099aa4 size 0x360 virtual false final false
+  /// @brief Method SendTo, addr 0x21fb8f8, size 0x360, virtual false, abstract: false, final false
   inline int32_t SendTo(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t size, ::System::Net::IPEndPoint* remoteEndPoint, ByRef<::System::Net::Sockets::SocketError> errorCode);
 
-  /// @brief Method Close addr 0x20a0850 size 0xa8 virtual false final false
+  /// @brief Method Close, addr 0x22026a4, size 0xa8, virtual false, abstract: false, final false
   inline void Close(bool suspend);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSocket", modifiers: "&&", def_value: None }]

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Lerp)
-namespace UnityEngine::UIElements::Experimental {
-struct StyleValues;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UIElements::Experimental {
+struct StyleValues;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::Experimental {
@@ -21,19 +21,19 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::Lerp);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7456))
 // CS Name: ::UnityEngine.UIElements.Experimental::Lerp*
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate addr 0x2c7d580 size 0x10 virtual false final false
+  /// @brief Method Interpolate, addr 0x2de3930, size 0x10, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
 
-  /// @brief Method Interpolate addr 0x2c7d590 size 0x38 virtual false final false
+  /// @brief Method Interpolate, addr 0x2de3940, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
 
-  /// @brief Method Interpolate addr 0x2c7d5c8 size 0x3f0 virtual false final false
+  /// @brief Method Interpolate, addr 0x2de3978, size 0x3f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
                                                                                  float_t ratio);
 

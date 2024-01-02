@@ -9,20 +9,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(GrounderFBBIK)
+namespace RootMotion::FinalIK {
+class __Grounding__Leg;
+}
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
 class IKEffector;
 }
 namespace RootMotion::FinalIK {
 class __GrounderFBBIK__SpineEffector;
-}
-namespace RootMotion::FinalIK {
-class __Grounding__Leg;
-}
-namespace RootMotion::FinalIK {
-class FullBodyBipedIK;
 }
 namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12448))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12520))
 // CS Name: ::GrounderFBBIK::SpineEffector*
 class CORDL_TYPE __GrounderFBBIK__SpineEffector : public ::System::Object {
 public:
@@ -76,12 +76,12 @@ public:
 
   static inline ::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d74c8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x12477f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector* New_ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight);
 
-  /// @brief Method .ctor addr 0x11d74d8 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x1247804, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, float_t horizontalWeight, float_t verticalWeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GrounderFBBIK__SpineEffector", modifiers: "&&", def_value: None }]
@@ -123,8 +123,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector, __
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12446)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::GrounderFBBIK*
 class CORDL_TYPE GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {
 public:
@@ -194,48 +194,48 @@ public:
 
   constexpr void __set_firstSolve(bool value);
 
-  /// @brief Method OpenTutorial addr 0x11d63d4 size 0x44 virtual false final false
+  /// @brief Method OpenTutorial, addr 0x1246700, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
 
-  /// @brief Method OpenUserManual addr 0x11d6418 size 0x44 virtual true final false
+  /// @brief Method OpenUserManual, addr 0x1246744, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x11d645c size 0x44 virtual true final false
+  /// @brief Method OpenScriptReference, addr 0x1246788, size 0x44, virtual true, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method ResetPosition addr 0x11d64a0 size 0x68 virtual true final false
+  /// @brief Method ResetPosition, addr 0x12467cc, size 0x68, virtual true, abstract: false, final false
   inline void ResetPosition();
 
-  /// @brief Method IsReadyToInitiate addr 0x11d6580 size 0x88 virtual false final false
+  /// @brief Method IsReadyToInitiate, addr 0x12468ac, size 0x88, virtual false, abstract: false, final false
   inline bool IsReadyToInitiate();
 
-  /// @brief Method Update addr 0x11d6608 size 0x5c virtual false final false
+  /// @brief Method Update, addr 0x1246934, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x11d6878 size 0xc virtual false final false
+  /// @brief Method FixedUpdate, addr 0x1246ba4, size 0xc, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate addr 0x11d6884 size 0xc virtual false final false
+  /// @brief Method LateUpdate, addr 0x1246bb0, size 0xc, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Initiate addr 0x11d6664 size 0x214 virtual false final false
+  /// @brief Method Initiate, addr 0x1246990, size 0x214, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method OnSolverUpdate addr 0x11d6b04 size 0x374 virtual false final false
+  /// @brief Method OnSolverUpdate, addr 0x1246e30, size 0x374, virtual false, abstract: false, final false
   inline void OnSolverUpdate();
 
-  /// @brief Method SetLegIK addr 0x11d706c size 0x184 virtual false final false
+  /// @brief Method SetLegIK, addr 0x1247398, size 0x184, virtual false, abstract: false, final false
   inline void SetLegIK(::RootMotion::FinalIK::IKEffector* effector, ::RootMotion::FinalIK::__Grounding__Leg* leg);
 
-  /// @brief Method OnDrawGizmosSelected addr 0x11d71f0 size 0x134 virtual false final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x124751c, size 0x134, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
-  /// @brief Method OnDestroy addr 0x11d7324 size 0x114 virtual false final false
+  /// @brief Method OnDestroy, addr 0x1247650, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::RootMotion::FinalIK::GrounderFBBIK* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d7438 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x1247764, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GrounderFBBIK", modifiers: "&&", def_value: None }]

@@ -25,30 +25,30 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2468), inst: 4806 }), TypeDefinitionIndex(TypeDefinitionIndex(2468))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3832))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2470), inst: 4906 }), TypeDefinitionIndex(TypeDefinitionIndex(2470))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3844))
 // CS Name: ::System.Collections.Generic::ValueListBuilder`1<T>
 struct CORDL_TYPE ValueListBuilder_1 {
 public:
   // Declarations
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<T> initialSpan);
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method Append addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Append(T item);
 
-  /// @brief Method AsSpan addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> AsSpan();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Grow addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Grow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Grow();
 
   // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: None }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "", def_value:

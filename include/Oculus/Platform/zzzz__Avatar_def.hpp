@@ -23,14 +23,15 @@ MARK_REF_PTR_T(::Oculus::Platform::Avatar);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13391))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13358))
 // CS Name: ::Oculus.Platform::Avatar*
 class CORDL_TYPE Avatar : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LaunchAvatarEditor addr 0x25a6380 size 0x1a0 virtual false final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options);
+  /// @brief Method LaunchAvatarEditor, addr 0x26fc8c4, size 0x1a0, virtual false, abstract: false, final false
+  /// @param options: ::Oculus::Platform::AvatarEditorOptions* (default: nullptr)
+  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AvatarEditorResult*>* LaunchAvatarEditor(::Oculus::Platform::AvatarEditorOptions* options = nullptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "Avatar", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

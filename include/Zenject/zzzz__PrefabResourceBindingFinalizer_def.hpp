@@ -8,19 +8,34 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceBindingFinalizer)
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class __PrefabResourceBindingFinalizer____c__DisplayClass5_0;
+class __PrefabResourceBindingFinalizer____c__DisplayClass6_1;
 }
 namespace Zenject {
 class GameObjectCreationParameters;
 }
 namespace Zenject {
+class BindInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace Zenject {
 class __PrefabResourceBindingFinalizer____c__DisplayClass5_1;
 }
 namespace Zenject {
-class __PrefabResourceBindingFinalizer____c__DisplayClass6_1;
+class __PrefabResourceBindingFinalizer____c__DisplayClass5_0;
 }
 namespace Zenject {
 class __PrefabResourceBindingFinalizer____c__DisplayClass6_0;
@@ -28,26 +43,11 @@ class __PrefabResourceBindingFinalizer____c__DisplayClass6_0;
 namespace Zenject {
 class IPrefabInstantiator;
 }
-namespace System {
-class Type;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
 namespace Zenject {
-class DiContainer;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace Zenject {
-class IProvider;
+class InjectTypeInfo;
 }
 namespace System {
 class Object;
-}
-namespace Zenject {
-class InjectTypeInfo;
 }
 namespace Zenject {
 class PrefabInstantiatorCached;
@@ -78,8 +78,8 @@ MARK_REF_PTR_T(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10888))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10960))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_0*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -113,16 +113,16 @@ public:
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d7c554 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee42d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__0 addr 0x2d7c574 size 0x118 virtual false final false
+  /// @brief Method <FinalizeBindingConcrete>b__0, addr 0x2ee42f4, size 0x118, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__0(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate addr 0x2d7c68c size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ee440c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7c6e8 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee4468, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabResourceBindingFinalizer____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -164,8 +164,8 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10889))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10961))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_1*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_1 : public ::System::Object {
 public:
@@ -190,16 +190,16 @@ public:
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d7c55c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee42dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingConcrete>b__1 addr 0x2d7c8a8 size 0x40 virtual false final false
+  /// @brief Method <FinalizeBindingConcrete>b__1, addr 0x2ee4628, size 0x40, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingConcrete_b__1(::Zenject::DiContainer* _, ::System::Type* concreteType);
 
-  /// @brief Method __zenCreate addr 0x2d7c8e8 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ee4668, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7c944 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee46c4, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabResourceBindingFinalizer____c__DisplayClass5_1", modifiers: "&&", def_value: None }]
@@ -236,8 +236,8 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10890))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10962))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_0*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_0 : public ::System::Object {
 public:
@@ -262,16 +262,16 @@ public:
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d7c564 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee42e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__0 addr 0x2d7cb04 size 0x11c virtual false final false
+  /// @brief Method <FinalizeBindingSelf>b__0, addr 0x2ee4884, size 0x11c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__0(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x2d7cc20 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ee49a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7cc7c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee49fc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabResourceBindingFinalizer____c__DisplayClass6_0", modifiers: "&&", def_value: None }]
@@ -308,8 +308,8 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10963))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_1*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_1 : public ::System::Object {
 public:
@@ -334,16 +334,16 @@ public:
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d7c56c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee42ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FinalizeBindingSelf>b__1 addr 0x2d7ce3c size 0x40 virtual false final false
+  /// @brief Method <FinalizeBindingSelf>b__1, addr 0x2ee4bbc, size 0x40, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FinalizeBindingSelf_b__1(::Zenject::DiContainer* _, ::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x2d7ce7c size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ee4bfc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d7ced8 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ee4c58, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PrefabResourceBindingFinalizer____c__DisplayClass6_1", modifiers: "&&", def_value: None }]
@@ -380,8 +380,8 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10894))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10892))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10964))
 // CS Name: ::Zenject::PrefabResourceBindingFinalizer*
 class CORDL_TYPE PrefabResourceBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
 public:
@@ -424,17 +424,17 @@ public:
   static inline ::Zenject::PrefabResourceBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::StringW resourcePath,
                                                                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method .ctor addr 0x2d7be2c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2ee3bac, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::StringW resourcePath,
                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);
 
-  /// @brief Method OnFinalizeBinding addr 0x2d7be6c size 0x84 virtual true final false
+  /// @brief Method OnFinalizeBinding, addr 0x2ee3bec, size 0x84, virtual true, abstract: false, final false
   inline void OnFinalizeBinding(::Zenject::DiContainer* container);
 
-  /// @brief Method FinalizeBindingConcrete addr 0x2d7c220 size 0x334 virtual false final false
+  /// @brief Method FinalizeBindingConcrete, addr 0x2ee3fa0, size 0x334, virtual false, abstract: false, final false
   inline void FinalizeBindingConcrete(::Zenject::DiContainer* container, ::System::Collections::Generic::List_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method FinalizeBindingSelf addr 0x2d7bef0 size 0x330 virtual false final false
+  /// @brief Method FinalizeBindingSelf, addr 0x2ee3c70, size 0x330, virtual false, abstract: false, final false
   inline void FinalizeBindingSelf(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabResourceBindingFinalizer", modifiers: "&&", def_value: None }]

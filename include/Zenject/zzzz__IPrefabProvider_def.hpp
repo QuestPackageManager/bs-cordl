@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::Zenject::IPrefabProvider);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11159))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11231))
 // CS Name: ::Zenject::IPrefabProvider*
 class CORDL_TYPE IPrefabProvider {
 public:
   // Declarations
-  /// @brief Method GetPrefab addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPrefab, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Object* GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPrefabProvider", modifiers: "&&", def_value: None }]

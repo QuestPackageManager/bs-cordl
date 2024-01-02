@@ -7,53 +7,53 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GroupCollection)
-namespace System::Collections {
-class Hashtable;
-}
-namespace System::Text::RegularExpressions {
-class Match;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Collections {
-class ICollection;
-}
-namespace System::Text::RegularExpressions {
-class __GroupCollection__Enumerator;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace System::Collections {
 class IList;
 }
-namespace System::Text::RegularExpressions {
-class Group;
+namespace System::Collections {
+class Hashtable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Text::RegularExpressions {
+class Group;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System {
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Text::RegularExpressions {
+class Match;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
 }
+namespace System::Text::RegularExpressions {
+class __GroupCollection__Enumerator;
+}
 namespace System {
 class Array;
-}
-namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
 }
 namespace System {
 class IDisposable;
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::__GroupCollection__Enumerator
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7741))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8904))
 // CS Name: ::GroupCollection::Enumerator*
 class CORDL_TYPE __GroupCollection__Enumerator : public ::System::Object {
 public:
@@ -111,22 +111,22 @@ public:
 
   static inline ::System::Text::RegularExpressions::__GroupCollection__Enumerator* New_ctor(::System::Text::RegularExpressions::GroupCollection* collection);
 
-  /// @brief Method .ctor addr 0x27d199c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x294eabc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::GroupCollection* collection);
 
-  /// @brief Method MoveNext addr 0x27d2710 size 0x44 virtual true final true
+  /// @brief Method MoveNext, addr 0x294f830, size 0x44, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x27d2754 size 0x90 virtual true final true
+  /// @brief Method get_Current, addr 0x294f874, size 0x90, virtual true, abstract: false, final true
   inline ::System::Text::RegularExpressions::Group* get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x27d27e4 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x294f904, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x27d27e8 size 0xc virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x294f908, size 0xc, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.IDisposable.Dispose addr 0x27d27f4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x294f914, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GroupCollection__Enumerator", modifiers: "&&", def_value: None }]
@@ -163,8 +163,8 @@ static_assert(offsetof(::System::Text::RegularExpressions::__GroupCollection__En
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7742))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8905))
 // CS Name: ::System.Text.RegularExpressions::GroupCollection*
 class CORDL_TYPE GroupCollection : public ::System::Object {
 public:
@@ -243,105 +243,105 @@ public:
 
   static inline ::System::Text::RegularExpressions::GroupCollection* New_ctor(::System::Text::RegularExpressions::Match* match, ::System::Collections::Hashtable* caps);
 
-  /// @brief Method .ctor addr 0x27d15f4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x294e714, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Match* match, ::System::Collections::Hashtable* caps);
 
-  /// @brief Method get_IsReadOnly addr 0x27d1620 size 0x8 virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x294e740, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_Count addr 0x27d1628 size 0x24 virtual true final true
+  /// @brief Method get_Count, addr 0x294e748, size 0x24, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x27d164c size 0x4 virtual true final true
+  /// @brief Method get_Item, addr 0x294e76c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Text::RegularExpressions::Group* get_Item(int32_t groupnum);
 
-  /// @brief Method get_Item addr 0x27d1754 size 0x90 virtual false final false
+  /// @brief Method get_Item, addr 0x294e874, size 0x90, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Group* get_Item(::StringW groupname);
 
-  /// @brief Method GetEnumerator addr 0x27d1930 size 0x6c virtual true final true
+  /// @brief Method GetEnumerator, addr 0x294ea50, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Text.RegularExpressions.Group>.GetEnumerator addr 0x27d19cc size 0x6c virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Text.RegularExpressions.Group>.GetEnumerator, addr 0x294eaec, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Text::RegularExpressions::Group*>* System_Collections_Generic_IEnumerable_System_Text_RegularExpressions_Group__GetEnumerator();
 
-  /// @brief Method GetGroup addr 0x27d1650 size 0x104 virtual false final false
+  /// @brief Method GetGroup, addr 0x294e770, size 0x104, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Group* GetGroup(int32_t groupnum);
 
-  /// @brief Method GetGroupImpl addr 0x27d1a38 size 0x1e0 virtual false final false
+  /// @brief Method GetGroupImpl, addr 0x294eb58, size 0x1e0, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Group* GetGroupImpl(int32_t groupnum);
 
-  /// @brief Method get_IsSynchronized addr 0x27d1d60 size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized, addr 0x294ee80, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x27d1d68 size 0x8 virtual true final true
+  /// @brief Method get_SyncRoot, addr 0x294ee88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method CopyTo addr 0x27d1d70 size 0xc0 virtual true final true
+  /// @brief Method CopyTo, addr 0x294ee90, size 0xc0, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t arrayIndex);
 
-  /// @brief Method CopyTo addr 0x27d1e30 size 0x184 virtual true final true
+  /// @brief Method CopyTo, addr 0x294ef50, size 0x184, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::System::Text::RegularExpressions::Group*, ::Array<::System::Text::RegularExpressions::Group*>*> array, int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.IndexOf addr 0x27d1fb4 size 0xb8 virtual true final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.IndexOf, addr 0x294f0d4, size 0xb8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IList_System_Text_RegularExpressions_Group__IndexOf(::System::Text::RegularExpressions::Group* item);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.Insert addr 0x27d206c size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.Insert, addr 0x294f18c, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Group__Insert(int32_t index, ::System::Text::RegularExpressions::Group* item);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.RemoveAt addr 0x27d20bc size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.RemoveAt, addr 0x294f1dc, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Group__RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.get_Item addr 0x27d210c size 0x4 virtual true final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.get_Item, addr 0x294f22c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Text::RegularExpressions::Group* System_Collections_Generic_IList_System_Text_RegularExpressions_Group__get_Item(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.set_Item addr 0x27d2110 size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.IList<System.Text.RegularExpressions.Group>.set_Item, addr 0x294f230, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_System_Text_RegularExpressions_Group__set_Item(int32_t index, ::System::Text::RegularExpressions::Group* value);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Add addr 0x27d2160 size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Add, addr 0x294f280, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Add(::System::Text::RegularExpressions::Group* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Clear addr 0x27d21b0 size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Clear, addr 0x294f2d0, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Contains addr 0x27d2200 size 0xb4 virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Contains, addr 0x294f320, size 0xb4, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Contains(::System::Text::RegularExpressions::Group* item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Remove addr 0x27d22b4 size 0x50 virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<System.Text.RegularExpressions.Group>.Remove, addr 0x294f3d4, size 0x50, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Text_RegularExpressions_Group__Remove(::System::Text::RegularExpressions::Group* item);
 
-  /// @brief Method System.Collections.IList.Add addr 0x27d2304 size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.Add, addr 0x294f424, size 0x50, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_Add(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Clear addr 0x27d2354 size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.Clear, addr 0x294f474, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_IList_Clear();
 
-  /// @brief Method System.Collections.IList.Contains addr 0x27d23a4 size 0xf4 virtual true final true
+  /// @brief Method System.Collections.IList.Contains, addr 0x294f4c4, size 0xf4, virtual true, abstract: false, final true
   inline bool System_Collections_IList_Contains(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.IndexOf addr 0x27d2498 size 0xf4 virtual true final true
+  /// @brief Method System.Collections.IList.IndexOf, addr 0x294f5b8, size 0xf4, virtual true, abstract: false, final true
   inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.Insert addr 0x27d258c size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.Insert, addr 0x294f6ac, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize addr 0x27d25dc size 0x8 virtual true final true
+  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x294f6fc, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IList_get_IsFixedSize();
 
-  /// @brief Method System.Collections.IList.Remove addr 0x27d25e4 size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.Remove, addr 0x294f704, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_IList_Remove(::System::Object* value);
 
-  /// @brief Method System.Collections.IList.RemoveAt addr 0x27d2634 size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.RemoveAt, addr 0x294f754, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_IList_RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.IList.get_Item addr 0x27d2684 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IList.get_Item, addr 0x294f7a4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
 
-  /// @brief Method System.Collections.IList.set_Item addr 0x27d2688 size 0x50 virtual true final true
+  /// @brief Method System.Collections.IList.set_Item, addr 0x294f7a8, size 0x50, virtual true, abstract: false, final true
   inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
 
   static inline ::System::Text::RegularExpressions::GroupCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x27d26d8 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x294f7f8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupCollection", modifiers: "&&", def_value: None }]

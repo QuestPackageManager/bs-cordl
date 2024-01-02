@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11662))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11734))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11733))
 // CS Name: ::XmlSchemaParticle::EmptyParticle*
 class CORDL_TYPE __XmlSchemaParticle__EmptyParticle : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
   static inline ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle* New_ctor();
 
-  /// @brief Method .ctor addr 0x274ad30 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x28c8d54, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__XmlSchemaParticle__EmptyParticle", modifiers: "&&", def_value: None }]

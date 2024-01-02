@@ -12,10 +12,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormattedFloatListSettingsValueController)
 namespace GlobalNamespace {
-class FloatSO;
+struct __FormattedFloatListSettingsValueController__ValueType;
 }
 namespace GlobalNamespace {
-struct __FormattedFloatListSettingsValueController__ValueType;
+class FloatSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FormattedFloatListSettingsValueController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5686))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5593))
 // CS Name: ::FormattedFloatListSettingsValueController::ValueType
 struct CORDL_TYPE __FormattedFloatListSettingsValueController__ValueType {
 public:
@@ -85,8 +85,8 @@ static_assert(offsetof(::GlobalNamespace::__FormattedFloatListSettingsValueContr
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5686)), TypeDefinitionIndex(TypeDefinitionIndex(5691))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5687))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5593)), TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5594))
 // CS Name: ::FormattedFloatListSettingsValueController*
 class CORDL_TYPE FormattedFloatListSettingsValueController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -147,18 +147,18 @@ public:
 
   constexpr void __set__max(float_t value);
 
-  /// @brief Method GetInitValues addr 0x2165500 size 0xe0 virtual true final false
+  /// @brief Method GetInitValues, addr 0x22aa814, size 0xe0, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x21655e0 size 0x74 virtual true final false
+  /// @brief Method ApplyValue, addr 0x22aa8f4, size 0x74, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x2165654 size 0xdc virtual true final false
+  /// @brief Method TextForValue, addr 0x22aa968, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsValueController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2165730 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x22aaa44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FormattedFloatListSettingsValueController", modifiers: "&&", def_value: None }]

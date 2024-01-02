@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2957))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2958))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2959))
 // CS Name: ::System.Security.Cryptography::SHA1Managed*
 class CORDL_TYPE SHA1Managed : public ::System::Security::Cryptography::SHA1 {
 public:
@@ -60,31 +60,31 @@ public:
 
   static inline ::System::Security::Cryptography::SHA1Managed* New_ctor();
 
-  /// @brief Method .ctor addr 0x23056d4 size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0x245ed4c, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Initialize addr 0x230df8c size 0x44 virtual true final false
+  /// @brief Method Initialize, addr 0x2466ca8, size 0x44, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method HashCore addr 0x230dfd0 size 0x4 virtual true final false
+  /// @brief Method HashCore, addr 0x2466cec, size 0x4, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal addr 0x230e150 size 0x4 virtual true final false
+  /// @brief Method HashFinal, addr 0x2466e6c, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitializeState addr 0x230df08 size 0x84 virtual false final false
+  /// @brief Method InitializeState, addr 0x2466c24, size 0x84, virtual false, abstract: false, final false
   inline void InitializeState();
 
-  /// @brief Method _HashData addr 0x230dfd4 size 0x17c virtual false final false
+  /// @brief Method _HashData, addr 0x2466cf0, size 0x17c, virtual false, abstract: false, final false
   inline void _HashData(::ArrayW<uint8_t, ::Array<uint8_t>*> partIn, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method _EndHash addr 0x230e154 size 0x1a8 virtual false final false
+  /// @brief Method _EndHash, addr 0x2466e70, size 0x1a8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> _EndHash();
 
-  /// @brief Method SHATransform addr 0x230e2fc size 0x3f4 virtual false final false
+  /// @brief Method SHATransform, addr 0x2467018, size 0x3f4, virtual false, abstract: false, final false
   static inline void SHATransform(::cordl_internals::Ptr<uint32_t> expandedBuffer, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block);
 
-  /// @brief Method SHAExpand addr 0x230e6f0 size 0x3c virtual false final false
+  /// @brief Method SHAExpand, addr 0x246740c, size 0x3c, virtual false, abstract: false, final false
   static inline void SHAExpand(::cordl_internals::Ptr<uint32_t> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "SHA1Managed", modifiers: "&&", def_value: None }]

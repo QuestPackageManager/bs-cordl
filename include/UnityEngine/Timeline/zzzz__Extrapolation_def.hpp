@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extrapolation)
 namespace UnityEngine::Timeline {
-class TrackAsset;
+class TimelineClip;
 }
 namespace UnityEngine::Timeline {
-class TimelineClip;
+class TrackAsset;
 }
 namespace UnityEngine::Timeline {
 class __Extrapolation____c;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__Extrapolation____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14201))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13930))
 // CS Name: ::Extrapolation::<>c*
 class CORDL_TYPE __Extrapolation____c : public ::System::Object {
 public:
@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::Timeline::__Extrapolation____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2aece5c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c70bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SortClipsByStartTime>b__2_0 addr 0x2aece64 size 0x34 virtual false final false
+  /// @brief Method <SortClipsByStartTime>b__2_0, addr 0x2c70bb8, size 0x34, virtual false, abstract: false, final false
   inline int32_t _SortClipsByStartTime_b__2_0(::UnityEngine::Timeline::TimelineClip* clip1, ::UnityEngine::Timeline::TimelineClip* clip2);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extrapolation____c", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Extrapo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14202))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13931))
 // CS Name: ::UnityEngine.Timeline::Extrapolation*
 class CORDL_TYPE Extrapolation : public ::System::Object {
 public:
@@ -100,10 +100,10 @@ public:
 
   static inline double_t getStaticF_kMinExtrapolationTime();
 
-  /// @brief Method CalculateExtrapolationTimes addr 0x2aec82c size 0x40c virtual false final false
+  /// @brief Method CalculateExtrapolationTimes, addr 0x2c70580, size 0x40c, virtual false, abstract: false, final false
   static inline void CalculateExtrapolationTimes(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SortClipsByStartTime addr 0x2aecc38 size 0x13c virtual false final false
+  /// @brief Method SortClipsByStartTime, addr 0x2c7098c, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>
   SortClipsByStartTime(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips);
 

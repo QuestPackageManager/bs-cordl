@@ -1,3 +1,0 @@
-#pragma once
-#include "GlobalNamespace/zzzz__MessageHandlerAnalyticsManagerExtensions_def.hpp"
-#include "GlobalNamespace/zzzz__MessageHandlerAnalyticsManagerExtensions_impl.hpp"

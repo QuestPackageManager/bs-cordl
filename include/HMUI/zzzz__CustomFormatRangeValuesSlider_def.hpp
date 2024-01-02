@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::HMUI::CustomFormatRangeValuesSlider);
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13677))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13675))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13558))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13556))
 // CS Name: ::HMUI::CustomFormatRangeValuesSlider*
 class CORDL_TYPE CustomFormatRangeValuesSlider : public ::HMUI::RangeValuesTextSlider {
 public:
@@ -31,12 +31,12 @@ public:
 
   constexpr void __set__formatString(::StringW value);
 
-  /// @brief Method TextForValue addr 0x1fcc17c size 0x70 virtual true final false
+  /// @brief Method TextForValue, addr 0x21223d8, size 0x70, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   static inline ::HMUI::CustomFormatRangeValuesSlider* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fcc1ec size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2122448, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomFormatRangeValuesSlider", modifiers: "&&", def_value: None }]

@@ -20,31 +20,31 @@ MARK_REF_PTR_T(::System::IPv4AddressHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8861))
 // CS Name: ::System::IPv4AddressHelper*
 class CORDL_TYPE IPv4AddressHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseHostNumber addr 0x26afe8c size 0x30 virtual false final false
+  /// @brief Method ParseHostNumber, addr 0x282ae9c, size 0x30, virtual false, abstract: false, final false
   static inline int32_t ParseHostNumber(::System::ReadOnlySpan_1<char16_t> str, int32_t start, int32_t end);
 
-  /// @brief Method IsValid addr 0x26aff48 size 0x30 virtual false final false
+  /// @brief Method IsValid, addr 0x282af58, size 0x30, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile, bool unknownScheme);
 
-  /// @brief Method ParseCanonical addr 0x26afebc size 0x8c virtual false final false
+  /// @brief Method ParseCanonical, addr 0x282aecc, size 0x8c, virtual false, abstract: false, final false
   static inline bool ParseCanonical(::System::ReadOnlySpan_1<char16_t> name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
-  /// @brief Method IsValidCanonical addr 0x26aff78 size 0x140 virtual false final false
+  /// @brief Method IsValidCanonical, addr 0x282af88, size 0x140, virtual false, abstract: false, final false
   static inline bool IsValidCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool allowIPv6, bool notImplicitFile);
 
-  /// @brief Method ParseNonCanonical addr 0x26b00b8 size 0x2f4 virtual false final false
+  /// @brief Method ParseNonCanonical, addr 0x282b0c8, size 0x2f4, virtual false, abstract: false, final false
   static inline int64_t ParseNonCanonical(::cordl_internals::Ptr<char16_t> name, int32_t start, ByRef<int32_t> end, bool notImplicitFile);
 
-  /// @brief Method ParseCanonicalName addr 0x26b03ac size 0x228 virtual false final false
+  /// @brief Method ParseCanonicalName, addr 0x282b3bc, size 0x228, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> isLoopback);
 
-  /// @brief Method Parse addr 0x26b05d4 size 0x106c virtual false final false
+  /// @brief Method Parse, addr 0x282b5e4, size 0x106c, virtual false, abstract: false, final false
   static inline bool Parse(::StringW name, ::cordl_internals::Ptr<uint8_t> numbers, int32_t start, int32_t end);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPv4AddressHelper", modifiers: "&&", def_value: None }]

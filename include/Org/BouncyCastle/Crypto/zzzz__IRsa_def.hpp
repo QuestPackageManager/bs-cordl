@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IRsa)
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -27,22 +27,22 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IRsa {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOutputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ConvertInput addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ConvertInput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ProcessBlock addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
 
-  /// @brief Method ConvertOutput addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ConvertOutput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "IRsa", modifiers: "&&", def_value: None }]

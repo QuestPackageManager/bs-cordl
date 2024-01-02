@@ -1,11 +1,11 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
-#include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
+#include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__PrivacyPolicyViewController__ButtonType::__PrivacyPolicyViewController__ButtonType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -19,9 +19,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)(
     ::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*)>(&::GlobalNamespace::PrivacyPolicyViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2192958;
+  constexpr static std::size_t addrs = 0x22d573c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), "add_didFinishEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*>::get() })));
@@ -34,9 +34,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)(
     ::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*)>(&::GlobalNamespace::PrivacyPolicyViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2192a08;
+  constexpr static std::size_t addrs = 0x22d57ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), "remove_didFinishEvent", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*>::get() })));
@@ -49,9 +49,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PrivacyPolicyViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x2192ab8;
+  constexpr static std::size_t addrs = 0x22d589c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(),
@@ -65,9 +65,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)(bool, bool)>(
     &::GlobalNamespace::PrivacyPolicyViewController::Init)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2192c94;
+  constexpr static std::size_t addrs = 0x22d5a78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), "Init", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -79,39 +79,39 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)()>(&::GlobalNamespace::PrivacyPolicyViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2192ca8;
+  constexpr static std::size_t addrs = 0x22d5a8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyViewController._DidActivate_b__12_0
+//  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyViewController._DidActivate_b__11_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)()>(
-    &::GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__12_0)> {
+    &::GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__11_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2192cb0;
+  constexpr static std::size_t addrs = 0x22d5a94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(),
-                                                                               "<DidActivate>b__12_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "<DidActivate>b__11_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyViewController._DidActivate_b__12_1
+//  Writing Method size for method: ::GlobalNamespace::PrivacyPolicyViewController._DidActivate_b__11_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyViewController::*)()>(
-    &::GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__12_1)> {
+    &::GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__11_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2192cd0;
+  constexpr static std::size_t addrs = 0x22d5ab4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(),
-                                                                               "<DidActivate>b__12_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "<DidActivate>b__11_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
@@ -162,19 +162,6 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalizedTextAs
 constexpr void GlobalNamespace::PrivacyPolicyViewController::__set__privacyPolicyLocalizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____privacyPolicyLocalizedTextAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& GlobalNamespace::PrivacyPolicyViewController::__get__defaultPrivacyPolicyHeaderLocalizationKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPrivacyPolicyHeaderLocalizationKey;
-}
-constexpr ::StringW const& GlobalNamespace::PrivacyPolicyViewController::__get__defaultPrivacyPolicyHeaderLocalizationKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultPrivacyPolicyHeaderLocalizationKey;
-}
-constexpr void GlobalNamespace::PrivacyPolicyViewController::__set__defaultPrivacyPolicyHeaderLocalizationKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultPrivacyPolicyHeaderLocalizationKey)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PrivacyPolicyViewController::__get__updateNoticeLocalizationKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -238,10 +225,8 @@ inline void GlobalNamespace::PrivacyPolicyViewController::remove_didFinishEvent(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::PrivacyPolicyViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), "DidActivate", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
 inline void GlobalNamespace::PrivacyPolicyViewController::Init(bool showUpdate, bool showIAcceptPrompt) {
@@ -258,14 +243,14 @@ inline void GlobalNamespace::PrivacyPolicyViewController::_ctor() {
                                                                              std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__12_0() {
+inline void GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__11_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(),
-                                                                             "<DidActivate>b__12_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "<DidActivate>b__11_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__12_1() {
+inline void GlobalNamespace::PrivacyPolicyViewController::_DidActivate_b__11_1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyViewController*>::get(),
-                                                                             "<DidActivate>b__12_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "<DidActivate>b__11_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

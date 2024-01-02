@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComputedTransitionProperty)
-namespace UnityEngine::UIElements::StyleSheets {
-struct StylePropertyId;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace UnityEngine::UIElements::StyleSheets {
+struct StylePropertyId;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::UIElements::ComputedTransitionProperty);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7573))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7373))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7287))
 // CS Name: ::UnityEngine.UIElements::ComputedTransitionProperty
 struct CORDL_TYPE ComputedTransitionProperty {
 public:

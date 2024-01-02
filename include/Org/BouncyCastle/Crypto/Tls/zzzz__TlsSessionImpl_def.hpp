@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSessionImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
-class SessionParameters;
+class TlsSession;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsSession;
+class SessionParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1325))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSessionImpl*
 class CORDL_TYPE TlsSessionImpl : public ::System::Object {
@@ -64,19 +64,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 
-  /// @brief Method .ctor addr 0xf40b3c size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0xfb6d84, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 
-  /// @brief Method ExportSessionParameters addr 0xf40c7c size 0xb4 virtual true final false
+  /// @brief Method ExportSessionParameters, addr 0xfb6ec4, size 0xb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* ExportSessionParameters();
 
-  /// @brief Method get_SessionID addr 0xf40d30 size 0x34 virtual true final false
+  /// @brief Method get_SessionID, addr 0xfb6f78, size 0x34, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionID();
 
-  /// @brief Method Invalidate addr 0xf40d64 size 0x24 virtual true final false
+  /// @brief Method Invalidate, addr 0xfb6fac, size 0x24, virtual true, abstract: false, final false
   inline void Invalidate();
 
-  /// @brief Method get_IsResumable addr 0xf40d88 size 0x34 virtual true final false
+  /// @brief Method get_IsResumable, addr 0xfb6fd0, size 0x34, virtual true, abstract: false, final false
   inline bool get_IsResumable();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSessionImpl", modifiers: "&&", def_value: None }]

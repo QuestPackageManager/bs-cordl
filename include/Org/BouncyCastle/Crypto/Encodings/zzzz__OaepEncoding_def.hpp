@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OaepEncoding)
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -15,9 +18,6 @@ class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
-}
-namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Encodings {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::OaepEncoding);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(820))
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::OaepEncoding*
 class CORDL_TYPE OaepEncoding : public ::System::Object {
@@ -87,55 +87,55 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xe3ec34 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xeb2e08, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash);
 
-  /// @brief Method .ctor addr 0xe3ecbc size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0xeb2e90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash,
                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method .ctor addr 0xe3ecb0 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0xeb2e84, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
   static inline ::Org::BouncyCastle::Crypto::Encodings::OaepEncoding* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash,
                                                                                ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash, ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method .ctor addr 0xe3ecc8 size 0x22c virtual false final false
+  /// @brief Method .ctor, addr 0xeb2e9c, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* hash, ::Org::BouncyCastle::Crypto::IDigest* mgf1Hash,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> encodingParams);
 
-  /// @brief Method GetUnderlyingCipher addr 0xe3eef4 size 0x8 virtual false final false
+  /// @brief Method GetUnderlyingCipher, addr 0xeb30c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method get_AlgorithmName addr 0xe3eefc size 0xc0 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0xeb30d0, size 0xc0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xe3efbc size 0x148 virtual true final true
+  /// @brief Method Init, addr 0xeb3190, size 0x148, virtual true, abstract: false, final true
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method GetInputBlockSize addr 0xe3f104 size 0xc8 virtual true final true
+  /// @brief Method GetInputBlockSize, addr 0xeb32d8, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xe3f1cc size 0xc8 virtual true final true
+  /// @brief Method GetOutputBlockSize, addr 0xeb33a0, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xe3f294 size 0x10 virtual true final true
+  /// @brief Method ProcessBlock, addr 0xeb3468, size 0x10, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method EncodeBlock addr 0xe3f2a4 size 0x324 virtual false final false
+  /// @brief Method EncodeBlock, addr 0xeb3478, size 0x324, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method DecodeBlock addr 0xe3f5c8 size 0x450 virtual false final false
+  /// @brief Method DecodeBlock, addr 0xeb379c, size 0x450, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t inLen);
 
-  /// @brief Method ItoOSP addr 0xe3fef0 size 0x54 virtual false final false
+  /// @brief Method ItoOSP, addr 0xeb40c4, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method maskGeneratorFunction1 addr 0xe3fa18 size 0x4d8 virtual false final false
+  /// @brief Method maskGeneratorFunction1, addr 0xeb3bec, size 0x4d8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> maskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "OaepEncoding", modifiers: "&&", def_value: None }]

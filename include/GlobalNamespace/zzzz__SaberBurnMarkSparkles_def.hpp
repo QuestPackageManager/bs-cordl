@@ -8,15 +8,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SaberBurnMarkSparkles)
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class SaberManager;
-}
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine {
 class ParticleSystem;
 }
@@ -24,10 +15,19 @@ namespace GlobalNamespace {
 class ColorManager;
 }
 namespace UnityEngine {
-class BoxCollider;
+struct Vector3;
 }
 namespace UnityEngine {
 struct __ParticleSystem__EmissionModule;
+}
+namespace UnityEngine {
+class BoxCollider;
+}
+namespace GlobalNamespace {
+class SaberManager;
+}
+namespace GlobalNamespace {
+class Saber;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberBurnMarkSparkles);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10091))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10163)), TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4875))
 // CS Name: ::SaberBurnMarkSparkles*
 class CORDL_TYPE SaberBurnMarkSparkles : public ::UnityEngine::MonoBehaviour {
 public:
@@ -155,27 +155,27 @@ public:
 
   constexpr void __set__sparklesEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method Start addr 0x2267920 size 0x494 virtual false final false
+  /// @brief Method Start, addr 0x239d88c, size 0x494, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2267db4 size 0xe8 virtual false final false
+  /// @brief Method OnDestroy, addr 0x239dd20, size 0xe8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable addr 0x2267e9c size 0xd4 virtual false final false
+  /// @brief Method OnEnable, addr 0x239de08, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2267f70 size 0xd4 virtual false final false
+  /// @brief Method OnDisable, addr 0x239dedc, size 0xd4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method GetBurnMarkPos addr 0x2268044 size 0x20c virtual false final false
+  /// @brief Method GetBurnMarkPos, addr 0x239dfb0, size 0x20c, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos, ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method LateUpdate addr 0x2268250 size 0x6a0 virtual false final false
+  /// @brief Method LateUpdate, addr 0x239e1bc, size 0x6a0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SaberBurnMarkSparkles* New_ctor();
 
-  /// @brief Method .ctor addr 0x22688f0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x239e85c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkSparkles", modifiers: "&&", def_value: None }]

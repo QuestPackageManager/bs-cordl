@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::InputEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7266)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1657 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7332))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1724 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7246))
 // CS Name: ::UnityEngine.UIElements::InputEvent*
 class CORDL_TYPE InputEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::InputEvent*> {
 public:
@@ -43,24 +43,24 @@ public:
 
   constexpr void __set__newData_k__BackingField(::StringW value);
 
-  /// @brief Method set_previousData addr 0x2cea98c size 0x8 virtual false final false
+  /// @brief Method set_previousData, addr 0x2e52d3c, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
-  /// @brief Method set_newData addr 0x2cea994 size 0x8 virtual false final false
+  /// @brief Method set_newData, addr 0x2e52d44, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
-  /// @brief Method Init addr 0x2cea99c size 0x58 virtual true final false
+  /// @brief Method Init, addr 0x2e52d4c, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2cea9f4 size 0x10 virtual false final false
+  /// @brief Method LocalInit, addr 0x2e52da4, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x2ceaa04 size 0x84 virtual false final false
+  /// @brief Method GetPooled, addr 0x2e52db4, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ceaa88 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2e52e38, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputEvent", modifiers: "&&", def_value: None }]

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(PointerSpec)
 namespace System {
 class Type;
 }
-namespace System::Text {
-class StringBuilder;
-}
 namespace System {
 class ModifierSpec;
+}
+namespace System::Text {
+class StringBuilder;
 }
 // Forward declare root types
 namespace System {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::PointerSpec);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2635))
 // CS Name: ::System::PointerSpec*
 class CORDL_TYPE PointerSpec : public ::System::Object {
 public:
@@ -45,16 +45,16 @@ public:
 
   static inline ::System::PointerSpec* New_ctor(int32_t pointer_level);
 
-  /// @brief Method .ctor addr 0x24abb1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2606aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t pointer_level);
 
-  /// @brief Method Resolve addr 0x24abb24 size 0x54 virtual true final true
+  /// @brief Method Resolve, addr 0x2606aac, size 0x54, virtual true, abstract: false, final true
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method Append addr 0x24abb78 size 0x28 virtual true final true
+  /// @brief Method Append, addr 0x2606b00, size 0x28, virtual true, abstract: false, final true
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
-  /// @brief Method ToString addr 0x24abba0 size 0x74 virtual true final false
+  /// @brief Method ToString, addr 0x2606b28, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerSpec", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRGLTFComponentType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8455))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7552))
 // CS Name: ::OVRGLTFComponentType
 struct CORDL_TYPE OVRGLTFComponentType {
 public:

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14780))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14568))
 // CS Name: ::MaterialPropertyBlockFloatCurve*
 class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __set__speedMultiplier(float_t value);
 
-  /// @brief Method SetProperty addr 0x1fbf520 size 0x98 virtual true final false
+  /// @brief Method SetProperty, addr 0x21150a8, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbf5b8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2115140, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatCurve", modifiers: "&&", def_value: None }]

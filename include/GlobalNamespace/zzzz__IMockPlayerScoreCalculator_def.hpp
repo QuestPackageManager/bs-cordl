@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IMockPlayerScoreCalculator);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15508))
 // CS Name: ::IMockPlayerScoreCalculator*
 class CORDL_TYPE IMockPlayerScoreCalculator {
 public:
   // Declarations
-  /// @brief Method GetScoreForNote addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetScoreForNote, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMockPlayerScoreCalculator", modifiers: "&&", def_value: None }]

@@ -17,8 +17,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6167))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6096))
 // CS Name: ::Priority_Queue::GenericPriorityQueueNode`1<TPriority>*
 class CORDL_TYPE GenericPriorityQueueNode_1 : public ::System::Object {
 public:
@@ -56,27 +56,27 @@ public:
 
   constexpr void __set__InsertionIndex_k__BackingField(int64_t value);
 
-  /// @brief Method get_Priority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Priority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority get_Priority();
 
-  /// @brief Method set_Priority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Priority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Priority(TPriority value);
 
-  /// @brief Method get_QueueIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_QueueIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_QueueIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_QueueIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
-  /// @brief Method get_InsertionIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_InsertionIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int64_t get_InsertionIndex();
 
-  /// @brief Method set_InsertionIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_InsertionIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_InsertionIndex(int64_t value);
 
   static inline ::Priority_Queue::GenericPriorityQueueNode_1<TPriority>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericPriorityQueueNode_1", modifiers: "&&", def_value: None }]

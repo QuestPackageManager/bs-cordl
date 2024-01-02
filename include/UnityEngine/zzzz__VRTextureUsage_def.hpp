@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::VRTextureUsage);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10046))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10118))
 // CS Name: ::UnityEngine::VRTextureUsage
 struct CORDL_TYPE VRTextureUsage {
 public:

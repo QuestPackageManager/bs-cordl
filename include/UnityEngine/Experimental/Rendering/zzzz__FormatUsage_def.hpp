@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::FormatUsage);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10326))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10404))
 // CS Name: ::UnityEngine.Experimental.Rendering::FormatUsage
 struct CORDL_TYPE FormatUsage {
 public:

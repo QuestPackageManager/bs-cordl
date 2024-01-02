@@ -8,37 +8,37 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardViewController)
 namespace GlobalNamespace {
-class LocalLeaderboardTableView;
-}
-namespace GlobalNamespace {
-class ISaveData;
-}
-namespace HMUI {
-class IconSegmentedControl;
-}
-namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+struct __LocalLeaderboardsModel__LeaderboardType;
 }
 namespace UnityEngine {
 class Sprite;
 }
 namespace HMUI {
-class NoTransitionsButton;
+class IconSegmentedControl;
+}
+namespace GlobalNamespace {
+class ISaveData;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+class LocalLeaderboardTableView;
+}
+namespace GlobalNamespace {
+class LocalLeaderboardsModel;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace HMUI {
+class NoTransitionsButton;
+}
+namespace HMUI {
 class SegmentedControl;
-}
-namespace GlobalNamespace {
-class LocalLeaderboardsModel;
-}
-namespace GlobalNamespace {
-struct __LocalLeaderboardsModel__LeaderboardType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardViewController);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 210, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4247)), TypeDefinitionIndex(TypeDefinitionIndex(5749))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5787))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5650)), TypeDefinitionIndex(TypeDefinitionIndex(4214))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5689))
 // CS Name: ::LocalLeaderboardViewController*
 class CORDL_TYPE LocalLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {
 public:
@@ -191,54 +191,54 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType getStaticF__leaderboardType();
 
-  /// @brief Method get_leaderboardsModel addr 0x2185298 size 0x8 virtual false final false
+  /// @brief Method get_leaderboardsModel, addr 0x22c8058, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LocalLeaderboardsModel* get_leaderboardsModel();
 
-  /// @brief Method OnEnable addr 0x21852a0 size 0x24 virtual false final false
+  /// @brief Method OnEnable, addr 0x22c8060, size 0x24, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x21852c4 size 0x24 virtual false final false
+  /// @brief Method OnDisable, addr 0x22c8084, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Setup addr 0x21852e8 size 0xc virtual false final false
+  /// @brief Method Setup, addr 0x22c80a8, size 0xc, virtual false, abstract: false, final false
   inline void Setup(bool enableClear);
 
-  /// @brief Method SetData addr 0x21852f4 size 0x2c virtual true final false
+  /// @brief Method SetData, addr 0x22c80b4, size 0x2c, virtual true, abstract: false, final false
   inline void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
 
-  /// @brief Method DidActivate addr 0x2185384 size 0x1e0 virtual true final false
+  /// @brief Method DidActivate, addr 0x22c8144, size 0x1e0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2185968 size 0x10c virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22c8728, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x2185a74 size 0x98 virtual true final false
+  /// @brief Method OnDestroy, addr 0x22c8834, size 0x98, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshScopeSegmentedControl addr 0x2185564 size 0x2d4 virtual false final false
+  /// @brief Method RefreshScopeSegmentedControl, addr 0x22c8324, size 0x2d4, virtual false, abstract: false, final false
   inline void RefreshScopeSegmentedControl();
 
-  /// @brief Method HandleScopeSegmentedControlDidSelectCell addr 0x2185838 size 0x130 virtual false final false
+  /// @brief Method HandleScopeSegmentedControlDidSelectCell, addr 0x22c85f8, size 0x130, virtual false, abstract: false, final false
   inline void HandleScopeSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
-  /// @brief Method ClearLeaderboards addr 0x2185b0c size 0x60 virtual false final false
+  /// @brief Method ClearLeaderboards, addr 0x22c88cc, size 0x60, virtual false, abstract: false, final false
   inline void ClearLeaderboards();
 
-  /// @brief Method SetContent addr 0x2185b6c size 0x78 virtual false final false
+  /// @brief Method SetContent, addr 0x22c892c, size 0x78, virtual false, abstract: false, final false
   inline void SetContent(::StringW leaderboardID, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method HandleNewScoreWasAddedToLeaderboard addr 0x2185be4 size 0xa8 virtual false final false
+  /// @brief Method HandleNewScoreWasAddedToLeaderboard, addr 0x22c89a4, size 0xa8, virtual false, abstract: false, final false
   inline void HandleNewScoreWasAddedToLeaderboard(::StringW leaderboardID, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method Refresh addr 0x2185320 size 0x64 virtual false final false
+  /// @brief Method Refresh, addr 0x22c80e0, size 0x64, virtual false, abstract: false, final false
   inline void Refresh();
 
   static inline ::GlobalNamespace::LocalLeaderboardViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2185c8c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x22c8a4c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__21_0 addr 0x2185c9c size 0x34 virtual false final false
+  /// @brief Method <DidActivate>b__21_0, addr 0x22c8a5c, size 0x60, virtual false, abstract: false, final false
   inline void _DidActivate_b__21_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardViewController", modifiers: "&&", def_value: None }]

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncStateManager_5)
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
-}
-namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
+template <typename T> class IPacketPool_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-template <typename T> class IPacketPool_1;
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class __MultiplayerSyncStateManager_5____c;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
-}
-namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4563))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
 // CS Name: ::MultiplayerSyncStateManager`5::<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object {
 public:
@@ -75,10 +75,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandlePlayerConnected>b__37_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <HandlePlayerConnected>b__37_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t _HandlePlayerConnected_b__37_0(::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSyncStateManager_5____c", modifiers: "&&", def_value: None }]
@@ -105,8 +105,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4564))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
 // CS Name: ::MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE MultiplayerSyncStateManager_5 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -136,11 +136,11 @@ public:
 
   __declspec(property(get = get_disconnectedPlayerCount)) int32_t disconnectedPlayerCount;
 
-  __declspec(property(get = get_syncTime)) float_t syncTime;
+  __declspec(property(get = get_syncTime)) int64_t syncTime;
 
-  __declspec(property(get = get_deltaUpdateFrequency)) float_t deltaUpdateFrequency;
+  __declspec(property(get = get_deltaUpdateFrequencyMs)) int64_t deltaUpdateFrequencyMs;
 
-  __declspec(property(get = get_fullStateUpdateFrequency)) float_t fullStateUpdateFrequency;
+  __declspec(property(get = get_fullStateUpdateFrequencyMs)) int64_t fullStateUpdateFrequencyMs;
 
   __declspec(property(get = get_localBufferSize)) int32_t localBufferSize;
 
@@ -180,90 +180,90 @@ public:
 
   constexpr void __set__disconnectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
 
-  /// @brief Method get_multiplayerSessionManager addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_multiplayerSessionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_localState addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_localState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState();
 
-  /// @brief Method get_connectedPlayerCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_connectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_disconnectedPlayerCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_disconnectedPlayerCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_disconnectedPlayerCount();
 
-  /// @brief Method get_syncTime addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_syncTime();
+  /// @brief Method get_syncTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int64_t get_syncTime();
 
-  /// @brief Method get_deltaUpdateFrequency addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_deltaUpdateFrequency();
+  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t get_deltaUpdateFrequencyMs();
 
-  /// @brief Method get_fullStateUpdateFrequency addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_fullStateUpdateFrequency();
+  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t get_fullStateUpdateFrequencyMs();
 
-  /// @brief Method get_localBufferSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_localBufferSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_remoteBufferSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_remoteBufferSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_serializablePool, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IPacketPool_1<TSerializable>* get_serializablePool();
 
-  /// @brief Method get_deltaSerializablePool addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_deltaSerializablePool, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* get_deltaSerializablePool();
 
-  /// @brief Method get_messageType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_messageType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
 
-  /// @brief Method get_deltaMessageType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_deltaMessageType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LateUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Interpolate addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline TState Interpolate(TState a, float_t timeA, TState b, float_t timeB, float_t time);
+  /// @brief Method Interpolate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline TState Interpolate(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
 
-  /// @brief Method Smooth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Smooth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState Smooth(TState a, TState b, float_t smoooth);
 
-  /// @brief Method ClearBufferedStates addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ClearBufferedStates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ClearBufferedStates();
 
-  /// @brief Method TryCreateLocalState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryCreateLocalState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void TryCreateLocalState();
 
-  /// @brief Method HandlePlayerConnected addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandlePlayerConnected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandlePlayerDisconnected, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleSyncPacket addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleSyncPacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleSyncPacket(TSerializable packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleSyncDeltaPacket addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleSyncDeltaPacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleSyncDeltaPacket(TDeltaSerializable packet, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method GetSyncState addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetSyncState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncState(int32_t i);
 
-  /// @brief Method GetSyncStateForPlayer addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetSyncStateForPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetSyncStateForPlayer(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method GetDisconnectedSyncState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetDisconnectedSyncState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* GetDisconnectedSyncState(int32_t i);
 
   static inline ::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncStateManager_5", modifiers: "&&", def_value: None }]

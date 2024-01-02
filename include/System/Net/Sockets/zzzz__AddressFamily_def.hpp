@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::AddressFamily);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9337))
 // CS Name: ::System.Net.Sockets::AddressFamily
 struct CORDL_TYPE AddressFamily {
 public:

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(MainEffectGraphicsSettingsPresetsSO)
 namespace GlobalNamespace {
-class NamedPreset;
+class __MainEffectGraphicsSettingsPresetsSO__Preset;
 }
 namespace GlobalNamespace {
-class __MainEffectGraphicsSettingsPresetsSO__Preset;
+class NamedPreset;
 }
 namespace GlobalNamespace {
 class MainEffectSO;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4461))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4430))
 // CS Name: ::MainEffectGraphicsSettingsPresetsSO::Preset*
 class CORDL_TYPE __MainEffectGraphicsSettingsPresetsSO__Preset : public ::GlobalNamespace::NamedPreset {
 public:
@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset* New_ctor();
 
-  /// @brief Method .ctor addr 0x2202274 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234e724, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MainEffectGraphicsSettingsPresetsSO__Preset", modifiers: "&&", def_value: None }]
@@ -78,8 +78,8 @@ static_assert(offsetof(::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4462))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4452))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4441))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4431))
 // CS Name: ::MainEffectGraphicsSettingsPresetsSO*
 class CORDL_TYPE MainEffectGraphicsSettingsPresetsSO : public ::GlobalNamespace::NamedPresetsSO {
 public:
@@ -102,15 +102,15 @@ public:
 
   constexpr void __set__presets(::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> value);
 
-  /// @brief Method get_presets addr 0x220225c size 0x8 virtual false final false
+  /// @brief Method get_presets, addr 0x234e70c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> get_presets();
 
-  /// @brief Method get_namedPresets addr 0x2202264 size 0x8 virtual true final false
+  /// @brief Method get_namedPresets, addr 0x234e714, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
   static inline ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x220226c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234e71c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainEffectGraphicsSettingsPresetsSO", modifiers: "&&", def_value: None }]

@@ -23,16 +23,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKOutputFrame);
 // SizeInfo { instance_size: 172, native_size: 172, calculated_instance_size: 172, calculated_native_size: 188, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15221)), TypeDefinitionIndex(TypeDefinitionIndex(15211))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15220))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15107)), TypeDefinitionIndex(TypeDefinitionIndex(15117))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15116))
 // CS Name: ::LIV.SDK.Unity::SDKOutputFrame
 struct CORDL_TYPE SDKOutputFrame {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20af01c size 0x60 virtual false final false
+  /// @brief Method get_empty, addr 0x220ff54, size 0x60, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKOutputFrame get_empty();
 
-  /// @brief Method ToString addr 0x20b46dc size 0xc4 virtual true final false
+  /// @brief Method ToString, addr 0x2215614, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "renderingPipeline", ty: "::LIV::SDK::Unity::RENDERING_PIPELINE", modifiers: "", def_value: None }, CppParam { name: "trackedSpace", ty:

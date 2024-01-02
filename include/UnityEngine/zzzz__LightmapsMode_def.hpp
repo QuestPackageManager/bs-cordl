@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightmapsMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10050))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10122))
 // CS Name: ::UnityEngine::LightmapsMode
 struct CORDL_TYPE LightmapsMode {
 public:

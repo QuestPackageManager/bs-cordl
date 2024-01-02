@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::VertexAttributeFormat);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10252))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10330))
 // CS Name: ::UnityEngine.Rendering::VertexAttributeFormat
 struct CORDL_TYPE VertexAttributeFormat {
 public:

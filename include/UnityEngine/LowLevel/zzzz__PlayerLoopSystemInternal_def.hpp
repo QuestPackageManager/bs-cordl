@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLoopSystemInternal)
-namespace UnityEngine::LowLevel {
-class __PlayerLoopSystem__UpdateFunction;
-}
 namespace System {
 class Type;
+}
+namespace UnityEngine::LowLevel {
+class __PlayerLoopSystem__UpdateFunction;
 }
 // Forward declare root types
 namespace UnityEngine::LowLevel {
@@ -22,8 +22,8 @@ MARK_VAL_T(::UnityEngine::LowLevel::PlayerLoopSystemInternal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10472))
 // CS Name: ::UnityEngine.LowLevel::PlayerLoopSystemInternal
 struct CORDL_TYPE PlayerLoopSystemInternal {
 public:

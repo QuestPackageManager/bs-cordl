@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VROverlayTransformType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9394))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8625))
 // CS Name: ::OVR.OpenVR::VROverlayTransformType
 struct CORDL_TYPE VROverlayTransformType {
 public:

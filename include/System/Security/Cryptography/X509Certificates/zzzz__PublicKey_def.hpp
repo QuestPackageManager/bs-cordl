@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PublicKey)
 namespace System::Security::Cryptography {
+class AsymmetricAlgorithm;
+}
+namespace System::Security::Cryptography {
 class Oid;
 }
 namespace System::Security::Cryptography {
 class DSA;
-}
-namespace System::Security::Cryptography {
-class AsymmetricAlgorithm;
 }
 namespace System::Security::Cryptography {
 class AsnEncodedData;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::PublicKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7827))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8990))
 // CS Name: ::System.Security.Cryptography.X509Certificates::PublicKey*
 class CORDL_TYPE PublicKey : public ::System::Object {
 public:
@@ -82,28 +82,28 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::PublicKey* New_ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters,
                                                                                         ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
-  /// @brief Method .ctor addr 0x27f9a7c size 0x174 virtual false final false
+  /// @brief Method .ctor, addr 0x29777f4, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::Oid* oid, ::System::Security::Cryptography::AsnEncodedData* parameters, ::System::Security::Cryptography::AsnEncodedData* keyValue);
 
-  /// @brief Method get_EncodedKeyValue addr 0x27f9bf0 size 0x8 virtual false final false
+  /// @brief Method get_EncodedKeyValue, addr 0x2977968, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedKeyValue();
 
-  /// @brief Method get_EncodedParameters addr 0x27f9bf8 size 0x8 virtual false final false
+  /// @brief Method get_EncodedParameters, addr 0x2977970, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsnEncodedData* get_EncodedParameters();
 
-  /// @brief Method get_Key addr 0x27f9c00 size 0x1a4 virtual false final false
+  /// @brief Method get_Key, addr 0x2977978, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::AsymmetricAlgorithm* get_Key();
 
-  /// @brief Method get_Oid addr 0x27fa608 size 0x8 virtual false final false
+  /// @brief Method get_Oid, addr 0x2978380, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::Oid* get_Oid();
 
-  /// @brief Method GetUnsignedBigInteger addr 0x27fa610 size 0x94 virtual false final false
+  /// @brief Method GetUnsignedBigInteger, addr 0x2978388, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
 
-  /// @brief Method DecodeDSA addr 0x27fa15c size 0x4ac virtual false final false
+  /// @brief Method DecodeDSA, addr 0x2977ed4, size 0x4ac, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawParameters);
 
-  /// @brief Method DecodeRSA addr 0x27f9da4 size 0x3b8 virtual false final false
+  /// @brief Method DecodeRSA, addr 0x2977b1c, size 0x3b8, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPublicKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKey", modifiers: "&&", def_value: None }]

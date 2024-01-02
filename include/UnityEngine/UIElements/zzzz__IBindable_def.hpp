@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBindable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7168))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7082))
 // CS Name: ::UnityEngine.UIElements::IBindable*
 class CORDL_TYPE IBindable {
 public:
@@ -27,10 +27,10 @@ public:
 
   __declspec(property(put = set_bindingPath))::StringW bindingPath;
 
-  /// @brief Method get_binding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_binding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IBinding* get_binding();
 
-  /// @brief Method set_bindingPath addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_bindingPath, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_bindingPath(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindable", modifiers: "&&", def_value: None }]

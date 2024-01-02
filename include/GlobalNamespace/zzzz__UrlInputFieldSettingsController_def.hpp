@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::UrlInputFieldSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5689))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5696))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5595))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5600))
 // CS Name: ::UrlInputFieldSettingsController*
 class CORDL_TYPE UrlInputFieldSettingsController : public ::GlobalNamespace::InputFieldSettingsController {
 public:
   // Declarations
-  /// @brief Method HandleInputFieldDidChange addr 0x21663ac size 0x90 virtual true final false
+  /// @brief Method HandleInputFieldDidChange, addr 0x22ab188, size 0x90, virtual true, abstract: false, final false
   inline void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
 
   static inline ::GlobalNamespace::UrlInputFieldSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x216643c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22ab218, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UrlInputFieldSettingsController", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ConstructionCallDictionary)
-namespace System {
-class Object;
-}
 namespace System::Runtime::Remoting::Activation {
 class IConstructionCallMessage;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionCallDictionar
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3160))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3177))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3161))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionCallDictionary*
 class CORDL_TYPE ConstructionCallDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {
 public:
@@ -37,13 +37,13 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method .ctor addr 0x23526c0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x24ab1b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method GetMethodProperty addr 0x2353668 size 0x3ac virtual true final false
+  /// @brief Method GetMethodProperty, addr 0x24ac15c, size 0x3ac, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
-  /// @brief Method SetMethodProperty addr 0x2353f54 size 0x26c virtual true final false
+  /// @brief Method SetMethodProperty, addr 0x24aca48, size 0x26c, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConstructionCallDictionary", modifiers: "&&", def_value: None }]

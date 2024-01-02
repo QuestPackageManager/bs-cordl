@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberHolder)
 namespace System {
-class Object;
-}
-namespace System {
 class Type;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::MemberHolder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3234))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3204))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3205))
 // CS Name: ::System.Runtime.Serialization::MemberHolder*
 class CORDL_TYPE MemberHolder : public ::System::Object {
 public:
@@ -51,13 +51,13 @@ public:
 
   static inline ::System::Runtime::Serialization::MemberHolder* New_ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method .ctor addr 0x235c38c size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x24b4e80, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetHashCode addr 0x235c3c8 size 0x20 virtual true final false
+  /// @brief Method GetHashCode, addr 0x24b4ebc, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x235c3e8 size 0x8c virtual true final false
+  /// @brief Method Equals, addr 0x24b4edc, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemberHolder", modifiers: "&&", def_value: None }]

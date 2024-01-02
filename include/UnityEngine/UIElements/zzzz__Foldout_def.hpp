@@ -8,25 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Foldout)
 namespace UnityEngine::UIElements {
-class AttachToPanelEvent;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class INotifyValueChanged_1;
-}
-namespace UnityEngine::UIElements {
-class __Foldout__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
 class Toggle;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class INotifyValueChanged_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class __Foldout__UxmlFactory;
+}
+namespace UnityEngine::UIElements {
 class __Foldout__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+class AttachToPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
@@ -36,9 +39,6 @@ struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
-}
-namespace UnityEngine::UIElements {
-class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Foldout__UxmlTraits);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6886))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7086))
 // CS Name: ::Foldout::UxmlTraits*
 class CORDL_TYPE __Foldout__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
@@ -82,12 +82,12 @@ public:
 
   constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method Init addr 0x2ccbd38 size 0x130 virtual true final false
+  /// @brief Method Init, addr 0x2e330e8, size 0x130, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Foldout__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ccbe68 size 0xec virtual false final false
+  /// @brief Method .ctor, addr 0x2e33218, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Foldout__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -124,8 +124,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__Foldout__UxmlTraits, ___m_Va
 // SizeInfo { instance_size: 984, native_size: -1, calculated_instance_size: 984, calculated_native_size: 977, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6887))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7087))
 // CS Name: ::UnityEngine.UIElements::Foldout*
 class CORDL_TYPE Foldout : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -226,33 +226,33 @@ public:
 
   static inline int32_t getStaticF_ussFoldoutMaxDepth();
 
-  /// @brief Method get_contentContainer addr 0x2ccb5e0 size 0x8 virtual true final false
+  /// @brief Method get_contentContainer, addr 0x2e32990, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_contentContainer();
 
-  /// @brief Method set_text addr 0x2cc5098 size 0x124 virtual false final false
+  /// @brief Method set_text, addr 0x2e2c448, size 0x124, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method get_value addr 0x2ccb5e8 size 0x8 virtual true final true
+  /// @brief Method get_value, addr 0x2e32998, size 0x8, virtual true, abstract: false, final true
   inline bool get_value();
 
-  /// @brief Method set_value addr 0x2ccb5f0 size 0x1e0 virtual true final true
+  /// @brief Method set_value, addr 0x2e329a0, size 0x1e0, virtual true, abstract: false, final true
   inline void set_value(bool value);
 
-  /// @brief Method SetValueWithoutNotify addr 0x2ccb7d0 size 0x120 virtual true final true
+  /// @brief Method SetValueWithoutNotify, addr 0x2e32b80, size 0x120, virtual true, abstract: false, final true
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method OnViewDataReady addr 0x2ccb8f0 size 0x40 virtual true final false
+  /// @brief Method OnViewDataReady, addr 0x2e32ca0, size 0x40, virtual true, abstract: false, final false
   inline void OnViewDataReady();
 
   static inline ::UnityEngine::UIElements::Foldout* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cc4d68 size 0x330 virtual false final false
+  /// @brief Method .ctor, addr 0x2e2c118, size 0x330, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnAttachToPanel addr 0x2ccb938 size 0x1c0 virtual false final false
+  /// @brief Method OnAttachToPanel, addr 0x2e32ce8, size 0x1c0, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method <.ctor>b__23_0 addr 0x2ccbca0 size 0x50 virtual false final false
+  /// @brief Method <.ctor>b__23_0, addr 0x2e33050, size 0x50, virtual false, abstract: false, final false
   inline void __ctor_b__23_0(::UnityEngine::UIElements::ChangeEvent_1<bool>* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "Foldout", modifiers: "&&", def_value: None }]
@@ -294,14 +294,14 @@ static_assert(offsetof(::UnityEngine::UIElements::Foldout, ___m_Value) == 0x3d0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5144 }), TypeDefinitionIndex(TypeDefinitionIndex(7173)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7083)), TypeDefinitionIndex(TypeDefinitionIndex(7172))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7171)) CS Name: ::Foldout::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7086)), TypeDefinitionIndex(TypeDefinitionIndex(7087)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5260
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7085)) CS Name: ::Foldout::UxmlFactory*
 class CORDL_TYPE __Foldout__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Foldout*, ::UnityEngine::UIElements::__Foldout__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Foldout__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ccbcf0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e330a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Foldout__UxmlFactory", modifiers: "&&", def_value: None }]

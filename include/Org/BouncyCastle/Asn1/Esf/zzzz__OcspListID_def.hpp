@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(OcspListID)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
 namespace Org::BouncyCastle::Asn1::Esf {
 class OcspResponsesID;
-}
-namespace System {
-class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -45,29 +45,29 @@ public:
 
   constexpr void __set_ocspResponses(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe1d790 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe92964, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe1e7d4 size 0x480 virtual false final false
+  /// @brief Method .ctor, addr 0xe939a8, size 0x480, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> ocspResponses);
 
-  /// @brief Method .ctor addr 0xe1eddc size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0xe93fb0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> ocspResponses);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspListID* New_ctor(::System::Collections::IEnumerable* ocspResponses);
 
-  /// @brief Method .ctor addr 0xe1eea0 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0xe94074, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* ocspResponses);
 
-  /// @brief Method GetOcspResponses addr 0xe1f044 size 0x120 virtual false final false
+  /// @brief Method GetOcspResponses, addr 0xe94218, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*, ::Array<::Org::BouncyCastle::Asn1::Esf::OcspResponsesID*>*> GetOcspResponses();
 
-  /// @brief Method ToAsn1Object addr 0xe1f164 size 0x68 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe94338, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspListID", modifiers: "&&", def_value: None }]

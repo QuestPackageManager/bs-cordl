@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverCCD);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12502))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12574))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12567))
 // CS Name: ::RootMotion.FinalIK::IKSolverCCD*
 class CORDL_TYPE IKSolverCCD : public ::RootMotion::FinalIK::IKSolverHeuristic {
 public:
@@ -35,21 +35,21 @@ public:
 
   constexpr void __set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  /// @brief Method FadeOutBoneWeights addr 0x11f1a80 size 0x70 virtual false final false
+  /// @brief Method FadeOutBoneWeights, addr 0x1261dac, size 0x70, virtual false, abstract: false, final false
   inline void FadeOutBoneWeights();
 
-  /// @brief Method OnInitiate addr 0x11f1af0 size 0x6c virtual true final false
+  /// @brief Method OnInitiate, addr 0x1261e1c, size 0x6c, virtual true, abstract: false, final false
   inline void OnInitiate();
 
-  /// @brief Method OnUpdate addr 0x11f1fe4 size 0x2e0 virtual true final false
+  /// @brief Method OnUpdate, addr 0x1262310, size 0x2e0, virtual true, abstract: false, final false
   inline void OnUpdate();
 
-  /// @brief Method Solve addr 0x11f26b8 size 0x690 virtual false final false
+  /// @brief Method Solve, addr 0x12629e4, size 0x690, virtual false, abstract: false, final false
   inline void Solve(::UnityEngine::Vector3 targetPosition);
 
   static inline ::RootMotion::FinalIK::IKSolverCCD* New_ctor();
 
-  /// @brief Method .ctor addr 0x11f2d48 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x1263074, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKSolverCCD", modifiers: "&&", def_value: None }]

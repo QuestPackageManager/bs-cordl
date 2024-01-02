@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextureMapping);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13567))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13688))
 // CS Name: ::UnityEngine.TextCore.Text::TextureMapping
 struct CORDL_TYPE TextureMapping {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::SocketFlags);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9348))
 // CS Name: ::System.Net.Sockets::SocketFlags
 struct CORDL_TYPE SocketFlags {
 public:

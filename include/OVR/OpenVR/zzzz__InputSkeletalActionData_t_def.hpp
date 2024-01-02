@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::InputSkeletalActionData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8723))
 // CS Name: ::OVR.OpenVR::InputSkeletalActionData_t
 struct CORDL_TYPE InputSkeletalActionData_t {
 public:

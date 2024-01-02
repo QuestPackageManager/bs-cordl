@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1064))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfParameters*
 class CORDL_TYPE KdfParameters : public ::System::Object {
@@ -48,13 +48,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> shared, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0xec260c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf387f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> shared, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetSharedSecret addr 0xec2638 size 0x8 virtual false final false
+  /// @brief Method GetSharedSecret, addr 0xf38824, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSharedSecret();
 
-  /// @brief Method GetIV addr 0xec2640 size 0x8 virtual false final false
+  /// @brief Method GetIV, addr 0xf3882c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfParameters", modifiers: "&&", def_value: None }]

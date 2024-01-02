@@ -9,13 +9,13 @@ namespace GlobalNamespace {
 class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
-class NoteControllerBase;
-}
-namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
 namespace GlobalNamespace {
 class CutoutAnimateEffect;
+}
+namespace GlobalNamespace {
+class NoteControllerBase;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseNoteVisuals);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4855))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4734))
 // CS Name: ::BaseNoteVisuals*
 class CORDL_TYPE BaseNoteVisuals : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,24 +57,24 @@ public:
 
   constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect* value);
 
-  /// @brief Method Awake addr 0x224dcd8 size 0x144 virtual false final false
+  /// @brief Method Awake, addr 0x238297c, size 0x144, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x224de1c size 0x190 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2382ac0, size 0x190, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteControllerDidInit addr 0x224dfac size 0x1c virtual true final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x2382c50, size 0x1c, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x224dfc8 size 0x10 virtual true final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x2382c6c, size 0x10, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
-  /// @brief Method AnimateCutout addr 0x224dfd8 size 0x2c virtual false final false
+  /// @brief Method AnimateCutout, addr 0x2382c7c, size 0x2c, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::BaseNoteVisuals* New_ctor();
 
-  /// @brief Method .ctor addr 0x224e004 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2382ca8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "&&", def_value: None }]

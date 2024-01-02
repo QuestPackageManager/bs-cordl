@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Decoder3412);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11490))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11494))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11562))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11566))
 // CS Name: ::System.Xml::Ucs4Decoder3412*
 class CORDL_TYPE Ucs4Decoder3412 : public ::System::Xml::Ucs4Decoder {
 public:
   // Declarations
-  /// @brief Method GetFullChars addr 0x2729cfc size 0x214 virtual true final false
+  /// @brief Method GetFullChars, addr 0x28a6d20, size 0x214, virtual true, abstract: false, final false
   inline int32_t GetFullChars(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, ::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex);
 
   static inline ::System::Xml::Ucs4Decoder3412* New_ctor();
 
-  /// @brief Method .ctor addr 0x27291d0 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x28a61f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Ucs4Decoder3412", modifiers: "&&", def_value: None }]

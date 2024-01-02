@@ -10,19 +10,22 @@ namespace System {
 class Object;
 }
 namespace System::Runtime::CompilerServices {
+class __ValueTaskAwaiter____c;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System::Threading::Tasks {
 struct ValueTask;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
 class Action;
-}
-namespace System::Runtime::CompilerServices {
-class __ValueTaskAwaiter____c;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -38,8 +41,8 @@ MARK_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3384))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3389))
 // CS Name: ::ValueTaskAwaiter::<>c*
 class CORDL_TYPE __ValueTaskAwaiter____c : public ::System::Object {
 public:
@@ -53,10 +56,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::__ValueTaskAwaiter____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2382100 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24dbc8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__9_0 addr 0x2382108 size 0x74 virtual false final false
+  /// @brief Method <.cctor>b__9_0, addr 0x24dbc94, size 0x74, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ValueTaskAwaiter____c", modifiers: "&&", def_value: None }]
@@ -83,8 +86,8 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2762))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3385))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3390))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter
 struct CORDL_TYPE ValueTaskAwaiter {
 public:
@@ -99,20 +102,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
   static inline void setStaticF_s_invokeActionDelegate(::System::Action_1<::System::Object*>* value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method .ctor addr 0x2381c2c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24db61c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
-  /// @brief Method get_IsCompleted addr 0x2381c34 size 0x108 virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x24db624, size 0x108, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method GetResult addr 0x2381d3c size 0x100 virtual false final false
+  /// @brief Method GetResult, addr 0x24db72c, size 0x100, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method UnsafeOnCompleted addr 0x2381e3c size 0x18c virtual true final true
+  /// @brief Method OnCompleted, addr 0x24db82c, size 0x18c, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x24db9c8, size 0x18c, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
   // Ctor Parameters [CppParam { name: "_value", ty: "::System::Threading::Tasks::ValueTask", modifiers: "", def_value: None }]

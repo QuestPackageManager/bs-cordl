@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Security::Cryptography::RSAParameters);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2954))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2955))
 // CS Name: ::System.Security.Cryptography::RSAParameters
 struct CORDL_TYPE RSAParameters {
 public:

@@ -2,7 +2,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
+#include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
+#include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
@@ -12,61 +13,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelPackDetailViewController)
 namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21;
-}
-namespace GlobalNamespace {
-class KawaseBlurRendererSO;
-}
-namespace GlobalNamespace {
-class EventBinder;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
 class __LevelPackDetailViewController____c__DisplayClass16_0;
-}
-namespace GlobalNamespace {
-class DlcPromoPanelModel;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__19;
-}
-namespace HMUI {
-class ImageView;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine {
 class Sprite;
+}
+namespace GlobalNamespace {
+struct __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace HMUI {
+class ImageView;
 }
 namespace GlobalNamespace {
 struct __LevelPackDetailViewController__ContentType;
 }
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__OpenProductStoreResult;
+struct __LevelPackDetailViewController___RefreshAvailabilityAsync_d__19;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+class EventBinder;
+}
+namespace GlobalNamespace {
+class IAnalyticsModel;
+}
+namespace GlobalNamespace {
+class KawaseBlurRendererSO;
+}
+namespace GlobalNamespace {
+class DlcPromoPanelModel;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace System {
+class Action;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -74,8 +69,14 @@ struct AsyncVoidMethodBuilder;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
+}
 namespace GlobalNamespace {
-struct __AdditionalContentModel__EntitlementStatus;
+struct OpenProductStoreResult;
+}
+namespace GlobalNamespace {
+struct EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -104,7 +105,7 @@ MARK_VAL_T(::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabil
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5764))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5665))
 // CS Name: ::LevelPackDetailViewController::ContentType
 struct CORDL_TYPE __LevelPackDetailViewController__ContentType {
 public:
@@ -161,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController__Conte
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5765))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5666))
 // CS Name: ::LevelPackDetailViewController::<>c__DisplayClass16_0*
 class CORDL_TYPE __LevelPackDetailViewController____c__DisplayClass16_0 : public ::System::Object {
 public:
@@ -187,13 +188,13 @@ public:
 
   static inline ::GlobalNamespace::__LevelPackDetailViewController____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x217cf40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22bff80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__1 addr 0x217d5dc size 0x2c virtual false final false
+  /// @brief Method <DidActivate>b__1, addr 0x22c06e4, size 0x2c, virtual false, abstract: false, final false
   inline void _DidActivate_b__1();
 
-  /// @brief Method <DidActivate>b__2 addr 0x217d608 size 0x2c virtual false final false
+  /// @brief Method <DidActivate>b__2, addr 0x22c0710, size 0x2c, virtual false, abstract: false, final false
   inline void _DidActivate_b__2();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LevelPackDetailViewController____c__DisplayClass16_0", modifiers: "&&", def_value: None }]
@@ -230,27 +231,27 @@ static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController____c__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 883
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4122))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5766)) CS Name: ::LevelPackDetailViewController::<RefreshAvailabilityAsync>d__19
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5667)) CS Name:
+// ::LevelPackDetailViewController::<RefreshAvailabilityAsync>d__19
 struct CORDL_TYPE __LevelPackDetailViewController___RefreshAvailabilityAsync_d__19 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x217d634 size 0x428 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c073c, size 0x490, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x217da5c size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c0bcc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelPackDetailViewController*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus>", modifiers: "",
-  // def_value: None }]
-  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__19(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::LevelPackDetailViewController* __4__this,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1) noexcept;
+  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  constexpr __LevelPackDetailViewController___RefreshAvailabilityAsync_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                             ::GlobalNamespace::LevelPackDetailViewController* __4__this,
+                                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -266,7 +267,7 @@ public:
   ::GlobalNamespace::LevelPackDetailViewController* __4__this;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -289,27 +290,27 @@ static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___Refr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4123)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 885
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3389))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5767)) CS Name: ::LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__21
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5668)) CS Name:
+// ::LevelPackDetailViewController::<OpenLevelPackProductStoreAsync>d__21
 struct CORDL_TYPE __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x217da68 size 0x388 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c0bd8, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x217ddf0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c0fcc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelPackDetailViewController*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult>", modifiers: "",
-  // def_value: None }]
-  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::LevelPackDetailViewController* __4__this,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1) noexcept;
+  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }]
+  constexpr __LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__21(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                                                   ::GlobalNamespace::LevelPackDetailViewController* __4__this,
+                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -325,7 +326,7 @@ public:
   ::GlobalNamespace::LevelPackDetailViewController* __4__this;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -348,8 +349,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelPackDetailViewController___Open
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5768))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5669))
 // CS Name: ::LevelPackDetailViewController*
 class CORDL_TYPE LevelPackDetailViewController : public ::HMUI::ViewController {
 public:
@@ -384,7 +385,7 @@ public:
   __declspec(property(get = __get__kawaseBlurRenderer, put = __set__kawaseBlurRenderer))::GlobalNamespace::KawaseBlurRendererSO* _kawaseBlurRenderer;
 
   /// @brief Field _additionalContentModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::AdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _dlcPromoPanelModel, offset 0xb0, size 0x8
   __declspec(property(get = __get__dlcPromoPanelModel, put = __set__dlcPromoPanelModel))::GlobalNamespace::DlcPromoPanelModel* _dlcPromoPanelModel;
@@ -446,11 +447,11 @@ public:
 
   constexpr void __set__kawaseBlurRenderer(::GlobalNamespace::KawaseBlurRendererSO* value);
 
-  constexpr ::GlobalNamespace::AdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::AdditionalContentModel* value);
+  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
   constexpr ::GlobalNamespace::DlcPromoPanelModel*& __get__dlcPromoPanelModel();
 
@@ -488,39 +489,40 @@ public:
 
   constexpr void __set__blurredPackArtwork(::UnityEngine::Sprite* value);
 
-  /// @brief Method SetData addr 0x2178588 size 0x3cc virtual false final false
+  /// @brief Method SetData, addr 0x22bafcc, size 0x3cc, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IBeatmapLevelPack* pack);
 
-  /// @brief Method DidActivate addr 0x217cd54 size 0x1ec virtual true final false
+  /// @brief Method DidActivate, addr 0x22bfd34, size 0x24c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x217cf48 size 0xa8 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22bff88, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x217cff0 size 0x108 virtual true final false
+  /// @brief Method OnDestroy, addr 0x22c0094, size 0x16c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshAvailabilityAsync addr 0x217ccc0 size 0x94 virtual false final false
+  /// @brief Method RefreshAvailabilityAsync, addr 0x22bfca0, size 0x94, virtual false, abstract: false, final false
   inline void RefreshAvailabilityAsync();
 
-  /// @brief Method BuyPackButtonWasPressed addr 0x217d0f8 size 0x10c virtual false final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x22c0200, size 0x10c, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method OpenLevelPackProductStoreAsync addr 0x217d204 size 0x94 virtual false final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x22c030c, size 0x94, virtual false, abstract: false, final false
   inline void OpenLevelPackProductStoreAsync();
 
-  /// @brief Method ShowContent addr 0x217d298 size 0x2d4 virtual false final false
-  inline void ShowContent(::GlobalNamespace::__LevelPackDetailViewController__ContentType contentType, ::StringW errorText);
+  /// @brief Method ShowContent, addr 0x22c03a0, size 0x2d4, virtual false, abstract: false, final false
+  /// @param errorText: ::StringW (default: u"")
+  inline void ShowContent(::GlobalNamespace::__LevelPackDetailViewController__ContentType contentType, ::StringW errorText = u"");
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData addr 0x217d56c size 0x4 virtual false final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x22c0674, size 0x4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
   static inline ::GlobalNamespace::LevelPackDetailViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x217d570 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22c0678, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__16_0 addr 0x217d5d8 size 0x4 virtual false final false
+  /// @brief Method <DidActivate>b__16_0, addr 0x22c06e0, size 0x4, virtual false, abstract: false, final false
   inline void _DidActivate_b__16_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelPackDetailViewController", modifiers: "&&", def_value: None }]
@@ -559,7 +561,7 @@ public:
   ::GlobalNamespace::KawaseBlurRendererSO* ____kawaseBlurRenderer;
 
   /// @brief Field _additionalContentModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::AdditionalContentModel* ____additionalContentModel;
+  ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
   /// @brief Field _dlcPromoPanelModel, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::DlcPromoPanelModel* ____dlcPromoPanelModel;

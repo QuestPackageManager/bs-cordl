@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ErrorContext)
 namespace System {
-class Object;
+class Exception;
 }
 namespace System {
-class Exception;
+class Object;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Serialization {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ErrorContext);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11860))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11932))
 // CS Name: ::Newtonsoft.Json.Serialization::ErrorContext*
 class CORDL_TYPE ErrorContext : public ::System::Object {
 public:
@@ -95,43 +95,43 @@ public:
 
   static inline ::Newtonsoft::Json::Serialization::ErrorContext* New_ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method .ctor addr 0x2514160 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x26778a4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* originalObject, ::System::Object* member, ::StringW path, ::System::Exception* error);
 
-  /// @brief Method get_Traced addr 0x25141a0 size 0x8 virtual false final false
+  /// @brief Method get_Traced, addr 0x26778e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_Traced();
 
-  /// @brief Method set_Traced addr 0x25141a8 size 0xc virtual false final false
+  /// @brief Method set_Traced, addr 0x26778ec, size 0xc, virtual false, abstract: false, final false
   inline void set_Traced(bool value);
 
-  /// @brief Method get_Error addr 0x25141b4 size 0x8 virtual false final false
+  /// @brief Method get_Error, addr 0x26778f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_Error();
 
-  /// @brief Method set_Error addr 0x25141bc size 0x8 virtual false final false
+  /// @brief Method set_Error, addr 0x2677900, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::System::Exception* value);
 
-  /// @brief Method get_OriginalObject addr 0x25141c4 size 0x8 virtual false final false
+  /// @brief Method get_OriginalObject, addr 0x2677908, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_OriginalObject();
 
-  /// @brief Method set_OriginalObject addr 0x25141cc size 0x8 virtual false final false
+  /// @brief Method set_OriginalObject, addr 0x2677910, size 0x8, virtual false, abstract: false, final false
   inline void set_OriginalObject(::System::Object* value);
 
-  /// @brief Method get_Member addr 0x25141d4 size 0x8 virtual false final false
+  /// @brief Method get_Member, addr 0x2677918, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Member();
 
-  /// @brief Method set_Member addr 0x25141dc size 0x8 virtual false final false
+  /// @brief Method set_Member, addr 0x2677920, size 0x8, virtual false, abstract: false, final false
   inline void set_Member(::System::Object* value);
 
-  /// @brief Method get_Path addr 0x25141e4 size 0x8 virtual false final false
+  /// @brief Method get_Path, addr 0x2677928, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();
 
-  /// @brief Method set_Path addr 0x25141ec size 0x8 virtual false final false
+  /// @brief Method set_Path, addr 0x2677930, size 0x8, virtual false, abstract: false, final false
   inline void set_Path(::StringW value);
 
-  /// @brief Method get_Handled addr 0x25141f4 size 0x8 virtual false final false
+  /// @brief Method get_Handled, addr 0x2677938, size 0x8, virtual false, abstract: false, final false
   inline bool get_Handled();
 
-  /// @brief Method set_Handled addr 0x25141fc size 0xc virtual false final false
+  /// @brief Method set_Handled, addr 0x2677940, size 0xc, virtual false, abstract: false, final false
   inline void set_Handled(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorContext", modifiers: "&&", def_value: None }]

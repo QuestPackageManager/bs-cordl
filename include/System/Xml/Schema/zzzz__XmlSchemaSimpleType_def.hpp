@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleType);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11670))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11665))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11742))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11737))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleType*
 class CORDL_TYPE XmlSchemaSimpleType : public ::System::Xml::Schema::XmlSchemaType {
 public:
@@ -36,13 +36,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* New_ctor();
 
-  /// @brief Method .ctor addr 0x274b0bc size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x28c90e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content addr 0x274b0c0 size 0x8 virtual false final false
+  /// @brief Method get_Content, addr 0x28c90e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleTypeContent* get_Content();
 
-  /// @brief Method set_Content addr 0x274b0c8 size 0x8 virtual false final false
+  /// @brief Method set_Content, addr 0x28c90ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaSimpleType", modifiers: "&&", def_value: None }]

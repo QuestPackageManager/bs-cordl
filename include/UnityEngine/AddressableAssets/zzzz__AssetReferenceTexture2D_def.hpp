@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceTexture2D);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10001)), TypeDefinitionIndex(TypeDefinitionIndex(14353)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14353), inst:
-// 398 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14356)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14082)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 403 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10073))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14085)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceTexture2D*
 class CORDL_TYPE AssetReferenceTexture2D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::Texture2D*> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture2D* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor addr 0x28a5e2c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2a23b74, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture2D", modifiers: "&&", def_value: None }]

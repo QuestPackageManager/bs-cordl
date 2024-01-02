@@ -2,7 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(ISyncStateSerializable_1)
 namespace GlobalNamespace {
 struct SyncStateId;
@@ -20,33 +20,33 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12892))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12971))
 // CS Name: ::ISyncStateSerializable`1<T>*
 class CORDL_TYPE ISyncStateSerializable_1 {
 public:
   // Declarations
   __declspec(property(get = get_id, put = set_id))::GlobalNamespace::SyncStateId id;
 
-  __declspec(property(get = get_time, put = set_time)) float_t time;
+  __declspec(property(get = get_time, put = set_time)) int64_t time;
 
   __declspec(property(get = get_state, put = set_state)) T state;
 
-  /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::SyncStateId get_id();
 
-  /// @brief Method set_id addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_id(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_time addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline float_t get_time();
+  /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int64_t get_time();
 
-  /// @brief Method set_time addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void set_time(float_t value);
+  /// @brief Method set_time, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_time(int64_t value);
 
-  /// @brief Method get_state addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_state();
 
-  /// @brief Method set_state addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_state, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_state(T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISyncStateSerializable_1", modifiers: "&&", def_value: None }]

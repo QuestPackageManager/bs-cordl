@@ -3,18 +3,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"
 #include "UnityEngine/zzzz__TerrainLayer_def.hpp"
+#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PartData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
-#include "HoudiniEngineUnity/zzzz__HEU_DetailPrototype_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_VolumeLayer.IsEquivalentTo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeLayer::*)(::HoudiniEngineUnity::HEU_VolumeLayer*)>(
     &::HoudiniEngineUnity::HEU_VolumeLayer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x2091420;
+  constexpr static std::size_t addrs = 0x21e9dbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeLayer*>::get(), "IsEquivalentTo", std::vector<Il2CppClass*>{},
                                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HEU_VolumeLayer*>::get() })));
@@ -26,9 +26,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeLayer::*)()>(&::HoudiniEngineUnity::HEU_VolumeLayer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2091790;
+  constexpr static std::size_t addrs = 0x21ea12c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeLayer*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContentIdentifier)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1OctetString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+class Asn1Object;
 }
 namespace System {
 class Object;
@@ -42,23 +42,23 @@ public:
 
   constexpr void __set_value(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xe24a84 size 0x194 virtual false final false
+  /// @brief Method GetInstance, addr 0xe99c58, size 0x194, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor addr 0xe24c18 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe99dec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::ContentIdentifier* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor addr 0xe24c40 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xe99e14, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method get_Value addr 0xe24cbc size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0xe99e90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0xe24cc4 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe99e98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentIdentifier", modifiers: "&&", def_value: None }]

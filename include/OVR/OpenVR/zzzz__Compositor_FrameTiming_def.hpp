@@ -20,8 +20,8 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_FrameTiming);
 // SizeInfo { instance_size: 176, native_size: 176, calculated_instance_size: 176, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9427))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9473))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8658))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8704))
 // CS Name: ::OVR.OpenVR::Compositor_FrameTiming
 struct CORDL_TYPE Compositor_FrameTiming {
 public:

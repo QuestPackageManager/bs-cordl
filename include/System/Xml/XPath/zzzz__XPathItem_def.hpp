@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(XPathItem)
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace System::Xml::Schema {
 class XmlSchemaType;
+}
+namespace System {
+class Type;
 }
 namespace System {
 struct DateTime;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathItem);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11508))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11580))
 // CS Name: ::System.Xml.XPath::XPathItem*
 class CORDL_TYPE XPathItem : public ::System::Object {
 public:
@@ -56,42 +56,42 @@ public:
 
   __declspec(property(get = get_ValueAsLong)) int64_t ValueAsLong;
 
-  /// @brief Method get_XmlType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_XmlType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_XmlType();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_TypedValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TypedValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_ValueType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ValueAsBoolean addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueAsBoolean, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ValueAsBoolean();
 
-  /// @brief Method get_ValueAsDateTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueAsDateTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::DateTime get_ValueAsDateTime();
 
-  /// @brief Method get_ValueAsDouble addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueAsDouble, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_ValueAsDouble();
 
-  /// @brief Method get_ValueAsInt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueAsInt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_ValueAsInt();
 
-  /// @brief Method get_ValueAsLong addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ValueAsLong, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_ValueAsLong();
 
-  /// @brief Method ValueAs addr 0x272ce40 size 0x14 virtual true final false
+  /// @brief Method ValueAs, addr 0x28a9e64, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* ValueAs(::System::Type* returnType);
 
-  /// @brief Method ValueAs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValueAs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ValueAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::XPath::XPathItem* New_ctor();
 
-  /// @brief Method .ctor addr 0x272ce54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28a9e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathItem", modifiers: "&&", def_value: None }]

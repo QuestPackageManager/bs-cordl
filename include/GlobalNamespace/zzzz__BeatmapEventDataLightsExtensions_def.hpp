@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataLightsExtensions)
 namespace GlobalNamespace {
+class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
+}
+namespace GlobalNamespace {
 struct EnvironmentColorType;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
-}
-namespace GlobalNamespace {
-class __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitc
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14722))
 // CS Name: ::BeatmapEventDataLightsExtensions::LightSwitchEventEffectDataValues*
 class CORDL_TYPE __BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues : public ::System::Object {
 public:
@@ -100,27 +100,27 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapEventD
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14940))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14723))
 // CS Name: ::BeatmapEventDataLightsExtensions*
 class CORDL_TYPE BeatmapEventDataLightsExtensions : public ::System::Object {
 public:
   // Declarations
   using LightSwitchEventEffectDataValues = ::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
 
-  /// @brief Method LightColorTypeFromEventDataValue addr 0xd98984 size 0x18 virtual false final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0xdfdf2c, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetLightColorTypeFromEventDataValue addr 0xd9899c size 0x2c virtual false final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0xdfdf44, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue addr 0xd989c8 size 0x34 virtual false final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0xdfdf70, size 0x34, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue addr 0xd989fc size 0x4c virtual false final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xdfdfa4, size 0x4c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue addr 0xd98a48 size 0x3c virtual false final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xdfdff0, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataLightsExtensions", modifiers: "&&", def_value: None }]

@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolMaxSizeBinder_1)
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
 }
 namespace Zenject {
-class DiContainer;
+class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TContract> class MemoryPoolExpandBinder_1;
 }
 namespace Zenject {
-class BindInfo;
+class DiContainer;
 }
 namespace Zenject {
 class MemoryPoolBindInfo;
@@ -32,8 +32,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10794), inst: 4362 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10866)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10866), inst: 4466 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10867))
 // CS Name: ::Zenject::MemoryPoolMaxSizeBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolMaxSizeBinder_1 : public ::Zenject::MemoryPoolExpandBinder_1<TContract> {
 public:
@@ -41,10 +41,10 @@ public:
   static inline ::Zenject::MemoryPoolMaxSizeBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                           ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo, ::Zenject::MemoryPoolBindInfo* poolBindInfo);
 
-  /// @brief Method WithMaxSize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithMaxSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* WithMaxSize(int32_t size);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolMaxSizeBinder_1", modifiers: "&&", def_value: None }]

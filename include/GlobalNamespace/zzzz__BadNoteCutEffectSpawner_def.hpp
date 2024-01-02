@@ -12,16 +12,16 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
 class FlyingSpriteSpawner;
 }
 namespace GlobalNamespace {
+struct NoteCutInfo;
+}
+namespace GlobalNamespace {
 class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BadNoteCutEffectSpawner);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5002))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4884))
 // CS Name: ::BadNoteCutEffectSpawner*
 class CORDL_TYPE BadNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,18 +75,18 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
 
-  /// @brief Method Start addr 0x226af44 size 0xb4 virtual false final false
+  /// @brief Method Start, addr 0x23a0eb0, size 0xb4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x226aff8 size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23a0f64, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut addr 0x226b090 size 0x118 virtual false final false
+  /// @brief Method HandleNoteWasCut, addr 0x23a0ffc, size 0x118, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226b3a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23a1310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BadNoteCutEffectSpawner", modifiers: "&&", def_value: None }]

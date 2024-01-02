@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZOutputStream)
-namespace Org::BouncyCastle::Utilities::Zlib {
-class ZStream;
-}
 namespace System::IO {
 struct SeekOrigin;
+}
+namespace Org::BouncyCastle::Utilities::Zlib {
+class ZStream;
 }
 namespace System::IO {
 class Stream;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3607))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1297))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZOutputStream*
 class CORDL_TYPE ZOutputStream : public ::System::IO::Stream {
@@ -110,92 +110,92 @@ public:
 
   constexpr void __set_closed(bool value);
 
-  /// @brief Method GetDefaultZStream addr 0xf2cfd0 size 0x70 virtual false final false
+  /// @brief Method GetDefaultZStream, addr 0xfa3218, size 0x70, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZStream* GetDefaultZStream(bool nowrap);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output);
 
-  /// @brief Method .ctor addr 0xf2d040 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xfa3288, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output, bool nowrap);
 
-  /// @brief Method .ctor addr 0xf2d070 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xfa32b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, bool nowrap);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method .ctor addr 0xf2ceb8 size 0x114 virtual false final false
+  /// @brief Method .ctor, addr 0xfa3100, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output, int32_t level);
 
-  /// @brief Method .ctor addr 0xf2d0a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xfa32e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level);
 
   static inline ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* New_ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method .ctor addr 0xf2d0a8 size 0x100 virtual false final false
+  /// @brief Method .ctor, addr 0xfa32f0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, int32_t level, bool nowrap);
 
-  /// @brief Method get_CanRead addr 0xf2d1a8 size 0x8 virtual true final true
+  /// @brief Method get_CanRead, addr 0xfa33f0, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0xf2d1b0 size 0x8 virtual true final true
+  /// @brief Method get_CanSeek, addr 0xfa33f8, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite addr 0xf2d1b8 size 0x10 virtual true final true
+  /// @brief Method get_CanWrite, addr 0xfa3400, size 0x10, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
-  /// @brief Method Close addr 0xf2d1c8 size 0x2c virtual true final false
+  /// @brief Method Close, addr 0xfa3410, size 0x2c, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DoClose addr 0xf2d1f4 size 0x1a8 virtual false final false
+  /// @brief Method DoClose, addr 0xfa343c, size 0x1a8, virtual false, abstract: false, final false
   inline void DoClose();
 
-  /// @brief Method End addr 0xf2d39c size 0x4c virtual true final false
+  /// @brief Method End, addr 0xfa35e4, size 0x4c, virtual true, abstract: false, final false
   inline void End();
 
-  /// @brief Method Finish addr 0xf2d3e8 size 0x16c virtual true final false
+  /// @brief Method Finish, addr 0xfa3630, size 0x16c, virtual true, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Flush addr 0xf2d554 size 0x24 virtual true final false
+  /// @brief Method Flush, addr 0xfa379c, size 0x24, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method get_FlushMode addr 0xf2d578 size 0x8 virtual true final false
+  /// @brief Method get_FlushMode, addr 0xfa37c0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_FlushMode();
 
-  /// @brief Method set_FlushMode addr 0xf2d580 size 0x8 virtual true final false
+  /// @brief Method set_FlushMode, addr 0xfa37c8, size 0x8, virtual true, abstract: false, final false
   inline void set_FlushMode(int32_t value);
 
-  /// @brief Method get_Length addr 0xf2d588 size 0x40 virtual true final true
+  /// @brief Method get_Length, addr 0xfa37d0, size 0x40, virtual true, abstract: false, final true
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0xf2d5c8 size 0x40 virtual true final true
+  /// @brief Method get_Position, addr 0xfa3810, size 0x40, virtual true, abstract: false, final true
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0xf2d608 size 0x40 virtual true final true
+  /// @brief Method set_Position, addr 0xfa3850, size 0x40, virtual true, abstract: false, final true
   inline void set_Position(int64_t value);
 
-  /// @brief Method Read addr 0xf2d648 size 0x40 virtual true final true
+  /// @brief Method Read, addr 0xfa3890, size 0x40, virtual true, abstract: false, final true
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek addr 0xf2d688 size 0x40 virtual true final true
+  /// @brief Method Seek, addr 0xfa38d0, size 0x40, virtual true, abstract: false, final true
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0xf2d6c8 size 0x40 virtual true final true
+  /// @brief Method SetLength, addr 0xfa3910, size 0x40, virtual true, abstract: false, final true
   inline void SetLength(int64_t value);
 
-  /// @brief Method get_TotalIn addr 0xf2d708 size 0x1c virtual true final false
+  /// @brief Method get_TotalIn, addr 0xfa3950, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_TotalIn();
 
-  /// @brief Method get_TotalOut addr 0xf2d724 size 0x1c virtual true final false
+  /// @brief Method get_TotalOut, addr 0xfa396c, size 0x1c, virtual true, abstract: false, final false
   inline int64_t get_TotalOut();
 
-  /// @brief Method Write addr 0xf2d740 size 0x168 virtual true final false
+  /// @brief Method Write, addr 0xfa3988, size 0x168, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte addr 0xf2d8a8 size 0x40 virtual true final false
+  /// @brief Method WriteByte, addr 0xfa3af0, size 0x40, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   // Ctor Parameters [CppParam { name: "", ty: "ZOutputStream", modifiers: "&&", def_value: None }]

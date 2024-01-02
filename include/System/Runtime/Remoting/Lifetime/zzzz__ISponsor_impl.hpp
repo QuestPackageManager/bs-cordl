@@ -1,7 +1,7 @@
 #pragma once
 #include "System/Runtime/Remoting/Lifetime/zzzz__ISponsor_def.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
+#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Lifetime::ISponsor.Renewal
 template <>
 
@@ -10,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::ISponsor*>::get(),

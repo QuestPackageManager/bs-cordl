@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesTraits);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7081))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7063))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6977))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeOverridesTraits*
 class CORDL_TYPE UxmlAttributeOverridesTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca8250 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0e600, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlAttributeOverridesTraits", modifiers: "&&", def_value: None }]

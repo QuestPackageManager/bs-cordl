@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::PropagationFlags);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3044))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3045))
 // CS Name: ::System.Security.AccessControl::PropagationFlags
 struct CORDL_TYPE PropagationFlags {
 public:

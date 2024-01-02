@@ -6,7 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupList)
 namespace GlobalNamespace {
-class BeatmapEventDataBoxGroup;
+template <typename T, typename TBase> class SortedList_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroupProcessor;
@@ -15,16 +18,13 @@ namespace GlobalNamespace {
 class BeatmapData;
 }
 namespace GlobalNamespace {
-template <typename T, typename TBase> class SortedList_2;
-}
-namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+namespace GlobalNamespace {
+class BeatmapEventDataBoxGroup;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupList);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4332))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4306))
 // CS Name: ::BeatmapEventDataBoxGroupList*
 class CORDL_TYPE BeatmapEventDataBoxGroupList : public ::System::Object {
 public:
@@ -116,21 +116,21 @@ public:
 
   static inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* getStaticF__usedBeatmapEventDataBoxes();
 
-  /// @brief Method NoDomainReloadInit addr 0x21eeee8 size 0x78 virtual false final false
+  /// @brief Method NoDomainReloadInit, addr 0x23396a0, size 0x78, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupList* New_ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor);
 
-  /// @brief Method .ctor addr 0x21eef60 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2339718, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor);
 
-  /// @brief Method Insert addr 0x21ef0b4 size 0x3c4 virtual false final false
+  /// @brief Method Insert, addr 0x233986c, size 0x3c4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* Insert(::GlobalNamespace::BeatmapEventDataBoxGroup* beatmapEventDataBoxGroup);
 
-  /// @brief Method Remove addr 0x21ef4c8 size 0x3c8 virtual false final false
+  /// @brief Method Remove, addr 0x2339c80, size 0x3c8, virtual false, abstract: false, final false
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method SyncWithBeatmapData addr 0x21ef890 size 0x178 virtual false final false
+  /// @brief Method SyncWithBeatmapData, addr 0x233a048, size 0x178, virtual false, abstract: false, final false
   inline void SyncWithBeatmapData();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapEventDataBoxGroupList", modifiers: "&&", def_value: None }]

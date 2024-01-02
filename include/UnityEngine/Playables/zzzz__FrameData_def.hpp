@@ -12,13 +12,13 @@ namespace UnityEngine::Playables {
 struct __FrameData__Flags;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayState;
 }
 namespace UnityEngine::Playables {
 struct __FrameData__EvaluationType;
 }
 namespace UnityEngine::Playables {
-struct PlayState;
+struct PlayableOutput;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -39,7 +39,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameData);
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10338))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10416))
 // CS Name: ::FrameData::Flags
 struct CORDL_TYPE __FrameData__Flags {
 public:
@@ -105,7 +105,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__Flags, value__) ==
 namespace UnityEngine::Playables {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10339))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10417))
 // CS Name: ::FrameData::EvaluationType
 struct CORDL_TYPE __FrameData__EvaluationType {
 public:
@@ -154,8 +154,8 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__EvaluationType, va
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10338)), TypeDefinitionIndex(TypeDefinitionIndex(10360))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10340))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10416)), TypeDefinitionIndex(TypeDefinitionIndex(10438))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::UnityEngine.Playables::FrameData
 struct CORDL_TYPE FrameData {
 public:
@@ -180,31 +180,31 @@ public:
 
   __declspec(property(get = get_effectivePlayState))::UnityEngine::Playables::PlayState effectivePlayState;
 
-  /// @brief Method HasFlags addr 0x2b8d078 size 0x10 virtual false final false
+  /// @brief Method HasFlags, addr 0x2cf53b8, size 0x10, virtual false, abstract: false, final false
   inline bool HasFlags(::UnityEngine::Playables::__FrameData__Flags flag);
 
-  /// @brief Method get_deltaTime addr 0x2b8d088 size 0xc virtual false final false
+  /// @brief Method get_deltaTime, addr 0x2cf53c8, size 0xc, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
 
-  /// @brief Method get_effectiveSpeed addr 0x2b8d094 size 0x8 virtual false final false
+  /// @brief Method get_effectiveSpeed, addr 0x2cf53d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_effectiveSpeed();
 
-  /// @brief Method get_evaluationType addr 0x2b8d09c size 0x10 virtual false final false
+  /// @brief Method get_evaluationType, addr 0x2cf53dc, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::__FrameData__EvaluationType get_evaluationType();
 
-  /// @brief Method get_seekOccurred addr 0x2b8d0ac size 0xc virtual false final false
+  /// @brief Method get_seekOccurred, addr 0x2cf53ec, size 0xc, virtual false, abstract: false, final false
   inline bool get_seekOccurred();
 
-  /// @brief Method get_timeLooped addr 0x2b8d0b8 size 0xc virtual false final false
+  /// @brief Method get_timeLooped, addr 0x2cf53f8, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeLooped();
 
-  /// @brief Method get_timeHeld addr 0x2b8d0c4 size 0xc virtual false final false
+  /// @brief Method get_timeHeld, addr 0x2cf5404, size 0xc, virtual false, abstract: false, final false
   inline bool get_timeHeld();
 
-  /// @brief Method get_output addr 0x2b8d0d0 size 0xc virtual false final false
+  /// @brief Method get_output, addr 0x2cf5410, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput get_output();
 
-  /// @brief Method get_effectivePlayState addr 0x2b8d0dc size 0x18 virtual false final false
+  /// @brief Method get_effectivePlayState, addr 0x2cf541c, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayState get_effectivePlayState();
 
   // Ctor Parameters [CppParam { name: "m_FrameID", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_DeltaTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:

@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FloatTween)
-namespace GlobalNamespace {
-struct EaseType;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue> class StaticMemoryPool_7;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+struct EaseType;
 }
 // Forward declare root types
 namespace Tweening {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::Tweening::FloatTween);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15953)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15953), inst: 387 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15947))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(16099))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16093))
 // CS Name: ::Tweening::FloatTween*
 class CORDL_TYPE FloatTween : public ::Tweening::Tween_1<float_t> {
 public:
@@ -41,15 +41,16 @@ public:
 
   static inline ::Tweening::FloatTween* New_ctor();
 
-  /// @brief Method .ctor addr 0x288fcf0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2a0da38, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Tweening::FloatTween* New_ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method .ctor addr 0x288fd38 size 0x90 virtual false final false
-  inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
+  /// @brief Method .ctor, addr 0x2a0da80, size 0x90, virtual false, abstract: false, final false
+  /// @param delay: float_t (default: 0.0)
+  inline void _ctor(float_t fromValue, float_t toValue, ::System::Action_1<float_t>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay = 0.0);
 
-  /// @brief Method GetValue addr 0x288fdc8 size 0x2c virtual true final false
+  /// @brief Method GetValue, addr 0x2a0db10, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(float_t t);
 
   // Ctor Parameters [CppParam { name: "", ty: "FloatTween", modifiers: "&&", def_value: None }]

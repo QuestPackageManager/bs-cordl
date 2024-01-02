@@ -21,16 +21,16 @@ namespace Org::BouncyCastle::Crypto::Prng {
 class CORDL_TYPE IRandomGenerator {
 public:
   // Declarations
-  /// @brief Method AddSeedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddSeedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddSeedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSeedMaterial(int64_t seed);
 
-  /// @brief Method NextBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method NextBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method NextBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "IRandomGenerator", modifiers: "&&", def_value: None }]

@@ -4,9 +4,6 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBindingList)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -22,6 +19,9 @@ class PropertyDescriptor;
 namespace System::ComponentModel {
 struct ListSortDirection;
 }
+namespace System {
+class Object;
+}
 // Forward declare root types
 namespace System::ComponentModel {
 class IBindingList;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IBindingList);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8267))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9430))
 // CS Name: ::System.ComponentModel::IBindingList*
 class CORDL_TYPE IBindingList {
 public:
@@ -65,49 +65,49 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_AllowNew addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AllowNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_AllowNew();
 
-  /// @brief Method AddNew addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddNew, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* AddNew();
 
-  /// @brief Method get_AllowEdit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AllowEdit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_AllowEdit();
 
-  /// @brief Method get_AllowRemove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AllowRemove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_AllowRemove();
 
-  /// @brief Method get_SupportsChangeNotification addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsChangeNotification, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsChangeNotification();
 
-  /// @brief Method get_SupportsSearching addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsSearching, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsSearching();
 
-  /// @brief Method get_SupportsSorting addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsSorting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsSorting();
 
-  /// @brief Method get_IsSorted addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsSorted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSorted();
 
-  /// @brief Method get_SortProperty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SortProperty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::PropertyDescriptor* get_SortProperty();
 
-  /// @brief Method get_SortDirection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SortDirection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::ListSortDirection get_SortDirection();
 
-  /// @brief Method AddIndex addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method ApplySort addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ApplySort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplySort(::System::ComponentModel::PropertyDescriptor* property, ::System::ComponentModel::ListSortDirection direction);
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Find(::System::ComponentModel::PropertyDescriptor* property, ::System::Object* key);
 
-  /// @brief Method RemoveIndex addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveIndex(::System::ComponentModel::PropertyDescriptor* property);
 
-  /// @brief Method RemoveSort addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveSort, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveSort();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingList", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::HMUI::SegmentedControlCell);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13770))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13670))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13653))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13551))
 // CS Name: ::HMUI::SegmentedControlCell*
 class CORDL_TYPE SegmentedControlCell : public ::HMUI::SelectableCell {
 public:
@@ -44,21 +44,21 @@ public:
 
   constexpr void __set__segmentedControl(::HMUI::SegmentedControl* value);
 
-  /// @brief Method get_cellNumber addr 0x1fca00c size 0x8 virtual false final false
+  /// @brief Method get_cellNumber, addr 0x2120268, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellNumber();
 
-  /// @brief Method set_cellNumber addr 0x1fca014 size 0x8 virtual false final false
+  /// @brief Method set_cellNumber, addr 0x2120270, size 0x8, virtual false, abstract: false, final false
   inline void set_cellNumber(int32_t value);
 
-  /// @brief Method SegmentedControlSetup addr 0x1fc9da0 size 0xc virtual false final false
+  /// @brief Method SegmentedControlSetup, addr 0x211fffc, size 0xc, virtual false, abstract: false, final false
   inline void SegmentedControlSetup(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
 
-  /// @brief Method InternalToggle addr 0x1fca01c size 0x24 virtual true final false
+  /// @brief Method InternalToggle, addr 0x2120278, size 0x24, virtual true, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::HMUI::SegmentedControlCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc9764 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x211f9c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SegmentedControlCell", modifiers: "&&", def_value: None }]

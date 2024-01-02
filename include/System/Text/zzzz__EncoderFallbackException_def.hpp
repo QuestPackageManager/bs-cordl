@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncoderFallbackException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Text {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Text::EncoderFallbackException);
 namespace System::Text {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2839))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2843))
 // CS Name: ::System.Text::EncoderFallbackException*
 class CORDL_TYPE EncoderFallbackException : public ::System::ArgumentException {
 public:
@@ -66,23 +66,23 @@ public:
 
   static inline ::System::Text::EncoderFallbackException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d9f8c size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2634098, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor addr 0x24d9aec size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2633bf8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor addr 0x24d9d7c size 0x1f8 virtual false final false
+  /// @brief Method .ctor, addr 0x2633e88, size 0x1f8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
   static inline ::System::Text::EncoderFallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                    ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x24d9fe8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26340f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncoderFallbackException", modifiers: "&&", def_value: None }]

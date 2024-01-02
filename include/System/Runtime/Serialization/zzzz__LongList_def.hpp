@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::LongList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3220))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3221))
 // CS Name: ::System.Runtime.Serialization::LongList*
 class CORDL_TYPE LongList : public ::System::Object {
 public:
@@ -64,33 +64,33 @@ public:
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2363cf8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24bc7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor(int32_t startingSize);
 
-  /// @brief Method .ctor addr 0x2363f80 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x24bca74, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
-  /// @brief Method Add addr 0x2363d00 size 0x80 virtual false final false
+  /// @brief Method Add, addr 0x24bc7f4, size 0x80, virtual false, abstract: false, final false
   inline void Add(int64_t value);
 
-  /// @brief Method get_Count addr 0x2364074 size 0x8 virtual false final false
+  /// @brief Method get_Count, addr 0x24bcb68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method StartEnumeration addr 0x2361f74 size 0xc virtual false final false
+  /// @brief Method StartEnumeration, addr 0x24baa68, size 0xc, virtual false, abstract: false, final false
   inline void StartEnumeration();
 
-  /// @brief Method MoveNext addr 0x2361fc0 size 0x68 virtual false final false
+  /// @brief Method MoveNext, addr 0x24baab4, size 0x68, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x2361f80 size 0x34 virtual false final false
+  /// @brief Method get_Current, addr 0x24baa74, size 0x34, virtual false, abstract: false, final false
   inline int64_t get_Current();
 
-  /// @brief Method RemoveElement addr 0x2363c48 size 0x90 virtual false final false
+  /// @brief Method RemoveElement, addr 0x24bc73c, size 0x90, virtual false, abstract: false, final false
   inline bool RemoveElement(int64_t value);
 
-  /// @brief Method EnlargeArray addr 0x2363fec size 0x88 virtual false final false
+  /// @brief Method EnlargeArray, addr 0x24bcae0, size 0x88, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "LongList", modifiers: "&&", def_value: None }]

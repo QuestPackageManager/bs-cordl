@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VRMessageOverlayResponse);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9396))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8627))
 // CS Name: ::OVR.OpenVR::VRMessageOverlayResponse
 struct CORDL_TYPE VRMessageOverlayResponse {
 public:

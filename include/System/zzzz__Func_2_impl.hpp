@@ -12,9 +12,8 @@ template <typename T, typename TResult> inline void System::Func_2<T, TResult>::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T, typename TResult> inline TResult System::Func_2<T, TResult>::Invoke(T arg) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Func_2<T, TResult>*>::get(), "Invoke", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Func_2<T, TResult>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method, arg);
 }
 // Ctor Parameters []

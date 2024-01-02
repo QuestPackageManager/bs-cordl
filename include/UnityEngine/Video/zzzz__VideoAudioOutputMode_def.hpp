@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoAudioOutputMode);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16082))
 // CS Name: ::UnityEngine.Video::VideoAudioOutputMode
 struct CORDL_TYPE VideoAudioOutputMode {
 public:

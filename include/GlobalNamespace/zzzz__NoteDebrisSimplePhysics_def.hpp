@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSimplePhysics);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(4895))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4897))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4774))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4776))
 // CS Name: ::NoteDebrisSimplePhysics*
 class CORDL_TYPE NoteDebrisSimplePhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
@@ -74,24 +74,24 @@ public:
 
   constexpr void __set__firstUpdate(bool value);
 
-  /// @brief Method get_position addr 0x2254a7c size 0x1c virtual true final false
+  /// @brief Method get_position, addr 0x2388588, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method Start addr 0x2254a98 size 0x2c virtual false final false
+  /// @brief Method Start, addr 0x23885a4, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method LateUpdate addr 0x2254ac4 size 0x19c virtual false final false
+  /// @brief Method LateUpdate, addr 0x23885d0, size 0x19c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method Init addr 0x2254c60 size 0x2c virtual true final false
+  /// @brief Method Init, addr 0x238876c, size 0x2c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque);
 
-  /// @brief Method AddVelocity addr 0x2254c8c size 0x20 virtual true final false
+  /// @brief Method AddVelocity, addr 0x2388798, size 0x20, virtual true, abstract: false, final false
   inline void AddVelocity(::UnityEngine::Vector3 force);
 
   static inline ::GlobalNamespace::NoteDebrisSimplePhysics* New_ctor();
 
-  /// @brief Method .ctor addr 0x2254cac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23887b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteDebrisSimplePhysics", modifiers: "&&", def_value: None }]

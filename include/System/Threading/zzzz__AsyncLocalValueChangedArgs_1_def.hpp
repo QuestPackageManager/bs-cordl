@@ -17,17 +17,17 @@ namespace System::Threading {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2659))
 // CS Name: ::System.Threading::AsyncLocalValueChangedArgs`1<T>
 struct CORDL_TYPE AsyncLocalValueChangedArgs_1 {
 public:
   // Declarations
   __declspec(property(get = get_CurrentValue)) T CurrentValue;
 
-  /// @brief Method get_CurrentValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CurrentValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_CurrentValue();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T previousValue, T currentValue, bool contextChanged);
 
   // Ctor Parameters [CppParam { name: "_PreviousValue_k__BackingField", ty: "T", modifiers: "", def_value: None }, CppParam { name: "_CurrentValue_k__BackingField", ty: "T", modifiers: "", def_value:

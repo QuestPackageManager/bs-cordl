@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::StaticEnvironmentLights);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5107))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5002))
 // CS Name: ::StaticEnvironmentLights*
 class CORDL_TYPE StaticEnvironmentLights : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,12 +45,12 @@ public:
 
   constexpr void __set__materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
 
-  /// @brief Method Awake addr 0x227e890 size 0x94 virtual false final false
+  /// @brief Method Awake, addr 0x23b76fc, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StaticEnvironmentLights* New_ctor();
 
-  /// @brief Method .ctor addr 0x227e924 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23b7790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticEnvironmentLights", modifiers: "&&", def_value: None }]

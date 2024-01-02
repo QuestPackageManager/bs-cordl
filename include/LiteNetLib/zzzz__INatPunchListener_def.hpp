@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(INatPunchListener)
-namespace System::Net {
-class IPEndPoint;
-}
 namespace LiteNetLib {
 struct NatAddressType;
+}
+namespace System::Net {
+class IPEndPoint;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::LiteNetLib::INatPunchListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14483))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14145))
 // CS Name: ::LiteNetLib::INatPunchListener*
 class CORDL_TYPE INatPunchListener {
 public:
   // Declarations
-  /// @brief Method OnNatIntroductionRequest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnNatIntroductionRequest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNatIntroductionRequest(::System::Net::IPEndPoint* localEndPoint, ::System::Net::IPEndPoint* remoteEndPoint, ::StringW token);
 
-  /// @brief Method OnNatIntroductionSuccess addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnNatIntroductionSuccess, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNatIntroductionSuccess(::System::Net::IPEndPoint* targetEndPoint, ::LiteNetLib::NatAddressType type, ::StringW token);
 
   // Ctor Parameters [CppParam { name: "", ty: "INatPunchListener", modifiers: "&&", def_value: None }]

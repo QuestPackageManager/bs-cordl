@@ -6,28 +6,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackRegistry)
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
-}
-namespace UnityEngine::UIElements {
-class EventCallbackList;
-}
-namespace System {
-class Delegate;
-}
-namespace UnityEngine::UIElements {
 struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
-struct TrickleDown;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackListPool;
 }
 namespace UnityEngine::UIElements {
 template <typename TEventType> class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+struct PropagationPhase;
+}
+namespace System {
+class Delegate;
+}
+namespace UnityEngine::UIElements {
+class EventCallbackList;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+struct TrickleDown;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackRegistry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7253))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7167))
 // CS Name: ::UnityEngine.UIElements::EventCallbackRegistry*
 class CORDL_TYPE EventCallbackRegistry : public ::System::Object {
 public:
@@ -79,41 +79,46 @@ public:
 
   static inline ::UnityEngine::UIElements::EventCallbackListPool* getStaticF_s_ListPool();
 
-  /// @brief Method GetCallbackList addr 0x2ce3250 size 0x68 virtual false final false
-  static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer);
+  /// @brief Method GetCallbackList, addr 0x2e4b600, size 0x68, virtual false, abstract: false, final false
+  /// @param initializer: ::UnityEngine::UIElements::EventCallbackList* (default: nullptr)
+  static inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackList(::UnityEngine::UIElements::EventCallbackList* initializer = nullptr);
 
-  /// @brief Method ReleaseCallbackList addr 0x2ce32b8 size 0x68 virtual false final false
+  /// @brief Method ReleaseCallbackList, addr 0x2e4b668, size 0x68, virtual false, abstract: false, final false
   static inline void ReleaseCallbackList(::UnityEngine::UIElements::EventCallbackList* toRelease);
 
   static inline ::UnityEngine::UIElements::EventCallbackRegistry* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce3320 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2e4b6d0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetCallbackListForWriting addr 0x2ce333c size 0xb0 virtual false final false
+  /// @brief Method GetCallbackListForWriting, addr 0x2e4b6ec, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForWriting();
 
-  /// @brief Method GetCallbackListForReading addr 0x2ce33ec size 0x1c virtual false final false
+  /// @brief Method GetCallbackListForReading, addr 0x2e4b79c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventCallbackList* GetCallbackListForReading();
 
-  /// @brief Method UnregisterCallback addr 0x2ce3408 size 0x54 virtual false final false
+  /// @brief Method UnregisterCallback, addr 0x2e4b7b8, size 0x54, virtual false, abstract: false, final false
   inline bool UnregisterCallback(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param useTrickleDown: ::UnityEngine::UIElements::TrickleDown (default: static_cast<int32_t>(0x0))
+  /// @param invokePolicy: ::UnityEngine::UIElements::InvokePolicy (default: static_cast<int32_t>(0x0))
   template <typename TEventType>
-  inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown,
-                               ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown = static_cast<int32_t>(0x0),
+                               ::UnityEngine::UIElements::InvokePolicy invokePolicy = static_cast<int32_t>(0x0));
 
-  /// @brief Method UnregisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename TEventType> inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
+  /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param useTrickleDown: ::UnityEngine::UIElements::TrickleDown (default: static_cast<int32_t>(0x0))
+  template <typename TEventType>
+  inline bool UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown = static_cast<int32_t>(0x0));
 
-  /// @brief Method InvokeCallbacks addr 0x2ce345c size 0x198 virtual false final false
+  /// @brief Method InvokeCallbacks, addr 0x2e4b80c, size 0x198, virtual false, abstract: false, final false
   inline void InvokeCallbacks(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
-  /// @brief Method HasTrickleDownHandlers addr 0x2ce360c size 0x20 virtual false final false
+  /// @brief Method HasTrickleDownHandlers, addr 0x2e4b9bc, size 0x20, virtual false, abstract: false, final false
   inline bool HasTrickleDownHandlers();
 
-  /// @brief Method HasBubbleHandlers addr 0x2ce362c size 0x20 virtual false final false
+  /// @brief Method HasBubbleHandlers, addr 0x2e4b9dc, size 0x20, virtual false, abstract: false, final false
   inline bool HasBubbleHandlers();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventCallbackRegistry", modifiers: "&&", def_value: None }]

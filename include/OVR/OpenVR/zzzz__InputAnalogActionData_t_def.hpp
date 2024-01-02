@@ -17,7 +17,7 @@ MARK_VAL_T(::OVR::OpenVR::InputAnalogActionData_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9489))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8720))
 // CS Name: ::OVR.OpenVR::InputAnalogActionData_t
 struct CORDL_TYPE InputAnalogActionData_t {
 public:

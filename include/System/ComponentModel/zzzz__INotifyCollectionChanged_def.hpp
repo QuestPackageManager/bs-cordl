@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::ComponentModel::INotifyCollectionChanged);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11715))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11787))
 // CS Name: ::System.ComponentModel::INotifyCollectionChanged*
 class CORDL_TYPE INotifyCollectionChanged {
 public:
   // Declarations
-  /// @brief Method add_CollectionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_CollectionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_CollectionChanged(::System::ComponentModel::NotifyCollectionChangedEventHandler* value);
 
-  /// @brief Method remove_CollectionChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_CollectionChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_CollectionChanged(::System::ComponentModel::NotifyCollectionChangedEventHandler* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "INotifyCollectionChanged", modifiers: "&&", def_value: None }]

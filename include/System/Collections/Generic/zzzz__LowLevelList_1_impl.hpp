@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Collections::Generic::LowLevelList_1<T>::__get__items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____items;

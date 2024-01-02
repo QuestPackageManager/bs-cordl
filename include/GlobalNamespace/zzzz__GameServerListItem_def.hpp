@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4498))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4487))
 // CS Name: ::GameServerListItem*
 class CORDL_TYPE GameServerListItem : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerListItem* New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
-  /// @brief Method .ctor addr 0x2206b78 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x2355b74, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerListItem", modifiers: "&&", def_value: None }]

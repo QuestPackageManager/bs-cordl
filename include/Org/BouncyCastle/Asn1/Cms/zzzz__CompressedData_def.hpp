@@ -4,26 +4,26 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(CompressedData)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace System {
+class Object;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class ContentInfo;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cms {
@@ -77,30 +77,30 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm,
                                                                          ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo);
 
-  /// @brief Method .ctor addr 0xe00548 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0xe7571c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe005cc size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0xe757a0, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe006d0 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0xe758a4, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* ato, bool explicitly);
 
-  /// @brief Method GetInstance addr 0xe006e8 size 0x178 virtual false final false
+  /// @brief Method GetInstance, addr 0xe758bc, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Version addr 0xe00860 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xe75a34, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_CompressionAlgorithmIdentifier addr 0xe00868 size 0x8 virtual false final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xe75a3c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method get_EncapContentInfo addr 0xe00870 size 0x8 virtual false final false
+  /// @brief Method get_EncapContentInfo, addr 0xe75a44, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
 
-  /// @brief Method ToAsn1Object addr 0xe00878 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe75a4c, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CompressedData", modifiers: "&&", def_value: None }]

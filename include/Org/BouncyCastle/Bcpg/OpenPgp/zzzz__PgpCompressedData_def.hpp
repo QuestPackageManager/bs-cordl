@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpObject_def.hpp"
 CORDL_MODULE_EXPORT(PgpCompressedData)
+namespace System::IO {
+class Stream;
+}
 namespace Org::BouncyCastle::Bcpg {
 class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 struct CompressionAlgorithmTag;
-}
-namespace System::IO {
-class Stream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class CompressedDataPacket;
@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedData* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method .ctor addr 0x103405c size 0x120 virtual false final false
+  /// @brief Method .ctor, addr 0x10a52ac, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Algorithm addr 0x103417c size 0x1c virtual false final false
+  /// @brief Method get_Algorithm, addr 0x10a53cc, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
-  /// @brief Method GetInputStream addr 0x1034198 size 0x1c virtual false final false
+  /// @brief Method GetInputStream, addr 0x10a53e8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetDataStream addr 0x10341b4 size 0x178 virtual false final false
+  /// @brief Method GetDataStream, addr 0x10a5404, size 0x178, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpCompressedData", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PickingMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6909))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6823))
 // CS Name: ::UnityEngine.UIElements::PickingMode
 struct CORDL_TYPE PickingMode {
 public:

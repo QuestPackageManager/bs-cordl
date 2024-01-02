@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_RampType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9695))
 // CS Name: ::HoudiniEngineUnity::HAPI_RampType
 struct CORDL_TYPE HAPI_RampType {
 public:

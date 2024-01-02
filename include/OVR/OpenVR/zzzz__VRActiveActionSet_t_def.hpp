@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VRActiveActionSet_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8725))
 // CS Name: ::OVR.OpenVR::VRActiveActionSet_t
 struct CORDL_TYPE VRActiveActionSet_t {
 public:

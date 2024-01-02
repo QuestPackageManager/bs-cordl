@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Collections::IEnumerator);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3760))
 // CS Name: ::System.Collections::IEnumerator*
 class CORDL_TYPE IEnumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current))::System::Object* Current;
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveNext();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnumerator", modifiers: "&&", def_value: None }]

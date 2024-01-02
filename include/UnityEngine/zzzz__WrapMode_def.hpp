@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::WrapMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9970))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10042))
 // CS Name: ::UnityEngine::WrapMode
 struct CORDL_TYPE WrapMode {
 public:

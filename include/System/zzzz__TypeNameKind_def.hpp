@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TypeNameKind);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2562))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2564))
 // CS Name: ::System::TypeNameKind
 struct CORDL_TYPE TypeNameKind {
 public:

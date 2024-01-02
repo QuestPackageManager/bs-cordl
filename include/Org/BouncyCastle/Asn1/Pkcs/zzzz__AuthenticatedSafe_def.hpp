@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AuthenticatedSafe)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
+namespace Org::BouncyCastle::Asn1::Pkcs {
+class ContentInfo;
 }
 namespace System {
 class Object;
@@ -14,8 +14,8 @@ class Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Asn1::Pkcs {
-class ContentInfo;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Pkcs {
@@ -51,27 +51,27 @@ public:
 
   constexpr void __set_isBer(bool value);
 
-  /// @brief Method Copy addr 0xf0f780 size 0x78 virtual false final false
+  /// @brief Method Copy, addr 0xf859a4, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method GetInstance addr 0xf0f7f8 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf85a1c, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf0f89c size 0x158 virtual false final false
+  /// @brief Method .ctor, addr 0xf85ac0, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::AuthenticatedSafe* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method .ctor addr 0xf0fa98 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0xf85cbc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> info);
 
-  /// @brief Method GetContentInfo addr 0xf0fad0 size 0x8 virtual false final false
+  /// @brief Method GetContentInfo, addr 0xf85cf4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*, ::Array<::Org::BouncyCastle::Asn1::Pkcs::ContentInfo*>*> GetContentInfo();
 
-  /// @brief Method ToAsn1Object addr 0xf0fad8 size 0xa4 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf85cfc, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticatedSafe", modifiers: "&&", def_value: None }]

@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ICustomMarshaler);
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3312))
 // CS Name: ::System.Runtime.InteropServices::ICustomMarshaler*
 class CORDL_TYPE ICustomMarshaler {
 public:
   // Declarations
-  /// @brief Method MarshalNativeToManaged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MarshalNativeToManaged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* MarshalNativeToManaged(void* pNativeData);
 
-  /// @brief Method MarshalManagedToNative addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MarshalManagedToNative, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void* MarshalManagedToNative(::System::Object* ManagedObj);
 
-  /// @brief Method CleanUpNativeData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CleanUpNativeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CleanUpNativeData(void* pNativeData);
 
-  /// @brief Method CleanUpManagedData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CleanUpManagedData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CleanUpManagedData(::System::Object* ManagedObj);
 
-  /// @brief Method GetNativeDataSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNativeDataSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetNativeDataSize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomMarshaler", modifiers: "&&", def_value: None }]

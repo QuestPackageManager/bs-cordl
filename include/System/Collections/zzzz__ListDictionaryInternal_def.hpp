@@ -12,19 +12,13 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections {
-class __ListDictionaryInternal__NodeEnumerator;
-}
-namespace System::Collections {
 class __ListDictionaryInternal__NodeKeyValueCollection;
-}
-namespace System::Collections {
-class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IEnumerable;
 }
-namespace System::Collections {
-class IDictionary;
+namespace System {
+class Array;
 }
 namespace System::Collections {
 class ICollection;
@@ -32,8 +26,14 @@ class ICollection;
 namespace System::Collections {
 class __ListDictionaryInternal__DictionaryNode;
 }
-namespace System {
-class Array;
+namespace System::Collections {
+class __ListDictionaryInternal__NodeEnumerator;
+}
+namespace System::Collections {
+class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
 }
 namespace System::Collections {
 struct DictionaryEntry;
@@ -67,8 +67,8 @@ MARK_REF_PTR_T(::System::Collections::__ListDictionaryInternal__NodeKeyValueColl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3753))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3765))
 // CS Name: ::ListDictionaryInternal::NodeEnumerator*
 class CORDL_TYPE __ListDictionaryInternal__NodeEnumerator : public ::System::Object {
 public:
@@ -125,25 +125,25 @@ public:
 
   static inline ::System::Collections::__ListDictionaryInternal__NodeEnumerator* New_ctor(::System::Collections::ListDictionaryInternal* list);
 
-  /// @brief Method .ctor addr 0x2421cf4 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x257d164, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ListDictionaryInternal* list);
 
-  /// @brief Method get_Current addr 0x2421e98 size 0x64 virtual true final true
+  /// @brief Method get_Current, addr 0x257d308, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_Entry addr 0x2421efc size 0x64 virtual true final true
+  /// @brief Method get_Entry, addr 0x257d36c, size 0x64, virtual true, abstract: false, final true
   inline ::System::Collections::DictionaryEntry get_Entry();
 
-  /// @brief Method get_Key addr 0x2421f60 size 0x64 virtual true final true
+  /// @brief Method get_Key, addr 0x257d3d0, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value addr 0x2421fc4 size 0x64 virtual true final true
+  /// @brief Method get_Value, addr 0x257d434, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* get_Value();
 
-  /// @brief Method MoveNext addr 0x2422028 size 0xa0 virtual true final true
+  /// @brief Method MoveNext, addr 0x257d498, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x24220c8 size 0x80 virtual true final true
+  /// @brief Method Reset, addr 0x257d538, size 0x80, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionaryInternal__NodeEnumerator", modifiers: "&&", def_value: None }]
@@ -190,8 +190,8 @@ static_assert(offsetof(::System::Collections::__ListDictionaryInternal__NodeEnum
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 38, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3754))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3766))
 // CS Name: ::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator*
 class CORDL_TYPE __ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator : public ::System::Object {
 public:
@@ -248,16 +248,16 @@ public:
 
   static inline ::GlobalNamespace::__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator* New_ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys);
 
-  /// @brief Method .ctor addr 0x24223e4 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x257d854, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys);
 
-  /// @brief Method get_Current addr 0x2422430 size 0x78 virtual true final true
+  /// @brief Method get_Current, addr 0x257d8a0, size 0x78, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
-  /// @brief Method MoveNext addr 0x24224a8 size 0xa0 virtual true final true
+  /// @brief Method MoveNext, addr 0x257d918, size 0xa0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x2422548 size 0x80 virtual true final true
+  /// @brief Method Reset, addr 0x257d9b8, size 0x80, virtual true, abstract: false, final true
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionaryInternal__NodeKeyValueCollection__NodeKeyValueEnumerator", modifiers: "&&", def_value: None }]
@@ -309,8 +309,8 @@ static_assert(offsetof(::GlobalNamespace::__ListDictionaryInternal__NodeKeyValue
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3755))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3767))
 // CS Name: ::ListDictionaryInternal::NodeKeyValueCollection*
 class CORDL_TYPE __ListDictionaryInternal__NodeKeyValueCollection : public ::System::Object {
 public:
@@ -349,22 +349,22 @@ public:
 
   static inline ::System::Collections::__ListDictionaryInternal__NodeKeyValueCollection* New_ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys);
 
-  /// @brief Method .ctor addr 0x2421714 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x257cb84, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ListDictionaryInternal* list, bool isKeys);
 
-  /// @brief Method System.Collections.ICollection.CopyTo addr 0x2422148 size 0x1cc virtual true final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x257d5b8, size 0x1cc, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_Count addr 0x2422314 size 0x38 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_Count, addr 0x257d784, size 0x38, virtual true, abstract: false, final true
   inline int32_t System_Collections_ICollection_get_Count();
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized addr 0x242234c size 0x8 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x257d7bc, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot addr 0x2422354 size 0x18 virtual true final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x257d7c4, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x242236c size 0x78 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x257d7dc, size 0x78, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionaryInternal__NodeKeyValueCollection", modifiers: "&&", def_value: None }]
@@ -401,8 +401,8 @@ static_assert(offsetof(::System::Collections::__ListDictionaryInternal__NodeKeyV
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3756))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3768))
 // CS Name: ::ListDictionaryInternal::DictionaryNode*
 class CORDL_TYPE __ListDictionaryInternal__DictionaryNode : public ::System::Object {
 public:
@@ -436,7 +436,7 @@ public:
 
   static inline ::System::Collections::__ListDictionaryInternal__DictionaryNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2421698 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x257cb08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ListDictionaryInternal__DictionaryNode", modifiers: "&&", def_value: None }]
@@ -478,8 +478,8 @@ static_assert(offsetof(::System::Collections::__ListDictionaryInternal__Dictiona
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3757))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3769))
 // CS Name: ::System.Collections::ListDictionaryInternal*
 class CORDL_TYPE ListDictionaryInternal : public ::System::Object {
 public:
@@ -553,55 +553,55 @@ public:
 
   static inline ::System::Collections::ListDictionaryInternal* New_ctor();
 
-  /// @brief Method .ctor addr 0x2421490 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x257c900, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item addr 0x2421498 size 0xb8 virtual true final true
+  /// @brief Method get_Item, addr 0x257c908, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Object* get_Item(::System::Object* key);
 
-  /// @brief Method set_Item addr 0x2421550 size 0x148 virtual true final true
+  /// @brief Method set_Item, addr 0x257c9c0, size 0x148, virtual true, abstract: false, final true
   inline void set_Item(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Count addr 0x24216a0 size 0x8 virtual true final true
+  /// @brief Method get_Count, addr 0x257cb10, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Keys addr 0x24216a8 size 0x6c virtual true final true
+  /// @brief Method get_Keys, addr 0x257cb18, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Keys();
 
-  /// @brief Method get_IsReadOnly addr 0x2421744 size 0x8 virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x257cbb4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsFixedSize addr 0x242174c size 0x8 virtual true final true
+  /// @brief Method get_IsFixedSize, addr 0x257cbbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsSynchronized addr 0x2421754 size 0x8 virtual true final true
+  /// @brief Method get_IsSynchronized, addr 0x257cbc4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot addr 0x242175c size 0x78 virtual true final true
+  /// @brief Method get_SyncRoot, addr 0x257cbcc, size 0x78, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
-  /// @brief Method get_Values addr 0x24217d4 size 0x68 virtual true final true
+  /// @brief Method get_Values, addr 0x257cc44, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* get_Values();
 
-  /// @brief Method Add addr 0x242183c size 0x1a4 virtual true final true
+  /// @brief Method Add, addr 0x257ccac, size 0x1a4, virtual true, abstract: false, final true
   inline void Add(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method Clear addr 0x24219e0 size 0x14 virtual true final true
+  /// @brief Method Clear, addr 0x257ce50, size 0x14, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x24219f4 size 0xb8 virtual true final true
+  /// @brief Method Contains, addr 0x257ce64, size 0xb8, virtual true, abstract: false, final true
   inline bool Contains(::System::Object* key);
 
-  /// @brief Method CopyTo addr 0x2421aac size 0x1e8 virtual true final true
+  /// @brief Method CopyTo, addr 0x257cf1c, size 0x1e8, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator addr 0x2421c94 size 0x60 virtual true final true
+  /// @brief Method GetEnumerator, addr 0x257d104, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x2421d38 size 0x60 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x257d1a8, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Remove addr 0x2421d98 size 0x100 virtual true final true
+  /// @brief Method Remove, addr 0x257d208, size 0x100, virtual true, abstract: false, final true
   inline void Remove(::System::Object* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "ListDictionaryInternal", modifiers: "&&", def_value: None }]

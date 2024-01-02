@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SetApplicationVersionText);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5152))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5047))
 // CS Name: ::SetApplicationVersionText*
 class CORDL_TYPE SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__versionText(::TMPro::TextMeshPro* value);
 
-  /// @brief Method Start addr 0x20e1400 size 0x48 virtual false final false
+  /// @brief Method Start, addr 0x23c32a8, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e1448 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23c32f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetApplicationVersionText", modifiers: "&&", def_value: None }]

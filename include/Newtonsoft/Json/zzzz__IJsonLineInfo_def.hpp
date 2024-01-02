@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::IJsonLineInfo);
 namespace Newtonsoft::Json {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11741))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11813))
 // CS Name: ::Newtonsoft.Json::IJsonLineInfo*
 class CORDL_TYPE IJsonLineInfo {
 public:
@@ -24,13 +24,13 @@ public:
 
   __declspec(property(get = get_LinePosition)) int32_t LinePosition;
 
-  /// @brief Method HasLineInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HasLineInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HasLineInfo();
 
-  /// @brief Method get_LineNumber addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LineNumber, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_LinePosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_LinePosition();
 
   // Ctor Parameters [CppParam { name: "", ty: "IJsonLineInfo", modifiers: "&&", def_value: None }]

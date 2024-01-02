@@ -1,17 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightRendererCore_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundSpriteRenderer_def.hpp"
-#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer.get_renderer
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Renderer* (::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1fb0ea4;
+  constexpr static std::size_t addrs = 0x21061f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer*>::get(),
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1fb0eac;
+  constexpr static std::size_t addrs = 0x21061f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer*>::get(),
                                                                                ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -46,8 +46,9 @@ constexpr void GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::__set__spr
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spriteRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Renderer* GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::get_renderer() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer*>::get(),
-                                                                             "get_renderer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Renderer*, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BloomPrePassBackgroundSpriteRenderer* GlobalNamespace::BloomPrePassBackgroundSpriteRenderer::New_ctor() {

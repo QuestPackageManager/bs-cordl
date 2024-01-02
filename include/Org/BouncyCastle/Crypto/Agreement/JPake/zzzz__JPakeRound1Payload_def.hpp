@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(717))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeRound1Payload*
 class CORDL_TYPE JPakeRound1Payload : public ::System::Object {
@@ -87,24 +87,24 @@ public:
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
            ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method .ctor addr 0x11a27bc size 0x19c virtual false final false
+  /// @brief Method .ctor, addr 0x1213a0c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method get_ParticipantId addr 0x11a482c size 0x8 virtual true final false
+  /// @brief Method get_ParticipantId, addr 0x1215a7c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
-  /// @brief Method get_Gx1 addr 0x11a4834 size 0x8 virtual true final false
+  /// @brief Method get_Gx1, addr 0x1215a84, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2 addr 0x11a483c size 0x8 virtual true final false
+  /// @brief Method get_Gx2, addr 0x1215a8c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1 addr 0x11a4844 size 0x7c virtual true final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x1215a94, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2 addr 0x11a48c0 size 0x7c virtual true final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x1215b10, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeRound1Payload", modifiers: "&&", def_value: None }]

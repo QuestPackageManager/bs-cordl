@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialUtility)
 namespace UnityEngine {
-class Renderer;
+class Material;
 }
 namespace UnityEngine {
-class Material;
+class Renderer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MaterialUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12138))
 // CS Name: ::UnityEngine.ProBuilder::MaterialUtility*
 class CORDL_TYPE MaterialUtility : public ::System::Object {
 public:
@@ -37,10 +37,10 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Material*>* getStaticF_s_MaterialArray();
 
-  /// @brief Method GetMaterialCount addr 0x29c617c size 0xd0 virtual false final false
+  /// @brief Method GetMaterialCount, addr 0x2b47ed0, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method GetSharedMaterial addr 0x29c624c size 0x140 virtual false final false
+  /// @brief Method GetSharedMaterial, addr 0x2b47fa0, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Material* GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialUtility", modifiers: "&&", def_value: None }]

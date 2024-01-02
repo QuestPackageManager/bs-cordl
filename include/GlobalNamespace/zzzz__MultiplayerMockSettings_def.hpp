@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerMockSettings)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
 namespace GlobalNamespace {
-class MockPlayerSettings;
-}
-namespace GlobalNamespace {
 class MultiplayerStatusData;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class MockPlayerSettings;
 }
 namespace GlobalNamespace {
 class MockServerSettings;
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMockSettings);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5293))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5189))
 // CS Name: ::MultiplayerMockSettings*
 class CORDL_TYPE MultiplayerMockSettings : public ::UnityEngine::ScriptableObject {
 public:
@@ -101,39 +101,39 @@ public:
 
   constexpr void __set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method get_quickplayServer addr 0x210367c size 0x8 virtual false final false
+  /// @brief Method get_quickplayServer, addr 0x2244570, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockServerSettings* get_quickplayServer();
 
-  /// @brief Method get_localPlayer addr 0x2103684 size 0xac virtual false final false
+  /// @brief Method get_localPlayer, addr 0x2244578, size 0xac, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MockPlayerSettings* get_localPlayer();
 
-  /// @brief Method get_quickPlaySetupData addr 0x2103730 size 0x8 virtual false final false
+  /// @brief Method get_quickPlaySetupData, addr 0x2244624, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::QuickPlaySetupData* get_quickPlaySetupData();
 
-  /// @brief Method set_quickPlaySetupData addr 0x2103738 size 0x8 virtual false final false
+  /// @brief Method set_quickPlaySetupData, addr 0x224462c, size 0x8, virtual false, abstract: false, final false
   inline void set_quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method get_multiplayerStatusData addr 0x2103740 size 0x8 virtual false final false
+  /// @brief Method get_multiplayerStatusData, addr 0x2244634, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerStatusData* get_multiplayerStatusData();
 
-  /// @brief Method set_multiplayerStatusData addr 0x2103748 size 0x8 virtual false final false
+  /// @brief Method set_multiplayerStatusData, addr 0x224463c, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplayerStatusData(::GlobalNamespace::MultiplayerStatusData* value);
 
-  /// @brief Method get_otherPlayers addr 0x2103750 size 0x8 virtual false final false
+  /// @brief Method get_otherPlayers, addr 0x2244644, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::MockPlayerSettings*>* get_otherPlayers();
 
-  /// @brief Method get_isEnabled addr 0x2103758 size 0x8 virtual false final false
+  /// @brief Method get_isEnabled, addr 0x224464c, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
 
-  /// @brief Method set_isEnabled addr 0x2103760 size 0xc virtual false final false
+  /// @brief Method set_isEnabled, addr 0x2244654, size 0xc, virtual false, abstract: false, final false
   inline void set_isEnabled(bool value);
 
-  /// @brief Method SharedSettings addr 0x210376c size 0x8 virtual false final false
+  /// @brief Method SharedSettings, addr 0x2244660, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerMockSettings* SharedSettings();
 
   static inline ::GlobalNamespace::MultiplayerMockSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2103774 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2244668, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerMockSettings", modifiers: "&&", def_value: None }]

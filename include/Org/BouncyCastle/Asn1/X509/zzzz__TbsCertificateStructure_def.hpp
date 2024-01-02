@@ -5,8 +5,29 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TbsCertificateStructure)
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class Time;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class SubjectPublicKeyInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Name;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Extensions;
@@ -14,29 +35,8 @@ class X509Extensions;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerBitString;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Name;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class SubjectPublicKeyInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -186,54 +186,54 @@ public:
 
   constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance addr 0x1128344 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x119858c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance addr 0x112835c size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x11985a4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1128400 size 0x620 virtual false final false
+  /// @brief Method .ctor, addr 0x1198648, size 0x620, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0x1128dcc size 0x24 virtual false final false
+  /// @brief Method get_Version, addr 0x1199014, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_VersionNumber addr 0x1128df0 size 0x8 virtual false final false
+  /// @brief Method get_VersionNumber, addr 0x1199038, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_VersionNumber();
 
-  /// @brief Method get_SerialNumber addr 0x1128df8 size 0x8 virtual false final false
+  /// @brief Method get_SerialNumber, addr 0x1199040, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Signature addr 0x1128e00 size 0x8 virtual false final false
+  /// @brief Method get_Signature, addr 0x1199048, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Signature();
 
-  /// @brief Method get_Issuer addr 0x1128e08 size 0x8 virtual false final false
+  /// @brief Method get_Issuer, addr 0x1199050, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_StartDate addr 0x1128e10 size 0x8 virtual false final false
+  /// @brief Method get_StartDate, addr 0x1199058, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_StartDate();
 
-  /// @brief Method get_EndDate addr 0x1128e18 size 0x8 virtual false final false
+  /// @brief Method get_EndDate, addr 0x1199060, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_EndDate();
 
-  /// @brief Method get_Subject addr 0x1128e20 size 0x8 virtual false final false
+  /// @brief Method get_Subject, addr 0x1199068, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
-  /// @brief Method get_SubjectPublicKeyInfo addr 0x1128e28 size 0x8 virtual false final false
+  /// @brief Method get_SubjectPublicKeyInfo, addr 0x1199070, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_SubjectPublicKeyInfo();
 
-  /// @brief Method get_IssuerUniqueID addr 0x1128e30 size 0x8 virtual false final false
+  /// @brief Method get_IssuerUniqueID, addr 0x1199078, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_IssuerUniqueID();
 
-  /// @brief Method get_SubjectUniqueID addr 0x1128e38 size 0x8 virtual false final false
+  /// @brief Method get_SubjectUniqueID, addr 0x1199080, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_SubjectUniqueID();
 
-  /// @brief Method get_Extensions addr 0x1128e40 size 0x8 virtual false final false
+  /// @brief Method get_Extensions, addr 0x1199088, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0x1128e48 size 0x8 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1199090, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TbsCertificateStructure", modifiers: "&&", def_value: None }]

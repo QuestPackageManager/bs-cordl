@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ComVisibleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3316))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3319))
 // CS Name: ::System.Runtime.InteropServices::ComVisibleAttribute*
 class CORDL_TYPE ComVisibleAttribute : public ::System::Attribute {
 public:
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::Runtime::InteropServices::ComVisibleAttribute* New_ctor(bool visibility);
 
-  /// @brief Method .ctor addr 0x237e388 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24d7270, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool visibility);
 
   // Ctor Parameters [CppParam { name: "", ty: "ComVisibleAttribute", modifiers: "&&", def_value: None }]

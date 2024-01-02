@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AlgorithmIdentifierFactory)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactor
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1336))
 // CS Name: ::Org.BouncyCastle.Crypto.Utilities::AlgorithmIdentifierFactory*
 class CORDL_TYPE AlgorithmIdentifierFactory : public ::System::Object {
@@ -52,13 +52,13 @@ public:
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Table();
 
-  /// @brief Method GenerateEncryptionAlgID addr 0xf49ebc size 0x55c virtual false final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0xfc0108, size 0x55c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                               ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0xf4a53c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xfc0788, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "&&", def_value: None }]

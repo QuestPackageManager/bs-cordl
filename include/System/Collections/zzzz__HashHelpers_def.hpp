@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HashHelpers)
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System {
 class Object;
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Collections::HashHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3742))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3754))
 // CS Name: ::System.Collections::HashHelpers*
 class CORDL_TYPE HashHelpers : public ::System::Object {
 public:
@@ -46,16 +46,16 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method IsPrime addr 0x2421058 size 0xb0 virtual false final false
+  /// @brief Method IsPrime, addr 0x257c4c8, size 0xb0, virtual false, abstract: false, final false
   static inline bool IsPrime(int32_t candidate);
 
-  /// @brief Method GetPrime addr 0x2421108 size 0x190 virtual false final false
+  /// @brief Method GetPrime, addr 0x257c578, size 0x190, virtual false, abstract: false, final false
   static inline int32_t GetPrime(int32_t min);
 
-  /// @brief Method ExpandPrime addr 0x2421298 size 0x84 virtual false final false
+  /// @brief Method ExpandPrime, addr 0x257c708, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ExpandPrime(int32_t oldSize);
 
-  /// @brief Method get_SerializationInfoTable addr 0x242131c size 0xe0 virtual false final false
+  /// @brief Method get_SerializationInfoTable, addr 0x257c78c, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
   // Ctor Parameters [CppParam { name: "", ty: "HashHelpers", modifiers: "&&", def_value: None }]

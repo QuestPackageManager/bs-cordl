@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(PenState)
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem {
 struct PenButton;
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PenState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6592))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6506))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PenState
 #pragma pack(push, 0)
 struct CORDL_TYPE PenState {
@@ -104,13 +104,14 @@ public:
 
   constexpr void __set_displayIndex(uint16_t value);
 
-  /// @brief Method get_Format addr 0x2968d40 size 0x30 virtual false final false
+  /// @brief Method get_Format, addr 0x2ae8a88, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method WithButton addr 0x2968d70 size 0x34 virtual false final false
-  inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
+  /// @brief Method WithButton, addr 0x2ae8ab8, size 0x34, virtual false, abstract: false, final false
+  /// @param state: bool (default: true)
+  inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state = true);
 
-  /// @brief Method get_format addr 0x2968da4 size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ae8aec, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "delta", ty: "::UnityEngine::Vector2", modifiers: "", def_value:

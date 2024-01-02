@@ -19,24 +19,24 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBonePlaneCollider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15913))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15914))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16049))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16050))
 // CS Name: ::DynamicBonePlaneCollider*
 class CORDL_TYPE DynamicBonePlaneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
 public:
   // Declarations
-  /// @brief Method OnValidate addr 0x11c05bc size 0x4 virtual false final false
+  /// @brief Method OnValidate, addr 0x12308e8, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method Collide addr 0x11c05c0 size 0x188 virtual true final false
+  /// @brief Method Collide, addr 0x12308ec, size 0x188, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);
 
-  /// @brief Method OnDrawGizmosSelected addr 0x11c0748 size 0x160 virtual false final false
+  /// @brief Method OnDrawGizmosSelected, addr 0x1230a74, size 0x160, virtual false, abstract: false, final false
   inline void OnDrawGizmosSelected();
 
   static inline ::GlobalNamespace::DynamicBonePlaneCollider* New_ctor();
 
-  /// @brief Method .ctor addr 0x11c08a8 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x1230bd4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicBonePlaneCollider", modifiers: "&&", def_value: None }]

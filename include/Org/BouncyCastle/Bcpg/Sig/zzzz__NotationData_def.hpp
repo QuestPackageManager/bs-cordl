@@ -27,27 +27,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x1156ca0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x11c7ef0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor addr 0x1156ce8 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x11c7f38, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method CreateData addr 0x1156d3c size 0x220 virtual false final false
+  /// @brief Method CreateData, addr 0x11c7f8c, size 0x220, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method get_IsHumanReadable addr 0x1156f5c size 0x30 virtual false final false
+  /// @brief Method get_IsHumanReadable, addr 0x11c81ac, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsHumanReadable();
 
-  /// @brief Method GetNotationName addr 0x1156f8c size 0x6c virtual false final false
+  /// @brief Method GetNotationName, addr 0x11c81dc, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetNotationName();
 
-  /// @brief Method GetNotationValue addr 0x1156ff8 size 0x90 virtual false final false
+  /// @brief Method GetNotationValue, addr 0x11c8248, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetNotationValue();
 
-  /// @brief Method GetNotationValueBytes addr 0x1157088 size 0xc4 virtual false final false
+  /// @brief Method GetNotationValueBytes, addr 0x11c82d8, size 0xc4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "NotationData", modifiers: "&&", def_value: None }]

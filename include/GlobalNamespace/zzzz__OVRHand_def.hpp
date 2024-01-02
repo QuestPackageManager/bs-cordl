@@ -3,14 +3,48 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRHand_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInput_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRHand)
+namespace GlobalNamespace {
+class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRHand__HandFinger;
+}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+struct __OVRHand__TrackingConfidence;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__SkeletonType;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+struct __OVRSkeleton__SkeletonPoseData;
+}
+namespace GlobalNamespace {
+class __OVRSkeleton__IOVRSkeletonDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRMeshRenderer__MeshRendererData;
+}
+namespace GlobalNamespace {
+class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
+}
+namespace GlobalNamespace {
+class __OVRMesh__IOVRMeshDataProvider;
+}
+namespace GlobalNamespace {
+struct __OVRMesh__MeshType;
 }
 namespace GlobalNamespace {
 struct __OVRHand__Hand;
@@ -19,40 +53,7 @@ namespace GlobalNamespace {
 struct __OVRSkeletonRenderer__SkeletonRendererData;
 }
 namespace GlobalNamespace {
-class __OVRMesh__IOVRMeshDataProvider;
-}
-namespace GlobalNamespace {
-class __OVRMeshRenderer__IOVRMeshRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonType;
-}
-namespace GlobalNamespace {
-class __OVRSkeleton__IOVRSkeletonDataProvider;
-}
-namespace GlobalNamespace {
 struct __OVRPlugin__Step;
-}
-namespace GlobalNamespace {
-struct __OVRHand__TrackingConfidence;
-}
-namespace GlobalNamespace {
-struct __OVRSkeleton__SkeletonPoseData;
-}
-namespace GlobalNamespace {
-struct __OVRHand__HandFinger;
-}
-namespace GlobalNamespace {
-class __OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider;
-}
-namespace GlobalNamespace {
-struct __OVRMesh__MeshType;
-}
-namespace GlobalNamespace {
-struct __OVRMeshRenderer__MeshRendererData;
-}
-namespace UnityEngine {
-class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,7 +78,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHand);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8113))
 // CS Name: ::OVRHand::Hand
 struct CORDL_TYPE __OVRHand__Hand {
 public:
@@ -131,7 +132,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__Hand, value__) == 0x0, "Off
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8114))
 // CS Name: ::OVRHand::HandFinger
 struct CORDL_TYPE __OVRHand__HandFinger {
 public:
@@ -197,7 +198,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__HandFinger, value__) == 0x0
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8115))
 // CS Name: ::OVRHand::TrackingConfidence
 struct CORDL_TYPE __OVRHand__TrackingConfidence {
 public:
@@ -243,11 +244,11 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__TrackingConfidence, value__
 
 } // namespace GlobalNamespace
 // Type: ::OVRHand
-// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(8647)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8897))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8898)) CS Name: ::OVRHand*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(8113)), TypeDefinitionIndex(TypeDefinitionIndex(7771)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
 class CORDL_TYPE OVRHand : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -263,37 +264,40 @@ public:
   /// @brief Field _pointerPoseRoot, offset 0x20, size 0x8
   __declspec(property(get = __get__pointerPoseRoot, put = __set__pointerPoseRoot))::UnityEngine::Transform* _pointerPoseRoot;
 
-  /// @brief Field _pointerPoseGO, offset 0x28, size 0x8
+  /// @brief Field m_showState, offset 0x28, size 0x4
+  __declspec(property(get = __get_m_showState, put = __set_m_showState))::GlobalNamespace::__OVRInput__InputDeviceShowState m_showState;
+
+  /// @brief Field _pointerPoseGO, offset 0x30, size 0x8
   __declspec(property(get = __get__pointerPoseGO, put = __set__pointerPoseGO))::UnityEngine::GameObject* _pointerPoseGO;
 
-  /// @brief Field _handState, offset 0x30, size 0x78
+  /// @brief Field _handState, offset 0x38, size 0x78
   __declspec(property(get = __get__handState, put = __set__handState))::GlobalNamespace::__OVRPlugin__HandState _handState;
 
-  /// @brief Field <IsDataValid>k__BackingField, offset 0xa8, size 0x1
+  /// @brief Field <IsDataValid>k__BackingField, offset 0xb0, size 0x1
   __declspec(property(get = __get__IsDataValid_k__BackingField, put = __set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
-  /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0xa9, size 0x1
+  /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0xb1, size 0x1
   __declspec(property(get = __get__IsDataHighConfidence_k__BackingField, put = __set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
-  /// @brief Field <IsTracked>k__BackingField, offset 0xaa, size 0x1
+  /// @brief Field <IsTracked>k__BackingField, offset 0xb2, size 0x1
   __declspec(property(get = __get__IsTracked_k__BackingField, put = __set__IsTracked_k__BackingField)) bool _IsTracked_k__BackingField;
 
-  /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset 0xab, size 0x1
+  /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset 0xb3, size 0x1
   __declspec(property(get = __get__IsSystemGestureInProgress_k__BackingField, put = __set__IsSystemGestureInProgress_k__BackingField)) bool _IsSystemGestureInProgress_k__BackingField;
 
-  /// @brief Field <IsPointerPoseValid>k__BackingField, offset 0xac, size 0x1
+  /// @brief Field <IsPointerPoseValid>k__BackingField, offset 0xb4, size 0x1
   __declspec(property(get = __get__IsPointerPoseValid_k__BackingField, put = __set__IsPointerPoseValid_k__BackingField)) bool _IsPointerPoseValid_k__BackingField;
 
-  /// @brief Field <PointerPose>k__BackingField, offset 0xb0, size 0x8
+  /// @brief Field <PointerPose>k__BackingField, offset 0xb8, size 0x8
   __declspec(property(get = __get__PointerPose_k__BackingField, put = __set__PointerPose_k__BackingField))::UnityEngine::Transform* _PointerPose_k__BackingField;
 
-  /// @brief Field <HandScale>k__BackingField, offset 0xb8, size 0x4
+  /// @brief Field <HandScale>k__BackingField, offset 0xc0, size 0x4
   __declspec(property(get = __get__HandScale_k__BackingField, put = __set__HandScale_k__BackingField)) float_t _HandScale_k__BackingField;
 
-  /// @brief Field <HandConfidence>k__BackingField, offset 0xbc, size 0x4
+  /// @brief Field <HandConfidence>k__BackingField, offset 0xc4, size 0x4
   __declspec(property(get = __get__HandConfidence_k__BackingField, put = __set__HandConfidence_k__BackingField))::GlobalNamespace::__OVRHand__TrackingConfidence _HandConfidence_k__BackingField;
 
-  /// @brief Field <IsDominantHand>k__BackingField, offset 0xc0, size 0x1
+  /// @brief Field <IsDominantHand>k__BackingField, offset 0xc8, size 0x1
   __declspec(property(get = __get__IsDominantHand_k__BackingField, put = __set__IsDominantHand_k__BackingField)) bool _IsDominantHand_k__BackingField;
 
   __declspec(property(get = get_IsDataValid, put = set_IsDataValid)) bool IsDataValid;
@@ -337,6 +341,12 @@ public:
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__pointerPoseRoot() const;
 
   constexpr void __set__pointerPoseRoot(::UnityEngine::Transform* value);
+
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& __get_m_showState();
+
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& __get_m_showState() const;
+
+  constexpr void __set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
 
   constexpr ::UnityEngine::GameObject*& __get__pointerPoseGO();
 
@@ -404,102 +414,105 @@ public:
 
   constexpr void __set__IsDominantHand_k__BackingField(bool value);
 
-  /// @brief Method get_IsDataValid addr 0x2639e98 size 0x8 virtual false final false
+  /// @brief Method SetHandType, addr 0x27aeb50, size 0x8, virtual false, abstract: false, final false
+  inline void SetHandType(::GlobalNamespace::__OVRHand__Hand type);
+
+  /// @brief Method get_IsDataValid, addr 0x27aeb58, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method set_IsDataValid addr 0x2639ea0 size 0xc virtual false final false
+  /// @brief Method set_IsDataValid, addr 0x27aeb60, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method get_IsDataHighConfidence addr 0x2639eac size 0x8 virtual false final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x27aeb6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method set_IsDataHighConfidence addr 0x2639eb4 size 0xc virtual false final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x27aeb74, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method get_IsTracked addr 0x2639ec0 size 0x8 virtual false final false
+  /// @brief Method get_IsTracked, addr 0x27aeb80, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTracked();
 
-  /// @brief Method set_IsTracked addr 0x2639ec8 size 0xc virtual false final false
+  /// @brief Method set_IsTracked, addr 0x27aeb88, size 0xc, virtual false, abstract: false, final false
   inline void set_IsTracked(bool value);
 
-  /// @brief Method get_IsSystemGestureInProgress addr 0x2639ed4 size 0x8 virtual false final false
+  /// @brief Method get_IsSystemGestureInProgress, addr 0x27aeb94, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsSystemGestureInProgress();
 
-  /// @brief Method set_IsSystemGestureInProgress addr 0x2639edc size 0xc virtual false final false
+  /// @brief Method set_IsSystemGestureInProgress, addr 0x27aeb9c, size 0xc, virtual false, abstract: false, final false
   inline void set_IsSystemGestureInProgress(bool value);
 
-  /// @brief Method get_IsPointerPoseValid addr 0x2639ee8 size 0x8 virtual false final false
+  /// @brief Method get_IsPointerPoseValid, addr 0x27aeba8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPointerPoseValid();
 
-  /// @brief Method set_IsPointerPoseValid addr 0x2639ef0 size 0xc virtual false final false
+  /// @brief Method set_IsPointerPoseValid, addr 0x27aebb0, size 0xc, virtual false, abstract: false, final false
   inline void set_IsPointerPoseValid(bool value);
 
-  /// @brief Method get_PointerPose addr 0x2639efc size 0x8 virtual false final false
+  /// @brief Method get_PointerPose, addr 0x27aebbc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_PointerPose();
 
-  /// @brief Method set_PointerPose addr 0x2639f04 size 0x8 virtual false final false
+  /// @brief Method set_PointerPose, addr 0x27aebc4, size 0x8, virtual false, abstract: false, final false
   inline void set_PointerPose(::UnityEngine::Transform* value);
 
-  /// @brief Method get_HandScale addr 0x2639f0c size 0x8 virtual false final false
+  /// @brief Method get_HandScale, addr 0x27aebcc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_HandScale();
 
-  /// @brief Method set_HandScale addr 0x2639f14 size 0x8 virtual false final false
+  /// @brief Method set_HandScale, addr 0x27aebd4, size 0x8, virtual false, abstract: false, final false
   inline void set_HandScale(float_t value);
 
-  /// @brief Method get_HandConfidence addr 0x2639f1c size 0x8 virtual false final false
+  /// @brief Method get_HandConfidence, addr 0x27aebdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRHand__TrackingConfidence get_HandConfidence();
 
-  /// @brief Method set_HandConfidence addr 0x2639f24 size 0x8 virtual false final false
+  /// @brief Method set_HandConfidence, addr 0x27aebe4, size 0x8, virtual false, abstract: false, final false
   inline void set_HandConfidence(::GlobalNamespace::__OVRHand__TrackingConfidence value);
 
-  /// @brief Method get_IsDominantHand addr 0x2639f2c size 0x8 virtual false final false
+  /// @brief Method get_IsDominantHand, addr 0x27aebec, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDominantHand();
 
-  /// @brief Method set_IsDominantHand addr 0x2639f34 size 0xc virtual false final false
+  /// @brief Method set_IsDominantHand, addr 0x27aebf4, size 0xc, virtual false, abstract: false, final false
   inline void set_IsDominantHand(bool value);
 
-  /// @brief Method Awake addr 0x2639f40 size 0xcc virtual false final false
+  /// @brief Method Awake, addr 0x27aec00, size 0xcc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Update addr 0x263a1dc size 0x8 virtual false final false
+  /// @brief Method Update, addr 0x27aef2c, size 0x8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x263a1e4 size 0x74 virtual false final false
+  /// @brief Method FixedUpdate, addr 0x27aef34, size 0x74, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetHandState addr 0x263a00c size 0x1d0 virtual false final false
+  /// @brief Method GetHandState, addr 0x27aeccc, size 0x260, virtual false, abstract: false, final false
   inline void GetHandState(::GlobalNamespace::__OVRPlugin__Step step);
 
-  /// @brief Method GetFingerIsPinching addr 0x263a258 size 0x28 virtual false final false
+  /// @brief Method GetFingerIsPinching, addr 0x27aefa8, size 0x28, virtual false, abstract: false, final false
   inline bool GetFingerIsPinching(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method GetFingerPinchStrength addr 0x263a280 size 0x40 virtual false final false
+  /// @brief Method GetFingerPinchStrength, addr 0x27aefd0, size 0x40, virtual false, abstract: false, final false
   inline float_t GetFingerPinchStrength(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method GetFingerConfidence addr 0x263a2c0 size 0x44 virtual false final false
+  /// @brief Method GetFingerConfidence, addr 0x27af010, size 0x44, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRHand__TrackingConfidence GetFingerConfidence(::GlobalNamespace::__OVRHand__HandFinger finger);
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType addr 0x263a304 size 0x18 virtual true final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonType, addr 0x27af054, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonType OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData addr 0x263a31c size 0x6c virtual true final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.GetSkeletonPoseData, addr 0x27af06c, size 0x6c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeleton__SkeletonPoseData OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData();
 
-  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData addr 0x263a388 size 0x4c virtual true final true
+  /// @brief Method OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData, addr 0x27af0d8, size 0x4c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRSkeletonRenderer__SkeletonRendererData OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData();
 
-  /// @brief Method OVRMesh.IOVRMeshDataProvider.GetMeshType addr 0x263a3d4 size 0x18 virtual true final true
+  /// @brief Method OVRMesh.IOVRMeshDataProvider.GetMeshType, addr 0x27af124, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRMesh__MeshType OVRMesh_IOVRMeshDataProvider_GetMeshType();
 
-  /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData addr 0x263a3ec size 0x50 virtual true final true
+  /// @brief Method OVRMeshRenderer.IOVRMeshRendererDataProvider.GetMeshRendererData, addr 0x27af13c, size 0x50, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__OVRMeshRenderer__MeshRendererData OVRMeshRenderer_IOVRMeshRendererDataProvider_GetMeshRendererData();
 
   static inline ::GlobalNamespace::OVRHand* New_ctor();
 
-  /// @brief Method .ctor addr 0x263a43c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x27af18c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled addr 0x263a44c size 0x8 virtual true final true
+  /// @brief Method OVRSkeleton.IOVRSkeletonDataProvider.get_enabled, addr 0x27af1a4, size 0x8, virtual true, abstract: false, final true
   inline bool OVRSkeleton_IOVRSkeletonDataProvider_get_enabled();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRHand", modifiers: "&&", def_value: None }]
@@ -522,69 +535,74 @@ public:
   /// @brief Field _pointerPoseRoot, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Transform* ____pointerPoseRoot;
 
-  /// @brief Field _pointerPoseGO, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_showState, offset: 0x28, size: 0x4, def value: None
+  ::GlobalNamespace::__OVRInput__InputDeviceShowState ___m_showState;
+
+  /// @brief Field _pointerPoseGO, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::GameObject* ____pointerPoseGO;
 
-  /// @brief Field _handState, offset: 0x30, size: 0x78, def value: None
+  /// @brief Field _handState, offset: 0x38, size: 0x78, def value: None
   ::GlobalNamespace::__OVRPlugin__HandState ____handState;
 
-  /// @brief Field <IsDataValid>k__BackingField, offset: 0xa8, size: 0x1, def value: None
+  /// @brief Field <IsDataValid>k__BackingField, offset: 0xb0, size: 0x1, def value: None
   bool ____IsDataValid_k__BackingField;
 
-  /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0xa9, size: 0x1, def value: None
+  /// @brief Field <IsDataHighConfidence>k__BackingField, offset: 0xb1, size: 0x1, def value: None
   bool ____IsDataHighConfidence_k__BackingField;
 
-  /// @brief Field <IsTracked>k__BackingField, offset: 0xaa, size: 0x1, def value: None
+  /// @brief Field <IsTracked>k__BackingField, offset: 0xb2, size: 0x1, def value: None
   bool ____IsTracked_k__BackingField;
 
-  /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset: 0xab, size: 0x1, def value: None
+  /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset: 0xb3, size: 0x1, def value: None
   bool ____IsSystemGestureInProgress_k__BackingField;
 
-  /// @brief Field <IsPointerPoseValid>k__BackingField, offset: 0xac, size: 0x1, def value: None
+  /// @brief Field <IsPointerPoseValid>k__BackingField, offset: 0xb4, size: 0x1, def value: None
   bool ____IsPointerPoseValid_k__BackingField;
 
-  /// @brief Field <PointerPose>k__BackingField, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field <PointerPose>k__BackingField, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::Transform* ____PointerPose_k__BackingField;
 
-  /// @brief Field <HandScale>k__BackingField, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field <HandScale>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   float_t ____HandScale_k__BackingField;
 
-  /// @brief Field <HandConfidence>k__BackingField, offset: 0xbc, size: 0x4, def value: None
+  /// @brief Field <HandConfidence>k__BackingField, offset: 0xc4, size: 0x4, def value: None
   ::GlobalNamespace::__OVRHand__TrackingConfidence ____HandConfidence_k__BackingField;
 
-  /// @brief Field <IsDominantHand>k__BackingField, offset: 0xc0, size: 0x1, def value: None
+  /// @brief Field <IsDominantHand>k__BackingField, offset: 0xc8, size: 0x1, def value: None
   bool ____IsDominantHand_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHand, 0xc8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHand, 0xd0>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRHand, ___HandType) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OVRHand, ____pointerPoseRoot) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____pointerPoseGO) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ___m_showState) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____handState) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____pointerPoseGO) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDataValid_k__BackingField) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____handState) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDataHighConfidence_k__BackingField) == 0xa9, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDataValid_k__BackingField) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsTracked_k__BackingField) == 0xaa, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDataHighConfidence_k__BackingField) == 0xb1, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsSystemGestureInProgress_k__BackingField) == 0xab, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsTracked_k__BackingField) == 0xb2, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsPointerPoseValid_k__BackingField) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsSystemGestureInProgress_k__BackingField) == 0xb3, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____PointerPose_k__BackingField) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsPointerPoseValid_k__BackingField) == 0xb4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____HandScale_k__BackingField) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____PointerPose_k__BackingField) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____HandConfidence_k__BackingField) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____HandScale_k__BackingField) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDominantHand_k__BackingField) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____HandConfidence_k__BackingField) == 0xc4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRHand, ____IsDominantHand_k__BackingField) == 0xc8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRHand__Hand, "", "OVRHand/Hand");

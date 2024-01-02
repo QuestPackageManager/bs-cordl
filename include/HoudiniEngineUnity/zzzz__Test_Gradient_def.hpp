@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Gradient)
-namespace UnityEngine {
-class Gradient;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
 }
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
+namespace UnityEngine {
+class Gradient;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Gradient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9854))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9927))
 // CS Name: ::HoudiniEngineUnity::Test_Gradient*
 class CORDL_TYPE Test_Gradient : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Gradient* New_ctor(::UnityEngine::Gradient* self);
 
-  /// @brief Method .ctor addr 0x208e138 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e6ad4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Gradient* self);
 
-  /// @brief Method IsNull addr 0x208e160 size 0x10 virtual true final true
+  /// @brief Method IsNull, addr 0x21e6afc, size 0x10, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x208e170 size 0xf4 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e6b0c, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Gradient* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Gradient", modifiers: "&&", def_value: None }]

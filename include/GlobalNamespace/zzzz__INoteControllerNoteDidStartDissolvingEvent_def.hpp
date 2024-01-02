@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4889))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4768))
 // CS Name: ::INoteControllerNoteDidStartDissolvingEvent*
 class CORDL_TYPE INoteControllerNoteDidStartDissolvingEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteDidStartDissolvingEvent", modifiers: "&&", def_value: None }]

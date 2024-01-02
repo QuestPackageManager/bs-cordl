@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Bcpg {
 struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class PublicKeyPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
 class S2k;
 }
 namespace Org::BouncyCastle::Bcpg {
-class PublicKeyPacket;
+class BcpgInputStream;
 }
 namespace Org::BouncyCastle::Bcpg {
 class BcpgOutputStream;
@@ -39,13 +39,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115d83c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11cea8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::SecretSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                                                                         ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor addr 0x1162650 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11d38a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
@@ -53,11 +53,11 @@ public:
                                                                         int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method .ctor addr 0x1162654 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11d38a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyPacket* pubKeyPacket, ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, int32_t s2kUsage, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> secKeyData);
 
-  /// @brief Method Encode addr 0x1162658 size 0x2c virtual true final false
+  /// @brief Method Encode, addr 0x11d38a8, size 0x2c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "SecretSubkeyPacket", modifiers: "&&", def_value: None }]

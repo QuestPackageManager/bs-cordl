@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CurrentSystemTimeZone)
-namespace System::Globalization {
-class DaylightTime;
-}
 namespace System::Collections {
 class Hashtable;
+}
+namespace System::Globalization {
+class DaylightTime;
 }
 namespace System {
 struct DateTime;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::CurrentSystemTimeZone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2483))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2485))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2366))
 // CS Name: ::System::CurrentSystemTimeZone*
 class CORDL_TYPE CurrentSystemTimeZone : public ::System::TimeZone {
@@ -74,22 +74,22 @@ public:
 
   static inline ::System::CurrentSystemTimeZone* New_ctor();
 
-  /// @brief Method .ctor addr 0x243231c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x258d878, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetDaylightChanges addr 0x24323e0 size 0xd0 virtual true final false
+  /// @brief Method GetDaylightChanges, addr 0x258d93c, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
 
-  /// @brief Method CreateDaylightChanges addr 0x243269c size 0x284 virtual false final false
+  /// @brief Method CreateDaylightChanges, addr 0x258dbf8, size 0x284, virtual false, abstract: false, final false
   static inline ::System::Globalization::DaylightTime* CreateDaylightChanges(int32_t year);
 
-  /// @brief Method GetUtcOffset addr 0x2432928 size 0xb4 virtual true final false
+  /// @brief Method GetUtcOffset, addr 0x258de84, size 0xb4, virtual true, abstract: false, final false
   inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
 
-  /// @brief Method GetTimeZoneData addr 0x2432a04 size 0x4 virtual false final false
+  /// @brief Method GetTimeZoneData, addr 0x258df60, size 0x4, virtual false, abstract: false, final false
   static inline bool GetTimeZoneData(int32_t year, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names, ByRef<bool> daylight_inverted);
 
-  /// @brief Method GetCachedDaylightChanges addr 0x24324b0 size 0x1ec virtual false final false
+  /// @brief Method GetCachedDaylightChanges, addr 0x258da0c, size 0x1ec, virtual false, abstract: false, final false
   inline ::System::Globalization::DaylightTime* GetCachedDaylightChanges(int32_t year);
 
   // Ctor Parameters [CppParam { name: "", ty: "CurrentSystemTimeZone", modifiers: "&&", def_value: None }]

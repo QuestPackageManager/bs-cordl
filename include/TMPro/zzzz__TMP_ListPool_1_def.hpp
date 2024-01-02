@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ListPool_1)
 namespace TMPro {
-template <typename T> class __TMP_ListPool_1____c;
+template <typename T> class TMP_ObjectPool_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace TMPro {
-template <typename T> class TMP_ObjectPool_1;
+template <typename T> class __TMP_ListPool_1____c;
 }
 // Forward declare root types
 namespace TMPro {
@@ -29,8 +29,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12323))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12395))
 // CS Name: ::TMP_ListPool`1::<>c<T>*
 class CORDL_TYPE __TMP_ListPool_1____c : public ::System::Object {
 public:
@@ -44,10 +44,10 @@ public:
 
   static inline ::TMPro::__TMP_ListPool_1____c<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.cctor>b__3_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.cctor>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __cctor_b__3_0(::System::Collections::Generic::List_1<T>* l);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TMP_ListPool_1____c", modifiers: "&&", def_value: None }]
@@ -74,8 +74,8 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12324))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12396))
 // CS Name: ::TMPro::TMP_ListPool`1<T>*
 class CORDL_TYPE TMP_ListPool_1 : public ::System::Object {
 public:
@@ -89,10 +89,10 @@ public:
 
   static inline ::TMPro::TMP_ObjectPool_1<::System::Collections::Generic::List_1<T>*>* getStaticF_s_ListPool();
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<T>* Get();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Release(::System::Collections::Generic::List_1<T>* toRelease);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_ListPool_1", modifiers: "&&", def_value: None }]

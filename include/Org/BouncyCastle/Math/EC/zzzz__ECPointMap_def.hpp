@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Math::EC {
 class CORDL_TYPE ECPointMap {
 public:
   // Declarations
-  /// @brief Method Map addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Map, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECPointMap", modifiers: "&&", def_value: None }]

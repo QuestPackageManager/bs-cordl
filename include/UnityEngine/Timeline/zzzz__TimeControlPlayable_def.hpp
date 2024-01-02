@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TimeControlPlayable)
 namespace UnityEngine::Playables {
-struct FrameData;
-}
-namespace UnityEngine::Timeline {
-class ITimeControl;
-}
-namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
+namespace UnityEngine::Timeline {
+class ITimeControl;
+}
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimeControlPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13909))
 // CS Name: ::UnityEngine.Timeline::TimeControlPlayable*
 class CORDL_TYPE TimeControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -53,25 +53,25 @@ public:
 
   constexpr void __set_m_started(bool value);
 
-  /// @brief Method Create addr 0x2ae95e0 size 0xf4 virtual false final false
+  /// @brief Method Create, addr 0x2c6d334, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                  ::UnityEngine::Timeline::ITimeControl* timeControl);
 
-  /// @brief Method Initialize addr 0x2ae96d4 size 0x8 virtual false final false
+  /// @brief Method Initialize, addr 0x2c6d428, size 0x8, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Timeline::ITimeControl* timeControl);
 
-  /// @brief Method PrepareFrame addr 0x2ae96dc size 0xf4 virtual true final false
+  /// @brief Method PrepareFrame, addr 0x2c6d430, size 0xf4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay addr 0x2ae97d0 size 0xb4 virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c6d524, size 0xb4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause addr 0x2ae9884 size 0xb0 virtual true final false
+  /// @brief Method OnBehaviourPause, addr 0x2c6d5d8, size 0xb0, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   static inline ::UnityEngine::Timeline::TimeControlPlayable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae9934 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c6d688, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeControlPlayable", modifiers: "&&", def_value: None }]

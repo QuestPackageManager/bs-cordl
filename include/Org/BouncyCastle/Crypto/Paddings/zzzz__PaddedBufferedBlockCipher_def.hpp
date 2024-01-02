@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PaddedBufferedBlockCipher)
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Paddings {
 class IBlockCipherPadding;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Paddings {
@@ -43,30 +43,30 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher,
                                                                                            ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method .ctor addr 0xeb9274 size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0xf2e460, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor addr 0xeb9364 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0xf2e550, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method Init addr 0xeb93e0 size 0x1a4 virtual true final false
+  /// @brief Method Init, addr 0xf2e5cc, size 0x1a4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetOutputSize addr 0xeb9584 size 0x4c virtual true final false
+  /// @brief Method GetOutputSize, addr 0xf2e770, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize addr 0xeb95d0 size 0x38 virtual true final false
+  /// @brief Method GetUpdateOutputSize, addr 0xf2e7bc, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method ProcessByte addr 0xeb9608 size 0x128 virtual true final false
+  /// @brief Method ProcessByte, addr 0xf2e7f4, size 0x128, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0xeb9730 size 0x2b4 virtual true final false
+  /// @brief Method ProcessBytes, addr 0xf2e91c, size 0x2b4, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal addr 0xeb99e4 size 0x4e4 virtual true final false
+  /// @brief Method DoFinal, addr 0xf2ebd0, size 0x4e4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "PaddedBufferedBlockCipher", modifiers: "&&", def_value: None }]

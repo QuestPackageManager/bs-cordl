@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::PassType);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10340))
 // CS Name: ::UnityEngine.Rendering::PassType
 struct CORDL_TYPE PassType {
 public:

@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CompatibleComparer)
-namespace System::Collections {
-class IHashCodeProvider;
+namespace System {
+class Object;
 }
 namespace System::Collections {
 class IEqualityComparer;
@@ -14,8 +14,8 @@ class IEqualityComparer;
 namespace System::Collections {
 class IComparer;
 }
-namespace System {
-class Object;
+namespace System::Collections {
+class IHashCodeProvider;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Collections::CompatibleComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3758))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3770))
 // CS Name: ::System.Collections::CompatibleComparer*
 class CORDL_TYPE CompatibleComparer : public ::System::Object {
 public:
@@ -60,22 +60,22 @@ public:
 
   static inline ::System::Collections::CompatibleComparer* New_ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method .ctor addr 0x24225c8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x257da38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IHashCodeProvider* hashCodeProvider, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method get_HashCodeProvider addr 0x24225f4 size 0x8 virtual false final false
+  /// @brief Method get_HashCodeProvider, addr 0x257da64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IHashCodeProvider* get_HashCodeProvider();
 
-  /// @brief Method get_Comparer addr 0x24225fc size 0x8 virtual false final false
+  /// @brief Method get_Comparer, addr 0x257da6c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IComparer* get_Comparer();
 
-  /// @brief Method Equals addr 0x2422604 size 0x18 virtual true final true
+  /// @brief Method Equals, addr 0x257da74, size 0x18, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method Compare addr 0x242261c size 0x1c4 virtual false final false
+  /// @brief Method Compare, addr 0x257da8c, size 0x1c4, virtual false, abstract: false, final false
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode addr 0x24227e0 size 0x10c virtual true final true
+  /// @brief Method GetHashCode, addr 0x257dc50, size 0x10c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "CompatibleComparer", modifiers: "&&", def_value: None }]

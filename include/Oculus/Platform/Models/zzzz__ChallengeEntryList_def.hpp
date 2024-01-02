@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeEntryList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13469)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13476), inst: 1147 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13476))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13470)) CS Name: ::Oculus.Platform.Models::ChallengeEntryList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13428)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
+// 1172 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13429)) CS Name: ::Oculus.Platform.Models::ChallengeEntryList*
 class CORDL_TYPE ChallengeEntryList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ChallengeEntry*> {
 public:
   // Declarations
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::ChallengeEntryList* New_ctor(void* a);
 
-  /// @brief Method .ctor addr 0x25b29c8 size 0x27c virtual false final false
+  /// @brief Method .ctor, addr 0x27058e8, size 0x27c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
   // Ctor Parameters [CppParam { name: "", ty: "ChallengeEntryList", modifiers: "&&", def_value: None }]

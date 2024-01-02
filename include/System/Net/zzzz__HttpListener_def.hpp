@@ -7,65 +7,65 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListener)
-namespace System::Net {
-class HttpListenerContext;
-}
-namespace System::Net::Security {
-class RemoteCertificateValidationCallback;
-}
-namespace System::Net {
-class IPAddress;
-}
-namespace System::Net {
-class HttpConnection;
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate;
 }
 namespace System::Collections {
 class Hashtable;
 }
-namespace System::Net::Security {
-class SslStream;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate;
-}
-namespace System {
-class Object;
+namespace System::Collections {
+class ArrayList;
 }
 namespace System::Net {
-class HttpListenerPrefixCollection;
-}
-namespace System::Net {
-struct AuthenticationSchemes;
+class ServiceNameStore;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System::Net {
-class AuthenticationSchemeSelector;
+class IPAddress;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::Net {
+class HttpListenerPrefixCollection;
+}
+namespace System::Net {
+class HttpListenerContext;
+}
+namespace System::Net {
+class HttpConnection;
+}
+namespace System {
+class Object;
+}
+namespace System::Security::Authentication::ExtendedProtection {
+class ExtendedProtectionPolicy;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Net {
-class ServiceNameStore;
+class AuthenticationSchemeSelector;
 }
-namespace System::Collections {
-class ArrayList;
+namespace System::Net::Security {
+class SslStream;
+}
+namespace System::Net {
+struct AuthenticationSchemes;
+}
+namespace System::Net::Security {
+class RemoteCertificateValidationCallback;
 }
 namespace Mono::Security::Interface {
-class MonoTlsProvider;
-}
-namespace System::Security::Authentication::ExtendedProtection {
-class ExtendedProtectionPolicy;
+class MonoTlsSettings;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class IAsyncResult;
-}
 namespace Mono::Security::Interface {
-class MonoTlsSettings;
+class MonoTlsProvider;
 }
 // Forward declare root types
 namespace System::Net {
@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::System::Net::HttpListener);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7893))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9056))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9171))
 // CS Name: ::System.Net::HttpListener*
 class CORDL_TYPE HttpListener : public ::System::Object {
 public:
@@ -252,81 +252,81 @@ public:
 
   constexpr void __set_extendedProtectionPolicy(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* value);
 
-  /// @brief Method LoadCertificateAndKey addr 0x2843180 size 0x40c virtual false final false
+  /// @brief Method LoadCertificateAndKey, addr 0x29c09f8, size 0x40c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int32_t port);
 
-  /// @brief Method CreateSslStream addr 0x2847564 size 0x190 virtual false final false
+  /// @brief Method CreateSslStream, addr 0x29c4ddc, size 0x190, virtual false, abstract: false, final false
   inline ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
 
   static inline ::System::Net::HttpListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x284a4ac size 0x1ac virtual false final false
+  /// @brief Method .ctor, addr 0x29c7d20, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AuthenticationSchemes addr 0x284a6e8 size 0x8 virtual false final false
+  /// @brief Method get_AuthenticationSchemes, addr 0x29c7f5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes get_AuthenticationSchemes();
 
-  /// @brief Method get_AuthenticationSchemeSelectorDelegate addr 0x284a6f0 size 0x8 virtual false final false
+  /// @brief Method get_AuthenticationSchemeSelectorDelegate, addr 0x29c7f64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate();
 
-  /// @brief Method get_IgnoreWriteExceptions addr 0x284a6f8 size 0x8 virtual false final false
+  /// @brief Method get_IgnoreWriteExceptions, addr 0x29c7f6c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreWriteExceptions();
 
-  /// @brief Method get_IsListening addr 0x284a700 size 0x8 virtual false final false
+  /// @brief Method get_IsListening, addr 0x29c7f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsListening();
 
-  /// @brief Method get_Prefixes addr 0x28463d0 size 0x18 virtual false final false
+  /// @brief Method get_Prefixes, addr 0x29c3c48, size 0x18, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerPrefixCollection* get_Prefixes();
 
-  /// @brief Method get_Realm addr 0x284a788 size 0x8 virtual false final false
+  /// @brief Method get_Realm, addr 0x29c7ffc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
-  /// @brief Method Close addr 0x284a790 size 0x34 virtual false final false
+  /// @brief Method Close, addr 0x29c8004, size 0x34, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close addr 0x284a7c4 size 0x74 virtual false final false
+  /// @brief Method Close, addr 0x29c8038, size 0x74, virtual false, abstract: false, final false
   inline void Close(bool force);
 
-  /// @brief Method Cleanup addr 0x284a838 size 0xa90 virtual false final false
+  /// @brief Method Cleanup, addr 0x29c80ac, size 0xa90, virtual false, abstract: false, final false
   inline void Cleanup(bool close_existing);
 
-  /// @brief Method BeginGetContext addr 0x284b2c8 size 0x2b4 virtual false final false
+  /// @brief Method BeginGetContext, addr 0x29c8b3c, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndGetContext addr 0x284b640 size 0x2c8 virtual false final false
+  /// @brief Method EndGetContext, addr 0x29c8eb4, size 0x2c8, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method SelectAuthenticationScheme addr 0x284b908 size 0x38 virtual false final false
+  /// @brief Method SelectAuthenticationScheme, addr 0x29c917c, size 0x38, virtual false, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method GetContext addr 0x284ba60 size 0xfc virtual false final false
+  /// @brief Method GetContext, addr 0x29c92d4, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContext();
 
-  /// @brief Method Start addr 0x284bba4 size 0x70 virtual false final false
+  /// @brief Method Start, addr 0x29c9418, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop addr 0x284bc14 size 0x20 virtual false final false
+  /// @brief Method Stop, addr 0x29c9488, size 0x20, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method System.IDisposable.Dispose addr 0x284bc34 size 0x30 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x29c94a8, size 0x30, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method CheckDisposed addr 0x284a708 size 0x80 virtual false final false
+  /// @brief Method CheckDisposed, addr 0x29c7f7c, size 0x80, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method GetContextFromQueue addr 0x284b57c size 0xc4 virtual false final false
+  /// @brief Method GetContextFromQueue, addr 0x29c8df0, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Net::HttpListenerContext* GetContextFromQueue();
 
-  /// @brief Method RegisterContext addr 0x2848adc size 0x36c virtual false final false
+  /// @brief Method RegisterContext, addr 0x29c6354, size 0x36c, virtual false, abstract: false, final false
   inline void RegisterContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method UnregisterContext addr 0x2844508 size 0x1c8 virtual false final false
+  /// @brief Method UnregisterContext, addr 0x29c1d80, size 0x1c8, virtual false, abstract: false, final false
   inline void UnregisterContext(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method AddConnection addr 0x2848ab4 size 0x28 virtual false final false
+  /// @brief Method AddConnection, addr 0x29c632c, size 0x28, virtual false, abstract: false, final false
   inline void AddConnection(::System::Net::HttpConnection* cnc);
 
-  /// @brief Method RemoveConnection addr 0x2848e48 size 0x24 virtual false final false
+  /// @brief Method RemoveConnection, addr 0x29c66c0, size 0x24, virtual false, abstract: false, final false
   inline void RemoveConnection(::System::Net::HttpConnection* cnc);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListener", modifiers: "&&", def_value: None }]

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_def.hpp"
 CORDL_MODULE_EXPORT(PointLightWithIds)
-namespace GlobalNamespace {
-class PointLight;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace GlobalNamespace {
+class PointLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PointLightWithIds);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14770))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14767))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14550))
 // CS Name: ::PointLightWithIds*
 class CORDL_TYPE PointLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__pointLight(::GlobalNamespace::PointLight* value);
 
-  /// @brief Method ColorWasSet addr 0x1fbce98 size 0x20 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x2112910, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::PointLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbceb8 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x2112930, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointLightWithIds", modifiers: "&&", def_value: None }]

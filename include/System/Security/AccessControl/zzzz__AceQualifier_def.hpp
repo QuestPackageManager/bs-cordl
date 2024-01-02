@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::AceQualifier);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3017))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3018))
 // CS Name: ::System.Security.AccessControl::AceQualifier
 struct CORDL_TYPE AceQualifier {
 public:

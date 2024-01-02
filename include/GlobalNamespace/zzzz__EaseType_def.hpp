@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::EaseType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16090))
 // CS Name: ::EaseType
 struct CORDL_TYPE EaseType {
 public:
@@ -57,6 +57,9 @@ public:
     __E_InBounce = static_cast<int32_t>(0x1d),
     __E_OutBounce = static_cast<int32_t>(0x1e),
     __E_InOutBounce = static_cast<int32_t>(0x1f),
+    __E_BeatSaberInOutBack = static_cast<int32_t>(0x20),
+    __E_BeatSaberInOutElastic = static_cast<int32_t>(0x21),
+    __E_BeatSaberInOutBounce = static_cast<int32_t>(0x22),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -172,6 +175,15 @@ public:
 
   /// @brief Field InOutBounce value: static_cast<int32_t>(0x1f)
   static ::GlobalNamespace::EaseType const InOutBounce;
+
+  /// @brief Field BeatSaberInOutBack value: static_cast<int32_t>(0x20)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutBack;
+
+  /// @brief Field BeatSaberInOutElastic value: static_cast<int32_t>(0x21)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutElastic;
+
+  /// @brief Field BeatSaberInOutBounce value: static_cast<int32_t>(0x22)
+  static ::GlobalNamespace::EaseType const BeatSaberInOutBounce;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

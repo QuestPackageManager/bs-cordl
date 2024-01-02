@@ -19,13 +19,13 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::InputRuntimeExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6637))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6551))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputRuntimeExtensions*
 class CORDL_TYPE InputRuntimeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DeviceCommand addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DeviceCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TCommand> static inline int64_t DeviceCommand(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime, int32_t deviceId, ByRef<TCommand> command);
 
   // Ctor Parameters [CppParam { name: "", ty: "InputRuntimeExtensions", modifiers: "&&", def_value: None }]

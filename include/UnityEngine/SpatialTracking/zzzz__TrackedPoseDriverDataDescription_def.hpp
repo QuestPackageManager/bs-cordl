@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TrackedPoseDriverDataDescription)
-namespace UnityEngine::SpatialTracking {
-struct __TrackedPoseDriverDataDescription__PoseData;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine::SpatialTracking {
+struct __TrackedPoseDriverDataDescription__PoseData;
 }
 namespace UnityEngine::SpatialTracking {
 struct __TrackedPoseDriver__TrackedPose;
@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__P
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16189))
 // CS Name: ::TrackedPoseDriverDataDescription::PoseData
 struct CORDL_TYPE __TrackedPoseDriverDataDescription__PoseData {
 public:
@@ -67,8 +67,8 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16023))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16190))
 // CS Name: ::UnityEngine.SpatialTracking::TrackedPoseDriverDataDescription*
 class CORDL_TYPE TrackedPoseDriverDataDescription : public ::System::Object {
 public:
@@ -85,7 +85,7 @@ public:
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb163c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d189ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackedPoseDriverDataDescription", modifiers: "&&", def_value: None }]

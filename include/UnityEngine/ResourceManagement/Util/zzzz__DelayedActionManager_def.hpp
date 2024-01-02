@@ -10,6 +10,15 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DelayedActionManager)
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class Stack_1;
+}
+namespace System {
+class Delegate;
+}
 namespace UnityEngine::ResourceManagement::Util {
 struct __DelayedActionManager__DelegateInfo;
 }
@@ -19,17 +28,8 @@ template <typename T> class List_1;
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class Stack_1;
-}
 namespace System {
 class Object;
-}
-namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace System {
-class Delegate;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -46,7 +46,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::__DelayedActionManager__Dele
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14238))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13967))
 // CS Name: ::DelayedActionManager::DelegateInfo
 struct CORDL_TYPE __DelayedActionManager__DelegateInfo {
 public:
@@ -60,19 +60,19 @@ public:
 
   static inline int32_t getStaticF_s_Id();
 
-  /// @brief Method .ctor addr 0x2a4da94 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd07e8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* d, float_t invocationTime, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> p);
 
-  /// @brief Method get_InvocationTime addr 0x2a4e484 size 0x8 virtual false final false
+  /// @brief Method get_InvocationTime, addr 0x2bd11d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InvocationTime();
 
-  /// @brief Method set_InvocationTime addr 0x2a4e48c size 0x8 virtual false final false
+  /// @brief Method set_InvocationTime, addr 0x2bd11e0, size 0x8, virtual false, abstract: false, final false
   inline void set_InvocationTime(float_t value);
 
-  /// @brief Method ToString addr 0x2a4e494 size 0x430 virtual true final false
+  /// @brief Method ToString, addr 0x2bd11e8, size 0x430, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Invoke addr 0x2a4e098 size 0x17c virtual false final false
+  /// @brief Method Invoke, addr 0x2bd0dec, size 0x17c, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Delegate", ty: "::System::Delegate*", modifiers: "", def_value: None }, CppParam {
@@ -118,8 +118,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::Util::__DelayedActionM
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14237)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14237), inst: 1038 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1060 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13968))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DelayedActionManager*
 class CORDL_TYPE DelayedActionManager : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Util::DelayedActionManager*> {
 public:
@@ -186,40 +186,43 @@ public:
 
   constexpr void __set_m_DestroyOnCompletion(bool value);
 
-  /// @brief Method GetNode addr 0x2a4d620 size 0xfc virtual false final false
+  /// @brief Method GetNode, addr 0x2bd0374, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo>*
   GetNode(ByRef<::UnityEngine::ResourceManagement::Util::__DelayedActionManager__DelegateInfo> del);
 
-  /// @brief Method Clear addr 0x2a4d71c size 0x74 virtual false final false
+  /// @brief Method Clear, addr 0x2bd0470, size 0x74, virtual false, abstract: false, final false
   static inline void Clear();
 
-  /// @brief Method DestroyWhenComplete addr 0x2a4d790 size 0xc virtual false final false
+  /// @brief Method DestroyWhenComplete, addr 0x2bd04e4, size 0xc, virtual false, abstract: false, final false
   inline void DestroyWhenComplete();
 
-  /// @brief Method AddAction addr 0x2a4d79c size 0x74 virtual false final false
-  static inline void AddAction(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+  /// @brief Method AddAction, addr 0x2bd04f0, size 0x74, virtual false, abstract: false, final false
+  /// @param delay: float_t (default: 0.0)
+  static inline void AddAction(::System::Delegate* action, float_t delay = 0.0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method AddActionInternal addr 0x2a4d810 size 0x284 virtual false final false
+  /// @brief Method AddActionInternal, addr 0x2bd0564, size 0x284, virtual false, abstract: false, final false
   inline void AddActionInternal(::System::Delegate* action, float_t delay, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method get_IsActive addr 0x2a4db14 size 0x114 virtual false final false
+  /// @brief Method get_IsActive, addr 0x2bd0868, size 0x114, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
-  /// @brief Method Wait addr 0x2a4dc28 size 0x130 virtual false final false
-  static inline bool Wait(float_t timeout, float_t timeAdvanceAmount);
+  /// @brief Method Wait, addr 0x2bd097c, size 0x130, virtual false, abstract: false, final false
+  /// @param timeout: float_t (default: 0.0)
+  /// @param timeAdvanceAmount: float_t (default: 0.0)
+  static inline bool Wait(float_t timeout = 0.0, float_t timeAdvanceAmount = 0.0);
 
-  /// @brief Method LateUpdate addr 0x2a4e07c size 0x1c virtual false final false
+  /// @brief Method LateUpdate, addr 0x2bd0dd0, size 0x1c, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method InternalLateUpdate addr 0x2a4dd58 size 0x324 virtual false final false
+  /// @brief Method InternalLateUpdate, addr 0x2bd0aac, size 0x324, virtual false, abstract: false, final false
   inline void InternalLateUpdate(float_t t);
 
-  /// @brief Method OnApplicationQuit addr 0x2a4e214 size 0xb4 virtual false final false
+  /// @brief Method OnApplicationQuit, addr 0x2bd0f68, size 0xb4, virtual false, abstract: false, final false
   inline void OnApplicationQuit();
 
   static inline ::UnityEngine::ResourceManagement::Util::DelayedActionManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a4e2c8 size 0x1bc virtual false final false
+  /// @brief Method .ctor, addr 0x2bd101c, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DelayedActionManager", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextContainerAnchors);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12233))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12305))
 // CS Name: ::TMPro::TextContainerAnchors
 struct CORDL_TYPE TextContainerAnchors {
 public:

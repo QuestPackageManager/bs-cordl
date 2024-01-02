@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ICutScoreBufferDidFinishReceiver);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5408))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5313))
 // CS Name: ::ICutScoreBufferDidFinishReceiver*
 class CORDL_TYPE ICutScoreBufferDidFinishReceiver {
 public:
   // Declarations
-  /// @brief Method HandleCutScoreBufferDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICutScoreBufferDidFinishReceiver", modifiers: "&&", def_value: None }]

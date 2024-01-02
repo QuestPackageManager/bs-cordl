@@ -10,10 +10,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TubeLightBehaviour)
 namespace GlobalNamespace {
+struct __TubeLightBehaviour__ParameterType;
+}
+namespace GlobalNamespace {
 class ColorSO;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace GlobalNamespace {
+class DirectionalLight;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
@@ -23,12 +29,6 @@ class Object;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
-}
-namespace GlobalNamespace {
-struct __TubeLightBehaviour__ParameterType;
-}
-namespace GlobalNamespace {
-class DirectionalLight;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightBehaviour);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6076))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6021))
 // CS Name: ::TubeLightBehaviour::ParameterType
 struct CORDL_TYPE __TubeLightBehaviour__ParameterType {
 public:
@@ -94,8 +94,8 @@ static_assert(offsetof(::GlobalNamespace::__TubeLightBehaviour__ParameterType, v
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6077))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6022))
 // CS Name: ::TubeLightBehaviour*
 class CORDL_TYPE TubeLightBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -192,15 +192,15 @@ public:
 
   constexpr void __set__firstFrameColor(::UnityEngine::Color value);
 
-  /// @brief Method ProcessFrame addr 0x21c4f9c size 0x408 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2317dc0, size 0x408, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method OnPlayableDestroy addr 0x21c53a4 size 0xcc virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x23181c8, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c5470 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2318294, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightBehaviour", modifiers: "&&", def_value: None }]

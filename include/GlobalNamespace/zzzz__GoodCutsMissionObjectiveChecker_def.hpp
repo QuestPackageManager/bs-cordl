@@ -9,10 +9,10 @@ namespace GlobalNamespace {
 class NoteController;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
-class BeatmapObjectManager;
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::GoodCutsMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5203))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5195))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5090))
 // CS Name: ::GoodCutsMissionObjectiveChecker*
 class CORDL_TYPE GoodCutsMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -39,18 +39,18 @@ public:
 
   constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method Init addr 0x20ea130 size 0x14c virtual true final false
+  /// @brief Method Init, addr 0x23cbc40, size 0x14c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method OnDestroy addr 0x20ea27c size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23cbd8c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleNoteWasCut addr 0x20ea314 size 0x8c virtual false final false
+  /// @brief Method HandleNoteWasCut, addr 0x23cbe24, size 0x8c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::GoodCutsMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ea3a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cbeb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GoodCutsMissionObjectiveChecker", modifiers: "&&", def_value: None }]

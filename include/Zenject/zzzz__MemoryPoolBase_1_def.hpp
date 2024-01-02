@@ -6,20 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolBase_1)
-namespace Zenject {
-class DiContainer;
-}
-namespace System {
-class Type;
-}
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
 }
 namespace Zenject {
-template <typename TValue> class IFactory_1;
-}
-namespace System {
-class IDisposable;
+class MemoryPoolSettings;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -28,16 +19,25 @@ namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class MemoryPoolSettings;
-}
-namespace Zenject {
 class IMemoryPool;
 }
 namespace System {
 class Object;
 }
+namespace System {
+class IDisposable;
+}
 namespace Zenject {
 class IValidatable;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -51,8 +51,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10977))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11049))
 // CS Name: ::Zenject::MemoryPoolBase`1<TContract>*
 class CORDL_TYPE MemoryPoolBase_1 : public ::System::Object {
 public:
@@ -123,84 +123,84 @@ public:
 
   constexpr void __set__activeCount(int32_t value);
 
-  /// @brief Method Construct addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Construct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Construct(::Zenject::IFactory_1<TContract>* factory, ::Zenject::DiContainer* container, ::Zenject::MemoryPoolSettings* settings);
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_InactiveItems addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_InactiveItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<TContract>* get_InactiveItems();
 
-  /// @brief Method get_NumTotal addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumTotal();
 
-  /// @brief Method get_NumInactive addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumInactive();
 
-  /// @brief Method get_NumActive addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_NumActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_NumActive();
 
-  /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Zenject.IMemoryPool.Despawn addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Zenject.IMemoryPool.Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Zenject_IMemoryPool_Despawn(::System::Object* item);
 
-  /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Despawn(TContract item);
 
-  /// @brief Method AllocNew addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AllocNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TContract AllocNew();
 
-  /// @brief Method Zenject.IValidatable.Validate addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Zenject.IValidatable.Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Zenject_IValidatable_Validate();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method ShrinkBy addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ShrinkBy(int32_t numToRemove);
 
-  /// @brief Method ExpandBy addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ExpandBy(int32_t numToAdd);
 
-  /// @brief Method GetInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TContract GetInternal();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Resize(int32_t desiredPoolSize);
 
-  /// @brief Method ExpandPool addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ExpandPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ExpandPool();
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDespawned(TContract item);
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnSpawned(TContract item);
 
-  /// @brief Method OnCreated addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnCreated(TContract item);
 
-  /// @brief Method OnDestroyed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnDestroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDestroyed(TContract item);
 
   static inline ::Zenject::MemoryPoolBase_1<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenInjectMethod0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenInjectMethod0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryPoolBase_1", modifiers: "&&", def_value: None }]

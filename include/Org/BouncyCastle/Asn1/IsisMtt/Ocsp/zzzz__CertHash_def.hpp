@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CertHash)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
@@ -56,26 +56,26 @@ public:
 
   constexpr void __set_certificateHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance addr 0xeff998 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xf75bbc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xeffb20 size 0x11c virtual false final false
+  /// @brief Method .ctor, addr 0xf75d44, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
 
-  /// @brief Method .ctor addr 0xeffc3c size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0xf75e60, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
 
-  /// @brief Method get_HashAlgorithm addr 0xeffd6c size 0x8 virtual false final false
+  /// @brief Method get_HashAlgorithm, addr 0xf75f90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_CertificateHash addr 0xeffd74 size 0x78 virtual false final false
+  /// @brief Method get_CertificateHash, addr 0xf75f98, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateHash();
 
-  /// @brief Method ToAsn1Object addr 0xeffdec size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf76010, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CertHash", modifiers: "&&", def_value: None }]

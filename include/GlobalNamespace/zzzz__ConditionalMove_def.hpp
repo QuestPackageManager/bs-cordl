@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalMove);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5450))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5355))
 // CS Name: ::ConditionalMove*
 class CORDL_TYPE ConditionalMove : public ::UnityEngine::MonoBehaviour {
 public:
@@ -51,12 +51,12 @@ public:
 
   constexpr void __set__activateOnFalse(bool value);
 
-  /// @brief Method Awake addr 0x2127f84 size 0xb8 virtual false final false
+  /// @brief Method Awake, addr 0x226c0c0, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::ConditionalMove* New_ctor();
 
-  /// @brief Method .ctor addr 0x212803c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226c178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalMove", modifiers: "&&", def_value: None }]

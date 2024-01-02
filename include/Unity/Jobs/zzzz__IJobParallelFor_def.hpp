@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::Unity::Jobs::IJobParallelFor);
 namespace Unity::Jobs {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9969))
 // CS Name: ::Unity.Jobs::IJobParallelFor*
 class CORDL_TYPE IJobParallelFor {
 public:
   // Declarations
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "IJobParallelFor", modifiers: "&&", def_value: None }]

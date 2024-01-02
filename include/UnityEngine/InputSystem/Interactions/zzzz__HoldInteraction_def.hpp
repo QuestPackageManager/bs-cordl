@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::HoldInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6646))
 // CS Name: ::UnityEngine.InputSystem.Interactions::HoldInteraction*
 class CORDL_TYPE HoldInteraction : public ::System::Object {
 public:
@@ -62,21 +62,21 @@ public:
 
   constexpr void __set_m_TimePressed(double_t value);
 
-  /// @brief Method get_durationOrDefault addr 0x298b714 size 0x70 virtual false final false
+  /// @brief Method get_durationOrDefault, addr 0x2b0c468, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault addr 0x298b784 size 0x58 virtual false final false
+  /// @brief Method get_pressPointOrDefault, addr 0x2b0c4d8, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method Process addr 0x298b7dc size 0x1a4 virtual true final true
+  /// @brief Method Process, addr 0x2b0c530, size 0x1a4, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset addr 0x298b980 size 0x8 virtual true final true
+  /// @brief Method Reset, addr 0x2b0c6d4, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::UnityEngine::InputSystem::Interactions::HoldInteraction* New_ctor();
 
-  /// @brief Method .ctor addr 0x298b988 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b0c6dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HoldInteraction", modifiers: "&&", def_value: None }]

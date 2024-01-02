@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Utilities/zzzz__PrimitiveTypeCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TypeInformation)
-namespace System {
-class Type;
-}
 namespace Newtonsoft::Json::Utilities {
 struct PrimitiveTypeCode;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::TypeInformation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11799))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11870))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11871))
 // CS Name: ::Newtonsoft.Json.Utilities::TypeInformation*
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
@@ -49,21 +49,21 @@ public:
 
   constexpr void __set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
-  /// @brief Method get_Type addr 0x24f852c size 0x8 virtual false final false
+  /// @brief Method get_Type, addr 0x265bc70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method set_Type addr 0x24f8534 size 0x8 virtual false final false
+  /// @brief Method set_Type, addr 0x265bc78, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::System::Type* value);
 
-  /// @brief Method get_TypeCode addr 0x24f853c size 0x8 virtual false final false
+  /// @brief Method get_TypeCode, addr 0x265bc80, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
-  /// @brief Method set_TypeCode addr 0x24f8544 size 0x8 virtual false final false
+  /// @brief Method set_TypeCode, addr 0x265bc88, size 0x8, virtual false, abstract: false, final false
   inline void set_TypeCode(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
   static inline ::Newtonsoft::Json::Utilities::TypeInformation* New_ctor();
 
-  /// @brief Method .ctor addr 0x24f854c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x265bc90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]

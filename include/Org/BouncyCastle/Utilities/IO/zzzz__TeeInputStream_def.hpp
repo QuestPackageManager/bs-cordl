@@ -45,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeInputStream* New_ctor(::System::IO::Stream* input, ::System::IO::Stream* tee);
 
-  /// @brief Method .ctor addr 0x10ef054 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x116029c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* tee);
 
-  /// @brief Method Close addr 0x10ef080 size 0x74 virtual true final false
+  /// @brief Method Close, addr 0x11602c8, size 0x74, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Read addr 0x10ef0f4 size 0x78 virtual true final false
+  /// @brief Method Read, addr 0x116033c, size 0x78, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReadByte addr 0x10ef16c size 0x5c virtual true final false
+  /// @brief Method ReadByte, addr 0x11603b4, size 0x5c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
   // Ctor Parameters [CppParam { name: "", ty: "TeeInputStream", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpStatusCode);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7899))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9062))
 // CS Name: ::System.Net::FtpStatusCode
 struct CORDL_TYPE FtpStatusCode {
 public:

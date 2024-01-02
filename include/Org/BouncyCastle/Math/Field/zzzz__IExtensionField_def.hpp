@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method get_Subfield addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Subfield, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield();
 
-  /// @brief Method get_Degree addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Degree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Degree();
 
   // Ctor Parameters [CppParam { name: "", ty: "IExtensionField", modifiers: "&&", def_value: None }]

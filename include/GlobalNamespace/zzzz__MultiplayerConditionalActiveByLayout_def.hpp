@@ -12,10 +12,10 @@ namespace GlobalNamespace {
 struct MultiplayerPlayerLayout;
 }
 namespace GlobalNamespace {
-struct __MultiplayerConditionalActiveByLayout__Condition;
+class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
+struct __MultiplayerConditionalActiveByLayout__Condition;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConditionalActiveByLayout);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5195))
 // CS Name: ::MultiplayerConditionalActiveByLayout::Condition
 struct CORDL_TYPE __MultiplayerConditionalActiveByLayout__Condition {
 public:
@@ -81,8 +81,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConditionalActiveByLayout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5299)), TypeDefinitionIndex(TypeDefinitionIndex(5327)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5300))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5195)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5233))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
 // CS Name: ::MultiplayerConditionalActiveByLayout*
 class CORDL_TYPE MultiplayerConditionalActiveByLayout : public ::UnityEngine::MonoBehaviour {
 public:
@@ -116,15 +116,15 @@ public:
 
   constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  /// @brief Method Start addr 0x2105180 size 0xa0 virtual false final false
+  /// @brief Method Start, addr 0x22462a4, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method HandlePlayersLayoutWasCalculated addr 0x2105220 size 0x58 virtual false final false
+  /// @brief Method HandlePlayersLayoutWasCalculated, addr 0x2246344, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount);
 
   static inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* New_ctor();
 
-  /// @brief Method .ctor addr 0x2105278 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x224639c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConditionalActiveByLayout", modifiers: "&&", def_value: None }]

@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLaunchBlockFlowResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4489 }), TypeDefinitionIndex(TypeDefinitionIndex(13269)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13306)) CS Name: ::Oculus.Platform::MessageWithLaunchBlockFlowResult*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13441)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 4588 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13293)) CS Name: ::Oculus.Platform::MessageWithLaunchBlockFlowResult*
 class CORDL_TYPE MessageWithLaunchBlockFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchBlockFlowResult*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithLaunchBlockFlowResult* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x259308c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26ef138, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetLaunchBlockFlowResult addr 0x2595f7c size 0x3c virtual true final false
+  /// @brief Method GetLaunchBlockFlowResult, addr 0x26f1d78, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetLaunchBlockFlowResult();
 
-  /// @brief Method GetDataFromMessage addr 0x2595fb8 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f1db4, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchBlockFlowResult* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithLaunchBlockFlowResult", modifiers: "&&", def_value: None }]

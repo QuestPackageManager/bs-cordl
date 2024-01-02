@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkPacketSubSerializer_1)
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace System {
 class Type;
 }
 namespace LiteNetLib::Utils {
 class INetSerializable;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,18 +29,18 @@ namespace GlobalNamespace {
 template <typename TData>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12813))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
 // CS Name: ::INetworkPacketSubSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSubSerializer_1 {
 public:
   // Declarations
-  /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data);
 
-  /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
-  /// @brief Method HandlesType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandlesType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool HandlesType(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSubSerializer_1", modifiers: "&&", def_value: None }]

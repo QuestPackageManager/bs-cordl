@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayerLobbyPermissionConfigurationNetSerializable)
 namespace LiteNetLib::Utils {
-class NetDataWriter;
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15175))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15030))
 // CS Name: ::PlayerLobbyPermissionConfigurationNetSerializable*
 class CORDL_TYPE PlayerLobbyPermissionConfigurationNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
@@ -93,40 +93,40 @@ public:
 
   constexpr void __set__hasInvitePermission(bool value);
 
-  /// @brief Method get_userId addr 0x12334a4 size 0x8 virtual false final false
+  /// @brief Method get_userId, addr 0x12a55a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_isServerOwner addr 0x12334ac size 0x8 virtual false final false
+  /// @brief Method get_isServerOwner, addr 0x12a55a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_isServerOwner();
 
-  /// @brief Method get_hasRecommendBeatmapsPermission addr 0x12334b4 size 0x8 virtual false final false
+  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x12a55b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapsPermission();
 
-  /// @brief Method get_hasRecommendGameplayModifiersPermission addr 0x12334bc size 0x8 virtual false final false
+  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x12a55b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendGameplayModifiersPermission();
 
-  /// @brief Method get_hasKickVotePermission addr 0x12334c4 size 0x8 virtual false final false
+  /// @brief Method get_hasKickVotePermission, addr 0x12a55c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasInvitePermission addr 0x12334cc size 0x8 virtual false final false
+  /// @brief Method get_hasInvitePermission, addr 0x12a55c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method Obtain addr 0x12334d4 size 0x64 virtual false final false
+  /// @brief Method Obtain, addr 0x12a55d0, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Obtain();
 
-  /// @brief Method Init addr 0x1233538 size 0x30 virtual false final false
+  /// @brief Method Init, addr 0x12a5634, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission,
                                                                                     bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x1233568 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x12a5664, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Serialize addr 0x12335c0 size 0x60 virtual true final false
+  /// @brief Method Serialize, addr 0x12a56bc, size 0x60, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x1233620 size 0x6c virtual true final false
+  /// @brief Method Deserialize, addr 0x12a571c, size 0x6c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerLobbyPermissionConfigurationNetSerializable", modifiers: "&&", def_value: None }]

@@ -14,12 +14,14 @@ namespace cordl_internals {
 template <typename T> CORDL_HIDDEN void* ExtractValue(T& arg) noexcept;
 
 template <typename T>
-requires(il2cpp_convertible<T>) CORDL_HIDDEN void* ExtractValue(T& arg) noexcept {
+  requires(il2cpp_convertible<T>)
+CORDL_HIDDEN void* ExtractValue(T& arg) noexcept {
   return arg.convert();
 }
 
 template <typename T>
-requires(std::is_pointer_v<T>) CORDL_HIDDEN void* ExtractValue(T& arg) noexcept {
+  requires(std::is_pointer_v<T>)
+CORDL_HIDDEN void* ExtractValue(T& arg) noexcept {
   return const_cast<void*>(static_cast<void const*>(arg));
 }
 
@@ -54,12 +56,14 @@ template <> CORDL_HIDDEN constexpr void* ExtractValue<Il2CppObject*>(Il2CppObjec
 template <typename T> CORDL_HIDDEN void* ExtractValue(T&& arg) noexcept;
 
 template <typename T>
-requires(il2cpp_convertible<T>) CORDL_HIDDEN void* ExtractValue(T&& arg) noexcept {
+  requires(il2cpp_convertible<T>)
+CORDL_HIDDEN void* ExtractValue(T&& arg) noexcept {
   return arg.convert();
 }
 
 template <typename T>
-requires(std::is_pointer_v<T>) CORDL_HIDDEN void* ExtractValue(T&& arg) noexcept {
+  requires(std::is_pointer_v<T>)
+CORDL_HIDDEN void* ExtractValue(T&& arg) noexcept {
   return const_cast<void*>(static_cast<void const*>(arg));
 }
 
@@ -150,22 +154,26 @@ template <> CORDL_HIDDEN void* ExtractTypeValue<::bs_hook::Il2CppWrapperType>(::
 }
 
 template <il2cpp_convertible T>
-requires(!std::is_same_v<T, ::bs_hook::Il2CppWrapperType>) CORDL_HIDDEN constexpr void* ExtractTypeValue(T& arg) {
+  requires(!std::is_same_v<T, ::bs_hook::Il2CppWrapperType>)
+CORDL_HIDDEN constexpr void* ExtractTypeValue(T& arg) {
   return arg.convert();
 }
 
 template <il2cpp_convertible T>
-requires(!std::is_same_v<T, ::bs_hook::Il2CppWrapperType>) CORDL_HIDDEN constexpr void* ExtractTypeValue(T&& arg) {
+  requires(!std::is_same_v<T, ::bs_hook::Il2CppWrapperType>)
+CORDL_HIDDEN constexpr void* ExtractTypeValue(T&& arg) {
   return arg.convert();
 }
 
 template <typename T>
-requires(std::is_pointer_v<T>) CORDL_HIDDEN constexpr void* ExtractTypeValue(T& arg) {
+  requires(std::is_pointer_v<T>)
+CORDL_HIDDEN constexpr void* ExtractTypeValue(T& arg) {
   return arg;
 }
 
 template <typename T>
-requires(std::is_pointer_v<T>) CORDL_HIDDEN constexpr void* ExtractTypeValue(T&& arg) {
+  requires(std::is_pointer_v<T>)
+CORDL_HIDDEN constexpr void* ExtractTypeValue(T&& arg) {
   return arg;
 }
 

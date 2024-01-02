@@ -4,29 +4,29 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvelopedDataHelper)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
-}
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Crypto {
-class CipherKeyGenerator;
 }
 namespace System::Collections {
 class IDictionary;
 }
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Crypto {
+class CipherKeyGenerator;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::EnvelopedDataHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(668))
 // CS Name: ::Org.BouncyCastle.Cms::EnvelopedDataHelper*
 class CORDL_TYPE EnvelopedDataHelper : public ::System::Object {
@@ -58,21 +58,21 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_MacAlgNames();
 
-  /// @brief Method CreateContentCipher addr 0x11904fc size 0x70 virtual false final false
+  /// @brief Method CreateContentCipher, addr 0x120174c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
-  /// @brief Method GenerateEncryptionAlgID addr 0x119056c size 0x90 virtual false final false
+  /// @brief Method GenerateEncryptionAlgID, addr 0x12017bc, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID,
                                                                                        ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey,
                                                                                        ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CreateKeyGenerator addr 0x11905fc size 0x10 virtual false final false
+  /// @brief Method CreateKeyGenerator, addr 0x120184c, size 0x10, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::EnvelopedDataHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x119060c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x120185c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvelopedDataHelper", modifiers: "&&", def_value: None }]

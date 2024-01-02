@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DisappearingArrowControllerBase_1)
-namespace UnityEngine {
-class MeshRenderer;
+namespace GlobalNamespace {
+class MaterialPropertyBlockController;
 }
 namespace GlobalNamespace {
 class CutoutEffect;
 }
-namespace GlobalNamespace {
-class MaterialPropertyBlockController;
+namespace UnityEngine {
+class MeshRenderer;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -28,8 +28,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4863))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4742))
 // CS Name: ::DisappearingArrowControllerBase`1<T>*
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -153,30 +153,30 @@ public:
 
   static inline int32_t getStaticF__colorId();
 
-  /// @brief Method get_gameNoteController addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_gameNoteController, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_gameNoteController();
 
-  /// @brief Method Awake addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method CalculateMinMaxDistance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CalculateMinMaxDistance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CalculateMinMaxDistance();
 
-  /// @brief Method HandleNoteMovementNoteDidMoveInJumpPhase addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleNoteMovementNoteDidMoveInJumpPhase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleNoteMovementNoteDidMoveInJumpPhase();
 
-  /// @brief Method HandleCubeNoteControllerDidInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleCubeNoteControllerDidInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleCubeNoteControllerDidInit(T gameNoteController);
 
-  /// @brief Method SetArrowTransparency addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetArrowTransparency, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetArrowTransparency(float_t arrowTransparency);
 
   static inline ::GlobalNamespace::DisappearingArrowControllerBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowControllerBase_1", modifiers: "&&", def_value: None }]

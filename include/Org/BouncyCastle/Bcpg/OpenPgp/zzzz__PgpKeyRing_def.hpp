@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PgpKeyRing)
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
-}
-namespace Org::BouncyCastle::Bcpg {
 class TrustPacket;
 }
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
@@ -32,16 +32,16 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpKeyRing* New_ctor();
 
-  /// @brief Method .ctor addr 0x103cca4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10adef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ReadOptionalTrustPacket addr 0x103ccac size 0xa0 virtual false final false
+  /// @brief Method ReadOptionalTrustPacket, addr 0x10adefc, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::TrustPacket* ReadOptionalTrustPacket(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadSignaturesAndTrust addr 0x103cd4c size 0x2c8 virtual false final false
+  /// @brief Method ReadSignaturesAndTrust, addr 0x10adf9c, size 0x2c8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* ReadSignaturesAndTrust(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method ReadUserIDs addr 0x103d014 size 0x340 virtual false final false
+  /// @brief Method ReadUserIDs, addr 0x10ae264, size 0x340, virtual false, abstract: false, final false
   static inline void ReadUserIDs(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput, ByRef<::System::Collections::IList*> ids, ByRef<::System::Collections::IList*> idTrusts,
                                  ByRef<::System::Collections::IList*> idSigs);
 

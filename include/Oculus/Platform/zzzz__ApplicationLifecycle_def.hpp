@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ApplicationLifecycle)
-namespace Oculus::Platform {
-struct LaunchResult;
+namespace Oculus::Platform::Models {
+class LaunchDetails;
 }
 namespace Oculus::Platform {
 template <typename T> class __Message_1__Callback;
 }
-namespace Oculus::Platform::Models {
-class LaunchDetails;
+namespace Oculus::Platform {
+struct LaunchResult;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -24,19 +24,19 @@ MARK_REF_PTR_T(::Oculus::Platform::ApplicationLifecycle);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13377))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13349))
 // CS Name: ::Oculus.Platform::ApplicationLifecycle*
 class CORDL_TYPE ApplicationLifecycle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLaunchDetails addr 0x259a764 size 0x90 virtual false final false
+  /// @brief Method GetLaunchDetails, addr 0x26f5aac, size 0x90, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Models::LaunchDetails* GetLaunchDetails();
 
-  /// @brief Method LogDeeplinkResult addr 0x259a7f4 size 0x64 virtual false final false
+  /// @brief Method LogDeeplinkResult, addr 0x26f5b3c, size 0x64, virtual false, abstract: false, final false
   static inline void LogDeeplinkResult(::StringW trackingID, ::Oculus::Platform::LaunchResult result);
 
-  /// @brief Method SetLaunchIntentChangedNotificationCallback addr 0x259a858 size 0x74 virtual false final false
+  /// @brief Method SetLaunchIntentChangedNotificationCallback, addr 0x26f5ba0, size 0x74, virtual false, abstract: false, final false
   static inline void SetLaunchIntentChangedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "ApplicationLifecycle", modifiers: "&&", def_value: None }]

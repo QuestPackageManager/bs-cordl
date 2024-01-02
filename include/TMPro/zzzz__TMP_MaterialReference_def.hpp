@@ -19,7 +19,7 @@ MARK_VAL_T(::TMPro::TMP_MaterialReference);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12231))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12303))
 // CS Name: ::TMPro::TMP_MaterialReference
 struct CORDL_TYPE TMP_MaterialReference {
 public:

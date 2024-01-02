@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(VisualElementExtensions)
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class IManipulator;
+}
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine::UIElements {
-class IManipulator;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,25 +26,25 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6820))
 // CS Name: ::UnityEngine.UIElements::VisualElementExtensions*
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method WorldToLocal addr 0x2c5bfdc size 0xec virtual false final false
+  /// @brief Method WorldToLocal, addr 0x2dc338c, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method LocalToWorld addr 0x2c5c0c8 size 0xec virtual false final false
+  /// @brief Method LocalToWorld, addr 0x2dc3478, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
 
-  /// @brief Method WorldToLocal addr 0x2c5c1b4 size 0xec virtual false final false
+  /// @brief Method WorldToLocal, addr 0x2dc3564, size 0xec, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
 
-  /// @brief Method AddManipulator addr 0x2c5c2a0 size 0xac virtual false final false
+  /// @brief Method AddManipulator, addr 0x2dc3650, size 0xac, virtual false, abstract: false, final false
   static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
-  /// @brief Method RemoveManipulator addr 0x2c5c34c size 0xa8 virtual false final false
+  /// @brief Method RemoveManipulator, addr 0x2dc36fc, size 0xa8, virtual false, abstract: false, final false
   static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
 
   // Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "&&", def_value: None }]

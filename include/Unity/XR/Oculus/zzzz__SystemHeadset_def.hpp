@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::XR::Oculus::SystemHeadset);
 namespace Unity::XR::Oculus {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15284))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15139))
 // CS Name: ::Unity.XR.Oculus::SystemHeadset
 struct CORDL_TYPE SystemHeadset {
 public:

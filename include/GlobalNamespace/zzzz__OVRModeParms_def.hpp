@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRModeParms);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8482)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8920))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8138))
 // CS Name: ::OVRModeParms*
 class CORDL_TYPE OVRModeParms : public ::UnityEngine::MonoBehaviour {
 public:
@@ -30,18 +30,18 @@ public:
 
   constexpr void __set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method Start addr 0x263f740 size 0x9c virtual false final false
+  /// @brief Method Start, addr 0x27b44a0, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x263f7dc size 0xac virtual false final false
+  /// @brief Method Update, addr 0x27b453c, size 0xac, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method TestPowerStateMode addr 0x263f888 size 0xa4 virtual false final false
+  /// @brief Method TestPowerStateMode, addr 0x27b45e8, size 0xa4, virtual false, abstract: false, final false
   inline void TestPowerStateMode();
 
   static inline ::GlobalNamespace::OVRModeParms* New_ctor();
 
-  /// @brief Method .ctor addr 0x263f92c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x27b468c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRModeParms", modifiers: "&&", def_value: None }]

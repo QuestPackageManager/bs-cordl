@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComboUIController)
-namespace TMPro {
-class TextMeshProUGUI;
+namespace GlobalNamespace {
+class IComboController;
 }
 namespace UnityEngine {
 class Animator;
 }
-namespace GlobalNamespace {
-class IComboController;
+namespace TMPro {
+class TextMeshProUGUI;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboUIController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5135))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5030))
 // CS Name: ::ComboUIController*
 class CORDL_TYPE ComboUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,30 +75,30 @@ public:
 
   constexpr void __set__fullComboLost(bool value);
 
-  /// @brief Method Start addr 0x2286684 size 0x88 virtual false final false
+  /// @brief Method Start, addr 0x23bf9f0, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x22869dc size 0x4 virtual false final false
+  /// @brief Method OnEnable, addr 0x23bfd48, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x22869e0 size 0x4 virtual false final false
+  /// @brief Method OnDisable, addr 0x23bfd4c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RegisterForEvents addr 0x228670c size 0x2d0 virtual false final false
+  /// @brief Method RegisterForEvents, addr 0x23bfa78, size 0x2d0, virtual false, abstract: false, final false
   inline void RegisterForEvents();
 
-  /// @brief Method UnregisterFromEvents addr 0x22869e4 size 0x1b8 virtual false final false
+  /// @brief Method UnregisterFromEvents, addr 0x23bfd50, size 0x1b8, virtual false, abstract: false, final false
   inline void UnregisterFromEvents();
 
-  /// @brief Method HandleComboDidChange addr 0x2286b9c size 0x48 virtual false final false
+  /// @brief Method HandleComboDidChange, addr 0x23bff08, size 0x48, virtual false, abstract: false, final false
   inline void HandleComboDidChange(int32_t combo);
 
-  /// @brief Method HandleComboBreakingEventHappened addr 0x2286be4 size 0x3c virtual false final false
+  /// @brief Method HandleComboBreakingEventHappened, addr 0x23bff50, size 0x3c, virtual false, abstract: false, final false
   inline void HandleComboBreakingEventHappened();
 
   static inline ::GlobalNamespace::ComboUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2286c20 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23bff8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ComboUIController", modifiers: "&&", def_value: None }]

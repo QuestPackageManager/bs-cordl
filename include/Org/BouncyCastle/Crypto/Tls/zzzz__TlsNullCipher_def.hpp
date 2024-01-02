@@ -13,10 +13,10 @@ namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsMac;
+class TlsCipher;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
-class TlsCipher;
+class TlsMac;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNullCipher);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1313))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNullCipher*
 class CORDL_TYPE TlsNullCipher : public ::System::Object {
@@ -66,22 +66,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
-  /// @brief Method .ctor addr 0xf38afc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xfaed44, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest,
                                                                           ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
-  /// @brief Method .ctor addr 0xf38b28 size 0x458 virtual false final false
+  /// @brief Method .ctor, addr 0xfaed70, size 0x458, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest);
 
-  /// @brief Method GetPlaintextLimit addr 0xf39120 size 0x2c virtual true final false
+  /// @brief Method GetPlaintextLimit, addr 0xfaf368, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method EncodePlaintext addr 0xf3914c size 0x130 virtual true final false
+  /// @brief Method EncodePlaintext, addr 0xfaf394, size 0x130, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method DecodeCiphertext addr 0xf3927c size 0x194 virtual true final false
+  /// @brief Method DecodeCiphertext, addr 0xfaf4c4, size 0x194, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsNullCipher", modifiers: "&&", def_value: None }]

@@ -17,12 +17,12 @@ MARK_VAL_T(::SFB::ExtensionFilter);
 namespace SFB {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6152))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6089))
 // CS Name: ::SFB::ExtensionFilter
 struct CORDL_TYPE ExtensionFilter {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x21e6e38 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2321300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW filterName, ::ArrayW<::StringW, ::Array<::StringW>*> filterExtensions);
 
   // Ctor Parameters [CppParam { name: "_name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_extensions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",

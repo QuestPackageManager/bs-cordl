@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TimeUnit);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7321))
 // CS Name: ::UnityEngine.UIElements::TimeUnit
 struct CORDL_TYPE TimeUnit {
 public:

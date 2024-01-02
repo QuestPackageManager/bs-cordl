@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 CORDL_MODULE_EXPORT(RepaintData)
 namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine {
 struct Rect;
-}
-namespace UnityEngine {
-struct Matrix4x4;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RepaintData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6953)) CS Name: ::UnityEngine.UIElements::RepaintData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6867)) CS Name: ::UnityEngine.UIElements::RepaintData*
 class CORDL_TYPE RepaintData : public ::System::Object {
 public:
   // Declarations
@@ -73,21 +73,21 @@ public:
 
   constexpr void __set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method get_currentOffset addr 0x2c61364 size 0x14 virtual false final false
+  /// @brief Method get_currentOffset, addr 0x2dc8714, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip addr 0x2c61378 size 0xc virtual false final false
+  /// @brief Method get_currentWorldClip, addr 0x2dc8728, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent addr 0x2c61384 size 0x8 virtual false final false
+  /// @brief Method get_repaintEvent, addr 0x2dc8734, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent addr 0x2c6138c size 0x8 virtual false final false
+  /// @brief Method set_repaintEvent, addr 0x2dc873c, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
   static inline ::UnityEngine::UIElements::RepaintData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c61394 size 0x60 virtual false final false
+  /// @brief Method .ctor, addr 0x2dc8744, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RepaintData", modifiers: "&&", def_value: None }]

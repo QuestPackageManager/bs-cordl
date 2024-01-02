@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISelectHandler)
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class IEventSystemHandler;
 }
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class BaseEventData;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::ISelectHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13189))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13184))
 // CS Name: ::UnityEngine.EventSystems::ISelectHandler*
 class CORDL_TYPE ISelectHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnSelect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnSelect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISelectHandler", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Video::VideoTimeReference);
 namespace UnityEngine::Video {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16080))
 // CS Name: ::UnityEngine.Video::VideoTimeReference
 struct CORDL_TYPE VideoTimeReference {
 public:

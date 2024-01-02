@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(InputFieldSettingsController)
-namespace GlobalNamespace {
-class StringSO;
-}
 namespace HMUI {
 class InputFieldView;
+}
+namespace GlobalNamespace {
+class StringSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::InputFieldSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5689))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5595))
 // CS Name: ::InputFieldSettingsController*
 class CORDL_TYPE InputFieldSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,21 +44,21 @@ public:
 
   constexpr void __set__settingsValue(::GlobalNamespace::StringSO* value);
 
-  /// @brief Method Awake addr 0x21659bc size 0x98 virtual false final false
+  /// @brief Method Awake, addr 0x22aaaa0, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2165a54 size 0x98 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22aab38, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable addr 0x2165aec size 0x54 virtual false final false
+  /// @brief Method OnEnable, addr 0x22aabd0, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method HandleInputFieldDidChange addr 0x2165b40 size 0x5c virtual true final false
+  /// @brief Method HandleInputFieldDidChange, addr 0x22aac24, size 0x5c, virtual true, abstract: false, final false
   inline void HandleInputFieldDidChange(::HMUI::InputFieldView* inputFieldView);
 
   static inline ::GlobalNamespace::InputFieldSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2165b9c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22aac80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldSettingsController", modifiers: "&&", def_value: None }]

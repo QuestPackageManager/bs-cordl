@@ -8,10 +8,7 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509Store)
 namespace System::Security::Cryptography::X509Certificates {
-class X509Certificate2Collection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct StoreLocation;
+struct StoreName;
 }
 namespace System::Security::Cryptography::X509Certificates {
 struct OpenFlags;
@@ -20,7 +17,10 @@ namespace System {
 class IDisposable;
 }
 namespace System::Security::Cryptography::X509Certificates {
-struct StoreName;
+struct StoreLocation;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Certificate2Collection;
 }
 namespace Mono::Security::X509 {
 class X509Store;
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Store);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7815)), TypeDefinitionIndex(TypeDefinitionIndex(7816)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8979)), TypeDefinitionIndex(TypeDefinitionIndex(8978))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9016))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Store*
 class CORDL_TYPE X509Store : public ::System::Object {
 public:
@@ -101,25 +101,25 @@ public:
   static inline ::System::Security::Cryptography::X509Certificates::X509Store* New_ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName,
                                                                                         ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method .ctor addr 0x28088ec size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0x298615c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::StoreName storeName, ::System::Security::Cryptography::X509Certificates::StoreLocation storeLocation);
 
-  /// @brief Method get_Certificates addr 0x2808a24 size 0x88 virtual false final false
+  /// @brief Method get_Certificates, addr 0x2986294, size 0x88, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* get_Certificates();
 
-  /// @brief Method get_Factory addr 0x2808aac size 0x1c virtual false final false
+  /// @brief Method get_Factory, addr 0x298631c, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Stores* get_Factory();
 
-  /// @brief Method get_Store addr 0x2808ac8 size 0x8 virtual false final false
+  /// @brief Method get_Store, addr 0x2986338, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Store* get_Store();
 
-  /// @brief Method Close addr 0x2808ad0 size 0x1c virtual false final false
+  /// @brief Method Close, addr 0x2986340, size 0x1c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x2808aec size 0x1c virtual true final true
+  /// @brief Method Dispose, addr 0x298635c, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Open addr 0x2808b08 size 0x3fc virtual false final false
+  /// @brief Method Open, addr 0x2986378, size 0x3fc, virtual false, abstract: false, final false
   inline void Open(::System::Security::Cryptography::X509Certificates::OpenFlags flags);
 
   // Ctor Parameters [CppParam { name: "", ty: "X509Store", modifiers: "&&", def_value: None }]

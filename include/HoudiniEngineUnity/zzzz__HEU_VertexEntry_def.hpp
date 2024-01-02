@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VertexEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9763))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9836))
 // CS Name: ::HoudiniEngineUnity::HEU_VertexEntry*
 class CORDL_TYPE HEU_VertexEntry : public ::System::Object {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_VertexEntry* New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
-  /// @brief Method .ctor addr 0x206b91c size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x21c22b8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_VertexEntry", modifiers: "&&", def_value: None }]

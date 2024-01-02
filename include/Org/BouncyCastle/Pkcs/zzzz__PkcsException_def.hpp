@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PkcsException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2559))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1705))
 // CS Name: ::Org.BouncyCastle.Pkcs::PkcsException*
 class CORDL_TYPE PkcsException : public ::System::Exception {
@@ -26,12 +26,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Pkcs::PkcsException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x1075fdc size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x10e7230, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Pkcs::PkcsException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor addr 0x1075b0c size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x10e6d60, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
   // Ctor Parameters [CppParam { name: "", ty: "PkcsException", modifiers: "&&", def_value: None }]

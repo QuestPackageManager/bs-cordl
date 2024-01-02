@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ForDeviceEventObservable)
-namespace System {
-class IDisposable;
-}
-namespace System {
-template <typename T> class IObserver_1;
+namespace UnityEngine::InputSystem::Utilities {
+class __ForDeviceEventObservable__ForDevice;
 }
 namespace System {
 template <typename T> class IObservable_1;
 }
-namespace UnityEngine::InputSystem::Utilities {
-class __ForDeviceEventObservable__ForDevice;
+namespace System {
+class IDisposable;
+}
+namespace System {
+class Type;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -23,7 +23,7 @@ namespace UnityEngine::InputSystem {
 class InputDevice;
 }
 namespace System {
-class Type;
+template <typename T> class IObserver_1;
 }
 namespace System {
 class Exception;
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6685))
 // CS Name: ::ForDeviceEventObservable::ForDevice*
 class CORDL_TYPE __ForDeviceEventObservable__ForDevice : public ::System::Object {
 public:
@@ -81,16 +81,16 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                        ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method .ctor addr 0x2995050 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2b15da4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method OnCompleted addr 0x299508c size 0x4 virtual true final true
+  /// @brief Method OnCompleted, addr 0x2b15de0, size 0x4, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError addr 0x2995090 size 0x58 virtual true final true
+  /// @brief Method OnError, addr 0x2b15de4, size 0x58, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext addr 0x29950e8 size 0x184 virtual true final true
+  /// @brief Method OnNext, addr 0x2b15e3c, size 0x184, virtual true, abstract: false, final true
   inline void OnNext(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ForDeviceEventObservable__ForDevice", modifiers: "&&", def_value: None }]
@@ -132,8 +132,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__ForDeviceEventOb
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6686))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ForDeviceEventObservable*
 class CORDL_TYPE ForDeviceEventObservable : public ::System::Object {
 public:
@@ -173,10 +173,10 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor addr 0x2994f24 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2b15c78, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Subscribe addr 0x2994f60 size 0xf0 virtual true final true
+  /// @brief Method Subscribe, addr 0x2b15cb4, size 0xf0, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "ForDeviceEventObservable", modifiers: "&&", def_value: None }]

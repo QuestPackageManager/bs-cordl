@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerMoveEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 235, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7284), inst: 1665 }), TypeDefinitionIndex(TypeDefinitionIndex(7284))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7286))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 1733 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7200))
 // CS Name: ::UnityEngine.UIElements::PointerMoveEvent*
 class CORDL_TYPE PointerMoveEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerMoveEvent*> {
 public:
@@ -34,24 +34,24 @@ public:
 
   constexpr void __set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method get_isHandledByDraggable addr 0x2ce6ec4 size 0x8 virtual false final false
+  /// @brief Method get_isHandledByDraggable, addr 0x2e4f274, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method set_isHandledByDraggable addr 0x2ce6ecc size 0xc virtual false final false
+  /// @brief Method set_isHandledByDraggable, addr 0x2e4f27c, size 0xc, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
-  /// @brief Method Init addr 0x2ce6ed8 size 0x50 virtual true final false
+  /// @brief Method Init, addr 0x2e4f288, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2ce6f28 size 0x10c virtual false final false
+  /// @brief Method LocalInit, addr 0x2e4f2d8, size 0x10c, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce7034 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2e4f3e4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method PostDispatch addr 0x2ce7084 size 0x608 virtual true final false
+  /// @brief Method PostDispatch, addr 0x2e4f434, size 0x608, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerMoveEvent", modifiers: "&&", def_value: None }]

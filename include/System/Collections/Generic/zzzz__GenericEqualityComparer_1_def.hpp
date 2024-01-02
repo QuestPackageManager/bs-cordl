@@ -21,33 +21,33 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3857)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3857), inst: 1634 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3858))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3869), inst: 1701 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3870))
 // CS Name: ::System.Collections.Generic::GenericEqualityComparer`1<T>*
 class CORDL_TYPE GenericEqualityComparer_1 : public ::System::Collections::Generic::EqualityComparer_1<T> {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode(T obj);
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<T, ::Array<T>*> array, T value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LastIndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<T, ::Array<T>*> array, T value, int32_t startIndex, int32_t count);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Collections::Generic::GenericEqualityComparer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericEqualityComparer_1", modifiers: "&&", def_value: None }]

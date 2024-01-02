@@ -12,34 +12,34 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InteractionObject)
 namespace RootMotion::FinalIK {
-class __InteractionObject__InteractionEvent;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__Multiplier;
-}
-namespace RootMotion::FinalIK {
-class InteractionSystem;
-}
-namespace RootMotion::FinalIK {
-struct FullBodyBipedEffector;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__WeightCurve;
-}
-namespace RootMotion::FinalIK {
-class __InteractionObject__AnimatorEvent;
-}
-namespace RootMotion::FinalIK {
 class InteractionTarget;
 }
 namespace RootMotion::FinalIK {
 class __InteractionObject__Message;
 }
+namespace RootMotion::FinalIK {
+class __InteractionObject__AnimatorEvent;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__WeightCurve;
+}
+namespace RootMotion::FinalIK {
+struct FullBodyBipedEffector;
+}
+namespace RootMotion::FinalIK {
+class IKSolverFullBodyBiped;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__InteractionEvent;
+}
+namespace RootMotion::FinalIK {
+class __InteractionObject__Multiplier;
+}
 namespace UnityEngine {
 class Transform;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBodyBiped;
+class InteractionSystem;
 }
 namespace UnityEngine {
 class Animation;
@@ -93,8 +93,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionObject__WeightCurve);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12525))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12597))
 // CS Name: ::InteractionObject::InteractionEvent*
 class CORDL_TYPE __InteractionObject__InteractionEvent : public ::System::Object {
 public:
@@ -155,12 +155,12 @@ public:
 
   constexpr void __set_unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method Activate addr 0x1214b30 size 0xc4 virtual false final false
+  /// @brief Method Activate, addr 0x1285e5c, size 0xc4, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Transform* t);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__InteractionEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x12163b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12876e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionObject__InteractionEvent", modifiers: "&&", def_value: None }]
@@ -217,8 +217,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__InteractionEv
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12526))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12598))
 // CS Name: ::InteractionObject::Message*
 class CORDL_TYPE __InteractionObject__Message : public ::System::Object {
 public:
@@ -241,12 +241,12 @@ public:
 
   constexpr void __set_recipient(::UnityEngine::GameObject* value);
 
-  /// @brief Method Send addr 0x12162c0 size 0xf8 virtual false final false
+  /// @brief Method Send, addr 0x12875ec, size 0xf8, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::Transform* t);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__Message* New_ctor();
 
-  /// @brief Method .ctor addr 0x12163c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12876ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionObject__Message", modifiers: "&&", def_value: None }]
@@ -286,8 +286,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__Message, ___r
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12527))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12599))
 // CS Name: ::InteractionObject::AnimatorEvent*
 class CORDL_TYPE __InteractionObject__AnimatorEvent : public ::System::Object {
 public:
@@ -346,18 +346,18 @@ public:
 
   constexpr void __set_resetNormalizedTime(bool value);
 
-  /// @brief Method Activate addr 0x12161e4 size 0xdc virtual false final false
+  /// @brief Method Activate, addr 0x1287510, size 0xdc, virtual false, abstract: false, final false
   inline void Activate(bool pickUp);
 
-  /// @brief Method Activate addr 0x12163c8 size 0xb0 virtual false final false
+  /// @brief Method Activate, addr 0x12876f4, size 0xb0, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Animator* animator);
 
-  /// @brief Method Activate addr 0x1216478 size 0xd8 virtual false final false
+  /// @brief Method Activate, addr 0x12877a4, size 0xd8, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Animation* animation);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__AnimatorEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x1216550 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x128787c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionObject__AnimatorEvent", modifiers: "&&", def_value: None }]
@@ -418,7 +418,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__AnimatorEvent
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12528))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12600))
 // CS Name: ::InteractionObject::WeightCurve::Type
 struct CORDL_TYPE __InteractionObject__WeightCurve__Type {
 public:
@@ -507,8 +507,8 @@ static_assert(offsetof(::GlobalNamespace::__InteractionObject__WeightCurve__Type
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12528))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12529))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12601))
 // CS Name: ::InteractionObject::WeightCurve*
 class CORDL_TYPE __InteractionObject__WeightCurve : public ::System::Object {
 public:
@@ -533,12 +533,12 @@ public:
 
   constexpr void __set_curve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method GetValue addr 0x1215af4 size 0x1c virtual false final false
+  /// @brief Method GetValue, addr 0x1286e20, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetValue(float_t timer);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__WeightCurve* New_ctor();
 
-  /// @brief Method .ctor addr 0x1216564 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1287890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionObject__WeightCurve", modifiers: "&&", def_value: None }]
@@ -575,8 +575,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__WeightCurve, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12528)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12530))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12602))
 // CS Name: ::InteractionObject::Multiplier*
 class CORDL_TYPE __InteractionObject__Multiplier : public ::System::Object {
 public:
@@ -608,12 +608,12 @@ public:
 
   constexpr void __set_result(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  /// @brief Method GetValue addr 0x12160fc size 0x30 virtual false final false
+  /// @brief Method GetValue, addr 0x1287428, size 0x30, virtual false, abstract: false, final false
   inline float_t GetValue(::RootMotion::FinalIK::__InteractionObject__WeightCurve* weightCurve, float_t timer);
 
   static inline ::RootMotion::FinalIK::__InteractionObject__Multiplier* New_ctor();
 
-  /// @brief Method .ctor addr 0x121656c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x1287898, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionObject__Multiplier", modifiers: "&&", def_value: None }]
@@ -655,8 +655,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__Multiplier, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12531))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12603))
 // CS Name: ::RootMotion.FinalIK::InteractionObject*
 class CORDL_TYPE InteractionObject : public ::UnityEngine::MonoBehaviour {
 public:
@@ -764,92 +764,92 @@ public:
 
   constexpr void __set_targets(::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> value);
 
-  /// @brief Method OpenUserManual addr 0x121543c size 0x44 virtual false final false
+  /// @brief Method OpenUserManual, addr 0x1286768, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x1215480 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference, addr 0x12867ac, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial1 addr 0x12154c4 size 0x44 virtual false final false
+  /// @brief Method OpenTutorial1, addr 0x12867f0, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial1();
 
-  /// @brief Method OpenTutorial2 addr 0x1215508 size 0x44 virtual false final false
+  /// @brief Method OpenTutorial2, addr 0x1286834, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial2();
 
-  /// @brief Method OpenTutorial3 addr 0x121554c size 0x44 virtual false final false
+  /// @brief Method OpenTutorial3, addr 0x1286878, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial3();
 
-  /// @brief Method OpenTutorial4 addr 0x1215590 size 0x44 virtual false final false
+  /// @brief Method OpenTutorial4, addr 0x12868bc, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method SupportGroup addr 0x12155d4 size 0x44 virtual false final false
+  /// @brief Method SupportGroup, addr 0x1286900, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x1215618 size 0x44 virtual false final false
+  /// @brief Method ASThread, addr 0x1286944, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method get_length addr 0x121565c size 0x8 virtual false final false
+  /// @brief Method get_length, addr 0x1286988, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
-  /// @brief Method set_length addr 0x1215664 size 0x8 virtual false final false
+  /// @brief Method set_length, addr 0x1286990, size 0x8, virtual false, abstract: false, final false
   inline void set_length(float_t value);
 
-  /// @brief Method get_lastUsedInteractionSystem addr 0x121566c size 0x8 virtual false final false
+  /// @brief Method get_lastUsedInteractionSystem, addr 0x1286998, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::InteractionSystem* get_lastUsedInteractionSystem();
 
-  /// @brief Method set_lastUsedInteractionSystem addr 0x1215674 size 0x8 virtual false final false
+  /// @brief Method set_lastUsedInteractionSystem, addr 0x12869a0, size 0x8, virtual false, abstract: false, final false
   inline void set_lastUsedInteractionSystem(::RootMotion::FinalIK::InteractionSystem* value);
 
-  /// @brief Method Initiate addr 0x121567c size 0x1b0 virtual false final false
+  /// @brief Method Initiate, addr 0x12869a8, size 0x1b0, virtual false, abstract: false, final false
   inline void Initiate();
 
-  /// @brief Method get_lookAtTarget addr 0x121582c size 0x80 virtual false final false
+  /// @brief Method get_lookAtTarget, addr 0x1286b58, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_lookAtTarget();
 
-  /// @brief Method GetTarget addr 0x12158ac size 0x178 virtual false final false
+  /// @brief Method GetTarget, addr 0x1286bd8, size 0x178, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::InteractionTarget* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  /// @brief Method CurveUsed addr 0x12133f4 size 0x94 virtual false final false
+  /// @brief Method CurveUsed, addr 0x1284720, size 0x94, virtual false, abstract: false, final false
   inline bool CurveUsed(::GlobalNamespace::__InteractionObject__WeightCurve__Type type);
 
-  /// @brief Method GetTargets addr 0x1215a24 size 0x8 virtual false final false
+  /// @brief Method GetTargets, addr 0x1286d50, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> GetTargets();
 
-  /// @brief Method GetTarget addr 0x12132b0 size 0x13c virtual false final false
+  /// @brief Method GetTarget, addr 0x12845dc, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::StringW tag);
 
-  /// @brief Method OnStartInteraction addr 0x12133ec size 0x8 virtual false final false
+  /// @brief Method OnStartInteraction, addr 0x1284718, size 0x8, virtual false, abstract: false, final false
   inline void OnStartInteraction(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
-  /// @brief Method Apply addr 0x1213f6c size 0x408 virtual false final false
+  /// @brief Method Apply, addr 0x1285298, size 0x408, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::RootMotion::FinalIK::FullBodyBipedEffector effector, ::RootMotion::FinalIK::InteractionTarget* target, float_t timer,
                     float_t weight);
 
-  /// @brief Method GetValue addr 0x12147ac size 0x20c virtual false final false
+  /// @brief Method GetValue, addr 0x1285ad8, size 0x20c, virtual false, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType, ::RootMotion::FinalIK::InteractionTarget* target, float_t timer);
 
-  /// @brief Method get_targetsRoot addr 0x1214bf4 size 0x80 virtual false final false
+  /// @brief Method get_targetsRoot, addr 0x1285f20, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_targetsRoot();
 
-  /// @brief Method Start addr 0x121612c size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x1287458, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Apply addr 0x1215b10 size 0x590 virtual false final false
+  /// @brief Method Apply, addr 0x1286e3c, size 0x590, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, ::RootMotion::FinalIK::FullBodyBipedEffector effector, ::GlobalNamespace::__InteractionObject__WeightCurve__Type type,
                     float_t value, float_t weight);
 
-  /// @brief Method GetTarget addr 0x1215a2c size 0x64 virtual false final false
+  /// @brief Method GetTarget, addr 0x1286d58, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
-  /// @brief Method GetWeightCurveIndex addr 0x12160a0 size 0x5c virtual false final false
+  /// @brief Method GetWeightCurveIndex, addr 0x12873cc, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetWeightCurveIndex(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType);
 
-  /// @brief Method GetMultiplierIndex addr 0x1216130 size 0x5c virtual false final false
+  /// @brief Method GetMultiplierIndex, addr 0x128745c, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetMultiplierIndex(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType);
 
   static inline ::RootMotion::FinalIK::InteractionObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x121618c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x12874b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionObject", modifiers: "&&", def_value: None }]

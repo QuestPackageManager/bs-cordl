@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::LazyThreadSafetyMode);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2661))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2663))
 // CS Name: ::System.Threading::LazyThreadSafetyMode
 struct CORDL_TYPE LazyThreadSafetyMode {
 public:

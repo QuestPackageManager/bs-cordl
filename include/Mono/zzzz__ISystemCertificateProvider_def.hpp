@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ISystemCertificateProvider)
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
-namespace Mono {
-struct CertificateImportFlags;
-}
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
+}
+namespace Mono {
+struct CertificateImportFlags;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
@@ -36,17 +36,21 @@ namespace Mono {
 class CORDL_TYPE ISystemCertificateProvider {
 public:
   // Declarations
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Mono::CertificateImportFlags importFlags);
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param importFlags: ::Mono::CertificateImportFlags (default: static_cast<int32_t>(0x0))
+  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data,
+                                                                                         ::Mono::CertificateImportFlags importFlags = static_cast<int32_t>(0x0));
 
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param importFlags: ::Mono::CertificateImportFlags (default: static_cast<int32_t>(0x0))
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                          ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags,
-                                                                                         ::Mono::CertificateImportFlags importFlags);
+                                                                                         ::Mono::CertificateImportFlags importFlags = static_cast<int32_t>(0x0));
 
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param importFlags: ::Mono::CertificateImportFlags (default: static_cast<int32_t>(0x0))
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
-                                                                                         ::Mono::CertificateImportFlags importFlags);
+                                                                                         ::Mono::CertificateImportFlags importFlags = static_cast<int32_t>(0x0));
 
   // Ctor Parameters [CppParam { name: "", ty: "ISystemCertificateProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

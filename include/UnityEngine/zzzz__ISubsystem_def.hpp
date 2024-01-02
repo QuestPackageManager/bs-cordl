@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::UnityEngine::ISubsystem);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15859))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15967))
 // CS Name: ::UnityEngine::ISubsystem*
 class CORDL_TYPE ISubsystem {
 public:
   // Declarations
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Start();
 
-  /// @brief Method Stop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
-  /// @brief Method Destroy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Destroy();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISubsystem", modifiers: "&&", def_value: None }]

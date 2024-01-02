@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaGroupBase);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11662))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11734))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11727))
 // CS Name: ::System.Xml.Schema::XmlSchemaGroupBase*
 class CORDL_TYPE XmlSchemaGroupBase : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
   __declspec(property(get = get_Items))::System::Xml::Schema::XmlSchemaObjectCollection* Items;
 
-  /// @brief Method get_Items addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
   static inline ::System::Xml::Schema::XmlSchemaGroupBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x274aae4 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x28c8b08, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaGroupBase", modifiers: "&&", def_value: None }]

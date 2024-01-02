@@ -4,13 +4,13 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IGameNoteMirrorable)
 namespace GlobalNamespace {
-struct __NoteData__GameplayType;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 class NoteMovement;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
 struct NoteVisualModifierType;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IGameNoteMirrorable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4867))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4746))
 // CS Name: ::IGameNoteMirrorable*
 class CORDL_TYPE IGameNoteMirrorable {
 public:
@@ -40,13 +40,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method get_noteMovement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteMovement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteMovement* get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteVisualModifierType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Method get_gameplayType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_gameplayType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
   // Ctor Parameters [CppParam { name: "", ty: "IGameNoteMirrorable", modifiers: "&&", def_value: None }]

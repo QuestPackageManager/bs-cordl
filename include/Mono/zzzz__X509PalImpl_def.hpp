@@ -8,22 +8,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509PalImpl)
 namespace System::Security::Cryptography::X509Certificates {
-struct X509KeyStorageFlags;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509CertificateImpl;
 }
 namespace System::Security::Cryptography::X509Certificates {
+struct X509KeyStorageFlags;
+}
+namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate2Impl;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509ContentType;
 }
 namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace Microsoft::Win32::SafeHandles {
 class SafePasswordHandle;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ContentType;
 }
 // Forward declare root types
 namespace Mono {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::Mono::X509PalImpl);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7591))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8754))
 // CS Name: ::Mono::X509PalImpl*
 class CORDL_TYPE X509PalImpl : public ::System::Object {
 public:
@@ -50,39 +50,39 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_signedData();
 
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method Import addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Import, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
 
-  /// @brief Method PEM addr 0x269bee0 size 0x134 virtual false final false
+  /// @brief Method PEM, addr 0x2816ef0, size 0x134, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PEM(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ConvertData addr 0x269c014 size 0x10c virtual false final false
+  /// @brief Method ConvertData, addr 0x2817024, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ImportFallback addr 0x269b6d8 size 0x1fc virtual false final false
+  /// @brief Method ImportFallback, addr 0x28166ec, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ImportFallback addr 0x269b968 size 0x7c virtual false final false
+  /// @brief Method ImportFallback, addr 0x281697c, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* ImportFallback(::ArrayW<uint8_t, ::Array<uint8_t>*> data,
                                                                                                   ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
                                                                                                   ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
 
-  /// @brief Method get_SupportsLegacyBasicConstraintsExtension addr 0x269c120 size 0x8 virtual false final false
+  /// @brief Method get_SupportsLegacyBasicConstraintsExtension, addr 0x2817130, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsLegacyBasicConstraintsExtension();
 
-  /// @brief Method GetCertContentType addr 0x269c128 size 0x40c virtual false final false
+  /// @brief Method GetCertContentType, addr 0x2817138, size 0x40c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ContentType GetCertContentType(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
 
   static inline ::Mono::X509PalImpl* New_ctor();
 
-  /// @brief Method .ctor addr 0x269bed8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2816ee8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509PalImpl", modifiers: "&&", def_value: None }]

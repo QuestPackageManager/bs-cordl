@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::LiteNetLib::IDeliveryEventListener);
 namespace LiteNetLib {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14472))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14134))
 // CS Name: ::LiteNetLib::IDeliveryEventListener*
 class CORDL_TYPE IDeliveryEventListener {
 public:
   // Declarations
-  /// @brief Method OnMessageDelivered addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnMessageDelivered, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnMessageDelivered(::LiteNetLib::NetPeer* peer, ::System::Object* userData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDeliveryEventListener", modifiers: "&&", def_value: None }]

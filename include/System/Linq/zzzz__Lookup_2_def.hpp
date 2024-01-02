@@ -6,44 +6,44 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Lookup_2)
-namespace System {
-class IDisposable;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System {
+class Object;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class __Lookup_2___GetEnumerator_d__12;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
 }
 namespace System::Linq {
 template <typename TKey, typename TElement> class __Lookup_2__Grouping;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 template <typename TKey, typename TElement> class __Lookup_2__Grouping___GetEnumerator_d__7;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
@@ -72,8 +72,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14283))
 // CS Name: ::Lookup`2::Grouping::<GetEnumerator>d__7<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping___GetEnumerator_d__7 : public ::System::Object {
 public:
@@ -129,22 +129,22 @@ public:
 
   static inline ::GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TElement System_Collections_Generic_IEnumerator_TElement__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Lookup_2__Grouping___GetEnumerator_d__7", modifiers: "&&", def_value: None }]
@@ -183,8 +183,8 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14622))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14284))
 // CS Name: ::Lookup`2::Grouping<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping : public ::System::Object {
 public:
@@ -268,57 +268,57 @@ public:
 
   constexpr void __set_next(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TElement element);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TKey get_Key();
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_ICollection_TElement__get_Count();
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_TElement__get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TElement__Add(TElement item);
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TElement__Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_TElement__Contains(TElement item);
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_TElement__CopyTo(::ArrayW<TElement, ::Array<TElement>*> array, int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.ICollection<TElement>.Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.ICollection<TElement>.Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_Generic_ICollection_TElement__Remove(TElement item);
 
-  /// @brief Method System.Collections.Generic.IList<TElement>.IndexOf addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IList<TElement>.IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IList_TElement__IndexOf(TElement item);
 
-  /// @brief Method System.Collections.Generic.IList<TElement>.Insert addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IList<TElement>.Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_TElement__Insert(int32_t index, TElement item);
 
-  /// @brief Method System.Collections.Generic.IList<TElement>.RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IList<TElement>.RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_TElement__RemoveAt(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<TElement>.get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IList<TElement>.get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TElement System_Collections_Generic_IList_TElement__get_Item(int32_t index);
 
-  /// @brief Method System.Collections.Generic.IList<TElement>.set_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IList<TElement>.set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_IList_TElement__set_Item(int32_t index, TElement value);
 
   static inline ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Lookup_2__Grouping", modifiers: "&&", def_value: None }]
@@ -363,8 +363,8 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14623))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14285))
 // CS Name: ::Lookup`2::<GetEnumerator>d__12<TKey,TElement>*
 class CORDL_TYPE __Lookup_2___GetEnumerator_d__12 : public ::System::Object {
 public:
@@ -421,22 +421,22 @@ public:
 
   static inline ::System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.IGrouping<TKey,TElement>>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Linq.IGrouping<TKey,TElement>>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Linq::IGrouping_2<TKey, TElement>* System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Lookup_2___GetEnumerator_d__12", modifiers: "&&", def_value: None }]
@@ -475,8 +475,8 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14624))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14286))
 // CS Name: ::System.Linq::Lookup`2<TKey,TElement>*
 class CORDL_TYPE Lookup_2 : public ::System::Object {
 public:
@@ -528,29 +528,29 @@ public:
 
   constexpr void __set_count(int32_t value);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
   static inline ::System::Linq::Lookup_2<TKey, TElement>* Create(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector,
                                                                  ::System::Func_2<TSource, TElement>* elementSelector, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   static inline ::System::Linq::Lookup_2<TKey, TElement>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method InternalGetHashCode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InternalGetHashCode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t InternalGetHashCode(TKey key);
 
-  /// @brief Method GetGrouping addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetGrouping, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Linq::__Lookup_2__Grouping<TKey, TElement>* GetGrouping(TKey key, bool create);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Resize();
 
   // Ctor Parameters [CppParam { name: "", ty: "Lookup_2", modifiers: "&&", def_value: None }]

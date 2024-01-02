@@ -26,12 +26,12 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(int32_t reasons);
 
-  /// @brief Method .ctor addr 0x1125400 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x1195648, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t reasons);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
-  /// @brief Method .ctor addr 0x111bd6c size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x118bfb4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* reasons);
 
   // Ctor Parameters [CppParam { name: "", ty: "ReasonFlags", modifiers: "&&", def_value: None }]

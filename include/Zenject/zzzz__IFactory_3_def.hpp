@@ -19,7 +19,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10985))
 // CS Name: ::Zenject::IFactory`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE IFactory_3 {
 public:
@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::Zenject::IFactory"
   constexpr operator ::Zenject::IFactory*() noexcept;
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Create(TParam1 param1, TParam2 param2);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFactory_3", modifiers: "&&", def_value: None }]

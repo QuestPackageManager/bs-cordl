@@ -1,8 +1,8 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSliceExtensions_def.hpp"
-#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 template <typename T> inline ::Unity::Collections::NativeSlice_1<T> Unity::Collections::NativeSliceExtensions::Slice(::Unity::Collections::NativeArray_1<T> thisArray, int32_t start, int32_t length) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeSliceExtensions*>::get(), "Slice",

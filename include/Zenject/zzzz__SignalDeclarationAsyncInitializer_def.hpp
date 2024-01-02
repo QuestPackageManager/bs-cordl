@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SignalDeclarationAsyncInitializer)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class InjectTypeInfo;
 }
 namespace Zenject {
 class IInitializable;
 }
 namespace Zenject {
-class SignalDeclaration;
+class TickableManager;
 }
 namespace Zenject {
-template <typename T> class LazyInject_1;
+class SignalDeclaration;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 class Object;
 }
 namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-class TickableManager;
+template <typename T> class LazyInject_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationAsyncInitializer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10596))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10668))
 // CS Name: ::Zenject::SignalDeclarationAsyncInitializer*
 class CORDL_TYPE SignalDeclarationAsyncInitializer : public ::System::Object {
 public:
@@ -66,16 +66,16 @@ public:
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
                                                                        ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
-  /// @brief Method .ctor addr 0x2d5e45c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2ec61dc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations, ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);
 
-  /// @brief Method Initialize addr 0x2d5e488 size 0x104 virtual true final true
+  /// @brief Method Initialize, addr 0x2ec6208, size 0x104, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method __zenCreate addr 0x2d5e58c size 0x11c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ec630c, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d5e6a8 size 0x304 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec6428, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignalDeclarationAsyncInitializer", modifiers: "&&", def_value: None }]

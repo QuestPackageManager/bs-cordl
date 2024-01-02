@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IExposedPropertyTable)
 namespace UnityEngine {
-class Object;
+struct PropertyName;
 }
 namespace UnityEngine {
-struct PropertyName;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::UnityEngine::IExposedPropertyTable);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10047))
 // CS Name: ::UnityEngine::IExposedPropertyTable*
 class CORDL_TYPE IExposedPropertyTable {
 public:
   // Declarations
-  /// @brief Method GetReferenceValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReferenceValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Object* GetReferenceValue(::UnityEngine::PropertyName id, ByRef<bool> idValid);
 
   // Ctor Parameters [CppParam { name: "", ty: "IExposedPropertyTable", modifiers: "&&", def_value: None }]

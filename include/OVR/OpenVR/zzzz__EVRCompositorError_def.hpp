@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRCompositorError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9391))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8622))
 // CS Name: ::OVR.OpenVR::EVRCompositorError
 struct CORDL_TYPE EVRCompositorError {
 public:

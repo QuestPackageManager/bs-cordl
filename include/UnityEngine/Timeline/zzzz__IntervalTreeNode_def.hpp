@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::IntervalTreeNode);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14150))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
 // CS Name: ::UnityEngine.Timeline::IntervalTreeNode
 struct CORDL_TYPE IntervalTreeNode {
 public:

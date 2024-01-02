@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Net::Security::AsyncOperationStatus);
 namespace Mono::Net::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8817))
 // CS Name: ::Mono.Net.Security::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {
 public:

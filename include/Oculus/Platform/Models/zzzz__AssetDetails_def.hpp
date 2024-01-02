@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetDetails);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13417))
 // CS Name: ::Oculus.Platform.Models::AssetDetails*
 class CORDL_TYPE AssetDetails : public ::System::Object {
 public:
@@ -99,7 +99,7 @@ public:
 
   static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b1294 size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0x2704588, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetDetails", modifiers: "&&", def_value: None }]

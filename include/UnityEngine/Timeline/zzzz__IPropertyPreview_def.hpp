@@ -3,11 +3,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPropertyPreview)
-namespace UnityEngine::Timeline {
-class IPropertyCollector;
-}
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace UnityEngine::Timeline {
+class IPropertyCollector;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::IPropertyPreview);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13934))
 // CS Name: ::UnityEngine.Timeline::IPropertyPreview*
 class CORDL_TYPE IPropertyPreview {
 public:
   // Declarations
-  /// @brief Method GatherProperties addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GatherProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPropertyPreview", modifiers: "&&", def_value: None }]

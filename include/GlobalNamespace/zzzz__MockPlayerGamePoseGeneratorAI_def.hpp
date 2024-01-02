@@ -10,47 +10,47 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGeneratorAI)
+namespace UnityEngine {
+struct Vector3;
+}
 namespace GlobalNamespace {
 class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-class MockNoteData;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
+class MockNoteData;
+}
+namespace GlobalNamespace {
+class MockObstacleData;
+}
+namespace GlobalNamespace {
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class IMockPlayerScoreCalculator;
 }
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Pose;
+namespace GlobalNamespace {
+class ObstacleSpawnInfoNetSerializable;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class MockObstacleData;
+struct NoteCutDirection;
+}
+namespace UnityEngine {
+struct Pose;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,11 +59,11 @@ class MockPlayerGamePoseGeneratorAI;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGeneratorAI);
 // Type: ::MockPlayerGamePoseGeneratorAI
-// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 271, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 279, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15499)), TypeDefinitionIndex(TypeDefinitionIndex(9985))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15500))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15515)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15516))
 // CS Name: ::MockPlayerGamePoseGeneratorAI*
 class CORDL_TYPE MockPlayerGamePoseGeneratorAI : public ::GlobalNamespace::MockPlayerGamePoseGenerator {
 public:
@@ -74,89 +74,91 @@ public:
   /// @brief Field _lastKnowScore, offset 0x40, size 0x4
   __declspec(property(get = __get__lastKnowScore, put = __set__lastKnowScore)) int32_t _lastKnowScore;
 
-  /// @brief Field _songStartTime, offset 0x44, size 0x4
-  __declspec(property(get = __get__songStartTime, put = __set__songStartTime)) float_t _songStartTime;
+  /// @brief Field _songStartTime, offset 0x48, size 0x8
+  __declspec(property(get = __get__songStartTime, put = __set__songStartTime)) int64_t _songStartTime;
 
-  /// @brief Field _timeScale, offset 0x48, size 0x4
+  /// @brief Field _timeScale, offset 0x50, size 0x4
   __declspec(property(get = __get__timeScale, put = __set__timeScale)) float_t _timeScale;
 
-  /// @brief Field _onSongFinished, offset 0x50, size 0x8
+  /// @brief Field _onSongFinished, offset 0x58, size 0x8
   __declspec(property(get = __get__onSongFinished, put = __set__onSongFinished))::System::Action* _onSongFinished;
 
-  /// @brief Field _gameplayModifiers, offset 0x58, size 0x8
+  /// @brief Field _gameplayModifiers, offset 0x60, size 0x8
   __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
-  /// @brief Field _lastEventTime, offset 0x60, size 0x4
+  /// @brief Field _lastEventTime, offset 0x68, size 0x4
   __declspec(property(get = __get__lastEventTime, put = __set__lastEventTime)) float_t _lastEventTime;
 
-  /// @brief Field _lastHeadPose, offset 0x64, size 0x1c
+  /// @brief Field _lastHeadPose, offset 0x6c, size 0x1c
   __declspec(property(get = __get__lastHeadPose, put = __set__lastHeadPose))::UnityEngine::Pose _lastHeadPose;
 
-  /// @brief Field _lastLeftHandPose, offset 0x80, size 0x1c
+  /// @brief Field _lastLeftHandPose, offset 0x88, size 0x1c
   __declspec(property(get = __get__lastLeftHandPose, put = __set__lastLeftHandPose))::UnityEngine::Pose _lastLeftHandPose;
 
-  /// @brief Field _lastRightHandPose, offset 0x9c, size 0x1c
+  /// @brief Field _lastRightHandPose, offset 0xa4, size 0x1c
   __declspec(property(get = __get__lastRightHandPose, put = __set__lastRightHandPose))::UnityEngine::Pose _lastRightHandPose;
 
-  /// @brief Field _lastSongTime, offset 0xb8, size 0x4
+  /// @brief Field _lastSongTime, offset 0xc0, size 0x4
   __declspec(property(get = __get__lastSongTime, put = __set__lastSongTime)) float_t _lastSongTime;
 
-  /// @brief Field _lineCount, offset 0xbc, size 0x4
+  /// @brief Field _lineCount, offset 0xc4, size 0x4
   __declspec(property(get = __get__lineCount, put = __set__lineCount)) int32_t _lineCount;
 
-  /// @brief Field _leftNotes, offset 0xc0, size 0x8
+  /// @brief Field _leftNotes, offset 0xc8, size 0x8
   __declspec(property(get = __get__leftNotes, put = __set__leftNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes;
 
-  /// @brief Field _rightNotes, offset 0xc8, size 0x8
+  /// @brief Field _rightNotes, offset 0xd0, size 0x8
   __declspec(property(get = __get__rightNotes, put = __set__rightNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes;
 
-  /// @brief Field _bombNotes, offset 0xd0, size 0x8
+  /// @brief Field _bombNotes, offset 0xd8, size 0x8
   __declspec(property(get = __get__bombNotes, put = __set__bombNotes))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes;
 
-  /// @brief Field _obstacles, offset 0xd8, size 0x8
+  /// @brief Field _obstacles, offset 0xe0, size 0x8
   __declspec(property(get = __get__obstacles, put = __set__obstacles))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles;
 
-  /// @brief Field _leftNoteIndex, offset 0xe0, size 0x4
+  /// @brief Field _leftNoteIndex, offset 0xe8, size 0x4
   __declspec(property(get = __get__leftNoteIndex, put = __set__leftNoteIndex)) int32_t _leftNoteIndex;
 
-  /// @brief Field _rightNoteIndex, offset 0xe4, size 0x4
+  /// @brief Field _rightNoteIndex, offset 0xec, size 0x4
   __declspec(property(get = __get__rightNoteIndex, put = __set__rightNoteIndex)) int32_t _rightNoteIndex;
 
-  /// @brief Field _bombNoteIndex, offset 0xe8, size 0x4
+  /// @brief Field _bombNoteIndex, offset 0xf0, size 0x4
   __declspec(property(get = __get__bombNoteIndex, put = __set__bombNoteIndex)) int32_t _bombNoteIndex;
 
-  /// @brief Field _obstacleIndex, offset 0xec, size 0x4
+  /// @brief Field _obstacleIndex, offset 0xf4, size 0x4
   __declspec(property(get = __get__obstacleIndex, put = __set__obstacleIndex)) int32_t _obstacleIndex;
 
-  /// @brief Field _prevLeftScore, offset 0xf0, size 0x4
+  /// @brief Field _prevLeftScore, offset 0xf8, size 0x4
   __declspec(property(get = __get__prevLeftScore, put = __set__prevLeftScore)) int32_t _prevLeftScore;
 
-  /// @brief Field _prevRightScore, offset 0xf4, size 0x4
+  /// @brief Field _prevRightScore, offset 0xfc, size 0x4
   __declspec(property(get = __get__prevRightScore, put = __set__prevRightScore)) int32_t _prevRightScore;
 
-  /// @brief Field _nextLeftHitScore, offset 0xf8, size 0x4
+  /// @brief Field _nextLeftHitScore, offset 0x100, size 0x4
   __declspec(property(get = __get__nextLeftHitScore, put = __set__nextLeftHitScore)) int32_t _nextLeftHitScore;
 
-  /// @brief Field _nextRightHitScore, offset 0xfc, size 0x4
+  /// @brief Field _nextRightHitScore, offset 0x104, size 0x4
   __declspec(property(get = __get__nextRightHitScore, put = __set__nextRightHitScore)) int32_t _nextRightHitScore;
 
-  /// @brief Field _score, offset 0x100, size 0x4
+  /// @brief Field _score, offset 0x108, size 0x4
   __declspec(property(get = __get__score, put = __set__score)) int32_t _score;
 
-  /// @brief Field _combo, offset 0x104, size 0x4
+  /// @brief Field _combo, offset 0x10c, size 0x4
   __declspec(property(get = __get__combo, put = __set__combo)) int32_t _combo;
 
-  /// @brief Field _multiplier, offset 0x108, size 0x4
+  /// @brief Field _multiplier, offset 0x110, size 0x4
   __declspec(property(get = __get__multiplier, put = __set__multiplier)) int32_t _multiplier;
 
-  /// @brief Field _fullCombo, offset 0x10c, size 0x1
+  /// @brief Field _fullCombo, offset 0x114, size 0x1
   __declspec(property(get = __get__fullCombo, put = __set__fullCombo)) bool _fullCombo;
 
-  /// @brief Field _hasFinishedLevel, offset 0x10d, size 0x1
+  /// @brief Field _hasFinishedLevel, offset 0x115, size 0x1
   __declspec(property(get = __get__hasFinishedLevel, put = __set__hasFinishedLevel)) bool _hasFinishedLevel;
 
-  /// @brief Field _isInited, offset 0x10e, size 0x1
+  /// @brief Field _isInited, offset 0x116, size 0x1
   __declspec(property(get = __get__isInited, put = __set__isInited)) bool _isInited;
+
+  __declspec(property(get = get_songTime)) float_t songTime;
 
   constexpr ::GlobalNamespace::IMockPlayerScoreCalculator*& __get__scoreCalculator();
 
@@ -170,11 +172,11 @@ public:
 
   constexpr void __set__lastKnowScore(int32_t value);
 
-  constexpr float_t& __get__songStartTime();
+  constexpr int64_t& __get__songStartTime();
 
-  constexpr float_t const& __get__songStartTime() const;
+  constexpr int64_t const& __get__songStartTime() const;
 
-  constexpr void __set__songStartTime(float_t value);
+  constexpr void __set__songStartTime(int64_t value);
 
   constexpr float_t& __get__timeScale();
 
@@ -338,56 +340,59 @@ public:
 
   constexpr void __set__isInited(bool value);
 
+  /// @brief Method get_songTime, addr 0x23e7720, size 0xc8, virtual false, abstract: false, final false
+  inline float_t get_songTime();
+
   static inline ::GlobalNamespace::MockPlayerGamePoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                            ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator,
                                                                            bool leftHanded);
 
-  /// @brief Method .ctor addr 0x228c148 size 0x278 virtual false final false
+  /// @brief Method .ctor, addr 0x23e77e8, size 0x278, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::IMockPlayerScoreCalculator* scoreCalculator, bool leftHanded);
 
-  /// @brief Method Dispose addr 0x228c3c0 size 0x268 virtual true final false
+  /// @brief Method Dispose, addr 0x23e7a60, size 0x268, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init addr 0x228c628 size 0x46c virtual true final false
-  inline void Init(float_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
+  /// @brief Method Init, addr 0x23e7cc8, size 0x3f8, virtual true, abstract: false, final false
+  inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
-  /// @brief Method Tick addr 0x228ca94 size 0x9c0 virtual true final false
+  /// @brief Method Tick, addr 0x23e80c0, size 0x998, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method GetCutDirection addr 0x228ed34 size 0x2a4 virtual false final false
+  /// @brief Method GetCutDirection, addr 0x23ea338, size 0x2a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetCutDirection(::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method GetNotePosition addr 0x228efd8 size 0x68 virtual false final false
+  /// @brief Method GetNotePosition, addr 0x23ea5dc, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetNotePosition(int32_t lineCount, ::GlobalNamespace::MockNoteData* noteData);
 
-  /// @brief Method Blerp addr 0x228f040 size 0xc4 virtual false final false
+  /// @brief Method Blerp, addr 0x23ea644, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Blerp(::UnityEngine::Vector3 prevStart, ::UnityEngine::Vector3 prevEnd, ::UnityEngine::Vector3 currStart, ::UnityEngine::Vector3 currEnd, float_t t);
 
-  /// @brief Method ProcessNotes addr 0x228d454 size 0xfe4 virtual false final false
+  /// @brief Method ProcessNotes, addr 0x23e8a58, size 0xfe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> notes, ::UnityEngine::Vector3 handDirection, ByRef<int32_t> noteIndex,
                                           ByRef<int32_t> prevHitScore, ByRef<int32_t> nextHitScore, ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> bombs,
                                           ByRef<int32_t> bombIndex, int32_t lineCount, float_t songTime, ByRef<bool> wasHitOrMiss);
 
-  /// @brief Method ProcessObstacles addr 0x228e438 size 0x2d4 virtual false final false
+  /// @brief Method ProcessObstacles, addr 0x23e9a3c, size 0x2d4, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose ProcessObstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> obstacles, ByRef<int32_t> obstacleIndex, int32_t lineCount,
                                               ::UnityEngine::Pose prevHeadPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose, float_t songTime);
 
-  /// @brief Method UpdateScore addr 0x228e70c size 0x628 virtual false final false
+  /// @brief Method UpdateScore, addr 0x23e9d10, size 0x628, virtual false, abstract: false, final false
   inline void UpdateScore(ByRef<int32_t> currentScore, ByRef<int32_t> currentCombo, ByRef<int32_t> currentMultiplier, int32_t hitScore, int32_t lineCount, ::UnityEngine::Pose lastPose,
                           ::UnityEngine::Pose currentPose, float_t lastSongTime, float_t songTime, ::GlobalNamespace::MockNoteData* noteData, ::GlobalNamespace::MockNoteData* nextNoteData);
 
-  /// @brief Method SimulateFail addr 0x228f328 size 0x1c0 virtual true final false
+  /// @brief Method SimulateFail, addr 0x23ea92c, size 0x1c0, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method HandleNoteWasSpawned addr 0x228f4e8 size 0x23c virtual false final false
-  inline void HandleNoteWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
+  /// @brief Method HandleNoteWasSpawned, addr 0x23eaaec, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleNoteWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method HandleObstacleWasSpawned addr 0x228f724 size 0x23c virtual false final false
-  inline void HandleObstacleWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
+  /// @brief Method HandleObstacleWasSpawned, addr 0x23eacc4, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleObstacleWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method HandleSliderWasSpawned addr 0x228f960 size 0x23c virtual false final false
-  inline void HandleSliderWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
+  /// @brief Method HandleSliderWasSpawned, addr 0x23eae9c, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleSliderWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorAI", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -409,154 +414,154 @@ public:
   /// @brief Field _lastKnowScore, offset: 0x40, size: 0x4, def value: None
   int32_t ____lastKnowScore;
 
-  /// @brief Field _songStartTime, offset: 0x44, size: 0x4, def value: None
-  float_t ____songStartTime;
+  /// @brief Field _songStartTime, offset: 0x48, size: 0x8, def value: None
+  int64_t ____songStartTime;
 
-  /// @brief Field _timeScale, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field _timeScale, offset: 0x50, size: 0x4, def value: None
   float_t ____timeScale;
 
-  /// @brief Field _onSongFinished, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _onSongFinished, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ____onSongFinished;
 
-  /// @brief Field _gameplayModifiers, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiers, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
-  /// @brief Field _lastEventTime, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field _lastEventTime, offset: 0x68, size: 0x4, def value: None
   float_t ____lastEventTime;
 
-  /// @brief Field _lastHeadPose, offset: 0x64, size: 0x1c, def value: None
+  /// @brief Field _lastHeadPose, offset: 0x6c, size: 0x1c, def value: None
   ::UnityEngine::Pose ____lastHeadPose;
 
-  /// @brief Field _lastLeftHandPose, offset: 0x80, size: 0x1c, def value: None
+  /// @brief Field _lastLeftHandPose, offset: 0x88, size: 0x1c, def value: None
   ::UnityEngine::Pose ____lastLeftHandPose;
 
-  /// @brief Field _lastRightHandPose, offset: 0x9c, size: 0x1c, def value: None
+  /// @brief Field _lastRightHandPose, offset: 0xa4, size: 0x1c, def value: None
   ::UnityEngine::Pose ____lastRightHandPose;
 
-  /// @brief Field _lastSongTime, offset: 0xb8, size: 0x4, def value: None
+  /// @brief Field _lastSongTime, offset: 0xc0, size: 0x4, def value: None
   float_t ____lastSongTime;
 
-  /// @brief Field _lineCount, offset: 0xbc, size: 0x4, def value: None
+  /// @brief Field _lineCount, offset: 0xc4, size: 0x4, def value: None
   int32_t ____lineCount;
 
-  /// @brief Field _leftNotes, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _leftNotes, offset: 0xc8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> ____leftNotes;
 
-  /// @brief Field _rightNotes, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _rightNotes, offset: 0xd0, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> ____rightNotes;
 
-  /// @brief Field _bombNotes, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _bombNotes, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> ____bombNotes;
 
-  /// @brief Field _obstacles, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _obstacles, offset: 0xe0, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> ____obstacles;
 
-  /// @brief Field _leftNoteIndex, offset: 0xe0, size: 0x4, def value: None
+  /// @brief Field _leftNoteIndex, offset: 0xe8, size: 0x4, def value: None
   int32_t ____leftNoteIndex;
 
-  /// @brief Field _rightNoteIndex, offset: 0xe4, size: 0x4, def value: None
+  /// @brief Field _rightNoteIndex, offset: 0xec, size: 0x4, def value: None
   int32_t ____rightNoteIndex;
 
-  /// @brief Field _bombNoteIndex, offset: 0xe8, size: 0x4, def value: None
+  /// @brief Field _bombNoteIndex, offset: 0xf0, size: 0x4, def value: None
   int32_t ____bombNoteIndex;
 
-  /// @brief Field _obstacleIndex, offset: 0xec, size: 0x4, def value: None
+  /// @brief Field _obstacleIndex, offset: 0xf4, size: 0x4, def value: None
   int32_t ____obstacleIndex;
 
-  /// @brief Field _prevLeftScore, offset: 0xf0, size: 0x4, def value: None
+  /// @brief Field _prevLeftScore, offset: 0xf8, size: 0x4, def value: None
   int32_t ____prevLeftScore;
 
-  /// @brief Field _prevRightScore, offset: 0xf4, size: 0x4, def value: None
+  /// @brief Field _prevRightScore, offset: 0xfc, size: 0x4, def value: None
   int32_t ____prevRightScore;
 
-  /// @brief Field _nextLeftHitScore, offset: 0xf8, size: 0x4, def value: None
+  /// @brief Field _nextLeftHitScore, offset: 0x100, size: 0x4, def value: None
   int32_t ____nextLeftHitScore;
 
-  /// @brief Field _nextRightHitScore, offset: 0xfc, size: 0x4, def value: None
+  /// @brief Field _nextRightHitScore, offset: 0x104, size: 0x4, def value: None
   int32_t ____nextRightHitScore;
 
-  /// @brief Field _score, offset: 0x100, size: 0x4, def value: None
+  /// @brief Field _score, offset: 0x108, size: 0x4, def value: None
   int32_t ____score;
 
-  /// @brief Field _combo, offset: 0x104, size: 0x4, def value: None
+  /// @brief Field _combo, offset: 0x10c, size: 0x4, def value: None
   int32_t ____combo;
 
-  /// @brief Field _multiplier, offset: 0x108, size: 0x4, def value: None
+  /// @brief Field _multiplier, offset: 0x110, size: 0x4, def value: None
   int32_t ____multiplier;
 
-  /// @brief Field _fullCombo, offset: 0x10c, size: 0x1, def value: None
+  /// @brief Field _fullCombo, offset: 0x114, size: 0x1, def value: None
   bool ____fullCombo;
 
-  /// @brief Field _hasFinishedLevel, offset: 0x10d, size: 0x1, def value: None
+  /// @brief Field _hasFinishedLevel, offset: 0x115, size: 0x1, def value: None
   bool ____hasFinishedLevel;
 
-  /// @brief Field _isInited, offset: 0x10e, size: 0x1, def value: None
+  /// @brief Field _isInited, offset: 0x116, size: 0x1, def value: None
   bool ____isInited;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerGamePoseGeneratorAI, 0x110>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerGamePoseGeneratorAI, 0x118>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____scoreCalculator) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastKnowScore) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____songStartTime) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____songStartTime) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____timeScale) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____timeScale) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____onSongFinished) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____onSongFinished) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____gameplayModifiers) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____gameplayModifiers) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastEventTime) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastEventTime) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastHeadPose) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastHeadPose) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastLeftHandPose) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastLeftHandPose) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastRightHandPose) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastRightHandPose) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastSongTime) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lastSongTime) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lineCount) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____lineCount) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____leftNotes) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____leftNotes) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____rightNotes) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____rightNotes) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____bombNotes) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____bombNotes) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____obstacles) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____obstacles) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____leftNoteIndex) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____leftNoteIndex) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____rightNoteIndex) == 0xe4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____rightNoteIndex) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____bombNoteIndex) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____bombNoteIndex) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____obstacleIndex) == 0xec, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____obstacleIndex) == 0xf4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____prevLeftScore) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____prevLeftScore) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____prevRightScore) == 0xf4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____prevRightScore) == 0xfc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____nextLeftHitScore) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____nextLeftHitScore) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____nextRightHitScore) == 0xfc, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____nextRightHitScore) == 0x104, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____score) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____score) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____combo) == 0x104, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____combo) == 0x10c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____multiplier) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____multiplier) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____fullCombo) == 0x10c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____fullCombo) == 0x114, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____hasFinishedLevel) == 0x10d, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____hasFinishedLevel) == 0x115, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____isInited) == 0x10e, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlayerGamePoseGeneratorAI, ____isInited) == 0x116, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlayerGamePoseGeneratorAI);

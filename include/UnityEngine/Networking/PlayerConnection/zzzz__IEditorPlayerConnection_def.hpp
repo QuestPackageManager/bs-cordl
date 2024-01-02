@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IEditorPlayerConnection)
-namespace UnityEngine::Networking::PlayerConnection {
-class MessageEventArgs;
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
 }
 namespace System {
 struct Guid;
 }
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
+namespace UnityEngine::Networking::PlayerConnection {
+class MessageEventArgs;
 }
 // Forward declare root types
 namespace UnityEngine::Networking::PlayerConnection {
@@ -25,21 +25,21 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnect
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10235))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10313))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::IEditorPlayerConnection*
 class CORDL_TYPE IEditorPlayerConnection {
 public:
   // Declarations
-  /// @brief Method Register addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Register(::System::Guid messageId, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* callback);
 
-  /// @brief Method RegisterConnection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterConnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method RegisterDisconnection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterDisconnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDisconnection(::UnityEngine::Events::UnityAction_1<int32_t>* callback);
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEditorPlayerConnection", modifiers: "&&", def_value: None }]

@@ -10,14 +10,14 @@ class DerInteger;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiFreeText;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -70,33 +70,33 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf8880 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xe6da54, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf4e60 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe6a030, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
 
-  /// @brief Method .ctor addr 0xdf8924 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe6daf8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PollRepContent* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter,
                                                                          ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
 
-  /// @brief Method .ctor addr 0xdf8954 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0xe6db28, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::DerInteger* checkAfter, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* reason);
 
-  /// @brief Method get_CertReqID addr 0xdf8990 size 0x8 virtual true final false
+  /// @brief Method get_CertReqID, addr 0xe6db64, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CheckAfter addr 0xdf8998 size 0x8 virtual true final false
+  /// @brief Method get_CheckAfter, addr 0xe6db6c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CheckAfter();
 
-  /// @brief Method get_Reason addr 0xdf89a0 size 0x8 virtual true final false
+  /// @brief Method get_Reason, addr 0xe6db74, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_Reason();
 
-  /// @brief Method ToAsn1Object addr 0xdf89a8 size 0x174 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe6db7c, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PollRepContent", modifiers: "&&", def_value: None }]

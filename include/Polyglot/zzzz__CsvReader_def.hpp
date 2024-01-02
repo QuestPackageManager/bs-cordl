@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CsvReader)
-namespace Polyglot {
-struct __CsvReader__ParsingMode;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace Polyglot {
+struct __CsvReader__ParsingMode;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Polyglot::CsvReader);
 namespace Polyglot {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15530))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15546))
 // CS Name: ::CsvReader::ParsingMode
 struct CORDL_TYPE __CsvReader__ParsingMode {
 public:
@@ -81,20 +81,20 @@ static_assert(offsetof(::Polyglot::__CsvReader__ParsingMode, value__) == 0x0, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15531))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15547))
 // CS Name: ::Polyglot::CsvReader*
 class CORDL_TYPE CsvReader : public ::System::Object {
 public:
   // Declarations
   using ParsingMode = ::Polyglot::__CsvReader__ParsingMode;
 
-  /// @brief Method Parse addr 0x2685e60 size 0x7e8 virtual false final false
+  /// @brief Method Parse, addr 0x2800a84, size 0x7e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
   static inline ::Polyglot::CsvReader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2686648 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x280126c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CsvReader", modifiers: "&&", def_value: None }]

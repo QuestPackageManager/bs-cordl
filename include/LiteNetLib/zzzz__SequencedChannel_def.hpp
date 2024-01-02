@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SequencedChannel)
 namespace LiteNetLib {
-class NetPeer;
+class NetPacket;
 }
 namespace LiteNetLib {
-class NetPacket;
+class NetPeer;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::LiteNetLib::SequencedChannel);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14465))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14127))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14186))
 // CS Name: ::LiteNetLib::SequencedChannel*
 class CORDL_TYPE SequencedChannel : public ::LiteNetLib::BaseChannel {
 public:
@@ -101,13 +101,13 @@ public:
 
   static inline ::LiteNetLib::SequencedChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method .ctor addr 0x20a1a10 size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2203864, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetPeer* peer, bool reliable, uint8_t id);
 
-  /// @brief Method SendNextPackets addr 0x20a5d94 size 0x308 virtual true final false
+  /// @brief Method SendNextPackets, addr 0x2207be8, size 0x308, virtual true, abstract: false, final false
   inline void SendNextPackets();
 
-  /// @brief Method ProcessPacket addr 0x20a609c size 0x1d0 virtual true final false
+  /// @brief Method ProcessPacket, addr 0x2207ef0, size 0x1d0, virtual true, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
 
   // Ctor Parameters [CppParam { name: "", ty: "SequencedChannel", modifiers: "&&", def_value: None }]

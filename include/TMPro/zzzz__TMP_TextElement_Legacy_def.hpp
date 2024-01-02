@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::TMPro::TMP_TextElement_Legacy);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12377))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12449))
 // CS Name: ::TMPro::TMP_TextElement_Legacy*
 class CORDL_TYPE TMP_TextElement_Legacy : public ::System::Object {
 public:
@@ -105,7 +105,7 @@ public:
 
   static inline ::TMPro::TMP_TextElement_Legacy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2abe1e8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c41f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TMP_TextElement_Legacy", modifiers: "&&", def_value: None }]

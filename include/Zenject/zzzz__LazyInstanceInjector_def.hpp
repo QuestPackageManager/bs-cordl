@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(LazyInstanceInjector)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+namespace Zenject {
+class DiContainer;
 }
 namespace System {
 class Object;
 }
-namespace Zenject {
-class DiContainer;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::Zenject::LazyInstanceInjector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11096))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11168))
 // CS Name: ::Zenject::LazyInstanceInjector*
 class CORDL_TYPE LazyInstanceInjector : public ::System::Object {
 public:
@@ -54,22 +54,22 @@ public:
 
   static inline ::Zenject::LazyInstanceInjector* New_ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor addr 0x2d9c388 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x2f04158, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Instances addr 0x2d9c418 size 0x8 virtual false final false
+  /// @brief Method get_Instances, addr 0x2f041e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Instances();
 
-  /// @brief Method AddInstance addr 0x2d9c420 size 0x58 virtual false final false
+  /// @brief Method AddInstance, addr 0x2f041f0, size 0x58, virtual false, abstract: false, final false
   inline void AddInstance(::System::Object* instance);
 
-  /// @brief Method AddInstances addr 0x2d9c478 size 0x58 virtual false final false
+  /// @brief Method AddInstances, addr 0x2f04248, size 0x58, virtual false, abstract: false, final false
   inline void AddInstances(::System::Collections::Generic::IEnumerable_1<::System::Object*>* instances);
 
-  /// @brief Method LazyInject addr 0x2d9c4d0 size 0x7c virtual false final false
+  /// @brief Method LazyInject, addr 0x2f042a0, size 0x7c, virtual false, abstract: false, final false
   inline void LazyInject(::System::Object* instance);
 
-  /// @brief Method LazyInjectAll addr 0x2d9c54c size 0x21c virtual false final false
+  /// @brief Method LazyInjectAll, addr 0x2f0431c, size 0x21c, virtual false, abstract: false, final false
   inline void LazyInjectAll();
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyInstanceInjector", modifiers: "&&", def_value: None }]

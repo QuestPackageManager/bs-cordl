@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IPoolablePacket);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12724))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12806))
 // CS Name: ::IPoolablePacket*
 class CORDL_TYPE IPoolablePacket {
 public:
   // Declarations
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolablePacket", modifiers: "&&", def_value: None }]

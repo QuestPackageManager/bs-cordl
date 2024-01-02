@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FastAction_2)
-namespace System {
-template <typename T1, typename T2> class Action_2;
+namespace System::Collections::Generic {
+template <typename T> class LinkedList_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace TMPro {
@@ -28,8 +28,8 @@ namespace TMPro {
 // cpp template
 template <typename A, typename B>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12299))
 // CS Name: ::TMPro::FastAction`2<A,B>*
 class CORDL_TYPE FastAction_2 : public ::System::Object {
 public:
@@ -55,18 +55,18 @@ public:
 
   constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_2<A, B>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_2<A, B>*>*>* value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_2<A, B>* rhs);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Remove(::System::Action_2<A, B>* rhs);
 
-  /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Call(A a, B b);
 
   static inline ::TMPro::FastAction_2<A, B>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FastAction_2", modifiers: "&&", def_value: None }]

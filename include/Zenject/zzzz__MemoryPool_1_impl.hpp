@@ -1,13 +1,13 @@
 #pragma once
 #include "Zenject/zzzz__MemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 /// @brief Convert operator to "::Zenject::IMemoryPool_1<TValue>"
 template <typename TValue> constexpr Zenject::MemoryPool_1<TValue>::operator ::Zenject::IMemoryPool_1<TValue>*() noexcept {
   return static_cast<::Zenject::IMemoryPool_1<TValue>*>(static_cast<void*>(this));
@@ -34,9 +34,8 @@ template <typename TValue> inline TValue Zenject::MemoryPool_1<TValue>::Spawn() 
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
 }
 template <typename TValue> inline void Zenject::MemoryPool_1<TValue>::Reinitialize(TValue item) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_1<TValue>*>::get(), "Reinitialize", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_1<TValue>*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
 template <typename TValue> inline TValue Zenject::MemoryPool_1<TValue>::Zenject_IFactory_TValue__Create() {

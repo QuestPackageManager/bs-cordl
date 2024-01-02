@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConfig);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15392))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15362))
 // CS Name: ::UnityEngine.Yoga::YogaConfig*
 class CORDL_TYPE YogaConfig : public ::System::Object {
 public:
@@ -59,27 +59,27 @@ public:
 
   static inline ::UnityEngine::Yoga::YogaConfig* New_ctor(void* ygConfig);
 
-  /// @brief Method .ctor addr 0x2d3ca68 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2ea4e18, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* ygConfig);
 
   static inline ::UnityEngine::Yoga::YogaConfig* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d3cb2c size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x2ea4edc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Finalize addr 0x2d3cb70 size 0x108 virtual true final false
+  /// @brief Method Finalize, addr 0x2ea4f20, size 0x108, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_Handle addr 0x2d3a6ac size 0x8 virtual false final false
+  /// @brief Method get_Handle, addr 0x2ea2a5c, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
 
-  /// @brief Method get_UseWebDefaults addr 0x2d3cc78 size 0x3c virtual false final false
+  /// @brief Method get_UseWebDefaults, addr 0x2ea5028, size 0x3c, virtual false, abstract: false, final false
   inline bool get_UseWebDefaults();
 
-  /// @brief Method set_UseWebDefaults addr 0x2d3ccb4 size 0x44 virtual false final false
+  /// @brief Method set_UseWebDefaults, addr 0x2ea5064, size 0x44, virtual false, abstract: false, final false
   inline void set_UseWebDefaults(bool value);
 
-  /// @brief Method set_PointScaleFactor addr 0x2d3ccf8 size 0x4c virtual false final false
+  /// @brief Method set_PointScaleFactor, addr 0x2ea50a8, size 0x4c, virtual false, abstract: false, final false
   inline void set_PointScaleFactor(float_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "YogaConfig", modifiers: "&&", def_value: None }]

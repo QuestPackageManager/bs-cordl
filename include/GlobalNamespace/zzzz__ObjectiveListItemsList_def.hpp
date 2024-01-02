@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectiveListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13791)), TypeDefinitionIndex(TypeDefinitionIndex(5896)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13791), inst:
-// 5103 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5897)) CS Name: ::ObjectiveListItemsList*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5219 }), TypeDefinitionIndex(TypeDefinitionIndex(13674)),
+// TypeDefinitionIndex(TypeDefinitionIndex(5800))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5801)) CS Name: ::ObjectiveListItemsList*
 class CORDL_TYPE ObjectiveListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::ObjectiveListItem*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::ObjectiveListItemsList* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a3804 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x22e795c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectiveListItemsList", modifiers: "&&", def_value: None }]

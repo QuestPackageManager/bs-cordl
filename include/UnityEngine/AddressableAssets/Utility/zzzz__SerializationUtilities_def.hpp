@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SerializationUtilities)
-namespace System {
-class Object;
+namespace UnityEngine::AddressableAssets::Utility {
+struct __SerializationUtilities__ObjectType;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::AddressableAssets::Utility {
-struct __SerializationUtilities__ObjectType;
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::AddressableAssets::Utility {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::SerializationUtilities
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14102))
 // CS Name: ::SerializationUtilities::ObjectType
 struct CORDL_TYPE __SerializationUtilities__ObjectType {
 public:
@@ -104,24 +104,24 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::__Serializatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14374))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14103))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::SerializationUtilities*
 class CORDL_TYPE SerializationUtilities : public ::System::Object {
 public:
   // Declarations
   using ObjectType = ::UnityEngine::AddressableAssets::Utility::__SerializationUtilities__ObjectType;
 
-  /// @brief Method ReadInt32FromByteArray addr 0x28ab814 size 0x74 virtual false final false
+  /// @brief Method ReadInt32FromByteArray, addr 0x2a2955c, size 0x74, virtual false, abstract: false, final false
   static inline int32_t ReadInt32FromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset);
 
-  /// @brief Method WriteInt32ToByteArray addr 0x28ab888 size 0x84 virtual false final false
+  /// @brief Method WriteInt32ToByteArray, addr 0x2a295d0, size 0x84, virtual false, abstract: false, final false
   static inline int32_t WriteInt32ToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t val, int32_t offset);
 
-  /// @brief Method ReadObjectFromByteArray addr 0x28ab90c size 0x5a0 virtual false final false
+  /// @brief Method ReadObjectFromByteArray, addr 0x2a29654, size 0x5a0, virtual false, abstract: false, final false
   static inline ::System::Object* ReadObjectFromByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData, int32_t dataIndex);
 
-  /// @brief Method WriteObjectToByteList addr 0x28abeac size 0xb60 virtual false final false
+  /// @brief Method WriteObjectToByteList, addr 0x2a29bf4, size 0xb60, virtual false, abstract: false, final false
   static inline int32_t WriteObjectToByteList(::System::Object* obj, ::System::Collections::Generic::List_1<uint8_t>* buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationUtilities", modifiers: "&&", def_value: None }]

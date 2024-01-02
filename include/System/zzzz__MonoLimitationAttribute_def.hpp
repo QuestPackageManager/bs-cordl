@@ -15,15 +15,15 @@ MARK_REF_PTR_T(::System::MonoLimitationAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2536))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2538))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2539))
 // CS Name: ::System::MonoLimitationAttribute*
 class CORDL_TYPE MonoLimitationAttribute : public ::System::MonoTODOAttribute {
 public:
   // Declarations
   static inline ::System::MonoLimitationAttribute* New_ctor(::StringW comment);
 
-  /// @brief Method .ctor addr 0x247bbcc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x25d7af4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoLimitationAttribute", modifiers: "&&", def_value: None }]

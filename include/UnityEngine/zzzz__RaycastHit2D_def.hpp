@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::RaycastHit2D);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15934))
 // CS Name: ::UnityEngine::RaycastHit2D
 struct CORDL_TYPE RaycastHit2D {
 public:
@@ -39,19 +39,19 @@ public:
 
   __declspec(property(get = get_collider))::UnityEngine::Collider2D* collider;
 
-  /// @brief Method get_point addr 0x2babf58 size 0x8 virtual false final false
+  /// @brief Method get_point, addr 0x2d13340, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_point();
 
-  /// @brief Method get_normal addr 0x2babf60 size 0x8 virtual false final false
+  /// @brief Method get_normal, addr 0x2d13348, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normal();
 
-  /// @brief Method get_distance addr 0x2babf68 size 0x8 virtual false final false
+  /// @brief Method get_distance, addr 0x2d13350, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_fraction addr 0x2babf70 size 0x8 virtual false final false
+  /// @brief Method get_fraction, addr 0x2d13358, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fraction();
 
-  /// @brief Method get_collider addr 0x2babf78 size 0xac virtual false final false
+  /// @brief Method get_collider, addr 0x2d13360, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::Collider2D* get_collider();
 
   // Ctor Parameters [CppParam { name: "m_Centroid", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Point", ty: "::UnityEngine::Vector2", modifiers: "", def_value:

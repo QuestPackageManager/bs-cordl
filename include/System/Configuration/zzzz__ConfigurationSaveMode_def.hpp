@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Configuration::ConfigurationSaveMode);
 namespace System::Configuration {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16259))
 // CS Name: ::System.Configuration::ConfigurationSaveMode
 struct CORDL_TYPE ConfigurationSaveMode {
 public:

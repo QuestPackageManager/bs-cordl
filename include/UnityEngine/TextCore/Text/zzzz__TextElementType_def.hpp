@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementType);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13584))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13705))
 // CS Name: ::UnityEngine.TextCore.Text::TextElementType
 struct CORDL_TYPE TextElementType {
 public:

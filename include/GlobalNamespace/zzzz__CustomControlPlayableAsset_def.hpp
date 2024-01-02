@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(CustomControlPlayableAsset)
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
 }
-namespace GlobalNamespace {
-class AvatarColorBehaviour;
-}
 namespace UnityEngine::Timeline {
 struct ClipCaps;
+}
+namespace GlobalNamespace {
+class AvatarColorBehaviour;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomControlPlayableAsset);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14145))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6063))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13874))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6008))
 // CS Name: ::CustomControlPlayableAsset*
 class CORDL_TYPE CustomControlPlayableAsset : public ::UnityEngine::Timeline::ControlPlayableAsset {
 public:
@@ -43,12 +43,12 @@ public:
 
   constexpr void __set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x21c3a34 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps, addr 0x2315858, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   static inline ::GlobalNamespace::CustomControlPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c3a3c size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2315860, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomControlPlayableAsset", modifiers: "&&", def_value: None }]

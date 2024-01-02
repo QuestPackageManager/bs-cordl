@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeStructs)
 namespace Mono {
-struct __RuntimeStructs__GPtrArray;
+struct __RuntimeStructs__MonoClass;
+}
+namespace Mono {
+struct __RuntimeStructs__GenericParamInfo;
 }
 namespace Mono {
 struct __RuntimeStructs__RemoteClass;
 }
 namespace Mono {
-struct __RuntimeStructs__MonoClass;
-}
-namespace Mono {
-struct __RuntimeStructs__GenericParamInfo;
+struct __RuntimeStructs__GPtrArray;
 }
 // Forward declare root types
 namespace Mono {
@@ -45,7 +45,7 @@ MARK_VAL_T(::Mono::__RuntimeStructs__RemoteClass);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2235))
 // CS Name: ::RuntimeStructs::RemoteClass
 struct CORDL_TYPE __RuntimeStructs__RemoteClass {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::__RuntimeStructs__MonoClas
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2237))
 // CS Name: ::RuntimeStructs::GenericParamInfo
 struct CORDL_TYPE __RuntimeStructs__GenericParamInfo {
@@ -217,7 +217,7 @@ static_assert(offsetof(::Mono::__RuntimeStructs__GPtrArray, len) == 0x8, "Offset
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2239))
 // CS Name: ::Mono::RuntimeStructs*
 class CORDL_TYPE RuntimeStructs : public ::System::Object {

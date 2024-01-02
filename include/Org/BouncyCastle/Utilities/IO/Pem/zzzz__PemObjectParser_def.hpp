@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
 class CORDL_TYPE PemObjectParser {
 public:
   // Declarations
-  /// @brief Method ParseObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ParseObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ParseObject(::Org::BouncyCastle::Utilities::IO::Pem::PemObject* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemObjectParser", modifiers: "&&", def_value: None }]

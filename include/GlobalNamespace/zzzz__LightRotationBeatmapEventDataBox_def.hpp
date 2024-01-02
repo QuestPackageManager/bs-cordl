@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightRotationBeatmapEventDataBox)
 namespace GlobalNamespace {
-struct __BeatmapEventDataBox__DistributionParamType;
-}
-namespace GlobalNamespace {
-class IndexFilter;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
 class IBeatToTimeConvertor;
 }
 namespace GlobalNamespace {
-class BeatmapEventData;
+class LightRotationBaseData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
-struct LightAxis;
+struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace GlobalNamespace {
-class LightRotationBaseData;
+class BeatmapEventData;
 }
 namespace GlobalNamespace {
 struct EaseType;
+}
+namespace GlobalNamespace {
+class IndexFilter;
+}
+namespace GlobalNamespace {
+struct LightAxis;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4327)), TypeDefinitionIndex(TypeDefinitionIndex(14948))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4342))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
 // CS Name: ::LightRotationBeatmapEventDataBox*
 class CORDL_TYPE LightRotationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
@@ -100,10 +100,10 @@ public:
 
   constexpr void __set__beatStep(float_t value);
 
-  /// @brief Method get_subtypeIdentifier addr 0x21f1654 size 0x8 virtual true final false
+  /// @brief Method get_subtypeIdentifier, addr 0x233cd90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();
 
-  /// @brief Method get_beatStep addr 0x21f165c size 0x8 virtual true final false
+  /// @brief Method get_beatStep, addr 0x233cd98, size 0x8, virtual true, abstract: false, final false
   inline float_t get_beatStep();
 
   static inline ::GlobalNamespace::LightRotationBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam,
@@ -113,13 +113,13 @@ public:
                                                                               bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                               ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method .ctor addr 0x21ebe30 size 0x22c virtual false final false
+  /// @brief Method .ctor, addr 0x233cda0, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
                     ::GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam,
                     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType, bool rotationDistributionShouldAffectFirstBaseEvent,
                     ::GlobalNamespace::EaseType rotationDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList);
 
-  /// @brief Method Unpack addr 0x21f1664 size 0x580 virtual true final false
+  /// @brief Method Unpack, addr 0x233cfd4, size 0x584, virtual true, abstract: false, final false
   inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
                      ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
 

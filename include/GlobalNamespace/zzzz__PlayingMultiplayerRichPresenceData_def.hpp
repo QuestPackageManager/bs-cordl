@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayingMultiplayerRichPresenceData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4790))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4669))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4670))
 // CS Name: ::PlayingMultiplayerRichPresenceData*
 class CORDL_TYPE PlayingMultiplayerRichPresenceData : public ::GlobalNamespace::InMultiplayerRichPresenceData {
 public:
   // Declarations
   static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool atMaxPartySize);
 
-  /// @brief Method .ctor addr 0x223efd0 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x23736d8, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, bool atMaxPartySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]

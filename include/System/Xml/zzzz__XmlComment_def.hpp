@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlComment)
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeType;
 }
 namespace System::Xml {
-struct XmlNodeType;
+class XmlNode;
 }
 namespace System::Xml {
 class XmlDocument;
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Xml::XmlComment);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11428))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11431))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11500))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11503))
 // CS Name: ::System.Xml::XmlComment*
 class CORDL_TYPE XmlComment : public ::System::Xml::XmlCharacterData {
 public:
@@ -38,19 +38,19 @@ public:
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method .ctor addr 0x2706fe8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2884008, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_Name addr 0x2707014 size 0x28 virtual true final false
+  /// @brief Method get_Name, addr 0x2884034, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_LocalName addr 0x270703c size 0x28 virtual true final false
+  /// @brief Method get_LocalName, addr 0x288405c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NodeType addr 0x2707064 size 0x8 virtual true final false
+  /// @brief Method get_NodeType, addr 0x2884084, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method CloneNode addr 0x270706c size 0x5c virtual true final false
+  /// @brief Method CloneNode, addr 0x288408c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlComment", modifiers: "&&", def_value: None }]

@@ -9,16 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnumTableViewDataSource_1)
 namespace HMUI {
-class TableCell;
-}
-namespace GlobalNamespace {
-class TextOnlyTableCell;
-}
-namespace HMUI {
 class TableView;
 }
 namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
 class __TableView__IDataSource;
+}
+namespace GlobalNamespace {
+class TextOnlyTableCell;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4684))
 // CS Name: ::EnumTableViewDataSource`1<T>*
 class CORDL_TYPE EnumTableViewDataSource_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -68,30 +68,30 @@ public:
 
   constexpr void __set__values(::ArrayW<T, ::Array<T>*> value);
 
-  /// @brief Method CellSize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CellSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method NumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CellForIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method GetIdForValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetIdForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t GetIdForValue(T value);
 
-  /// @brief Method GetLabelForId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetLabelForId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW GetLabelForId(int32_t id);
 
-  /// @brief Method GetValueForId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValueForId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueForId(int32_t id);
 
-  /// @brief Method GetLabelForValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetLabelForValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetLabelForValue(T value);
 
   static inline ::GlobalNamespace::EnumTableViewDataSource_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumTableViewDataSource_1", modifiers: "&&", def_value: None }]

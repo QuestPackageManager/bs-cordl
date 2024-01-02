@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAuthenticationTokenProvider)
 namespace GlobalNamespace {
-class XPlatformAccessTokenData;
+struct AuthenticationToken;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct __AuthenticationToken__Platform;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
-struct AuthenticationToken;
+class XPlatformAccessTokenData;
 }
-namespace GlobalNamespace {
-struct __AuthenticationToken__Platform;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace GlobalNamespace {
 struct PlatformEnvironment;
@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAuthenticationTokenProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12702))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12775))
 // CS Name: ::IAuthenticationTokenProvider*
 class CORDL_TYPE IAuthenticationTokenProvider {
 public:
@@ -44,22 +44,23 @@ public:
 
   __declspec(property(get = get_platform))::GlobalNamespace::__AuthenticationToken__Platform platform;
 
-  /// @brief Method GetAuthenticationToken addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAuthenticationToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GetAuthenticationToken();
 
-  /// @brief Method GetTokenPlatform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetTokenPlatform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__AuthenticationToken__Platform GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment);
 
-  /// @brief Method GetXPlatformAccessToken addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method GetXPlatformAccessToken, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param skipCache: bool (default: false)
+  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData*>* GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCache = false);
 
-  /// @brief Method get_hashedUserId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_hashedUserId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_hashedUserId();
 
-  /// @brief Method get_userName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_platform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_platform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::__AuthenticationToken__Platform get_platform();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationTokenProvider", modifiers: "&&", def_value: None }]

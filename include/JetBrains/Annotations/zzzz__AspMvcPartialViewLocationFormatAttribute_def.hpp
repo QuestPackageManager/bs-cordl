@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15714))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15764))
 // CS Name: ::JetBrains.Annotations::AspMvcPartialViewLocationFormatAttribute*
 class CORDL_TYPE AspMvcPartialViewLocationFormatAttribute : public ::System::Attribute {
 public:
@@ -34,13 +34,13 @@ public:
 
   static inline ::JetBrains::Annotations::AspMvcPartialViewLocationFormatAttribute* New_ctor(::StringW format);
 
-  /// @brief Method .ctor addr 0x2d52754 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2eba4d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format addr 0x2d5277c size 0x8 virtual false final false
+  /// @brief Method get_Format, addr 0x2eba4fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format addr 0x2d52784 size 0x8 virtual false final false
+  /// @brief Method set_Format, addr 0x2eba504, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "AspMvcPartialViewLocationFormatAttribute", modifiers: "&&", def_value: None }]

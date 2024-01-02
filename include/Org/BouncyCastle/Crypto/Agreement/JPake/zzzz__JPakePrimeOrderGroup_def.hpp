@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(715))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakePrimeOrderGroup*
 class CORDL_TYPE JPakePrimeOrderGroup : public ::System::Object {
@@ -59,22 +59,22 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor addr 0x11a41f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1215448, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
                                                                                               ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method .ctor addr 0x11a4200 size 0x330 virtual false final false
+  /// @brief Method .ctor, addr 0x1215450, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method get_P addr 0x11a4530 size 0x8 virtual true final false
+  /// @brief Method get_P, addr 0x1215780, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q addr 0x11a4538 size 0x8 virtual true final false
+  /// @brief Method get_Q, addr 0x1215788, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_G addr 0x11a4540 size 0x8 virtual true final false
+  /// @brief Method get_G, addr 0x1215790, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakePrimeOrderGroup", modifiers: "&&", def_value: None }]

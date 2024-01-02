@@ -32,7 +32,7 @@ namespace UnityEngine::Timeline {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14151))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
 // CS Name: ::IntervalTree`1::Entry<T>
 struct CORDL_TYPE __IntervalTree_1__Entry {
 public:
@@ -67,8 +67,8 @@ namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14152))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13881))
 // CS Name: ::UnityEngine.Timeline::IntervalTree`1<T>*
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
 public:
@@ -104,42 +104,42 @@ public:
 
   constexpr void __set__dirty_k__BackingField(bool value);
 
-  /// @brief Method get_dirty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_dirty();
 
-  /// @brief Method set_dirty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dirty(bool value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(T item);
 
-  /// @brief Method IntersectsWith addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntersectsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IntersectsWith(int64_t value, ::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method IntersectsWithRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IntersectsWithRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IntersectsWithRange(int64_t start, int64_t end, ::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method UpdateIntervals addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateIntervals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateIntervals();
 
-  /// @brief Method Query addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Query(::UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t value, ::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method QueryRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method QueryRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void QueryRange(::UnityEngine::Timeline::IntervalTreeNode intervalTreeNode, int64_t start, int64_t end, ::System::Collections::Generic::List_1<T>* results);
 
-  /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method Rebuild addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t Rebuild(int32_t start, int32_t end);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::Timeline::IntervalTree_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntervalTree_1", modifiers: "&&", def_value: None }]

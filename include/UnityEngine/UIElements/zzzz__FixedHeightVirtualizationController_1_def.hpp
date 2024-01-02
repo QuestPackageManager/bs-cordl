@@ -24,41 +24,41 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7456), inst: 5228 }), TypeDefinitionIndex(TypeDefinitionIndex(7456))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7453))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7370)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7370), inst: 5350 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7367))
 // CS Name: ::UnityEngine.UIElements::FixedHeightVirtualizationController`1<T>*
 class CORDL_TYPE FixedHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:
   // Declarations
   __declspec(property(get = get_resolvedItemHeight)) float_t resolvedItemHeight;
 
-  /// @brief Method get_resolvedItemHeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_resolvedItemHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_resolvedItemHeight();
 
-  /// @brief Method VisibleItemPredicate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VisibleItemPredicate(T i);
 
   static inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method GetIndexFromPosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetIndexFromPosition(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetItemHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t GetItemHeight(int32_t index);
 
-  /// @brief Method ScrollToItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ScrollToItem(int32_t index);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
 
-  /// @brief Method OnScroll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::Vector2 scrollOffset);
 
-  /// @brief Method GetOrMakeItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOrMakeItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline T GetOrMakeItem();
 
   // Ctor Parameters [CppParam { name: "", ty: "FixedHeightVirtualizationController_1", modifiers: "&&", def_value: None }]

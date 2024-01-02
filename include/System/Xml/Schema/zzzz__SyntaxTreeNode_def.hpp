@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SyntaxTreeNode)
 namespace System::Xml::Schema {
-class BitSet;
+class InteriorNode;
 }
 namespace System::Xml::Schema {
-class InteriorNode;
+class SymbolsDictionary;
 }
 namespace System::Xml::Schema {
 class Positions;
 }
 namespace System::Xml::Schema {
-class SymbolsDictionary;
+class BitSet;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::SyntaxTreeNode);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11527))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11599))
 // CS Name: ::System.Xml.Schema::SyntaxTreeNode*
 class CORDL_TYPE SyntaxTreeNode : public ::System::Object {
 public:
@@ -37,22 +37,22 @@ public:
 
   __declspec(property(get = get_IsRangeNode)) bool IsRangeNode;
 
-  /// @brief Method ExpandTree addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExpandTree, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
-  /// @brief Method ConstructPos addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ConstructPos, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method get_IsNullable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsNullable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsNullable();
 
-  /// @brief Method get_IsRangeNode addr 0x2730ba8 size 0x8 virtual true final false
+  /// @brief Method get_IsRangeNode, addr 0x28adbcc, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsRangeNode();
 
   static inline ::System::Xml::Schema::SyntaxTreeNode* New_ctor();
 
-  /// @brief Method .ctor addr 0x2730bb0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28adbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SyntaxTreeNode", modifiers: "&&", def_value: None }]

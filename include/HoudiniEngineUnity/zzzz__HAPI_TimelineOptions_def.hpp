@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TimelineOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9657))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9730))
 // CS Name: ::HoudiniEngineUnity::HAPI_TimelineOptions
 struct CORDL_TYPE HAPI_TimelineOptions {
 public:

@@ -7,41 +7,41 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
-}
-namespace Priority_Queue {
-template <typename TItem, typename TPriority> class IPriorityQueue_2;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T> class Comparison_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System {
-template <typename T> class Comparison_1;
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class __SimplePriorityQueue_2__SimpleNode;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 // Forward declare root types
 namespace Priority_Queue {
@@ -59,8 +59,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6167), inst: 2498 }), TypeDefinitionIndex(TypeDefinitionIndex(6167))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6170))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
 // CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
 class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
 public:
@@ -76,15 +76,15 @@ public:
 
   constexpr void __set__Data_k__BackingField(TItem value);
 
-  /// @brief Method get_Data addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TItem get_Data();
 
-  /// @brief Method set_Data addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Data(TItem value);
 
   static inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* New_ctor(TItem data);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TItem data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SimplePriorityQueue_2__SimpleNode", modifiers: "&&", def_value: None }]
@@ -114,8 +114,8 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6171))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6100))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {
 public:
@@ -172,100 +172,100 @@ public:
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer);
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor(::System::Comparison_1<TPriority>* priorityComparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Comparison_1<TPriority>* priorityComparer);
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer,
                                                                                     ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IComparer_1<TPriority>* priorityComparer, ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor(::System::Comparison_1<TPriority>* priorityComparer,
                                                                                     ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Comparison_1<TPriority>* priorityComparer, ::System::Collections::Generic::IEqualityComparer_1<TItem>* itemEquality);
 
-  /// @brief Method GetExistingNode addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetExistingNode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* GetExistingNode(TItem item);
 
-  /// @brief Method AddToNodeCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddToNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddToNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node);
 
-  /// @brief Method RemoveFromNodeCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveFromNodeCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveFromNodeCache(::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* node);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_First addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_First, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem get_First();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(TItem item);
 
-  /// @brief Method Dequeue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TItem Dequeue();
 
-  /// @brief Method EnqueueNoLockOrCache addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnqueueNoLockOrCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>* EnqueueNoLockOrCache(TItem item, TPriority priority);
 
-  /// @brief Method Enqueue addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Enqueue(TItem item, TPriority priority);
 
-  /// @brief Method EnqueueWithoutDuplicates addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnqueueWithoutDuplicates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool EnqueueWithoutDuplicates(TItem item, TPriority priority);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(TItem item);
 
-  /// @brief Method UpdatePriority addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UpdatePriority(TItem item, TPriority priority);
 
-  /// @brief Method GetPriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority GetPriority(TItem item);
 
-  /// @brief Method TryFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryFirst(ByRef<TItem> first);
 
-  /// @brief Method TryDequeue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryDequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryDequeue(ByRef<TItem> first);
 
-  /// @brief Method TryRemove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryRemove(TItem item);
 
-  /// @brief Method TryUpdatePriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryUpdatePriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryUpdatePriority(TItem item, TPriority priority);
 
-  /// @brief Method TryGetPriority addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetPriority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetPriority(TItem item, ByRef<TPriority> priority);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TItem>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method IsValidQueue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsValidQueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool IsValidQueue();
 
   // Ctor Parameters [CppParam { name: "", ty: "SimplePriorityQueue_2", modifiers: "&&", def_value: None }]

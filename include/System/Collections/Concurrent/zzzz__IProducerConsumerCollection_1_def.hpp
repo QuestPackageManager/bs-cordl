@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(IProducerConsumerCollection_1)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace System::Collections {
 class ICollection;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -27,7 +27,7 @@ namespace System::Collections::Concurrent {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3812))
 // CS Name: ::System.Collections.Concurrent::IProducerConsumerCollection`1<T>*
 class CORDL_TYPE IProducerConsumerCollection_1 {
 public:
@@ -41,13 +41,13 @@ public:
   /// @brief Convert operator to "::System::Collections::ICollection"
   constexpr operator ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Method TryAdd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryAdd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryAdd(T item);
 
-  /// @brief Method TryTake addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryTake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryTake(ByRef<T> item);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
   // Ctor Parameters [CppParam { name: "", ty: "IProducerConsumerCollection_1", modifiers: "&&", def_value: None }]

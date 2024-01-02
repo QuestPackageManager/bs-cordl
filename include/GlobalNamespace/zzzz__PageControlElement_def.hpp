@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PageControlElement)
-namespace UnityEngine {
-class RectTransform;
-}
 namespace HMUI {
 class ImageView;
+}
+namespace UnityEngine {
+class RectTransform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PageControlElement);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5899))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5803))
 // CS Name: ::PageControlElement*
 class CORDL_TYPE PageControlElement : public ::UnityEngine::MonoBehaviour {
 public:
@@ -65,15 +65,15 @@ public:
 
   constexpr void __set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method get_rectTransform addr 0x21a3e48 size 0x8 virtual false final false
+  /// @brief Method get_rectTransform, addr 0x22e7fa0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::RectTransform* get_rectTransform();
 
-  /// @brief Method SetSelected addr 0x21a3c1c size 0x64 virtual false final false
+  /// @brief Method SetSelected, addr 0x22e7d74, size 0x64, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
 
   static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a3e50 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x22e7fa8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PageControlElement", modifiers: "&&", def_value: None }]

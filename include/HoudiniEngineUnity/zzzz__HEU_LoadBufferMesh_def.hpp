@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferMesh);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9731))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9804))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9805))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferMesh*
 class CORDL_TYPE HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
@@ -95,7 +95,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x2055270 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21abc0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_LoadBufferMesh", modifiers: "&&", def_value: None }]

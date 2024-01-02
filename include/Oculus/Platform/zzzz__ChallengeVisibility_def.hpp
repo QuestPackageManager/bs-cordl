@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::ChallengeVisibility);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13246))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13244))
 // CS Name: ::Oculus.Platform::ChallengeVisibility
 struct CORDL_TYPE ChallengeVisibility {
 public:

@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__ConcreteBinderGeneric_1_def.hpp"
 CORDL_MODULE_EXPORT(ConcreteIdBinderGeneric_1)
 namespace Zenject {
-template <typename TContract> class ConcreteBinderGeneric_1;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace Zenject {
 class BindInfo;
@@ -31,18 +31,18 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10599)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10599), inst: 1045 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10671), inst: 1067 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10673))
 // CS Name: ::Zenject::ConcreteIdBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteIdBinderGeneric_1 : public ::Zenject::ConcreteBinderGeneric_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderGeneric_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method WithId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderGeneric_1<TContract>* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdBinderGeneric_1", modifiers: "&&", def_value: None }]

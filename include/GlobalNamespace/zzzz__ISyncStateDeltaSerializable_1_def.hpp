@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12970))
 // CS Name: ::ISyncStateDeltaSerializable`1<T>*
 class CORDL_TYPE ISyncStateDeltaSerializable_1 {
 public:
@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_delta, put = set_delta)) T delta;
 
-  /// @brief Method get_baseId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::SyncStateId get_baseId();
 
-  /// @brief Method set_baseId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_baseId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_baseId(::GlobalNamespace::SyncStateId value);
 
-  /// @brief Method get_timeOffsetMs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_timeOffsetMs();
 
-  /// @brief Method set_timeOffsetMs addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_timeOffsetMs, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_timeOffsetMs(int32_t value);
 
-  /// @brief Method get_delta addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_delta();
 
-  /// @brief Method set_delta addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_delta, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_delta(T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISyncStateDeltaSerializable_1", modifiers: "&&", def_value: None }]

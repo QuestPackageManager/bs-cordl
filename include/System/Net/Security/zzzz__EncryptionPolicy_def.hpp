@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Security::EncryptionPolicy);
 namespace System::Net::Security {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8203))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9366))
 // CS Name: ::System.Net.Security::EncryptionPolicy
 struct CORDL_TYPE EncryptionPolicy {
 public:

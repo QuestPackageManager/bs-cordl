@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::Android::AndroidAssetPackInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15067))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14921)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14920))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14922))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackInfo*
 class CORDL_TYPE AndroidAssetPackInfo : public ::System::Object {
 public:
@@ -88,7 +88,7 @@ public:
   static inline ::UnityEngine::Android::AndroidAssetPackInfo* New_ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded,
                                                                        float_t transferProgress, ::UnityEngine::Android::AndroidAssetPackError error);
 
-  /// @brief Method .ctor addr 0x2b27c3c size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x2c8cb64, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::DateFormatHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11723))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11795))
 // CS Name: ::Newtonsoft.Json::DateFormatHandling
 struct CORDL_TYPE DateFormatHandling {
 public:

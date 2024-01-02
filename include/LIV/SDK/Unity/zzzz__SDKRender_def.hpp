@@ -11,35 +11,29 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SDKRender)
-namespace UnityEngine {
-class Transform;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-class RenderTexture;
-}
-namespace UnityEngine {
-struct Vector3;
+namespace LIV::SDK::Unity {
+struct SDKOutputFrame;
 }
 namespace LIV::SDK::Unity {
 struct SDKResolution;
 }
+namespace UnityEngine {
+class RenderTexture;
+}
 namespace UnityEngine::Rendering {
-struct ColorWriteMask;
-}
-namespace LIV::SDK::Unity {
-struct SDKInputFrame;
-}
-namespace System {
-class IDisposable;
+class CommandBuffer;
 }
 namespace UnityEngine {
 class Material;
 }
+namespace UnityEngine::Rendering {
+struct ColorWriteMask;
+}
 namespace UnityEngine {
-class Mesh;
+struct Quaternion;
+}
+namespace LIV::SDK::Unity {
+struct TEXTURE_ID;
 }
 namespace UnityEngine {
 class Camera;
@@ -48,19 +42,25 @@ namespace LIV::SDK::Unity {
 class LIV;
 }
 namespace UnityEngine {
-struct Plane;
-}
-namespace LIV::SDK::Unity {
-struct TEXTURE_ID;
-}
-namespace UnityEngine::Rendering {
-class CommandBuffer;
-}
-namespace LIV::SDK::Unity {
-struct SDKOutputFrame;
+class Mesh;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Plane;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace LIV::SDK::Unity {
+struct SDKInputFrame;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -72,9 +72,9 @@ MARK_REF_PTR_T(::LIV::SDK::Unity::SDKRender);
 // SizeInfo { instance_size: 832, native_size: -1, calculated_instance_size: 832, calculated_native_size: 828, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15226)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10259)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15219)), TypeDefinitionIndex(TypeDefinitionIndex(15220)), TypeDefinitionIndex(TypeDefinitionIndex(15212))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(15201)) CS Name: ::LIV.SDK.Unity::SDKRender*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15115)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15108)), TypeDefinitionIndex(TypeDefinitionIndex(15122)), TypeDefinitionIndex(TypeDefinitionIndex(15116))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15097)) CS Name: ::LIV.SDK.Unity::SDKRender*
 class CORDL_TYPE SDKRender : public ::System::Object {
 public:
   // Declarations
@@ -362,153 +362,158 @@ public:
 
   constexpr void __set__requestedPoseFrameIndex(int32_t value);
 
-  /// @brief Method GetClipPlaneMaterial addr 0x20aec74 size 0x104 virtual false final false
+  /// @brief Method GetClipPlaneMaterial, addr 0x220fbac, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Material* GetClipPlaneMaterial(bool debugClipPlane, bool complexClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method GetGroundClipPlaneMaterial addr 0x20aed78 size 0x9c virtual false final false
+  /// @brief Method GetGroundClipPlaneMaterial, addr 0x220fcb0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Material* GetGroundClipPlaneMaterial(bool debugClipPlane, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
-  /// @brief Method get_useDeferredRendering addr 0x20aee14 size 0x4c virtual false final false
+  /// @brief Method get_useDeferredRendering, addr 0x220fd4c, size 0x4c, virtual false, abstract: false, final false
   inline bool get_useDeferredRendering();
 
-  /// @brief Method get_interlacedRendering addr 0x20aee60 size 0xc virtual false final false
+  /// @brief Method get_interlacedRendering, addr 0x220fd98, size 0xc, virtual false, abstract: false, final false
   inline bool get_interlacedRendering();
 
-  /// @brief Method get_canRenderBackground addr 0x20aee78 size 0x8c virtual false final false
+  /// @brief Method get_canRenderBackground, addr 0x220fdb0, size 0x8c, virtual false, abstract: false, final false
   inline bool get_canRenderBackground();
 
-  /// @brief Method get_canRenderForeground addr 0x20aef04 size 0xa0 virtual false final false
+  /// @brief Method get_canRenderForeground, addr 0x220fe3c, size 0xa0, virtual false, abstract: false, final false
   inline bool get_canRenderForeground();
 
-  /// @brief Method get_canRenderOptimized addr 0x20aefa4 size 0x78 virtual false final false
+  /// @brief Method get_canRenderOptimized, addr 0x220fedc, size 0x78, virtual false, abstract: false, final false
   inline bool get_canRenderOptimized();
 
   static inline ::LIV::SDK::Unity::SDKRender* New_ctor(::LIV::SDK::Unity::LIV* liv);
 
-  /// @brief Method .ctor addr 0x20ad40c size 0x17c virtual false final false
+  /// @brief Method .ctor, addr 0x220e344, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::LIV::SDK::Unity::LIV* liv);
 
-  /// @brief Method UpdateCameraSettings addr 0x20af7f8 size 0x84 virtual false final false
+  /// @brief Method UpdateCameraSettings, addr 0x2210730, size 0x84, virtual false, abstract: false, final false
   inline void UpdateCameraSettings();
 
-  /// @brief Method Render addr 0x20adad0 size 0xc4 virtual false final false
+  /// @brief Method Render, addr 0x220ea08, size 0xc4, virtual false, abstract: false, final false
   inline void Render();
 
-  /// @brief Method RenderBackground addr 0x20b0164 size 0x118 virtual false final false
+  /// @brief Method RenderBackground, addr 0x221109c, size 0x118, virtual false, abstract: false, final false
   inline void RenderBackground();
 
-  /// @brief Method RenderForeground addr 0x20b027c size 0x4c0 virtual false final false
+  /// @brief Method RenderForeground, addr 0x22111b4, size 0x4c0, virtual false, abstract: false, final false
   inline void RenderForeground();
 
-  /// @brief Method RenderOptimized addr 0x20b073c size 0x500 virtual false final false
+  /// @brief Method RenderOptimized, addr 0x2211674, size 0x500, virtual false, abstract: false, final false
   inline void RenderOptimized();
 
-  /// @brief Method CreateAssets addr 0x20af0ec size 0x70c virtual false final false
+  /// @brief Method CreateAssets, addr 0x2210024, size 0x70c, virtual false, abstract: false, final false
   inline void CreateAssets();
 
-  /// @brief Method DestroyAssets addr 0x20b1cb4 size 0x184 virtual false final false
+  /// @brief Method DestroyAssets, addr 0x2212bec, size 0x184, virtual false, abstract: false, final false
   inline void DestroyAssets();
 
-  /// @brief Method Dispose addr 0x20ad588 size 0x38 virtual true final true
+  /// @brief Method Dispose, addr 0x220e4c0, size 0x38, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method get_liv addr 0x20b1f30 size 0x8 virtual false final false
+  /// @brief Method get_liv, addr 0x2212e68, size 0x8, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::LIV* get_liv();
 
-  /// @brief Method get_outputFrame addr 0x20b1f38 size 0x10 virtual false final false
+  /// @brief Method get_outputFrame, addr 0x2212e70, size 0x10, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKOutputFrame get_outputFrame();
 
-  /// @brief Method get_inputFrame addr 0x20b1f48 size 0x10 virtual false final false
+  /// @brief Method get_inputFrame, addr 0x2212e80, size 0x10, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKInputFrame get_inputFrame();
 
-  /// @brief Method get_resolution addr 0x20b1f58 size 0x8 virtual false final false
+  /// @brief Method get_resolution, addr 0x2212e90, size 0x8, virtual false, abstract: false, final false
   inline ::LIV::SDK::Unity::SDKResolution get_resolution();
 
-  /// @brief Method get_cameraInstance addr 0x20b1f60 size 0x8 virtual false final false
+  /// @brief Method get_cameraInstance, addr 0x2212e98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Camera* get_cameraInstance();
 
-  /// @brief Method get_cameraReference addr 0x20b13e8 size 0x8c virtual false final false
+  /// @brief Method get_cameraReference, addr 0x2212320, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Camera* get_cameraReference();
 
-  /// @brief Method get_hmdCamera addr 0x20b1f68 size 0x1c virtual false final false
+  /// @brief Method get_hmdCamera, addr 0x2212ea0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Camera* get_hmdCamera();
 
-  /// @brief Method get_stage addr 0x20b1f84 size 0x18 virtual false final false
+  /// @brief Method get_stage, addr 0x2212ebc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_stage();
 
-  /// @brief Method get_stageTransform addr 0x20b1f9c size 0x1c virtual false final false
+  /// @brief Method get_stageTransform, addr 0x2212ed4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Transform* get_stageTransform();
 
-  /// @brief Method get_stageLocalToWorldMatrix addr 0x20b1fb8 size 0xf8 virtual false final false
+  /// @brief Method get_stageLocalToWorldMatrix, addr 0x2212ef0, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_stageLocalToWorldMatrix();
 
-  /// @brief Method get_localToWorldMatrix addr 0x20afa34 size 0xc4 virtual false final false
+  /// @brief Method get_localToWorldMatrix, addr 0x221096c, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_spectatorLayerMask addr 0x20afaf8 size 0x20 virtual false final false
+  /// @brief Method get_spectatorLayerMask, addr 0x2210a30, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_spectatorLayerMask();
 
-  /// @brief Method get_disableStandardAssets addr 0x20b1098 size 0x1c virtual false final false
+  /// @brief Method get_disableStandardAssets, addr 0x2211fd0, size 0x1c, virtual false, abstract: false, final false
   inline bool get_disableStandardAssets();
 
-  /// @brief Method get_canSetPose addr 0x20b20b0 size 0x20 virtual false final false
+  /// @brief Method get_canSetPose, addr 0x2212fe8, size 0x20, virtual false, abstract: false, final false
   inline bool get_canSetPose();
 
-  /// @brief Method SetPose addr 0x20b20d0 size 0x2f4 virtual false final false
-  inline bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView, bool useLocalSpace);
+  /// @brief Method SetPose, addr 0x2213008, size 0x2f4, virtual false, abstract: false, final false
+  /// @param verticalFieldOfView: float_t (default: 60.0)
+  /// @param useLocalSpace: bool (default: false)
+  inline bool SetPose(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t verticalFieldOfView = 60.0, bool useLocalSpace = false);
 
-  /// @brief Method SetGroundPlane addr 0x20b2574 size 0x194 virtual false final false
-  inline void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace);
+  /// @brief Method SetGroundPlane, addr 0x22134ac, size 0x194, virtual false, abstract: false, final false
+  /// @param useLocalSpace: bool (default: false)
+  inline void SetGroundPlane(float_t distance, ::UnityEngine::Vector3 normal, bool useLocalSpace = false);
 
-  /// @brief Method SetGroundPlane addr 0x20b2708 size 0x78 virtual false final false
-  inline void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace);
+  /// @brief Method SetGroundPlane, addr 0x2213640, size 0x78, virtual false, abstract: false, final false
+  /// @param useLocalSpace: bool (default: false)
+  inline void SetGroundPlane(::UnityEngine::Plane plane, bool useLocalSpace = false);
 
-  /// @brief Method SetGroundPlane addr 0x20b2780 size 0x1a0 virtual false final false
-  inline void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace);
+  /// @brief Method SetGroundPlane, addr 0x22136b8, size 0x1a0, virtual false, abstract: false, final false
+  /// @param useLocalSpace: bool (default: false)
+  inline void SetGroundPlane(::UnityEngine::Transform* transform, bool useLocalSpace = false);
 
-  /// @brief Method ReleaseBridgePoseControl addr 0x20b1e38 size 0x64 virtual false final false
+  /// @brief Method ReleaseBridgePoseControl, addr 0x2212d70, size 0x64, virtual false, abstract: false, final false
   inline void ReleaseBridgePoseControl();
 
-  /// @brief Method UpdateBridgeResolution addr 0x20afd64 size 0x58 virtual false final false
+  /// @brief Method UpdateBridgeResolution, addr 0x2210c9c, size 0x58, virtual false, abstract: false, final false
   inline void UpdateBridgeResolution();
 
-  /// @brief Method UpdateBridgeInputFrame addr 0x20af87c size 0x1b8 virtual false final false
+  /// @brief Method UpdateBridgeInputFrame, addr 0x22107b4, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateBridgeInputFrame();
 
-  /// @brief Method InvokePreRender addr 0x20b012c size 0x38 virtual false final false
+  /// @brief Method InvokePreRender, addr 0x2211064, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRender();
 
-  /// @brief Method IvokePostRender addr 0x20b0c3c size 0x38 virtual false final false
+  /// @brief Method IvokePostRender, addr 0x2211b74, size 0x38, virtual false, abstract: false, final false
   inline void IvokePostRender();
 
-  /// @brief Method InvokePreRenderBackground addr 0x20b0e84 size 0x38 virtual false final false
+  /// @brief Method InvokePreRenderBackground, addr 0x2211dbc, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRenderBackground();
 
-  /// @brief Method InvokePostRenderBackground addr 0x20b0fd8 size 0x38 virtual false final false
+  /// @brief Method InvokePostRenderBackground, addr 0x2211f10, size 0x38, virtual false, abstract: false, final false
   inline void InvokePostRenderBackground();
 
-  /// @brief Method InvokePreRenderForeground addr 0x20b12ac size 0x38 virtual false final false
+  /// @brief Method InvokePreRenderForeground, addr 0x22121e4, size 0x38, virtual false, abstract: false, final false
   inline void InvokePreRenderForeground();
 
-  /// @brief Method InvokePostRenderForeground addr 0x20b12e4 size 0x38 virtual false final false
+  /// @brief Method InvokePostRenderForeground, addr 0x221221c, size 0x38, virtual false, abstract: false, final false
   inline void InvokePostRenderForeground();
 
-  /// @brief Method CreateBackgroundTexture addr 0x20b2944 size 0x94 virtual false final false
+  /// @brief Method CreateBackgroundTexture, addr 0x221387c, size 0x94, virtual false, abstract: false, final false
   inline void CreateBackgroundTexture();
 
-  /// @brief Method CreateForegroundTexture addr 0x20b2b48 size 0x94 virtual false final false
+  /// @brief Method CreateForegroundTexture, addr 0x2213a80, size 0x94, virtual false, abstract: false, final false
   inline void CreateForegroundTexture();
 
-  /// @brief Method CreateOptimizedTexture addr 0x20b2bdc size 0x94 virtual false final false
+  /// @brief Method CreateOptimizedTexture, addr 0x2213b14, size 0x94, virtual false, abstract: false, final false
   inline void CreateOptimizedTexture();
 
-  /// @brief Method CreateComplexClipPlaneTexture addr 0x20b2c70 size 0x94 virtual false final false
+  /// @brief Method CreateComplexClipPlaneTexture, addr 0x2213ba8, size 0x94, virtual false, abstract: false, final false
   inline void CreateComplexClipPlaneTexture();
 
-  /// @brief Method UpdateTextures addr 0x20afeac size 0x280 virtual false final false
+  /// @brief Method UpdateTextures, addr 0x2210de4, size 0x280, virtual false, abstract: false, final false
   inline void UpdateTextures();
 
-  /// @brief Method SendTextureToBridge addr 0x20b0ebc size 0x11c virtual false final false
+  /// @brief Method SendTextureToBridge, addr 0x2211df4, size 0x11c, virtual false, abstract: false, final false
   inline void SendTextureToBridge(::UnityEngine::RenderTexture* texture, ::LIV::SDK::Unity::TEXTURE_ID id);
 
   // Ctor Parameters [CppParam { name: "", ty: "SDKRender", modifiers: "&&", def_value: None }]

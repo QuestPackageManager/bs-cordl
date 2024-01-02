@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14341))
 // CS Name: ::BinaryHeap`1<T>*
 class CORDL_TYPE BinaryHeap_1 : public ::System::Object {
 public:
@@ -45,18 +45,18 @@ public:
 
   static inline ::GlobalNamespace::BinaryHeap_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BinaryHeap_1<T>* New_ctor(int32_t capacity);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Insert(T item);
 
-  /// @brief Method RemoveMin addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveMin, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool RemoveMin(ByRef<T> output);
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryHeap_1", modifiers: "&&", def_value: None }]

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlayerDataModelHelper)
 namespace GlobalNamespace {
-class PlayerAllOverallStatsData;
+class __PlayerSaveData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
+class __PlayerAllOverallStatsData__PlayerOverallStatsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveData__PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerSaveData__PlayerOverallStatsData;
+class PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
-class __PlayerAllOverallStatsData__PlayerOverallStatsData;
+class __PlayerSaveDataV1_0_1__PlayerAllOverallStatsData;
 }
 namespace GlobalNamespace {
 class __PlayerSaveDataV1_0_1__PlayerOverallStatsData;
@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerDataModelHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4631))
 // CS Name: ::PlayerDataModelHelper*
 class CORDL_TYPE PlayerDataModelHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToPlayerAllOverallStatsData addr 0x223b054 size 0xd8 virtual false final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x2371f14, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerAllOverallStatsData addr 0x223b774 size 0xf4 virtual false final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x23720e4, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStats addr 0x223bc54 size 0xf8 virtual false final false
+  /// @brief Method ToPlayerOverallStats, addr 0x2371fec, size 0xf8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStats addr 0x223bd4c size 0xf8 virtual false final false
+  /// @brief Method ToPlayerOverallStats, addr 0x23721d8, size 0xf8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*
   ToPlayerOverallStats(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerAllOverallStatsData addr 0x2238c64 size 0xcc virtual false final false
+  /// @brief Method ToPlayerAllOverallStatsData, addr 0x23722d0, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
 
-  /// @brief Method ToPlayerOverallStatsData addr 0x223bf04 size 0xec virtual false final false
+  /// @brief Method ToPlayerOverallStatsData, addr 0x237245c, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* playerOverallStatsData);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "&&", def_value: None }]

@@ -21,8 +21,8 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15927))
 // CS Name: ::UnityEngine.ProBuilder.KdTree.Math::TypeMath`1<T>*
 class CORDL_TYPE TypeMath_1 : public ::System::Object {
 public:
@@ -40,51 +40,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>"
   constexpr operator ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<T>*() noexcept;
 
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(T a, T b);
 
-  /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool AreEqual(T a, T b);
 
-  /// @brief Method AreEqual addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AreEqual, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AreEqual(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b);
 
-  /// @brief Method get_MinValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MinValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_MinValue();
 
-  /// @brief Method get_MaxValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MaxValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_MaxValue();
 
-  /// @brief Method Min addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Min(T a, T b);
 
-  /// @brief Method Max addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Max(T a, T b);
 
-  /// @brief Method get_Zero addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Zero, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_Zero();
 
-  /// @brief Method get_NegativeInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_NegativeInfinity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_NegativeInfinity();
 
-  /// @brief Method get_PositiveInfinity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_PositiveInfinity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_PositiveInfinity();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Add(T a, T b);
 
-  /// @brief Method Subtract addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Subtract, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Subtract(T a, T b);
 
-  /// @brief Method Multiply addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Multiply, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Multiply(T a, T b);
 
-  /// @brief Method DistanceSquaredBetweenPoints addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DistanceSquaredBetweenPoints, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T DistanceSquaredBetweenPoints(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b);
 
   static inline ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeMath_1", modifiers: "&&", def_value: None }]

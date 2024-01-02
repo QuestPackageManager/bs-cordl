@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ElementTryParser_1)
-namespace System {
-class Object;
-}
 namespace System::Net::Http::Headers {
 class Lexer;
 }
 namespace System::Net::Http::Headers {
 struct Token;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -27,18 +27,18 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14661))
 // CS Name: ::System.Net.Http.Headers::ElementTryParser`1<T>*
 class CORDL_TYPE ElementTryParser_1 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Net::Http::Headers::ElementTryParser_1<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::System::Net::Http::Headers::Lexer* lexer, ByRef<T> parsedValue, ByRef<::System::Net::Http::Headers::Token> token);
 
   // Ctor Parameters [CppParam { name: "", ty: "ElementTryParser_1", modifiers: "&&", def_value: None }]

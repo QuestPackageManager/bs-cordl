@@ -9,29 +9,29 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCompletionResults)
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndAction;
+}
 namespace System {
 class Object;
+}
+namespace GlobalNamespace {
+struct __RankModel__Rank;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace GlobalNamespace {
+struct __LevelCompletionResults__LevelEndStateType;
+}
+namespace System {
+class IComparable;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class INetImmutableSerializable_1;
-}
-namespace System {
-class IComparable;
-}
-namespace GlobalNamespace {
-struct __RankModel__Rank;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndStateType;
-}
-namespace GlobalNamespace {
-struct __LevelCompletionResults__LevelEndAction;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResults);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15164))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15017))
 // CS Name: ::LevelCompletionResults::LevelEndStateType
 struct CORDL_TYPE __LevelCompletionResults__LevelEndStateType {
 public:
@@ -109,7 +109,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndStat
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15165))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15018))
 // CS Name: ::LevelCompletionResults::LevelEndAction
 struct CORDL_TYPE __LevelCompletionResults__LevelEndAction {
 public:
@@ -162,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndActi
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(15165)), TypeDefinitionIndex(TypeDefinitionIndex(15164)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15166)) CS Name: ::LevelCompletionResults*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15018)), TypeDefinitionIndex(TypeDefinitionIndex(15017)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
 class CORDL_TYPE LevelCompletionResults : public ::System::Object {
 public:
   // Declarations
@@ -397,7 +397,7 @@ public:
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
 
-  /// @brief Method .ctor addr 0x1230ac8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12a2c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore,
@@ -409,7 +409,7 @@ public:
                                                                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                                                                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime);
 
-  /// @brief Method .ctor addr 0x1230ad0 size 0x12c virtual false final false
+  /// @brief Method .ctor, addr 0x12a2c84, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayModifiers* gameplayModifiers, int32_t modifiedScore, int32_t multipliedScore, ::GlobalNamespace::__RankModel__Rank rank, bool fullCombo,
                     float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, float_t leftHandMovementDistance, float_t rightHandMovementDistance,
                     ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType, ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction, float_t energy,
@@ -417,16 +417,16 @@ public:
                     int32_t goodCutsCountForNotesWithFullScoreScoringType, float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
                     float_t averageCutScoreForNotesWithFullScoreScoringType, int32_t maxCombo, float_t endSongTime);
 
-  /// @brief Method CompareTo addr 0x1230bfc size 0x124 virtual true final true
+  /// @brief Method CompareTo, addr 0x12a2db0, size 0x124, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method Serialize addr 0x1230d20 size 0x1d4 virtual true final true
+  /// @brief Method Serialize, addr 0x12a2ed4, size 0x1d4, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData addr 0x1230f04 size 0x8 virtual true final true
+  /// @brief Method LiteNetLib.Utils.INetImmutableSerializable<LevelCompletionResults>.CreateFromSerializedData, addr 0x12a30b8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::LevelCompletionResults* LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method CreateFromSerializedData addr 0x1230f0c size 0x340 virtual false final false
+  /// @brief Method CreateFromSerializedData, addr 0x12a30c0, size 0x340, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResults", modifiers: "&&", def_value: None }]

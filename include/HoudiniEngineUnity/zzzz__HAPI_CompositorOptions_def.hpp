@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_CompositorOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9684))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9757))
 // CS Name: ::HoudiniEngineUnity::HAPI_CompositorOptions
 struct CORDL_TYPE HAPI_CompositorOptions {
 public:

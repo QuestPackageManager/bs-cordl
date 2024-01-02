@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(NoteJumpStartScaleUp)
 namespace GlobalNamespace {
 class INoteControllerDidInitEvent;
 }
-namespace GlobalNamespace {
-class NoteJump;
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+class NoteJump;
 }
 namespace GlobalNamespace {
 class NoteController;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteJumpStartScaleUp);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4900))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4779))
 // CS Name: ::NoteJumpStartScaleUp*
 class CORDL_TYPE NoteJumpStartScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
@@ -75,24 +75,24 @@ public:
 
   constexpr void __set__noteJump(::GlobalNamespace::NoteJump* value);
 
-  /// @brief Method Awake addr 0x2256438 size 0xc4 virtual false final false
+  /// @brief Method Awake, addr 0x2389f44, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x2256654 size 0x188 virtual false final false
+  /// @brief Method OnDestroy, addr 0x238a164, size 0x18c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale addr 0x22564fc size 0x158 virtual false final false
+  /// @brief Method UpdateScale, addr 0x238a008, size 0x15c, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress addr 0x22567dc size 0x4 virtual false final false
+  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x238a2f0, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidUpdateProgress(float_t progress);
 
-  /// @brief Method HandleNoteControllerDidInit addr 0x22567e0 size 0xd0 virtual true final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x238a2f4, size 0xd8, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
   static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
 
-  /// @brief Method .ctor addr 0x22568b0 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x238a3cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "&&", def_value: None }]

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CompositeLogger)
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Exception;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CompositeLogger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5966))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5876))
 // CS Name: ::CompositeLogger*
 class CORDL_TYPE CompositeLogger : public ::System::Object {
 public:
@@ -45,41 +45,36 @@ public:
 
   constexpr void __set__loggers(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* value);
 
-  static inline ::GlobalNamespace::CompositeLogger* New_ctor();
-
-  /// @brief Method .ctor addr 0x21b0330 size 0x80 virtual false final false
-  inline void _ctor();
-
   static inline ::GlobalNamespace::CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
-  /// @brief Method .ctor addr 0x21b03b0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22f89fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
-  /// @brief Method AddLogger addr 0x21b03d8 size 0xa8 virtual false final false
+  /// @brief Method AddLogger, addr 0x22f8a24, size 0xa8, virtual false, abstract: false, final false
   inline void AddLogger(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method Log addr 0x21b0480 size 0x1b0 virtual true final true
+  /// @brief Method Log, addr 0x22f8acc, size 0x1b0, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log addr 0x21b0630 size 0x1c4 virtual true final true
+  /// @brief Method Log, addr 0x22f8c7c, size 0x1c4, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning addr 0x21b07f4 size 0x1b4 virtual true final true
+  /// @brief Method LogWarning, addr 0x22f8e40, size 0x1b4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning addr 0x21b09a8 size 0x1c4 virtual true final true
+  /// @brief Method LogWarning, addr 0x22f8ff4, size 0x1c4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError addr 0x21b0b6c size 0x1b4 virtual true final true
+  /// @brief Method LogError, addr 0x22f91b8, size 0x1b4, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError addr 0x21b0d20 size 0x1c4 virtual true final true
+  /// @brief Method LogError, addr 0x22f936c, size 0x1c4, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException addr 0x21b0ee4 size 0x1b4 virtual true final true
+  /// @brief Method LogException, addr 0x22f9530, size 0x1b4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException addr 0x21b1098 size 0x1c4 virtual true final true
+  /// @brief Method LogException, addr 0x22f96e4, size 0x1c4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "CompositeLogger", modifiers: "&&", def_value: None }]

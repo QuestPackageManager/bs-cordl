@@ -13,11 +13,11 @@ class IEnumerator;
 namespace GlobalNamespace {
 class GameScenesManager;
 }
-namespace TMPro {
-class TextMeshProUGUI;
-}
 namespace GlobalNamespace {
 class __FPSCounterUIController___Start_d__9;
+}
+namespace TMPro {
+class TextMeshProUGUI;
 }
 namespace GlobalNamespace {
 class FPSCounter;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FPSCounterUIController___Start_d__9);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5460))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5367))
 // CS Name: ::FPSCounterUIController::<Start>d__9*
 class CORDL_TYPE __FPSCounterUIController___Start_d__9 : public ::System::Object {
 public:
@@ -93,22 +93,22 @@ public:
 
   static inline ::GlobalNamespace::__FPSCounterUIController___Start_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x212855c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x226c7d8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21286d8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x226c954, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21286dc size 0x94 virtual true final true
+  /// @brief Method MoveNext, addr 0x226c958, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2128770 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226c9ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2128778 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226c9f4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21287b8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226ca34, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__FPSCounterUIController___Start_d__9", modifiers: "&&", def_value: None }]
@@ -150,8 +150,8 @@ static_assert(offsetof(::GlobalNamespace::__FPSCounterUIController___Start_d__9,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5461))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5368))
 // CS Name: ::FPSCounterUIController*
 class CORDL_TYPE FPSCounterUIController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -230,18 +230,18 @@ public:
 
   constexpr void __set__timeToUpdateUI(float_t value);
 
-  /// @brief Method Awake addr 0x2128494 size 0x60 virtual false final false
+  /// @brief Method Awake, addr 0x226c710, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x21284f4 size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x226c770, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method LateUpdate addr 0x2128584 size 0x144 virtual false final false
+  /// @brief Method LateUpdate, addr 0x226c800, size 0x144, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FPSCounterUIController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21286c8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x226c944, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FPSCounterUIController", modifiers: "&&", def_value: None }]

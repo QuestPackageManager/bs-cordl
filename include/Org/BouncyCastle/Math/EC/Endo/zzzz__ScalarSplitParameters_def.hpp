@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1525))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::ScalarSplitParameters*
 class CORDL_TYPE ScalarSplitParameters : public ::System::Object {
@@ -103,37 +103,37 @@ public:
 
   constexpr void __set_m_bits(int32_t value);
 
-  /// @brief Method CheckVector addr 0xfc389c size 0x88 virtual false final false
+  /// @brief Method CheckVector, addr 0x1035ae8, size 0x88, virtual false, abstract: false, final false
   static inline void CheckVector(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v, ::StringW name);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* New_ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
                                                                                      ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2,
                                                                                      ::Org::BouncyCastle::Math::BigInteger* g1, ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
 
-  /// @brief Method .ctor addr 0xfc3514 size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0x1035760, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> v2, ::Org::BouncyCastle::Math::BigInteger* g1,
                     ::Org::BouncyCastle::Math::BigInteger* g2, int32_t bits);
 
-  /// @brief Method get_V1A addr 0xfc3924 size 0x8 virtual true final false
+  /// @brief Method get_V1A, addr 0x1035b70, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V1A();
 
-  /// @brief Method get_V1B addr 0xfc392c size 0x8 virtual true final false
+  /// @brief Method get_V1B, addr 0x1035b78, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V1B();
 
-  /// @brief Method get_V2A addr 0xfc3934 size 0x8 virtual true final false
+  /// @brief Method get_V2A, addr 0x1035b80, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V2A();
 
-  /// @brief Method get_V2B addr 0xfc393c size 0x8 virtual true final false
+  /// @brief Method get_V2B, addr 0x1035b88, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_V2B();
 
-  /// @brief Method get_G1 addr 0xfc3944 size 0x8 virtual true final false
+  /// @brief Method get_G1, addr 0x1035b90, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G1();
 
-  /// @brief Method get_G2 addr 0xfc394c size 0x8 virtual true final false
+  /// @brief Method get_G2, addr 0x1035b98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G2();
 
-  /// @brief Method get_Bits addr 0xfc3954 size 0x8 virtual true final false
+  /// @brief Method get_Bits, addr 0x1035ba0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Bits();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScalarSplitParameters", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggableAttribute);
 namespace System::Diagnostics {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3720))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3732))
 // CS Name: ::DebuggableAttribute::DebuggingModes
 struct CORDL_TYPE __DebuggableAttribute__DebuggingModes {
 public:
@@ -86,8 +86,8 @@ static_assert(offsetof(::System::Diagnostics::__DebuggableAttribute__DebuggingMo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3720)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3721))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3732))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3733))
 // CS Name: ::System.Diagnostics::DebuggableAttribute*
 class CORDL_TYPE DebuggableAttribute : public ::System::Attribute {
 public:
@@ -105,7 +105,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggableAttribute* New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
-  /// @brief Method .ctor addr 0x241e7a8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2579c20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggableAttribute", modifiers: "&&", def_value: None }]

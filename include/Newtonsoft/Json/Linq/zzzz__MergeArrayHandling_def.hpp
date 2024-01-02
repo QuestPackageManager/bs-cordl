@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::MergeArrayHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11900))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11972))
 // CS Name: ::Newtonsoft.Json.Linq::MergeArrayHandling
 struct CORDL_TYPE MergeArrayHandling {
 public:

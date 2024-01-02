@@ -10,8 +10,20 @@ CORDL_MODULE_EXPORT(IntroTutorialController)
 namespace UnityEngine {
 class GameObject;
 }
+namespace System {
+class Action;
+}
 namespace GlobalNamespace {
 class IntroTutorialRing;
+}
+namespace GlobalNamespace {
+class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
+}
+namespace UnityEngine {
+class ParticleSystem;
+}
+namespace GlobalNamespace {
+class IGamePause;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -19,20 +31,8 @@ class IEnumerator;
 namespace GlobalNamespace {
 class BloomFogParamsAnimator;
 }
-namespace UnityEngine {
-class ParticleSystem;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class IGamePause;
-}
 namespace GlobalNamespace {
 class BloomFogEnvironmentParams;
-}
-namespace GlobalNamespace {
-class __IntroTutorialController___ShowFinishAnimationCoroutine_d__22;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -40,11 +40,11 @@ class CanvasGroup;
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__IntroTutorialController___ShowFinishAnimatio
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5430))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5335))
 // CS Name: ::IntroTutorialController::<ShowFinishAnimationCoroutine>d__22*
 class CORDL_TYPE __IntroTutorialController___ShowFinishAnimationCoroutine_d__22 : public ::System::Object {
 public:
@@ -126,22 +126,22 @@ public:
 
   static inline ::GlobalNamespace::__IntroTutorialController___ShowFinishAnimationCoroutine_d__22* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2125060 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x226919c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x2125118 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2269254, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x212511c size 0x134 virtual true final true
+  /// @brief Method MoveNext, addr 0x2269258, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x2125250 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226938c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x2125258 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2269394, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2125298 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22693d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IntroTutorialController___ShowFinishAnimationCoroutine_d__22", modifiers: "&&", def_value: None }]
@@ -193,8 +193,8 @@ static_assert(offsetof(::GlobalNamespace::__IntroTutorialController___ShowFinish
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 107, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5431))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5336))
 // CS Name: ::IntroTutorialController*
 class CORDL_TYPE IntroTutorialController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -318,42 +318,42 @@ public:
 
   constexpr void __set__blueRingWrapperActive(bool value);
 
-  /// @brief Method add_introTutorialDidFinishEvent addr 0x21249ac size 0x9c virtual false final false
+  /// @brief Method add_introTutorialDidFinishEvent, addr 0x2268ae8, size 0x9c, virtual false, abstract: false, final false
   inline void add_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_introTutorialDidFinishEvent addr 0x2124a48 size 0x9c virtual false final false
+  /// @brief Method remove_introTutorialDidFinishEvent, addr 0x2268b84, size 0x9c, virtual false, abstract: false, final false
   inline void remove_introTutorialDidFinishEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x2124ae4 size 0x194 virtual false final false
+  /// @brief Method Start, addr 0x2268c20, size 0x194, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2124c78 size 0x4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2268db4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x2124e20 size 0x90 virtual false final false
+  /// @brief Method Update, addr 0x2268f5c, size 0x90, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method CleanUp addr 0x2124c7c size 0x1a4 virtual false final false
+  /// @brief Method CleanUp, addr 0x2268db8, size 0x1a4, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method HandleGameDidPause addr 0x2124f50 size 0x70 virtual false final false
+  /// @brief Method HandleGameDidPause, addr 0x226908c, size 0x70, virtual false, abstract: false, final false
   inline void HandleGameDidPause();
 
-  /// @brief Method HandlegameDidResume addr 0x2124fc0 size 0x38 virtual false final false
+  /// @brief Method HandlegameDidResume, addr 0x22690fc, size 0x38, virtual false, abstract: false, final false
   inline void HandlegameDidResume();
 
-  /// @brief Method ShowFinishAnimation addr 0x2124ed4 size 0x7c virtual false final false
+  /// @brief Method ShowFinishAnimation, addr 0x2269010, size 0x7c, virtual false, abstract: false, final false
   inline void ShowFinishAnimation();
 
-  /// @brief Method ShowFinishAnimationCoroutine addr 0x2124ff8 size 0x68 virtual false final false
+  /// @brief Method ShowFinishAnimationCoroutine, addr 0x2269134, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowFinishAnimationCoroutine();
 
-  /// @brief Method SetFinishAnimationParams addr 0x2125088 size 0x6c virtual false final false
+  /// @brief Method SetFinishAnimationParams, addr 0x22691c4, size 0x6c, virtual false, abstract: false, final false
   inline void SetFinishAnimationParams(float_t progress);
 
   static inline ::GlobalNamespace::IntroTutorialController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2125110 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226924c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IntroTutorialController", modifiers: "&&", def_value: None }]

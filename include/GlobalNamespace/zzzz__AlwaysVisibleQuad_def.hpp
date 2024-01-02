@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AlwaysVisibleQuad);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15302))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15273))
 // CS Name: ::AlwaysVisibleQuad*
 class CORDL_TYPE AlwaysVisibleQuad : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method OnEnable addr 0x268b520 size 0x224 virtual false final false
+  /// @brief Method OnEnable, addr 0x28061a8, size 0x224, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x268b744 size 0xc virtual false final false
+  /// @brief Method OnDisable, addr 0x28063cc, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
   static inline ::GlobalNamespace::AlwaysVisibleQuad* New_ctor();
 
-  /// @brief Method .ctor addr 0x268b750 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28063d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AlwaysVisibleQuad", modifiers: "&&", def_value: None }]

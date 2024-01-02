@@ -11,10 +11,10 @@ namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
-template <typename T> class TryParseListDelegate_1;
+struct HttpHeaderKind;
 }
 namespace System::Net::Http::Headers {
-struct HttpHeaderKind;
+template <typename T> class TryParseListDelegate_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -28,8 +28,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14886), inst: 2557 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14669), inst: 2613 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14670))
 // CS Name: ::HeaderInfo::CollectionHeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__CollectionHeaderTypeInfo_2 : public ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U> {
 public:
@@ -66,14 +66,14 @@ public:
   static inline ::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*
   New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount, ::StringW separator);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::TryParseListDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind, int32_t minimalCount,
                     ::StringW separator);
 
-  /// @brief Method get_Separator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Separator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Separator();
 
-  /// @brief Method TryParse addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryParse(::StringW value, ByRef<::System::Object*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HeaderInfo__CollectionHeaderTypeInfo_2", modifiers: "&&", def_value: None }]

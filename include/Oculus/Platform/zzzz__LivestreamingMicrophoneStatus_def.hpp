@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::LivestreamingMicrophoneStatus);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13256))
 // CS Name: ::Oculus.Platform::LivestreamingMicrophoneStatus
 struct CORDL_TYPE LivestreamingMicrophoneStatus {
 public:

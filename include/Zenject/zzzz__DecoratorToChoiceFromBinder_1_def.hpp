@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DecoratorToChoiceFromBinder_1)
 namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
 class FactoryBindInfo;
 }
 namespace Zenject {
 template <typename TParam1, typename TContract> class FactoryFromBinder_2;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10775))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
 // CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:
@@ -63,10 +63,10 @@ public:
 
   static inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method With addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method With, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TContract, TConcrete>* With();
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoratorToChoiceFromBinder_1", modifiers: "&&", def_value: None }]

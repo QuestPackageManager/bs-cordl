@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IVisualElementScheduler)
 namespace System {
-class Action;
-}
-namespace System {
 template <typename T> class Action_1;
 }
-namespace UnityEngine::UIElements {
-struct TimerState;
+namespace System {
+class Action;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
+}
+namespace UnityEngine::UIElements {
+struct TimerState;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -26,15 +26,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementScheduler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6833))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6747))
 // CS Name: ::UnityEngine.UIElements::IVisualElementScheduler*
 class CORDL_TYPE IVisualElementScheduler {
 public:
   // Declarations
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Execute(::System::Action_1<::UnityEngine::UIElements::TimerState>* timerUpdateEvent);
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Execute(::System::Action* updateEvent);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVisualElementScheduler", modifiers: "&&", def_value: None }]

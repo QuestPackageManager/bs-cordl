@@ -11,9 +11,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockNoteData)
 namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
@@ -21,6 +18,9 @@ struct ColorType;
 }
 namespace GlobalNamespace {
 struct NoteLineLayer;
+}
+namespace GlobalNamespace {
+struct NoteCutDirection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockNoteData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(14968)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14965)), TypeDefinitionIndex(TypeDefinitionIndex(14970))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15495)) CS Name: ::MockNoteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14752)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15511)) CS Name: ::MockNoteData*
 class CORDL_TYPE MockNoteData : public ::System::Object {
 public:
   // Declarations
@@ -114,54 +114,54 @@ public:
 
   constexpr void __set__duration_k__BackingField(float_t value);
 
-  /// @brief Method get_time addr 0x228b780 size 0x8 virtual false final false
+  /// @brief Method get_time, addr 0x23e6d58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method set_time addr 0x228b788 size 0x8 virtual false final false
+  /// @brief Method set_time, addr 0x23e6d60, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method get_lineIndex addr 0x228b790 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex, addr 0x23e6d68, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method set_lineIndex addr 0x228b798 size 0x8 virtual false final false
+  /// @brief Method set_lineIndex, addr 0x23e6d70, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method get_gameplayType addr 0x228b7a0 size 0x8 virtual false final false
+  /// @brief Method get_gameplayType, addr 0x23e6d78, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method set_gameplayType addr 0x228b7a8 size 0x8 virtual false final false
+  /// @brief Method set_gameplayType, addr 0x23e6d80, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayType(::GlobalNamespace::__NoteData__GameplayType value);
 
-  /// @brief Method get_colorType addr 0x228b7b0 size 0x8 virtual false final false
+  /// @brief Method get_colorType, addr 0x23e6d88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorType get_colorType();
 
-  /// @brief Method set_colorType addr 0x228b7b8 size 0x8 virtual false final false
+  /// @brief Method set_colorType, addr 0x23e6d90, size 0x8, virtual false, abstract: false, final false
   inline void set_colorType(::GlobalNamespace::ColorType value);
 
-  /// @brief Method get_cutDirection addr 0x228b7c0 size 0x8 virtual false final false
+  /// @brief Method get_cutDirection, addr 0x23e6d98, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
-  /// @brief Method set_cutDirection addr 0x228b7c8 size 0x8 virtual false final false
+  /// @brief Method set_cutDirection, addr 0x23e6da0, size 0x8, virtual false, abstract: false, final false
   inline void set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  /// @brief Method get_noteLineLayer addr 0x228b7d0 size 0x8 virtual false final false
+  /// @brief Method get_noteLineLayer, addr 0x23e6da8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_noteLineLayer();
 
-  /// @brief Method set_noteLineLayer addr 0x228b7d8 size 0x8 virtual false final false
+  /// @brief Method set_noteLineLayer, addr 0x23e6db0, size 0x8, virtual false, abstract: false, final false
   inline void set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method get_duration addr 0x228b7e0 size 0x8 virtual false final false
+  /// @brief Method get_duration, addr 0x23e6db8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method set_duration addr 0x228b7e8 size 0x8 virtual false final false
+  /// @brief Method set_duration, addr 0x23e6dc0, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method Mirror addr 0x228b7f0 size 0x58 virtual true final false
+  /// @brief Method Mirror, addr 0x23e6dc8, size 0x58, virtual true, abstract: false, final false
   inline void Mirror(int32_t lineCount);
 
   static inline ::GlobalNamespace::MockNoteData* New_ctor();
 
-  /// @brief Method .ctor addr 0x228b848 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23e6e20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockNoteData", modifiers: "&&", def_value: None }]

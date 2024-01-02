@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CscaMasterList)
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509CertificateStructure;
+}
 namespace System {
 class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509CertificateStructure;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Icao {
@@ -58,31 +58,31 @@ public:
 
   constexpr void __set_certList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> value);
 
-  /// @brief Method GetInstance addr 0xefe090 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf742b4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xefe134 size 0x288 virtual false final false
+  /// @brief Method .ctor, addr 0xf74358, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
 
-  /// @brief Method .ctor addr 0xefe3bc size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0xf745e0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
 
-  /// @brief Method get_Version addr 0xefe4bc size 0x1c virtual true final false
+  /// @brief Method get_Version, addr 0xf746e0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method GetCertStructs addr 0xefe4d8 size 0x8 virtual false final false
+  /// @brief Method GetCertStructs, addr 0xf746fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertStructs();
 
-  /// @brief Method CopyCertList addr 0xefe444 size 0x78 virtual false final false
+  /// @brief Method CopyCertList, addr 0xf74668, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>
   CopyCertList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> orig);
 
-  /// @brief Method ToAsn1Object addr 0xefe4e0 size 0x11c virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf74704, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "CscaMasterList", modifiers: "&&", def_value: None }]

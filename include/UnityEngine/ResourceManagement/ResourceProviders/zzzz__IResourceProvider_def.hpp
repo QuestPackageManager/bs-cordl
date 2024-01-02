@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IResourceProvider)
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProviderBehaviourFlags;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class Type;
-}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProviderBehaviourFlags;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IResourcePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14274))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14003))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IResourceProvider*
 class CORDL_TYPE IResourceProvider {
 public:
@@ -39,22 +39,22 @@ public:
 
   __declspec(property(get = get_BehaviourFlags))::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags BehaviourFlags;
 
-  /// @brief Method get_ProviderId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ProviderId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method GetDefaultType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDefaultType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method CanProvide addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanProvide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanProvide(::System::Type* type, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Provide addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Provide, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method get_BehaviourFlags addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_BehaviourFlags, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags get_BehaviourFlags();
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceProvider", modifiers: "&&", def_value: None }]

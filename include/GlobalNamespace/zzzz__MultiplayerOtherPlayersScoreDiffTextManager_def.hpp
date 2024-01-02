@@ -7,34 +7,34 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerOtherPlayersScoreDiffTextManager)
 namespace GlobalNamespace {
-class MultiplayerScoreProvider;
-}
-namespace GlobalNamespace {
-class __CoreGameHUDController__InitData;
+struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class MultiplayerLayoutProvider;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
+class __CoreGameHUDController__InitData;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class MultiplayerScoreProvider;
 }
 namespace GlobalNamespace {
 class __MultiplayerOtherPlayersScoreDiffTextManager____c;
 }
 namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
 class MultiplayerController;
 }
 namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
+class MultiplayerPlayersManager;
 }
 namespace GlobalNamespace {
 class __MultiplayerScoreProvider__RankedPlayer;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,8 +50,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5324))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5230))
 // CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager::<>c*
 class CORDL_TYPE __MultiplayerOtherPlayersScoreDiffTextManager____c : public ::System::Object {
 public:
@@ -72,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21102ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2253dd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Update>b__10_0 addr 0x21102b4 size 0x18 virtual false final false
+  /// @brief Method <Update>b__10_0, addr 0x2253de0, size 0x14, virtual false, abstract: false, final false
   inline bool _Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerOtherPlayersScoreDiffTextManager____c", modifiers: "&&", def_value: None }]
@@ -102,8 +102,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerOt
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5325))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5231))
 // CS Name: ::MultiplayerOtherPlayersScoreDiffTextManager*
 class CORDL_TYPE MultiplayerOtherPlayersScoreDiffTextManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,27 +173,27 @@ public:
 
   constexpr void __set__timeToNextUpdate(float_t value);
 
-  /// @brief Method Start addr 0x210f324 size 0xb8 virtual false final false
+  /// @brief Method Start, addr 0x2252e2c, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x210f3dc size 0xd0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x2252ee4, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x210f4ac size 0x3e8 virtual false final false
+  /// @brief Method Update, addr 0x2252fb4, size 0x3d4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method InitLeftRightPositions addr 0x210fc54 size 0x4e8 virtual false final false
+  /// @brief Method InitLeftRightPositions, addr 0x2253748, size 0x4bc, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
-  /// @brief Method HideAll addr 0x210f894 size 0x3c0 virtual false final false
+  /// @brief Method HideAll, addr 0x2253388, size 0x3c0, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method HandleStateChanged addr 0x211013c size 0x104 virtual false final false
+  /// @brief Method HandleStateChanged, addr 0x2253c04, size 0x168, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2110240 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2253d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOtherPlayersScoreDiffTextManager", modifiers: "&&", def_value: None }]

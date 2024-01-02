@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapDataCallbackWrapper_1)
 namespace GlobalNamespace {
-template <typename T> class BeatmapDataCallback_1;
+class BeatmapDataItem;
 }
 namespace GlobalNamespace {
-class BeatmapDataItem;
+template <typename T> class BeatmapDataCallback_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4832))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4833))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4711))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4712))
 // CS Name: ::BeatmapDataCallbackWrapper`1<T>*
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
 public:
@@ -43,10 +43,10 @@ public:
   static inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,
                                                                              ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime, ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);
 
-  /// @brief Method CallCallback addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CallCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void CallCallback(::GlobalNamespace::BeatmapDataItem* beatmapData);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataCallbackWrapper_1", modifiers: "&&", def_value: None }]

@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncStreamReader)
 namespace System::Text {
-class Decoder;
+class Encoding;
 }
 namespace System {
 class Object;
+}
+namespace System::Text {
+class Decoder;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System::IO {
 class Stream;
 }
 namespace System::Threading {
 class ManualResetEvent;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::Text {
-class Encoding;
 }
 // Forward declare root types
 namespace System::Diagnostics {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Diagnostics::AsyncStreamReader);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7784))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
 // CS Name: ::System.Diagnostics::AsyncStreamReader*
 class CORDL_TYPE AsyncStreamReader : public ::System::Object {
 public:
@@ -121,13 +121,13 @@ public:
 
   constexpr void __set_asyncReadResult(::System::IAsyncResult* value);
 
-  /// @brief Method Close addr 0x27f0fd0 size 0x10 virtual true final false
+  /// @brief Method Close, addr 0x296e8cc, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x27f0fe0 size 0x370 virtual true final false
+  /// @brief Method Dispose, addr 0x296e8dc, size 0x370, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method CancelOperation addr 0x27f1350 size 0xc virtual false final false
+  /// @brief Method CancelOperation, addr 0x296ec4c, size 0xc, virtual false, abstract: false, final false
   inline void CancelOperation();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncStreamReader", modifiers: "&&", def_value: None }]

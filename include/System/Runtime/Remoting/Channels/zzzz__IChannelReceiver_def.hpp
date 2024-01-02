@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelReceiver);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3122))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3123))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannelReceiver*
 class CORDL_TYPE IChannelReceiver {
 public:
@@ -30,10 +30,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
 
-  /// @brief Method get_ChannelData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ChannelData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_ChannelData();
 
-  /// @brief Method StartListening addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StartListening, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StartListening(::System::Object* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannelReceiver", modifiers: "&&", def_value: None }]

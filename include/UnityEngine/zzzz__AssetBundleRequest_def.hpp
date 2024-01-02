@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::AssetBundleRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10189))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15958))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10262))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16104))
 // CS Name: ::UnityEngine::AssetBundleRequest*
 class CORDL_TYPE AssetBundleRequest : public ::UnityEngine::ResourceRequest {
 public:
@@ -28,18 +28,18 @@ public:
 
   __declspec(property(get = get_allAssets))::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets;
 
-  /// @brief Method GetResult addr 0x2b351b8 size 0x3c virtual true final false
+  /// @brief Method GetResult, addr 0x2c99e94, size 0x3c, virtual true, abstract: false, final false
   inline ::UnityEngine::Object* GetResult();
 
-  /// @brief Method get_asset addr 0x2b351f4 size 0xc virtual false final false
+  /// @brief Method get_asset, addr 0x2c99ed0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Object* get_asset();
 
-  /// @brief Method get_allAssets addr 0x2b35200 size 0x3c virtual false final false
+  /// @brief Method get_allAssets, addr 0x2c99edc, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> get_allAssets();
 
   static inline ::UnityEngine::AssetBundleRequest* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b3523c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c99f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest", modifiers: "&&", def_value: None }]

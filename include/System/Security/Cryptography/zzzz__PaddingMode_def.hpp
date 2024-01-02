@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::PaddingMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2922))
 // CS Name: ::System.Security.Cryptography::PaddingMode
 struct CORDL_TYPE PaddingMode {
 public:

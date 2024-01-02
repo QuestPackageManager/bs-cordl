@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SonySaveData)
 namespace Zenject {
+class TickableManager;
+}
+namespace Zenject {
 class ITickable;
 }
 namespace GlobalNamespace {
 class ISaveData;
-}
-namespace Zenject {
-class TickableManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SonySaveData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13919))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14389))
 // CS Name: ::SonySaveData*
 class CORDL_TYPE SonySaveData : public ::System::Object {
 public:
@@ -46,34 +46,37 @@ public:
 
   constexpr void __set__isMarkedForSave(bool value);
 
-  /// @brief Method RegisterForTicking addr 0x1f9c588 size 0x20 virtual false final false
+  /// @brief Method RegisterForTicking, addr 0x20f53dc, size 0x20, virtual false, abstract: false, final false
   inline void RegisterForTicking(::Zenject::TickableManager* tickableManager);
+
+  /// @brief Method Initialize, addr 0x20f53fc, size 0x4, virtual false, abstract: false, final false
+  static inline void Initialize();
+
+  /// @brief Method Save, addr 0x20f5400, size 0x28, virtual true, abstract: false, final true
+  inline void Save(::StringW key, ::StringW value);
+
+  /// @brief Method Load, addr 0x20f5428, size 0x80, virtual true, abstract: false, final true
+  inline bool Load(::StringW key, ByRef<::StringW> value);
+
+  /// @brief Method Save, addr 0x20f54a8, size 0x28, virtual true, abstract: false, final true
+  inline void Save(::StringW key, ::StringW value, ::StringW tempKey, ::StringW backupKey);
+
+  /// @brief Method Load, addr 0x20f54d0, size 0x4, virtual true, abstract: false, final true
+  inline bool Load(::StringW key, ByRef<::StringW> value, ::StringW backupKey);
+
+  /// @brief Method Delete, addr 0x20f54d4, size 0x24, virtual true, abstract: false, final true
+  inline void Delete(::StringW key);
+
+  /// @brief Method HasKey, addr 0x20f54f8, size 0xc, virtual true, abstract: false, final true
+  inline bool HasKey(::StringW key);
+
+  /// @brief Method Tick, addr 0x20f5504, size 0x18, virtual true, abstract: false, final true
+  inline void Tick();
 
   static inline ::GlobalNamespace::SonySaveData* New_ctor();
 
-  /// @brief Method .ctor addr 0x1f9c5a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f551c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method Save addr 0x1f9c5b0 size 0x28 virtual true final true
-  inline void Save(::StringW key, ::StringW value);
-
-  /// @brief Method Load addr 0x1f9c5d8 size 0x80 virtual true final true
-  inline bool Load(::StringW key, ByRef<::StringW> value);
-
-  /// @brief Method Save addr 0x1f9c658 size 0x28 virtual true final true
-  inline void Save(::StringW key, ::StringW value, ::StringW tempKey, ::StringW backupKey);
-
-  /// @brief Method Load addr 0x1f9c680 size 0x4 virtual true final true
-  inline bool Load(::StringW key, ByRef<::StringW> value, ::StringW backupKey);
-
-  /// @brief Method Delete addr 0x1f9c684 size 0x24 virtual true final true
-  inline void Delete(::StringW key);
-
-  /// @brief Method HasKey addr 0x1f9c6a8 size 0xc virtual true final true
-  inline bool HasKey(::StringW key);
-
-  /// @brief Method Tick addr 0x1f9c6b4 size 0x18 virtual true final true
-  inline void Tick();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonySaveData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

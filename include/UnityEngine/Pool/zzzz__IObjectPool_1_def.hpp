@@ -16,12 +16,12 @@ namespace UnityEngine::Pool {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10364))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10442))
 // CS Name: ::UnityEngine.Pool::IObjectPool`1<T>*
 class CORDL_TYPE IObjectPool_1 {
 public:
   // Declarations
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(T element);
 
   // Ctor Parameters [CppParam { name: "", ty: "IObjectPool_1", modifiers: "&&", def_value: None }]

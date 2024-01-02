@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type2Message);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14036))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14041))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13770))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type2Message*
 class CORDL_TYPE Type2Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
@@ -58,25 +58,25 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::Type2Message* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method .ctor addr 0x22a75cc size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x24018d8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Finalize addr 0x22a7670 size 0xa8 virtual true final false
+  /// @brief Method Finalize, addr 0x240197c, size 0xa8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method get_Nonce addr 0x22a66b4 size 0x78 virtual false final false
+  /// @brief Method get_Nonce, addr 0x24009c0, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Nonce();
 
-  /// @brief Method get_TargetName addr 0x22a7718 size 0x8 virtual false final false
+  /// @brief Method get_TargetName, addr 0x2401a24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TargetName();
 
-  /// @brief Method get_TargetInfo addr 0x22a663c size 0x78 virtual false final false
+  /// @brief Method get_TargetInfo, addr 0x2400948, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_TargetInfo();
 
-  /// @brief Method Decode addr 0x22a7720 size 0x180 virtual true final false
+  /// @brief Method Decode, addr 0x2401a2c, size 0x180, virtual true, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method GetBytes addr 0x22a78a0 size 0xb8 virtual true final false
+  /// @brief Method GetBytes, addr 0x2401bac, size 0xb8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   // Ctor Parameters [CppParam { name: "", ty: "Type2Message", modifiers: "&&", def_value: None }]

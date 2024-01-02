@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3826))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
 // CS Name: ::System.Collections.Generic::IReadOnlyList`1<T>*
 class CORDL_TYPE IReadOnlyList_1 {
 public:
@@ -42,7 +42,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_Item(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyList_1", modifiers: "&&", def_value: None }]

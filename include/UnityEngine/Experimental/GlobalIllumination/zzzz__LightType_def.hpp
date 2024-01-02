@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LightType);
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10308))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10386))
 // CS Name: ::UnityEngine.Experimental.GlobalIllumination::LightType
 struct CORDL_TYPE LightType {
 public:

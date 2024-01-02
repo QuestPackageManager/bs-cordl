@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ClampedDragger_1)
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-template <typename T> struct __ClampedDragger_1__DragDirection;
-}
-namespace UnityEngine::UIElements {
-template <typename TValueType> class BaseSlider_1;
-}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine {
 struct Vector2;
+}
+namespace UnityEngine::UIElements {
+template <typename TValueType> class BaseSlider_1;
+}
+namespace UnityEngine::UIElements {
+template <typename T> struct __ClampedDragger_1__DragDirection;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,8 +39,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6874), inst: 1513 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6788)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 1562 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6788))
 // CS Name: ::ClampedDragger`1::DragDirection<T>
 struct CORDL_TYPE __ClampedDragger_1__DragDirection {
 public:
@@ -95,8 +95,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6874), inst: 903 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6874)), TypeDefinitionIndex(TypeDefinitionIndex(6893))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6875)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6788)), TypeDefinitionIndex(TypeDefinitionIndex(6807)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6788), inst: 920 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6789)) CS Name:
 // ::UnityEngine.UIElements::ClampedDragger`1<T>*
 class CORDL_TYPE ClampedDragger_1 : public ::UnityEngine::UIElements::Clickable {
 public:
@@ -148,39 +148,39 @@ public:
 
   constexpr void __set__startMousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method add_dragging addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_dragging(::System::Action* value);
 
-  /// @brief Method remove_dragging addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_dragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_dragging(::System::Action* value);
 
-  /// @brief Method get_dragDirection addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> get_dragDirection();
 
-  /// @brief Method set_dragDirection addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_dragDirection, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragDirection(::UnityEngine::UIElements::__ClampedDragger_1__DragDirection<T> value);
 
-  /// @brief Method set_slider addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_slider, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_slider(::UnityEngine::UIElements::BaseSlider_1<T>* value);
 
-  /// @brief Method get_startMousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_startMousePosition();
 
-  /// @brief Method set_startMousePosition addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_startMousePosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_startMousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_delta addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_delta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_delta();
 
   static inline ::UnityEngine::UIElements::ClampedDragger_1<T>* New_ctor(::UnityEngine::UIElements::BaseSlider_1<T>* slider, ::System::Action* clickHandler, ::System::Action* dragHandler);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseSlider_1<T>* slider, ::System::Action* clickHandler, ::System::Action* dragHandler);
 
-  /// @brief Method ProcessDownEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessDownEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId);
 
-  /// @brief Method ProcessMoveEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessMoveEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessMoveEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition);
 
   // Ctor Parameters [CppParam { name: "", ty: "ClampedDragger_1", modifiers: "&&", def_value: None }]

@@ -21,22 +21,19 @@ namespace UnityEngine::UIElements {
 class MeshWriteData;
 }
 namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__AllocMeshData;
+}
+namespace UnityEngine::UIElements {
+struct TextVertex;
+}
+namespace UnityEngine {
+struct ScaleMode;
+}
+namespace UnityEngine::UIElements::UIR {
 struct __MeshBuilder__ClipCounts;
 }
 namespace UnityEngine::UIElements {
-struct Vertex;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__VertexClipEdge;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine::UIElements::UIR {
-struct VertexFlags;
+struct __MeshGenerationContextUtils__BorderParams;
 }
 namespace UnityEngine {
 struct Rect;
@@ -47,41 +44,41 @@ struct ColorPage;
 namespace UnityEngine::UIElements {
 struct __MeshGenerationContextUtils__RectangleParams;
 }
+namespace UnityEngine::UIElements {
+struct Vertex;
+}
 namespace UnityEngine::TextCore::Text {
 struct MeshInfo;
 }
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContextUtils__BorderParams;
+namespace UnityEngine::UIElements::UIR {
+struct __MeshBuilder__VertexClipEdge;
 }
-namespace UnityEngine::UIElements {
-struct TextVertex;
-}
-namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+namespace UnityEngine::UIElements::UIR {
+struct VertexFlags;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
 }
 namespace UnityEngine {
+struct Vector4;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace Unity::Collections {
+template <typename T> struct NativeArray_1;
+}
+namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector3;
 }
 namespace UnityEngine {
-struct ScaleMode;
-}
-namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine::UIElements::UIR {
-struct __MeshBuilder__AllocMeshData;
-}
-namespace UnityEngine::UIElements {
-struct __MeshGenerationContext__MeshFlags;
+struct Matrix4x4;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
@@ -89,14 +86,17 @@ struct BMPAlloc;
 namespace GlobalNamespace {
 class __MeshBuilder__AllocMeshData__Allocator;
 }
+namespace UnityEngine {
+class Texture;
+}
 namespace UnityEngine::UIElements {
 struct TextureId;
 }
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-class Texture;
+namespace UnityEngine::UIElements {
+struct __MeshGenerationContext__MeshFlags;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
@@ -124,18 +124,18 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7489))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7403))
 // CS Name: ::MeshBuilder::AllocMeshData::Allocator*
 class CORDL_TYPE __MeshBuilder__AllocMeshData__Allocator : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2d31a30 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2e99de0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2d31af4 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2e99ea4, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Invoke(uint32_t vertexCount, uint32_t indexCount, ByRef<::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData> allocatorData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MeshBuilder__AllocMeshData__Allocator", modifiers: "&&", def_value: None }]
@@ -162,15 +162,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MeshBuilder__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7425)), TypeDefinitionIndex(TypeDefinitionIndex(7423)), TypeDefinitionIndex(TypeDefinitionIndex(7460))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7490))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7337)), TypeDefinitionIndex(TypeDefinitionIndex(7374))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7404))
 // CS Name: ::MeshBuilder::AllocMeshData
 struct CORDL_TYPE __MeshBuilder__AllocMeshData {
 public:
   // Declarations
   using Allocator = ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator;
 
-  /// @brief Method Allocate addr 0x2d2c9c8 size 0x28 virtual false final false
+  /// @brief Method Allocate, addr 0x2e94d78, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshWriteData* Allocate(uint32_t vertexCount, uint32_t indexCount);
 
   // Ctor Parameters [CppParam { name: "alloc", ty: "::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*", modifiers: "", def_value: None }, CppParam { name: "texture", ty:
@@ -229,7 +229,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshD
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7491))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7405))
 // CS Name: ::MeshBuilder::ClipCounts
 struct CORDL_TYPE __MeshBuilder__ClipCounts {
 public:
@@ -288,7 +288,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7406))
 // CS Name: ::MeshBuilder::VertexClipEdge
 struct CORDL_TYPE __MeshBuilder__VertexClipEdge {
 public:
@@ -349,8 +349,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(9894))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7493))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::UnityEngine.UIElements.UIR::MeshBuilder*
 class CORDL_TYPE MeshBuilder : public ::System::Object {
 public:
@@ -440,97 +440,102 @@ public:
 
   static inline ::ArrayW<::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClipEdge, ::Array<::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClipEdge>*> getStaticF_s_AllClipEdges();
 
-  /// @brief Method MakeBorder addr 0x2d29ae4 size 0xc0 virtual false final false
+  /// @brief Method MakeBorder, addr 0x2e91e94, size 0xc0, virtual false, abstract: false, final false
   static inline void MakeBorder(::UnityEngine::UIElements::__MeshGenerationContextUtils__BorderParams borderParams, float_t posZ,
                                 ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc);
 
-  /// @brief Method MakeSolidRect addr 0x2d29e20 size 0x154 virtual false final false
+  /// @brief Method MakeSolidRect, addr 0x2e921d0, size 0x154, virtual false, abstract: false, final false
   static inline void MakeSolidRect(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ,
                                    ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc);
 
-  /// @brief Method MakeTexturedRect addr 0x2d2aa08 size 0x314 virtual false final false
+  /// @brief Method MakeTexturedRect, addr 0x2e92db8, size 0x314, virtual false, abstract: false, final false
   static inline void MakeTexturedRect(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams, float_t posZ,
                                       ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc, ::UnityEngine::UIElements::ColorPage colorPage);
 
-  /// @brief Method ConvertTextVertexToUIRVertex addr 0x2d2c41c size 0x110 virtual false final false
+  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x2e947cc, size 0x110, virtual false, abstract: false, final false
+  /// @param flags: ::UnityEngine::UIElements::UIR::VertexFlags (default: static_cast<int32_t>(0x1))
+  /// @param isDynamicColor: bool (default: false)
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::TextCore::Text::MeshInfo info, int32_t index, ::UnityEngine::Vector2 offset,
-                                                                               ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
+                                                                               ::UnityEngine::UIElements::UIR::VertexFlags flags = static_cast<int32_t>(0x1), bool isDynamicColor = false);
 
-  /// @brief Method ConvertTextVertexToUIRVertex addr 0x2d2c52c size 0x38 virtual false final false
+  /// @brief Method ConvertTextVertexToUIRVertex, addr 0x2e948dc, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex ConvertTextVertexToUIRVertex(::UnityEngine::UIElements::TextVertex textVertex, ::UnityEngine::Vector2 offset);
 
-  /// @brief Method LimitTextVertices addr 0x2d2c564 size 0x130 virtual false final false
-  static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation);
+  /// @brief Method LimitTextVertices, addr 0x2e94914, size 0x130, virtual false, abstract: false, final false
+  /// @param logTruncation: bool (default: true)
+  static inline int32_t LimitTextVertices(int32_t vertexCount, bool logTruncation = true);
 
-  /// @brief Method MakeText addr 0x2d2c694 size 0x334 virtual false final false
+  /// @brief Method MakeText, addr 0x2e94a44, size 0x334, virtual false, abstract: false, final false
+  /// @param flags: ::UnityEngine::UIElements::UIR::VertexFlags (default: static_cast<int32_t>(0x1))
+  /// @param isDynamicColor: bool (default: false)
   static inline void MakeText(::UnityEngine::TextCore::Text::MeshInfo meshInfo, ::UnityEngine::Vector2 offset, ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc,
-                              ::UnityEngine::UIElements::UIR::VertexFlags flags, bool isDynamicColor);
+                              ::UnityEngine::UIElements::UIR::VertexFlags flags = static_cast<int32_t>(0x1), bool isDynamicColor = false);
 
-  /// @brief Method MakeText addr 0x2d2c9f0 size 0x2c4 virtual false final false
+  /// @brief Method MakeText, addr 0x2e94da0, size 0x2c4, virtual false, abstract: false, final false
   static inline void MakeText(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> uiVertices, ::UnityEngine::Vector2 offset,
                               ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc);
 
-  /// @brief Method UpdateText addr 0x2d2ccb4 size 0x1b8 virtual false final false
+  /// @brief Method UpdateText, addr 0x2e95064, size 0x1b8, virtual false, abstract: false, final false
   static inline void UpdateText(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> uiVertices, ::UnityEngine::Vector2 offset, ::UnityEngine::Matrix4x4 transform,
                                 ::UnityEngine::Color32 xformClipPages, ::UnityEngine::Color32 ids, ::UnityEngine::Color32 flags, ::UnityEngine::Color32 opacityPageSettingIndex,
                                 ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> vertices);
 
-  /// @brief Method MakeQuad addr 0x2d2ad1c size 0xd58 virtual false final false
+  /// @brief Method MakeQuad, addr 0x2e930cc, size 0xd58, virtual false, abstract: false, final false
   static inline void MakeQuad(::UnityEngine::Rect rcPosition, ::UnityEngine::Rect rcTexCoord, ::UnityEngine::Color color, float_t posZ,
                               ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc, ::UnityEngine::UIElements::ColorPage colorPage);
 
-  /// @brief Method MakeSlicedQuad addr 0x2d2ba74 size 0x9a8 virtual false final false
+  /// @brief Method MakeSlicedQuad, addr 0x2e93e24, size 0x9a8, virtual false, abstract: false, final false
   static inline void MakeSlicedQuad(ByRef<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams> rectParams, float_t posZ,
                                     ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc);
 
-  /// @brief Method MakeVectorGraphics addr 0x2d2ce6c size 0x3b0 virtual false final false
+  /// @brief Method MakeVectorGraphics, addr 0x2e9521c, size 0x3b0, virtual false, abstract: false, final false
   static inline void MakeVectorGraphics(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams, int32_t settingIndexOffset,
                                         ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc, ByRef<int32_t> finalVertexCount, ByRef<int32_t> finalIndexCount);
 
-  /// @brief Method MakeVectorGraphicsStretchBackground addr 0x2d2d21c size 0xfec virtual false final false
+  /// @brief Method MakeVectorGraphicsStretchBackground, addr 0x2e955cc, size 0xfec, virtual false, abstract: false, final false
   static inline void MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices,
                                                          ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect,
                                                          ::UnityEngine::Rect sourceUV, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color tint, int32_t settingIndexOffset,
                                                          ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc, ByRef<int32_t> finalVertexCount, ByRef<int32_t> finalIndexCount);
 
-  /// @brief Method SplitTriangle addr 0x2d2f39c size 0xc48 virtual false final false
+  /// @brief Method SplitTriangle, addr 0x2e9774c, size 0xc48, virtual false, abstract: false, final false
   static inline void SplitTriangle(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vertices, ::cordl_internals::Ptr<uint16_t> indices, ByRef<int32_t> vertexCount, int32_t indexToProcess,
                                    ByRef<int32_t> indexCount, float_t svgWidth, float_t svgHeight, ::UnityEngine::Vector4 sliceLTRB, int32_t sliceIndex);
 
-  /// @brief Method ScaleSplittedTriangles addr 0x2d2ffe4 size 0x284 virtual false final false
+  /// @brief Method ScaleSplittedTriangles, addr 0x2e98394, size 0x284, virtual false, abstract: false, final false
   static inline void ScaleSplittedTriangles(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vertices, int32_t vertexCount, float_t svgWidth, float_t svgHeight,
                                             ::UnityEngine::Rect targetRect, ::UnityEngine::Vector4 sliceLTRB);
 
-  /// @brief Method MakeVectorGraphics9SliceBackground addr 0x2d2e208 size 0xbac virtual false final false
+  /// @brief Method MakeVectorGraphics9SliceBackground, addr 0x2e965b8, size 0xbac, virtual false, abstract: false, final false
   static inline void MakeVectorGraphics9SliceBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices,
                                                         ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect,
                                                         ::UnityEngine::Vector4 sliceLTRB, bool stretch, ::UnityEngine::Color tint, int32_t settingIndexOffset,
                                                         ::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshData meshAlloc);
 
-  /// @brief Method UpperBoundApproximateRectClippingResults addr 0x2d2edb4 size 0x1ac virtual false final false
+  /// @brief Method UpperBoundApproximateRectClippingResults, addr 0x2e97164, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts
   UpperBoundApproximateRectClippingResults(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> indices,
                                            ::UnityEngine::Vector4 clipRectMinMax);
 
-  /// @brief Method RectClip addr 0x2d2ef60 size 0x43c virtual false final false
+  /// @brief Method RectClip, addr 0x2e97310, size 0x43c, virtual false, abstract: false, final false
   static inline void RectClip(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> indices,
                               ::UnityEngine::Vector4 clipRectMinMax, ::UnityEngine::UIElements::MeshWriteData* mwd, ::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts cc,
                               ByRef<int32_t> newVertexCount);
 
-  /// @brief Method RectClipTriangle addr 0x2d30268 size 0xb5c virtual false final false
+  /// @brief Method RectClipTriangle, addr 0x2e98618, size 0xb5c, virtual false, abstract: false, final false
   static inline void RectClipTriangle(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vt, ::cordl_internals::Ptr<uint16_t> it, ::UnityEngine::Vector4 clipRectMinMax,
                                       ::UnityEngine::UIElements::MeshWriteData* mwd, ByRef<uint16_t> nextNewVertex);
 
-  /// @brief Method GetVertexBaryCentricCoordinates addr 0x2d30dc4 size 0xbc virtual false final false
+  /// @brief Method GetVertexBaryCentricCoordinates, addr 0x2e99174, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetVertexBaryCentricCoordinates(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vt, float_t x, float_t y);
 
-  /// @brief Method InterpolateVertexInTriangle addr 0x2d30e80 size 0x47c virtual false final false
+  /// @brief Method InterpolateVertexInTriangle, addr 0x2e99230, size 0x47c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex InterpolateVertexInTriangle(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vt, float_t x, float_t y, ::UnityEngine::Vector3 uvw);
 
-  /// @brief Method InterpolateVertexInTriangleEdge addr 0x2d31398 size 0x418 virtual false final false
+  /// @brief Method InterpolateVertexInTriangleEdge, addr 0x2e99748, size 0x418, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Vertex InterpolateVertexInTriangleEdge(::cordl_internals::Ptr<::UnityEngine::UIElements::Vertex> vt, int32_t e0, int32_t e1, float_t t);
 
-  /// @brief Method IntersectSegments addr 0x2d312fc size 0x9c virtual false final false
+  /// @brief Method IntersectSegments, addr 0x2e996ac, size 0x9c, virtual false, abstract: false, final false
   static inline float_t IntersectSegments(float_t ax, float_t ay, float_t bx, float_t by, float_t cx, float_t cy, float_t dx, float_t dy);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshBuilder", modifiers: "&&", def_value: None }]

@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(MultiplayerBadgesModelSO)
 namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgeDataSO;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgesModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5215))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5110))
 // CS Name: ::MultiplayerBadgesModelSO*
 class CORDL_TYPE MultiplayerBadgesModelSO : public ::UnityEngine::ScriptableObject {
 public:
@@ -51,15 +51,15 @@ public:
 
   constexpr void __set__negativeBadges(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* value);
 
-  /// @brief Method get_positiveBadges addr 0x20ede04 size 0x8 virtual false final false
+  /// @brief Method get_positiveBadges, addr 0x23cf914, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_positiveBadges();
 
-  /// @brief Method get_negativeBadges addr 0x20ede0c size 0x8 virtual false final false
+  /// @brief Method get_negativeBadges, addr 0x23cf91c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerBadgeDataSO*>* get_negativeBadges();
 
   static inline ::GlobalNamespace::MultiplayerBadgesModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ede14 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cf924, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesModelSO", modifiers: "&&", def_value: None }]

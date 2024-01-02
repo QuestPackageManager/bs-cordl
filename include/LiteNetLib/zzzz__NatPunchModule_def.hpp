@@ -9,43 +9,43 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NatPunchModule)
 namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceRequestPacket;
-}
-namespace System::Collections::Generic {
-template <typename T> class Queue_1;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatPunchPacket;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
-class NetPacketProcessor;
-}
-namespace LiteNetLib {
-class NetPacket;
-}
-namespace LiteNetLib {
-class __NatPunchModule__NatIntroduceResponsePacket;
-}
-namespace LiteNetLib {
-class INatPunchListener;
+class NetSocket;
 }
 namespace LiteNetLib {
 struct __NatPunchModule__SuccessEventData;
 }
 namespace LiteNetLib {
-class NetSocket;
+struct __NatPunchModule__RequestEventData;
+}
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatPunchPacket;
+}
+namespace LiteNetLib::Utils {
+class NetPacketProcessor;
+}
+namespace LiteNetLib {
+class __NatPunchModule__NatIntroduceResponsePacket;
+}
+namespace LiteNetLib {
+class NetPacket;
+}
+namespace LiteNetLib {
+class INatPunchListener;
 }
 namespace System::Net {
 class IPEndPoint;
 }
 namespace LiteNetLib {
-struct __NatPunchModule__RequestEventData;
-}
-namespace LiteNetLib::Utils {
-class NetDataReader;
+class __NatPunchModule__NatIntroduceRequestPacket;
 }
 namespace LiteNetLib {
 struct NatAddressType;
@@ -81,7 +81,7 @@ MARK_VAL_T(::LiteNetLib::__NatPunchModule__SuccessEventData);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14487))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14149))
 // CS Name: ::NatPunchModule::RequestEventData
 struct CORDL_TYPE __NatPunchModule__RequestEventData {
 public:
@@ -122,8 +122,8 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__RequestEventData, Token) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14482))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14488))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14144))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14150))
 // CS Name: ::NatPunchModule::SuccessEventData
 struct CORDL_TYPE __NatPunchModule__SuccessEventData {
 public:
@@ -164,8 +164,8 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__SuccessEventData, Token) 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14489))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14151))
 // CS Name: ::NatPunchModule::NatIntroduceRequestPacket*
 class CORDL_TYPE __NatPunchModule__NatIntroduceRequestPacket : public ::System::Object {
 public:
@@ -192,21 +192,21 @@ public:
 
   constexpr void __set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method get_Internal addr 0x2099f54 size 0x8 virtual false final false
+  /// @brief Method get_Internal, addr 0x21fbda8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method set_Internal addr 0x2099f5c size 0x8 virtual false final false
+  /// @brief Method set_Internal, addr 0x21fbdb0, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method get_Token addr 0x2099f64 size 0x8 virtual false final false
+  /// @brief Method get_Token, addr 0x21fbdb8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_Token addr 0x2099f6c size 0x8 virtual false final false
+  /// @brief Method set_Token, addr 0x21fbdc0, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
   static inline ::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket* New_ctor();
 
-  /// @brief Method .ctor addr 0x2099800 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21fb654, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceRequestPacket", modifiers: "&&", def_value: None }]
@@ -243,8 +243,8 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14490))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14152))
 // CS Name: ::NatPunchModule::NatIntroduceResponsePacket*
 class CORDL_TYPE __NatPunchModule__NatIntroduceResponsePacket : public ::System::Object {
 public:
@@ -282,27 +282,27 @@ public:
 
   constexpr void __set__Token_k__BackingField(::StringW value);
 
-  /// @brief Method get_Internal addr 0x2099f74 size 0x8 virtual false final false
+  /// @brief Method get_Internal, addr 0x21fbdc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
 
-  /// @brief Method set_Internal addr 0x2099f7c size 0x8 virtual false final false
+  /// @brief Method set_Internal, addr 0x21fbdd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Internal(::System::Net::IPEndPoint* value);
 
-  /// @brief Method get_External addr 0x2099f84 size 0x8 virtual false final false
+  /// @brief Method get_External, addr 0x21fbdd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_External();
 
-  /// @brief Method set_External addr 0x2099f8c size 0x8 virtual false final false
+  /// @brief Method set_External, addr 0x21fbde0, size 0x8, virtual false, abstract: false, final false
   inline void set_External(::System::Net::IPEndPoint* value);
 
-  /// @brief Method get_Token addr 0x2099f94 size 0x8 virtual false final false
+  /// @brief Method get_Token, addr 0x21fbde8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_Token addr 0x2099f9c size 0x8 virtual false final false
+  /// @brief Method set_Token, addr 0x21fbdf0, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
   static inline ::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket* New_ctor();
 
-  /// @brief Method .ctor addr 0x2099028 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21fae7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatIntroduceResponsePacket", modifiers: "&&", def_value: None }]
@@ -344,8 +344,8 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacke
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14153))
 // CS Name: ::NatPunchModule::NatPunchPacket*
 class CORDL_TYPE __NatPunchModule__NatPunchPacket : public ::System::Object {
 public:
@@ -372,21 +372,21 @@ public:
 
   constexpr void __set__IsExternal_k__BackingField(bool value);
 
-  /// @brief Method get_Token addr 0x2099fa4 size 0x8 virtual false final false
+  /// @brief Method get_Token, addr 0x21fbdf8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
 
-  /// @brief Method set_Token addr 0x2099fac size 0x8 virtual false final false
+  /// @brief Method set_Token, addr 0x21fbe00, size 0x8, virtual false, abstract: false, final false
   inline void set_Token(::StringW value);
 
-  /// @brief Method get_IsExternal addr 0x2099fb4 size 0x8 virtual false final false
+  /// @brief Method get_IsExternal, addr 0x21fbe08, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsExternal();
 
-  /// @brief Method set_IsExternal addr 0x2099fbc size 0xc virtual false final false
+  /// @brief Method set_IsExternal, addr 0x21fbe10, size 0xc, virtual false, abstract: false, final false
   inline void set_IsExternal(bool value);
 
   static inline ::LiteNetLib::__NatPunchModule__NatPunchPacket* New_ctor();
 
-  /// @brief Method .ctor addr 0x2099a80 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21fb8d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NatPunchModule__NatPunchPacket", modifiers: "&&", def_value: None }]
@@ -423,8 +423,8 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatPunchPacket, ____IsExt
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14492))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14154))
 // CS Name: ::LiteNetLib::NatPunchModule*
 class CORDL_TYPE NatPunchModule : public ::System::Object {
 public:
@@ -504,38 +504,38 @@ public:
 
   static inline ::LiteNetLib::NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket);
 
-  /// @brief Method .ctor addr 0x2098b60 size 0x2c4 virtual false final false
+  /// @brief Method .ctor, addr 0x21fa9b4, size 0x2c4, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::NetSocket* socket);
 
-  /// @brief Method ProcessMessage addr 0x2098e38 size 0x10c virtual false final false
+  /// @brief Method ProcessMessage, addr 0x21fac8c, size 0x10c, virtual false, abstract: false, final false
   inline void ProcessMessage(::System::Net::IPEndPoint* senderEndPoint, ::LiteNetLib::NetPacket* packet);
 
-  /// @brief Method Init addr 0x2098f54 size 0x8 virtual false final false
+  /// @brief Method Init, addr 0x21fada8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::LiteNetLib::INatPunchListener* listener);
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Send(T packet, ::System::Net::IPEndPoint* target);
 
-  /// @brief Method NatIntroduce addr 0x2098f5c size 0xcc virtual false final false
+  /// @brief Method NatIntroduce, addr 0x21fadb0, size 0xcc, virtual false, abstract: false, final false
   inline void NatIntroduce(::System::Net::IPEndPoint* hostInternal, ::System::Net::IPEndPoint* hostExternal, ::System::Net::IPEndPoint* clientInternal, ::System::Net::IPEndPoint* clientExternal,
                            ::StringW additionalInfo);
 
-  /// @brief Method PollEvents addr 0x2099030 size 0x36c virtual false final false
+  /// @brief Method PollEvents, addr 0x21fae84, size 0x36c, virtual false, abstract: false, final false
   inline void PollEvents();
 
-  /// @brief Method SendNatIntroduceRequest addr 0x209939c size 0x84 virtual false final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x21fb1f0, size 0x84, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::StringW host, int32_t port, ::StringW additionalInfo);
 
-  /// @brief Method SendNatIntroduceRequest addr 0x20994c8 size 0x11c virtual false final false
+  /// @brief Method SendNatIntroduceRequest, addr 0x21fb31c, size 0x11c, virtual false, abstract: false, final false
   inline void SendNatIntroduceRequest(::System::Net::IPEndPoint* masterServerEndPoint, ::StringW additionalInfo);
 
-  /// @brief Method OnNatIntroductionRequest addr 0x2099808 size 0x120 virtual false final false
+  /// @brief Method OnNatIntroductionRequest, addr 0x21fb65c, size 0x120, virtual false, abstract: false, final false
   inline void OnNatIntroductionRequest(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
-  /// @brief Method OnNatIntroductionResponse addr 0x2099928 size 0x158 virtual false final false
+  /// @brief Method OnNatIntroductionResponse, addr 0x21fb77c, size 0x158, virtual false, abstract: false, final false
   inline void OnNatIntroductionResponse(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacket* req);
 
-  /// @brief Method OnNatPunch addr 0x2099e04 size 0x150 virtual false final false
+  /// @brief Method OnNatPunch, addr 0x21fbc58, size 0x150, virtual false, abstract: false, final false
   inline void OnNatPunch(::LiteNetLib::__NatPunchModule__NatPunchPacket* req, ::System::Net::IPEndPoint* senderEndPoint);
 
   // Ctor Parameters [CppParam { name: "", ty: "NatPunchModule", modifiers: "&&", def_value: None }]

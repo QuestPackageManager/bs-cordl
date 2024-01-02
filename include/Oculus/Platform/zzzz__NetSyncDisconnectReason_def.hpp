@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncDisconnectReason);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13366))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13339))
 // CS Name: ::Oculus.Platform::NetSyncDisconnectReason
 struct CORDL_TYPE NetSyncDisconnectReason {
 public:

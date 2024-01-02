@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5LeaderboardIdsModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4674))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4651))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4583))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4562))
 // CS Name: ::PS5LeaderboardIdsModelSO*
 class CORDL_TYPE PS5LeaderboardIdsModelSO : public ::GlobalNamespace::SonyLeaderboardIdsModelSO {
 public:
   // Declarations
-  /// @brief Method DoesSupport360 addr 0x222e384 size 0x8 virtual true final false
+  /// @brief Method DoesSupport360, addr 0x23682b0, size 0x8, virtual true, abstract: false, final false
   inline bool DoesSupport360();
 
   static inline ::GlobalNamespace::PS5LeaderboardIdsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e38c size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x23682b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5LeaderboardIdsModelSO", modifiers: "&&", def_value: None }]

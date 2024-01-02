@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::ILateDisposable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15685))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15735))
 // CS Name: ::Zenject::ILateDisposable*
 class CORDL_TYPE ILateDisposable {
 public:
   // Declarations
-  /// @brief Method LateDispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LateDispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void LateDispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILateDisposable", modifiers: "&&", def_value: None }]

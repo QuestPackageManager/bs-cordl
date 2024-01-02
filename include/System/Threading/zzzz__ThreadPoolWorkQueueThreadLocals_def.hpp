@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ThreadPoolWorkQueueThreadLocals)
 namespace System::Threading {
-class ThreadPoolWorkQueue;
-}
-namespace System::Threading {
 class __ThreadPoolWorkQueue__WorkStealingQueue;
 }
 namespace System {
 class Random;
+}
+namespace System::Threading {
+class ThreadPoolWorkQueue;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::Threading::ThreadPoolWorkQueueThreadLocals);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2733))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2735))
 // CS Name: ::System.Threading::ThreadPoolWorkQueueThreadLocals*
 class CORDL_TYPE ThreadPoolWorkQueueThreadLocals : public ::System::Object {
 public:
@@ -65,13 +65,13 @@ public:
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-  /// @brief Method .ctor addr 0x24c1fcc size 0x11c virtual false final false
+  /// @brief Method .ctor, addr 0x261bfe8, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
-  /// @brief Method CleanUp addr 0x24c20e8 size 0xd4 virtual false final false
+  /// @brief Method CleanUp, addr 0x261c104, size 0xd4, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Finalize addr 0x24c21bc size 0xcc virtual true final false
+  /// @brief Method Finalize, addr 0x261c1d8, size 0xcc, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ThreadPoolWorkQueueThreadLocals", modifiers: "&&", def_value: None }]

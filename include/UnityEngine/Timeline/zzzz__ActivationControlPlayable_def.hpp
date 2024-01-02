@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ActivationControlPlayable)
 namespace UnityEngine::Playables {
-struct PlayableGraph;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Playables {
 struct FrameData;
 }
-namespace System {
-class Object;
-}
-namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace UnityEngine::Timeline {
 struct __ActivationControlPlayable__InitialState;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace UnityEngine::Playables {
 struct Playable;
 }
+namespace System {
+class Object;
+}
 namespace UnityEngine::Timeline {
 struct __ActivationControlPlayable__PostPlaybackState;
+}
+namespace UnityEngine::Playables {
+struct PlayableGraph;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationControlPlayable);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14171))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13900))
 // CS Name: ::ActivationControlPlayable::PostPlaybackState
 struct CORDL_TYPE __ActivationControlPlayable__PostPlaybackState {
 public:
@@ -104,7 +104,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationControlPlayable__Pos
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14172))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13901))
 // CS Name: ::ActivationControlPlayable::InitialState
 struct CORDL_TYPE __ActivationControlPlayable__InitialState {
 public:
@@ -157,8 +157,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationControlPlayable__Ini
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(14171)), TypeDefinitionIndex(TypeDefinitionIndex(14172))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14173))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13900)), TypeDefinitionIndex(TypeDefinitionIndex(13901))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13902))
 // CS Name: ::UnityEngine.Timeline::ActivationControlPlayable*
 class CORDL_TYPE ActivationControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -194,28 +194,28 @@ public:
 
   constexpr void __set_m_InitialState(::UnityEngine::Timeline::__ActivationControlPlayable__InitialState value);
 
-  /// @brief Method Create addr 0x2ae14d0 size 0x140 virtual false final false
+  /// @brief Method Create, addr 0x2c65224, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlaybackState);
 
-  /// @brief Method OnBehaviourPlay addr 0x2ae65c8 size 0x88 virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c6a31c, size 0x88, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause addr 0x2ae6650 size 0xa8 virtual true final false
+  /// @brief Method OnBehaviourPause, addr 0x2c6a3a4, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame addr 0x2ae66f8 size 0x88 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2c6a44c, size 0x88, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* userData);
 
-  /// @brief Method OnGraphStart addr 0x2ae6780 size 0x94 virtual true final false
+  /// @brief Method OnGraphStart, addr 0x2c6a4d4, size 0x94, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy addr 0x2ae6814 size 0xcc virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x2c6a568, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::UnityEngine::Timeline::ActivationControlPlayable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae68e0 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2c6a634, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivationControlPlayable", modifiers: "&&", def_value: None }]

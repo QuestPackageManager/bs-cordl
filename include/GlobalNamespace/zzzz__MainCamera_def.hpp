@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MainCamera)
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace UnityEngine {
 class Transform;
@@ -14,7 +14,7 @@ namespace UnityEngine {
 class Camera;
 }
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MainCamera);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5972))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5882))
 // CS Name: ::MainCamera*
 class CORDL_TYPE MainCamera : public ::UnityEngine::MonoBehaviour {
 public:
@@ -58,24 +58,24 @@ public:
 
   constexpr void __set__transform(::UnityEngine::Transform* value);
 
-  /// @brief Method get_camera addr 0x21b1bf8 size 0x8 virtual false final false
+  /// @brief Method get_camera, addr 0x22fa244, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Camera* get_camera();
 
-  /// @brief Method set_enableCamera addr 0x21b1c00 size 0x28 virtual false final false
+  /// @brief Method set_enableCamera, addr 0x22fa24c, size 0x28, virtual false, abstract: false, final false
   inline void set_enableCamera(bool value);
 
-  /// @brief Method get_position addr 0x21b1c28 size 0x1c virtual false final false
+  /// @brief Method get_position, addr 0x22fa274, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation addr 0x21b1c44 size 0x1c virtual false final false
+  /// @brief Method get_rotation, addr 0x22fa290, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method Awake addr 0x21b1c60 size 0x60 virtual false final false
+  /// @brief Method Awake, addr 0x22fa2ac, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MainCamera* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b1cc0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22fa30c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MainCamera", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_InputActionManifestLoad_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9459))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8690))
 // CS Name: ::OVR.OpenVR::VREvent_InputActionManifestLoad_t
 struct CORDL_TYPE VREvent_InputActionManifestLoad_t {
 public:

@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithChallengeList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13468)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13269), inst: 4481 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13269))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13292)) CS Name: ::Oculus.Platform::MessageWithChallengeList*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 4584 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(13427))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13284)) CS Name: ::Oculus.Platform::MessageWithChallengeList*
 class CORDL_TYPE MessageWithChallengeList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ChallengeList*> {
 public:
   // Declarations
   static inline ::Oculus::Platform::MessageWithChallengeList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor addr 0x2592c14 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x26eee78, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
-  /// @brief Method GetChallengeList addr 0x25953d4 size 0x3c virtual true final false
+  /// @brief Method GetChallengeList, addr 0x26f1608, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeList* GetChallengeList();
 
-  /// @brief Method GetDataFromMessage addr 0x2595410 size 0x9c virtual true final false
+  /// @brief Method GetDataFromMessage, addr 0x26f1644, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ChallengeList* GetDataFromMessage(void* c_message);
 
   // Ctor Parameters [CppParam { name: "", ty: "MessageWithChallengeList", modifiers: "&&", def_value: None }]

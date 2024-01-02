@@ -19,8 +19,8 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9464))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9465))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8695))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8696))
 // CS Name: ::OVR.OpenVR::VRControllerState_t
 struct CORDL_TYPE VRControllerState_t {
 public:

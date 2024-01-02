@@ -19,8 +19,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13947))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13946))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14395))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14394))
 // CS Name: ::GenericSignal`1<T>*
 class CORDL_TYPE GenericSignal_1 : public ::GlobalNamespace::Signal {
 public:
@@ -34,21 +34,21 @@ public:
 
   constexpr void __set__floatEvent(::System::Action_1<T>* value);
 
-  /// @brief Method Raise addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Raise, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Raise();
 
-  /// @brief Method Raise addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Raise, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Raise(T f);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Subscribe(::System::Action_1<T>* foo);
 
-  /// @brief Method Unsubscribe addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Unsubscribe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Unsubscribe(::System::Action_1<T>* foo);
 
   static inline ::GlobalNamespace::GenericSignal_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GenericSignal_1", modifiers: "&&", def_value: None }]

@@ -10,19 +10,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleComplexSelector)
 namespace UnityEngine::UIElements {
-class StyleRule;
-}
-namespace UnityEngine::UIElements {
-struct __StyleComplexSelector__PseudoStateData;
+class StyleSelector;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::UIElements {
-class StyleSelector;
+class __StyleComplexSelector____c;
 }
 namespace UnityEngine::UIElements {
-class __StyleComplexSelector____c;
+class StyleRule;
+}
+namespace UnityEngine::UIElements {
+struct __StyleComplexSelector__PseudoStateData;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -48,13 +48,13 @@ MARK_VAL_T(::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 21, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6907))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7345))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6821))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7259))
 // CS Name: ::StyleComplexSelector::PseudoStateData
 struct CORDL_TYPE __StyleComplexSelector__PseudoStateData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2d00524 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2e698d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::PseudoStates state, bool negate);
 
   // Ctor Parameters [CppParam { name: "state", ty: "::UnityEngine::UIElements::PseudoStates", modifiers: "", def_value: None }, CppParam { name: "negate", ty: "bool", modifiers: "", def_value: None
@@ -88,8 +88,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__StyleComplexSelector__Pseudo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7346))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7260))
 // CS Name: ::StyleComplexSelector::<>c*
 class CORDL_TYPE __StyleComplexSelector____c : public ::System::Object {
 public:
@@ -110,10 +110,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__StyleComplexSelector____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d00598 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e69948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToString>b__20_0 addr 0x2d005a0 size 0x20 virtual false final false
+  /// @brief Method <ToString>b__20_0, addr 0x2e69950, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__20_0(::UnityEngine::UIElements::StyleSelector* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__StyleComplexSelector____c", modifiers: "&&", def_value: None }]
@@ -140,8 +140,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7347))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7261))
 // CS Name: ::UnityEngine.UIElements::StyleComplexSelector*
 class CORDL_TYPE StyleComplexSelector : public ::System::Object {
 public:
@@ -219,30 +219,30 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::__StyleComplexSelector__PseudoStateData>* getStaticF_s_PseudoStates();
 
-  /// @brief Method get_specificity addr 0x2ceb478 size 0x8 virtual false final false
+  /// @brief Method get_specificity, addr 0x2e53828, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_specificity();
 
-  /// @brief Method get_rule addr 0x2ceb480 size 0x8 virtual false final false
+  /// @brief Method get_rule, addr 0x2e53830, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleRule* get_rule();
 
-  /// @brief Method set_rule addr 0x2ceb488 size 0x8 virtual false final false
+  /// @brief Method set_rule, addr 0x2e53838, size 0x8, virtual false, abstract: false, final false
   inline void set_rule(::UnityEngine::UIElements::StyleRule* value);
 
-  /// @brief Method get_selectors addr 0x2ceb490 size 0x8 virtual false final false
+  /// @brief Method get_selectors, addr 0x2e53840, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> get_selectors();
 
-  /// @brief Method set_selectors addr 0x2ceb498 size 0x8 virtual false final false
+  /// @brief Method set_selectors, addr 0x2e53848, size 0x8, virtual false, abstract: false, final false
   inline void set_selectors(::ArrayW<::UnityEngine::UIElements::StyleSelector*, ::Array<::UnityEngine::UIElements::StyleSelector*>*> value);
 
-  /// @brief Method CachePseudoStateMasks addr 0x2ceb4a0 size 0x5d0 virtual false final false
+  /// @brief Method CachePseudoStateMasks, addr 0x2e53850, size 0x5d0, virtual false, abstract: false, final false
   inline void CachePseudoStateMasks();
 
-  /// @brief Method ToString addr 0x2ceba70 size 0x170 virtual true final false
+  /// @brief Method ToString, addr 0x2e53e20, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::UnityEngine::UIElements::StyleComplexSelector* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cebbe0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e53f90, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleComplexSelector", modifiers: "&&", def_value: None }]

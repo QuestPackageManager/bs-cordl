@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::HierarchyChangeType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6785))
 // CS Name: ::UnityEngine.UIElements::HierarchyChangeType
 struct CORDL_TYPE HierarchyChangeType {
 public:

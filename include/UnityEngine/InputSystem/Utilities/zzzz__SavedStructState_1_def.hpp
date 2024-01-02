@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SavedStructState_1)
-namespace UnityEngine::InputSystem::Utilities {
-template <typename T> class __SavedStructState_1__TypedRestore;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename T> class __SavedStructState_1__TypedRestore;
 }
 namespace UnityEngine::InputSystem::Utilities {
 class ISavedState;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
 }
 namespace System {
-class AsyncCallback;
+class IAsyncResult;
 }
 namespace System {
 class Object;
@@ -41,24 +41,24 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6790))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6704))
 // CS Name: ::SavedStructState`1::TypedRestore<T>*
 class CORDL_TYPE __SavedStructState_1__TypedRestore : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(ByRef<T> state);
 
-  /// @brief Method BeginInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<T> state, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<T> state, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SavedStructState_1__TypedRestore", modifiers: "&&", def_value: None }]
@@ -85,8 +85,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6791))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6705))
 // CS Name: ::UnityEngine.InputSystem.Utilities::SavedStructState`1<T>*
 class CORDL_TYPE SavedStructState_1 : public ::System::Object {
 public:
@@ -126,13 +126,14 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::SavedStructState_1<T>* New_ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction,
                                                                                        ::System::Action* staticDisposeCurrentState);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction, ::System::Action* staticDisposeCurrentState);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param staticDisposeCurrentState: ::System::Action* (default: nullptr)
+  inline void _ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction, ::System::Action* staticDisposeCurrentState = nullptr);
 
-  /// @brief Method StaticDisposeCurrentState addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method StaticDisposeCurrentState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void StaticDisposeCurrentState();
 
-  /// @brief Method RestoreSavedState addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RestoreSavedState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void RestoreSavedState();
 
   // Ctor Parameters [CppParam { name: "", ty: "SavedStructState_1", modifiers: "&&", def_value: None }]

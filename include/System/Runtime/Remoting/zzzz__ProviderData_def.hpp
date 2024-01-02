@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ProviderData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3067))
 // CS Name: ::System.Runtime.Remoting::ProviderData*
 class CORDL_TYPE ProviderData : public ::System::Object {
 public:
@@ -72,12 +72,12 @@ public:
 
   constexpr void __set_CustomData(::System::Collections::IList* value);
 
-  /// @brief Method CopyFrom addr 0x2331754 size 0x704 virtual false final false
+  /// @brief Method CopyFrom, addr 0x2489248, size 0x704, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
 
   static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2335af4 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x248d5e8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "&&", def_value: None }]

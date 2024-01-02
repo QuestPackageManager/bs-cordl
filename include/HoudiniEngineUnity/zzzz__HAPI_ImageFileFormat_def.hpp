@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ImageFileFormat);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9670))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9743))
 // CS Name: ::HoudiniEngineUnity::HAPI_ImageFileFormat
 struct CORDL_TYPE HAPI_ImageFileFormat {
 public:

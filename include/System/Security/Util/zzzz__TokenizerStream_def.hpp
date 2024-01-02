@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Security::Util::TokenizerStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2895))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2899))
 // CS Name: ::System.Security.Util::TokenizerStream*
 class CORDL_TYPE TokenizerStream : public ::System::Object {
 public:
@@ -102,37 +102,37 @@ public:
 
   static inline ::System::Security::Util::TokenizerStream* New_ctor();
 
-  /// @brief Method .ctor addr 0x22fc22c size 0xa8 virtual false final false
+  /// @brief Method .ctor, addr 0x2455d48, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddToken addr 0x22fc5bc size 0xe8 virtual false final false
+  /// @brief Method AddToken, addr 0x24560d8, size 0xe8, virtual false, abstract: false, final false
   inline void AddToken(int16_t token);
 
-  /// @brief Method AddString addr 0x22fc6bc size 0xf0 virtual false final false
+  /// @brief Method AddString, addr 0x24561d8, size 0xf0, virtual false, abstract: false, final false
   inline void AddString(::StringW str);
 
-  /// @brief Method Reset addr 0x22fc2d4 size 0x1c virtual false final false
+  /// @brief Method Reset, addr 0x2455df0, size 0x1c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetNextFullToken addr 0x22fc2f0 size 0x70 virtual false final false
+  /// @brief Method GetNextFullToken, addr 0x2455e0c, size 0x70, virtual false, abstract: false, final false
   inline int16_t GetNextFullToken();
 
-  /// @brief Method GetNextToken addr 0x22fb218 size 0x14 virtual false final false
+  /// @brief Method GetNextToken, addr 0x2454d34, size 0x14, virtual false, abstract: false, final false
   inline int16_t GetNextToken();
 
-  /// @brief Method GetNextString addr 0x22fb2a4 size 0x6c virtual false final false
+  /// @brief Method GetNextString, addr 0x2454dc0, size 0x6c, virtual false, abstract: false, final false
   inline ::StringW GetNextString();
 
-  /// @brief Method ThrowAwayNextString addr 0x22fb22c size 0x4 virtual false final false
+  /// @brief Method ThrowAwayNextString, addr 0x2454d48, size 0x4, virtual false, abstract: false, final false
   inline void ThrowAwayNextString();
 
-  /// @brief Method TagLastToken addr 0x22fb230 size 0x74 virtual false final false
+  /// @brief Method TagLastToken, addr 0x2454d4c, size 0x74, virtual false, abstract: false, final false
   inline void TagLastToken(int16_t tag);
 
-  /// @brief Method GetTokenCount addr 0x22fca90 size 0x8 virtual false final false
+  /// @brief Method GetTokenCount, addr 0x24565ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetTokenCount();
 
-  /// @brief Method GoToPosition addr 0x22fbca0 size 0x60 virtual false final false
+  /// @brief Method GoToPosition, addr 0x24557bc, size 0x60, virtual false, abstract: false, final false
   inline void GoToPosition(int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "TokenizerStream", modifiers: "&&", def_value: None }]

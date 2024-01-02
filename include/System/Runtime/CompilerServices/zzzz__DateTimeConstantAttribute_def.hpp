@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DateTimeConstantAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3361))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(3365))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3366))
 // CS Name: ::System.Runtime.CompilerServices::DateTimeConstantAttribute*
 class CORDL_TYPE DateTimeConstantAttribute : public ::System::Runtime::CompilerServices::CustomConstantAttribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   constexpr void __set__date(::System::DateTime value);
 
-  /// @brief Method get_Value addr 0x2381548 size 0x5c virtual true final false
+  /// @brief Method get_Value, addr 0x24daf38, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "DateTimeConstantAttribute", modifiers: "&&", def_value: None }]

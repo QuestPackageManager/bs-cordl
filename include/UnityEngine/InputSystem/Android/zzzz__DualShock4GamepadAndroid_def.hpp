@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);
 // SizeInfo { instance_size: 544, native_size: -1, calculated_instance_size: 544, calculated_native_size: 544, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6509))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6516))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6423))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6430))
 // CS Name: ::UnityEngine.InputSystem.Android::DualShock4GamepadAndroid*
 class CORDL_TYPE DualShock4GamepadAndroid : public ::UnityEngine::InputSystem::DualShock::DualShockGamepad {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor addr 0x2965c70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ae59b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DualShock4GamepadAndroid", modifiers: "&&", def_value: None }]

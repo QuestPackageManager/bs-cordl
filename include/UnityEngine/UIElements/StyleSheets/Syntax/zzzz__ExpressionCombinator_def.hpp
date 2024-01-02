@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator)
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7581))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7495))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionCombinator
 struct CORDL_TYPE ExpressionCombinator {
 public:

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GyroscopeState)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GyroscopeState);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6595))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6509))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::GyroscopeState
 struct CORDL_TYPE GyroscopeState {
 public:
@@ -35,10 +35,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_kFormat addr 0x2968e94 size 0x30 virtual false final false
+  /// @brief Method get_kFormat, addr 0x2ae8bdc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
-  /// @brief Method get_format addr 0x2968ec4 size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ae8c0c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "angularVelocity", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]

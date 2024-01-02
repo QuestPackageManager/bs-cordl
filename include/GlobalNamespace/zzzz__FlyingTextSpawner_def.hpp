@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingTextSpawner)
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
-class __FlyingTextEffect__Pool;
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 namespace GlobalNamespace {
-class IFlyingObjectEffectDidFinishEvent;
+class __FlyingTextEffect__Pool;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingTextSpawner);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4891))
 // CS Name: ::FlyingTextSpawner*
 class CORDL_TYPE FlyingTextSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -113,15 +113,15 @@ public:
 
   constexpr void __set__flyingTextEffectPool(::GlobalNamespace::__FlyingTextEffect__Pool* value);
 
-  /// @brief Method SpawnText addr 0x226bfb8 size 0x1e0 virtual false final false
+  /// @brief Method SpawnText, addr 0x23a1f2c, size 0x1e4, virtual false, abstract: false, final false
   inline void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x226c198 size 0x11c virtual true final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x23a2110, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingTextSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226c2b4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23a222c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingTextSpawner", modifiers: "&&", def_value: None }]

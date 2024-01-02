@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SingletonIdentity)
-namespace System {
-class Type;
-}
-namespace System::Runtime::Remoting::Messaging {
-class IMessage;
-}
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
+namespace System {
+class Type;
+}
+namespace System {
+class MarshalByRefObject;
 }
 namespace System::Runtime::Remoting::Messaging {
 class IMessageCtrl;
 }
-namespace System {
-class MarshalByRefObject;
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -33,24 +33,24 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::SingletonIdentity);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3071))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3073))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3072))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3074))
 // CS Name: ::System.Runtime.Remoting::SingletonIdentity*
 class CORDL_TYPE SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
   static inline ::System::Runtime::Remoting::SingletonIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method .ctor addr 0x233b08c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2493b80, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method GetServerObject addr 0x233b0bc size 0x1f0 virtual false final false
+  /// @brief Method GetServerObject, addr 0x2493bb0, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
-  /// @brief Method SyncObjectProcessMessage addr 0x233b2b4 size 0xd0 virtual true final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x2493da8, size 0xd0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncObjectProcessMessage addr 0x233b384 size 0xe4 virtual true final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x2493e78, size 0xe4, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

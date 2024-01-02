@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NavigationModel)
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine::EventSystems {
 struct MoveDirection;
 }
 namespace UnityEngine::EventSystems {
 class AxisEventData;
-}
-namespace UnityEngine {
-struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::UI {
@@ -27,13 +27,13 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::NavigationModel);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13212))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6464))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13207)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6378))
 // CS Name: ::UnityEngine.InputSystem.UI::NavigationModel
 struct CORDL_TYPE NavigationModel {
 public:
   // Declarations
-  /// @brief Method Reset addr 0x29541f8 size 0x50 virtual false final false
+  /// @brief Method Reset, addr 0x2ad3f40, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },

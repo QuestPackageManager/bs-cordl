@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(HEU_HoudiniAssetRoot)
-namespace HoudiniEngineUnity {
-class HEU_HoudiniAsset;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 class GameObject;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace HoudiniEngineUnity {
+class HEU_HoudiniAsset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HoudiniAssetRoot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9640))
 // CS Name: ::HoudiniEngineUnity::HEU_HoudiniAssetRoot*
 class CORDL_TYPE HEU_HoudiniAssetRoot : public ::UnityEngine::MonoBehaviour {
 public:
@@ -47,24 +47,24 @@ public:
 
   constexpr void __set__bakeTargets(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method OnDestroy addr 0x2015aec size 0x1c8 virtual false final false
+  /// @brief Method OnDestroy, addr 0x216d488, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveHoudiniEngineAssetData addr 0x2015cb4 size 0xdc virtual false final false
+  /// @brief Method RemoveHoudiniEngineAssetData, addr 0x216d650, size 0xdc, virtual false, abstract: false, final false
   inline void RemoveHoudiniEngineAssetData();
 
-  /// @brief Method ClearHoudiniEngineReferences addr 0x2015d90 size 0x74 virtual false final false
+  /// @brief Method ClearHoudiniEngineReferences, addr 0x216d72c, size 0x74, virtual false, abstract: false, final false
   inline void ClearHoudiniEngineReferences();
 
-  /// @brief Method DestroyRootComponent addr 0x2015e04 size 0x10 virtual false final false
+  /// @brief Method DestroyRootComponent, addr 0x216d7a0, size 0x10, virtual false, abstract: false, final false
   static inline void DestroyRootComponent(::HoudiniEngineUnity::HEU_HoudiniAssetRoot* assetRoot);
 
-  /// @brief Method Reset addr 0x2015e14 size 0xe8 virtual false final false
+  /// @brief Method Reset, addr 0x216d7b0, size 0xe8, virtual false, abstract: false, final false
   inline void Reset();
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* New_ctor();
 
-  /// @brief Method .ctor addr 0x2015efc size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x216d898, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_HoudiniAssetRoot", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TransitionStartEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7274)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7274), inst: 5043 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7188)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7188), inst: 5157 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7190))
 // CS Name: ::UnityEngine.UIElements::TransitionStartEvent*
 class CORDL_TYPE TransitionStartEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionStartEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::TransitionStartEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce65a0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e4e950, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionStartEvent", modifiers: "&&", def_value: None }]

@@ -13,6 +13,9 @@ class Action;
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
 }
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -26,7 +29,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3389))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3394))
 // CS Name: ::System.Runtime.CompilerServices::TaskAwaiter`1<TResult>
 struct CORDL_TYPE TaskAwaiter_1 {
 public:
@@ -36,16 +39,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task);
 
-  /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
 
   // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }]

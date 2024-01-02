@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Net::HeaderInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7939))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9102))
 // CS Name: ::System.Net::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
@@ -71,7 +71,7 @@ public:
 
   static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
-  /// @brief Method .ctor addr 0x282868c size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x29a5f04, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "HeaderInfo", modifiers: "&&", def_value: None }]

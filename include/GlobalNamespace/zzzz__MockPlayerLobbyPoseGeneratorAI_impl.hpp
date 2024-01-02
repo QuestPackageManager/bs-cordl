@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x228ff38;
+  constexpr static std::size_t addrs = 0x23eb410;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), ".ctor", std::vector<Il2CppClass*>{},
                                     ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
@@ -25,13 +25,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Init)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x2290994;
+  constexpr static std::size_t addrs = 0x23ebe6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 5));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick)> {
-  constexpr static std::size_t size = 0x9d8;
-  constexpr static std::size_t addrs = 0x2290c64;
+  constexpr static std::size_t size = 0x9ec;
+  constexpr static std::size_t addrs = 0x23ec13c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 6));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -135,15 +135,15 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__lastRight
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastRightHandPoseTarget = value;
 }
-constexpr float_t& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__lastTargetTime() {
+constexpr int64_t& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__lastTargetTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastTargetTime;
 }
-constexpr float_t const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__lastTargetTime() const {
+constexpr int64_t const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__lastTargetTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastTargetTime;
 }
-constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__lastTargetTime(float_t value) {
+constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__lastTargetTime(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastTargetTime = value;
 }
@@ -183,15 +183,15 @@ constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__rightHand
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rightHandPoseTarget = value;
 }
-constexpr float_t& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__nextTargetTime() {
+constexpr int64_t& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__nextTargetTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextTargetTime;
 }
-constexpr float_t const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__nextTargetTime() const {
+constexpr int64_t const& GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__get__nextTargetTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nextTargetTime;
 }
-constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__nextTargetTime(float_t value) {
+constexpr void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::__set__nextTargetTime(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nextTargetTime = value;
 }
@@ -205,13 +205,13 @@ inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor(::GlobalNames
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, multiplayerSessionManager);
 }
 inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Init() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), "Tick",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

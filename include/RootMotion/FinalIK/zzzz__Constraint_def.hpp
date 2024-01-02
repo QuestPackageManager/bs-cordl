@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Constraint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12508))
 // CS Name: ::RootMotion.FinalIK::Constraint*
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_weight(float_t value);
 
-  /// @brief Method get_isValid addr 0x11d2360 size 0x60 virtual false final false
+  /// @brief Method get_isValid, addr 0x124268c, size 0x60, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method UpdateConstraint addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateConstraint, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateConstraint();
 
   static inline ::RootMotion::FinalIK::Constraint* New_ctor();
 
-  /// @brief Method .ctor addr 0x11d23c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12426ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Constraint", modifiers: "&&", def_value: None }]

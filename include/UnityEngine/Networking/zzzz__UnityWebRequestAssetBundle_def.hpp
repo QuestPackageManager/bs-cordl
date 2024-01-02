@@ -22,20 +22,21 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAssetBundle);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16137))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestAssetBundle*
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle addr 0x2d42b90 size 0x8 virtual false final false
+  /// @brief Method GetAssetBundle, addr 0x2eab97c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle addr 0x2d42b98 size 0xc0 virtual false final false
+  /// @brief Method GetAssetBundle, addr 0x2eab984, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
-  /// @brief Method GetAssetBundle addr 0x2d42cbc size 0xf0 virtual false final false
-  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
+  /// @brief Method GetAssetBundle, addr 0x2eabaa8, size 0xf0, virtual false, abstract: false, final false
+  /// @param crc: uint32_t (default: static_cast<uint32_t>(0xcccccd00u))
+  static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc = static_cast<uint32_t>(0xcccccd00u));
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestAssetBundle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

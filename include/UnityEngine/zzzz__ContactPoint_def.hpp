@@ -20,8 +20,8 @@ MARK_VAL_T(::UnityEngine::ContactPoint);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15498))
 // CS Name: ::UnityEngine::ContactPoint
 struct CORDL_TYPE ContactPoint {
 public:

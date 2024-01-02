@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRScreenshotPropertyFilenames);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9378))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8609))
 // CS Name: ::OVR.OpenVR::EVRScreenshotPropertyFilenames
 struct CORDL_TYPE EVRScreenshotPropertyFilenames {
 public:

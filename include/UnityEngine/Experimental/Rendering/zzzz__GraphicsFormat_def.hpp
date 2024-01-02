@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::GraphicsFormat);
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10328))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10406))
 // CS Name: ::UnityEngine.Experimental.Rendering::GraphicsFormat
 struct CORDL_TYPE GraphicsFormat {
 public:

@@ -4,11 +4,10 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalMultiplayerSyncState_3)
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
@@ -20,7 +19,7 @@ namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__InterpolationDelegate;
+template <typename TStateTable, typename TType, typename TState> class __StateBuffer_3__SmoothingDelegate;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
@@ -37,8 +36,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4560)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4560), inst: 3740 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4561))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3832 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14948))
 // CS Name: ::LocalMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
 public:
@@ -67,44 +66,45 @@ public:
 
   constexpr void __set__stateBuffer(::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* value);
 
-  /// @brief Method get_stateBuffer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_stateBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();
 
-  /// @brief Method get_player addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_player, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_player();
 
   static inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*
-  New_ctor(::GlobalNamespace::IConnectedPlayer* player, float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
+  New_ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
            ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
            ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, float_t fullStateUpdateFrequency, float_t deltaUpdateFrequency, int32_t size,
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param smoother: ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable,TType,TState>* (default: nullptr)
+  inline void _ctor(::GlobalNamespace::IConnectedPlayer* player, int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
                     ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,
-                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother);
+                    ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* smoother = nullptr);
 
-  /// @brief Method TryGetSerializedState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetSerializedState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetSerializedState(::GlobalNamespace::IPacketPool_1<T>* pool, ByRef<T> serializable);
 
-  /// @brief Method TryGetSerializedStateDelta addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetSerializedStateDelta, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool TryGetSerializedStateDelta(::GlobalNamespace::IPacketPool_1<T>* pool, ByRef<T> serializable);
 
-  /// @brief Method SetDirty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetDirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetCurrentTime addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void SetCurrentTime(float_t time);
+  /// @brief Method SetCurrentTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SetCurrentTime(int64_t time);
 
-  /// @brief Method SetState addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetState(TType type, TState state);
 
-  /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TState GetState(TType type);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TState get_Item(TType t);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(TType t, TState value);
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalMultiplayerSyncState_3", modifiers: "&&", def_value: None }]

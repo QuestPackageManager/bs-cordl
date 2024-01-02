@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RecordingConverter)
 namespace GlobalNamespace {
-class PosesRecordingData;
+class IBeatSaberLogger;
 }
 namespace GlobalNamespace {
-class IBeatSaberLogger;
+class PosesRecordingData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6033))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5942))
 // CS Name: ::RecordingConverter*
 class CORDL_TYPE RecordingConverter : public ::System::Object {
 public:
@@ -38,10 +38,10 @@ public:
 
   static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method .ctor addr 0x21b8da0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2302328, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method SaveToOldFormat addr 0x21b9f94 size 0xec virtual false final false
+  /// @brief Method SaveToOldFormat, addr 0x230351c, size 0xec, virtual false, abstract: false, final false
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]

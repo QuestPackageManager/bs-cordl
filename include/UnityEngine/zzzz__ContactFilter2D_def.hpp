@@ -21,25 +21,25 @@ MARK_VAL_T(::UnityEngine::ContactFilter2D);
 // SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10132))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15823))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15931))
 // CS Name: ::UnityEngine::ContactFilter2D
 struct CORDL_TYPE ContactFilter2D {
 public:
   // Declarations
-  /// @brief Method CheckConsistency addr 0x2babe88 size 0x3c virtual false final false
+  /// @brief Method CheckConsistency, addr 0x2d13270, size 0x3c, virtual false, abstract: false, final false
   inline void CheckConsistency();
 
-  /// @brief Method SetLayerMask addr 0x2babf00 size 0x10 virtual false final false
+  /// @brief Method SetLayerMask, addr 0x2d132e8, size 0x10, virtual false, abstract: false, final false
   inline void SetLayerMask(::UnityEngine::LayerMask layerMask);
 
-  /// @brief Method SetDepth addr 0x2babf10 size 0x48 virtual false final false
+  /// @brief Method SetDepth, addr 0x2d132f8, size 0x48, virtual false, abstract: false, final false
   inline void SetDepth(float_t minDepth, float_t maxDepth);
 
-  /// @brief Method CreateLegacyFilter addr 0x2baa8d4 size 0x100 virtual false final false
+  /// @brief Method CreateLegacyFilter, addr 0x2d11cbc, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::ContactFilter2D CreateLegacyFilter(int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method CheckConsistency_Injected addr 0x2babec4 size 0x3c virtual false final false
+  /// @brief Method CheckConsistency_Injected, addr 0x2d132ac, size 0x3c, virtual false, abstract: false, final false
   static inline void CheckConsistency_Injected(ByRef<::UnityEngine::ContactFilter2D> _unity_self);
 
   // Ctor Parameters [CppParam { name: "useTriggers", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "useLayerMask", ty: "bool", modifiers: "", def_value: None }, CppParam { name:

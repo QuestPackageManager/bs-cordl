@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelRestartController);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5068))
 // CS Name: ::ILevelRestartController*
 class CORDL_TYPE ILevelRestartController {
 public:
   // Declarations
-  /// @brief Method RestartLevel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RestartLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RestartLevel();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelRestartController", modifiers: "&&", def_value: None }]

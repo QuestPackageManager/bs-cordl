@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::MouseButton);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6591))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6505))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::MouseButton
 struct CORDL_TYPE MouseButton {
 public:

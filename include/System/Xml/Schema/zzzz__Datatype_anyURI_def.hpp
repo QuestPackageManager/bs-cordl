@@ -7,11 +7,26 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Datatype_anyURI)
+namespace System::Xml::Schema {
+class XmlValueConverter;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaWhiteSpace;
+}
 namespace System::Xml {
 class IXmlNamespaceResolver;
 }
 namespace System::Xml::Schema {
-class XmlValueConverter;
+class FacetsChecker;
+}
+namespace System::Xml::Schema {
+struct XmlTypeCode;
+}
+namespace System::Xml::Schema {
+class XmlSchemaType;
+}
+namespace System {
+class Type;
 }
 namespace System {
 class Object;
@@ -19,23 +34,8 @@ class Object;
 namespace System::Xml {
 class XmlNameTable;
 }
-namespace System::Xml::Schema {
-class FacetsChecker;
-}
 namespace System {
 class Exception;
-}
-namespace System {
-class Type;
-}
-namespace System::Xml::Schema {
-class XmlSchemaType;
-}
-namespace System::Xml::Schema {
-struct XmlTypeCode;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaWhiteSpace;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -47,8 +47,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_anyURI);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11552))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11578))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11650))
 // CS Name: ::System.Xml.Schema::Datatype_anyURI*
 class CORDL_TYPE Datatype_anyURI : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
@@ -77,33 +77,33 @@ public:
 
   static inline ::System::Type* getStaticF_listValueType();
 
-  /// @brief Method CreateValueConverter addr 0x273cb2c size 0xc virtual true final false
+  /// @brief Method CreateValueConverter, addr 0x28bab50, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method get_FacetsChecker addr 0x273cb38 size 0x58 virtual true final false
+  /// @brief Method get_FacetsChecker, addr 0x28bab5c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_TypeCode addr 0x273cb90 size 0x8 virtual true final false
+  /// @brief Method get_TypeCode, addr 0x28babb4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValueType addr 0x273cb98 size 0x58 virtual true final false
+  /// @brief Method get_ValueType, addr 0x28babbc, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
-  /// @brief Method get_ListValueType addr 0x273cbf0 size 0x58 virtual true final false
+  /// @brief Method get_ListValueType, addr 0x28bac14, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_BuiltInWhitespaceFacet addr 0x273cc48 size 0x8 virtual true final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x28bac6c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method Compare addr 0x273cc50 size 0xec virtual true final false
+  /// @brief Method Compare, addr 0x28bac74, size 0xec, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method TryParseValue addr 0x273cd3c size 0x16c virtual true final false
+  /// @brief Method TryParseValue, addr 0x28bad60, size 0x16c, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
   static inline ::System::Xml::Schema::Datatype_anyURI* New_ctor();
 
-  /// @brief Method .ctor addr 0x273d0a8 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x28bb0cc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Datatype_anyURI", modifiers: "&&", def_value: None }]

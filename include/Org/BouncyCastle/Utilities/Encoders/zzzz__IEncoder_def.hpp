@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE IEncoder {
 public:
   // Declarations
-  /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method Decode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Decode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DecodeString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEncoder", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITransform);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6866))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6780))
 // CS Name: ::UnityEngine.UIElements::ITransform*
 class CORDL_TYPE ITransform {
 public:
@@ -26,13 +26,13 @@ public:
 
   __declspec(property(get = get_scale))::UnityEngine::Vector3 scale;
 
-  /// @brief Method get_position addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_scale addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_scale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_scale();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITransform", modifiers: "&&", def_value: None }]

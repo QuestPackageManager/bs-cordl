@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaEngine);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(866))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaEngine*
 class CORDL_TYPE RsaEngine : public ::System::Object {
@@ -48,27 +48,27 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe6bb40 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xee0d14, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method .ctor addr 0xe6bbac size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xee0d80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName addr 0xe6bbd4 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xee0da8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xe6bc14 size 0xb8 virtual true final false
+  /// @brief Method Init, addr 0xee0de8, size 0xb8, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0xe6bccc size 0xa4 virtual true final false
+  /// @brief Method GetInputBlockSize, addr 0xee0ea0, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xe6bd70 size 0xa4 virtual true final false
+  /// @brief Method GetOutputBlockSize, addr 0xee0f44, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xe6be14 size 0x1a4 virtual true final false
+  /// @brief Method ProcessBlock, addr 0xee0fe8, size 0x1a4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaEngine", modifiers: "&&", def_value: None }]

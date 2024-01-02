@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::CoroutineTween::ITweenValue);
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13155))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13150))
 // CS Name: ::UnityEngine.UI.CoroutineTween::ITweenValue*
 class CORDL_TYPE ITweenValue {
 public:
@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_duration)) float_t duration;
 
-  /// @brief Method TweenValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TweenValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method get_ignoreTimeScale addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ignoreTimeScale, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_duration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_duration();
 
-  /// @brief Method ValidTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ValidTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ValidTarget();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITweenValue", modifiers: "&&", def_value: None }]

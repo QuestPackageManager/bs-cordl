@@ -3,6 +3,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -14,38 +15,41 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PreviewBeatmapLevelSO)
-namespace UnityEngine {
-class AudioClip;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace GlobalNamespace {
+struct __PreviewBeatmapLevelSO___GetCoverImageAsync_d__60;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
-struct __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53;
+class EnvironmentInfoSO;
+}
+namespace UnityEngine {
+class Sprite;
+}
+namespace GlobalNamespace {
+class PreviewDifficultyBeatmapSet;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmapSet;
-}
-namespace GlobalNamespace {
-struct __PreviewBeatmapLevelSO___GetCoverImageAsync_d__54;
+struct PlayerSensitivityFlag;
 }
 namespace GlobalNamespace {
 class IPreviewBeatmapLevel;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace GlobalNamespace {
-class IAssetSongPreviewAudioClipProvider;
+struct __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59;
 }
 namespace UnityEngine {
-class Sprite;
+class AudioClip;
+}
+namespace GlobalNamespace {
+class IAssetSongPreviewAudioClipProvider;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
@@ -61,46 +65,45 @@ namespace GlobalNamespace {
 class PreviewBeatmapLevelSO;
 }
 namespace GlobalNamespace {
-struct __PreviewBeatmapLevelSO___GetCoverImageAsync_d__54;
+struct __PreviewBeatmapLevelSO___GetCoverImageAsync_d__60;
 }
 namespace GlobalNamespace {
-struct __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53;
+struct __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PreviewBeatmapLevelSO);
-MARK_VAL_T(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54);
-MARK_VAL_T(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53);
-// Type: ::<GetPreviewAudioClipAsync>d__53
+MARK_VAL_T(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60);
+MARK_VAL_T(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59);
+// Type: ::<GetPreviewAudioClipAsync>d__59
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 280 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 280 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2675))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4425))
-// CS Name: ::PreviewBeatmapLevelSO::<GetPreviewAudioClipAsync>d__53
-struct CORDL_TYPE __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53 {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4405)) CS Name: ::PreviewBeatmapLevelSO::<GetPreviewAudioClipAsync>d__59
+struct CORDL_TYPE __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21ff74c size 0x230 virtual true final true
+  /// @brief Method MoveNext, addr 0x234bdec, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21ff97c size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x234c01c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::AudioClip*>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PreviewBeatmapLevelSO*", modifiers: "", def_value: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>", modifiers: "", def_value: None }]
-  constexpr __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::AudioClip*> __t__builder,
+  constexpr __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::AudioClip*> __t__builder,
                                                                      ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::PreviewBeatmapLevelSO* __4__this,
                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53();
+  constexpr __PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -123,49 +126,49 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetCoverImageAsync>d__54
+// Type: ::<GetCoverImageAsync>d__60
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 765 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3397), inst: 765 }), TypeDefinitionIndex(TypeDefinitionIndex(10213)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4426)) CS Name: ::PreviewBeatmapLevelSO::<GetCoverImageAsync>d__54
-struct CORDL_TYPE __PreviewBeatmapLevelSO___GetCoverImageAsync_d__54 {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777
+// }), TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4406)) CS Name: ::PreviewBeatmapLevelSO::<GetCoverImageAsync>d__60
+struct CORDL_TYPE __PreviewBeatmapLevelSO___GetCoverImageAsync_d__60 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21ff9d4 size 0x230 virtual true final true
+  /// @brief Method MoveNext, addr 0x234c074, size 0x230, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21ffc04 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x234c2a4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
   // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PreviewBeatmapLevelSO*", modifiers: "", def_value: None },
   // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>", modifiers: "", def_value: None }]
-  constexpr __PreviewBeatmapLevelSO___GetCoverImageAsync_d__54(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder,
+  constexpr __PreviewBeatmapLevelSO___GetCoverImageAsync_d__60(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder,
                                                                ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::PreviewBeatmapLevelSO* __4__this,
                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __PreviewBeatmapLevelSO___GetCoverImageAsync_d__54();
+  constexpr __PreviewBeatmapLevelSO___GetCoverImageAsync_d__60();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -188,32 +191,32 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, cancellationToken) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, cancellationToken) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PreviewBeatmapLevelSO
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4427))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(4658))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4407))
 // CS Name: ::PreviewBeatmapLevelSO*
 class CORDL_TYPE PreviewBeatmapLevelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  using _GetCoverImageAsync_d__54 = ::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54;
+  using _GetCoverImageAsync_d__60 = ::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60;
 
-  using _GetPreviewAudioClipAsync_d__53 = ::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53;
+  using _GetPreviewAudioClipAsync_d__59 = ::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59;
 
   /// @brief Field _levelID, offset 0x18, size 0x8
   __declspec(property(get = __get__levelID, put = __set__levelID))::StringW _levelID;
@@ -263,15 +266,21 @@ public:
   /// @brief Field _allDirectionsEnvironmentInfo, offset 0x78, size 0x8
   __declspec(property(get = __get__allDirectionsEnvironmentInfo, put = __set__allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* _allDirectionsEnvironmentInfo;
 
-  /// @brief Field _previewDifficultyBeatmapSets, offset 0x80, size 0x8
+  /// @brief Field _environmentInfos, offset 0x80, size 0x8
+  __declspec(property(get = __get__environmentInfos, put = __set__environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> _environmentInfos;
+
+  /// @brief Field _previewDifficultyBeatmapSets, offset 0x88, size 0x8
   __declspec(property(
       get = __get__previewDifficultyBeatmapSets,
       put = __set__previewDifficultyBeatmapSets))::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> _previewDifficultyBeatmapSets;
 
-  /// @brief Field _ignore360MovementBeatmaps, offset 0x88, size 0x1
+  /// @brief Field _contentRating, offset 0x90, size 0x4
+  __declspec(property(get = __get__contentRating, put = __set__contentRating))::GlobalNamespace::PlayerSensitivityFlag _contentRating;
+
+  /// @brief Field _ignore360MovementBeatmaps, offset 0x94, size 0x1
   __declspec(property(get = __get__ignore360MovementBeatmaps, put = __set__ignore360MovementBeatmaps)) bool _ignore360MovementBeatmaps;
 
-  /// @brief Field _no360MovementPreviewDifficultyBeatmapSets, offset 0x90, size 0x8
+  /// @brief Field _no360MovementPreviewDifficultyBeatmapSets, offset 0x98, size 0x8
   __declspec(property(get = __get__no360MovementPreviewDifficultyBeatmapSets, put = __set__no360MovementPreviewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<
       ::GlobalNamespace::PreviewDifficultyBeatmapSet*>* _no360MovementPreviewDifficultyBeatmapSets;
 
@@ -303,7 +312,11 @@ public:
 
   __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
 
+  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+
   __declspec(property(get = get_songPreviewAudioClip))::UnityEngine::AudioClip* songPreviewAudioClip;
+
+  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
 
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
@@ -409,11 +422,23 @@ public:
 
   constexpr void __set__allDirectionsEnvironmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
 
+  constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*>& __get__environmentInfos();
+
+  constexpr ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> const& __get__environmentInfos() const;
+
+  constexpr void __set__environmentInfos(::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> value);
+
   constexpr ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*>& __get__previewDifficultyBeatmapSets();
 
   constexpr ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> const& __get__previewDifficultyBeatmapSets() const;
 
   constexpr void __set__previewDifficultyBeatmapSets(::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> value);
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __get__contentRating();
+
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __get__contentRating() const;
+
+  constexpr void __set__contentRating(::GlobalNamespace::PlayerSensitivityFlag value);
 
   constexpr bool& __get__ignore360MovementBeatmaps();
 
@@ -428,69 +453,75 @@ public:
 
   constexpr void __set__no360MovementPreviewDifficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* value);
 
-  /// @brief Method get_levelID addr 0x21ff470 size 0x8 virtual true final true
+  /// @brief Method get_levelID, addr 0x234baf8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelID();
 
-  /// @brief Method get_songName addr 0x21ff478 size 0x8 virtual true final true
+  /// @brief Method get_songName, addr 0x234bb00, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName addr 0x21ff480 size 0x8 virtual true final true
+  /// @brief Method get_songSubName, addr 0x234bb08, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songAuthorName addr 0x21ff488 size 0x8 virtual true final true
+  /// @brief Method get_songAuthorName, addr 0x234bb10, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_levelAuthorName addr 0x21ff490 size 0x8 virtual true final true
+  /// @brief Method get_levelAuthorName, addr 0x234bb18, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_beatsPerMinute addr 0x21ff498 size 0x8 virtual true final true
+  /// @brief Method get_beatsPerMinute, addr 0x234bb20, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_songTimeOffset addr 0x21ff4a0 size 0x8 virtual true final true
+  /// @brief Method get_songTimeOffset, addr 0x234bb28, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_songDuration addr 0x21ff4a8 size 0x8 virtual true final true
+  /// @brief Method get_songDuration, addr 0x234bb30, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songDuration();
 
-  /// @brief Method get_shuffle addr 0x21ff4b0 size 0x8 virtual true final true
+  /// @brief Method get_shuffle, addr 0x234bb38, size 0x8, virtual true, abstract: false, final true
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod addr 0x21ff4b8 size 0x8 virtual true final true
+  /// @brief Method get_shufflePeriod, addr 0x234bb40, size 0x8, virtual true, abstract: false, final true
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_previewStartTime addr 0x21ff4c0 size 0x8 virtual true final true
+  /// @brief Method get_previewStartTime, addr 0x234bb48, size 0x8, virtual true, abstract: false, final true
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_previewDuration addr 0x21ff4c8 size 0x8 virtual true final true
+  /// @brief Method get_previewDuration, addr 0x234bb50, size 0x8, virtual true, abstract: false, final true
   inline float_t get_previewDuration();
 
-  /// @brief Method get_environmentInfo addr 0x21ff4d0 size 0x8 virtual true final true
+  /// @brief Method get_environmentInfo, addr 0x234bb58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method get_allDirectionsEnvironmentInfo addr 0x21ff4d8 size 0x8 virtual true final true
+  /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x234bb60, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
 
-  /// @brief Method get_songPreviewAudioClip addr 0x21ff4e0 size 0x8 virtual true final true
+  /// @brief Method get_environmentInfos, addr 0x234bb68, size 0x8, virtual true, abstract: false, final true
+  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+
+  /// @brief Method get_songPreviewAudioClip, addr 0x234bb70, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::AudioClip* get_songPreviewAudioClip();
 
-  /// @brief Method get_previewDifficultyBeatmapSets addr 0x21ff4e8 size 0x1c virtual true final true
+  /// @brief Method get_contentRating, addr 0x234bb78, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
+
+  /// @brief Method get_previewDifficultyBeatmapSets, addr 0x234bb80, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
 
-  /// @brief Method OnEnable addr 0x21ff504 size 0x28 virtual true final false
+  /// @brief Method OnEnable, addr 0x234bb9c, size 0x28, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method InitData addr 0x21ff52c size 0x20 virtual false final false
+  /// @brief Method InitData, addr 0x234bbc4, size 0x20, virtual false, abstract: false, final false
   inline void InitData();
 
-  /// @brief Method GetPreviewAudioClipAsync addr 0x21ff54c size 0xfc virtual false final false
+  /// @brief Method GetPreviewAudioClipAsync, addr 0x234bbe4, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetCoverImageAsync addr 0x21ff648 size 0xfc virtual true final true
+  /// @brief Method GetCoverImageAsync, addr 0x234bce0, size 0xfc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::PreviewBeatmapLevelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ff744 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x234bddc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreviewBeatmapLevelSO", modifiers: "&&", def_value: None }]
@@ -555,19 +586,25 @@ public:
   /// @brief Field _allDirectionsEnvironmentInfo, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentInfoSO* ____allDirectionsEnvironmentInfo;
 
-  /// @brief Field _previewDifficultyBeatmapSets, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _environmentInfos, offset: 0x80, size: 0x8, def value: None
+  ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> ____environmentInfos;
+
+  /// @brief Field _previewDifficultyBeatmapSets, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> ____previewDifficultyBeatmapSets;
 
-  /// @brief Field _ignore360MovementBeatmaps, offset: 0x88, size: 0x1, def value: None
+  /// @brief Field _contentRating, offset: 0x90, size: 0x4, def value: None
+  ::GlobalNamespace::PlayerSensitivityFlag ____contentRating;
+
+  /// @brief Field _ignore360MovementBeatmaps, offset: 0x94, size: 0x1, def value: None
   bool ____ignore360MovementBeatmaps;
 
-  /// @brief Field _no360MovementPreviewDifficultyBeatmapSets, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _no360MovementPreviewDifficultyBeatmapSets, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* ____no360MovementPreviewDifficultyBeatmapSets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PreviewBeatmapLevelSO, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PreviewBeatmapLevelSO, 0xa0>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____levelID) == 0x18, "Offset mismatch!");
 
@@ -601,14 +638,18 @@ static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____environment
 
 static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____allDirectionsEnvironmentInfo) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____previewDifficultyBeatmapSets) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____environmentInfos) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____ignore360MovementBeatmaps) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____previewDifficultyBeatmapSets) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____no360MovementPreviewDifficultyBeatmapSets) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____contentRating) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____ignore360MovementBeatmaps) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PreviewBeatmapLevelSO, ____no360MovementPreviewDifficultyBeatmapSets) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PreviewBeatmapLevelSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PreviewBeatmapLevelSO*, "", "PreviewBeatmapLevelSO");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__54, "", "PreviewBeatmapLevelSO/<GetCoverImageAsync>d__54");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__53, "", "PreviewBeatmapLevelSO/<GetPreviewAudioClipAsync>d__53");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PreviewBeatmapLevelSO___GetCoverImageAsync_d__60, "", "PreviewBeatmapLevelSO/<GetCoverImageAsync>d__60");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PreviewBeatmapLevelSO___GetPreviewAudioClipAsync_d__59, "", "PreviewBeatmapLevelSO/<GetPreviewAudioClipAsync>d__59");

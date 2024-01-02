@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MenuLightsPresetSO)
 namespace GlobalNamespace {
-class __MenuLightsPresetSO__LightIdColorPair;
+class ColorSO;
 }
 namespace GlobalNamespace {
-class ColorSO;
+class __MenuLightsPresetSO__LightIdColorPair;
 }
 namespace UnityEngine {
 struct Color;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4463))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4452))
 // CS Name: ::MenuLightsPresetSO::LightIdColorPair*
 class CORDL_TYPE __MenuLightsPresetSO__LightIdColorPair : public ::System::Object {
 public:
@@ -66,12 +66,12 @@ public:
 
   constexpr void __set_intensity(float_t value);
 
-  /// @brief Method get_lightColor addr 0x22044a8 size 0x2c virtual false final false
+  /// @brief Method get_lightColor, addr 0x23524dc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
 
   static inline ::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x22044d4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2352508, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__MenuLightsPresetSO__LightIdColorPair", modifiers: "&&", def_value: None }]
@@ -113,8 +113,8 @@ static_assert(offsetof(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4464))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4453))
 // CS Name: ::MenuLightsPresetSO*
 class CORDL_TYPE MenuLightsPresetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -157,18 +157,18 @@ public:
 
   constexpr void __set__lightIdColorPairs(::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> value);
 
-  /// @brief Method get_playersPlaceNeonsColor addr 0x2204480 size 0x8 virtual false final false
+  /// @brief Method get_playersPlaceNeonsColor, addr 0x23524b4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
 
-  /// @brief Method get_playersPlaceNeonsIntensity addr 0x2204488 size 0x8 virtual false final false
+  /// @brief Method get_playersPlaceNeonsIntensity, addr 0x23524bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playersPlaceNeonsIntensity();
 
-  /// @brief Method get_lightIdColorPairs addr 0x2204490 size 0x8 virtual false final false
+  /// @brief Method get_lightIdColorPairs, addr 0x23524c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> get_lightIdColorPairs();
 
   static inline ::GlobalNamespace::MenuLightsPresetSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2204498 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23524cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MenuLightsPresetSO", modifiers: "&&", def_value: None }]

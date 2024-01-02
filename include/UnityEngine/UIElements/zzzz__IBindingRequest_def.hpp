@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBindingRequest);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7429))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7343))
 // CS Name: ::UnityEngine.UIElements::IBindingRequest*
 class CORDL_TYPE IBindingRequest {
 public:
   // Declarations
-  /// @brief Method Bind addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Bind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Bind(::UnityEngine::UIElements::VisualElement* element);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingRequest", modifiers: "&&", def_value: None }]

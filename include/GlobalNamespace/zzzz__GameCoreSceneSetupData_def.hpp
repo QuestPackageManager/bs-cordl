@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetupData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6104))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6049))
 // CS Name: ::GameCoreSceneSetupData*
 class CORDL_TYPE GameCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   static inline ::GlobalNamespace::GameCoreSceneSetupData* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c87b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231c40c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetupData", modifiers: "&&", def_value: None }]

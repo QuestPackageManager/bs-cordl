@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AuthenticationManager)
+namespace System::Net {
+class ICredentials;
+}
 namespace System {
 class Object;
 }
 namespace System::Net {
-class ICredentialPolicy;
+class Authorization;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Net {
-class ICredentials;
-}
-namespace System::Net {
-class Authorization;
-}
-namespace System::Net {
 class WebRequest;
+}
+namespace System::Net {
+class ICredentialPolicy;
 }
 // Forward declare root types
 namespace System::Net {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Net::AuthenticationManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7985))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9148))
 // CS Name: ::System.Net::AuthenticationManager*
 class CORDL_TYPE AuthenticationManager : public ::System::Object {
 public:
@@ -60,16 +60,16 @@ public:
 
   static inline ::System::Net::ICredentialPolicy* getStaticF_credential_policy();
 
-  /// @brief Method EnsureModules addr 0x283d2a0 size 0x2a0 virtual false final false
+  /// @brief Method EnsureModules, addr 0x29bab18, size 0x2a0, virtual false, abstract: false, final false
   static inline void EnsureModules();
 
-  /// @brief Method Authenticate addr 0x283d550 size 0x10c virtual false final false
+  /// @brief Method Authenticate, addr 0x29badc8, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method DoAuthenticate addr 0x283d65c size 0x4e8 virtual false final false
+  /// @brief Method DoAuthenticate, addr 0x29baed4, size 0x4e8, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* DoAuthenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x283db44 size 0x538 virtual false final false
+  /// @brief Method PreAuthenticate, addr 0x29bb3bc, size 0x538, virtual false, abstract: false, final false
   static inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthenticationManager", modifiers: "&&", def_value: None }]

@@ -8,32 +8,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncryptionUtility)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace BGNet::Core {
-class ITaskUtility;
+namespace GlobalNamespace {
+class __EncryptionUtility____c__DisplayClass18_0;
 }
 namespace GlobalNamespace {
 class __EncryptionUtility__IEncryptionState;
 }
-namespace GlobalNamespace {
-class __EncryptionUtility____c__DisplayClass18_0;
+namespace BGNet::Core {
+class ITaskUtility;
 }
-namespace System::Security::Cryptography {
-class AesCryptoServiceProvider;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class __EncryptionUtility__EncryptionState;
 }
+namespace System::Security::Cryptography {
+class AesCryptoServiceProvider;
+}
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
 }
-namespace System {
-class IDisposable;
-}
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentQueue_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12651))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12723))
 // CS Name: ::EncryptionUtility::IEncryptionState*
 class CORDL_TYPE __EncryptionUtility__IEncryptionState {
 public:
@@ -68,13 +68,14 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method get_isValid addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isValid();
 
-  /// @brief Method EncryptData addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes);
+  /// @brief Method EncryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param extraPrefixBytes: int32_t (default: static_cast<int32_t>(0x0))
+  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes = static_cast<int32_t>(0x0));
 
-  /// @brief Method TryDecryptData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryDecryptData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryDecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EncryptionUtility__IEncryptionState", modifiers: "&&", def_value: None }]
@@ -93,8 +94,8 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12652))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12724))
 // CS Name: ::EncryptionUtility::EncryptionState*
 class CORDL_TYPE __EncryptionUtility__EncryptionState : public ::System::Object {
 public:
@@ -206,47 +207,48 @@ public:
 
   constexpr void __set__receiveMacQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::Org::BouncyCastle::Crypto::Macs::HMac*>* value);
 
-  /// @brief Method get_isValid addr 0xdb0610 size 0x18 virtual true final true
+  /// @brief Method get_isValid, addr 0xe36614, size 0x18, virtual true, abstract: false, final true
   inline bool get_isValid();
 
-  /// @brief Method EncryptData addr 0xdb0628 size 0x84 virtual true final true
-  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes);
+  /// @brief Method EncryptData, addr 0xe3662c, size 0x84, virtual true, abstract: false, final true
+  /// @param extraPrefixBytes: int32_t (default: static_cast<int32_t>(0x0))
+  inline void EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length, int32_t extraPrefixBytes = static_cast<int32_t>(0x0));
 
-  /// @brief Method TryDecryptData addr 0xdb06ac size 0x7c virtual true final true
+  /// @brief Method TryDecryptData, addr 0xe366b0, size 0x7c, virtual true, abstract: false, final true
   inline bool TryDecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ComputeSendMac addr 0xdaee00 size 0x248 virtual false final false
+  /// @brief Method ComputeSendMac, addr 0xe34e04, size 0x248, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeSendMac(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t count);
 
-  /// @brief Method ComputeReceiveMac addr 0xdafa7c size 0x248 virtual false final false
+  /// @brief Method ComputeReceiveMac, addr 0xe35a80, size 0x248, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputeReceiveMac(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t count);
 
-  /// @brief Method IsValidSequenceNum addr 0xdaf950 size 0x12c virtual false final false
+  /// @brief Method IsValidSequenceNum, addr 0xe35954, size 0x12c, virtual false, abstract: false, final false
   inline bool IsValidSequenceNum(uint32_t sequenceNum);
 
-  /// @brief Method PutSequenceNum addr 0xdafcc4 size 0x204 virtual false final false
+  /// @brief Method PutSequenceNum, addr 0xe35cc8, size 0x204, virtual false, abstract: false, final false
   inline bool PutSequenceNum(uint32_t sequenceNum);
 
-  /// @brief Method GetNextSentSequenceNum addr 0xdaedf4 size 0xc virtual false final false
+  /// @brief Method GetNextSentSequenceNum, addr 0xe34df8, size 0xc, virtual false, abstract: false, final false
   inline uint32_t GetNextSentSequenceNum();
 
   static inline ::GlobalNamespace::__EncryptionUtility__EncryptionState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method .ctor addr 0xdae12c size 0x260 virtual false final false
+  /// @brief Method .ctor, addr 0xe34130, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method MakeSeed addr 0xdb0728 size 0xe0 virtual false final false
+  /// @brief Method MakeSeed, addr 0xe3672c, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MakeSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> baseSeed, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed);
 
-  /// @brief Method PRF addr 0xdb0808 size 0xe8 virtual false final false
+  /// @brief Method PRF, addr 0xe3680c, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PRF(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, int32_t length);
 
-  /// @brief Method PRF_Hash addr 0xdb08f0 size 0x1ec virtual false final false
+  /// @brief Method PRF_Hash, addr 0xe368f4, size 0x1ec, virtual false, abstract: false, final false
   static inline void PRF_Hash(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> seed, ByRef<int32_t> length);
 
-  /// @brief Method Dispose addr 0xdb0adc size 0x18 virtual true final true
+  /// @brief Method Dispose, addr 0xe36ae0, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EncryptionUtility__EncryptionState", modifiers: "&&", def_value: None }]
@@ -331,8 +333,8 @@ static_assert(offsetof(::GlobalNamespace::__EncryptionUtility__EncryptionState, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12653))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12725))
 // CS Name: ::EncryptionUtility::<>c__DisplayClass18_0*
 class CORDL_TYPE __EncryptionUtility____c__DisplayClass18_0 : public ::System::Object {
 public:
@@ -375,10 +377,10 @@ public:
 
   static inline ::GlobalNamespace::__EncryptionUtility____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xdae38c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe34390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateEncryptionStateAsync>b__0 addr 0xdb0af4 size 0x8c virtual false final false
+  /// @brief Method <CreateEncryptionStateAsync>b__0, addr 0xe36af8, size 0x8c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* _CreateEncryptionStateAsync_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EncryptionUtility____c__DisplayClass18_0", modifiers: "&&", def_value: None }]
@@ -425,8 +427,8 @@ static_assert(offsetof(::GlobalNamespace::__EncryptionUtility____c__DisplayClass
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12654))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12726))
 // CS Name: ::EncryptionUtility*
 class CORDL_TYPE EncryptionUtility : public ::System::Object {
 public:
@@ -472,35 +474,35 @@ public:
 
   static inline ::System::Security::Cryptography::AesCryptoServiceProvider* getStaticF__aes();
 
-  /// @brief Method CreateEncryptionState addr 0xdae0a4 size 0x88 virtual false final false
+  /// @brief Method CreateEncryptionState, addr 0xe340a8, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__EncryptionUtility__IEncryptionState* CreateEncryptionState(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method CreateEncryptionStateAsync addr 0xdabce0 size 0x16c virtual false final false
+  /// @brief Method CreateEncryptionStateAsync, addr 0xe31cf8, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__EncryptionUtility__IEncryptionState*>*
   CreateEncryptionStateAsync(::BGNet::Core::ITaskUtility* taskUtility, ::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,
                              ::ArrayW<uint8_t, ::Array<uint8_t>*> clientSeed, bool isClient);
 
-  /// @brief Method IsValidLength addr 0xdae394 size 0x20 virtual false final false
+  /// @brief Method IsValidLength, addr 0xe34398, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidLength(int32_t length);
 
-  /// @brief Method EncryptData addr 0xdae3b4 size 0xa40 virtual false final false
+  /// @brief Method EncryptData, addr 0xe343b8, size 0xa40, virtual false, abstract: false, final false
   static inline void EncryptData(::GlobalNamespace::__EncryptionUtility__EncryptionState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length,
                                  int32_t extraPrefixedData);
 
-  /// @brief Method TryDecryptData addr 0xdaf048 size 0x908 virtual false final false
+  /// @brief Method TryDecryptData, addr 0xe3504c, size 0x908, virtual false, abstract: false, final false
   static inline bool TryDecryptData(::GlobalNamespace::__EncryptionUtility__EncryptionState* state, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method FastCopyBlock addr 0xdafec8 size 0x314 virtual false final false
+  /// @brief Method FastCopyBlock, addr 0xe35ecc, size 0x314, virtual false, abstract: false, final false
   static inline void FastCopyBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inArr, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outArr, int32_t outOff);
 
-  /// @brief Method FastCopyMac addr 0xdb01dc size 0x1f4 virtual false final false
+  /// @brief Method FastCopyMac, addr 0xe361e0, size 0x1f4, virtual false, abstract: false, final false
   static inline void FastCopyMac(::ArrayW<uint8_t, ::Array<uint8_t>*> inArr, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outArr, int32_t outOff);
 
-  /// @brief Method Log addr 0xdb03d0 size 0x8c virtual false final false
+  /// @brief Method Log, addr 0xe363d4, size 0x8c, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
-  /// @brief Method LogV addr 0xdb045c size 0x8c virtual false final false
+  /// @brief Method LogV, addr 0xe36460, size 0x8c, virtual false, abstract: false, final false
   static inline void LogV(::StringW message);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncryptionUtility", modifiers: "&&", def_value: None }]

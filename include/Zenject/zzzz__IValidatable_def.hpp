@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IValidatable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11293))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11365))
 // CS Name: ::Zenject::IValidatable*
 class CORDL_TYPE IValidatable {
 public:
   // Declarations
-  /// @brief Method Validate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Validate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Validate();
 
   // Ctor Parameters [CppParam { name: "", ty: "IValidatable", modifiers: "&&", def_value: None }]

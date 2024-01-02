@@ -7,10 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProviderBase_1)
 namespace System {
-class Object;
+class Action;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class IProvider;
+}
+namespace System {
+struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectContext;
@@ -18,23 +27,14 @@ class InjectContext;
 namespace System {
 class Type;
 }
-namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace System {
-class Action;
-}
-namespace System {
-struct Guid;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,8 +48,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11122))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11194))
 // CS Name: ::Zenject::IFactoryProviderBase`1<TContract>*
 class CORDL_TYPE IFactoryProviderBase_1 : public ::System::Object {
 public:
@@ -85,35 +85,35 @@ public:
 
   static inline ::Zenject::IFactoryProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_FactoryId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Guid get_FactoryId();
 
-  /// @brief Method set_FactoryId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_FactoryId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_FactoryId(::System::Guid value);
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method set_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "IFactoryProviderBase_1", modifiers: "&&", def_value: None }]

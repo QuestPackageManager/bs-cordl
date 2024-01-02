@@ -3,14 +3,14 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IResourceReader)
-namespace System {
-class IDisposable;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Resources {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Resources::IResourceReader);
 namespace System::Resources {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3420))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3425))
 // CS Name: ::System.Resources::IResourceReader*
 class CORDL_TYPE IResourceReader {
 public:
@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Close();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceReader", modifiers: "&&", def_value: None }]

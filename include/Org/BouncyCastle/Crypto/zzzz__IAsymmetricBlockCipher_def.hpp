@@ -27,19 +27,19 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method get_AlgorithmName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method GetInputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetInputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOutputBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsymmetricBlockCipher", modifiers: "&&", def_value: None }]

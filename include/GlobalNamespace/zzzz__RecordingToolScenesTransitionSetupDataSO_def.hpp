@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13940))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6137))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6077))
 // CS Name: ::RecordingToolScenesTransitionSetupDataSO*
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init addr 0x21e58a4 size 0x8 virtual false final false
+  /// @brief Method Init, addr 0x231b73c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e58ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231ff88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

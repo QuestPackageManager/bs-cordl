@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_LayerMask_Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9853))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9926))
 // CS Name: ::HoudiniEngineUnity::Test_LayerMask_Extensions*
 class CORDL_TYPE Test_LayerMask_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject addr 0x208e0d4 size 0x64 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e6a70, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_LayerMask* ToTestObject(::UnityEngine::LayerMask self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_LayerMask_Extensions", modifiers: "&&", def_value: None }]

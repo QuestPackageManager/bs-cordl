@@ -23,8 +23,8 @@ MARK_VAL_T(::UnityEngine::SkeletonBone);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15079))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14849))
 // CS Name: ::UnityEngine::SkeletonBone
 struct CORDL_TYPE SkeletonBone {
 public:

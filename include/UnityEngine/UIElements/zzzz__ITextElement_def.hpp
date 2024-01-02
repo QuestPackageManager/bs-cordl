@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITextElement);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6897))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6811))
 // CS Name: ::UnityEngine.UIElements::ITextElement*
 class CORDL_TYPE ITextElement {
 public:
   // Declarations
   __declspec(property(get = get_text))::StringW text;
 
-  /// @brief Method get_text addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_text, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_text();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITextElement", modifiers: "&&", def_value: None }]

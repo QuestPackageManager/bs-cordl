@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::IHasDefault);
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12129))
 // CS Name: ::UnityEngine.ProBuilder::IHasDefault*
 class CORDL_TYPE IHasDefault {
 public:
   // Declarations
-  /// @brief Method SetDefaultValues addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetDefaultValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetDefaultValues();
 
   // Ctor Parameters [CppParam { name: "", ty: "IHasDefault", modifiers: "&&", def_value: None }]

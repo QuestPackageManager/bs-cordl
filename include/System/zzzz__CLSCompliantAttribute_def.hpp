@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::CLSCompliantAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2361))
 // CS Name: ::System::CLSCompliantAttribute*
 class CORDL_TYPE CLSCompliantAttribute : public ::System::Attribute {
@@ -31,7 +31,7 @@ public:
 
   static inline ::System::CLSCompliantAttribute* New_ctor(bool isCompliant);
 
-  /// @brief Method .ctor addr 0x23cc05c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2525328, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isCompliant);
 
   // Ctor Parameters [CppParam { name: "", ty: "CLSCompliantAttribute", modifiers: "&&", def_value: None }]

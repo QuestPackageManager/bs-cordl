@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::SecureRandom);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2459))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2461))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1111))
 // CS Name: ::Org.BouncyCastle.Security::SecureRandom*
 class CORDL_TYPE SecureRandom : public ::System::Random {
@@ -60,73 +60,73 @@ public:
 
   static inline double_t getStaticF_DoubleScale();
 
-  /// @brief Method NextCounterValue addr 0xecccf4 size 0x58 virtual false final false
+  /// @brief Method NextCounterValue, addr 0xf42ee0, size 0x58, virtual false, abstract: false, final false
   static inline int64_t NextCounterValue();
 
-  /// @brief Method get_Master addr 0xeccd4c size 0x58 virtual false final false
+  /// @brief Method get_Master, addr 0xf42f38, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Security::SecureRandom* get_Master();
 
-  /// @brief Method CreatePrng addr 0xeccda4 size 0x1a8 virtual false final false
+  /// @brief Method CreatePrng, addr 0xf42f90, size 0x1a8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::StringW digestName, bool autoSeed);
 
-  /// @brief Method GetNextBytes addr 0xecb9d0 size 0x7c virtual false final false
+  /// @brief Method GetNextBytes, addr 0xf41bbc, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNextBytes(::Org::BouncyCastle::Security::SecureRandom* secureRandom, int32_t length);
 
-  /// @brief Method GetInstance addr 0xeccf4c size 0x58 virtual false final false
+  /// @brief Method GetInstance, addr 0xf43138, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Security::SecureRandom* GetInstance(::StringW algorithm);
 
-  /// @brief Method GetInstance addr 0xeccfa4 size 0x184 virtual false final false
+  /// @brief Method GetInstance, addr 0xf43190, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Security::SecureRandom* GetInstance(::StringW algorithm, bool autoSeed);
 
-  /// @brief Method GetSeed addr 0xecd198 size 0x90 virtual false final false
+  /// @brief Method GetSeed, addr 0xf43384, size 0x90, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed(int32_t length);
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* New_ctor();
 
-  /// @brief Method .ctor addr 0xec3034 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0xf39220, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor addr 0xecd228 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0xf43414, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator);
 
-  /// @brief Method .ctor addr 0xecd128 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0xf43314, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator);
 
-  /// @brief Method GenerateSeed addr 0xecd2c0 size 0x90 virtual true final false
+  /// @brief Method GenerateSeed, addr 0xf434ac, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t length);
 
-  /// @brief Method SetSeed addr 0xecd350 size 0xa8 virtual true final false
+  /// @brief Method SetSeed, addr 0xf4353c, size 0xa8, virtual true, abstract: false, final false
   inline void SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method SetSeed addr 0xecd3f8 size 0xac virtual true final false
+  /// @brief Method SetSeed, addr 0xf435e4, size 0xac, virtual true, abstract: false, final false
   inline void SetSeed(int64_t seed);
 
-  /// @brief Method Next addr 0xecd4a4 size 0x20 virtual true final false
+  /// @brief Method Next, addr 0xf43690, size 0x20, virtual true, abstract: false, final false
   inline int32_t Next();
 
-  /// @brief Method Next addr 0xecd4c4 size 0xf0 virtual true final false
+  /// @brief Method Next, addr 0xf436b0, size 0xf0, virtual true, abstract: false, final false
   inline int32_t Next(int32_t maxValue);
 
-  /// @brief Method Next addr 0xecd5b4 size 0xc8 virtual true final false
+  /// @brief Method Next, addr 0xf437a0, size 0xc8, virtual true, abstract: false, final false
   inline int32_t Next(int32_t minValue, int32_t maxValue);
 
-  /// @brief Method NextBytes addr 0xecd67c size 0xac virtual true final false
+  /// @brief Method NextBytes, addr 0xf43868, size 0xac, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method NextBytes addr 0xecd728 size 0xc4 virtual true final false
+  /// @brief Method NextBytes, addr 0xf43914, size 0xc4, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method NextDouble addr 0xecd7ec size 0xb8 virtual true final false
+  /// @brief Method NextDouble, addr 0xf439d8, size 0xb8, virtual true, abstract: false, final false
   inline double_t NextDouble();
 
-  /// @brief Method NextInt addr 0xecd8a4 size 0x6c virtual true final false
+  /// @brief Method NextInt, addr 0xf43a90, size 0x6c, virtual true, abstract: false, final false
   inline int32_t NextInt();
 
-  /// @brief Method NextLong addr 0xecd910 size 0x6c virtual true final false
+  /// @brief Method NextLong, addr 0xf43afc, size 0x6c, virtual true, abstract: false, final false
   inline int64_t NextLong();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecureRandom", modifiers: "&&", def_value: None }]

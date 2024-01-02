@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OSSpecificSynchronizationContext)
 namespace System::Threading {
-class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
+class __OSSpecificSynchronizationContext__InvocationContext;
 }
 namespace System::Threading {
 class SynchronizationContext;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading {
-class __OSSpecificSynchronizationContext____c;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Threading {
 class SendOrPostCallback;
 }
 namespace System::Threading {
-class __OSSpecificSynchronizationContext__InvocationContext;
+class __OSSpecificSynchronizationContext____c;
+}
+namespace System::Threading {
+class __OSSpecificSynchronizationContext__InvocationEntryDelegate;
+}
+namespace System {
+class Object;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class __ConditionalWeakTable_2__CreateValueCallback;
@@ -53,18 +53,18 @@ MARK_REF_PTR_T(::System::Threading::__OSSpecificSynchronizationContext____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2716))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2718))
 // CS Name: ::OSSpecificSynchronizationContext::InvocationEntryDelegate*
 class CORDL_TYPE __OSSpecificSynchronizationContext__InvocationEntryDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationEntryDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24bdff8 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2619014, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24be1a0 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x26191bc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(void* arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext__InvocationEntryDelegate", modifiers: "&&", def_value: None }]
@@ -91,8 +91,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__OSSpecificS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2717))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2719))
 // CS Name: ::OSSpecificSynchronizationContext::InvocationContext*
 class CORDL_TYPE __OSSpecificSynchronizationContext__InvocationContext : public ::System::Object {
 public:
@@ -117,10 +117,10 @@ public:
 
   static inline ::System::Threading::__OSSpecificSynchronizationContext__InvocationContext* New_ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method .ctor addr 0x24be0bc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x26190d8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Invoke addr 0x24be0ec size 0x28 virtual false final false
+  /// @brief Method Invoke, addr 0x2619108, size 0x28, virtual false, abstract: false, final false
   inline void Invoke();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext__InvocationContext", modifiers: "&&", def_value: None }]
@@ -157,8 +157,8 @@ static_assert(offsetof(::System::Threading::__OSSpecificSynchronizationContext__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2718))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2720))
 // CS Name: ::OSSpecificSynchronizationContext::<>c*
 class CORDL_TYPE __OSSpecificSynchronizationContext____c : public ::System::Object {
 public:
@@ -181,10 +181,10 @@ public:
 
   static inline ::System::Threading::__OSSpecificSynchronizationContext____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x24be218 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2619234, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Get>b__3_0 addr 0x24be220 size 0x64 virtual false final false
+  /// @brief Method <Get>b__3_0, addr 0x261923c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::OSSpecificSynchronizationContext* _Get_b__3_0(::System::Object* _osContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OSSpecificSynchronizationContext____c", modifiers: "&&", def_value: None }]
@@ -211,8 +211,8 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__OSSpecificS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2715))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2719))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2717))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2721))
 // CS Name: ::System.Threading::OSSpecificSynchronizationContext*
 class CORDL_TYPE OSSpecificSynchronizationContext : public ::System::Threading::SynchronizationContext {
 public:
@@ -243,28 +243,28 @@ public:
 
   static inline ::System::Threading::OSSpecificSynchronizationContext* New_ctor(::System::Object* osContext);
 
-  /// @brief Method .ctor addr 0x24bddcc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2618de8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* osContext);
 
-  /// @brief Method Get addr 0x24bdaa8 size 0x15c virtual false final false
+  /// @brief Method Get, addr 0x2618ac4, size 0x15c, virtual false, abstract: false, final false
   static inline ::System::Threading::OSSpecificSynchronizationContext* Get();
 
-  /// @brief Method CreateCopy addr 0x24bddf8 size 0x68 virtual true final false
+  /// @brief Method CreateCopy, addr 0x2618e14, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::SynchronizationContext* CreateCopy();
 
-  /// @brief Method Send addr 0x24bde60 size 0x40 virtual true final false
+  /// @brief Method Send, addr 0x2618e7c, size 0x40, virtual true, abstract: false, final false
   inline void Send(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method Post addr 0x24bdea0 size 0x158 virtual true final false
+  /// @brief Method Post, addr 0x2618ebc, size 0x158, virtual true, abstract: false, final false
   inline void Post(::System::Threading::SendOrPostCallback* d, ::System::Object* state);
 
-  /// @brief Method InvocationEntry addr 0x24bdc64 size 0x168 virtual false final false
+  /// @brief Method InvocationEntry, addr 0x2618c80, size 0x168, virtual false, abstract: false, final false
   static inline void InvocationEntry(void* arg);
 
-  /// @brief Method GetOSContext addr 0x24bddf4 size 0x4 virtual false final false
+  /// @brief Method GetOSContext, addr 0x2618e10, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Object* GetOSContext();
 
-  /// @brief Method PostInternal addr 0x24be0e8 size 0x4 virtual false final false
+  /// @brief Method PostInternal, addr 0x2619104, size 0x4, virtual false, abstract: false, final false
   static inline void PostInternal(::System::Object* osSynchronizationContext, void* callback, void* arg);
 
   // Ctor Parameters [CppParam { name: "", ty: "OSSpecificSynchronizationContext", modifiers: "&&", def_value: None }]

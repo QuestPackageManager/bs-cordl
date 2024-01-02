@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ServiceEnvironment);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12669))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12740))
 // CS Name: ::ServiceEnvironment
 struct CORDL_TYPE ServiceEnvironment {
 public:
@@ -32,6 +32,9 @@ public:
     __E_Development = static_cast<int32_t>(0x4),
     __E_ProductionA = static_cast<int32_t>(0x5),
     __E_ProductionB = static_cast<int32_t>(0x6),
+    __E_DevelopmentA = static_cast<int32_t>(0x7),
+    __E_DevelopmentB = static_cast<int32_t>(0x8),
+    __E_ProductionC = static_cast<int32_t>(0x9),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -72,6 +75,15 @@ public:
 
   /// @brief Field ProductionB value: static_cast<int32_t>(0x6)
   static ::GlobalNamespace::ServiceEnvironment const ProductionB;
+
+  /// @brief Field DevelopmentA value: static_cast<int32_t>(0x7)
+  static ::GlobalNamespace::ServiceEnvironment const DevelopmentA;
+
+  /// @brief Field DevelopmentB value: static_cast<int32_t>(0x8)
+  static ::GlobalNamespace::ServiceEnvironment const DevelopmentB;
+
+  /// @brief Field ProductionC value: static_cast<int32_t>(0x9)
+  static ::GlobalNamespace::ServiceEnvironment const ProductionC;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

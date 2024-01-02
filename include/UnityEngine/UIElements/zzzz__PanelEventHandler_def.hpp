@@ -13,94 +13,94 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PanelEventHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
 class IMoveHandler;
 }
 namespace UnityEngine::EventSystems {
-class EventSystem;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::EventSystems {
-class ISubmitHandler;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-class Event;
-}
-namespace UnityEngine::EventSystems {
-class IPointerExitHandler;
-}
-namespace UnityEngine::UIElements {
-struct __PanelEventHandler__PointerEventType;
-}
-namespace UnityEngine::UIElements {
-class __PanelEventHandler__PointerEvent;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerMoveHandler;
+class IDeselectHandler;
 }
 namespace UnityEngine::EventSystems {
 class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
-class ICancelHandler;
-}
-namespace UnityEngine::EventSystems {
 class IScrollHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerDownHandler;
-}
-namespace UnityEngine::EventSystems {
-class IDeselectHandler;
 }
 namespace UnityEngine::UIElements {
 class IPanel;
 }
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
 namespace UnityEngine::UIElements {
-class BlurEvent;
+class __PanelEventHandler__PointerEvent;
+}
+namespace UnityEngine::EventSystems {
+class ICancelHandler;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerMoveHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::UIElements {
+struct __PanelEventHandler__PointerEventType;
+}
+namespace UnityEngine::EventSystems {
+class EventSystem;
+}
+namespace UnityEngine::UIElements {
+class IRuntimePanelComponent;
+}
+namespace UnityEngine::EventSystems {
+class BaseEventData;
+}
+namespace UnityEngine::UIElements {
+class BaseRuntimePanel;
 }
 namespace UnityEngine::UIElements {
 class FocusEvent;
 }
 namespace UnityEngine::EventSystems {
+class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
 class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
-class BaseEventData;
+class ISubmitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
+class BlurEvent;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::UIElements {
-class IRuntimePanelComponent;
+namespace UnityEngine {
+struct Vector3;
 }
-namespace UnityEngine::UIElements {
-class BaseRuntimePanel;
-}
-namespace UnityEngine::EventSystems {
-class AxisEventData;
+namespace UnityEngine {
+struct EventModifiers;
 }
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct Vector3;
-}
 namespace UnityEngine::UIElements {
 class IPointerEvent;
-}
-namespace UnityEngine {
-struct EventModifiers;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -121,7 +121,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13158))
 // CS Name: ::PanelEventHandler::PointerEventType
 struct CORDL_TYPE __PanelEventHandler__PointerEventType {
 public:
@@ -174,8 +174,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14819)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10170))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13164)) CS Name: ::PanelEventHandler::PointerEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
 class CORDL_TYPE __PanelEventHandler__PointerEvent : public ::System::Object {
 public:
   // Declarations
@@ -390,142 +390,142 @@ public:
 
   constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
 
-  /// @brief Method get_pointerId addr 0x2c2c6a0 size 0x8 virtual true final true
+  /// @brief Method get_pointerId, addr 0x2d94a50, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_pointerId();
 
-  /// @brief Method set_pointerId addr 0x2c2c6a8 size 0x8 virtual false final false
+  /// @brief Method set_pointerId, addr 0x2d94a58, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
-  /// @brief Method get_pointerType addr 0x2c2c6b0 size 0x8 virtual true final true
+  /// @brief Method get_pointerType, addr 0x2d94a60, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_pointerType();
 
-  /// @brief Method set_pointerType addr 0x2c2c6b8 size 0x8 virtual false final false
+  /// @brief Method set_pointerType, addr 0x2d94a68, size 0x8, virtual false, abstract: false, final false
   inline void set_pointerType(::StringW value);
 
-  /// @brief Method get_isPrimary addr 0x2c2c6c0 size 0x8 virtual true final true
+  /// @brief Method get_isPrimary, addr 0x2d94a70, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPrimary();
 
-  /// @brief Method set_isPrimary addr 0x2c2c6c8 size 0xc virtual false final false
+  /// @brief Method set_isPrimary, addr 0x2d94a78, size 0xc, virtual false, abstract: false, final false
   inline void set_isPrimary(bool value);
 
-  /// @brief Method get_button addr 0x2c2c6d4 size 0x8 virtual true final true
+  /// @brief Method get_button, addr 0x2d94a84, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_button();
 
-  /// @brief Method set_button addr 0x2c2c6dc size 0x8 virtual false final false
+  /// @brief Method set_button, addr 0x2d94a8c, size 0x8, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
 
-  /// @brief Method get_pressedButtons addr 0x2c2c6e4 size 0x8 virtual true final true
+  /// @brief Method get_pressedButtons, addr 0x2d94a94, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
-  /// @brief Method set_pressedButtons addr 0x2c2c6ec size 0x8 virtual false final false
+  /// @brief Method set_pressedButtons, addr 0x2d94a9c, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedButtons(int32_t value);
 
-  /// @brief Method get_position addr 0x2c2c6f4 size 0xc virtual true final true
+  /// @brief Method get_position, addr 0x2d94aa4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method set_position addr 0x2c2c700 size 0xc virtual false final false
+  /// @brief Method set_position, addr 0x2d94ab0, size 0xc, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_localPosition addr 0x2c2c70c size 0xc virtual true final true
+  /// @brief Method get_localPosition, addr 0x2d94abc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method set_localPosition addr 0x2c2c718 size 0xc virtual false final false
+  /// @brief Method set_localPosition, addr 0x2d94ac8, size 0xc, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_deltaPosition addr 0x2c2c724 size 0xc virtual true final true
+  /// @brief Method get_deltaPosition, addr 0x2d94ad4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector3 get_deltaPosition();
 
-  /// @brief Method set_deltaPosition addr 0x2c2c730 size 0xc virtual false final false
+  /// @brief Method set_deltaPosition, addr 0x2d94ae0, size 0xc, virtual false, abstract: false, final false
   inline void set_deltaPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_deltaTime addr 0x2c2c73c size 0x8 virtual true final true
+  /// @brief Method get_deltaTime, addr 0x2d94aec, size 0x8, virtual true, abstract: false, final true
   inline float_t get_deltaTime();
 
-  /// @brief Method set_deltaTime addr 0x2c2c744 size 0x8 virtual false final false
+  /// @brief Method set_deltaTime, addr 0x2d94af4, size 0x8, virtual false, abstract: false, final false
   inline void set_deltaTime(float_t value);
 
-  /// @brief Method get_clickCount addr 0x2c2c74c size 0x8 virtual true final true
+  /// @brief Method get_clickCount, addr 0x2d94afc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
 
-  /// @brief Method set_clickCount addr 0x2c2c754 size 0x8 virtual false final false
+  /// @brief Method set_clickCount, addr 0x2d94b04, size 0x8, virtual false, abstract: false, final false
   inline void set_clickCount(int32_t value);
 
-  /// @brief Method get_pressure addr 0x2c2c75c size 0x8 virtual true final true
+  /// @brief Method get_pressure, addr 0x2d94b0c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_pressure();
 
-  /// @brief Method set_pressure addr 0x2c2c764 size 0x8 virtual false final false
+  /// @brief Method set_pressure, addr 0x2d94b14, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(float_t value);
 
-  /// @brief Method get_tangentialPressure addr 0x2c2c76c size 0x8 virtual true final true
+  /// @brief Method get_tangentialPressure, addr 0x2d94b1c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_tangentialPressure();
 
-  /// @brief Method set_tangentialPressure addr 0x2c2c774 size 0x8 virtual false final false
+  /// @brief Method set_tangentialPressure, addr 0x2d94b24, size 0x8, virtual false, abstract: false, final false
   inline void set_tangentialPressure(float_t value);
 
-  /// @brief Method get_altitudeAngle addr 0x2c2c77c size 0x8 virtual true final true
+  /// @brief Method get_altitudeAngle, addr 0x2d94b2c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_altitudeAngle();
 
-  /// @brief Method set_altitudeAngle addr 0x2c2c784 size 0x8 virtual false final false
+  /// @brief Method set_altitudeAngle, addr 0x2d94b34, size 0x8, virtual false, abstract: false, final false
   inline void set_altitudeAngle(float_t value);
 
-  /// @brief Method get_azimuthAngle addr 0x2c2c78c size 0x8 virtual true final true
+  /// @brief Method get_azimuthAngle, addr 0x2d94b3c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_azimuthAngle();
 
-  /// @brief Method set_azimuthAngle addr 0x2c2c794 size 0x8 virtual false final false
+  /// @brief Method set_azimuthAngle, addr 0x2d94b44, size 0x8, virtual false, abstract: false, final false
   inline void set_azimuthAngle(float_t value);
 
-  /// @brief Method get_twist addr 0x2c2c79c size 0x8 virtual true final true
+  /// @brief Method get_twist, addr 0x2d94b4c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_twist();
 
-  /// @brief Method set_twist addr 0x2c2c7a4 size 0x8 virtual false final false
+  /// @brief Method set_twist, addr 0x2d94b54, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(float_t value);
 
-  /// @brief Method get_radius addr 0x2c2c7ac size 0x8 virtual true final true
+  /// @brief Method get_radius, addr 0x2d94b5c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radius();
 
-  /// @brief Method set_radius addr 0x2c2c7b4 size 0x8 virtual false final false
+  /// @brief Method set_radius, addr 0x2d94b64, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_radiusVariance addr 0x2c2c7bc size 0x8 virtual true final true
+  /// @brief Method get_radiusVariance, addr 0x2d94b6c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_radiusVariance();
 
-  /// @brief Method set_radiusVariance addr 0x2c2c7c4 size 0x8 virtual false final false
+  /// @brief Method set_radiusVariance, addr 0x2d94b74, size 0x8, virtual false, abstract: false, final false
   inline void set_radiusVariance(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_modifiers addr 0x2c2c7cc size 0x8 virtual true final true
+  /// @brief Method get_modifiers, addr 0x2d94b7c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();
 
-  /// @brief Method set_modifiers addr 0x2c2c7d4 size 0x8 virtual false final false
+  /// @brief Method set_modifiers, addr 0x2d94b84, size 0x8, virtual false, abstract: false, final false
   inline void set_modifiers(::UnityEngine::EventModifiers value);
 
-  /// @brief Method get_shiftKey addr 0x2c2c7dc size 0xc virtual true final true
+  /// @brief Method get_shiftKey, addr 0x2d94b8c, size 0xc, virtual true, abstract: false, final true
   inline bool get_shiftKey();
 
-  /// @brief Method get_ctrlKey addr 0x2c2c7e8 size 0xc virtual true final true
+  /// @brief Method get_ctrlKey, addr 0x2d94b98, size 0xc, virtual true, abstract: false, final true
   inline bool get_ctrlKey();
 
-  /// @brief Method get_commandKey addr 0x2c2c7f4 size 0xc virtual true final true
+  /// @brief Method get_commandKey, addr 0x2d94ba4, size 0xc, virtual true, abstract: false, final true
   inline bool get_commandKey();
 
-  /// @brief Method get_altKey addr 0x2c2c800 size 0xc virtual true final true
+  /// @brief Method get_altKey, addr 0x2d94bb0, size 0xc, virtual true, abstract: false, final true
   inline bool get_altKey();
 
-  /// @brief Method get_actionKey addr 0x2c2c80c size 0x44 virtual true final true
+  /// @brief Method get_actionKey, addr 0x2d94bbc, size 0x44, virtual true, abstract: false, final true
   inline bool get_actionKey();
 
-  /// @brief Method Read addr 0x2c2c150 size 0x490 virtual false final false
+  /// @brief Method Read, addr 0x2d94500, size 0x490, virtual false, abstract: false, final false
   inline void Read(::UnityEngine::UIElements::PanelEventHandler* self, ::UnityEngine::EventSystems::PointerEventData* eventData,
                    ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType eventType);
 
-  /// @brief Method SetPosition addr 0x2c2c5e0 size 0x18 virtual false final false
+  /// @brief Method SetPosition, addr 0x2d94990, size 0x18, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 positionOverride, ::UnityEngine::Vector3 deltaOverride);
 
   static inline ::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c2c690 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d94a40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Read>g__InRange|82_0 addr 0x2c2c850 size 0x1c virtual false final false
+  /// @brief Method <Read>g__InRange|82_0, addr 0x2d94c00, size 0x1c, virtual false, abstract: false, final false
   static inline bool _Read_g__InRange_82_0(int32_t i, int32_t start, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PanelEventHandler__PointerEvent", modifiers: "&&", def_value: None }]
@@ -642,8 +642,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14819)), TypeDefinitionIndex(TypeDefinitionIndex(13219))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13165))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13160))
 // CS Name: ::UnityEngine.UIElements::PanelEventHandler*
 class CORDL_TYPE PanelEventHandler : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
@@ -740,109 +740,110 @@ public:
 
   static inline ::UnityEngine::EventModifiers getStaticF_s_Modifiers();
 
-  /// @brief Method get_panel addr 0x2c2a058 size 0x8 virtual true final true
+  /// @brief Method get_panel, addr 0x2d92408, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPanel* get_panel();
 
-  /// @brief Method set_panel addr 0x2c2a060 size 0xa4 virtual true final true
+  /// @brief Method set_panel, addr 0x2d92410, size 0xa4, virtual true, abstract: false, final true
   inline void set_panel(::UnityEngine::UIElements::IPanel* value);
 
-  /// @brief Method get_selectableGameObject addr 0x2c2a484 size 0x18 virtual false final false
+  /// @brief Method get_selectableGameObject, addr 0x2d92834, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_selectableGameObject();
 
-  /// @brief Method get_eventSystem addr 0x2c2a49c size 0xd4 virtual false final false
+  /// @brief Method get_eventSystem, addr 0x2d9284c, size 0xd4, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::EventSystem* get_eventSystem();
 
-  /// @brief Method OnEnable addr 0x2c2a570 size 0x4 virtual true final false
+  /// @brief Method OnEnable, addr 0x2d92920, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2c2a578 size 0x4 virtual true final false
+  /// @brief Method OnDisable, addr 0x2d92928, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RegisterCallbacks addr 0x2c2a2c4 size 0x1c0 virtual false final false
+  /// @brief Method RegisterCallbacks, addr 0x2d92674, size 0x1c0, virtual false, abstract: false, final false
   inline void RegisterCallbacks();
 
-  /// @brief Method UnregisterCallbacks addr 0x2c2a104 size 0x1c0 virtual false final false
+  /// @brief Method UnregisterCallbacks, addr 0x2d924b4, size 0x1c0, virtual false, abstract: false, final false
   inline void UnregisterCallbacks();
 
-  /// @brief Method OnPanelDestroyed addr 0x2c2a580 size 0x8 virtual false final false
+  /// @brief Method OnPanelDestroyed, addr 0x2d92930, size 0x8, virtual false, abstract: false, final false
   inline void OnPanelDestroyed();
 
-  /// @brief Method OnElementFocus addr 0x2c2a588 size 0xbc virtual false final false
+  /// @brief Method OnElementFocus, addr 0x2d92938, size 0xbc, virtual false, abstract: false, final false
   inline void OnElementFocus(::UnityEngine::UIElements::FocusEvent* e);
 
-  /// @brief Method OnElementBlur addr 0x2c2a670 size 0x4 virtual false final false
+  /// @brief Method OnElementBlur, addr 0x2d92a20, size 0x4, virtual false, abstract: false, final false
   inline void OnElementBlur(::UnityEngine::UIElements::BlurEvent* e);
 
-  /// @brief Method OnSelect addr 0x2c2a674 size 0x78 virtual true final true
+  /// @brief Method OnSelect, addr 0x2d92a24, size 0x78, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDeselect addr 0x2c2a6ec size 0x14 virtual true final true
+  /// @brief Method OnDeselect, addr 0x2d92a9c, size 0x14, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerMove addr 0x2c2a700 size 0x1b0 virtual true final true
+  /// @brief Method OnPointerMove, addr 0x2d92ab0, size 0x1b0, virtual true, abstract: false, final true
   inline void OnPointerMove(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp addr 0x2c2aa50 size 0x220 virtual true final true
+  /// @brief Method OnPointerUp, addr 0x2d92e00, size 0x220, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown addr 0x2c2ac70 size 0x288 virtual true final true
+  /// @brief Method OnPointerDown, addr 0x2d93020, size 0x288, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit addr 0x2c2aef8 size 0x2b4 virtual true final true
+  /// @brief Method OnPointerExit, addr 0x2d932a8, size 0x2b4, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter addr 0x2c2b1ac size 0x54 virtual true final true
+  /// @brief Method OnPointerEnter, addr 0x2d9355c, size 0x54, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit addr 0x2c2b200 size 0x1b8 virtual true final true
+  /// @brief Method OnSubmit, addr 0x2d935b0, size 0x1b8, virtual true, abstract: false, final true
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnCancel addr 0x2c2b3b8 size 0x1b8 virtual true final true
+  /// @brief Method OnCancel, addr 0x2d93768, size 0x1b8, virtual true, abstract: false, final true
   inline void OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnMove addr 0x2c2b570 size 0x18c virtual true final true
+  /// @brief Method OnMove, addr 0x2d93920, size 0x18c, virtual true, abstract: false, final true
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method OnScroll addr 0x2c2b6fc size 0x1c0 virtual true final true
+  /// @brief Method OnScroll, addr 0x2d93aac, size 0x1c0, virtual true, abstract: false, final true
   inline void OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SendEvent addr 0x2c2a9ec size 0x64 virtual false final false
+  /// @brief Method SendEvent, addr 0x2d92d9c, size 0x64, virtual false, abstract: false, final false
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::EventSystems::BaseEventData* sourceEventData);
 
-  /// @brief Method SendEvent addr 0x2c2b8bc size 0x60 virtual false final false
+  /// @brief Method SendEvent, addr 0x2d93c6c, size 0x60, virtual false, abstract: false, final false
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::Event* sourceEvent);
 
-  /// @brief Method Update addr 0x2c2b91c size 0xe0 virtual false final false
+  /// @brief Method Update, addr 0x2d93ccc, size 0xe0, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LateUpdate addr 0x2c2bb44 size 0x8 virtual false final false
+  /// @brief Method LateUpdate, addr 0x2d93ef4, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method ProcessImguiEvents addr 0x2c2b9fc size 0x148 virtual false final false
+  /// @brief Method ProcessImguiEvents, addr 0x2d93dac, size 0x148, virtual false, abstract: false, final false
   inline void ProcessImguiEvents(bool isSelected);
 
-  /// @brief Method ProcessKeyboardEvent addr 0x2c2bb4c size 0x74 virtual false final false
+  /// @brief Method ProcessKeyboardEvent, addr 0x2d93efc, size 0x74, virtual false, abstract: false, final false
   inline void ProcessKeyboardEvent(::UnityEngine::Event* e);
 
-  /// @brief Method ProcessTabEvent addr 0x2c2bbc0 size 0x80 virtual false final false
+  /// @brief Method ProcessTabEvent, addr 0x2d93f70, size 0x80, virtual false, abstract: false, final false
   inline void ProcessTabEvent(::UnityEngine::Event* e);
 
-  /// @brief Method SendTabEvent addr 0x2c2bfd0 size 0x180 virtual false final false
+  /// @brief Method SendTabEvent, addr 0x2d94380, size 0x180, virtual false, abstract: false, final false
   inline void SendTabEvent(::UnityEngine::Event* e, int32_t direction);
 
-  /// @brief Method SendKeyUpEvent addr 0x2c2bc40 size 0x1bc virtual false final false
+  /// @brief Method SendKeyUpEvent, addr 0x2d93ff0, size 0x1bc, virtual false, abstract: false, final false
   inline void SendKeyUpEvent(::UnityEngine::Event* e);
 
-  /// @brief Method SendKeyDownEvent addr 0x2c2bdfc size 0x1d4 virtual false final false
+  /// @brief Method SendKeyDownEvent, addr 0x2d941ac, size 0x1d4, virtual false, abstract: false, final false
   inline void SendKeyDownEvent(::UnityEngine::Event* e);
 
-  /// @brief Method ReadPointerData addr 0x2c2a8b0 size 0x13c virtual false final false
+  /// @brief Method ReadPointerData, addr 0x2d92c60, size 0x13c, virtual false, abstract: false, final false
+  /// @param eventType: ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType (default: static_cast<int32_t>(0x0))
   inline bool ReadPointerData(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* pe, ::UnityEngine::EventSystems::PointerEventData* eventData,
-                              ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType eventType);
+                              ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType eventType = static_cast<int32_t>(0x0));
 
   static inline ::UnityEngine::UIElements::PanelEventHandler* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c2c5f8 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x2d949a8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelEventHandler", modifiers: "&&", def_value: None }]

@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(SaberModelController)
 namespace GlobalNamespace {
+class ColorManager;
+}
+namespace GlobalNamespace {
 class TubeBloomPrePassLight;
+}
+namespace GlobalNamespace {
+class SetSaberGlowColor;
+}
+namespace UnityEngine {
+class Transform;
 }
 namespace GlobalNamespace {
 class SetSaberFakeGlowColor;
 }
 namespace GlobalNamespace {
-class SetSaberGlowColor;
-}
-namespace GlobalNamespace {
-class Saber;
-}
-namespace GlobalNamespace {
-class ColorManager;
+class SaberTrail;
 }
 namespace GlobalNamespace {
 class __SaberModelController__InitData;
 }
 namespace GlobalNamespace {
-class SaberTrail;
-}
-namespace UnityEngine {
-class Transform;
+class Saber;
 }
 namespace UnityEngine {
 struct Color;
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberModelController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
 // CS Name: ::SaberModelController::InitData*
 class CORDL_TYPE __SaberModelController__InitData : public ::System::Object {
 public:
@@ -65,12 +65,12 @@ public:
 
   static inline ::GlobalNamespace::__SaberModelController__InitData* New_ctor();
 
-  /// @brief Method .ctor addr 0x212035c size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x226452c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SaberModelController__InitData* New_ctor(::UnityEngine::Color trailTintColor);
 
-  /// @brief Method .ctor addr 0x212037c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x226454c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color trailTintColor);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SaberModelController__InitData", modifiers: "&&", def_value: None }]
@@ -102,8 +102,8 @@ static_assert(offsetof(::GlobalNamespace::__SaberModelController__InitData, ___t
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5394))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
 // CS Name: ::SaberModelController*
 class CORDL_TYPE SaberModelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -166,12 +166,12 @@ public:
 
   constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Init addr 0x211ffdc size 0x2f0 virtual false final false
+  /// @brief Method Init, addr 0x22641ac, size 0x2f0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::SaberModelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21202ec size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x22644bc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberModelController", modifiers: "&&", def_value: None }]

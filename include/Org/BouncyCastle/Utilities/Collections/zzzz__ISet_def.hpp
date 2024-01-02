@@ -3,14 +3,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISet)
+namespace System {
+class Object;
+}
 namespace System::Collections {
 class ICollection;
 }
 namespace System::Collections {
 class IEnumerable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Collections {
@@ -40,31 +40,31 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Contains(::System::Object* o);
 
-  /// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISet", modifiers: "&&", def_value: None }]

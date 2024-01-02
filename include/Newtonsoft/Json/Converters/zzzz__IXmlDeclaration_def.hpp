@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDeclaration);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11982))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12054))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlDeclaration*
 class CORDL_TYPE IXmlDeclaration {
 public:
@@ -32,19 +32,19 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method get_Version addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Version();
 
-  /// @brief Method get_Encoding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Encoding();
 
-  /// @brief Method set_Encoding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Encoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method get_Standalone addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Standalone();
 
-  /// @brief Method set_Standalone addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Standalone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Standalone(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlDeclaration", modifiers: "&&", def_value: None }]

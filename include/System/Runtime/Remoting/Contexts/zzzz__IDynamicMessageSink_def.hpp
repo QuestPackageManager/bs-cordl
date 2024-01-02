@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IDynamicMessageSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3111))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3112))
 // CS Name: ::System.Runtime.Remoting.Contexts::IDynamicMessageSink*
 class CORDL_TYPE IDynamicMessageSink {
 public:
   // Declarations
-  /// @brief Method ProcessMessageFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessMessageFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessMessageFinish(::System::Runtime::Remoting::Messaging::IMessage* replyMsg, bool bCliSide, bool bAsync);
 
-  /// @brief Method ProcessMessageStart addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProcessMessageStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessMessageStart(::System::Runtime::Remoting::Messaging::IMessage* reqMsg, bool bCliSide, bool bAsync);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDynamicMessageSink", modifiers: "&&", def_value: None }]

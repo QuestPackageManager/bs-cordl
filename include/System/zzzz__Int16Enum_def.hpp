@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Int16Enum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2592))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2594))
 // CS Name: ::System::Int16Enum
 struct CORDL_TYPE Int16Enum {
 public:

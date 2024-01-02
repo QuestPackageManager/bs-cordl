@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::SelectMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12081))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12153))
 // CS Name: ::UnityEngine.ProBuilder::SelectMode
 struct CORDL_TYPE SelectMode {
 public:

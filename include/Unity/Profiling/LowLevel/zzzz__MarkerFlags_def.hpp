@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Profiling::LowLevel::MarkerFlags);
 namespace Unity::Profiling::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9895))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9967))
 // CS Name: ::Unity.Profiling.LowLevel::MarkerFlags
 struct CORDL_TYPE MarkerFlags {
 public:

@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::InfiniteRuntimeClip);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10350)), TypeDefinitionIndex(TypeDefinitionIndex(14155))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14148))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13884)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ::UnityEngine.Timeline::InfiniteRuntimeClip*
 class CORDL_TYPE InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement {
 public:
@@ -53,22 +53,22 @@ public:
 
   static inline ::UnityEngine::Timeline::InfiniteRuntimeClip* New_ctor(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method .ctor addr 0x2ad0254 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2c53fa8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method get_intervalStart addr 0x2ae39f0 size 0x8 virtual true final false
+  /// @brief Method get_intervalStart, addr 0x2c67744, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_intervalStart();
 
-  /// @brief Method get_intervalEnd addr 0x2ae39f8 size 0x58 virtual true final false
+  /// @brief Method get_intervalEnd, addr 0x2c6774c, size 0x58, virtual true, abstract: false, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method set_enable addr 0x2ae3a50 size 0x74 virtual true final false
+  /// @brief Method set_enable, addr 0x2c677a4, size 0x74, virtual true, abstract: false, final false
   inline void set_enable(bool value);
 
-  /// @brief Method EvaluateAt addr 0x2ae3ac4 size 0x58 virtual true final false
+  /// @brief Method EvaluateAt, addr 0x2c67818, size 0x58, virtual true, abstract: false, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method DisableAt addr 0x2ae3b1c size 0x6c virtual true final false
+  /// @brief Method DisableAt, addr 0x2c67870, size 0x6c, virtual true, abstract: false, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
   // Ctor Parameters [CppParam { name: "", ty: "InfiniteRuntimeClip", modifiers: "&&", def_value: None }]

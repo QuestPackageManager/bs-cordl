@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::BezierTangentDirection);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12102))
 // CS Name: ::UnityEngine.ProBuilder::BezierTangentDirection
 struct CORDL_TYPE BezierTangentDirection {
 public:

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SecurityParameters);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1266))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SecurityParameters*
 class CORDL_TYPE SecurityParameters : public ::System::Object {
@@ -181,48 +181,48 @@ public:
 
   constexpr void __set_extendedMasterSecret(bool value);
 
-  /// @brief Method Clear addr 0xf1ea64 size 0x6c virtual true final false
+  /// @brief Method Clear, addr 0xf94c8c, size 0x6c, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method get_Entity addr 0xf1ead0 size 0x8 virtual true final false
+  /// @brief Method get_Entity, addr 0xf94cf8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Entity();
 
-  /// @brief Method get_CipherSuite addr 0xf1ead8 size 0x8 virtual true final false
+  /// @brief Method get_CipherSuite, addr 0xf94d00, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_CipherSuite();
 
-  /// @brief Method get_CompressionAlgorithm addr 0xf1eae0 size 0x8 virtual true final false
+  /// @brief Method get_CompressionAlgorithm, addr 0xf94d08, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_CompressionAlgorithm();
 
-  /// @brief Method get_PrfAlgorithm addr 0xf1eae8 size 0x8 virtual true final false
+  /// @brief Method get_PrfAlgorithm, addr 0xf94d10, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_PrfAlgorithm();
 
-  /// @brief Method get_VerifyDataLength addr 0xf1eaf0 size 0x8 virtual true final false
+  /// @brief Method get_VerifyDataLength, addr 0xf94d18, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_VerifyDataLength();
 
-  /// @brief Method get_MasterSecret addr 0xf1eaf8 size 0x8 virtual true final false
+  /// @brief Method get_MasterSecret, addr 0xf94d20, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MasterSecret();
 
-  /// @brief Method get_ClientRandom addr 0xf1eb00 size 0x8 virtual true final false
+  /// @brief Method get_ClientRandom, addr 0xf94d28, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ClientRandom();
 
-  /// @brief Method get_ServerRandom addr 0xf1eb08 size 0x8 virtual true final false
+  /// @brief Method get_ServerRandom, addr 0xf94d30, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ServerRandom();
 
-  /// @brief Method get_SessionHash addr 0xf1eb10 size 0x8 virtual true final false
+  /// @brief Method get_SessionHash, addr 0xf94d38, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionHash();
 
-  /// @brief Method get_PskIdentity addr 0xf1eb18 size 0x8 virtual true final false
+  /// @brief Method get_PskIdentity, addr 0xf94d40, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PskIdentity();
 
-  /// @brief Method get_SrpIdentity addr 0xf1eb20 size 0x8 virtual true final false
+  /// @brief Method get_SrpIdentity, addr 0xf94d48, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SrpIdentity();
 
-  /// @brief Method get_IsExtendedMasterSecret addr 0xf1eb28 size 0x8 virtual true final false
+  /// @brief Method get_IsExtendedMasterSecret, addr 0xf94d50, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsExtendedMasterSecret();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* New_ctor();
 
-  /// @brief Method .ctor addr 0xf1eb30 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0xf94d58, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SecurityParameters", modifiers: "&&", def_value: None }]

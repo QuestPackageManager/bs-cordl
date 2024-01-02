@@ -20,8 +20,8 @@ namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10555))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10627))
 // CS Name: ::ModestTree.Util::ValuePair`3<T1,T2,T3>*
 class CORDL_TYPE ValuePair_3 : public ::System::Object {
 public:
@@ -55,21 +55,21 @@ public:
 
   static inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* New_ctor(T1 first, T2 second, T3 third);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T1 first, T2 second, T3 third);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Equals(::ModestTree::Util::ValuePair_3<T1, T2, T3>* that);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValuePair_3", modifiers: "&&", def_value: None }]

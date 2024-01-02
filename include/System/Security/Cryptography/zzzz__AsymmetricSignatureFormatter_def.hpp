@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricSignatureFormatter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2919))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2920))
 // CS Name: ::System.Security.Cryptography::AsymmetricSignatureFormatter*
 class CORDL_TYPE AsymmetricSignatureFormatter : public ::System::Object {
 public:
   // Declarations
   static inline ::System::Security::Cryptography::AsymmetricSignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x230291c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x245bff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureFormatter", modifiers: "&&", def_value: None }]

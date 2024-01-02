@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HashCodeCalculator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14883))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14666))
 // CS Name: ::System.Net.Http.Headers::HashCodeCalculator*
 class CORDL_TYPE HashCodeCalculator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Calculate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Calculate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t Calculate(::System::Collections::Generic::ICollection_1<T>* list);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashCodeCalculator", modifiers: "&&", def_value: None }]

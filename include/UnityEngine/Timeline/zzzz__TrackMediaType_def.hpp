@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TrackMediaType);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(14123))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14185))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13852)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13914))
 // CS Name: ::UnityEngine.Timeline::TrackMediaType*
 class CORDL_TYPE TrackMediaType : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::UnityEngine::Timeline::TrackMediaType* New_ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
-  /// @brief Method .ctor addr 0x2aea8ec size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2c6e640, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::__TimelineAsset__MediaType mt);
 
   // Ctor Parameters [CppParam { name: "", ty: "TrackMediaType", modifiers: "&&", def_value: None }]

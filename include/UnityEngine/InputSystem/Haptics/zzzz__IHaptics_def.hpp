@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IHaptics);
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6548))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6462))
 // CS Name: ::UnityEngine.InputSystem.Haptics::IHaptics*
 class CORDL_TYPE IHaptics {
 public:
   // Declarations
-  /// @brief Method PauseHaptics addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PauseHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PauseHaptics();
 
-  /// @brief Method ResumeHaptics addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResumeHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResumeHaptics();
 
-  /// @brief Method ResetHaptics addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResetHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetHaptics();
 
   // Ctor Parameters [CppParam { name: "", ty: "IHaptics", modifiers: "&&", def_value: None }]

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IKdTree_2)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue> class KdTreeNode_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -28,7 +28,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15912))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::IKdTree`2<TKey,TValue>*
 class CORDL_TYPE IKdTree_2 {
 public:
@@ -41,36 +41,37 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Add(::ArrayW<TKey, ::Array<TKey>*> point, TValue value);
 
-  /// @brief Method TryFindValueAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryFindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryFindValueAt(::ArrayW<TKey, ::Array<TKey>*> point, ByRef<TValue> value);
 
-  /// @brief Method FindValueAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FindValueAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue FindValueAt(::ArrayW<TKey, ::Array<TKey>*> point);
 
-  /// @brief Method TryFindValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryFindValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryFindValue(TValue value, ByRef<::ArrayW<TKey, ::Array<TKey>*>> point);
 
-  /// @brief Method FindValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FindValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<TKey, ::Array<TKey>*> FindValue(TValue value);
 
-  /// @brief Method RadialSearch addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RadialSearch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>
   RadialSearch(::ArrayW<TKey, ::Array<TKey>*> center, TKey radius, int32_t count);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAt(::ArrayW<TKey, ::Array<TKey>*> point);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method GetNearestNeighbours addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNearestNeighbours, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param count: int32_t (default: static_cast<int32_t>(0x7fffffff))
   inline ::ArrayW<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*, ::Array<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*>
-  GetNearestNeighbours(::ArrayW<TKey, ::Array<TKey>*> point, int32_t count);
+  GetNearestNeighbours(::ArrayW<TKey, ::Array<TKey>*> point, int32_t count = static_cast<int32_t>(0x7fffffff));
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Count();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKdTree_2", modifiers: "&&", def_value: None }]

@@ -27,10 +27,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method DoFinal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoFinal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t outLen);
 
-  /// @brief Method DoOutput addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoOutput, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t DoOutput(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t outLen);
 
   // Ctor Parameters [CppParam { name: "", ty: "IXof", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehavio
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14272))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14001))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ProviderBehaviourFlags
 struct CORDL_TYPE ProviderBehaviourFlags {
 public:

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeHeaderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16014))
 // CS Name: ::UnityEngine.Bindings::NativeHeaderAttribute*
 class CORDL_TYPE NativeHeaderAttribute : public ::System::Attribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__Header_k__BackingField(::StringW value);
 
-  /// @brief Method set_Header addr 0x2bb0ec0 size 0x8 virtual true final true
+  /// @brief Method set_Header, addr 0x2d18270, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
   static inline ::UnityEngine::Bindings::NativeHeaderAttribute* New_ctor(::StringW header);
 
-  /// @brief Method .ctor addr 0x2bb0ec8 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18278, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeHeaderAttribute", modifiers: "&&", def_value: None }]

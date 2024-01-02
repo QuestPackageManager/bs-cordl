@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::Record);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9499))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8734))
 // CS Name: ::Assets.OVR.Scripts::Record*
 class CORDL_TYPE Record : public ::System::Object {
 public:
@@ -51,7 +51,7 @@ public:
 
   static inline ::Assets::OVR::Scripts::Record* New_ctor(int32_t order, ::StringW cat, ::StringW msg);
 
-  /// @brief Method .ctor addr 0x26811f0 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x27f8498, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "Record", modifiers: "&&", def_value: None }]

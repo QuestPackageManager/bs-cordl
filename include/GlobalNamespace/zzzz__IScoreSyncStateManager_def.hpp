@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager)
 namespace GlobalNamespace {
-struct StandardScoreSyncState;
+class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
 struct __StandardScoreSyncState__Score;
 }
 namespace GlobalNamespace {
-class StandardScoreSyncStateNetSerializable;
+class StandardScoreSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
-class StandardScoreSyncStateDeltaNetSerializable;
+struct StandardScoreSyncState;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IScoreSyncStateManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4542))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14945))
 // CS Name: ::IScoreSyncStateManager*
 class CORDL_TYPE IScoreSyncStateManager {
 public:

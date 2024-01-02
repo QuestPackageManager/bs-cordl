@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableOutput);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10351))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10429))
 // CS Name: ::UnityEngine.Playables::IPlayableOutput*
 class CORDL_TYPE IPlayableOutput {
 public:
   // Declarations
-  /// @brief Method GetHandle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHandle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayableOutput", modifiers: "&&", def_value: None }]

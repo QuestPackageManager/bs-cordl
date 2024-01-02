@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerLevelEndActionsListener);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5157))
 // CS Name: ::IMultiplayerLevelEndActionsListener*
 class CORDL_TYPE IMultiplayerLevelEndActionsListener {
 public:
   // Declarations
-  /// @brief Method ReportPlayerDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReportPlayerDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerLevelEndActionsListener", modifiers: "&&", def_value: None }]

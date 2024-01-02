@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ConsoleColor);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2516))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2518))
 // CS Name: ::System::ConsoleColor
 struct CORDL_TYPE ConsoleColor {
 public:

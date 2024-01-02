@@ -5,28 +5,28 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TimeStampReq)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
+class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::Tsp {
 class MessageImprint;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -110,41 +110,41 @@ public:
 
   constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance addr 0x1007f94 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x10791e0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1008038 size 0x344 virtual false final false
+  /// @brief Method .ctor, addr 0x1079284, size 0x344, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* New_ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy,
                                                                        ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::DerBoolean* certReq,
                                                                        ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor addr 0x100837c size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x10795c8, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicy, ::Org::BouncyCastle::Asn1::DerInteger* nonce,
                     ::Org::BouncyCastle::Asn1::DerBoolean* certReq, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method get_Version addr 0x1008420 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x107966c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_MessageImprint addr 0x1008428 size 0x8 virtual false final false
+  /// @brief Method get_MessageImprint, addr 0x1079674, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* get_MessageImprint();
 
-  /// @brief Method get_ReqPolicy addr 0x1008430 size 0x8 virtual false final false
+  /// @brief Method get_ReqPolicy, addr 0x107967c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ReqPolicy();
 
-  /// @brief Method get_Nonce addr 0x1008438 size 0x8 virtual false final false
+  /// @brief Method get_Nonce, addr 0x1079684, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Nonce();
 
-  /// @brief Method get_CertReq addr 0x1008440 size 0x8 virtual false final false
+  /// @brief Method get_CertReq, addr 0x107968c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBoolean* get_CertReq();
 
-  /// @brief Method get_Extensions addr 0x1008448 size 0x8 virtual false final false
+  /// @brief Method get_Extensions, addr 0x1079694, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0x1008450 size 0x1dc virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x107969c, size 0x1dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampReq", modifiers: "&&", def_value: None }]

@@ -19,19 +19,19 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilit
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6540))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6454))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6455))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorCapabilities
 struct CORDL_TYPE AndroidSensorCapabilities {
 public:
   // Declarations
-  /// @brief Method ToJson addr 0x2966ec8 size 0x64 virtual false final false
+  /// @brief Method ToJson, addr 0x2ae6c10, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method FromJson addr 0x2966f2c size 0xa0 virtual false final false
+  /// @brief Method FromJson, addr 0x2ae6c74, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToString addr 0x2966fcc size 0x98 virtual true final false
+  /// @brief Method ToString, addr 0x2ae6d14, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "sensorType", ty: "::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType", modifiers: "", def_value: None }]

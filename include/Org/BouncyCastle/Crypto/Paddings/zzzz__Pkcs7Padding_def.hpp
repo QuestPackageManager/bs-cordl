@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1009))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::Pkcs7Padding*
 class CORDL_TYPE Pkcs7Padding : public ::System::Object {
@@ -34,21 +34,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding"
   constexpr operator ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() noexcept;
 
-  /// @brief Method Init addr 0xeb9ec8 size 0x4 virtual true final true
+  /// @brief Method Init, addr 0xf2f0b4, size 0x4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_PaddingName addr 0xeb9ecc size 0x40 virtual true final true
+  /// @brief Method get_PaddingName, addr 0xf2f0b8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_PaddingName();
 
-  /// @brief Method AddPadding addr 0xeb9f0c size 0x4c virtual true final true
+  /// @brief Method AddPadding, addr 0xf2f0f8, size 0x4c, virtual true, abstract: false, final true
   inline int32_t AddPadding(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff);
 
-  /// @brief Method PadCount addr 0xeb9f58 size 0xc0 virtual true final true
+  /// @brief Method PadCount, addr 0xf2f144, size 0xc0, virtual true, abstract: false, final true
   inline int32_t PadCount(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::Pkcs7Padding* New_ctor();
 
-  /// @brief Method .ctor addr 0xeb93d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf2e5c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs7Padding", modifiers: "&&", def_value: None }]

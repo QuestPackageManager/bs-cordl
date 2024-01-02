@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(NamespaceList)
 namespace System::Xml::Schema {
 struct __NamespaceList__ListType;
 }
+namespace System::Xml {
+class XmlQualifiedName;
+}
 namespace System::Collections {
 class Hashtable;
 }
 namespace System::Collections {
 class ICollection;
-}
-namespace System::Xml {
-class XmlQualifiedName;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::NamespaceList);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11626))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11698))
 // CS Name: ::NamespaceList::ListType
 struct CORDL_TYPE __NamespaceList__ListType {
 public:
@@ -88,8 +88,8 @@ static_assert(offsetof(::System::Xml::Schema::__NamespaceList__ListType, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11626)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11627))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11698))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11699))
 // CS Name: ::System.Xml.Schema::NamespaceList*
 class CORDL_TYPE NamespaceList : public ::System::Object {
 public:
@@ -131,30 +131,30 @@ public:
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2745aa4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28c3ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method .ctor addr 0x2745aac size 0x2a0 virtual false final false
+  /// @brief Method .ctor, addr 0x28c3ad0, size 0x2a0, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method get_Type addr 0x2745d4c size 0x8 virtual false final false
+  /// @brief Method get_Type, addr 0x28c3d70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__NamespaceList__ListType get_Type();
 
-  /// @brief Method get_Excluded addr 0x2745d54 size 0x8 virtual false final false
+  /// @brief Method get_Excluded, addr 0x28c3d78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Excluded();
 
-  /// @brief Method get_Enumerate addr 0x2745d5c size 0x6c virtual false final false
+  /// @brief Method get_Enumerate, addr 0x28c3d80, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* get_Enumerate();
 
-  /// @brief Method Allows addr 0x2745dc8 size 0x84 virtual true final false
+  /// @brief Method Allows, addr 0x28c3dec, size 0x84, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
-  /// @brief Method Allows addr 0x2745e4c size 0x20 virtual false final false
+  /// @brief Method Allows, addr 0x28c3e70, size 0x20, virtual false, abstract: false, final false
   inline bool Allows(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method ToString addr 0x2745e6c size 0x4c8 virtual true final false
+  /// @brief Method ToString, addr 0x28c3e90, size 0x4c8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamespaceList", modifiers: "&&", def_value: None }]

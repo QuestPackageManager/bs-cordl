@@ -21,21 +21,21 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::XR::Interaction::BasePoseProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::XR::Interaction {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16031))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16198))
 // CS Name: ::UnityEngine.Experimental.XR.Interaction::BasePoseProvider*
 class CORDL_TYPE BasePoseProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetPoseFromProvider addr 0x2bb2ca8 size 0x24 virtual true final false
+  /// @brief Method GetPoseFromProvider, addr 0x2d1a058, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::SpatialTracking::PoseDataFlags GetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
 
-  /// @brief Method TryGetPoseFromProvider addr 0x2bb2ccc size 0x88 virtual true final false
+  /// @brief Method TryGetPoseFromProvider, addr 0x2d1a07c, size 0x88, virtual true, abstract: false, final false
   inline bool TryGetPoseFromProvider(ByRef<::UnityEngine::Pose> output);
 
   static inline ::UnityEngine::Experimental::XR::Interaction::BasePoseProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb2d54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1a104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasePoseProvider", modifiers: "&&", def_value: None }]

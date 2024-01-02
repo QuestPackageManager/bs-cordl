@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(LightRotationEventEffect)
-namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
+namespace GlobalNamespace {
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BasicBeatmapEventData;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
+class BeatmapCallbacksController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationEventEffect);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5058)) CS Name: ::LightRotationEventEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(14724)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4953)) CS Name: ::LightRotationEventEffect*
 class CORDL_TYPE LightRotationEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -119,21 +119,21 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x2275564 size 0x154 virtual false final false
+  /// @brief Method Start, addr 0x23ad5a4, size 0x154, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x22756b8 size 0xe8 virtual false final false
+  /// @brief Method Update, addr 0x23ad6f8, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x22757a0 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x23ad7e0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x22757bc size 0x124 virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x23ad7fc, size 0x124, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightRotationEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x22758e0 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x23ad920, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightRotationEventEffect", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICPUMonitor);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12711))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12784))
 // CS Name: ::ICPUMonitor*
 class CORDL_TYPE ICPUMonitor {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
-  /// @brief Method get_utilization addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_utilization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_utilization();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICPUMonitor", modifiers: "&&", def_value: None }]

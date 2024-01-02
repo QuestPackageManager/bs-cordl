@@ -3,13 +3,13 @@
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_4<T1,T2,T3,T4>>"
 template <typename T1, typename T2, typename T3, typename T4> constexpr System::ValueTuple_4<T1, T2, T3, T4>::operator ::System::IEquatable_1<::System::ValueTuple_4<T1, T2, T3, T4>>*() {
   return static_cast<::System::IEquatable_1<::System::ValueTuple_4<T1, T2, T3, T4>>*>(static_cast<void*>(::cordl_internals::Box(this)));
@@ -46,9 +46,8 @@ template <typename T1, typename T2, typename T3, typename T4> inline void System
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item1, item2, item3, item4);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline bool System::ValueTuple_4<T1, T2, T3, T4>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), "Equals", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline bool System::ValueTuple_4<T1, T2, T3, T4>::Equals(::System::ValueTuple_4<T1, T2, T3, T4> other) {
@@ -86,8 +85,8 @@ inline int32_t System::ValueTuple_4<T1, T2, T3, T4>::System_Collections_IStructu
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, other, comparer);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline int32_t System::ValueTuple_4<T1, T2, T3, T4>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), "GetHashCode",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T1, typename T2, typename T3, typename T4>
@@ -111,8 +110,8 @@ inline int32_t System::ValueTuple_4<T1, T2, T3, T4>::System_IValueTupleInternal_
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, comparer);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline ::StringW System::ValueTuple_4<T1, T2, T3, T4>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), "ToString",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_4<T1, T2, T3, T4>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T1, typename T2, typename T3, typename T4> inline ::StringW System::ValueTuple_4<T1, T2, T3, T4>::System_IValueTupleInternal_ToStringEnd() {

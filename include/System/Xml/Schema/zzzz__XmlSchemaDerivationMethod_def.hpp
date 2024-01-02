@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSchemaDerivationMethod);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11652))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11724))
 // CS Name: ::System.Xml.Schema::XmlSchemaDerivationMethod
 struct CORDL_TYPE XmlSchemaDerivationMethod {
 public:

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PlaceholderFactory_6_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Factory_6)
-namespace Zenject {
-class InjectTypeInfo;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,21 +23,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10945), inst: 3451 }), TypeDefinitionIndex(TypeDefinitionIndex(10945))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10946))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11017)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11017), inst: 3525 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11018))
 // CS Name: ::Zenject::Factory`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>*
 class CORDL_TYPE Factory_6 : public ::Zenject::PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue> {
 public:
   // Declarations
   static inline ::Zenject::Factory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Factory_6", modifiers: "&&", def_value: None }]

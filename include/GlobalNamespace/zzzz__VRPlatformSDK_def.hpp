@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::VRPlatformSDK);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14415))
 // CS Name: ::VRPlatformSDK
 struct CORDL_TYPE VRPlatformSDK {
 public:

@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(HumanDescription)
 namespace UnityEngine {
-struct SkeletonBone;
+struct HumanBone;
 }
 namespace UnityEngine {
-struct HumanBone;
+struct SkeletonBone;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::HumanDescription);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15082))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
 // CS Name: ::UnityEngine::HumanDescription
 struct CORDL_TYPE HumanDescription {
 public:

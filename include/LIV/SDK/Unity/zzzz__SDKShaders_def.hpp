@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::LIV::SDK::Unity::SDKShaders);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15202))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15098))
 // CS Name: ::LIV.SDK.Unity::SDKShaders*
 class CORDL_TYPE SDKShaders : public ::System::Object {
 public:
@@ -42,22 +42,22 @@ public:
 
   static inline int32_t getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY();
 
-  /// @brief Method StartRendering addr 0x20b0dfc size 0x44 virtual false final false
+  /// @brief Method StartRendering, addr 0x2211d34, size 0x44, virtual false, abstract: false, final false
   static inline void StartRendering();
 
-  /// @brief Method StopRendering addr 0x20b1054 size 0x44 virtual false final false
+  /// @brief Method StopRendering, addr 0x2211f8c, size 0x44, virtual false, abstract: false, final false
   static inline void StopRendering();
 
-  /// @brief Method StartForegroundRendering addr 0x20b1268 size 0x44 virtual false final false
+  /// @brief Method StartForegroundRendering, addr 0x22121a0, size 0x44, virtual false, abstract: false, final false
   static inline void StartForegroundRendering();
 
-  /// @brief Method StopForegroundRendering addr 0x20b131c size 0x44 virtual false final false
+  /// @brief Method StopForegroundRendering, addr 0x2212254, size 0x44, virtual false, abstract: false, final false
   static inline void StopForegroundRendering();
 
-  /// @brief Method StartBackgroundRendering addr 0x20b0e40 size 0x44 virtual false final false
+  /// @brief Method StartBackgroundRendering, addr 0x2211d78, size 0x44, virtual false, abstract: false, final false
   static inline void StartBackgroundRendering();
 
-  /// @brief Method StopBackgroundRendering addr 0x20b1010 size 0x44 virtual false final false
+  /// @brief Method StopBackgroundRendering, addr 0x2211f48, size 0x44, virtual false, abstract: false, final false
   static inline void StopBackgroundRendering();
 
   // Ctor Parameters [CppParam { name: "", ty: "SDKShaders", modifiers: "&&", def_value: None }]

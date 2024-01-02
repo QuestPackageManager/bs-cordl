@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Terrain)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+namespace UnityEngine {
+class Terrain;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class Terrain;
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Terrain);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9872))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9945))
 // CS Name: ::HoudiniEngineUnity::Test_Terrain*
 class CORDL_TYPE Test_Terrain : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Terrain* New_ctor(::UnityEngine::Terrain* self);
 
-  /// @brief Method .ctor addr 0x20907ec size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e9188, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Terrain* self);
 
-  /// @brief Method IsNull addr 0x2090814 size 0x60 virtual true final true
+  /// @brief Method IsNull, addr 0x21e91b0, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x2090874 size 0x15c virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e9210, size 0x15c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Terrain* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Terrain", modifiers: "&&", def_value: None }]

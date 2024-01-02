@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Net::IPHostEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7908))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9071))
 // CS Name: ::System.Net::IPHostEntry*
 class CORDL_TYPE IPHostEntry : public ::System::Object {
 public:
@@ -67,24 +67,24 @@ public:
 
   constexpr void __set_isTrustedHost(bool value);
 
-  /// @brief Method get_HostName addr 0x281fe6c size 0x8 virtual false final false
+  /// @brief Method get_HostName, addr 0x299d6e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_HostName addr 0x281fe74 size 0x8 virtual false final false
+  /// @brief Method set_HostName, addr 0x299d6ec, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
-  /// @brief Method set_Aliases addr 0x281fe7c size 0x8 virtual false final false
+  /// @brief Method set_Aliases, addr 0x299d6f4, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method get_AddressList addr 0x281fe84 size 0x8 virtual false final false
+  /// @brief Method get_AddressList, addr 0x299d6fc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method set_AddressList addr 0x281fe8c size 0x8 virtual false final false
+  /// @brief Method set_AddressList, addr 0x299d704, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
   static inline ::System::Net::IPHostEntry* New_ctor();
 
-  /// @brief Method .ctor addr 0x281fe94 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x299d70c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPHostEntry", modifiers: "&&", def_value: None }]

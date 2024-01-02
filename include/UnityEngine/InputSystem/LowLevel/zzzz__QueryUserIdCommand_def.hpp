@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryUserIdCommand)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct __QueryUserIdCommand___idBuffer_e__FixedBuffer;
 }
@@ -19,6 +16,9 @@ struct InputDeviceCommand;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6570))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6484))
 // CS Name: ::QueryUserIdCommand::<idBuffer>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __QueryUserIdCommand___idBuffer_e__FixedBuffer {
@@ -71,8 +71,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__QueryUserIdComman
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557)), TypeDefinitionIndex(TypeDefinitionIndex(6570))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6571))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6484)), TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6485))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryUserIdCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE QueryUserIdCommand {
@@ -103,16 +103,16 @@ public:
 
   constexpr void __set_idBuffer(::UnityEngine::InputSystem::LowLevel::__QueryUserIdCommand___idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type addr 0x29684a4 size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae81ec, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method ReadId addr 0x29684d4 size 0x10 virtual false final false
+  /// @brief Method ReadId, addr 0x2ae821c, size 0x10, virtual false, abstract: false, final false
   inline ::StringW ReadId();
 
-  /// @brief Method get_typeStatic addr 0x29684e4 size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae822c, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x2968514 size 0x58 virtual false final false
+  /// @brief Method Create, addr 0x2ae825c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create();
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "idBuffer", ty:

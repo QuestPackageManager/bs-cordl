@@ -9,6 +9,8 @@ module;
 #include "Unity/XR/Oculus/InputLayoutLoader.hpp"
 #include "Unity/XR/Oculus/NativeMethods.hpp"
 #include "Unity/XR/Oculus/OculusLoader.hpp"
+#include "Unity/XR/Oculus/OculusRestarter.hpp"
+#include "Unity/XR/Oculus/OculusSession.hpp"
 #include "Unity/XR/Oculus/OculusSettings.hpp"
 #include "Unity/XR/Oculus/OculusUsages.hpp"
 #include "Unity/XR/Oculus/Performance.hpp"

@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6045))
 // CS Name: ::RecordingToolSceneSetup*
 class CORDL_TYPE RecordingToolSceneSetup : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__sceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value);
 
-  /// @brief Method InstallBindings addr 0x21c8630 size 0xc4 virtual true final false
+  /// @brief Method InstallBindings, addr 0x231c288, size 0xc4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::RecordingToolSceneSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c86f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231c34c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSceneSetup", modifiers: "&&", def_value: None }]

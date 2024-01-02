@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LeaderboardTableView_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LocalLeaderboardTableView)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace GlobalNamespace {
 class __LocalLeaderboardsModel__ScoreData;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalLeaderboardTableView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5880))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5789))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5796))
 // CS Name: ::LocalLeaderboardTableView*
 class CORDL_TYPE LocalLeaderboardTableView : public ::GlobalNamespace::LeaderboardTableView {
 public:
   // Declarations
-  /// @brief Method SetScores addr 0x21a1694 size 0x28c virtual false final false
+  /// @brief Method SetScores, addr 0x22e731c, size 0x28c, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* scores, int32_t specialScorePos, int32_t maxNumberOfCells);
 
   static inline ::GlobalNamespace::LocalLeaderboardTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a1920 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x22e75a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LocalLeaderboardTableView", modifiers: "&&", def_value: None }]

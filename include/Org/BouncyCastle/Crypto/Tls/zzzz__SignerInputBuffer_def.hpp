@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SignerInputBuffer)
-namespace Org::BouncyCastle::Crypto {
-class ISigner;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class __SignerInputBuffer__SigStream;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -44,13 +44,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream* New_ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method .ctor addr 0xf20858 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf96a94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
-  /// @brief Method WriteByte addr 0xf20888 size 0xac virtual true final false
+  /// @brief Method WriteByte, addr 0xf96ac4, size 0xac, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method Write addr 0xf20934 size 0xc4 virtual true final false
+  /// @brief Method Write, addr 0xf96b70, size 0xc4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SignerInputBuffer__SigStream", modifiers: "&&", def_value: None }]
@@ -82,7 +82,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__Si
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3561))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1277))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SignerInputBuffer*
 class CORDL_TYPE SignerInputBuffer : public ::System::IO::MemoryStream {
@@ -90,12 +90,12 @@ public:
   // Declarations
   using SigStream = ::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream;
 
-  /// @brief Method UpdateSigner addr 0xf207e0 size 0x78 virtual false final false
+  /// @brief Method UpdateSigner, addr 0xf96a1c, size 0x78, virtual false, abstract: false, final false
   inline void UpdateSigner(::Org::BouncyCastle::Crypto::ISigner* s);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignerInputBuffer* New_ctor();
 
-  /// @brief Method .ctor addr 0xf20880 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf96abc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInputBuffer", modifiers: "&&", def_value: None }]

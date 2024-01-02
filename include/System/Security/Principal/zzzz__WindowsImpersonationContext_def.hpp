@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Security::Principal::WindowsImpersonationContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3006))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3007))
 // CS Name: ::System.Security.Principal::WindowsImpersonationContext*
 class CORDL_TYPE WindowsImpersonationContext : public ::System::Object {
 public:
@@ -48,25 +48,25 @@ public:
 
   static inline ::System::Security::Principal::WindowsImpersonationContext* New_ctor(void* token);
 
-  /// @brief Method .ctor addr 0x2323498 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x247af8c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(void* token);
 
-  /// @brief Method Dispose addr 0x2323ba4 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x247b698, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Undo addr 0x2323bb4 size 0xc4 virtual false final false
+  /// @brief Method Undo, addr 0x247b6a8, size 0xc4, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method CloseToken addr 0x2323c7c size 0x4 virtual false final false
+  /// @brief Method CloseToken, addr 0x247b770, size 0x4, virtual false, abstract: false, final false
   static inline bool CloseToken(void* token);
 
-  /// @brief Method DuplicateToken addr 0x2323b9c size 0x4 virtual false final false
+  /// @brief Method DuplicateToken, addr 0x247b690, size 0x4, virtual false, abstract: false, final false
   static inline void* DuplicateToken(void* token);
 
-  /// @brief Method SetCurrentToken addr 0x2323ba0 size 0x4 virtual false final false
+  /// @brief Method SetCurrentToken, addr 0x247b694, size 0x4, virtual false, abstract: false, final false
   static inline bool SetCurrentToken(void* token);
 
-  /// @brief Method RevertToSelf addr 0x2323c78 size 0x4 virtual false final false
+  /// @brief Method RevertToSelf, addr 0x247b76c, size 0x4, virtual false, abstract: false, final false
   static inline bool RevertToSelf();
 
   // Ctor Parameters [CppParam { name: "", ty: "WindowsImpersonationContext", modifiers: "&&", def_value: None }]

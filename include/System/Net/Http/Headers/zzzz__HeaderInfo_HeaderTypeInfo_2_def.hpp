@@ -9,20 +9,20 @@ CORDL_MODULE_EXPORT(HeaderInfo_HeaderTypeInfo_2)
 namespace System::Net::Http::Headers {
 struct HttpHeaderKind;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Net::Http::Headers {
+class HttpHeaders;
+}
+namespace System::Net::Http::Headers {
+template <typename T> class TryParseDelegate_1;
 }
 namespace System {
 class Object;
 }
 namespace System::Net::Http::Headers {
-class HttpHeaders;
-}
-namespace System::Net::Http::Headers {
 class HeaderInfo;
 }
-namespace System::Net::Http::Headers {
-template <typename T> class TryParseDelegate_1;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -36,8 +36,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14888))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14671))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14669))
 // CS Name: ::HeaderInfo::HeaderTypeInfo`2<T,U>*
 class CORDL_TYPE __HeaderInfo__HeaderTypeInfo_2 : public ::System::Net::Http::Headers::HeaderInfo {
 public:
@@ -54,19 +54,19 @@ public:
   static inline ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>* New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                                              ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 
-  /// @brief Method AddToCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddToCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AddToCollection(::System::Object* collection, ::System::Object* value);
 
-  /// @brief Method CreateCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* CreateCollection(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
-  /// @brief Method ToStringCollection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToStringCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* ToStringCollection(::System::Object* collection);
 
-  /// @brief Method TryParse addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryParse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryParse(::StringW value, ByRef<::System::Object*> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__HeaderInfo__HeaderTypeInfo_2", modifiers: "&&", def_value: None }]

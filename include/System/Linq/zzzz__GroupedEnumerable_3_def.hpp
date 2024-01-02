@@ -4,14 +4,8 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GroupedEnumerable_3)
-namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
-}
 namespace System::Collections {
 class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -19,11 +13,17 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections {
 class IEnumerable;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -37,8 +37,8 @@ namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14627))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14289))
 // CS Name: ::System.Linq::GroupedEnumerable`3<TSource,TKey,TElement>*
 class CORDL_TYPE GroupedEnumerable_3 : public ::System::Object {
 public:
@@ -89,14 +89,14 @@ public:
                                                                                        ::System::Func_2<TSource, TElement>* elementSelector,
                                                                                        ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector, ::System::Func_2<TSource, TElement>* elementSelector,
                     ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Linq::IGrouping_2<TKey, TElement>*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "GroupedEnumerable_3", modifiers: "&&", def_value: None }]

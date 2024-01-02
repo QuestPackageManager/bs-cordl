@@ -28,10 +28,10 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsAuthentication {
 public:
   // Declarations
-  /// @brief Method NotifyServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method NotifyServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method GetClientCredentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetClientCredentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsAuthentication", modifiers: "&&", def_value: None }]

@@ -6,22 +6,22 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(DirectorControlPlayable)
 namespace UnityEngine::Playables {
-class PlayableDirector;
-}
-namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-struct FrameData;
+template <typename T> struct ScriptPlayable_1;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+class PlayableDirector;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::DirectorControlPlayable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14175))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13904))
 // CS Name: ::UnityEngine.Timeline::DirectorControlPlayable*
 class CORDL_TYPE DirectorControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -66,46 +66,46 @@ public:
 
   constexpr void __set_m_AssetDuration(double_t value);
 
-  /// @brief Method Create addr 0x2ae1610 size 0x130 virtual false final false
+  /// @brief Method Create, addr 0x2c65364, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::DirectorControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::Playables::PlayableDirector* director);
 
-  /// @brief Method OnPlayableDestroy addr 0x2ae6a6c size 0xc0 virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x2c6a7c0, size 0xc0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method PrepareFrame addr 0x2ae6b2c size 0x1b4 virtual true final false
+  /// @brief Method PrepareFrame, addr 0x2c6a880, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay addr 0x2ae6fe0 size 0xd4 virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c6ad34, size 0xd4, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause addr 0x2ae70b4 size 0x100 virtual true final false
+  /// @brief Method OnBehaviourPause, addr 0x2c6ae08, size 0x100, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method ProcessFrame addr 0x2ae71b4 size 0x200 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2c6af08, size 0x200, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method SyncSpeed addr 0x2ae6df4 size 0x12c virtual false final false
+  /// @brief Method SyncSpeed, addr 0x2c6ab48, size 0x12c, virtual false, abstract: false, final false
   inline void SyncSpeed(double_t speed);
 
-  /// @brief Method SyncStart addr 0x2ae6f20 size 0xc0 virtual false final false
+  /// @brief Method SyncStart, addr 0x2c6ac74, size 0xc0, virtual false, abstract: false, final false
   inline void SyncStart(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method SyncStop addr 0x2ae7690 size 0x84 virtual false final false
+  /// @brief Method SyncStop, addr 0x2c6b3e4, size 0x84, virtual false, abstract: false, final false
   inline void SyncStop(::UnityEngine::Playables::PlayableGraph graph, double_t time);
 
-  /// @brief Method DetectDiscontinuity addr 0x2ae6ce0 size 0x114 virtual false final false
+  /// @brief Method DetectDiscontinuity, addr 0x2c6aa34, size 0x114, virtual false, abstract: false, final false
   inline bool DetectDiscontinuity(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method DetectOutOfSync addr 0x2ae73b4 size 0x14c virtual false final false
+  /// @brief Method DetectOutOfSync, addr 0x2c6b108, size 0x14c, virtual false, abstract: false, final false
   inline bool DetectOutOfSync(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method UpdateTime addr 0x2ae7500 size 0x190 virtual false final false
+  /// @brief Method UpdateTime, addr 0x2c6b254, size 0x190, virtual false, abstract: false, final false
   inline void UpdateTime(::UnityEngine::Playables::Playable playable);
 
   static inline ::UnityEngine::Timeline::DirectorControlPlayable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae7714 size 0x1010 virtual false final false
+  /// @brief Method .ctor, addr 0x2c6b468, size 0x1010, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DirectorControlPlayable", modifiers: "&&", def_value: None }]

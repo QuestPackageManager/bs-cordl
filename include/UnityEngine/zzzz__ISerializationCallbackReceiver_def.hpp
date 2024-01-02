@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::ISerializationCallbackReceiver);
 namespace UnityEngine {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9979))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10051))
 // CS Name: ::UnityEngine::ISerializationCallbackReceiver*
 class CORDL_TYPE ISerializationCallbackReceiver {
 public:
   // Declarations
-  /// @brief Method OnBeforeSerialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnBeforeSerialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnBeforeSerialize();
 
-  /// @brief Method OnAfterDeserialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnAfterDeserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnAfterDeserialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISerializationCallbackReceiver", modifiers: "&&", def_value: None }]

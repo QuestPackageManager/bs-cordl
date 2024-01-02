@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTransformGroup_3)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace UnityEngine {
 class Transform;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TX, typename TY, typename TZ>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5040))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4935))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4943))
 // CS Name: ::LightTransformGroup`3<TX,TY,TZ>*
 class CORDL_TYPE LightTransformGroup_3 : public ::GlobalNamespace::LightGroupSubsystem {
 public:
@@ -37,9 +37,6 @@ public:
 
   /// @brief Field _mirrorZ, offset 0x22, size 0x1
   __declspec(property(get = __get__mirrorZ, put = __set__mirrorZ)) bool _mirrorZ;
-
-  /// @brief Field _disableAutomaticTransformGathering, offset 0x23, size 0x1
-  __declspec(property(get = __get__disableAutomaticTransformGathering, put = __set__disableAutomaticTransformGathering)) bool _disableAutomaticTransformGathering;
 
   /// @brief Field _xTransforms, offset 0x28, size 0x8
   __declspec(property(get = __get__xTransforms, put = __set__xTransforms))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _xTransforms;
@@ -82,12 +79,6 @@ public:
 
   constexpr void __set__mirrorZ(bool value);
 
-  constexpr bool& __get__disableAutomaticTransformGathering();
-
-  constexpr bool const& __get__disableAutomaticTransformGathering() const;
-
-  constexpr void __set__disableAutomaticTransformGathering(bool value);
-
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& __get__xTransforms();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Transform*>*> const& __get__xTransforms() const;
@@ -106,30 +97,30 @@ public:
 
   constexpr void __set__zTransforms(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
 
-  /// @brief Method get_mirrorX addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_mirrorX, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_mirrorX();
 
-  /// @brief Method get_mirrorY addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_mirrorY, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_mirrorY();
 
-  /// @brief Method get_mirrorZ addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_mirrorZ, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_mirrorZ();
 
-  /// @brief Method get_xTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_xTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_xTransforms();
 
-  /// @brief Method get_yTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_yTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_yTransforms();
 
-  /// @brief Method get_zTransforms addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_zTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_zTransforms();
 
-  /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();
 
   static inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightTransformGroup_3", modifiers: "&&", def_value: None }]
@@ -154,9 +145,6 @@ public:
 
   /// @brief Field _mirrorZ, offset: 0x22, size: 0x1, def value: None
   bool ____mirrorZ;
-
-  /// @brief Field _disableAutomaticTransformGathering, offset: 0x23, size: 0x1, def value: None
-  bool ____disableAutomaticTransformGathering;
 
   /// @brief Field _xTransforms, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ____xTransforms;

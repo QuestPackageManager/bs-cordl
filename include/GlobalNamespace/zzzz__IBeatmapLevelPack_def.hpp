@@ -7,6 +7,9 @@ CORDL_MODULE_EXPORT(IBeatmapLevelPack)
 namespace GlobalNamespace {
 class IAnnotatedBeatmapLevelCollection;
 }
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
@@ -18,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelPack);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4350))
 // CS Name: ::IBeatmapLevelPack*
 class CORDL_TYPE IBeatmapLevelPack {
 public:
@@ -29,17 +32,22 @@ public:
 
   __declspec(property(get = get_shortPackName))::StringW shortPackName;
 
+  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+
   /// @brief Convert operator to "::GlobalNamespace::IAnnotatedBeatmapLevelCollection"
   constexpr operator ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*() noexcept;
 
-  /// @brief Method get_packID addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_packID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_packID();
 
-  /// @brief Method get_packName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_packName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_packName();
 
-  /// @brief Method get_shortPackName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_shortPackName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_shortPackName();
+
+  /// @brief Method get_contentRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelPack", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

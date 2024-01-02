@@ -15,18 +15,18 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimeControl);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13905))
 // CS Name: ::UnityEngine.Timeline::ITimeControl*
 class CORDL_TYPE ITimeControl {
 public:
   // Declarations
-  /// @brief Method SetTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetTime(double_t time);
 
-  /// @brief Method OnControlTimeStart addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnControlTimeStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStart();
 
-  /// @brief Method OnControlTimeStop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnControlTimeStop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnControlTimeStop();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimeControl", modifiers: "&&", def_value: None }]

@@ -5,20 +5,20 @@
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-#include "System/zzzz__Func_5_def.hpp"
-#include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__AsyncCallback_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskContinuationOptions_def.hpp"
-#include "System/zzzz__Func_3_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_3_def.hpp"
+#include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskCreationOptions_def.hpp"
+#include "System/zzzz__Func_5_def.hpp"
+#include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 template <typename TResult, typename TInstance> constexpr TInstance& System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>::__get_m_thisRef() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_thisRef;
@@ -355,6 +355,19 @@ inline void System::Threading::Tasks::TaskFactory_1<TResult>::_ctor(::System::Th
                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskContinuationOptions>::get(),
                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cancellationToken, creationOptions, continuationOptions, scheduler);
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::TaskFactory_1<TResult>::StartNew(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,
+                                                           ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1<TResult>*>::get(), "StartNew", std::vector<Il2CppClass*>{},
+                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::Object*, TResult>*>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get(),
+                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal_method, function, state, cancellationToken, creationOptions, scheduler);
 }
 template <typename TResult>
 inline void System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncCoreLogic(::System::IAsyncResult* iar, ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction,

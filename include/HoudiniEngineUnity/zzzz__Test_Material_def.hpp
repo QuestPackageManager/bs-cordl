@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Material)
-namespace UnityEngine {
-class Material;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Material);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9910))
 // CS Name: ::HoudiniEngineUnity::Test_Material*
 class CORDL_TYPE Test_Material : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Material* New_ctor(::UnityEngine::Material* self);
 
-  /// @brief Method .ctor addr 0x208c448 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e4de4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Material* self);
 
-  /// @brief Method IsNull addr 0x208c470 size 0x60 virtual true final true
+  /// @brief Method IsNull, addr 0x21e4e0c, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x208c4d0 size 0xf4 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e4e6c, size 0xf4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Material* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Material", modifiers: "&&", def_value: None }]

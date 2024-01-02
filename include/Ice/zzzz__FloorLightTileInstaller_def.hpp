@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Ice::FloorLightTileInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11075))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16169))
 // CS Name: ::Ice::FloorLightTileInstaller*
 class CORDL_TYPE FloorLightTileInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__floorLightTilePrefab(::Ice::FloorLightTile* value);
 
-  /// @brief Method InstallBindings addr 0x122d9bc size 0x84 virtual true final false
+  /// @brief Method InstallBindings, addr 0x129fce4, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Ice::FloorLightTileInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x122da40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x129fd68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FloorLightTileInstaller", modifiers: "&&", def_value: None }]

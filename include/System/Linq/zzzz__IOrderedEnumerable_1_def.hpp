@@ -3,17 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IOrderedEnumerable_1)
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IComparer_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -28,7 +28,7 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14619))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14281))
 // CS Name: ::System.Linq::IOrderedEnumerable`1<TElement>*
 class CORDL_TYPE IOrderedEnumerable_1 {
 public:
@@ -39,7 +39,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CreateOrderedEnumerable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateOrderedEnumerable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename TKey>
   inline ::System::Linq::IOrderedEnumerable_1<TElement>* CreateOrderedEnumerable(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                                                                                  bool descending);

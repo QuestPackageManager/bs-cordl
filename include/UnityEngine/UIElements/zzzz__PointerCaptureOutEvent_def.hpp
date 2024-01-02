@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerCaptureOutEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7236), inst: 4732 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7237))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7150)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7150), inst: 4830 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7151))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureOutEvent*
 class CORDL_TYPE PointerCaptureOutEvent : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<::UnityEngine::UIElements::PointerCaptureOutEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::PointerCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cdfa6c size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e47e1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureOutEvent", modifiers: "&&", def_value: None }]

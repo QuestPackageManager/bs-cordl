@@ -16,12 +16,6 @@ struct Ray;
 namespace UnityEngine::EventSystems {
 class __PhysicsRaycaster__RaycastHitComparer;
 }
-namespace UnityEngine::EventSystems {
-struct RaycastResult;
-}
-namespace UnityEngine {
-class Camera;
-}
 namespace UnityEngine {
 struct LayerMask;
 }
@@ -31,8 +25,14 @@ class PointerEventData;
 namespace UnityEngine {
 struct RaycastHit;
 }
+namespace UnityEngine::EventSystems {
+struct RaycastResult;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace UnityEngine {
+class Camera;
 }
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
@@ -51,8 +51,8 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__PhysicsRaycaster__RaycastHitCompar
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13216))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13211))
 // CS Name: ::PhysicsRaycaster::RaycastHitComparer*
 class CORDL_TYPE __PhysicsRaycaster__RaycastHitComparer : public ::System::Object {
 public:
@@ -67,12 +67,12 @@ public:
 
   static inline ::UnityEngine::EventSystems::__PhysicsRaycaster__RaycastHitComparer* getStaticF_instance();
 
-  /// @brief Method Compare addr 0x2c38fa0 size 0x40 virtual true final true
+  /// @brief Method Compare, addr 0x2da1350, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
 
   static inline ::UnityEngine::EventSystems::__PhysicsRaycaster__RaycastHitComparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c38fe0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2da1390, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__PhysicsRaycaster__RaycastHitComparer", modifiers: "&&", def_value: None }]
@@ -99,8 +99,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__Phy
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10132))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13212))
 // CS Name: ::UnityEngine.EventSystems::PhysicsRaycaster*
 class CORDL_TYPE PhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
@@ -164,34 +164,34 @@ public:
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c380a0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2da0450, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventCamera addr 0x2c38a44 size 0xa4 virtual true final false
+  /// @brief Method get_eventCamera, addr 0x2da0df4, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Camera* get_eventCamera();
 
-  /// @brief Method get_depth addr 0x2c38ae8 size 0xc4 virtual true final false
+  /// @brief Method get_depth, addr 0x2da0e98, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_finalEventMask addr 0x2c38980 size 0xc4 virtual false final false
+  /// @brief Method get_finalEventMask, addr 0x2da0d30, size 0xc4, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_eventMask addr 0x2c38bac size 0x8 virtual false final false
+  /// @brief Method get_eventMask, addr 0x2da0f5c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method set_eventMask addr 0x2c38bb4 size 0x8 virtual false final false
+  /// @brief Method set_eventMask, addr 0x2da0f64, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method get_maxRayIntersections addr 0x2c38bbc size 0x8 virtual false final false
+  /// @brief Method get_maxRayIntersections, addr 0x2da0f6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxRayIntersections();
 
-  /// @brief Method set_maxRayIntersections addr 0x2c38bc4 size 0x8 virtual false final false
+  /// @brief Method set_maxRayIntersections, addr 0x2da0f74, size 0x8, virtual false, abstract: false, final false
   inline void set_maxRayIntersections(int32_t value);
 
-  /// @brief Method ComputeRayAndDistance addr 0x2c38688 size 0x2f8 virtual false final false
+  /// @brief Method ComputeRayAndDistance, addr 0x2da0a38, size 0x2f8, virtual false, abstract: false, final false
   inline bool ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Ray> ray, ByRef<int32_t> eventDisplayIndex, ByRef<float_t> distanceToClipPlane);
 
-  /// @brief Method Raycast addr 0x2c38bcc size 0x3d4 virtual true final false
+  /// @brief Method Raycast, addr 0x2da0f7c, size 0x3d4, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsRaycaster", modifiers: "&&", def_value: None }]

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TeaEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(874))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TeaEngine*
 class CORDL_TYPE TeaEngine : public ::System::Object {
@@ -92,34 +92,34 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe751bc size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0xeea390, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName addr 0xe751d8 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xeea3ac, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xe75218 size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xeea3ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xe75220 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize, addr 0xeea3f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init addr 0xe75228 size 0x148 virtual true final false
+  /// @brief Method Init, addr 0xeea3fc, size 0x148, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method ProcessBlock addr 0xe753dc size 0x160 virtual true final false
+  /// @brief Method ProcessBlock, addr 0xeea5b0, size 0x160, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe75704 size 0x4 virtual true final false
+  /// @brief Method Reset, addr 0xeea8d8, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method setKey addr 0xe75370 size 0x6c virtual false final false
+  /// @brief Method setKey, addr 0xeea544, size 0x6c, virtual false, abstract: false, final false
   inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method encryptBlock addr 0xe75620 size 0xe4 virtual false final false
+  /// @brief Method encryptBlock, addr 0xeea7f4, size 0xe4, virtual false, abstract: false, final false
   inline int32_t encryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method decryptBlock addr 0xe7553c size 0xe4 virtual false final false
+  /// @brief Method decryptBlock, addr 0xeea710, size 0xe4, virtual false, abstract: false, final false
   inline int32_t decryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "TeaEngine", modifiers: "&&", def_value: None }]

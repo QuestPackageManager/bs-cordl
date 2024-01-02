@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserFlowCoordinator);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5508))
 // CS Name: ::GameServerBrowserFlowCoordinator*
 class CORDL_TYPE GameServerBrowserFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
   // Declarations
-  /// @brief Method DidActivate addr 0x21497e8 size 0x4 virtual true final false
+  /// @brief Method DidActivate, addr 0x228ea24, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::GameServerBrowserFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x21497ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x228ea28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameServerBrowserFlowCoordinator", modifiers: "&&", def_value: None }]

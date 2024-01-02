@@ -3,11 +3,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IExperimentModel)
-namespace GlobalNamespace {
-class IExperimentData;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class IExperimentData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IExperimentModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4216))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4185))
 // CS Name: ::IExperimentModel*
 class CORDL_TYPE IExperimentModel {
 public:
   // Declarations
-  /// @brief Method IsEmployee addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsEmployee, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsInTest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   // Ctor Parameters [CppParam { name: "", ty: "IExperimentModel", modifiers: "&&", def_value: None }]

@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(LightGroup)
 namespace GlobalNamespace {
 class LightGroupSO;
 }
-namespace UnityEngine {
-class GameObject;
-}
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroup);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14509))
 // CS Name: ::LightGroup*
 class CORDL_TYPE LightGroup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -69,39 +69,39 @@ public:
 
   constexpr void __set_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method get_lightGroupSO addr 0x1fb8914 size 0x8 virtual false final false
+  /// @brief Method get_lightGroupSO, addr 0x210ddf8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LightGroupSO* get_lightGroupSO();
 
-  /// @brief Method get_numberOfElements addr 0x1fb891c size 0x7c virtual false final false
+  /// @brief Method get_numberOfElements, addr 0x210de00, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
 
-  /// @brief Method get_startLightId addr 0x1fb8998 size 0x7c virtual false final false
+  /// @brief Method get_startLightId, addr 0x210de7c, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_startLightId();
 
-  /// @brief Method get_groupId addr 0x1fb8a14 size 0x7c virtual false final false
+  /// @brief Method get_groupId, addr 0x210def8, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
-  /// @brief Method get_sameIdElements addr 0x1fb8a90 size 0x7c virtual false final false
+  /// @brief Method get_sameIdElements, addr 0x210df74, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_sameIdElements();
 
-  /// @brief Method get_ignoreLightGroupEffectManager addr 0x1fb8b0c size 0x84 virtual false final false
+  /// @brief Method get_ignoreLightGroupEffectManager, addr 0x210dff0, size 0x84, virtual false, abstract: false, final false
   inline bool get_ignoreLightGroupEffectManager();
 
-  /// @brief Method add_respawnEvent addr 0x1fb8b90 size 0xb0 virtual false final false
+  /// @brief Method add_respawnEvent, addr 0x210e074, size 0xb0, virtual false, abstract: false, final false
   inline void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method remove_respawnEvent addr 0x1fb8c40 size 0xb0 virtual false final false
+  /// @brief Method remove_respawnEvent, addr 0x210e124, size 0xb0, virtual false, abstract: false, final false
   inline void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method add_didRefreshContentEvent addr 0x1fb8cf0 size 0xb0 virtual false final false
+  /// @brief Method add_didRefreshContentEvent, addr 0x210e1d4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
-  /// @brief Method remove_didRefreshContentEvent addr 0x1fb8da0 size 0xb0 virtual false final false
+  /// @brief Method remove_didRefreshContentEvent, addr 0x210e284, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
 
   static inline ::GlobalNamespace::LightGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb8e50 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x210e334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightGroup", modifiers: "&&", def_value: None }]

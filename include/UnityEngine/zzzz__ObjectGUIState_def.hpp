@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::ObjectGUIState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14827))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14610))
 // CS Name: ::UnityEngine::ObjectGUIState*
 class CORDL_TYPE ObjectGUIState : public ::System::Object {
 public:
@@ -39,22 +39,22 @@ public:
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b9c140 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2d04550, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Dispose addr 0x2b9c1b0 size 0x60 virtual true final true
+  /// @brief Method Dispose, addr 0x2d045c0, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize addr 0x2b9c2b0 size 0x94 virtual true final false
+  /// @brief Method Finalize, addr 0x2d046c0, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Destroy addr 0x2b9c210 size 0xa0 virtual false final false
+  /// @brief Method Destroy, addr 0x2d04620, size 0xa0, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Internal_Create addr 0x2b9c188 size 0x28 virtual false final false
+  /// @brief Method Internal_Create, addr 0x2d04598, size 0x28, virtual false, abstract: false, final false
   static inline void* Internal_Create();
 
-  /// @brief Method Internal_Destroy addr 0x2b9c344 size 0x3c virtual false final false
+  /// @brief Method Internal_Destroy, addr 0x2d04754, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectGUIState", modifiers: "&&", def_value: None }]

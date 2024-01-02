@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthenticationToken)
 namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace LiteNetLib::Utils {
@@ -16,9 +19,6 @@ class NetDataReader;
 }
 namespace GlobalNamespace {
 struct __AuthenticationToken__Platform;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::AuthenticationToken);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12609))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12681))
 // CS Name: ::AuthenticationToken::Platform
 struct CORDL_TYPE __AuthenticationToken__Platform {
 public:
@@ -120,8 +120,8 @@ static_assert(offsetof(::GlobalNamespace::__AuthenticationToken__Platform, value
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12610))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12681))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12682))
 // CS Name: ::AuthenticationToken
 struct CORDL_TYPE AuthenticationToken {
 public:
@@ -131,31 +131,31 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::AuthenticationToken>*();
 
-  /// @brief Method .ctor addr 0xda375c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0xe293f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__AuthenticationToken__Platform platform, ::StringW userId, ::StringW userName, ::StringW sessionToken);
 
-  /// @brief Method Serialize addr 0xda376c size 0x94 virtual true final true
+  /// @brief Method Serialize, addr 0xe29404, size 0x94, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method CreateFromSerializedData addr 0xda3918 size 0x2c virtual true final true
+  /// @brief Method CreateFromSerializedData, addr 0xe295b0, size 0x2c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::AuthenticationToken CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize addr 0xda3944 size 0xf0 virtual false final false
+  /// @brief Method Deserialize, addr 0xe295dc, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::AuthenticationToken Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method FromHex addr 0xda3830 size 0xe8 virtual false final false
+  /// @brief Method FromHex, addr 0xe294c8, size 0xe8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromHex(::StringW str);
 
-  /// @brief Method GetHexVal addr 0xda3afc size 0xcc virtual false final false
+  /// @brief Method GetHexVal, addr 0xe29794, size 0xcc, virtual false, abstract: false, final false
   static inline uint8_t GetHexVal(char16_t c);
 
-  /// @brief Method FromUtf8 addr 0xda3800 size 0x30 virtual false final false
+  /// @brief Method FromUtf8, addr 0xe29498, size 0x30, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> FromUtf8(::StringW str);
 
-  /// @brief Method ToHex addr 0xda3a64 size 0x98 virtual false final false
+  /// @brief Method ToHex, addr 0xe296fc, size 0x98, virtual false, abstract: false, final false
   static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method ToUtf8 addr 0xda3a34 size 0x30 virtual false final false
+  /// @brief Method ToUtf8, addr 0xe296cc, size 0x30, virtual false, abstract: false, final false
   static inline ::StringW ToUtf8(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
   // Ctor Parameters [CppParam { name: "platform", ty: "::GlobalNamespace::__AuthenticationToken__Platform", modifiers: "", def_value: None }, CppParam { name: "userId", ty: "::StringW", modifiers:

@@ -8,11 +8,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DrawIfAttribute)
-namespace GlobalNamespace {
-struct __DrawIfAttribute__DisablingType;
-}
 namespace System {
 class Object;
+}
+namespace GlobalNamespace {
+struct __DrawIfAttribute__DisablingType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DrawIfAttribute);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16094))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16249))
 // CS Name: ::DrawIfAttribute::DisablingType
 struct CORDL_TYPE __DrawIfAttribute__DisablingType {
 public:
@@ -78,8 +78,8 @@ static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098)), TypeDefinitionIndex(TypeDefinitionIndex(16094))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16095))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
 // CS Name: ::DrawIfAttribute*
 class CORDL_TYPE DrawIfAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -124,14 +124,16 @@ public:
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor addr 0x1fac250 size 0x3c virtual false final false
-  inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
+  /// @brief Method .ctor, addr 0x2101038, size 0x3c, virtual false, abstract: false, final false
+  /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
+  inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType = static_cast<int32_t>(0x1));
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue,
                                                              ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor addr 0x1fac28c size 0x44 virtual false final false
-  inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
+  /// @brief Method .ctor, addr 0x2101074, size 0x44, virtual false, abstract: false, final false
+  /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
+  inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType = static_cast<int32_t>(0x1));
 
   // Ctor Parameters [CppParam { name: "", ty: "DrawIfAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Internal::Threading::Tasks::Tracing::TaskTrace);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Internal::Threading::Tasks::Tracing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2303))
 // CS Name: ::Internal.Threading.Tasks.Tracing::TaskTrace*
 class CORDL_TYPE TaskTrace : public ::System::Object {
@@ -31,19 +31,19 @@ public:
 
   static inline ::Internal::Runtime::Augments::TaskTraceCallbacks* getStaticF_s_callbacks();
 
-  /// @brief Method get_Enabled addr 0x22d28d4 size 0x60 virtual false final false
+  /// @brief Method get_Enabled, addr 0x242c348, size 0x60, virtual false, abstract: false, final false
   static inline bool get_Enabled();
 
-  /// @brief Method TaskWaitBegin_Asynchronous addr 0x22d2934 size 0x84 virtual false final false
+  /// @brief Method TaskWaitBegin_Asynchronous, addr 0x242c3a8, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Asynchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitBegin_Synchronous addr 0x22d29b8 size 0x84 virtual false final false
+  /// @brief Method TaskWaitBegin_Synchronous, addr 0x242c42c, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitBegin_Synchronous(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskWaitEnd addr 0x22d2a3c size 0x84 virtual false final false
+  /// @brief Method TaskWaitEnd, addr 0x242c4b0, size 0x84, virtual false, abstract: false, final false
   static inline void TaskWaitEnd(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID);
 
-  /// @brief Method TaskScheduled addr 0x22d2ac0 size 0xa0 virtual false final false
+  /// @brief Method TaskScheduled, addr 0x242c534, size 0xa0, virtual false, abstract: false, final false
   static inline void TaskScheduled(int32_t OriginatingTaskSchedulerID, int32_t OriginatingTaskID, int32_t TaskID, int32_t CreatingTaskID, int32_t TaskCreationOptions);
 
   // Ctor Parameters [CppParam { name: "", ty: "TaskTrace", modifiers: "&&", def_value: None }]

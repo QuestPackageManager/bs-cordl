@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Collections::Generic::InsertionBehavior);
 namespace System::Collections::Generic {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3817))
 // CS Name: ::System.Collections.Generic::InsertionBehavior
 struct CORDL_TYPE InsertionBehavior {
 public:

@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::IConsoleDriver);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2600))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2602))
 // CS Name: ::System::IConsoleDriver*
 class CORDL_TYPE IConsoleDriver {
 public:
   // Declarations
-  /// @brief Method ReadKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
   // Ctor Parameters [CppParam { name: "", ty: "IConsoleDriver", modifiers: "&&", def_value: None }]

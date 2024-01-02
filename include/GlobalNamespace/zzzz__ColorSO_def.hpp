@@ -17,23 +17,23 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSO);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16207))
 // CS Name: ::ColorSO*
 class CORDL_TYPE ColorSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  /// @brief Method get_color addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_color, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method op_Implicit addr 0x11bd518 size 0x8c virtual false final false
+  /// @brief Method op_Implicit, addr 0x122d844, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::GlobalNamespace::ColorSO* c);
 
   static inline ::GlobalNamespace::ColorSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x11bd5a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x122d8d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorSO", modifiers: "&&", def_value: None }]

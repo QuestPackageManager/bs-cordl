@@ -8,17 +8,17 @@ CORDL_MODULE_EXPORT(SigningCertificateV2)
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
+namespace Org::BouncyCastle::Asn1::Ess {
+class EssCertIDv2;
+}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class PolicyInformation;
 }
-namespace Org::BouncyCastle::Asn1::Ess {
-class EssCertIDv2;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Ess {
@@ -54,39 +54,39 @@ public:
 
   constexpr void __set_policies(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method GetInstance addr 0xe26e50 size 0x190 virtual false final false
+  /// @brief Method GetInstance, addr 0xe9c024, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2* GetInstance(::System::Object* o);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe26fe0 size 0x184 virtual false final false
+  /// @brief Method .ctor, addr 0xe9c1b4, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2* New_ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* cert);
 
-  /// @brief Method .ctor addr 0xe27164 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xe9c338, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* cert);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>*> certs);
 
-  /// @brief Method .ctor addr 0xe271e0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xe9c3b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>*> certs);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::SigningCertificateV2*
   New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>*> certs,
            ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policies);
 
-  /// @brief Method .ctor addr 0xe2725c size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xe9c430, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>*> certs,
                     ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> policies);
 
-  /// @brief Method GetCerts addr 0xe27300 size 0x140 virtual false final false
+  /// @brief Method GetCerts, addr 0xe9c4d4, size 0x140, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*, ::Array<::Org::BouncyCastle::Asn1::Ess::EssCertIDv2*>*> GetCerts();
 
-  /// @brief Method GetPolicies addr 0xe27440 size 0x118 virtual false final false
+  /// @brief Method GetPolicies, addr 0xe9c614, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::PolicyInformation*, ::Array<::Org::BouncyCastle::Asn1::X509::PolicyInformation*>*> GetPolicies();
 
-  /// @brief Method ToAsn1Object addr 0xe27558 size 0x148 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe9c72c, size 0x148, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SigningCertificateV2", modifiers: "&&", def_value: None }]

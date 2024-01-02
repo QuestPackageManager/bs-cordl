@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::System::Buffers::IPinnable);
 namespace System::Buffers {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3883))
 // CS Name: ::System.Buffers::IPinnable*
 class CORDL_TYPE IPinnable {
 public:
   // Declarations
-  /// @brief Method Unpin addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Unpin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Unpin();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPinnable", modifiers: "&&", def_value: None }]

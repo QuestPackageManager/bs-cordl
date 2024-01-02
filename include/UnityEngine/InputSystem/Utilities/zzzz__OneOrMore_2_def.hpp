@@ -7,17 +7,23 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OneOrMore_2)
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
-class IDisposable;
+class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
@@ -27,12 +33,6 @@ template <typename T> class IReadOnlyList_1;
 }
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue, typename TList> class __OneOrMore_2__Enumerator;
-}
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -51,7 +51,7 @@ namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue, typename TList>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6697))
 // CS Name: ::UnityEngine.InputSystem.Utilities::OneOrMore`2<TValue,TList>
 struct CORDL_TYPE OneOrMore_2 {
 public:
@@ -74,28 +74,28 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<TValue>*();
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue get_Item(int32_t index);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TValue single);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TList multiple);
 
-  /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> op_Implicit___UnityEngine__InputSystem__Utilities__OneOrMore_2_TValue_TList_(TValue single);
 
-  /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> op_Implicit___UnityEngine__InputSystem__Utilities__OneOrMore_2_TValue_TList_(TList multiple);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "m_IsSingle", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Single", ty: "TValue", modifiers: "", def_value: None }, CppParam { name:
@@ -128,8 +128,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6783), inst: 4690 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6783))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6782)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(6697))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
 class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
 public:
   // Declarations
@@ -164,24 +164,24 @@ public:
 
   constexpr void __set_m_List(::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> value);
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::Utilities::__OneOrMore_2__Enumerator<TValue, TList>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OneOrMore_2__Enumerator", modifiers: "&&", def_value: None }]

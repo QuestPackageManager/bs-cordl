@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IValueProvider);
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11862))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11934))
 // CS Name: ::Newtonsoft.Json.Serialization::IValueProvider*
 class CORDL_TYPE IValueProvider {
 public:
   // Declarations
-  /// @brief Method SetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* target, ::System::Object* value);
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* target);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValueProvider", modifiers: "&&", def_value: None }]

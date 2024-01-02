@@ -18,16 +18,16 @@ MARK_REF_PTR_T(::Oculus::Platform::Vrcamera);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13405))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13372))
 // CS Name: ::Oculus.Platform::Vrcamera*
 class CORDL_TYPE Vrcamera : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback addr 0x25ac6cc size 0x74 virtual false final false
+  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x27003c4, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
-  /// @brief Method SetGetSurfaceUpdateNotificationCallback addr 0x25ac740 size 0x74 virtual false final false
+  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x2700438, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "Vrcamera", modifiers: "&&", def_value: None }]

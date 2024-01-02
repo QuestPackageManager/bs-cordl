@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::INVALIDATION_FLAGS);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15196))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15092))
 // CS Name: ::LIV.SDK.Unity::INVALIDATION_FLAGS
 struct CORDL_TYPE INVALIDATION_FLAGS {
 public:

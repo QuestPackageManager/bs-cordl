@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerOptionsTableCell);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13781))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5676))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5584))
 // CS Name: ::NetworkPlayerOptionsTableCell*
 class CORDL_TYPE NetworkPlayerOptionsTableCell : public ::HMUI::TableCell {
 public:
@@ -71,36 +71,36 @@ public:
 
   constexpr void __set__player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method get_player addr 0x2162414 size 0x8 virtual false final false
+  /// @brief Method get_player, addr 0x22a7864, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
 
-  /// @brief Method set_player addr 0x216241c size 0x8 virtual false final false
+  /// @brief Method set_player, addr 0x22a786c, size 0x8, virtual false, abstract: false, final false
   inline void set_player(::GlobalNamespace::INetworkPlayer* value);
 
-  /// @brief Method Refresh addr 0x2162424 size 0xb74 virtual false final false
+  /// @brief Method Refresh, addr 0x22a7874, size 0xb74, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Block addr 0x2162f98 size 0xac virtual false final false
+  /// @brief Method Block, addr 0x22a83e8, size 0xac, virtual false, abstract: false, final false
   inline void Block();
 
-  /// @brief Method Unblock addr 0x2163044 size 0xac virtual false final false
+  /// @brief Method Unblock, addr 0x22a8494, size 0xac, virtual false, abstract: false, final false
   inline void Unblock();
 
-  /// @brief Method Join addr 0x21630f0 size 0xac virtual false final false
+  /// @brief Method Join, addr 0x22a8540, size 0xac, virtual false, abstract: false, final false
   inline void Join();
 
-  /// @brief Method Invite addr 0x216319c size 0xac virtual false final false
+  /// @brief Method Invite, addr 0x22a85ec, size 0xac, virtual false, abstract: false, final false
   inline void Invite();
 
-  /// @brief Method Kick addr 0x2163248 size 0xac virtual false final false
+  /// @brief Method Kick, addr 0x22a8698, size 0xac, virtual false, abstract: false, final false
   inline void Kick();
 
-  /// @brief Method Leave addr 0x21632f4 size 0xac virtual false final false
+  /// @brief Method Leave, addr 0x22a8744, size 0xac, virtual false, abstract: false, final false
   inline void Leave();
 
   static inline ::GlobalNamespace::NetworkPlayerOptionsTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x21633a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22a87f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerOptionsTableCell", modifiers: "&&", def_value: None }]

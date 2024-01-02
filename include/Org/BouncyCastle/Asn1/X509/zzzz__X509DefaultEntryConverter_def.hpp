@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509DefaultEntryConverter)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -27,12 +27,12 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class CORDL_TYPE X509DefaultEntryConverter : public ::Org::BouncyCastle::Asn1::X509::X509NameEntryConverter {
 public:
   // Declarations
-  /// @brief Method GetConvertedValue addr 0x112d674 size 0x398 virtual true final false
+  /// @brief Method GetConvertedValue, addr 0x119d8bc, size 0x398, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* GetConvertedValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509DefaultEntryConverter* New_ctor();
 
-  /// @brief Method .ctor addr 0x112da0c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x119dc54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509DefaultEntryConverter", modifiers: "&&", def_value: None }]

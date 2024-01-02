@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::MarkupTag);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12408))
 // CS Name: ::TMPro::MarkupTag
 struct CORDL_TYPE MarkupTag {
 public:

@@ -8,50 +8,50 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentOverrideSettingsPanelController)
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace HMUI {
-class DropdownWithTableView;
-}
-namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController__Elements;
-}
-namespace GlobalNamespace {
-class IRefreshable;
-}
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
-class EnvironmentsListSO;
-}
-namespace GlobalNamespace {
-class __EnvironmentOverrideSettingsPanelController____c;
-}
-namespace HMUI {
-class PanelAnimationSO;
+class OverrideEnvironmentSettings;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-class OverrideEnvironmentSettings;
+class EnvironmentsListSO;
+}
+namespace HMUI {
+class DropdownWithTableView;
+}
+namespace HMUI {
+class PanelAnimationSO;
+}
+namespace GlobalNamespace {
+class IRefreshable;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController__Elements;
+}
+namespace GlobalNamespace {
+class __EnvironmentOverrideSettingsPanelController____c;
 }
 namespace HMUI {
 class SimpleTextDropdown;
 }
 namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
-namespace GlobalNamespace {
 class EnvironmentTypeSO;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -74,8 +74,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5585))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5479))
 // CS Name: ::EnvironmentOverrideSettingsPanelController::Elements*
 class CORDL_TYPE __EnvironmentOverrideSettingsPanelController__Elements : public ::System::Object {
 public:
@@ -119,15 +119,15 @@ public:
 
   constexpr void __set__environmentInfos_k__BackingField(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value);
 
-  /// @brief Method get_environmentInfos addr 0x2142dc0 size 0x8 virtual false final false
+  /// @brief Method get_environmentInfos, addr 0x2284348, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* get_environmentInfos();
 
-  /// @brief Method set_environmentInfos addr 0x2142dc8 size 0x8 virtual false final false
+  /// @brief Method set_environmentInfos, addr 0x2284350, size 0x8, virtual false, abstract: false, final false
   inline void set_environmentInfos(::System::Collections::Generic::List_1<::GlobalNamespace::EnvironmentInfoSO*>* value);
 
   static inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController__Elements* New_ctor();
 
-  /// @brief Method .ctor addr 0x2142dd0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2284358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentOverrideSettingsPanelController__Elements", modifiers: "&&", def_value: None }]
@@ -174,8 +174,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentOverrideSettingsPanelCont
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5480))
 // CS Name: ::EnvironmentOverrideSettingsPanelController::<>c*
 class CORDL_TYPE __EnvironmentOverrideSettingsPanelController____c : public ::System::Object {
 public:
@@ -196,10 +196,10 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentOverrideSettingsPanelController____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2142e3c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22843c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SetData>b__12_0 addr 0x2142e44 size 0x18 virtual false final false
+  /// @brief Method <SetData>b__12_0, addr 0x22843cc, size 0x18, virtual false, abstract: false, final false
   inline ::StringW _SetData_b__12_0(::GlobalNamespace::EnvironmentInfoSO* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentOverrideSettingsPanelController____c", modifiers: "&&", def_value: None }]
@@ -226,8 +226,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__EnvironmentOv
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5587))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5481))
 // CS Name: ::EnvironmentOverrideSettingsPanelController*
 class CORDL_TYPE EnvironmentOverrideSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -326,30 +326,30 @@ public:
 
   constexpr void __set__initialized(bool value);
 
-  /// @brief Method get_overrideEnvironmentSettings addr 0x2142334 size 0x8 virtual false final false
+  /// @brief Method get_overrideEnvironmentSettings, addr 0x22838bc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_overrideEnvironmentSettings();
 
-  /// @brief Method SetData addr 0x214233c size 0x2b0 virtual false final false
+  /// @brief Method SetData, addr 0x22838c4, size 0x2b0, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings);
 
-  /// @brief Method OnDestroy addr 0x21425ec size 0x19c virtual false final false
+  /// @brief Method OnDestroy, addr 0x2283b74, size 0x19c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Refresh addr 0x2142788 size 0x154 virtual true final true
+  /// @brief Method Refresh, addr 0x2283d10, size 0x154, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method HandleDropDownDidSelectCellWithIdx addr 0x21428dc size 0x290 virtual false final false
+  /// @brief Method HandleDropDownDidSelectCellWithIdx, addr 0x2283e64, size 0x290, virtual false, abstract: false, final false
   inline void HandleDropDownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropDownWithTableView, int32_t idx);
 
-  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged addr 0x2142b6c size 0x22c virtual false final false
+  /// @brief Method HandleOverrideEnvironmentsToggleValueChanged, addr 0x22840f4, size 0x22c, virtual false, abstract: false, final false
   inline void HandleOverrideEnvironmentsToggleValueChanged(bool isOn);
 
   static inline ::GlobalNamespace::EnvironmentOverrideSettingsPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2142d98 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2284320, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__16_0 addr 0x2142da0 size 0x20 virtual false final false
+  /// @brief Method <HandleOverrideEnvironmentsToggleValueChanged>b__16_0, addr 0x2284328, size 0x20, virtual false, abstract: false, final false
   inline void _HandleOverrideEnvironmentsToggleValueChanged_b__16_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentOverrideSettingsPanelController", modifiers: "&&", def_value: None }]

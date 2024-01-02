@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeleteElements)
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass2_0;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
+namespace UnityEngine::ProBuilder::MeshOperations {
+class __DeleteElements____c;
 }
 namespace UnityEngine::ProBuilder::MeshOperations {
 class __DeleteElements____c__DisplayClass0_0;
@@ -24,8 +24,8 @@ class __DeleteElements____c__DisplayClass0_0;
 namespace UnityEngine::ProBuilder {
 class Face;
 }
-namespace UnityEngine::ProBuilder::MeshOperations {
-class __DeleteElements____c;
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12255))
 // CS Name: ::DeleteElements::<>c__DisplayClass0_0*
 class CORDL_TYPE __DeleteElements____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -84,19 +84,19 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a27c80 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba99d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DeleteVertices>b__0 addr 0x2a283cc size 0x6c virtual false final false
+  /// @brief Method <DeleteVertices>b__0, addr 0x2baa120, size 0x6c, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__1 addr 0x2a28438 size 0xa8 virtual false final false
+  /// @brief Method <DeleteVertices>b__1, addr 0x2baa18c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__1(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
-  /// @brief Method <DeleteVertices>b__2 addr 0x2a284e0 size 0x6c virtual false final false
+  /// @brief Method <DeleteVertices>b__2, addr 0x2baa234, size 0x6c, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__2(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__3 addr 0x2a2854c size 0xa8 virtual false final false
+  /// @brief Method <DeleteVertices>b__3, addr 0x2baa2a0, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__3(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DeleteElements____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -133,8 +133,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__DeleteElemen
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12184))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12256))
 // CS Name: ::DeleteElements::<>c__DisplayClass2_0*
 class CORDL_TYPE __DeleteElements____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -150,10 +150,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a27c88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ba99dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DeleteFaces>b__0 addr 0x2a285f4 size 0x5c virtual false final false
+  /// @brief Method <DeleteFaces>b__0, addr 0x2baa348, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _DeleteFaces_b__0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DeleteElements____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -185,8 +185,8 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__DeleteElemen
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12185))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12257))
 // CS Name: ::DeleteElements::<>c*
 class CORDL_TYPE __DeleteElements____c : public ::System::Object {
 public:
@@ -208,10 +208,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a286b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2baa408, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DeleteFaces>b__3_0 addr 0x2a286bc size 0x18 virtual false final false
+  /// @brief Method <DeleteFaces>b__3_0, addr 0x2baa410, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _DeleteFaces_b__3_0(::UnityEngine::ProBuilder::Face* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DeleteElements____c", modifiers: "&&", def_value: None }]
@@ -238,8 +238,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12186))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12258))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::DeleteElements*
 class CORDL_TYPE DeleteElements : public ::System::Object {
 public:
@@ -250,23 +250,23 @@ public:
 
   using __c__DisplayClass0_0 = ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass0_0;
 
-  /// @brief Method DeleteVertices addr 0x2a190d8 size 0x4d4 virtual false final false
+  /// @brief Method DeleteVertices, addr 0x2b9ae2c, size 0x4d4, virtual false, abstract: false, final false
   static inline void DeleteVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* distinctIndexes);
 
-  /// @brief Method DeleteFace addr 0x2a1720c size 0xa0 virtual false final false
+  /// @brief Method DeleteFace, addr 0x2b98f60, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method DeleteFaces addr 0x2a1f0d0 size 0x104 virtual false final false
+  /// @brief Method DeleteFaces, addr 0x2ba0e24, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method DeleteFaces addr 0x2a27c90 size 0x604 virtual false final false
+  /// @brief Method DeleteFaces, addr 0x2ba99e4, size 0x604, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* faceIndexes);
 
-  /// @brief Method RemoveDegenerateTriangles addr 0x2a28294 size 0x9c virtual false final false
+  /// @brief Method RemoveDegenerateTriangles, addr 0x2ba9fe8, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method RemoveUnusedVertices addr 0x2a28330 size 0x9c virtual false final false
+  /// @brief Method RemoveUnusedVertices, addr 0x2baa084, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "DeleteElements", modifiers: "&&", def_value: None }]

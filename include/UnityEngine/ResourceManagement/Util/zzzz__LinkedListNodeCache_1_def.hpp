@@ -23,8 +23,8 @@ namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14252))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13981))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LinkedListNodeCache`1<T>*
 class CORDL_TYPE LinkedListNodeCache_1 : public ::System::Object {
 public:
@@ -51,21 +51,21 @@ public:
 
   constexpr void __set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value);
 
-  /// @brief Method Acquire addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  /// @brief Method get_CreatedNodeCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CreatedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CreatedNodeCount();
 
-  /// @brief Method get_CachedNodeCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CachedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CachedNodeCount();
 
   static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LinkedListNodeCache_1", modifiers: "&&", def_value: None }]

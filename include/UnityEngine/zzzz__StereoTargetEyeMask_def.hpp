@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::StereoTargetEyeMask);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10030))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10102))
 // CS Name: ::UnityEngine::StereoTargetEyeMask
 struct CORDL_TYPE StereoTargetEyeMask {
 public:

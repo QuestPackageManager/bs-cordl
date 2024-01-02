@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRComponentProperty);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9402))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8633))
 // CS Name: ::OVR.OpenVR::EVRComponentProperty
 struct CORDL_TYPE EVRComponentProperty {
 public:

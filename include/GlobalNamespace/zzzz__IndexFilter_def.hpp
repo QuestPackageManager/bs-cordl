@@ -9,44 +9,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexFilter)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterRandomType;
-}
-namespace System {
-template <typename T1, typename T2, typename T3> struct ValueTuple_3;
-}
-namespace GlobalNamespace {
-struct __IndexFilter__IndexFilterLimitAlsoAffectType;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace GlobalNamespace {
-class __IndexFilter___GetEnumerator_d__19;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
 }
 namespace GlobalNamespace {
-class __IndexFilter___GetValues_d__20;
+struct __IndexFilter__IndexFilterRandomType;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace GlobalNamespace {
+class __IndexFilter___GetEnumerator_d__23;
+}
+namespace GlobalNamespace {
+struct __IndexFilter__IndexFilterLimitAlsoAffectType;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
+namespace GlobalNamespace {
+class __IndexFilter___GetValues_d__24;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -59,23 +59,23 @@ namespace GlobalNamespace {
 class IndexFilter;
 }
 namespace GlobalNamespace {
-class __IndexFilter___GetEnumerator_d__19;
+class __IndexFilter___GetEnumerator_d__23;
 }
 namespace GlobalNamespace {
-class __IndexFilter___GetValues_d__20;
+class __IndexFilter___GetValues_d__24;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType);
 MARK_VAL_T(::GlobalNamespace::__IndexFilter__IndexFilterRandomType);
 MARK_REF_PTR_T(::GlobalNamespace::IndexFilter);
-MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19);
-MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetValues_d__20);
+MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23);
+MARK_REF_PTR_T(::GlobalNamespace::__IndexFilter___GetValues_d__24);
 // Type: ::IndexFilterRandomType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4315))
 // CS Name: ::IndexFilter::IndexFilterRandomType
 struct CORDL_TYPE __IndexFilter__IndexFilterRandomType {
 public:
@@ -129,7 +129,7 @@ static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterRandomType, 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4336))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4316))
 // CS Name: ::IndexFilter::IndexFilterLimitAlsoAffectType
 struct CORDL_TYPE __IndexFilter__IndexFilterLimitAlsoAffectType {
 public:
@@ -178,13 +178,13 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IndexFilter__
 static_assert(offsetof(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetEnumerator>d__19
+// Type: ::<GetEnumerator>d__23
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2506), inst: 5203 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2506))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4337)) CS Name: ::IndexFilter::<GetEnumerator>d__19*
-class CORDL_TYPE __IndexFilter___GetEnumerator_d__19 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5323
+// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4317)) CS Name: ::IndexFilter::<GetEnumerator>d__23*
+class CORDL_TYPE __IndexFilter___GetEnumerator_d__23 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -196,26 +196,20 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::IndexFilter* __4__this;
 
-  /// @brief Field <shouldLimitDurationOrder>5__2, offset 0x28, size 0x1
-  __declspec(property(get = __get__shouldLimitDurationOrder_5__2, put = __set__shouldLimitDurationOrder_5__2)) bool _shouldLimitDurationOrder_5__2;
+  /// @brief Field <limitedOrderIndex>5__2, offset 0x28, size 0x4
+  __declspec(property(get = __get__limitedOrderIndex_5__2, put = __set__limitedOrderIndex_5__2)) int32_t _limitedOrderIndex_5__2;
 
-  /// @brief Field <shouldLimitDistributionOrder>5__3, offset 0x29, size 0x1
-  __declspec(property(get = __get__shouldLimitDistributionOrder_5__3, put = __set__shouldLimitDistributionOrder_5__3)) bool _shouldLimitDistributionOrder_5__3;
+  /// @brief Field <>7__wrap2, offset 0x30, size 0x8
+  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* __7__wrap2;
 
-  /// @brief Field <limitedOrderIndex>5__4, offset 0x2c, size 0x4
-  __declspec(property(get = __get__limitedOrderIndex_5__4, put = __set__limitedOrderIndex_5__4)) int32_t _limitedOrderIndex_5__4;
+  /// @brief Field <elementId>5__4, offset 0x38, size 0x4
+  __declspec(property(get = __get__elementId_5__4, put = __set__elementId_5__4)) int32_t _elementId_5__4;
 
-  /// @brief Field <>7__wrap4, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap4, put = __set___7__wrap4))::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* __7__wrap4;
+  /// @brief Field <index>5__5, offset 0x3c, size 0x4
+  __declspec(property(get = __get__index_5__5, put = __set__index_5__5)) int32_t _index_5__5;
 
-  /// @brief Field <elementId>5__6, offset 0x38, size 0x4
-  __declspec(property(get = __get__elementId_5__6, put = __set__elementId_5__6)) int32_t _elementId_5__6;
-
-  /// @brief Field <index>5__7, offset 0x3c, size 0x4
-  __declspec(property(get = __get__index_5__7, put = __set__index_5__7)) int32_t _index_5__7;
-
-  /// @brief Field <localChunkIndex>5__8, offset 0x40, size 0x4
-  __declspec(property(get = __get__localChunkIndex_5__8, put = __set__localChunkIndex_5__8)) int32_t _localChunkIndex_5__8;
+  /// @brief Field <localChunkIndex>5__6, offset 0x40, size 0x4
+  __declspec(property(get = __get__localChunkIndex_5__6, put = __set__localChunkIndex_5__6)) int32_t _localChunkIndex_5__6;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current))::System::ValueTuple_3<
       int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___Current;
@@ -249,83 +243,72 @@ public:
 
   constexpr void __set___4__this(::GlobalNamespace::IndexFilter* value);
 
-  constexpr bool& __get__shouldLimitDurationOrder_5__2();
+  constexpr int32_t& __get__limitedOrderIndex_5__2();
 
-  constexpr bool const& __get__shouldLimitDurationOrder_5__2() const;
+  constexpr int32_t const& __get__limitedOrderIndex_5__2() const;
 
-  constexpr void __set__shouldLimitDurationOrder_5__2(bool value);
+  constexpr void __set__limitedOrderIndex_5__2(int32_t value);
 
-  constexpr bool& __get__shouldLimitDistributionOrder_5__3();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*& __get___7__wrap2();
 
-  constexpr bool const& __get__shouldLimitDistributionOrder_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*> const& __get___7__wrap2() const;
 
-  constexpr void __set__shouldLimitDistributionOrder_5__3(bool value);
+  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
 
-  constexpr int32_t& __get__limitedOrderIndex_5__4();
+  constexpr int32_t& __get__elementId_5__4();
 
-  constexpr int32_t const& __get__limitedOrderIndex_5__4() const;
+  constexpr int32_t const& __get__elementId_5__4() const;
 
-  constexpr void __set__limitedOrderIndex_5__4(int32_t value);
+  constexpr void __set__elementId_5__4(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*& __get___7__wrap4();
+  constexpr int32_t& __get__index_5__5();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>*> const& __get___7__wrap4() const;
+  constexpr int32_t const& __get__index_5__5() const;
 
-  constexpr void __set___7__wrap4(::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* value);
+  constexpr void __set__index_5__5(int32_t value);
 
-  constexpr int32_t& __get__elementId_5__6();
+  constexpr int32_t& __get__localChunkIndex_5__6();
 
-  constexpr int32_t const& __get__elementId_5__6() const;
+  constexpr int32_t const& __get__localChunkIndex_5__6() const;
 
-  constexpr void __set__elementId_5__6(int32_t value);
+  constexpr void __set__localChunkIndex_5__6(int32_t value);
 
-  constexpr int32_t& __get__index_5__7();
+  static inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23* New_ctor(int32_t __1__state);
 
-  constexpr int32_t const& __get__index_5__7() const;
-
-  constexpr void __set__index_5__7(int32_t value);
-
-  constexpr int32_t& __get__localChunkIndex_5__8();
-
-  constexpr int32_t const& __get__localChunkIndex_5__8() const;
-
-  constexpr void __set__localChunkIndex_5__8(int32_t value);
-
-  static inline ::GlobalNamespace::__IndexFilter___GetEnumerator_d__19* New_ctor(int32_t __1__state);
-
-  /// @brief Method .ctor addr 0x21f0840 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x233af14, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21f0918 size 0x1c virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x233afec, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21f0934 size 0x508 virtual true final true
+  /// @brief Method MoveNext, addr 0x233b008, size 0x4f0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x21f0e3c size 0xb0 virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x233b4f8, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current addr 0x21f0eec size 0x10 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<(System.Int32element,System.Int32durationOrder,System.Int32distributionOrder)>.get_Current, addr 0x233b5a8, size 0x10, virtual true,
+  /// abstract: false, final true
   inline ::System::ValueTuple_3<int32_t, int32_t, int32_t> System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21f0efc size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x233b5b8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21f0f3c size 0x64 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x233b5f8, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetEnumerator_d__19", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetEnumerator_d__23", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IndexFilter___GetEnumerator_d__19(__IndexFilter___GetEnumerator_d__19&&) = delete;
+  __IndexFilter___GetEnumerator_d__23(__IndexFilter___GetEnumerator_d__23&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetEnumerator_d__19", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetEnumerator_d__23", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IndexFilter___GetEnumerator_d__19(__IndexFilter___GetEnumerator_d__19 const&) = delete;
+  __IndexFilter___GetEnumerator_d__23(__IndexFilter___GetEnumerator_d__23 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IndexFilter___GetEnumerator_d__19();
+  constexpr __IndexFilter___GetEnumerator_d__23();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -337,61 +320,51 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IndexFilter* _____4__this;
 
-  /// @brief Field <shouldLimitDurationOrder>5__2, offset: 0x28, size: 0x1, def value: None
-  bool ____shouldLimitDurationOrder_5__2;
+  /// @brief Field <limitedOrderIndex>5__2, offset: 0x28, size: 0x4, def value: None
+  int32_t ____limitedOrderIndex_5__2;
 
-  /// @brief Field <shouldLimitDistributionOrder>5__3, offset: 0x29, size: 0x1, def value: None
-  bool ____shouldLimitDistributionOrder_5__3;
+  /// @brief Field <>7__wrap2, offset: 0x30, size: 0x8, def value: None
+  ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* _____7__wrap2;
 
-  /// @brief Field <limitedOrderIndex>5__4, offset: 0x2c, size: 0x4, def value: None
-  int32_t ____limitedOrderIndex_5__4;
+  /// @brief Field <elementId>5__4, offset: 0x38, size: 0x4, def value: None
+  int32_t ____elementId_5__4;
 
-  /// @brief Field <>7__wrap4, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_2<int32_t, int32_t>>* _____7__wrap4;
+  /// @brief Field <index>5__5, offset: 0x3c, size: 0x4, def value: None
+  int32_t ____index_5__5;
 
-  /// @brief Field <elementId>5__6, offset: 0x38, size: 0x4, def value: None
-  int32_t ____elementId_5__6;
-
-  /// @brief Field <index>5__7, offset: 0x3c, size: 0x4, def value: None
-  int32_t ____index_5__7;
-
-  /// @brief Field <localChunkIndex>5__8, offset: 0x40, size: 0x4, def value: None
-  int32_t ____localChunkIndex_5__8;
+  /// @brief Field <localChunkIndex>5__6, offset: 0x40, size: 0x4, def value: None
+  int32_t ____localChunkIndex_5__6;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, _____2__current) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _____2__current) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____shouldLimitDurationOrder_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, ____limitedOrderIndex_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____shouldLimitDistributionOrder_5__3) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, _____7__wrap2) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____limitedOrderIndex_5__4) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, ____elementId_5__4) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, _____7__wrap4) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, ____index_5__5) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____elementId_5__6) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____index_5__7) == 0x3c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19, ____localChunkIndex_5__8) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23, ____localChunkIndex_5__6) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<GetValues>d__20
+// Type: ::<GetValues>d__24
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4338))
-// CS Name: ::IndexFilter::<GetValues>d__20*
-class CORDL_TYPE __IndexFilter___GetValues_d__20 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4318))
+// CS Name: ::IndexFilter::<GetValues>d__24*
+class CORDL_TYPE __IndexFilter___GetValues_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
@@ -467,44 +440,44 @@ public:
 
   constexpr void __set__i_5__3(int32_t value);
 
-  static inline ::GlobalNamespace::__IndexFilter___GetValues_d__20* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::__IndexFilter___GetValues_d__24* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x21f08e0 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x233afb4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21f0fa0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x233b65c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21f0fa4 size 0x80 virtual true final true
+  /// @brief Method MoveNext, addr 0x233b660, size 0x80, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current addr 0x21f1024 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x233b6e0, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21f102c size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x233b6e8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21f106c size 0x5c virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x233b728, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator addr 0x21f10c8 size 0xa4 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x233b784, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x21f116c size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x233b828, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetValues_d__20", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetValues_d__24", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __IndexFilter___GetValues_d__20(__IndexFilter___GetValues_d__20&&) = delete;
+  __IndexFilter___GetValues_d__24(__IndexFilter___GetValues_d__24&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetValues_d__20", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__IndexFilter___GetValues_d__24", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __IndexFilter___GetValues_d__20(__IndexFilter___GetValues_d__20 const&) = delete;
+  __IndexFilter___GetValues_d__24(__IndexFilter___GetValues_d__24 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __IndexFilter___GetValues_d__20();
+  constexpr __IndexFilter___GetValues_d__24();
 
 public:
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
@@ -528,34 +501,34 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IndexFilter___GetValues_d__20, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IndexFilter___GetValues_d__24, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, _____2__current) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, _____2__current) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, _____l__initialThreadId) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, _____l__initialThreadId) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, ____value_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____value_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__20, ____i_5__3) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__IndexFilter___GetValues_d__24, ____i_5__3) == 0x2c, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::IndexFilter
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4336)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(4335))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4339))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4316)), TypeDefinitionIndex(TypeDefinitionIndex(4315)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
 // CS Name: ::IndexFilter*
 class CORDL_TYPE IndexFilter : public ::System::Object {
 public:
   // Declarations
-  using _GetValues_d__20 = ::GlobalNamespace::__IndexFilter___GetValues_d__20;
+  using _GetValues_d__24 = ::GlobalNamespace::__IndexFilter___GetValues_d__24;
 
-  using _GetEnumerator_d__19 = ::GlobalNamespace::__IndexFilter___GetEnumerator_d__19;
+  using _GetEnumerator_d__23 = ::GlobalNamespace::__IndexFilter___GetEnumerator_d__23;
 
   using IndexFilterLimitAlsoAffectType = ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType;
 
@@ -593,6 +566,10 @@ public:
   __declspec(property(get = get_VisibleCount)) int32_t VisibleCount;
 
   __declspec(property(get = get_limitAlsoAffectType))::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType;
+
+  __declspec(property(get = get_limitsDuration)) bool limitsDuration;
+
+  __declspec(property(get = get_limitsDistribution)) bool limitsDistribution;
 
   /// @brief Convert operator to "::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t,int32_t,int32_t>>"
   constexpr operator ::System::Collections::Generic::IReadOnlyCollection_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>*() noexcept;
@@ -657,36 +634,42 @@ public:
 
   constexpr void __set__count(int32_t value);
 
-  /// @brief Method get_Count addr 0x21f0828 size 0x8 virtual true final true
+  /// @brief Method get_Count, addr 0x233aef0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_VisibleCount addr 0x21f0830 size 0x8 virtual false final false
+  /// @brief Method get_VisibleCount, addr 0x233aef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_VisibleCount();
 
-  /// @brief Method get_limitAlsoAffectType addr 0x21f0838 size 0x8 virtual false final false
+  /// @brief Method get_limitAlsoAffectType, addr 0x233af00, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType get_limitAlsoAffectType();
+
+  /// @brief Method get_limitsDuration, addr 0x233af08, size 0xc, virtual false, abstract: false, final false
+  inline bool get_limitsDuration();
+
+  /// @brief Method get_limitsDistribution, addr 0x23388a0, size 0xc, virtual false, abstract: false, final false
+  inline bool get_limitsDistribution();
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed,
                                                          int32_t chunkSize, float_t limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor addr 0x21eb130 size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0x2336154, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t step, int32_t count, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
   static inline ::GlobalNamespace::IndexFilter* New_ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize,
                                                          float_t limit, ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method .ctor addr 0x21eb050 size 0xe0 virtual false final false
+  /// @brief Method .ctor, addr 0x2336074, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t groupSize, ::GlobalNamespace::__IndexFilter__IndexFilterRandomType random, int32_t seed, int32_t chunkSize, float_t limit,
                     ::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAffectType limitAlsoAffectType);
 
-  /// @brief Method GetEnumerator addr 0x21ee238 size 0x68 virtual true final true
+  /// @brief Method GetEnumerator, addr 0x23389e0, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* GetEnumerator();
 
-  /// @brief Method GetValues addr 0x21f0868 size 0x78 virtual false final false
+  /// @brief Method GetValues, addr 0x233af3c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetValues();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x21f0914 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x233afe8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "IndexFilter", modifiers: "&&", def_value: None }]
@@ -758,7 +741,7 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter__IndexFilterLimitAlsoAff
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter__IndexFilterRandomType, "", "IndexFilter/IndexFilterRandomType");
 NEED_NO_BOX(::GlobalNamespace::IndexFilter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IndexFilter*, "", "IndexFilter");
-NEED_NO_BOX(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter___GetEnumerator_d__19*, "", "IndexFilter/<GetEnumerator>d__19");
-NEED_NO_BOX(::GlobalNamespace::__IndexFilter___GetValues_d__20);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter___GetValues_d__20*, "", "IndexFilter/<GetValues>d__20");
+NEED_NO_BOX(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter___GetEnumerator_d__23*, "", "IndexFilter/<GetEnumerator>d__23");
+NEED_NO_BOX(::GlobalNamespace::__IndexFilter___GetValues_d__24);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__IndexFilter___GetValues_d__24*, "", "IndexFilter/<GetValues>d__24");

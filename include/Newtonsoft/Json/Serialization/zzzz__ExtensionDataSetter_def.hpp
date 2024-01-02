@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::ExtensionDataSetter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11867))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11939))
 // CS Name: ::Newtonsoft.Json.Serialization::ExtensionDataSetter*
 class CORDL_TYPE ExtensionDataSetter : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataSetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x250dc48 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x267138c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2514d3c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2678480, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::StringW key, ::System::Object* value);
 
-  /// @brief Method BeginInvoke addr 0x2514d50 size 0x2c virtual true final false
+  /// @brief Method BeginInvoke, addr 0x2678494, size 0x2c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::StringW key, ::System::Object* value, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2514d7c size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x26784c0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExtensionDataSetter", modifiers: "&&", def_value: None }]

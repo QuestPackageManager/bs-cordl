@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::System::TupleExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2491))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2493))
 // CS Name: ::System::TupleExtensions*
 class CORDL_TYPE TupleExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Deconstruct addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Deconstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline void Deconstruct(::System::Tuple_2<T1, T2>* value, ByRef<T1> item1, ByRef<T2> item2);
 
   // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "&&", def_value: None }]

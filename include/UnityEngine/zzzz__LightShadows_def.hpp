@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightShadows);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10032))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10104))
 // CS Name: ::UnityEngine::LightShadows
 struct CORDL_TYPE LightShadows {
 public:

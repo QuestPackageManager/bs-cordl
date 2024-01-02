@@ -1,15 +1,15 @@
 #pragma once
 #include "System/zzzz__ValueTuple_8_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
-#include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
+#include "System/zzzz__Object_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<::System::ValueTuple_8<T1,T2,T3,T4,T5,T6,T7,TRest>>"
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 constexpr System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::operator ::System::IEquatable_1<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>*() {
@@ -57,9 +57,9 @@ inline void System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::_ctor(T1 it
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 inline bool System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::Equals(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(), "Equals",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
@@ -103,8 +103,9 @@ inline int32_t System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::System_C
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 inline int32_t System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::GetHashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(),
-                                                                             "GetHashCode", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
@@ -130,8 +131,9 @@ inline int32_t System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::System_I
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 inline ::StringW System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::ToString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(),
-                                                                             "ToString", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>

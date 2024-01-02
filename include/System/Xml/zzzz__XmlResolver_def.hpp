@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlResolver)
 namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
 class Uri;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -27,27 +27,27 @@ MARK_REF_PTR_T(::System::Xml::XmlResolver);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11502))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11574))
 // CS Name: ::System.Xml::XmlResolver*
 class CORDL_TYPE XmlResolver : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEntity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method ResolveUri addr 0x272c2a8 size 0x1d8 virtual true final false
+  /// @brief Method ResolveUri, addr 0x28a92cc, size 0x1d8, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method SupportsType addr 0x272c480 size 0x148 virtual true final false
+  /// @brief Method SupportsType, addr 0x28a94a4, size 0x148, virtual true, abstract: false, final false
   inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
 
-  /// @brief Method GetEntityAsync addr 0x272c5c8 size 0x40 virtual true final false
+  /// @brief Method GetEntityAsync, addr 0x28a95ec, size 0x40, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method .ctor addr 0x272c608 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28a962c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlResolver", modifiers: "&&", def_value: None }]

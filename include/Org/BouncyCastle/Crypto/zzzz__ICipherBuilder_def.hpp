@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICipherBuilder)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipher;
 }
 namespace System::IO {
 class Stream;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -31,13 +31,13 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
-  /// @brief Method get_AlgorithmDetails addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AlgorithmDetails, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method GetMaxOutputSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMaxOutputSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
-  /// @brief Method BuildCipher addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BuildCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilder", modifiers: "&&", def_value: None }]

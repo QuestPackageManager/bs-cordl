@@ -8,29 +8,14 @@ CORDL_MODULE_INIT
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskFactory_1)
-namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1> class __TaskFactory_1____c__DisplayClass38_0_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
-}
-namespace System::Threading {
-struct CancellationToken;
-}
-namespace System {
-class AsyncCallback;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class __TaskFactory_1____c__DisplayClass35_0;
 }
-namespace System::Threading::Tasks {
-class TaskScheduler;
-}
-namespace System::Threading::Tasks {
-struct TaskCreationOptions;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace System {
 class Object;
@@ -38,8 +23,8 @@ class Object;
 namespace System::Threading::Tasks {
 struct TaskContinuationOptions;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+namespace System::Threading::Tasks {
+template <typename TResult, typename TArg1> class __TaskFactory_1____c__DisplayClass38_0_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -48,16 +33,31 @@ namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
-namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1, typename TArg2> class __TaskFactory_1____c__DisplayClass41_0_2;
+namespace System::Threading {
+struct CancellationToken;
 }
 namespace System::Threading::Tasks {
 template <typename TResult, typename TInstance> class __TaskFactory_1__FromAsyncTrimPromise_1;
 }
+namespace System::Threading::Tasks {
+template <typename TResult, typename TArg1, typename TArg2> class __TaskFactory_1____c__DisplayClass41_0_2;
+}
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class AsyncCallback;
+}
+namespace System::Threading::Tasks {
+struct TaskCreationOptions;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+}
+namespace System::Threading::Tasks {
+class TaskScheduler;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
@@ -87,8 +87,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TInstance>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2769)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 5008 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5117 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2775))
 // CS Name: ::TaskFactory`1::FromAsyncTrimPromise`1<TResult,TInstance>*
 class CORDL_TYPE __TaskFactory_1__FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
@@ -121,13 +121,13 @@ public:
   static inline ::System::Threading::Tasks::__TaskFactory_1__FromAsyncTrimPromise_1<TResult, TInstance>* New_ctor(TInstance thisRef,
                                                                                                                   ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
 
-  /// @brief Method CompleteFromAsyncResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CompleteFromAsyncResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CompleteFromAsyncResult(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Complete(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod, ::System::IAsyncResult* asyncResult, bool requiresSynchronization);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory_1__FromAsyncTrimPromise_1", modifiers: "&&", def_value: None }]
@@ -160,8 +160,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2772))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2776))
 // CS Name: ::TaskFactory`1::<>c__DisplayClass35_0<TResult>*
 class CORDL_TYPE __TaskFactory_1____c__DisplayClass35_0 : public ::System::Object {
 public:
@@ -195,10 +195,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass35_0<TResult>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromAsyncImpl>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory_1____c__DisplayClass35_0", modifiers: "&&", def_value: None }]
@@ -234,8 +234,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TArg1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2777))
 // CS Name: ::TaskFactory`1::<>c__DisplayClass38_0`1<TResult,TArg1>*
 class CORDL_TYPE __TaskFactory_1____c__DisplayClass38_0_1 : public ::System::Object {
 public:
@@ -269,10 +269,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass38_0_1<TResult, TArg1>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromAsyncImpl>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory_1____c__DisplayClass38_0_1", modifiers: "&&", def_value: None }]
@@ -308,8 +308,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult, typename TArg1, typename TArg2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2778))
 // CS Name: ::TaskFactory`1::<>c__DisplayClass41_0`2<TResult,TArg1,TArg2>*
 class CORDL_TYPE __TaskFactory_1____c__DisplayClass41_0_2 : public ::System::Object {
 public:
@@ -343,10 +343,10 @@ public:
 
   static inline ::System::Threading::Tasks::__TaskFactory_1____c__DisplayClass41_0_2<TResult, TArg1, TArg2>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromAsyncImpl>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory_1____c__DisplayClass41_0_2", modifiers: "&&", def_value: None }]
@@ -382,8 +382,8 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2786)), TypeDefinitionIndex(TypeDefinitionIndex(2788)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2775)) CS Name: ::System.Threading.Tasks::TaskFactory`1<TResult>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2790)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2792)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2779)) CS Name: ::System.Threading.Tasks::TaskFactory`1<TResult>*
 class CORDL_TYPE TaskFactory_1 : public ::System::Object {
 public:
   // Declarations
@@ -433,48 +433,53 @@ public:
 
   static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                                                                              ::System::Threading::Tasks::TaskContinuationOptions continuationOptions,
                                                                              ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                     ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
 
-  /// @brief Method FromAsyncCoreLogic addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
+                                                               ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                               ::System::Threading::Tasks::TaskScheduler* scheduler);
+
+  /// @brief Method FromAsyncCoreLogic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void FromAsyncCoreLogic(::System::IAsyncResult* iar, ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
                                         ::System::Threading::Tasks::Task_1<TResult>* promise, bool requiresSynchronization);
 
-  /// @brief Method FromAsync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                 ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, ::System::Object* state);
 
-  /// @brief Method FromAsyncImpl addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                            ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
                                                                            ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method FromAsync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TArg1>
   inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                 ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, TArg1 arg1, ::System::Object* state);
 
-  /// @brief Method FromAsyncImpl addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TArg1>
   static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                            ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
                                                                            TArg1 arg1, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method FromAsyncImpl addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TArg1, typename TArg2>
   static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_5<TArg1, TArg2, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                                            ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
                                                                            TArg1 arg1, TArg2 arg2, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
 
-  /// @brief Method FromAsyncTrim addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromAsyncTrim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInstance, typename TArgs>
   static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncTrim(TInstance thisRef, TArgs args,
                                                                            ::System::Func_5<TInstance, TArgs, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,

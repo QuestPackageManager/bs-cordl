@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::System::Collections::Generic::BitHelper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14649))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14311))
 // CS Name: ::System.Collections.Generic::BitHelper*
 class CORDL_TYPE BitHelper : public ::System::Object {
 public:
@@ -60,21 +60,21 @@ public:
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method .ctor addr 0x2698df8 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2813e0c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor addr 0x2698e30 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2813e44, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method MarkBit addr 0x2698e60 size 0x7c virtual false final false
+  /// @brief Method MarkBit, addr 0x2813e74, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
-  /// @brief Method IsMarked addr 0x2698edc size 0x84 virtual false final false
+  /// @brief Method IsMarked, addr 0x2813ef0, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method ToIntArrayLength addr 0x2698f60 size 0x28 virtual false final false
+  /// @brief Method ToIntArrayLength, addr 0x2813f74, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   // Ctor Parameters [CppParam { name: "", ty: "BitHelper", modifiers: "&&", def_value: None }]

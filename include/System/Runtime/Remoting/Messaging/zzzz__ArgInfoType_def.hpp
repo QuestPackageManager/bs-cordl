@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Messaging::ArgInfoType);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3148))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3149))
 // CS Name: ::System.Runtime.Remoting.Messaging::ArgInfoType
 struct CORDL_TYPE ArgInfoType {
 public:

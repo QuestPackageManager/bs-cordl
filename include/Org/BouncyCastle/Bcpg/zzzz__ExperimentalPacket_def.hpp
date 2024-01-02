@@ -54,16 +54,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ExperimentalPacket* New_ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115e048 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x11cf298, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PacketTag tag, ::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Tag addr 0x1160994 size 0x8 virtual false final false
+  /// @brief Method get_Tag, addr 0x11d1be4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PacketTag get_Tag();
 
-  /// @brief Method GetContents addr 0x116099c size 0x78 virtual false final false
+  /// @brief Method GetContents, addr 0x11d1bec, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContents();
 
-  /// @brief Method Encode addr 0x1160a14 size 0x28 virtual true final false
+  /// @brief Method Encode, addr 0x11d1c64, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExperimentalPacket", modifiers: "&&", def_value: None }]

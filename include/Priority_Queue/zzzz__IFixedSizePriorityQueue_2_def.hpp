@@ -26,7 +26,7 @@ namespace Priority_Queue {
 template <typename TItem, typename TPriority>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6168))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6097))
 // CS Name: ::Priority_Queue::IFixedSizePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE IFixedSizePriorityQueue_2 {
 public:
@@ -42,13 +42,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(int32_t maxNodes);
 
-  /// @brief Method get_MaxSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MaxSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method ResetNode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResetNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetNode(TItem node);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFixedSizePriorityQueue_2", modifiers: "&&", def_value: None }]

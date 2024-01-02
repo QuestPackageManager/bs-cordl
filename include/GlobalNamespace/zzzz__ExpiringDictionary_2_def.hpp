@@ -7,16 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpiringDictionary_2)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace BGNet::Core {
 class ITimeProvider;
@@ -25,19 +34,10 @@ namespace System {
 class IDisposable;
 }
 namespace GlobalNamespace {
-template <typename TKey, typename TValue> class __ExpiringDictionary_2___Enumerate_d__14;
-}
-namespace GlobalNamespace {
 template <typename TKey, typename TValue> class __ExpiringDictionary_2__Entry;
-}
-namespace System::Collections {
-class IEnumerator;
 }
 namespace GlobalNamespace {
 template <typename T> class OrderedSet_1;
-}
-namespace System::Collections {
-class IEnumerable;
 }
 namespace System {
 class Object;
@@ -62,8 +62,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12656))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12728))
 // CS Name: ::ExpiringDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2__Entry : public ::System::Object {
 public:
@@ -98,12 +98,12 @@ public:
 
   constexpr void __set_expireTime(int64_t value);
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ExpiringDictionary_2__Entry", modifiers: "&&", def_value: None }]
@@ -139,8 +139,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12657))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12729))
 // CS Name: ::ExpiringDictionary`2::<Enumerate>d__14<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2___Enumerate_d__14 : public ::System::Object {
 public:
@@ -196,25 +196,25 @@ public:
 
   static inline ::GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<TValue>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<TValue>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue System_Collections_Generic_IEnumerator_TValue__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ExpiringDictionary_2___Enumerate_d__14", modifiers: "&&", def_value: None }]
@@ -253,8 +253,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12658))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12730))
 // CS Name: ::ExpiringDictionary`2<TKey,TValue>*
 class CORDL_TYPE ExpiringDictionary_2 : public ::System::Object {
 public:
@@ -323,69 +323,69 @@ public:
 
   constexpr void __set__reusableEntries(::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   static inline ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, int64_t expirationLengthMs);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, int64_t expirationLengthMs);
 
-  /// @brief Method CompareEntries addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CompareEntries, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline int32_t CompareEntries(::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>* a, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>* b);
 
-  /// @brief Method RemoveExpiredEntries addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveExpiredEntries, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RemoveExpiredEntries();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<TValue>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<TValue>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* System_Collections_Generic_IEnumerable_TValue__GetEnumerator();
 
-  /// @brief Method Enumerate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Enumerate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerator_1<TValue>* Enumerate();
 
-  /// @brief Method ContainsKey addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ContainsKey, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ContainsKey(TKey key);
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
-  /// @brief Method TryGetValueAndResetExpiration addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValueAndResetExpiration, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetValueAndResetExpiration(TKey key, ByRef<TValue> value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(TKey key);
 
-  /// @brief Method ResetExpiration addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ResetExpiration, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResetExpiration(TKey key);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Add(TKey key, TValue value);
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue Get(TKey key);
 
-  /// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Set(TKey key, TValue value);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue get_Item(TKey key);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method PollUpdate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PollUpdate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PollUpdate();
 
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetEntry addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>* GetEntry(TKey key, TValue value);
 
-  /// @brief Method ReleaseEntry addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReleaseEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReleaseEntry(::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>* entry);
 
   // Ctor Parameters [CppParam { name: "", ty: "ExpiringDictionary_2", modifiers: "&&", def_value: None }]

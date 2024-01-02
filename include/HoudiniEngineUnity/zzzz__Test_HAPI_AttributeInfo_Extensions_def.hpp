@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9899))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo_Extensions*
 class CORDL_TYPE Test_HAPI_AttributeInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject addr 0x208acb0 size 0x88 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e364c, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_HAPI_AttributeInfo_Extensions", modifiers: "&&", def_value: None }]

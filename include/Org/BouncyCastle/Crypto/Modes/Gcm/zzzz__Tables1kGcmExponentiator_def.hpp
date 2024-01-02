@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tables1kGcmExponentiator)
-namespace Org::BouncyCastle::Crypto::Modes::Gcm {
-class IGcmExponentiator;
-}
 namespace System::Collections {
 class IList;
+}
+namespace Org::BouncyCastle::Crypto::Modes::Gcm {
+class IGcmExponentiator;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(954))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes.Gcm::Tables1kGcmExponentiator*
 class CORDL_TYPE Tables1kGcmExponentiator : public ::System::Object {
@@ -40,18 +40,18 @@ public:
 
   constexpr void __set_lookupPowX2(::System::Collections::IList* value);
 
-  /// @brief Method Init addr 0xe9e34c size 0x20c virtual true final true
+  /// @brief Method Init, addr 0xf1352c, size 0x20c, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
-  /// @brief Method ExponentiateX addr 0xe9e558 size 0x1b0 virtual true final true
+  /// @brief Method ExponentiateX, addr 0xf13738, size 0x1b0, virtual true, abstract: false, final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method EnsureAvailable addr 0xe9e708 size 0x268 virtual false final false
+  /// @brief Method EnsureAvailable, addr 0xf138e8, size 0x268, virtual false, abstract: false, final false
   inline void EnsureAvailable(int32_t bit);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe9e970 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf13b50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tables1kGcmExponentiator", modifiers: "&&", def_value: None }]

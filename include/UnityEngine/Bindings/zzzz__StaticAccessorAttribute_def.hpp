@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::StaticAccessorAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545)), TypeDefinitionIndex(TypeDefinitionIndex(15891))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15892))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16027)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16028))
 // CS Name: ::UnityEngine.Bindings::StaticAccessorAttribute*
 class CORDL_TYPE StaticAccessorAttribute : public ::System::Attribute {
 public:
@@ -47,20 +47,20 @@ public:
 
   constexpr void __set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method set_Name addr 0x2bb158c size 0x8 virtual false final false
+  /// @brief Method set_Name, addr 0x2d1893c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type addr 0x2bb1594 size 0x8 virtual false final false
+  /// @brief Method set_Type, addr 0x2d18944, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
   static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2bb159c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1894c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method .ctor addr 0x2bb15c4 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18974, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
   // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "&&", def_value: None }]

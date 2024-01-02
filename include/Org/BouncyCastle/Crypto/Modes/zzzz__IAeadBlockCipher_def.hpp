@@ -29,10 +29,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method GetBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetUnderlyingCipher addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetUnderlyingCipher, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAeadBlockCipher", modifiers: "&&", def_value: None }]

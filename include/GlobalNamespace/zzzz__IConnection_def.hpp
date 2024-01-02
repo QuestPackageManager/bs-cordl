@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConnection)
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnection);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12708))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12781))
 // CS Name: ::IConnection*
 class CORDL_TYPE IConnection {
 public:
@@ -32,19 +32,19 @@ public:
 
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
-  /// @brief Method get_userId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_isConnectionOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isConnectionOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Send(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method Disconnect addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Disconnect();
 
   // Ctor Parameters [CppParam { name: "", ty: "IConnection", modifiers: "&&", def_value: None }]

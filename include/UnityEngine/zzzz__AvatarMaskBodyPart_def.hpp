@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AvatarMaskBodyPart);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15085))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14855))
 // CS Name: ::UnityEngine::AvatarMaskBodyPart
 struct CORDL_TYPE AvatarMaskBodyPart {
 public:

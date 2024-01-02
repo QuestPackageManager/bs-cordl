@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIUtility)
 namespace UnityEngine {
-class Event;
+struct IMECompositionMode;
 }
-namespace System {
-class Action;
+namespace UnityEngine {
+struct FocusType;
 }
 namespace System {
 template <typename TResult> class Func_1;
@@ -20,35 +20,35 @@ template <typename TResult> class Func_1;
 namespace UnityEngine {
 struct Vector2;
 }
-namespace UnityEngine {
-struct FocusType;
-}
-namespace UnityEngine {
-class ObjectGUIState;
-}
 namespace System {
 class Object;
 }
 namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-class Exception;
-}
 namespace UnityEngine {
-struct IMECompositionMode;
+class GUISkin;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+class Action;
 }
 namespace UnityEngine {
 class ScriptableObject;
 }
 namespace UnityEngine {
-class GUISkin;
+struct Rect;
 }
 namespace UnityEngine {
-struct Rect;
+class ObjectGUIState;
+}
+namespace UnityEngine {
+class Event;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::UnityEngine::GUIUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14826))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14609))
 // CS Name: ::UnityEngine::GUIUtility*
 class CORDL_TYPE GUIUtility : public ::System::Object {
 public:
@@ -143,157 +143,157 @@ public:
 
   static inline ::System::Func_1<bool>* getStaticF_s_HasCurrentWindowKeyFocusFunc();
 
-  /// @brief Method get_pixelsPerPoint addr 0x2b99e5c size 0x28 virtual false final false
+  /// @brief Method get_pixelsPerPoint, addr 0x2d0226c, size 0x28, virtual false, abstract: false, final false
   static inline float_t get_pixelsPerPoint();
 
-  /// @brief Method get_guiDepth addr 0x2b9b168 size 0x28 virtual false final false
+  /// @brief Method get_guiDepth, addr 0x2d03578, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_guiDepth();
 
-  /// @brief Method get_textFieldInput addr 0x2b96204 size 0x28 virtual false final false
+  /// @brief Method get_textFieldInput, addr 0x2cfe614, size 0x28, virtual false, abstract: false, final false
   static inline bool get_textFieldInput();
 
-  /// @brief Method get_systemCopyBuffer addr 0x2b9b190 size 0x28 virtual false final false
+  /// @brief Method get_systemCopyBuffer, addr 0x2d035a0, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_systemCopyBuffer();
 
-  /// @brief Method set_systemCopyBuffer addr 0x2b9b1b8 size 0x3c virtual false final false
+  /// @brief Method set_systemCopyBuffer, addr 0x2d035c8, size 0x3c, virtual false, abstract: false, final false
   static inline void set_systemCopyBuffer(::StringW value);
 
-  /// @brief Method Internal_GetControlID addr 0x2b9b1f4 size 0x5c virtual false final false
+  /// @brief Method Internal_GetControlID, addr 0x2d03604, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t Internal_GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
-  /// @brief Method GetControlID addr 0x2b9b2a4 size 0x98 virtual false final false
+  /// @brief Method GetControlID, addr 0x2d036b4, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focusType, ::UnityEngine::Rect rect);
 
-  /// @brief Method BeginContainerFromOwner addr 0x2b9b33c size 0x3c virtual false final false
+  /// @brief Method BeginContainerFromOwner, addr 0x2d0374c, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginContainerFromOwner(::UnityEngine::ScriptableObject* owner);
 
-  /// @brief Method BeginContainer addr 0x2b9b378 size 0x3c virtual false final false
+  /// @brief Method BeginContainer, addr 0x2d03788, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginContainer(::UnityEngine::ObjectGUIState* objectGUIState);
 
-  /// @brief Method Internal_EndContainer addr 0x2b9b3b4 size 0x28 virtual false final false
+  /// @brief Method Internal_EndContainer, addr 0x2d037c4, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_EndContainer();
 
-  /// @brief Method CheckForTabEvent addr 0x2b9b3dc size 0x3c virtual false final false
+  /// @brief Method CheckForTabEvent, addr 0x2d037ec, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t CheckForTabEvent(::UnityEngine::Event* evt);
 
-  /// @brief Method SetKeyboardControlToFirstControlId addr 0x2b9b418 size 0x28 virtual false final false
+  /// @brief Method SetKeyboardControlToFirstControlId, addr 0x2d03828, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToFirstControlId();
 
-  /// @brief Method SetKeyboardControlToLastControlId addr 0x2b9b440 size 0x28 virtual false final false
+  /// @brief Method SetKeyboardControlToLastControlId, addr 0x2d03850, size 0x28, virtual false, abstract: false, final false
   static inline void SetKeyboardControlToLastControlId();
 
-  /// @brief Method HasFocusableControls addr 0x2b9b468 size 0x28 virtual false final false
+  /// @brief Method HasFocusableControls, addr 0x2d03878, size 0x28, virtual false, abstract: false, final false
   static inline bool HasFocusableControls();
 
-  /// @brief Method OwnsId addr 0x2b9b490 size 0x3c virtual false final false
+  /// @brief Method OwnsId, addr 0x2d038a0, size 0x3c, virtual false, abstract: false, final false
   static inline bool OwnsId(int32_t id);
 
-  /// @brief Method get_compositionString addr 0x2b9b4cc size 0x28 virtual false final false
+  /// @brief Method get_compositionString, addr 0x2d038dc, size 0x28, virtual false, abstract: false, final false
   static inline ::StringW get_compositionString();
 
-  /// @brief Method set_imeCompositionMode addr 0x2b9b4f4 size 0x3c virtual false final false
+  /// @brief Method set_imeCompositionMode, addr 0x2d03904, size 0x3c, virtual false, abstract: false, final false
   static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
 
-  /// @brief Method set_compositionCursorPos addr 0x2b9b530 size 0x40 virtual false final false
+  /// @brief Method set_compositionCursorPos, addr 0x2d03940, size 0x40, virtual false, abstract: false, final false
   static inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
 
-  /// @brief Method Internal_GetHotControl addr 0x2b9b5ac size 0x28 virtual false final false
+  /// @brief Method Internal_GetHotControl, addr 0x2d039bc, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetHotControl();
 
-  /// @brief Method Internal_GetKeyboardControl addr 0x2b9b5d4 size 0x28 virtual false final false
+  /// @brief Method Internal_GetKeyboardControl, addr 0x2d039e4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetKeyboardControl();
 
-  /// @brief Method Internal_SetHotControl addr 0x2b9b5fc size 0x3c virtual false final false
+  /// @brief Method Internal_SetHotControl, addr 0x2d03a0c, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetHotControl(int32_t value);
 
-  /// @brief Method Internal_SetKeyboardControl addr 0x2b9b638 size 0x3c virtual false final false
+  /// @brief Method Internal_SetKeyboardControl, addr 0x2d03a48, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_SetKeyboardControl(int32_t value);
 
-  /// @brief Method Internal_GetDefaultSkin addr 0x2b9b674 size 0x3c virtual false final false
+  /// @brief Method Internal_GetDefaultSkin, addr 0x2d03a84, size 0x3c, virtual false, abstract: false, final false
   static inline ::System::Object* Internal_GetDefaultSkin(int32_t skinMode);
 
-  /// @brief Method Internal_ExitGUI addr 0x2b9b6b0 size 0x28 virtual false final false
+  /// @brief Method Internal_ExitGUI, addr 0x2d03ac0, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_ExitGUI();
 
-  /// @brief Method MarkGUIChanged addr 0x2b9b6d8 size 0x64 virtual false final false
+  /// @brief Method MarkGUIChanged, addr 0x2d03ae8, size 0x64, virtual false, abstract: false, final false
   static inline void MarkGUIChanged();
 
-  /// @brief Method GetControlID addr 0x2b94c88 size 0x2c virtual false final false
+  /// @brief Method GetControlID, addr 0x2cfd098, size 0x2c, virtual false, abstract: false, final false
   static inline int32_t GetControlID(int32_t hint, ::UnityEngine::FocusType focus);
 
-  /// @brief Method set_guiIsExiting addr 0x2b9b73c size 0x4c virtual false final false
+  /// @brief Method set_guiIsExiting, addr 0x2d03b4c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_guiIsExiting(bool value);
 
-  /// @brief Method get_hotControl addr 0x2b9b788 size 0x28 virtual false final false
+  /// @brief Method get_hotControl, addr 0x2d03b98, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_hotControl();
 
-  /// @brief Method set_hotControl addr 0x2b9b7b0 size 0x3c virtual false final false
+  /// @brief Method set_hotControl, addr 0x2d03bc0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_hotControl(int32_t value);
 
-  /// @brief Method TakeCapture addr 0x2b9b7ec size 0x64 virtual false final false
+  /// @brief Method TakeCapture, addr 0x2d03bfc, size 0x64, virtual false, abstract: false, final false
   static inline void TakeCapture();
 
-  /// @brief Method RemoveCapture addr 0x2b9b850 size 0x64 virtual false final false
+  /// @brief Method RemoveCapture, addr 0x2d03c60, size 0x64, virtual false, abstract: false, final false
   static inline void RemoveCapture();
 
-  /// @brief Method get_keyboardControl addr 0x2b9b8b4 size 0x28 virtual false final false
+  /// @brief Method get_keyboardControl, addr 0x2d03cc4, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_keyboardControl();
 
-  /// @brief Method set_keyboardControl addr 0x2b9b8dc size 0x3c virtual false final false
+  /// @brief Method set_keyboardControl, addr 0x2d03cec, size 0x3c, virtual false, abstract: false, final false
   static inline void set_keyboardControl(int32_t value);
 
-  /// @brief Method HasKeyFocus addr 0x2b9b918 size 0xa0 virtual false final false
+  /// @brief Method HasKeyFocus, addr 0x2d03d28, size 0xa0, virtual false, abstract: false, final false
   static inline bool HasKeyFocus(int32_t controlID);
 
-  /// @brief Method ExitGUI addr 0x2b9b9b8 size 0x40 virtual false final false
+  /// @brief Method ExitGUI, addr 0x2d03dc8, size 0x40, virtual false, abstract: false, final false
   static inline void ExitGUI();
 
-  /// @brief Method GetDefaultSkin addr 0x2b9431c size 0x98 virtual false final false
+  /// @brief Method GetDefaultSkin, addr 0x2cfc72c, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUISkin* GetDefaultSkin();
 
-  /// @brief Method ProcessEvent addr 0x2b9b9f8 size 0x84 virtual false final false
+  /// @brief Method ProcessEvent, addr 0x2d03e08, size 0x84, virtual false, abstract: false, final false
   static inline void ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> result);
 
-  /// @brief Method EndContainer addr 0x2b9ba7c size 0x48 virtual false final false
+  /// @brief Method EndContainer, addr 0x2d03e8c, size 0x48, virtual false, abstract: false, final false
   static inline void EndContainer();
 
-  /// @brief Method BeginGUI addr 0x2b9bac4 size 0x9c virtual false final false
+  /// @brief Method BeginGUI, addr 0x2d03ed4, size 0x9c, virtual false, abstract: false, final false
   static inline void BeginGUI(int32_t skinMode, int32_t instanceID, int32_t useGUILayout);
 
-  /// @brief Method EndGUI addr 0x2b9bc60 size 0x1f0 virtual false final false
+  /// @brief Method EndGUI, addr 0x2d04070, size 0x1f0, virtual false, abstract: false, final false
   static inline void EndGUI(int32_t layoutType);
 
-  /// @brief Method EndGUIFromException addr 0x2b9bef0 size 0x40 virtual false final false
+  /// @brief Method EndGUIFromException, addr 0x2d04300, size 0x40, virtual false, abstract: false, final false
   static inline bool EndGUIFromException(::System::Exception* exception);
 
-  /// @brief Method EndContainerGUIFromException addr 0x2b9bf34 size 0x70 virtual false final false
+  /// @brief Method EndContainerGUIFromException, addr 0x2d04344, size 0x70, virtual false, abstract: false, final false
   static inline bool EndContainerGUIFromException(::System::Exception* exception);
 
-  /// @brief Method ResetGlobalState addr 0x2b9bb60 size 0x100 virtual false final false
+  /// @brief Method ResetGlobalState, addr 0x2d03f70, size 0x100, virtual false, abstract: false, final false
   static inline void ResetGlobalState();
 
-  /// @brief Method IsExitGUIException addr 0x2b9bfa4 size 0x84 virtual false final false
+  /// @brief Method IsExitGUIException, addr 0x2d043b4, size 0x84, virtual false, abstract: false, final false
   static inline bool IsExitGUIException(::System::Exception* exception);
 
-  /// @brief Method ShouldRethrowException addr 0x2b9bf30 size 0x4 virtual false final false
+  /// @brief Method ShouldRethrowException, addr 0x2d04340, size 0x4, virtual false, abstract: false, final false
   static inline bool ShouldRethrowException(::System::Exception* exception);
 
-  /// @brief Method CheckOnGUI addr 0x2b94198 size 0x84 virtual false final false
+  /// @brief Method CheckOnGUI, addr 0x2cfc5a8, size 0x84, virtual false, abstract: false, final false
   static inline void CheckOnGUI();
 
-  /// @brief Method RoundToPixelGrid addr 0x2b9c028 size 0x6c virtual false final false
+  /// @brief Method RoundToPixelGrid, addr 0x2d04438, size 0x6c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v);
 
-  /// @brief Method HitTest addr 0x2b9c094 size 0xa4 virtual false final false
+  /// @brief Method HitTest, addr 0x2d044a4, size 0xa4, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, int32_t offset);
 
-  /// @brief Method HitTest addr 0x2b9c138 size 0x8 virtual false final false
+  /// @brief Method HitTest, addr 0x2d04548, size 0x8, virtual false, abstract: false, final false
   static inline bool HitTest(::UnityEngine::Rect rect, ::UnityEngine::Vector2 point, bool isDirectManipulationDevice);
 
-  /// @brief Method Internal_GetControlID_Injected addr 0x2b9b250 size 0x54 virtual false final false
+  /// @brief Method Internal_GetControlID_Injected, addr 0x2d03660, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Internal_GetControlID_Injected(int32_t hint, ::UnityEngine::FocusType focusType, ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method set_compositionCursorPos_Injected addr 0x2b9b570 size 0x3c virtual false final false
+  /// @brief Method set_compositionCursorPos_Injected, addr 0x2d03980, size 0x3c, virtual false, abstract: false, final false
   static inline void set_compositionCursorPos_Injected(ByRef<::UnityEngine::Vector2> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "GUIUtility", modifiers: "&&", def_value: None }]

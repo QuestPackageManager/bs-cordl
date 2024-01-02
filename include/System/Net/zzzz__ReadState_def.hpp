@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::ReadState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8051))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9214))
 // CS Name: ::System.Net::ReadState
 struct CORDL_TYPE ReadState {
 public:

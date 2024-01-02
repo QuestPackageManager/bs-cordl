@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsReassembler)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class __DtlsReassembler__Range;
+}
+namespace System::Collections {
+class IList;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1227))
 // CS Name: ::DtlsReassembler::Range*
 class CORDL_TYPE __DtlsReassembler__Range : public ::System::Object {
@@ -56,19 +56,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Range* New_ctor(int32_t start, int32_t end);
 
-  /// @brief Method .ctor addr 0xef75a8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xf6d7cc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end);
 
-  /// @brief Method get_Start addr 0xef7d98 size 0x8 virtual false final false
+  /// @brief Method get_Start, addr 0xf6dfbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Start();
 
-  /// @brief Method set_Start addr 0xef7da0 size 0x8 virtual false final false
+  /// @brief Method set_Start, addr 0xf6dfc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Start(int32_t value);
 
-  /// @brief Method get_End addr 0xef7da8 size 0x8 virtual false final false
+  /// @brief Method get_End, addr 0xf6dfcc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_End();
 
-  /// @brief Method set_End addr 0xef7db0 size 0x8 virtual false final false
+  /// @brief Method set_End, addr 0xf6dfd4, size 0x8, virtual false, abstract: false, final false
   inline void set_End(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__DtlsReassembler__Range", modifiers: "&&", def_value: None }]
@@ -105,7 +105,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReassembler__Rang
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1228))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReassembler*
 class CORDL_TYPE DtlsReassembler : public ::System::Object {
@@ -144,19 +144,19 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReassembler* New_ctor(uint8_t msg_type, int32_t length);
 
-  /// @brief Method .ctor addr 0xef745c size 0x14c virtual false final false
+  /// @brief Method .ctor, addr 0xf6d680, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t msg_type, int32_t length);
 
-  /// @brief Method get_MsgType addr 0xef75d4 size 0x8 virtual false final false
+  /// @brief Method get_MsgType, addr 0xf6d7f8, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_MsgType();
 
-  /// @brief Method GetBodyIfComplete addr 0xef75dc size 0xb8 virtual false final false
+  /// @brief Method GetBodyIfComplete, addr 0xf6d800, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBodyIfComplete();
 
-  /// @brief Method ContributeFragment addr 0xef7694 size 0x5b4 virtual false final false
+  /// @brief Method ContributeFragment, addr 0xf6d8b8, size 0x5b4, virtual false, abstract: false, final false
   inline void ContributeFragment(uint8_t msg_type, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t fragment_offset, int32_t fragment_length);
 
-  /// @brief Method Reset addr 0xef7c48 size 0x150 virtual false final false
+  /// @brief Method Reset, addr 0xf6de6c, size 0x150, virtual false, abstract: false, final false
   inline void Reset();
 
   // Ctor Parameters [CppParam { name: "", ty: "DtlsReassembler", modifiers: "&&", def_value: None }]

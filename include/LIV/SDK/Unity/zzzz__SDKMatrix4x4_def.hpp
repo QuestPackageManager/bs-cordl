@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(SDKMatrix4x4)
-namespace LIV::SDK::Unity {
-struct SDKVector3;
-}
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace LIV::SDK::Unity {
+struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
 struct SDKQuaternion;
@@ -26,42 +26,42 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKMatrix4x4);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15215))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15111))
 // CS Name: ::LIV.SDK.Unity::SDKMatrix4x4
 struct CORDL_TYPE SDKMatrix4x4 {
 public:
   // Declarations
-  /// @brief Method get_identity addr 0x20b3444 size 0x2c virtual false final false
+  /// @brief Method get_identity, addr 0x221437c, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
 
-  /// @brief Method op_Implicit addr 0x20b1224 size 0x44 virtual false final false
+  /// @brief Method op_Implicit, addr 0x221215c, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 op_Implicit___UnityEngine__Matrix4x4(::LIV::SDK::Unity::SDKMatrix4x4 v);
 
-  /// @brief Method op_Implicit addr 0x20b2530 size 0x44 virtual false final false
+  /// @brief Method op_Implicit, addr 0x2213468, size 0x44, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Implicit___LIV__SDK__Unity__SDKMatrix4x4(::UnityEngine::Matrix4x4 v);
 
-  /// @brief Method Perspective addr 0x20b3470 size 0xac virtual false final false
+  /// @brief Method Perspective, addr 0x22143a8, size 0xac, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float_t vFov, float_t aspect, float_t zNear, float_t zFar);
 
-  /// @brief Method op_Multiply addr 0x20b351c size 0x10c virtual false final false
+  /// @brief Method op_Multiply, addr 0x2214454, size 0x10c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKMatrix4x4 rhs);
 
-  /// @brief Method op_Multiply addr 0x20b3628 size 0x58 virtual false final false
+  /// @brief Method op_Multiply, addr 0x2214560, size 0x58, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
-  /// @brief Method Translate addr 0x20b3680 size 0x3c virtual false final false
+  /// @brief Method Translate, addr 0x22145b8, size 0x3c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
 
-  /// @brief Method Rotate addr 0x20b36bc size 0x94 virtual false final false
+  /// @brief Method Rotate, addr 0x22145f4, size 0x94, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value);
 
-  /// @brief Method Scale addr 0x20b3750 size 0x2c virtual false final false
+  /// @brief Method Scale, addr 0x2214688, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value);
 
-  /// @brief Method TRS addr 0x20b377c size 0xe4 virtual false final false
+  /// @brief Method TRS, addr 0x22146b4, size 0xe4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale);
 
-  /// @brief Method ToString addr 0x20b3860 size 0x4ac virtual true final false
+  /// @brief Method ToString, addr 0x2214798, size 0x4ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m00", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m01", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m02", ty:

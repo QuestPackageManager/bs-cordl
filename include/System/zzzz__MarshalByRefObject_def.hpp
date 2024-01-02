@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MarshalByRefObject)
+namespace System {
+class Type;
+}
+namespace System {
+class Object;
+}
 namespace System::Runtime::Remoting {
 class ServerIdentity;
 }
 namespace System::Runtime::Remoting {
 class ObjRef;
-}
-namespace System {
-class Object;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace System {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::MarshalByRefObject);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2605))
 // CS Name: ::System::MarshalByRefObject*
 class CORDL_TYPE MarshalByRefObject : public ::System::Object {
 public:
@@ -45,19 +45,19 @@ public:
 
   static inline ::System::MarshalByRefObject* New_ctor();
 
-  /// @brief Method .ctor addr 0x2498de8 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25f3d10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity addr 0x249f4cc size 0x40 virtual false final false
+  /// @brief Method get_ObjectIdentity, addr 0x25fa454, size 0x40, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity addr 0x249f50c size 0x40 virtual false final false
+  /// @brief Method set_ObjectIdentity, addr 0x25fa494, size 0x40, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
-  /// @brief Method CreateObjRef addr 0x249f54c size 0x40 virtual true final false
+  /// @brief Method CreateObjRef, addr 0x25fa4d4, size 0x40, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService addr 0x249f58c size 0x40 virtual true final false
+  /// @brief Method InitializeLifetimeService, addr 0x25fa514, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   // Ctor Parameters [CppParam { name: "", ty: "MarshalByRefObject", modifiers: "&&", def_value: None }]

@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ActivatedClientTypeEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3078))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3052))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3053))
 // CS Name: ::System.Runtime.Remoting::ActivatedClientTypeEntry*
 class CORDL_TYPE ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
@@ -55,19 +55,19 @@ public:
 
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method .ctor addr 0x232d2a0 size 0x130 virtual false final false
+  /// @brief Method .ctor, addr 0x2484d94, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 
-  /// @brief Method get_ApplicationUrl addr 0x232d3d8 size 0x8 virtual false final false
+  /// @brief Method get_ApplicationUrl, addr 0x2484ecc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ContextAttributes addr 0x232d3e0 size 0x8 virtual false final false
+  /// @brief Method get_ContextAttributes, addr 0x2484ed4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Runtime::Remoting::Contexts::IContextAttribute*, ::Array<::System::Runtime::Remoting::Contexts::IContextAttribute*>*> get_ContextAttributes();
 
-  /// @brief Method get_ObjectType addr 0x232d3e8 size 0x8 virtual false final false
+  /// @brief Method get_ObjectType, addr 0x2484edc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method ToString addr 0x232d3f0 size 0x14 virtual true final false
+  /// @brief Method ToString, addr 0x2484ee4, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ActivatedClientTypeEntry", modifiers: "&&", def_value: None }]

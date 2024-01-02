@@ -6,14 +6,17 @@ CORDL_MODULE_EXPORT(IInputActionCollection)
 namespace UnityEngine::InputSystem {
 struct InputBinding;
 }
-namespace UnityEngine::InputSystem {
-class InputAction;
-}
 namespace System {
 template <typename T> struct Nullable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::InputSystem::Utilities {
+template <typename TValue> struct ReadOnlyArray_1;
+}
+namespace UnityEngine::InputSystem {
+class InputAction;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -21,11 +24,8 @@ class InputDevice;
 namespace UnityEngine::InputSystem {
 struct InputControlScheme;
 }
-namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection);
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6213))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6127))
 // CS Name: ::UnityEngine.InputSystem::IInputActionCollection*
 class CORDL_TYPE IInputActionCollection {
 public:
@@ -55,28 +55,28 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_bindingMask addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_bindingMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> get_bindingMask();
 
-  /// @brief Method set_bindingMask addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_bindingMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_bindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  /// @brief Method get_devices addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_devices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> get_devices();
 
-  /// @brief Method set_devices addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_devices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_devices(::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> value);
 
-  /// @brief Method get_controlSchemes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_controlSchemes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> get_controlSchemes();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Contains(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Enable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Enable();
 
-  /// @brief Method Disable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Disable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Disable();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputActionCollection", modifiers: "&&", def_value: None }]

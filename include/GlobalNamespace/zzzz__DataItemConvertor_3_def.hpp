@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__DataItemConvertor_1_def.hpp"
 CORDL_MODULE_EXPORT(DataItemConvertor_3)
 namespace System {
-class Object;
+class Type;
 }
 namespace System {
-class Type;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,26 +22,26 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase, typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4318), inst: 1128 }), TypeDefinitionIndex(TypeDefinitionIndex(4318))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4319))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4291), inst: 1151 }), TypeDefinitionIndex(TypeDefinitionIndex(4291))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4292))
 // CS Name: ::DataItemConvertor`3<TBase,TIn,TOut>*
 class CORDL_TYPE DataItemConvertor_3 : public ::GlobalNamespace::DataItemConvertor_1<TBase> {
 public:
   // Declarations
   __declspec(property(get = get_inputDataType))::System::Type* inputDataType;
 
-  /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_inputDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_inputDataType();
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TBase Convert(::System::Object* item);
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut Convert(TIn item);
 
   static inline ::GlobalNamespace::DataItemConvertor_3<TBase, TIn, TOut>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataItemConvertor_3", modifiers: "&&", def_value: None }]

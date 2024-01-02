@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10182))
 // CS Name: ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 struct CORDL_TYPE TouchScreenKeyboard_InternalConstructorHelperArguments {
 public:

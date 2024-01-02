@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::JumpDestinationMarker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14159))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13960))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13888))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14403))
 // CS Name: ::JumpDestinationMarker*
 class CORDL_TYPE JumpDestinationMarker : public ::UnityEngine::Timeline::Marker {
 public:
   // Declarations
   static inline ::GlobalNamespace::JumpDestinationMarker* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fa2bd0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x20f5ba0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None }]

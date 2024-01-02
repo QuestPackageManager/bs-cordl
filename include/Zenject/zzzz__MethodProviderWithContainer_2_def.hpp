@@ -5,17 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_2)
-namespace Zenject {
-class IProvider;
-}
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System {
-class Action;
-}
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -23,14 +14,23 @@ class DiContainer;
 namespace Zenject {
 struct TypeValuePair;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class Type;
+}
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace Zenject {
+class InjectContext;
+}
+namespace System {
+class Action;
+}
+namespace Zenject {
+class IProvider;
 }
 namespace System {
 class Object;
-}
-namespace System {
-class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -44,8 +44,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11140))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11212))
 // CS Name: ::Zenject::MethodProviderWithContainer`2<TParam1,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_2 : public ::System::Object {
 public:
@@ -68,19 +68,19 @@ public:
 
   static inline ::Zenject::MethodProviderWithContainer_2<TParam1, TValue>* New_ctor(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* method);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_3<::Zenject::DiContainer*, TParam1, TValue>* method);
 
-  /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

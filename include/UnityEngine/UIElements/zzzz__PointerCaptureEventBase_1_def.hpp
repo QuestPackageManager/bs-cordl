@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointerCaptureEventBase_1)
 namespace UnityEngine::UIElements {
-class IPointerCaptureEventInternal;
+class IEventHandler;
 }
 namespace UnityEngine::UIElements {
-class IEventHandler;
+class IPointerCaptureEventInternal;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +23,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1650 }), TypeDefinitionIndex(TypeDefinitionIndex(7266))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7236))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -54,27 +54,27 @@ public:
 
   constexpr void __set__pointerId_k__BackingField(int32_t value);
 
-  /// @brief Method set_relatedTarget addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_relatedTarget(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method get_pointerId addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pointerId();
 
-  /// @brief Method set_pointerId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_pointerId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_pointerId(int32_t value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::IEventHandler* relatedTarget, int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::PointerCaptureEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PointerCaptureEventBase_1", modifiers: "&&", def_value: None }]

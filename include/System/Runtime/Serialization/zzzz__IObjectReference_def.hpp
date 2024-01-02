@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::IObjectReference);
 namespace System::Runtime::Serialization {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3194))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3195))
 // CS Name: ::System.Runtime.Serialization::IObjectReference*
 class CORDL_TYPE IObjectReference {
 public:
   // Declarations
-  /// @brief Method GetRealObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetRealObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "IObjectReference", modifiers: "&&", def_value: None }]

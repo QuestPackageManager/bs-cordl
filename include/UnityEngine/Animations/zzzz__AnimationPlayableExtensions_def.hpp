@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(AnimationPlayableExtensions)
-namespace UnityEngine {
-class AnimationClip;
-}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
+}
+namespace UnityEngine {
+class AnimationClip;
 }
 // Forward declare root types
 namespace UnityEngine::Animations {
@@ -21,16 +21,16 @@ MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15118))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14891))
 // CS Name: ::UnityEngine.Animations::AnimationPlayableExtensions*
 class CORDL_TYPE AnimationPlayableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAnimatedProperties addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetAnimatedProperties, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method SetAnimatedPropertiesInternal addr 0x2b31978 size 0x44 virtual false final false
+  /// @brief Method SetAnimatedPropertiesInternal, addr 0x2c97618, size 0x44, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal(ByRef<::UnityEngine::Playables::PlayableHandle> playable, ::UnityEngine::AnimationClip* animatedProperties);
 
   // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableExtensions", modifiers: "&&", def_value: None }]

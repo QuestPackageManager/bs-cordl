@@ -6,13 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Party)
 namespace Oculus::Platform::Models {
-class UserList;
-}
-namespace Oculus::Platform::Models {
 class User;
 }
 namespace Oculus::Platform::Models {
-class Room;
+class UserList;
 }
 // Forward declare root types
 namespace Oculus::Platform::Models {
@@ -21,11 +18,11 @@ class Party;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::Party);
 // Type: Oculus.Platform.Models::Party
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13522))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13466))
 // CS Name: ::Oculus.Platform.Models::Party*
 class CORDL_TYPE Party : public ::System::Object {
 public:
@@ -45,16 +42,10 @@ public:
   /// @brief Field Leader, offset 0x30, size 0x8
   __declspec(property(get = __get_Leader, put = __set_Leader))::Oculus::Platform::Models::User* Leader;
 
-  /// @brief Field RoomOptional, offset 0x38, size 0x8
-  __declspec(property(get = __get_RoomOptional, put = __set_RoomOptional))::Oculus::Platform::Models::Room* RoomOptional;
-
-  /// @brief Field Room, offset 0x40, size 0x8
-  __declspec(property(get = __get_Room, put = __set_Room))::Oculus::Platform::Models::Room* Room;
-
-  /// @brief Field UsersOptional, offset 0x48, size 0x8
+  /// @brief Field UsersOptional, offset 0x38, size 0x8
   __declspec(property(get = __get_UsersOptional, put = __set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
 
-  /// @brief Field Users, offset 0x50, size 0x8
+  /// @brief Field Users, offset 0x40, size 0x8
   __declspec(property(get = __get_Users, put = __set_Users))::Oculus::Platform::Models::UserList* Users;
 
   constexpr uint64_t& __get__cordl_ID();
@@ -87,18 +78,6 @@ public:
 
   constexpr void __set_Leader(::Oculus::Platform::Models::User* value);
 
-  constexpr ::Oculus::Platform::Models::Room*& __get_RoomOptional();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Room*> const& __get_RoomOptional() const;
-
-  constexpr void __set_RoomOptional(::Oculus::Platform::Models::Room* value);
-
-  constexpr ::Oculus::Platform::Models::Room*& __get_Room();
-
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Room*> const& __get_Room() const;
-
-  constexpr void __set_Room(::Oculus::Platform::Models::Room* value);
-
   constexpr ::Oculus::Platform::Models::UserList*& __get_UsersOptional();
 
   constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_UsersOptional() const;
@@ -113,7 +92,7 @@ public:
 
   static inline ::Oculus::Platform::Models::Party* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b6510 size 0x274 virtual false final false
+  /// @brief Method .ctor, addr 0x2707d3c, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "Party", modifiers: "&&", def_value: None }]
@@ -145,22 +124,16 @@ public:
   /// @brief Field Leader, offset: 0x30, size: 0x8, def value: None
   ::Oculus::Platform::Models::User* ___Leader;
 
-  /// @brief Field RoomOptional, offset: 0x38, size: 0x8, def value: None
-  ::Oculus::Platform::Models::Room* ___RoomOptional;
-
-  /// @brief Field Room, offset: 0x40, size: 0x8, def value: None
-  ::Oculus::Platform::Models::Room* ___Room;
-
-  /// @brief Field UsersOptional, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field UsersOptional, offset: 0x38, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___UsersOptional;
 
-  /// @brief Field Users, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field Users, offset: 0x40, size: 0x8, def value: None
   ::Oculus::Platform::Models::UserList* ___Users;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Party, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Party, 0x48>, "Size mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::Party, ____cordl_ID) == 0x10, "Offset mismatch!");
 
@@ -172,13 +145,9 @@ static_assert(offsetof(::Oculus::Platform::Models::Party, ___LeaderOptional) == 
 
 static_assert(offsetof(::Oculus::Platform::Models::Party, ___Leader) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Oculus::Platform::Models::Party, ___RoomOptional) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::Oculus::Platform::Models::Party, ___UsersOptional) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::Oculus::Platform::Models::Party, ___Room) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::Oculus::Platform::Models::Party, ___UsersOptional) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::Oculus::Platform::Models::Party, ___Users) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::Oculus::Platform::Models::Party, ___Users) == 0x40, "Offset mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Party);

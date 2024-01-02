@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyCompanyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3439))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3444))
 // CS Name: ::System.Reflection::AssemblyCompanyAttribute*
 class CORDL_TYPE AssemblyCompanyAttribute : public ::System::Attribute {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Reflection::AssemblyCompanyAttribute* New_ctor(::StringW company);
 
-  /// @brief Method .ctor addr 0x238c3c8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24e5e80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW company);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssemblyCompanyAttribute", modifiers: "&&", def_value: None }]

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::SpaceAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10098))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10102))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10174))
 // CS Name: ::UnityEngine::SpaceAttribute*
 class CORDL_TYPE SpaceAttribute : public ::UnityEngine::PropertyAttribute {
 public:
@@ -32,12 +32,12 @@ public:
 
   static inline ::UnityEngine::SpaceAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b65c44 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccc148, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::SpaceAttribute* New_ctor(float_t height);
 
-  /// @brief Method .ctor addr 0x2b65c64 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccc168, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
   // Ctor Parameters [CppParam { name: "", ty: "SpaceAttribute", modifiers: "&&", def_value: None }]

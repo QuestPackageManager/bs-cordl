@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::System::Reflection::ICustomAttributeProvider);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3466))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3471))
 // CS Name: ::System.Reflection::ICustomAttributeProvider*
 class CORDL_TYPE ICustomAttributeProvider {
 public:
   // Declarations
-  /// @brief Method GetCustomAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetCustomAttributes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCustomAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method IsDefined addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsDefined, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICustomAttributeProvider", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Threading::ManualResetEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2706))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2663))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2708))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2665))
 // CS Name: ::System.Threading::ManualResetEvent*
 class CORDL_TYPE ManualResetEvent : public ::System::Threading::EventWaitHandle {
 public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor addr 0x24b4e48 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x260fdd0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
   // Ctor Parameters [CppParam { name: "", ty: "ManualResetEvent", modifiers: "&&", def_value: None }]

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeInitializeOnLoadMethodAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10239)), TypeDefinitionIndex(TypeDefinitionIndex(10122))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10123))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10194)), TypeDefinitionIndex(TypeDefinitionIndex(10317))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10195))
 // CS Name: ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute*
 class CORDL_TYPE RuntimeInitializeOnLoadMethodAttribute : public ::UnityEngine::Scripting::PreserveAttribute {
 public:
@@ -37,15 +37,15 @@ public:
 
   static inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b67684 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2ccdb88, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::RuntimeInitializeOnLoadMethodAttribute* New_ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method .ctor addr 0x2b676a8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2ccdbac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::RuntimeInitializeLoadType loadType);
 
-  /// @brief Method set_loadType addr 0x2b676a0 size 0x8 virtual false final false
+  /// @brief Method set_loadType, addr 0x2ccdba4, size 0x8, virtual false, abstract: false, final false
   inline void set_loadType(::UnityEngine::RuntimeInitializeLoadType value);
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeInitializeOnLoadMethodAttribute", modifiers: "&&", def_value: None }]

@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ComponentModel::ISite);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8234))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9397))
 // CS Name: ::System.ComponentModel::ISite*
 class CORDL_TYPE ISite {
 public:
@@ -35,13 +35,13 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::ComponentModel::IContainer* get_Container();
 
-  /// @brief Method get_DesignMode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DesignMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_DesignMode();
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters [CppParam { name: "", ty: "ISite", modifiers: "&&", def_value: None }]

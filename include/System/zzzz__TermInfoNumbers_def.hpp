@@ -16,7 +16,7 @@ MARK_VAL_T(::System::TermInfoNumbers);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2622))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2624))
 // CS Name: ::System::TermInfoNumbers
 struct CORDL_TYPE TermInfoNumbers {
 public:

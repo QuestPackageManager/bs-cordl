@@ -6,25 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
 namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions___Values_d__11_2;
-}
-namespace Newtonsoft::Json::Linq {
-class JProperty;
-}
-namespace Newtonsoft::Json::Linq {
 template <typename T> class __Extensions____c__1_1;
+}
+namespace System {
+class Object;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T> class __Extensions____c__0_1;
-}
-namespace Newtonsoft::Json::Linq {
-class JToken;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T, typename U> class __Extensions____c__13_2;
-}
-namespace Newtonsoft::Json::Linq {
-template <typename T> class __Extensions____c__3_1;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T> class __Extensions____c__2_1;
@@ -36,28 +24,40 @@ namespace Newtonsoft::Json::Linq {
 template <typename T> class IJEnumerable_1;
 }
 namespace Newtonsoft::Json::Linq {
-class JObject;
+class JProperty;
 }
 namespace Newtonsoft::Json::Linq {
 template <typename T, typename U> class __Extensions___Convert_d__14_2;
 }
+namespace Newtonsoft::Json::Linq {
+class JToken;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T, typename U> class __Extensions____c__13_2;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T, typename U> class __Extensions___Values_d__11_2;
+}
+namespace Newtonsoft::Json::Linq {
+template <typename T> class __Extensions____c__3_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
-namespace System {
-class Object;
+namespace Newtonsoft::Json::Linq {
+class JObject;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -106,8 +106,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11905))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11977))
 // CS Name: ::Extensions::<>c__0`1<T>*
 class CORDL_TYPE __Extensions____c__0_1 : public ::System::Object {
 public:
@@ -128,10 +128,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Ancestors>b__0_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Ancestors>b__0_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Ancestors_b__0_0(T j);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__0_1", modifiers: "&&", def_value: None }]
@@ -158,8 +158,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11978))
 // CS Name: ::Extensions::<>c__1`1<T>*
 class CORDL_TYPE __Extensions____c__1_1 : public ::System::Object {
 public:
@@ -180,10 +180,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c__1_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AncestorsAndSelf>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AncestorsAndSelf>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _AncestorsAndSelf_b__1_0(T j);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__1_1", modifiers: "&&", def_value: None }]
@@ -210,8 +210,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11907))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11979))
 // CS Name: ::Extensions::<>c__2`1<T>*
 class CORDL_TYPE __Extensions____c__2_1 : public ::System::Object {
 public:
@@ -232,10 +232,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c__2_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Descendants>b__2_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Descendants>b__2_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Descendants_b__2_0(T j);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__2_1", modifiers: "&&", def_value: None }]
@@ -262,8 +262,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11908))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11980))
 // CS Name: ::Extensions::<>c__3`1<T>*
 class CORDL_TYPE __Extensions____c__3_1 : public ::System::Object {
 public:
@@ -284,10 +284,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c__3_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DescendantsAndSelf>b__3_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <DescendantsAndSelf>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _DescendantsAndSelf_b__3_0(T j);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__3_1", modifiers: "&&", def_value: None }]
@@ -312,8 +312,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11981))
 // CS Name: ::Extensions::<>c*
 class CORDL_TYPE __Extensions____c : public ::System::Object {
 public:
@@ -336,10 +336,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x252e000 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2691744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Properties>b__4_0 addr 0x252e008 size 0x14 virtual false final false
+  /// @brief Method <Properties>b__4_0, addr 0x269174c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c", modifiers: "&&", def_value: None }]
@@ -368,8 +368,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11910))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11982))
 // CS Name: ::Extensions::<Values>d__11`2<T,U>*
 class CORDL_TYPE __Extensions___Values_d__11_2 : public ::System::Object {
 public:
@@ -485,34 +485,34 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <>m__Finally2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<U>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<U>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline U System_Collections_Generic_IEnumerator_U__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<U>* System_Collections_Generic_IEnumerable_U__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Values_d__11_2", modifiers: "&&", def_value: None }]
@@ -569,8 +569,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11983))
 // CS Name: ::Extensions::<>c__13`2<T,U>*
 class CORDL_TYPE __Extensions____c__13_2 : public ::System::Object {
 public:
@@ -591,10 +591,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c__13_2<T, U>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Children>b__13_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Children>b__13_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* _Children_b__13_0(T c);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions____c__13_2", modifiers: "&&", def_value: None }]
@@ -621,8 +621,8 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11912))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11984))
 // CS Name: ::Extensions::<Convert>d__14`2<T,U>*
 class CORDL_TYPE __Extensions___Convert_d__14_2 : public ::System::Object {
 public:
@@ -702,31 +702,31 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<U>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<U>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline U System_Collections_Generic_IEnumerator_U__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<U>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<U>* System_Collections_Generic_IEnumerable_U__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Extensions___Convert_d__14_2", modifiers: "&&", def_value: None }]
@@ -769,8 +769,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11913))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11985))
 // CS Name: ::Newtonsoft.Json.Linq::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
@@ -791,60 +791,60 @@ public:
 
   template <typename T> using __c__0_1 = ::Newtonsoft::Json::Linq::__Extensions____c__0_1<T>;
 
-  /// @brief Method Ancestors addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Ancestors, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Ancestors(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method AncestorsAndSelf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AncestorsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Descendants addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Descendants, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Descendants(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method DescendantsAndSelf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties addr 0x252ddb8 size 0x138 virtual false final false
+  /// @brief Method Properties, addr 0x26914fc, size 0x138, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
-  /// @brief Method Values addr 0x252def0 size 0x5c virtual false final false
+  /// @brief Method Values, addr 0x2691634, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 
-  /// @brief Method Values addr 0x252df94 size 0x8 virtual false final false
+  /// @brief Method Values, addr 0x26916d8, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Values addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U>
   static inline ::System::Collections::Generic::IEnumerable_1<U>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source, ::System::Object* key);
 
-  /// @brief Method Values addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline ::System::Collections::Generic::IEnumerable_1<U>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  /// @brief Method Values addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Values, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline ::System::Collections::Generic::IEnumerable_1<U>* Values(::System::Collections::Generic::IEnumerable_1<T>* source, ::System::Object* key);
 
-  /// @brief Method Children addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Children, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Children(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Children addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Children, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline ::System::Collections::Generic::IEnumerable_1<U>* Children(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline ::System::Collections::Generic::IEnumerable_1<U>* Convert(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Convert(T token);
 
-  /// @brief Method AsJEnumerable addr 0x252df4c size 0x48 virtual false final false
+  /// @brief Method AsJEnumerable, addr 0x2691690, size 0x48, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method AsJEnumerable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<T>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<T>* source);
 
   // Ctor Parameters [CppParam { name: "", ty: "Extensions", modifiers: "&&", def_value: None }]

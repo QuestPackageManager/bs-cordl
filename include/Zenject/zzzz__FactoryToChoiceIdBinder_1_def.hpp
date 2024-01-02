@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(FactoryToChoiceIdBinder_1)
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Object;
+namespace Zenject {
+template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
 }
 namespace Zenject {
 class BindInfo;
 }
-namespace Zenject {
-template <typename TContract> class FactoryArgumentsToChoiceBinder_1;
+namespace System {
+class Object;
 }
 namespace Zenject {
 class FactoryBindInfo;
@@ -31,18 +31,18 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10631), inst: 1706 }), TypeDefinitionIndex(TypeDefinitionIndex(10631))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10784))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1770 }), TypeDefinitionIndex(TypeDefinitionIndex(10703))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10856))
 // CS Name: ::Zenject::FactoryToChoiceIdBinder`1<TContract>*
 class CORDL_TYPE FactoryToChoiceIdBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::FactoryToChoiceIdBinder_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method WithId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract>* WithId(::System::Object* identifier);
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceIdBinder_1", modifiers: "&&", def_value: None }]

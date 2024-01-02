@@ -36,8 +36,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6778))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6692))
 // CS Name: ::TakeNObservable`1::Take<TValue>*
 class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
@@ -66,16 +66,16 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable,
                                                                                                    ::System::IObserver_1<TValue>* observer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable, ::System::IObserver_1<TValue>* observer);
 
-  /// @brief Method OnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnError, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnNext(TValue evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TakeNObservable_1__Take", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6779))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6693))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TakeNObservable`1<TValue>*
 class CORDL_TYPE TakeNObservable_1 : public ::System::Object {
 public:
@@ -139,10 +139,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<TValue>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "TakeNObservable_1", modifiers: "&&", def_value: None }]

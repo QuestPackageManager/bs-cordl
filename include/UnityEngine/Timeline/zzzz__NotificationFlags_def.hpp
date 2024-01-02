@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::NotificationFlags);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14177))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13906))
 // CS Name: ::UnityEngine.Timeline::NotificationFlags
 struct CORDL_TYPE NotificationFlags {
 public:

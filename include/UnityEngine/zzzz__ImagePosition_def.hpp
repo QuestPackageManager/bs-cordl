@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ImagePosition);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14844))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14627))
 // CS Name: ::UnityEngine::ImagePosition
 struct CORDL_TYPE ImagePosition {
 public:

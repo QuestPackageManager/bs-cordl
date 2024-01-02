@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Test_Texture2D)
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivableWrapperClass_1;
 }
-namespace UnityEngine {
-class Texture2D;
-}
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace UnityEngine {
+class Texture2D;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Texture2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9863))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9936))
 // CS Name: ::HoudiniEngineUnity::Test_Texture2D*
 class CORDL_TYPE Test_Texture2D : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Texture2D* New_ctor(::UnityEngine::Texture2D* self);
 
-  /// @brief Method .ctor addr 0x208f370 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e7d0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Texture2D* self);
 
-  /// @brief Method IsNull addr 0x208f398 size 0x60 virtual true final true
+  /// @brief Method IsNull, addr 0x21e7d34, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x208f3f8 size 0x108 virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e7d94, size 0x108, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Texture2D* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Texture2D", modifiers: "&&", def_value: None }]

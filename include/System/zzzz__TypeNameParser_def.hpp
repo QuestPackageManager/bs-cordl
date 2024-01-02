@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeNameParser)
-namespace System::Threading {
-struct StackCrawlMark;
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace System::Reflection {
+class AssemblyName;
 }
 namespace System::Reflection {
 class Assembly;
@@ -15,14 +18,11 @@ class Assembly;
 namespace System {
 class Type;
 }
-namespace System::Reflection {
-class AssemblyName;
+namespace System::Threading {
+struct StackCrawlMark;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace System {
@@ -34,13 +34,13 @@ MARK_REF_PTR_T(::System::TypeNameParser);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2579))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2581))
 // CS Name: ::System::TypeNameParser*
 class CORDL_TYPE TypeNameParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetType addr 0x249b30c size 0x58 virtual false final false
+  /// @brief Method GetType, addr 0x25f624c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Type* GetType(::StringW typeName, ::System::Func_2<::System::Reflection::AssemblyName*, ::System::Reflection::Assembly*>* assemblyResolver,
                                         ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>* typeResolver, bool throwOnError, bool ignoreCase,
                                         ByRef<::System::Threading::StackCrawlMark> stackMark);

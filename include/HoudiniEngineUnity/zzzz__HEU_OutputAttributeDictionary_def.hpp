@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttributeDictionary);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9782), inst: 2519 }), TypeDefinitionIndex(TypeDefinitionIndex(9782)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9593))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9594)) CS Name: ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9855), inst: 2576 }), TypeDefinitionIndex(TypeDefinitionIndex(9855)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9666))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9667)) CS Name: ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*
 class CORDL_TYPE HEU_OutputAttributeDictionary : public ::HoudiniEngineUnity::HEU_SerializableDictionary_2<::StringW, ::HoudiniEngineUnity::HEU_OutputAttribute*> {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* New_ctor();
 
-  /// @brief Method .ctor addr 0x202d044 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x21839e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttributeDictionary", modifiers: "&&", def_value: None }]

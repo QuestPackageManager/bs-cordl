@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyDescriptor)
 namespace System::Collections {
-class IList;
-}
-namespace System::Collections {
 class Hashtable;
+}
+namespace System::ComponentModel {
+class TypeConverter;
 }
 namespace System {
 class EventArgs;
+}
+namespace System::ComponentModel {
+class MemberDescriptor;
+}
+namespace System::Collections {
+class IList;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
 }
 namespace System {
 class Attribute;
-}
-namespace System {
-class Object;
-}
-namespace System::ComponentModel {
-class MemberDescriptor;
-}
-namespace System::ComponentModel {
-class TypeConverter;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8311))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8281))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9474))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9444))
 // CS Name: ::System.ComponentModel::PropertyDescriptor*
 class CORDL_TYPE PropertyDescriptor : public ::System::ComponentModel::MemberDescriptor {
 public:
@@ -100,51 +100,51 @@ public:
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x279412c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2912154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
   static inline ::System::ComponentModel::PropertyDescriptor* New_ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor addr 0x27922a4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29102cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::MemberDescriptor* descr, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method get_ComponentType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ComponentType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ComponentType();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_PropertyType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_PropertyType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method CanResetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanResetValue(::System::Object* component);
 
-  /// @brief Method Equals addr 0x2794134 size 0x200 virtual true final false
+  /// @brief Method Equals, addr 0x291215c, size 0x200, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method FillAttributes addr 0x2794334 size 0x14 virtual true final false
+  /// @brief Method FillAttributes, addr 0x291235c, size 0x14, virtual true, abstract: false, final false
   inline void FillAttributes(::System::Collections::IList* attributeList);
 
-  /// @brief Method GetHashCode addr 0x2794348 size 0x54 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2912370, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationTarget addr 0x279439c size 0xe8 virtual true final false
+  /// @brief Method GetInvocationTarget, addr 0x29123c4, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Object* GetInvocationTarget(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetValue(::System::Object* component);
 
-  /// @brief Method OnValueChanged addr 0x2794484 size 0xb0 virtual true final false
+  /// @brief Method OnValueChanged, addr 0x29124ac, size 0xb0, virtual true, abstract: false, final false
   inline void OnValueChanged(::System::Object* component, ::System::EventArgs* e);
 
-  /// @brief Method ResetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ResetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ResetValue(::System::Object* component);
 
-  /// @brief Method SetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetValue(::System::Object* component, ::System::Object* value);
 
-  /// @brief Method ShouldSerializeValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShouldSerializeValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ShouldSerializeValue(::System::Object* component);
 
   // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptor", modifiers: "&&", def_value: None }]

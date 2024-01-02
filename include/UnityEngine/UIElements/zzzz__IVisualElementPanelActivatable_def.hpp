@@ -17,23 +17,23 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementPanelActivatable);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6834))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6748))
 // CS Name: ::UnityEngine.UIElements::IVisualElementPanelActivatable*
 class CORDL_TYPE IVisualElementPanelActivatable {
 public:
   // Declarations
   __declspec(property(get = get_element))::UnityEngine::UIElements::VisualElement* element;
 
-  /// @brief Method get_element addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_element, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::VisualElement* get_element();
 
-  /// @brief Method CanBeActivated addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanBeActivated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanBeActivated();
 
-  /// @brief Method OnPanelActivate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPanelActivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPanelActivate();
 
-  /// @brief Method OnPanelDeactivate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPanelDeactivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPanelDeactivate();
 
   // Ctor Parameters [CppParam { name: "", ty: "IVisualElementPanelActivatable", modifiers: "&&", def_value: None }]

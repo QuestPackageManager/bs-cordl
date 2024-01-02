@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::UnityEngine::Motion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15095))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
 // CS Name: ::UnityEngine::Motion*
 class CORDL_TYPE Motion : public ::UnityEngine::Object {
 public:
@@ -33,10 +33,10 @@ public:
 
   static inline ::UnityEngine::Motion* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b2a994 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2c90634, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping addr 0x2b2a9ec size 0x3c virtual false final false
+  /// @brief Method get_isLooping, addr 0x2c9068c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
   // Ctor Parameters [CppParam { name: "", ty: "Motion", modifiers: "&&", def_value: None }]

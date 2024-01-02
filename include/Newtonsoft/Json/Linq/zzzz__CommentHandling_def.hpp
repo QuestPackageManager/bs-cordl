@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::CommentHandling);
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11894))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11966))
 // CS Name: ::Newtonsoft.Json.Linq::CommentHandling
 struct CORDL_TYPE CommentHandling {
 public:

@@ -1,8 +1,8 @@
 #pragma once
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LargeArrayBuilder_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename T> inline void System::Collections::Generic::LargeArrayBuilder_1<T>::_ctor(bool initialize) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::LargeArrayBuilder_1<T>>::get(), ".ctor",

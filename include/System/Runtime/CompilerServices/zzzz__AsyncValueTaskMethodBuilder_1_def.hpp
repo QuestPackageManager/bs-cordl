@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncValueTaskMethodBuilder_1)
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System {
 class Exception;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -30,33 +30,33 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 848 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3354))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 861 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3358))
 // CS Name: ::System.Runtime.CompilerServices::AsyncValueTaskMethodBuilder`1<TResult>
 struct CORDL_TYPE AsyncValueTaskMethodBuilder_1 {
 public:
   // Declarations
   __declspec(property(get = get_Task))::System::Threading::Tasks::ValueTask_1<TResult> Task;
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder_1<TResult> Create();
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetResult(TResult result);
 
-  /// @brief Method SetException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<TResult> get_Task();
 
-  /// @brief Method AwaitUnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
 
   // Ctor Parameters [CppParam { name: "_methodBuilder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>", modifiers: "", def_value: None }, CppParam { name: "_result", ty:

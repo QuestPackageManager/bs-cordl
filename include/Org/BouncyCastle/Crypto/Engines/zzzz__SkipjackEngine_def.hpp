@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SkipjackEngine)
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SkipjackEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(871))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SkipjackEngine*
 class CORDL_TYPE SkipjackEngine : public ::System::Object {
@@ -88,39 +88,39 @@ public:
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_ftable();
 
-  /// @brief Method Init addr 0xe724fc size 0x304 virtual true final false
+  /// @brief Method Init, addr 0xee76d0, size 0x304, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method get_AlgorithmName addr 0xe72800 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xee79d4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay addr 0xe72840 size 0x8 virtual true final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0xee7a14, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
-  /// @brief Method GetBlockSize addr 0xe72848 size 0x8 virtual true final false
+  /// @brief Method GetBlockSize, addr 0xee7a1c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xe72850 size 0x134 virtual true final false
+  /// @brief Method ProcessBlock, addr 0xee7a24, size 0x134, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe72984 size 0x4 virtual true final false
+  /// @brief Method Reset, addr 0xee7b58, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method G addr 0xe72988 size 0x15c virtual false final false
+  /// @brief Method G, addr 0xee7b5c, size 0x15c, virtual false, abstract: false, final false
   inline int32_t G(int32_t k, int32_t w);
 
-  /// @brief Method EncryptBlock addr 0xe72ae4 size 0x24c virtual true final false
+  /// @brief Method EncryptBlock, addr 0xee7cb8, size 0x24c, virtual true, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method H addr 0xe72d30 size 0x15c virtual false final false
+  /// @brief Method H, addr 0xee7f04, size 0x15c, virtual false, abstract: false, final false
   inline int32_t H(int32_t k, int32_t w);
 
-  /// @brief Method DecryptBlock addr 0xe72e8c size 0x260 virtual true final false
+  /// @brief Method DecryptBlock, addr 0xee8060, size 0x260, virtual true, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SkipjackEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe73180 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xee8354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SkipjackEngine", modifiers: "&&", def_value: None }]

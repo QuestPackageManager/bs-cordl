@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(IChannelSender)
 namespace System {
 class Object;
 }
-namespace System::Runtime::Remoting::Messaging {
-class IMessageSink;
-}
 namespace System::Runtime::Remoting::Channels {
 class IChannel;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessageSink;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Channels {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelSender);
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3123))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3124))
 // CS Name: ::System.Runtime.Remoting.Channels::IChannelSender*
 class CORDL_TYPE IChannelSender {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannel"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannel*() noexcept;
 
-  /// @brief Method CreateMessageSink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateMessageSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* remoteChannelData, ByRef<::StringW> objectURI);
 
   // Ctor Parameters [CppParam { name: "", ty: "IChannelSender", modifiers: "&&", def_value: None }]

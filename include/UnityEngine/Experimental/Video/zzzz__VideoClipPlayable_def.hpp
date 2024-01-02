@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(VideoClipPlayable)
-namespace UnityEngine::Playables {
-struct PlayableHandle;
-}
 namespace System {
 template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+struct PlayableHandle;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Experimental::Video::VideoClipPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Video {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10362))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15929))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16088))
 // CS Name: ::UnityEngine.Experimental.Video::VideoClipPlayable
 struct CORDL_TYPE VideoClipPlayable {
 public:
@@ -36,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Experimental::Video::VideoClipPlayable>*();
 
-  /// @brief Method GetHandle addr 0x2d48e74 size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2eb1c60, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method Equals addr 0x2d48e80 size 0x78 virtual true final true
+  /// @brief Method Equals, addr 0x2eb1c6c, size 0x78, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Video::VideoClipPlayable other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]

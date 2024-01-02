@@ -21,31 +21,31 @@ MARK_REF_PTR_T(::System::Threading::LazyInitializer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2660))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2662))
 // CS Name: ::System.Threading::LazyInitializer*
 class CORDL_TYPE LazyInitializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureInitialized addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitialized(ByRef<T> target);
 
-  /// @brief Method EnsureInitializedCore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(ByRef<T> target);
 
-  /// @brief Method EnsureInitialized addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitialized(ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureInitializedCore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureInitialized addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitialized, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitialized(ByRef<T> target, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureInitializedCore addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(ByRef<T> target, ByRef<::System::Object*> syncLock, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized addr 0x24b4c88 size 0x80 virtual false final false
+  /// @brief Method EnsureLockInitialized, addr 0x260fc10, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(ByRef<::System::Object*> syncLock);
 
   // Ctor Parameters [CppParam { name: "", ty: "LazyInitializer", modifiers: "&&", def_value: None }]

@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(EnumerableSorter_2)
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
-namespace System::Linq {
-template <typename TElement> class EnumerableSorter_1;
-}
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Linq {
+template <typename TElement> class EnumerableSorter_1;
 }
 // Forward declare root types
 namespace System::Linq {
@@ -27,8 +27,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14631)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14631), inst: 1610 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14632))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 }), TypeDefinitionIndex(TypeDefinitionIndex(14293))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
 // CS Name: ::System.Linq::EnumerableSorter`2<TElement,TKey>*
 class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement> {
 public:
@@ -81,13 +81,13 @@ public:
   static inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* New_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                                                                              bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);
 
-  /// @brief Method ComputeKeys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ComputeKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count);
 
-  /// @brief Method CompareKeys addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompareKeys, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t CompareKeys(int32_t index1, int32_t index2);
 
   // Ctor Parameters [CppParam { name: "", ty: "EnumerableSorter_2", modifiers: "&&", def_value: None }]

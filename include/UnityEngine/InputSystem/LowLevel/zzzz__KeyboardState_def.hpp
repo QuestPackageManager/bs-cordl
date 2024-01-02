@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyboardState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
-}
 namespace UnityEngine::InputSystem {
 struct Key;
+}
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__Fixed
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6588))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6502))
 // CS Name: ::KeyboardState::<keys>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __KeyboardState___keys_e__FixedBuffer {
@@ -69,8 +69,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__KeyboardState___k
 // SizeInfo { instance_size: 14, native_size: 14, calculated_instance_size: 14, calculated_native_size: 30, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6588))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6589))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6502))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6503))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::KeyboardState
 struct CORDL_TYPE KeyboardState {
 public:
@@ -82,22 +82,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_Format addr 0x2968b68 size 0x30 virtual false final false
+  /// @brief Method get_Format, addr 0x2ae88b0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method .ctor addr 0x2968b98 size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ae88e0, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::Key, ::Array<::UnityEngine::InputSystem::Key>*> pressedKeys);
 
-  /// @brief Method Set addr 0x2968c60 size 0xc virtual false final false
+  /// @brief Method Set, addr 0x2ae89a8, size 0xc, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method Press addr 0x2968c6c size 0xc virtual false final false
+  /// @brief Method Press, addr 0x2ae89b4, size 0xc, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release addr 0x2968c78 size 0xc virtual false final false
+  /// @brief Method Release, addr 0x2ae89c0, size 0xc, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method get_format addr 0x2968c84 size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ae89cc, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "keys", ty: "::UnityEngine::InputSystem::LowLevel::__KeyboardState___keys_e__FixedBuffer", modifiers: "", def_value: None }]

@@ -16,18 +16,18 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7236), inst: 4540 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7239))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7150)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7150), inst: 4634 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7153))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureEventBase`1<T>*
 class CORDL_TYPE MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::MouseCaptureEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureEventBase_1", modifiers: "&&", def_value: None }]

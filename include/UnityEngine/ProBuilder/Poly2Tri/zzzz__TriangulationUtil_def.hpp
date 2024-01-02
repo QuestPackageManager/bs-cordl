@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15375))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15345))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationUtil*
 class CORDL_TYPE TriangulationUtil : public ::System::Object {
 public:
@@ -34,21 +34,21 @@ public:
 
   static inline double_t getStaticF_EPSILON();
 
-  /// @brief Method SmartIncircle addr 0x29b2534 size 0xc4 virtual false final false
+  /// @brief Method SmartIncircle, addr 0x2b34288, size 0xc4, virtual false, abstract: false, final false
   static inline bool SmartIncircle(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                    ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
-  /// @brief Method InScanArea addr 0x29b1c60 size 0x78 virtual false final false
+  /// @brief Method InScanArea, addr 0x2b339b4, size 0x78, virtual false, abstract: false, final false
   static inline bool InScanArea(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                 ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pd);
 
-  /// @brief Method Orient2d addr 0x29b0370 size 0xe8 virtual false final false
+  /// @brief Method Orient2d, addr 0x2b320c4, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Orientation Orient2d(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pa, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pb,
                                                                           ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* pc);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationUtil* New_ctor();
 
-  /// @brief Method .ctor addr 0x29b3b68 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b358bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TriangulationUtil", modifiers: "&&", def_value: None }]

@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_MeshData)
-namespace UnityEngine {
-struct Color32;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
+struct Vector4;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-struct Vector4;
-}
-namespace UnityEngine {
-struct Vector3;
+struct Color32;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_MeshData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10037))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9778))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10109))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9851))
 // CS Name: ::HoudiniEngineUnity::HEU_MeshData*
 class CORDL_TYPE HEU_MeshData : public ::System::Object {
 public:
@@ -122,7 +122,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_MeshData* New_ctor();
 
-  /// @brief Method .ctor addr 0x207861c size 0x1f0 virtual false final false
+  /// @brief Method .ctor, addr 0x21cffb8, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_MeshData", modifiers: "&&", def_value: None }]

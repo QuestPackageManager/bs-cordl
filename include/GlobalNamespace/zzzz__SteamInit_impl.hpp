@@ -1,16 +1,19 @@
 #pragma once
-#include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "GlobalNamespace/zzzz__BasePlatformInit_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamInit_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::SteamInit.Init
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::SteamInit.InitializeInternalAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamInit::*)()>(&::GlobalNamespace::SteamInit::Init)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x20c9bc0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::SteamInit::*)()>(
+    &::GlobalNamespace::SteamInit::InitializeInternalAsync)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x222ab48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(), "Init",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -19,18 +22,18 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamInit::*)()>(&::GlobalNamespace::SteamInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x20c9bc4;
+  constexpr static std::size_t addrs = 0x222abb0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::SteamInit::Init() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline ::System::Threading::Tasks::Task_1<bool>* GlobalNamespace::SteamInit::InitializeInternalAsync() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamInit*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<bool>*, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::SteamInit* GlobalNamespace::SteamInit::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SteamInit*>());

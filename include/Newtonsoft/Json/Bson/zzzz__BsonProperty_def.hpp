@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonProperty);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12081))
 // CS Name: ::Newtonsoft.Json.Bson::BsonProperty*
 class CORDL_TYPE BsonProperty : public ::System::Object {
 public:
@@ -48,21 +48,21 @@ public:
 
   constexpr void __set__Value_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method get_Name addr 0x2564e08 size 0x8 virtual false final false
+  /// @brief Method get_Name, addr 0x26c8558, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Name();
 
-  /// @brief Method set_Name addr 0x2564e10 size 0x8 virtual false final false
+  /// @brief Method set_Name, addr 0x26c8560, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::Newtonsoft::Json::Bson::BsonString* value);
 
-  /// @brief Method get_Value addr 0x2564e18 size 0x8 virtual false final false
+  /// @brief Method get_Value, addr 0x26c8568, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Value();
 
-  /// @brief Method set_Value addr 0x2564e20 size 0x8 virtual false final false
+  /// @brief Method set_Value, addr 0x26c8570, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::Newtonsoft::Json::Bson::BsonToken* value);
 
   static inline ::Newtonsoft::Json::Bson::BsonProperty* New_ctor();
 
-  /// @brief Method .ctor addr 0x2564a74 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x26c81c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BsonProperty", modifiers: "&&", def_value: None }]

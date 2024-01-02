@@ -8,6 +8,27 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Localization)
+namespace System {
+class Object;
+}
+namespace Polyglot {
+class LocalizationDocument;
+}
+namespace Polyglot {
+struct LanguageDirection;
+}
+namespace Polyglot {
+class LocalizationAsset;
+}
+namespace UnityEngine::Events {
+class UnityEvent;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace Polyglot {
 class ILocalize;
 }
@@ -16,27 +37,6 @@ struct Language;
 }
 namespace UnityEngine {
 struct SystemLanguage;
-}
-namespace Polyglot {
-class LocalizationAsset;
-}
-namespace Polyglot {
-class LocalizationDocument;
-}
-namespace Polyglot {
-struct LanguageDirection;
-}
-namespace System {
-class Object;
-}
-namespace System::Globalization {
-class CultureInfo;
-}
-namespace UnityEngine::Events {
-class UnityEvent;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Polyglot {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::Polyglot::Localization);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15538)), TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15542))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
 // CS Name: ::Polyglot::Localization*
 class CORDL_TYPE Localization : public ::UnityEngine::ScriptableObject {
 public:
@@ -146,96 +146,99 @@ public:
 
   static inline ::Polyglot::Localization* getStaticF_instance();
 
-  /// @brief Method get_CustomDocument addr 0x268833c size 0x8 virtual false final false
+  /// @brief Method get_CustomDocument, addr 0x2802f60, size 0x8, virtual false, abstract: false, final false
   inline ::Polyglot::LocalizationDocument* get_CustomDocument();
 
-  /// @brief Method get_InputFiles addr 0x2688344 size 0x8 virtual false final false
+  /// @brief Method get_InputFiles, addr 0x2802f68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* get_InputFiles();
 
-  /// @brief Method get_Instance addr 0x2687ea0 size 0x94 virtual false final false
+  /// @brief Method get_Instance, addr 0x2802ac4, size 0x94, virtual false, abstract: false, final false
   static inline ::Polyglot::Localization* get_Instance();
 
-  /// @brief Method set_Instance addr 0x26883ec size 0x4c virtual false final false
+  /// @brief Method set_Instance, addr 0x2803010, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::Polyglot::Localization* value);
 
-  /// @brief Method get_HasInstance addr 0x268834c size 0xa0 virtual false final false
+  /// @brief Method get_HasInstance, addr 0x2802f70, size 0xa0, virtual false, abstract: false, final false
   static inline bool get_HasInstance();
 
-  /// @brief Method get_SupportedLanguages addr 0x2688438 size 0x8 virtual false final false
+  /// @brief Method get_SupportedLanguages, addr 0x280305c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Polyglot::Language>* get_SupportedLanguages();
 
-  /// @brief Method get_SelectedLanguageDirection addr 0x2688440 size 0x14 virtual false final false
+  /// @brief Method get_SelectedLanguageDirection, addr 0x2803064, size 0x14, virtual false, abstract: false, final false
   inline ::Polyglot::LanguageDirection get_SelectedLanguageDirection();
 
-  /// @brief Method GetLanguageDirection addr 0x2688454 size 0x1c virtual false final false
+  /// @brief Method GetLanguageDirection, addr 0x2803078, size 0x1c, virtual false, abstract: false, final false
   inline ::Polyglot::LanguageDirection GetLanguageDirection(::Polyglot::Language language);
 
-  /// @brief Method get_SelectedLanguageIndex addr 0x2688178 size 0x74 virtual false final false
+  /// @brief Method get_SelectedLanguageIndex, addr 0x2802d9c, size 0x74, virtual false, abstract: false, final false
   inline int32_t get_SelectedLanguageIndex();
 
-  /// @brief Method get_SelectedCultureInfo addr 0x2688470 size 0x8 virtual false final false
+  /// @brief Method get_SelectedCultureInfo, addr 0x2803094, size 0x8, virtual false, abstract: false, final false
   inline ::System::Globalization::CultureInfo* get_SelectedCultureInfo();
 
-  /// @brief Method get_SelectedLanguage addr 0x2688478 size 0x8 virtual false final false
+  /// @brief Method get_SelectedLanguage, addr 0x280309c, size 0x8, virtual false, abstract: false, final false
   inline ::Polyglot::Language get_SelectedLanguage();
 
-  /// @brief Method set_SelectedLanguage addr 0x2688480 size 0x144 virtual false final false
+  /// @brief Method set_SelectedLanguage, addr 0x28030a4, size 0x104, virtual false, abstract: false, final false
   inline void set_SelectedLanguage(::Polyglot::Language value);
 
-  /// @brief Method IsLanguageSupported addr 0x26885c4 size 0x78 virtual false final false
+  /// @brief Method IsLanguageSupported, addr 0x28031a8, size 0x78, virtual false, abstract: false, final false
   inline bool IsLanguageSupported(::Polyglot::Language language);
 
-  /// @brief Method InvokeOnLocalize addr 0x268863c size 0x14 virtual false final false
+  /// @brief Method InvokeOnLocalize, addr 0x28032c4, size 0x14, virtual false, abstract: false, final false
   inline void InvokeOnLocalize();
 
-  /// @brief Method get_EnglishLanguageNames addr 0x2688108 size 0x70 virtual false final false
+  /// @brief Method get_EnglishLanguageNames, addr 0x2802d2c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_EnglishLanguageNames();
 
-  /// @brief Method get_LocalizedLanguageNames addr 0x2688960 size 0x70 virtual false final false
+  /// @brief Method get_LocalizedLanguageNames, addr 0x28035e8, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_LocalizedLanguageNames();
 
-  /// @brief Method get_EnglishLanguageName addr 0x26889d0 size 0x40 virtual false final false
+  /// @brief Method get_EnglishLanguageName, addr 0x2803658, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_EnglishLanguageName();
 
-  /// @brief Method get_LocalizedLanguageName addr 0x2688a34 size 0x40 virtual false final false
+  /// @brief Method get_LocalizedLanguageName, addr 0x28036bc, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_LocalizedLanguageName();
 
-  /// @brief Method SelectLanguage addr 0x2688a74 size 0x78 virtual false final false
+  /// @brief Method SelectLanguage, addr 0x28036fc, size 0x78, virtual false, abstract: false, final false
   inline void SelectLanguage(int32_t selected);
 
-  /// @brief Method SelectLanguage addr 0x2688aec size 0x4 virtual false final false
+  /// @brief Method SelectLanguage, addr 0x2803774, size 0x4, virtual false, abstract: false, final false
   inline void SelectLanguage(::Polyglot::Language selected);
 
-  /// @brief Method ConvertSystemLanguage addr 0x2688af0 size 0x38 virtual false final false
+  /// @brief Method SelectCultureInfo, addr 0x2803220, size 0xa4, virtual false, abstract: false, final false
+  inline void SelectCultureInfo();
+
+  /// @brief Method ConvertSystemLanguage, addr 0x2803778, size 0x38, virtual false, abstract: false, final false
   inline ::Polyglot::Language ConvertSystemLanguage(::UnityEngine::SystemLanguage selected);
 
-  /// @brief Method AddOnLocalizeEvent addr 0x2687f34 size 0x1d4 virtual false final false
+  /// @brief Method AddOnLocalizeEvent, addr 0x2802b58, size 0x1d4, virtual false, abstract: false, final false
   inline void AddOnLocalizeEvent(::Polyglot::ILocalize* localize);
 
-  /// @brief Method RemoveOnLocalizeEvent addr 0x2688b28 size 0xec virtual false final false
+  /// @brief Method RemoveOnLocalizeEvent, addr 0x28037b0, size 0xec, virtual false, abstract: false, final false
   inline void RemoveOnLocalizeEvent(::Polyglot::ILocalize* localize);
 
-  /// @brief Method Get addr 0x2688a10 size 0x24 virtual false final false
+  /// @brief Method Get, addr 0x2803698, size 0x24, virtual false, abstract: false, final false
   static inline ::StringW Get(::StringW key);
 
-  /// @brief Method Get addr 0x2688c14 size 0x3b4 virtual false final false
+  /// @brief Method Get, addr 0x280389c, size 0x3b4, virtual false, abstract: false, final false
   static inline ::StringW Get(::StringW key, ::Polyglot::Language language);
 
-  /// @brief Method KeyExist addr 0x2689058 size 0xb0 virtual false final false
+  /// @brief Method KeyExist, addr 0x2803ce0, size 0xb0, virtual false, abstract: false, final false
   static inline bool KeyExist(::StringW key);
 
-  /// @brief Method GetKeys addr 0x2689108 size 0x4c virtual false final false
+  /// @brief Method GetKeys, addr 0x2803d90, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
 
-  /// @brief Method GetFormat addr 0x26891e8 size 0x6c virtual false final false
+  /// @brief Method GetFormat, addr 0x2803e70, size 0x6c, virtual false, abstract: false, final false
   static inline ::StringW GetFormat(::StringW key, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method InputFilesContains addr 0x2689254 size 0x1c4 virtual false final false
+  /// @brief Method InputFilesContains, addr 0x2803edc, size 0x1c4, virtual false, abstract: false, final false
   inline bool InputFilesContains(::Polyglot::LocalizationDocument* doc);
 
   static inline ::Polyglot::Localization* New_ctor();
 
-  /// @brief Method .ctor addr 0x2689418 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x28040a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Localization", modifiers: "&&", def_value: None }]

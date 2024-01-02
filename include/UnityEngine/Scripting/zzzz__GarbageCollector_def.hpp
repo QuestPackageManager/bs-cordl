@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::GarbageCollector);
 namespace UnityEngine::Scripting {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10240))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10318))
 // CS Name: ::GarbageCollector::Mode
 struct CORDL_TYPE __GarbageCollector__Mode {
 public:
@@ -80,8 +80,8 @@ static_assert(offsetof(::UnityEngine::Scripting::__GarbageCollector__Mode, value
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10241))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10319))
 // CS Name: ::UnityEngine.Scripting::GarbageCollector*
 class CORDL_TYPE GarbageCollector : public ::System::Object {
 public:
@@ -95,13 +95,13 @@ public:
 
   static inline ::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* getStaticF_GCModeChanged();
 
-  /// @brief Method set_GCMode addr 0x2b82844 size 0xc0 virtual false final false
+  /// @brief Method set_GCMode, addr 0x2ce9c78, size 0xc0, virtual false, abstract: false, final false
   static inline void set_GCMode(::UnityEngine::Scripting::__GarbageCollector__Mode value);
 
-  /// @brief Method SetMode addr 0x2b8292c size 0x3c virtual false final false
+  /// @brief Method SetMode, addr 0x2ce9d60, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::__GarbageCollector__Mode mode);
 
-  /// @brief Method GetMode addr 0x2b82904 size 0x28 virtual false final false
+  /// @brief Method GetMode, addr 0x2ce9d38, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::__GarbageCollector__Mode GetMode();
 
   // Ctor Parameters [CppParam { name: "", ty: "GarbageCollector", modifiers: "&&", def_value: None }]

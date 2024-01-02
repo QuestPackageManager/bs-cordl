@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::AttributeHelperEngine);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10121))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10193))
 // CS Name: ::UnityEngine::AttributeHelperEngine*
 class CORDL_TYPE AttributeHelperEngine : public ::System::Object {
 public:
@@ -59,22 +59,22 @@ public:
 
   static inline ::ArrayW<::UnityEngine::RequireComponent*, ::Array<::UnityEngine::RequireComponent*>*> getStaticF__requireComponentArray();
 
-  /// @brief Method GetParentTypeDisallowingMultipleInclusion addr 0x2b66e0c size 0x100 virtual false final false
+  /// @brief Method GetParentTypeDisallowingMultipleInclusion, addr 0x2ccd310, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Type* GetParentTypeDisallowingMultipleInclusion(::System::Type* type);
 
-  /// @brief Method GetRequiredComponents addr 0x2b66f0c size 0x43c virtual false final false
+  /// @brief Method GetRequiredComponents, addr 0x2ccd410, size 0x43c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetRequiredComponents(::System::Type* klass);
 
-  /// @brief Method GetExecuteMode addr 0x2b67348 size 0x114 virtual false final false
+  /// @brief Method GetExecuteMode, addr 0x2ccd84c, size 0x114, virtual false, abstract: false, final false
   static inline int32_t GetExecuteMode(::System::Type* klass);
 
-  /// @brief Method CheckIsEditorScript addr 0x2b6745c size 0xe0 virtual false final false
+  /// @brief Method CheckIsEditorScript, addr 0x2ccd960, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t CheckIsEditorScript(::System::Type* klass);
 
-  /// @brief Method GetDefaultExecutionOrderFor addr 0x2b6753c size 0x78 virtual false final false
+  /// @brief Method GetDefaultExecutionOrderFor, addr 0x2ccda40, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetDefaultExecutionOrderFor(::System::Type* klass);
 
-  /// @brief Method GetCustomAttributeOfType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetCustomAttributeOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetCustomAttributeOfType(::System::Type* klass);
 
   // Ctor Parameters [CppParam { name: "", ty: "AttributeHelperEngine", modifiers: "&&", def_value: None }]

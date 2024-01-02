@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ITreeViewItem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7431))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7345))
 // CS Name: ::UnityEngine.UIElements::ITreeViewItem*
 class CORDL_TYPE ITreeViewItem {
 public:
@@ -29,13 +29,13 @@ public:
 
   __declspec(property(get = get_hasChildren)) bool hasChildren;
 
-  /// @brief Method get_id addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_id, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_id();
 
-  /// @brief Method get_children addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_children, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* get_children();
 
-  /// @brief Method get_hasChildren addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_hasChildren, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasChildren();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITreeViewItem", modifiers: "&&", def_value: None }]

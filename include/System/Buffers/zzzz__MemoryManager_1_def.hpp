@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryManager_1)
+namespace System {
+template <typename T> struct Span_1;
+}
 namespace System::Buffers {
 struct MemoryHandle;
 }
 namespace System {
 template <typename T> struct ArraySegment_1;
-}
-namespace System {
-template <typename T> struct Span_1;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -27,19 +27,20 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3873))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3885))
 // CS Name: ::System.Buffers::MemoryManager`1<T>*
 class CORDL_TYPE MemoryManager_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSpan addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetSpan, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Span_1<T> GetSpan();
 
-  /// @brief Method Pin addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline ::System::Buffers::MemoryHandle Pin(int32_t elementIndex);
+  /// @brief Method Pin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param elementIndex: int32_t (default: static_cast<int32_t>(0x0))
+  inline ::System::Buffers::MemoryHandle Pin(int32_t elementIndex = static_cast<int32_t>(0x0));
 
-  /// @brief Method TryGetArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryGetArray(ByRef<::System::ArraySegment_1<T>> segment);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoryManager_1", modifiers: "&&", def_value: None }]

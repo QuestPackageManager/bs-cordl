@@ -4,11 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(PopoSigningKeyInput)
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
 namespace Org::BouncyCastle::Asn1::Crmf {
 class PKMacValue;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -16,11 +19,8 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1::X509 {
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -73,32 +73,32 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe131f4 size 0x174 virtual false final false
+  /// @brief Method .ctor, addr 0xe883c8, size 0x174, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xe12db0 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe87f84, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method .ctor addr 0xe13368 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe8853c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method .ctor addr 0xe13398 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe8856c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* pkmac, ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* spki);
 
-  /// @brief Method get_Sender addr 0xe133c4 size 0x8 virtual true final false
+  /// @brief Method get_Sender, addr 0xe88598, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
 
-  /// @brief Method get_PublicKeyMac addr 0xe133cc size 0x8 virtual true final false
+  /// @brief Method get_PublicKeyMac, addr 0xe885a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::PKMacValue* get_PublicKeyMac();
 
-  /// @brief Method get_PublicKey addr 0xe133d4 size 0x8 virtual true final false
+  /// @brief Method get_PublicKey, addr 0xe885a8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* get_PublicKey();
 
-  /// @brief Method ToAsn1Object addr 0xe133dc size 0x104 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe885b0, size 0x104, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PopoSigningKeyInput", modifiers: "&&", def_value: None }]

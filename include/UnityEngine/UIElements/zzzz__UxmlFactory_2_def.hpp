@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_2)
 namespace UnityEngine::UIElements {
-class IUxmlFactory;
+class IUxmlAttributes;
 }
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -29,8 +29,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6997))
 // CS Name: ::UnityEngine.UIElements::UxmlFactory`2<TCreatedType,TTraits>*
 class CORDL_TYPE UxmlFactory_2 : public ::System::Object {
 public:
@@ -55,22 +55,22 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_uxmlName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_uxmlName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_uxmlName();
 
-  /// @brief Method get_uxmlNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_uxmlNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_uxmlNamespace();
 
-  /// @brief Method get_uxmlQualifiedName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_uxmlQualifiedName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_uxmlQualifiedName();
 
-  /// @brief Method AcceptsAttributeBag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AcceptsAttributeBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AcceptsAttributeBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_2", modifiers: "&&", def_value: None }]

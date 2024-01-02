@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IStandaloneThreadRunnable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12737))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12819))
 // CS Name: ::IStandaloneThreadRunnable*
 class CORDL_TYPE IStandaloneThreadRunnable {
 public:
@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool MoveNext();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStandaloneThreadRunnable", modifiers: "&&", def_value: None }]

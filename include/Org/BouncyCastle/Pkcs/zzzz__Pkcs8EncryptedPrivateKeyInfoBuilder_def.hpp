@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs8EncryptedPrivateKeyInfoBuilder)
-namespace Org::BouncyCastle::Crypto {
-class ICipherBuilder;
-}
 namespace Org::BouncyCastle::Pkcs {
 class Pkcs8EncryptedPrivateKeyInfo;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class PrivateKeyInfo;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1704))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder*
 class CORDL_TYPE Pkcs8EncryptedPrivateKeyInfoBuilder : public ::System::Object {
@@ -42,15 +42,15 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
-  /// @brief Method .ctor addr 0x1075b7c size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x10e6dd0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method .ctor addr 0x1075bb4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x10e6e08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
-  /// @brief Method Build addr 0x1075bdc size 0x400 virtual false final false
+  /// @brief Method Build, addr 0x10e6e30, size 0x400, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder* encryptor);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "&&", def_value: None }]

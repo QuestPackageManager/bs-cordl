@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Encodable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Encodable*
 class CORDL_TYPE Asn1Encodable : public ::System::Object {
@@ -35,27 +35,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetEncoded addr 0xdedffc size 0xb4 virtual false final false
+  /// @brief Method GetEncoded, addr 0xe631cc, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded addr 0xdee0b0 size 0xf4 virtual false final false
+  /// @brief Method GetEncoded, addr 0xe63280, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetDerEncoded addr 0xdee1a4 size 0xc0 virtual false final false
+  /// @brief Method GetDerEncoded, addr 0xe63374, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerEncoded();
 
-  /// @brief Method GetHashCode addr 0xdee264 size 0x28 virtual true final true
+  /// @brief Method GetHashCode, addr 0xe63434, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0xdee298 size 0x108 virtual true final true
+  /// @brief Method Equals, addr 0xe63468, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
 
-  /// @brief Method .ctor addr 0xdee3ac size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe6357c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Encodable", modifiers: "&&", def_value: None }]

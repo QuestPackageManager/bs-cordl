@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RawAcl)
-namespace System::Security::AccessControl {
-class GenericAce;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Security::AccessControl {
+class GenericAce;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::RawAcl);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3035))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3036))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3047))
 // CS Name: ::System.Security.AccessControl::RawAcl*
 class CORDL_TYPE RawAcl : public ::System::Security::AccessControl::GenericAcl {
 public:
@@ -51,22 +51,22 @@ public:
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method .ctor addr 0x2329764 size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x2481258, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count addr 0x232ced0 size 0x48 virtual true final false
+  /// @brief Method get_Count, addr 0x24849c4, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item addr 0x232cf18 size 0x58 virtual true final false
+  /// @brief Method get_Item, addr 0x2484a0c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x232cf70 size 0x68 virtual true final false
+  /// @brief Method set_Item, addr 0x2484a64, size 0x68, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
-  /// @brief Method InsertAce addr 0x232ae40 size 0xd8 virtual false final false
+  /// @brief Method InsertAce, addr 0x2482934, size 0xd8, virtual false, abstract: false, final false
   inline void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method RemoveAce addr 0x232a88c size 0x58 virtual false final false
+  /// @brief Method RemoveAce, addr 0x2482380, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAce(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "RawAcl", modifiers: "&&", def_value: None }]

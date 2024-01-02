@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRExtendedDisplay);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9037)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9328))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8268))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8559))
 // CS Name: ::OVR.OpenVR::CVRExtendedDisplay*
 class CORDL_TYPE CVRExtendedDisplay : public ::System::Object {
 public:
@@ -37,16 +37,16 @@ public:
 
   static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(void* pInterface);
 
-  /// @brief Method .ctor addr 0x267ae54 size 0x114 virtual false final false
+  /// @brief Method .ctor, addr 0x27f1dd8, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
-  /// @brief Method GetWindowBounds addr 0x267af68 size 0x34 virtual false final false
+  /// @brief Method GetWindowBounds, addr 0x27f1eec, size 0x34, virtual false, abstract: false, final false
   inline void GetWindowBounds(ByRef<int32_t> pnX, ByRef<int32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method GetEyeOutputViewport addr 0x267af9c size 0x34 virtual false final false
+  /// @brief Method GetEyeOutputViewport, addr 0x27f1f20, size 0x34, virtual false, abstract: false, final false
   inline void GetEyeOutputViewport(::OVR::OpenVR::EVREye eEye, ByRef<uint32_t> pnX, ByRef<uint32_t> pnY, ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
 
-  /// @brief Method GetDXGIOutputInfo addr 0x267afd0 size 0x2c virtual false final false
+  /// @brief Method GetDXGIOutputInfo, addr 0x27f1f54, size 0x2c, virtual false, abstract: false, final false
   inline void GetDXGIOutputInfo(ByRef<int32_t> pnAdapterIndex, ByRef<int32_t> pnAdapterOutputIndex);
 
   // Ctor Parameters [CppParam { name: "", ty: "CVRExtendedDisplay", modifiers: "&&", def_value: None }]

@@ -1,9 +1,9 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
 template <typename TKey, typename TValue> constexpr ::System::Object*& Newtonsoft::Json::Utilities::ThreadSafeStore_2<TKey, TValue>::__get__lock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;

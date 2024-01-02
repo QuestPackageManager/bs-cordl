@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::ComInterfaceType);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3311))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3314))
 // CS Name: ::System.Runtime.InteropServices::ComInterfaceType
 struct CORDL_TYPE ComInterfaceType {
 public:

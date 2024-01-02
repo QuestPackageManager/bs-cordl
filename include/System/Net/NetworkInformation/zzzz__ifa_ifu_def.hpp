@@ -16,8 +16,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::ifa_ifu);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8107))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9270))
 // CS Name: ::System.Net.NetworkInformation::ifa_ifu
 struct CORDL_TYPE ifa_ifu {
 public:

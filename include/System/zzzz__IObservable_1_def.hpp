@@ -22,12 +22,12 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2417))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2419))
 // CS Name: ::System::IObservable`1<T>*
 class CORDL_TYPE IObservable_1 {
 public:
   // Declarations
-  /// @brief Method Subscribe addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Subscribe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<T>* observer);
 
   // Ctor Parameters [CppParam { name: "", ty: "IObservable_1", modifiers: "&&", def_value: None }]

@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateD
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6668))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6458))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateDirectionProcessor*
 class CORDL_TYPE AndroidCompensateDirectionProcessor : public ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor {
 public:
   // Declarations
-  /// @brief Method Process addr 0x29671f8 size 0x1c virtual true final false
+  /// @brief Method Process, addr 0x2ae6f40, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl* control);
 
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method .ctor addr 0x2967214 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ae6f5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AndroidCompensateDirectionProcessor", modifiers: "&&", def_value: None }]

@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoolableSerializable)
+namespace System::Collections::Concurrent {
+template <typename T> class ConcurrentBag_1;
+}
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -21,7 +18,10 @@ namespace GlobalNamespace {
 class IPoolableSerializable;
 }
 namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentBag_1;
+template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace System {
 class Type;
@@ -36,8 +36,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PoolableSerializable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15033))
 // CS Name: ::PoolableSerializable*
 class CORDL_TYPE PoolableSerializable : public ::System::Object {
 public:
@@ -67,33 +67,33 @@ public:
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>*>*
   getStaticF__pools();
 
-  /// @brief Method NoDomainReloadInit addr 0x12340dc size 0x78 virtual false final false
+  /// @brief Method NoDomainReloadInit, addr 0x12a61d8, size 0x78, virtual false, abstract: false, final false
   static inline void NoDomainReloadInit();
 
-  /// @brief Method Retain addr 0x1233cb0 size 0x10 virtual true final false
+  /// @brief Method Retain, addr 0x12a5dac, size 0x10, virtual true, abstract: false, final false
   inline void Retain();
 
-  /// @brief Method Release addr 0x1233ba4 size 0x70 virtual true final false
+  /// @brief Method Release, addr 0x12a5ca0, size 0x70, virtual true, abstract: false, final false
   inline void Release();
 
-  /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Obtain addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release addr 0x1234154 size 0xcc virtual false final false
+  /// @brief Method Release, addr 0x12a6250, size 0xcc, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IPoolableSerializable* t);
 
-  /// @brief Method GetPool addr 0x1234220 size 0x1e8 virtual false final false
+  /// @brief Method GetPool, addr 0x12a631c, size 0x1e8, virtual false, abstract: false, final false
   static inline ::System::Collections::Concurrent::ConcurrentBag_1<::GlobalNamespace::IPoolableSerializable*>* GetPool(::System::Type* t);
 
   static inline ::GlobalNamespace::PoolableSerializable* New_ctor();
 
-  /// @brief Method .ctor addr 0x12325d4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12a46d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableSerializable", modifiers: "&&", def_value: None }]

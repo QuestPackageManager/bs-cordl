@@ -5,23 +5,23 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(KeyRecRepContent)
-namespace System {
-class Object;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class CmpCertificate;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
-}
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CertifiedKeyPair;
 }
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+namespace Org::BouncyCastle::Asn1::Cmp {
+class CmpCertificate;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Cmp {
@@ -81,25 +81,25 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf2e0c size 0x19c virtual false final false
+  /// @brief Method .ctor, addr 0xe67fdc, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf2fa8 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe68178, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* GetInstance(::System::Object* obj);
 
-  /// @brief Method get_Status addr 0xdf3130 size 0x8 virtual true final false
+  /// @brief Method get_Status, addr 0xe68300, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_Status();
 
-  /// @brief Method get_NewSigCert addr 0xdf3138 size 0x8 virtual true final false
+  /// @brief Method get_NewSigCert, addr 0xe68308, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_NewSigCert();
 
-  /// @brief Method GetCACerts addr 0xdf3140 size 0xfc virtual true final false
+  /// @brief Method GetCACerts, addr 0xe68310, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> GetCACerts();
 
-  /// @brief Method GetKeyPairHist addr 0xdf323c size 0xfc virtual true final false
+  /// @brief Method GetKeyPairHist, addr 0xe6840c, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*>*> GetKeyPairHist();
 
-  /// @brief Method ToAsn1Object addr 0xdf3338 size 0x144 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe68508, size 0x144, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyRecRepContent", modifiers: "&&", def_value: None }]

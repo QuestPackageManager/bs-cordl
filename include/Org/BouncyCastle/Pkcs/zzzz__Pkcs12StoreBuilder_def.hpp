@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Pkcs12StoreBuilder)
-namespace Org::BouncyCastle::Pkcs {
-class Pkcs12Store;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Pkcs {
+class Pkcs12Store;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkcs {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1701))
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12StoreBuilder*
 class CORDL_TYPE Pkcs12StoreBuilder : public ::System::Object {
@@ -73,22 +73,22 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1074f40 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x10e6194, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Build addr 0x1074fb8 size 0x94 virtual false final false
+  /// @brief Method Build, addr 0x10e620c, size 0x94, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* Build();
 
-  /// @brief Method SetCertAlgorithm addr 0x107504c size 0x8 virtual false final false
+  /// @brief Method SetCertAlgorithm, addr 0x10e62a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetCertAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm addr 0x1075054 size 0x8 virtual false final false
+  /// @brief Method SetKeyAlgorithm, addr 0x10e62a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm);
 
-  /// @brief Method SetKeyAlgorithm addr 0x107505c size 0xc virtual false final false
+  /// @brief Method SetKeyAlgorithm, addr 0x10e62b0, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetKeyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm);
 
-  /// @brief Method SetUseDerEncoding addr 0x1075068 size 0xc virtual false final false
+  /// @brief Method SetUseDerEncoding, addr 0x10e62bc, size 0xc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs12StoreBuilder* SetUseDerEncoding(bool useDerEncoding);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs12StoreBuilder", modifiers: "&&", def_value: None }]

@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::in6_addr);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8146))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9309))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::in6_addr
 struct CORDL_TYPE in6_addr {
 public:

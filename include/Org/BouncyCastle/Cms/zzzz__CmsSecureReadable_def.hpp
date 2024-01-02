@@ -6,14 +6,14 @@ CORDL_MODULE_EXPORT(CmsSecureReadable)
 namespace System {
 class Object;
 }
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -35,13 +35,13 @@ public:
 
   __declspec(property(get = get_CryptoObject))::System::Object* CryptoObject;
 
-  /// @brief Method get_Algorithm addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Algorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CryptoObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_CryptoObject();
 
-  /// @brief Method GetReadable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReadable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsSecureReadable", modifiers: "&&", def_value: None }]

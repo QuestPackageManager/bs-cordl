@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::System::UncNameHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7726))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8889))
 // CS Name: ::System::UncNameHelper*
 class CORDL_TYPE UncNameHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ParseCanonicalName addr 0x27d00b4 size 0x4 virtual false final false
+  /// @brief Method ParseCanonicalName, addr 0x294d1d4, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW ParseCanonicalName(::StringW str, int32_t start, int32_t end, ByRef<bool> loopback);
 
-  /// @brief Method IsValid addr 0x27d00b8 size 0x2d8 virtual false final false
+  /// @brief Method IsValid, addr 0x294d1d8, size 0x2d8, virtual false, abstract: false, final false
   static inline bool IsValid(::cordl_internals::Ptr<char16_t> name, uint16_t start, ByRef<int32_t> returnedEnd, bool notImplicitFile);
 
   // Ctor Parameters [CppParam { name: "", ty: "UncNameHelper", modifiers: "&&", def_value: None }]

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelDictionary_2)
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue, typename T> class __LowLevelDictionary_2__DefaultComparer_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class __LowLevelDictionary_2__Entry;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue, typename T> class __LowLevelDictionary_2__DefaultComparer_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -35,8 +35,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3836))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
 // CS Name: ::LowLevelDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __LowLevelDictionary_2__Entry : public ::System::Object {
 public:
@@ -70,7 +70,7 @@ public:
 
   static inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LowLevelDictionary_2__Entry", modifiers: "&&", def_value: None }]
@@ -106,8 +106,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
 // CS Name: ::LowLevelDictionary`2::DefaultComparer`1<TKey,TValue,T>*
 class CORDL_TYPE __LowLevelDictionary_2__DefaultComparer_1 : public ::System::Object {
 public:
@@ -115,15 +115,15 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<T>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<T>*() noexcept;
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t GetHashCode(T obj);
 
   static inline ::System::Collections::Generic::__LowLevelDictionary_2__DefaultComparer_1<TKey, TValue, T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LowLevelDictionary_2__DefaultComparer_1", modifiers: "&&", def_value: None }]
@@ -150,8 +150,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3838))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3850))
 // CS Name: ::System.Collections.Generic::LowLevelDictionary`2<TKey,TValue>*
 class CORDL_TYPE LowLevelDictionary_2 : public ::System::Object {
 public:
@@ -204,34 +204,36 @@ public:
 
   static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(TKey key, TValue value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void Clear(int32_t capacity);
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param capacity: int32_t (default: static_cast<int32_t>(0x11))
+  inline void Clear(int32_t capacity = static_cast<int32_t>(0x11));
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Remove(TKey key);
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* Find(TKey key);
 
-  /// @brief Method UncheckedAdd addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* UncheckedAdd(TKey key, TValue value);
 
-  /// @brief Method ExpandBuckets addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ExpandBuckets, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ExpandBuckets();
 
-  /// @brief Method GetBucket addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline int32_t GetBucket(TKey key, int32_t numBuckets);
+  /// @brief Method GetBucket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param numBuckets: int32_t (default: static_cast<int32_t>(0x0))
+  inline int32_t GetBucket(TKey key, int32_t numBuckets = static_cast<int32_t>(0x0));
 
   // Ctor Parameters [CppParam { name: "", ty: "LowLevelDictionary_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

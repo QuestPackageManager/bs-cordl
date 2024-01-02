@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3167))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3168))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMessage*
 class CORDL_TYPE IMessage {
 public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Collections::IDictionary* Properties;
 
-  /// @brief Method get_Properties addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Properties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMessage", modifiers: "&&", def_value: None }]

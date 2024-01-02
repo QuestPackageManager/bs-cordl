@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Net::IAuthenticationModule);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7905))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9068))
 // CS Name: ::System.Net::IAuthenticationModule*
 class CORDL_TYPE IAuthenticationModule {
 public:
   // Declarations
   __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
-  /// @brief Method Authenticate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Authenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PreAuthenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_AuthenticationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_AuthenticationType();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationModule", modifiers: "&&", def_value: None }]

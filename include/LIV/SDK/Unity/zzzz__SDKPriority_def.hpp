@@ -17,15 +17,15 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15217))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15113))
 // CS Name: ::LIV.SDK.Unity::SDKPriority
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20b3e40 size 0xc virtual false final false
+  /// @brief Method get_empty, addr 0x2214d78, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
-  /// @brief Method ToString addr 0x20b3e4c size 0x26c virtual true final false
+  /// @brief Method ToString, addr 0x2214d84, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "pose", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "clipPlane", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "stage",

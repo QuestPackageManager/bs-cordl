@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapLineData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14749))
 // CS Name: ::IReadonlyBeatmapLineData*
 class CORDL_TYPE IReadonlyBeatmapLineData {
 public:
   // Declarations
   __declspec(property(get = get_beatmapObjectsData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
 
-  /// @brief Method get_beatmapObjectsData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapObjectsData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadonlyBeatmapLineData", modifiers: "&&", def_value: None }]

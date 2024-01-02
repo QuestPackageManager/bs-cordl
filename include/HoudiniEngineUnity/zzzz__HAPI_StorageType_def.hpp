@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_StorageType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9634))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9707))
 // CS Name: ::HoudiniEngineUnity::HAPI_StorageType
 struct CORDL_TYPE HAPI_StorageType {
 public:

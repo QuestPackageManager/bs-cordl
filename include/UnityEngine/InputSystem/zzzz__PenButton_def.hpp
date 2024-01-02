@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::PenButton);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6331))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6245))
 // CS Name: ::UnityEngine.InputSystem::PenButton
 struct CORDL_TYPE PenButton {
 public:

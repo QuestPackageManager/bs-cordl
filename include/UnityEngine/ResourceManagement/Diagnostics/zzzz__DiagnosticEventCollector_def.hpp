@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(DiagnosticEventCollector)
-namespace UnityEngine::ResourceManagement::Diagnostics {
-struct DiagnosticEvent;
+namespace System {
+struct Guid;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System {
-struct Guid;
+namespace UnityEngine::ResourceManagement::Diagnostics {
+struct DiagnosticEvent;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Diagnostics {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14298))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14027))
 // CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollector*
 class CORDL_TYPE DiagnosticEventCollector : public ::UnityEngine::MonoBehaviour {
 public:
@@ -36,24 +36,24 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* getStaticF_s_Collector();
 
-  /// @brief Method get_PlayerConnectionGuid addr 0x2a59858 size 0x4 virtual false final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x2bdc5ac, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
-  /// @brief Method FindOrCreateGlobalInstance addr 0x2a5985c size 0x1c8 virtual false final false
+  /// @brief Method FindOrCreateGlobalInstance, addr 0x2bdc5b0, size 0x1c8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* FindOrCreateGlobalInstance();
 
-  /// @brief Method RegisterEventHandler addr 0x2a59a24 size 0xc virtual false final false
+  /// @brief Method RegisterEventHandler, addr 0x2bdc778, size 0xc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method UnregisterEventHandler addr 0x2a59a30 size 0x54 virtual false final false
+  /// @brief Method UnregisterEventHandler, addr 0x2bdc784, size 0x54, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method PostEvent addr 0x2a59a84 size 0x80 virtual false final false
+  /// @brief Method PostEvent, addr 0x2bdc7d8, size 0x80, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollector* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a59b04 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2bdc858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DiagnosticEventCollector", modifiers: "&&", def_value: None }]

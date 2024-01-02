@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenu);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10217))
 // CS Name: ::UnityEngine::ContextMenu*
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
@@ -51,17 +51,17 @@ public:
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName);
 
-  /// @brief Method .ctor addr 0x2b6c0b4 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd2834, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor addr 0x2b6c0ec size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2cd286c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
-  /// @brief Method .ctor addr 0x2b6c128 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd28a8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
   // Ctor Parameters [CppParam { name: "", ty: "ContextMenu", modifiers: "&&", def_value: None }]

@@ -19,18 +19,18 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyleStack);
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13605))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
 // CS Name: ::UnityEngine.TextCore.Text::FontStyleStack
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Clear addr 0x2be2470 size 0xc virtual false final false
+  /// @brief Method Clear, addr 0x2d4a820, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Add addr 0x2be247c size 0xfc virtual false final false
+  /// @brief Method Add, addr 0x2d4a82c, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Remove addr 0x2be2578 size 0x120 virtual false final false
+  /// @brief Method Remove, addr 0x2d4a928, size 0x120, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters [CppParam { name: "bold", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "italic", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name:

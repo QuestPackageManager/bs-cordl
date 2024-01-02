@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10337))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10360))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10415))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10438))
 // CS Name: ::UnityEngine.Playables::PlayableOutput
 struct CORDL_TYPE PlayableOutput {
 public:
@@ -43,19 +43,19 @@ public:
 
   static inline ::UnityEngine::Playables::PlayableOutput getStaticF_m_NullPlayableOutput();
 
-  /// @brief Method get_Null addr 0x2b8dc4c size 0x58 virtual false final false
+  /// @brief Method get_Null, addr 0x2cf5f8c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput get_Null();
 
-  /// @brief Method .ctor addr 0x2b8d8c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf5c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
 
-  /// @brief Method GetHandle addr 0x2b8e5b8 size 0xc virtual true final true
+  /// @brief Method GetHandle, addr 0x2cf68f8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
-  /// @brief Method IsPlayableOutputOfType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsPlayableOutputOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool IsPlayableOutputOfType();
 
-  /// @brief Method Equals addr 0x2b8e5c4 size 0x74 virtual true final true
+  /// @brief Method Equals, addr 0x2cf6904, size 0x74, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Playables::PlayableOutput other);
 
   // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]

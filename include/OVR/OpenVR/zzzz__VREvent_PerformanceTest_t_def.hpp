@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_PerformanceTest_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8678))
 // CS Name: ::OVR.OpenVR::VREvent_PerformanceTest_t
 struct CORDL_TYPE VREvent_PerformanceTest_t {
 public:

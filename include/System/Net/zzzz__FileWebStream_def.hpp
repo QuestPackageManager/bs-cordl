@@ -7,17 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebStream)
-namespace System::Net {
-class FileWebRequest;
-}
-namespace System::IO {
-struct FileShare;
-}
 namespace System {
 class AsyncCallback;
-}
-namespace System::IO {
-struct FileMode;
 }
 namespace System::Net {
 struct CloseExState;
@@ -26,13 +17,22 @@ namespace System {
 class Object;
 }
 namespace System::IO {
-struct FileAccess;
+struct FileShare;
+}
+namespace System::IO {
+struct FileMode;
+}
+namespace System::Net {
+class ICloseEx;
+}
+namespace System::Net {
+class FileWebRequest;
 }
 namespace System {
 class IAsyncResult;
 }
-namespace System::Net {
-class ICloseEx;
+namespace System::IO {
+struct FileAccess;
 }
 // Forward declare root types
 namespace System::Net {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::System::Net::FileWebStream);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3615))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7973))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3627))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9136))
 // CS Name: ::System.Net::FileWebStream*
 class CORDL_TYPE FileWebStream : public ::System::IO::FileStream {
 public:
@@ -65,40 +65,40 @@ public:
   static inline ::System::Net::FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
                                                        ::System::IO::FileShare sharing);
 
-  /// @brief Method .ctor addr 0x2837964 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x29b51dc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing);
 
   static inline ::System::Net::FileWebStream* New_ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access,
                                                        ::System::IO::FileShare sharing, int32_t length, bool async);
 
-  /// @brief Method .ctor addr 0x28385d4 size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x29b5e4c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::StringW path, ::System::IO::FileMode mode, ::System::IO::FileAccess access, ::System::IO::FileShare sharing, int32_t length, bool async);
 
-  /// @brief Method Dispose addr 0x2838688 size 0xb0 virtual true final false
+  /// @brief Method Dispose, addr 0x29b5f00, size 0xb0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method System.Net.ICloseEx.CloseEx addr 0x2838738 size 0x3c virtual true final true
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x29b5fb0, size 0x3c, virtual true, abstract: false, final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method Read addr 0x2838774 size 0xc8 virtual true final false
+  /// @brief Method Read, addr 0x29b5fec, size 0xc8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method Write addr 0x28388bc size 0xc8 virtual true final false
+  /// @brief Method Write, addr 0x29b6134, size 0xc8, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method BeginRead addr 0x2838984 size 0xe0 virtual true final false
+  /// @brief Method BeginRead, addr 0x29b61fc, size 0xe0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndRead addr 0x2838a64 size 0xa0 virtual true final false
+  /// @brief Method EndRead, addr 0x29b62dc, size 0xa0, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* ar);
 
-  /// @brief Method BeginWrite addr 0x2838b04 size 0xe0 virtual true final false
+  /// @brief Method BeginWrite, addr 0x29b637c, size 0xe0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndWrite addr 0x2838be4 size 0xa0 virtual true final false
+  /// @brief Method EndWrite, addr 0x29b645c, size 0xa0, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* ar);
 
-  /// @brief Method CheckError addr 0x283883c size 0x80 virtual false final false
+  /// @brief Method CheckError, addr 0x29b60b4, size 0x80, virtual false, abstract: false, final false
   inline void CheckError();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileWebStream", modifiers: "&&", def_value: None }]

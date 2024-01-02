@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__ApplicationException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TargetException)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::System::Reflection::TargetException);
 namespace System::Reflection {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3492))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3497))
 // CS Name: ::System.Reflection::TargetException*
 class CORDL_TYPE TargetException : public ::System::ApplicationException {
 public:
   // Declarations
   static inline ::System::Reflection::TargetException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2392bb0 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x24ec668, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::TargetException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2392bdc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24ec694, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Reflection::TargetException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor addr 0x2392c04 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x24ec6bc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
   static inline ::System::Reflection::TargetException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2392c28 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24ec6e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TargetException", modifiers: "&&", def_value: None }]

@@ -21,10 +21,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class CORDL_TYPE IGcmMultiplier {
 public:
   // Declarations
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MultiplyH, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   // Ctor Parameters [CppParam { name: "", ty: "IGcmMultiplier", modifiers: "&&", def_value: None }]

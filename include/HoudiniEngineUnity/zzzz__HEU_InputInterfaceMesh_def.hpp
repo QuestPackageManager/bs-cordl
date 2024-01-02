@@ -12,31 +12,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InputInterfaceMesh)
 namespace HoudiniEngineUnity {
-class HEU_InputData;
-}
-namespace HoudiniEngineUnity {
-class __HEU_InputInterfaceMesh__HEU_InputDataMesh;
-}
-namespace UnityEngine {
-struct Vector2;
+class HEU_SessionBase;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace HoudiniEngineUnity {
-class HEU_SessionBase;
+class __HEU_InputInterfaceMesh__HEU_InputDataMesh;
+}
+namespace HoudiniEngineUnity {
+class HEU_InputData;
+}
+namespace UnityEngine {
+struct Vector2;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine {
-class GameObject;
+class Mesh;
 }
 namespace HoudiniEngineUnity {
 class __HEU_InputInterfaceMesh__HEU_InputDataMeshes;
 }
 namespace UnityEngine {
-class Mesh;
+class GameObject;
 }
 namespace UnityEngine {
 class Material;
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9765))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9767))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9838))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9840))
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMeshes*
 class CORDL_TYPE __HEU_InputInterfaceMesh__HEU_InputDataMeshes : public ::HoudiniEngineUnity::HEU_InputData {
 public:
@@ -88,7 +88,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* New_ctor();
 
-  /// @brief Method .ctor addr 0x2071570 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x21c8f0c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputInterfaceMesh__HEU_InputDataMeshes", modifiers: "&&", def_value: None }]
@@ -125,8 +125,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9768))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9841))
 // CS Name: ::HEU_InputInterfaceMesh::HEU_InputDataMesh*
 class CORDL_TYPE __HEU_InputInterfaceMesh__HEU_InputDataMesh : public ::System::Object {
 public:
@@ -223,7 +223,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x20715ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21c8f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__HEU_InputInterfaceMesh__HEU_InputDataMesh", modifiers: "&&", def_value: None }]
@@ -300,8 +300,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_Input
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9766))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9769))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9839))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9842))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceMesh*
 class CORDL_TYPE HEU_InputInterfaceMesh : public ::HoudiniEngineUnity::HEU_InputInterface {
 public:
@@ -312,29 +312,29 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceMesh* New_ctor();
 
-  /// @brief Method .ctor addr 0x206e968 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x21c5304, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateInputNodeWithDataUpload addr 0x206e988 size 0x188 virtual true final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x21c5324, size 0x188, virtual true, abstract: false, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
-  /// @brief Method IsThisInputObjectSupported addr 0x2071070 size 0x164 virtual true final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x21c7a0c, size 0x164, virtual true, abstract: false, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method GetUVsFromMesh addr 0x20711d4 size 0x90 virtual false final false
+  /// @brief Method GetUVsFromMesh, addr 0x21c7b70, size 0x90, virtual false, abstract: false, final false
   static inline void GetUVsFromMesh(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> srcUVs,
                                     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* destUVs, int32_t index);
 
-  /// @brief Method UploadData addr 0x206ee80 size 0x21f0 virtual false final false
+  /// @brief Method UploadData, addr 0x21c581c, size 0x21f0, virtual false, abstract: false, final false
   inline bool UploadData(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t inputNodeID, ::HoudiniEngineUnity::HEU_InputData* inputData);
 
-  /// @brief Method GenerateMeshDatasFromGameObject addr 0x206eb10 size 0x370 virtual false final false
+  /// @brief Method GenerateMeshDatasFromGameObject, addr 0x21c54ac, size 0x370, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMeshes* GenerateMeshDatasFromGameObject(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method CreateSingleMeshData addr 0x2071264 size 0x1d4 virtual false final false
+  /// @brief Method CreateSingleMeshData, addr 0x21c7c00, size 0x1d4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceMesh__HEU_InputDataMesh* CreateSingleMeshData(::UnityEngine::GameObject* meshGameObject);
 
-  /// @brief Method GetMeshFromObject addr 0x2071438 size 0x138 virtual false final false
+  /// @brief Method GetMeshFromObject, addr 0x21c7dd4, size 0x1138, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh* GetMeshFromObject(::UnityEngine::GameObject* meshGameObject);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterfaceMesh", modifiers: "&&", def_value: None }]

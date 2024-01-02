@@ -2,26 +2,30 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IPreviewBeatmapLevel)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace GlobalNamespace {
-class EnvironmentInfoSO;
-}
 namespace UnityEngine {
 class Sprite;
-}
-namespace System::Threading {
-struct CancellationToken;
 }
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+class EnvironmentInfoSO;
+}
+namespace GlobalNamespace {
+struct PlayerSensitivityFlag;
+}
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPreviewBeatmapLevel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4421))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4399))
 // CS Name: ::IPreviewBeatmapLevel*
 class CORDL_TYPE IPreviewBeatmapLevel {
 public:
@@ -67,54 +71,64 @@ public:
 
   __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
 
+  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
-  /// @brief Method get_levelID addr 0x0 size 0xffffffffffffffff virtual true final false
+  __declspec(property(get = get_contentRating))::GlobalNamespace::PlayerSensitivityFlag contentRating;
+
+  /// @brief Method get_levelID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_songName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_songName();
 
-  /// @brief Method get_songSubName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songSubName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_songSubName();
 
-  /// @brief Method get_songAuthorName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songAuthorName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_songAuthorName();
 
-  /// @brief Method get_levelAuthorName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_levelAuthorName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_levelAuthorName();
 
-  /// @brief Method get_beatsPerMinute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatsPerMinute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beatsPerMinute();
 
-  /// @brief Method get_songTimeOffset addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songTimeOffset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songTimeOffset();
 
-  /// @brief Method get_shuffle addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_shuffle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_shuffle();
 
-  /// @brief Method get_shufflePeriod addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_shufflePeriod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_shufflePeriod();
 
-  /// @brief Method get_previewStartTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_previewStartTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_previewStartTime();
 
-  /// @brief Method get_previewDuration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_previewDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_previewDuration();
 
-  /// @brief Method get_songDuration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songDuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songDuration();
 
-  /// @brief Method get_environmentInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_environmentInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
 
-  /// @brief Method get_allDirectionsEnvironmentInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
 
-  /// @brief Method get_previewDifficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_environmentInfos, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+
+  /// @brief Method get_previewDifficultyBeatmapSets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
 
-  /// @brief Method GetCoverImageAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_contentRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
+
+  /// @brief Method GetCoverImageAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPreviewBeatmapLevel", modifiers: "&&", def_value: None }]

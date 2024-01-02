@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::GlobalNamespace::IJumpOffsetYProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4919))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4799))
 // CS Name: ::IJumpOffsetYProvider*
 class CORDL_TYPE IJumpOffsetYProvider {
 public:
   // Declarations
   __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
 
-  /// @brief Method get_jumpOffsetY addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_jumpOffsetY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_jumpOffsetY();
 
   // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "&&", def_value: None }]

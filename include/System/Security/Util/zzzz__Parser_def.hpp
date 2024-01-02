@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Parser)
-namespace System::Security::Util {
-class TokenizerStream;
-}
-namespace System::Security {
-class SecurityDocument;
-}
 namespace System::Security {
 class SecurityElement;
 }
 namespace System::Security::Util {
 class Tokenizer;
+}
+namespace System::Security {
+class SecurityDocument;
+}
+namespace System::Security::Util {
+class TokenizerStream;
 }
 // Forward declare root types
 namespace System::Security::Util {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Security::Util::Parser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2887))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2891))
 // CS Name: ::System.Security.Util::Parser*
 class CORDL_TYPE Parser : public ::System::Object {
 public:
@@ -53,26 +53,26 @@ public:
 
   constexpr void __set__t(::System::Security::Util::Tokenizer* value);
 
-  /// @brief Method GetTopElement addr 0x22fad90 size 0x28 virtual false final false
+  /// @brief Method GetTopElement, addr 0x24548ac, size 0x28, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetTopElement();
 
-  /// @brief Method GetRequiredSizes addr 0x22fadb8 size 0x460 virtual false final false
+  /// @brief Method GetRequiredSizes, addr 0x24548d4, size 0x460, virtual false, abstract: false, final false
   inline void GetRequiredSizes(::System::Security::Util::TokenizerStream* stream, ByRef<int32_t> index);
 
-  /// @brief Method DetermineFormat addr 0x22fb310 size 0x1b0 virtual false final false
+  /// @brief Method DetermineFormat, addr 0x2454e2c, size 0x1b0, virtual false, abstract: false, final false
   inline int32_t DetermineFormat(::System::Security::Util::TokenizerStream* stream);
 
-  /// @brief Method ParseContents addr 0x22fbf24 size 0x308 virtual false final false
+  /// @brief Method ParseContents, addr 0x2455a40, size 0x308, virtual false, abstract: false, final false
   inline void ParseContents();
 
   static inline ::System::Security::Util::Parser* New_ctor(::System::Security::Util::Tokenizer* t);
 
-  /// @brief Method .ctor addr 0x22fc360 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x2455e7c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Util::Tokenizer* t);
 
   static inline ::System::Security::Util::Parser* New_ctor(::StringW input);
 
-  /// @brief Method .ctor addr 0x22fc404 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x2455f20, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
   // Ctor Parameters [CppParam { name: "", ty: "Parser", modifiers: "&&", def_value: None }]

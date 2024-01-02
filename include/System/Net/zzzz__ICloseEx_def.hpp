@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Net::ICloseEx);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7942))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9105))
 // CS Name: ::System.Net::ICloseEx*
 class CORDL_TYPE ICloseEx {
 public:
   // Declarations
-  /// @brief Method CloseEx addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CloseEx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CloseEx(::System::Net::CloseExState closeState);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICloseEx", modifiers: "&&", def_value: None }]

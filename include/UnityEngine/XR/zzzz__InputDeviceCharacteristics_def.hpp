@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::InputDeviceCharacteristics);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15574))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15617))
 // CS Name: ::UnityEngine.XR::InputDeviceCharacteristics
 struct CORDL_TYPE InputDeviceCharacteristics {
 public:

@@ -25,7 +25,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method ReadObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1SetParser", modifiers: "&&", def_value: None }]

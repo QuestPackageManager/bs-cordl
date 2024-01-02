@@ -16,7 +16,7 @@ MARK_VAL_T(::HMUI::TableViewSelectionType);
 namespace HMUI {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13776))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13659))
 // CS Name: ::HMUI::TableViewSelectionType
 struct CORDL_TYPE TableViewSelectionType {
 public:

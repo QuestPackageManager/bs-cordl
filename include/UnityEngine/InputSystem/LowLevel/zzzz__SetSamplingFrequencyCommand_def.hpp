@@ -10,11 +10,11 @@ CORDL_MODULE_EXPORT(SetSamplingFrequencyCommand)
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputDeviceCommandInfo;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputDeviceCommand;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputDeviceCommand;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -26,8 +26,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6557))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6489))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::SetSamplingFrequencyCommand
 #pragma pack(push, 0)
 struct CORDL_TYPE SetSamplingFrequencyCommand {
@@ -56,13 +56,13 @@ public:
 
   constexpr void __set_frequency(float_t value);
 
-  /// @brief Method get_Type addr 0x296874c size 0x30 virtual false final false
+  /// @brief Method get_Type, addr 0x2ae8494, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic addr 0x296877c size 0x30 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae84c4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x29687ac size 0x4c virtual false final false
+  /// @brief Method Create, addr 0x2ae84f4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand Create(float_t frequency);
 
   // Ctor Parameters [CppParam { name: "baseCommand", ty: "::UnityEngine::InputSystem::LowLevel::InputDeviceCommand", modifiers: "", def_value: None }, CppParam { name: "frequency", ty: "float_t",

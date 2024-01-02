@@ -37,12 +37,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCredentials*() noexcept;
 
-  /// @brief Method GenerateAgreement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GenerateAgreement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateAgreement(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* peerPublicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
 
-  /// @brief Method .ctor addr 0xee40f8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf5a308, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AbstractTlsAgreementCredentials", modifiers: "&&", def_value: None }]

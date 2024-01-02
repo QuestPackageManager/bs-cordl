@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MoveBackWall)
 namespace UnityEngine {
-class Material;
-}
-namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
+}
+namespace UnityEngine {
+class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveBackWall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5364))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5269))
 // CS Name: ::MoveBackWall*
 class CORDL_TYPE MoveBackWall : public ::UnityEngine::MonoBehaviour {
 public:
@@ -84,15 +84,15 @@ public:
 
   constexpr void __set__material(::UnityEngine::Material* value);
 
-  /// @brief Method Start addr 0x211bad0 size 0x54 virtual false final false
+  /// @brief Method Start, addr 0x225fc68, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x211bb24 size 0xbc virtual false final false
+  /// @brief Method Update, addr 0x225fcbc, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method .ctor addr 0x211bbe0 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x225fd78, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MoveBackWall", modifiers: "&&", def_value: None }]

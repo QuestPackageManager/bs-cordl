@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MockPlayerMovementType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5288))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5184))
 // CS Name: ::MockPlayerMovementType
 struct CORDL_TYPE MockPlayerMovementType {
 public:

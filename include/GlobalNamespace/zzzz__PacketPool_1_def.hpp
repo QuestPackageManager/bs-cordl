@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(PacketPool_1)
 namespace GlobalNamespace {
 class IPacketPool;
 }
+namespace GlobalNamespace {
+class IPoolablePacket;
+}
 namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentBag_1;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
-}
-namespace GlobalNamespace {
-class IPoolablePacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12727))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12809))
 // CS Name: ::PacketPool`1<T>*
 class CORDL_TYPE PacketPool_1 : public ::System::Object {
 public:
@@ -50,24 +50,24 @@ public:
 
   constexpr void __set__bag(::System::Collections::Concurrent::ConcurrentBag_1<T>* value);
 
-  /// @brief Method Obtain addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Obtain();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Release(T t);
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Fill();
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method IPacketPool.Release addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method IPacketPool.Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void IPacketPool_Release(::GlobalNamespace::IPoolablePacket* o);
 
   static inline ::GlobalNamespace::PacketPool_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PacketPool_1", modifiers: "&&", def_value: None }]

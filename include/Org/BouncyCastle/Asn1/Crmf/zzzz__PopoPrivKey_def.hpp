@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PopoPrivKey)
-namespace Org::BouncyCastle::Asn1::Crmf {
-class SubsequentMessage;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1::Crmf {
+class SubsequentMessage;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Crmf {
@@ -63,24 +63,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method .ctor addr 0xe127e8 size 0x17c virtual false final false
+  /// @brief Method .ctor, addr 0xe879bc, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method GetInstance addr 0xe12a74 size 0x80 virtual false final false
+  /// @brief Method GetInstance, addr 0xe87c48, size 0x80, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* New_ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  /// @brief Method .ctor addr 0xe12af4 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xe87cc8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* msg);
 
-  /// @brief Method get_Type addr 0xe12b24 size 0x8 virtual true final false
+  /// @brief Method get_Type, addr 0xe87cf8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
-  /// @brief Method get_Value addr 0xe12b2c size 0x8 virtual true final false
+  /// @brief Method get_Value, addr 0xe87d00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
-  /// @brief Method ToAsn1Object addr 0xe12b34 size 0x74 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe87d08, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "PopoPrivKey", modifiers: "&&", def_value: None }]

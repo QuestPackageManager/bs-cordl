@@ -13,10 +13,13 @@ namespace UnityEngine {
 class RectTransform;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+class MonoBehaviour;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename T> class Queue_1;
 }
 namespace GlobalNamespace {
 class __GridView__IDataSource;
@@ -27,17 +30,11 @@ class __GridView__GridViewCellsEnumerator;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class MonoBehaviour;
-}
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Collections {
+class IEnumerable;
 }
 namespace GlobalNamespace {
 class __GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
@@ -45,11 +42,14 @@ class __GridView__GridViewCellsEnumerator___GetEnumerator_d__1;
 namespace System::Collections {
 class IEnumerator;
 }
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -74,21 +74,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__GridView__IDataSource);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5875))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5784))
 // CS Name: ::GridView::IDataSource*
 class CORDL_TYPE __GridView__IDataSource {
 public:
   // Declarations
-  /// @brief Method GetNumberOfCells addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNumberOfCells, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetNumberOfCells();
 
-  /// @brief Method GetCellWidth addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCellWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetCellWidth();
 
-  /// @brief Method GetCellHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCellHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetCellHeight();
 
-  /// @brief Method CellForIdx addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CellForIdx, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::MonoBehaviour* CellForIdx(::GlobalNamespace::GridView* gridView, int32_t idx);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GridView__IDataSource", modifiers: "&&", def_value: None }]
@@ -107,10 +107,10 @@ public:
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3808), inst: 1325 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(3808)), TypeDefinitionIndex(TypeDefinitionIndex(3831)), TypeDefinitionIndex(TypeDefinitionIndex(3830)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3831), inst: 1625 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3830), inst: 1625 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5876)) CS Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(3820)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(3820), inst: 1375 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1692 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(3843))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5785)) CS
+// Name: ::GridView::GridViewCellsEnumerator::<GetEnumerator>d__1*
 class CORDL_TYPE __GridView__GridViewCellsEnumerator___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations
@@ -179,28 +179,28 @@ public:
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x219dfb0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22e2aec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x219dfdc size 0xb8 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x22e2b18, size 0xb8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x219e094 size 0x2b0 virtual true final true
+  /// @brief Method MoveNext, addr 0x22e2bd0, size 0x2b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x219e394 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x22e2ed0, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2 addr 0x219e344 size 0x50 virtual false final false
+  /// @brief Method <>m__Finally2, addr 0x22e2e80, size 0x50, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current addr 0x219e3e4 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current, addr 0x22e2f20, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::MonoBehaviour* System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x219e3ec size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22e2f28, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x219e42c size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22e2f68, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GridView__GridViewCellsEnumerator___GetEnumerator_d__1", modifiers: "&&", def_value: None }]
@@ -252,8 +252,8 @@ static_assert(offsetof(::GlobalNamespace::__GridView__GridViewCellsEnumerator___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5786))
 // CS Name: ::GridView::GridViewCellsEnumerator*
 class CORDL_TYPE __GridView__GridViewCellsEnumerator : public ::System::Object {
 public:
@@ -275,15 +275,15 @@ public:
 
   constexpr void __set__gridView(::GlobalNamespace::GridView* value);
 
-  /// @brief Method GetEnumerator addr 0x219df48 size 0x68 virtual true final true
+  /// @brief Method GetEnumerator, addr 0x22dd2e4, size 0x68, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::MonoBehaviour*>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x219dfd8 size 0x4 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x22e2b14, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   static inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* New_ctor(::GlobalNamespace::GridView* gridView);
 
-  /// @brief Method .ctor addr 0x219d604 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22e2a04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GridView* gridView);
 
   // Ctor Parameters [CppParam { name: "", ty: "__GridView__GridViewCellsEnumerator", modifiers: "&&", def_value: None }]
@@ -315,8 +315,8 @@ static_assert(offsetof(::GlobalNamespace::__GridView__GridViewCellsEnumerator, _
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5878))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5787))
 // CS Name: ::GridView*
 class CORDL_TYPE GridView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -407,36 +407,36 @@ public:
   constexpr void
   __set__spawnedCellsPerPrefabDictionary(::System::Collections::Generic::Dictionary_2<::UnityEngine::MonoBehaviour*, ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>*>* value);
 
-  /// @brief Method get_dataSource addr 0x219d544 size 0x8 virtual false final false
+  /// @brief Method get_dataSource, addr 0x22e29dc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__IDataSource* get_dataSource();
 
-  /// @brief Method get_cellsEnumerator addr 0x219d54c size 0x8 virtual false final false
+  /// @brief Method get_cellsEnumerator, addr 0x22e29e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GridView__GridViewCellsEnumerator* get_cellsEnumerator();
 
-  /// @brief Method set_cellsEnumerator addr 0x219d554 size 0x8 virtual false final false
+  /// @brief Method set_cellsEnumerator, addr 0x22e29ec, size 0x8, virtual false, abstract: false, final false
   inline void set_cellsEnumerator(::GlobalNamespace::__GridView__GridViewCellsEnumerator* value);
 
-  /// @brief Method get_rowCount addr 0x219d55c size 0x8 virtual false final false
+  /// @brief Method get_rowCount, addr 0x22e29f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rowCount();
 
-  /// @brief Method get_columnCount addr 0x219d564 size 0x8 virtual false final false
+  /// @brief Method get_columnCount, addr 0x22e29fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
 
-  /// @brief Method SetDataSource addr 0x219d56c size 0x98 virtual false final false
+  /// @brief Method SetDataSource, addr 0x22dc8d8, size 0x98, virtual false, abstract: false, final false
   inline void SetDataSource(::GlobalNamespace::__GridView__IDataSource* newDataSource, bool reloadData);
 
-  /// @brief Method ReloadData addr 0x219d62c size 0x774 virtual false final false
+  /// @brief Method ReloadData, addr 0x22ddec8, size 0x774, virtual false, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method GetActiveCellsForIdentifier addr 0x219dda0 size 0xe8 virtual false final false
+  /// @brief Method GetActiveCellsForIdentifier, addr 0x22dcf34, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* GetActiveCellsForIdentifier(::UnityEngine::MonoBehaviour* prefab);
 
-  /// @brief Method GetReusableCellView addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetReusableCellView, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetReusableCellView(::UnityEngine::MonoBehaviour* prefab);
 
   static inline ::GlobalNamespace::GridView* New_ctor();
 
-  /// @brief Method .ctor addr 0x219de88 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x22e2a2c, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GridView", modifiers: "&&", def_value: None }]

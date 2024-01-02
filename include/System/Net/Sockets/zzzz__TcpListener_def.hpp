@@ -5,26 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TcpListener)
+namespace System {
+class AsyncCallback;
+}
 namespace System::Net {
 class EndPoint;
 }
 namespace System::Net::Sockets {
 class Socket;
 }
-namespace System::Net::Sockets {
-class TcpClient;
+namespace System {
+class Object;
 }
 namespace System::Net {
 class IPAddress;
 }
-namespace System {
-class AsyncCallback;
+namespace System::Net::Sockets {
+class TcpClient;
 }
 namespace System {
 class IAsyncResult;
-}
-namespace System {
-class Object;
 }
 namespace System::Net {
 class IPEndPoint;
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::System::Net::Sockets::TcpListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8191))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9354))
 // CS Name: ::System.Net.Sockets::TcpListener*
 class CORDL_TYPE TcpListener : public ::System::Object {
 public:
@@ -85,25 +85,25 @@ public:
 
   static inline ::System::Net::Sockets::TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method .ctor addr 0x277f698 size 0x1a0 virtual false final false
+  /// @brief Method .ctor, addr 0x28fd6bc, size 0x1a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* localaddr, int32_t port);
 
-  /// @brief Method get_LocalEndpoint addr 0x277f838 size 0x30 virtual false final false
+  /// @brief Method get_LocalEndpoint, addr 0x28fd85c, size 0x30, virtual false, abstract: false, final false
   inline ::System::Net::EndPoint* get_LocalEndpoint();
 
-  /// @brief Method Start addr 0x277f868 size 0x8 virtual false final false
+  /// @brief Method Start, addr 0x28fd88c, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Start addr 0x277f870 size 0x18c virtual false final false
+  /// @brief Method Start, addr 0x28fd894, size 0x18c, virtual false, abstract: false, final false
   inline void Start(int32_t backlog);
 
-  /// @brief Method Stop addr 0x277f9fc size 0xc4 virtual false final false
+  /// @brief Method Stop, addr 0x28fda20, size 0xc4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method BeginAcceptTcpClient addr 0x277fac0 size 0xb4 virtual false final false
+  /// @brief Method BeginAcceptTcpClient, addr 0x28fdae4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginAcceptTcpClient(::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method EndAcceptTcpClient addr 0x277fb74 size 0x164 virtual false final false
+  /// @brief Method EndAcceptTcpClient, addr 0x28fdb98, size 0x164, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::TcpClient* EndAcceptTcpClient(::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "TcpListener", modifiers: "&&", def_value: None }]

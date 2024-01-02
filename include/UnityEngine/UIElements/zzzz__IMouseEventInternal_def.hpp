@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IMouseEventInternal);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7214))
 // CS Name: ::UnityEngine.UIElements::IMouseEventInternal*
 class CORDL_TYPE IMouseEventInternal {
 public:
@@ -28,22 +28,22 @@ public:
 
   __declspec(property(get = get_sourcePointerEvent, put = set_sourcePointerEvent))::UnityEngine::UIElements::IPointerEvent* sourcePointerEvent;
 
-  /// @brief Method get_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_triggeredByOS();
 
-  /// @brief Method set_triggeredByOS addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_triggeredByOS(bool value);
 
-  /// @brief Method get_recomputeTopElementUnderMouse addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_recomputeTopElementUnderMouse();
 
-  /// @brief Method set_recomputeTopElementUnderMouse addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_recomputeTopElementUnderMouse(bool value);
 
-  /// @brief Method get_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IPointerEvent* get_sourcePointerEvent();
 
-  /// @brief Method set_sourcePointerEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMouseEventInternal", modifiers: "&&", def_value: None }]

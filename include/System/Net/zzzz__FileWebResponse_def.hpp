@@ -6,32 +6,32 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileWebResponse)
-namespace System::Net {
-class WebHeaderCollection;
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Net {
 class FileWebRequest;
+}
+namespace System::Net {
+struct CloseExState;
+}
+namespace System::Net {
+class ICloseEx;
+}
+namespace System::IO {
+struct FileAccess;
+}
+namespace System::Runtime::Serialization {
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Net {
-struct CloseExState;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
-}
-namespace System::Runtime::Serialization {
-class SerializationInfo;
+class WebHeaderCollection;
 }
 namespace System {
 class Uri;
-}
-namespace System::IO {
-struct FileAccess;
-}
-namespace System::Net {
-class ICloseEx;
 }
 namespace System::IO {
 class Stream;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::System::Net::FileWebResponse);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7934)), TypeDefinitionIndex(TypeDefinitionIndex(3554))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7974))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(3559))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9137))
 // CS Name: ::System.Net::FileWebResponse*
 class CORDL_TYPE FileWebResponse : public ::System::Net::WebResponse {
 public:
@@ -118,37 +118,37 @@ public:
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
-  /// @brief Method .ctor addr 0x2837d24 size 0x2cc virtual false final false
+  /// @brief Method .ctor, addr 0x29b559c, size 0x2cc, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::FileWebRequest* request, ::System::Uri* uri, ::System::IO::FileAccess access, bool asyncHint);
 
   static inline ::System::Net::FileWebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x2838c84 size 0x234 virtual false final false
+  /// @brief Method .ctor, addr 0x29b64fc, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x2838eb8 size 0xc virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x29b6730, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData addr 0x2838ec4 size 0x190 virtual true final false
+  /// @brief Method GetObjectData, addr 0x29b673c, size 0x190, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers addr 0x2839054 size 0x18 virtual true final false
+  /// @brief Method get_Headers, addr 0x29b68cc, size 0x18, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri addr 0x28390f0 size 0x18 virtual true final false
+  /// @brief Method get_ResponseUri, addr 0x29b6968, size 0x18, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method CheckDisposed addr 0x283906c size 0x84 virtual false final false
+  /// @brief Method CheckDisposed, addr 0x29b68e4, size 0x84, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method Close addr 0x2839108 size 0x98 virtual true final false
+  /// @brief Method Close, addr 0x29b6980, size 0x98, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method System.Net.ICloseEx.CloseEx addr 0x28391a0 size 0x16c virtual true final true
+  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x29b6a18, size 0x16c, virtual true, abstract: false, final true
   inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
 
-  /// @brief Method GetResponseStream addr 0x283930c size 0x54 virtual true final false
+  /// @brief Method GetResponseStream, addr 0x29b6b84, size 0x54, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "FileWebResponse", modifiers: "&&", def_value: None }]

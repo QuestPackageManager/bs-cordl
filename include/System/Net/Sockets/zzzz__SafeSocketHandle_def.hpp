@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeSocketHandle)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
 namespace System::Threading {
 class Thread;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Diagnostics {
 class StackTrace;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::SafeSocketHandle);
 namespace System::Net::Sockets {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2302))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9356))
 // CS Name: ::System.Net.Sockets::SafeSocketHandle*
 class CORDL_TYPE SafeSocketHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleMinusOneIsInvalid {
 public:
@@ -71,16 +71,16 @@ public:
 
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor addr 0x277fcd8 size 0xcc virtual false final false
+  /// @brief Method .ctor, addr 0x28fdcfc, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle addr 0x277fda4 size 0x5cc virtual true final false
+  /// @brief Method ReleaseHandle, addr 0x28fddc8, size 0x5cc, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method RegisterForBlockingSyscall addr 0x2780370 size 0x148 virtual false final false
+  /// @brief Method RegisterForBlockingSyscall, addr 0x28fe394, size 0x148, virtual false, abstract: false, final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method UnRegisterForBlockingSyscall addr 0x27804b8 size 0x1f0 virtual false final false
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x28fe4dc, size 0x1f0, virtual false, abstract: false, final false
   inline void UnRegisterForBlockingSyscall();
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeSocketHandle", modifiers: "&&", def_value: None }]

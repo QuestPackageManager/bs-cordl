@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MonoKernel)
 namespace Zenject {
-class TickableManager;
-}
-namespace Zenject {
 class InitializableManager;
 }
 namespace Zenject {
 class DisposableManager;
 }
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class TickableManager;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::MonoKernel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11251))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11323))
 // CS Name: ::Zenject::MonoKernel*
 class CORDL_TYPE MonoKernel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -82,42 +82,42 @@ public:
 
   constexpr void __set__isDestroyed(bool value);
 
-  /// @brief Method get_IsDestroyed addr 0x2dad8bc size 0x8 virtual false final false
+  /// @brief Method get_IsDestroyed, addr 0x2f1568c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDestroyed();
 
-  /// @brief Method Start addr 0x2dad8c4 size 0x4 virtual true final false
+  /// @brief Method Start, addr 0x2f15694, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Initialize addr 0x2dad8c8 size 0x34 virtual false final false
+  /// @brief Method Initialize, addr 0x2f15698, size 0x34, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Update addr 0x2dad8fc size 0x10 virtual true final false
+  /// @brief Method Update, addr 0x2f156cc, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method FixedUpdate addr 0x2dad90c size 0x10 virtual true final false
+  /// @brief Method FixedUpdate, addr 0x2f156dc, size 0x10, virtual true, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate addr 0x2dad91c size 0x10 virtual true final false
+  /// @brief Method LateUpdate, addr 0x2f156ec, size 0x10, virtual true, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnDestroy addr 0x2dad92c size 0x54 virtual true final false
+  /// @brief Method OnDestroy, addr 0x2f156fc, size 0x54, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::Zenject::MonoKernel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2dacc4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f14a1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenFieldSetter0 addr 0x2dad980 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter0, addr 0x2f15750, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1 addr 0x2dadab4 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter1, addr 0x2f15884, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2 addr 0x2dadbe8 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter2, addr 0x2f159b8, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2dadd1c size 0x480 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f15aec, size 0x480, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoKernel", modifiers: "&&", def_value: None }]

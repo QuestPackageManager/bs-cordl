@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9906))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9978))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobProducerTypeAttribute*
 class CORDL_TYPE JobProducerTypeAttribute : public ::System::Attribute {
 public:
@@ -34,7 +34,7 @@ public:
 
   static inline ::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute* New_ctor(::System::Type* producerType);
 
-  /// @brief Method .ctor addr 0x2b38e50 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2c9db70, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* producerType);
 
   // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "&&", def_value: None }]

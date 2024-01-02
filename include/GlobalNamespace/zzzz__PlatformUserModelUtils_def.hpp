@@ -16,13 +16,13 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformUserModelUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4710))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15994))
 // CS Name: ::PlatformUserModelUtils*
 class CORDL_TYPE PlatformUserModelUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateXPlatformAccessToken addr 0x2224f10 size 0x14 virtual false final false
+  /// @brief Method ValidateXPlatformAccessToken, addr 0x2800140, size 0x14, virtual false, abstract: false, final false
   static inline bool ValidateXPlatformAccessToken(::StringW token);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformUserModelUtils", modifiers: "&&", def_value: None }]

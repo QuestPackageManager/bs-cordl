@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Test_Transform)
-namespace HoudiniEngineUnity {
-template <typename T> class IEquivableWrapperClass_1;
-}
 namespace UnityEngine {
 class Transform;
 }
 namespace HoudiniEngineUnity {
 template <typename T> class IEquivable_1;
+}
+namespace HoudiniEngineUnity {
+template <typename T> class IEquivableWrapperClass_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Transform);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9834))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9907))
 // CS Name: ::HoudiniEngineUnity::Test_Transform*
 class CORDL_TYPE Test_Transform : public ::System::Object {
 public:
@@ -46,13 +46,13 @@ public:
 
   static inline ::HoudiniEngineUnity::Test_Transform* New_ctor(::UnityEngine::Transform* self);
 
-  /// @brief Method .ctor addr 0x208becc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21e4868, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* self);
 
-  /// @brief Method IsNull addr 0x208bef4 size 0x60 virtual true final true
+  /// @brief Method IsNull, addr 0x21e4890, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
-  /// @brief Method IsEquivalentTo addr 0x208bf54 size 0x1cc virtual true final true
+  /// @brief Method IsEquivalentTo, addr 0x21e48f0, size 0x1cc, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_Transform* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Transform", modifiers: "&&", def_value: None }]

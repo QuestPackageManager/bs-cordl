@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderShaderWarmup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4947))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4827))
 // CS Name: ::SliderShaderWarmup*
 class CORDL_TYPE SliderShaderWarmup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
 
-  /// @brief Method Start addr 0x2260fd4 size 0x1d4 virtual false final false
+  /// @brief Method Start, addr 0x23959c8, size 0x1d4, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SliderShaderWarmup* New_ctor();
 
-  /// @brief Method .ctor addr 0x22611a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2395b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SliderShaderWarmup", modifiers: "&&", def_value: None }]

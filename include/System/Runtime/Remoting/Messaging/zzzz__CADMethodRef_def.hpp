@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CADMethodRef)
-namespace System::Runtime::Remoting::Messaging {
-class IMethodMessage;
-}
 namespace System {
 class Type;
 }
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodRef);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3153))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3154))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodRef*
 class CORDL_TYPE CADMethodRef : public ::System::Object {
 public:
@@ -76,15 +76,15 @@ public:
 
   constexpr void __set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method GetTypes addr 0x234f134 size 0x14c virtual false final false
+  /// @brief Method GetTypes, addr 0x24a7c28, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray);
 
-  /// @brief Method Resolve addr 0x234f280 size 0x524 virtual false final false
+  /// @brief Method Resolve, addr 0x24a7d74, size 0x524, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* Resolve();
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method .ctor addr 0x234f7a4 size 0x2d0 virtual false final false
+  /// @brief Method .ctor, addr 0x24a8298, size 0x2d0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "CADMethodRef", modifiers: "&&", def_value: None }]

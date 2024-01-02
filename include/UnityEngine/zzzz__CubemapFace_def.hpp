@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CubemapFace);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10044))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10116))
 // CS Name: ::UnityEngine::CubemapFace
 struct CORDL_TYPE CubemapFace {
 public:

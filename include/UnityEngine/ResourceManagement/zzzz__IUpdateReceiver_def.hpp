@@ -15,12 +15,12 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::IUpdateReceiver);
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13958))
 // CS Name: ::UnityEngine.ResourceManagement::IUpdateReceiver*
 class CORDL_TYPE IUpdateReceiver {
 public:
   // Declarations
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update(float_t unscaledDeltaTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "IUpdateReceiver", modifiers: "&&", def_value: None }]

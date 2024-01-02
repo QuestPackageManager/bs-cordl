@@ -20,8 +20,8 @@ namespace Zenject {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11014), inst: 2742 }), TypeDefinitionIndex(TypeDefinitionIndex(11014)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3812)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3812), inst: 1166 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11023)) CS
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 2802 }), TypeDefinitionIndex(TypeDefinitionIndex(3824)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11086)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3824), inst: 1186 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11095)) CS
 // Name: ::Zenject::DictionaryPool`2<TKey,TValue>*
 class CORDL_TYPE DictionaryPool_2 : public ::Zenject::StaticMemoryPool_1<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> {
 public:
@@ -35,16 +35,16 @@ public:
 
   static inline ::Zenject::DictionaryPool_2<TKey, TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::DictionaryPool_2<TKey, TValue>* get_Instance();
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items);
 
   // Ctor Parameters [CppParam { name: "", ty: "DictionaryPool_2", modifiers: "&&", def_value: None }]

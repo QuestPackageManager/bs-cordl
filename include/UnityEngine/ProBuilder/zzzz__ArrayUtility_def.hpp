@@ -9,17 +9,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayUtility)
-namespace UnityEngine::ProBuilder {
-struct __ArrayUtility__SearchRange;
-}
-namespace UnityEngine::ProBuilder {
-template <typename T> class __ArrayUtility____c__23_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IList_1;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::ProBuilder {
+template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -28,10 +25,13 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace UnityEngine::ProBuilder {
-template <typename TSource, typename TKey> class __ArrayUtility____c__DisplayClass21_0_2;
+struct __ArrayUtility__SearchRange;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class IList_1;
+}
+namespace UnityEngine::ProBuilder {
+template <typename T> class __ArrayUtility____c__23_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -59,21 +59,21 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12022))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
 // CS Name: ::ArrayUtility::SearchRange
 struct CORDL_TYPE __ArrayUtility__SearchRange {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x29b4c38 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b3698c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t begin, int32_t end);
 
-  /// @brief Method Valid addr 0x29b4c40 size 0x14 virtual false final false
+  /// @brief Method Valid, addr 0x2b36994, size 0x14, virtual false, abstract: false, final false
   inline bool Valid();
 
-  /// @brief Method Center addr 0x29b4c54 size 0x18 virtual false final false
+  /// @brief Method Center, addr 0x2b369a8, size 0x18, virtual false, abstract: false, final false
   inline int32_t Center();
 
-  /// @brief Method ToString addr 0x29b4c6c size 0x1fc virtual true final false
+  /// @brief Method ToString, addr 0x2b369c0, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "begin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "end", ty: "int32_t", modifiers: "", def_value: None }]
@@ -108,8 +108,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename TSource, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12023))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
 // CS Name: ::ArrayUtility::<>c__DisplayClass21_0`2<TSource,TKey>*
 class CORDL_TYPE __ArrayUtility____c__DisplayClass21_0_2 : public ::System::Object {
 public:
@@ -134,10 +134,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DistinctBy>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <DistinctBy>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _DistinctBy_b__0(TSource x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ArrayUtility____c__DisplayClass21_0_2", modifiers: "&&", def_value: None }]
@@ -170,8 +170,8 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12024))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
 // CS Name: ::ArrayUtility::<>c__23`1<T>*
 class CORDL_TYPE __ArrayUtility____c__23_1 : public ::System::Object {
 public:
@@ -192,10 +192,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__ArrayUtility____c__23_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToString>b__23_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ToString>b__23_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__23_0(T x);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ArrayUtility____c__23_1", modifiers: "&&", def_value: None }]
@@ -220,8 +220,8 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12025))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
 // CS Name: ::UnityEngine.ProBuilder::ArrayUtility*
 class CORDL_TYPE ArrayUtility : public ::System::Object {
 public:
@@ -232,77 +232,78 @@ public:
 
   using SearchRange = ::UnityEngine::ProBuilder::__ArrayUtility__SearchRange;
 
-  /// @brief Method ValuesWithIndexes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ValuesWithIndexes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ValuesWithIndexes(::ArrayW<T, ::Array<T>*> arr, ::ArrayW<int32_t, ::Array<int32_t>*> indexes);
 
-  /// @brief Method ValuesWithIndexes addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ValuesWithIndexes, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::List_1<T>* ValuesWithIndexes(::System::Collections::Generic::List_1<T>* arr, ::System::Collections::Generic::IList_1<int32_t>* indexes);
 
-  /// @brief Method AllIndexesOf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AllIndexesOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* AllIndexesOf(::System::Collections::Generic::IList_1<T>* list, ::System::Func_2<T, bool>* lambda);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Add(::ArrayW<T, ::Array<T>*> arr, T val);
 
-  /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> AddRange(::ArrayW<T, ::Array<T>*> arr, ::ArrayW<T, ::Array<T>*> val);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Remove(::ArrayW<T, ::Array<T>*> arr, T val);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Remove(::ArrayW<T, ::Array<T>*> arr, ::System::Collections::Generic::IEnumerable_1<T>* val);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> RemoveAt(::ArrayW<T, ::Array<T>*> arr, int32_t index);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> RemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes);
 
-  /// @brief Method SortedRemoveAt addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SortedRemoveAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> SortedRemoveAt(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<int32_t>* sorted);
 
-  /// @brief Method NearestIndexPriorToValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method NearestIndexPriorToValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t NearestIndexPriorToValue(::System::Collections::Generic::IList_1<T>* sorted_list, T value);
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Collections::Generic::List_1<T>* Fill(::System::Func_2<int32_t, T>* ctor, int32_t length);
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Fill(T val, int32_t length);
 
-  /// @brief Method ContainsMatch addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ContainsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsMatch(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b);
 
-  /// @brief Method ContainsMatch addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ContainsMatch, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool ContainsMatch(::ArrayW<T, ::Array<T>*> a, ::ArrayW<T, ::Array<T>*> b, ByRef<int32_t> index_a, ByRef<int32_t> index_b);
 
-  /// @brief Method Concat addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Concat, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Concat(::ArrayW<T, ::Array<T>*> x, ::ArrayW<T, ::Array<T>*> y);
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<T>*>* InList, T InValue);
 
-  /// @brief Method Fill addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> Fill(int32_t count, ::System::Func_2<int32_t, T>* ctor);
 
-  /// @brief Method AddOrAppend addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddOrAppend, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K> static inline void AddOrAppend(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, K value);
 
-  /// @brief Method AddOrAppendRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddOrAppendRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename K>
   static inline void AddOrAppendRange(::System::Collections::Generic::Dictionary_2<T, ::System::Collections::Generic::List_1<K>*>* dictionary, T key, ::System::Collections::Generic::List_1<K>* value);
 
-  /// @brief Method DistinctBy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DistinctBy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TKey>
   static inline ::System::Collections::Generic::IEnumerable_1<TSource>* DistinctBy(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKey, typename TValue> static inline ::StringW ToString(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dict);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename T> static inline ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator);
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param separator: ::StringW (default: u", ")
+  template <typename T> static inline ::StringW ToString(::System::Collections::Generic::IEnumerable_1<T>* arr, ::StringW separator = u", ");
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

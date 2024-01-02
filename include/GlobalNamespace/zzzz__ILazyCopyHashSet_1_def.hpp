@@ -16,15 +16,15 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10531))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15820))
 // CS Name: ::ILazyCopyHashSet`1<T>*
 class CORDL_TYPE ILazyCopyHashSet_1 {
 public:
   // Declarations
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Add(T item);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(T item);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILazyCopyHashSet_1", modifiers: "&&", def_value: None }]

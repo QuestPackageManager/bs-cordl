@@ -10,56 +10,56 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BurstSliderGameNoteController)
-namespace GlobalNamespace {
-template <typename T> class ICubeNoteControllerInitializable_1;
-}
-namespace GlobalNamespace {
-class AudioTimeSyncController;
-}
-namespace GlobalNamespace {
-class NoteData;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace GlobalNamespace {
-class INoteMovementProvider;
 }
 namespace GlobalNamespace {
 struct __NoteData__GameplayType;
 }
 namespace GlobalNamespace {
-class INoteMirrorable;
+struct NoteVisualModifierType;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
+class __BurstSliderGameNoteController__Pool;
+}
+namespace GlobalNamespace {
+class AudioTimeSyncController;
 }
 namespace GlobalNamespace {
 class INoteVisualModifierTypeProvider;
 }
 namespace GlobalNamespace {
-class NoteMovement;
+template <typename T> class ICubeNoteControllerInitializable_1;
 }
 namespace GlobalNamespace {
-class Saber;
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
-class IGameNoteMirrorable;
+class INoteMovementProvider;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class __BurstSliderGameNoteController__Pool;
-}
-namespace UnityEngine {
-struct Quaternion;
+class Saber;
 }
 namespace GlobalNamespace {
-struct NoteVisualModifierType;
+class NoteMovement;
+}
+namespace GlobalNamespace {
+class NoteData;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -75,8 +75,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BurstSliderGameNoteController__Pool);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4870)), TypeDefinitionIndex(TypeDefinitionIndex(4882)), TypeDefinitionIndex(TypeDefinitionIndex(14970)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10176))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4859)) CS Name: ::BurstSliderGameNoteController*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4749)), TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4761))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4738)) CS Name: ::BurstSliderGameNoteController*
 class CORDL_TYPE BurstSliderGameNoteController : public ::GlobalNamespace::NoteController {
 public:
   // Declarations
@@ -196,58 +196,58 @@ public:
 
   constexpr void __set__originalColliderCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method add_cubeNoteControllerDidInitEvent addr 0x224e584 size 0xb0 virtual true final true
+  /// @brief Method add_cubeNoteControllerDidInitEvent, addr 0x2383ef0, size 0xb0, virtual true, abstract: false, final true
   inline void add_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>* value);
 
-  /// @brief Method remove_cubeNoteControllerDidInitEvent addr 0x224e634 size 0xb0 virtual true final true
+  /// @brief Method remove_cubeNoteControllerDidInitEvent, addr 0x2383fa0, size 0xb0, virtual true, abstract: false, final true
   inline void remove_cubeNoteControllerDidInitEvent(::System::Action_1<::GlobalNamespace::BurstSliderGameNoteController*>* value);
 
-  /// @brief Method get_noteMovement addr 0x224e6e4 size 0x8 virtual true final true
+  /// @brief Method get_noteMovement, addr 0x2384050, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteMovement* get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType addr 0x224e6ec size 0x8 virtual true final true
+  /// @brief Method get_noteVisualModifierType, addr 0x2384058, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
-  /// @brief Method get_gameplayType addr 0x224e6f4 size 0x8 virtual true final true
+  /// @brief Method get_gameplayType, addr 0x2384060, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::__NoteData__GameplayType get_gameplayType();
 
-  /// @brief Method Init addr 0x2244128 size 0x2a8 virtual false final false
+  /// @brief Method Init, addr 0x2378b88, size 0x2a4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity, ::GlobalNamespace::NoteVisualModifierType noteVisualModifierType, float_t uniformScale);
 
-  /// @brief Method Awake addr 0x224e6fc size 0x1ac virtual true final false
+  /// @brief Method Awake, addr 0x2384068, size 0x1a8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnDestroy addr 0x224e8a8 size 0x1d0 virtual true final false
+  /// @brief Method OnDestroy, addr 0x2384210, size 0x1cc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method NoteDidPassMissedMarker addr 0x224ea78 size 0xc0 virtual true final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x23843dc, size 0xbc, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving addr 0x224eb38 size 0xb8 virtual true final false
+  /// @brief Method NoteDidStartDissolving, addr 0x2384498, size 0xb8, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method HandleBigWasCutBySaber addr 0x224ebf0 size 0x18 virtual false final false
+  /// @brief Method HandleBigWasCutBySaber, addr 0x2384550, size 0x18, virtual false, abstract: false, final false
   inline void HandleBigWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleSmallWasCutBySaber addr 0x224f0d8 size 0x18 virtual false final false
+  /// @brief Method HandleSmallWasCutBySaber, addr 0x2384a4c, size 0x18, virtual false, abstract: false, final false
   inline void HandleSmallWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCut addr 0x224ec08 size 0x4d0 virtual false final false
+  /// @brief Method HandleCut, addr 0x2384568, size 0x4e4, virtual false, abstract: false, final false
   inline void HandleCut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec, bool allowBadCut);
 
-  /// @brief Method NoteDidStartJump addr 0x224f0f0 size 0xb8 virtual true final false
+  /// @brief Method NoteDidStartJump, addr 0x2384a64, size 0xc0, virtual true, abstract: false, final false
   inline void NoteDidStartJump();
 
-  /// @brief Method HiddenStateDidChange addr 0x224f1a8 size 0x24 virtual true final false
+  /// @brief Method HiddenStateDidChange, addr 0x2384b24, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Pause addr 0x224f1cc size 0x10 virtual true final false
+  /// @brief Method Pause, addr 0x2384b48, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   static inline ::GlobalNamespace::BurstSliderGameNoteController* New_ctor();
 
-  /// @brief Method .ctor addr 0x224f1dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2384b58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BurstSliderGameNoteController", modifiers: "&&", def_value: None }]
@@ -324,14 +324,14 @@ static_assert(offsetof(::GlobalNamespace::BurstSliderGameNoteController, ____ori
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 289 }), TypeDefinitionIndex(TypeDefinitionIndex(4859)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10978))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4858)) CS Name: ::BurstSliderGameNoteController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 288 }), TypeDefinitionIndex(TypeDefinitionIndex(4738)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4737)) CS Name: ::BurstSliderGameNoteController::Pool*
 class CORDL_TYPE __BurstSliderGameNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BurstSliderGameNoteController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BurstSliderGameNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x224f1e4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2384b5c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BurstSliderGameNoteController__Pool", modifiers: "&&", def_value: None }]

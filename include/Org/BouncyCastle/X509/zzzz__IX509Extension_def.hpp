@@ -29,16 +29,16 @@ namespace Org::BouncyCastle::X509 {
 class CORDL_TYPE IX509Extension {
 public:
   // Declarations
-  /// @brief Method GetCriticalExtensionOids addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids();
 
-  /// @brief Method GetNonCriticalExtensionOids addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids();
 
-  /// @brief Method GetExtensionValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetExtensionValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::StringW oid);
 
-  /// @brief Method GetExtensionValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetExtensionValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetExtensionValue(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   // Ctor Parameters [CppParam { name: "", ty: "IX509Extension", modifiers: "&&", def_value: None }]

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__PlatformID_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OperatingSystem)
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
 namespace System {
 class Version;
 }
@@ -13,19 +16,16 @@ namespace System {
 struct PlatformID;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class ICloneable;
-}
-namespace System::Runtime::Serialization {
-class ISerializable;
 }
 // Forward declare root types
 namespace System {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::System::OperatingSystem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2612)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2524))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2526))
 // CS Name: ::System::OperatingSystem*
 class CORDL_TYPE OperatingSystem : public ::System::Object {
 public:
@@ -91,27 +91,27 @@ public:
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor addr 0x247444c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25d1374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method .ctor addr 0x2474454 size 0x140 virtual false final false
+  /// @brief Method .ctor, addr 0x25d137c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method GetObjectData addr 0x2474594 size 0x3c virtual true final true
+  /// @brief Method GetObjectData, addr 0x25d14bc, size 0x3c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Platform addr 0x24745d0 size 0x8 virtual false final false
+  /// @brief Method get_Platform, addr 0x25d14f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method Clone addr 0x24745d8 size 0x7c virtual true final true
+  /// @brief Method Clone, addr 0x25d1500, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method ToString addr 0x2474654 size 0x4 virtual true final false
+  /// @brief Method ToString, addr 0x25d157c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_VersionString addr 0x2474658 size 0x1cc virtual false final false
+  /// @brief Method get_VersionString, addr 0x25d1580, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   // Ctor Parameters [CppParam { name: "", ty: "OperatingSystem", modifiers: "&&", def_value: None }]

@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SystemDependencyProvider)
 namespace Mono {
-class ISystemCertificateProvider;
-}
-namespace System {
-class Object;
-}
-namespace Mono {
-class X509PalImpl;
-}
-namespace Mono {
 class ISystemDependencyProvider;
 }
 namespace Mono {
 class SystemCertificateProvider;
+}
+namespace Mono {
+class ISystemCertificateProvider;
+}
+namespace Mono {
+class X509PalImpl;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Mono {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Mono::SystemDependencyProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7588))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8751))
 // CS Name: ::Mono::SystemDependencyProvider*
 class CORDL_TYPE SystemDependencyProvider : public ::System::Object {
 public:
@@ -67,24 +67,24 @@ public:
 
   static inline ::System::Object* getStaticF_syncRoot();
 
-  /// @brief Method get_Instance addr 0x269bb80 size 0x5c virtual false final false
+  /// @brief Method get_Instance, addr 0x2816b90, size 0x5c, virtual false, abstract: false, final false
   static inline ::Mono::SystemDependencyProvider* get_Instance();
 
-  /// @brief Method Initialize addr 0x269bbdc size 0x154 virtual false final false
+  /// @brief Method Initialize, addr 0x2816bec, size 0x154, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider addr 0x269bdc8 size 0x8 virtual true final true
+  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x2816dd8, size 0x8, virtual true, abstract: false, final true
   inline ::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_get_CertificateProvider();
 
-  /// @brief Method get_CertificateProvider addr 0x269bdd0 size 0x8 virtual false final false
+  /// @brief Method get_CertificateProvider, addr 0x2816de0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::SystemCertificateProvider* get_CertificateProvider();
 
-  /// @brief Method get_X509Pal addr 0x269bdd8 size 0x18 virtual false final false
+  /// @brief Method get_X509Pal, addr 0x2816de8, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
   static inline ::Mono::SystemDependencyProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x269bd30 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x2816d40, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SystemDependencyProvider", modifiers: "&&", def_value: None }]

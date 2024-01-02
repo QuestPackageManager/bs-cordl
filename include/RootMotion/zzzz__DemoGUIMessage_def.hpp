@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::RootMotion::DemoGUIMessage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12418))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12490))
 // CS Name: ::RootMotion::DemoGUIMessage*
 class CORDL_TYPE DemoGUIMessage : public ::UnityEngine::MonoBehaviour {
 public:
@@ -40,12 +40,12 @@ public:
 
   constexpr void __set_color(::UnityEngine::Color value);
 
-  /// @brief Method OnGUI addr 0x11cc9b4 size 0xf8 virtual false final false
+  /// @brief Method OnGUI, addr 0x123cce0, size 0xf8, virtual false, abstract: false, final false
   inline void OnGUI();
 
   static inline ::RootMotion::DemoGUIMessage* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ccaac size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x123cdd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DemoGUIMessage", modifiers: "&&", def_value: None }]

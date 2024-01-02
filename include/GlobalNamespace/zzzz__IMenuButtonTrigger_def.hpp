@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::GlobalNamespace::IMenuButtonTrigger);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5053))
 // CS Name: ::IMenuButtonTrigger*
 class CORDL_TYPE IMenuButtonTrigger {
 public:
   // Declarations
-  /// @brief Method add_menuButtonTriggeredEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method remove_menuButtonTriggeredEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMenuButtonTrigger", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextureFormat);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10043))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10115))
 // CS Name: ::UnityEngine::TextureFormat
 struct CORDL_TYPE TextureFormat {
 public:

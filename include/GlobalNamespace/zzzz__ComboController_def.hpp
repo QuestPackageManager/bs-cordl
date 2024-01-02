@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ComboController)
 namespace GlobalNamespace {
-class IComboController;
+struct NoteCutInfo;
 }
 namespace System {
 class Action;
-}
-namespace GlobalNamespace {
-class NoteController;
-}
-namespace GlobalNamespace {
-class BeatmapObjectManager;
-}
-namespace GlobalNamespace {
-class PlayerHeadAndObstacleInteraction;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+class PlayerHeadAndObstacleInteraction;
+}
+namespace GlobalNamespace {
+class IComboController;
+}
+namespace GlobalNamespace {
+class BeatmapObjectManager;
+}
+namespace GlobalNamespace {
+class NoteController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5406))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5311))
 // CS Name: ::ComboController*
 class CORDL_TYPE ComboController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -103,39 +103,39 @@ public:
 
   constexpr void __set__maxCombo(int32_t value);
 
-  /// @brief Method get_maxCombo addr 0x2120b88 size 0x8 virtual false final false
+  /// @brief Method get_maxCombo, addr 0x2264d58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
 
-  /// @brief Method add_comboDidChangeEvent addr 0x2120b90 size 0xb0 virtual true final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x2264d60, size 0xb0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_comboDidChangeEvent addr 0x2120c40 size 0xb0 virtual true final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x2264e10, size 0xb0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_comboBreakingEventHappenedEvent addr 0x2120cf0 size 0x9c virtual true final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2264ec0, size 0x9c, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent addr 0x2120d8c size 0x9c virtual true final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x2264f5c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x2120e28 size 0x150 virtual false final false
+  /// @brief Method Start, addr 0x2264ff8, size 0x150, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2120f78 size 0x19c virtual false final false
+  /// @brief Method OnDestroy, addr 0x2265148, size 0x19c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandlePlayerHeadDidEnterObstacles addr 0x2121114 size 0x58 virtual false final false
+  /// @brief Method HandlePlayerHeadDidEnterObstacles, addr 0x22652e4, size 0x58, virtual false, abstract: false, final false
   inline void HandlePlayerHeadDidEnterObstacles();
 
-  /// @brief Method HandleNoteWasCut addr 0x212116c size 0x9c virtual false final false
+  /// @brief Method HandleNoteWasCut, addr 0x226533c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method HandleNoteWasMissed addr 0x2121208 size 0x84 virtual false final false
+  /// @brief Method HandleNoteWasMissed, addr 0x22653d8, size 0x84, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::ComboController* New_ctor();
 
-  /// @brief Method .ctor addr 0x212128c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226545c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ComboController", modifiers: "&&", def_value: None }]

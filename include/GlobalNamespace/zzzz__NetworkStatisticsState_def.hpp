@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkStatisticsState)
 namespace System {
-class Object;
-}
-namespace System {
 class IAsyncResult;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 struct NetworkStatisticsDelta;
@@ -36,24 +36,24 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsState);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12899))
 // CS Name: ::NetworkStatisticsState::NetworkStatisticsUpdateDelegate*
 class CORDL_TYPE __NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0xdc80e4 size 0xd4 virtual false final false
+  /// @brief Method .ctor, addr 0xe4d0c4, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0xdc81b8 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0xe4d198, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState);
 
-  /// @brief Method BeginInvoke addr 0xdc81cc size 0x8c virtual true final false
+  /// @brief Method BeginInvoke, addr 0xe4d1ac, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0xdc8258 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0xe4d238, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::GlobalNamespace::NetworkStatisticsState> statisticsState, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkStatisticsState__NetworkStatisticsUpdateDelegate", modifiers: "&&", def_value: None }]
@@ -81,19 +81,19 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkStatis
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12900))
 // CS Name: ::NetworkStatisticsState
 struct CORDL_TYPE NetworkStatisticsState {
 public:
   // Declarations
   using NetworkStatisticsUpdateDelegate = ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate;
 
-  /// @brief Method .ctor addr 0xdc8044 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe4d024, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t packetsSent, int64_t packetsReceived, int64_t bytesSent, int64_t bytesReceived, int64_t packetsLost, int64_t packetsSentEncrypted, int64_t packetsSentPlaintext,
                     int64_t packetsSentRejected, int64_t packetsReceivedEncrypted, int64_t packetsReceivedPlaintext, int64_t packetsReceivedRejected, int64_t encryptionProcessingTime,
                     int64_t decryptionProcessingTime);
 
-  /// @brief Method op_Subtraction addr 0xdc806c size 0x50 virtual false final false
+  /// @brief Method op_Subtraction, addr 0xe4d04c, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NetworkStatisticsDelta op_Subtraction(ByRef<::GlobalNamespace::NetworkStatisticsState> a, ByRef<::GlobalNamespace::NetworkStatisticsState> b);
 
   // Ctor Parameters [CppParam { name: "packetsSent", ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "packetsReceived", ty: "int64_t", modifiers: "", def_value: None }, CppParam {

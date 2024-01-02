@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(IPlayableAsset)
 namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine {
 class GameObject;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -24,17 +24,17 @@ MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableAsset);
 namespace UnityEngine::Playables {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10343))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10421))
 // CS Name: ::UnityEngine.Playables::IPlayableAsset*
 class CORDL_TYPE IPlayableAsset {
 public:
   // Declarations
   __declspec(property(get = get_duration)) double_t duration;
 
-  /// @brief Method CreatePlayable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreatePlayable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
-  /// @brief Method get_duration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_duration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline double_t get_duration();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPlayableAsset", modifiers: "&&", def_value: None }]

@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(HashtableExtensions)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Collections {
@@ -21,13 +21,13 @@ MARK_REF_PTR_T(::System::Collections::HashtableExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8343))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9506))
 // CS Name: ::System.Collections::HashtableExtensions*
 class CORDL_TYPE HashtableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool TryGetValue(::System::Collections::Hashtable* table, ::System::Object* key, ByRef<T> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "HashtableExtensions", modifiers: "&&", def_value: None }]

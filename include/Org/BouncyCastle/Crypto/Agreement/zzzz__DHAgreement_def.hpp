@@ -5,10 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHAgreement)
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPrivateKeyParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class DHParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -17,10 +14,13 @@ namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHParameters;
+class DHPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
-class DHPublicKeyParameters;
+class DHPrivateKeyParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::DHAgreement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(732))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::DHAgreement*
 class CORDL_TYPE DHAgreement : public ::System::Object {
@@ -74,18 +74,18 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0x11a8110 size 0x1b8 virtual false final false
+  /// @brief Method Init, addr 0x1219360, size 0x1b8, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method CalculateMessage addr 0x11a82c8 size 0x194 virtual false final false
+  /// @brief Method CalculateMessage, addr 0x1219518, size 0x194, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage();
 
-  /// @brief Method CalculateAgreement addr 0x11a845c size 0x298 virtual false final false
+  /// @brief Method CalculateAgreement, addr 0x12196ac, size 0x298, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* pub, ::Org::BouncyCastle::Math::BigInteger* message);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a86f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1219944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "&&", def_value: None }]

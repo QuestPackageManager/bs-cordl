@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECNamedDomainParameters_def.hpp"
 CORDL_MODULE_EXPORT(ECGost3410Parameters)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class ECNamedDomainParameters;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECDomainParameters;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class ECNamedDomainParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -62,13 +62,13 @@ public:
 
   constexpr void __set__encryptionParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method get_PublicKeyParamSet addr 0xebdcec size 0x8 virtual false final false
+  /// @brief Method get_PublicKeyParamSet, addr 0xf32ed8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
-  /// @brief Method get_DigestParamSet addr 0xebdcf4 size 0x8 virtual false final false
+  /// @brief Method get_DigestParamSet, addr 0xf32ee0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_DigestParamSet();
 
-  /// @brief Method get_EncryptionParamSet addr 0xebdcfc size 0x8 virtual false final false
+  /// @brief Method get_EncryptionParamSet, addr 0xf32ee8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_EncryptionParamSet();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECGost3410Parameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp,
@@ -76,7 +76,7 @@ public:
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor addr 0xebdd04 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0xf32ef0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
@@ -85,7 +85,7 @@ public:
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet,
                                                                                         ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 
-  /// @brief Method .ctor addr 0xebdd84 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0xf32f70, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* dp, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet,
                     ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestParamSet, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet);
 

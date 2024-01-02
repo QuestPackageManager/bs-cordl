@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCacheManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8154))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9317))
 // CS Name: ::System.Net.Cache::RequestCacheManager*
 class CORDL_TYPE RequestCacheManager : public ::System::Object {
 public:
@@ -62,10 +62,10 @@ public:
 
   static inline ::System::Net::Cache::RequestCacheBinding* getStaticF_s_DefaultFtpBinding();
 
-  /// @brief Method GetBinding addr 0x28746ac size 0x1fc virtual false final false
+  /// @brief Method GetBinding, addr 0x29f0f30, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Net::Cache::RequestCacheBinding* GetBinding(::StringW internedScheme);
 
-  /// @brief Method LoadConfigSettings addr 0x28748a8 size 0x184 virtual false final false
+  /// @brief Method LoadConfigSettings, addr 0x29f112c, size 0x184, virtual false, abstract: false, final false
   static inline void LoadConfigSettings();
 
   // Ctor Parameters [CppParam { name: "", ty: "RequestCacheManager", modifiers: "&&", def_value: None }]

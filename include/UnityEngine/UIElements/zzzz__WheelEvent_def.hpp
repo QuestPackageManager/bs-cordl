@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::WheelEvent);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7301), inst: 4556 }), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7301))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7306)) CS Name: ::UnityEngine.UIElements::WheelEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst:
+// 4650 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::UnityEngine.UIElements::WheelEvent*
 class CORDL_TYPE WheelEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::WheelEvent*> {
 public:
   // Declarations
@@ -40,27 +40,27 @@ public:
 
   constexpr void __set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_delta addr 0x2ce9000 size 0xc virtual false final false
+  /// @brief Method get_delta, addr 0x2e513b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
-  /// @brief Method set_delta addr 0x2ce900c size 0xc virtual false final false
+  /// @brief Method set_delta, addr 0x2e513bc, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
-  /// @brief Method GetPooled addr 0x2ce9018 size 0x7c virtual false final false
+  /// @brief Method GetPooled, addr 0x2e513c8, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method GetPooled addr 0x2ce9094 size 0x78 virtual false final false
+  /// @brief Method GetPooled, addr 0x2e51444, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method Init addr 0x2ce910c size 0x50 virtual true final false
+  /// @brief Method Init, addr 0x2e514bc, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2ce915c size 0x60 virtual false final false
+  /// @brief Method LocalInit, addr 0x2e5150c, size 0x60, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::WheelEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce91bc size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2e5156c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "WheelEvent", modifiers: "&&", def_value: None }]

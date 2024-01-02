@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ScreenCaptureCache)
-namespace GlobalNamespace {
-struct __ScreenCaptureCache__ScreenshotType;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace GlobalNamespace {
+struct __ScreenCaptureCache__ScreenshotType;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScreenCaptureCache);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15335))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15306))
 // CS Name: ::ScreenCaptureCache::ScreenshotType
 struct CORDL_TYPE __ScreenCaptureCache__ScreenshotType {
 public:
@@ -83,8 +83,8 @@ static_assert(offsetof(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15336))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15307))
 // CS Name: ::ScreenCaptureCache*
 class CORDL_TYPE ScreenCaptureCache : public ::System::Object {
 public:
@@ -101,15 +101,15 @@ public:
 
   constexpr void __set__cache(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__ScreenCaptureCache__ScreenshotType, ::UnityEngine::Texture2D*>* value);
 
-  /// @brief Method GetLastScreenshot addr 0x2690f58 size 0x78 virtual false final false
+  /// @brief Method GetLastScreenshot, addr 0x280bbac, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* GetLastScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType);
 
-  /// @brief Method StoreScreenshot addr 0x2690c14 size 0xac virtual false final false
+  /// @brief Method StoreScreenshot, addr 0x280b868, size 0xac, virtual false, abstract: false, final false
   inline void StoreScreenshot(::GlobalNamespace::__ScreenCaptureCache__ScreenshotType screenshotType, ::UnityEngine::Texture2D* texture);
 
   static inline ::GlobalNamespace::ScreenCaptureCache* New_ctor();
 
-  /// @brief Method .ctor addr 0x2690fd0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x280bc24, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScreenCaptureCache", modifiers: "&&", def_value: None }]

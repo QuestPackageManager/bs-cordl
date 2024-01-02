@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMacDsaKCalculator)
-namespace Org::BouncyCastle::Crypto {
-class IDigest;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
 }
 namespace Org::BouncyCastle::Crypto::Signers {
 class IDsaKCalculator;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1143))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::HMacDsaKCalculator*
 class CORDL_TYPE HMacDsaKCalculator : public ::System::Object {
@@ -80,22 +80,22 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xed829c size 0xe8 virtual false final false
+  /// @brief Method .ctor, addr 0xf4e4ac, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_IsDeterministic addr 0xed8384 size 0x8 virtual true final false
+  /// @brief Method get_IsDeterministic, addr 0xf4e594, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
-  /// @brief Method Init addr 0xed838c size 0x50 virtual true final false
+  /// @brief Method Init, addr 0xf4e59c, size 0x50, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0xed83dc size 0x424 virtual true final true
+  /// @brief Method Init, addr 0xf4e5ec, size 0x424, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method NextK addr 0xed88c8 size 0x27c virtual true final false
+  /// @brief Method NextK, addr 0xf4ead8, size 0x27c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
-  /// @brief Method BitsToInt addr 0xed8800 size 0xc8 virtual false final false
+  /// @brief Method BitsToInt, addr 0xf4ea10, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> t);
 
   // Ctor Parameters [CppParam { name: "", ty: "HMacDsaKCalculator", modifiers: "&&", def_value: None }]

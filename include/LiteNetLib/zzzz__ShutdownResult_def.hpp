@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::ShutdownResult);
 namespace LiteNetLib {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14514))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14176))
 // CS Name: ::LiteNetLib::ShutdownResult
 struct CORDL_TYPE ShutdownResult {
 public:

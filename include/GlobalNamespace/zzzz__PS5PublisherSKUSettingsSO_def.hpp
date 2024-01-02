@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5PublisherSKUSettingsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4691))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4655))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4602))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4565))
 // CS Name: ::PS5PublisherSKUSettingsSO*
 class CORDL_TYPE PS5PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5PublisherSKUSettingsSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e3f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2368334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PS5PublisherSKUSettingsSO", modifiers: "&&", def_value: None }]

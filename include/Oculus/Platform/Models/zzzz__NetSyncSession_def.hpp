@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncSession);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13514))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13459))
 // CS Name: ::Oculus.Platform.Models::NetSyncSession*
 class CORDL_TYPE NetSyncSession : public ::System::Object {
 public:
@@ -69,7 +69,7 @@ public:
 
   static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b5d1c size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x2707598, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSyncSession", modifiers: "&&", def_value: None }]

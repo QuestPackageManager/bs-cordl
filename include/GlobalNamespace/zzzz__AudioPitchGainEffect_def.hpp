@@ -7,12 +7,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioPitchGainEffect)
-namespace System::Collections {
-class IEnumerator;
-}
-namespace UnityEngine {
-class AudioSource;
-}
 namespace System {
 class Action;
 }
@@ -20,7 +14,13 @@ namespace GlobalNamespace {
 class __AudioPitchGainEffect___StartEffectCoroutine_d__8;
 }
 namespace UnityEngine {
+class AudioSource;
+}
+namespace UnityEngine {
 class Coroutine;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace UnityEngine {
 class AnimationCurve;
@@ -29,10 +29,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4036))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4048))
 // CS Name: ::AudioPitchGainEffect::<StartEffectCoroutine>d__8*
 class CORDL_TYPE __AudioPitchGainEffect___StartEffectCoroutine_d__8 : public ::System::Object {
 public:
@@ -132,22 +132,22 @@ public:
 
   static inline ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20ca90c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x222b3f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20ca9b8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x222b4a4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20ca9bc size 0x184 virtual true final true
+  /// @brief Method MoveNext, addr 0x222b4a8, size 0x184, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20cab40 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x222b62c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20cab48 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x222b634, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20cab88 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x222b674, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__AudioPitchGainEffect___StartEffectCoroutine_d__8", modifiers: "&&", def_value: None }]
@@ -209,8 +209,8 @@ static_assert(offsetof(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4049))
 // CS Name: ::AudioPitchGainEffect*
 class CORDL_TYPE AudioPitchGainEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -280,24 +280,24 @@ public:
 
   constexpr void __set__startVolume(float_t value);
 
-  /// @brief Method Start addr 0x20ca85c size 0x28 virtual false final false
+  /// @brief Method Start, addr 0x222b348, size 0x28, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartEffectCoroutine addr 0x20ca884 size 0x88 virtual false final false
+  /// @brief Method StartEffectCoroutine, addr 0x222b370, size 0x88, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartEffectCoroutine(float_t volumeScale, ::System::Action* finishCallback);
 
-  /// @brief Method StartEffect addr 0x20ca934 size 0x28 virtual false final false
+  /// @brief Method StartEffect, addr 0x222b420, size 0x28, virtual false, abstract: false, final false
   inline void StartEffect(float_t volumeScale, ::System::Action* finishCallback);
 
-  /// @brief Method InterruptEffect addr 0x20ca95c size 0x40 virtual false final false
+  /// @brief Method InterruptEffect, addr 0x222b448, size 0x40, virtual false, abstract: false, final false
   inline void InterruptEffect();
 
-  /// @brief Method SetAudioSource addr 0x20ca99c size 0x8 virtual false final false
+  /// @brief Method SetAudioSource, addr 0x222b488, size 0x8, virtual false, abstract: false, final false
   inline void SetAudioSource(::UnityEngine::AudioSource* audioSource);
 
   static inline ::GlobalNamespace::AudioPitchGainEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ca9a4 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x222b490, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPitchGainEffect", modifiers: "&&", def_value: None }]

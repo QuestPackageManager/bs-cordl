@@ -6,12 +6,6 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionVirtualizationController)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
 }
@@ -20,6 +14,12 @@ struct Vector2;
 }
 namespace UnityEngine::UIElements {
 class ScrollView;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CollectionVirtualizationController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7457))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7371))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationController*
 class CORDL_TYPE CollectionVirtualizationController : public ::System::Object {
 public:
@@ -52,48 +52,48 @@ public:
 
   constexpr void __set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method get_lastVisibleIndex addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_lastVisibleIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_lastVisibleIndex();
 
-  /// @brief Method get_visibleItemCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_visibleItemCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_visibleItemCount();
 
   static inline ::UnityEngine::UIElements::CollectionVirtualizationController* New_ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method .ctor addr 0x2d1f7f4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2e87ba4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Refresh(bool rebuild);
 
-  /// @brief Method ScrollToItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ScrollToItem(int32_t id);
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
 
-  /// @brief Method OnScroll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnScroll(::UnityEngine::Vector2 offset);
 
-  /// @brief Method GetIndexFromPosition addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetIndexFromPosition(::UnityEngine::Vector2 position);
 
-  /// @brief Method GetItemHeight addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetItemHeight(int32_t index);
 
-  /// @brief Method OnFocus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget);
 
-  /// @brief Method OnBlur addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnBlur, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnBlur(::UnityEngine::UIElements::VisualElement* willFocus);
 
-  /// @brief Method UpdateBackground addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdateBackground();
 
-  /// @brief Method get_activeItems addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* get_activeItems();
 
-  /// @brief Method ReplaceActiveItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReplaceActiveItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReplaceActiveItem(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "CollectionVirtualizationController", modifiers: "&&", def_value: None }]

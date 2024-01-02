@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SaberActivityCounter)
+namespace GlobalNamespace {
+class MovementHistoryRecorder;
+}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class Saber;
-}
-namespace GlobalNamespace {
-class MovementHistoryRecorder;
 }
 namespace GlobalNamespace {
 class AveragingValueRecorder;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberActivityCounter);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5388))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5293))
 // CS Name: ::SaberActivityCounter*
 class CORDL_TYPE SaberActivityCounter : public ::UnityEngine::MonoBehaviour {
 public:
@@ -229,42 +229,42 @@ public:
 
   constexpr void __set__handMovementHistoryRecorder(::GlobalNamespace::MovementHistoryRecorder* value);
 
-  /// @brief Method add_totalDistanceDidChangeEvent addr 0x211f3ac size 0xb0 virtual false final false
+  /// @brief Method add_totalDistanceDidChangeEvent, addr 0x226357c, size 0xb0, virtual false, abstract: false, final false
   inline void add_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method remove_totalDistanceDidChangeEvent addr 0x211f45c size 0xb0 virtual false final false
+  /// @brief Method remove_totalDistanceDidChangeEvent, addr 0x226362c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_totalDistanceDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_leftSaberMovementDistance addr 0x211f50c size 0x8 virtual false final false
+  /// @brief Method get_leftSaberMovementDistance, addr 0x22636dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_leftSaberMovementDistance();
 
-  /// @brief Method get_rightSaberMovementDistance addr 0x211f514 size 0x8 virtual false final false
+  /// @brief Method get_rightSaberMovementDistance, addr 0x22636e4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rightSaberMovementDistance();
 
-  /// @brief Method get_leftHandMovementDistance addr 0x211f51c size 0x8 virtual false final false
+  /// @brief Method get_leftHandMovementDistance, addr 0x22636ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_leftHandMovementDistance();
 
-  /// @brief Method get_rightHandMovementDistance addr 0x211f524 size 0x8 virtual false final false
+  /// @brief Method get_rightHandMovementDistance, addr 0x22636f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rightHandMovementDistance();
 
-  /// @brief Method get_saberMovementAveragingValueRecorder addr 0x211c870 size 0x1c virtual false final false
+  /// @brief Method get_saberMovementAveragingValueRecorder, addr 0x2260a08, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_saberMovementAveragingValueRecorder();
 
-  /// @brief Method get_handMovementAveragingValueRecorder addr 0x211c88c size 0x1c virtual false final false
+  /// @brief Method get_handMovementAveragingValueRecorder, addr 0x2260a24, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_handMovementAveragingValueRecorder();
 
-  /// @brief Method Awake addr 0x211f52c size 0xb4 virtual false final false
+  /// @brief Method Awake, addr 0x22636fc, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x211f5e0 size 0x20 virtual false final false
+  /// @brief Method Start, addr 0x22637b0, size 0x20, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x211f600 size 0x414 virtual false final false
+  /// @brief Method Update, addr 0x22637d0, size 0x414, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::SaberActivityCounter* New_ctor();
 
-  /// @brief Method .ctor addr 0x211fa14 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2263be4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaberActivityCounter", modifiers: "&&", def_value: None }]

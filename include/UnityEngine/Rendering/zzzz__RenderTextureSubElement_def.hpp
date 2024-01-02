@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderTextureSubElement);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10274))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10352))
 // CS Name: ::UnityEngine.Rendering::RenderTextureSubElement
 struct CORDL_TYPE RenderTextureSubElement {
 public:

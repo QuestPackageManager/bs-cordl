@@ -3,11 +3,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(Asn1OctetStringParser)
-namespace Org::BouncyCastle::Asn1 {
-class IAsn1Convertible;
-}
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1 {
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetOctetStream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOctetStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* GetOctetStream();
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1OctetStringParser", modifiers: "&&", def_value: None }]

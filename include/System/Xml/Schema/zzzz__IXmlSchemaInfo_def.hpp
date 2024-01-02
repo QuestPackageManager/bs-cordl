@@ -4,19 +4,19 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IXmlSchemaInfo)
 namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
-namespace System::Xml::Schema {
-class XmlSchemaElement;
-}
-namespace System::Xml::Schema {
-class XmlSchemaAttribute;
+struct XmlSchemaValidity;
 }
 namespace System::Xml::Schema {
 class XmlSchemaType;
 }
 namespace System::Xml::Schema {
-struct XmlSchemaValidity;
+class XmlSchemaAttribute;
+}
+namespace System::Xml::Schema {
+class XmlSchemaElement;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::IXmlSchemaInfo);
 namespace System::Xml::Schema {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11625))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11697))
 // CS Name: ::System.Xml.Schema::IXmlSchemaInfo*
 class CORDL_TYPE IXmlSchemaInfo {
 public:
@@ -48,25 +48,25 @@ public:
 
   __declspec(property(get = get_SchemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* SchemaAttribute;
 
-  /// @brief Method get_Validity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Validity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaValidity get_Validity();
 
-  /// @brief Method get_IsDefault addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsDefault, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsDefault();
 
-  /// @brief Method get_IsNil addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsNil, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsNil();
 
-  /// @brief Method get_MemberType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_MemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_MemberType();
 
-  /// @brief Method get_SchemaType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SchemaType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaType* get_SchemaType();
 
-  /// @brief Method get_SchemaElement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SchemaElement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaElement* get_SchemaElement();
 
-  /// @brief Method get_SchemaAttribute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SchemaAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Xml::Schema::XmlSchemaAttribute* get_SchemaAttribute();
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlSchemaInfo", modifiers: "&&", def_value: None }]

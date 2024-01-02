@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::RectSelectMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12092))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12164))
 // CS Name: ::UnityEngine.ProBuilder::RectSelectMode
 struct CORDL_TYPE RectSelectMode {
 public:

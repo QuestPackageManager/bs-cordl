@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::AppDomainSetup);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2580))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2582))
 // CS Name: ::System::AppDomainSetup*
 class CORDL_TYPE AppDomainSetup : public ::System::Object {
 public:
@@ -262,7 +262,7 @@ public:
 
   static inline ::System::AppDomainSetup* New_ctor();
 
-  /// @brief Method .ctor addr 0x249b364 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25f62a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppDomainSetup", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::__Enum__ParseFailureKind);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2554))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2556))
 // CS Name: ::Enum::ParseFailureKind
 struct CORDL_TYPE __Enum__ParseFailureKind {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::OVRChunkType);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8463))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7561))
 // CS Name: ::OVRChunkType
 struct CORDL_TYPE OVRChunkType {
 public:

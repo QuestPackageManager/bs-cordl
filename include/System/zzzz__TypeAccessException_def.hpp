@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::TypeAccessException);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2571))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2493))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2573))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2495))
 // CS Name: ::System::TypeAccessException*
 class CORDL_TYPE TypeAccessException : public ::System::TypeLoadException {
 public:
   // Declarations
   static inline ::System::TypeAccessException* New_ctor();
 
-  /// @brief Method .ctor addr 0x246e224 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x25cb14c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::TypeAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x246e280 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25cb1a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeAccessException", modifiers: "&&", def_value: None }]

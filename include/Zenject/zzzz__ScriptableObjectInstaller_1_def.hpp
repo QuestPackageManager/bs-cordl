@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(ScriptableObjectInstaller_1)
 namespace Zenject {
 class InjectTypeInfo;
 }
-namespace Zenject {
-class DiContainer;
-}
 namespace System {
 class Object;
+}
+namespace Zenject {
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -27,27 +27,27 @@ namespace Zenject {
 // cpp template
 template <typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11075))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11076))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11148))
 // CS Name: ::Zenject::ScriptableObjectInstaller`1<TDerived>*
 class CORDL_TYPE ScriptableObjectInstaller_1 : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallFromResource addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container);
 
   static inline ::Zenject::ScriptableObjectInstaller_1<TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_1", modifiers: "&&", def_value: None }]

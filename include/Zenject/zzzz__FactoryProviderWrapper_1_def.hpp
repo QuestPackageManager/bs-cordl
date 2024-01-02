@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(FactoryProviderWrapper_1)
 namespace Zenject {
-class IProvider;
+class IFactory;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
-class IFactory;
+class IProvider;
 }
 namespace Zenject {
 class InjectContext;
-}
-namespace System {
-class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -35,8 +35,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10909))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10981))
 // CS Name: ::Zenject::FactoryProviderWrapper`1<TContract>*
 class CORDL_TYPE FactoryProviderWrapper_1 : public ::System::Object {
 public:
@@ -67,16 +67,16 @@ public:
 
   static inline ::Zenject::FactoryProviderWrapper_1<TContract>* New_ctor(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext);
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TContract Create();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryProviderWrapper_1", modifiers: "&&", def_value: None }]

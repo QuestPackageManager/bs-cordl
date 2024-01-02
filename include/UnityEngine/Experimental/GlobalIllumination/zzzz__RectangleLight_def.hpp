@@ -11,20 +11,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RectangleLight)
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct FalloffType;
-}
-namespace UnityEngine::Experimental::GlobalIllumination {
-struct LightMode;
-}
 namespace UnityEngine {
-struct Vector3;
+struct Quaternion;
 }
 namespace UnityEngine::Experimental::GlobalIllumination {
 struct LinearColor;
 }
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct LightMode;
+}
+namespace UnityEngine::Experimental::GlobalIllumination {
+struct FalloffType;
+}
 namespace UnityEngine {
-struct Quaternion;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::Experimental::GlobalIllumination {
@@ -36,8 +36,8 @@ MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::RectangleLight);
 // SizeInfo { instance_size: 84, native_size: 88, calculated_instance_size: 84, calculated_native_size: 97, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10312)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10309)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10310)), TypeDefinitionIndex(TypeDefinitionIndex(10179))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10316)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10390)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10388)), TypeDefinitionIndex(TypeDefinitionIndex(10387))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10394)) CS Name:
 // ::UnityEngine.Experimental.GlobalIllumination::RectangleLight
 struct CORDL_TYPE RectangleLight {
 public:

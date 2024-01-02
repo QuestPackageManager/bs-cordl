@@ -16,19 +16,19 @@ MARK_REF_PTR_T(::System::KnownTerminals);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2604))
 // CS Name: ::System::KnownTerminals*
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_linux addr 0x249f37c size 0x70 virtual false final false
+  /// @brief Method get_linux, addr 0x25fa304, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
 
-  /// @brief Method get_xterm addr 0x249f3ec size 0x70 virtual false final false
+  /// @brief Method get_xterm, addr 0x25fa374, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
 
-  /// @brief Method get_ansi addr 0x249f45c size 0x70 virtual false final false
+  /// @brief Method get_ansi, addr 0x25fa3e4, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
   // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(EnvironmentStartEndSongAudioEffect)
+namespace UnityEngine {
+class AudioClip;
+}
 namespace GlobalNamespace {
 class ILevelEndActions;
 }
@@ -15,9 +18,6 @@ class IGamePause;
 }
 namespace GlobalNamespace {
 class IAudioTimeSource;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 namespace GlobalNamespace {
 class EnvironmentAudioEffectsPlayer;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 110, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(5087))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
 // CS Name: ::EnvironmentStartEndSongAudioEffect*
 class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -173,30 +173,30 @@ public:
 
   constexpr void __set__isWaitingToPlayStartAudio(bool value);
 
-  /// @brief Method Start addr 0x20cd8d0 size 0x478 virtual false final false
+  /// @brief Method Start, addr 0x222d3bc, size 0x478, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x20cdd48 size 0x254 virtual false final false
+  /// @brief Method OnDestroy, addr 0x222d834, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x20cdf9c size 0x2a8 virtual false final false
+  /// @brief Method Update, addr 0x222da88, size 0x2a8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LevelWillFinishWithinAheadTime addr 0x20ce244 size 0x5c virtual false final false
+  /// @brief Method LevelWillFinishWithinAheadTime, addr 0x222dd30, size 0x5c, virtual false, abstract: false, final false
   inline void LevelWillFinishWithinAheadTime();
 
-  /// @brief Method HandleLevelFailed addr 0x20ce2a0 size 0x90 virtual false final false
+  /// @brief Method HandleLevelFailed, addr 0x222dd8c, size 0x90, virtual false, abstract: false, final false
   inline void HandleLevelFailed();
 
-  /// @brief Method HandleGamePauseDidResume addr 0x20ce330 size 0x24 virtual false final false
+  /// @brief Method HandleGamePauseDidResume, addr 0x222de1c, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidResume();
 
-  /// @brief Method HandleGamePauseDidPause addr 0x20ce354 size 0x24 virtual false final false
+  /// @brief Method HandleGamePauseDidPause, addr 0x222de40, size 0x24, virtual false, abstract: false, final false
   inline void HandleGamePauseDidPause();
 
   static inline ::GlobalNamespace::EnvironmentStartEndSongAudioEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ce378 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x222de64, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentStartEndSongAudioEffect", modifiers: "&&", def_value: None }]

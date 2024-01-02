@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode);
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6539))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6453))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidKeyCode
 struct CORDL_TYPE AndroidKeyCode {
 public:

@@ -19,16 +19,16 @@ MARK_REF_PTR_T(::GlobalNamespace::Locale);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2221))
 // CS Name: ::Locale*
 class CORDL_TYPE Locale : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetText addr 0x22b8300 size 0x4 virtual false final false
+  /// @brief Method GetText, addr 0x2411d80, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW msg);
 
-  /// @brief Method GetText addr 0x22b8304 size 0x8 virtual false final false
+  /// @brief Method GetText, addr 0x2411d84, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetText(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "Locale", modifiers: "&&", def_value: None }]

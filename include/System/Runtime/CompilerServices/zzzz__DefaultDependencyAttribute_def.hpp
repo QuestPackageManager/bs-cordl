@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DefaultDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3406)), TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3407))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3411))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3412))
 // CS Name: ::System.Runtime.CompilerServices::DefaultDependencyAttribute*
 class CORDL_TYPE DefaultDependencyAttribute : public ::System::Attribute {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
-  /// @brief Method .ctor addr 0x2384124 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x24debb4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultDependencyAttribute", modifiers: "&&", def_value: None }]

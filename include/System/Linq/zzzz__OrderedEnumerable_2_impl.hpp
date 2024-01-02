@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Linq/zzzz__OrderedEnumerable_1_impl.hpp"
 #include "System/Linq/zzzz__OrderedEnumerable_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Linq/zzzz__OrderedEnumerable_1_def.hpp"
 template <typename TElement, typename TKey> constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& System::Linq::OrderedEnumerable_2<TElement, TKey>::__get_parent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -76,9 +76,8 @@ inline void System::Linq::OrderedEnumerable_2<TElement, TKey>::_ctor(::System::C
 }
 template <typename TElement, typename TKey>
 inline ::System::Linq::EnumerableSorter_1<TElement>* System::Linq::OrderedEnumerable_2<TElement, TKey>::GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::OrderedEnumerable_2<TElement, TKey>*>::get(), "GetEnumerableSorter", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Linq::EnumerableSorter_1<TElement>*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::OrderedEnumerable_2<TElement, TKey>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Linq::EnumerableSorter_1<TElement>*, false>(this, ___internal_method, next);
 }
 // Ctor Parameters []

@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14190))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13919))
 // CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
 class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
@@ -44,8 +44,10 @@ public:
 
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 
-  /// @brief Method .ctor addr 0x2aea9d4 size 0x30 virtual false final false
-  inline void _ctor(::System::Type* childType, int32_t levels);
+  /// @brief Method .ctor, addr 0x2c6e728, size 0x30, virtual false, abstract: false, final false
+  /// @param childType: ::System::Type* (default: nullptr)
+  /// @param levels: int32_t (default: static_cast<int32_t>(0x7fffffff))
+  inline void _ctor(::System::Type* childType = nullptr, int32_t levels = static_cast<int32_t>(0x7fffffff));
 
   // Ctor Parameters [CppParam { name: "", ty: "SupportsChildTracksAttribute", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

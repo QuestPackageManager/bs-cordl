@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TutorialPause)
-namespace System {
-class Action;
-}
 namespace GlobalNamespace {
 class TutorialSongController;
+}
+namespace GlobalNamespace {
+class AudioListenerController;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
 class SaberManager;
 }
 namespace GlobalNamespace {
 class IGamePause;
-}
-namespace GlobalNamespace {
-class AudioListenerController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialPause);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5438))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5343))
 // CS Name: ::TutorialPause*
 class CORDL_TYPE TutorialPause : public ::System::Object {
 public:
@@ -103,39 +103,39 @@ public:
 
   constexpr void __set__pause(bool value);
 
-  /// @brief Method get_isPaused addr 0x21268c4 size 0x8 virtual true final true
+  /// @brief Method get_isPaused, addr 0x226aa00, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPaused();
 
-  /// @brief Method add_didPauseEvent addr 0x21268cc size 0x9c virtual true final true
+  /// @brief Method add_didPauseEvent, addr 0x226aa08, size 0x9c, virtual true, abstract: false, final true
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didPauseEvent addr 0x2126968 size 0x9c virtual true final true
+  /// @brief Method remove_didPauseEvent, addr 0x226aaa4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_willResumeEvent addr 0x2126a04 size 0x9c virtual true final true
+  /// @brief Method add_willResumeEvent, addr 0x226ab40, size 0x9c, virtual true, abstract: false, final true
   inline void add_willResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_willResumeEvent addr 0x2126aa0 size 0x9c virtual true final true
+  /// @brief Method remove_willResumeEvent, addr 0x226abdc, size 0x9c, virtual true, abstract: false, final true
   inline void remove_willResumeEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent addr 0x2126b3c size 0x9c virtual true final true
+  /// @brief Method add_didResumeEvent, addr 0x226ac78, size 0x9c, virtual true, abstract: false, final true
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent addr 0x2126bd8 size 0x9c virtual true final true
+  /// @brief Method remove_didResumeEvent, addr 0x226ad14, size 0x9c, virtual true, abstract: false, final true
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method Pause addr 0x2126c74 size 0x78 virtual true final true
+  /// @brief Method Pause, addr 0x226adb0, size 0x78, virtual true, abstract: false, final true
   inline void Pause();
 
-  /// @brief Method WillResume addr 0x2126cec size 0x1c virtual true final true
+  /// @brief Method WillResume, addr 0x226ae28, size 0x1c, virtual true, abstract: false, final true
   inline void WillResume();
 
-  /// @brief Method Resume addr 0x2126d08 size 0x74 virtual true final true
+  /// @brief Method Resume, addr 0x226ae44, size 0x74, virtual true, abstract: false, final true
   inline void Resume();
 
   static inline ::GlobalNamespace::TutorialPause* New_ctor();
 
-  /// @brief Method .ctor addr 0x2126d7c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226aeb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialPause", modifiers: "&&", def_value: None }]

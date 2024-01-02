@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMessageSink)
 namespace System::Runtime::Remoting::Messaging {
-class IMessageCtrl;
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
-class IMessage;
+class IMessageCtrl;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMessageSink);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3170))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMessageSink*
 class CORDL_TYPE IMessageSink {
 public:
   // Declarations
-  /// @brief Method SyncProcessMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SyncProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method AsyncProcessMessage addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AsyncProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 

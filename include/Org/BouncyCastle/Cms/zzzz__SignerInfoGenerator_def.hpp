@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SignerInfoGenerator)
-namespace Org::BouncyCastle::Asn1::Cms {
-class SignerIdentifier;
-}
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace Org::BouncyCastle::Asn1::Cms {
+class SignerIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class ISignatureFactory;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInfoGenerator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(689))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInfoGenerator*
 class CORDL_TYPE SignerInfoGenerator : public ::System::Object {
@@ -88,24 +88,24 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
-  /// @brief Method .ctor addr 0x1197994 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1208be4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory);
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory,
                                                                         bool isDirectSignature);
 
-  /// @brief Method .ctor addr 0x119799c size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0x1208bec, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* signerFactory, bool isDirectSignature);
 
   static inline ::Org::BouncyCastle::Cms::SignerInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                                                                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen,
                                                                         ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method .ctor addr 0x1197a3c size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x1208c8c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sigId, ::Org::BouncyCastle::Crypto::ISignatureFactory* contentSigner,
                     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* signedGen, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsignedGen);
 
-  /// @brief Method setAssociatedCertificate addr 0x1197a80 size 0x8 virtual false final false
+  /// @brief Method setAssociatedCertificate, addr 0x1208cd0, size 0x8, virtual false, abstract: false, final false
   inline void setAssociatedCertificate(::Org::BouncyCastle::X509::X509Certificate* certificate);
 
   // Ctor Parameters [CppParam { name: "", ty: "SignerInfoGenerator", modifiers: "&&", def_value: None }]

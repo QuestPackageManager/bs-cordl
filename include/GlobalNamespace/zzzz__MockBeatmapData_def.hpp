@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockBeatmapData)
 namespace GlobalNamespace {
-class MockObstacleData;
+class MockNoteData;
 }
 namespace GlobalNamespace {
-class MockNoteData;
+class MockObstacleData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15493))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15509))
 // CS Name: ::MockBeatmapData*
 class CORDL_TYPE MockBeatmapData : public ::System::Object {
 public:
@@ -99,45 +99,45 @@ public:
 
   constexpr void __set__obstacles_k__BackingField(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
 
-  /// @brief Method get_numberOfLines addr 0x228b2a0 size 0x8 virtual false final false
+  /// @brief Method get_numberOfLines, addr 0x23e6878, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();
 
-  /// @brief Method set_numberOfLines addr 0x228b2a8 size 0x8 virtual false final false
+  /// @brief Method set_numberOfLines, addr 0x23e6880, size 0x8, virtual false, abstract: false, final false
   inline void set_numberOfLines(int32_t value);
 
-  /// @brief Method get_songEndTime addr 0x228b2b0 size 0x8 virtual false final false
+  /// @brief Method get_songEndTime, addr 0x23e6888, size 0x8, virtual false, abstract: false, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method set_songEndTime addr 0x228b2b8 size 0x8 virtual false final false
+  /// @brief Method set_songEndTime, addr 0x23e6890, size 0x8, virtual false, abstract: false, final false
   inline void set_songEndTime(float_t value);
 
-  /// @brief Method get_leftNotes addr 0x228b2c0 size 0x8 virtual false final false
+  /// @brief Method get_leftNotes, addr 0x23e6898, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_leftNotes();
 
-  /// @brief Method set_leftNotes addr 0x228b2c8 size 0x8 virtual false final false
+  /// @brief Method set_leftNotes, addr 0x23e68a0, size 0x8, virtual false, abstract: false, final false
   inline void set_leftNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method get_rightNotes addr 0x228b2d0 size 0x8 virtual false final false
+  /// @brief Method get_rightNotes, addr 0x23e68a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_rightNotes();
 
-  /// @brief Method set_rightNotes addr 0x228b2d8 size 0x8 virtual false final false
+  /// @brief Method set_rightNotes, addr 0x23e68b0, size 0x8, virtual false, abstract: false, final false
   inline void set_rightNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method get_bombNotes addr 0x228b2e0 size 0x8 virtual false final false
+  /// @brief Method get_bombNotes, addr 0x23e68b8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> get_bombNotes();
 
-  /// @brief Method set_bombNotes addr 0x228b2e8 size 0x8 virtual false final false
+  /// @brief Method set_bombNotes, addr 0x23e68c0, size 0x8, virtual false, abstract: false, final false
   inline void set_bombNotes(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  /// @brief Method get_obstacles addr 0x228b2f0 size 0x8 virtual false final false
+  /// @brief Method get_obstacles, addr 0x23e68c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> get_obstacles();
 
-  /// @brief Method set_obstacles addr 0x228b2f8 size 0x8 virtual false final false
+  /// @brief Method set_obstacles, addr 0x23e68d0, size 0x8, virtual false, abstract: false, final false
   inline void set_obstacles(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
 
   static inline ::GlobalNamespace::MockBeatmapData* New_ctor();
 
-  /// @brief Method .ctor addr 0x228b300 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23e68d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockBeatmapData", modifiers: "&&", def_value: None }]

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Numeric10FacetsChecker)
-namespace System {
-class Exception;
-}
-namespace System {
-struct Decimal;
+namespace System::Xml::Schema {
+class XmlSchemaDatatype;
 }
 namespace System::Collections {
 class ArrayList;
 }
 namespace System::Xml::Schema {
-class XmlSchemaDatatype;
-}
-namespace System::Xml::Schema {
 class XmlValueConverter;
 }
 namespace System {
+struct Decimal;
+}
+namespace System {
 class Object;
+}
+namespace System {
+class Exception;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -35,8 +35,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric10FacetsChecker);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2653)), TypeDefinitionIndex(TypeDefinitionIndex(11614))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11687))
 // CS Name: ::System.Xml.Schema::Numeric10FacetsChecker*
 class CORDL_TYPE Numeric10FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
@@ -68,31 +68,31 @@ public:
 
   static inline ::System::Xml::Schema::Numeric10FacetsChecker* New_ctor(::System::Decimal minVal, ::System::Decimal maxVal);
 
-  /// @brief Method .ctor addr 0x273ad00 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x28b8d24, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal minVal, ::System::Decimal maxVal);
 
-  /// @brief Method CheckValueFacets addr 0x2742d38 size 0x70 virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c0d5c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x2742da8 size 0x558 virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c0dcc, size 0x558, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Decimal value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x2743548 size 0x8c virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c156c, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int64_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x27435d4 size 0x8c virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c15f8, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int32_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets addr 0x2743660 size 0x8c virtual true final false
+  /// @brief Method CheckValueFacets, addr 0x28c1684, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(int16_t value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x27436ec size 0x84 virtual true final false
+  /// @brief Method MatchEnumeration, addr 0x28c1710, size 0x84, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration addr 0x2743428 size 0x120 virtual false final false
+  /// @brief Method MatchEnumeration, addr 0x28c144c, size 0x120, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Decimal value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlValueConverter* valueConverter);
 
-  /// @brief Method CheckTotalAndFractionDigits addr 0x2741b24 size 0x2a4 virtual false final false
+  /// @brief Method CheckTotalAndFractionDigits, addr 0x28bfb48, size 0x2a4, virtual false, abstract: false, final false
   inline ::System::Exception* CheckTotalAndFractionDigits(::System::Decimal value, int32_t totalDigits, int32_t fractionDigits, bool checkTotal, bool checkFraction);
 
   // Ctor Parameters [CppParam { name: "", ty: "Numeric10FacetsChecker", modifiers: "&&", def_value: None }]

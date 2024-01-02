@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Tuple_2)
-namespace System {
-class ITupleInternal;
-}
 namespace System::Collections {
 class IStructuralComparable;
 }
-namespace System::Runtime::CompilerServices {
-class ITuple;
+namespace System::Text {
+class StringBuilder;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 class Object;
@@ -22,16 +22,16 @@ namespace System::Collections {
 class IComparer;
 }
 namespace System::Collections {
-class IStructuralEquatable;
-}
-namespace System::Collections {
 class IEqualityComparer;
 }
-namespace System::Text {
-class StringBuilder;
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System::Collections {
+class IStructuralEquatable;
 }
 namespace System {
-class IComparable;
+class ITupleInternal;
 }
 // Forward declare root types
 namespace System {
@@ -45,8 +45,8 @@ namespace System {
 // cpp template
 template <typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2488))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2490))
 // CS Name: ::System::Tuple`2<T1,T2>*
 class CORDL_TYPE Tuple_2 : public ::System::Object {
 public:
@@ -90,42 +90,42 @@ public:
 
   constexpr void __set_m_Item2(T2 value);
 
-  /// @brief Method get_Item1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T1 get_Item1();
 
-  /// @brief Method get_Item2 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T2 get_Item2();
 
   static inline ::System::Tuple_2<T1, T2>* New_ctor(T1 item1, T2 item2);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T1 item1, T2 item2);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method System.Collections.IStructuralEquatable.Equals addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IStructuralEquatable.Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IStructuralEquatable_Equals(::System::Object* other, ::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method System.IComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IComparable.CompareTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_IComparable_CompareTo(::System::Object* obj);
 
-  /// @brief Method System.Collections.IStructuralComparable.CompareTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IStructuralComparable.CompareTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralComparable_CompareTo(::System::Object* other, ::System::Collections::IComparer* comparer);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IStructuralEquatable.GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Collections_IStructuralEquatable_GetHashCode(::System::Collections::IEqualityComparer* comparer);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method System.ITupleInternal.ToString addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.ITupleInternal.ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW System_ITupleInternal_ToString(::System::Text::StringBuilder* sb);
 
-  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Runtime.CompilerServices.ITuple.get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t System_Runtime_CompilerServices_ITuple_get_Length();
 
   // Ctor Parameters [CppParam { name: "", ty: "Tuple_2", modifiers: "&&", def_value: None }]

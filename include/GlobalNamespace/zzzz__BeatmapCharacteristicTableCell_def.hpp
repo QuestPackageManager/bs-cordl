@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapCharacteristicTableCell)
-namespace HMUI {
-struct __SelectableCell__TransitionType;
-}
 namespace TMPro {
 class TextMeshProUGUI;
 }
 namespace UnityEngine::UI {
 class Image;
+}
+namespace HMUI {
+struct __SelectableCell__TransitionType;
 }
 namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicTableCell);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(13781))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5513))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5416))
 // CS Name: ::BeatmapCharacteristicTableCell*
 class CORDL_TYPE BeatmapCharacteristicTableCell : public ::HMUI::TableCell {
 public:
@@ -87,21 +87,21 @@ public:
 
   constexpr void __set__bgHighlightColor(::UnityEngine::Color value);
 
-  /// @brief Method SetData addr 0x2134f84 size 0x60 virtual false final false
+  /// @brief Method SetData, addr 0x22787c8, size 0x60, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method SelectionDidChange addr 0x2134fe4 size 0x4 virtual true final false
+  /// @brief Method SelectionDidChange, addr 0x2278828, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method HighlightDidChange addr 0x2135064 size 0x4 virtual true final false
+  /// @brief Method HighlightDidChange, addr 0x22788a8, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x2134fe8 size 0x7c virtual false final false
+  /// @brief Method RefreshVisuals, addr 0x227882c, size 0x7c, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicTableCell* New_ctor();
 
-  /// @brief Method .ctor addr 0x2135068 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x22788ac, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicTableCell", modifiers: "&&", def_value: None }]

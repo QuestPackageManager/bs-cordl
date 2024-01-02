@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBoneCapsule);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8172))
 // CS Name: ::OVRBoneCapsule*
 class CORDL_TYPE OVRBoneCapsule : public ::System::Object {
 public:
@@ -60,32 +60,32 @@ public:
 
   constexpr void __set__CapsuleCollider_k__BackingField(::UnityEngine::CapsuleCollider* value);
 
-  /// @brief Method get_BoneIndex addr 0x264a008 size 0x8 virtual false final false
+  /// @brief Method get_BoneIndex, addr 0x27c007c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
 
-  /// @brief Method set_BoneIndex addr 0x264a010 size 0x8 virtual false final false
+  /// @brief Method set_BoneIndex, addr 0x27c0084, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneIndex(int16_t value);
 
-  /// @brief Method get_CapsuleRigidbody addr 0x264a018 size 0x8 virtual false final false
+  /// @brief Method get_CapsuleRigidbody, addr 0x27c008c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rigidbody* get_CapsuleRigidbody();
 
-  /// @brief Method set_CapsuleRigidbody addr 0x264a020 size 0x8 virtual false final false
+  /// @brief Method set_CapsuleRigidbody, addr 0x27c0094, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
-  /// @brief Method get_CapsuleCollider addr 0x264a028 size 0x8 virtual false final false
+  /// @brief Method get_CapsuleCollider, addr 0x27c009c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::CapsuleCollider* get_CapsuleCollider();
 
-  /// @brief Method set_CapsuleCollider addr 0x264a030 size 0x8 virtual false final false
+  /// @brief Method set_CapsuleCollider, addr 0x27c00a4, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
 
   static inline ::GlobalNamespace::OVRBoneCapsule* New_ctor();
 
-  /// @brief Method .ctor addr 0x2649774 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x27bf7f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRBoneCapsule* New_ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
-  /// @brief Method .ctor addr 0x264a038 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x27c00ac, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRBoneCapsule", modifiers: "&&", def_value: None }]

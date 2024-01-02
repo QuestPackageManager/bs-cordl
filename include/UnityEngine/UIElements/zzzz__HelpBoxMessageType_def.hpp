@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::HelpBoxMessageType);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7195))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7109))
 // CS Name: ::UnityEngine.UIElements::HelpBoxMessageType
 struct CORDL_TYPE HelpBoxMessageType {
 public:

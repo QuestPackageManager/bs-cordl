@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDsaKCalculator)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -29,16 +29,16 @@ public:
   // Declarations
   __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
-  /// @brief Method get_IsDeterministic addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsDeterministic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsDeterministic();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method NextK addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method NextK, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDsaKCalculator", modifiers: "&&", def_value: None }]

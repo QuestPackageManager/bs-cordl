@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::LightmapBakeType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10033))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10105))
 // CS Name: ::UnityEngine::LightmapBakeType
 struct CORDL_TYPE LightmapBakeType {
 public:

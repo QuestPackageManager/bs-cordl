@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AssetObjectListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5911))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5818))
 // CS Name: ::AssetObjectListSO*
 class CORDL_TYPE AssetObjectListSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -35,12 +35,12 @@ public:
 
   constexpr void __set__objects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> value);
 
-  /// @brief Method get_objects addr 0x21a5ec0 size 0x8 virtual false final false
+  /// @brief Method get_objects, addr 0x22eb0b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> get_objects();
 
   static inline ::GlobalNamespace::AssetObjectListSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a5ec8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22eb0bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetObjectListSO", modifiers: "&&", def_value: None }]

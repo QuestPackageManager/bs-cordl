@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Timeline::MatchTargetFields);
 namespace UnityEngine::Timeline {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14108))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13837))
 // CS Name: ::UnityEngine.Timeline::MatchTargetFields
 struct CORDL_TYPE MatchTargetFields {
 public:

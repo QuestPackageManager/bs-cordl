@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::FtpLoginState);
 namespace System::Net {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7876))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9039))
 // CS Name: ::System.Net::FtpLoginState
 struct CORDL_TYPE FtpLoginState {
 public:

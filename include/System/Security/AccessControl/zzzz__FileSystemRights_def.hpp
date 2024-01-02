@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::AccessControl::FileSystemRights);
 namespace System::Security::AccessControl {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3032))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3033))
 // CS Name: ::System.Security.AccessControl::FileSystemRights
 struct CORDL_TYPE FileSystemRights {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::ObjectCreationHandling);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11822))
 // CS Name: ::Newtonsoft.Json::ObjectCreationHandling
 struct CORDL_TYPE ObjectCreationHandling {
 public:

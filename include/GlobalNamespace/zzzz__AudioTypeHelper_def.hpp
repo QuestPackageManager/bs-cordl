@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioTypeHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5980))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15842))
 // CS Name: ::AudioTypeHelper*
 class CORDL_TYPE AudioTypeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAudioTypeFromPath addr 0x21b3698 size 0x9c virtual false final false
+  /// @brief Method GetAudioTypeFromPath, addr 0xe26670, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::AudioType GetAudioTypeFromPath(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioTypeHelper", modifiers: "&&", def_value: None }]

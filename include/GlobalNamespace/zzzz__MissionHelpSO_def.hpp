@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionHelpSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4469))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4458))
 // CS Name: ::MissionHelpSO*
 class CORDL_TYPE MissionHelpSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__missionHelpId(::StringW value);
 
-  /// @brief Method get_missionHelpId addr 0x2204aac size 0x8 virtual false final false
+  /// @brief Method get_missionHelpId, addr 0x2352ad8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionHelpId();
 
   static inline ::GlobalNamespace::MissionHelpSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x2204ab4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2352ae0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionHelpSO", modifiers: "&&", def_value: None }]

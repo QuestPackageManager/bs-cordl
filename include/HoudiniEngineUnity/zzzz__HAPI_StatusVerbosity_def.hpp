@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_StatusVerbosity);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9615))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9688))
 // CS Name: ::HoudiniEngineUnity::HAPI_StatusVerbosity
 struct CORDL_TYPE HAPI_StatusVerbosity {
 public:

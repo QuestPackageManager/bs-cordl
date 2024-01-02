@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PhysicsPositionsMovementEventEffect)
+namespace UnityEngine {
+class Transform;
+}
 namespace GlobalNamespace {
-class BasicBeatmapEventData;
+class SongTimeFixedUpdateController;
 }
 namespace GlobalNamespace {
 class BeatmapCallbacksController;
 }
 namespace GlobalNamespace {
-class SongTimeFixedUpdateController;
-}
-namespace UnityEngine {
-class Transform;
+class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
-class BeatmapDataCallbackWrapper;
+class BasicBeatmapEventData;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PhysicsPositionsMovementEventEffect);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5073))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4968))
 // CS Name: ::PhysicsPositionsMovementEventEffect*
 class CORDL_TYPE PhysicsPositionsMovementEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -209,24 +209,24 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x2278d70 size 0x248 virtual false final false
+  /// @brief Method Start, addr 0x23b0b88, size 0x248, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2278fb8 size 0x154 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23b0dd0, size 0x154, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSongTimeFixedUpdate addr 0x227910c size 0xdc virtual false final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x23b0f24, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate addr 0x22791e8 size 0x70 virtual false final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x23b1000, size 0x70, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
-  /// @brief Method HandleBeatmapEvent addr 0x2279258 size 0x7c virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x23b1070, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x22792d4 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x23b10ec, size 0x107c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PhysicsPositionsMovementEventEffect", modifiers: "&&", def_value: None }]

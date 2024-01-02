@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::System::IDisposable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2413))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2415))
 // CS Name: ::System::IDisposable*
 class CORDL_TYPE IDisposable {
 public:
   // Declarations
-  /// @brief Method Dispose addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDisposable", modifiers: "&&", def_value: None }]

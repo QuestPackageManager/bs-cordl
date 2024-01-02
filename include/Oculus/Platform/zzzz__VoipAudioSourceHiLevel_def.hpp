@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VoipAudioSourceHiLevel)
-namespace UnityEngine {
-class AudioSource;
-}
-namespace Oculus::Platform {
-class IVoipPCMSource;
-}
 namespace Oculus::Platform {
 class __VoipAudioSourceHiLevel__FilterReadDelegate;
 }
 namespace Oculus::Platform {
 struct VoipSampleRate;
+}
+namespace Oculus::Platform {
+class IVoipPCMSource;
+}
+namespace UnityEngine {
+class AudioSource;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13396))
 // CS Name: ::VoipAudioSourceHiLevel::FilterReadDelegate*
 class CORDL_TYPE __VoipAudioSourceHiLevel__FilterReadDelegate : public ::UnityEngine::MonoBehaviour {
 public:
@@ -57,15 +57,15 @@ public:
 
   constexpr void __set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method Awake addr 0x25af6c8 size 0xb8 virtual false final false
+  /// @brief Method Awake, addr 0x2701b50, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnAudioFilterRead addr 0x25af780 size 0x4cc virtual false final false
+  /// @brief Method OnAudioFilterRead, addr 0x2701c04, size 0x4cc, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
   static inline ::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate* New_ctor();
 
-  /// @brief Method .ctor addr 0x25afc4c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x27020d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__VoipAudioSourceHiLevel__FilterReadDelegate", modifiers: "&&", def_value: None }]
@@ -102,8 +102,8 @@ static_assert(offsetof(::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13397))
 // CS Name: ::Oculus.Platform::VoipAudioSourceHiLevel*
 class CORDL_TYPE VoipAudioSourceHiLevel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -162,33 +162,33 @@ public:
 
   static inline bool getStaticF_verboseLogging();
 
-  /// @brief Method set_senderID addr 0x25aef5c size 0xac virtual false final false
+  /// @brief Method set_senderID, addr 0x27013e8, size 0xac, virtual false, abstract: false, final false
   inline void set_senderID(uint64_t value);
 
-  /// @brief Method Stop addr 0x25af008 size 0x4 virtual false final false
+  /// @brief Method Stop, addr 0x2701494, size 0x4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method SampleRateToEnum addr 0x25af00c size 0x3c virtual false final false
+  /// @brief Method SampleRateToEnum, addr 0x2701498, size 0x3c, virtual false, abstract: false, final false
   inline ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int32_t rate);
 
-  /// @brief Method Awake addr 0x25af048 size 0x2a4 virtual false final false
+  /// @brief Method Awake, addr 0x27014d4, size 0x2a0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x25af2ec size 0x1c virtual false final false
+  /// @brief Method Start, addr 0x2701774, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method CreatePCMSource addr 0x25af308 size 0x60 virtual true final false
+  /// @brief Method CreatePCMSource, addr 0x2701790, size 0x60, virtual true, abstract: false, final false
   inline void CreatePCMSource();
 
-  /// @brief Method MSToElements addr 0x25af370 size 0x68 virtual false final false
+  /// @brief Method MSToElements, addr 0x27017f8, size 0x68, virtual false, abstract: false, final false
   static inline int32_t MSToElements(int32_t ms);
 
-  /// @brief Method Update addr 0x25af3d8 size 0x2e8 virtual false final false
+  /// @brief Method Update, addr 0x2701860, size 0x2e8, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::Oculus::Platform::VoipAudioSourceHiLevel* New_ctor();
 
-  /// @brief Method .ctor addr 0x25af6c0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2701b48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VoipAudioSourceHiLevel", modifiers: "&&", def_value: None }]

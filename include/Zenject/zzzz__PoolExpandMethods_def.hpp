@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::PoolExpandMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10878))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10950))
 // CS Name: ::Zenject::PoolExpandMethods
 struct CORDL_TYPE PoolExpandMethods {
 public:

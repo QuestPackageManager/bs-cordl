@@ -5,23 +5,35 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LobbySetupViewController)
-namespace System {
-class Action;
+namespace HMUI {
+class ToggleBinder;
 }
 namespace GlobalNamespace {
-class ILobbyPlayerData;
+struct BeatmapLevelSelectionMask;
 }
-namespace HMUI {
-class HoverHint;
+namespace Polyglot {
+class LocalizedTextMeshProUGUI;
+}
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 struct CannotStartGameReason;
+}
+namespace GlobalNamespace {
+struct MultiplayerLobbyState;
+}
+namespace HMUI {
+class HoverHint;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+class EditableModifiersSelectionView;
+}
+namespace GlobalNamespace {
+class ILobbyPlayerData;
 }
 namespace GlobalNamespace {
 class EditableBeatmapSelectionView;
@@ -29,20 +41,8 @@ class EditableBeatmapSelectionView;
 namespace GlobalNamespace {
 class GameServersFilterText;
 }
-namespace GlobalNamespace {
-struct MultiplayerLobbyState;
-}
-namespace GlobalNamespace {
-class EditableModifiersSelectionView;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace Polyglot {
-class LocalizedTextMeshProUGUI;
-}
-namespace HMUI {
-class ToggleBinder;
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -54,8 +54,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbySetupViewController);
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 266, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5816))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5717))
 // CS Name: ::LobbySetupViewController*
 class CORDL_TYPE LobbySetupViewController : public ::HMUI::ViewController {
 public:
@@ -249,87 +249,87 @@ public:
 
   constexpr void __set__isQuickStart(bool value);
 
-  /// @brief Method add_selectBeatmapEvent addr 0x218b390 size 0x9c virtual false final false
+  /// @brief Method add_selectBeatmapEvent, addr 0x22cddf0, size 0x9c, virtual false, abstract: false, final false
   inline void add_selectBeatmapEvent(::System::Action* value);
 
-  /// @brief Method remove_selectBeatmapEvent addr 0x218b42c size 0x9c virtual false final false
+  /// @brief Method remove_selectBeatmapEvent, addr 0x22cde8c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_selectBeatmapEvent(::System::Action* value);
 
-  /// @brief Method add_selectModifiersEvent addr 0x218b4c8 size 0x9c virtual false final false
+  /// @brief Method add_selectModifiersEvent, addr 0x22cdf28, size 0x9c, virtual false, abstract: false, final false
   inline void add_selectModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_selectModifiersEvent addr 0x218b564 size 0x9c virtual false final false
+  /// @brief Method remove_selectModifiersEvent, addr 0x22cdfc4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_selectModifiersEvent(::System::Action* value);
 
-  /// @brief Method add_startGameOrReadyEvent addr 0x218b600 size 0x9c virtual false final false
+  /// @brief Method add_startGameOrReadyEvent, addr 0x22ce060, size 0x9c, virtual false, abstract: false, final false
   inline void add_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method remove_startGameOrReadyEvent addr 0x218b69c size 0x9c virtual false final false
+  /// @brief Method remove_startGameOrReadyEvent, addr 0x22ce0fc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_startGameOrReadyEvent(::System::Action* value);
 
-  /// @brief Method add_cancelGameOrUnreadyEvent addr 0x218b738 size 0x9c virtual false final false
+  /// @brief Method add_cancelGameOrUnreadyEvent, addr 0x22ce198, size 0x9c, virtual false, abstract: false, final false
   inline void add_cancelGameOrUnreadyEvent(::System::Action* value);
 
-  /// @brief Method remove_cancelGameOrUnreadyEvent addr 0x218b7d4 size 0x9c virtual false final false
+  /// @brief Method remove_cancelGameOrUnreadyEvent, addr 0x22ce234, size 0x9c, virtual false, abstract: false, final false
   inline void remove_cancelGameOrUnreadyEvent(::System::Action* value);
 
-  /// @brief Method add_clearSuggestedBeatmapEvent addr 0x218b870 size 0x9c virtual false final false
+  /// @brief Method add_clearSuggestedBeatmapEvent, addr 0x22ce2d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_clearSuggestedBeatmapEvent(::System::Action* value);
 
-  /// @brief Method remove_clearSuggestedBeatmapEvent addr 0x218b90c size 0x9c virtual false final false
+  /// @brief Method remove_clearSuggestedBeatmapEvent, addr 0x22ce36c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_clearSuggestedBeatmapEvent(::System::Action* value);
 
-  /// @brief Method add_clearSuggestedModifiersEvent addr 0x218b9a8 size 0xa0 virtual false final false
+  /// @brief Method add_clearSuggestedModifiersEvent, addr 0x22ce408, size 0xa0, virtual false, abstract: false, final false
   inline void add_clearSuggestedModifiersEvent(::System::Action* value);
 
-  /// @brief Method remove_clearSuggestedModifiersEvent addr 0x218ba48 size 0xa0 virtual false final false
+  /// @brief Method remove_clearSuggestedModifiersEvent, addr 0x22ce4a8, size 0xa0, virtual false, abstract: false, final false
   inline void remove_clearSuggestedModifiersEvent(::System::Action* value);
 
-  /// @brief Method Setup addr 0x218bae8 size 0x1f4 virtual false final false
+  /// @brief Method Setup, addr 0x22ce548, size 0x204, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, bool isPartyOwner, bool allowSongSelection, bool allowModifierSelection, bool isManaged, bool isQuickStart);
 
-  /// @brief Method SetLobbyPlayerData addr 0x218bd44 size 0x3bc virtual false final false
+  /// @brief Method SetLobbyPlayerData, addr 0x22ce9b0, size 0x3bc, virtual false, abstract: false, final false
   inline void SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData);
 
-  /// @brief Method SetPlayersMissingLevelText addr 0x218c124 size 0x58 virtual false final false
+  /// @brief Method SetPlayersMissingLevelText, addr 0x22ced90, size 0x58, virtual false, abstract: false, final false
   inline void SetPlayersMissingLevelText(::StringW playersMissingLevelText);
 
-  /// @brief Method SetPlayerActiveState addr 0x218c100 size 0x24 virtual false final false
+  /// @brief Method SetPlayerActiveState, addr 0x22ced6c, size 0x24, virtual false, abstract: false, final false
   inline void SetPlayerActiveState(bool isActive);
 
-  /// @brief Method SetStartGameEnabled addr 0x218c17c size 0x68 virtual false final false
+  /// @brief Method SetStartGameEnabled, addr 0x22cede8, size 0x68, virtual false, abstract: false, final false
   inline void SetStartGameEnabled(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
-  /// @brief Method SetLobbyState addr 0x218c1e4 size 0xe0 virtual false final false
+  /// @brief Method SetLobbyState, addr 0x22cee50, size 0xe0, virtual false, abstract: false, final false
   inline void SetLobbyState(::GlobalNamespace::MultiplayerLobbyState lobbyState);
 
-  /// @brief Method DidActivate addr 0x218c384 size 0x298 virtual true final false
+  /// @brief Method DidActivate, addr 0x22ceff0, size 0x298, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method OnDestroy addr 0x218c61c size 0x1c virtual true final false
+  /// @brief Method OnDestroy, addr 0x22cf288, size 0x1c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   static inline ::GlobalNamespace::LobbySetupViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x218c638 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22cf2a4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__44_0 addr 0x218c6a0 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_0, addr 0x22cf30c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_0();
 
-  /// @brief Method <DidActivate>b__44_1 addr 0x218c6bc size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_1, addr 0x22cf328, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_1();
 
-  /// @brief Method <DidActivate>b__44_2 addr 0x218c6d8 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_2, addr 0x22cf344, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_2();
 
-  /// @brief Method <DidActivate>b__44_3 addr 0x218c6f4 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_3, addr 0x22cf360, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_3();
 
-  /// @brief Method <DidActivate>b__44_4 addr 0x218c710 size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_4, addr 0x22cf37c, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_4();
 
-  /// @brief Method <DidActivate>b__44_5 addr 0x218c72c size 0x1c virtual false final false
+  /// @brief Method <DidActivate>b__44_5, addr 0x22cf398, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__44_5();
 
   // Ctor Parameters [CppParam { name: "", ty: "LobbySetupViewController", modifiers: "&&", def_value: None }]

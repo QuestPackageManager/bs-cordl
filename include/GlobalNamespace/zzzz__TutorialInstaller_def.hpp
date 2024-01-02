@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialInstaller)
 namespace GlobalNamespace {
-class PlayerHeightDetector;
+class TutorialSceneSetupData;
 }
 namespace UnityEngine {
 class AudioClip;
 }
 namespace GlobalNamespace {
-class EffectPoolsManualInstaller;
+class PlayerHeightDetector;
 }
 namespace GlobalNamespace {
-class TutorialSceneSetupData;
+class EffectPoolsManualInstaller;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialInstaller);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5495))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5405))
 // CS Name: ::TutorialInstaller*
 class CORDL_TYPE TutorialInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -78,12 +78,12 @@ public:
 
   constexpr void __set__sceneSetupData(::GlobalNamespace::TutorialSceneSetupData* value);
 
-  /// @brief Method InstallBindings addr 0x212df70 size 0xd08 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2273700, size 0xd08, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212ec78 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2274408, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialInstaller", modifiers: "&&", def_value: None }]

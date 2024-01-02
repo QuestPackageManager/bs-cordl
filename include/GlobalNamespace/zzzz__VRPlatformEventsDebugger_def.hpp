@@ -5,14 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(VRPlatformEventsDebugger)
-namespace System {
-class IDisposable;
+namespace Zenject {
+class IInitializable;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
-namespace Zenject {
-class IInitializable;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::VRPlatformEventsDebugger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14000))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14440))
 // CS Name: ::VRPlatformEventsDebugger*
 class CORDL_TYPE VRPlatformEventsDebugger : public ::System::Object {
 public:
@@ -33,11 +36,16 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x10, size 0x8
   __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
+  __declspec(property(get = get_loggerPrefix))::StringW loggerPrefix;
+
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
+  constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
   constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
 
@@ -45,36 +53,36 @@ public:
 
   constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method Initialize addr 0x1fab46c size 0x400 virtual true final true
+  /// @brief Method get_loggerPrefix, addr 0x21003bc, size 0x40, virtual true, abstract: false, final true
+  inline ::StringW get_loggerPrefix();
+
+  /// @brief Method Initialize, addr 0x21003fc, size 0x400, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method Dispose addr 0x1fab86c size 0x404 virtual true final true
+  /// @brief Method Dispose, addr 0x21007fc, size 0x404, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleInputFocusWasCaptured addr 0x1fabc70 size 0x40 virtual false final false
+  /// @brief Method HandleInputFocusWasCaptured, addr 0x2100c00, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasCaptured();
 
-  /// @brief Method HandleInputFocusWasReleased addr 0x1fabd08 size 0x40 virtual false final false
+  /// @brief Method HandleInputFocusWasReleased, addr 0x2100c04, size 0x4, virtual false, abstract: false, final false
   inline void HandleInputFocusWasReleased();
 
-  /// @brief Method HandleHMDUnmounted addr 0x1fabd48 size 0x40 virtual false final false
+  /// @brief Method HandleHMDUnmounted, addr 0x2100c08, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDUnmounted();
 
-  /// @brief Method HandleHMDMounted addr 0x1fabd88 size 0x40 virtual false final false
+  /// @brief Method HandleHMDMounted, addr 0x2100c0c, size 0x4, virtual false, abstract: false, final false
   inline void HandleHMDMounted();
 
-  /// @brief Method HandleVRFocusWasCaptured addr 0x1fabdc8 size 0x40 virtual false final false
+  /// @brief Method HandleVRFocusWasCaptured, addr 0x2100c10, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasCaptured();
 
-  /// @brief Method HandleVRFocusWasReleased addr 0x1fabe08 size 0x40 virtual false final false
+  /// @brief Method HandleVRFocusWasReleased, addr 0x2100c14, size 0x4, virtual false, abstract: false, final false
   inline void HandleVRFocusWasReleased();
-
-  /// @brief Method Log addr 0x1fabcb0 size 0x58 virtual false final false
-  static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::VRPlatformEventsDebugger* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fabe48 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2100c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "VRPlatformEventsDebugger", modifiers: "&&", def_value: None }]

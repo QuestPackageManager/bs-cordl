@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::TreePrototype);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15467))
 // CS Name: ::UnityEngine::TreePrototype*
 class CORDL_TYPE TreePrototype : public ::System::Object {
 public:
@@ -61,33 +61,33 @@ public:
 
   constexpr void __set_m_NavMeshLod(int32_t value);
 
-  /// @brief Method get_prefab addr 0x2bb4efc size 0x8 virtual false final false
+  /// @brief Method get_prefab, addr 0x2d1c2ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GameObject* get_prefab();
 
-  /// @brief Method set_prefab addr 0x2bb4f04 size 0x8 virtual false final false
+  /// @brief Method set_prefab, addr 0x2d1c2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_prefab(::UnityEngine::GameObject* value);
 
-  /// @brief Method get_bendFactor addr 0x2bb4f0c size 0x8 virtual false final false
+  /// @brief Method get_bendFactor, addr 0x2d1c2bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bendFactor();
 
-  /// @brief Method set_bendFactor addr 0x2bb4f14 size 0x8 virtual false final false
+  /// @brief Method set_bendFactor, addr 0x2d1c2c4, size 0x8, virtual false, abstract: false, final false
   inline void set_bendFactor(float_t value);
 
-  /// @brief Method get_navMeshLod addr 0x2bb4f1c size 0x8 virtual false final false
+  /// @brief Method get_navMeshLod, addr 0x2d1c2cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_navMeshLod();
 
   static inline ::UnityEngine::TreePrototype* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb4f24 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1c2d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Equals addr 0x2bb4f2c size 0x64 virtual true final false
+  /// @brief Method Equals, addr 0x2d1c2dc, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2bb5068 size 0x8 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2d1c418, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Equals addr 0x2bb4f90 size 0xd8 virtual false final false
+  /// @brief Method Equals, addr 0x2d1c340, size 0xd8, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TreePrototype* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "TreePrototype", modifiers: "&&", def_value: None }]

@@ -10,10 +10,10 @@ namespace System::Threading {
 class ReaderWriterLockSlim;
 }
 namespace LiteNetLib {
-struct PacketProperty;
+class NetPacket;
 }
 namespace LiteNetLib {
-class NetPacket;
+struct PacketProperty;
 }
 // Forward declare root types
 namespace LiteNetLib {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacketPool);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14510))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14172))
 // CS Name: ::LiteNetLib::NetPacketPool*
 class CORDL_TYPE NetPacketPool : public ::System::Object {
 public:
@@ -58,24 +58,24 @@ public:
 
   constexpr void __set__count(int32_t value);
 
-  /// @brief Method GetWithData addr 0x209f6d8 size 0xd8 virtual false final false
+  /// @brief Method GetWithData, addr 0x220152c, size 0xd8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  /// @brief Method GetWithProperty addr 0x209d260 size 0xac virtual false final false
+  /// @brief Method GetWithProperty, addr 0x21ff0b4, size 0xac, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size);
 
-  /// @brief Method GetWithProperty addr 0x209de04 size 0xa4 virtual false final false
+  /// @brief Method GetWithProperty, addr 0x21ffc58, size 0xa4, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetPacket addr 0x209bb08 size 0x16c virtual false final false
+  /// @brief Method GetPacket, addr 0x21fd95c, size 0x16c, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetPacket(int32_t size);
 
-  /// @brief Method Recycle addr 0x209a64c size 0x140 virtual false final false
+  /// @brief Method Recycle, addr 0x21fc4a0, size 0x140, virtual false, abstract: false, final false
   inline void Recycle(::LiteNetLib::NetPacket* packet);
 
   static inline ::LiteNetLib::NetPacketPool* New_ctor();
 
-  /// @brief Method .ctor addr 0x209b3b4 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x21fd208, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetPacketPool", modifiers: "&&", def_value: None }]

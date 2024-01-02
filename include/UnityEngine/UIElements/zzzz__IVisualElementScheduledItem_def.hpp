@@ -15,24 +15,24 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IVisualElementScheduledItem);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6832))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6746))
 // CS Name: ::UnityEngine.UIElements::IVisualElementScheduledItem*
 class CORDL_TYPE IVisualElementScheduledItem {
 public:
   // Declarations
-  /// @brief Method Resume addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resume, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resume();
 
-  /// @brief Method Pause addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Pause, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Pause();
 
-  /// @brief Method ExecuteLater addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteLater, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteLater(int64_t delayMs);
 
-  /// @brief Method StartingIn addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StartingIn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* StartingIn(int64_t delayMs);
 
-  /// @brief Method Every addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Every, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::IVisualElementScheduledItem* Every(int64_t intervalMs);
 
   // Ctor Parameters [CppParam { name: "", ty: "IVisualElementScheduledItem", modifiers: "&&", def_value: None }]

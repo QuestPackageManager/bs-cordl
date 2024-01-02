@@ -13,10 +13,10 @@ namespace UnityEngine::TextCore {
 struct GlyphClassDefinitionType;
 }
 namespace UnityEngine::TextCore {
-struct GlyphRect;
+struct GlyphMetrics;
 }
 namespace UnityEngine::TextCore {
-struct GlyphMetrics;
+struct GlyphRect;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::LowLevel {
@@ -28,8 +28,8 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct);
 // SizeInfo { instance_size: 52, native_size: 52, calculated_instance_size: 52, calculated_native_size: 68, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15513)), TypeDefinitionIndex(TypeDefinitionIndex(15511)), TypeDefinitionIndex(TypeDefinitionIndex(15512))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15527)), TypeDefinitionIndex(TypeDefinitionIndex(15529)), TypeDefinitionIndex(TypeDefinitionIndex(15528))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15531))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphMarshallingStruct
 struct CORDL_TYPE GlyphMarshallingStruct {
 public:

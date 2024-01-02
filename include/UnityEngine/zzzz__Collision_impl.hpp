@@ -2,9 +2,9 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Collision_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__ContactPoint_def.hpp"
-#include "UnityEngine/zzzz__Component_def.hpp"
 constexpr ::UnityEngine::Vector3& UnityEngine::Collision::__get_m_Impulse() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Impulse;

@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DifficultyBeatmapSetExtensions)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class PreviewDifficultyBeatmapSet;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyBeatmapSetExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4420))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4398))
 // CS Name: ::DifficultyBeatmapSetExtensions*
 class CORDL_TYPE DifficultyBeatmapSetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetDifficultyBeatmapSetsWithout360Movement addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetDifficultyBeatmapSetsWithout360Movement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::IReadOnlyList_1<T>* GetDifficultyBeatmapSetsWithout360Movement(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets);
 
-  /// @brief Method GetPreviewDifficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPreviewDifficultyBeatmapSets, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*
   GetPreviewDifficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<T>* difficultyBeatmapSets);

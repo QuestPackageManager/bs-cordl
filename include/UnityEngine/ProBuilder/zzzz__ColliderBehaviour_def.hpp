@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColliderBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12051))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12039))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12123))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12111))
 // CS Name: ::UnityEngine.ProBuilder::ColliderBehaviour*
 class CORDL_TYPE ColliderBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x29ba71c size 0x10c virtual true final false
+  /// @brief Method Initialize, addr 0x2b3c470, size 0x10c, virtual true, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method OnEnterPlayMode addr 0x29ba90c size 0xb8 virtual true final false
+  /// @brief Method OnEnterPlayMode, addr 0x2b3c660, size 0xb8, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded addr 0x29ba9c4 size 0xb8 virtual true final false
+  /// @brief Method OnSceneLoaded, addr 0x2b3c718, size 0xb8, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
   static inline ::UnityEngine::ProBuilder::ColliderBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x29baa7c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2b3c7d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColliderBehaviour", modifiers: "&&", def_value: None }]

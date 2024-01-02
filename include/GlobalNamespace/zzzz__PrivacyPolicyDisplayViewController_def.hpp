@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 CORDL_MODULE_EXPORT(PrivacyPolicyDisplayViewController)
-namespace HMUI {
-class TextPageScrollView;
-}
 namespace GlobalNamespace {
 class LocalizedTextAsset;
+}
+namespace HMUI {
+class TextPageScrollView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PrivacyPolicyDisplayViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5832))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5732))
 // CS Name: ::PrivacyPolicyDisplayViewController*
 class CORDL_TYPE PrivacyPolicyDisplayViewController : public ::HMUI::ViewController {
 public:
@@ -44,12 +44,12 @@ public:
 
   constexpr void __set__localizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value);
 
-  /// @brief Method DidActivate addr 0x219290c size 0x44 virtual true final false
+  /// @brief Method DidActivate, addr 0x22d56f0, size 0x44, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::PrivacyPolicyDisplayViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2192950 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d5734, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrivacyPolicyDisplayViewController", modifiers: "&&", def_value: None }]

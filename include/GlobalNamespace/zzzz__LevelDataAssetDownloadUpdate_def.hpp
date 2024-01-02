@@ -25,7 +25,7 @@ MARK_VAL_T(::GlobalNamespace::LevelDataAssetDownloadUpdate);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4434))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4414))
 // CS Name: ::LevelDataAssetDownloadUpdate::AssetDownloadingState
 struct CORDL_TYPE __LevelDataAssetDownloadUpdate__AssetDownloadingState {
 public:
@@ -78,15 +78,15 @@ static_assert(offsetof(::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetD
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4434))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4414))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4415))
 // CS Name: ::LevelDataAssetDownloadUpdate
 struct CORDL_TYPE LevelDataAssetDownloadUpdate {
 public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState;
 
-  /// @brief Method .ctor addr 0x2200728 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x234cdd8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters [CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "bytesTotal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:

@@ -13,10 +13,10 @@ namespace UnityEngine {
 struct Vector2;
 }
 namespace UnityEngine {
-struct Color;
+struct Vector4;
 }
 namespace UnityEngine {
-struct Vector4;
+struct Color;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::UnityEngine::TerrainLayer);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10128))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15465))
 // CS Name: ::UnityEngine::TerrainLayer*
 class CORDL_TYPE TerrainLayer : public ::UnityEngine::Object {
 public:
@@ -62,103 +62,103 @@ public:
 
   static inline ::UnityEngine::TerrainLayer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb4228 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x2d1b5d8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Internal_Create addr 0x2bb42a8 size 0x3c virtual false final false
+  /// @brief Method Internal_Create, addr 0x2d1b658, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::TerrainLayer* layer);
 
-  /// @brief Method get_diffuseTexture addr 0x2bb42e4 size 0x3c virtual false final false
+  /// @brief Method get_diffuseTexture, addr 0x2d1b694, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_diffuseTexture();
 
-  /// @brief Method set_diffuseTexture addr 0x2bb4320 size 0x44 virtual false final false
+  /// @brief Method set_diffuseTexture, addr 0x2d1b6d0, size 0x44, virtual false, abstract: false, final false
   inline void set_diffuseTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method get_normalMapTexture addr 0x2bb4364 size 0x3c virtual false final false
+  /// @brief Method get_normalMapTexture, addr 0x2d1b714, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_normalMapTexture();
 
-  /// @brief Method set_normalMapTexture addr 0x2bb43a0 size 0x44 virtual false final false
+  /// @brief Method set_normalMapTexture, addr 0x2d1b750, size 0x44, virtual false, abstract: false, final false
   inline void set_normalMapTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method get_maskMapTexture addr 0x2bb43e4 size 0x3c virtual false final false
+  /// @brief Method get_maskMapTexture, addr 0x2d1b794, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Texture2D* get_maskMapTexture();
 
-  /// @brief Method set_maskMapTexture addr 0x2bb4420 size 0x44 virtual false final false
+  /// @brief Method set_maskMapTexture, addr 0x2d1b7d0, size 0x44, virtual false, abstract: false, final false
   inline void set_maskMapTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method get_tileSize addr 0x2bb4464 size 0x4c virtual false final false
+  /// @brief Method get_tileSize, addr 0x2d1b814, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tileSize();
 
-  /// @brief Method set_tileSize addr 0x2bb44f4 size 0x48 virtual false final false
+  /// @brief Method set_tileSize, addr 0x2d1b8a4, size 0x48, virtual false, abstract: false, final false
   inline void set_tileSize(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_tileOffset addr 0x2bb4580 size 0x4c virtual false final false
+  /// @brief Method get_tileOffset, addr 0x2d1b930, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_tileOffset();
 
-  /// @brief Method set_tileOffset addr 0x2bb4610 size 0x48 virtual false final false
+  /// @brief Method set_tileOffset, addr 0x2d1b9c0, size 0x48, virtual false, abstract: false, final false
   inline void set_tileOffset(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_specular addr 0x2bb469c size 0x58 virtual false final false
+  /// @brief Method get_specular, addr 0x2d1ba4c, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_specular();
 
-  /// @brief Method set_specular addr 0x2bb4738 size 0x54 virtual false final false
+  /// @brief Method set_specular, addr 0x2d1bae8, size 0x54, virtual false, abstract: false, final false
   inline void set_specular(::UnityEngine::Color value);
 
-  /// @brief Method get_metallic addr 0x2bb47d0 size 0x3c virtual false final false
+  /// @brief Method get_metallic, addr 0x2d1bb80, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_metallic();
 
-  /// @brief Method set_metallic addr 0x2bb480c size 0x4c virtual false final false
+  /// @brief Method set_metallic, addr 0x2d1bbbc, size 0x4c, virtual false, abstract: false, final false
   inline void set_metallic(float_t value);
 
-  /// @brief Method get_smoothness addr 0x2bb4858 size 0x3c virtual false final false
+  /// @brief Method get_smoothness, addr 0x2d1bc08, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_smoothness();
 
-  /// @brief Method set_smoothness addr 0x2bb4894 size 0x4c virtual false final false
+  /// @brief Method set_smoothness, addr 0x2d1bc44, size 0x4c, virtual false, abstract: false, final false
   inline void set_smoothness(float_t value);
 
-  /// @brief Method set_normalScale addr 0x2bb48e0 size 0x4c virtual false final false
+  /// @brief Method set_normalScale, addr 0x2d1bc90, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalScale(float_t value);
 
-  /// @brief Method set_diffuseRemapMin addr 0x2bb492c size 0x54 virtual false final false
+  /// @brief Method set_diffuseRemapMin, addr 0x2d1bcdc, size 0x54, virtual false, abstract: false, final false
   inline void set_diffuseRemapMin(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_diffuseRemapMax addr 0x2bb49c4 size 0x54 virtual false final false
+  /// @brief Method set_diffuseRemapMax, addr 0x2d1bd74, size 0x54, virtual false, abstract: false, final false
   inline void set_diffuseRemapMax(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_maskMapRemapMin addr 0x2bb4a5c size 0x54 virtual false final false
+  /// @brief Method set_maskMapRemapMin, addr 0x2d1be0c, size 0x54, virtual false, abstract: false, final false
   inline void set_maskMapRemapMin(::UnityEngine::Vector4 value);
 
-  /// @brief Method set_maskMapRemapMax addr 0x2bb4af4 size 0x54 virtual false final false
+  /// @brief Method set_maskMapRemapMax, addr 0x2d1bea4, size 0x54, virtual false, abstract: false, final false
   inline void set_maskMapRemapMax(::UnityEngine::Vector4 value);
 
-  /// @brief Method get_tileSize_Injected addr 0x2bb44b0 size 0x44 virtual false final false
+  /// @brief Method get_tileSize_Injected, addr 0x2d1b860, size 0x44, virtual false, abstract: false, final false
   inline void get_tileSize_Injected(ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method set_tileSize_Injected addr 0x2bb453c size 0x44 virtual false final false
+  /// @brief Method set_tileSize_Injected, addr 0x2d1b8ec, size 0x44, virtual false, abstract: false, final false
   inline void set_tileSize_Injected(ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method get_tileOffset_Injected addr 0x2bb45cc size 0x44 virtual false final false
+  /// @brief Method get_tileOffset_Injected, addr 0x2d1b97c, size 0x44, virtual false, abstract: false, final false
   inline void get_tileOffset_Injected(ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method set_tileOffset_Injected addr 0x2bb4658 size 0x44 virtual false final false
+  /// @brief Method set_tileOffset_Injected, addr 0x2d1ba08, size 0x44, virtual false, abstract: false, final false
   inline void set_tileOffset_Injected(ByRef<::UnityEngine::Vector2> value);
 
-  /// @brief Method get_specular_Injected addr 0x2bb46f4 size 0x44 virtual false final false
+  /// @brief Method get_specular_Injected, addr 0x2d1baa4, size 0x44, virtual false, abstract: false, final false
   inline void get_specular_Injected(ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method set_specular_Injected addr 0x2bb478c size 0x44 virtual false final false
+  /// @brief Method set_specular_Injected, addr 0x2d1bb3c, size 0x44, virtual false, abstract: false, final false
   inline void set_specular_Injected(ByRef<::UnityEngine::Color> value);
 
-  /// @brief Method set_diffuseRemapMin_Injected addr 0x2bb4980 size 0x44 virtual false final false
+  /// @brief Method set_diffuseRemapMin_Injected, addr 0x2d1bd30, size 0x44, virtual false, abstract: false, final false
   inline void set_diffuseRemapMin_Injected(ByRef<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_diffuseRemapMax_Injected addr 0x2bb4a18 size 0x44 virtual false final false
+  /// @brief Method set_diffuseRemapMax_Injected, addr 0x2d1bdc8, size 0x44, virtual false, abstract: false, final false
   inline void set_diffuseRemapMax_Injected(ByRef<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_maskMapRemapMin_Injected addr 0x2bb4ab0 size 0x44 virtual false final false
+  /// @brief Method set_maskMapRemapMin_Injected, addr 0x2d1be60, size 0x44, virtual false, abstract: false, final false
   inline void set_maskMapRemapMin_Injected(ByRef<::UnityEngine::Vector4> value);
 
-  /// @brief Method set_maskMapRemapMax_Injected addr 0x2bb4b48 size 0x44 virtual false final false
+  /// @brief Method set_maskMapRemapMax_Injected, addr 0x2d1bef8, size 0x44, virtual false, abstract: false, final false
   inline void set_maskMapRemapMax_Injected(ByRef<::UnityEngine::Vector4> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "TerrainLayer", modifiers: "&&", def_value: None }]

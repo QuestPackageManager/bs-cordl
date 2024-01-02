@@ -7,23 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TransientProvider)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class Type;
 }
-namespace Zenject {
-class InjectContext;
+namespace System {
+class Action;
 }
 namespace Zenject {
 class IProvider;
 }
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace System {
-class Object;
+class DiContainer;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -31,14 +28,17 @@ template <typename T> class IEnumerable_1;
 namespace Zenject {
 class __TransientProvider____c__DisplayClass11_0;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
 namespace Zenject {
-class DiContainer;
+class InjectContext;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+class Object;
 }
-namespace System {
-class Action;
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -57,8 +57,8 @@ MARK_REF_PTR_T(::Zenject::__TransientProvider____c__DisplayClass11_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11226))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11298))
 // CS Name: ::TransientProvider::<>c__DisplayClass11_0*
 class CORDL_TYPE __TransientProvider____c__DisplayClass11_0 : public ::System::Object {
 public:
@@ -110,16 +110,16 @@ public:
 
   static inline ::Zenject::__TransientProvider____c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2da5fd4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0dda4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__0 addr 0x2da5fdc size 0xf4 virtual false final false
+  /// @brief Method <GetAllInstancesWithInjectSplit>b__0, addr 0x2f0ddac, size 0xf4, virtual false, abstract: false, final false
   inline void _GetAllInstancesWithInjectSplit_b__0();
 
-  /// @brief Method __zenCreate addr 0x2da60d0 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2f0dea0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2da612c size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2f0defc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TransientProvider____c__DisplayClass11_0", modifiers: "&&", def_value: None }]
@@ -171,8 +171,8 @@ static_assert(offsetof(::Zenject::__TransientProvider____c__DisplayClass11_0, __
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11299))
 // CS Name: ::Zenject::TransientProvider*
 class CORDL_TYPE TransientProvider : public ::System::Object {
 public:
@@ -235,24 +235,24 @@ public:
                                                        ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::StringW bindingContext,
                                                        ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method .ctor addr 0x2da5af0 size 0x1a4 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0d8c0, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* concreteType, ::Zenject::DiContainer* container, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments, ::StringW bindingContext,
                     ::System::Object* concreteIdentifier, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_IsCached addr 0x2da5c94 size 0x8 virtual true final true
+  /// @brief Method get_IsCached, addr 0x2f0da64, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x2da5c9c size 0x5c virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x2f0da6c, size 0x5c, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x2da5cf8 size 0xb4 virtual true final true
+  /// @brief Method GetInstanceType, addr 0x2f0dac8, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x2da5dbc size 0x218 virtual true final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x2f0db8c, size 0x218, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetTypeToCreate addr 0x2da5dac size 0x10 virtual false final false
+  /// @brief Method GetTypeToCreate, addr 0x2f0db7c, size 0x10, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeToCreate(::System::Type* contractType);
 
   // Ctor Parameters [CppParam { name: "", ty: "TransientProvider", modifiers: "&&", def_value: None }]

@@ -4,38 +4,38 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(TstInfo)
-namespace Org::BouncyCastle::Asn1::X509 {
-class GeneralName;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1::Tsp {
-class MessageImprint;
+class Accuracy;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class X509Extensions;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerBoolean;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1::Tsp {
-class Accuracy;
+class MessageImprint;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerBoolean;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerGeneralizedTime;
 }
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
-class X509Extensions;
+class GeneralName;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Tsp {
@@ -163,12 +163,12 @@ public:
 
   constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  /// @brief Method GetInstance addr 0x10088dc size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0x1079b28, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1008980 size 0x814 virtual false final false
+  /// @brief Method .ctor, addr 0x1079bcc, size 0x814, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Tsp::TstInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicyId, ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint,
@@ -177,42 +177,42 @@ public:
                                                                   ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa,
                                                                   ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method .ctor addr 0x1009194 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x107a3e0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* tsaPolicyId, ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* messageImprint, ::Org::BouncyCastle::Asn1::DerInteger* serialNumber,
                     ::Org::BouncyCastle::Asn1::DerGeneralizedTime* genTime, ::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy, ::Org::BouncyCastle::Asn1::DerBoolean* ordering,
                     ::Org::BouncyCastle::Asn1::DerInteger* nonce, ::Org::BouncyCastle::Asn1::X509::GeneralName* tsa, ::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method get_Version addr 0x1009254 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0x107a4a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_MessageImprint addr 0x100925c size 0x8 virtual false final false
+  /// @brief Method get_MessageImprint, addr 0x107a4a8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::MessageImprint* get_MessageImprint();
 
-  /// @brief Method get_Policy addr 0x1009264 size 0x8 virtual false final false
+  /// @brief Method get_Policy, addr 0x107a4b0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Policy();
 
-  /// @brief Method get_SerialNumber addr 0x100926c size 0x8 virtual false final false
+  /// @brief Method get_SerialNumber, addr 0x107a4b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SerialNumber();
 
-  /// @brief Method get_Accuracy addr 0x1009274 size 0x8 virtual false final false
+  /// @brief Method get_Accuracy, addr 0x107a4c0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Tsp::Accuracy* get_Accuracy();
 
-  /// @brief Method get_GenTime addr 0x100927c size 0x8 virtual false final false
+  /// @brief Method get_GenTime, addr 0x107a4c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_GenTime();
 
-  /// @brief Method get_Ordering addr 0x1009284 size 0x8 virtual false final false
+  /// @brief Method get_Ordering, addr 0x107a4d0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBoolean* get_Ordering();
 
-  /// @brief Method get_Nonce addr 0x100928c size 0x8 virtual false final false
+  /// @brief Method get_Nonce, addr 0x107a4d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Nonce();
 
-  /// @brief Method get_Tsa addr 0x1009294 size 0x8 virtual false final false
+  /// @brief Method get_Tsa, addr 0x107a4e0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Tsa();
 
-  /// @brief Method get_Extensions addr 0x100929c size 0x8 virtual false final false
+  /// @brief Method get_Extensions, addr 0x107a4e8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method ToAsn1Object addr 0x10092a4 size 0x298 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x107a4f0, size 0x298, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TstInfo", modifiers: "&&", def_value: None }]

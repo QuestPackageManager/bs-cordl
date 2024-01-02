@@ -1,12 +1,12 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__PrefabFactory_4_def.hpp"
-#include "Zenject/zzzz__DiContainer_def.hpp"
-#include "Zenject/zzzz__IFactory_5_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
-#include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IFactory_5_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory_5<::UnityEngine::Object*,P1,P2,P3,T>"
 template <typename P1, typename P2, typename P3, typename T> constexpr Zenject::PrefabFactory_4<P1, P2, P3, T>::operator ::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*() noexcept {
   return static_cast<::Zenject::IFactory_5<::UnityEngine::Object*, P1, P2, P3, T>*>(static_cast<void*>(this));
@@ -34,10 +34,8 @@ template <typename P1, typename P2, typename P3, typename T> inline ::Zenject::D
   return ::cordl_internals::RunMethodRethrow<::Zenject::DiContainer*, false>(this, ___internal_method);
 }
 template <typename P1, typename P2, typename P3, typename T> inline T Zenject::PrefabFactory_4<P1, P2, P3, T>::Create(::UnityEngine::Object* prefab, P1 param, P2 param2, P3 param3) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabFactory_4<P1, P2, P3, T>*>::get(), "Create", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<P1>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<P2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<P3>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabFactory_4<P1, P2, P3, T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, prefab, param, param2, param3);
 }
 template <typename P1, typename P2, typename P3, typename T> inline ::Zenject::PrefabFactory_4<P1, P2, P3, T>* Zenject::PrefabFactory_4<P1, P2, P3, T>::New_ctor() {

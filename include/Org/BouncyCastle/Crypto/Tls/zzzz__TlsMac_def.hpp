@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsMac)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsMac);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1311))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsMac*
 class CORDL_TYPE TlsMac : public ::System::Object {
@@ -92,26 +92,26 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor addr 0xf37e0c size 0x404 virtual false final false
+  /// @brief Method .ctor, addr 0xfae054, size 0x404, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method get_MacSecret addr 0xf382bc size 0x8 virtual true final false
+  /// @brief Method get_MacSecret, addr 0xfae504, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MacSecret();
 
-  /// @brief Method get_Size addr 0xf382c4 size 0x8 virtual true final false
+  /// @brief Method get_Size, addr 0xfae50c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
-  /// @brief Method CalculateMac addr 0xf382cc size 0x2f4 virtual true final false
+  /// @brief Method CalculateMac, addr 0xfae514, size 0x2f4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length);
 
-  /// @brief Method CalculateMacConstantTime addr 0xf38794 size 0x284 virtual true final false
+  /// @brief Method CalculateMacConstantTime, addr 0xfae9dc, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMacConstantTime(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length, int32_t fullLength,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> dummyData);
 
-  /// @brief Method GetDigestBlockCount addr 0xf38a18 size 0x10 virtual true final false
+  /// @brief Method GetDigestBlockCount, addr 0xfaec60, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetDigestBlockCount(int32_t inputLength);
 
-  /// @brief Method Truncate addr 0xf38a28 size 0x88 virtual true final false
+  /// @brief Method Truncate, addr 0xfaec70, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Truncate(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsMac", modifiers: "&&", def_value: None }]

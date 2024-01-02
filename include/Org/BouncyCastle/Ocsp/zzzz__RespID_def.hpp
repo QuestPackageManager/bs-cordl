@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RespID)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::X509 {
 class X509Name;
-}
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 class ResponderID;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Ocsp {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RespID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1623))
 // CS Name: ::Org.BouncyCastle.Ocsp::RespID*
 class CORDL_TYPE RespID : public ::System::Object {
@@ -44,26 +44,26 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
-  /// @brief Method .ctor addr 0x102ac9c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x109beec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* id);
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
-  /// @brief Method .ctor addr 0x1033b1c size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x10a4d6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* name);
 
   static inline ::Org::BouncyCastle::Ocsp::RespID* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method .ctor addr 0x102bfbc size 0x210 virtual false final false
+  /// @brief Method .ctor, addr 0x109d20c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method ToAsn1Object addr 0x1033b98 size 0x8 virtual false final false
+  /// @brief Method ToAsn1Object, addr 0x10a4de8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ToAsn1Object();
 
-  /// @brief Method Equals addr 0x1033ba0 size 0xb0 virtual true final false
+  /// @brief Method Equals, addr 0x10a4df0, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x1033c50 size 0x1c virtual true final false
+  /// @brief Method GetHashCode, addr 0x10a4ea0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "RespID", modifiers: "&&", def_value: None }]

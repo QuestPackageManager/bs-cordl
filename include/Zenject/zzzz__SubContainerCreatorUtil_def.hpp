@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11224))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11296))
 // CS Name: ::Zenject::SubContainerCreatorUtil*
 class CORDL_TYPE SubContainerCreatorUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyBindSettings addr 0x2da3554 size 0x304 virtual false final false
+  /// @brief Method ApplyBindSettings, addr 0x2f0b324, size 0x304, virtual false, abstract: false, final false
   static inline void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorUtil", modifiers: "&&", def_value: None }]

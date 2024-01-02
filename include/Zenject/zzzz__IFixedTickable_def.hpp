@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IFixedTickable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15683))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15733))
 // CS Name: ::Zenject::IFixedTickable*
 class CORDL_TYPE IFixedTickable {
 public:
   // Declarations
-  /// @brief Method FixedTick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FixedTick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FixedTick();
 
   // Ctor Parameters [CppParam { name: "", ty: "IFixedTickable", modifiers: "&&", def_value: None }]

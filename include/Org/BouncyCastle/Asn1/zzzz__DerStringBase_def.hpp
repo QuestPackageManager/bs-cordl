@@ -30,16 +30,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerStringBase* New_ctor();
 
-  /// @brief Method .ctor addr 0xdf5410 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe6a5e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetString();
 
-  /// @brief Method ToString addr 0xdf5418 size 0xc virtual true final false
+  /// @brief Method ToString, addr 0xe6a5ec, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Asn1GetHashCode addr 0xdf5424 size 0x24 virtual true final false
+  /// @brief Method Asn1GetHashCode, addr 0xe6a5f8, size 0x24, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DerStringBase", modifiers: "&&", def_value: None }]

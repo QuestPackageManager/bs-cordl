@@ -3,17 +3,17 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IAsyncComputeManager)
-namespace System {
-class IDisposable;
-}
 namespace GlobalNamespace {
 template <typename T> class AsyncComputeOperation_1;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 namespace GlobalNamespace {
 class AsyncComputeOperation;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAsyncComputeManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12701))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12774))
 // CS Name: ::IAsyncComputeManager*
 class CORDL_TYPE IAsyncComputeManager {
 public:
@@ -34,10 +34,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginOperation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void BeginOperation(::GlobalNamespace::AsyncComputeOperation* asyncComputeOperation);
 
-  /// @brief Method BeginOperation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BeginOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::System::Threading::Tasks::Task_1<T>* BeginOperation(::GlobalNamespace::AsyncComputeOperation_1<T>* asyncComputeOperation);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncComputeManager", modifiers: "&&", def_value: None }]

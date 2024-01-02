@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::System::Globalization::GlobalizationMode);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3683))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3695))
 // CS Name: ::System.Globalization::GlobalizationMode*
 class CORDL_TYPE GlobalizationMode : public ::System::Object {
 public:
@@ -27,10 +27,10 @@ public:
 
   static inline bool getStaticF__Invariant_k__BackingField();
 
-  /// @brief Method get_Invariant addr 0x2401d44 size 0x58 virtual false final false
+  /// @brief Method get_Invariant, addr 0x255e00c, size 0x58, virtual false, abstract: false, final false
   static inline bool get_Invariant();
 
-  /// @brief Method GetGlobalizationInvariantMode addr 0x2401d9c size 0x8 virtual false final false
+  /// @brief Method GetGlobalizationInvariantMode, addr 0x255e064, size 0x8, virtual false, abstract: false, final false
   static inline bool GetGlobalizationInvariantMode();
 
   // Ctor Parameters [CppParam { name: "", ty: "GlobalizationMode", modifiers: "&&", def_value: None }]

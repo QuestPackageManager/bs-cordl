@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAudioTimeSource);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4065))
 // CS Name: ::IAudioTimeSource*
 class CORDL_TYPE IAudioTimeSource {
 public:
@@ -30,19 +30,19 @@ public:
 
   __declspec(property(get = get_isReady)) bool isReady;
 
-  /// @brief Method get_songTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songTime();
 
-  /// @brief Method get_lastFrameDeltaSongTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songEndTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_songLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_songLength();
 
-  /// @brief Method get_isReady addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isReady, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isReady();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAudioTimeSource", modifiers: "&&", def_value: None }]

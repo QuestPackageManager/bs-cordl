@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::NoteLineLayer);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14973))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14760))
 // CS Name: ::NoteLineLayer
 struct CORDL_TYPE NoteLineLayer {
 public:

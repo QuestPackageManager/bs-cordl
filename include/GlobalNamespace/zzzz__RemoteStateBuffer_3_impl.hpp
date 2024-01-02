@@ -94,25 +94,25 @@ template <typename TStateTable, typename TType, typename TState> constexpr void 
   this->____receivedDeltaCount = value;
 }
 template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::Clear() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>::get(), "Clear",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::PushState(::GlobalNamespace::SyncStateId id, TStateTable state, float_t time) {
+inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::PushState(::GlobalNamespace::SyncStateId id, TStateTable state, int64_t time) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>::get(), "PushState", std::vector<Il2CppClass*>{},
       ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SyncStateId>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TStateTable>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TStateTable>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, state, time);
 }
 template <typename TStateTable, typename TType, typename TState>
-inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::PushDelta(::GlobalNamespace::SyncStateId baseId, TStateTable delta, float_t timeOffset) {
+inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::PushDelta(::GlobalNamespace::SyncStateId baseId, TStateTable delta, int64_t timeOffset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*>::get(), "PushDelta", std::vector<Il2CppClass*>{},
       ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SyncStateId>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TStateTable>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TStateTable>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, baseId, delta, timeOffset);
 }
 template <typename TStateTable, typename TType, typename TState> inline void GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>::ProcessQueue() {

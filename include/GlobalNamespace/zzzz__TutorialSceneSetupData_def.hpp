@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(TutorialSceneSetupData)
 namespace GlobalNamespace {
-class ColorScheme;
+class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class PlayerSpecificSettings;
+class ColorScheme;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialSceneSetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6114))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6059))
 // CS Name: ::TutorialSceneSetupData*
 class CORDL_TYPE TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method .ctor addr 0x21c91f8 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x231ce68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialSceneSetupData", modifiers: "&&", def_value: None }]

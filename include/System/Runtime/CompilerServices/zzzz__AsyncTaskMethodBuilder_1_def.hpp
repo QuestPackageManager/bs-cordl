@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AsyncTaskMethodBuilder_1)
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncMethodBuilderCore;
-}
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
 namespace System {
 class Exception;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncMethodBuilderCore;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -30,8 +30,8 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3403))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3397))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3408))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3402))
 // CS Name: ::System.Runtime.CompilerServices::AsyncTaskMethodBuilder`1<TResult>
 struct CORDL_TYPE AsyncTaskMethodBuilder_1 {
 public:
@@ -45,31 +45,31 @@ public:
 
   static inline ::System::Threading::Tasks::Task_1<TResult>* getStaticF_s_defaultResultTask();
 
-  /// @brief Method Create addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> Create();
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
-  /// @brief Method AwaitUnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TResult>* get_Task();
 
-  /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetResult(TResult result);
 
-  /// @brief Method SetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetResult(::System::Threading::Tasks::Task_1<TResult>* completedTask);
 
-  /// @brief Method SetException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method GetTaskForResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetTaskForResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<TResult>* GetTaskForResult(TResult result);
 
   // Ctor Parameters [CppParam { name: "m_coreState", ty: "::System::Runtime::CompilerServices::AsyncMethodBuilderCore", modifiers: "", def_value: None }, CppParam { name: "m_task", ty:

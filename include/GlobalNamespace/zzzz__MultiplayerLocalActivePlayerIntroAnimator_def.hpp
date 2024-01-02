@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5261))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5156))
 // CS Name: ::MultiplayerLocalActivePlayerIntroAnimator*
 class CORDL_TYPE MultiplayerLocalActivePlayerIntroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,15 +32,15 @@ public:
 
   constexpr void __set__introPlayableDirector(::UnityEngine::Playables::PlayableDirector* value);
 
-  /// @brief Method SetBeforeIntroValues addr 0x20fbc64 size 0x1c virtual false final false
+  /// @brief Method SetBeforeIntroValues, addr 0x23dc508, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
-  /// @brief Method SetAfterIntroValues addr 0x20fbc80 size 0x48 virtual false final false
+  /// @brief Method SetAfterIntroValues, addr 0x23dc524, size 0x48, virtual false, abstract: false, final false
   inline void SetAfterIntroValues();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fbcc8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23dc56c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerIntroAnimator", modifiers: "&&", def_value: None }]

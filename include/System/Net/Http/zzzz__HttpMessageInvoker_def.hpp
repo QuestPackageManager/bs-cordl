@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HttpMessageInvoker)
 namespace System::Net::Http {
-class HttpResponseMessage;
+class HttpMessageHandler;
 }
 namespace System::Net::Http {
 class HttpRequestMessage;
@@ -13,14 +13,14 @@ class HttpRequestMessage;
 namespace System {
 class IDisposable;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System::Net::Http {
-class HttpMessageHandler;
-}
 namespace System::Threading {
 struct CancellationToken;
+}
+namespace System::Net::Http {
+class HttpResponseMessage;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageInvoker);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
 // CS Name: ::System.Net.Http::HttpMessageInvoker*
 class CORDL_TYPE HttpMessageInvoker : public ::System::Object {
 public:
@@ -61,16 +61,16 @@ public:
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method .ctor addr 0x26b5cec size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x2830cfc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 
-  /// @brief Method Dispose addr 0x26b8428 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x2833438, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x26b5f18 size 0x38 virtual true final false
+  /// @brief Method Dispose, addr 0x2830f28, size 0x38, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method SendAsync addr 0x26b695c size 0x20 virtual true final false
+  /// @brief Method SendAsync, addr 0x283196c, size 0x20, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 

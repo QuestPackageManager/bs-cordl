@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationSta
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14306))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14035))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {
 public:

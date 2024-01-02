@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputBindingComposite_1)
-namespace UnityEngine::InputSystem {
-struct InputBindingCompositeContext;
-}
 namespace System {
 class Type;
 }
 namespace System {
 class Object;
+}
+namespace UnityEngine::InputSystem {
+struct InputBindingCompositeContext;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem {
@@ -27,8 +27,8 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6275))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6276))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6189))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6190))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite`1<TValue>*
 class CORDL_TYPE InputBindingComposite_1 : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
@@ -37,24 +37,24 @@ public:
 
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  /// @brief Method get_valueType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_valueSizeInBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ReadValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadValueAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputBindingComposite_1", modifiers: "&&", def_value: None }]

@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(WeakReference_1)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-class ISerializable;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -27,8 +27,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3332))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2641))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::WeakReference`1<T>*
 class CORDL_TYPE WeakReference_1 : public ::System::Object {
 public:
@@ -56,29 +56,29 @@ public:
 
   static inline ::System::WeakReference_1<T>* New_ctor(T target);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T target);
 
   static inline ::System::WeakReference_1<T>* New_ctor(T target, bool trackResurrection);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T target, bool trackResurrection);
 
   static inline ::System::WeakReference_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetTarget addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetTarget(T target);
 
-  /// @brief Method TryGetTarget addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetTarget(ByRef<T> target);
 
-  /// @brief Method Finalize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Finalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "WeakReference_1", modifiers: "&&", def_value: None }]

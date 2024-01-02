@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X25519PrivateKeyParameters)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class X25519PublicKeyParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -56,29 +56,29 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0xec5728 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xf3b914, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor addr 0xec57cc size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0xf3b9b8, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PrivateKeyParameters* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor addr 0xec5888 size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0xf3ba74, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method Encode addr 0xec5990 size 0x84 virtual false final false
+  /// @brief Method Encode, addr 0xf3bb7c, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded addr 0xec5a14 size 0x5c virtual false final false
+  /// @brief Method GetEncoded, addr 0xf3bc00, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GeneratePublicKey addr 0xec5a70 size 0xac virtual false final false
+  /// @brief Method GeneratePublicKey, addr 0xf3bc5c, size 0xac, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* GeneratePublicKey();
 
-  /// @brief Method GenerateSecret addr 0xec5bd8 size 0xf4 virtual false final false
+  /// @brief Method GenerateSecret, addr 0xf3bdc4, size 0xf4, virtual false, abstract: false, final false
   inline void GenerateSecret(::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
   // Ctor Parameters [CppParam { name: "", ty: "X25519PrivateKeyParameters", modifiers: "&&", def_value: None }]

@@ -11,11 +11,11 @@ CORDL_MODULE_EXPORT(InputStateBuffers)
 namespace UnityEngine::InputSystem::LowLevel {
 struct __InputStateBuffers__DoubleBuffers;
 }
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputUpdateType;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -32,29 +32,29 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuff
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6653))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6567))
 // CS Name: ::InputStateBuffers::DoubleBuffers
 struct CORDL_TYPE __InputStateBuffers__DoubleBuffers {
 public:
   // Declarations
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method get_valid addr 0x29757b0 size 0x10 virtual false final false
+  /// @brief Method get_valid, addr 0x2af6504, size 0x10, virtual false, abstract: false, final false
   inline bool get_valid();
 
-  /// @brief Method SetFrontBuffer addr 0x297533c size 0x10 virtual false final false
+  /// @brief Method SetFrontBuffer, addr 0x2af6090, size 0x10, virtual false, abstract: false, final false
   inline void SetFrontBuffer(int32_t deviceIndex, ::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method SetBackBuffer addr 0x297534c size 0x14 virtual false final false
+  /// @brief Method SetBackBuffer, addr 0x2af60a0, size 0x14, virtual false, abstract: false, final false
   inline void SetBackBuffer(int32_t deviceIndex, ::cordl_internals::Ptr<void> ptr);
 
-  /// @brief Method GetFrontBuffer addr 0x29750dc size 0x10 virtual false final false
+  /// @brief Method GetFrontBuffer, addr 0x2af5e30, size 0x10, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetFrontBuffer(int32_t deviceIndex);
 
-  /// @brief Method GetBackBuffer addr 0x2975144 size 0x14 virtual false final false
+  /// @brief Method GetBackBuffer, addr 0x2af5e98, size 0x14, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> GetBackBuffer(int32_t deviceIndex);
 
-  /// @brief Method SwapBuffers addr 0x29757c0 size 0x28 virtual false final false
+  /// @brief Method SwapBuffers, addr 0x2af6514, size 0x28, virtual false, abstract: false, final false
   inline void SwapBuffers(int32_t deviceIndex);
 
   // Ctor Parameters [CppParam { name: "deviceToBufferMapping", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<void>>", modifiers: "", def_value: None }]
@@ -82,8 +82,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6653))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6654))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6567))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6568))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateBuffers
 struct CORDL_TYPE InputStateBuffers {
 public:
@@ -118,45 +118,45 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers getStaticF_s_CurrentBuffers();
 
-  /// @brief Method GetDoubleBuffersFor addr 0x2974fb0 size 0xd8 virtual false final false
+  /// @brief Method GetDoubleBuffersFor, addr 0x2af5d04, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers GetDoubleBuffersFor(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType);
 
-  /// @brief Method GetFrontBufferForDevice addr 0x2975088 size 0x54 virtual false final false
+  /// @brief Method GetFrontBufferForDevice, addr 0x2af5ddc, size 0x54, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetFrontBufferForDevice(int32_t deviceIndex);
 
-  /// @brief Method GetBackBufferForDevice addr 0x29750ec size 0x58 virtual false final false
+  /// @brief Method GetBackBufferForDevice, addr 0x2af5e40, size 0x58, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetBackBufferForDevice(int32_t deviceIndex);
 
-  /// @brief Method SwitchTo addr 0x2975158 size 0x64 virtual false final false
+  /// @brief Method SwitchTo, addr 0x2af5eac, size 0x64, virtual false, abstract: false, final false
   static inline void SwitchTo(::UnityEngine::InputSystem::LowLevel::InputStateBuffers buffers, ::UnityEngine::InputSystem::LowLevel::InputUpdateType update);
 
-  /// @brief Method AllocateAll addr 0x29751bc size 0xbc virtual false final false
+  /// @brief Method AllocateAll, addr 0x2af5f10, size 0xbc, virtual false, abstract: false, final false
   inline void AllocateAll(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices, int32_t deviceCount);
 
-  /// @brief Method SetUpDeviceToBufferMappings addr 0x29752e4 size 0x58 virtual false final false
+  /// @brief Method SetUpDeviceToBufferMappings, addr 0x2af6038, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers SetUpDeviceToBufferMappings(int32_t deviceCount, ByRef<::cordl_internals::Ptr<uint8_t>> bufferPtr,
                                                                                                                      uint32_t sizePerBuffer, uint32_t mappingTableSizePerBuffer);
 
-  /// @brief Method FreeAll addr 0x2975360 size 0xc0 virtual false final false
+  /// @brief Method FreeAll, addr 0x2af60b4, size 0xc0, virtual false, abstract: false, final false
   inline void FreeAll();
 
-  /// @brief Method MigrateAll addr 0x2975420 size 0x108 virtual false final false
+  /// @brief Method MigrateAll, addr 0x2af6174, size 0x108, virtual false, abstract: false, final false
   inline void MigrateAll(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices, int32_t deviceCount,
                          ::UnityEngine::InputSystem::LowLevel::InputStateBuffers oldBuffers);
 
-  /// @brief Method MigrateDoubleBuffer addr 0x2975528 size 0x118 virtual false final false
+  /// @brief Method MigrateDoubleBuffer, addr 0x2af627c, size 0x118, virtual false, abstract: false, final false
   static inline void MigrateDoubleBuffer(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers newBuffer,
                                          ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices, int32_t deviceCount,
                                          ::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuffers oldBuffer);
 
-  /// @brief Method MigrateSingleBuffer addr 0x2975640 size 0xb8 virtual false final false
+  /// @brief Method MigrateSingleBuffer, addr 0x2af6394, size 0xb8, virtual false, abstract: false, final false
   static inline void MigrateSingleBuffer(::cordl_internals::Ptr<void> newBuffer, ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices,
                                          int32_t deviceCount, ::cordl_internals::Ptr<void> oldBuffer);
 
-  /// @brief Method ComputeSizeOfSingleStateBuffer addr 0x2975278 size 0x6c virtual false final false
+  /// @brief Method ComputeSizeOfSingleStateBuffer, addr 0x2af5fcc, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t ComputeSizeOfSingleStateBuffer(::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> devices, int32_t deviceCount);
 
-  /// @brief Method NextDeviceOffset addr 0x29756f8 size 0xb8 virtual false final false
+  /// @brief Method NextDeviceOffset, addr 0x2af644c, size 0xb8, virtual false, abstract: false, final false
   static inline uint32_t NextDeviceOffset(uint32_t currentOffset, ::UnityEngine::InputSystem::InputDevice* device);
 
   // Ctor Parameters [CppParam { name: "sizePerBuffer", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalSize", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {

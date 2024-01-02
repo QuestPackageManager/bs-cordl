@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDerivationFunction)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class IDerivationParameters;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
@@ -29,13 +29,13 @@ public:
   // Declarations
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
-  /// @brief Method get_Digest addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Digest, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
-  /// @brief Method GenerateBytes addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GenerateBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDerivationFunction", modifiers: "&&", def_value: None }]

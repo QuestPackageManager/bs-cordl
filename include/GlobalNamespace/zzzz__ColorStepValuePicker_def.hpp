@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ColorStepValuePicker)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace System {
 class Action;
+}
+namespace UnityEngine::UI {
+class Button;
 }
 namespace UnityEngine {
 struct Color;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorStepValuePicker);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16145))
 // CS Name: ::ColorStepValuePicker*
 class CORDL_TYPE ColorStepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
@@ -83,45 +83,45 @@ public:
 
   constexpr void __set_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_decButtonWasPressedEvent addr 0x21350bc size 0x9c virtual false final false
+  /// @brief Method add_decButtonWasPressedEvent, addr 0x23e42a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_decButtonWasPressedEvent addr 0x2135158 size 0x9c virtual false final false
+  /// @brief Method remove_decButtonWasPressedEvent, addr 0x23e433c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_decButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_incButtonWasPressedEvent addr 0x21351f4 size 0x9c virtual false final false
+  /// @brief Method add_incButtonWasPressedEvent, addr 0x23e43d8, size 0x9c, virtual false, abstract: false, final false
   inline void add_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_incButtonWasPressedEvent addr 0x2135290 size 0x9c virtual false final false
+  /// @brief Method remove_incButtonWasPressedEvent, addr 0x23e4474, size 0x9c, virtual false, abstract: false, final false
   inline void remove_incButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method get_color addr 0x213532c size 0x24 virtual false final false
+  /// @brief Method get_color, addr 0x23e4510, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method set_color addr 0x2135350 size 0x24 virtual false final false
+  /// @brief Method set_color, addr 0x23e4534, size 0x24, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_decButtonInteractable addr 0x2135374 size 0x20 virtual false final false
+  /// @brief Method set_decButtonInteractable, addr 0x23e4558, size 0x20, virtual false, abstract: false, final false
   inline void set_decButtonInteractable(bool value);
 
-  /// @brief Method set_incButtonInteractable addr 0x2135394 size 0x20 virtual false final false
+  /// @brief Method set_incButtonInteractable, addr 0x23e4578, size 0x20, virtual false, abstract: false, final false
   inline void set_incButtonInteractable(bool value);
 
-  /// @brief Method OnEnable addr 0x21353b4 size 0xf0 virtual true final false
+  /// @brief Method OnEnable, addr 0x23e4598, size 0xf0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x21354a4 size 0xf0 virtual false final false
+  /// @brief Method OnDisable, addr 0x23e4688, size 0xf0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method IncButtonPressed addr 0x2135594 size 0x1c virtual false final false
+  /// @brief Method IncButtonPressed, addr 0x23e4778, size 0x1c, virtual false, abstract: false, final false
   inline void IncButtonPressed();
 
-  /// @brief Method DecButtonPressed addr 0x21355b0 size 0x1c virtual false final false
+  /// @brief Method DecButtonPressed, addr 0x23e4794, size 0x1c, virtual false, abstract: false, final false
   inline void DecButtonPressed();
 
   static inline ::GlobalNamespace::ColorStepValuePicker* New_ctor();
 
-  /// @brief Method .ctor addr 0x21355cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23e47b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ColorStepValuePicker", modifiers: "&&", def_value: None }]

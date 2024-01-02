@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IList)
-namespace System::Collections {
-class IEnumerable;
-}
 namespace System {
 class Object;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class ICollection;
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Collections::IList);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3750))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3762))
 // CS Name: ::System.Collections::IList*
 class CORDL_TYPE IList {
 public:
@@ -41,37 +41,37 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Add(::System::Object* value);
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Contains(::System::Object* value);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_IsFixedSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(::System::Object* value);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Insert(int32_t index, ::System::Object* value);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Remove(::System::Object* value);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "IList", modifiers: "&&", def_value: None }]

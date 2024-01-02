@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Serialization::Formatters::Binary::BinaryArrayType
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3244))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3245))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryArrayTypeEnum
 struct CORDL_TYPE BinaryArrayTypeEnum {
 public:

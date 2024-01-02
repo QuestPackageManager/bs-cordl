@@ -35,7 +35,7 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115df48 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x11cf198, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   // Ctor Parameters [CppParam { name: "", ty: "SymmetricEncIntegrityPacket", modifiers: "&&", def_value: None }]

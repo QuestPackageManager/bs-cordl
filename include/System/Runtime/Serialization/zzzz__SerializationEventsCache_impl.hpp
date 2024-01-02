@@ -1,10 +1,10 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
 #include "System/zzzz__Type_def.hpp"
-#include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEventsCache_def.hpp"
+#include "System/Runtime/Serialization/zzzz__SerializationEvents_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::__SerializationEventsCache____c._ctor
 template <>
@@ -12,9 +12,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::__SerializationEventsCache____c::*)()>(
     &::System::Runtime::Serialization::__SerializationEventsCache____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235cdf4;
+  constexpr static std::size_t addrs = 0x24b58e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::__SerializationEventsCache____c*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Serialization::SerializationEvents* (::System::Runtime::Serialization::__SerializationEventsCache____c::*)(::System::Type*)>(
         &::System::Runtime::Serialization::__SerializationEventsCache____c::_GetSerializationEventsForType_b__1_0)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x235cdfc;
+  constexpr static std::size_t addrs = 0x24b58f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::__SerializationEventsCache____c*>::get(), "<GetSerializationEventsForType>b__1_0",
         std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
@@ -78,9 +78,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::SerializationEvents* (*)(::System::Type*)>(
     &::System::Runtime::Serialization::SerializationEventsCache::GetSerializationEventsForType)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x235cbd0;
+  constexpr static std::size_t addrs = 0x24b56c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationEventsCache*>::get(), "GetSerializationEventsForType",
                                     std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));

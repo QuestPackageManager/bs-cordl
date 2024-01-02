@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpaceConvertor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5371))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5276))
 // CS Name: ::PlayerSpaceConvertor*
 class CORDL_TYPE PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {
 public:
@@ -35,15 +35,15 @@ public:
 
   constexpr void __set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_worldToPlayerSpaceRotation addr 0x211cb48 size 0xc virtual false final false
+  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x2260ce0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
 
-  /// @brief Method Start addr 0x211cb54 size 0x38 virtual false final false
+  /// @brief Method Start, addr 0x2260cec, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
 
-  /// @brief Method .ctor addr 0x211cb8c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2260d24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSpaceConvertor", modifiers: "&&", def_value: None }]

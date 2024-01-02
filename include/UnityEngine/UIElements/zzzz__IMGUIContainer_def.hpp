@@ -17,55 +17,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMGUIContainer)
 namespace UnityEngine::UIElements {
-struct __IMGUIContainer__GUIGlobals;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine::UIElements {
-class MeshGenerationContext;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace System {
-class IDisposable;
+class __IMGUIContainer__UxmlFactory;
 }
 namespace UnityEngine {
 class __GUILayoutUtility__LayoutCache;
 }
 namespace UnityEngine::UIElements {
-struct ContextType;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine::UIElements {
-class __IMGUIContainer__UxmlFactory;
-}
-namespace UnityEngine::UIElements {
-class EventBase;
+class MeshGenerationContext;
 }
 namespace UnityEngine {
 class Event;
 }
 namespace UnityEngine::UIElements {
-class __IMGUIContainer__UxmlTraits;
-}
-namespace UnityEngine {
-struct Matrix4x4;
-}
-namespace UnityEngine {
-struct Rect;
+struct __IMGUIContainer__GUIGlobals;
 }
 namespace UnityEngine::UIElements {
-class FocusChangeDirection;
+class EventBase;
 }
 namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
 }
+namespace UnityEngine::UIElements {
+class FocusChangeDirection;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class __IMGUIContainer__UxmlTraits;
+}
+namespace UnityEngine {
+struct Rect;
+}
+namespace System {
+class Action;
+}
+namespace UnityEngine {
+struct Matrix4x4;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine {
+struct Vector2;
+}
 namespace UnityEngine {
 class ObjectGUIState;
+}
+namespace UnityEngine::UIElements {
+struct ContextType;
 }
 namespace UnityEngine {
 struct Color;
@@ -92,15 +92,15 @@ MARK_VAL_T(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6993))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6907))
 // CS Name: ::IMGUIContainer::UxmlTraits*
 class CORDL_TYPE __IMGUIContainer__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c9c04c size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x2e023fc, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IMGUIContainer__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -127,8 +127,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__IMGUI
 // SizeInfo { instance_size: 120, native_size: 124, calculated_instance_size: 120, calculated_native_size: 136, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10245))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6908))
 // CS Name: ::IMGUIContainer::GUIGlobals
 struct CORDL_TYPE __IMGUIContainer__GUIGlobals {
 public:
@@ -192,8 +192,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__IMGUIContainer__GUIGlobals, 
 // SizeInfo { instance_size: 1224, native_size: -1, calculated_instance_size: 1224, calculated_native_size: 1220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10172)), TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(6994)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9894)), TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(6948))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6995))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(6908)), TypeDefinitionIndex(TypeDefinitionIndex(6862))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6909))
 // CS Name: ::UnityEngine.UIElements::IMGUIContainer*
 class CORDL_TYPE IMGUIContainer : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -447,131 +447,134 @@ public:
 
   static inline ::UnityEngine::Event* getStaticF_s_CurrentEvent();
 
-  /// @brief Method get_onGUIHandler addr 0x2c98bd4 size 0x8 virtual false final false
+  /// @brief Method get_onGUIHandler, addr 0x2dfef84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action* get_onGUIHandler();
 
-  /// @brief Method set_onGUIHandler addr 0x2c98bdc size 0x58 virtual false final false
+  /// @brief Method set_onGUIHandler, addr 0x2dfef8c, size 0x58, virtual false, abstract: false, final false
   inline void set_onGUIHandler(::System::Action* value);
 
-  /// @brief Method get_guiState addr 0x2c97b90 size 0xa4 virtual false final false
+  /// @brief Method get_guiState, addr 0x2dfdf40, size 0xa4, virtual false, abstract: false, final false
   inline ::UnityEngine::ObjectGUIState* get_guiState();
 
-  /// @brief Method get_lastWorldClip addr 0x2c98c34 size 0x14 virtual false final false
+  /// @brief Method get_lastWorldClip, addr 0x2dfefe4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_lastWorldClip();
 
-  /// @brief Method set_lastWorldClip addr 0x2c98c48 size 0x14 virtual false final false
+  /// @brief Method set_lastWorldClip, addr 0x2dfeff8, size 0x14, virtual false, abstract: false, final false
   inline void set_lastWorldClip(::UnityEngine::Rect value);
 
-  /// @brief Method get_cullingEnabled addr 0x2c98c5c size 0x8 virtual false final false
+  /// @brief Method get_cullingEnabled, addr 0x2dff00c, size 0x8, virtual false, abstract: false, final false
   inline bool get_cullingEnabled();
 
-  /// @brief Method get_cache addr 0x2c98c64 size 0x70 virtual false final false
+  /// @brief Method get_cache, addr 0x2dff014, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::__GUILayoutUtility__LayoutCache* get_cache();
 
-  /// @brief Method get_layoutMeasuredWidth addr 0x2c98cd4 size 0x28 virtual false final false
+  /// @brief Method get_layoutMeasuredWidth, addr 0x2dff084, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredWidth();
 
-  /// @brief Method get_layoutMeasuredHeight addr 0x2c98cfc size 0x28 virtual false final false
+  /// @brief Method get_layoutMeasuredHeight, addr 0x2dff0ac, size 0x28, virtual false, abstract: false, final false
   inline float_t get_layoutMeasuredHeight();
 
-  /// @brief Method get_contextType addr 0x2c98d24 size 0x8 virtual false final false
+  /// @brief Method get_contextType, addr 0x2dff0d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
 
-  /// @brief Method set_contextType addr 0x2c98d2c size 0x8 virtual false final false
+  /// @brief Method set_contextType, addr 0x2dff0dc, size 0x8, virtual false, abstract: false, final false
   inline void set_contextType(::UnityEngine::UIElements::ContextType value);
 
-  /// @brief Method get_focusOnlyIfHasFocusableControls addr 0x2c98d34 size 0x8 virtual false final false
+  /// @brief Method get_focusOnlyIfHasFocusableControls, addr 0x2dff0e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_focusOnlyIfHasFocusableControls();
 
-  /// @brief Method get_canGrabFocus addr 0x2c98d3c size 0x20 virtual true final false
+  /// @brief Method get_canGrabFocus, addr 0x2dff0ec, size 0x20, virtual true, abstract: false, final false
   inline bool get_canGrabFocus();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c99128 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2dff4d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIContainer* New_ctor(::System::Action* onGUIHandler);
 
-  /// @brief Method .ctor addr 0x2c99130 size 0x238 virtual false final false
+  /// @brief Method .ctor, addr 0x2dff4e0, size 0x238, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* onGUIHandler);
 
-  /// @brief Method OnGenerateVisualContent addr 0x2c99368 size 0x12c virtual false final false
+  /// @brief Method OnGenerateVisualContent, addr 0x2dff718, size 0x12c, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method SaveGlobals addr 0x2c99494 size 0x110 virtual false final false
+  /// @brief Method SaveGlobals, addr 0x2dff844, size 0x110, virtual false, abstract: false, final false
   inline void SaveGlobals();
 
-  /// @brief Method RestoreGlobals addr 0x2c995a4 size 0x118 virtual false final false
+  /// @brief Method RestoreGlobals, addr 0x2dff954, size 0x118, virtual false, abstract: false, final false
   inline void RestoreGlobals();
 
-  /// @brief Method DoOnGUI addr 0x2c996bc size 0xd1c virtual false final false
+  /// @brief Method DoOnGUI, addr 0x2dffa6c, size 0xd1c, virtual false, abstract: false, final false
+  /// @param canAffectFocus: bool (default: true)
   inline void DoOnGUI(::UnityEngine::Event* evt, ::UnityEngine::Matrix4x4 parentTransform, ::UnityEngine::Rect clippingRect, bool isComputingLayout, ::UnityEngine::Rect layoutSize,
-                      ::System::Action* onGUIHandler, bool canAffectFocus);
+                      ::System::Action* onGUIHandler, bool canAffectFocus = true);
 
-  /// @brief Method MarkDirtyLayout addr 0x2c96ccc size 0x14 virtual false final false
+  /// @brief Method MarkDirtyLayout, addr 0x2dfd07c, size 0x14, virtual false, abstract: false, final false
   inline void MarkDirtyLayout();
 
-  /// @brief Method HandleEvent addr 0x2c9a3d8 size 0x90 virtual true final false
+  /// @brief Method HandleEvent, addr 0x2e00788, size 0x90, virtual true, abstract: false, final false
   inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method DoIMGUIRepaint addr 0x2c9a704 size 0x390 virtual false final false
+  /// @brief Method DoIMGUIRepaint, addr 0x2e00ab4, size 0x390, virtual false, abstract: false, final false
   inline void DoIMGUIRepaint();
 
-  /// @brief Method SendEventToIMGUI addr 0x2c9a468 size 0x29c virtual false final false
-  inline bool SendEventToIMGUI(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
+  /// @brief Method SendEventToIMGUI, addr 0x2e00818, size 0x29c, virtual false, abstract: false, final false
+  /// @param canAffectFocus: bool (default: true)
+  /// @param verifyBounds: bool (default: true)
+  inline bool SendEventToIMGUI(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus = true, bool verifyBounds = true);
 
-  /// @brief Method SendEventToIMGUIRaw addr 0x2c9ad8c size 0x100 virtual false final false
+  /// @brief Method SendEventToIMGUIRaw, addr 0x2e0113c, size 0x100, virtual false, abstract: false, final false
   inline bool SendEventToIMGUIRaw(::UnityEngine::UIElements::EventBase* evt, bool canAffectFocus, bool verifyBounds);
 
-  /// @brief Method VerifyBounds addr 0x2c9ae8c size 0x90 virtual false final false
+  /// @brief Method VerifyBounds, addr 0x2e0123c, size 0x90, virtual false, abstract: false, final false
   inline bool VerifyBounds(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsContainerCapturingTheMouse addr 0x2c9af2c size 0x114 virtual false final false
+  /// @brief Method IsContainerCapturingTheMouse, addr 0x2e012dc, size 0x114, virtual false, abstract: false, final false
   inline bool IsContainerCapturingTheMouse();
 
-  /// @brief Method IsLocalEvent addr 0x2c9b040 size 0x204 virtual false final false
+  /// @brief Method IsLocalEvent, addr 0x2e013f0, size 0x204, virtual false, abstract: false, final false
   inline bool IsLocalEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsEventInsideLocalWindow addr 0x2c9b244 size 0x180 virtual false final false
+  /// @brief Method IsEventInsideLocalWindow, addr 0x2e015f4, size 0x180, virtual false, abstract: false, final false
   inline bool IsEventInsideLocalWindow(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method IsDockAreaMouseUp addr 0x2c9b3c4 size 0x124 virtual false final false
+  /// @brief Method IsDockAreaMouseUp, addr 0x2e01774, size 0x124, virtual false, abstract: false, final false
   static inline bool IsDockAreaMouseUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method HandleIMGUIEvent addr 0x2c9af1c size 0x10 virtual false final false
+  /// @brief Method HandleIMGUIEvent, addr 0x2e012cc, size 0x10, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent addr 0x2c9b554 size 0xcc virtual false final false
+  /// @brief Method HandleIMGUIEvent, addr 0x2e01904, size 0xcc, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method HandleIMGUIEvent addr 0x2c9aa94 size 0x2f8 virtual false final false
+  /// @brief Method HandleIMGUIEvent, addr 0x2e00e44, size 0x2f8, virtual false, abstract: false, final false
   inline bool HandleIMGUIEvent(::UnityEngine::Event* e, ::UnityEngine::Matrix4x4 worldTransform, ::UnityEngine::Rect clippingRect, ::System::Action* onGUIHandler, bool canAffectFocus);
 
-  /// @brief Method ExecuteDefaultAction addr 0x2c9b7e4 size 0x2e8 virtual true final false
+  /// @brief Method ExecuteDefaultAction, addr 0x2e01b94, size 0x2e8, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method SetFoldoutDepthClass addr 0x2c9bacc size 0x168 virtual false final false
+  /// @brief Method SetFoldoutDepthClass, addr 0x2e01e7c, size 0x168, virtual false, abstract: false, final false
   inline void SetFoldoutDepthClass();
 
-  /// @brief Method DoMeasure addr 0x2c9bd18 size 0x258 virtual true final false
+  /// @brief Method DoMeasure, addr 0x2e020c8, size 0x258, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method GetCurrentClipRect addr 0x2c9b4e8 size 0x6c virtual false final false
+  /// @brief Method GetCurrentClipRect, addr 0x2e01898, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCurrentClipRect();
 
-  /// @brief Method GetCurrentTransformAndClip addr 0x2c9b620 size 0x114 virtual false final false
+  /// @brief Method GetCurrentTransformAndClip, addr 0x2e019d0, size 0x114, virtual false, abstract: false, final false
   static inline void GetCurrentTransformAndClip(::UnityEngine::UIElements::IMGUIContainer* container, ::UnityEngine::Event* evt, ByRef<::UnityEngine::Matrix4x4> transform,
                                                 ByRef<::UnityEngine::Rect> clipRect);
 
-  /// @brief Method Dispose addr 0x2c9bf70 size 0x70 virtual true final true
+  /// @brief Method Dispose, addr 0x2e02320, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x2c9bfe0 size 0x18 virtual true final false
+  /// @brief Method Dispose, addr 0x2e02390, size 0x18, virtual true, abstract: false, final false
   inline void Dispose(bool disposeManaged);
 
-  /// @brief Method <DoOnGUI>b__56_0 addr 0x2c9bff8 size 0xc virtual false final false
+  /// @brief Method <DoOnGUI>b__56_0, addr 0x2e023a8, size 0xc, virtual false, abstract: false, final false
   inline void _DoOnGUI_b__56_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMGUIContainer", modifiers: "&&", def_value: None }]
@@ -688,14 +691,14 @@ static_assert(offsetof(::UnityEngine::UIElements::IMGUIContainer, ___m_GUIGlobal
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5147 }), TypeDefinitionIndex(TypeDefinitionIndex(6995)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6993)), TypeDefinitionIndex(TypeDefinitionIndex(7083))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6992)) CS Name: ::IMGUIContainer::UxmlFactory*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6907)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5263
+// }), TypeDefinitionIndex(TypeDefinitionIndex(6909))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6906)) CS Name: ::IMGUIContainer::UxmlFactory*
 class CORDL_TYPE __IMGUIContainer__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::IMGUIContainer*, ::UnityEngine::UIElements::__IMGUIContainer__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::__IMGUIContainer__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c9c004 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e023b4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__IMGUIContainer__UxmlFactory", modifiers: "&&", def_value: None }]

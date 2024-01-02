@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Security::InvalidParameterException* New_ctor();
 
-  /// @brief Method .ctor addr 0x10bdc54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112ee9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::InvalidParameterException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x10bdc5c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112eea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Security::InvalidParameterException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x10bdc64 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x112eeac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "InvalidParameterException", modifiers: "&&", def_value: None }]

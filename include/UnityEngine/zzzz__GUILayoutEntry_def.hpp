@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutEntry);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14592))
 // CS Name: ::UnityEngine::GUILayoutEntry*
 class CORDL_TYPE GUILayoutEntry : public ::System::Object {
 public:
@@ -140,61 +140,61 @@ public:
 
   static inline int32_t getStaticF_indent();
 
-  /// @brief Method get_style addr 0x2b92e88 size 0x8 virtual false final false
+  /// @brief Method get_style, addr 0x2cfb298, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::GUIStyle* get_style();
 
-  /// @brief Method set_style addr 0x2b92e90 size 0x10 virtual false final false
+  /// @brief Method set_style, addr 0x2cfb2a0, size 0x10, virtual false, abstract: false, final false
   inline void set_style(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method get_marginLeft addr 0x2b92ea0 size 0x28 virtual true final false
+  /// @brief Method get_marginLeft, addr 0x2cfb2b0, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight addr 0x2b92ec8 size 0x28 virtual true final false
+  /// @brief Method get_marginRight, addr 0x2cfb2d8, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop addr 0x2b92ef0 size 0x28 virtual true final false
+  /// @brief Method get_marginTop, addr 0x2cfb300, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
-  /// @brief Method get_marginBottom addr 0x2b92f18 size 0x28 virtual true final false
+  /// @brief Method get_marginBottom, addr 0x2cfb328, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
-  /// @brief Method get_marginHorizontal addr 0x2b92f40 size 0x3c virtual false final false
+  /// @brief Method get_marginHorizontal, addr 0x2cfb350, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginHorizontal();
 
-  /// @brief Method get_marginVertical addr 0x2b92f7c size 0x3c virtual false final false
+  /// @brief Method get_marginVertical, addr 0x2cfb38c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_marginVertical();
 
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
-  /// @brief Method .ctor addr 0x2b92fb8 size 0x10c virtual false final false
+  /// @brief Method .ctor, addr 0x2cfb3c8, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style);
 
   static inline ::UnityEngine::GUILayoutEntry* New_ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                                                         ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method .ctor addr 0x2b930c4 size 0x108 virtual false final false
+  /// @brief Method .ctor, addr 0x2cfb4d4, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(float_t _minWidth, float_t _maxWidth, float_t _minHeight, float_t _maxHeight, ::UnityEngine::GUIStyle* _style,
                     ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method CalcWidth addr 0x2b931cc size 0x4 virtual true final false
+  /// @brief Method CalcWidth, addr 0x2cfb5dc, size 0x4, virtual true, abstract: false, final false
   inline void CalcWidth();
 
-  /// @brief Method CalcHeight addr 0x2b931d0 size 0x4 virtual true final false
+  /// @brief Method CalcHeight, addr 0x2cfb5e0, size 0x4, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method SetHorizontal addr 0x2b931d4 size 0x34 virtual true final false
+  /// @brief Method SetHorizontal, addr 0x2cfb5e4, size 0x34, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method SetVertical addr 0x2b93208 size 0x34 virtual true final false
+  /// @brief Method SetVertical, addr 0x2cfb618, size 0x34, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ApplyStyleSettings addr 0x2b9323c size 0x8c virtual true final false
+  /// @brief Method ApplyStyleSettings, addr 0x2cfb64c, size 0x8c, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method ApplyOptions addr 0x2b932c8 size 0x2d4 virtual true final false
+  /// @brief Method ApplyOptions, addr 0x2cfb6d8, size 0x2d4, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ToString addr 0x2b9359c size 0x5e0 virtual true final false
+  /// @brief Method ToString, addr 0x2cfb9ac, size 0x5e0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutEntry", modifiers: "&&", def_value: None }]

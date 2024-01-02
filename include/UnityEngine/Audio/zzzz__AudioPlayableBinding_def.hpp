@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AudioPlayableBinding)
+namespace UnityEngine::Playables {
+struct PlayableOutput;
+}
 namespace UnityEngine {
 class Object;
 }
 namespace UnityEngine::Playables {
-struct PlayableOutput;
+struct PlayableBinding;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
-}
-namespace UnityEngine::Playables {
-struct PlayableBinding;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -27,16 +27,16 @@ MARK_REF_PTR_T(::UnityEngine::Audio::AudioPlayableBinding);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15622))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15602))
 // CS Name: ::UnityEngine.Audio::AudioPlayableBinding*
 class CORDL_TYPE AudioPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create addr 0x2b3770c size 0x13c virtual false final false
+  /// @brief Method Create, addr 0x2c9c434, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAudioOutput addr 0x2b37848 size 0x40 virtual false final false
+  /// @brief Method CreateAudioOutput, addr 0x2c9c570, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableBinding", modifiers: "&&", def_value: None }]

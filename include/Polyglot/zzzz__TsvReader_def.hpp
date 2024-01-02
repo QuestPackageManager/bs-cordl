@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::Polyglot::TsvReader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15533))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15549))
 // CS Name: ::Polyglot::TsvReader*
 class CORDL_TYPE TsvReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse addr 0x2686b44 size 0x1ac virtual false final false
+  /// @brief Method Parse, addr 0x2801768, size 0x1ac, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::StringW>*>* Parse(::StringW src);
 
   static inline ::Polyglot::TsvReader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2686cf0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2801914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TsvReader", modifiers: "&&", def_value: None }]

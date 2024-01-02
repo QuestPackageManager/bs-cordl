@@ -5,29 +5,29 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__Context_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneDecoratorContext)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
-class DiContainer;
+class ScriptableObjectInstaller;
 }
 namespace Zenject {
-class MonoInstaller;
+class DiContainer;
 }
 namespace UnityEngine {
 class MonoBehaviour;
 }
-namespace Zenject {
-class ScriptableObjectInstaller;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace UnityEngine {
+class GameObject;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine {
-class GameObject;
+namespace Zenject {
+class MonoInstaller;
 }
 // Forward declare root types
 namespace Zenject {
@@ -39,8 +39,8 @@ MARK_REF_PTR_T(::Zenject::SceneDecoratorContext);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11047))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11055))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11119))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11127))
 // CS Name: ::Zenject::SceneDecoratorContext*
 class CORDL_TYPE SceneDecoratorContext : public ::Zenject::Context {
 public:
@@ -111,54 +111,54 @@ public:
 
   constexpr void __set__injectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* value);
 
-  /// @brief Method get_LateInstallers addr 0x2d8c658 size 0x8 virtual false final false
+  /// @brief Method get_LateInstallers, addr 0x2ef4414, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* get_LateInstallers();
 
-  /// @brief Method set_LateInstallers addr 0x2d8c660 size 0x90 virtual false final false
+  /// @brief Method set_LateInstallers, addr 0x2ef441c, size 0x90, virtual false, abstract: false, final false
   inline void set_LateInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
 
-  /// @brief Method get_LateInstallerPrefabs addr 0x2d8c6f0 size 0x8 virtual false final false
+  /// @brief Method get_LateInstallerPrefabs, addr 0x2ef44ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* get_LateInstallerPrefabs();
 
-  /// @brief Method set_LateInstallerPrefabs addr 0x2d8c6f8 size 0x90 virtual false final false
+  /// @brief Method set_LateInstallerPrefabs, addr 0x2ef44b4, size 0x90, virtual false, abstract: false, final false
   inline void set_LateInstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
 
-  /// @brief Method get_LateScriptableObjectInstallers addr 0x2d8c788 size 0x8 virtual false final false
+  /// @brief Method get_LateScriptableObjectInstallers, addr 0x2ef4544, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* get_LateScriptableObjectInstallers();
 
-  /// @brief Method set_LateScriptableObjectInstallers addr 0x2d8c790 size 0x90 virtual false final false
+  /// @brief Method set_LateScriptableObjectInstallers, addr 0x2ef454c, size 0x90, virtual false, abstract: false, final false
   inline void set_LateScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* value);
 
-  /// @brief Method get_DecoratedContractName addr 0x2d8c820 size 0x8 virtual false final false
+  /// @brief Method get_DecoratedContractName, addr 0x2ef45dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DecoratedContractName();
 
-  /// @brief Method get_Container addr 0x2d8c828 size 0x20 virtual true final false
+  /// @brief Method get_Container, addr 0x2ef45e4, size 0x20, virtual true, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method GetRootGameObjects addr 0x2d8c848 size 0x28 virtual true final false
+  /// @brief Method GetRootGameObjects, addr 0x2ef4604, size 0x28, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetRootGameObjects();
 
-  /// @brief Method Initialize addr 0x2d8af14 size 0x1b4 virtual false final false
+  /// @brief Method Initialize, addr 0x2ef2cdc, size 0x1b4, virtual false, abstract: false, final false
   inline void Initialize(::Zenject::DiContainer* container);
 
-  /// @brief Method InstallDecoratorSceneBindings addr 0x2d8b7d4 size 0x80 virtual false final false
+  /// @brief Method InstallDecoratorSceneBindings, addr 0x2ef3594, size 0x80, virtual false, abstract: false, final false
   inline void InstallDecoratorSceneBindings();
 
-  /// @brief Method InstallDecoratorInstallers addr 0x2d8b854 size 0x10 virtual false final false
+  /// @brief Method InstallDecoratorInstallers, addr 0x2ef3614, size 0xc, virtual false, abstract: false, final false
   inline void InstallDecoratorInstallers();
 
-  /// @brief Method GetInjectableMonoBehaviours addr 0x2d8c870 size 0x4c virtual true final false
+  /// @brief Method GetInjectableMonoBehaviours, addr 0x2ef462c, size 0x4c, virtual true, abstract: false, final false
   inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
 
-  /// @brief Method InstallLateDecoratorInstallers addr 0x2d8b864 size 0xc4 virtual false final false
+  /// @brief Method InstallLateDecoratorInstallers, addr 0x2ef3620, size 0xc4, virtual false, abstract: false, final false
   inline void InstallLateDecoratorInstallers();
 
   static inline ::Zenject::SceneDecoratorContext* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8c8bc size 0x124 virtual false final false
+  /// @brief Method .ctor, addr 0x2ef4678, size 0x124, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8c9e0 size 0x178 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef479c, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "SceneDecoratorContext", modifiers: "&&", def_value: None }]

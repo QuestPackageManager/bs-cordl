@@ -8,40 +8,40 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshUtility)
 namespace UnityEngine::ProBuilder {
-class __MeshUtility____c;
-}
-namespace UnityEngine {
-class Mesh;
-}
-namespace UnityEngine::ProBuilder {
-class Vertex;
-}
-namespace UnityEngine {
-struct MeshTopology;
+class ProBuilderMesh;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
 class GameObject;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::ProBuilder {
+class __MeshUtility____c;
+}
+namespace UnityEngine::ProBuilder {
+class Vertex;
+}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace UnityEngine {
+class Mesh;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace UnityEngine {
+struct MeshTopology;
+}
+namespace UnityEngine {
+struct Bounds;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
@@ -60,8 +60,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__MeshUtility____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12071))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12143))
 // CS Name: ::MeshUtility::<>c*
 class CORDL_TYPE __MeshUtility____c : public ::System::Object {
 public:
@@ -86,10 +86,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__MeshUtility____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x29d2cf0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2b54a44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CollapseSharedVertices>b__11_0 addr 0x29d2cf8 size 0x50 virtual false final false
+  /// @brief Method <CollapseSharedVertices>b__11_0, addr 0x2b54a4c, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Vertex*>*
   _CollapseSharedVertices_b__11_0(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Vertex*, int32_t>* x);
 
@@ -117,69 +117,71 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshU
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12144))
 // CS Name: ::UnityEngine.ProBuilder::MeshUtility*
 class CORDL_TYPE MeshUtility : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::__MeshUtility____c;
 
-  /// @brief Method GeneratePerTriangleMesh addr 0x29ceca8 size 0x348 virtual false final false
+  /// @brief Method GeneratePerTriangleMesh, addr 0x2b509fc, size 0x348, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GeneratePerTriangleMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateTangent addr 0x29cf5c0 size 0x534 virtual false final false
+  /// @brief Method GenerateTangent, addr 0x2b51314, size 0x534, virtual false, abstract: false, final false
   static inline void GenerateTangent(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method DeepCopy addr 0x29cfaf4 size 0x6c virtual false final false
+  /// @brief Method DeepCopy, addr 0x2b51848, size 0x6c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Mesh* DeepCopy(::UnityEngine::Mesh* source);
 
-  /// @brief Method CopyTo addr 0x29cfb60 size 0x4a0 virtual false final false
+  /// @brief Method CopyTo, addr 0x2b518b4, size 0x4a0, virtual false, abstract: false, final false
   static inline void CopyTo(::UnityEngine::Mesh* source, ::UnityEngine::Mesh* destination);
 
-  /// @brief Method GetMeshChannel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetMeshChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityEngine::Mesh*, T>* attributeGetter);
 
-  /// @brief Method PrintAttribute addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PrintAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void PrintAttribute(::System::Text::StringBuilder* sb, ::StringW title, ::System::Collections::Generic::IEnumerable_1<T>* attrib, ::StringW fmt);
 
-  /// @brief Method Print addr 0x29d0000 size 0xbb8 virtual false final false
+  /// @brief Method Print, addr 0x2b51d54, size 0xbb8, virtual false, abstract: false, final false
   static inline ::StringW Print(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetIndexCount addr 0x29d0bc8 size 0xc0 virtual false final false
+  /// @brief Method GetIndexCount, addr 0x2b5291c, size 0xc0, virtual false, abstract: false, final false
   static inline uint32_t GetIndexCount(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetPrimitiveCount addr 0x29d0c88 size 0x114 virtual false final false
+  /// @brief Method GetPrimitiveCount, addr 0x2b529dc, size 0x114, virtual false, abstract: false, final false
   static inline uint32_t GetPrimitiveCount(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method Compile addr 0x29d0d9c size 0x384 virtual false final false
-  static inline void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology);
+  /// @brief Method Compile, addr 0x2b52af0, size 0x384, virtual false, abstract: false, final false
+  /// @param preferredTopology: ::UnityEngine::MeshTopology (default: static_cast<int32_t>(0x0))
+  static inline void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology = static_cast<int32_t>(0x0));
 
-  /// @brief Method GetVertices addr 0x29ceff0 size 0x5d0 virtual false final false
+  /// @brief Method GetVertices, addr 0x2b50d44, size 0x5d0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method CollapseSharedVertices addr 0x29d174c size 0x500 virtual false final false
-  static inline void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> vertices);
+  /// @brief Method CollapseSharedVertices, addr 0x2b534a0, size 0x500, virtual false, abstract: false, final false
+  /// @param vertices: ::ArrayW<::UnityEngine::ProBuilder::Vertex*,::Array<::UnityEngine::ProBuilder::Vertex*>*> (default: nullptr)
+  static inline void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> vertices = nullptr);
 
-  /// @brief Method FitToSize addr 0x29d1c4c size 0x31c virtual false final false
+  /// @brief Method FitToSize, addr 0x2b539a0, size 0x31c, virtual false, abstract: false, final false
   static inline void FitToSize(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Bounds currentSize, ::UnityEngine::Vector3 sizeToFit);
 
-  /// @brief Method SanityCheck addr 0x29d1fa0 size 0x1c virtual false final false
+  /// @brief Method SanityCheck, addr 0x2b53cf4, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method SanityCheck addr 0x29d0bb8 size 0x10 virtual false final false
+  /// @brief Method SanityCheck, addr 0x2b5290c, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method SanityCheck addr 0x29d2678 size 0x28c virtual false final false
+  /// @brief Method SanityCheck, addr 0x2b543cc, size 0x28c, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
-  /// @brief Method IsUsedInParticleSystem addr 0x29d2904 size 0xf0 virtual false final false
+  /// @brief Method IsUsedInParticleSystem, addr 0x2b54658, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsUsedInParticleSystem(::UnityEngine::ProBuilder::ProBuilderMesh* pbmesh);
 
-  /// @brief Method RestoreParticleSystem addr 0x29d2a68 size 0x98 virtual false final false
+  /// @brief Method RestoreParticleSystem, addr 0x2b547bc, size 0x98, virtual false, abstract: false, final false
   static inline void RestoreParticleSystem(::UnityEngine::ProBuilder::ProBuilderMesh* pbmesh);
 
-  /// @brief Method GetBounds addr 0x29d2b00 size 0xd0 virtual false final false
+  /// @brief Method GetBounds, addr 0x2b54854, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshUtility", modifiers: "&&", def_value: None }]

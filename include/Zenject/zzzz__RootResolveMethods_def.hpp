@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::RootResolveMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11170))
 // CS Name: ::Zenject::RootResolveMethods
 struct CORDL_TYPE RootResolveMethods {
 public:

@@ -19,8 +19,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1649 }), TypeDefinitionIndex(TypeDefinitionIndex(7266))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7329))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1716 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7243))
 // CS Name: ::UnityEngine.UIElements::PanelChangedEventBase`1<T>*
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
@@ -47,30 +47,30 @@ public:
 
   constexpr void __set__destinationPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
 
-  /// @brief Method get_originPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_originPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_originPanel();
 
-  /// @brief Method set_originPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_originPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_originPanel(::UnityEngine::UIElements::IPanel* value);
 
-  /// @brief Method get_destinationPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_destinationPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_destinationPanel();
 
-  /// @brief Method set_destinationPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_destinationPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_destinationPanel(::UnityEngine::UIElements::IPanel* value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPanel* originPanel, ::UnityEngine::UIElements::IPanel* destinationPanel);
 
   static inline ::UnityEngine::UIElements::PanelChangedEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PanelChangedEventBase_1", modifiers: "&&", def_value: None }]

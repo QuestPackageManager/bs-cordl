@@ -7,32 +7,32 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedEnumerable_1)
-namespace System::Collections {
-class IEnumerable;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Linq {
-template <typename TElement> class IOrderedEnumerable_1;
-}
-namespace System::Collections {
-class IEnumerator;
-}
 namespace System::Linq {
 template <typename TElement> class EnumerableSorter_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Linq {
+template <typename TElement> class IOrderedEnumerable_1;
+}
+namespace System::Linq {
 template <typename TElement> class __OrderedEnumerable_1___GetEnumerator_d__1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class IDisposable;
@@ -56,8 +56,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14633), inst: 945 }), TypeDefinitionIndex(TypeDefinitionIndex(14633)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14628)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
 class CORDL_TYPE __OrderedEnumerable_1___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations
@@ -130,22 +130,22 @@ public:
 
   static inline ::System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<TElement>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TElement System_Collections_Generic_IEnumerator_TElement__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OrderedEnumerable_1___GetEnumerator_d__1", modifiers: "&&", def_value: None }]
@@ -190,8 +190,8 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14291))
 // CS Name: ::System.Linq::OrderedEnumerable`1<TElement>*
 class CORDL_TYPE OrderedEnumerable_1 : public ::System::Object {
 public:
@@ -216,23 +216,23 @@ public:
 
   constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<TElement>* value);
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator();
 
-  /// @brief Method GetEnumerableSorter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEnumerableSorter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Linq::EnumerableSorter_1<TElement>* GetEnumerableSorter(::System::Linq::EnumerableSorter_1<TElement>* next);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Linq.IOrderedEnumerable<TElement>.CreateOrderedEnumerable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TKey>
   inline ::System::Linq::IOrderedEnumerable_1<TElement>* System_Linq_IOrderedEnumerable_TElement__CreateOrderedEnumerable(::System::Func_2<TElement, TKey>* keySelector,
                                                                                                                           ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending);
 
   static inline ::System::Linq::OrderedEnumerable_1<TElement>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OrderedEnumerable_1", modifiers: "&&", def_value: None }]

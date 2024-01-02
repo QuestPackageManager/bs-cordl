@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__PlaceholderFactory_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(Factory_1)
-namespace System {
-class Object;
-}
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,21 +23,21 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10930), inst: 3396 }), TypeDefinitionIndex(TypeDefinitionIndex(10930))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10931))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11002), inst: 3470 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11003))
 // CS Name: ::Zenject::Factory`1<TValue>*
 class CORDL_TYPE Factory_1 : public ::Zenject::PlaceholderFactory_1<TValue> {
 public:
   // Declarations
   static inline ::Zenject::Factory_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None }]

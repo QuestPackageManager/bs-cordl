@@ -20,18 +20,18 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Services::ITrackingHandler);
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3083))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3084))
 // CS Name: ::System.Runtime.Remoting.Services::ITrackingHandler*
 class CORDL_TYPE ITrackingHandler {
 public:
   // Declarations
-  /// @brief Method DisconnectedObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisconnectedObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisconnectedObject(::System::Object* obj);
 
-  /// @brief Method MarshaledObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method UnmarshaledObject addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnmarshaledObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITrackingHandler", modifiers: "&&", def_value: None }]

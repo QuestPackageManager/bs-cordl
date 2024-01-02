@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Threading::Tasks::VoidTaskResult);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2790))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2794))
 // CS Name: ::System.Threading.Tasks::VoidTaskResult
 #pragma pack(push, 0)
 struct CORDL_TYPE VoidTaskResult {

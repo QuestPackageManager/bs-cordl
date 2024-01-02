@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::ManagedStreamHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10163))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10236))
 // CS Name: ::UnityEngine::ManagedStreamHelpers*
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateLoadFromStream addr 0x2b6d0e8 size 0x110 virtual false final false
+  /// @brief Method ValidateLoadFromStream, addr 0x2cd3868, size 0x110, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
-  /// @brief Method ManagedStreamRead addr 0x2b6d1f8 size 0x120 virtual false final false
+  /// @brief Method ManagedStreamRead, addr 0x2cd3978, size 0x120, virtual false, abstract: false, final false
   static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, void* returnValueAddress);
 
-  /// @brief Method ManagedStreamSeek addr 0x2b6d318 size 0x118 virtual false final false
+  /// @brief Method ManagedStreamSeek, addr 0x2cd3a98, size 0x118, virtual false, abstract: false, final false
   static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, void* returnValueAddress);
 
-  /// @brief Method ManagedStreamLength addr 0x2b6d430 size 0xfc virtual false final false
+  /// @brief Method ManagedStreamLength, addr 0x2cd3bb0, size 0xfc, virtual false, abstract: false, final false
   static inline void ManagedStreamLength(::System::IO::Stream* stream, void* returnValueAddress);
 
   // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "&&", def_value: None }]

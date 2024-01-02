@@ -14,11 +14,11 @@ class MultiplayerLevelCompletionResults;
 namespace GlobalNamespace {
 class CoreGameHUDController;
 }
-namespace GlobalNamespace {
-struct __MultiplayerController__State;
-}
 namespace Tweening {
 class FloatTween;
+}
+namespace GlobalNamespace {
+struct __MultiplayerController__State;
 }
 namespace GlobalNamespace {
 class IMultiplayerLevelEndActionsPublisher;
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5311))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5257))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5207))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5152))
 // CS Name: ::MultiplayerLocalActivePlayerGameplayAnimator*
 class CORDL_TYPE MultiplayerLocalActivePlayerGameplayAnimator : public ::GlobalNamespace::MultiplayerGameplayAnimator {
 public:
@@ -85,30 +85,30 @@ public:
 
   constexpr void __set__initialized(bool value);
 
-  /// @brief Method OnDestroy addr 0x20f9fc4 size 0x110 virtual true final false
+  /// @brief Method OnDestroy, addr 0x23dab3c, size 0x114, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method InitializeIfNeeded addr 0x20fa260 size 0xd0 virtual false final false
+  /// @brief Method InitializeIfNeeded, addr 0x23dac50, size 0xd0, virtual false, abstract: false, final false
   inline void InitializeIfNeeded();
 
-  /// @brief Method HandleStateChanged addr 0x20fa330 size 0x1a4 virtual true final false
+  /// @brief Method HandleStateChanged, addr 0x23dad20, size 0x1a8, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
-  /// @brief Method AnimateNewLeaderSelected addr 0x20fa6ec size 0xec virtual true final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x23daf78, size 0xe4, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method TransitionIntoFailedState addr 0x20fa638 size 0xb4 virtual false final false
+  /// @brief Method TransitionIntoFailedState, addr 0x23daec8, size 0xb0, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
-  /// @brief Method HandlePlayerDidFinish addr 0x20fa7d8 size 0x34 virtual false final false
+  /// @brief Method HandlePlayerDidFinish, addr 0x23db05c, size 0x34, virtual false, abstract: false, final false
   inline void HandlePlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method .ctor addr 0x20fa80c size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x23db090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InitializeIfNeeded>b__6_0 addr 0x20fa834 size 0x40 virtual false final false
+  /// @brief Method <InitializeIfNeeded>b__6_0, addr 0x23db098, size 0x40, virtual false, abstract: false, final false
   inline void _InitializeIfNeeded_b__6_0(float_t f);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLocalActivePlayerGameplayAnimator", modifiers: "&&", def_value: None }]

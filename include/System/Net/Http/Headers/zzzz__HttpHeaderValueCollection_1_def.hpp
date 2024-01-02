@@ -8,10 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpHeaderValueCollection_1)
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerable_1;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace System::Net::Http::Headers {
+class HeaderInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -20,19 +23,16 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Net::Http::Headers {
-class HeaderInfo;
-}
-namespace System::Net::Http::Headers {
 class HttpHeaders;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
 }
 namespace System {
 template <typename T> class Predicate_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -46,8 +46,8 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14891))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14674))
 // CS Name: ::System.Net.Http.Headers::HttpHeaderValueCollection`1<T>*
 class CORDL_TYPE HttpHeaderValueCollection_1 : public ::System::Object {
 public:
@@ -105,49 +105,49 @@ public:
 
   static inline ::System::Net::Http::Headers::HttpHeaderValueCollection_1<T>* New_ctor(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::HttpHeaders* headers, ::System::Net::Http::Headers::HeaderInfo* headerInfo);
 
-  /// @brief Method get_Count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_InvalidValues addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_InvalidValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_InvalidValues();
 
-  /// @brief Method get_IsReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method Add addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);
 
-  /// @brief Method AddRange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddRange(::System::Collections::Generic::List_1<T>* values);
 
-  /// @brief Method AddInvalidValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddInvalidValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddInvalidValue(::StringW invalidValue);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Contains(T item);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t arrayIndex);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<T>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Find addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Find, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Find(::System::Predicate_1<T>* predicate);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpHeaderValueCollection_1", modifiers: "&&", def_value: None }]

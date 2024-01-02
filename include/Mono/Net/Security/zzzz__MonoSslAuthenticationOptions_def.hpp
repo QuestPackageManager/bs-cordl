@@ -6,15 +6,6 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MonoSslAuthenticationOptions)
 namespace System::Net::Security {
-struct EncryptionPolicy;
-}
-namespace System::Security::Cryptography::X509Certificates {
-class X509CertificateCollection;
-}
-namespace System::Security::Cryptography::X509Certificates {
-struct X509RevocationMode;
-}
-namespace System::Net::Security {
 class ServerCertSelectionCallback;
 }
 namespace System::Security::Cryptography::X509Certificates {
@@ -22,6 +13,15 @@ class X509Certificate;
 }
 namespace System::Security::Authentication {
 struct SslProtocols;
+}
+namespace System::Net::Security {
+struct EncryptionPolicy;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509CertificateCollection;
+}
+namespace System::Security::Cryptography::X509Certificates {
+struct X509RevocationMode;
 }
 // Forward declare root types
 namespace Mono::Net::Security {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoSslAuthenticationOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7676))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8839))
 // CS Name: ::Mono.Net.Security::MonoSslAuthenticationOptions*
 class CORDL_TYPE MonoSslAuthenticationOptions : public ::System::Object {
 public:
@@ -67,51 +67,51 @@ public:
 
   constexpr void __set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
 
-  /// @brief Method get_ServerMode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ServerMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ServerMode();
 
-  /// @brief Method get_EnabledSslProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_EnabledSslProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Authentication::SslProtocols get_EnabledSslProtocols();
 
-  /// @brief Method set_EnabledSslProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_EnabledSslProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_EnabledSslProtocols(::System::Security::Authentication::SslProtocols value);
 
-  /// @brief Method set_EncryptionPolicy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_EncryptionPolicy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_EncryptionPolicy(::System::Net::Security::EncryptionPolicy value);
 
-  /// @brief Method set_CertificateRevocationCheckMode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_CertificateRevocationCheckMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_CertificateRevocationCheckMode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  /// @brief Method get_TargetHost addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TargetHost, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TargetHost();
 
-  /// @brief Method set_TargetHost addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_TargetHost, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_TargetHost(::StringW value);
 
-  /// @brief Method get_ServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_ServerCertificate();
 
-  /// @brief Method set_ServerCertificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_ServerCertificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-  /// @brief Method get_ClientCertificates addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ClientCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificates addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_ClientCertificates, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  /// @brief Method get_ClientCertificateRequired addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ClientCertificateRequired();
 
-  /// @brief Method set_ClientCertificateRequired addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_ClientCertificateRequired, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ClientCertificateRequired(bool value);
 
-  /// @brief Method get_ServerCertSelectionDelegate addr 0x26a8f74 size 0x8 virtual false final false
+  /// @brief Method get_ServerCertSelectionDelegate, addr 0x2823f84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::ServerCertSelectionCallback* get_ServerCertSelectionDelegate();
 
   static inline ::Mono::Net::Security::MonoSslAuthenticationOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x26a8f7c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2823f8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoSslAuthenticationOptions", modifiers: "&&", def_value: None }]

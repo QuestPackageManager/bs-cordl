@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(FlyingSpriteSpawner)
-namespace UnityEngine {
-class Sprite;
-}
 namespace GlobalNamespace {
 class IFlyingObjectEffectDidFinishEvent;
 }
-namespace GlobalNamespace {
-class __FlyingSpriteEffect__Pool;
+namespace UnityEngine {
+struct Quaternion;
+}
+namespace UnityEngine {
+class Sprite;
 }
 namespace GlobalNamespace {
 class FlyingObjectEffect;
@@ -21,8 +21,8 @@ class FlyingObjectEffect;
 namespace UnityEngine {
 class Material;
 }
-namespace UnityEngine {
-struct Quaternion;
+namespace GlobalNamespace {
+class __FlyingSpriteEffect__Pool;
 }
 namespace UnityEngine {
 struct Vector3;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteSpawner);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5008))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4890))
 // CS Name: ::FlyingSpriteSpawner*
 class CORDL_TYPE FlyingSpriteSpawner : public ::UnityEngine::MonoBehaviour {
 public:
@@ -127,15 +127,15 @@ public:
 
   constexpr void __set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value);
 
-  /// @brief Method SpawnFlyingSprite addr 0x226b1a8 size 0x1f8 virtual false final false
+  /// @brief Method SpawnFlyingSprite, addr 0x23a1114, size 0x1fc, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish addr 0x226be7c size 0x11c virtual true final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x23a1df0, size 0x11c, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method .ctor addr 0x226bf98 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x23a1f0c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FlyingSpriteSpawner", modifiers: "&&", def_value: None }]

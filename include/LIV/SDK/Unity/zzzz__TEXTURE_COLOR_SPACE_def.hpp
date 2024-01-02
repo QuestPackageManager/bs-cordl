@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE);
 namespace LIV::SDK::Unity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15210))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15106))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_COLOR_SPACE
 struct CORDL_TYPE TEXTURE_COLOR_SPACE {
 public:

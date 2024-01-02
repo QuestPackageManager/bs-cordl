@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationTabEvent);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7337))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7251))
 // CS Name: ::NavigationTabEvent::Direction
 struct CORDL_TYPE __NavigationTabEvent__Direction {
 public:
@@ -78,8 +78,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationTabEvent__Directio
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7334)), TypeDefinitionIndex(TypeDefinitionIndex(7337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7334), inst: 4605
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7338)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7248)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4704 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
 class CORDL_TYPE NavigationTabEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationTabEvent*> {
 public:
   // Declarations
@@ -96,21 +96,21 @@ public:
 
   constexpr void __set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
 
-  /// @brief Method set_direction addr 0x2cead30 size 0x8 virtual false final false
+  /// @brief Method set_direction, addr 0x2e530e0, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
 
-  /// @brief Method DetermineMoveDirection addr 0x2cead38 size 0x1c virtual false final false
+  /// @brief Method DetermineMoveDirection, addr 0x2e530e8, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationTabEvent__Direction DetermineMoveDirection(int32_t moveValue);
 
-  /// @brief Method GetPooled addr 0x2cead54 size 0x8c virtual false final false
+  /// @brief Method GetPooled, addr 0x2e53104, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationTabEvent* GetPooled(int32_t moveValue);
 
-  /// @brief Method Init addr 0x2ceade0 size 0x50 virtual true final false
+  /// @brief Method Init, addr 0x2e53190, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationTabEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ceae30 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2e531e0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NavigationTabEvent", modifiers: "&&", def_value: None }]

@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IExperimentalFeatures);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6944))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6858))
 // CS Name: ::UnityEngine.UIElements::IExperimentalFeatures*
 class CORDL_TYPE IExperimentalFeatures {
 public:
   // Declarations
   __declspec(property(get = get_animation))::UnityEngine::UIElements::Experimental::ITransitionAnimations* animation;
 
-  /// @brief Method get_animation addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_animation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::UIElements::Experimental::ITransitionAnimations* get_animation();
 
   // Ctor Parameters [CppParam { name: "", ty: "IExperimentalFeatures", modifiers: "&&", def_value: None }]

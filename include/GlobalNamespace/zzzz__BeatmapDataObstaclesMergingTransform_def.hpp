@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataObstaclesMergingTransform)
 namespace GlobalNamespace {
+class IReadonlyBeatmapData;
+}
+namespace GlobalNamespace {
 class __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
 }
 namespace GlobalNamespace {
 class ObstacleData;
-}
-namespace GlobalNamespace {
-class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 class BeatmapDataItem;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4163))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4129))
 // CS Name: ::BeatmapDataObstaclesMergingTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x21cc7b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x223a968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0 addr 0x21cc83c size 0x238 virtual false final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x223a9f0, size 0x238, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
@@ -84,18 +84,18 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataObstaclesMergingTransform
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4164))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4130))
 // CS Name: ::BeatmapDataObstaclesMergingTransform*
 class CORDL_TYPE BeatmapDataObstaclesMergingTransform : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesMergingTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData addr 0x21cc600 size 0x1b4 virtual false final false
+  /// @brief Method CreateTransformedData, addr 0x223a7b4, size 0x1b4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method CanBeMerged addr 0x21cc7bc size 0x80 virtual false final false
+  /// @brief Method CanBeMerged, addr 0x223a970, size 0x80, virtual false, abstract: false, final false
   static inline bool CanBeMerged(::GlobalNamespace::ObstacleData* firstObstacle, ::GlobalNamespace::ObstacleData* secondObstacle);
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataObstaclesMergingTransform", modifiers: "&&", def_value: None }]

@@ -6,14 +6,14 @@ CORDL_MODULE_EXPORT(IInstanceProvider)
 namespace UnityEngine {
 class GameObject;
 }
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct InstantiationParameters;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct InstantiationParameters;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IInstancePr
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13999))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IInstanceProvider*
 class CORDL_TYPE IInstanceProvider {
 public:
   // Declarations
-  /// @brief Method ProvideInstance addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ProvideInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::GameObject* ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                                     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> prefabHandle,
                                                     ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ReleaseInstance addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseInstance, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInstanceProvider", modifiers: "&&", def_value: None }]

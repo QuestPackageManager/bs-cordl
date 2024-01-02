@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::OptionalFieldAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3227))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3228))
 // CS Name: ::System.Runtime.Serialization::OptionalFieldAttribute*
 class CORDL_TYPE OptionalFieldAttribute : public ::System::Attribute {
 public:
@@ -34,10 +34,10 @@ public:
 
   static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2365354 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x24bde48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded addr 0x2365364 size 0x78 virtual false final false
+  /// @brief Method set_VersionAdded, addr 0x24bde58, size 0x78, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "OptionalFieldAttribute", modifiers: "&&", def_value: None }]

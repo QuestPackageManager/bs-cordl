@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISliderDidFinishJumpEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4920))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4800))
 // CS Name: ::ISliderDidFinishJumpEvent*
 class CORDL_TYPE ISliderDidFinishJumpEvent {
 public:
   // Declarations
-  /// @brief Method HandleSliderDidFinishJump addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleSliderDidFinishJump, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleSliderDidFinishJump(::GlobalNamespace::SliderController* sliderController);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISliderDidFinishJumpEvent", modifiers: "&&", def_value: None }]

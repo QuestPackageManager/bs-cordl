@@ -13,16 +13,16 @@ namespace System::Net::Http::Headers {
 class EntityTagHeaderValue;
 }
 namespace System {
-class ICloneable;
-}
-namespace System {
-struct DateTimeOffset;
+template <typename T> struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+struct DateTimeOffset;
+}
+namespace System {
+class ICloneable;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeConditionHeaderValue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 2641 }), TypeDefinitionIndex(TypeDefinitionIndex(2446)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2370))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14920)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14703)) CS Name:
 // ::System.Net.Http.Headers::RangeConditionHeaderValue*
 class CORDL_TYPE RangeConditionHeaderValue : public ::System::Object {
 public:
@@ -67,39 +67,39 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor addr 0x26c4a80 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x283fa94, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method .ctor addr 0x26c4b10 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x283fb24, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method get_Date addr 0x26c4b88 size 0x14 virtual false final false
+  /// @brief Method get_Date, addr 0x283fb9c, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method set_Date addr 0x26c4b9c size 0x14 virtual false final false
+  /// @brief Method set_Date, addr 0x283fbb0, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method get_EntityTag addr 0x26c4bb0 size 0x8 virtual false final false
+  /// @brief Method get_EntityTag, addr 0x283fbc4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
 
-  /// @brief Method set_EntityTag addr 0x26c4bb8 size 0x8 virtual false final false
+  /// @brief Method set_EntityTag, addr 0x283fbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method System.ICloneable.Clone addr 0x26c4bc0 size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x283fbd4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26c4bc8 size 0x144 virtual true final false
+  /// @brief Method Equals, addr 0x283fbdc, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26c4d0c size 0x84 virtual true final false
+  /// @brief Method GetHashCode, addr 0x283fd20, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x26c4d90 size 0x24c virtual false final false
+  /// @brief Method TryParse, addr 0x283fda4, size 0x24c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
 
-  /// @brief Method ToString addr 0x26c4fdc size 0xe4 virtual true final false
+  /// @brief Method ToString, addr 0x283fff0, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeConditionHeaderValue", modifiers: "&&", def_value: None }]

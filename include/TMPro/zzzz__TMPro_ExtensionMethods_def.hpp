@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMPro_ExtensionMethods)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace UnityEngine {
-struct Color32;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
+}
+namespace UnityEngine {
+struct Color32;
 }
 // Forward declare root types
 namespace TMPro {
@@ -33,58 +33,58 @@ MARK_REF_PTR_T(::TMPro::TMPro_ExtensionMethods);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12242))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12314))
 // CS Name: ::TMPro::TMPro_ExtensionMethods*
 class CORDL_TYPE TMPro_ExtensionMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToIntArray addr 0x2a7b704 size 0xb4 virtual false final false
+  /// @brief Method ToIntArray, addr 0x2bff458, size 0xb4, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> ToIntArray(::StringW text);
 
-  /// @brief Method ArrayToString addr 0x2a7b7b8 size 0xac virtual false final false
+  /// @brief Method ArrayToString, addr 0x2bff50c, size 0xac, virtual false, abstract: false, final false
   static inline ::StringW ArrayToString(::ArrayW<char16_t, ::Array<char16_t>*> chars);
 
-  /// @brief Method IntToString addr 0x2a7b864 size 0xb0 virtual false final false
+  /// @brief Method IntToString, addr 0x2bff5b8, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW IntToString(::ArrayW<int32_t, ::Array<int32_t>*> unicodes);
 
-  /// @brief Method UintToString addr 0x2a7b914 size 0xd8 virtual false final false
+  /// @brief Method UintToString, addr 0x2bff668, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
-  /// @brief Method IntToString addr 0x2a7b9ec size 0x118 virtual false final false
+  /// @brief Method IntToString, addr 0x2bff740, size 0x118, virtual false, abstract: false, final false
   static inline ::StringW IntToString(::ArrayW<int32_t, ::Array<int32_t>*> unicodes, int32_t start, int32_t length);
 
-  /// @brief Method FindInstanceID addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FindInstanceID, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t FindInstanceID(::System::Collections::Generic::List_1<T>* list, T target);
 
-  /// @brief Method Compare addr 0x2a7bb04 size 0x10 virtual false final false
+  /// @brief Method Compare, addr 0x2bff858, size 0x10, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method CompareRGB addr 0x2a7bb14 size 0x10 virtual false final false
+  /// @brief Method CompareRGB, addr 0x2bff868, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareRGB(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method Compare addr 0x2a7bb24 size 0x30 virtual false final false
+  /// @brief Method Compare, addr 0x2bff878, size 0x30, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Color a, ::UnityEngine::Color b);
 
-  /// @brief Method CompareRGB addr 0x2a7bb54 size 0x28 virtual false final false
+  /// @brief Method CompareRGB, addr 0x2bff8a8, size 0x28, virtual false, abstract: false, final false
   static inline bool CompareRGB(::UnityEngine::Color a, ::UnityEngine::Color b);
 
-  /// @brief Method Multiply addr 0x2a7bb7c size 0xc0 virtual false final false
+  /// @brief Method Multiply, addr 0x2bff8d0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Multiply(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
-  /// @brief Method Tint addr 0x2a7bc3c size 0xc0 virtual false final false
+  /// @brief Method Tint, addr 0x2bff990, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Tint(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
-  /// @brief Method Tint addr 0x2a7bcfc size 0xdc virtual false final false
+  /// @brief Method Tint, addr 0x2bffa50, size 0xdc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Tint(::UnityEngine::Color32 c1, float_t tint);
 
-  /// @brief Method MinAlpha addr 0x2a7bdd8 size 0xc virtual false final false
+  /// @brief Method MinAlpha, addr 0x2bffb2c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color MinAlpha(::UnityEngine::Color c1, ::UnityEngine::Color c2);
 
-  /// @brief Method Compare addr 0x2a7bde4 size 0x94 virtual false final false
+  /// @brief Method Compare, addr 0x2bffb38, size 0x94, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Vector3 v1, ::UnityEngine::Vector3 v2, int32_t accuracy);
 
-  /// @brief Method Compare addr 0x2a7be78 size 0xc0 virtual false final false
+  /// @brief Method Compare, addr 0x2bffbcc, size 0x10c0, virtual false, abstract: false, final false
   static inline bool Compare(::UnityEngine::Quaternion q1, ::UnityEngine::Quaternion q2, int32_t accuracy);
 
   // Ctor Parameters [CppParam { name: "", ty: "TMPro_ExtensionMethods", modifiers: "&&", def_value: None }]

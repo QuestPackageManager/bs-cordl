@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::ITickable);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15682))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15732))
 // CS Name: ::Zenject::ITickable*
 class CORDL_TYPE ITickable {
 public:
   // Declarations
-  /// @brief Method Tick addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Tick();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITickable", modifiers: "&&", def_value: None }]

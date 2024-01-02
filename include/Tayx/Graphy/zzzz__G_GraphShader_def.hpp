@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::Tayx::Graphy::G_GraphShader);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15247))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15069))
 // CS Name: ::Tayx.Graphy::G_GraphShader*
 class CORDL_TYPE G_GraphShader : public ::System::Object {
 public:
@@ -181,27 +181,27 @@ public:
 
   constexpr void __set_m_criticalColorPropertyId(int32_t value);
 
-  /// @brief Method InitializeShader addr 0x2888a5c size 0x17c virtual false final false
+  /// @brief Method InitializeShader, addr 0x2a06240, size 0x17c, virtual false, abstract: false, final false
   inline void InitializeShader();
 
-  /// @brief Method UpdateArray addr 0x2888bd8 size 0x44 virtual false final false
+  /// @brief Method UpdateArray, addr 0x2a063bc, size 0x44, virtual false, abstract: false, final false
   inline void UpdateArray();
 
-  /// @brief Method UpdateAverage addr 0x2888c1c size 0x3c virtual false final false
+  /// @brief Method UpdateAverage, addr 0x2a06400, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateAverage();
 
-  /// @brief Method UpdateThresholds addr 0x2888c58 size 0x68 virtual false final false
+  /// @brief Method UpdateThresholds, addr 0x2a0643c, size 0x68, virtual false, abstract: false, final false
   inline void UpdateThresholds();
 
-  /// @brief Method UpdateColors addr 0x2888cc0 size 0xa0 virtual false final false
+  /// @brief Method UpdateColors, addr 0x2a064a4, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePoints addr 0x2888d60 size 0x3c virtual false final false
+  /// @brief Method UpdatePoints, addr 0x2a06544, size 0x3c, virtual false, abstract: false, final false
   inline void UpdatePoints();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method .ctor addr 0x2888d9c size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2a06580, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "G_GraphShader", modifiers: "&&", def_value: None }]

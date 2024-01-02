@@ -10,44 +10,44 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AssetBundleResource)
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
+namespace UnityEngine {
+class AsyncOperation;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct ProvideHandle;
+class IAssetBundleResource;
 }
 namespace UnityEngine::Networking {
 class DownloadHandlerAssetBundle;
 }
-namespace UnityEngine {
-class AsyncOperation;
-}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
-}
-namespace UnityEngine {
-class AssetBundleRequest;
-}
-namespace UnityEngine::Networking {
-class UnityWebRequest;
-}
-namespace UnityEngine::ResourceManagement::ResourceProviders {
-class AssetBundleRequestOptions;
 }
 namespace UnityEngine::ResourceManagement {
 class IUpdateReceiver;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class IAssetBundleResource;
+struct __AssetBundleResource__LoadType;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::ResourceManagement {
+class WebRequestQueueOperation;
+}
+namespace UnityEngine::Networking {
+class UnityWebRequest;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct DownloadStatus;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequestAsyncOperation;
 }
+namespace System {
+template <typename T> class Action_1;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct __AssetBundleResource__LoadType;
+class AssetBundleRequestOptions;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct ProvideHandle;
 }
 namespace UnityEngine {
 class AssetBundle;
@@ -55,8 +55,8 @@ class AssetBundle;
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
-namespace UnityEngine::ResourceManagement {
-class WebRequestQueueOperation;
+namespace UnityEngine {
+class AssetBundleRequest;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::ResourceProviders {
@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13992))
 // CS Name: ::AssetBundleResource::LoadType
 struct CORDL_TYPE __AssetBundleResource__LoadType {
 public:
@@ -126,8 +126,8 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__A
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14273))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14002)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13993))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleResource*
 class CORDL_TYPE AssetBundleResource : public ::System::Object {
 public:
@@ -297,77 +297,77 @@ public:
 
   constexpr void __set_m_TimeoutOverFrames(int32_t value);
 
-  /// @brief Method get_HasTimedOut addr 0x2a50da4 size 0x40 virtual false final false
+  /// @brief Method get_HasTimedOut, addr 0x2bd3af8, size 0x40, virtual false, abstract: false, final false
   inline bool get_HasTimedOut();
 
-  /// @brief Method get_BytesToDownload addr 0x2a50de4 size 0x58 virtual false final false
+  /// @brief Method get_BytesToDownload, addr 0x2bd3b38, size 0x58, virtual false, abstract: false, final false
   inline int64_t get_BytesToDownload();
 
-  /// @brief Method CreateWebRequest addr 0x2a50ee8 size 0x28 virtual false final false
+  /// @brief Method CreateWebRequest, addr 0x2bd3c3c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method CreateWebRequest addr 0x2a50f10 size 0x1bc virtual false final false
+  /// @brief Method CreateWebRequest, addr 0x2bd3c64, size 0x1bc, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* CreateWebRequest(::StringW url);
 
-  /// @brief Method GetAssetPreloadRequest addr 0x2a510cc size 0x124 virtual false final false
+  /// @brief Method GetAssetPreloadRequest, addr 0x2bd3e20, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::AssetBundleRequest* GetAssetPreloadRequest();
 
-  /// @brief Method PercentComplete addr 0x2a512e8 size 0x18 virtual false final false
+  /// @brief Method PercentComplete, addr 0x2bd403c, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method GetDownloadStatus addr 0x2a51300 size 0x150 virtual false final false
+  /// @brief Method GetDownloadStatus, addr 0x2bd4054, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus();
 
-  /// @brief Method GetAssetBundle addr 0x2a511f0 size 0xf8 virtual true final true
+  /// @brief Method GetAssetBundle, addr 0x2bd3f44, size 0xf8, virtual true, abstract: false, final true
   inline ::UnityEngine::AssetBundle* GetAssetBundle();
 
-  /// @brief Method Start addr 0x2a51450 size 0x238 virtual false final false
+  /// @brief Method Start, addr 0x2bd41a4, size 0x238, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler addr 0x2a51c1c size 0x240 virtual false final false
+  /// @brief Method WaitForCompletionHandler, addr 0x2bd4970, size 0x240, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
-  /// @brief Method AddCallbackInvokeIfDone addr 0x2a5244c size 0x60 virtual false final false
+  /// @brief Method AddCallbackInvokeIfDone, addr 0x2bd51a0, size 0x60, virtual false, abstract: false, final false
   inline void AddCallbackInvokeIfDone(::UnityEngine::AsyncOperation* operation, ::System::Action_1<::UnityEngine::AsyncOperation*>* callback);
 
-  /// @brief Method GetLoadInfo addr 0x2a524ac size 0x30 virtual false final false
+  /// @brief Method GetLoadInfo, addr 0x2bd5200, size 0x30, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle handle,
                                  ByRef<::UnityEngine::ResourceManagement::ResourceProviders::__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path);
 
-  /// @brief Method GetLoadInfo addr 0x2a524dc size 0x1f4 virtual false final false
+  /// @brief Method GetLoadInfo, addr 0x2bd5230, size 0x1f4, virtual false, abstract: false, final false
   static inline void GetLoadInfo(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                  ByRef<::UnityEngine::ResourceManagement::ResourceProviders::__AssetBundleResource__LoadType> loadType, ByRef<::StringW> path);
 
-  /// @brief Method BeginOperation addr 0x2a518a4 size 0x378 virtual false final false
+  /// @brief Method BeginOperation, addr 0x2bd45f8, size 0x378, virtual false, abstract: false, final false
   inline void BeginOperation();
 
-  /// @brief Method BeginWebRequestOperation addr 0x2a526d0 size 0xec virtual false final false
+  /// @brief Method BeginWebRequestOperation, addr 0x2bd5424, size 0xec, virtual false, abstract: false, final false
   inline void BeginWebRequestOperation(::UnityEngine::AsyncOperation* asyncOp);
 
-  /// @brief Method Update addr 0x2a527bc size 0x120 virtual true final true
+  /// @brief Method Update, addr 0x2bd5510, size 0x120, virtual true, abstract: false, final true
   inline void Update(float_t unscaledDeltaTime);
 
-  /// @brief Method LocalRequestOperationCompleted addr 0x2a528dc size 0x8c virtual false final false
+  /// @brief Method LocalRequestOperationCompleted, addr 0x2bd5630, size 0x8c, virtual false, abstract: false, final false
   inline void LocalRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method CompleteBundleLoad addr 0x2a52968 size 0x13c virtual false final false
+  /// @brief Method CompleteBundleLoad, addr 0x2bd56bc, size 0x13c, virtual false, abstract: false, final false
   inline void CompleteBundleLoad(::UnityEngine::AssetBundle* bundle);
 
-  /// @brief Method WebRequestOperationCompleted addr 0x2a51e5c size 0x5f0 virtual false final false
+  /// @brief Method WebRequestOperationCompleted, addr 0x2bd4bb0, size 0x5f0, virtual false, abstract: false, final false
   inline void WebRequestOperationCompleted(::UnityEngine::AsyncOperation* op);
 
-  /// @brief Method Unload addr 0x2a52aa4 size 0xa0 virtual false final false
+  /// @brief Method Unload, addr 0x2bd57f8, size 0xa0, virtual false, abstract: false, final false
   inline void Unload();
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleResource* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a52b44 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2bd5898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetAssetPreloadRequest>b__25_0 addr 0x2a52b4c size 0xc virtual false final false
+  /// @brief Method <GetAssetPreloadRequest>b__25_0, addr 0x2bd58a0, size 0xc, virtual false, abstract: false, final false
   inline void _GetAssetPreloadRequest_b__25_0(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method <BeginOperation>b__34_0 addr 0x2a52b58 size 0x4 virtual false final false
+  /// @brief Method <BeginOperation>b__34_0, addr 0x2bd58ac, size 0x4, virtual false, abstract: false, final false
   inline void _BeginOperation_b__34_0(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   // Ctor Parameters [CppParam { name: "", ty: "AssetBundleResource", modifiers: "&&", def_value: None }]

@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AgreementUtilities)
-namespace Org::BouncyCastle::Crypto {
-class IRawAgreement;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
-class IBasicAgreement;
+class IRawAgreement;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBasicAgreement;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Security {
@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::AgreementUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1739))
 // CS Name: ::Org.BouncyCastle.Security::AgreementUtilities*
 class CORDL_TYPE AgreementUtilities : public ::System::Object {
@@ -42,31 +42,31 @@ public:
 
   static inline ::Org::BouncyCastle::Security::AgreementUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x10ac7d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x111da24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetBasicAgreement addr 0x10acbd8 size 0x60 virtual false final false
+  /// @brief Method GetBasicAgreement, addr 0x111de2c, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetBasicAgreement addr 0x10acc38 size 0x280 virtual false final false
+  /// @brief Method GetBasicAgreement, addr 0x111de8c, size 0x280, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreement(::StringW algorithm);
 
-  /// @brief Method GetBasicAgreementWithKdf addr 0x10acff8 size 0x68 virtual false final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x111e24c, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetBasicAgreementWithKdf addr 0x10ad060 size 0x254 virtual false final false
+  /// @brief Method GetBasicAgreementWithKdf, addr 0x111e2b4, size 0x254, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IBasicAgreement* GetBasicAgreementWithKdf(::StringW agreeAlgorithm, ::StringW wrapAlgorithm);
 
-  /// @brief Method GetRawAgreement addr 0x10ad2b4 size 0x60 virtual false final false
+  /// @brief Method GetRawAgreement, addr 0x111e508, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetRawAgreement addr 0x10ad314 size 0x180 virtual false final false
+  /// @brief Method GetRawAgreement, addr 0x111e568, size 0x180, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IRawAgreement* GetRawAgreement(::StringW algorithm);
 
-  /// @brief Method GetAlgorithmName addr 0x10ad494 size 0x108 virtual false final false
+  /// @brief Method GetAlgorithmName, addr 0x111e6e8, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetMechanism addr 0x10aceb8 size 0x140 virtual false final false
+  /// @brief Method GetMechanism, addr 0x111e10c, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW GetMechanism(::StringW algorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "AgreementUtilities", modifiers: "&&", def_value: None }]

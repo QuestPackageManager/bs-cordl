@@ -6,8 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OtherHashAlgAndValue)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1OctetString;
@@ -16,10 +19,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::Esf {
@@ -57,32 +57,32 @@ public:
 
   constexpr void __set_hashValue(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method GetInstance addr 0xe1f970 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe94b44, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xe1fd48 size 0x210 virtual false final false
+  /// @brief Method .ctor, addr 0xe94f1c, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue);
 
-  /// @brief Method .ctor addr 0xe1ff58 size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0xe9512c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> hashValue);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                                                                                ::Org::BouncyCastle::Asn1::Asn1OctetString* hashValue);
 
-  /// @brief Method .ctor addr 0xe20054 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0xe95228, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::Asn1OctetString* hashValue);
 
-  /// @brief Method get_HashAlgorithm addr 0xe200f8 size 0x8 virtual false final false
+  /// @brief Method get_HashAlgorithm, addr 0xe952cc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method GetHashValue addr 0xe1fd08 size 0x20 virtual false final false
+  /// @brief Method GetHashValue, addr 0xe94edc, size 0x20, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHashValue();
 
-  /// @brief Method ToAsn1Object addr 0xe20100 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe952d4, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "OtherHashAlgAndValue", modifiers: "&&", def_value: None }]

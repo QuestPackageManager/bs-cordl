@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::System::Net::ICredentials);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7907))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9070))
 // CS Name: ::System.Net::ICredentials*
 class CORDL_TYPE ICredentials {
 public:
   // Declarations
-  /// @brief Method GetCredential addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetCredential, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICredentials", modifiers: "&&", def_value: None }]

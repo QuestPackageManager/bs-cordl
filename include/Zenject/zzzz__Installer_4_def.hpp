@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__InstallerBase_def.hpp"
 CORDL_MODULE_EXPORT(Installer_4)
 namespace Zenject {
-class InjectTypeInfo;
+class DiContainer;
 }
 namespace Zenject {
-class DiContainer;
+class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,21 +22,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TDerived>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11065))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11062))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11137))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11134))
 // CS Name: ::Zenject::Installer`4<TParam1,TParam2,TParam3,TDerived>*
 class CORDL_TYPE Installer_4 : public ::Zenject::InstallerBase {
 public:
   // Declarations
-  /// @brief Method Install addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Install(::Zenject::DiContainer* container, TParam1 p1, TParam2 p2, TParam3 p3);
 
   static inline ::Zenject::Installer_4<TParam1, TParam2, TParam3, TDerived>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "Installer_4", modifiers: "&&", def_value: None }]

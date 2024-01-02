@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AudioType);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9980))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10052))
 // CS Name: ::UnityEngine::AudioType
 struct CORDL_TYPE AudioType {
 public:

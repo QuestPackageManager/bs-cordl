@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::GlobalNamespace::IPosesSerializer);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6007))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5916))
 // CS Name: ::IPosesSerializer*
 class CORDL_TYPE IPosesSerializer {
 public:
   // Declarations
-  /// @brief Method SaveToOldFormat addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SaveToOldFormat, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
 
-  /// @brief Method SaveRecording addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SaveRecording, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SaveRecording(::StringW path, ::GlobalNamespace::PosesRecordingData* data, bool saveToOldFormat);
 
-  /// @brief Method LoadRecording addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LoadRecording, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::PosesRecordingData* LoadRecording(::StringW path);
 
-  /// @brief Method RecordingExists addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RecordingExists, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RecordingExists(::StringW path);
 
-  /// @brief Method RecordingCanBeCreated addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RecordingCanBeCreated, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RecordingCanBeCreated(::StringW path);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPosesSerializer", modifiers: "&&", def_value: None }]

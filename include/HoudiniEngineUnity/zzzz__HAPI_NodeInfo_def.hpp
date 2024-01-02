@@ -19,8 +19,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_NodeInfo);
 // SizeInfo { instance_size: 68, native_size: 68, calculated_instance_size: 68, calculated_native_size: 82, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9627))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9660))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9700))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9733))
 // CS Name: ::HoudiniEngineUnity::HAPI_NodeInfo
 struct CORDL_TYPE HAPI_NodeInfo {
 public:

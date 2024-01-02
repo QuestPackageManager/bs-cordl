@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeElement)
-namespace UnityEngine::Timeline {
-class IInterval;
-}
 namespace UnityEngine::Playables {
 struct FrameData;
+}
+namespace UnityEngine::Timeline {
+class IInterval;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeElement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14155))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13884))
 // CS Name: ::UnityEngine.Timeline::RuntimeElement*
 class CORDL_TYPE RuntimeElement : public ::System::Object {
 public:
@@ -48,30 +48,30 @@ public:
 
   constexpr void __set__intervalBit_k__BackingField(int32_t value);
 
-  /// @brief Method get_intervalStart addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_intervalStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalStart();
 
-  /// @brief Method get_intervalEnd addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_intervalEnd, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalEnd();
 
-  /// @brief Method get_intervalBit addr 0x2ae4350 size 0x8 virtual false final false
+  /// @brief Method get_intervalBit, addr 0x2c680a4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_intervalBit();
 
-  /// @brief Method set_intervalBit addr 0x2ae4358 size 0x8 virtual false final false
+  /// @brief Method set_intervalBit, addr 0x2c680ac, size 0x8, virtual false, abstract: false, final false
   inline void set_intervalBit(int32_t value);
 
-  /// @brief Method set_enable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_enable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_enable(bool value);
 
-  /// @brief Method EvaluateAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method EvaluateAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void EvaluateAt(double_t localTime, ::UnityEngine::Playables::FrameData frameData);
 
-  /// @brief Method DisableAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisableAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void DisableAt(double_t localTime, double_t rootDuration, ::UnityEngine::Playables::FrameData frameData);
 
   static inline ::UnityEngine::Timeline::RuntimeElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae39e8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c6773c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeElement", modifiers: "&&", def_value: None }]

@@ -10,13 +10,13 @@ namespace Org::BouncyCastle::Bcpg {
 class SymmetricKeyEncSessionPacket;
 }
 namespace Org::BouncyCastle::Bcpg {
-struct SymmetricKeyAlgorithmTag;
-}
-namespace Org::BouncyCastle::Bcpg {
 class InputStreamPacket;
 }
 namespace System::IO {
 class Stream;
+}
+namespace Org::BouncyCastle::Bcpg {
+struct SymmetricKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
@@ -49,25 +49,25 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData,
                                                                                   ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method .ctor addr 0x103c16c size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x10ad3bc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData, ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
 
-  /// @brief Method GetInputStream addr 0x104114c size 0x1c virtual true final false
+  /// @brief Method GetInputStream, addr 0x10b239c, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
-  /// @brief Method GetDataStream addr 0x1041168 size 0x2c virtual false final false
+  /// @brief Method GetDataStream, addr 0x10b23b8, size 0x2c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStream(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
 
-  /// @brief Method GetDataStreamUtf8 addr 0x1041a64 size 0x30 virtual false final false
+  /// @brief Method GetDataStreamUtf8, addr 0x10b2cb4, size 0x30, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStreamUtf8(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
 
-  /// @brief Method GetDataStreamRaw addr 0x1041a94 size 0x8 virtual false final false
+  /// @brief Method GetDataStreamRaw, addr 0x10b2ce4, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetDataStreamRaw(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase);
 
-  /// @brief Method DoGetDataStream addr 0x1041194 size 0x8d0 virtual false final false
+  /// @brief Method DoGetDataStream, addr 0x10b23e4, size 0x8d0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* DoGetDataStream(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool clearPassPhrase);
 
-  /// @brief Method CreateStreamCipher addr 0x1041a9c size 0x134 virtual false final false
+  /// @brief Method CreateStreamCipher, addr 0x10b2cec, size 0x134, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateStreamCipher(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag keyAlgorithm);
 
   // Ctor Parameters [CppParam { name: "", ty: "PgpPbeEncryptedData", modifiers: "&&", def_value: None }]

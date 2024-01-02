@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IControl)
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Encodable;
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
@@ -29,10 +29,10 @@ public:
 
   __declspec(property(get = get_Value))::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
 
-  /// @brief Method get_Type addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "IControl", modifiers: "&&", def_value: None }]

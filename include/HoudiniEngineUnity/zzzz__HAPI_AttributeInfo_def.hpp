@@ -10,13 +10,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HAPI_AttributeInfo)
 namespace HoudiniEngineUnity {
-struct HAPI_AttributeOwner;
-}
-namespace HoudiniEngineUnity {
 struct HAPI_StorageType;
 }
 namespace HoudiniEngineUnity {
 struct HAPI_AttributeTypeInfo;
+}
+namespace HoudiniEngineUnity {
+struct HAPI_AttributeOwner;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -28,14 +28,15 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeInfo);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9634)), TypeDefinitionIndex(TypeDefinitionIndex(9635)), TypeDefinitionIndex(TypeDefinitionIndex(9630))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9668))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9708)), TypeDefinitionIndex(TypeDefinitionIndex(9707))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9741))
 // CS Name: ::HoudiniEngineUnity::HAPI_AttributeInfo
 struct CORDL_TYPE HAPI_AttributeInfo {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x203b4e8 size 0x20 virtual false final false
-  inline void _ctor(::StringW ignored);
+  /// @brief Method .ctor, addr 0x2191e84, size 0x20, virtual false, abstract: false, final false
+  /// @param ignored: ::StringW (default: nullptr)
+  inline void _ctor(::StringW ignored = nullptr);
 
   // Ctor Parameters [CppParam { name: "exists", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "owner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner", modifiers: "", def_value: None
   // }, CppParam { name: "storage", ty: "::HoudiniEngineUnity::HAPI_StorageType", modifiers: "", def_value: None }, CppParam { name: "originalOwner", ty: "::HoudiniEngineUnity::HAPI_AttributeOwner",

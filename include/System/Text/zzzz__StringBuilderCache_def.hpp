@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Text::StringBuilderCache);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2850))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2854))
 // CS Name: ::System.Text::StringBuilderCache*
 class CORDL_TYPE StringBuilderCache : public ::System::Object {
 public:
@@ -32,13 +32,14 @@ public:
 
   static inline ::System::Text::StringBuilder* getStaticF_t_cachedInstance();
 
-  /// @brief Method Acquire addr 0x22e3928 size 0xd0 virtual false final false
-  static inline ::System::Text::StringBuilder* Acquire(int32_t capacity);
+  /// @brief Method Acquire, addr 0x243d444, size 0xd0, virtual false, abstract: false, final false
+  /// @param capacity: int32_t (default: static_cast<int32_t>(0x10))
+  static inline ::System::Text::StringBuilder* Acquire(int32_t capacity = static_cast<int32_t>(0x10));
 
-  /// @brief Method Release addr 0x22e39f8 size 0x80 virtual false final false
+  /// @brief Method Release, addr 0x243d514, size 0x80, virtual false, abstract: false, final false
   static inline void Release(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetStringAndRelease addr 0x22e3a78 size 0x3c virtual false final false
+  /// @brief Method GetStringAndRelease, addr 0x243d594, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW GetStringAndRelease(::System::Text::StringBuilder* sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "StringBuilderCache", modifiers: "&&", def_value: None }]

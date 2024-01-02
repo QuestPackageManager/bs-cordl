@@ -14,21 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusOutEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7318), inst: 1923 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7319))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7232), inst: 1987 }), TypeDefinitionIndex(TypeDefinitionIndex(7232))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7233))
 // CS Name: ::UnityEngine.UIElements::FocusOutEvent*
 class CORDL_TYPE FocusOutEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent*> {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2ce9bbc size 0x54 virtual true final false
+  /// @brief Method Init, addr 0x2e51f6c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2ce9c10 size 0xc virtual false final false
+  /// @brief Method LocalInit, addr 0x2e51fc0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce9c1c size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x2e51fcc, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FocusOutEvent", modifiers: "&&", def_value: None }]

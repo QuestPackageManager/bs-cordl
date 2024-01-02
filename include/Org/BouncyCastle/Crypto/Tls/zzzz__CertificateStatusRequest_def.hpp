@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1189))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateStatusRequest*
 class CORDL_TYPE CertificateStatusRequest : public ::System::Object {
@@ -54,25 +54,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* New_ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method .ctor addr 0xee9ec8 size 0xa0 virtual false final false
+  /// @brief Method .ctor, addr 0xf600e4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(uint8_t statusType, ::System::Object* request);
 
-  /// @brief Method get_StatusType addr 0xeea050 size 0x8 virtual true final false
+  /// @brief Method get_StatusType, addr 0xf6026c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_StatusType();
 
-  /// @brief Method get_Request addr 0xeea058 size 0x8 virtual true final false
+  /// @brief Method get_Request, addr 0xf60274, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_Request();
 
-  /// @brief Method GetOcspStatusRequest addr 0xeea060 size 0xd4 virtual true final false
+  /// @brief Method GetOcspStatusRequest, addr 0xf6027c, size 0xd4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* GetOcspStatusRequest();
 
-  /// @brief Method Encode addr 0xeea134 size 0x13c virtual true final false
+  /// @brief Method Encode, addr 0xf60350, size 0x13c, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
-  /// @brief Method Parse addr 0xeea270 size 0xf4 virtual false final false
+  /// @brief Method Parse, addr 0xf6048c, size 0xf4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusRequest* Parse(::System::IO::Stream* input);
 
-  /// @brief Method IsCorrectType addr 0xee9f68 size 0xe8 virtual false final false
+  /// @brief Method IsCorrectType, addr 0xf60184, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsCorrectType(uint8_t statusType, ::System::Object* request);
 
   // Ctor Parameters [CppParam { name: "", ty: "CertificateStatusRequest", modifiers: "&&", def_value: None }]

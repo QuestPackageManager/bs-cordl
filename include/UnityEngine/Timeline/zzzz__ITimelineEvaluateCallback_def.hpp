@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineEvaluateCallback);
 namespace UnityEngine::Timeline {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14199))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13928))
 // CS Name: ::UnityEngine.Timeline::ITimelineEvaluateCallback*
 class CORDL_TYPE ITimelineEvaluateCallback {
 public:
   // Declarations
-  /// @brief Method Evaluate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Evaluate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Evaluate();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITimelineEvaluateCallback", modifiers: "&&", def_value: None }]

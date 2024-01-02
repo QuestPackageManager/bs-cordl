@@ -5,17 +5,20 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredTaskAwaitable_1)
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
-}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
-namespace System {
-class Action;
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace System::Runtime::CompilerServices {
@@ -34,7 +37,7 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3392))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3397))
 // CS Name: ::ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 struct CORDL_TYPE __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter {
 public:
@@ -44,16 +47,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
 
-  /// @brief Method get_IsCompleted addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method UnsafeOnCompleted addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method OnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void OnCompleted(::System::Action* continuation);
+
+  /// @brief Method UnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TResult GetResult();
 
   // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task_1<TResult>*", modifiers: "", def_value: None }, CppParam { name: "m_continueOnCapturedContext", ty: "bool",
@@ -83,18 +92,18 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 1099 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3393))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1121 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3398))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredTaskAwaitable`1<TResult>
 struct CORDL_TYPE ConfiguredTaskAwaitable_1 {
 public:
   // Declarations
   using ConfiguredTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult>;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task_1<TResult>* task, bool continueOnCapturedContext);
 
-  /// @brief Method GetAwaiter addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult> GetAwaiter();
 
   // Ctor Parameters [CppParam { name: "m_configuredTaskAwaiter", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<TResult>", modifiers: "", def_value: None

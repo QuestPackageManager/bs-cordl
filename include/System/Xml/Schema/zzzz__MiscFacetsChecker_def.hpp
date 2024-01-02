@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Xml::Schema::MiscFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11614))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11621))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11693))
 // CS Name: ::System.Xml.Schema::MiscFacetsChecker*
 class CORDL_TYPE MiscFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
   static inline ::System::Xml::Schema::MiscFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x274521c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x28c3240, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MiscFacetsChecker", modifiers: "&&", def_value: None }]

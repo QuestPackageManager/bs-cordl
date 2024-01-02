@@ -16,21 +16,21 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11014)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11014), inst: 2696 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11004))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11086)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11086), inst: 2756 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11076))
 // CS Name: ::Zenject::PoolableStaticMemoryPool`1<TValue>*
 class CORDL_TYPE PoolableStaticMemoryPool_1 : public ::Zenject::StaticMemoryPool_1<TValue> {
 public:
   // Declarations
   static inline ::Zenject::PoolableStaticMemoryPool_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method OnSpawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(TValue value);
 
-  /// @brief Method OnDespawned addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDespawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnDespawned(TValue value);
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableStaticMemoryPool_1", modifiers: "&&", def_value: None }]

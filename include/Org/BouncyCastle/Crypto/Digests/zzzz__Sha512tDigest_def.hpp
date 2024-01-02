@@ -111,39 +111,39 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* New_ctor(int32_t bitLength);
 
-  /// @brief Method .ctor addr 0xe30a60 size 0x168 virtual false final false
+  /// @brief Method .ctor, addr 0xea4c34, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* t);
 
-  /// @brief Method .ctor addr 0xe30d50 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xea4f24, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* t);
 
-  /// @brief Method get_AlgorithmName addr 0xe30de0 size 0x88 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xea4fb4, size 0x88, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method GetDigestSize addr 0xe30e68 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize, addr 0xea503c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method DoFinal addr 0xe30e70 size 0xfc virtual true final false
+  /// @brief Method DoFinal, addr 0xea5044, size 0xfc, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset addr 0xe30fd0 size 0x38 virtual true final false
+  /// @brief Method Reset, addr 0xea51a4, size 0x38, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method tIvGenerate addr 0xe30bc8 size 0x188 virtual false final false
+  /// @brief Method tIvGenerate, addr 0xea4d9c, size 0x188, virtual false, abstract: false, final false
   inline void tIvGenerate(int32_t bitLength);
 
-  /// @brief Method UInt64_To_BE addr 0xe30f6c size 0x64 virtual false final false
+  /// @brief Method UInt64_To_BE, addr 0xea5140, size 0x64, virtual false, abstract: false, final false
   static inline void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, int32_t max);
 
-  /// @brief Method UInt32_To_BE addr 0xe31008 size 0xc0 virtual false final false
+  /// @brief Method UInt32_To_BE, addr 0xea51dc, size 0xc0, virtual false, abstract: false, final false
   static inline void UInt32_To_BE(uint32_t n, ::ArrayW<uint8_t, ::Array<uint8_t>*> bs, int32_t off, int32_t max);
 
-  /// @brief Method Copy addr 0xe310c8 size 0x60 virtual true final false
+  /// @brief Method Copy, addr 0xea529c, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method Reset addr 0xe31128 size 0x10c virtual true final false
+  /// @brief Method Reset, addr 0xea52fc, size 0x10c, virtual true, abstract: false, final false
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "Sha512tDigest", modifiers: "&&", def_value: None }]

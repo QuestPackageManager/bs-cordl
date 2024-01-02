@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkConfigSO)
 namespace GlobalNamespace {
-struct ServiceEnvironment;
+class INetworkConfig;
 }
 namespace GlobalNamespace {
-class INetworkConfig;
+struct ServiceEnvironment;
 }
 namespace GlobalNamespace {
 class DnsEndPoint;
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkConfigSO);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12669)), TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14952))
 // CS Name: ::NetworkConfigSO*
 class CORDL_TYPE NetworkConfigSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -165,45 +165,45 @@ public:
 
   constexpr void __set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value);
 
-  /// @brief Method get_maxPartySize addr 0x221c7d4 size 0x8 virtual true final true
+  /// @brief Method get_maxPartySize, addr 0x2637014, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();
 
-  /// @brief Method get_discoveryPort addr 0x221c7dc size 0x8 virtual true final true
+  /// @brief Method get_discoveryPort, addr 0x263701c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_discoveryPort();
 
-  /// @brief Method get_partyPort addr 0x221c7e4 size 0x8 virtual true final true
+  /// @brief Method get_partyPort, addr 0x2637024, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_partyPort();
 
-  /// @brief Method get_multiplayerPort addr 0x221c7ec size 0x8 virtual true final true
+  /// @brief Method get_multiplayerPort, addr 0x263702c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_multiplayerPort();
 
-  /// @brief Method get_masterServerEndPoint addr 0x221c7f4 size 0x70 virtual true final true
+  /// @brief Method get_masterServerEndPoint, addr 0x2637034, size 0x70, virtual true, abstract: false, final true
   inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
 
-  /// @brief Method get_multiplayerStatusUrl addr 0x221c864 size 0x8 virtual true final true
+  /// @brief Method get_multiplayerStatusUrl, addr 0x26370a4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_multiplayerStatusUrl();
 
-  /// @brief Method get_quickPlaySetupUrl addr 0x221c86c size 0x8 virtual true final true
+  /// @brief Method get_quickPlaySetupUrl, addr 0x26370ac, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_quickPlaySetupUrl();
 
-  /// @brief Method get_graphUrl addr 0x221c874 size 0x8 virtual true final true
+  /// @brief Method get_graphUrl, addr 0x26370b4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_graphAccessToken addr 0x221c87c size 0x68 virtual true final true
+  /// @brief Method get_graphAccessToken, addr 0x26370bc, size 0x68, virtual true, abstract: false, final true
   inline ::StringW get_graphAccessToken();
 
-  /// @brief Method get_forceGameLift addr 0x221c910 size 0x8 virtual true final true
+  /// @brief Method get_forceGameLift, addr 0x2637150, size 0x8, virtual true, abstract: false, final true
   inline bool get_forceGameLift();
 
-  /// @brief Method get_serviceEnvironment addr 0x221c918 size 0x8 virtual true final true
+  /// @brief Method get_serviceEnvironment, addr 0x2637158, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
-  /// @brief Method GetAppId addr 0x221c8e4 size 0x2c virtual false final false
+  /// @brief Method GetAppId, addr 0x2637124, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetAppId();
 
   static inline ::GlobalNamespace::NetworkConfigSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x221c920 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x2637160, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkConfigSO", modifiers: "&&", def_value: None }]

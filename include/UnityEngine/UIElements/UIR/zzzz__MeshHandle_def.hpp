@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::MeshHandle);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7485), inst: 343 }), TypeDefinitionIndex(TypeDefinitionIndex(7519)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7485))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7511)) CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 346 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(7433))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7425)) CS Name: ::UnityEngine.UIElements.UIR::MeshHandle*
 class CORDL_TYPE MeshHandle : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::UIR::MeshHandle*> {
 public:
   // Declarations
@@ -80,7 +80,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::MeshHandle* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c677f0 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2dcdba0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshHandle", modifiers: "&&", def_value: None }]

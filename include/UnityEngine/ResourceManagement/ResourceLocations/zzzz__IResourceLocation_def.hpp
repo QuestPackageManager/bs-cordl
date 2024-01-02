@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IResourceLocation)
-namespace System {
-class Object;
-}
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Type;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLo
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14021))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceLocations::IResourceLocation*
 class CORDL_TYPE IResourceLocation {
 public:
@@ -46,31 +46,31 @@ public:
 
   __declspec(property(get = get_ResourceType))::System::Type* ResourceType;
 
-  /// @brief Method get_InternalId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_InternalId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_InternalId();
 
-  /// @brief Method get_ProviderId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ProviderId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_ProviderId();
 
-  /// @brief Method get_Dependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Dependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_Dependencies();
 
-  /// @brief Method Hash addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Hash, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Hash(::System::Type* resultType);
 
-  /// @brief Method get_DependencyHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DependencyHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_DependencyHashCode();
 
-  /// @brief Method get_HasDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_HasDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_HasDependencies();
 
-  /// @brief Method get_Data addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_Data();
 
-  /// @brief Method get_PrimaryKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_PrimaryKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_PrimaryKey();
 
-  /// @brief Method get_ResourceType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ResourceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ResourceType();
 
   // Ctor Parameters [CppParam { name: "", ty: "IResourceLocation", modifiers: "&&", def_value: None }]

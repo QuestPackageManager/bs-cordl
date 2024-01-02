@@ -7,17 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissionLevelNoTransitionInstaller)
-namespace Zenject {
-class DiContainer;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
 namespace GlobalNamespace {
 class ColorSchemeSO;
-}
-namespace GlobalNamespace {
-class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class GameplayModifiers;
@@ -26,7 +17,16 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace GlobalNamespace {
+class PlayerSpecificSettings;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace GlobalNamespace {
 class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+class MissionLevelScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
 class MissionObjective;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11104)), TypeDefinitionIndex(TypeDefinitionIndex(14934))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6094))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6039))
 // CS Name: ::MissionLevelNoTransitionInstaller*
 class CORDL_TYPE MissionLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
@@ -128,12 +128,12 @@ public:
 
   constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
 
-  /// @brief Method InstallBindings addr 0x21c82c4 size 0xc4 virtual true final false
+  /// @brief Method InstallBindings, addr 0x231b0f0, size 0xc4, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c8388 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x231b6e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionLevelNoTransitionInstaller", modifiers: "&&", def_value: None }]

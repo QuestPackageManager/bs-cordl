@@ -15,13 +15,13 @@ MARK_REF_PTR_T(::UnityEngine::Events::UnityEventTools);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10370))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10448))
 // CS Name: ::UnityEngine.Events::UnityEventTools*
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName addr 0x2b8fe48 size 0x228 virtual false final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x2cf8188, size 0x228, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]

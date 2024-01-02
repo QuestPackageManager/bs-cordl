@@ -5,7 +5,7 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__FactoryFromBinder_3_def.hpp"
 CORDL_MODULE_EXPORT(FactoryToChoiceBinder_3)
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3;
+class FactoryBindInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -14,7 +14,7 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class FactoryBindInfo;
+template <typename TParam1, typename TParam2, typename TContract> class FactoryFromBinder_3;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,8 +28,8 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10666), inst: 1747 }), TypeDefinitionIndex(TypeDefinitionIndex(10666))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10779))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10738), inst: 1811 }), TypeDefinitionIndex(TypeDefinitionIndex(10738))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10851))
 // CS Name: ::Zenject::FactoryToChoiceBinder`3<TParam1,TParam2,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_3 : public ::Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract> {
 public:
@@ -37,13 +37,13 @@ public:
   static inline ::Zenject::FactoryToChoiceBinder_3<TParam1, TParam2, TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo,
                                                                                           ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryFromBinder_3<TParam1, TParam2, TContract>* ToSelf();
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FactoryFromBinder_3<TParam1, TParam2, TConcrete>* To();
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_3", modifiers: "&&", def_value: None }]

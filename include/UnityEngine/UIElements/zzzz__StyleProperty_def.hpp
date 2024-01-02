@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleProperty);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7262))
 // CS Name: ::UnityEngine.UIElements::StyleProperty*
 class CORDL_TYPE StyleProperty : public ::System::Object {
 public:
@@ -75,15 +75,15 @@ public:
 
   constexpr void __set_requireVariableResolve(bool value);
 
-  /// @brief Method get_name addr 0x2d005c0 size 0x8 virtual false final false
+  /// @brief Method get_name, addr 0x2e69970, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values addr 0x2d005c8 size 0x8 virtual false final false
+  /// @brief Method get_values, addr 0x2e69978, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
   static inline ::UnityEngine::UIElements::StyleProperty* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d005d0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e69980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StyleProperty", modifiers: "&&", def_value: None }]

@@ -9,13 +9,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SonyLeaderboardIdsModelSO)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template <typename T> class List_1;
 }
 namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace GlobalNamespace {
 class __SonyLeaderboardIdsModelSO__LeaderboardIdData;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4673))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4582))
 // CS Name: ::SonyLeaderboardIdsModelSO::LeaderboardIdData*
 class CORDL_TYPE __SonyLeaderboardIdsModelSO__LeaderboardIdData : public ::System::Object {
 public:
@@ -62,15 +62,15 @@ public:
 
   constexpr void __set__leaderboardId(::StringW value);
 
-  /// @brief Method get_SonyLeaderboardId addr 0x222f79c size 0x8 virtual false final false
+  /// @brief Method get_SonyLeaderboardId, addr 0x236981c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_SonyLeaderboardId();
 
-  /// @brief Method get_leaderboardId addr 0x222f7a4 size 0x8 virtual false final false
+  /// @brief Method get_leaderboardId, addr 0x2369824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_leaderboardId();
 
   static inline ::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData* New_ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId);
 
-  /// @brief Method .ctor addr 0x222f7ac size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x236982c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint32_t sonyLeaderboardId, ::StringW leaderboardId);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SonyLeaderboardIdsModelSO__LeaderboardIdData", modifiers: "&&", def_value: None }]
@@ -107,8 +107,8 @@ static_assert(offsetof(::GlobalNamespace::__SonyLeaderboardIdsModelSO__Leaderboa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4674))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4583))
 // CS Name: ::SonyLeaderboardIdsModelSO*
 class CORDL_TYPE SonyLeaderboardIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -136,21 +136,21 @@ public:
 
   constexpr void __set__leaderboardIdToSonyId(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
 
-  /// @brief Method get_leaderboardIds addr 0x222f568 size 0x8 virtual false final false
+  /// @brief Method get_leaderboardIds, addr 0x23695e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* get_leaderboardIds();
 
-  /// @brief Method OnEnable addr 0x222f570 size 0x1b0 virtual true final false
+  /// @brief Method OnEnable, addr 0x23695f0, size 0x1b0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method GetSonyLeaderboardId addr 0x222f720 size 0x7c virtual false final false
+  /// @brief Method GetSonyLeaderboardId, addr 0x23697a0, size 0x7c, virtual false, abstract: false, final false
   inline bool GetSonyLeaderboardId(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ByRef<uint32_t> sonyLeaderboardId);
 
-  /// @brief Method DoesSupport360 addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoesSupport360, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool DoesSupport360();
 
   static inline ::GlobalNamespace::SonyLeaderboardIdsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222dfb8 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x23680d0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SonyLeaderboardIdsModelSO", modifiers: "&&", def_value: None }]

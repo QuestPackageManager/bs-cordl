@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IDynamicProperty);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3112))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3113))
 // CS Name: ::System.Runtime.Remoting.Contexts::IDynamicProperty*
 class CORDL_TYPE IDynamicProperty {
 public:
   // Declarations
   __declspec(property(get = get_Name))::StringW Name;
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDynamicProperty", modifiers: "&&", def_value: None }]

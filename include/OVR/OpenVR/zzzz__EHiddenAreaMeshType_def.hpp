@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EHiddenAreaMeshType);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9367))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8598))
 // CS Name: ::OVR.OpenVR::EHiddenAreaMeshType
 struct CORDL_TYPE EHiddenAreaMeshType {
 public:

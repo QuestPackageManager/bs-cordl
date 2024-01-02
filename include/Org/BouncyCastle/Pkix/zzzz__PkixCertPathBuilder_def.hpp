@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PkixCertPathBuilder)
-namespace System::Collections {
-class IList;
-}
 namespace Org::BouncyCastle::Pkix {
 class PkixCertPathBuilderResult;
 }
 namespace System {
 class Exception;
 }
-namespace Org::BouncyCastle::Pkix {
-class PkixBuilderParameters;
+namespace System::Collections {
+class IList;
 }
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
+}
+namespace Org::BouncyCastle::Pkix {
+class PkixBuilderParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Pkix {
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1716))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilder*
 class CORDL_TYPE PkixCertPathBuilder : public ::System::Object {
@@ -44,16 +44,16 @@ public:
 
   constexpr void __set_certPathException(::System::Exception* value);
 
-  /// @brief Method Build addr 0x1081780 size 0x8dc virtual true final false
+  /// @brief Method Build, addr 0x10f29d4, size 0x8dc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams);
 
-  /// @brief Method Build addr 0x108205c size 0xbb4 virtual true final false
+  /// @brief Method Build, addr 0x10f32b0, size 0xbb4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* Build(::Org::BouncyCastle::X509::X509Certificate* tbvCert, ::Org::BouncyCastle::Pkix::PkixBuilderParameters* pkixParams,
                                                                      ::System::Collections::IList* tbvPath);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1082c18 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10f3e6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PkixCertPathBuilder", modifiers: "&&", def_value: None }]

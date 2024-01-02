@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerLobbyState);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12802))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12879))
 // CS Name: ::MultiplayerLobbyState
 struct CORDL_TYPE MultiplayerLobbyState {
 public:

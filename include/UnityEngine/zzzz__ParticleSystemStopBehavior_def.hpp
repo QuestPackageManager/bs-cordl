@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemStopBehavior);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15786))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15894))
 // CS Name: ::UnityEngine::ParticleSystemStopBehavior
 struct CORDL_TYPE ParticleSystemStopBehavior {
 public:

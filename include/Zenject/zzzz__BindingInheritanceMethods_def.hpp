@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::BindingInheritanceMethods);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10873))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10945))
 // CS Name: ::Zenject::BindingInheritanceMethods
 struct CORDL_TYPE BindingInheritanceMethods {
 public:

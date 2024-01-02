@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::FORMATFLAGS);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3654))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3666))
 // CS Name: ::System.Globalization::FORMATFLAGS
 struct CORDL_TYPE FORMATFLAGS {
 public:

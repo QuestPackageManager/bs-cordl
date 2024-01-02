@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::IMECompositionMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15843))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15951))
 // CS Name: ::UnityEngine::IMECompositionMode
 struct CORDL_TYPE IMECompositionMode {
 public:

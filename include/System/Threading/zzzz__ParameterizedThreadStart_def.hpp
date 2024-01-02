@@ -18,18 +18,18 @@ MARK_REF_PTR_T(::System::Threading::ParameterizedThreadStart);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2664))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2666))
 // CS Name: ::System.Threading::ParameterizedThreadStart*
 class CORDL_TYPE ParameterizedThreadStart : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::System::Threading::ParameterizedThreadStart* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x24b4e58 size 0x12c virtual false final false
+  /// @brief Method .ctor, addr 0x260fde0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x24b4f84 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x260ff0c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "ParameterizedThreadStart", modifiers: "&&", def_value: None }]

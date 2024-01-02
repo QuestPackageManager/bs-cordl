@@ -13,8 +13,8 @@ template <typename T> inline T RootMotion::Singleton_1<T>::get_instance() {
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method);
 }
 template <typename T> inline void RootMotion::Singleton_1<T>::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Singleton_1<T>*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Singleton_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline ::RootMotion::Singleton_1<T>* RootMotion::Singleton_1<T>::New_ctor() {

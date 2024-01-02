@@ -9,58 +9,61 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerSettingsPanelController)
 namespace GlobalNamespace {
-class PlayerHeightSettingsController;
-}
-namespace GlobalNamespace {
-struct EnvironmentEffectsFilterPreset;
-}
-namespace GlobalNamespace {
-class ArcVisibilityTypeSettingsDropdown;
-}
-namespace System {
-class Action;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-struct NoteJumpDurationTypeSettings;
-}
-namespace GlobalNamespace {
-class EventBinder;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-class PlayerSpecificSettings;
-}
-namespace GlobalNamespace {
-class FormattedFloatListSettingsController;
-}
-namespace GlobalNamespace {
-class NoteJumpDurationTypeSettingsDropdown;
-}
-namespace UnityEngine {
-class CanvasGroup;
-}
-namespace GlobalNamespace {
-class EnvironmentEffectsFilterPresetDropdown;
-}
-namespace HMUI {
-class ToggleBinder;
-}
-namespace GlobalNamespace {
-class NoteJumpStartBeatOffsetDropdown;
+class IRefreshable;
 }
 namespace GlobalNamespace {
 struct ArcVisibilityType;
 }
 namespace GlobalNamespace {
-class IRefreshable;
+class NoteJumpDurationTypeSettingsDropdown;
+}
+namespace GlobalNamespace {
+class FormattedFloatListSettingsController;
+}
+namespace GlobalNamespace {
+class NoteJumpStartBeatOffsetDropdown;
+}
+namespace GlobalNamespace {
+class EnvironmentEffectsFilterPresetDropdown;
+}
+namespace GlobalNamespace {
+struct NoteJumpDurationTypeSettings;
+}
+namespace HMUI {
+class ToggleBinder;
+}
+namespace GlobalNamespace {
+class EventBinder;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class ArcVisibilityTypeSettingsDropdown;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace GlobalNamespace {
+class PlayerData;
+}
+namespace GlobalNamespace {
+struct EnvironmentEffectsFilterPreset;
+}
+namespace GlobalNamespace {
+class PlayerHeightSettingsController;
 }
 namespace GlobalNamespace {
 struct __PlayerSettingsPanelController__PlayerSettingsPanelLayout;
+}
+namespace UnityEngine::UI {
+class Toggle;
+}
+namespace UnityEngine {
+class CanvasGroup;
+}
+namespace GlobalNamespace {
+class PlayerSpecificSettings;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -77,7 +80,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSettingsPanelController);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5740))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5641))
 // CS Name: ::PlayerSettingsPanelController::PlayerSettingsPanelLayout
 struct CORDL_TYPE __PlayerSettingsPanelController__PlayerSettingsPanelLayout {
 public:
@@ -127,11 +130,11 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSettingsPanelController__Playe
 
 } // namespace GlobalNamespace
 // Type: ::PlayerSettingsPanelController
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(4721))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5741))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
 // CS Name: ::PlayerSettingsPanelController*
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -201,41 +204,48 @@ public:
   /// @brief Field _adaptiveSfxToggle, offset 0xa8, size 0x8
   __declspec(property(get = __get__adaptiveSfxToggle, put = __set__adaptiveSfxToggle))::UnityEngine::UI::Toggle* _adaptiveSfxToggle;
 
-  /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset 0xb0, size 0x8
+  /// @brief Field _headsetHapticIntensityController, offset 0xb0, size 0x8
+  __declspec(property(get = __get__headsetHapticIntensityController,
+                      put = __set__headsetHapticIntensityController))::GlobalNamespace::FormattedFloatListSettingsController* _headsetHapticIntensityController;
+
+  /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset 0xb8, size 0x8
   __declspec(property(get = __get__arcsVisibilityTypeSettingsDropdown,
                       put = __set__arcsVisibilityTypeSettingsDropdown))::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* _arcsVisibilityTypeSettingsDropdown;
 
-  /// @brief Field _arcHapticFeedbackCanvasGroup, offset 0xb8, size 0x8
+  /// @brief Field _arcHapticFeedbackCanvasGroup, offset 0xc0, size 0x8
   __declspec(property(get = __get__arcHapticFeedbackCanvasGroup, put = __set__arcHapticFeedbackCanvasGroup))::UnityEngine::CanvasGroup* _arcHapticFeedbackCanvasGroup;
 
-  /// @brief Field _arcsHapticFeedbackToggle, offset 0xc0, size 0x8
+  /// @brief Field _arcsHapticFeedbackToggle, offset 0xc8, size 0x8
   __declspec(property(get = __get__arcsHapticFeedbackToggle, put = __set__arcsHapticFeedbackToggle))::UnityEngine::UI::Toggle* _arcsHapticFeedbackToggle;
 
-  /// @brief Field _singleplayerOnlyCanvasGroup, offset 0xc8, size 0x8
+  /// @brief Field _singleplayerOnlyCanvasGroup, offset 0xd0, size 0x8
   __declspec(property(get = __get__singleplayerOnlyCanvasGroup, put = __set__singleplayerOnlyCanvasGroup))::UnityEngine::CanvasGroup* _singleplayerOnlyCanvasGroup;
 
-  /// @brief Field _arcVisibilityWarning, offset 0xd0, size 0x8
+  /// @brief Field _arcVisibilityWarning, offset 0xd8, size 0x8
   __declspec(property(get = __get__arcVisibilityWarning, put = __set__arcVisibilityWarning))::UnityEngine::GameObject* _arcVisibilityWarning;
 
-  /// @brief Field didChangePlayerSettingsEvent, offset 0xd8, size 0x8
+  /// @brief Field didChangePlayerSettingsEvent, offset 0xe0, size 0x8
   __declspec(property(get = __get_didChangePlayerSettingsEvent, put = __set_didChangePlayerSettingsEvent))::System::Action* didChangePlayerSettingsEvent;
 
-  /// @brief Field _currentArcType, offset 0xe0, size 0x4
+  /// @brief Field _currentArcType, offset 0xe8, size 0x4
   __declspec(property(get = __get__currentArcType, put = __set__currentArcType))::GlobalNamespace::ArcVisibilityType _currentArcType;
 
-  /// @brief Field _playerSpecificSettings, offset 0xe8, size 0x8
+  /// @brief Field _playerData, offset 0xf0, size 0x8
+  __declspec(property(get = __get__playerData, put = __set__playerData))::GlobalNamespace::PlayerData* _playerData;
+
+  /// @brief Field _playerSpecificSettings, offset 0xf8, size 0x8
   __declspec(property(get = __get__playerSpecificSettings, put = __set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
 
-  /// @brief Field _toggleBinder, offset 0xf0, size 0x8
+  /// @brief Field _toggleBinder, offset 0x100, size 0x8
   __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  /// @brief Field _dirty, offset 0xf8, size 0x1
+  /// @brief Field _dirty, offset 0x108, size 0x1
   __declspec(property(get = __get__dirty, put = __set__dirty)) bool _dirty;
 
-  /// @brief Field _refreshed, offset 0xf9, size 0x1
+  /// @brief Field _refreshed, offset 0x109, size 0x1
   __declspec(property(get = __get__refreshed, put = __set__refreshed)) bool _refreshed;
 
-  /// @brief Field _eventBinder, offset 0x100, size 0x8
+  /// @brief Field _eventBinder, offset 0x110, size 0x8
   __declspec(property(get = __get__eventBinder, put = __set__eventBinder))::GlobalNamespace::EventBinder* _eventBinder;
 
   __declspec(property(get = get_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
@@ -357,6 +367,12 @@ public:
 
   constexpr void __set__adaptiveSfxToggle(::UnityEngine::UI::Toggle* value);
 
+  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__headsetHapticIntensityController();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__headsetHapticIntensityController() const;
+
+  constexpr void __set__headsetHapticIntensityController(::GlobalNamespace::FormattedFloatListSettingsController* value);
+
   constexpr ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*& __get__arcsVisibilityTypeSettingsDropdown();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*> const& __get__arcsVisibilityTypeSettingsDropdown() const;
@@ -399,6 +415,12 @@ public:
 
   constexpr void __set__currentArcType(::GlobalNamespace::ArcVisibilityType value);
 
+  constexpr ::GlobalNamespace::PlayerData*& __get__playerData();
+
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __get__playerData() const;
+
+  constexpr void __set__playerData(::GlobalNamespace::PlayerData* value);
+
   constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get__playerSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get__playerSpecificSettings() const;
@@ -429,112 +451,115 @@ public:
 
   constexpr void __set__eventBinder(::GlobalNamespace::EventBinder* value);
 
-  /// @brief Method add_didChangePlayerSettingsEvent addr 0x2170784 size 0x9c virtual false final false
+  /// @brief Method add_didChangePlayerSettingsEvent, addr 0x22b2da0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangePlayerSettingsEvent addr 0x2171584 size 0x9c virtual false final false
+  /// @brief Method remove_didChangePlayerSettingsEvent, addr 0x22b3be0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangePlayerSettingsEvent(::System::Action* value);
 
-  /// @brief Method get_playerSpecificSettings addr 0x216f984 size 0x3a0 virtual false final false
+  /// @brief Method get_playerSpecificSettings, addr 0x22b1f80, size 0x3b8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method SetData addr 0x2170604 size 0xc virtual false final false
-  inline void SetData(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
+  /// @brief Method SetData, addr 0x22b2c08, size 0x24, virtual false, abstract: false, final false
+  inline void SetData(::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetLayout addr 0x216feb4 size 0x24 virtual false final false
+  /// @brief Method SetLayout, addr 0x22b24b8, size 0x24, virtual false, abstract: false, final false
   inline void SetLayout(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout layout);
 
-  /// @brief Method Awake addr 0x2171688 size 0x60 virtual false final false
+  /// @brief Method Awake, addr 0x22b3ce4, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method OnEnable addr 0x21716e8 size 0x3d4 virtual false final false
+  /// @brief Method OnEnable, addr 0x22b3d44, size 0x3d4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDisable addr 0x2171abc size 0x4 virtual false final false
+  /// @brief Method OnDisable, addr 0x22b4118, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x2171af4 size 0x4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22b4150, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UnsubscribeAllUICallbacks addr 0x2171ac0 size 0x34 virtual false final false
+  /// @brief Method UnsubscribeAllUICallbacks, addr 0x22b411c, size 0x34, virtual false, abstract: false, final false
   inline void UnsubscribeAllUICallbacks();
 
-  /// @brief Method Refresh addr 0x21711b4 size 0x2f8 virtual true final true
+  /// @brief Method Refresh, addr 0x22b37c0, size 0x348, virtual true, abstract: false, final true
   inline void Refresh();
 
-  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange addr 0x2171c14 size 0x24 virtual false final false
+  /// @brief Method HandleSFXVolumeSettingsControllerValueDidChange, addr 0x22b4270, size 0x24, virtual false, abstract: false, final false
   inline void HandleSFXVolumeSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx addr 0x2171c5c size 0x60 virtual false final false
+  /// @brief Method HandleArcVisibilityDropdownDidSelectCellWithIdx, addr 0x22b42b8, size 0x60, virtual false, abstract: false, final false
   inline void HandleArcVisibilityDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::ArcVisibilityType arcVisibilityType);
 
-  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange addr 0x2171cbc size 0x24 virtual false final false
+  /// @brief Method HandleSaberTrailIntensitySettingsControllerValueDidChange, addr 0x22b4318, size 0x24, virtual false, abstract: false, final false
   inline void HandleSaberTrailIntensitySettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
 
-  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange addr 0x2171ce0 size 0x24 virtual false final false
+  /// @brief Method HandlePlayerHeightSettingsControllerValueDidChange, addr 0x22b433c, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerHeightSettingsControllerValueDidChange(float_t value);
 
-  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected addr 0x2171d04 size 0x24 virtual false final false
+  /// @brief Method HandleHeadsetHapticIntensityControllerValueDidChange, addr 0x22b4360, size 0x24, virtual false, abstract: false, final false
+  inline void HandleHeadsetHapticIntensityControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* settingsController, float_t value);
+
+  /// @brief Method HandleNoteJumpStartBeatOffsetPositionSelected, addr 0x22b4384, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpStartBeatOffsetPositionSelected(int32_t idx, float_t startBeatOffset);
 
-  /// @brief Method HandleLightReductionAmountSelected addr 0x2171d28 size 0x24 virtual false final false
+  /// @brief Method HandleLightReductionAmountSelected, addr 0x22b43a8, size 0x24, virtual false, abstract: false, final false
   inline void HandleLightReductionAmountSelected(int32_t obj, ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset);
 
-  /// @brief Method HandleAdvancedHudToggleChanged addr 0x2171d4c size 0x50 virtual false final false
+  /// @brief Method HandleAdvancedHudToggleChanged, addr 0x22b43cc, size 0x50, virtual false, abstract: false, final false
   inline void HandleAdvancedHudToggleChanged(bool on);
 
-  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx addr 0x2171d9c size 0x3c virtual false final false
+  /// @brief Method HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx, addr 0x22b441c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDurationTypeSettingsDropdownDidSelectCellWithIdx(int32_t idx, ::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange addr 0x2171dd8 size 0x24 virtual false final false
+  /// @brief Method HandleNoteJumpFixedDurationSettingsControllerValueDidChange, addr 0x22b4458, size 0x24, virtual false, abstract: false, final false
   inline void HandleNoteJumpFixedDurationSettingsControllerValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* formattedFloatListSettingsController, float_t value);
 
-  /// @brief Method HandleNoTextsAndHudsToggleChanged addr 0x2171dfc size 0x50 virtual false final false
+  /// @brief Method HandleNoTextsAndHudsToggleChanged, addr 0x22b447c, size 0x50, virtual false, abstract: false, final false
   inline void HandleNoTextsAndHudsToggleChanged(bool on);
 
-  /// @brief Method SetIsDirty addr 0x2171c38 size 0x24 virtual false final false
+  /// @brief Method SetIsDirty, addr 0x22b4294, size 0x24, virtual false, abstract: false, final false
   inline void SetIsDirty();
 
-  /// @brief Method RefreshNoteJumpUI addr 0x2171af8 size 0x3c virtual false final false
+  /// @brief Method RefreshNoteJumpUI, addr 0x22b4154, size 0x3c, virtual false, abstract: false, final false
   inline void RefreshNoteJumpUI(::GlobalNamespace::NoteJumpDurationTypeSettings noteJumpDurationTypeSettings);
 
-  /// @brief Method SetSectionDisabled addr 0x2171620 size 0x68 virtual false final false
+  /// @brief Method SetSectionDisabled, addr 0x22b3c7c, size 0x68, virtual false, abstract: false, final false
   inline void SetSectionDisabled(::UnityEngine::CanvasGroup* sectionCanvasGroup, bool disable);
 
-  /// @brief Method RefreshArcsWarning addr 0x2171b34 size 0xe0 virtual false final false
+  /// @brief Method RefreshArcsWarning, addr 0x22b4190, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshArcsWarning(::GlobalNamespace::ArcVisibilityType arcVisibilityType, bool forceRebuild);
 
   static inline ::GlobalNamespace::PlayerSettingsPanelController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2171e4c size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22b44cc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnEnable>b__40_0 addr 0x2171eb4 size 0x24 virtual false final false
-  inline void _OnEnable_b__40_0(bool on);
+  /// @brief Method <OnEnable>b__42_0, addr 0x22b4534, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_0(bool on);
 
-  /// @brief Method <OnEnable>b__40_1 addr 0x2171ed8 size 0x24 virtual false final false
-  inline void _OnEnable_b__40_1(bool on);
+  /// @brief Method <OnEnable>b__42_1, addr 0x22b4558, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_1(bool on);
 
-  /// @brief Method <OnEnable>b__40_2 addr 0x2171efc size 0x24 virtual false final false
-  inline void _OnEnable_b__40_2(bool on);
+  /// @brief Method <OnEnable>b__42_2, addr 0x22b457c, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_2(bool on);
 
-  /// @brief Method <OnEnable>b__40_3 addr 0x2171f20 size 0x24 virtual false final false
-  inline void _OnEnable_b__40_3(bool on);
+  /// @brief Method <OnEnable>b__42_3, addr 0x22b45a0, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_3(bool on);
 
-  /// @brief Method <OnEnable>b__40_4 addr 0x2171f44 size 0x24 virtual false final false
-  inline void _OnEnable_b__40_4(bool on);
+  /// @brief Method <OnEnable>b__42_4, addr 0x22b45c4, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_4(bool on);
 
-  /// @brief Method <OnEnable>b__40_5 addr 0x2171f68 size 0x44 virtual false final false
-  inline void _OnEnable_b__40_5(bool on);
+  /// @brief Method <OnEnable>b__42_5, addr 0x22b45e8, size 0x44, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_5(bool on);
 
-  /// @brief Method <OnEnable>b__40_6 addr 0x2171fac size 0x24 virtual false final false
-  inline void _OnEnable_b__40_6(bool on);
+  /// @brief Method <OnEnable>b__42_6, addr 0x22b462c, size 0x24, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_6(bool on);
 
-  /// @brief Method <OnEnable>b__40_7 addr 0x2171fd0 size 0x39c virtual false final false
-  inline void _OnEnable_b__40_7();
+  /// @brief Method <OnEnable>b__42_7, addr 0x22b4650, size 0x3d4, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_7();
 
-  /// @brief Method <OnEnable>b__40_8 addr 0x217236c size 0x490 virtual false final false
-  inline void _OnEnable_b__40_8();
+  /// @brief Method <OnEnable>b__42_8, addr 0x22b4a24, size 0x4fc, virtual false, abstract: false, final false
+  inline void _OnEnable_b__42_8();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayerSettingsPanelController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -607,40 +632,46 @@ public:
   /// @brief Field _adaptiveSfxToggle, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UI::Toggle* ____adaptiveSfxToggle;
 
-  /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _headsetHapticIntensityController, offset: 0xb0, size: 0x8, def value: None
+  ::GlobalNamespace::FormattedFloatListSettingsController* ____headsetHapticIntensityController;
+
+  /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* ____arcsVisibilityTypeSettingsDropdown;
 
-  /// @brief Field _arcHapticFeedbackCanvasGroup, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _arcHapticFeedbackCanvasGroup, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::CanvasGroup* ____arcHapticFeedbackCanvasGroup;
 
-  /// @brief Field _arcsHapticFeedbackToggle, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _arcsHapticFeedbackToggle, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::UI::Toggle* ____arcsHapticFeedbackToggle;
 
-  /// @brief Field _singleplayerOnlyCanvasGroup, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _singleplayerOnlyCanvasGroup, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::CanvasGroup* ____singleplayerOnlyCanvasGroup;
 
-  /// @brief Field _arcVisibilityWarning, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _arcVisibilityWarning, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::GameObject* ____arcVisibilityWarning;
 
-  /// @brief Field didChangePlayerSettingsEvent, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field didChangePlayerSettingsEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action* ___didChangePlayerSettingsEvent;
 
-  /// @brief Field _currentArcType, offset: 0xe0, size: 0x4, def value: None
+  /// @brief Field _currentArcType, offset: 0xe8, size: 0x4, def value: None
   ::GlobalNamespace::ArcVisibilityType ____currentArcType;
 
-  /// @brief Field _playerSpecificSettings, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _playerData, offset: 0xf0, size: 0x8, def value: None
+  ::GlobalNamespace::PlayerData* ____playerData;
+
+  /// @brief Field _playerSpecificSettings, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ____playerSpecificSettings;
 
-  /// @brief Field _toggleBinder, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _toggleBinder, offset: 0x100, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
-  /// @brief Field _dirty, offset: 0xf8, size: 0x1, def value: None
+  /// @brief Field _dirty, offset: 0x108, size: 0x1, def value: None
   bool ____dirty;
 
-  /// @brief Field _refreshed, offset: 0xf9, size: 0x1, def value: None
+  /// @brief Field _refreshed, offset: 0x109, size: 0x1, def value: None
   bool ____refreshed;
 
-  /// @brief Field _eventBinder, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _eventBinder, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::EventBinder* ____eventBinder;
 
   /// @brief Field kDisabledSectionAlpha offset 0xffffffff size 0x4
@@ -649,7 +680,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSettingsPanelController, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerSettingsPanelController, 0x118>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____leftHandedToggle) == 0x18, "Offset mismatch!");
 
@@ -689,29 +720,33 @@ static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____hid
 
 static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____adaptiveSfxToggle) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcsVisibilityTypeSettingsDropdown) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____headsetHapticIntensityController) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcHapticFeedbackCanvasGroup) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcsVisibilityTypeSettingsDropdown) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcsHapticFeedbackToggle) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcHapticFeedbackCanvasGroup) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____singleplayerOnlyCanvasGroup) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcsHapticFeedbackToggle) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcVisibilityWarning) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____singleplayerOnlyCanvasGroup) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ___didChangePlayerSettingsEvent) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____arcVisibilityWarning) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____currentArcType) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ___didChangePlayerSettingsEvent) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____playerSpecificSettings) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____currentArcType) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____toggleBinder) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____playerData) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____dirty) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____playerSpecificSettings) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____refreshed) == 0xf9, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____toggleBinder) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____eventBinder) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____dirty) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____refreshed) == 0x109, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PlayerSettingsPanelController, ____eventBinder) == 0x110, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout, "", "PlayerSettingsPanelController/PlayerSettingsPanelLayout");

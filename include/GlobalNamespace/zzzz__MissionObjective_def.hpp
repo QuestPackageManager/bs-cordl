@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionObjective)
-namespace GlobalNamespace {
-class MissionObjectiveTypeSO;
+namespace System {
+class Object;
 }
 namespace GlobalNamespace {
 struct __MissionObjective__ReferenceValueComparisonType;
 }
-namespace System {
-class Object;
+namespace GlobalNamespace {
+class MissionObjectiveTypeSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjective);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4470))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4459))
 // CS Name: ::MissionObjective::ReferenceValueComparisonType
 struct CORDL_TYPE __MissionObjective__ReferenceValueComparisonType {
 public:
@@ -88,8 +88,8 @@ static_assert(offsetof(::GlobalNamespace::__MissionObjective__ReferenceValueComp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4470)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4471))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4459))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4460))
 // CS Name: ::MissionObjective*
 class CORDL_TYPE MissionObjective : public ::System::Object {
 public:
@@ -130,30 +130,30 @@ public:
 
   constexpr void __set__referenceValue(int32_t value);
 
-  /// @brief Method get_type addr 0x2204abc size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0x2352ae8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjectiveTypeSO* get_type();
 
-  /// @brief Method get_referenceValueComparisonType addr 0x2204ac4 size 0x8 virtual false final false
+  /// @brief Method get_referenceValueComparisonType, addr 0x2352af0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType get_referenceValueComparisonType();
 
-  /// @brief Method get_referenceValue addr 0x2204acc size 0x8 virtual false final false
+  /// @brief Method get_referenceValue, addr 0x2352af8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_referenceValue();
 
-  /// @brief Method op_Equality addr 0x2204ad4 size 0xbc virtual false final false
+  /// @brief Method op_Equality, addr 0x2352b00, size 0xbc, virtual false, abstract: false, final false
   static inline bool op_Equality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
-  /// @brief Method op_Inequality addr 0x2204b90 size 0x18 virtual false final false
+  /// @brief Method op_Inequality, addr 0x2352bbc, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::GlobalNamespace::MissionObjective* obj1, ::GlobalNamespace::MissionObjective* obj2);
 
-  /// @brief Method Equals addr 0x2204ba8 size 0x10c virtual true final false
+  /// @brief Method Equals, addr 0x2352bd4, size 0x10c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2204cb4 size 0x64 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2352ce0, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::MissionObjective* New_ctor();
 
-  /// @brief Method .ctor addr 0x2204d18 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2352d44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionObjective", modifiers: "&&", def_value: None }]

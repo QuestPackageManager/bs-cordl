@@ -8,31 +8,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EnvironmentShaderWarmup)
 namespace UnityEngine {
-class Material;
-}
-namespace GlobalNamespace {
-class MainCamera;
-}
-namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
 class GameScenesManager;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace GlobalNamespace {
 class __EnvironmentShaderWarmup___Start_d__6;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class MainCamera;
+}
+namespace UnityEngine {
+class Material;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,8 +48,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3941))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3955))
 // CS Name: ::EnvironmentShaderWarmup::<Start>d__6*
 class CORDL_TYPE __EnvironmentShaderWarmup___Start_d__6 : public ::System::Object {
 public:
@@ -96,22 +96,22 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x20b5cc4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2216cac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x20b5cf4 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2216cdc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x20b5cf8 size 0x444 virtual true final true
+  /// @brief Method MoveNext, addr 0x2216ce0, size 0x444, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x20b613c size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2217124, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x20b6144 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x221712c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x20b6184 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x221716c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__EnvironmentShaderWarmup___Start_d__6", modifiers: "&&", def_value: None }]
@@ -153,8 +153,8 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3942))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3956))
 // CS Name: ::EnvironmentShaderWarmup*
 class CORDL_TYPE EnvironmentShaderWarmup : public ::UnityEngine::MonoBehaviour {
 public:
@@ -197,12 +197,12 @@ public:
 
   constexpr void __set__parentingTransform(::UnityEngine::Transform* value);
 
-  /// @brief Method Start addr 0x20b5c5c size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x2216c44, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmup* New_ctor();
 
-  /// @brief Method .ctor addr 0x20b5cec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2216cd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EnvironmentShaderWarmup", modifiers: "&&", def_value: None }]

@@ -9,8 +9,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMECompositionEvent)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputEventTypeInfo;
@@ -18,8 +18,8 @@ class IInputEventTypeInfo;
 namespace UnityEngine::InputSystem::LowLevel {
 struct IMECompositionString;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::IMECompositionEvent);
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6615)), TypeDefinitionIndex(TypeDefinitionIndex(6616))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6612))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6529))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6526))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE IMECompositionEvent {
@@ -62,10 +62,10 @@ public:
 
   constexpr void __set_compositionString(::UnityEngine::InputSystem::LowLevel::IMECompositionString value);
 
-  /// @brief Method get_typeStatic addr 0x296a004 size 0x20 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae9d4c, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method Create addr 0x296a024 size 0xf4 virtual false final false
+  /// @brief Method Create, addr 0x2ae9d6c, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent Create(int32_t deviceId, ::StringW compositionString, double_t time);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }, CppParam { name: "compositionString", ty:

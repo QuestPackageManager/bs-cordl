@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MixedLightingMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10034))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10106))
 // CS Name: ::UnityEngine::MixedLightingMode
 struct CORDL_TYPE MixedLightingMode {
 public:

@@ -12,20 +12,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVREyeGaze)
-namespace UnityEngine {
-class Transform;
+namespace GlobalNamespace {
+struct __OVREyeGaze__EyeTrackingMode;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace GlobalNamespace {
-struct __OVREyeGaze__EyeTrackingMode;
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace GlobalNamespace {
 struct __OVREyeGaze__EyeId;
 }
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVREyeGaze);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8447))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7543))
 // CS Name: ::OVREyeGaze::EyeId
 struct CORDL_TYPE __OVREyeGaze__EyeId {
 public:
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__OVREyeGaze__EyeId, value__) == 0x0, 
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8448))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7544))
 // CS Name: ::OVREyeGaze::EyeTrackingMode
 struct CORDL_TYPE __OVREyeGaze__EyeTrackingMode {
 public:
@@ -149,8 +149,8 @@ static_assert(offsetof(::GlobalNamespace::__OVREyeGaze__EyeTrackingMode, value__
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(8448)), TypeDefinitionIndex(TypeDefinitionIndex(10152)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8447)), TypeDefinitionIndex(TypeDefinitionIndex(8678)), TypeDefinitionIndex(TypeDefinitionIndex(8558))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7543)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7679)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7544)), TypeDefinitionIndex(TypeDefinitionIndex(7803)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7545))
 // CS Name: ::OVREyeGaze*
 class CORDL_TYPE OVREyeGaze : public ::UnityEngine::MonoBehaviour {
 public:
@@ -269,48 +269,48 @@ public:
 
   static inline int32_t getStaticF__trackingInstanceCount();
 
-  /// @brief Method get_EyeTrackingEnabled addr 0x25c3d68 size 0x50 virtual false final false
+  /// @brief Method get_EyeTrackingEnabled, addr 0x271c408, size 0x50, virtual false, abstract: false, final false
   inline bool get_EyeTrackingEnabled();
 
-  /// @brief Method get_Confidence addr 0x25c3db8 size 0x8 virtual false final false
+  /// @brief Method get_Confidence, addr 0x271c458, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Confidence();
 
-  /// @brief Method set_Confidence addr 0x25c3dc0 size 0x8 virtual false final false
+  /// @brief Method set_Confidence, addr 0x271c460, size 0x8, virtual false, abstract: false, final false
   inline void set_Confidence(float_t value);
 
-  /// @brief Method Awake addr 0x25c3dc8 size 0x7c virtual false final false
+  /// @brief Method Awake, addr 0x271c468, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x25c3e44 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x271c4e4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x25c40cc size 0x78 virtual false final false
+  /// @brief Method OnEnable, addr 0x271c76c, size 0x78, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPermissionGranted addr 0x25c421c size 0x60 virtual false final false
+  /// @brief Method OnPermissionGranted, addr 0x271c8bc, size 0x60, virtual false, abstract: false, final false
   inline void OnPermissionGranted(::StringW permissionId);
 
-  /// @brief Method StartEyeTracking addr 0x25c4144 size 0xd8 virtual false final false
+  /// @brief Method StartEyeTracking, addr 0x271c7e4, size 0xd8, virtual false, abstract: false, final false
   inline bool StartEyeTracking();
 
-  /// @brief Method OnDisable addr 0x25c427c size 0x88 virtual false final false
+  /// @brief Method OnDisable, addr 0x271c91c, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDestroy addr 0x25c4304 size 0xc virtual false final false
+  /// @brief Method OnDestroy, addr 0x271c9a4, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update addr 0x25c4310 size 0x200 virtual false final false
+  /// @brief Method Update, addr 0x271c9b0, size 0x200, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method CalculateEyeRotation addr 0x25c4510 size 0x1c0 virtual false final false
+  /// @brief Method CalculateEyeRotation, addr 0x271cbb0, size 0x1c0, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion CalculateEyeRotation(::UnityEngine::Quaternion eyeRotation);
 
-  /// @brief Method PrepareHeadDirection addr 0x25c3e48 size 0x284 virtual false final false
+  /// @brief Method PrepareHeadDirection, addr 0x271c4e8, size 0x284, virtual false, abstract: false, final false
   inline void PrepareHeadDirection();
 
   static inline ::GlobalNamespace::OVREyeGaze* New_ctor();
 
-  /// @brief Method .ctor addr 0x25c46d0 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x271cd70, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVREyeGaze", modifiers: "&&", def_value: None }]

@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso9796d2PssSigner)
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
-namespace Org::BouncyCastle::Crypto {
-class ISignerWithRecovery;
-}
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ISigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignerWithRecovery;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ISigner;
+class IAsymmetricBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1146))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Iso9796d2PssSigner*
 class CORDL_TYPE Iso9796d2PssSigner : public ::System::Object {
@@ -202,61 +202,61 @@ public:
 
   constexpr void __set_preTLength(int32_t value);
 
-  /// @brief Method GetRecoveredMessage addr 0xed8b44 size 0x8 virtual true final true
+  /// @brief Method GetRecoveredMessage, addr 0xf4ed54, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRecoveredMessage();
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                                    int32_t saltLength, bool isImplicit);
 
-  /// @brief Method .ctor addr 0xed8b4c size 0x194 virtual false final false
+  /// @brief Method .ctor, addr 0xf4ed5c, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLength, bool isImplicit);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Iso9796d2PssSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                                    int32_t saltLength);
 
-  /// @brief Method .ctor addr 0xed8fb8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf4f1c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, int32_t saltLength);
 
-  /// @brief Method get_AlgorithmName addr 0xed8fc0 size 0xc0 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xf4f1d0, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xed9080 size 0x404 virtual true final false
+  /// @brief Method Init, addr 0xf4f290, size 0x404, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method IsSameAs addr 0xed9484 size 0x80 virtual false final false
+  /// @brief Method IsSameAs, addr 0xf4f694, size 0x80, virtual false, abstract: false, final false
   inline bool IsSameAs(::ArrayW<uint8_t, ::Array<uint8_t>*> a, ::ArrayW<uint8_t, ::Array<uint8_t>*> b);
 
-  /// @brief Method ClearBlock addr 0xed9504 size 0x24 virtual false final false
+  /// @brief Method ClearBlock, addr 0xf4f714, size 0x24, virtual false, abstract: false, final false
   inline void ClearBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method UpdateWithRecoveredMessage addr 0xed9528 size 0x474 virtual true final false
+  /// @brief Method UpdateWithRecoveredMessage, addr 0xf4f738, size 0x474, virtual true, abstract: false, final false
   inline void UpdateWithRecoveredMessage(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method Update addr 0xed9df0 size 0xf4 virtual true final false
+  /// @brief Method Update, addr 0xf50000, size 0xf4, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method BlockUpdate addr 0xed9ee4 size 0x148 virtual true final false
+  /// @brief Method BlockUpdate, addr 0xf500f4, size 0x148, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Reset addr 0xeda02c size 0xe4 virtual true final false
+  /// @brief Method Reset, addr 0xf5023c, size 0xe4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GenerateSignature addr 0xeda110 size 0x6d0 virtual true final false
+  /// @brief Method GenerateSignature, addr 0xf50320, size 0x6d0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method VerifySignature addr 0xeda874 size 0x66c virtual true final false
+  /// @brief Method VerifySignature, addr 0xf50a84, size 0x66c, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method HasFullMessage addr 0xedaee0 size 0x8 virtual true final false
+  /// @brief Method HasFullMessage, addr 0xf510f0, size 0x8, virtual true, abstract: false, final false
   inline bool HasFullMessage();
 
-  /// @brief Method ItoOSP addr 0xedaee8 size 0x54 virtual false final false
+  /// @brief Method ItoOSP, addr 0xf510f8, size 0x54, virtual false, abstract: false, final false
   inline void ItoOSP(int32_t i, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method LtoOSP addr 0xeda7e0 size 0x94 virtual false final false
+  /// @brief Method LtoOSP, addr 0xf509f0, size 0x94, virtual false, abstract: false, final false
   inline void LtoOSP(int64_t l, ::ArrayW<uint8_t, ::Array<uint8_t>*> sp);
 
-  /// @brief Method MaskGeneratorFunction1 addr 0xed999c size 0x454 virtual false final false
+  /// @brief Method MaskGeneratorFunction1, addr 0xf4fbac, size 0x454, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MaskGeneratorFunction1(::ArrayW<uint8_t, ::Array<uint8_t>*> Z, int32_t zOff, int32_t zLen, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "Iso9796d2PssSigner", modifiers: "&&", def_value: None }]

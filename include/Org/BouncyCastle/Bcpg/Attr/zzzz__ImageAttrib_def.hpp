@@ -127,29 +127,29 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x1155c80 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x11c6ed0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x1155c8c size 0xdc virtual false final false
+  /// @brief Method .ctor, addr 0x11c6edc, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* New_ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method .ctor addr 0x1155d68 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x11c6fb8, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method ToByteArray addr 0x1155de0 size 0x14c virtual false final false
+  /// @brief Method ToByteArray, addr 0x11c7030, size 0x14c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToByteArray(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
 
-  /// @brief Method get_Version addr 0x1155f2c size 0x8 virtual true final false
+  /// @brief Method get_Version, addr 0x11c717c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Encoding addr 0x1155f34 size 0x8 virtual true final false
+  /// @brief Method get_Encoding, addr 0x11c7184, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Encoding();
 
-  /// @brief Method GetImageData addr 0x1155f3c size 0x8 virtual true final false
+  /// @brief Method GetImageData, addr 0x11c718c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetImageData();
 
   // Ctor Parameters [CppParam { name: "", ty: "ImageAttrib", modifiers: "&&", def_value: None }]

@@ -19,8 +19,8 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::sockaddr_in6);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8146))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9309))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9310))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::sockaddr_in6
 struct CORDL_TYPE sockaddr_in6 {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::Required);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11811))
 // CS Name: ::Newtonsoft.Json::Required
 struct CORDL_TYPE Required {
 public:

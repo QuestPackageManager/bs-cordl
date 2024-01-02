@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3263))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3264))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectString*
 class CORDL_TYPE BinaryObjectString : public ::System::Object {
 public:
@@ -48,19 +48,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* New_ctor();
 
-  /// @brief Method .ctor addr 0x2369818 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c230c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Set addr 0x2369820 size 0xc virtual false final false
+  /// @brief Method Set, addr 0x24c2314, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW value);
 
-  /// @brief Method Write addr 0x236982c size 0x70 virtual true final true
+  /// @brief Method Write, addr 0x24c2320, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x236989c size 0x44 virtual true final true
+  /// @brief Method Read, addr 0x24c2390, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Dump addr 0x23698e0 size 0x4 virtual false final false
+  /// @brief Method Dump, addr 0x24c23d4, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "BinaryObjectString", modifiers: "&&", def_value: None }]

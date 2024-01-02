@@ -17,25 +17,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
 namespace UnityEngine::TextCore::Text {
-class TextStyleSheet;
+class SpriteAsset;
 }
 namespace UnityEngine::TextCore::Text {
 class TextColorGradient;
 }
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
 namespace UnityEngine {
 class Material;
+}
+namespace UnityEngine::TextCore::Text {
+class TextStyleSheet;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::TextCore::Text {
 class TextSettings;
-}
-namespace UnityEngine::TextCore::Text {
-class FontAsset;
-}
-namespace UnityEngine::TextCore::Text {
-class SpriteAsset;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -47,10 +47,10 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10093)), TypeDefinitionIndex(TypeDefinitionIndex(13566)), TypeDefinitionIndex(TypeDefinitionIndex(10178)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13608)), TypeDefinitionIndex(TypeDefinitionIndex(13597)), TypeDefinitionIndex(TypeDefinitionIndex(13567)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13598)), TypeDefinitionIndex(TypeDefinitionIndex(13556)), TypeDefinitionIndex(TypeDefinitionIndex(10173))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13568)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(13687)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13729)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13688)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(13718))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(13689)) CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:
   // Declarations
@@ -459,18 +459,18 @@ public:
 
   constexpr void __set_charWidthMaxAdj(float_t value);
 
-  /// @brief Method Equals addr 0x2bd84c4 size 0x3b4 virtual false final false
+  /// @brief Method Equals, addr 0x2d40874, size 0x3b4, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
 
-  /// @brief Method Equals addr 0x2bd8878 size 0xc8 virtual true final false
+  /// @brief Method Equals, addr 0x2d40c28, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2bd8940 size 0x56c virtual true final false
+  /// @brief Method GetHashCode, addr 0x2d40cf0, size 0x56c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd8eac size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2d4125c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]

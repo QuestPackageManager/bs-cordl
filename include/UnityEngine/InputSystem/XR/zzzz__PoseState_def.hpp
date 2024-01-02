@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PoseState)
-namespace UnityEngine::InputSystem::Utilities {
-struct FourCC;
+namespace UnityEngine {
+struct Vector3;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -17,8 +17,8 @@ struct Quaternion;
 namespace UnityEngine::InputSystem::LowLevel {
 class IInputStateTypeInfo;
 }
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::InputSystem::Utilities {
+struct FourCC;
 }
 namespace UnityEngine::XR {
 struct InputTrackingState;
@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::PoseState);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(15575))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6408))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15618)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6322))
 // CS Name: ::UnityEngine.InputSystem.XR::PoseState
 #pragma pack(push, 0)
 struct CORDL_TYPE PoseState {
@@ -99,10 +99,10 @@ public:
 
   constexpr void __set_angularVelocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_format addr 0x294651c size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ac5264, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method .ctor addr 0x294654c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2ac5294, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 

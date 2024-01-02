@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_ApplicationLaunch_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9451))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8682))
 // CS Name: ::OVR.OpenVR::VREvent_ApplicationLaunch_t
 struct CORDL_TYPE VREvent_ApplicationLaunch_t {
 public:

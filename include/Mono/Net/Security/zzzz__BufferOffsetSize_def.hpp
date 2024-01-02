@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7652))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8815))
 // CS Name: ::Mono.Net.Security::BufferOffsetSize*
 class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
@@ -72,18 +72,18 @@ public:
 
   constexpr void __set_Complete(bool value);
 
-  /// @brief Method get_EndOffset addr 0x26a2d9c size 0xc virtual false final false
+  /// @brief Method get_EndOffset, addr 0x281dda8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_EndOffset();
 
-  /// @brief Method get_Remaining addr 0x26a2da8 size 0x28 virtual false final false
+  /// @brief Method get_Remaining, addr 0x281ddb4, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_Remaining();
 
   static inline ::Mono::Net::Security::BufferOffsetSize* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method .ctor addr 0x26a2dd0 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x281dddc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ToString addr 0x26a2ed4 size 0xa0 virtual true final false
+  /// @brief Method ToString, addr 0x281dee0, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferOffsetSize", modifiers: "&&", def_value: None }]

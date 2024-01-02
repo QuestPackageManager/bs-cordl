@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPoolableSerializable);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15158))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15011))
 // CS Name: ::IPoolableSerializable*
 class CORDL_TYPE IPoolableSerializable {
 public:
@@ -25,10 +25,10 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Retain addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Retain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Retain();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPoolableSerializable", modifiers: "&&", def_value: None }]

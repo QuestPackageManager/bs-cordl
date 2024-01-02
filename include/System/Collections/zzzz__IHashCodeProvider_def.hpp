@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::Collections::IHashCodeProvider);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3787))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3799))
 // CS Name: ::System.Collections::IHashCodeProvider*
 class CORDL_TYPE IHashCodeProvider {
 public:
   // Declarations
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IHashCodeProvider", modifiers: "&&", def_value: None }]

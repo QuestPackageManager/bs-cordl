@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::CompareFunction);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10256))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10334))
 // CS Name: ::UnityEngine.Rendering::CompareFunction
 struct CORDL_TYPE CompareFunction {
 public:

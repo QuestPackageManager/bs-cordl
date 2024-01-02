@@ -8,19 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshInfo)
 namespace UnityEngine {
-class Material;
+struct Vector3;
 }
 namespace UnityEngine {
-struct Vector2;
+struct Color32;
+}
+namespace UnityEngine {
+class Material;
 }
 namespace UnityEngine::TextCore::Text {
 struct VertexSortingOrder;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct Color32;
+struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -32,8 +32,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MeshInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10177))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13730))
 // CS Name: ::UnityEngine.TextCore.Text::MeshInfo
 struct CORDL_TYPE MeshInfo {
 public:
@@ -45,22 +45,22 @@ public:
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();
 
-  /// @brief Method .ctor addr 0x2be317c size 0x354 virtual false final false
+  /// @brief Method .ctor, addr 0x2d4b52c, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
-  /// @brief Method ResizeMeshInfo addr 0x2be34d0 size 0x1e8 virtual false final false
+  /// @brief Method ResizeMeshInfo, addr 0x2d4b880, size 0x1e8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method Clear addr 0x2bdfe08 size 0x2c virtual false final false
+  /// @brief Method Clear, addr 0x2d481b8, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices addr 0x2be36b8 size 0x3c virtual false final false
+  /// @brief Method ClearUnusedVertices, addr 0x2d4ba68, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method SortGeometry addr 0x2be36f4 size 0x7c virtual false final false
+  /// @brief Method SortGeometry, addr 0x2d4baa4, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData addr 0x2be3770 size 0x58c virtual false final false
+  /// @brief Method SwapVertexData, addr 0x2d4bb20, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
   // Ctor Parameters [CppParam { name: "vertexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertices", ty:

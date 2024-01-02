@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRScreenshotError);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9406))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8637))
 // CS Name: ::OVR.OpenVR::EVRScreenshotError
 struct CORDL_TYPE EVRScreenshotError {
 public:

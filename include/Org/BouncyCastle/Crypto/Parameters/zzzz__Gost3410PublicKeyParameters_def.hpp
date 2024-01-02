@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(Gost3410PublicKeyParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Gost3410Parameters;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -43,16 +43,16 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                                ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor addr 0xec13f8 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0xf365e4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410PublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                                ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method .ctor addr 0xec14b8 size 0xc8 virtual false final false
+  /// @brief Method .ctor, addr 0xf366a4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* y, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Y addr 0xec1580 size 0x8 virtual false final false
+  /// @brief Method get_Y, addr 0xf3676c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Y();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3410PublicKeyParameters", modifiers: "&&", def_value: None }]

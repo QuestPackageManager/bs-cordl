@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::SessionConnectionState);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9709))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9782))
 // CS Name: ::HoudiniEngineUnity::SessionConnectionState
 struct CORDL_TYPE SessionConnectionState {
 public:

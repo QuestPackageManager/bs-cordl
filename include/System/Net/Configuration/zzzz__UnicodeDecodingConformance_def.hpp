@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Configuration::UnicodeDecodingConformance);
 namespace System::Net::Configuration {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8150))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9313))
 // CS Name: ::System.Net.Configuration::UnicodeDecodingConformance
 struct CORDL_TYPE UnicodeDecodingConformance {
 public:

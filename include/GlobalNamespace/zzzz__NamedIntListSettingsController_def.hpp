@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedIntListSettingsController__TextValuePai
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5692))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5597))
 // CS Name: ::NamedIntListSettingsController::TextValuePair*
 class CORDL_TYPE __NamedIntListSettingsController__TextValuePair : public ::System::Object {
 public:
@@ -55,12 +55,12 @@ public:
 
   constexpr void __set_value(int32_t value);
 
-  /// @brief Method get_localizedText addr 0x2166048 size 0xc virtual false final false
+  /// @brief Method get_localizedText, addr 0x22aafe4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
   static inline ::GlobalNamespace::__NamedIntListSettingsController__TextValuePair* New_ctor();
 
-  /// @brief Method .ctor addr 0x216605c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22aaff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NamedIntListSettingsController__TextValuePair", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(offsetof(::GlobalNamespace::__NamedIntListSettingsController__Text
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5691))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5693))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5598))
 // CS Name: ::NamedIntListSettingsController*
 class CORDL_TYPE NamedIntListSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
@@ -126,18 +126,18 @@ public:
   constexpr void
   __set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> value);
 
-  /// @brief Method GetInitValues addr 0x2165ec8 size 0xc8 virtual true final false
+  /// @brief Method GetInitValues, addr 0x22aae64, size 0xc8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
-  /// @brief Method ApplyValue addr 0x2165f90 size 0x7c virtual true final false
+  /// @brief Method ApplyValue, addr 0x22aaf2c, size 0x7c, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method TextForValue addr 0x216600c size 0x3c virtual true final false
+  /// @brief Method TextForValue, addr 0x22aafa8, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   static inline ::GlobalNamespace::NamedIntListSettingsController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2166054 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22aaff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NamedIntListSettingsController", modifiers: "&&", def_value: None }]

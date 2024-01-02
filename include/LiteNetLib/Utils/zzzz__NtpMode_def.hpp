@@ -16,7 +16,7 @@ MARK_VAL_T(::LiteNetLib::Utils::NtpMode);
 namespace LiteNetLib::Utils {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14577))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14239))
 // CS Name: ::LiteNetLib.Utils::NtpMode
 struct CORDL_TYPE NtpMode {
 public:

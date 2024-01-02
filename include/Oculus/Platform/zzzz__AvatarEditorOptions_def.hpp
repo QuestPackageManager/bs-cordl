@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Oculus::Platform::AvatarEditorOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13231))
 // CS Name: ::Oculus.Platform::AvatarEditorOptions*
 class CORDL_TYPE AvatarEditorOptions : public ::System::Object {
@@ -34,16 +34,16 @@ public:
 
   static inline ::Oculus::Platform::AvatarEditorOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x25680dc size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x26cef14, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetSourceOverride addr 0x25681a8 size 0x68 virtual false final false
+  /// @brief Method SetSourceOverride, addr 0x26cefe0, size 0x68, virtual false, abstract: false, final false
   inline void SetSourceOverride(::StringW value);
 
-  /// @brief Method op_Explicit addr 0x25682b0 size 0x58 virtual false final false
+  /// @brief Method op_Explicit, addr 0x26cf0e8, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AvatarEditorOptions* options);
 
-  /// @brief Method Finalize addr 0x2568308 size 0xd4 virtual true final false
+  /// @brief Method Finalize, addr 0x26cf140, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "AvatarEditorOptions", modifiers: "&&", def_value: None }]

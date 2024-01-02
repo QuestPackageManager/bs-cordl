@@ -16,8 +16,8 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3858))
 // CS Name: ::System.Collections.Generic::CollectionDebugView`1<T>*
 class CORDL_TYPE CollectionDebugView_1 : public ::System::Object {
 public:

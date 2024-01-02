@@ -13,10 +13,10 @@ namespace System {
 class Object;
 }
 namespace System {
-template <typename T> struct ByReference_1;
+template <typename T> struct Span_1;
 }
 namespace System {
-template <typename T> struct Span_1;
+template <typename T> struct ByReference_1;
 }
 // Forward declare root types
 namespace System {
@@ -30,8 +30,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2535), inst: 946 }), TypeDefinitionIndex(TypeDefinitionIndex(2535))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2462))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2537), inst: 964 }), TypeDefinitionIndex(TypeDefinitionIndex(2537))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2464))
 // CS Name: ::System::ReadOnlySpan`1<T>
 struct CORDL_TYPE ReadOnlySpan_1 {
 public:
@@ -42,55 +42,55 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<void> pointer, int32_t length);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(ByRef<T> ptr, int32_t length);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ByRef<T> get_Item(int32_t index);
 
-  /// @brief Method CopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::System::Span_1<T> destination);
 
-  /// @brief Method TryCopyTo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryCopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryCopyTo(::System::Span_1<T> destination);
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> Slice(int32_t start);
 
-  /// @brief Method Slice addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Slice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<T> Slice(int32_t start, int32_t length);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method op_Implicit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method get_Empty addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Empty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<T> get_Empty();
 
   // Ctor Parameters [CppParam { name: "_pointer", ty: "::System::ByReference_1<T>", modifiers: "", def_value: None }, CppParam { name: "_length", ty: "int32_t", modifiers: "", def_value: None }]

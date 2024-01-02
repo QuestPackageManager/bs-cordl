@@ -20,7 +20,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15154))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15007))
 // CS Name: ::IBitMask`1<T>*
 class CORDL_TYPE IBitMask_1 {
 public:
@@ -30,13 +30,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<T>"
   constexpr operator ::System::IEquatable_1<T>*() noexcept;
 
-  /// @brief Method get_bitCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_bitCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_bitCount();
 
-  /// @brief Method SetBits addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetBits, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method GetBits addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetBits, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBitMask_1", modifiers: "&&", def_value: None }]

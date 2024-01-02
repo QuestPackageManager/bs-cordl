@@ -8,8 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUILayoutGroup)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class GUILayoutOption;
 }
 namespace UnityEngine {
 class GUILayoutEntry;
@@ -17,8 +17,8 @@ class GUILayoutEntry;
 namespace UnityEngine {
 class GUIStyle;
 }
-namespace UnityEngine {
-class GUILayoutOption;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutGroup);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14809))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14839))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14592))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14622))
 // CS Name: ::UnityEngine::GUILayoutGroup*
 class CORDL_TYPE GUILayoutGroup : public ::UnityEngine::GUILayoutEntry {
 public:
@@ -231,51 +231,51 @@ public:
 
   static inline ::UnityEngine::GUILayoutEntry* getStaticF_none();
 
-  /// @brief Method get_marginLeft addr 0x2ba19a4 size 0x8 virtual true final false
+  /// @brief Method get_marginLeft, addr 0x2d09db4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginLeft();
 
-  /// @brief Method get_marginRight addr 0x2ba19ac size 0x8 virtual true final false
+  /// @brief Method get_marginRight, addr 0x2d09dbc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginRight();
 
-  /// @brief Method get_marginTop addr 0x2ba19b4 size 0x8 virtual true final false
+  /// @brief Method get_marginTop, addr 0x2d09dc4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginTop();
 
-  /// @brief Method get_marginBottom addr 0x2ba19bc size 0x8 virtual true final false
+  /// @brief Method get_marginBottom, addr 0x2d09dcc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_marginBottom();
 
   static inline ::UnityEngine::GUILayoutGroup* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b99be8 size 0x118 virtual false final false
+  /// @brief Method .ctor, addr 0x2d01ff8, size 0x118, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ApplyOptions addr 0x2ba19c4 size 0x120 virtual true final false
+  /// @brief Method ApplyOptions, addr 0x2d09dd4, size 0x120, virtual true, abstract: false, final false
   inline void ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);
 
-  /// @brief Method ApplyStyleSettings addr 0x2ba1ae4 size 0x78 virtual true final false
+  /// @brief Method ApplyStyleSettings, addr 0x2d09ef4, size 0x78, virtual true, abstract: false, final false
   inline void ApplyStyleSettings(::UnityEngine::GUIStyle* style);
 
-  /// @brief Method ResetCursor addr 0x2b9a584 size 0x8 virtual false final false
+  /// @brief Method ResetCursor, addr 0x2d02994, size 0x8, virtual false, abstract: false, final false
   inline void ResetCursor();
 
-  /// @brief Method GetNext addr 0x2b9a9d8 size 0x378 virtual false final false
+  /// @brief Method GetNext, addr 0x2d02de8, size 0x378, virtual false, abstract: false, final false
   inline ::UnityEngine::GUILayoutEntry* GetNext();
 
-  /// @brief Method Add addr 0x2b9a930 size 0xa8 virtual false final false
+  /// @brief Method Add, addr 0x2d02d40, size 0xa8, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::GUILayoutEntry* e);
 
-  /// @brief Method CalcWidth addr 0x2ba1b5c size 0x630 virtual true final false
+  /// @brief Method CalcWidth, addr 0x2d09f6c, size 0x630, virtual true, abstract: false, final false
   inline void CalcWidth();
 
-  /// @brief Method SetHorizontal addr 0x2ba218c size 0x814 virtual true final false
+  /// @brief Method SetHorizontal, addr 0x2d0a59c, size 0x814, virtual true, abstract: false, final false
   inline void SetHorizontal(float_t x, float_t width);
 
-  /// @brief Method CalcHeight addr 0x2ba29a0 size 0x580 virtual true final false
+  /// @brief Method CalcHeight, addr 0x2d0adb0, size 0x580, virtual true, abstract: false, final false
   inline void CalcHeight();
 
-  /// @brief Method SetVertical addr 0x2ba2f20 size 0x820 virtual true final false
+  /// @brief Method SetVertical, addr 0x2d0b330, size 0x820, virtual true, abstract: false, final false
   inline void SetVertical(float_t y, float_t height);
 
-  /// @brief Method ToString addr 0x2ba3740 size 0x420 virtual true final false
+  /// @brief Method ToString, addr 0x2d0bb50, size 0x420, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "GUILayoutGroup", modifiers: "&&", def_value: None }]

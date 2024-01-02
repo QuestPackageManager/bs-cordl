@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::ComponentModel::IExtenderProvider);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8269))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9432))
 // CS Name: ::System.ComponentModel::IExtenderProvider*
 class CORDL_TYPE IExtenderProvider {
 public:
   // Declarations
-  /// @brief Method CanExtend addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanExtend, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanExtend(::System::Object* extendee);
 
   // Ctor Parameters [CppParam { name: "", ty: "IExtenderProvider", modifiers: "&&", def_value: None }]

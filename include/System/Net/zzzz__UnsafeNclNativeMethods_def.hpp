@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::System::Net::__UnsafeNclNativeMethods__SecureStringHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7978))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9141))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID : public ::System::Object {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
 
-  /// @brief Method ToString addr 0x283c224 size 0x7c virtual false final false
+  /// @brief Method ToString, addr 0x29b9a9c, size 0x7c, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t position);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__HttpApi__HTTP_REQUEST_HEADER_ID", modifiers: "&&", def_value: None }]
@@ -81,8 +81,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnsafeNclNati
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7979))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9142))
 // CS Name: ::UnsafeNclNativeMethods::HttpApi*
 class CORDL_TYPE __UnsafeNclNativeMethods__HttpApi : public ::System::Object {
 public:
@@ -120,16 +120,16 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7980))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9143))
 // CS Name: ::UnsafeNclNativeMethods::SecureStringHelper*
 class CORDL_TYPE __UnsafeNclNativeMethods__SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateString addr 0x283cd64 size 0x1b0 virtual false final false
+  /// @brief Method CreateString, addr 0x29ba5dc, size 0x1b0, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::System::Security::SecureString* secureString);
 
-  /// @brief Method CreateSecureString addr 0x283cf14 size 0xac virtual false final false
+  /// @brief Method CreateSecureString, addr 0x29ba78c, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
   // Ctor Parameters [CppParam { name: "", ty: "__UnsafeNclNativeMethods__SecureStringHelper", modifiers: "&&", def_value: None }]
@@ -156,8 +156,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__UnsafeNclNativeMe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7981))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9144))
 // CS Name: ::System.Net::UnsafeNclNativeMethods*
 class CORDL_TYPE UnsafeNclNativeMethods : public ::System::Object {
 public:

@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Net::HttpListenerBasicIdentity);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2993))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8009))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2994))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9172))
 // CS Name: ::System.Net::HttpListenerBasicIdentity*
 class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Net::HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password);
 
-  /// @brief Method .ctor addr 0x284bc64 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x29c94d8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW username, ::StringW password);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerBasicIdentity", modifiers: "&&", def_value: None }]

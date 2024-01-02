@@ -25,13 +25,13 @@ public:
   // Declarations
   __declspec(property(get = get_Size)) int32_t Size;
 
-  /// @brief Method get_Size addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Size();
 
-  /// @brief Method Lookup addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method LookupVar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "ECLookupTable", modifiers: "&&", def_value: None }]

@@ -24,46 +24,7 @@ namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System::IO {
-struct __Stream____ReadAsync_g__FinishReadAsync_44_0_d;
-}
-namespace System::IO {
 class __Stream____c;
-}
-namespace System {
-class IAsyncResult;
-}
-namespace System::IO {
-struct __Stream___FinishWriteAsync_d__57;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
-}
-namespace System {
-class Object;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> struct ValueTask_1;
-}
-namespace System::IO {
-class __Stream__NullStream;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace System::IO {
-class __Stream__SynchronousAsyncResult;
-}
-namespace System {
-template <typename T> struct ReadOnlySpan_1;
-}
-namespace System::IO {
-struct __Stream__ReadWriteParameters;
-}
-namespace System::Threading::Tasks {
-struct ValueTask;
-}
-namespace System::IO {
-struct __Stream___CopyToAsyncInternal_d__28;
 }
 namespace System {
 class IDisposable;
@@ -71,26 +32,68 @@ class IDisposable;
 namespace System::Threading {
 class SemaphoreSlim;
 }
-namespace System::Threading {
-struct CancellationToken;
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
 }
-namespace System {
-template <typename T> struct Memory_1;
+namespace System::IO {
+struct __Stream__ReadWriteParameters;
 }
 namespace System {
 template <typename T> struct ReadOnlyMemory_1;
 }
 namespace System::IO {
+class __Stream__ReadWriteTask;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename T> struct Memory_1;
+}
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System::IO {
+struct __Stream___FinishWriteAsync_d__57;
+}
+namespace System::IO {
+class __Stream__SynchronousAsyncResult;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> struct ValueTask_1;
+}
+namespace System::Threading::Tasks {
+struct ValueTask;
+}
+namespace System::IO {
 struct SeekOrigin;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace System::IO {
+class __Stream__NullStream;
 }
 namespace System {
 template <typename T> struct Span_1;
 }
-namespace System::IO {
-class __Stream__ReadWriteTask;
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncDisposable;
+}
+namespace System::IO {
+struct __Stream____ReadAsync_g__FinishReadAsync_44_0_d;
+}
+namespace System::IO {
+struct __Stream___CopyToAsyncInternal_d__28;
 }
 namespace System::Threading {
 class ExecutionContext;
@@ -104,44 +107,44 @@ class ContextCallback;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-class Exception;
+namespace System::Threading {
+class WaitHandle;
 }
 namespace System::Runtime::ExceptionServices {
 class ExceptionDispatchInfo;
 }
+namespace System {
+class Exception;
+}
 namespace GlobalNamespace {
 class __Stream__SynchronousAsyncResult____c;
 }
-namespace System::Threading {
-class WaitHandle;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
 }
 namespace System::Threading::Tasks {
 struct VoidTaskResult;
 }
 namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct __ConfiguredValueTaskAwaitable_1__ConfiguredValueTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
@@ -195,7 +198,7 @@ MARK_VAL_T(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44_0_d);
 namespace System::IO {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3598))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3610))
 // CS Name: ::Stream::ReadWriteParameters
 struct CORDL_TYPE __Stream__ReadWriteParameters {
 public:
@@ -236,8 +239,8 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteParameters, Count) == 0x
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2769), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(2769))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3599))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3611))
 // CS Name: ::Stream::ReadWriteTask*
 class CORDL_TYPE __Stream__ReadWriteTask : public ::System::Threading::Tasks::Task_1<int32_t> {
 public:
@@ -326,23 +329,23 @@ public:
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_invokeAsyncCallback();
 
-  /// @brief Method ClearBeginState addr 0x23da9ac size 0x8 virtual false final false
+  /// @brief Method ClearBeginState, addr 0x2536948, size 0x8, virtual false, abstract: false, final false
   inline void ClearBeginState();
 
   static inline ::System::IO::__Stream__ReadWriteTask* New_ctor(bool isRead, bool apm, ::System::Func_2<::System::Object*, int32_t>* function, ::System::Object* state, ::System::IO::Stream* stream,
                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback);
 
-  /// @brief Method .ctor addr 0x23d87ec size 0x144 virtual false final false
+  /// @brief Method .ctor, addr 0x25346b0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(bool isRead, bool apm, ::System::Func_2<::System::Object*, int32_t>* function, ::System::Object* state, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                     int32_t offset, int32_t count, ::System::AsyncCallback* callback);
 
-  /// @brief Method InvokeAsyncCallback addr 0x23da9b4 size 0x7c virtual false final false
+  /// @brief Method InvokeAsyncCallback, addr 0x2536950, size 0x7c, virtual false, abstract: false, final false
   static inline void InvokeAsyncCallback(::System::Object* completedTask);
 
-  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.Invoke addr 0x23daa30 size 0x120 virtual true final true
+  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.Invoke, addr 0x25369cc, size 0x120, virtual true, abstract: false, final true
   inline void System_Threading_Tasks_ITaskCompletionAction_Invoke(::System::Threading::Tasks::Task* completingTask);
 
-  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.get_InvokeMayRunArbitraryCode addr 0x23dab50 size 0x8 virtual true final true
+  /// @brief Method System.Threading.Tasks.ITaskCompletionAction.get_InvokeMayRunArbitraryCode, addr 0x2536aec, size 0x8, virtual true, abstract: false, final true
   inline bool System_Threading_Tasks_ITaskCompletionAction_get_InvokeMayRunArbitraryCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__ReadWriteTask", modifiers: "&&", def_value: None }]
@@ -409,8 +412,8 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteTask, ____context) == 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3601))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3613))
 // CS Name: ::Stream::SynchronousAsyncResult::<>c*
 class CORDL_TYPE __Stream__SynchronousAsyncResult____c : public ::System::Object {
 public:
@@ -431,10 +434,10 @@ public:
 
   static inline ::GlobalNamespace::__Stream__SynchronousAsyncResult____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x23db3b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x253735c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_AsyncWaitHandle>b__12_0 addr 0x23db3c0 size 0x60 virtual false final false
+  /// @brief Method <get_AsyncWaitHandle>b__12_0, addr 0x2537364, size 0x60, virtual false, abstract: false, final false
   inline ::System::Threading::ManualResetEvent* _get_AsyncWaitHandle_b__12_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__SynchronousAsyncResult____c", modifiers: "&&", def_value: None }]
@@ -461,8 +464,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Stream__Synch
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3602))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3614))
 // CS Name: ::Stream::SynchronousAsyncResult*
 class CORDL_TYPE __Stream__SynchronousAsyncResult : public ::System::Object {
 public:
@@ -536,38 +539,38 @@ public:
 
   static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
 
-  /// @brief Method .ctor addr 0x23da4c8 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x253638c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
 
   static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Object* asyncStateObject);
 
-  /// @brief Method .ctor addr 0x23da7b0 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2536674, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* asyncStateObject);
 
   static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(::System::Exception* ex, ::System::Object* asyncStateObject, bool isWrite);
 
-  /// @brief Method .ctor addr 0x23da4f8 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0x25363bc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* ex, ::System::Object* asyncStateObject, bool isWrite);
 
-  /// @brief Method get_IsCompleted addr 0x23db230 size 0x8 virtual true final true
+  /// @brief Method get_IsCompleted, addr 0x25371d4, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x23db238 size 0xf8 virtual true final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x25371dc, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_AsyncState addr 0x23db330 size 0x8 virtual true final true
+  /// @brief Method get_AsyncState, addr 0x25372d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_CompletedSynchronously addr 0x23db338 size 0x8 virtual true final true
+  /// @brief Method get_CompletedSynchronously, addr 0x25372dc, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method ThrowIfError addr 0x23db340 size 0x14 virtual false final false
+  /// @brief Method ThrowIfError, addr 0x25372e4, size 0x14, virtual false, abstract: false, final false
   inline void ThrowIfError();
 
-  /// @brief Method EndRead addr 0x23da548 size 0xf0 virtual false final false
+  /// @brief Method EndRead, addr 0x253640c, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite addr 0x23da7e4 size 0xf4 virtual false final false
+  /// @brief Method EndWrite, addr 0x25366a8, size 0xf4, virtual false, abstract: false, final false
   static inline void EndWrite(::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Stream__SynchronousAsyncResult", modifiers: "&&", def_value: None }]
@@ -624,8 +627,8 @@ static_assert(offsetof(::System::IO::__Stream__SynchronousAsyncResult, ____bytes
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3615))
 // CS Name: ::Stream::<>c*
 class CORDL_TYPE __Stream____c : public ::System::Object {
 public:
@@ -709,35 +712,35 @@ public:
 
   static inline ::System::IO::__Stream____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x23db484 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2537428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <EnsureAsyncActiveSemaphoreInitialized>b__4_0 addr 0x23db48c size 0x64 virtual false final false
+  /// @brief Method <EnsureAsyncActiveSemaphoreInitialized>b__4_0, addr 0x2537430, size 0x64, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* _EnsureAsyncActiveSemaphoreInitialized_b__4_0();
 
-  /// @brief Method <FlushAsync>b__37_0 addr 0x23db4f0 size 0xb0 virtual false final false
+  /// @brief Method <FlushAsync>b__37_0, addr 0x2537494, size 0xb0, virtual false, abstract: false, final false
   inline void _FlushAsync_b__37_0(::System::Object* state);
 
-  /// @brief Method <BeginReadInternal>b__40_0 addr 0x23db5a0 size 0x190 virtual false final false
+  /// @brief Method <BeginReadInternal>b__40_0, addr 0x2537544, size 0x190, virtual false, abstract: false, final false
   inline int32_t _BeginReadInternal_b__40_0(::System::Object* _p0_);
 
-  /// @brief Method <BeginEndReadAsync>b__45_0 addr 0x23db730 size 0x34 virtual false final false
+  /// @brief Method <BeginEndReadAsync>b__45_0, addr 0x25376d4, size 0x34, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _BeginEndReadAsync_b__45_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method <BeginEndReadAsync>b__45_1 addr 0x23db764 size 0x2c virtual false final false
+  /// @brief Method <BeginEndReadAsync>b__45_1, addr 0x2537708, size 0x2c, virtual false, abstract: false, final false
   inline int32_t _BeginEndReadAsync_b__45_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
 
-  /// @brief Method <BeginWriteInternal>b__48_0 addr 0x23db790 size 0x180 virtual false final false
+  /// @brief Method <BeginWriteInternal>b__48_0, addr 0x2537734, size 0x180, virtual false, abstract: false, final false
   inline int32_t _BeginWriteInternal_b__48_0(::System::Object* _p0_);
 
-  /// @brief Method <RunReadWriteTaskWhenReady>b__49_0 addr 0x23db910 size 0x6c virtual false final false
+  /// @brief Method <RunReadWriteTaskWhenReady>b__49_0, addr 0x25378b4, size 0x6c, virtual false, abstract: false, final false
   inline void _RunReadWriteTaskWhenReady_b__49_0(::System::Threading::Tasks::Task* t, ::System::Object* state);
 
-  /// @brief Method <BeginEndWriteAsync>b__58_0 addr 0x23db97c size 0x34 virtual false final false
+  /// @brief Method <BeginEndWriteAsync>b__58_0, addr 0x2537920, size 0x34, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* _BeginEndWriteAsync_b__58_0(::System::IO::Stream* stream, ::System::IO::__Stream__ReadWriteParameters args, ::System::AsyncCallback* callback,
                                                              ::System::Object* state);
 
-  /// @brief Method <BeginEndWriteAsync>b__58_1 addr 0x23db9b0 size 0x34 virtual false final false
+  /// @brief Method <BeginEndWriteAsync>b__58_1, addr 0x2537954, size 0x34, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::VoidTaskResult _BeginEndWriteAsync_b__58_1(::System::IO::Stream* stream, ::System::IAsyncResult* asyncResult);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Stream____c", modifiers: "&&", def_value: None }]
@@ -764,19 +767,19 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__Stream____c, 0x10>
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3359)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3396)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3359), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(3357))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3604)) CS
-// Name: ::Stream::<CopyToAsyncInternal>d__28
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3616))
+// CS Name: ::Stream::<CopyToAsyncInternal>d__28
 struct CORDL_TYPE __Stream___CopyToAsyncInternal_d__28 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x23db9e4 size 0x6dc virtual true final true
+  /// @brief Method MoveNext, addr 0x2537988, size 0x6dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x23dc0c0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x2538064, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -852,8 +855,8 @@ static_assert(offsetof(::System::IO::__Stream___CopyToAsyncInternal_d__28, __u__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3396))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3605))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3617))
 // CS Name: ::Stream::<FinishWriteAsync>d__57
 struct CORDL_TYPE __Stream___FinishWriteAsync_d__57 {
 public:
@@ -861,10 +864,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x23dc0cc size 0x20c virtual true final true
+  /// @brief Method MoveNext, addr 0x2538070, size 0x20c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x23dc2d8 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x253827c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -916,20 +919,19 @@ static_assert(offsetof(::System::IO::__Stream___FinishWriteAsync_d__57, __u__1) 
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2435)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2435), inst: 730 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3392)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3392), inst: 101 }), TypeDefinitionIndex(TypeDefinitionIndex(3354)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3354), inst: 101 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3606)) CS Name:
-// ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(2437), inst: 741 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name: ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
 struct CORDL_TYPE __Stream____ReadAsync_g__FinishReadAsync_44_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x23dc2e4 size 0x394 virtual true final true
+  /// @brief Method MoveNext, addr 0x2538288, size 0x394, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x23dc678 size 0x58 virtual true final true
+  /// @brief Method SetStateMachine, addr 0x253861c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -989,8 +991,8 @@ static_assert(offsetof(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3619))
 // CS Name: ::System.IO::Stream*
 class CORDL_TYPE Stream : public ::System::MarshalByRefObject {
 public:
@@ -1039,6 +1041,9 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
+  /// @brief Convert operator to "::System::IAsyncDisposable"
+  constexpr operator ::System::IAsyncDisposable*() noexcept;
+
   constexpr ::System::IO::__Stream__ReadWriteTask*& __get__activeReadWriteTask();
 
   constexpr ::cordl_internals::to_const_pointer<::System::IO::__Stream__ReadWriteTask*> const& __get__activeReadWriteTask() const;
@@ -1055,176 +1060,190 @@ public:
 
   static inline ::System::IO::Stream* getStaticF_Null();
 
-  /// @brief Method EnsureAsyncActiveSemaphoreInitialized addr 0x23d7eb0 size 0xf8 virtual false final false
+  /// @brief Method EnsureAsyncActiveSemaphoreInitialized, addr 0x2533b78, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* EnsureAsyncActiveSemaphoreInitialized();
 
-  /// @brief Method get_CanRead addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanSeek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanTimeout addr 0x23d7fa8 size 0x8 virtual true final false
+  /// @brief Method get_CanTimeout, addr 0x2533c70, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanTimeout();
 
-  /// @brief Method get_CanWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_CanWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Position(int64_t value);
 
-  /// @brief Method get_ReadTimeout addr 0x23d7fb0 size 0x50 virtual true final false
+  /// @brief Method get_ReadTimeout, addr 0x2533c78, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_ReadTimeout();
 
-  /// @brief Method set_ReadTimeout addr 0x23d8000 size 0x50 virtual true final false
+  /// @brief Method set_ReadTimeout, addr 0x2533cc8, size 0x50, virtual true, abstract: false, final false
   inline void set_ReadTimeout(int32_t value);
 
-  /// @brief Method get_WriteTimeout addr 0x23d8050 size 0x50 virtual true final false
+  /// @brief Method get_WriteTimeout, addr 0x2533d18, size 0x50, virtual true, abstract: false, final false
   inline int32_t get_WriteTimeout();
 
-  /// @brief Method set_WriteTimeout addr 0x23d80a0 size 0x50 virtual true final false
+  /// @brief Method set_WriteTimeout, addr 0x2533d68, size 0x50, virtual true, abstract: false, final false
   inline void set_WriteTimeout(int32_t value);
 
-  /// @brief Method CopyToAsync addr 0x23d80f0 size 0x2c virtual false final false
+  /// @brief Method CopyToAsync, addr 0x2533db8, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination);
 
-  /// @brief Method CopyToAsync addr 0x23d81e0 size 0x84 virtual false final false
+  /// @brief Method CopyToAsync, addr 0x2533eac, size 0x84, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize);
 
-  /// @brief Method CopyToAsync addr 0x23d8264 size 0x44 virtual true final false
+  /// @brief Method CopyToAsync, addr 0x2533f30, size 0x44, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CopyToAsyncInternal addr 0x23d82a8 size 0xf8 virtual false final false
+  /// @brief Method CopyToAsyncInternal, addr 0x2533f74, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsyncInternal(::System::IO::Stream* destination, int32_t bufferSize, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetCopyBufferSize addr 0x23d811c size 0xc4 virtual false final false
+  /// @brief Method CopyTo, addr 0x253406c, size 0x38, virtual false, abstract: false, final false
+  inline void CopyTo(::System::IO::Stream* destination);
+
+  /// @brief Method CopyTo, addr 0x25340a4, size 0x1c0, virtual true, abstract: false, final false
+  inline void CopyTo(::System::IO::Stream* destination, int32_t bufferSize);
+
+  /// @brief Method GetCopyBufferSize, addr 0x2533de4, size 0xc8, virtual false, abstract: false, final false
   inline int32_t GetCopyBufferSize();
 
-  /// @brief Method Close addr 0x23d83a0 size 0x70 virtual true final false
+  /// @brief Method Close, addr 0x2534264, size 0x70, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose addr 0x23d8410 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x25342d4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x23d8420 size 0x4 virtual true final false
+  /// @brief Method Dispose, addr 0x25342e4, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Flush addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Flush, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync addr 0x23d8424 size 0x1c4 virtual true final false
+  /// @brief Method FlushAsync, addr 0x2531190, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* FlushAsync();
+
+  /// @brief Method FlushAsync, addr 0x25342e8, size 0x1c4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method BeginRead addr 0x23d85e8 size 0x20 virtual true final false
+  /// @brief Method BeginRead, addr 0x25344ac, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginReadInternal addr 0x23d8608 size 0x1e4 virtual false final false
+  /// @brief Method BeginReadInternal, addr 0x25344cc, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginReadInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
                                                    bool serializeAsynchronously, bool apm);
 
-  /// @brief Method EndRead addr 0x23d8b68 size 0x1cc virtual true final false
+  /// @brief Method EndRead, addr 0x2534a2c, size 0x1cc, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method ReadAsync addr 0x23d8d34 size 0x94 virtual false final false
+  /// @brief Method ReadAsync, addr 0x2534bf8, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsync addr 0x23d8dc8 size 0xbc virtual true final false
+  /// @brief Method ReadAsync, addr 0x2534c8c, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync addr 0x23d903c size 0x260 virtual true final false
-  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method ReadAsync, addr 0x2534f00, size 0x260, virtual true, abstract: false, final false
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsync(::System::Memory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method BeginEndReadAsync addr 0x23d8e84 size 0x1b8 virtual false final false
+  /// @brief Method BeginEndReadAsync, addr 0x2534d48, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* BeginEndReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method BeginWrite addr 0x23d93a4 size 0x20 virtual true final false
+  /// @brief Method BeginWrite, addr 0x2535268, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWriteInternal addr 0x23d93c4 size 0x1e4 virtual false final false
+  /// @brief Method BeginWriteInternal, addr 0x2535288, size 0x1e4, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BeginWriteInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state,
                                                     bool serializeAsynchronously, bool apm);
 
-  /// @brief Method RunReadWriteTaskWhenReady addr 0x23d8930 size 0x184 virtual false final false
+  /// @brief Method RunReadWriteTaskWhenReady, addr 0x25347f4, size 0x184, virtual false, abstract: false, final false
   inline void RunReadWriteTaskWhenReady(::System::Threading::Tasks::Task* asyncWaiter, ::System::IO::__Stream__ReadWriteTask* readWriteTask);
 
-  /// @brief Method RunReadWriteTask addr 0x23d8ab4 size 0xb4 virtual false final false
+  /// @brief Method RunReadWriteTask, addr 0x2534978, size 0xb4, virtual false, abstract: false, final false
   inline void RunReadWriteTask(::System::IO::__Stream__ReadWriteTask* readWriteTask);
 
-  /// @brief Method FinishTrackingAsyncOperation addr 0x23d95a8 size 0x24 virtual false final false
+  /// @brief Method FinishTrackingAsyncOperation, addr 0x253546c, size 0x24, virtual false, abstract: false, final false
   inline void FinishTrackingAsyncOperation();
 
-  /// @brief Method EndWrite addr 0x23d95cc size 0x1bc virtual true final false
+  /// @brief Method EndWrite, addr 0x2535490, size 0x1bc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method WriteAsync addr 0x23d9788 size 0x94 virtual false final false
+  /// @brief Method WriteAsync, addr 0x253564c, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsync addr 0x23d981c size 0xa8 virtual true final false
+  /// @brief Method WriteAsync, addr 0x25356e0, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsync addr 0x23d9a7c size 0x278 virtual true final false
-  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken);
+  /// @brief Method WriteAsync, addr 0x2535940, size 0x278, virtual true, abstract: false, final false
+  /// @param cancellationToken: ::System::Threading::CancellationToken (default: {})
+  inline ::System::Threading::Tasks::ValueTask WriteAsync(::System::ReadOnlyMemory_1<uint8_t> buffer, ::System::Threading::CancellationToken cancellationToken = {});
 
-  /// @brief Method FinishWriteAsync addr 0x23d9cf4 size 0xd8 virtual false final false
+  /// @brief Method FinishWriteAsync, addr 0x2535bb8, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishWriteAsync(::System::Threading::Tasks::Task* writeTask, ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer);
 
-  /// @brief Method BeginEndWriteAsync addr 0x23d98c4 size 0x1b8 virtual false final false
+  /// @brief Method BeginEndWriteAsync, addr 0x2535788, size 0x1b8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeginEndWriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetLength, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Read addr 0x23d9dd4 size 0x288 virtual true final false
+  /// @brief Method Read, addr 0x2535c98, size 0x288, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<uint8_t> buffer);
 
-  /// @brief Method ReadByte addr 0x23da05c size 0x94 virtual true final false
+  /// @brief Method ReadByte, addr 0x2535f20, size 0x94, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Write addr 0x23da0f0 size 0x1c8 virtual true final false
+  /// @brief Method Write, addr 0x2535fb4, size 0x1c8, virtual true, abstract: false, final false
   inline void Write(::System::ReadOnlySpan_1<uint8_t> buffer);
 
-  /// @brief Method WriteByte addr 0x23da2b8 size 0x8c virtual true final false
+  /// @brief Method WriteByte, addr 0x253617c, size 0x8c, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
-  /// @brief Method BlockingBeginRead addr 0x23da344 size 0x184 virtual false final false
+  /// @brief Method BlockingBeginRead, addr 0x2536208, size 0x184, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BlockingBeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BlockingEndRead addr 0x23da544 size 0x4 virtual false final false
+  /// @brief Method BlockingEndRead, addr 0x2536408, size 0x4, virtual false, abstract: false, final false
   static inline int32_t BlockingEndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method BlockingBeginWrite addr 0x23da638 size 0x178 virtual false final false
+  /// @brief Method BlockingBeginWrite, addr 0x25364fc, size 0x178, virtual false, abstract: false, final false
   inline ::System::IAsyncResult* BlockingBeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BlockingEndWrite addr 0x23da7e0 size 0x4 virtual false final false
+  /// @brief Method BlockingEndWrite, addr 0x25366a4, size 0x4, virtual false, abstract: false, final false
   static inline void BlockingEndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method HasOverriddenBeginEndRead addr 0x23d939c size 0x8 virtual false final false
+  /// @brief Method HasOverriddenBeginEndRead, addr 0x2535260, size 0x8, virtual false, abstract: false, final false
   inline bool HasOverriddenBeginEndRead();
 
-  /// @brief Method HasOverriddenBeginEndWrite addr 0x23d9dcc size 0x8 virtual false final false
+  /// @brief Method HasOverriddenBeginEndWrite, addr 0x2535c90, size 0x8, virtual false, abstract: false, final false
   inline bool HasOverriddenBeginEndWrite();
+
+  /// @brief Method DisposeAsync, addr 0x253679c, size 0xd8, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
   static inline ::System::IO::Stream* New_ctor();
 
-  /// @brief Method .ctor addr 0x23da8d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2536874, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ReadAsync>g__FinishReadAsync|44_0 addr 0x23d929c size 0x100 virtual false final false
+  /// @brief Method <ReadAsync>g__FinishReadAsync|44_0, addr 0x2535160, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ValueTask_1<int32_t> _ReadAsync_g__FinishReadAsync_44_0(::System::Threading::Tasks::Task_1<int32_t>* readTask,
                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> localBuffer, ::System::Memory_1<uint8_t> localDestination);
 

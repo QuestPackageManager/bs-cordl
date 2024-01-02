@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::System::Net::Sockets::SendPacketsElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9346))
 // CS Name: ::System.Net.Sockets::SendPacketsElement*
 class CORDL_TYPE SendPacketsElement : public ::System::Object {
 public:

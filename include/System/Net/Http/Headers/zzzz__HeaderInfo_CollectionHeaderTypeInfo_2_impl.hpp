@@ -2,8 +2,8 @@
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_HeaderTypeInfo_2_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HeaderInfo_CollectionHeaderTypeInfo_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaderKind_def.hpp"
+#include "System/Net/Http/Headers/zzzz__TryParseListDelegate_1_def.hpp"
 template <typename T, typename U> constexpr int32_t& System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>::__get_minimalCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minimalCount;
@@ -61,16 +61,15 @@ inline void System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, parser, headerKind, minimalCount, separator);
 }
 template <typename T, typename U> inline ::StringW System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>::get_Separator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*>::get(),
-                                               "get_Separator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T, typename U> inline bool System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>::TryParse(::StringW value, ByRef<::System::Object*> result) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*>::get(), "TryParse", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Object*>>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__CollectionHeaderTypeInfo_2<T, U>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, result);
 }
 // Ctor Parameters []

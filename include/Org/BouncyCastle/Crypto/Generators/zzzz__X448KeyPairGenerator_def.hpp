@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X448KeyPairGenerator)
-namespace Org::BouncyCastle::Crypto {
-class KeyGenerationParameters;
-}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto {
+class KeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(926))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::X448KeyPairGenerator*
 class CORDL_TYPE X448KeyPairGenerator : public ::System::Object {
@@ -44,15 +44,15 @@ public:
 
   constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method Init addr 0xe91e50 size 0x1c virtual true final false
+  /// @brief Method Init, addr 0xf07024, size 0x1c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
-  /// @brief Method GenerateKeyPair addr 0xe91e6c size 0xb0 virtual true final false
+  /// @brief Method GenerateKeyPair, addr 0xf07040, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
   static inline ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0xe91f1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf070f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "X448KeyPairGenerator", modifiers: "&&", def_value: None }]

@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(Test_Texture2D_Extensions)
 namespace HoudiniEngineUnity {
 class __Test_Texture2D_Extensions____c;
 }
-namespace UnityEngine {
-class Texture2D;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace HoudiniEngineUnity {
 class Test_Texture2D;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine {
+class Texture2D;
 }
 namespace System {
 template <typename TInput, typename TOutput> class Converter_2;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Texture2D_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9864))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9937))
 // CS Name: ::Test_Texture2D_Extensions::<>c*
 class CORDL_TYPE __Test_Texture2D_Extensions____c : public ::System::Object {
 public:
@@ -63,13 +63,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Texture2D_Extensions____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x208f758 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x21e80f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ToTestObject>b__1_0 addr 0x208f760 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x21e80fc, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__1_0(::UnityEngine::Texture2D* lod);
 
-  /// @brief Method <ToTestObject>b__2_0 addr 0x208f7c4 size 0x64 virtual false final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x21e8160, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Texture2D* _ToTestObject_b__2_0(::UnityEngine::Texture2D* lod);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Test_Texture2D_Extensions____c", modifiers: "&&", def_value: None }]
@@ -96,22 +96,22 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Textu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9865))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9938))
 // CS Name: ::HoudiniEngineUnity::Test_Texture2D_Extensions*
 class CORDL_TYPE Test_Texture2D_Extensions : public ::System::Object {
 public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Texture2D_Extensions____c;
 
-  /// @brief Method ToTestObject addr 0x208ef80 size 0x64 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e791c, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Texture2D* ToTestObject(::UnityEngine::Texture2D* self);
 
-  /// @brief Method ToTestObject addr 0x208f500 size 0xf8 virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e7e9c, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Texture2D*, ::Array<::HoudiniEngineUnity::Test_Texture2D*>*>
   ToTestObject(::ArrayW<::UnityEngine::Texture2D*, ::Array<::UnityEngine::Texture2D*>*> self);
 
-  /// @brief Method ToTestObject addr 0x208f5f8 size 0xfc virtual false final false
+  /// @brief Method ToTestObject, addr 0x21e7f94, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Texture2D*>* ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Texture2D*>* self);
 
   // Ctor Parameters [CppParam { name: "", ty: "Test_Texture2D_Extensions", modifiers: "&&", def_value: None }]

@@ -10,55 +10,55 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IVRSettings)
 namespace System {
-class IAsyncResult;
-}
-namespace System {
 class Object;
-}
-namespace OVR::OpenVR {
-struct EVRSettingsError;
 }
 namespace System {
 class AsyncCallback;
+}
+namespace System {
+class IAsyncResult;
+}
+namespace OVR::OpenVR {
+struct EVRSettingsError;
 }
 namespace System::Text {
 class StringBuilder;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___Sync;
-}
-namespace OVR::OpenVR {
 class __IVRSettings___SetBool;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___GetInt32;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___GetFloat;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___GetBool;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetInt32;
-}
-namespace OVR::OpenVR {
-class __IVRSettings___RemoveSection;
+class __IVRSettings___SetString;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___GetSettingsErrorNameFromEnum;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetString;
+class __IVRSettings___GetInt32;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___GetString;
+class __IVRSettings___RemoveSection;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___SetFloat;
 }
 namespace OVR::OpenVR {
 class __IVRSettings___RemoveKeyInSection;
 }
 namespace OVR::OpenVR {
-class __IVRSettings___SetFloat;
+class __IVRSettings___SetInt32;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___GetFloat;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___GetString;
+}
+namespace OVR::OpenVR {
+class __IVRSettings___Sync;
 }
 // Forward declare root types
 namespace OVR::OpenVR {
@@ -118,24 +118,24 @@ MARK_VAL_T(::OVR::OpenVR::IVRSettings);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9263))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8494))
 // CS Name: ::IVRSettings::_GetSettingsErrorNameFromEnum*
 class CORDL_TYPE __IVRSettings___GetSettingsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___GetSettingsErrorNameFromEnum* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2673e18 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27ead9c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2673edc size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27eae60, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::OVR::OpenVR::EVRSettingsError eError);
 
-  /// @brief Method BeginInvoke addr 0x2673ef0 size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eae74, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRSettingsError eError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2673f74 size 0x28 virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eaef8, size 0x28, virtual true, abstract: false, final false
   inline void* EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetSettingsErrorNameFromEnum", modifiers: "&&", def_value: None }]
@@ -162,24 +162,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8495))
 // CS Name: ::IVRSettings::_Sync*
 class CORDL_TYPE __IVRSettings___Sync : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___Sync* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2673f9c size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x27eaf20, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674060 size 0x18 virtual true final false
+  /// @brief Method Invoke, addr 0x27eafe4, size 0x18, virtual true, abstract: false, final false
   inline bool Invoke(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674078 size 0xbc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eaffc, size 0xbc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(bool bForce, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674134 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb0b8, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___Sync", modifiers: "&&", def_value: None }]
@@ -206,25 +206,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Syn
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9265))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8496))
 // CS Name: ::IVRSettings::_SetBool*
 class CORDL_TYPE __IVRSettings___SetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___SetBool* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674160 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb0e4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674238 size 0x18 virtual true final false
+  /// @brief Method Invoke, addr 0x27eb1bc, size 0x18, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674250 size 0xd0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eb1d4, size 0xd0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, bool bValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674320 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb2a4, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetBool", modifiers: "&&", def_value: None }]
@@ -251,25 +251,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9266))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8497))
 // CS Name: ::IVRSettings::_SetInt32*
 class CORDL_TYPE __IVRSettings___SetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___SetInt32* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x267433c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb2c0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674414 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27eb398, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674428 size 0xcc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eb3ac, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, int32_t nValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26744f4 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb478, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetInt32", modifiers: "&&", def_value: None }]
@@ -296,25 +296,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9267))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8498))
 // CS Name: ::IVRSettings::_SetFloat*
 class CORDL_TYPE __IVRSettings___SetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___SetFloat* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674510 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb494, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x26745e8 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27eb56c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x26745fc size 0xcc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eb580, size 0xcc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, float_t flValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26746c8 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb64c, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetFloat", modifiers: "&&", def_value: None }]
@@ -341,25 +341,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8499))
 // CS Name: ::IVRSettings::_SetString*
 class CORDL_TYPE __IVRSettings___SetString : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___SetString* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x26746e4 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb668, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x26747bc size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27eb740, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x26747d0 size 0xa8 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eb754, size 0xa8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::StringW pchValue, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674878 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb7fc, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___SetString", modifiers: "&&", def_value: None }]
@@ -386,25 +386,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Set
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9269))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8500))
 // CS Name: ::IVRSettings::_GetBool*
 class CORDL_TYPE __IVRSettings___GetBool : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___GetBool* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674894 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb818, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x267496c size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27eb8f0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674980 size 0xa0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27eb904, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674a20 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27eb9a4, size 0x2c, virtual true, abstract: false, final false
   inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetBool", modifiers: "&&", def_value: None }]
@@ -431,25 +431,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9270))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8501))
 // CS Name: ::IVRSettings::_GetInt32*
 class CORDL_TYPE __IVRSettings___GetInt32 : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___GetInt32* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674a4c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27eb9d0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674b24 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ebaa8, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674b38 size 0xa0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ebabc, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674bd8 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ebb5c, size 0x2c, virtual true, abstract: false, final false
   inline int32_t EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetInt32", modifiers: "&&", def_value: None }]
@@ -476,25 +476,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9271))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8502))
 // CS Name: ::IVRSettings::_GetFloat*
 class CORDL_TYPE __IVRSettings___GetFloat : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___GetFloat* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674c04 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ebb88, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674cdc size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ebc60, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674cf0 size 0xa0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ebc74, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674d90 size 0x2c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ebd14, size 0x2c, virtual true, abstract: false, final false
   inline float_t EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetFloat", modifiers: "&&", def_value: None }]
@@ -521,25 +521,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8503))
 // CS Name: ::IVRSettings::_GetString*
 class CORDL_TYPE __IVRSettings___GetString : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___GetString* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674dbc size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ebd40, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2674e94 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ebe18, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2674ea8 size 0xdc virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ebe2c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ::System::Text::StringBuilder* pchValue, uint32_t unValueLen,
                                              ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2674f84 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ebf08, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___GetString", modifiers: "&&", def_value: None }]
@@ -566,24 +566,24 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Get
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9273))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8504))
 // CS Name: ::IVRSettings::_RemoveSection*
 class CORDL_TYPE __IVRSettings___RemoveSection : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___RemoveSection* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x2674fa0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ebf24, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2675078 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ebffc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x267508c size 0x94 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ec010, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x2675120 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ec0a4, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveSection", modifiers: "&&", def_value: None }]
@@ -610,25 +610,25 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Rem
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9274))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8505))
 // CS Name: ::IVRSettings::_RemoveKeyInSection*
 class CORDL_TYPE __IVRSettings___RemoveKeyInSection : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::OVR::OpenVR::__IVRSettings___RemoveKeyInSection* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x267513c size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x27ec0c0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x2675214 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x27ec198, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError);
 
-  /// @brief Method BeginInvoke addr 0x2675228 size 0xa0 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x27ec1ac, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchSection, ::StringW pchSettingsKey, ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x26752c8 size 0x1c virtual true final false
+  /// @brief Method EndInvoke, addr 0x27ec24c, size 0x1c, virtual true, abstract: false, final false
   inline void EndInvoke(ByRef<::OVR::OpenVR::EVRSettingsError> peError, ::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__IVRSettings___RemoveKeyInSection", modifiers: "&&", def_value: None }]
@@ -656,7 +656,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSettings___Rem
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9275))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8506))
 // CS Name: ::OVR.OpenVR::IVRSettings
 struct CORDL_TYPE IVRSettings {
 public:

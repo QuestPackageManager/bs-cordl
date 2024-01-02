@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(SignedData)
-namespace Org::BouncyCastle::Asn1 {
-class DerInteger;
-}
 namespace System {
 class Object;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Set;
 }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 class ContentInfo;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Sequence;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerInteger;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
@@ -104,41 +104,41 @@ public:
 
   constexpr void __set_signerInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method GetInstance addr 0xf19630 size 0xa4 virtual false final false
+  /// @brief Method GetInstance, addr 0xf8f854, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* _version, ::Org::BouncyCastle::Asn1::Asn1Set* _digestAlgorithms,
                                                                       ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* _contentInfo, ::Org::BouncyCastle::Asn1::Asn1Set* _certificates,
                                                                       ::Org::BouncyCastle::Asn1::Asn1Set* _crls, ::Org::BouncyCastle::Asn1::Asn1Set* _signerInfos);
 
-  /// @brief Method .ctor addr 0xf19cc0 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0xf8fee4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* _version, ::Org::BouncyCastle::Asn1::Asn1Set* _digestAlgorithms, ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* _contentInfo,
                     ::Org::BouncyCastle::Asn1::Asn1Set* _certificates, ::Org::BouncyCastle::Asn1::Asn1Set* _crls, ::Org::BouncyCastle::Asn1::Asn1Set* _signerInfos);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::SignedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xf196d4 size 0x5ec virtual false final false
+  /// @brief Method .ctor, addr 0xf8f8f8, size 0x5ec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version addr 0xf19d14 size 0x8 virtual false final false
+  /// @brief Method get_Version, addr 0xf8ff38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
-  /// @brief Method get_DigestAlgorithms addr 0xf19d1c size 0x8 virtual false final false
+  /// @brief Method get_DigestAlgorithms, addr 0xf8ff40, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_DigestAlgorithms();
 
-  /// @brief Method get_ContentInfo addr 0xf19d24 size 0x8 virtual false final false
+  /// @brief Method get_ContentInfo, addr 0xf8ff48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Pkcs::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_Certificates addr 0xf19d2c size 0x8 virtual false final false
+  /// @brief Method get_Certificates, addr 0xf8ff50, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Certificates();
 
-  /// @brief Method get_Crls addr 0xf19d34 size 0x8 virtual false final false
+  /// @brief Method get_Crls, addr 0xf8ff58, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_Crls();
 
-  /// @brief Method get_SignerInfos addr 0xf19d3c size 0x8 virtual false final false
+  /// @brief Method get_SignerInfos, addr 0xf8ff60, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* get_SignerInfos();
 
-  /// @brief Method ToAsn1Object addr 0xf19d44 size 0x194 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xf8ff68, size 0x194, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "SignedData", modifiers: "&&", def_value: None }]

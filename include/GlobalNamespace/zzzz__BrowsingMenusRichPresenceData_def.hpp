@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BrowsingMenusRichPresenceData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4795))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4674))
 // CS Name: ::BrowsingMenusRichPresenceData*
 class CORDL_TYPE BrowsingMenusRichPresenceData : public ::System::Object {
 public:
@@ -40,18 +40,18 @@ public:
 
   constexpr void __set__localizedDescription_k__BackingField(::StringW value);
 
-  /// @brief Method get_apiName addr 0x223f568 size 0x40 virtual true final true
+  /// @brief Method get_apiName, addr 0x2373c70, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription addr 0x223f5a8 size 0x8 virtual true final true
+  /// @brief Method get_localizedDescription, addr 0x2373cb0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
-  /// @brief Method set_localizedDescription addr 0x223f5b0 size 0x8 virtual false final false
+  /// @brief Method set_localizedDescription, addr 0x2373cb8, size 0x8, virtual false, abstract: false, final false
   inline void set_localizedDescription(::StringW value);
 
   static inline ::GlobalNamespace::BrowsingMenusRichPresenceData* New_ctor();
 
-  /// @brief Method .ctor addr 0x223f5b8 size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2373cc0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BrowsingMenusRichPresenceData", modifiers: "&&", def_value: None }]

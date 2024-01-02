@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ExecuteCommandEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7315), inst: 1007 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7317))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7229), inst: 1028 }), TypeDefinitionIndex(TypeDefinitionIndex(7229))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7231))
 // CS Name: ::UnityEngine.UIElements::ExecuteCommandEvent*
 class CORDL_TYPE ExecuteCommandEvent : public ::UnityEngine::UIElements::CommandEventBase_1<::UnityEngine::UIElements::ExecuteCommandEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::ExecuteCommandEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce9b74 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e51f24, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExecuteCommandEvent", modifiers: "&&", def_value: None }]

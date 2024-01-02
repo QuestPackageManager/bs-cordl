@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::Net::IWebProxy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7975))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9138))
 // CS Name: ::System.Net::IWebProxy*
 class CORDL_TYPE IWebProxy {
 public:
   // Declarations
   __declspec(property(get = get_Credentials))::System::Net::ICredentials* Credentials;
 
-  /// @brief Method GetProxy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetProxy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Uri* GetProxy(::System::Uri* destination);
 
-  /// @brief Method IsBypassed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsBypassed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsBypassed(::System::Uri* host);
 
-  /// @brief Method get_Credentials addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Credentials, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Net::ICredentials* get_Credentials();
 
   // Ctor Parameters [CppParam { name: "", ty: "IWebProxy", modifiers: "&&", def_value: None }]

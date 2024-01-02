@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOAsyncResult)
 namespace System {
-class AsyncCallback;
-}
-namespace System::Threading {
-class ManualResetEvent;
-}
-namespace System {
-class Object;
+class IAsyncResult;
 }
 namespace System::Threading {
 class WaitHandle;
 }
 namespace System {
-class IAsyncResult;
+class AsyncCallback;
+}
+namespace System {
+class Object;
+}
+namespace System::Threading {
+class ManualResetEvent;
 }
 // Forward declare root types
 namespace System {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::IOAsyncResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7732))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8895))
 // CS Name: ::System::IOAsyncResult*
 class CORDL_TYPE IOAsyncResult : public ::System::Object {
 public:
@@ -95,39 +95,39 @@ public:
 
   static inline ::System::IOAsyncResult* New_ctor();
 
-  /// @brief Method .ctor addr 0x27d04d8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x294d5f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x27d04e0 size 0x20 virtual false final false
+  /// @brief Method Init, addr 0x294d600, size 0x20, virtual false, abstract: false, final false
   inline void Init(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
   static inline ::System::IOAsyncResult* New_ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method .ctor addr 0x27d0500 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x294d620, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* async_callback, ::System::Object* async_state);
 
-  /// @brief Method get_AsyncCallback addr 0x27d052c size 0x8 virtual false final false
+  /// @brief Method get_AsyncCallback, addr 0x294d64c, size 0x8, virtual false, abstract: false, final false
   inline ::System::AsyncCallback* get_AsyncCallback();
 
-  /// @brief Method get_AsyncState addr 0x27d0534 size 0x8 virtual true final true
+  /// @brief Method get_AsyncState, addr 0x294d654, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle addr 0x27d053c size 0x124 virtual true final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x294d65c, size 0x124, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously addr 0x27d0660 size 0x8 virtual true final true
+  /// @brief Method get_CompletedSynchronously, addr 0x294d780, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method set_CompletedSynchronously addr 0x27d0668 size 0xc virtual false final false
+  /// @brief Method set_CompletedSynchronously, addr 0x294d788, size 0xc, virtual false, abstract: false, final false
   inline void set_CompletedSynchronously(bool value);
 
-  /// @brief Method get_IsCompleted addr 0x27d0674 size 0x8 virtual true final true
+  /// @brief Method get_IsCompleted, addr 0x294d794, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
-  /// @brief Method set_IsCompleted addr 0x27d067c size 0xd8 virtual false final false
+  /// @brief Method set_IsCompleted, addr 0x294d79c, size 0xd8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
-  /// @brief Method CompleteDisposed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompleteDisposed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CompleteDisposed();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOAsyncResult", modifiers: "&&", def_value: None }]

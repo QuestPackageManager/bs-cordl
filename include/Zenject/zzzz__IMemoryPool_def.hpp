@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMemoryPool)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace Zenject {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Zenject::IMemoryPool);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11027))
 // CS Name: ::Zenject::IMemoryPool*
 class CORDL_TYPE IMemoryPool {
 public:
@@ -34,31 +34,31 @@ public:
 
   __declspec(property(get = get_ItemType))::System::Type* ItemType;
 
-  /// @brief Method get_NumTotal addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_NumTotal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumTotal();
 
-  /// @brief Method get_NumActive addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_NumActive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumActive();
 
-  /// @brief Method get_NumInactive addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_NumInactive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_NumInactive();
 
-  /// @brief Method get_ItemType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ItemType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_ItemType();
 
-  /// @brief Method Resize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Resize(int32_t desiredPoolSize);
 
-  /// @brief Method Clear addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Clear();
 
-  /// @brief Method ExpandBy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExpandBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExpandBy(int32_t numToAdd);
 
-  /// @brief Method ShrinkBy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ShrinkBy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ShrinkBy(int32_t numToRemove);
 
-  /// @brief Method Despawn addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Despawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Despawn(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool", modifiers: "&&", def_value: None }]

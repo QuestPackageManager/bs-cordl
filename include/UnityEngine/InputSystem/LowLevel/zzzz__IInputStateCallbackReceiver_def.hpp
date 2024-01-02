@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputStateCallbackReceiver)
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
-}
 namespace UnityEngine::InputSystem {
 class InputControl;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -22,18 +22,18 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6647))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6561))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputStateCallbackReceiver*
 class CORDL_TYPE IInputStateCallbackReceiver {
 public:
   // Declarations
-  /// @brief Method OnNextUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnNextUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnNextUpdate();
 
-  /// @brief Method OnStateEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnStateEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStateEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
-  /// @brief Method GetStateOffsetForEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetStateOffsetForEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetStateOffsetForEvent(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ByRef<uint32_t> offset);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputStateCallbackReceiver", modifiers: "&&", def_value: None }]

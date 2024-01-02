@@ -1,12 +1,12 @@
 #pragma once
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsStream_def.hpp"
+#include "System/Net/Security/zzzz__SslStream_def.hpp"
+#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
-#include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_def.hpp"
-#include "System/IO/zzzz__Stream_def.hpp"
-#include "System/Net/Security/zzzz__SslStream_def.hpp"
 //  Writing Method size for method: ::Mono::Unity::UnityTlsStream._ctor
 template <>
 
@@ -14,9 +14,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, bool, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Net::Security::MobileTlsProvider*)>(
     &::Mono::Unity::UnityTlsStream::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26a1cc0;
+  constexpr static std::size_t addrs = 0x281cccc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), ".ctor", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -32,12 +32,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::MobileTlsContext* (::Mono::Unity::UnityTlsStream::*)(::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Unity::UnityTlsStream::CreateContext)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26a2810;
+  constexpr static std::size_t addrs = 0x281d81c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), 42));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), 45));
     return ___internal_method;
   }
 };
@@ -56,9 +56,8 @@ inline void Mono::Unity::UnityTlsStream::_ctor(::System::IO::Stream* innerStream
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, innerStream, leaveInnerStreamOpen, owner, settings, provider);
 }
 inline ::Mono::Net::Security::MobileTlsContext* Mono::Unity::UnityTlsStream::CreateContext(::Mono::Net::Security::MonoSslAuthenticationOptions* options) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), "CreateContext", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Net::Security::MonoSslAuthenticationOptions*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsStream*>::get(), 45)));
   return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileTlsContext*, false>(this, ___internal_method, options);
 }
 // Ctor Parameters []

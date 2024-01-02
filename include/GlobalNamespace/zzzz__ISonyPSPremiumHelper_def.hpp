@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4666))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult {
 public:
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPre
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4667))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__GetPremiumStatusResult {
 public:
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStat
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4668))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
 // CS Name: ::ISonyPSPremiumHelper*
 class CORDL_TYPE ISonyPSPremiumHelper {
 public:
@@ -149,14 +149,14 @@ public:
 
   using DisplayJoinPremiumDialogResult = ::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult;
 
-  /// @brief Method DisplayJoinPremiumDialogAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisplayJoinPremiumDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult>* DisplayJoinPremiumDialogAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method GetPremiumStatusAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPremiumStatusAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStatusResult>* GetPremiumStatusAsync(::System::Threading::CancellationToken token);
 
-  /// @brief Method NotifyPremiumFeature addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void NotifyPremiumFeature();
+  /// @brief Method NotifyPremiumFeature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void NotifyPremiumFeature(bool isSpectator);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISonyPSPremiumHelper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

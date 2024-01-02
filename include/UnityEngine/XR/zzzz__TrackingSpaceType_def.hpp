@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::XR::TrackingSpaceType);
 namespace UnityEngine::XR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15977))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16123))
 // CS Name: ::UnityEngine.XR::TrackingSpaceType
 struct CORDL_TYPE TrackingSpaceType {
 public:

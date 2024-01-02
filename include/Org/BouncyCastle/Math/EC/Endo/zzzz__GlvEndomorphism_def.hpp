@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(GlvEndomorphism)
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
 namespace Org::BouncyCastle::Math::EC::Endo {
 class ECEndomorphism;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Endo {
@@ -29,7 +29,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
   constexpr operator ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*() noexcept;
 
-  /// @brief Method DecomposeScalar addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DecomposeScalar, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> DecomposeScalar(::Org::BouncyCastle::Math::BigInteger* k);
 
   // Ctor Parameters [CppParam { name: "", ty: "GlvEndomorphism", modifiers: "&&", def_value: None }]

@@ -3,17 +3,17 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameObjectTestExceptionsSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameObjectTestExceptionsSO_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException.get_environmentInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentInfoSO* (
     ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::*)()>(&::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::get_environmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21d2bb8;
+  constexpr static std::size_t addrs = 0x23238ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>::get(),
                                                  "get_environmentInfo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -26,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (
     ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::*)()>(&::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::get_sceneHierarchies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21d2bc0;
+  constexpr static std::size_t addrs = 0x23238b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>::get(),
                                                  "get_sceneHierarchies", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -41,9 +41,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::*)()>(
     &::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21d2bc8;
+  constexpr static std::size_t addrs = 0x23238bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>::get(), ".ctor",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
@@ -117,9 +117,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                    ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*>)>(
     &::GlobalNamespace::GameObjectTestExceptionsSO::GetExceptionAsDictionary)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x21d2ad0;
+  constexpr static std::size_t addrs = 0x23237c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameObjectTestExceptionsSO*>::get(), "GetExceptionAsDictionary", std::vector<Il2CppClass*>{},
         ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
@@ -132,9 +132,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameObjectTestExceptionsSO::*)()>(&::GlobalNamespace::GameObjectTestExceptionsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x21d2bb0;
+  constexpr static std::size_t addrs = 0x23238a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameObjectTestExceptionsSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

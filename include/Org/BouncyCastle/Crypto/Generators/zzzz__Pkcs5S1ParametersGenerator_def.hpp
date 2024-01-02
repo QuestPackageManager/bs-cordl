@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pkcs5S1ParametersGenerator)
 namespace Org::BouncyCastle::Crypto {
-class IDigest;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
+class IDigest;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -40,25 +40,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method .ctor addr 0xe8edf0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf03fc4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method GenerateDerivedKey addr 0xe8ee18 size 0x34c virtual false final false
+  /// @brief Method GenerateDerivedKey, addr 0xf03fec, size 0x34c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey();
 
-  /// @brief Method GenerateDerivedParameters addr 0xe8f164 size 0xc virtual true final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf04338, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters addr 0xe8f170 size 0x1a8 virtual true final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf04344, size 0x1a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
 
-  /// @brief Method GenerateDerivedParameters addr 0xe8f318 size 0x204 virtual true final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf044ec, size 0x204, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedParameters addr 0xe8f51c size 0x214 virtual true final false
+  /// @brief Method GenerateDerivedParameters, addr 0xf046f0, size 0x214, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
 
-  /// @brief Method GenerateDerivedMacParameters addr 0xe8f730 size 0x1a8 virtual true final false
+  /// @brief Method GenerateDerivedMacParameters, addr 0xf04904, size 0x1a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
 
   // Ctor Parameters [CppParam { name: "", ty: "Pkcs5S1ParametersGenerator", modifiers: "&&", def_value: None }]

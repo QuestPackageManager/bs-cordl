@@ -11,22 +11,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformData)
 namespace UnityEngine::UIElements {
-struct Translate;
+template <typename T> class IStyleDataGroup_1;
+}
+namespace UnityEngine::UIElements {
+struct TransformOrigin;
+}
+namespace UnityEngine::UIElements {
+struct Scale;
 }
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
-struct Scale;
-}
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+struct Translate;
 }
 namespace System {
 class Object;
-}
-namespace UnityEngine::UIElements {
-struct TransformOrigin;
 }
 namespace UnityEngine::UIElements {
 struct Rotate;
@@ -41,8 +41,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TransformData);
 // SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7403)), TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(7404)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7388))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7445)) CS Name: ::UnityEngine.UIElements::TransformData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7317)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7302))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7359)) CS Name: ::UnityEngine.UIElements::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
@@ -52,22 +52,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>*();
 
-  /// @brief Method Copy addr 0x2d1c008 size 0x1c virtual true final true
+  /// @brief Method Copy, addr 0x2e843b8, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformData Copy();
 
-  /// @brief Method CopyFrom addr 0x2d1c024 size 0x14 virtual true final true
+  /// @brief Method CopyFrom, addr 0x2e843d4, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransformData> other);
 
-  /// @brief Method op_Equality addr 0x2d1c038 size 0x128 virtual false final false
+  /// @brief Method op_Equality, addr 0x2e843e8, size 0x128, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs);
 
-  /// @brief Method Equals addr 0x2d1c160 size 0x44 virtual true final true
+  /// @brief Method Equals, addr 0x2e84510, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformData other);
 
-  /// @brief Method Equals addr 0x2d1c1a4 size 0xa0 virtual true final false
+  /// @brief Method Equals, addr 0x2e84554, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2d1c244 size 0x64 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e845f4, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale", modifiers:

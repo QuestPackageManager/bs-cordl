@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CryptoStreamMode);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2910))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2914))
 // CS Name: ::System.Security.Cryptography::CryptoStreamMode
 struct CORDL_TYPE CryptoStreamMode {
 public:

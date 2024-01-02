@@ -9,17 +9,11 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateEvent)
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct __StateEvent___stateData_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem {
-class InputDevice;
-}
 namespace Unity::Collections {
 struct Allocator;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEvent;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
@@ -27,11 +21,17 @@ template <typename T> struct NativeArray_1;
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
+}
+namespace UnityEngine::InputSystem {
+class InputDevice;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __StateEvent___stateData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__StateEvent___stateData_e__Fix
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6545))
 // CS Name: ::StateEvent::<stateData>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __StateEvent___stateData_e__FixedBuffer {
@@ -80,8 +80,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__StateEvent___stat
 // SizeInfo { instance_size: 25, native_size: 25, calculated_instance_size: 25, calculated_native_size: 41, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6616)), TypeDefinitionIndex(TypeDefinitionIndex(6631)), TypeDefinitionIndex(TypeDefinitionIndex(6753))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6545)), TypeDefinitionIndex(TypeDefinitionIndex(6667))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6546))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::StateEvent
 #pragma pack(push, 1)
 struct CORDL_TYPE StateEvent {
@@ -125,42 +125,44 @@ public:
 
   constexpr void __set_stateData(::UnityEngine::InputSystem::LowLevel::__StateEvent___stateData_e__FixedBuffer value);
 
-  /// @brief Method get_stateSizeInBytes addr 0x296bf58 size 0xc virtual false final false
+  /// @brief Method get_stateSizeInBytes, addr 0x2aebca0, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_stateSizeInBytes();
 
-  /// @brief Method get_state addr 0x29706d8 size 0x8 virtual false final false
+  /// @brief Method get_state, addr 0x2af042c, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_state();
 
-  /// @brief Method ToEventPtr addr 0x29706e0 size 0x4 virtual false final false
+  /// @brief Method ToEventPtr, addr 0x2af0434, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
-  /// @brief Method get_typeStatic addr 0x29706e4 size 0x20 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2af0438, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> inline TState GetState();
 
-  /// @brief Method GetState addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline TState GetState(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method GetEventSizeWithPayload addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetEventSizeWithPayload, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TState> static inline int32_t GetEventSizeWithPayload();
 
-  /// @brief Method From addr 0x296be28 size 0x130 virtual false final false
+  /// @brief Method From, addr 0x2aebb70, size 0x130, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::StateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromUnchecked addr 0x296bc70 size 0x4 virtual false final false
+  /// @brief Method FromUnchecked, addr 0x2aeb9b8, size 0x4, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::StateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method From addr 0x2970704 size 0x8 virtual false final false
+  /// @brief Method From, addr 0x2af0458, size 0x8, virtual false, abstract: false, final false
+  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x2))
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                  ::Unity::Collections::Allocator allocator);
+                                                                  ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x2));
 
-  /// @brief Method FromDefaultStateFor addr 0x2970a44 size 0x8 virtual false final false
+  /// @brief Method FromDefaultStateFor, addr 0x2af0798, size 0x8, virtual false, abstract: false, final false
+  /// @param allocator: ::Unity::Collections::Allocator (default: static_cast<int32_t>(0x2))
   static inline ::Unity::Collections::NativeArray_1<uint8_t> FromDefaultStateFor(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
-                                                                                 ::Unity::Collections::Allocator allocator);
+                                                                                 ::Unity::Collections::Allocator allocator = static_cast<int32_t>(0x2));
 
-  /// @brief Method From addr 0x297070c size 0x338 virtual false final false
+  /// @brief Method From, addr 0x2af0460, size 0x338, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputDevice* device, ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator, bool useDefaultState);
 

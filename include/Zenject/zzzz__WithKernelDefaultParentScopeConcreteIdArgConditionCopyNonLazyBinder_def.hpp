@@ -8,10 +8,10 @@ namespace Zenject {
 class BindInfo;
 }
 namespace Zenject {
-class SubContainerCreatorBindInfo;
+class DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-class DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder;
+class SubContainerCreatorBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -23,21 +23,21 @@ MARK_REF_PTR_T(::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopy
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10630))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10868))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10702))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10940))
 // CS Name: ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   static inline ::Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2d73a98 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2edb818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel addr 0x2d76b88 size 0x20 virtual false final false
+  /// @brief Method WithKernel, addr 0x2ede908, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
-  /// @brief Method WithKernel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TKernel> inline ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   // Ctor Parameters [CppParam { name: "", ty: "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

@@ -8,14 +8,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(SpawnRotationChevron)
+namespace UnityEngine {
+struct Color;
+}
 namespace GlobalNamespace {
 class __SpawnRotationChevron__Pool;
 }
 namespace GlobalNamespace {
 class TubeBloomPrePassLight;
-}
-namespace UnityEngine {
-struct Color;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SpawnRotationChevron__Pool);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5100))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4995))
 // CS Name: ::SpawnRotationChevron*
 class CORDL_TYPE SpawnRotationChevron : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -66,18 +66,18 @@ public:
 
   constexpr void __set__lightAmount(float_t value);
 
-  /// @brief Method ColorWasSet addr 0x227c838 size 0xc virtual true final false
+  /// @brief Method ColorWasSet, addr 0x23b5650, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method SetLightAmount addr 0x227c8b4 size 0x8 virtual false final false
+  /// @brief Method SetLightAmount, addr 0x23b56cc, size 0x8, virtual false, abstract: false, final false
   inline void SetLightAmount(float_t amount);
 
-  /// @brief Method UpdateLights addr 0x227c844 size 0x70 virtual false final false
+  /// @brief Method UpdateLights, addr 0x23b565c, size 0x70, virtual false, abstract: false, final false
   inline void UpdateLights();
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method .ctor addr 0x227c8bc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23b56d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SpawnRotationChevron", modifiers: "&&", def_value: None }]
@@ -119,14 +119,14 @@ static_assert(offsetof(::GlobalNamespace::SpawnRotationChevron, ____lightAmount)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5100)), TypeDefinitionIndex(TypeDefinitionIndex(10978)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
-// 2767 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5099)) CS Name: ::SpawnRotationChevron::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2827 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4995))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4994)) CS Name: ::SpawnRotationChevron::Pool*
 class CORDL_TYPE __SpawnRotationChevron__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SpawnRotationChevron*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SpawnRotationChevron__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x227c8c4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23b56dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SpawnRotationChevron__Pool", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::DistortionCoordinates_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9425))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8656))
 // CS Name: ::OVR.OpenVR::DistortionCoordinates_t
 struct CORDL_TYPE DistortionCoordinates_t {
 public:

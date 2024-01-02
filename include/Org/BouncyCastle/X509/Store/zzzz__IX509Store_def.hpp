@@ -3,11 +3,11 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IX509Store)
-namespace Org::BouncyCastle::X509::Store {
-class IX509Selector;
-}
 namespace System::Collections {
 class ICollection;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Selector;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE IX509Store {
 public:
   // Declarations
-  /// @brief Method GetMatches addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetMatches, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   // Ctor Parameters [CppParam { name: "", ty: "IX509Store", modifiers: "&&", def_value: None }]

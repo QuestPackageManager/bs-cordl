@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::UpdateConnectionStateReason);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12913))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12992))
 // CS Name: ::UpdateConnectionStateReason
 struct CORDL_TYPE UpdateConnectionStateReason {
 public:

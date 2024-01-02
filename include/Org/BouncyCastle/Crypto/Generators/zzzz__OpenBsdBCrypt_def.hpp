@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(915))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::OpenBsdBCrypt*
 class CORDL_TYPE OpenBsdBCrypt : public ::System::Object {
@@ -56,25 +56,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* New_ctor();
 
-  /// @brief Method .ctor addr 0xe8c314 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xf014e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreateBcryptString addr 0xe8c31c size 0x2e4 virtual false final false
+  /// @brief Method CreateBcryptString, addr 0xf014f0, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW CreateBcryptString(::StringW version, ::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method Generate addr 0xe8c95c size 0x78 virtual false final false
+  /// @brief Method Generate, addr 0xf01b30, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Generate(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method Generate addr 0xe8c9d4 size 0x3b4 virtual false final false
+  /// @brief Method Generate, addr 0xf01ba8, size 0x3b4, virtual false, abstract: false, final false
   static inline ::StringW Generate(::StringW version, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method CheckPassword addr 0xe8cd88 size 0x528 virtual false final false
+  /// @brief Method CheckPassword, addr 0xf01f5c, size 0x528, virtual false, abstract: false, final false
   static inline bool CheckPassword(::StringW bcryptString, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method EncodeData addr 0xe8c600 size 0x35c virtual false final false
+  /// @brief Method EncodeData, addr 0xf017d4, size 0x35c, virtual false, abstract: false, final false
   static inline ::StringW EncodeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method DecodeSaltString addr 0xe8d2b0 size 0x3d4 virtual false final false
+  /// @brief Method DecodeSaltString, addr 0xf02484, size 0x3d4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeSaltString(::StringW saltString);
 
   // Ctor Parameters [CppParam { name: "", ty: "OpenBsdBCrypt", modifiers: "&&", def_value: None }]

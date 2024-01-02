@@ -24,8 +24,8 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TFirst, typename TSecond>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11797))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11869))
 // CS Name: ::Newtonsoft.Json.Utilities::BidirectionalDictionary`2<TFirst,TSecond>*
 class CORDL_TYPE BidirectionalDictionary_2 : public ::System::Object {
 public:
@@ -68,30 +68,30 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
                                                                                                     ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer);
 
   static inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<TFirst, TSecond>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer,
                                                                                                     ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer,
                                                                                                     ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TFirst>* firstEqualityComparer, ::System::Collections::Generic::IEqualityComparer_1<TSecond>* secondEqualityComparer,
                     ::StringW duplicateFirstErrorMessage, ::StringW duplicateSecondErrorMessage);
 
-  /// @brief Method Set addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Set, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Set(TFirst first, TSecond second);
 
-  /// @brief Method TryGetByFirst addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetByFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetByFirst(TFirst first, ByRef<TSecond> second);
 
-  /// @brief Method TryGetBySecond addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetBySecond, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetBySecond(TSecond second, ByRef<TFirst> first);
 
   // Ctor Parameters [CppParam { name: "", ty: "BidirectionalDictionary_2", modifiers: "&&", def_value: None }]

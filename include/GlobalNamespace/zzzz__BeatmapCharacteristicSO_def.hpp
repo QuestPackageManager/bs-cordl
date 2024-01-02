@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapCharacteristicSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4273))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4241))
 // CS Name: ::BeatmapCharacteristicSO*
 class CORDL_TYPE BeatmapCharacteristicSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -124,36 +124,36 @@ public:
 
   constexpr void __set__numberOfColors(int32_t value);
 
-  /// @brief Method get_icon addr 0x21dc170 size 0x8 virtual false final false
+  /// @brief Method get_icon, addr 0x232d148, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_icon();
 
-  /// @brief Method get_descriptionLocalizationKey addr 0x21dc178 size 0x8 virtual false final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x232d150, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_characteristicNameLocalizationKey addr 0x21dc180 size 0x8 virtual false final false
+  /// @brief Method get_characteristicNameLocalizationKey, addr 0x232d158, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characteristicNameLocalizationKey();
 
-  /// @brief Method get_serializedName addr 0x21dc188 size 0x8 virtual false final false
+  /// @brief Method get_serializedName, addr 0x232d160, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
-  /// @brief Method get_compoundIdPartName addr 0x21dc190 size 0x8 virtual false final false
+  /// @brief Method get_compoundIdPartName, addr 0x232d168, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_compoundIdPartName();
 
-  /// @brief Method get_sortingOrder addr 0x21dc198 size 0x8 virtual false final false
+  /// @brief Method get_sortingOrder, addr 0x232d170, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method get_containsRotationEvents addr 0x21dc1a0 size 0x8 virtual false final false
+  /// @brief Method get_containsRotationEvents, addr 0x232d178, size 0x8, virtual false, abstract: false, final false
   inline bool get_containsRotationEvents();
 
-  /// @brief Method get_requires360Movement addr 0x21dc1a8 size 0x8 virtual false final false
+  /// @brief Method get_requires360Movement, addr 0x232d180, size 0x8, virtual false, abstract: false, final false
   inline bool get_requires360Movement();
 
-  /// @brief Method get_numberOfColors addr 0x21dc1b0 size 0x8 virtual false final false
+  /// @brief Method get_numberOfColors, addr 0x232d188, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfColors();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21dc1b8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x232d190, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicSO", modifiers: "&&", def_value: None }]

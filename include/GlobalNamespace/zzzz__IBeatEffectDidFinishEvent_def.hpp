@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatEffectDidFinishEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4955))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4835))
 // CS Name: ::IBeatEffectDidFinishEvent*
 class CORDL_TYPE IBeatEffectDidFinishEvent {
 public:
   // Declarations
-  /// @brief Method HandleBeatEffectDidFinish addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleBeatEffectDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleBeatEffectDidFinish(::GlobalNamespace::BeatEffect* beatEffect);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatEffectDidFinishEvent", modifiers: "&&", def_value: None }]

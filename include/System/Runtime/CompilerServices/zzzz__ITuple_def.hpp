@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::ITuple);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3370))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3375))
 // CS Name: ::System.Runtime.CompilerServices::ITuple*
 class CORDL_TYPE ITuple {
 public:
   // Declarations
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method get_Length addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_Length();
 
   // Ctor Parameters [CppParam { name: "", ty: "ITuple", modifiers: "&&", def_value: None }]

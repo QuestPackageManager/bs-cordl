@@ -11,16 +11,16 @@ namespace Org::BouncyCastle::Bcpg {
 class IBcpgKey;
 }
 namespace Org::BouncyCastle::Bcpg {
+class BcpgInputStream;
+}
+namespace Org::BouncyCastle::Bcpg {
 struct PublicKeyAlgorithmTag;
 }
 namespace Org::BouncyCastle::Bcpg {
-class BcpgInputStream;
+class BcpgOutputStream;
 }
 namespace System {
 struct DateTime;
-}
-namespace Org::BouncyCastle::Bcpg {
-class BcpgOutputStream;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::PublicKeyPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(580)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(582))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyPacket*
 class CORDL_TYPE PublicKeyPacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
@@ -93,33 +93,33 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor addr 0x115d5a4 size 0x298 virtual false final false
+  /// @brief Method .ctor, addr 0x11ce7f4, size 0x298, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicKeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor addr 0x116134c size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x11d259c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method get_Version addr 0x1161400 size 0x8 virtual true final false
+  /// @brief Method get_Version, addr 0x11d2650, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_Algorithm addr 0x1161408 size 0x8 virtual true final false
+  /// @brief Method get_Algorithm, addr 0x11d2658, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_Algorithm();
 
-  /// @brief Method get_ValidDays addr 0x1161410 size 0x8 virtual true final false
+  /// @brief Method get_ValidDays, addr 0x11d2660, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ValidDays();
 
-  /// @brief Method GetTime addr 0x1161418 size 0x60 virtual true final false
+  /// @brief Method GetTime, addr 0x11d2668, size 0x60, virtual true, abstract: false, final false
   inline ::System::DateTime GetTime();
 
-  /// @brief Method get_Key addr 0x1161478 size 0x8 virtual true final false
+  /// @brief Method get_Key, addr 0x11d26c8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::IBcpgKey* get_Key();
 
-  /// @brief Method GetEncodedContents addr 0x1161480 size 0x15c virtual true final false
+  /// @brief Method GetEncodedContents, addr 0x11d26d0, size 0x15c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncodedContents();
 
-  /// @brief Method Encode addr 0x11615dc size 0x38 virtual true final false
+  /// @brief Method Encode, addr 0x11d282c, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   // Ctor Parameters [CppParam { name: "", ty: "PublicKeyPacket", modifiers: "&&", def_value: None }]

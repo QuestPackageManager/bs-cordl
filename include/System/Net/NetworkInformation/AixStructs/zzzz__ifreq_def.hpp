@@ -28,7 +28,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq);
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8138))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9301))
 // CS Name: ::ifreq::<ifr_name>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __ifreq___ifr_name_e__FixedBuffer {
@@ -63,8 +63,8 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq___
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 1, natural_alignment: 1, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8144)), TypeDefinitionIndex(TypeDefinitionIndex(8138))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8139))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9307)), TypeDefinitionIndex(TypeDefinitionIndex(9301))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9302))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq
 #pragma pack(push, 0)
 struct CORDL_TYPE ifreq {

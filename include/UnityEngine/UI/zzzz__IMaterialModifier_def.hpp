@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMaterialModifier);
 namespace UnityEngine::UI {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13101))
 // CS Name: ::UnityEngine.UI::IMaterialModifier*
 class CORDL_TYPE IMaterialModifier {
 public:
   // Declarations
-  /// @brief Method GetModifiedMaterial addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetModifiedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Material* GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMaterialModifier", modifiers: "&&", def_value: None }]

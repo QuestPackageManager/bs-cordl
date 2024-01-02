@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Text::NormalizationCheck);
 namespace System::Text {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2871))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2875))
 // CS Name: ::System.Text::NormalizationCheck
 struct CORDL_TYPE NormalizationCheck {
 public:

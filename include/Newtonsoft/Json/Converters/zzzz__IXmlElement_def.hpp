@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlElement);
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11984))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12056))
 // CS Name: ::Newtonsoft.Json.Converters::IXmlElement*
 class CORDL_TYPE IXmlElement {
 public:
@@ -28,13 +28,13 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method SetAttributeNode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetAttributeNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
-  /// @brief Method GetPrefixOfNamespace addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method get_IsEmpty addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsEmpty();
 
   // Ctor Parameters [CppParam { name: "", ty: "IXmlElement", modifiers: "&&", def_value: None }]

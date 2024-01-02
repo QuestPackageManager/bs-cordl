@@ -8,14 +8,14 @@ CORDL_MODULE_EXPORT(SortedList_2)
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
 namespace GlobalNamespace {
 template <typename T> class ISortedList_1;
-}
-namespace GlobalNamespace {
-template <typename T> class ISortedListItemProcessor_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
 // CS Name: ::SortedList`2<T,TBase>*
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
@@ -69,28 +69,31 @@ public:
 
   constexpr void __set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value);
 
-  /// @brief Method get_count addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_count();
 
-  /// @brief Method get_items addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::LinkedList_1<TBase>* get_items();
 
   static inline ::GlobalNamespace::SortedList_2<T, TBase>* New_ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* sortedListDataProcessor);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::LinkedListNode_1<TBase>* Insert(TBase newItem);
 
-  /// @brief Method Remove addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Insert(::System::Collections::Generic::LinkedListNode_1<TBase>* newNode);
+
+  /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Remove(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
-  /// @brief Method TouchLastUsedNode addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method TouchLastUsedNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void TouchLastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* node);
 
-  /// @brief Method InsertInternal addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::System::Collections::Generic::LinkedListNode_1<TBase>* InsertInternal(TBase newItem);
+  /// @brief Method InsertInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void InsertInternal(::System::Collections::Generic::LinkedListNode_1<TBase>* newItem);
 
   // Ctor Parameters [CppParam { name: "", ty: "SortedList_2", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Manipulator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6991))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6905))
 // CS Name: ::UnityEngine.UIElements::Manipulator*
 class CORDL_TYPE Manipulator : public ::System::Object {
 public:
@@ -40,21 +40,21 @@ public:
 
   constexpr void __set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method RegisterCallbacksOnTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method get_target addr 0x2c98b70 size 0x8 virtual true final true
+  /// @brief Method get_target, addr 0x2dfef20, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
-  /// @brief Method set_target addr 0x2c98b78 size 0x54 virtual true final true
+  /// @brief Method set_target, addr 0x2dfef28, size 0x54, virtual true, abstract: false, final true
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
   static inline ::UnityEngine::UIElements::Manipulator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c98bcc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2dfef7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Manipulator", modifiers: "&&", def_value: None }]

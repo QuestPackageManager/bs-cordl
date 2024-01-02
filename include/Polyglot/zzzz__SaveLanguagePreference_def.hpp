@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::Polyglot::SaveLanguagePreference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15569))
 // CS Name: ::Polyglot::SaveLanguagePreference*
 class CORDL_TYPE SaveLanguagePreference : public ::UnityEngine::MonoBehaviour {
 public:
@@ -36,15 +36,15 @@ public:
 
   constexpr void __set_preferenceKey(::StringW value);
 
-  /// @brief Method Start addr 0x268b458 size 0x50 virtual false final false
+  /// @brief Method Start, addr 0x28060e0, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnLocalize addr 0x268b4a8 size 0x28 virtual true final true
+  /// @brief Method OnLocalize, addr 0x2806130, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize();
 
   static inline ::Polyglot::SaveLanguagePreference* New_ctor();
 
-  /// @brief Method .ctor addr 0x268b4d0 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2806158, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SaveLanguagePreference", modifiers: "&&", def_value: None }]

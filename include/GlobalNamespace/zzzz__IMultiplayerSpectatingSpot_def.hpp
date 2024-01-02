@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSpectatingSpot);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5258))
 // CS Name: ::IMultiplayerSpectatingSpot*
 class CORDL_TYPE IMultiplayerSpectatingSpot {
 public:
@@ -37,25 +37,25 @@ public:
 
   __declspec(property(get = get_spotName))::StringW spotName;
 
-  /// @brief Method add_hasBeenRemovedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_hasBeenRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method remove_hasBeenRemovedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_hasBeenRemovedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  /// @brief Method get_isMain addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isMain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isMain();
 
-  /// @brief Method get_observable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_observable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
-  /// @brief Method get_transform addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Transform* get_transform();
 
-  /// @brief Method get_spotName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_spotName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_spotName();
 
-  /// @brief Method SetIsObserved addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetIsObserved, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetIsObserved(bool isObserved);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerSpectatingSpot", modifiers: "&&", def_value: None }]

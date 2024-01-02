@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleExecutionRating);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4614))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4525))
 // CS Name: ::ObstacleExecutionRating::Rating
 struct CORDL_TYPE __ObstacleExecutionRating__Rating {
 public:
@@ -75,8 +75,8 @@ static_assert(offsetof(::GlobalNamespace::__ObstacleExecutionRating__Rating, val
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4169)), TypeDefinitionIndex(TypeDefinitionIndex(4614))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4525)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4526))
 // CS Name: ::ObstacleExecutionRating*
 class CORDL_TYPE ObstacleExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
 public:
@@ -94,12 +94,12 @@ public:
 
   constexpr void __set__rating_k__BackingField(::GlobalNamespace::__ObstacleExecutionRating__Rating value);
 
-  /// @brief Method get_rating addr 0x2229b88 size 0x8 virtual false final false
+  /// @brief Method get_rating, addr 0x2364698, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObstacleExecutionRating__Rating get_rating();
 
   static inline ::GlobalNamespace::ObstacleExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
-  /// @brief Method .ctor addr 0x2229b90 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23646a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__ObstacleExecutionRating__Rating rating);
 
   // Ctor Parameters [CppParam { name: "", ty: "ObstacleExecutionRating", modifiers: "&&", def_value: None }]

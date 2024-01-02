@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBindingFinalizer)
 namespace Zenject {
-class DiContainer;
+struct BindingInheritanceMethods;
 }
 namespace Zenject {
-struct BindingInheritanceMethods;
+class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Zenject::IBindingFinalizer);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10881))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10953))
 // CS Name: ::Zenject::IBindingFinalizer*
 class CORDL_TYPE IBindingFinalizer {
 public:
   // Declarations
   __declspec(property(get = get_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
 
-  /// @brief Method get_BindingInheritanceMethod addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_BindingInheritanceMethod, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::BindingInheritanceMethods get_BindingInheritanceMethod();
 
-  /// @brief Method FinalizeBinding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method FinalizeBinding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void FinalizeBinding(::Zenject::DiContainer* container);
 
   // Ctor Parameters [CppParam { name: "", ty: "IBindingFinalizer", modifiers: "&&", def_value: None }]

@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Shims::PreserveAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Shims {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11831))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11903))
 // CS Name: ::Newtonsoft.Json.Shims::PreserveAttribute*
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::Shims::PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2506c18 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x266a35c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]

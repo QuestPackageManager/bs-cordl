@@ -5,20 +5,26 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(BindSignalFromBinder_2)
+namespace Zenject {
+class BindStatement;
+}
 namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class InjectTypeInfo;
-}
-namespace Zenject {
-template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c__DisplayClass8_0;
+class Object;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace Zenject {
-class BindStatement;
+class DiContainer;
+}
+namespace Zenject {
+template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c__DisplayClass8_0;
+}
+namespace Zenject {
+class InjectTypeInfo;
+}
+namespace Zenject {
+template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c;
 }
 namespace Zenject {
 class SignalBindingBindInfo;
@@ -30,13 +36,7 @@ namespace Zenject {
 template <typename TContract> class ConcreteBinderGeneric_1;
 }
 namespace System {
-class Object;
-}
-namespace Zenject {
-template <typename TObject, typename TSignal> class __BindSignalFromBinder_2____c;
-}
-namespace Zenject {
-class DiContainer;
+template <typename T, typename TResult> class Func_2;
 }
 // Forward declare root types
 namespace Zenject {
@@ -58,8 +58,8 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10565))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10637))
 // CS Name: ::BindSignalFromBinder`2::<>c<TObject,TSignal>*
 class CORDL_TYPE __BindSignalFromBinder_2____c : public ::System::Object {
 public:
@@ -94,22 +94,22 @@ public:
 
   static inline ::Zenject::__BindSignalFromBinder_2____c<TObject, TSignal>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <FromResolve>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromResolve>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromResolve_b__5_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
-  /// @brief Method <FromResolveAll>b__6_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromResolveAll>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromResolveAll_b__6_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
-  /// @brief Method <FromNew>b__7_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <FromNew>b__7_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _FromNew_b__7_0(::Zenject::ConcreteBinderGeneric_1<TObject>* x);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BindSignalFromBinder_2____c", modifiers: "&&", def_value: None }]
@@ -136,8 +136,8 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10638))
 // CS Name: ::BindSignalFromBinder`2::<>c__DisplayClass8_0<TObject,TSignal>*
 class CORDL_TYPE __BindSignalFromBinder_2____c__DisplayClass8_0 : public ::System::Object {
 public:
@@ -162,16 +162,16 @@ public:
 
   static inline ::Zenject::__BindSignalFromBinder_2____c__DisplayClass8_0<TObject, TSignal>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <From>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <From>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _From_b__1(::System::Object* s);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BindSignalFromBinder_2____c__DisplayClass8_0", modifiers: "&&", def_value: None }]
@@ -204,8 +204,8 @@ namespace Zenject {
 // cpp template
 template <typename TObject, typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10639))
 // CS Name: ::Zenject::BindSignalFromBinder`2<TObject,TSignal>*
 class CORDL_TYPE BindSignalFromBinder_2 : public ::System::Object {
 public:
@@ -253,29 +253,29 @@ public:
   static inline ::Zenject::BindSignalFromBinder_2<TObject, TSignal>* New_ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement,
                                                                               ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter, ::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* signalBindInfo, ::Zenject::BindStatement* bindStatement, ::System::Func_2<TObject, ::System::Action_1<TSignal>*>* methodGetter,
                     ::Zenject::DiContainer* container);
 
-  /// @brief Method FromResolve addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromResolve, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* FromResolve();
 
-  /// @brief Method FromResolveAll addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromResolveAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* FromResolveAll();
 
-  /// @brief Method FromNew addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method FromNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* FromNew();
 
-  /// @brief Method From addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method From, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* From(::System::Action_1<::Zenject::ConcreteBinderGeneric_1<TObject>*>* objectBindCallback);
 
-  /// @brief Method <From>b__8_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <From>b__8_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<::System::Object*>* _From_b__8_0(::System::Object* obj);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "BindSignalFromBinder_2", modifiers: "&&", def_value: None }]

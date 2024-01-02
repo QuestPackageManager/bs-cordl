@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstallerBase)
 namespace Zenject {
-class InjectTypeInfo;
+class IInstaller;
 }
 namespace Zenject {
-class IInstaller;
+class InjectTypeInfo;
 }
 namespace Zenject {
 class DiContainer;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::Zenject::ScriptableObjectInstallerBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10137))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11082))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11154))
 // CS Name: ::Zenject::ScriptableObjectInstallerBase*
 class CORDL_TYPE ScriptableObjectInstallerBase : public ::UnityEngine::ScriptableObject {
 public:
@@ -49,27 +49,27 @@ public:
 
   constexpr void __set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_Container addr 0x2d8d984 size 0x8 virtual false final false
+  /// @brief Method get_Container, addr 0x2ef5740, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method Zenject.IInstaller.get_IsEnabled addr 0x2d8d98c size 0x8 virtual true final true
+  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x2ef5748, size 0x8, virtual true, abstract: false, final true
   inline bool Zenject_IInstaller_get_IsEnabled();
 
-  /// @brief Method InstallBindings addr 0x2d8d994 size 0x40 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2ef5750, size 0x40, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ScriptableObjectInstallerBase* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d8d760 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ef551c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method __zenCreate addr 0x2d8d9d4 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ef5790, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenFieldSetter0 addr 0x2d8da30 size 0x134 virtual false final false
+  /// @brief Method __zenFieldSetter0, addr 0x2ef57ec, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d8db64 size 0x2f8 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ef5920, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstallerBase", modifiers: "&&", def_value: None }]

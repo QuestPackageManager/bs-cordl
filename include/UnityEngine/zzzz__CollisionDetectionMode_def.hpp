@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::CollisionDetectionMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15488))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15504))
 // CS Name: ::UnityEngine::CollisionDetectionMode
 struct CORDL_TYPE CollisionDetectionMode {
 public:

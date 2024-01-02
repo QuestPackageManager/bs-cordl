@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::GlobalNamespace::IOVRSceneComponent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8800))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7956))
 // CS Name: ::IOVRSceneComponent*
 class CORDL_TYPE IOVRSceneComponent {
 public:
   // Declarations
-  /// @brief Method Initialize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();
 
   // Ctor Parameters [CppParam { name: "", ty: "IOVRSceneComponent", modifiers: "&&", def_value: None }]

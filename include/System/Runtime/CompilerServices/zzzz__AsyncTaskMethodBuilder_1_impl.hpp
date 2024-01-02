@@ -1,10 +1,10 @@
 #pragma once
 #include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncMethodBuilderCore_def.hpp"
 template <typename TResult> inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>::setStaticF_s_defaultResultTask(::System::Threading::Tasks::Task_1<TResult>* value) {
   ::cordl_internals::setStaticField<::System::Threading::Tasks::Task_1<TResult>*, "s_defaultResultTask",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>::get>(

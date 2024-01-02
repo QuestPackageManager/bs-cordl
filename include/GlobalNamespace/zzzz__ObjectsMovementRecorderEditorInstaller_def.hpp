@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::GlobalNamespace::ObjectsMovementRecorderEditorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6012))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5921))
 // CS Name: ::ObjectsMovementRecorderEditorInstaller*
 class CORDL_TYPE ObjectsMovementRecorderEditorInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings addr 0x21b6c2c size 0x4 virtual true final false
+  /// @brief Method InstallBindings, addr 0x23001dc, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b6c30 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23001e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectsMovementRecorderEditorInstaller", modifiers: "&&", def_value: None }]

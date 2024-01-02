@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileSystemSecurity)
-namespace System::Security::Principal {
-class IdentityReference;
-}
-namespace System::Security::AccessControl {
-struct AccessControlSections;
-}
 namespace System::Security::AccessControl {
 struct PropagationFlags;
-}
-namespace System::Security::AccessControl {
-struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct AccessControlType;
 }
 namespace System::Security::AccessControl {
+struct AccessControlSections;
+}
+namespace System::Security::AccessControl {
 class AccessRule;
+}
+namespace System::Security::Principal {
+class IdentityReference;
+}
+namespace System::Security::AccessControl {
+struct InheritanceFlags;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -34,18 +34,18 @@ MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemSecurity);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3040))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3033))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3041))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3034))
 // CS Name: ::System.Security.AccessControl::FileSystemSecurity*
 class CORDL_TYPE FileSystemSecurity : public ::System::Security::AccessControl::NativeObjectSecurity {
 public:
   // Declarations
   static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor addr 0x232b8bc size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x24833b0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method AccessRuleFactory addr 0x232bad8 size 0xa0 virtual true final true
+  /// @brief Method AccessRuleFactory, addr 0x24835cc, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
                                                                           ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                           ::System::Security::AccessControl::PropagationFlags propagationFlags,

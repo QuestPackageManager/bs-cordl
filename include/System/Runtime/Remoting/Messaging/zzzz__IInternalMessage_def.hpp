@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IInternalMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3166))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3167))
 // CS Name: ::System.Runtime.Remoting.Messaging::IInternalMessage*
 class CORDL_TYPE IInternalMessage {
 public:
@@ -27,16 +27,16 @@ public:
 
   __declspec(property(get = get_Uri, put = set_Uri))::StringW Uri;
 
-  /// @brief Method get_TargetIdentity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Identity* get_TargetIdentity();
 
-  /// @brief Method set_TargetIdentity addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_TargetIdentity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_TargetIdentity(::System::Runtime::Remoting::Identity* value);
 
-  /// @brief Method get_Uri addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Uri();
 
-  /// @brief Method set_Uri addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Uri, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Uri(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInternalMessage", modifiers: "&&", def_value: None }]

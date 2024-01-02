@@ -7,19 +7,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerBadgesProvider)
 namespace GlobalNamespace {
-class __MultiplayerBadgesProvider____c;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class __MultiplayerBadgesProvider____c;
 }
 namespace GlobalNamespace {
 class MultiplayerBadgesModelSO;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerBadgesProvider____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5217))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5112))
 // CS Name: ::MultiplayerBadgesProvider::<>c*
 class CORDL_TYPE __MultiplayerBadgesProvider____c : public ::System::Object {
 public:
@@ -70,13 +70,13 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerBadgesProvider____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ef458 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23d0f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0 addr 0x20ef460 size 0x20 virtual false final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_0, addr 0x23d0f70, size 0x20, virtual false, abstract: false, final false
   inline bool _SelectBadgesAndPutThemIntoResults_b__7_0(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
-  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1 addr 0x20ef480 size 0x28 virtual false final false
+  /// @brief Method <SelectBadgesAndPutThemIntoResults>b__7_1, addr 0x23d0f90, size 0x28, virtual false, abstract: false, final false
   inline int32_t _SelectBadgesAndPutThemIntoResults_b__7_1(::GlobalNamespace::MultiplayerPlayerResultsData* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerBadgesProvider____c", modifiers: "&&", def_value: None }]
@@ -103,8 +103,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerBa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5218))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5113))
 // CS Name: ::MultiplayerBadgesProvider*
 class CORDL_TYPE MultiplayerBadgesProvider : public ::System::Object {
 public:
@@ -138,12 +138,12 @@ public:
 
   constexpr void __set__multiplayerBadgesModel(::GlobalNamespace::MultiplayerBadgesModelSO* value);
 
-  /// @brief Method SelectBadgesAndPutThemIntoResults addr 0x20edf48 size 0x14a4 virtual false final false
+  /// @brief Method SelectBadgesAndPutThemIntoResults, addr 0x23cfa58, size 0x14a4, virtual false, abstract: false, final false
   inline void SelectBadgesAndPutThemIntoResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* playerResults);
 
   static inline ::GlobalNamespace::MultiplayerBadgesProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ef3ec size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23d0efc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgesProvider", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVRMuraCorrectionMode);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9383))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8614))
 // CS Name: ::OVR.OpenVR::EVRMuraCorrectionMode
 struct CORDL_TYPE EVRMuraCorrectionMode {
 public:

@@ -8,25 +8,25 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteLineConnectionController)
 namespace GlobalNamespace {
+class PlayerTransforms;
+}
+namespace UnityEngine {
+class LineRenderer;
+}
+namespace GlobalNamespace {
 class AudioTimeSyncController;
+}
+namespace GlobalNamespace {
+class ColorManager;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
 class __NoteLineConnectionController__Pool;
 }
 namespace GlobalNamespace {
-class PlayerTransforms;
-}
-namespace GlobalNamespace {
 class NoteController;
-}
-namespace GlobalNamespace {
-class ColorManager;
-}
-namespace UnityEngine {
-class LineRenderer;
-}
-namespace System {
-template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteLineConnectionController__Pool);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4902))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4781))
 // CS Name: ::NoteLineConnectionController*
 class CORDL_TYPE NoteLineConnectionController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -167,24 +167,24 @@ public:
 
   constexpr void __set__didFinish(bool value);
 
-  /// @brief Method add_didFinishEvent addr 0x22568c0 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x238a3dc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x2256970 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x238a48c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::NoteLineConnectionController*>* value);
 
-  /// @brief Method Setup addr 0x2256a20 size 0xa4 virtual false final false
+  /// @brief Method Setup, addr 0x238a53c, size 0xa4, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::NoteController* noteController0, ::GlobalNamespace::NoteController* noteController1, float_t fadeOutStartDistance, float_t fadeOutEndDistance, float_t noteTime);
 
-  /// @brief Method Update addr 0x2256c80 size 0x64 virtual false final false
+  /// @brief Method Update, addr 0x238a79c, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionsAndColors addr 0x2256ac4 size 0x1bc virtual false final false
+  /// @brief Method UpdatePositionsAndColors, addr 0x238a5e0, size 0x1bc, virtual false, abstract: false, final false
   inline void UpdatePositionsAndColors();
 
   static inline ::GlobalNamespace::NoteLineConnectionController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2256ce4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x238a800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteLineConnectionController", modifiers: "&&", def_value: None }]
@@ -276,14 +276,14 @@ static_assert(offsetof(::GlobalNamespace::NoteLineConnectionController, ____didF
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4902)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst: 363 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10978))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4901)) CS Name: ::NoteLineConnectionController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 366 }), TypeDefinitionIndex(TypeDefinitionIndex(11050)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4781))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4780)) CS Name: ::NoteLineConnectionController::Pool*
 class CORDL_TYPE __NoteLineConnectionController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteLineConnectionController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NoteLineConnectionController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2256cec size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x238a808, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NoteLineConnectionController__Pool", modifiers: "&&", def_value: None }]

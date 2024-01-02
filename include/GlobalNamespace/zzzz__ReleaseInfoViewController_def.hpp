@@ -7,11 +7,11 @@ CORDL_MODULE_EXPORT(ReleaseInfoViewController)
 namespace HMUI {
 class TextPageScrollView;
 }
-namespace UnityEngine {
-class TextAsset;
-}
 namespace GlobalNamespace {
 class MainSettingsModelSO;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ReleaseInfoViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5841))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5741))
 // CS Name: ::ReleaseInfoViewController*
 class CORDL_TYPE ReleaseInfoViewController : public ::HMUI::ViewController {
 public:
@@ -65,12 +65,12 @@ public:
 
   constexpr void __set__firstTextAsset(::UnityEngine::TextAsset* value);
 
-  /// @brief Method DidActivate addr 0x2193470 size 0x5c virtual true final false
+  /// @brief Method DidActivate, addr 0x22d624c, size 0x5c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::ReleaseInfoViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21934cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22d62a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ReleaseInfoViewController", modifiers: "&&", def_value: None }]

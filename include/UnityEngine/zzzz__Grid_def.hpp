@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::UnityEngine::Grid);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16016))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16017))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16183))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16184))
 // CS Name: ::UnityEngine::Grid*
 class CORDL_TYPE Grid : public ::UnityEngine::GridLayout {
 public:
   // Declarations
   __declspec(property(get = get_cellSize))::UnityEngine::Vector3 cellSize;
 
-  /// @brief Method get_cellSize addr 0x2b92bb4 size 0x5c virtual false final false
+  /// @brief Method get_cellSize, addr 0x2cfafc4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cellSize();
 
   static inline ::UnityEngine::Grid* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b92c54 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cfb064, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellSize_Injected addr 0x2b92c10 size 0x44 virtual false final false
+  /// @brief Method get_cellSize_Injected, addr 0x2cfb020, size 0x44, virtual false, abstract: false, final false
   inline void get_cellSize_Injected(ByRef<::UnityEngine::Vector3> ret);
 
   // Ctor Parameters [CppParam { name: "", ty: "Grid", modifiers: "&&", def_value: None }]

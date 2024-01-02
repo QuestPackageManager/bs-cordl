@@ -6,13 +6,7 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Observable)
 namespace System {
-template <typename T> class IObservable_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class IDisposable;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -20,14 +14,20 @@ class InputDevice;
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class __Observable____c__DisplayClass6_0_1;
 }
+namespace System {
+template <typename T> class Action_1;
+}
+namespace System {
+template <typename T> class IObservable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System {
-class IDisposable;
+template <typename T, typename TResult> class Func_2;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::InputSystem::LowLevel {
+struct InputEventPtr;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
@@ -45,8 +45,8 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6773))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6687))
 // CS Name: ::Observable::<>c__DisplayClass6_0`1<TValue>*
 class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object {
 public:
@@ -62,10 +62,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <CallOnce>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <CallOnce>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _CallOnce_b__0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__Observable____c__DisplayClass6_0_1", modifiers: "&&", def_value: None }]
@@ -93,39 +93,39 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6774))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6688))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
 class CORDL_TYPE Observable : public ::System::Object {
 public:
   // Declarations
   template <typename TValue> using __c__DisplayClass6_0_1 = ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>;
 
-  /// @brief Method Where addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Where, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Where(::System::IObservable_1<TValue>* source, ::System::Func_2<TValue, bool>* predicate);
 
-  /// @brief Method Select addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult> static inline ::System::IObservable_1<TResult>* Select(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
 
-  /// @brief Method SelectMany addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SelectMany, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult>
   static inline ::System::IObservable_1<TResult>* SelectMany(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, ::System::Collections::Generic::IEnumerable_1<TResult>*>* filter);
 
-  /// @brief Method Take addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IObservable_1<TValue>* Take(::System::IObservable_1<TValue>* source, int32_t count);
 
-  /// @brief Method ForDevice addr 0x299526c size 0xbc virtual false final false
+  /// @brief Method ForDevice, addr 0x2b15fc0, size 0xbc, virtual false, abstract: false, final false
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                                         ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ForDevice addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ForDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice>
   static inline ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ForDevice(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source);
 
-  /// @brief Method CallOnce addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CallOnce, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IDisposable* CallOnce(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
 
-  /// @brief Method Call addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Call, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> static inline ::System::IDisposable* Call(::System::IObservable_1<TValue>* source, ::System::Action_1<TValue>* action);
 
   // Ctor Parameters [CppParam { name: "", ty: "Observable", modifiers: "&&", def_value: None }]

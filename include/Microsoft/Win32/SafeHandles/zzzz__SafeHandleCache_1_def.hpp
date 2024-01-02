@@ -19,7 +19,7 @@ namespace Microsoft::Win32::SafeHandles {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2297))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeHandleCache`1<T>*
 class CORDL_TYPE SafeHandleCache_1 : public ::System::Object {
@@ -32,7 +32,7 @@ public:
 
   static inline T getStaticF_s_invalidHandle();
 
-  /// @brief Method IsCachedInvalidHandle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsCachedInvalidHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsCachedInvalidHandle(::System::Runtime::InteropServices::SafeHandle* handle);
 
   // Ctor Parameters [CppParam { name: "", ty: "SafeHandleCache_1", modifiers: "&&", def_value: None }]

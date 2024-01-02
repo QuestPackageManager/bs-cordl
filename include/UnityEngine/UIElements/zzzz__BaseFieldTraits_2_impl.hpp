@@ -1,9 +1,9 @@
 #pragma once
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 template <typename TValueType, typename TValueUxmlAttributeType> constexpr TValueUxmlAttributeType& UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::__get_m_Value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Value;
@@ -21,11 +21,9 @@ constexpr void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxml
 template <typename TValueType, typename TValueUxmlAttributeType>
 inline void UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>::Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag,
                                                                                                   ::UnityEngine::UIElements::CreationContext cc) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IUxmlAttributes*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::CreationContext>::get() })));
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, bag, cc);
 }
 template <typename TValueType, typename TValueUxmlAttributeType>

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::CausalitySynchronousWork);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2815))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2819))
 // CS Name: ::System.Threading.Tasks::CausalitySynchronousWork
 struct CORDL_TYPE CausalitySynchronousWork {
 public:

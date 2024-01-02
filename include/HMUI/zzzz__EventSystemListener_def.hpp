@@ -7,17 +7,17 @@ CORDL_MODULE_EXPORT(EventSystemListener)
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
-namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
-}
-namespace UnityEngine::EventSystems {
-class IPointerEnterHandler;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace UnityEngine::EventSystems {
 class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 // Forward declare root types
 namespace HMUI {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::HMUI::EventSystemListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13650))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13531))
 // CS Name: ::HMUI::EventSystemListener*
 class CORDL_TYPE EventSystemListener : public ::UnityEngine::MonoBehaviour {
 public:
@@ -62,27 +62,27 @@ public:
 
   constexpr void __set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method add_pointerDidEnterEvent addr 0x1fc6448 size 0xb0 virtual false final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x211c6a4, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method remove_pointerDidEnterEvent addr 0x1fc64f8 size 0xb0 virtual false final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x211c754, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method add_pointerDidExitEvent addr 0x1fc65a8 size 0xb0 virtual false final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x211c804, size 0xb0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method remove_pointerDidExitEvent addr 0x1fc6658 size 0xb0 virtual false final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x211c8b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method OnPointerEnter addr 0x1fc6708 size 0x1c virtual true final true
+  /// @brief Method OnPointerEnter, addr 0x211c964, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit addr 0x1fc6724 size 0x1c virtual true final true
+  /// @brief Method OnPointerExit, addr 0x211c980, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::HMUI::EventSystemListener* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc6740 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x211c99c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "EventSystemListener", modifiers: "&&", def_value: None }]

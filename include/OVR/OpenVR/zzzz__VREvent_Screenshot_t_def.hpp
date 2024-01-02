@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_Screenshot_t);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9449))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8680))
 // CS Name: ::OVR.OpenVR::VREvent_Screenshot_t
 struct CORDL_TYPE VREvent_Screenshot_t {
 public:

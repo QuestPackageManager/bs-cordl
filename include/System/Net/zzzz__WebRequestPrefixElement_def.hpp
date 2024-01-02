@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebRequestPrefixElement)
-namespace System {
-class Type;
-}
 namespace System::Net {
 class IWebRequestCreate;
+}
+namespace System {
+class Type;
 }
 // Forward declare root types
 namespace System::Net {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::WebRequestPrefixElement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7914))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9077))
 // CS Name: ::System.Net::WebRequestPrefixElement*
 class CORDL_TYPE WebRequestPrefixElement : public ::System::Object {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __set_creatorType(::System::Type* value);
 
-  /// @brief Method get_Creator addr 0x2820a40 size 0x1fc virtual false final false
+  /// @brief Method get_Creator, addr 0x299e2b8, size 0x1fc, virtual false, abstract: false, final false
   inline ::System::Net::IWebRequestCreate* get_Creator();
 
-  /// @brief Method set_Creator addr 0x2820c3c size 0x8 virtual false final false
+  /// @brief Method set_Creator, addr 0x299e4b4, size 0x8, virtual false, abstract: false, final false
   inline void set_Creator(::System::Net::IWebRequestCreate* value);
 
   static inline ::System::Net::WebRequestPrefixElement* New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
-  /// @brief Method .ctor addr 0x2820c44 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x299e4bc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW P, ::System::Net::IWebRequestCreate* C);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestPrefixElement", modifiers: "&&", def_value: None }]

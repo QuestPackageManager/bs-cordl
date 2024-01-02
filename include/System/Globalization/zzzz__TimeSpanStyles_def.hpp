@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Globalization::TimeSpanStyles);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3681))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3693))
 // CS Name: ::System.Globalization::TimeSpanStyles
 struct CORDL_TYPE TimeSpanStyles {
 public:

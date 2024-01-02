@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServerSongPackProviderManager)
-namespace System {
-class IDisposable;
+namespace GlobalNamespace {
+class IServerSongPackProvider;
 }
 namespace System::Threading::Tasks {
 class Task;
 }
-namespace GlobalNamespace {
-class IServerSongPackProvider;
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IServerSongPackProviderManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12734))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12816))
 // CS Name: ::IServerSongPackProviderManager*
 class CORDL_TYPE IServerSongPackProviderManager {
 public:
@@ -31,10 +31,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method GetServerSongPackProvider addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetServerSongPackProvider, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IServerSongPackProvider* GetServerSongPackProvider();
 
-  /// @brief Method RefreshAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RefreshAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* RefreshAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "IServerSongPackProviderManager", modifiers: "&&", def_value: None }]

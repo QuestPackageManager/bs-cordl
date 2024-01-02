@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeviceRemoveEvent)
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEventPtr;
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-struct InputEvent;
+struct InputEventPtr;
 }
 namespace UnityEngine::InputSystem::LowLevel {
-class IInputEventTypeInfo;
+struct InputEvent;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -29,8 +29,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6616))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6523))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeviceRemoveEvent
 #pragma pack(push, 0)
 struct CORDL_TYPE DeviceRemoveEvent {
@@ -50,14 +50,15 @@ public:
 
   constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  /// @brief Method get_typeStatic addr 0x2969e74 size 0x20 virtual true final true
+  /// @brief Method get_typeStatic, addr 0x2ae9bbc, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
-  /// @brief Method ToEventPtr addr 0x2969e94 size 0x4 virtual false final false
+  /// @brief Method ToEventPtr, addr 0x2ae9bdc, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
-  /// @brief Method Create addr 0x2969e98 size 0x90 virtual false final false
-  static inline ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent Create(int32_t deviceId, double_t time);
+  /// @brief Method Create, addr 0x2ae9be0, size 0x90, virtual false, abstract: false, final false
+  /// @param time: double_t (default: -1.0)
+  static inline ::UnityEngine::InputSystem::LowLevel::DeviceRemoveEvent Create(int32_t deviceId, double_t time = -1.0);
 
   // Ctor Parameters [CppParam { name: "baseEvent", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent", modifiers: "", def_value: None }]
   constexpr DeviceRemoveEvent(::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent) noexcept;

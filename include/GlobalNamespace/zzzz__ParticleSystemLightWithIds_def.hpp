@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemLightWithIds)
 namespace UnityEngine {
-class ParticleSystem;
-}
-namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct __ParticleSystem__Particle;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14770)), TypeDefinitionIndex(TypeDefinitionIndex(15774))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14766))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14549))
 // CS Name: ::ParticleSystemLightWithIds*
 class CORDL_TYPE ParticleSystemLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
@@ -86,15 +86,15 @@ public:
 
   constexpr void __set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value);
 
-  /// @brief Method Awake addr 0x1fbc9a0 size 0x80 virtual true final false
+  /// @brief Method Awake, addr 0x2112418, size 0x80, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet addr 0x1fbca20 size 0x460 virtual true final false
+  /// @brief Method ColorWasSet, addr 0x2112498, size 0x460, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ParticleSystemLightWithIds* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fbce80 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x21128f8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithIds", modifiers: "&&", def_value: None }]

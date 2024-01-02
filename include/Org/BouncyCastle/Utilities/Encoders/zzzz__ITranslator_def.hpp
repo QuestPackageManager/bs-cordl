@@ -21,16 +21,16 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 class CORDL_TYPE ITranslator {
 public:
   // Declarations
-  /// @brief Method GetEncodedBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEncodedBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetEncodedBlockSize();
 
-  /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetDecodedBlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDecodedBlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetDecodedBlockSize();
 
-  /// @brief Method Decode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Decode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "ITranslator", modifiers: "&&", def_value: None }]

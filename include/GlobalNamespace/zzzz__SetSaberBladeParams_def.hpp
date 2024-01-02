@@ -11,14 +11,14 @@ CORDL_MODULE_EXPORT(SetSaberBladeParams)
 namespace GlobalNamespace {
 class __SetSaberBladeParams__PropertyTintColorPair;
 }
+namespace GlobalNamespace {
+class ColorManager;
+}
 namespace UnityEngine {
 class MeshRenderer;
 }
 namespace GlobalNamespace {
 class SaberTypeObject;
-}
-namespace GlobalNamespace {
-class ColorManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5399))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5304))
 // CS Name: ::SetSaberBladeParams::PropertyTintColorPair*
 class CORDL_TYPE __SetSaberBladeParams__PropertyTintColorPair : public ::System::Object {
 public:
@@ -60,7 +60,7 @@ public:
 
   static inline ::GlobalNamespace::__SetSaberBladeParams__PropertyTintColorPair* New_ctor();
 
-  /// @brief Method .ctor addr 0x21207b8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2264988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__SetSaberBladeParams__PropertyTintColorPair", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(offsetof(::GlobalNamespace::__SetSaberBladeParams__PropertyTintCol
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5305))
 // CS Name: ::SetSaberBladeParams*
 class CORDL_TYPE SetSaberBladeParams : public ::UnityEngine::MonoBehaviour {
 public:
@@ -145,12 +145,12 @@ public:
 
   constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  /// @brief Method Start addr 0x21206ac size 0x104 virtual false final false
+  /// @brief Method Start, addr 0x226487c, size 0x104, virtual false, abstract: false, final false
   inline void Start();
 
   static inline ::GlobalNamespace::SetSaberBladeParams* New_ctor();
 
-  /// @brief Method .ctor addr 0x21207b0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2264980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SetSaberBladeParams", modifiers: "&&", def_value: None }]

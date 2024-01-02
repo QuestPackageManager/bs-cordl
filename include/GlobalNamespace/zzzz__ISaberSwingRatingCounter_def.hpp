@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISaberSwingRatingCounter);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15163))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15016))
 // CS Name: ::ISaberSwingRatingCounter*
 class CORDL_TYPE ISaberSwingRatingCounter {
 public:
@@ -30,22 +30,22 @@ public:
 
   __declspec(property(get = get_afterCutRating)) float_t afterCutRating;
 
-  /// @brief Method get_beforeCutRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beforeCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_beforeCutRating();
 
-  /// @brief Method get_afterCutRating addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_afterCutRating, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t get_afterCutRating();
 
-  /// @brief Method RegisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RegisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISaberSwingRatingCounter", modifiers: "&&", def_value: None }]

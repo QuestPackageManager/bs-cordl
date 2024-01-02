@@ -6,20 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyTransRecipientInfoGenerator)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1OctetString;
+namespace Org::BouncyCastle::Crypto {
+class AsymmetricKeyParameter;
 }
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
+namespace Org::BouncyCastle::Asn1::Cms {
+class RecipientInfo;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace Org::BouncyCastle::Cms {
-class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
@@ -27,20 +21,26 @@ class IssuerAndSerialNumber;
 namespace Org::BouncyCastle::X509 {
 class X509Certificate;
 }
-namespace Org::BouncyCastle::Crypto {
-class AsymmetricKeyParameter;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class SubjectPublicKeyInfo;
 }
-namespace Org::BouncyCastle::Asn1::Cms {
-class RecipientInfo;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsEnvelopedHelper;
 }
 namespace Org::BouncyCastle::Asn1::X509 {
 class TbsCertificateStructure;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientInfoGenerator;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1OctetString;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(675))
 // CS Name: ::Org.BouncyCastle.Cms::KeyTransRecipientInfoGenerator*
 class CORDL_TYPE KeyTransRecipientInfoGenerator : public ::System::Object {
@@ -132,35 +132,35 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x11937e0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1204a30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber);
 
-  /// @brief Method .ctor addr 0x11937e8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1204a38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber);
 
   static inline ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method .ctor addr 0x1193810 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x1204a60, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method set_RecipientCert addr 0x119388c size 0x58 virtual false final false
+  /// @brief Method set_RecipientCert, addr 0x1204adc, size 0x58, virtual false, abstract: false, final false
   inline void set_RecipientCert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  /// @brief Method set_RecipientPublicKey addr 0x11938e4 size 0xdc virtual false final false
+  /// @brief Method set_RecipientPublicKey, addr 0x1204b34, size 0xdc, virtual false, abstract: false, final false
   inline void set_RecipientPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method set_SubjectKeyIdentifier addr 0x11939c0 size 0x8 virtual false final false
+  /// @brief Method set_SubjectKeyIdentifier, addr 0x1204c10, size 0x8, virtual false, abstract: false, final false
   inline void set_SubjectKeyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method Generate addr 0x11939c8 size 0x1c0 virtual true final true
+  /// @brief Method Generate, addr 0x1204c18, size 0x1c0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails addr 0x1193b88 size 0x1c virtual true final false
+  /// @brief Method get_AlgorithmDetails, addr 0x1204dd8, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
 
-  /// @brief Method GenerateWrappedKey addr 0x1193ba4 size 0x1dc virtual true final false
+  /// @brief Method GenerateWrappedKey, addr 0x1204df4, size 0x1dc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey);
 
   // Ctor Parameters [CppParam { name: "", ty: "KeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]

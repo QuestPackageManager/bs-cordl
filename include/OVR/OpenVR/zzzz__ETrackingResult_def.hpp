@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::ETrackingResult);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9352))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8583))
 // CS Name: ::OVR.OpenVR::ETrackingResult
 struct CORDL_TYPE ETrackingResult {
 public:

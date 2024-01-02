@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3802), inst: 1004 }), TypeDefinitionIndex(TypeDefinitionIndex(3802)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11759)) CS Name: ::Newtonsoft.Json::JsonConverterCollection*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1025 }), TypeDefinitionIndex(TypeDefinitionIndex(11830)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3814))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11831)) CS Name: ::Newtonsoft.Json::JsonConverterCollection*
 class CORDL_TYPE JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*> {
 public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
 
-  /// @brief Method .ctor addr 0x24e7de8 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x264a52c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "&&", def_value: None }]

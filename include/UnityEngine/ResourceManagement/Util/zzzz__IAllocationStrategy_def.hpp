@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAllocationStrategy)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -21,15 +21,15 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IAllocationStrategy);
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13977))
 // CS Name: ::UnityEngine.ResourceManagement.Util::IAllocationStrategy*
 class CORDL_TYPE IAllocationStrategy {
 public:
   // Declarations
-  /// @brief Method New addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method New, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAllocationStrategy", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::EventSystems::EventHandle);
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13169))
 // CS Name: ::UnityEngine.EventSystems::EventHandle
 struct CORDL_TYPE EventHandle {
 public:

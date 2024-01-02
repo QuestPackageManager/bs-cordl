@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicLevelParamsPanel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5861))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5770))
 // CS Name: ::BasicLevelParamsPanel*
 class CORDL_TYPE BasicLevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -46,15 +46,15 @@ public:
 
   constexpr void __set__bpmText(::TMPro::TextMeshProUGUI* value);
 
-  /// @brief Method set_duration addr 0x2198c84 size 0x34 virtual false final false
+  /// @brief Method set_duration, addr 0x22df194, size 0x34, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_bpm addr 0x2198cb8 size 0x48 virtual false final false
+  /// @brief Method set_bpm, addr 0x22df1c8, size 0x48, virtual false, abstract: false, final false
   inline void set_bpm(float_t value);
 
   static inline ::GlobalNamespace::BasicLevelParamsPanel* New_ctor();
 
-  /// @brief Method .ctor addr 0x2198d00 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22df210, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BasicLevelParamsPanel", modifiers: "&&", def_value: None }]

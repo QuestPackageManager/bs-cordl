@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::Tasks::CausalityTraceLevel);
 namespace System::Threading::Tasks {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2812))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2816))
 // CS Name: ::System.Threading.Tasks::CausalityTraceLevel
 struct CORDL_TYPE CausalityTraceLevel {
 public:

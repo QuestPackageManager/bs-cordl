@@ -16,7 +16,7 @@ MARK_VAL_T(::Polyglot::LanguageDirection);
 namespace Polyglot {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15540))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15556))
 // CS Name: ::Polyglot::LanguageDirection
 struct CORDL_TYPE LanguageDirection {
 public:

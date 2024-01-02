@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::DrivenTransformProperties);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10204))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10277))
 // CS Name: ::UnityEngine::DrivenTransformProperties
 struct CORDL_TYPE DrivenTransformProperties {
 public:

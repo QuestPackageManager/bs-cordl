@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IKMappingBone)
+namespace RootMotion::FinalIK {
+class IKSolverFullBody;
+}
 namespace UnityEngine {
 class Transform;
-}
-namespace RootMotion::FinalIK {
-class __IKMapping__BoneMap;
 }
 namespace RootMotion::FinalIK {
 class IKSolver;
 }
 namespace RootMotion::FinalIK {
-class IKSolverFullBody;
+class __IKMapping__BoneMap;
 }
 // Forward declare root types
 namespace RootMotion::FinalIK {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingBone);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12482))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12483))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12554))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12555))
 // CS Name: ::RootMotion.FinalIK::IKMappingBone*
 class CORDL_TYPE IKMappingBone : public ::RootMotion::FinalIK::IKMapping {
 public:
@@ -62,32 +62,32 @@ public:
 
   constexpr void __set_boneMap(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  /// @brief Method IsValid addr 0x11ebdf4 size 0x9c virtual true final false
+  /// @brief Method IsValid, addr 0x125c120, size 0x9c, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
 
   static inline ::RootMotion::FinalIK::IKMappingBone* New_ctor();
 
-  /// @brief Method .ctor addr 0x11ebe90 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x125c1bc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::RootMotion::FinalIK::IKMappingBone* New_ctor(::UnityEngine::Transform* bone);
 
-  /// @brief Method .ctor addr 0x11ebf14 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x125c240, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* bone);
 
-  /// @brief Method StoreDefaultLocalState addr 0x11ebfac size 0x18 virtual false final false
+  /// @brief Method StoreDefaultLocalState, addr 0x125c2d8, size 0x18, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
 
-  /// @brief Method FixTransforms addr 0x11ebfc4 size 0x1c virtual false final false
+  /// @brief Method FixTransforms, addr 0x125c2f0, size 0x1c, virtual false, abstract: false, final false
   inline void FixTransforms();
 
-  /// @brief Method Initiate addr 0x11ebfe0 size 0x8c virtual true final false
+  /// @brief Method Initiate, addr 0x125c30c, size 0x8c, virtual true, abstract: false, final false
   inline void Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver);
 
-  /// @brief Method ReadPose addr 0x11ec06c size 0x18 virtual false final false
+  /// @brief Method ReadPose, addr 0x125c398, size 0x18, virtual false, abstract: false, final false
   inline void ReadPose();
 
-  /// @brief Method WritePose addr 0x11ec084 size 0x24 virtual false final false
+  /// @brief Method WritePose, addr 0x125c3b0, size 0x24, virtual false, abstract: false, final false
   inline void WritePose(float_t solverWeight);
 
   // Ctor Parameters [CppParam { name: "", ty: "IKMappingBone", modifiers: "&&", def_value: None }]

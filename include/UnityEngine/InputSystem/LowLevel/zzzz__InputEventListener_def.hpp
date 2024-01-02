@@ -12,10 +12,10 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
 }
 namespace System {
-template <typename T> class IObserver_1;
+class IDisposable;
 }
 namespace System {
-class IDisposable;
+template <typename T> class IObserver_1;
 }
 namespace UnityEngine::InputSystem {
 class InputDevice;
@@ -26,11 +26,11 @@ template <typename T1, typename T2> class Action_2;
 namespace UnityEngine::InputSystem::LowLevel {
 class __InputEventListener__ObserverState;
 }
-namespace UnityEngine::InputSystem::LowLevel {
-class __InputEventListener__DisposableObserver;
-}
 namespace System {
 template <typename T> class IObservable_1;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class __InputEventListener__DisposableObserver;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -50,9 +50,9 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEventListener);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6622)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6755), inst: 3771 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6755)), TypeDefinitionIndex(TypeDefinitionIndex(2418)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2418), inst: 328 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2611))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6619)) CS Name: ::InputEventListener::ObserverState*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2420), inst: 330 }), TypeDefinitionIndex(TypeDefinitionIndex(6536)), GenericInstantiation(GenericInstantiation {
+// tdi: TypeDefinitionIndex(6669), inst: 3864 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2420)), TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6533)) CS Name: ::InputEventListener::ObserverState*
 class CORDL_TYPE __InputEventListener__ObserverState : public ::System::Object {
 public:
   // Declarations
@@ -79,10 +79,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* New_ctor();
 
-  /// @brief Method .ctor addr 0x296b640 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2aeb388, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <.ctor>b__2_0 addr 0x296b6d0 size 0xf4 virtual false final false
+  /// @brief Method <.ctor>b__2_0, addr 0x2aeb418, size 0xf4, virtual false, abstract: false, final false
   inline void __ctor_b__2_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputEventListener__ObserverState", modifiers: "&&", def_value: None }]
@@ -119,8 +119,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventListene
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6620))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6534))
 // CS Name: ::InputEventListener::DisposableObserver*
 class CORDL_TYPE __InputEventListener__DisposableObserver : public ::System::Object {
 public:
@@ -137,12 +137,12 @@ public:
 
   constexpr void __set_observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method Dispose addr 0x296b7c4 size 0x138 virtual true final true
+  /// @brief Method Dispose, addr 0x2aeb50c, size 0x138, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__DisposableObserver* New_ctor();
 
-  /// @brief Method .ctor addr 0x296b6c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aeb410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputEventListener__DisposableObserver", modifiers: "&&", def_value: None }]
@@ -175,7 +175,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventListene
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6621))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6535))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventListener
 #pragma pack(push, 0)
 struct CORDL_TYPE InputEventListener {
@@ -195,16 +195,16 @@ public:
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventListener__ObserverState* getStaticF_s_ObserverState();
 
-  /// @brief Method op_Addition addr 0x2965344 size 0x180 virtual false final false
+  /// @brief Method op_Addition, addr 0x2ae508c, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Addition(::UnityEngine::InputSystem::LowLevel::InputEventListener _, ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
 
-  /// @brief Method op_Subtraction addr 0x2965628 size 0x180 virtual false final false
+  /// @brief Method op_Subtraction, addr 0x2ae5370, size 0x180, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Subtraction(::UnityEngine::InputSystem::LowLevel::InputEventListener _,
                  ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
 
-  /// @brief Method Subscribe addr 0x296b4e4 size 0x15c virtual true final true
+  /// @brief Method Subscribe, addr 0x2aeb22c, size 0x15c, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   // Ctor Parameters []

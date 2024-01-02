@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ParticleSystemEventController)
-namespace UnityEngine {
-class ParticleSystem;
-}
 namespace GlobalNamespace {
 class __ParticleSystemEventController__Pool;
+}
+namespace UnityEngine {
+class ParticleSystem;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ParticleSystemEventController__Pool);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5071))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4966))
 // CS Name: ::ParticleSystemEventController*
 class CORDL_TYPE ParticleSystemEventController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -65,36 +65,36 @@ public:
 
   constexpr void __set__startTime_k__BackingField(float_t value);
 
-  /// @brief Method get_startTime addr 0x22784ac size 0x8 virtual false final false
+  /// @brief Method get_startTime, addr 0x23b02c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_startTime addr 0x22784b4 size 0x8 virtual false final false
+  /// @brief Method set_startTime, addr 0x23b02cc, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(float_t value);
 
-  /// @brief Method get_endTime addr 0x2277ccc size 0xc virtual false final false
+  /// @brief Method get_endTime, addr 0x23afae4, size 0xc, virtual false, abstract: false, final false
   inline float_t get_endTime();
 
-  /// @brief Method Init addr 0x2277930 size 0x30 virtual false final false
+  /// @brief Method Init, addr 0x23af748, size 0x30, virtual false, abstract: false, final false
   inline void Init(float_t startTime);
 
-  /// @brief Method InitSpeed addr 0x22783b0 size 0x4c virtual false final false
+  /// @brief Method InitSpeed, addr 0x23b01c8, size 0x4c, virtual false, abstract: false, final false
   inline void InitSpeed(float_t simulationSpeedMultiplier);
 
-  /// @brief Method Play addr 0x22782d8 size 0x1c virtual false final false
+  /// @brief Method Play, addr 0x23b00f0, size 0x1c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Pause addr 0x2278144 size 0x1c virtual false final false
+  /// @brief Method Pause, addr 0x23aff5c, size 0x1c, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Stop addr 0x2277644 size 0x1c virtual false final false
+  /// @brief Method Stop, addr 0x23af45c, size 0x1c, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method ManualUpdate addr 0x2277cd8 size 0x68 virtual false final false
+  /// @brief Method ManualUpdate, addr 0x23afaf0, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t time, float_t deltaTime);
 
   static inline ::GlobalNamespace::ParticleSystemEventController* New_ctor();
 
-  /// @brief Method .ctor addr 0x22784bc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23b02d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemEventController", modifiers: "&&", def_value: None }]
@@ -139,14 +139,14 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemEventController, ____sta
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10978)), TypeDefinitionIndex(TypeDefinitionIndex(5071)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10978), inst:
-// 2765 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5070)) CS Name: ::ParticleSystemEventController::Pool*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2825 }), TypeDefinitionIndex(TypeDefinitionIndex(4966)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4965)) CS Name: ::ParticleSystemEventController::Pool*
 class CORDL_TYPE __ParticleSystemEventController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ParticleSystemEventController*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ParticleSystemEventController__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x22784c4 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x23b02dc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ParticleSystemEventController__Pool", modifiers: "&&", def_value: None }]

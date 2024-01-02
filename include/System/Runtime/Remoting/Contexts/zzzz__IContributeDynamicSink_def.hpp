@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::IContributeDynamicSink);
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3107))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3108))
 // CS Name: ::System.Runtime.Remoting.Contexts::IContributeDynamicSink*
 class CORDL_TYPE IContributeDynamicSink {
 public:
   // Declarations
-  /// @brief Method GetDynamicSink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDynamicSink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Contexts::IDynamicMessageSink* GetDynamicSink();
 
   // Ctor Parameters [CppParam { name: "", ty: "IContributeDynamicSink", modifiers: "&&", def_value: None }]

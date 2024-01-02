@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::IFormattable);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2416))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2418))
 // CS Name: ::System::IFormattable*
 class CORDL_TYPE IFormattable {
 public:
   // Declarations
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   // Ctor Parameters [CppParam { name: "", ty: "IFormattable", modifiers: "&&", def_value: None }]

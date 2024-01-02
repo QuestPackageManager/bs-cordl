@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Exception);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(450))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Exception*
 class CORDL_TYPE Asn1Exception : public ::System::IO::IOException {
@@ -26,17 +26,17 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Asn1Exception* New_ctor();
 
-  /// @brief Method .ctor addr 0x1142b14 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11b3d5c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Exception* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x1142b1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11b3d64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Exception* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor addr 0x1142b24 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x11b3d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
   // Ctor Parameters [CppParam { name: "", ty: "Asn1Exception", modifiers: "&&", def_value: None }]

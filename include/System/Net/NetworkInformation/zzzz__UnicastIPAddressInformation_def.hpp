@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnicastIPAddressInformation);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8085))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8093))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9248))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9256))
 // CS Name: ::System.Net.NetworkInformation::UnicastIPAddressInformation*
 class CORDL_TYPE UnicastIPAddressInformation : public ::System::Net::NetworkInformation::IPAddressInformation {
 public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnicastIPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor addr 0x286f46c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29ebcf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnicastIPAddressInformation", modifiers: "&&", def_value: None }]

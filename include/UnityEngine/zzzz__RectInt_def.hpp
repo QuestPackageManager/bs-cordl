@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::RectInt);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10090))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10162))
 // CS Name: ::UnityEngine::RectInt
 struct CORDL_TYPE RectInt {
 public:
@@ -53,55 +53,55 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method get_x addr 0x2b62dc0 size 0x8 virtual false final false
+  /// @brief Method get_x, addr 0x2cc91d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_x();
 
-  /// @brief Method set_x addr 0x2b62dc8 size 0x8 virtual false final false
+  /// @brief Method set_x, addr 0x2cc91e0, size 0x8, virtual false, abstract: false, final false
   inline void set_x(int32_t value);
 
-  /// @brief Method get_y addr 0x2b62dd0 size 0x8 virtual false final false
+  /// @brief Method get_y, addr 0x2cc91e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_y();
 
-  /// @brief Method set_y addr 0x2b62dd8 size 0x8 virtual false final false
+  /// @brief Method set_y, addr 0x2cc91f0, size 0x8, virtual false, abstract: false, final false
   inline void set_y(int32_t value);
 
-  /// @brief Method get_width addr 0x2b62de0 size 0x8 virtual false final false
+  /// @brief Method get_width, addr 0x2cc91f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_width addr 0x2b62de8 size 0x8 virtual false final false
+  /// @brief Method set_width, addr 0x2cc9200, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
-  /// @brief Method get_height addr 0x2b62df0 size 0x8 virtual false final false
+  /// @brief Method get_height, addr 0x2cc9208, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method set_height addr 0x2b62df8 size 0x8 virtual false final false
+  /// @brief Method set_height, addr 0x2cc9210, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method get_xMin addr 0x2b62e00 size 0x64 virtual false final false
+  /// @brief Method get_xMin, addr 0x2cc9218, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMin();
 
-  /// @brief Method get_yMin addr 0x2b62e64 size 0x64 virtual false final false
+  /// @brief Method get_yMin, addr 0x2cc927c, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMin();
 
-  /// @brief Method get_xMax addr 0x2b62ec8 size 0x64 virtual false final false
+  /// @brief Method get_xMax, addr 0x2cc92e0, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_xMax();
 
-  /// @brief Method get_yMax addr 0x2b62f2c size 0x64 virtual false final false
+  /// @brief Method get_yMax, addr 0x2cc9344, size 0x64, virtual false, abstract: false, final false
   inline int32_t get_yMax();
 
-  /// @brief Method .ctor addr 0x2b62f90 size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x2cc93a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t xMin, int32_t yMin, int32_t width, int32_t height);
 
-  /// @brief Method Overlaps addr 0x2b62f9c size 0x9c virtual false final false
+  /// @brief Method Overlaps, addr 0x2cc93b4, size 0x9c, virtual false, abstract: false, final false
   inline bool Overlaps(::UnityEngine::RectInt other);
 
-  /// @brief Method ToString addr 0x2b63038 size 0xc virtual true final false
+  /// @brief Method ToString, addr 0x2cc9450, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString addr 0x2b63044 size 0x20c virtual true final true
+  /// @brief Method ToString, addr 0x2cc945c, size 0x20c, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method Equals addr 0x2b63250 size 0x44 virtual true final true
+  /// @brief Method Equals, addr 0x2cc9668, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::RectInt other);
 
   // Ctor Parameters [CppParam { name: "m_XMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_YMin", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:

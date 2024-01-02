@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 CORDL_MODULE_EXPORT(SinglePositionTween)
-namespace UnityEngine {
-class GameObject;
-}
 namespace GlobalNamespace {
 class CustomTweenBehaviour;
-}
-namespace UnityEngine::Playables {
-struct Playable;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Timeline {
 class ITimelineClipAsset;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace UnityEngine::Playables {
+struct Playable;
 }
 namespace UnityEngine::Timeline {
 struct ClipCaps;
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::SinglePositionTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9974)), TypeDefinitionIndex(TypeDefinitionIndex(10203)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9974), inst: 400
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10344))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6072)) CS Name: ::SinglePositionTween*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(10046)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10046), inst:
+// 405 }), TypeDefinitionIndex(TypeDefinitionIndex(10276))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6017)) CS Name: ::SinglePositionTween*
 class CORDL_TYPE SinglePositionTween : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
@@ -62,15 +62,15 @@ public:
 
   constexpr void __set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value);
 
-  /// @brief Method get_clipCaps addr 0x21c4d08 size 0x8 virtual true final true
+  /// @brief Method get_clipCaps, addr 0x2317b2c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method CreatePlayable addr 0x21c4d10 size 0x1c4 virtual true final false
+  /// @brief Method CreatePlayable, addr 0x2317b34, size 0x1c4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c4ed4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2317cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SinglePositionTween", modifiers: "&&", def_value: None }]

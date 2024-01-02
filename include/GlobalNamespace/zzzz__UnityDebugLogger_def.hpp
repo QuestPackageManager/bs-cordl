@@ -5,14 +5,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UnityDebugLogger)
-namespace GlobalNamespace {
-class IBeatSaberLogger;
-}
 namespace System {
 class Object;
 }
 namespace System {
 class Exception;
+}
+namespace GlobalNamespace {
+class IBeatSaberLogger;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityDebugLogger);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5971))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5881))
 // CS Name: ::UnityDebugLogger*
 class CORDL_TYPE UnityDebugLogger : public ::System::Object {
 public:
@@ -33,33 +33,33 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Method Log addr 0x21b17b0 size 0x58 virtual true final true
+  /// @brief Method Log, addr 0x22f9dfc, size 0x58, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log addr 0x21b1808 size 0xb8 virtual true final true
+  /// @brief Method Log, addr 0x22f9e54, size 0xb8, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogWarning addr 0x21b18c0 size 0x58 virtual true final true
+  /// @brief Method LogWarning, addr 0x22f9f0c, size 0x58, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning addr 0x21b1918 size 0xb8 virtual true final true
+  /// @brief Method LogWarning, addr 0x22f9f64, size 0xb8, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError addr 0x21b19d0 size 0x58 virtual true final true
+  /// @brief Method LogError, addr 0x22fa01c, size 0x58, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError addr 0x21b1a28 size 0xb8 virtual true final true
+  /// @brief Method LogError, addr 0x22fa074, size 0xb8, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException addr 0x21b1ae0 size 0x58 virtual true final true
+  /// @brief Method LogException, addr 0x22fa12c, size 0x58, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException addr 0x21b1b38 size 0xb8 virtual true final true
+  /// @brief Method LogException, addr 0x22fa184, size 0xb8, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
   static inline ::GlobalNamespace::UnityDebugLogger* New_ctor();
 
-  /// @brief Method .ctor addr 0x21b1bf0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22fa23c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UnityDebugLogger", modifiers: "&&", def_value: None }]

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stairs)
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
+}
 namespace UnityEngine {
 struct Quaternion;
 }
@@ -19,9 +22,6 @@ struct Bounds;
 namespace UnityEngine {
 struct Vector3;
 }
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
-}
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
 class Stairs;
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Stairs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12165)), TypeDefinitionIndex(TypeDefinitionIndex(12161))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12166))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12237)), TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12238))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Stairs*
 class CORDL_TYPE Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
@@ -103,30 +103,30 @@ public:
 
   constexpr void __set_m_InnerRadius(float_t value);
 
-  /// @brief Method get_sides addr 0x2a0e460 size 0x8 virtual false final false
+  /// @brief Method get_sides, addr 0x2b8f1b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_sides();
 
-  /// @brief Method set_sides addr 0x2a0e468 size 0xc virtual false final false
+  /// @brief Method set_sides, addr 0x2b8f1bc, size 0xc, virtual false, abstract: false, final false
   inline void set_sides(bool value);
 
-  /// @brief Method CopyShape addr 0x2a0e474 size 0x9c virtual true final false
+  /// @brief Method CopyShape, addr 0x2b8f1c8, size 0x9c, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
-  /// @brief Method RebuildMesh addr 0x2a0e510 size 0x60 virtual true final false
+  /// @brief Method RebuildMesh, addr 0x2b8f264, size 0x60, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method UpdateBounds addr 0x2a1060c size 0x164 virtual true final false
+  /// @brief Method UpdateBounds, addr 0x2b91360, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds UpdateBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds);
 
-  /// @brief Method BuildStairs addr 0x2a0f6e4 size 0xf28 virtual false final false
+  /// @brief Method BuildStairs, addr 0x2b90438, size 0xf28, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method BuildCurvedStairs addr 0x2a0e570 size 0x1174 virtual false final false
+  /// @brief Method BuildCurvedStairs, addr 0x2b8f2c4, size 0x1174, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds BuildCurvedStairs(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Stairs* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a10770 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2b914c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Stairs", modifiers: "&&", def_value: None }]

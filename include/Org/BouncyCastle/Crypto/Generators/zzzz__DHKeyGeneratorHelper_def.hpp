@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHKeyGeneratorHelper)
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Generators {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(893))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHKeyGeneratorHelper*
 class CORDL_TYPE DHKeyGeneratorHelper : public ::System::Object {
@@ -38,13 +38,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyGeneratorHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0xe82458 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xef762c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CalculatePrivate addr 0xe82260 size 0x1c4 virtual false final false
+  /// @brief Method CalculatePrivate, addr 0xef7434, size 0x1c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePrivate(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method CalculatePublic addr 0xe82424 size 0x2c virtual false final false
+  /// @brief Method CalculatePublic, addr 0xef75f8, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublic(::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams, ::Org::BouncyCastle::Math::BigInteger* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "DHKeyGeneratorHelper", modifiers: "&&", def_value: None }]

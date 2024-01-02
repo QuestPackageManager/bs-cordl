@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Android::AndroidAssetPackError);
 namespace UnityEngine::Android {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15066))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14921))
 // CS Name: ::UnityEngine.Android::AndroidAssetPackError
 struct CORDL_TYPE AndroidAssetPackError {
 public:

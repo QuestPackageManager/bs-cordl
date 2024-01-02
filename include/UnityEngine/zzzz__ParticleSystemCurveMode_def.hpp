@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ParticleSystemCurveMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15784))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15892))
 // CS Name: ::UnityEngine::ParticleSystemCurveMode
 struct CORDL_TYPE ParticleSystemCurveMode {
 public:

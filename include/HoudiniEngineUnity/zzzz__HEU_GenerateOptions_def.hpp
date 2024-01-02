@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_GenerateOptions);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9721))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9794))
 // CS Name: ::HoudiniEngineUnity::HEU_GenerateOptions
 struct CORDL_TYPE HEU_GenerateOptions {
 public:

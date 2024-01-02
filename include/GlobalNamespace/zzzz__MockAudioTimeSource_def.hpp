@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockAudioTimeSource);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4055))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4067))
 // CS Name: ::MockAudioTimeSource*
 class CORDL_TYPE MockAudioTimeSource : public ::UnityEngine::MonoBehaviour {
 public:
@@ -55,33 +55,33 @@ public:
 
   constexpr void __set__lastFrameDeltaSongTime_k__BackingField(float_t value);
 
-  /// @brief Method get_songTime addr 0x20ce690 size 0x8 virtual true final true
+  /// @brief Method get_songTime, addr 0x222e17c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method set_songTime addr 0x20ce698 size 0x8 virtual false final false
+  /// @brief Method set_songTime, addr 0x222e184, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
-  /// @brief Method get_lastFrameDeltaSongTime addr 0x20ce6a0 size 0x8 virtual true final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x222e18c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method set_lastFrameDeltaSongTime addr 0x20ce6a8 size 0x8 virtual false final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x222e194, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
-  /// @brief Method get_songEndTime addr 0x20ce6b0 size 0xc virtual true final true
+  /// @brief Method get_songEndTime, addr 0x222e19c, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength addr 0x20ce6bc size 0xc virtual true final true
+  /// @brief Method get_songLength, addr 0x222e1a8, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_isReady addr 0x20ce6c8 size 0x8 virtual true final true
+  /// @brief Method get_isReady, addr 0x222e1b4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method Update addr 0x20ce6d0 size 0x38 virtual false final false
+  /// @brief Method Update, addr 0x222e1bc, size 0x38, virtual false, abstract: false, final false
   inline void Update();
 
   static inline ::GlobalNamespace::MockAudioTimeSource* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ce708 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x222e1f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MockAudioTimeSource", modifiers: "&&", def_value: None }]

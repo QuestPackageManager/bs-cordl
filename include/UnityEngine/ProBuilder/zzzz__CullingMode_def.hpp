@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::CullingMode);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12091))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12163))
 // CS Name: ::UnityEngine.ProBuilder::CullingMode
 struct CORDL_TYPE CullingMode {
 public:

@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Interactions::PressBehavior);
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6736))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6650))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressBehavior
 struct CORDL_TYPE PressBehavior {
 public:

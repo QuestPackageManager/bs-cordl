@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::AchievementIdsModelSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13879))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4110))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4085))
 // CS Name: ::AchievementIdsModelSO*
 class CORDL_TYPE AchievementIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
@@ -37,12 +37,12 @@ public:
 
   constexpr void __set__achievementsIds(::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>* value);
 
-  /// @brief Method get_achievementsIds addr 0x20d844c size 0x8 virtual false final false
+  /// @brief Method get_achievementsIds, addr 0x2231ac4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::AchievementSO*>* get_achievementsIds();
 
   static inline ::GlobalNamespace::AchievementIdsModelSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x20d8454 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2231acc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AchievementIdsModelSO", modifiers: "&&", def_value: None }]

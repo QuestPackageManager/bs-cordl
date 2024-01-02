@@ -10,20 +10,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomTweenBehaviour)
-namespace UnityEngine {
-struct Vector3;
-}
 namespace GlobalNamespace {
 class __CustomTweenBehaviour____c;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace UnityEngine::Playables {
 struct Playable;
+}
+namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace System {
 class Object;
@@ -45,8 +45,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__CustomTweenBehaviour____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6066))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6011))
 // CS Name: ::CustomTweenBehaviour::<>c*
 class CORDL_TYPE __CustomTweenBehaviour____c : public ::System::Object {
 public:
@@ -67,10 +67,10 @@ public:
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c4400 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2316224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <OnBehaviourPlay>b__21_0 addr 0x21c4408 size 0x8 virtual false final false
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x231622c, size 0x8, virtual false, abstract: false, final false
   inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
 
   // Ctor Parameters [CppParam { name: "", ty: "__CustomTweenBehaviour____c", modifiers: "&&", def_value: None }]
@@ -97,8 +97,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CustomTweenBe
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347)), TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(15944))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6067))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6012))
 // CS Name: ::CustomTweenBehaviour*
 class CORDL_TYPE CustomTweenBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -267,21 +267,21 @@ public:
 
   constexpr void __set__randomizedDuration(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method OnGraphStart addr 0x21c3b78 size 0x13c virtual true final false
+  /// @brief Method OnGraphStart, addr 0x231599c, size 0x13c, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame addr 0x21c3cb4 size 0x3e0 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2315ad8, size 0x3e0, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method OnPlayableDestroy addr 0x21c4094 size 0x104 virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x2315eb8, size 0x104, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnBehaviourPlay addr 0x21c4198 size 0x1ec virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2315fbc, size 0x1ec, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c4384 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x23161a8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTweenBehaviour", modifiers: "&&", def_value: None }]

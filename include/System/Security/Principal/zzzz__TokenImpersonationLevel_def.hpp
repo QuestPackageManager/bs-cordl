@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Principal::TokenImpersonationLevel);
 namespace System::Security::Principal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2996))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2997))
 // CS Name: ::System.Security.Principal::TokenImpersonationLevel
 struct CORDL_TYPE TokenImpersonationLevel {
 public:

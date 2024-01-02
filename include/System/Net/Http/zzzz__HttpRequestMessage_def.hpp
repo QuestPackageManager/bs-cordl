@@ -5,12 +5,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HttpRequestMessage)
-namespace System {
-class Uri;
-}
-namespace System::Net::Http {
-class HttpContent;
-}
 namespace System::Net::Http {
 class HttpMethod;
 }
@@ -18,10 +12,16 @@ namespace System::Net::Http::Headers {
 class HttpRequestHeaders;
 }
 namespace System {
-class IDisposable;
+class Version;
 }
 namespace System {
-class Version;
+class Uri;
+}
+namespace System::Net::Http {
+class HttpContent;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -33,8 +33,8 @@ MARK_REF_PTR_T(::System::Net::Http::HttpRequestMessage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14871))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14654))
 // CS Name: ::System.Net.Http::HttpRequestMessage*
 class CORDL_TYPE HttpRequestMessage : public ::System::Object {
 public:
@@ -117,56 +117,56 @@ public:
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor();
 
-  /// @brief Method .ctor addr 0x26b8984 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x2833994, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::StringW requestUri);
 
-  /// @brief Method .ctor addr 0x26b8a20 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x2833a30, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMethod* method, ::StringW requestUri);
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method .ctor addr 0x26b602c size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x283103c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpMethod* method, ::System::Uri* requestUri);
 
-  /// @brief Method get_Content addr 0x26b8b64 size 0x8 virtual false final false
+  /// @brief Method get_Content, addr 0x2833b74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method set_Content addr 0x26b8b6c size 0x8 virtual false final false
+  /// @brief Method set_Content, addr 0x2833b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method get_Headers addr 0x26b2c58 size 0x68 virtual false final false
+  /// @brief Method get_Headers, addr 0x282dc68, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpRequestHeaders* get_Headers();
 
-  /// @brief Method get_Method addr 0x26b8bd4 size 0x8 virtual false final false
+  /// @brief Method get_Method, addr 0x2833be4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpMethod* get_Method();
 
-  /// @brief Method set_Method addr 0x26b8ab4 size 0xb0 virtual false final false
+  /// @brief Method set_Method, addr 0x2833ac4, size 0xb0, virtual false, abstract: false, final false
   inline void set_Method(::System::Net::Http::HttpMethod* value);
 
-  /// @brief Method get_RequestUri addr 0x26b8bdc size 0x8 virtual false final false
+  /// @brief Method get_RequestUri, addr 0x2833bec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Uri* get_RequestUri();
 
-  /// @brief Method set_RequestUri addr 0x26b3528 size 0xe4 virtual false final false
+  /// @brief Method set_RequestUri, addr 0x282e538, size 0xe4, virtual false, abstract: false, final false
   inline void set_RequestUri(::System::Uri* value);
 
-  /// @brief Method IsAllowedAbsoluteUri addr 0x26b8be4 size 0x14c virtual false final false
+  /// @brief Method IsAllowedAbsoluteUri, addr 0x2833bf4, size 0x14c, virtual false, abstract: false, final false
   static inline bool IsAllowedAbsoluteUri(::System::Uri* uri);
 
-  /// @brief Method get_Version addr 0x26b2bf4 size 0x64 virtual false final false
+  /// @brief Method get_Version, addr 0x282dc04, size 0x64, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
-  /// @brief Method Dispose addr 0x26b8d30 size 0x10 virtual true final true
+  /// @brief Method Dispose, addr 0x2833d40, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose addr 0x26b8d40 size 0x34 virtual true final false
+  /// @brief Method Dispose, addr 0x2833d50, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method SetIsUsed addr 0x26b63f0 size 0x20 virtual false final false
+  /// @brief Method SetIsUsed, addr 0x2831400, size 0x20, virtual false, abstract: false, final false
   inline bool SetIsUsed();
 
-  /// @brief Method ToString addr 0x26b8d74 size 0x27c virtual true final false
+  /// @brief Method ToString, addr 0x2833d84, size 0x27c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpRequestMessage", modifiers: "&&", def_value: None }]

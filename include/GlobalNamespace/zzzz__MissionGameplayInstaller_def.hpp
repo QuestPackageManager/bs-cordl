@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionGameplayInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5397))
 // CS Name: ::MissionGameplayInstaller*
 class CORDL_TYPE MissionGameplayInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__sceneSetupData(::GlobalNamespace::MissionGameplaySceneSetupData* value);
 
-  /// @brief Method InstallBindings addr 0x212c9a4 size 0x490 virtual true final false
+  /// @brief Method InstallBindings, addr 0x2272134, size 0x490, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MissionGameplayInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212ce34 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22725c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionGameplayInstaller", modifiers: "&&", def_value: None }]

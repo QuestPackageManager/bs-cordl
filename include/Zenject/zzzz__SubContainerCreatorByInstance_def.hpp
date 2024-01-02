@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByInstance)
 namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
 struct TypeValuePair;
 }
 namespace Zenject {
 class InjectContext;
 }
-namespace Zenject {
-class ISubContainerCreator;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace Zenject {
-class DiContainer;
 }
 // Forward declare root types
 namespace Zenject {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstance);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11172))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11244))
 // CS Name: ::Zenject::SubContainerCreatorByInstance*
 class CORDL_TYPE SubContainerCreatorByInstance : public ::System::Object {
 public:
@@ -49,10 +49,10 @@ public:
 
   static inline ::Zenject::SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer);
 
-  /// @brief Method .ctor addr 0x2da3858 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2f0b628, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* subcontainer);
 
-  /// @brief Method CreateSubContainer addr 0x2da3880 size 0x68 virtual true final true
+  /// @brief Method CreateSubContainer, addr 0x2f0b650, size 0x68, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByInstance", modifiers: "&&", def_value: None }]

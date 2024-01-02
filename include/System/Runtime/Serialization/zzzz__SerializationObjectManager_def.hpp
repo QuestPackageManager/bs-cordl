@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SerializationObjectManager)
-namespace System::Runtime::Serialization {
-struct StreamingContext;
-}
-namespace System::Runtime::Serialization {
-class SerializationEventHandler;
-}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System {
 class Object;
+}
+namespace System::Runtime::Serialization {
+struct StreamingContext;
+}
+namespace System::Runtime::Serialization {
+class SerializationEventHandler;
 }
 // Forward declare root types
 namespace System::Runtime::Serialization {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationObjectManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3234))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3209))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3210))
 // CS Name: ::System.Runtime.Serialization::SerializationObjectManager*
 class CORDL_TYPE SerializationObjectManager : public ::System::Object {
 public:
@@ -62,16 +62,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x235ce5c size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x24b5950, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method RegisterObject addr 0x235cef0 size 0x110 virtual false final false
+  /// @brief Method RegisterObject, addr 0x24b59e4, size 0x110, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj);
 
-  /// @brief Method RaiseOnSerializedEvent addr 0x235d090 size 0x20 virtual false final false
+  /// @brief Method RaiseOnSerializedEvent, addr 0x24b5b84, size 0x20, virtual false, abstract: false, final false
   inline void RaiseOnSerializedEvent();
 
-  /// @brief Method AddOnSerialized addr 0x235d000 size 0x90 virtual false final false
+  /// @brief Method AddOnSerialized, addr 0x24b5af4, size 0x90, virtual false, abstract: false, final false
   inline void AddOnSerialized(::System::Object* obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerializationObjectManager", modifiers: "&&", def_value: None }]

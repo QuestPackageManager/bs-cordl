@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LineInfo)
 namespace UnityEngine::TextCore::Text {
-struct TextAlignment;
+struct Extents;
 }
 namespace UnityEngine::TextCore::Text {
-struct Extents;
+struct TextAlignment;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LineInfo);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13573)), TypeDefinitionIndex(TypeDefinitionIndex(13597))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(13718))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13695))
 // CS Name: ::UnityEngine.TextCore.Text::LineInfo
 struct CORDL_TYPE LineInfo {
 public:

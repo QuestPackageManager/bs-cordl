@@ -20,12 +20,12 @@ MARK_VAL_T(::UnityEngine::LOD);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10018))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10090))
 // CS Name: ::UnityEngine::LOD
 struct CORDL_TYPE LOD {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x2b51cdc size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2cb70f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
 
   // Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "",

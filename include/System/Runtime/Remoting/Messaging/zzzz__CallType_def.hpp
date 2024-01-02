@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Messaging::CallType);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3180))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3181))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallType
 struct CORDL_TYPE CallType {
 public:

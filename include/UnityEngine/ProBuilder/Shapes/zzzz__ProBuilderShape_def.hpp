@@ -9,23 +9,23 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProBuilderShape)
-namespace UnityEngine {
-struct Vector3;
+namespace UnityEngine::ProBuilder::Shapes {
+class Shape;
+}
+namespace UnityEngine::ProBuilder {
+class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
 struct PivotLocation;
 }
 namespace UnityEngine {
-struct Bounds;
-}
-namespace UnityEngine::ProBuilder {
-class ProBuilderMesh;
-}
-namespace UnityEngine::ProBuilder::Shapes {
-class Shape;
+struct Quaternion;
 }
 namespace UnityEngine {
-struct Quaternion;
+struct Bounds;
+}
+namespace UnityEngine {
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine::ProBuilder::Shapes {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ProBuilderShape);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12123)), TypeDefinitionIndex(TypeDefinitionIndex(10092)), TypeDefinitionIndex(TypeDefinitionIndex(10176)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(10152))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12160)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12195)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12232)) CS Name:
 // ::UnityEngine.ProBuilder.Shapes::ProBuilderShape*
 class CORDL_TYPE ProBuilderShape : public ::UnityEngine::MonoBehaviour {
 public:
@@ -144,84 +144,84 @@ public:
 
   constexpr void __set_m_ShapeBox(::UnityEngine::Bounds value);
 
-  /// @brief Method get_shape addr 0x2a0be70 size 0x8 virtual false final false
+  /// @brief Method get_shape, addr 0x2b8cbc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Shapes::Shape* get_shape();
 
-  /// @brief Method set_shape addr 0x2a0be78 size 0x8 virtual false final false
+  /// @brief Method set_shape, addr 0x2b8cbcc, size 0x8, virtual false, abstract: false, final false
   inline void set_shape(::UnityEngine::ProBuilder::Shapes::Shape* value);
 
-  /// @brief Method get_pivotLocation addr 0x2a0be80 size 0x8 virtual false final false
+  /// @brief Method get_pivotLocation, addr 0x2b8cbd4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::PivotLocation get_pivotLocation();
 
-  /// @brief Method set_pivotLocation addr 0x2a0be88 size 0x8 virtual false final false
+  /// @brief Method set_pivotLocation, addr 0x2b8cbdc, size 0x8, virtual false, abstract: false, final false
   inline void set_pivotLocation(::UnityEngine::ProBuilder::PivotLocation value);
 
-  /// @brief Method get_pivotLocalPosition addr 0x2a0be90 size 0xc virtual false final false
+  /// @brief Method get_pivotLocalPosition, addr 0x2b8cbe4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivotLocalPosition();
 
-  /// @brief Method set_pivotLocalPosition addr 0x2a0be9c size 0xc virtual false final false
+  /// @brief Method set_pivotLocalPosition, addr 0x2b8cbf0, size 0xc, virtual false, abstract: false, final false
   inline void set_pivotLocalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_pivotGlobalPosition addr 0x2a0bea8 size 0x34 virtual false final false
+  /// @brief Method get_pivotGlobalPosition, addr 0x2b8cbfc, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pivotGlobalPosition();
 
-  /// @brief Method set_pivotGlobalPosition addr 0x2a0bfd4 size 0x60 virtual false final false
+  /// @brief Method set_pivotGlobalPosition, addr 0x2b8cd28, size 0x60, virtual false, abstract: false, final false
   inline void set_pivotGlobalPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_size addr 0x2a0c034 size 0xc virtual false final false
+  /// @brief Method get_size, addr 0x2b8cd88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method set_size addr 0x2a0c040 size 0xbc virtual false final false
+  /// @brief Method set_size, addr 0x2b8cd94, size 0xbc, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method get_rotation addr 0x2a0c0fc size 0xc virtual false final false
+  /// @brief Method get_rotation, addr 0x2b8ce50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_rotation addr 0x2a0c108 size 0xc virtual false final false
+  /// @brief Method set_rotation, addr 0x2b8ce5c, size 0xc, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method get_editionBounds addr 0x2a0c114 size 0xcc virtual false final false
+  /// @brief Method get_editionBounds, addr 0x2b8ce68, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_editionBounds();
 
-  /// @brief Method get_shapeBox addr 0x2a0c1e0 size 0x14 virtual false final false
+  /// @brief Method get_shapeBox, addr 0x2b8cf34, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_shapeBox();
 
-  /// @brief Method get_isEditable addr 0x2a0c1f4 size 0x28 virtual false final false
+  /// @brief Method get_isEditable, addr 0x2b8cf48, size 0x28, virtual false, abstract: false, final false
   inline bool get_isEditable();
 
-  /// @brief Method get_mesh addr 0x2a0bedc size 0xf8 virtual false final false
+  /// @brief Method get_mesh, addr 0x2b8cc30, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
 
-  /// @brief Method OnValidate addr 0x2a0c21c size 0xa4 virtual false final false
+  /// @brief Method OnValidate, addr 0x2b8cf70, size 0xa4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method UpdateComponent addr 0x2a0c2c0 size 0x34 virtual false final false
+  /// @brief Method UpdateComponent, addr 0x2b8d014, size 0x34, virtual false, abstract: false, final false
   inline void UpdateComponent();
 
-  /// @brief Method UpdateBounds addr 0x2a0c6a4 size 0xcc virtual false final false
+  /// @brief Method UpdateBounds, addr 0x2b8d3f8, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateBounds(::UnityEngine::Bounds bounds);
 
-  /// @brief Method Rebuild addr 0x2a0c770 size 0xec virtual false final false
+  /// @brief Method Rebuild, addr 0x2b8d4c4, size 0xec, virtual false, abstract: false, final false
   inline void Rebuild(::UnityEngine::Bounds bounds, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 cornerPivot);
 
-  /// @brief Method Rebuild addr 0x2a0c510 size 0x194 virtual false final false
+  /// @brief Method Rebuild, addr 0x2b8d264, size 0x194, virtual false, abstract: false, final false
   inline void Rebuild();
 
-  /// @brief Method SetShape addr 0x2a0ca9c size 0x250 virtual false final false
+  /// @brief Method SetShape, addr 0x2b8d7f0, size 0x250, virtual false, abstract: false, final false
   inline void SetShape(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation location);
 
-  /// @brief Method RotateInsideBounds addr 0x2a0ccec size 0xd4 virtual false final false
+  /// @brief Method RotateInsideBounds, addr 0x2b8da40, size 0xd4, virtual false, abstract: false, final false
   inline void RotateInsideBounds(::UnityEngine::Quaternion deltaRotation);
 
-  /// @brief Method ResetPivot addr 0x2a0c2f4 size 0x21c virtual false final false
+  /// @brief Method ResetPivot, addr 0x2b8d048, size 0x21c, virtual false, abstract: false, final false
   inline void ResetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method RebuildPivot addr 0x2a0c85c size 0x240 virtual false final false
+  /// @brief Method RebuildPivot, addr 0x2b8d5b0, size 0x240, virtual false, abstract: false, final false
   inline void RebuildPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
   static inline ::UnityEngine::ProBuilder::Shapes::ProBuilderShape* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a0cdc0 size 0xe0 virtual false final false
+  /// @brief Method .ctor, addr 0x2b8db14, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProBuilderShape", modifiers: "&&", def_value: None }]

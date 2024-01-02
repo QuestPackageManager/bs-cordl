@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IReadOnlyDictionary_2)
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyCollection_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
 namespace System::Collections {
 class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -29,7 +29,7 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3825))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
 // CS Name: ::System.Collections.Generic::IReadOnlyDictionary`2<TKey,TValue>*
 class CORDL_TYPE IReadOnlyDictionary_2 {
 public:
@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method TryGetValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGetValue(TKey key, ByRef<TValue> value);
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue get_Item(TKey key);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReadOnlyDictionary_2", modifiers: "&&", def_value: None }]

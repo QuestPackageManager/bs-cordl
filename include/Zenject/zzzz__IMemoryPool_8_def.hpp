@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IMemoryPool_8)
 namespace Zenject {
-template <typename TValue> class IDespawnableMemoryPool_1;
+class IMemoryPool;
 }
 namespace Zenject {
-class IMemoryPool;
+template <typename TValue> class IDespawnableMemoryPool_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -22,7 +22,7 @@ namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10964))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11036))
 // CS Name: ::Zenject::IMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
 class CORDL_TYPE IMemoryPool_8 {
 public:
@@ -33,7 +33,7 @@ public:
   /// @brief Convert operator to "::Zenject::IMemoryPool"
   constexpr operator ::Zenject::IMemoryPool*() noexcept;
 
-  /// @brief Method Spawn addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TValue Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4, TParam5 param5, TParam6 param6, TParam7 param7);
 
   // Ctor Parameters [CppParam { name: "", ty: "IMemoryPool_8", modifiers: "&&", def_value: None }]

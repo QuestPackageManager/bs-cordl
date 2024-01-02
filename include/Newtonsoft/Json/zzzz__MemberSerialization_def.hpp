@@ -16,7 +16,7 @@ MARK_VAL_T(::Newtonsoft::Json::MemberSerialization);
 namespace Newtonsoft::Json {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11749))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11821))
 // CS Name: ::Newtonsoft.Json::MemberSerialization
 struct CORDL_TYPE MemberSerialization {
 public:

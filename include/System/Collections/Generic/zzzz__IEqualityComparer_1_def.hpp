@@ -17,15 +17,15 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3822))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3834))
 // CS Name: ::System.Collections.Generic::IEqualityComparer`1<T>*
 class CORDL_TYPE IEqualityComparer_1 {
 public:
   // Declarations
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(T x, T y);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(T obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEqualityComparer_1", modifiers: "&&", def_value: None }]

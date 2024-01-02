@@ -13,19 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextInputBaseField_1)
 namespace UnityEngine::UIElements {
-class EventBase;
-}
-namespace UnityEngine::UIElements {
 class CustomStyleResolvedEvent;
-}
-namespace UnityEngine::UIElements {
-template <typename TValueType> class __TextInputBaseField_1__TextInputBase;
 }
 namespace UnityEngine::UIElements {
 class ITextHandle;
 }
 namespace UnityEngine::UIElements {
+class EventBase;
+}
+namespace UnityEngine::UIElements {
 template <typename TValueType> class __TextInputBaseField_1__UxmlTraits;
+}
+namespace UnityEngine::UIElements {
+template <typename TValueType> class __TextInputBaseField_1__TextInputBase;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -34,61 +34,55 @@ namespace UnityEngine::UIElements {
 class AttachToPanelEvent;
 }
 namespace UnityEngine::UIElements {
-class GeometryChangedEvent;
-}
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
-namespace UnityEngine {
-class GUIStyle;
-}
-namespace UnityEngine::UIElements {
 struct __VisualElement__MeasureMode;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEventHandler;
-}
-namespace UnityEngine::UIElements {
-struct __DropdownMenuAction__Status;
-}
-namespace UnityEngine::UIElements {
-class TextEditorEngine;
-}
-namespace UnityEngine::UIElements {
-class ITextElement;
-}
-namespace UnityEngine::UIElements {
-class IEventHandler;
-}
-namespace UnityEngine {
-struct Vector2;
-}
-namespace UnityEngine::UIElements {
-class ContextualMenuPopulateEvent;
-}
-namespace UnityEngine::UIElements {
-class IVisualElementScheduledItem;
-}
-namespace UnityEngine::UIElements {
-class ITextInputField;
-}
-namespace UnityEngine {
-struct Color;
 }
 namespace UnityEngine {
 class RectOffset;
 }
 namespace UnityEngine::UIElements {
-class MeshGenerationContext;
+struct __DropdownMenuAction__Status;
+}
+namespace UnityEngine::UIElements {
+class ITextInputField;
+}
+namespace UnityEngine::UIElements {
+class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
+}
+namespace UnityEngine {
+struct Vector2;
+}
+namespace UnityEngine::UIElements {
+class ITextElement;
+}
+namespace UnityEngine::UIElements {
+class TextEditorEventHandler;
 }
 namespace UnityEngine::UIElements {
 class DropdownMenuAction;
 }
 namespace UnityEngine::UIElements {
-class UxmlIntAttributeDescription;
+class TextEditorEngine;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class MeshGenerationContext;
+}
+namespace UnityEngine::UIElements {
+class GeometryChangedEvent;
+}
+namespace UnityEngine {
+class GUIStyle;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine::UIElements {
+class ContextualMenuPopulateEvent;
+}
+namespace UnityEngine {
+struct Color;
 }
 namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
@@ -97,7 +91,13 @@ namespace UnityEngine::UIElements {
 class UxmlStringAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class UxmlIntAttributeDescription;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -119,8 +119,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7217)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7217), inst: 900 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7070))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7182)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7131), inst: 917 }), TypeDefinitionIndex(TypeDefinitionIndex(6984)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7131))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7096)) CS Name: ::TextInputBaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<::StringW, ::UnityEngine::UIElements::UxmlStringAttributeDescription*> {
 public:
   // Declarations
@@ -178,12 +178,12 @@ public:
 
   constexpr void __set_m_IsDelayed(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<TValueType>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextInputBaseField_1__UxmlTraits", modifiers: "&&", def_value: None }]
@@ -228,8 +228,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6830)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7097))
 // CS Name: ::TextInputBaseField`1::TextInputBase<TValueType>*
 class CORDL_TYPE __TextInputBaseField_1__TextInputBase : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -437,220 +437,220 @@ public:
 
   constexpr void __set_m_Text(::StringW value);
 
-  /// @brief Method ResetValueAndText addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ResetValueAndText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResetValueAndText();
 
-  /// @brief Method SaveValueAndText addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SaveValueAndText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SaveValueAndText();
 
-  /// @brief Method RestoreValueAndText addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RestoreValueAndText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RestoreValueAndText();
 
-  /// @brief Method UpdateText addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateText(::StringW value);
 
-  /// @brief Method StringToValue addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StringToValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TValueType StringToValue(::StringW str);
 
-  /// @brief Method UpdateValueFromText addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateValueFromText();
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.get_isReadOnly addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextInputField_get_isReadOnly();
 
-  /// @brief Method get_isReadOnly addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_isReadOnly();
 
-  /// @brief Method set_isReadOnly addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method get_maxLength addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_maxLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_maxLength();
 
-  /// @brief Method set_maxLength addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_maxLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_maxLength(int32_t value);
 
-  /// @brief Method get_maskChar addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_maskChar, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline char16_t get_maskChar();
 
-  /// @brief Method set_maskChar addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_maskChar, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_maskChar(char16_t value);
 
-  /// @brief Method get_isPasswordField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isPasswordField();
 
-  /// @brief Method set_isPasswordField addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isPasswordField(bool value);
 
-  /// @brief Method get_doubleClickSelectsWord addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_doubleClickSelectsWord();
 
-  /// @brief Method set_doubleClickSelectsWord addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_doubleClickSelectsWord, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_doubleClickSelectsWord(bool value);
 
-  /// @brief Method get_tripleClickSelectsLine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_tripleClickSelectsLine();
 
-  /// @brief Method set_tripleClickSelectsLine addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_tripleClickSelectsLine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_tripleClickSelectsLine(bool value);
 
-  /// @brief Method get_isDelayed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_isDelayed();
 
-  /// @brief Method set_isDelayed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isDelayed(bool value);
 
-  /// @brief Method get_isDragging addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_isDragging, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_isDragging();
 
-  /// @brief Method get_touchScreenTextField addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_touchScreenTextField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_touchScreenTextField();
 
-  /// @brief Method get_touchScreenTextFieldChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
 
-  /// @brief Method get_selectionColor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_selectionColor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectionColor();
 
-  /// @brief Method get_cursorColor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_cursorColor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_cursorColor();
 
-  /// @brief Method get_hasFocus addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_hasFocus();
 
-  /// @brief Method get_editorEventHandler addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_editorEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEventHandler* get_editorEventHandler();
 
-  /// @brief Method set_editorEventHandler addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_editorEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_editorEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
-  /// @brief Method get_editorEngine addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextEditorEngine* get_editorEngine();
 
-  /// @brief Method set_editorEngine addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_editorEngine(::UnityEngine::UIElements::TextEditorEngine* value);
 
-  /// @brief Method get_text addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_text, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_text();
 
-  /// @brief Method set_text addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method set_text, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void set_text(::StringW value);
 
   static inline ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method InitTextEditorEventHandler addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InitTextEditorEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InitTextEditorEventHandler();
 
-  /// @brief Method CutActionStatus addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CutActionStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status CutActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method CopyActionStatus addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyActionStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status CopyActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method PasteActionStatus addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PasteActionStatus, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__DropdownMenuAction__Status PasteActionStatus(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method ProcessMenuCommand addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessMenuCommand, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ProcessMenuCommand(::StringW command);
 
-  /// @brief Method Cut addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Cut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Cut(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Copy(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method Paste addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Paste, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Paste(::UnityEngine::UIElements::DropdownMenuAction* a);
 
-  /// @brief Method OnInputCustomStyleResolved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnInputCustomStyleResolved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnInputCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method OnAttachToPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnAttachToPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* attachEvent);
 
-  /// @brief Method SyncTextEngine addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SyncTextEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SyncTextEngine();
 
-  /// @brief Method CullString addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CullString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW CullString(::StringW s);
 
-  /// @brief Method OnGenerateVisualContent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnGenerateVisualContent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnGenerateVisualContent(::UnityEngine::UIElements::MeshGenerationContext* mgc);
 
-  /// @brief Method DrawWithTextSelectionAndCursor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DrawWithTextSelectionAndCursor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void DrawWithTextSelectionAndCursor(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::StringW newText, float_t pixelsPerPoint);
 
-  /// @brief Method AcceptCharacter addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AcceptCharacter(char16_t c);
 
-  /// @brief Method BuildContextualMenu addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method BuildContextualMenu, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void BuildContextualMenu(::UnityEngine::UIElements::ContextualMenuPopulateEvent* evt);
 
-  /// @brief Method OnDetectFocusChange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnDetectFocusChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDetectFocusChange();
 
-  /// @brief Method OnCursorIndexChange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnCursorIndexChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnCursorIndexChange();
 
-  /// @brief Method DoMeasure addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DoMeasure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
-  /// @brief Method ExecuteDefaultActionDisabledAtTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultActionAtTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ProcessEventAtTarget addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessEventAtTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ProcessEventAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method ExecuteDefaultAction addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteDefaultAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.get_hasFocus addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.get_hasFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextInputField_get_hasFocus();
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.SyncTextEngine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.SyncTextEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextInputField_SyncTextEngine();
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.AcceptCharacter addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.AcceptCharacter, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextInputField_AcceptCharacter(char16_t c);
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.CullString addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.CullString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_UIElements_ITextInputField_CullString(::StringW s);
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.UpdateText addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.UpdateText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextInputField_UpdateText(::StringW value);
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.get_editorEngine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.get_editorEngine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TextEditorEngine* UnityEngine_UIElements_ITextInputField_get_editorEngine();
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.get_isDelayed addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_ITextInputField_get_isDelayed();
 
-  /// @brief Method UnityEngine.UIElements.ITextInputField.UpdateValueFromText addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.UIElements.ITextInputField.UpdateValueFromText, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_ITextInputField_UpdateValueFromText();
 
-  /// @brief Method DeferGUIStyleRectSync addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DeferGUIStyleRectSync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void DeferGUIStyleRectSync();
 
-  /// @brief Method OnPercentResolved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnPercentResolved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnPercentResolved(::UnityEngine::UIElements::GeometryChangedEvent* evt);
 
-  /// @brief Method SyncGUIStyle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SyncGUIStyle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void SyncGUIStyle(::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* textInput, ::UnityEngine::GUIStyle* style);
 
-  /// @brief Method IsLayoutUsingPercent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsLayoutUsingPercent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool IsLayoutUsingPercent(::UnityEngine::UIElements::VisualElement* ve);
 
-  /// @brief Method AssignRect addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AssignRect, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void AssignRect(::UnityEngine::RectOffset* rect, int32_t left, int32_t top, int32_t right, int32_t bottom);
 
-  /// @brief Method <ProcessEventAtTarget>b__97_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ProcessEventAtTarget>b__97_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ProcessEventAtTarget_b__97_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TextInputBaseField_1__TextInputBase", modifiers: "&&", def_value: None }]
@@ -728,9 +728,9 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7392), inst: 294 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7216), inst: 902 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(7392)), TypeDefinitionIndex(TypeDefinitionIndex(7216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
-// CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 919 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 })} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7098)) CS Name: ::UnityEngine.UIElements::TextInputBaseField`1<TValueType>*
 class CORDL_TYPE TextInputBaseField_1 : public ::UnityEngine::UIElements::BaseField_1<TValueType> {
 public:
   // Declarations
@@ -848,49 +848,49 @@ public:
 
   static inline ::StringW getStaticF_textInputUssName();
 
-  /// @brief Method get_textInputBase addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_textInputBase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* get_textInputBase();
 
-  /// @brief Method set_iTextHandle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_iTextHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_iTextHandle(::UnityEngine::UIElements::ITextHandle* value);
 
-  /// @brief Method set_text addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_text, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_isReadOnly addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_isReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isReadOnly(bool value);
 
-  /// @brief Method set_isPasswordField addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_isPasswordField, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isPasswordField(bool value);
 
-  /// @brief Method set_maxLength addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_maxLength, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_maxLength(int32_t value);
 
-  /// @brief Method get_isDelayed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_isDelayed();
 
-  /// @brief Method set_isDelayed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_isDelayed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_isDelayed(bool value);
 
-  /// @brief Method set_maskChar addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_maskChar, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_maskChar(char16_t value);
 
   static inline ::UnityEngine::UIElements::TextInputBaseField_1<TValueType>* New_ctor(::StringW label, int32_t maxLength, char16_t maskChar,
                                                                                       ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* textInputBase);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength, char16_t maskChar, ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<TValueType>* textInputBase);
 
-  /// @brief Method OnAttachToPanel addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnAttachToPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* e);
 
-  /// @brief Method OnFieldCustomStyleResolved addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method OnFieldCustomStyleResolved, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnFieldCustomStyleResolved(::UnityEngine::UIElements::CustomStyleResolvedEvent* e);
 
-  /// @brief Method ExecuteDefaultActionAtTarget addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method UpdateMixedValueContent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextInputBaseField_1", modifiers: "&&", def_value: None }]

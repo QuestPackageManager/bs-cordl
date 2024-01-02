@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14053))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13782))
 // CS Name: ::Mono.Security.Interface::MonoTlsProvider*
 class CORDL_TYPE MonoTlsProvider : public ::System::Object {
 public:
@@ -43,28 +43,28 @@ public:
 
   static inline ::Mono::Security::Interface::MonoTlsProvider* New_ctor();
 
-  /// @brief Method .ctor addr 0x22a8a78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2402d84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ID addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_ID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Guid get_ID();
 
-  /// @brief Method get_Name addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_SupportsSslStream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsSslStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsSslStream();
 
-  /// @brief Method get_SupportsConnectionInfo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsConnectionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsConnectionInfo();
 
-  /// @brief Method get_SupportsMonoExtensions addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsMonoExtensions, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsMonoExtensions();
 
-  /// @brief Method get_SupportedProtocols addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportedProtocols, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Security::Authentication::SslProtocols get_SupportedProtocols();
 
-  /// @brief Method get_SupportsCleanShutdown addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SupportsCleanShutdown, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_SupportsCleanShutdown();
 
   // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProvider", modifiers: "&&", def_value: None }]

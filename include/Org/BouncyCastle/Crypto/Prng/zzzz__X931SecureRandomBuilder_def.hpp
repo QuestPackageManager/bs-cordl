@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X931SecureRandomBuilder)
-namespace Org::BouncyCastle::Crypto {
-class IBlockCipher;
-}
-namespace Org::BouncyCastle::Crypto::Parameters {
-class KeyParameter;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
-}
 namespace Org::BouncyCastle::Crypto::Prng {
 class X931SecureRandom;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySourceProvider;
+}
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1122))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931SecureRandomBuilder*
 class CORDL_TYPE X931SecureRandomBuilder : public ::System::Object {
@@ -66,23 +66,23 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor();
 
-  /// @brief Method .ctor addr 0xecfed4 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0xf460c0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
-  /// @brief Method .ctor addr 0xecff38 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0xf46124, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* entropySource, bool predictionResistant);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* New_ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method .ctor addr 0xecffc4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf461b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IEntropySourceProvider* entropySourceProvider);
 
-  /// @brief Method SetDateTimeVector addr 0xecffec size 0x8 virtual false final false
+  /// @brief Method SetDateTimeVector, addr 0xf461d8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* SetDateTimeVector(::ArrayW<uint8_t, ::Array<uint8_t>*> dateTimeVector);
 
-  /// @brief Method Build addr 0xecfff4 size 0x2e4 virtual false final false
+  /// @brief Method Build, addr 0xf461e0, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Build(::Org::BouncyCastle::Crypto::IBlockCipher* engine, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key,
                                                                     bool predictionResistant);
 

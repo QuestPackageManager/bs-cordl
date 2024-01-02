@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11745))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11817))
 // CS Name: ::Newtonsoft.Json::JsonConverterAttribute*
 class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
 public:
@@ -50,23 +50,23 @@ public:
 
   constexpr void __set__ConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method get_ConverterType addr 0x24dcc20 size 0x8 virtual false final false
+  /// @brief Method get_ConverterType, addr 0x263f364, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
 
-  /// @brief Method get_ConverterParameters addr 0x24dcc28 size 0x8 virtual false final false
+  /// @brief Method get_ConverterParameters, addr 0x263f36c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
 
-  /// @brief Method set_ConverterParameters addr 0x24dcc30 size 0x8 virtual false final false
+  /// @brief Method set_ConverterParameters, addr 0x263f374, size 0x8, virtual false, abstract: false, final false
   inline void set_ConverterParameters(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor addr 0x24dcc38 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x263f37c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
   static inline ::Newtonsoft::Json::JsonConverterAttribute* New_ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
-  /// @brief Method .ctor addr 0x24dccb0 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x263f3f4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonConverterAttribute", modifiers: "&&", def_value: None }]

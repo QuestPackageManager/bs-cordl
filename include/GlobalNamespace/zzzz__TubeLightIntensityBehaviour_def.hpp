@@ -6,17 +6,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TubeLightIntensityBehaviour)
-namespace UnityEngine::Playables {
-struct FrameData;
-}
 namespace System {
 class Object;
 }
-namespace GlobalNamespace {
-class TubeBloomPrePassLight;
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 namespace GlobalNamespace {
 class DirectionalLight;
+}
+namespace GlobalNamespace {
+class TubeBloomPrePassLight;
 }
 namespace UnityEngine::Playables {
 struct Playable;
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeLightIntensityBehaviour);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6079))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6024))
 // CS Name: ::TubeLightIntensityBehaviour*
 class CORDL_TYPE TubeLightIntensityBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -181,18 +181,18 @@ public:
 
   constexpr void __set__firstFrameLaserIntensity(float_t value);
 
-  /// @brief Method ProcessFrame addr 0x21c5530 size 0x370 virtual true final false
+  /// @brief Method ProcessFrame, addr 0x2318354, size 0x370, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
-  /// @brief Method EnableObjects addr 0x21c58a0 size 0xd4 virtual false final false
+  /// @brief Method EnableObjects, addr 0x23186c4, size 0xd4, virtual false, abstract: false, final false
   inline void EnableObjects(bool on);
 
-  /// @brief Method OnPlayableDestroy addr 0x21c5974 size 0xcc virtual true final false
+  /// @brief Method OnPlayableDestroy, addr 0x2318798, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
   static inline ::GlobalNamespace::TubeLightIntensityBehaviour* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c5a40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2318864, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TubeLightIntensityBehaviour", modifiers: "&&", def_value: None }]

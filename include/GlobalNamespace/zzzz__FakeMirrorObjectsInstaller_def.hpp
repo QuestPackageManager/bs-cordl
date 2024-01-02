@@ -6,13 +6,16 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(FakeMirrorObjectsInstaller)
 namespace GlobalNamespace {
-class MirroredObstacleController;
+class __FakeMirrorObjectsInstaller____c;
 }
 namespace GlobalNamespace {
-class MirrorRendererGraphicsSettingsPresets;
+class MirroredGameNoteController;
 }
 namespace GlobalNamespace {
 class MirroredBombNoteController;
+}
+namespace GlobalNamespace {
+class MirroredObstacleController;
 }
 namespace GlobalNamespace {
 class MirroredSliderController;
@@ -21,10 +24,7 @@ namespace GlobalNamespace {
 class IntSO;
 }
 namespace GlobalNamespace {
-class MirroredGameNoteController;
-}
-namespace GlobalNamespace {
-class __FakeMirrorObjectsInstaller____c;
+class MirrorRendererGraphicsSettingsPresets;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -46,8 +46,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__FakeMirrorObjectsInstaller____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5482))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5391))
 // CS Name: ::FakeMirrorObjectsInstaller::<>c*
 class CORDL_TYPE __FakeMirrorObjectsInstaller____c : public ::System::Object {
 public:
@@ -68,10 +68,10 @@ public:
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method .ctor addr 0x212a8a0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226fea0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <InstallBindings>b__11_0 addr 0x212a8a8 size 0x94 virtual false final false
+  /// @brief Method <InstallBindings>b__11_0, addr 0x226fea8, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__11_0(::Zenject::BindingId t);
 
   // Ctor Parameters [CppParam { name: "", ty: "__FakeMirrorObjectsInstaller____c", modifiers: "&&", def_value: None }]
@@ -98,8 +98,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__FakeMirrorObj
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5483))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5392))
 // CS Name: ::FakeMirrorObjectsInstaller*
 class CORDL_TYPE FakeMirrorObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
@@ -193,15 +193,15 @@ public:
 
   constexpr void __set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab addr 0x212a2ac size 0x8 virtual false final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x226f8ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MirroredGameNoteController* get_mirroredGameNoteControllerPrefab();
 
-  /// @brief Method InstallBindings addr 0x212a2b4 size 0x580 virtual true final false
+  /// @brief Method InstallBindings, addr 0x226f8b4, size 0x580, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
 
-  /// @brief Method .ctor addr 0x212a834 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226fe34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FakeMirrorObjectsInstaller", modifiers: "&&", def_value: None }]

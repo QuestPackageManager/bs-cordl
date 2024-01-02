@@ -7,25 +7,25 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GameLiftNetworkPlayerModel)
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
 class __GameLiftConnectionManager__StartClientParams;
 }
 namespace GlobalNamespace {
 struct BeatmapLevelSelectionMask;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
 namespace GlobalNamespace {
 class __GameLiftConnectionManager__ConnectToServerParams;
 }
 namespace GlobalNamespace {
+struct GameplayServerConfiguration;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
 struct PublicServerInfo;
+}
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -46,22 +46,22 @@ class GameLiftNetworkPlayerModel;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameLiftNetworkPlayerModel);
 // Type: ::GameLiftNetworkPlayerModel
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12666)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4575), inst: 2686 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4575))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4538)) CS Name: ::GameLiftNetworkPlayerModel*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14962), inst: 2746 }), TypeDefinitionIndex(TypeDefinitionIndex(12737)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14962))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14941)) CS Name: ::GameLiftNetworkPlayerModel*
 class CORDL_TYPE GameLiftNetworkPlayerModel : public ::GlobalNamespace::NetworkPlayerModel_1<::GlobalNamespace::GameLiftConnectionManager*> {
 public:
   // Declarations
-  /// @brief Field _gameLiftPlayerSessionProvider, offset 0xf0, size 0x8
+  /// @brief Field _gameLiftPlayerSessionProvider, offset 0x100, size 0x8
   __declspec(property(get = __get__gameLiftPlayerSessionProvider, put = __set__gameLiftPlayerSessionProvider))::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* _gameLiftPlayerSessionProvider;
 
-  /// @brief Field _cachedConnectToServerParams, offset 0xf8, size 0x8
+  /// @brief Field _cachedConnectToServerParams, offset 0x108, size 0x8
   __declspec(property(get = __get__cachedConnectToServerParams,
                       put = __set__cachedConnectToServerParams))::GlobalNamespace::__GameLiftConnectionManager__ConnectToServerParams* _cachedConnectToServerParams;
 
-  /// @brief Field _cachedStartClientParams, offset 0x100, size 0x8
+  /// @brief Field _cachedStartClientParams, offset 0x110, size 0x8
   __declspec(property(get = __get__cachedStartClientParams, put = __set__cachedStartClientParams))::GlobalNamespace::__GameLiftConnectionManager__StartClientParams* _cachedStartClientParams;
 
   __declspec(property(get = get_secret))::StringW secret;
@@ -92,40 +92,43 @@ public:
 
   constexpr void __set__cachedStartClientParams(::GlobalNamespace::__GameLiftConnectionManager__StartClientParams* value);
 
-  /// @brief Method get_secret addr 0x2216210 size 0x54 virtual true final false
+  /// @brief Method get_secret, addr 0x2636a98, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_code addr 0x2216264 size 0x54 virtual true final false
+  /// @brief Method get_code, addr 0x2636aec, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_partyOwnerId addr 0x22162b8 size 0x8 virtual true final false
+  /// @brief Method get_partyOwnerId, addr 0x2636b40, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_configuration addr 0x22162c0 size 0x78 virtual true final false
+  /// @brief Method get_configuration, addr 0x2636b48, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_selectionMask addr 0x2216338 size 0x78 virtual true final false
+  /// @brief Method get_selectionMask, addr 0x2636bc0, size 0x78, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method Update addr 0x22163b0 size 0xc0 virtual true final false
+  /// @brief Method Update, addr 0x2636c38, size 0xc0, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method RefreshPublicServers addr 0x2216470 size 0xb8 virtual true final false
+  /// @brief Method RefreshPublicServers, addr 0x2636cf8, size 0xb8, virtual true, abstract: false, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
-  /// @brief Method GetConnectToServerParams addr 0x2216528 size 0xe8 virtual true final false
-  inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
-  GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
+  /// @brief Method GetConnectToServerParams, addr 0x2636db0, size 0xe8, virtual true, abstract: false, final false
+  /// @param secret: ::StringW (default: nullptr)
+  /// @param code: ::StringW (default: nullptr)
+  inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
+                                                                                                                             ::GlobalNamespace::GameplayServerConfiguration configuration,
+                                                                                                                             ::StringW secret = nullptr, ::StringW code = nullptr);
 
-  /// @brief Method GetStartClientParams addr 0x2216610 size 0xd0 virtual true final false
+  /// @brief Method GetStartClientParams, addr 0x2636e98, size 0xd0, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                          ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::GameLiftNetworkPlayerModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x22166e0 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0x2636f68, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GameLiftNetworkPlayerModel", modifiers: "&&", def_value: None }]
@@ -142,25 +145,25 @@ protected:
   constexpr GameLiftNetworkPlayerModel();
 
 public:
-  /// @brief Field _gameLiftPlayerSessionProvider, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _gameLiftPlayerSessionProvider, offset: 0x100, size: 0x8, def value: None
   ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* ____gameLiftPlayerSessionProvider;
 
-  /// @brief Field _cachedConnectToServerParams, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _cachedConnectToServerParams, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::__GameLiftConnectionManager__ConnectToServerParams* ____cachedConnectToServerParams;
 
-  /// @brief Field _cachedStartClientParams, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _cachedStartClientParams, offset: 0x110, size: 0x8, def value: None
   ::GlobalNamespace::__GameLiftConnectionManager__StartClientParams* ____cachedStartClientParams;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftNetworkPlayerModel, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameLiftNetworkPlayerModel, 0x118>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____gameLiftPlayerSessionProvider) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____gameLiftPlayerSessionProvider) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____cachedConnectToServerParams) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____cachedConnectToServerParams) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____cachedStartClientParams) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameLiftNetworkPlayerModel, ____cachedStartClientParams) == 0x110, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameLiftNetworkPlayerModel);

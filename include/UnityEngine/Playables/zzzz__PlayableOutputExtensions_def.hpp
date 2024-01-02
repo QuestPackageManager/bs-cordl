@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayableOutputExtensions)
+namespace UnityEngine::Playables {
+struct Playable;
+}
 namespace System {
 class Object;
 }
-namespace UnityEngine::Playables {
-class INotification;
+namespace UnityEngine {
+class Object;
 }
 namespace UnityEngine::Playables {
 class INotificationReceiver;
 }
 namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine {
-class Object;
+class INotification;
 }
 // Forward declare root types
 namespace UnityEngine::Playables {
@@ -31,34 +31,36 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableOutputExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10348))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10426))
 // CS Name: ::UnityEngine.Playables::PlayableOutputExtensions*
 class CORDL_TYPE PlayableOutputExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetReferenceObject addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetReferenceObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetReferenceObject(U output, ::UnityEngine::Object* value);
 
-  /// @brief Method SetUserData addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetUserData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetUserData(U output, ::UnityEngine::Object* value);
 
-  /// @brief Method GetSourcePlayable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetSourcePlayable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline ::UnityEngine::Playables::Playable GetSourcePlayable(U output);
 
-  /// @brief Method SetSourcePlayable addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetSourcePlayable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U, typename V> static inline void SetSourcePlayable(U output, V value, int32_t port);
 
-  /// @brief Method GetSourceOutputPort addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetSourceOutputPort, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline int32_t GetSourceOutputPort(U output);
 
-  /// @brief Method SetWeight addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SetWeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetWeight(U output, float_t value);
 
-  /// @brief Method PushNotification addr 0x0 size 0xffffffffffffffff virtual false final false
-  template <typename U> static inline void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
+  /// @brief Method PushNotification, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param context: ::System::Object* (default: nullptr)
+  template <typename U>
+  static inline void PushNotification(U output, ::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context = nullptr);
 
-  /// @brief Method AddNotificationReceiver addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddNotificationReceiver, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void AddNotificationReceiver(U output, ::UnityEngine::Playables::INotificationReceiver* receiver);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlayableOutputExtensions", modifiers: "&&", def_value: None }]

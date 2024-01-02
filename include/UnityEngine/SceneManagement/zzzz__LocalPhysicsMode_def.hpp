@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LocalPhysicsMode);
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10298))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10376))
 // CS Name: ::UnityEngine.SceneManagement::LocalPhysicsMode
 struct CORDL_TYPE LocalPhysicsMode {
 public:

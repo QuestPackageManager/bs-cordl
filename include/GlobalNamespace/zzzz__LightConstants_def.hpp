@@ -6,8 +6,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightConstants)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 struct __LightConstants__BakeId;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightConstants);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14748))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14532))
 // CS Name: ::LightConstants::BakeId
 struct CORDL_TYPE __LightConstants__BakeId {
 public:
@@ -89,13 +95,31 @@ static_assert(offsetof(::GlobalNamespace::__LightConstants__BakeId, value__) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14749))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14533))
 // CS Name: ::LightConstants*
 class CORDL_TYPE LightConstants : public ::System::Object {
 public:
   // Declarations
   using BakeId = ::GlobalNamespace::__LightConstants__BakeId;
+
+  /// @brief Field allBakeIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_allBakeIds, put = setStaticF_allBakeIds))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* allBakeIds;
+
+  /// @brief Field _probeLightPropertyIds, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF__probeLightPropertyIds,
+                             put = setStaticF__probeLightPropertyIds))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, int32_t>* _probeLightPropertyIds;
+
+  static inline void setStaticF_allBakeIds(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* value);
+
+  static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__LightConstants__BakeId>* getStaticF_allBakeIds();
+
+  static inline void setStaticF__probeLightPropertyIds(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, int32_t>* value);
+
+  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__LightConstants__BakeId, int32_t>* getStaticF__probeLightPropertyIds();
+
+  /// @brief Method GetLightProbeLightBakeIdPropertyId, addr 0x210f418, size 0x168, virtual false, abstract: false, final false
+  static inline int32_t GetLightProbeLightBakeIdPropertyId(::GlobalNamespace::__LightConstants__BakeId bakeId);
 
   // Ctor Parameters [CppParam { name: "", ty: "LightConstants", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -113,6 +137,9 @@ protected:
 public:
   /// @brief Field kBaseLightId offset 0xffffffff size 0x4
   static constexpr int32_t kBaseLightId{ static_cast<int32_t>(0x19) };
+
+  /// @brief Field kLightProbeLightBakeIdPrefix offset 0xffffffff size 0x8
+  static constexpr ::ConstString kLightProbeLightBakeIdPrefix{ u"_LightProbeLightBakeId" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

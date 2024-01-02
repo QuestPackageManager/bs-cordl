@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTemplateTraits);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7081))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7061))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6975))
 // CS Name: ::UnityEngine.UIElements::UxmlTemplateTraits*
 class CORDL_TYPE UxmlTemplateTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
@@ -52,7 +52,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlTemplateTraits* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca8054 size 0xf8 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0e404, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlTemplateTraits", modifiers: "&&", def_value: None }]

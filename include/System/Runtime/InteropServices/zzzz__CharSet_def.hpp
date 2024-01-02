@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Runtime::InteropServices::CharSet);
 namespace System::Runtime::InteropServices {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3300))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3301))
 // CS Name: ::System.Runtime.InteropServices::CharSet
 struct CORDL_TYPE CharSet {
 public:

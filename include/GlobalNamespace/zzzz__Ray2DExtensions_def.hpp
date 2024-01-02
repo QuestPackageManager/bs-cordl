@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Ray2DExtensions)
 namespace UnityEngine {
-struct Vector2;
+struct Ray2D;
 }
 namespace UnityEngine {
-struct Ray2D;
+struct Vector2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,13 +23,13 @@ MARK_REF_PTR_T(::GlobalNamespace::Ray2DExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13886))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15858))
 // CS Name: ::Ray2DExtensions*
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CircleIntersections addr 0x1f98510 size 0x22c virtual false final false
+  /// @brief Method CircleIntersections, addr 0xe28444, size 0x22c, virtual false, abstract: false, final false
   static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t, ::Array<float_t>*> distances);
 
   // Ctor Parameters [CppParam { name: "", ty: "Ray2DExtensions", modifiers: "&&", def_value: None }]

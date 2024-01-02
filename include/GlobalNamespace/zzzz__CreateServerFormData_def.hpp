@@ -13,19 +13,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CreateServerFormData)
 namespace GlobalNamespace {
-struct GameplayServerMode;
+struct GameplayServerControlSettings;
 }
 namespace GlobalNamespace {
-struct SongPackMask;
+struct GameplayServerMode;
 }
 namespace GlobalNamespace {
 struct GameplayModifierMask;
 }
 namespace GlobalNamespace {
-struct BeatmapDifficultyMask;
+struct SongPackMask;
 }
 namespace GlobalNamespace {
-struct GameplayServerControlSettings;
+struct BeatmapDifficultyMask;
 }
 namespace GlobalNamespace {
 struct SongSelectionMode;
@@ -37,12 +37,12 @@ struct CreateServerFormData;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::CreateServerFormData);
 // Type: ::CreateServerFormData
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15144)), TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(12688)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12697)), TypeDefinitionIndex(TypeDefinitionIndex(14936)), TypeDefinitionIndex(TypeDefinitionIndex(15192))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5658)) CS Name: ::CreateServerFormData
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12959)), TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(14719)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(14997))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5565)) CS Name: ::CreateServerFormData
 struct CORDL_TYPE CreateServerFormData {
 public:
   // Declarations
@@ -81,25 +81,25 @@ public:
   /// @brief Field modifiers, offset: 0x18, size: 0x2, def value: None
   ::GlobalNamespace::GameplayModifierMask modifiers;
 
-  /// @brief Field songPacks, offset: 0x20, size: 0x10, def value: None
+  /// @brief Field songPacks, offset: 0x20, size: 0x20, def value: None
   ::GlobalNamespace::SongPackMask songPacks;
 
-  /// @brief Field gameplayServerMode, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field gameplayServerMode, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerMode gameplayServerMode;
 
-  /// @brief Field songSelectionMode, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field songSelectionMode, offset: 0x44, size: 0x4, def value: None
   ::GlobalNamespace::SongSelectionMode songSelectionMode;
 
-  /// @brief Field gameplayServerControlSettings, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field gameplayServerControlSettings, offset: 0x48, size: 0x4, def value: None
   ::GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormData, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CreateServerFormData, 0x50>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, usePassword) == 0x0, "Offset mismatch!");
 
@@ -117,11 +117,11 @@ static_assert(offsetof(::GlobalNamespace::CreateServerFormData, modifiers) == 0x
 
 static_assert(offsetof(::GlobalNamespace::CreateServerFormData, songPacks) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerMode) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerMode) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreateServerFormData, songSelectionMode) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreateServerFormData, songSelectionMode) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerControlSettings) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CreateServerFormData, gameplayServerControlSettings) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CreateServerFormData, "", "CreateServerFormData");

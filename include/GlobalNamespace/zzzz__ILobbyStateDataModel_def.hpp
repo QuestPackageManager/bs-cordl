@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILobbyStateDataModel)
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace GlobalNamespace {
 struct GameplayServerConfiguration;
@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILobbyStateDataModel);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4504))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4493))
 // CS Name: ::ILobbyStateDataModel*
 class CORDL_TYPE ILobbyStateDataModel {
 public:
@@ -45,40 +45,40 @@ public:
 
   __declspec(property(get = get_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
 
-  /// @brief Method add_playerConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_playerConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_playerConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_playerDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_playerDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method get_isConnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnected();
 
-  /// @brief Method get_localPlayer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_localPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
 
-  /// @brief Method get_connectedPlayers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_connectedPlayers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
 
-  /// @brief Method get_rawConnectedPlayers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_rawConnectedPlayers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_rawConnectedPlayers();
 
-  /// @brief Method get_configuration addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_configuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method Activate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Activate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Activate();
 
-  /// @brief Method Deactivate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Deactivate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Deactivate();
 
-  /// @brief Method GetPlayerById addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPlayerById, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetPlayerById(::StringW userId);
 
   // Ctor Parameters [CppParam { name: "", ty: "ILobbyStateDataModel", modifiers: "&&", def_value: None }]

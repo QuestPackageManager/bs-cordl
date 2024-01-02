@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NtlmClient)
 namespace System::Net {
+class Authorization;
+}
+namespace System::Net {
 class IAuthenticationModule;
 }
 namespace System::Net {
 class ICredentials;
-}
-namespace System::Net {
-class Authorization;
 }
 namespace System::Net {
 class WebRequest;
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Net::NtlmClient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8034))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9197))
 // CS Name: ::System.Net::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {
 public:
@@ -49,16 +49,16 @@ public:
 
   static inline ::System::Net::NtlmClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x2858d20 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0x29d5594, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Authenticate addr 0x2858d8c size 0xd0 virtual true final true
+  /// @brief Method Authenticate, addr 0x29d5600, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x2858e5c size 0x8 virtual true final true
+  /// @brief Method PreAuthenticate, addr 0x29d56d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType addr 0x2858e64 size 0x40 virtual true final true
+  /// @brief Method get_AuthenticationType, addr 0x29d56d8, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   // Ctor Parameters [CppParam { name: "", ty: "NtlmClient", modifiers: "&&", def_value: None }]

@@ -2,9 +2,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__AdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
+#include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
+#include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
@@ -18,31 +20,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StandardLevelDetailViewController)
 namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d;
-}
-namespace GlobalNamespace {
 class EventBinder;
 }
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d;
-}
-namespace GlobalNamespace {
-class IDifficultyBeatmap;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
+namespace UnityEngine {
+class GameObject;
 }
 namespace GlobalNamespace {
 struct __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d;
@@ -50,71 +31,98 @@ struct __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo
 namespace GlobalNamespace {
 struct BeatmapDifficultyMask;
 }
-namespace UnityEngine {
-class GameObject;
+namespace GlobalNamespace {
+class IBeatmapLevel;
 }
 namespace GlobalNamespace {
-class BeatmapLevelsModel;
+class IAnalyticsModel;
 }
-namespace GlobalNamespace {
-class StandardLevelBuyView;
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace GlobalNamespace {
 class IBeatmapLevelPack;
 }
-namespace System {
-template <typename T> class Action_1;
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d;
+}
+namespace GlobalNamespace {
+class StandardLevelBuyInfoView;
+}
+namespace GlobalNamespace {
+class StandardLevelBuyView;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelsModel__LevelDownloadingUpdate;
 }
 namespace GlobalNamespace {
+class IPreviewBeatmapLevel;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d;
+}
+namespace GlobalNamespace {
 class StandardLevelDetailView;
+}
+namespace GlobalNamespace {
+class BeatmapLevelsModel;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace System::Threading {
 struct CancellationToken;
 }
 namespace GlobalNamespace {
-class IPreviewBeatmapLevel;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
-class LoadingControl;
-}
-namespace GlobalNamespace {
-class IAnalyticsModel;
-}
-namespace GlobalNamespace {
 struct __StandardLevelDetailViewController__ContentType;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57;
-}
-namespace System::Threading::Tasks {
-class Task;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-class IBeatmapLevel;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-struct __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d;
 }
 namespace GlobalNamespace {
 class DlcPromoPanelModel;
 }
 namespace GlobalNamespace {
-class StandardLevelBuyInfoView;
+struct __StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IDifficultyBeatmap;
+}
+namespace System::Threading::Tasks {
+class Task;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace GlobalNamespace {
+class LoadingControl;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
+}
+namespace System::Runtime::CompilerServices {
+class IAsyncStateMachine;
 }
 namespace GlobalNamespace {
 struct __BeatmapLevelsModel__GetBeatmapLevelResult;
@@ -123,25 +131,19 @@ namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncTaskMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+namespace GlobalNamespace {
+struct OpenProductStoreResult;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__OpenProductStoreResult;
+struct IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
-struct __AdditionalContentModel__IsPackBetterBuyThanLevelResult;
-}
-namespace GlobalNamespace {
-struct __AdditionalContentModel__EntitlementStatus;
+struct EntitlementStatus;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -182,7 +184,7 @@ MARK_VAL_T(::GlobalNamespace::__StandardLevelDetailViewController____RefreshAvai
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5778))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5679))
 // CS Name: ::StandardLevelDetailViewController::ContentType
 struct CORDL_TYPE __StandardLevelDetailViewController__ContentType {
 public:
@@ -255,19 +257,19 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController__C
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 889 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4380)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3396))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5779)) CS Name: ::StandardLevelDetailViewController::<LoadBeatmapLevelAsync>d__57
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(4358))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5680)) CS Name: ::StandardLevelDetailViewController::<LoadBeatmapLevelAsync>d__57
 struct CORDL_TYPE __StandardLevelDetailViewController___LoadBeatmapLevelAsync_d__57 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2181b80 size 0x51c virtual true final true
+  /// @brief Method MoveNext, addr 0x22c571c, size 0x51c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x218209c size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c5c38, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -327,8 +329,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3388))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5780))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5681))
 // CS Name: ::StandardLevelDetailViewController::<ShowLoadingAndDoSomething>d__62
 struct CORDL_TYPE __StandardLevelDetailViewController___ShowLoadingAndDoSomething_d__62 {
 public:
@@ -336,10 +338,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21820a8 size 0x2a4 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c5c44, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x218234c size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c5ee8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -393,8 +395,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 885 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4123)), TypeDefinitionIndex(TypeDefinitionIndex(2675))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5781))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5682))
 // CS Name: ::StandardLevelDetailViewController::<<BuyPackButtonWasPressed>b__56_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d {
 public:
@@ -402,19 +404,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2182358 size 0x278 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c5ef4, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21825d0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c61dc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::StandardLevelDetailViewController*",
   // modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult>", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::StandardLevelDetailViewController* __4__this,
-      ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }]
+  constexpr __StandardLevelDetailViewController____BuyPackButtonWasPressed_b__56_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                     ::GlobalNamespace::StandardLevelDetailViewController* __4__this, ::System::Threading::CancellationToken token,
+                                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -433,7 +435,7 @@ public:
   ::System::Threading::CancellationToken token;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -458,8 +460,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(4125)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 884 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5782)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16272)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 891 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5683)) CS Name:
 // ::StandardLevelDetailViewController::<<OpenLevelProductStoreOrShowBuyInfo>b__58_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d {
 public:
@@ -467,19 +469,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21825dc size 0x37c virtual true final true
+  /// @brief Method MoveNext, addr 0x22c61e8, size 0x3e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2182958 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c65d0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::StandardLevelDetailViewController*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__IsPackBetterBuyThanLevelResult>",
-  // modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>", modifiers: "", def_value:
+  // None }]
   constexpr __StandardLevelDetailViewController____OpenLevelProductStoreOrShowBuyInfo_b__58_0_d(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::StandardLevelDetailViewController* __4__this,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__IsPackBetterBuyThanLevelResult> __u__1) noexcept;
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -495,7 +497,7 @@ public:
   ::GlobalNamespace::StandardLevelDetailViewController* __4__this;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__IsPackBetterBuyThanLevelResult> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -518,8 +520,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 885
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3396)), TypeDefinitionIndex(TypeDefinitionIndex(4123))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5783)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 895
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5684)) CS Name:
 // ::StandardLevelDetailViewController::<<OpenLevelProductStore>b__59_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d {
 public:
@@ -527,19 +529,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2182964 size 0x278 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c65dc, size 0x2e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2182bdc size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c68c4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::StandardLevelDetailViewController*",
   // modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult>", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::StandardLevelDetailViewController* __4__this,
-      ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }]
+  constexpr __StandardLevelDetailViewController____OpenLevelProductStore_b__59_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                   ::GlobalNamespace::StandardLevelDetailViewController* __4__this, ::System::Threading::CancellationToken token,
+                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -558,7 +560,7 @@ public:
   ::System::Threading::CancellationToken token;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__OpenProductStoreResult> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -583,30 +585,30 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(4122)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3388)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(2675)), TypeDefinitionIndex(TypeDefinitionIndex(3396))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5784)) CS Name: ::StandardLevelDetailViewController::<<RefreshAvailabilityIfNeeded>b__60_0>d
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
+// }), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(5685)) CS Name: ::StandardLevelDetailViewController::<<RefreshAvailabilityIfNeeded>b__60_0>d
 struct CORDL_TYPE __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2182be8 size 0x3c8 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c68d0, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2182fb0 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c6d00, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::StandardLevelDetailViewController*",
   // modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::StandardLevelDetailViewController* __4__this,
-      ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+  constexpr __StandardLevelDetailViewController____RefreshAvailabilityIfNeeded_b__60_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                         ::GlobalNamespace::StandardLevelDetailViewController* __4__this, ::System::Threading::CancellationToken token,
+                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1,
+                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -625,7 +627,7 @@ public:
   ::System::Threading::CancellationToken token;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__AdditionalContentModel__EntitlementStatus> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1;
 
   /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
@@ -655,8 +657,8 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelDetailViewController___
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 305, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722)), TypeDefinitionIndex(TypeDefinitionIndex(14936))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5785))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5686))
 // CS Name: ::StandardLevelDetailViewController*
 class CORDL_TYPE StandardLevelDetailViewController : public ::HMUI::ViewController {
 public:
@@ -694,7 +696,7 @@ public:
   __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
 
   /// @brief Field _additionalContentModel, offset 0xa0, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::AdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _beatmapLevelsModel, offset 0xa8, size 0x8
   __declspec(property(get = __get__beatmapLevelsModel, put = __set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
@@ -804,11 +806,11 @@ public:
 
   constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
 
-  constexpr ::GlobalNamespace::AdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::AdditionalContentModel* value);
+  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevelsModel();
 
@@ -928,142 +930,146 @@ public:
 
   constexpr void __set__contentIsOwnedAndReady(bool value);
 
-  /// @brief Method add_didPressActionButtonEvent addr 0x2177520 size 0xb0 virtual false final false
+  /// @brief Method add_didPressActionButtonEvent, addr 0x22b9f4c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
 
-  /// @brief Method remove_didPressActionButtonEvent addr 0x2177dd8 size 0xb0 virtual false final false
+  /// @brief Method remove_didPressActionButtonEvent, addr 0x22ba804, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressActionButtonEvent(::System::Action_1<::GlobalNamespace::StandardLevelDetailViewController*>* value);
 
-  /// @brief Method add_didPressOpenLevelPackButtonEvent addr 0x21777e0 size 0xb0 virtual false final false
+  /// @brief Method add_didPressOpenLevelPackButtonEvent, addr 0x22ba20c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressOpenLevelPackButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
 
-  /// @brief Method remove_didPressOpenLevelPackButtonEvent addr 0x2178098 size 0xb0 virtual false final false
+  /// @brief Method remove_didPressOpenLevelPackButtonEvent, addr 0x22baac4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressOpenLevelPackButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IBeatmapLevelPack*>* value);
 
-  /// @brief Method add_levelFavoriteStatusDidChangeEvent addr 0x2177890 size 0xb0 virtual false final false
+  /// @brief Method add_levelFavoriteStatusDidChangeEvent, addr 0x22ba2bc, size 0xb0, virtual false, abstract: false, final false
   inline void add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
 
-  /// @brief Method remove_levelFavoriteStatusDidChangeEvent addr 0x2178148 size 0xb0 virtual false final false
+  /// @brief Method remove_levelFavoriteStatusDidChangeEvent, addr 0x22bab74, size 0xb0, virtual false, abstract: false, final false
   inline void remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, bool>* value);
 
-  /// @brief Method add_didPressPracticeButtonEvent addr 0x21775d0 size 0xb0 virtual false final false
+  /// @brief Method add_didPressPracticeButtonEvent, addr 0x22b9ffc, size 0xb0, virtual false, abstract: false, final false
   inline void add_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IBeatmapLevel*>* value);
 
-  /// @brief Method remove_didPressPracticeButtonEvent addr 0x2177e88 size 0xb0 virtual false final false
+  /// @brief Method remove_didPressPracticeButtonEvent, addr 0x22ba8b4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didPressPracticeButtonEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IBeatmapLevel*>* value);
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent addr 0x2177680 size 0xb0 virtual false final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x22ba0ac, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent addr 0x2177f38 size 0xb0 virtual false final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x22ba964, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::IDifficultyBeatmap*>* value);
 
-  /// @brief Method add_didChangeContentEvent addr 0x2177730 size 0xb0 virtual false final false
+  /// @brief Method add_didChangeContentEvent, addr 0x22ba15c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didChangeContentEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::__StandardLevelDetailViewController__ContentType>* value);
 
-  /// @brief Method remove_didChangeContentEvent addr 0x2177fe8 size 0xb0 virtual false final false
+  /// @brief Method remove_didChangeContentEvent, addr 0x22baa14, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didChangeContentEvent(::System::Action_2<::GlobalNamespace::StandardLevelDetailViewController*, ::GlobalNamespace::__StandardLevelDetailViewController__ContentType>* value);
 
-  /// @brief Method get_selectedDifficultyBeatmap addr 0x21768d0 size 0x1c virtual false final false
+  /// @brief Method get_selectedDifficultyBeatmap, addr 0x22b92e4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
 
-  /// @brief Method get_beatmapLevel addr 0x217ff2c size 0x8 virtual false final false
+  /// @brief Method get_beatmapLevel, addr 0x22c3a2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPreviewBeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method SetData addr 0x2178e54 size 0x10c virtual false final false
+  /// @brief Method SetData, addr 0x22bb898, size 0x10c, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool hidePracticeButton, bool hide360DegreeBeatmapCharacteristic, ::StringW playButtonText,
                       ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                       ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics);
 
-  /// @brief Method SetData addr 0x2178f60 size 0x298 virtual false final false
+  /// @brief Method SetData, addr 0x22bb9a4, size 0x298, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IBeatmapLevelPack* pack, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, bool hidePracticeButton, bool hide360DegreeBeatmapCharacteristic,
                       bool canBuyPack, ::StringW playButtonText, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                       ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics);
 
-  /// @brief Method DidActivate addr 0x217ffd8 size 0x388 virtual true final false
+  /// @brief Method DidActivate, addr 0x22c3ad8, size 0x388, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2180360 size 0x58 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22c3e60, size 0x58, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method OnDestroy addr 0x21803b8 size 0x3c virtual true final false
+  /// @brief Method OnDestroy, addr 0x22c3eb8, size 0x3c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshContentLevelDetailView addr 0x2178a50 size 0x1c virtual false final false
+  /// @brief Method RefreshContentLevelDetailView, addr 0x22bb494, size 0x1c, virtual false, abstract: false, final false
   inline void RefreshContentLevelDetailView();
 
-  /// @brief Method ClearSelected addr 0x2178a90 size 0x1c virtual false final false
+  /// @brief Method ClearSelected, addr 0x22bb4d4, size 0x1c, virtual false, abstract: false, final false
   inline void ClearSelected();
 
-  /// @brief Method HandleDidChangeDifficultyBeatmap addr 0x21803f4 size 0x1ec virtual false final false
+  /// @brief Method HandleDidChangeDifficultyBeatmap, addr 0x22c3ef4, size 0x1ec, virtual false, abstract: false, final false
   inline void HandleDidChangeDifficultyBeatmap(::GlobalNamespace::StandardLevelDetailView* view, ::GlobalNamespace::IDifficultyBeatmap* beatmap);
 
-  /// @brief Method HandleDidFavoriteToggleChange addr 0x21805e0 size 0x78 virtual false final false
+  /// @brief Method HandleDidFavoriteToggleChange, addr 0x22c40e0, size 0x78, virtual false, abstract: false, final false
   inline void HandleDidFavoriteToggleChange(::GlobalNamespace::StandardLevelDetailView* view, ::UnityEngine::UI::Toggle* toggle);
 
-  /// @brief Method HandleLevelLoadingUpdate addr 0x2180658 size 0x194 virtual false final false
+  /// @brief Method HandleLevelLoadingUpdate, addr 0x22c4158, size 0x194, virtual false, abstract: false, final false
   inline void HandleLevelLoadingUpdate(::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate levelLoadingUpdate);
 
-  /// @brief Method BuyLevelButtonWasPressed addr 0x2180bec size 0x110 virtual false final false
+  /// @brief Method BuyLevelButtonWasPressed, addr 0x22c46ec, size 0x110, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed();
 
-  /// @brief Method BuyPackButtonWasPressed addr 0x2180d7c size 0x178 virtual false final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x22c487c, size 0x178, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method LoadBeatmapLevelAsync addr 0x2180f90 size 0xd8 virtual false final false
+  /// @brief Method LoadBeatmapLevelAsync, addr 0x22c4a90, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadBeatmapLevelAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method OpenLevelProductStoreOrShowBuyInfo addr 0x2181068 size 0x15c virtual false final false
+  /// @brief Method OpenLevelProductStoreOrShowBuyInfo, addr 0x22c4b68, size 0x15c, virtual false, abstract: false, final false
   inline void OpenLevelProductStoreOrShowBuyInfo();
 
-  /// @brief Method OpenLevelProductStore addr 0x2180cfc size 0x80 virtual false final false
+  /// @brief Method OpenLevelProductStore, addr 0x22c47fc, size 0x80, virtual false, abstract: false, final false
   inline void OpenLevelProductStore();
 
-  /// @brief Method RefreshAvailabilityIfNeeded addr 0x217ff34 size 0xa4 virtual false final false
+  /// @brief Method RefreshAvailabilityIfNeeded, addr 0x22c3a34, size 0xa4, virtual false, abstract: false, final false
   inline void RefreshAvailabilityIfNeeded();
 
-  /// @brief Method ShowContent addr 0x21807ec size 0x400 virtual false final false
-  inline void ShowContent(::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType, ::StringW errorText, float_t downloadingProgress, ::StringW downloadingText);
+  /// @brief Method ShowContent, addr 0x22c42ec, size 0x400, virtual false, abstract: false, final false
+  /// @param errorText: ::StringW (default: u"")
+  /// @param downloadingProgress: float_t (default: 0.0)
+  /// @param downloadingText: ::StringW (default: u"")
+  inline void ShowContent(::GlobalNamespace::__StandardLevelDetailViewController__ContentType contentType, ::StringW errorText = u"", float_t downloadingProgress = 0.0,
+                          ::StringW downloadingText = u"");
 
-  /// @brief Method ShowLoadingAndDoSomething addr 0x2180ef4 size 0x9c virtual false final false
+  /// @brief Method ShowLoadingAndDoSomething, addr 0x22c49f4, size 0x9c, virtual false, abstract: false, final false
   inline void ShowLoadingAndDoSomething(::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* action);
 
   static inline ::GlobalNamespace::StandardLevelDetailViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21811c4 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x22c4cc4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__47_0 addr 0x2181248 size 0x24 virtual false final false
+  /// @brief Method <DidActivate>b__47_0, addr 0x22c4d48, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_0();
 
-  /// @brief Method <DidActivate>b__47_1 addr 0x218126c size 0x20 virtual false final false
+  /// @brief Method <DidActivate>b__47_1, addr 0x22c4d6c, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_1();
 
-  /// @brief Method <DidActivate>b__47_2 addr 0x218128c size 0x24 virtual false final false
+  /// @brief Method <DidActivate>b__47_2, addr 0x22c4d8c, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_2();
 
-  /// @brief Method <DidActivate>b__47_3 addr 0x21812b0 size 0x154 virtual false final false
+  /// @brief Method <DidActivate>b__47_3, addr 0x22c4db0, size 0x154, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_3();
 
-  /// @brief Method <DidActivate>b__47_4 addr 0x2181404 size 0x1c8 virtual false final false
+  /// @brief Method <DidActivate>b__47_4, addr 0x22c4f04, size 0x1c8, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_4();
 
-  /// @brief Method <DidActivate>b__47_5 addr 0x21815cc size 0xf4 virtual false final false
+  /// @brief Method <DidActivate>b__47_5, addr 0x22c50cc, size 0x154, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_5();
 
-  /// @brief Method <DidActivate>b__47_6 addr 0x21816c0 size 0x168 virtual false final false
+  /// @brief Method <DidActivate>b__47_6, addr 0x22c5220, size 0x1a4, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_6();
 
-  /// @brief Method <BuyPackButtonWasPressed>b__56_0 addr 0x2181828 size 0xdc virtual false final false
+  /// @brief Method <BuyPackButtonWasPressed>b__56_0, addr 0x22c53c4, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _BuyPackButtonWasPressed_b__56_0(::System::Threading::CancellationToken token);
 
-  /// @brief Method <OpenLevelProductStoreOrShowBuyInfo>b__58_0 addr 0x2181904 size 0xc8 virtual false final false
+  /// @brief Method <OpenLevelProductStoreOrShowBuyInfo>b__58_0, addr 0x22c54a0, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _OpenLevelProductStoreOrShowBuyInfo_b__58_0(::System::Threading::CancellationToken token);
 
-  /// @brief Method <OpenLevelProductStore>b__59_0 addr 0x21819cc size 0xdc virtual false final false
+  /// @brief Method <OpenLevelProductStore>b__59_0, addr 0x22c5568, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _OpenLevelProductStore_b__59_0(::System::Threading::CancellationToken token);
 
-  /// @brief Method <RefreshAvailabilityIfNeeded>b__60_0 addr 0x2181aa8 size 0xd8 virtual false final false
+  /// @brief Method <RefreshAvailabilityIfNeeded>b__60_0, addr 0x22c5644, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _RefreshAvailabilityIfNeeded_b__60_0(::System::Threading::CancellationToken token);
 
   // Ctor Parameters [CppParam { name: "", ty: "StandardLevelDetailViewController", modifiers: "&&", def_value: None }]
@@ -1099,7 +1105,7 @@ public:
   ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
 
   /// @brief Field _additionalContentModel, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::AdditionalContentModel* ____additionalContentModel;
+  ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
   /// @brief Field _beatmapLevelsModel, offset: 0xa8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

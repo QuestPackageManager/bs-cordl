@@ -7,10 +7,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TutorialController)
 namespace GlobalNamespace {
+class ILevelStartController;
+}
+namespace GlobalNamespace {
+class __TutorialController___OutroCoroutine_d__19;
+}
+namespace GlobalNamespace {
+class TutorialSongController;
+}
+namespace GlobalNamespace {
+class TutorialScenesTransitionSetupDataSO;
+}
+namespace GlobalNamespace {
 class PauseController;
 }
 namespace GlobalNamespace {
-class AudioFading;
+class IntroTutorialController;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Action;
@@ -18,35 +33,20 @@ class Action;
 namespace GlobalNamespace {
 class Signal;
 }
-namespace GlobalNamespace {
-class ILevelStartController;
-}
-namespace System::Collections {
-class IEnumerator;
-}
-namespace GlobalNamespace {
-class TutorialSongController;
-}
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class __TutorialController___OutroCoroutine_d__19;
+class AudioFading;
 }
-namespace GlobalNamespace {
-class IntroTutorialController;
-}
-namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -62,8 +62,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialController___OutroCoroutine_d__19);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5435))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5340))
 // CS Name: ::TutorialController::<OutroCoroutine>d__19*
 class CORDL_TYPE __TutorialController___OutroCoroutine_d__19 : public ::System::Object {
 public:
@@ -110,22 +110,22 @@ public:
 
   static inline ::GlobalNamespace::__TutorialController___OutroCoroutine_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x2126354 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x226a490, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21263d0 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x226a50c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21263d4 size 0x10c virtual true final true
+  /// @brief Method MoveNext, addr 0x226a510, size 0x10c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21264e0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226a61c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21264e8 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226a624, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x2126528 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226a664, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TutorialController___OutroCoroutine_d__19", modifiers: "&&", def_value: None }]
@@ -167,8 +167,8 @@ static_assert(offsetof(::GlobalNamespace::__TutorialController___OutroCoroutine_
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5436))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5341))
 // CS Name: ::TutorialController*
 class CORDL_TYPE TutorialController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -277,45 +277,45 @@ public:
 
   constexpr void __set__doingOutroTransition(bool value);
 
-  /// @brief Method add_levelWillStartIntroEvent addr 0x2125b1c size 0x9c virtual true final true
+  /// @brief Method add_levelWillStartIntroEvent, addr 0x2269c58, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method remove_levelWillStartIntroEvent addr 0x2125bb8 size 0x9c virtual true final true
+  /// @brief Method remove_levelWillStartIntroEvent, addr 0x2269cf4, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelWillStartIntroEvent(::System::Action* value);
 
-  /// @brief Method add_levelDidStartEvent addr 0x2125c54 size 0x9c virtual true final true
+  /// @brief Method add_levelDidStartEvent, addr 0x2269d90, size 0x9c, virtual true, abstract: false, final true
   inline void add_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method remove_levelDidStartEvent addr 0x2125cf0 size 0x9c virtual true final true
+  /// @brief Method remove_levelDidStartEvent, addr 0x2269e2c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_levelDidStartEvent(::System::Action* value);
 
-  /// @brief Method Start addr 0x2125d8c size 0x23c virtual false final false
+  /// @brief Method Start, addr 0x2269ec8, size 0x23c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x2125fc8 size 0x26c virtual false final false
+  /// @brief Method OnDestroy, addr 0x226a104, size 0x26c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleIntroTutorialDidFinishEvent addr 0x2126234 size 0x1c virtual false final false
+  /// @brief Method HandleIntroTutorialDidFinishEvent, addr 0x226a370, size 0x1c, virtual false, abstract: false, final false
   inline void HandleIntroTutorialDidFinishEvent();
 
-  /// @brief Method HandleTutorialSongControllerSongDidFinishEvent addr 0x21262ac size 0x40 virtual false final false
+  /// @brief Method HandleTutorialSongControllerSongDidFinishEvent, addr 0x226a3e8, size 0x40, virtual false, abstract: false, final false
   inline void HandleTutorialSongControllerSongDidFinishEvent();
 
-  /// @brief Method OutroCoroutine addr 0x21262ec size 0x68 virtual false final false
+  /// @brief Method OutroCoroutine, addr 0x226a428, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* OutroCoroutine();
 
-  /// @brief Method HandlePauseControllerCanPause addr 0x212637c size 0x38 virtual false final false
+  /// @brief Method HandlePauseControllerCanPause, addr 0x226a4b8, size 0x38, virtual false, abstract: false, final false
   inline void HandlePauseControllerCanPause(::System::Action_1<bool>* canPause);
 
-  /// @brief Method HandlePauseControllerDidPause addr 0x21263b4 size 0xc virtual false final false
+  /// @brief Method HandlePauseControllerDidPause, addr 0x226a4f0, size 0xc, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidPause();
 
-  /// @brief Method HandlePauseControllerDidResume addr 0x21263c0 size 0x8 virtual false final false
+  /// @brief Method HandlePauseControllerDidResume, addr 0x226a4fc, size 0x8, virtual false, abstract: false, final false
   inline void HandlePauseControllerDidResume();
 
   static inline ::GlobalNamespace::TutorialController* New_ctor();
 
-  /// @brief Method .ctor addr 0x21263c8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226a504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialController", modifiers: "&&", def_value: None }]

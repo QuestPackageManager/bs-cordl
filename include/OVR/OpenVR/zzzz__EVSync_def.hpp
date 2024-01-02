@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::EVSync);
 namespace OVR::OpenVR {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9382))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8613))
 // CS Name: ::OVR.OpenVR::EVSync
 struct CORDL_TYPE EVSync {
 public:

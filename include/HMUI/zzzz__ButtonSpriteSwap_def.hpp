@@ -6,16 +6,16 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ButtonSpriteSwap)
 namespace HMUI {
-struct __NoTransitionsButton__SelectionState;
-}
-namespace UnityEngine {
-class Sprite;
+class NoTransitionsButton;
 }
 namespace UnityEngine::UI {
 class Image;
 }
 namespace HMUI {
-class NoTransitionsButton;
+struct __NoTransitionsButton__SelectionState;
+}
+namespace UnityEngine {
+class Sprite;
 }
 // Forward declare root types
 namespace HMUI {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::HMUI::ButtonSpriteSwap);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13736))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13619))
 // CS Name: ::HMUI::ButtonSpriteSwap*
 class CORDL_TYPE ButtonSpriteSwap : public ::UnityEngine::MonoBehaviour {
 public:
@@ -96,27 +96,27 @@ public:
 
   constexpr void __set__didStart(bool value);
 
-  /// @brief Method Awake addr 0x1fd88f0 size 0x78 virtual false final false
+  /// @brief Method Awake, addr 0x213028c, size 0x78, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x1fd8a1c size 0x2c virtual false final false
+  /// @brief Method Start, addr 0x21303b8, size 0x2c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnEnable addr 0x1fd8a6c size 0x24 virtual true final false
+  /// @brief Method OnEnable, addr 0x2130408, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnDestroy addr 0x1fd8a90 size 0xc0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x213042c, size 0xc0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleButtonSelectionStateDidChange addr 0x1fd8c04 size 0xcc virtual true final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x21305a0, size 0xcc, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
-  /// @brief Method RefreshVisualState addr 0x1fd8a48 size 0x24 virtual false final false
+  /// @brief Method RefreshVisualState, addr 0x21303e4, size 0x24, virtual false, abstract: false, final false
   inline void RefreshVisualState();
 
   static inline ::HMUI::ButtonSpriteSwap* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fd8cd0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x213066c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ButtonSpriteSwap", modifiers: "&&", def_value: None }]

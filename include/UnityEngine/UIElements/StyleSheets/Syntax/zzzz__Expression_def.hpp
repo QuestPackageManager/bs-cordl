@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::Expression);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7579)), TypeDefinitionIndex(TypeDefinitionIndex(7580)), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7583)), TypeDefinitionIndex(TypeDefinitionIndex(7581))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7578)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7497)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7493)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7494)), TypeDefinitionIndex(TypeDefinitionIndex(7495))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7492)) CS Name:
 // ::UnityEngine.UIElements.StyleSheets.Syntax::Expression*
 class CORDL_TYPE Expression : public ::System::Object {
 public:
@@ -87,7 +87,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* New_ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
-  /// @brief Method .ctor addr 0x2c90810 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0x2df7bc0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
   // Ctor Parameters [CppParam { name: "", ty: "Expression", modifiers: "&&", def_value: None }]

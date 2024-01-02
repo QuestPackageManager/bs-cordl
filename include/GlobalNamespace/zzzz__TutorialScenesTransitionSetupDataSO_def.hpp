@@ -12,11 +12,11 @@ class SceneInfo;
 namespace GlobalNamespace {
 struct __TutorialScenesTransitionSetupDataSO__TutorialEndStateType;
 }
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
 namespace GlobalNamespace {
 class EnvironmentInfoSO;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialScenesTransitionSetupDataSO);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6140))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6080))
 // CS Name: ::TutorialScenesTransitionSetupDataSO::TutorialEndStateType
 struct CORDL_TYPE __TutorialScenesTransitionSetupDataSO__TutorialEndStateType {
 public:
@@ -89,8 +89,8 @@ static_assert(offsetof(::GlobalNamespace::__TutorialScenesTransitionSetupDataSO_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13939))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6141))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15417))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6081))
 // CS Name: ::TutorialScenesTransitionSetupDataSO*
 class CORDL_TYPE TutorialScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
@@ -149,27 +149,27 @@ public:
 
   constexpr void __set__playerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method add_didFinishEvent addr 0x21e3b50 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x231ee7c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x21e3aa0 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x231e2e0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*, ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType>* value);
 
-  /// @brief Method get_playerSpecificSettings addr 0x21e597c size 0x8 virtual false final false
+  /// @brief Method get_playerSpecificSettings, addr 0x2320058, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSpecificSettings();
 
-  /// @brief Method set_playerSpecificSettings addr 0x21e5984 size 0x8 virtual false final false
+  /// @brief Method set_playerSpecificSettings, addr 0x2320060, size 0x8, virtual false, abstract: false, final false
   inline void set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  /// @brief Method Init addr 0x21e3c00 size 0x284 virtual false final false
+  /// @brief Method Init, addr 0x231c004, size 0x27c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method Finish addr 0x21e598c size 0x28 virtual false final false
+  /// @brief Method Finish, addr 0x2320068, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState);
 
   static inline ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e59b4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2320090, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]

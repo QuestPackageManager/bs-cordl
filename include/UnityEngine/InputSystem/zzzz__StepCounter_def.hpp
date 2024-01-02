@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::StepCounter);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6360))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6372))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6286))
 // CS Name: ::UnityEngine.InputSystem::StepCounter*
 class CORDL_TYPE StepCounter : public ::UnityEngine::InputSystem::Sensor {
 public:
@@ -41,30 +41,30 @@ public:
 
   static inline ::UnityEngine::InputSystem::StepCounter* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_stepCounter addr 0x292a460 size 0x8 virtual false final false
+  /// @brief Method get_stepCounter, addr 0x2aa91a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_stepCounter();
 
-  /// @brief Method set_stepCounter addr 0x292a468 size 0x8 virtual false final false
+  /// @brief Method set_stepCounter, addr 0x2aa91b0, size 0x8, virtual false, abstract: false, final false
   inline void set_stepCounter(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_current addr 0x292a470 size 0x48 virtual false final false
+  /// @brief Method get_current, addr 0x2aa91b8, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::StepCounter* get_current();
 
-  /// @brief Method set_current addr 0x292a4b8 size 0x4c virtual false final false
+  /// @brief Method set_current, addr 0x2aa9200, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::StepCounter* value);
 
-  /// @brief Method MakeCurrent addr 0x292a504 size 0x54 virtual true final false
+  /// @brief Method MakeCurrent, addr 0x2aa924c, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
-  /// @brief Method OnRemoved addr 0x292a558 size 0x84 virtual true final false
+  /// @brief Method OnRemoved, addr 0x2aa92a0, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
-  /// @brief Method FinishSetup addr 0x292a5dc size 0x78 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2aa9324, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::StepCounter* New_ctor();
 
-  /// @brief Method .ctor addr 0x292a654 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2aa939c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "StepCounter", modifiers: "&&", def_value: None }]

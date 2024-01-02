@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeHelpers)
 namespace System {
-class Array;
+struct RuntimeTypeHandle;
 }
 namespace System {
 struct RuntimeFieldHandle;
 }
 namespace System {
-struct RuntimeTypeHandle;
+class Array;
 }
 namespace System {
 class Object;
@@ -27,40 +27,40 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeHelpers);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3418))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3423))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeHelpers*
 class CORDL_TYPE RuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InitializeArray addr 0x2384260 size 0x4 virtual false final false
+  /// @brief Method InitializeArray, addr 0x24decf0, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, void* fldHandle);
 
-  /// @brief Method InitializeArray addr 0x2384264 size 0xa8 virtual false final false
+  /// @brief Method InitializeArray, addr 0x24decf4, size 0xa8, virtual false, abstract: false, final false
   static inline void InitializeArray(::System::Array* array, ::System::RuntimeFieldHandle fldHandle);
 
-  /// @brief Method get_OffsetToStringData addr 0x237fcb4 size 0x4 virtual false final false
+  /// @brief Method get_OffsetToStringData, addr 0x24ded9c, size 0x4, virtual false, abstract: false, final false
   static inline int32_t get_OffsetToStringData();
 
-  /// @brief Method GetHashCode addr 0x238430c size 0x8 virtual false final false
+  /// @brief Method GetHashCode, addr 0x24deda0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::System::Object* o);
 
-  /// @brief Method RunClassConstructor addr 0x2384314 size 0x4 virtual false final false
+  /// @brief Method RunClassConstructor, addr 0x24deda8, size 0x4, virtual false, abstract: false, final false
   static inline void RunClassConstructor(void* type);
 
-  /// @brief Method RunClassConstructor addr 0x2384318 size 0xc0 virtual false final false
+  /// @brief Method RunClassConstructor, addr 0x24dedac, size 0xc0, virtual false, abstract: false, final false
   static inline void RunClassConstructor(::System::RuntimeTypeHandle type);
 
-  /// @brief Method SufficientExecutionStack addr 0x23843d8 size 0x4 virtual false final false
+  /// @brief Method SufficientExecutionStack, addr 0x24dee6c, size 0x4, virtual false, abstract: false, final false
   static inline bool SufficientExecutionStack();
 
-  /// @brief Method TryEnsureSufficientExecutionStack addr 0x23843dc size 0x4 virtual false final false
+  /// @brief Method TryEnsureSufficientExecutionStack, addr 0x24dee70, size 0x4, virtual false, abstract: false, final false
   static inline bool TryEnsureSufficientExecutionStack();
 
-  /// @brief Method PrepareConstrainedRegions addr 0x23843e0 size 0x4 virtual false final false
+  /// @brief Method PrepareConstrainedRegions, addr 0x24dee74, size 0x4, virtual false, abstract: false, final false
   static inline void PrepareConstrainedRegions();
 
-  /// @brief Method IsReferenceOrContainsReferences addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IsReferenceOrContainsReferences, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsReferenceOrContainsReferences();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeHelpers", modifiers: "&&", def_value: None }]

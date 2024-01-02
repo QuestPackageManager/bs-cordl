@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12357))
 // CS Name: ::TMPro::FaceInfo_Legacy*
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
@@ -214,7 +214,7 @@ public:
 
   static inline ::TMPro::FaceInfo_Legacy* New_ctor();
 
-  /// @brief Method .ctor addr 0x2a8b434 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c10188, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FaceInfo_Legacy", modifiers: "&&", def_value: None }]

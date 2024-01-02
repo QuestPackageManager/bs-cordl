@@ -5,35 +5,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConnectionManager)
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace GlobalNamespace {
+class IConnection;
+}
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace GlobalNamespace {
 class IPollable;
-}
-namespace System {
-class IDisposable;
-}
-namespace BGNet::Core {
-struct DeliveryMethod;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
 }
 namespace GlobalNamespace {
 template <typename T> class IConnectionInitParams_1;
@@ -42,10 +27,25 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace GlobalNamespace {
-class IConnection;
+struct ConnectionFailedReason;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace BGNet::Core {
+struct DeliveryMethod;
 }
 namespace System {
 template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12707))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12780))
 // CS Name: ::IConnectionManager*
 class CORDL_TYPE IConnectionManager {
 public:
@@ -85,88 +85,89 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method add_onInitializedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method remove_onInitializedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onInitializedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onInitializedEvent(::System::Action* value);
 
-  /// @brief Method add_onConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method remove_onConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onConnectedEvent(::System::Action* value);
 
-  /// @brief Method add_onDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onConnectionFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onConnectionFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_onConnectionFailedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onConnectionFailedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_onConnectionConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onConnectionConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method remove_onConnectionConnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onConnectionConnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  /// @brief Method add_onConnectionDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onConnectionDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_onConnectionDisconnectedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onConnectionDisconnectedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_onReceivedDataEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_onReceivedDataEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method remove_onReceivedDataEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_onReceivedDataEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  /// @brief Method get_userId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_isConnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isConnecting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnecting();
 
-  /// @brief Method get_isDisconnecting addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isDisconnecting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_connectionCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_connectionCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_connectionCount();
 
-  /// @brief Method get_isConnectionOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isConnectionOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_isDisposed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isDisposed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isDisposed();
 
-  /// @brief Method SendToAll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendToAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod);
 
-  /// @brief Method SendToAll addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendToAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendToAll(::LiteNetLib::Utils::NetDataWriter* writer, ::BGNet::Core::DeliveryMethod deliveryMethod, ::GlobalNamespace::IConnection* excludingConnection);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline bool Init(::GlobalNamespace::IConnectionInitParams_1<T>* initParams);
 
-  /// @brief Method Disconnect addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
+  /// @brief Method Disconnect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x2))
+  inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x2));
 
-  /// @brief Method GetConnection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
 
-  /// @brief Method DisposeAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisposeAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   // Ctor Parameters [CppParam { name: "", ty: "IConnectionManager", modifiers: "&&", def_value: None }]

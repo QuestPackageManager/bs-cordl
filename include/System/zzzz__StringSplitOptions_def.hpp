@@ -16,7 +16,7 @@ MARK_VAL_T(::System::StringSplitOptions);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2478))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2480))
 // CS Name: ::System::StringSplitOptions
 struct CORDL_TYPE StringSplitOptions {
 public:

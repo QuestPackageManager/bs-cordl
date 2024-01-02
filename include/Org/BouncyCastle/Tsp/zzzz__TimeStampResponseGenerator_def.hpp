@@ -8,35 +8,35 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimeStampResponseGenerator)
+namespace Org::BouncyCastle::Asn1 {
+class Asn1EncodableVector;
+}
+namespace Org::BouncyCastle::Tsp {
+class TimeStampRequest;
+}
 namespace Org::BouncyCastle::Tsp {
 class TimeStampResponse;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-class PkiStatusInfo;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
-}
-namespace Org::BouncyCastle::Asn1::Cmp {
-struct PkiStatus;
 }
 namespace Org::BouncyCastle::Utilities::Date {
 class DateTimeObject;
 }
+namespace Org::BouncyCastle::Asn1::Cmp {
+struct PkiStatus;
+}
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Tsp {
 class __TimeStampResponseGenerator__FailInfo;
-}
-namespace Org::BouncyCastle::Asn1 {
-class Asn1EncodableVector;
-}
-namespace System::Collections {
-class IList;
 }
 namespace Org::BouncyCastle::Tsp {
 class TimeStampTokenGenerator;
 }
-namespace Org::BouncyCastle::Tsp {
-class TimeStampRequest;
+namespace System::Collections {
+class IList;
+}
+namespace Org::BouncyCastle::Asn1::Cmp {
+class PkiStatusInfo;
 }
 namespace System {
 struct DateTime;
@@ -63,7 +63,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo* New_ctor(int32_t failInfoValue);
 
-  /// @brief Method .ctor addr 0x10e01bc size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x1151404, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t failInfoValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TimeStampResponseGenerator__FailInfo", modifiers: "&&", def_value: None }]
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::__TimeSt
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(41))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(41)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1768))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampResponseGenerator*
 class CORDL_TYPE TimeStampResponseGenerator : public ::System::Object {
@@ -163,39 +163,39 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms);
 
-  /// @brief Method .ctor addr 0x10dfe6c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x11510b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                                ::System::Collections::IList* acceptedPolicy);
 
-  /// @brief Method .ctor addr 0x10dff0c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1151154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms, ::System::Collections::IList* acceptedPolicy);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms,
                                                                                ::System::Collections::IList* acceptedPolicies, ::System::Collections::IList* acceptedExtensions);
 
-  /// @brief Method .ctor addr 0x10dfe78 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x11510c0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms, ::System::Collections::IList* acceptedPolicies,
                     ::System::Collections::IList* acceptedExtensions);
 
-  /// @brief Method AddStatusString addr 0x10dff14 size 0x80 virtual false final false
+  /// @brief Method AddStatusString, addr 0x115115c, size 0x80, virtual false, abstract: false, final false
   inline void AddStatusString(::StringW statusString);
 
-  /// @brief Method SetFailInfoField addr 0x10dff94 size 0x10 virtual false final false
+  /// @brief Method SetFailInfoField, addr 0x11511dc, size 0x10, virtual false, abstract: false, final false
   inline void SetFailInfoField(int32_t field);
 
-  /// @brief Method GetPkiStatusInfo addr 0x10dffa4 size 0x218 virtual false final false
+  /// @brief Method GetPkiStatusInfo, addr 0x11511ec, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* GetPkiStatusInfo();
 
-  /// @brief Method Generate addr 0x10e0224 size 0x8c virtual false final false
+  /// @brief Method Generate, addr 0x115146c, size 0x8c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
-  /// @brief Method Generate addr 0x10e02d8 size 0x430 virtual false final false
+  /// @brief Method Generate, addr 0x1151520, size 0x430, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber,
                                                                ::Org::BouncyCastle::Utilities::Date::DateTimeObject* genTime);
 
-  /// @brief Method GenerateFailResponse addr 0x10e0db0 size 0x19c virtual false final false
+  /// @brief Method GenerateFailResponse, addr 0x1151ff8, size 0x19c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampResponse* GenerateFailResponse(::Org::BouncyCastle::Asn1::Cmp::PkiStatus status, int32_t failInfoField, ::StringW statusString);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeStampResponseGenerator", modifiers: "&&", def_value: None }]

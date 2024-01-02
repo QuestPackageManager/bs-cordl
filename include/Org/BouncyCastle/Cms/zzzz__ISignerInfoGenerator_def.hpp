@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(ISignerInfoGenerator)
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
 namespace Org::BouncyCastle::Asn1::Cms {
 class SignerInfo;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -30,7 +30,7 @@ namespace Org::BouncyCastle::Cms {
 class CORDL_TYPE ISignerInfoGenerator {
 public:
   // Declarations
-  /// @brief Method Generate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm,
                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> calculatedDigest);
 

@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementW
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14514))
 // CS Name: ::BloomPrePassBackgroundColorsGradientElementWithLightId::Elements*
 class CORDL_TYPE __BloomPrePassBackgroundColorsGradientElementWithLightId__Elements : public ::System::Object {
 public:
@@ -66,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb93c4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x210e8a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements", modifiers: "&&", def_value: None }]
@@ -108,8 +108,8 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassBackgroundColorsGradient
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14731))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14515))
 // CS Name: ::BloomPrePassBackgroundColorsGradientElementWithLightId*
 class CORDL_TYPE BloomPrePassBackgroundColorsGradientElementWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -142,12 +142,12 @@ public:
       ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>
           value);
 
-  /// @brief Method ColorWasSet addr 0x1fb92f8 size 0xac virtual true final false
+  /// @brief Method ColorWasSet, addr 0x210e7dc, size 0xac, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fb93a4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x210e888, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundColorsGradientElementWithLightId", modifiers: "&&", def_value: None }]

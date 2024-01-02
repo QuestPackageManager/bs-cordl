@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Principal::WindowsAccountType);
 namespace System::Security::Principal {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3004))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3005))
 // CS Name: ::System.Security.Principal::WindowsAccountType
 struct CORDL_TYPE WindowsAccountType {
 public:

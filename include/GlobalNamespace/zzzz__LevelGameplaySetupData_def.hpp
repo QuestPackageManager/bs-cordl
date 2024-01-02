@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LevelGameplaySetupData)
 namespace GlobalNamespace {
+class PreviewDifficultyBeatmap;
+}
+namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
-}
-namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelGameplaySetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4509))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4498))
 // CS Name: ::LevelGameplaySetupData*
 class CORDL_TYPE LevelGameplaySetupData : public ::System::Object {
 public:
@@ -54,29 +54,29 @@ public:
 
   constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method get_beatmapLevel addr 0x2206d38 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevel, addr 0x2355d34, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
 
-  /// @brief Method get_gameplayModifiers addr 0x2206d40 size 0x8 virtual true final true
+  /// @brief Method get_gameplayModifiers, addr 0x2355d3c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor();
 
-  /// @brief Method .ctor addr 0x2206d48 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x2355d44, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method .ctor addr 0x2206db0 size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x2355dac, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method ClearGameplaySetupData addr 0x2206e54 size 0x64 virtual false final false
+  /// @brief Method ClearGameplaySetupData, addr 0x2355e50, size 0x64, virtual false, abstract: false, final false
   inline void ClearGameplaySetupData();
 
-  /// @brief Method SetBeatmapLevel addr 0x2206eb8 size 0x8 virtual false final false
+  /// @brief Method SetBeatmapLevel, addr 0x2355eb4, size 0x8, virtual false, abstract: false, final false
   inline void SetBeatmapLevel(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
 
-  /// @brief Method SetGameplayModifiers addr 0x2206ec0 size 0x78 virtual false final false
+  /// @brief Method SetGameplayModifiers, addr 0x2355ebc, size 0x78, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelGameplaySetupData", modifiers: "&&", def_value: None }]

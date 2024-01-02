@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IEventHandler);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7296))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7210))
 // CS Name: ::UnityEngine.UIElements::IEventHandler*
 class CORDL_TYPE IEventHandler {
 public:
   // Declarations
-  /// @brief Method SendEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SendEvent(::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method HandleEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
 
   // Ctor Parameters [CppParam { name: "", ty: "IEventHandler", modifiers: "&&", def_value: None }]

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IUnityXRHapticsHandler);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14411))
 // CS Name: ::IUnityXRHapticsHandler*
 class CORDL_TYPE IUnityXRHapticsHandler {
 public:
@@ -26,10 +26,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method TriggerHapticPulse addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TriggerHapticPulse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
-  /// @brief Method StopHaptics addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method StopHaptics, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void StopHaptics();
 
   // Ctor Parameters [CppParam { name: "", ty: "IUnityXRHapticsHandler", modifiers: "&&", def_value: None }]

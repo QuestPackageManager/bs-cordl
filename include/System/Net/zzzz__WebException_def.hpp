@@ -8,10 +8,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(WebException)
 namespace System::Net {
+struct WebExceptionInternalStatus;
+}
+namespace System::Net {
 struct WebExceptionStatus;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 class ISerializable;
@@ -22,11 +25,8 @@ class Exception;
 namespace System::Net {
 class WebResponse;
 }
-namespace System::Net {
-struct WebExceptionInternalStatus;
-}
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::WebException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7924)), TypeDefinitionIndex(TypeDefinitionIndex(2425)), TypeDefinitionIndex(TypeDefinitionIndex(7923))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7922))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(9086)), TypeDefinitionIndex(TypeDefinitionIndex(2427))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9085))
 // CS Name: ::System.Net::WebException*
 class CORDL_TYPE WebException : public ::System::InvalidOperationException {
 public:
@@ -80,71 +80,71 @@ public:
 
   static inline ::System::Net::WebException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2822054 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x299f8cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::WebException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2820840 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x299e0b8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2822064 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x299f8dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::System::Net::WebExceptionStatus status);
 
-  /// @brief Method .ctor addr 0x2820a2c size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x299e2a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Net::WebExceptionStatus status);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus,
                                                       ::System::Exception* innerException);
 
-  /// @brief Method .ctor addr 0x2822088 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x299f900, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Net::WebExceptionStatus status, ::System::Net::WebExceptionInternalStatus internalStatus, ::System::Exception* innerException);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response);
 
-  /// @brief Method .ctor addr 0x2822074 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x299f8ec, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
                                                       ::System::Net::WebResponse* response);
 
-  /// @brief Method .ctor addr 0x28220bc size 0xe0 virtual false final false
+  /// @brief Method .ctor, addr 0x299f934, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                                                       ::System::Net::WebExceptionInternalStatus internalStatus);
 
-  /// @brief Method .ctor addr 0x28220a4 size 0x18 virtual false final false
+  /// @brief Method .ctor, addr 0x299f91c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                     ::System::Net::WebExceptionInternalStatus internalStatus);
 
   static inline ::System::Net::WebException* New_ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status,
                                                       ::System::Net::WebResponse* response, ::System::Net::WebExceptionInternalStatus internalStatus);
 
-  /// @brief Method .ctor addr 0x282219c size 0xf0 virtual false final false
+  /// @brief Method .ctor, addr 0x299fa14, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW data, ::System::Exception* innerException, ::System::Net::WebExceptionStatus status, ::System::Net::WebResponse* response,
                     ::System::Net::WebExceptionInternalStatus internalStatus);
 
   static inline ::System::Net::WebException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x282228c size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x299fb04, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData addr 0x282229c size 0xc virtual true final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x299fb14, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetObjectData addr 0x28222a8 size 0x8 virtual true final false
+  /// @brief Method GetObjectData, addr 0x299fb20, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Status addr 0x28222b0 size 0x8 virtual false final false
+  /// @brief Method get_Status, addr 0x299fb28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebExceptionStatus get_Status();
 
-  /// @brief Method get_Response addr 0x28222b8 size 0x8 virtual false final false
+  /// @brief Method get_Response, addr 0x299fb30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebResponse* get_Response();
 
   // Ctor Parameters [CppParam { name: "", ty: "WebException", modifiers: "&&", def_value: None }]

@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MeshGenerationContext);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7423))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7337))
 // CS Name: ::MeshGenerationContext::MeshFlags
 struct CORDL_TYPE __MeshGenerationContext__MeshFlags {
 public:
@@ -80,8 +80,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContext__MeshF
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7424))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7338))
 // CS Name: ::UnityEngine.UIElements::MeshGenerationContext*
 class CORDL_TYPE MeshGenerationContext : public ::System::Object {
 public:
@@ -99,7 +99,7 @@ public:
 
   static inline ::UnityEngine::UIElements::MeshGenerationContext* New_ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
-  /// @brief Method .ctor addr 0x2d13fe0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2e7c390, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
   // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationContext", modifiers: "&&", def_value: None }]

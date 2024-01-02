@@ -7,16 +7,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NfaContentValidator)
 namespace System::Xml::Schema {
-class SymbolsDictionary;
-}
-namespace System::Xml::Schema {
-struct XmlSchemaContentType;
-}
-namespace System::Xml::Schema {
 class BitSet;
 }
 namespace System::Xml::Schema {
+class SymbolsDictionary;
+}
+namespace System::Xml::Schema {
 class Positions;
+}
+namespace System::Xml::Schema {
+struct XmlSchemaContentType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::NfaContentValidator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11538))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11613))
 // CS Name: ::System.Xml.Schema::NfaContentValidator*
 class CORDL_TYPE NfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
@@ -84,7 +84,7 @@ public:
                                                                      ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos,
                                                                      ::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method .ctor addr 0x2733a8c size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x28b0ab0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::BitSet* firstpos, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,
                     ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions, int32_t endMarkerPos, ::System::Xml::Schema::XmlSchemaContentType contentType,
                     bool isOpen, bool isEmptiable);

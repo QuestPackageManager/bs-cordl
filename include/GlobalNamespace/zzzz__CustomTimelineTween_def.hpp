@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomTimelineTween);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6065))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6010))
 // CS Name: ::CustomTimelineTween*
 class CORDL_TYPE CustomTimelineTween : public ::UnityEngine::MonoBehaviour {
 public:
@@ -45,12 +45,12 @@ public:
 
   constexpr void __set_startPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method OnValidate addr 0x21c3a9c size 0xd4 virtual false final false
+  /// @brief Method OnValidate, addr 0x23158c0, size 0xd4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method .ctor addr 0x21c3b70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2315994, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None }]

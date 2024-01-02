@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
 class CORDL_TYPE PemObjectGenerator {
 public:
   // Declarations
-  /// @brief Method Generate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   // Ctor Parameters [CppParam { name: "", ty: "PemObjectGenerator", modifiers: "&&", def_value: None }]

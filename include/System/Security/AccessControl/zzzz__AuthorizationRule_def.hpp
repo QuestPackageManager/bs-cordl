@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AuthorizationRule)
-namespace System::Security::Principal {
-class IdentityReference;
-}
 namespace System::Security::AccessControl {
 struct InheritanceFlags;
 }
 namespace System::Security::AccessControl {
 struct PropagationFlags;
+}
+namespace System::Security::Principal {
+class IdentityReference;
 }
 // Forward declare root types
 namespace System::Security::AccessControl {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRule);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(3037)), TypeDefinitionIndex(TypeDefinitionIndex(3044))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3020))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3038)), TypeDefinitionIndex(TypeDefinitionIndex(3045))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3021))
 // CS Name: ::System.Security.AccessControl::AuthorizationRule*
 class CORDL_TYPE AuthorizationRule : public ::System::Object {
 public:
@@ -83,11 +83,11 @@ public:
                                                                                ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                                ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method .ctor addr 0x2328c7c size 0x19c virtual false final false
+  /// @brief Method .ctor, addr 0x2480770, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method get_AccessMask addr 0x2328eec size 0x8 virtual false final false
+  /// @brief Method get_AccessMask, addr 0x24809e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
   // Ctor Parameters [CppParam { name: "", ty: "AuthorizationRule", modifiers: "&&", def_value: None }]

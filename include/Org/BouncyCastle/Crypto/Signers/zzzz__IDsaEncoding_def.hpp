@@ -24,11 +24,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
 class CORDL_TYPE IDsaEncoding {
 public:
   // Declarations
-  /// @brief Method Decode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Decode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> Decode(::Org::BouncyCastle::Math::BigInteger* n,
                                                                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method Encode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Encode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* r, ::Org::BouncyCastle::Math::BigInteger* s);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDsaEncoding", modifiers: "&&", def_value: None }]

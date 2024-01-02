@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XmlSeverityType);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11673))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11745))
 // CS Name: ::System.Xml.Schema::XmlSeverityType
 struct CORDL_TYPE XmlSeverityType {
 public:

@@ -17,49 +17,25 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayerModel_1)
 namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkServer;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
-}
-namespace GlobalNamespace {
-class INetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-struct GameplayServerConfiguration;
-}
-namespace GlobalNamespace {
-template <typename T> class INetworkPlayerModelPartyConfig_1;
-}
-namespace GlobalNamespace {
-struct ConnectionFailedReason;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1____c__DisplayClass59_0;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
+template <typename T> class IConnectionInitParams_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace GlobalNamespace {
-struct BeatmapLevelSelectionMask;
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__JoinMatchmakingPartyConfig;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1____c__DisplayClass59_0;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1____c;
+}
+namespace GlobalNamespace {
+template <typename T> class INetworkPlayerModelPartyConfig_1;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -71,49 +47,73 @@ namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class UserInfo;
 }
 namespace GlobalNamespace {
-template <typename T> class IConnectionInitParams_1;
-}
-namespace GlobalNamespace {
-struct PublicServerInfo;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
-}
-namespace GlobalNamespace {
-template <typename T> class __NetworkPlayerModel_1___GetPartyPlayers_d__57;
-}
-namespace GlobalNamespace {
-class IAuthenticationTokenProvider;
+class IPlatformUserModel;
 }
 namespace GlobalNamespace {
 template <typename T> class __NetworkPlayerModel_1__StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+class IAuthenticationTokenProvider;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__NetworkPlayer;
+}
+namespace GlobalNamespace {
+struct GameplayServerConfiguration;
 }
 namespace System {
 template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
+struct BeatmapLevelSelectionMask;
+}
+namespace GlobalNamespace {
+class INetworkPlayerModel;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1___GetOtherPlayers_d__58;
+}
+namespace GlobalNamespace {
+template <typename T> struct __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56;
+}
+namespace GlobalNamespace {
 class INetworkPlayer;
 }
-namespace System::Collections {
-class IEnumerable;
+namespace GlobalNamespace {
+struct PublicServerInfo;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1__NetworkServer;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+template <typename T> class __NetworkPlayerModel_1___GetPartyPlayers_d__57;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
 }
 namespace System {
 class Object;
 }
-namespace System {
-class IDisposable;
+namespace System::Collections {
+class IEnumerator;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> class Comparison_1;
@@ -122,10 +122,10 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template <typename TResult> struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -175,8 +175,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14953))
 // CS Name: ::NetworkPlayerModel`1::NetworkPlayer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkPlayer : public ::System::Object {
 public:
@@ -240,88 +240,88 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_userId addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_userName();
 
-  /// @brief Method get_isMe addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isMe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_sortIndex addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_sortIndex, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_sortIndex();
 
-  /// @brief Method get_currentPartySize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_currentPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
 
-  /// @brief Method get_selectionMask addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_selectionMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_configuration addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_configuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_isMyPartyOwner addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isMyPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isMyPartyOwner();
 
-  /// @brief Method get_connectedPlayer addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_connectedPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
 
-  /// @brief Method get_canJoin addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canJoin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canJoin();
 
-  /// @brief Method Join addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Join();
 
-  /// @brief Method get_requiresPassword addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_requiresPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_requiresPassword();
 
-  /// @brief Method Join addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Join(::StringW password);
 
-  /// @brief Method get_isWaitingOnJoin addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isWaitingOnJoin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isWaitingOnJoin();
 
-  /// @brief Method get_canInvite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method Invite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Invite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Invite();
 
-  /// @brief Method get_isWaitingOnInvite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isWaitingOnInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isWaitingOnInvite();
 
-  /// @brief Method get_canKick addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canKick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canKick();
 
-  /// @brief Method Kick addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Kick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Kick();
 
-  /// @brief Method get_canLeave addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canLeave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canLeave();
 
-  /// @brief Method Leave addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Leave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Leave();
 
-  /// @brief Method get_canBlock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canBlock();
 
-  /// @brief Method Block addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Block, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Block();
 
-  /// @brief Method get_canUnblock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canUnblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canUnblock();
 
-  /// @brief Method Unblock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Unblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unblock();
 
-  /// @brief Method SendJoinResponse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendJoinResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendJoinResponse(bool accept);
 
-  /// @brief Method SendInviteResponse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendInviteResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkPlayer", modifiers: "&&", def_value: None }]
@@ -349,21 +349,21 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::JoinMatchmakingPartyConfig
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4534))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14937))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14954))
 // CS Name: ::NetworkPlayerModel`1::JoinMatchmakingPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__JoinMatchmakingPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
   // Declarations
-  /// @brief Field secret, offset 0x48, size 0x8
+  /// @brief Field secret, offset 0x58, size 0x8
   __declspec(property(get = __get_secret, put = __set_secret))::StringW secret;
 
-  /// @brief Field code, offset 0x50, size 0x8
+  /// @brief Field code, offset 0x60, size 0x8
   __declspec(property(get = __get_code, put = __set_code))::StringW code;
 
   /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
@@ -383,7 +383,7 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__JoinMatchmakingPartyConfig", modifiers: "&&", def_value: None }]
@@ -400,10 +400,10 @@ protected:
   constexpr __NetworkPlayerModel_1__JoinMatchmakingPartyConfig();
 
 public:
-  /// @brief Field secret, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
 
-  /// @brief Field code, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field code, offset: 0x60, size: 0x8, def value: None
   ::StringW ___code;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -411,13 +411,13 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::StartClientPartyConfig
-// SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4534))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14937))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14955))
 // CS Name: ::NetworkPlayerModel`1::StartClientPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__StartClientPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
@@ -427,7 +427,7 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__StartClientPartyConfig", modifiers: "&&", def_value: None }]
@@ -449,13 +449,13 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::NetworkServer
-// SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12614)), TypeDefinitionIndex(TypeDefinitionIndex(12687)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
 // CS Name: ::NetworkPlayerModel`1::NetworkServer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkServer : public ::System::Object {
 public:
@@ -466,16 +466,16 @@ public:
   /// @brief Field _code, offset 0x18, size 0x8
   __declspec(property(get = __get__code, put = __set__code))::StringW _code;
 
-  /// @brief Field _selectionMask, offset 0x20, size 0x18
+  /// @brief Field _selectionMask, offset 0x20, size 0x28
   __declspec(property(get = __get__selectionMask, put = __set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
 
-  /// @brief Field _configuration, offset 0x38, size 0x18
+  /// @brief Field _configuration, offset 0x48, size 0x18
   __declspec(property(get = __get__configuration, put = __set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
 
-  /// @brief Field _currentPlayerCount, offset 0x50, size 0x4
+  /// @brief Field _currentPlayerCount, offset 0x60, size 0x4
   __declspec(property(get = __get__currentPlayerCount, put = __set__currentPlayerCount)) int32_t _currentPlayerCount;
 
-  /// @brief Field _lastUpdateTime, offset 0x54, size 0x4
+  /// @brief Field _lastUpdateTime, offset 0x64, size 0x4
   __declspec(property(get = __get__lastUpdateTime, put = __set__lastUpdateTime)) float_t _lastUpdateTime;
 
   __declspec(property(get = INetworkPlayer_get_userId))::StringW INetworkPlayer_userId;
@@ -561,98 +561,98 @@ public:
                                                                                       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                       ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::StringW code, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                     ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Update(int32_t currentPlayerCount);
 
-  /// @brief Method INetworkPlayer.get_userId addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method INetworkPlayer.get_userId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW INetworkPlayer_get_userId();
 
-  /// @brief Method get_code addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_code, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_code();
 
-  /// @brief Method INetworkPlayer.get_userName addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method INetworkPlayer.get_userName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW INetworkPlayer_get_userName();
 
-  /// @brief Method get_serverName addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_serverName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_serverName();
 
-  /// @brief Method get_isMe addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isMe, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isMe();
 
-  /// @brief Method get_currentPartySize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_currentPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_currentPartySize();
 
-  /// @brief Method get_selectionMask addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_selectionMask, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_configuration addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_configuration, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_connectedPlayer addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_connectedPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_connectedPlayer();
 
-  /// @brief Method get_isMyPartyOwner addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isMyPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isMyPartyOwner();
 
-  /// @brief Method get_hasTimedOut addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_hasTimedOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
-  /// @brief Method get_canJoin addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canJoin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canJoin();
 
-  /// @brief Method Join addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Join();
 
-  /// @brief Method get_requiresPassword addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_requiresPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_requiresPassword();
 
-  /// @brief Method Join addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Join, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Join(::StringW password);
 
-  /// @brief Method get_isWaitingOnJoin addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isWaitingOnJoin, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isWaitingOnJoin();
 
-  /// @brief Method get_canInvite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canInvite();
 
-  /// @brief Method Invite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Invite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Invite();
 
-  /// @brief Method get_isWaitingOnInvite addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_isWaitingOnInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_isWaitingOnInvite();
 
-  /// @brief Method get_canKick addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canKick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canKick();
 
-  /// @brief Method Kick addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Kick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Kick();
 
-  /// @brief Method get_canLeave addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canLeave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canLeave();
 
-  /// @brief Method Leave addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Leave, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Leave();
 
-  /// @brief Method get_canBlock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canBlock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canBlock();
 
-  /// @brief Method Block addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Block, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Block();
 
-  /// @brief Method get_canUnblock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_canUnblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_canUnblock();
 
-  /// @brief Method Unblock addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Unblock, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unblock();
 
-  /// @brief Method SendJoinResponse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendJoinResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendJoinResponse(bool accept);
 
-  /// @brief Method SendInviteResponse addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendInviteResponse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SendInviteResponse(bool accept);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1__NetworkServer", modifiers: "&&", def_value: None }]
@@ -675,16 +675,16 @@ public:
   /// @brief Field _code, offset: 0x18, size: 0x8, def value: None
   ::StringW ____code;
 
-  /// @brief Field _selectionMask, offset: 0x20, size: 0x18, def value: None
+  /// @brief Field _selectionMask, offset: 0x20, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ____selectionMask;
 
-  /// @brief Field _configuration, offset: 0x38, size: 0x18, def value: None
+  /// @brief Field _configuration, offset: 0x48, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ____configuration;
 
-  /// @brief Field _currentPlayerCount, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _currentPlayerCount, offset: 0x60, size: 0x4, def value: None
   int32_t ____currentPlayerCount;
 
-  /// @brief Field _lastUpdateTime, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field _lastUpdateTime, offset: 0x64, size: 0x4, def value: None
   float_t ____lastUpdateTime;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -697,19 +697,19 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(12702)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 405 }), TypeDefinitionIndex(TypeDefinitionIndex(4717)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3397), inst: 868 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4570)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(12775)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 885 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
 struct CORDL_TYPE __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -750,8 +750,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4571))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14958))
 // CS Name: ::NetworkPlayerModel`1::<GetPartyPlayers>d__57<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetPartyPlayers_d__57 : public ::System::Object {
 public:
@@ -822,28 +822,28 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetPartyPlayers_d__57", modifiers: "&&", def_value: None }]
@@ -885,9 +885,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4569), inst: 4615 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3830), inst: 1620 }), TypeDefinitionIndex(TypeDefinitionIndex(3830)), TypeDefinitionIndex(TypeDefinitionIndex(4569))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4572))
-// CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687 }), TypeDefinitionIndex(TypeDefinitionIndex(14956))} Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(14959)) CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetOtherPlayers_d__58 : public ::System::Object {
 public:
   // Declarations
@@ -957,31 +957,31 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method <>m__Finally1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1___GetOtherPlayers_d__58", modifiers: "&&", def_value: None }]
@@ -1018,13 +1018,13 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::<>c__DisplayClass59_0
-// SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12614)), TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(12687))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14960))
 // CS Name: ::NetworkPlayerModel`1::<>c__DisplayClass59_0<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c__DisplayClass59_0 : public ::System::Object {
 public:
@@ -1035,10 +1035,10 @@ public:
   /// @brief Field <>4__this, offset 0x18, size 0x8
   __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this;
 
-  /// @brief Field localSelectionMask, offset 0x20, size 0x18
+  /// @brief Field localSelectionMask, offset 0x20, size 0x28
   __declspec(property(get = __get_localSelectionMask, put = __set_localSelectionMask))::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask;
 
-  /// @brief Field localConfiguration, offset 0x38, size 0x18
+  /// @brief Field localConfiguration, offset 0x48, size 0x18
   __declspec(property(get = __get_localConfiguration, put = __set_localConfiguration))::GlobalNamespace::GameplayServerConfiguration localConfiguration;
 
   constexpr bool& __get_clearCurrentList();
@@ -1067,13 +1067,13 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <Refresh>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Refresh>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Refresh_b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers);
 
-  /// @brief Method <Refresh>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <Refresh>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Refresh_b__1(::GlobalNamespace::ConnectionFailedReason reason);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c__DisplayClass59_0", modifiers: "&&", def_value: None }]
@@ -1096,10 +1096,10 @@ public:
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::NetworkPlayerModel_1<T>* _____4__this;
 
-  /// @brief Field localSelectionMask, offset: 0x20, size: 0x18, def value: None
+  /// @brief Field localSelectionMask, offset: 0x20, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ___localSelectionMask;
 
-  /// @brief Field localConfiguration, offset: 0x38, size: 0x18, def value: None
+  /// @brief Field localConfiguration, offset: 0x48, size: 0x18, def value: None
   ::GlobalNamespace::GameplayServerConfiguration ___localConfiguration;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1112,8 +1112,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14961))
 // CS Name: ::NetworkPlayerModel`1::<>c<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c : public ::System::Object {
 public:
@@ -1134,10 +1134,10 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1____c<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <PlayerOrderChanged>b__71_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <PlayerOrderChanged>b__71_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t _PlayerOrderChanged_b__71_0(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* a, ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* b);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPlayerModel_1____c", modifiers: "&&", def_value: None }]
@@ -1159,13 +1159,13 @@ public:
 // Non member Declarations
 } // namespace GlobalNamespace
 // Type: ::NetworkPlayerModel`1
-// SizeInfo { instance_size: 240, native_size: 238, calculated_instance_size: 240, calculated_native_size: 238, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 256, native_size: 254, calculated_instance_size: 256, calculated_native_size: 254, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4537))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14940))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
 // CS Name: ::NetworkPlayerModel`1<T>*
 class CORDL_TYPE NetworkPlayerModel_1 : public ::GlobalNamespace::BaseNetworkPlayerModel {
 public:
@@ -1188,53 +1188,53 @@ public:
 
   using NetworkPlayer = ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>;
 
-  /// @brief Field _platformUserModel, offset 0x90, size 0x8
+  /// @brief Field _platformUserModel, offset 0xa0, size 0x8
   __declspec(property(get = __get__platformUserModel, put = __set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
-  /// @brief Field _authenticationTokenProviderTask, offset 0x98, size 0x8
+  /// @brief Field _authenticationTokenProviderTask, offset 0xa8, size 0x8
   __declspec(property(get = __get__authenticationTokenProviderTask,
                       put = __set__authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* _authenticationTokenProviderTask;
 
-  /// @brief Field _localPlayer, offset 0xa0, size 0x8
+  /// @brief Field _localPlayer, offset 0xb0, size 0x8
   __declspec(property(get = __get__localPlayer, put = __set__localPlayer))::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* _localPlayer;
 
-  /// @brief Field _networkingFailed, offset 0xa8, size 0x1
+  /// @brief Field _networkingFailed, offset 0xb8, size 0x1
   __declspec(property(get = __get__networkingFailed, put = __set__networkingFailed)) bool _networkingFailed;
 
-  /// @brief Field _masterServerUnreachable, offset 0xa9, size 0x1
+  /// @brief Field _masterServerUnreachable, offset 0xb9, size 0x1
   __declspec(property(get = __get__masterServerUnreachable, put = __set__masterServerUnreachable)) bool _masterServerUnreachable;
 
-  /// @brief Field _currentPlayerCount, offset 0xac, size 0x4
+  /// @brief Field _currentPlayerCount, offset 0xbc, size 0x4
   __declspec(property(get = __get__currentPlayerCount, put = __set__currentPlayerCount)) int32_t _currentPlayerCount;
 
-  /// @brief Field partySizeChangedEvent, offset 0xb0, size 0x8
+  /// @brief Field partySizeChangedEvent, offset 0xc0, size 0x8
   __declspec(property(get = __get_partySizeChangedEvent, put = __set_partySizeChangedEvent))::System::Action_1<int32_t>* partySizeChangedEvent;
 
-  /// @brief Field partyRefreshingEvent, offset 0xb8, size 0x8
+  /// @brief Field partyRefreshingEvent, offset 0xc8, size 0x8
   __declspec(property(get = __get_partyRefreshingEvent, put = __set_partyRefreshingEvent))::System::Action* partyRefreshingEvent;
 
-  /// @brief Field partyChangedEvent, offset 0xc0, size 0x8
+  /// @brief Field partyChangedEvent, offset 0xd0, size 0x8
   __declspec(property(get = __get_partyChangedEvent, put = __set_partyChangedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* partyChangedEvent;
 
-  /// @brief Field joinRequestedEvent, offset 0xc8, size 0x8
+  /// @brief Field joinRequestedEvent, offset 0xd8, size 0x8
   __declspec(property(get = __get_joinRequestedEvent, put = __set_joinRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* joinRequestedEvent;
 
-  /// @brief Field inviteRequestedEvent, offset 0xd0, size 0x8
+  /// @brief Field inviteRequestedEvent, offset 0xe0, size 0x8
   __declspec(property(get = __get_inviteRequestedEvent, put = __set_inviteRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent;
 
-  /// @brief Field _partyPlayers, offset 0xd8, size 0x8
+  /// @brief Field _partyPlayers, offset 0xe8, size 0x8
   __declspec(property(get = __get__partyPlayers, put = __set__partyPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* _partyPlayers;
 
-  /// @brief Field _publicServers, offset 0xe0, size 0x8
+  /// @brief Field _publicServers, offset 0xf0, size 0x8
   __declspec(property(get = __get__publicServers, put = __set__publicServers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* _publicServers;
 
-  /// @brief Field _lastServerRefresh, offset 0xe8, size 0x4
+  /// @brief Field _lastServerRefresh, offset 0xf8, size 0x4
   __declspec(property(get = __get__lastServerRefresh, put = __set__lastServerRefresh)) float_t _lastServerRefresh;
 
-  /// @brief Field _isRefreshing, offset 0xec, size 0x1
+  /// @brief Field _isRefreshing, offset 0xfc, size 0x1
   __declspec(property(get = __get__isRefreshing, put = __set__isRefreshing)) bool _isRefreshing;
 
-  /// @brief Field _filterChanged, offset 0xed, size 0x1
+  /// @brief Field _filterChanged, offset 0xfd, size 0x1
   __declspec(property(get = __get__filterChanged, put = __set__filterChanged)) bool _filterChanged;
 
   __declspec(property(get = get_authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask;
@@ -1354,144 +1354,146 @@ public:
 
   constexpr void __set__filterChanged(bool value);
 
-  /// @brief Method get_authenticationTokenProviderTask addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_authenticationTokenProviderTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* get_authenticationTokenProviderTask();
 
-  /// @brief Method add_partySizeChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_partySizeChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_partySizeChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_partySizeChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_partySizeChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_partySizeChangedEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_partyRefreshingEvent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method remove_partyRefreshingEvent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_partyRefreshingEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_partyRefreshingEvent(::System::Action* value);
 
-  /// @brief Method add_partyChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_partyChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method remove_partyChangedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_partyChangedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  /// @brief Method add_joinRequestedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_joinRequestedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_joinRequestedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_joinRequestedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method add_inviteRequestedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_inviteRequestedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method remove_inviteRequestedEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_inviteRequestedEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  /// @brief Method get_localPlayerIsPartyOwner addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_localPlayerIsPartyOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_localPlayerIsPartyOwner();
 
-  /// @brief Method get_hasNetworkingFailed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_hasNetworkingFailed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_hasNetworkingFailed();
 
-  /// @brief Method get_secret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_secret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_secret();
 
-  /// @brief Method get_code addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_code, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_code();
 
-  /// @brief Method get_partyOwnerId addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_partyOwnerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_partyOwnerId();
 
-  /// @brief Method get_currentPartySize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_currentPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_currentPartySize();
 
-  /// @brief Method get_publicServers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_publicServers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* get_publicServers();
 
-  /// @brief Method get_connectionManager addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_connectionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_connectionManager();
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method HandlePlatformUserInfoDidChange addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandlePlatformUserInfoDidChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlatformUserInfoDidChange(::GlobalNamespace::UserInfo* newInfo);
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method CreatePartyConnection addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreatePartyConnection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T2> inline bool CreatePartyConnection(::GlobalNamespace::INetworkPlayerModelPartyConfig_1<T2>* config);
 
-  /// @brief Method GetConnectToServerParams addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetConnectToServerParams, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  /// @param secret: ::StringW (default: nullptr)
+  /// @param code: ::StringW (default: nullptr)
   inline ::GlobalNamespace::IConnectionInitParams_1<T>* GetConnectToServerParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
-                                                                                 ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret, ::StringW code);
+                                                                                 ::GlobalNamespace::GameplayServerConfiguration configuration, ::StringW secret = nullptr, ::StringW code = nullptr);
 
-  /// @brief Method GetStartClientParams addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetStartClientParams, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IConnectionInitParams_1<T>* GetStartClientParams(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
-  /// @brief Method RefreshPublicServers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RefreshPublicServers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RefreshPublicServers(::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask, ::GlobalNamespace::GameplayServerConfiguration localConfiguration,
                                    ::System::Action_1<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>* onSuccess,
                                    ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onFailure);
 
-  /// @brief Method InitAuthenticationTokenProvider addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InitAuthenticationTokenProvider, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* InitAuthenticationTokenProvider();
 
-  /// @brief Method GetPartyPlayers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPartyPlayers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetPartyPlayers();
 
-  /// @brief Method GetOtherPlayers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetOtherPlayers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* GetOtherPlayers();
 
-  /// @brief Method Refresh addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method HandlePlayersChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandlePlayersChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlayersChanged();
 
-  /// @brief Method HandleInviteRequested addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleInviteRequested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleInviteRequested(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method HandleJoinRequested addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandleJoinRequested, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandleJoinRequested(::GlobalNamespace::INetworkPlayer* player);
 
-  /// @brief Method HandlePartyChanged addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method HandlePartyChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
 
-  /// @brief Method ResetMasterServerReachability addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ResetMasterServerReachability, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ResetMasterServerReachability();
 
-  /// @brief Method Connected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Connected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Connected();
 
-  /// @brief Method Disconnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Disconnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Disconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method ConnectionFailed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ConnectionFailed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method PlayerConnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PlayerConnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method PlayerDisconnected addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PlayerDisconnected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method PlayerStateChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PlayerStateChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PlayerStateChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method PlayerOrderChanged addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PlayerOrderChanged, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PlayerOrderChanged(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method GetPlayer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPlayer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* GetPlayer(::StringW userId);
 
-  /// @brief Method GetServer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>* GetServer(::StringW code);
 
   static inline ::GlobalNamespace::NetworkPlayerModel_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1", modifiers: "&&", def_value: None }]
@@ -1508,52 +1510,52 @@ protected:
   constexpr NetworkPlayerModel_1();
 
 public:
-  /// @brief Field _platformUserModel, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _platformUserModel, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::IPlatformUserModel* ____platformUserModel;
 
-  /// @brief Field _authenticationTokenProviderTask, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _authenticationTokenProviderTask, offset: 0xa8, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* ____authenticationTokenProviderTask;
 
-  /// @brief Field _localPlayer, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _localPlayer, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* ____localPlayer;
 
-  /// @brief Field _networkingFailed, offset: 0xa8, size: 0x1, def value: None
+  /// @brief Field _networkingFailed, offset: 0xb8, size: 0x1, def value: None
   bool ____networkingFailed;
 
-  /// @brief Field _masterServerUnreachable, offset: 0xa9, size: 0x1, def value: None
+  /// @brief Field _masterServerUnreachable, offset: 0xb9, size: 0x1, def value: None
   bool ____masterServerUnreachable;
 
-  /// @brief Field _currentPlayerCount, offset: 0xac, size: 0x4, def value: None
+  /// @brief Field _currentPlayerCount, offset: 0xbc, size: 0x4, def value: None
   int32_t ____currentPlayerCount;
 
-  /// @brief Field partySizeChangedEvent, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field partySizeChangedEvent, offset: 0xc0, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___partySizeChangedEvent;
 
-  /// @brief Field partyRefreshingEvent, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field partyRefreshingEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action* ___partyRefreshingEvent;
 
-  /// @brief Field partyChangedEvent, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field partyChangedEvent, offset: 0xd0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* ___partyChangedEvent;
 
-  /// @brief Field joinRequestedEvent, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field joinRequestedEvent, offset: 0xd8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___joinRequestedEvent;
 
-  /// @brief Field inviteRequestedEvent, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field inviteRequestedEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::INetworkPlayer*>* ___inviteRequestedEvent;
 
-  /// @brief Field _partyPlayers, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _partyPlayers, offset: 0xe8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* ____partyPlayers;
 
-  /// @brief Field _publicServers, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _publicServers, offset: 0xf0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* ____publicServers;
 
-  /// @brief Field _lastServerRefresh, offset: 0xe8, size: 0x4, def value: None
+  /// @brief Field _lastServerRefresh, offset: 0xf8, size: 0x4, def value: None
   float_t ____lastServerRefresh;
 
-  /// @brief Field _isRefreshing, offset: 0xec, size: 0x1, def value: None
+  /// @brief Field _isRefreshing, offset: 0xfc, size: 0x1, def value: None
   bool ____isRefreshing;
 
-  /// @brief Field _filterChanged, offset: 0xed, size: 0x1, def value: None
+  /// @brief Field _filterChanged, offset: 0xfd, size: 0x1, def value: None
   bool ____filterChanged;
 
   /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4

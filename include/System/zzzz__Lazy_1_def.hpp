@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Lazy_1)
-namespace System::Threading {
-struct LazyThreadSafetyMode;
-}
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System::Threading {
+struct LazyThreadSafetyMode;
 }
 namespace System {
 class LazyHelper;
@@ -26,8 +26,8 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2430))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2432))
 // CS Name: ::System::Lazy`1<T>*
 class CORDL_TYPE Lazy_1 : public ::System::Object {
 public:
@@ -63,55 +63,55 @@ public:
 
   constexpr void __set__value(T value);
 
-  /// @brief Method CreateViaDefaultConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateViaDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateViaDefaultConstructor();
 
   static inline ::System::Lazy_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* valueFactory);
 
   static inline ::System::Lazy_1<T>* New_ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<T>* valueFactory, ::System::Threading::LazyThreadSafetyMode mode, bool useDefaultConstructor);
 
-  /// @brief Method ViaConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ViaConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ViaConstructor();
 
-  /// @brief Method ViaFactory addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ViaFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ViaFactory(::System::Threading::LazyThreadSafetyMode mode);
 
-  /// @brief Method ExecutionAndPublication addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ExecutionAndPublication, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ExecutionAndPublication(::System::LazyHelper* executionAndPublication, bool useDefaultConstructor);
 
-  /// @brief Method PublicationOnly addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PublicationOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnly(::System::LazyHelper* publicationOnly, T possibleValue);
 
-  /// @brief Method PublicationOnlyViaConstructor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PublicationOnlyViaConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnlyViaConstructor(::System::LazyHelper* initializer);
 
-  /// @brief Method PublicationOnlyViaFactory addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PublicationOnlyViaFactory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnlyViaFactory(::System::LazyHelper* initializer);
 
-  /// @brief Method PublicationOnlyWaitForOtherThreadToPublish addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method PublicationOnlyWaitForOtherThreadToPublish, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void PublicationOnlyWaitForOtherThreadToPublish();
 
-  /// @brief Method CreateValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreateValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T CreateValue();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_IsValueCreated addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsValueCreated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsValueCreated();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
   // Ctor Parameters [CppParam { name: "", ty: "Lazy_1", modifiers: "&&", def_value: None }]

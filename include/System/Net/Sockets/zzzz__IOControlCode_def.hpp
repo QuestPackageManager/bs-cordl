@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::Sockets::IOControlCode);
 namespace System::Net::Sockets {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9338))
 // CS Name: ::System.Net.Sockets::IOControlCode
 struct CORDL_TYPE IOControlCode {
 public:

@@ -10,8 +10,11 @@ CORDL_MODULE_EXPORT(JPakeParticipant)
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakePrimeOrderGroup;
 }
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+namespace Org::BouncyCastle::Security {
+class SecureRandom;
+}
+namespace Org::BouncyCastle::Crypto::Agreement::JPake {
+class JPakeRound3Payload;
 }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound1Payload;
@@ -19,14 +22,11 @@ class JPakeRound1Payload;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 class JPakeRound2Payload;
-}
-namespace Org::BouncyCastle::Crypto::Agreement::JPake {
-class JPakeRound3Payload;
-}
-namespace Org::BouncyCastle::Security {
-class SecureRandom;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::JPake {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(714))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.JPake::JPakeParticipant*
 class CORDL_TYPE JPakeParticipant : public ::System::Object {
@@ -248,45 +248,45 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant* New_ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method .ctor addr 0x11a1ec4 size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x1213114, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant* New_ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                           ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group);
 
-  /// @brief Method .ctor addr 0x11a1f3c size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x121318c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant* New_ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                           ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group,
                                                                                           ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor addr 0x11a1ff8 size 0x23c virtual false final false
+  /// @brief Method .ctor, addr 0x1213248, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup* group,
                     ::Org::BouncyCastle::Crypto::IDigest* digest, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_State addr 0x11a2288 size 0x8 virtual true final false
+  /// @brief Method get_State, addr 0x12134d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_State();
 
-  /// @brief Method CreateRound1PayloadToSend addr 0x11a2290 size 0x228 virtual true final false
+  /// @brief Method CreateRound1PayloadToSend, addr 0x12134e0, size 0x228, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload* CreateRound1PayloadToSend();
 
-  /// @brief Method ValidateRound1PayloadReceived addr 0x11a2958 size 0x23c virtual true final false
+  /// @brief Method ValidateRound1PayloadReceived, addr 0x1213ba8, size 0x23c, virtual true, abstract: false, final false
   inline void ValidateRound1PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload* round1PayloadReceived);
 
-  /// @brief Method CreateRound2PayloadToSend addr 0x11a2ef0 size 0x224 virtual true final false
+  /// @brief Method CreateRound2PayloadToSend, addr 0x1214140, size 0x224, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload* CreateRound2PayloadToSend();
 
-  /// @brief Method ValidateRound2PayloadReceived addr 0x11a3368 size 0x230 virtual true final false
+  /// @brief Method ValidateRound2PayloadReceived, addr 0x12145b8, size 0x230, virtual true, abstract: false, final false
   inline void ValidateRound2PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload* round2PayloadReceived);
 
-  /// @brief Method CalculateKeyingMaterial addr 0x11a37f4 size 0x19c virtual true final false
+  /// @brief Method CalculateKeyingMaterial, addr 0x1214a44, size 0x19c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateKeyingMaterial();
 
-  /// @brief Method CreateRound3PayloadToSend addr 0x11a3a2c size 0x1ec virtual true final false
+  /// @brief Method CreateRound3PayloadToSend, addr 0x1214c7c, size 0x1ec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* CreateRound3PayloadToSend(::Org::BouncyCastle::Math::BigInteger* keyingMaterial);
 
-  /// @brief Method ValidateRound3PayloadReceived addr 0x11a3e68 size 0x218 virtual true final false
+  /// @brief Method ValidateRound3PayloadReceived, addr 0x12150b8, size 0x218, virtual true, abstract: false, final false
   inline void ValidateRound3PayloadReceived(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* round3PayloadReceived, ::Org::BouncyCastle::Math::BigInteger* keyingMaterial);
 
   // Ctor Parameters [CppParam { name: "", ty: "JPakeParticipant", modifiers: "&&", def_value: None }]

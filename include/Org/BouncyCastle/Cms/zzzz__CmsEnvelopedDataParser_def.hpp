@@ -7,23 +7,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsEnvelopedDataParser)
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
+namespace Org::BouncyCastle::Cms {
+class RecipientInformationStore;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class AttributeTable;
+class EnvelopedDataParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
 }
-namespace Org::BouncyCastle::Cms {
-class RecipientInformationStore;
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace System::IO {
 class Stream;
 }
 namespace Org::BouncyCastle::Asn1::Cms {
-class EnvelopedDataParser;
+class AttributeTable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -94,27 +94,27 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
-  /// @brief Method .ctor addr 0x116e3dc size 0x78 virtual false final false
+  /// @brief Method .ctor, addr 0x11df62c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> envelopedData);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataParser* New_ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method .ctor addr 0x116e454 size 0x2f8 virtual false final false
+  /// @brief Method .ctor, addr 0x11df6a4, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* envelopedData);
 
-  /// @brief Method get_EncryptionAlgorithmID addr 0x116e74c size 0x8 virtual false final false
+  /// @brief Method get_EncryptionAlgorithmID, addr 0x11df99c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithmID();
 
-  /// @brief Method get_EncryptionAlgOid addr 0x116e754 size 0x2c virtual false final false
+  /// @brief Method get_EncryptionAlgOid, addr 0x11df9a4, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_EncryptionAlgOid();
 
-  /// @brief Method get_EncryptionAlgParams addr 0x116e780 size 0x38 virtual false final false
+  /// @brief Method get_EncryptionAlgParams, addr 0x11df9d0, size 0x38, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_EncryptionAlgParams();
 
-  /// @brief Method GetRecipientInfos addr 0x116e7b8 size 0x8 virtual false final false
+  /// @brief Method GetRecipientInfos, addr 0x11dfa08, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnprotectedAttributes addr 0x116e7c0 size 0x24c virtual false final false
+  /// @brief Method GetUnprotectedAttributes, addr 0x11dfa10, size 0x24c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnprotectedAttributes();
 
   // Ctor Parameters [CppParam { name: "", ty: "CmsEnvelopedDataParser", modifiers: "&&", def_value: None }]

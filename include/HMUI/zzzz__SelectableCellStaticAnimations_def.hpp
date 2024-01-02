@@ -5,16 +5,16 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(SelectableCellStaticAnimations)
 namespace HMUI {
-class SelectableCell;
-}
-namespace UnityEngine {
-class AnimationClip;
+struct __SelectableCell__TransitionType;
 }
 namespace System {
 class Object;
 }
+namespace UnityEngine {
+class AnimationClip;
+}
 namespace HMUI {
-struct __SelectableCell__TransitionType;
+class SelectableCell;
 }
 // Forward declare root types
 namespace HMUI {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::HMUI::SelectableCellStaticAnimations);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13654))
 // CS Name: ::HMUI::SelectableCellStaticAnimations*
 class CORDL_TYPE SelectableCellStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
@@ -77,27 +77,27 @@ public:
 
   constexpr void __set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip* value);
 
-  /// @brief Method Awake addr 0x1fee484 size 0xec virtual false final false
+  /// @brief Method Awake, addr 0x2145e20, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Start addr 0x1fee570 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x2145f0c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnDestroy addr 0x1fee5d8 size 0xec virtual false final false
+  /// @brief Method OnDestroy, addr 0x2145f74, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleSelectionDidChange addr 0x1fee6c4 size 0x4 virtual false final false
+  /// @brief Method HandleSelectionDidChange, addr 0x2146060, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType, ::System::Object* changeOwner);
 
-  /// @brief Method HandleHighlightDidChange addr 0x1fee6c8 size 0x4 virtual false final false
+  /// @brief Method HandleHighlightDidChange, addr 0x2146064, size 0x4, virtual false, abstract: false, final false
   inline void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::__SelectableCell__TransitionType transitionType);
 
-  /// @brief Method RefreshVisuals addr 0x1fee574 size 0x64 virtual false final false
+  /// @brief Method RefreshVisuals, addr 0x2145f10, size 0x64, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
   static inline ::HMUI::SelectableCellStaticAnimations* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fee6cc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2146068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SelectableCellStaticAnimations", modifiers: "&&", def_value: None }]

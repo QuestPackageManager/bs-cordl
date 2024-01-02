@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ILevelGameplaySetupData)
 namespace GlobalNamespace {
-class GameplayModifiers;
+class PreviewDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class PreviewDifficultyBeatmap;
+class GameplayModifiers;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ILevelGameplaySetupData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4500))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4489))
 // CS Name: ::ILevelGameplaySetupData*
 class CORDL_TYPE ILevelGameplaySetupData {
 public:
@@ -29,10 +29,10 @@ public:
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Method get_beatmapLevel addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_beatmapLevel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::PreviewDifficultyBeatmap* get_beatmapLevel();
 
-  /// @brief Method get_gameplayModifiers addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_gameplayModifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   // Ctor Parameters [CppParam { name: "", ty: "ILevelGameplaySetupData", modifiers: "&&", def_value: None }]

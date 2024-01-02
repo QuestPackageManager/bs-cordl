@@ -20,15 +20,15 @@ MARK_REF_PTR_T(::System::ModifierSpec);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2631))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2633))
 // CS Name: ::System::ModifierSpec*
 class CORDL_TYPE ModifierSpec {
 public:
   // Declarations
-  /// @brief Method Resolve addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Resolve, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* Resolve(::System::Type* type);
 
-  /// @brief Method Append addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Append, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::StringBuilder* Append(::System::Text::StringBuilder* sb);
 
   // Ctor Parameters [CppParam { name: "", ty: "ModifierSpec", modifiers: "&&", def_value: None }]

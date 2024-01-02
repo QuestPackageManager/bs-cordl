@@ -24,8 +24,8 @@ MARK_VAL_T(::UnityEngine::TreeInstance);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10177))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15454))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15470))
 // CS Name: ::UnityEngine::TreeInstance
 struct CORDL_TYPE TreeInstance {
 public:

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspRespStatus);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1618))
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspRespStatus*
 class CORDL_TYPE OcspRespStatus : public ::System::Object {
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Ocsp::OcspRespStatus* New_ctor();
 
-  /// @brief Method .ctor addr 0x1031318 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x10a2568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspRespStatus", modifiers: "&&", def_value: None }]

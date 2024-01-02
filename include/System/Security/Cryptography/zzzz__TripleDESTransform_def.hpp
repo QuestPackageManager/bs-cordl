@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESTransform);
 namespace System::Security::Cryptography {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2986))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2987))
 // CS Name: ::System.Security.Cryptography::TripleDESTransform*
 class CORDL_TYPE TripleDESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
@@ -85,13 +85,13 @@ public:
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method .ctor addr 0x2312aa8 size 0x320 virtual false final false
+  /// @brief Method .ctor, addr 0x246b81c, size 0x320, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method ECB addr 0x231bbfc size 0x120 virtual true final false
+  /// @brief Method ECB, addr 0x2474970, size 0x120, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey addr 0x231bb58 size 0xa4 virtual false final false
+  /// @brief Method GetStrongKey, addr 0x24748cc, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   // Ctor Parameters [CppParam { name: "", ty: "TripleDESTransform", modifiers: "&&", def_value: None }]

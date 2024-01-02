@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParticleControlPlayable)
-namespace UnityEngine::Playables {
-struct Playable;
-}
-namespace UnityEngine::Playables {
-struct FrameData;
+namespace UnityEngine {
+class ParticleSystem;
 }
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
 namespace UnityEngine::Playables {
+struct Playable;
+}
+namespace UnityEngine::Playables {
 template <typename T> struct ScriptPlayable_1;
 }
-namespace UnityEngine {
-class ParticleSystem;
+namespace UnityEngine::Playables {
+struct FrameData;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ParticleControlPlayable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10347))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14178))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13907))
 // CS Name: ::UnityEngine.Timeline::ParticleControlPlayable*
 class CORDL_TYPE ParticleControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
@@ -75,37 +75,37 @@ public:
 
   constexpr void __set__particleSystem_k__BackingField(::UnityEngine::ParticleSystem* value);
 
-  /// @brief Method Create addr 0x2ae8724 size 0x144 virtual false final false
+  /// @brief Method Create, addr 0x2c6c478, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ParticleControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
                                                                                                                      ::UnityEngine::ParticleSystem* component, uint32_t randomSeed);
 
-  /// @brief Method get_particleSystem addr 0x2ae88e8 size 0x8 virtual false final false
+  /// @brief Method get_particleSystem, addr 0x2c6c63c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ParticleSystem* get_particleSystem();
 
-  /// @brief Method set_particleSystem addr 0x2ae88f0 size 0x8 virtual false final false
+  /// @brief Method set_particleSystem, addr 0x2c6c644, size 0x8, virtual false, abstract: false, final false
   inline void set_particleSystem(::UnityEngine::ParticleSystem* value);
 
-  /// @brief Method Initialize addr 0x2ae8868 size 0x80 virtual false final false
+  /// @brief Method Initialize, addr 0x2c6c5bc, size 0x80, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::ParticleSystem* ps, uint32_t randomSeed);
 
-  /// @brief Method SetRandomSeed addr 0x2ae88f8 size 0x13c virtual false final false
+  /// @brief Method SetRandomSeed, addr 0x2c6c64c, size 0x13c, virtual false, abstract: false, final false
   static inline void SetRandomSeed(::UnityEngine::ParticleSystem* particleSystem, uint32_t randomSeed);
 
-  /// @brief Method PrepareFrame addr 0x2ae8a34 size 0x1b4 virtual true final false
+  /// @brief Method PrepareFrame, addr 0x2c6c788, size 0x1b4, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData data);
 
-  /// @brief Method OnBehaviourPlay addr 0x2ae8cac size 0xc virtual true final false
+  /// @brief Method OnBehaviourPlay, addr 0x2c6ca00, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPause addr 0x2ae8cb8 size 0xc virtual true final false
+  /// @brief Method OnBehaviourPause, addr 0x2c6ca0c, size 0xc, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method Simulate addr 0x2ae8be8 size 0xc4 virtual false final false
+  /// @brief Method Simulate, addr 0x2c6c93c, size 0xc4, virtual false, abstract: false, final false
   inline void Simulate(float_t time, bool restart);
 
   static inline ::UnityEngine::Timeline::ParticleControlPlayable* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ae8cc4 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2c6ca18, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ParticleControlPlayable", modifiers: "&&", def_value: None }]

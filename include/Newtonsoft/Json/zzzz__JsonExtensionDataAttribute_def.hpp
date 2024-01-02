@@ -14,8 +14,8 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonExtensionDataAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11733))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11805))
 // CS Name: ::Newtonsoft.Json::JsonExtensionDataAttribute*
 class CORDL_TYPE JsonExtensionDataAttribute : public ::System::Attribute {
 public:
@@ -42,21 +42,21 @@ public:
 
   constexpr void __set__ReadData_k__BackingField(bool value);
 
-  /// @brief Method get_WriteData addr 0x24dc260 size 0x8 virtual false final false
+  /// @brief Method get_WriteData, addr 0x263e9a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_WriteData();
 
-  /// @brief Method set_WriteData addr 0x24dc268 size 0xc virtual false final false
+  /// @brief Method set_WriteData, addr 0x263e9ac, size 0xc, virtual false, abstract: false, final false
   inline void set_WriteData(bool value);
 
-  /// @brief Method get_ReadData addr 0x24dc274 size 0x8 virtual false final false
+  /// @brief Method get_ReadData, addr 0x263e9b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_ReadData();
 
-  /// @brief Method set_ReadData addr 0x24dc27c size 0xc virtual false final false
+  /// @brief Method set_ReadData, addr 0x263e9c0, size 0xc, virtual false, abstract: false, final false
   inline void set_ReadData(bool value);
 
   static inline ::Newtonsoft::Json::JsonExtensionDataAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x24dc288 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x263e9cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "JsonExtensionDataAttribute", modifiers: "&&", def_value: None }]

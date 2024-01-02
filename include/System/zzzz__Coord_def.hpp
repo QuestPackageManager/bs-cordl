@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Coord);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2645))
 // CS Name: ::System::Coord
 struct CORDL_TYPE Coord {
 public:

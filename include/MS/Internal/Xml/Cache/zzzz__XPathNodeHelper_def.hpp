@@ -20,31 +20,31 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodeHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11698))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11770))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeHelper*
 class CORDL_TYPE XPathNodeHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalNamespaces addr 0x276d294 size 0x64 virtual false final false
+  /// @brief Method GetLocalNamespaces, addr 0x28eb2b8, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetLocalNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                            ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-  /// @brief Method GetInScopeNamespaces addr 0x276d2f8 size 0xb8 virtual false final false
+  /// @brief Method GetInScopeNamespaces, addr 0x28eb31c, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetInScopeNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                              ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
-  /// @brief Method GetParent addr 0x276d5b4 size 0x58 virtual false final false
+  /// @brief Method GetParent, addr 0x28eb5d8, size 0x58, virtual false, abstract: false, final false
   static inline bool GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ByRef<int32_t> idxNode);
 
-  /// @brief Method GetLocation addr 0x276d7ac size 0x38 virtual false final false
+  /// @brief Method GetLocation, addr 0x28eb7d0, size 0x38, virtual false, abstract: false, final false
   static inline int32_t GetLocation(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageNode, int32_t idxNode);
 
-  /// @brief Method GetTextFollowing addr 0x276ce18 size 0x160 virtual false final false
+  /// @brief Method GetTextFollowing, addr 0x28eae3c, size 0x160, virtual false, abstract: false, final false
   static inline bool GetTextFollowing(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageCurrent, ByRef<int32_t> idxCurrent,
                                       ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageEnd, int32_t idxEnd);
 
-  /// @brief Method GetNonDescendant addr 0x276cd98 size 0x80 virtual false final false
+  /// @brief Method GetNonDescendant, addr 0x28eadbc, size 0x80, virtual false, abstract: false, final false
   static inline bool GetNonDescendant(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode, ByRef<int32_t> idxNode);
 
   // Ctor Parameters [CppParam { name: "", ty: "XPathNodeHelper", modifiers: "&&", def_value: None }]

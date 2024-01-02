@@ -1,9 +1,9 @@
 #pragma once
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
-#include "System/zzzz__Exception_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCompletionSource_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
 template <typename T> constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& GlobalNamespace::AsyncComputeOperation_1<T>::__get__tcs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tcs;
@@ -59,13 +59,13 @@ template <typename T> inline void GlobalNamespace::AsyncComputeOperation_1<T>::F
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ex);
 }
 template <typename T> inline T GlobalNamespace::AsyncComputeOperation_1<T>::Compute() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), "Compute",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::AsyncComputeOperation_1<T>::Finally() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), "Finally",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeOperation_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

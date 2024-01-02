@@ -17,15 +17,15 @@ namespace UnityEngine::UIElements {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7441))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7355))
 // CS Name: ::UnityEngine.UIElements::IStyleDataGroup`1<T>*
 class CORDL_TYPE IStyleDataGroup_1 {
 public:
   // Declarations
-  /// @brief Method Copy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Copy();
 
-  /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void CopyFrom(ByRef<T> other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IStyleDataGroup_1", modifiers: "&&", def_value: None }]

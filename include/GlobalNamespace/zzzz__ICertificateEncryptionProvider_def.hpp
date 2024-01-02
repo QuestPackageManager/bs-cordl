@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ICertificateEncryptionProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12703))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12776))
 // CS Name: ::ICertificateEncryptionProvider*
 class CORDL_TYPE ICertificateEncryptionProvider {
 public:
@@ -27,7 +27,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method SignData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SignData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SignData(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t offset, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "ICertificateEncryptionProvider", modifiers: "&&", def_value: None }]

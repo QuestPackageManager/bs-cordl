@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::Wrap);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6976))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6890))
 // CS Name: ::UnityEngine.UIElements::Wrap
 struct CORDL_TYPE Wrap {
 public:

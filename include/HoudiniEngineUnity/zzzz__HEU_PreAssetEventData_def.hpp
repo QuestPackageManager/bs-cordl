@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PreAssetEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9521)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9526))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9594))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9599))
 // CS Name: ::HoudiniEngineUnity::HEU_PreAssetEventData*
 class CORDL_TYPE HEU_PreAssetEventData : public ::System::Object {
 public:
@@ -47,7 +47,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_PreAssetEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
-  /// @brief Method .ctor addr 0x1ff69ec size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x214e388, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_PreAssetEventData", modifiers: "&&", def_value: None }]

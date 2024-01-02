@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteMovementProvider);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4748))
 // CS Name: ::INoteMovementProvider*
 class CORDL_TYPE INoteMovementProvider {
 public:
   // Declarations
   __declspec(property(get = get_noteMovement))::GlobalNamespace::NoteMovement* noteMovement;
 
-  /// @brief Method get_noteMovement addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_noteMovement, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::NoteMovement* get_noteMovement();
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteMovementProvider", modifiers: "&&", def_value: None }]

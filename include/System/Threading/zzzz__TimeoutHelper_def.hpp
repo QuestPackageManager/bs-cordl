@@ -15,16 +15,16 @@ MARK_REF_PTR_T(::System::Threading::TimeoutHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2680))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2682))
 // CS Name: ::System.Threading::TimeoutHelper*
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime addr 0x24b6c68 size 0x8 virtual false final false
+  /// @brief Method GetTime, addr 0x2611bf0, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut addr 0x24b6d1c size 0x3c virtual false final false
+  /// @brief Method UpdateTimeOut, addr 0x2611ca4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimeoutHelper", modifiers: "&&", def_value: None }]

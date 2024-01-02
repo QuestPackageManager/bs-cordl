@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(ConditionalSpriteSwitcher)
+namespace UnityEngine {
+class Material;
+}
 namespace GlobalNamespace {
 class BoolSO;
 }
@@ -12,9 +15,6 @@ class SpriteRenderer;
 }
 namespace UnityEngine {
 class Sprite;
-}
-namespace UnityEngine {
-class Material;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalSpriteSwitcher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5451))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5356))
 // CS Name: ::ConditionalSpriteSwitcher*
 class CORDL_TYPE ConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
@@ -90,27 +90,27 @@ public:
 
   constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer* value);
 
-  /// @brief Method get_falseSprite addr 0x2128044 size 0x8 virtual false final false
+  /// @brief Method get_falseSprite, addr 0x226c180, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_falseSprite();
 
-  /// @brief Method set_falseSprite addr 0x212804c size 0x8 virtual false final false
+  /// @brief Method set_falseSprite, addr 0x226c188, size 0x8, virtual false, abstract: false, final false
   inline void set_falseSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method get_trueSprite addr 0x2128054 size 0x8 virtual false final false
+  /// @brief Method get_trueSprite, addr 0x226c190, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Sprite* get_trueSprite();
 
-  /// @brief Method set_trueSprite addr 0x212805c size 0x8 virtual false final false
+  /// @brief Method set_trueSprite, addr 0x226c198, size 0x8, virtual false, abstract: false, final false
   inline void set_trueSprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method Awake addr 0x2128064 size 0x4 virtual false final false
+  /// @brief Method Awake, addr 0x226c1a0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Apply addr 0x2128068 size 0xa4 virtual false final false
+  /// @brief Method Apply, addr 0x226c1a4, size 0xa4, virtual false, abstract: false, final false
   inline void Apply();
 
   static inline ::GlobalNamespace::ConditionalSpriteSwitcher* New_ctor();
 
-  /// @brief Method .ctor addr 0x212810c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x226c248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionalSpriteSwitcher", modifiers: "&&", def_value: None }]

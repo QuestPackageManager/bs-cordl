@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Net::ICredentialPolicy);
 namespace System::Net {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8025))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9188))
 // CS Name: ::System.Net::ICredentialPolicy*
 class CORDL_TYPE ICredentialPolicy {
 public:

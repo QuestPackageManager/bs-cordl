@@ -22,26 +22,26 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase, typename TIn, typename TOut, typename TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4322), inst: 1130 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4323))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4296), inst: 1154 }), TypeDefinitionIndex(TypeDefinitionIndex(4296))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4297))
 // CS Name: ::DataItemConvertor`4<TBase,TIn,TOut,TParam>*
 class CORDL_TYPE DataItemConvertor_4 : public ::GlobalNamespace::DataItemConvertor_2<TBase, TParam> {
 public:
   // Declarations
   __declspec(property(get = get_inputDataType))::System::Type* inputDataType;
 
-  /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_inputDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_inputDataType();
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TBase Convert(::System::Object* item, TParam param);
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut Convert(TIn item, TParam param);
 
   static inline ::GlobalNamespace::DataItemConvertor_4<TBase, TIn, TOut, TParam>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataItemConvertor_4", modifiers: "&&", def_value: None }]

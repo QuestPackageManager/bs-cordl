@@ -7,20 +7,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeHeaderValue)
+namespace System {
+class ICloneable;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System::Net::Http::Headers {
-class RangeItemHeaderValue;
 }
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
-namespace System {
-class Object;
+namespace System::Net::Http::Headers {
+class RangeItemHeaderValue;
 }
 namespace System {
-class ICloneable;
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -32,8 +32,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RangeHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14921))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14704))
 // CS Name: ::System.Net.Http.Headers::RangeHeaderValue*
 class CORDL_TYPE RangeHeaderValue : public ::System::Object {
 public:
@@ -65,33 +65,33 @@ public:
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x26c50c0 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x28400d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::Headers::RangeHeaderValue* New_ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method .ctor addr 0x26c5114 size 0x1e8 virtual false final false
+  /// @brief Method .ctor, addr 0x2840128, size 0x1e8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::RangeHeaderValue* source);
 
-  /// @brief Method get_Ranges addr 0x26c52fc size 0x80 virtual false final false
+  /// @brief Method get_Ranges, addr 0x2840310, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::RangeItemHeaderValue*>* get_Ranges();
 
-  /// @brief Method get_Unit addr 0x26c537c size 0x8 virtual false final false
+  /// @brief Method get_Unit, addr 0x2840390, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
-  /// @brief Method System.ICloneable.Clone addr 0x26c5384 size 0x60 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2840398, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26c53e4 size 0xc8 virtual true final false
+  /// @brief Method Equals, addr 0x28403f8, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26c54ac size 0x7c virtual true final false
+  /// @brief Method GetHashCode, addr 0x28404c0, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x26c5528 size 0x544 virtual false final false
+  /// @brief Method TryParse, addr 0x284053c, size 0x544, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeHeaderValue*> parsedValue);
 
-  /// @brief Method ToString addr 0x26c5bc8 size 0x1a0 virtual true final false
+  /// @brief Method ToString, addr 0x2840bdc, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "RangeHeaderValue", modifiers: "&&", def_value: None }]

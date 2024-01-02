@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::Zenject::InjectOptionalAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15658))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15661))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15708))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15711))
 // CS Name: ::Zenject::InjectOptionalAttribute*
 class CORDL_TYPE InjectOptionalAttribute : public ::Zenject::InjectAttributeBase {
 public:
   // Declarations
   static inline ::Zenject::InjectOptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d51a94 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb9814, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectOptionalAttribute", modifiers: "&&", def_value: None }]

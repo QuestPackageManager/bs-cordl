@@ -17,24 +17,24 @@ MARK_REF_PTR_T(::System::Configuration::ConfigurationElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(16080))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16257))
 // CS Name: ::System.Configuration::ConfigurationElement*
 class CORDL_TYPE ConfigurationElement : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method get_Properties addr 0x2691cf8 size 0x38 virtual true final false
+  /// @brief Method get_Properties, addr 0x280c958, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
-  /// @brief Method IsModified addr 0x2691d30 size 0x38 virtual true final false
+  /// @brief Method IsModified, addr 0x280c990, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset addr 0x2691d68 size 0x38 virtual true final false
+  /// @brief Method Reset, addr 0x280c9c8, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified addr 0x2691da0 size 0x38 virtual true final false
+  /// @brief Method ResetModified, addr 0x280ca00, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConfigurationElement", modifiers: "&&", def_value: None }]

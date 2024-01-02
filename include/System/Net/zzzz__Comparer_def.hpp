@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer)
-namespace System {
-class Object;
-}
 namespace System::Collections {
 class IComparer;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace System::Net {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::Net::Comparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7962))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9125))
 // CS Name: ::System.Net::Comparer*
 class CORDL_TYPE Comparer : public ::System::Object {
 public:
@@ -30,12 +30,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method System.Collections.IComparer.Compare addr 0x28303a0 size 0xdc virtual true final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x29adc18, size 0xdc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method .ctor addr 0x282f38c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29acc04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Comparer", modifiers: "&&", def_value: None }]

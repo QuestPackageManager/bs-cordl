@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MultiplayerLobbyAvatarPlaceManager)
-namespace GlobalNamespace {
-class ILobbyStateDataModel;
-}
-namespace GlobalNamespace {
-class __MultiplayerLobbyAvatarPlace__Pool;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace GlobalNamespace {
+class __MultiplayerLobbyAvatarPlace__Pool;
+}
+namespace GlobalNamespace {
 class MultiplayerLobbyAvatarPlace;
+}
+namespace GlobalNamespace {
+class ILobbyStateDataModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4108))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5226))
 // CS Name: ::MultiplayerLobbyAvatarPlaceManager*
 class CORDL_TYPE MultiplayerLobbyAvatarPlaceManager : public ::UnityEngine::MonoBehaviour {
 public:
@@ -78,24 +78,24 @@ public:
 
   constexpr void __set__minOuterCircleRadius(float_t value);
 
-  /// @brief Method Activate addr 0x20d7d0c size 0x8 virtual false final false
+  /// @brief Method Activate, addr 0x2251dc8, size 0x8, virtual false, abstract: false, final false
   inline void Activate(float_t innerCircleRadius, float_t minOuterCircleRadius);
 
-  /// @brief Method Deactivate addr 0x20d818c size 0x4 virtual false final false
+  /// @brief Method Deactivate, addr 0x2252268, size 0x4, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method OnDestroy addr 0x20d82dc size 0x4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22523b8, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SpawnAllPlaces addr 0x20d7d14 size 0x478 virtual false final false
+  /// @brief Method SpawnAllPlaces, addr 0x2251dd0, size 0x498, virtual false, abstract: false, final false
   inline void SpawnAllPlaces();
 
-  /// @brief Method DespawnAllPlaces addr 0x20d8190 size 0x14c virtual false final false
+  /// @brief Method DespawnAllPlaces, addr 0x225226c, size 0x14c, virtual false, abstract: false, final false
   inline void DespawnAllPlaces();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x20d82e0 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x22523bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerLobbyAvatarPlaceManager", modifiers: "&&", def_value: None }]

@@ -24,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Certificate))::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
 
-  /// @brief Method get_Certificate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Certificate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::Certificate* get_Certificate();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsCredentials", modifiers: "&&", def_value: None }]

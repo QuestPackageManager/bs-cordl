@@ -5,23 +5,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InputFieldDataBinder)
-namespace UnityEngine::Events {
-template <typename T0> class UnityAction_1;
-}
 namespace HMUI {
 template <typename T> class __InputFieldDataBinder____c__3_1;
 }
-namespace GlobalNamespace {
-class IObservableChange;
+namespace HMUI {
+template <typename T0, typename T1> class __InputFieldDataBinder____c__DisplayClass2_0_2;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-class Action;
+namespace GlobalNamespace {
+class IObservableChange;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -32,8 +26,14 @@ template <typename T1, typename T2> class Tuple_2;
 namespace UnityEngine::UI {
 class InputField;
 }
-namespace HMUI {
-template <typename T0, typename T1> class __InputFieldDataBinder____c__DisplayClass2_0_2;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace UnityEngine::Events {
+template <typename T0> class UnityAction_1;
+}
+namespace System {
+class Action;
 }
 // Forward declare root types
 namespace HMUI {
@@ -55,8 +55,8 @@ namespace HMUI {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13512))
 // CS Name: ::InputFieldDataBinder::<>c__DisplayClass2_0`2<T0,T1>*
 class CORDL_TYPE __InputFieldDataBinder____c__DisplayClass2_0_2 : public ::System::Object {
 public:
@@ -99,13 +99,13 @@ public:
 
   static inline ::HMUI::__InputFieldDataBinder____c__DisplayClass2_0_2<T0, T1>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddBindings>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddBindings>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddBindings_b__0(::StringW value);
 
-  /// @brief Method <AddBindings>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddBindings>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _AddBindings_b__1();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldDataBinder____c__DisplayClass2_0_2", modifiers: "&&", def_value: None }]
@@ -144,8 +144,8 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13633))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13513))
 // CS Name: ::InputFieldDataBinder::<>c__3`1<T>*
 class CORDL_TYPE __InputFieldDataBinder____c__3_1 : public ::System::Object {
 public:
@@ -166,10 +166,10 @@ public:
 
   static inline ::HMUI::__InputFieldDataBinder____c__3_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <AddStringBindings>b__3_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <AddStringBindings>b__3_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW _AddStringBindings_b__3_0(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InputFieldDataBinder____c__3_1", modifiers: "&&", def_value: None }]
@@ -194,8 +194,8 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13634))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13514))
 // CS Name: ::HMUI::InputFieldDataBinder*
 class CORDL_TYPE InputFieldDataBinder : public ::System::Object {
 public:
@@ -222,18 +222,18 @@ public:
 
   static inline ::HMUI::InputFieldDataBinder* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc2d4c size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x21188d4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddBindings addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T0, typename T1>
   inline void
   AddBindings(::System::Collections::Generic::List_1<::System::Tuple_4<::UnityEngine::UI::InputField*, T0, ::System::Func_2<::StringW, T1>*, ::System::Func_2<T1, ::StringW>*>*>* bindingData);
 
-  /// @brief Method AddStringBindings addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method AddStringBindings, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddStringBindings(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityEngine::UI::InputField*, T>*>* bindingData);
 
-  /// @brief Method ClearBindings addr 0x1fc2dcc size 0x2c4 virtual false final false
+  /// @brief Method ClearBindings, addr 0x2118954, size 0x2c4, virtual false, abstract: false, final false
   inline void ClearBindings();
 
   // Ctor Parameters [CppParam { name: "", ty: "InputFieldDataBinder", modifiers: "&&", def_value: None }]

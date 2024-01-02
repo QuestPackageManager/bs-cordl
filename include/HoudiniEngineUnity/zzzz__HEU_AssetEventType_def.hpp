@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_AssetEventType);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9521))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9594))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetEventType
 struct CORDL_TYPE HEU_AssetEventType {
 public:

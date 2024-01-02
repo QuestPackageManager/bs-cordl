@@ -8,28 +8,28 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectDigestInfo)
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
+class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1::X509 {
+class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerBitString;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerEnumerated;
-}
-namespace Org::BouncyCastle::Asn1::X509 {
-class AlgorithmIdentifier;
-}
-namespace System {
-class Object;
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1TaggedObject;
-}
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
+class DerEnumerated;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -91,36 +91,36 @@ public:
 
   constexpr void __set_objectDigest(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  /// @brief Method GetInstance addr 0x11235b8 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0x1193800, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance addr 0x111ffd0 size 0x18 virtual false final false
+  /// @brief Method GetInstance, addr 0x1190218, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* New_ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID,
                                                                             ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> objectDigest);
 
-  /// @brief Method .ctor addr 0x1123990 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x1193bd8, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(int32_t digestedObjectType, ::StringW otherObjectTypeID, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> objectDigest);
 
   static inline ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0x1123740 size 0x250 virtual false final false
+  /// @brief Method .ctor, addr 0x1193988, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DigestedObjectType addr 0x1123a94 size 0x8 virtual false final false
+  /// @brief Method get_DigestedObjectType, addr 0x1193cdc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerEnumerated* get_DigestedObjectType();
 
-  /// @brief Method get_OtherObjectTypeID addr 0x1123a9c size 0x8 virtual false final false
+  /// @brief Method get_OtherObjectTypeID, addr 0x1193ce4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_OtherObjectTypeID();
 
-  /// @brief Method get_DigestAlgorithm addr 0x1123aa4 size 0x8 virtual false final false
+  /// @brief Method get_DigestAlgorithm, addr 0x1193cec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithm();
 
-  /// @brief Method get_ObjectDigest addr 0x1123aac size 0x8 virtual false final false
+  /// @brief Method get_ObjectDigest, addr 0x1193cf4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_ObjectDigest();
 
-  /// @brief Method ToAsn1Object addr 0x1123ab4 size 0x1c0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1193cfc, size 0x1c0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectDigestInfo", modifiers: "&&", def_value: None }]

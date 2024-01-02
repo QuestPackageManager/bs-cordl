@@ -22,8 +22,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7068))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6981))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
 // CS Name: ::UnityEngine.UIElements::TypedUxmlAttributeDescription`1<T>*
 class CORDL_TYPE TypedUxmlAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlAttributeDescription {
 public:
@@ -39,18 +39,18 @@ public:
 
   constexpr void __set__defaultValue_k__BackingField(T value);
 
-  /// @brief Method GetValueFromBag addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
-  /// @brief Method get_defaultValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_defaultValue();
 
-  /// @brief Method set_defaultValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_defaultValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_defaultValue(T value);
 
   static inline ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypedUxmlAttributeDescription_1", modifiers: "&&", def_value: None }]

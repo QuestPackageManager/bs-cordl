@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Threading::EventResetMode);
 namespace System::Threading {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2659))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2661))
 // CS Name: ::System.Threading::EventResetMode
 struct CORDL_TYPE EventResetMode {
 public:

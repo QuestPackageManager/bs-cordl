@@ -18,19 +18,19 @@ MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSliceUnsafeUtility)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9940))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10012))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSliceUnsafeUtility*
 class CORDL_TYPE NativeSliceUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ConvertExistingDataToNativeSlice addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ConvertExistingDataToNativeSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> ConvertExistingDataToNativeSlice(::cordl_internals::Ptr<void> dataPointer, int32_t stride, int32_t length);
 
-  /// @brief Method GetUnsafePtr addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafePtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
 
-  /// @brief Method GetUnsafeReadOnlyPtr addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeReadOnlyPtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeSliceUnsafeUtility", modifiers: "&&", def_value: None }]

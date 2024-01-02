@@ -5,33 +5,16 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGeneratorMirror)
 namespace GlobalNamespace {
-class SliderSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
 class NoteSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class MockBeatmapData;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
-class NodePoseSyncStateManager;
-}
-namespace System {
-class Action;
 }
 namespace GlobalNamespace {
 class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
-class ObstacleSpawnInfoNetSerializable;
-}
-namespace GlobalNamespace {
-class NoteMissInfoNetSerializable;
+class NoteCutInfoNetSerializable;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
@@ -40,13 +23,34 @@ namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class NoteCutInfoNetSerializable;
+class ObstacleSpawnInfoNetSerializable;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+class MockBeatmapData;
+}
+namespace GlobalNamespace {
+class MultiplayerLevelCompletionResults;
+}
+namespace GlobalNamespace {
+class SliderSpawnInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class GameplayModifiers;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
 }
 namespace GlobalNamespace {
-class MultiplayerLevelCompletionResults;
+class NoteMissInfoNetSerializable;
+}
+namespace GlobalNamespace {
+class NodePoseSyncStateManager;
+}
+namespace BeatSaber::AvatarCore {
+class OptionalAvatarDataPacket;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -58,8 +62,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGeneratorMirror);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15499))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5285))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15515))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5181))
 // CS Name: ::MockPlayerGamePoseGeneratorMirror*
 class CORDL_TYPE MockPlayerGamePoseGeneratorMirror : public ::GlobalNamespace::MockPlayerGamePoseGenerator {
 public:
@@ -95,41 +99,44 @@ public:
                                                                                ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
                                                                                ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method .ctor addr 0x2101570 size 0x5a4 virtual false final false
+  /// @brief Method .ctor, addr 0x2241c34, size 0x6c8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
                     ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Dispose addr 0x2101e68 size 0x460 virtual true final false
+  /// @brief Method Dispose, addr 0x22422fc, size 0x4f0, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init addr 0x21022c8 size 0x8 virtual true final false
-  inline void Init(float_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
+  /// @brief Method Init, addr 0x22427ec, size 0x8, virtual true, abstract: false, final false
+  inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
-  /// @brief Method Tick addr 0x21022d0 size 0x168 virtual true final false
+  /// @brief Method Tick, addr 0x22427f4, size 0x168, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method FindPlayerToMirror addr 0x2102438 size 0x3a4 virtual false final false
+  /// @brief Method FindPlayerToMirror, addr 0x224295c, size 0x3a4, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleNoteWasSpawned addr 0x21027dc size 0x184 virtual false final false
-  inline void HandleNoteWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
+  /// @brief Method HandleNoteWasSpawned, addr 0x2242d00, size 0x184, virtual false, abstract: false, final false
+  inline void HandleNoteWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfoNetSerializable);
 
-  /// @brief Method HandleObstacleWasSpawned addr 0x2102960 size 0x184 virtual false final false
-  inline void HandleObstacleWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
+  /// @brief Method HandleObstacleWasSpawned, addr 0x2242e84, size 0x184, virtual false, abstract: false, final false
+  inline void HandleObstacleWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* obstacleSpawnInfoNetSerializable);
 
-  /// @brief Method HandleSliderWasSpawned addr 0x2102ae4 size 0x184 virtual false final false
-  inline void HandleSliderWasSpawned(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
+  /// @brief Method HandleSliderWasSpawned, addr 0x2243008, size 0x184, virtual false, abstract: false, final false
+  inline void HandleSliderWasSpawned(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::SliderSpawnInfoNetSerializable* sliderSpawnInfoNetSerializable);
 
-  /// @brief Method HandleNoteWasMissed addr 0x2102c68 size 0x184 virtual false final false
-  inline void HandleNoteWasMissed(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
+  /// @brief Method HandleNoteWasMissed, addr 0x224318c, size 0x184, virtual false, abstract: false, final false
+  inline void HandleNoteWasMissed(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo);
 
-  /// @brief Method HandleNoteWasCut addr 0x2102dec size 0x184 virtual false final false
-  inline void HandleNoteWasCut(::StringW userId, float_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
+  /// @brief Method HandleNoteWasCut, addr 0x2243310, size 0x184, virtual false, abstract: false, final false
+  inline void HandleNoteWasCut(::StringW userId, int64_t syncTime, float_t songTime, ::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
-  /// @brief Method HandleScoreSyncStateUpdate addr 0x2102f70 size 0x1d8 virtual false final false
+  /// @brief Method HandleScoreSyncStateUpdate, addr 0x2243494, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleScoreSyncStateUpdate(::GlobalNamespace::StandardScoreSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleLevelFinished addr 0x2103148 size 0x174 virtual false final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x224366c, size 0x1d8, virtual false, abstract: false, final false
+  inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
+
+  /// @brief Method HandleLevelFinished, addr 0x2243844, size 0x174, virtual false, abstract: false, final false
   inline void HandleLevelFinished(::StringW userId, ::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
   // Ctor Parameters [CppParam { name: "", ty: "MockPlayerGamePoseGeneratorMirror", modifiers: "&&", def_value: None }]

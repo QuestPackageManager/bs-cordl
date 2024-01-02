@@ -16,18 +16,18 @@ MARK_REF_PTR_T(::Oculus::Platform::IMicrophone);
 namespace Oculus::Platform {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13250))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13246))
 // CS Name: ::Oculus.Platform::IMicrophone*
 class CORDL_TYPE IMicrophone {
 public:
   // Declarations
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Start();
 
-  /// @brief Method Stop addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Stop, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Stop();
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> Update();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMicrophone", modifiers: "&&", def_value: None }]

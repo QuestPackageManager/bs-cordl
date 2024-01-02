@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IAsyncStateMachine);
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3368))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3372))
 // CS Name: ::System.Runtime.CompilerServices::IAsyncStateMachine*
 class CORDL_TYPE IAsyncStateMachine {
 public:
   // Declarations
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsyncStateMachine", modifiers: "&&", def_value: None }]

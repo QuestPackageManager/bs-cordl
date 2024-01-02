@@ -14,10 +14,10 @@ namespace LIV::SDK::Unity {
 struct SDKMatrix4x4;
 }
 namespace LIV::SDK::Unity {
-struct SDKQuaternion;
+struct SDKVector3;
 }
 namespace LIV::SDK::Unity {
-struct SDKVector3;
+struct SDKQuaternion;
 }
 // Forward declare root types
 namespace LIV::SDK::Unity {
@@ -29,16 +29,16 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPose);
 // SizeInfo { instance_size: 112, native_size: 112, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15215)), TypeDefinitionIndex(TypeDefinitionIndex(15214)), TypeDefinitionIndex(TypeDefinitionIndex(15213))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15226))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111)), TypeDefinitionIndex(TypeDefinitionIndex(15109)), TypeDefinitionIndex(TypeDefinitionIndex(15110))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15122))
 // CS Name: ::LIV.SDK.Unity::SDKPose
 struct CORDL_TYPE SDKPose {
 public:
   // Declarations
-  /// @brief Method get_empty addr 0x20af07c size 0x70 virtual false final false
+  /// @brief Method get_empty, addr 0x220ffb4, size 0x70, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPose get_empty();
 
-  /// @brief Method ToString addr 0x20b5400 size 0x278 virtual true final false
+  /// @brief Method ToString, addr 0x2216338, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "projectionMatrix", ty: "::LIV::SDK::Unity::SDKMatrix4x4", modifiers: "", def_value: None }, CppParam { name: "localPosition", ty:

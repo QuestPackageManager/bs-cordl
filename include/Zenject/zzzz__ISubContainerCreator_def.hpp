@@ -4,16 +4,16 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ISubContainerCreator)
 namespace Zenject {
-struct TypeValuePair;
-}
-namespace Zenject {
 class InjectContext;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -26,12 +26,12 @@ MARK_REF_PTR_T(::Zenject::ISubContainerCreator);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11241))
 // CS Name: ::Zenject::ISubContainerCreator*
 class CORDL_TYPE ISubContainerCreator {
 public:
   // Declarations
-  /// @brief Method CreateSubContainer addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateSubContainer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISubContainerCreator", modifiers: "&&", def_value: None }]

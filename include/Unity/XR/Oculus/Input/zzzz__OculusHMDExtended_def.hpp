@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusHMDExtended);
 // SizeInfo { instance_size: 624, native_size: -1, calculated_instance_size: 624, calculated_native_size: 624, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15294))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15153))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15158))
 // CS Name: ::Unity.XR.Oculus.Input::OculusHMDExtended*
 class CORDL_TYPE OculusHMDExtended : public ::Unity::XR::Oculus::Input::OculusHMD {
 public:
@@ -48,24 +48,24 @@ public:
 
   constexpr void __set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_back addr 0x2af8e60 size 0x8 virtual false final false
+  /// @brief Method get_back, addr 0x2c7cb88, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
-  /// @brief Method set_back addr 0x2af8e68 size 0x8 virtual false final false
+  /// @brief Method set_back, addr 0x2c7cb90, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_touchpad addr 0x2af8e70 size 0x8 virtual false final false
+  /// @brief Method get_touchpad, addr 0x2c7cb98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_touchpad addr 0x2af8e78 size 0x8 virtual false final false
+  /// @brief Method set_touchpad, addr 0x2c7cba0, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method FinishSetup addr 0x2af8e80 size 0xbc virtual true final false
+  /// @brief Method FinishSetup, addr 0x2c7cba8, size 0xbc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
 
-  /// @brief Method .ctor addr 0x2af8f3c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c7cc64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "OculusHMDExtended", modifiers: "&&", def_value: None }]

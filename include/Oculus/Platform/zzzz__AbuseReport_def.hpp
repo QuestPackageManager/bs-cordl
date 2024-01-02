@@ -6,13 +6,13 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AbuseReport)
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+struct ReportRequestResponse;
 }
 namespace Oculus::Platform {
 class Request;
 }
 namespace Oculus::Platform {
-struct ReportRequestResponse;
+template <typename T> class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -24,16 +24,16 @@ MARK_REF_PTR_T(::Oculus::Platform::AbuseReport);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13387))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13354))
 // CS Name: ::Oculus.Platform::AbuseReport*
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled addr 0x25a3edc size 0x14c virtual false final false
+  /// @brief Method ReportRequestHandled, addr 0x26cd0a0, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback addr 0x25a4028 size 0x74 virtual false final false
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x26cd2dc, size 0x74, virtual false, abstract: false, final false
   static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "AbuseReport", modifiers: "&&", def_value: None }]

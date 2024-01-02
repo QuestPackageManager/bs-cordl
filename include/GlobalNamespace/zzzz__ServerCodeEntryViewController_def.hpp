@@ -5,6 +5,9 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ServerCodeEntryViewController)
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
 namespace HMUI {
 class UIKeyboard;
 }
@@ -13,9 +16,6 @@ class Button;
 }
 namespace HMUI {
 class InputFieldView;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
 }
 namespace HMUI {
 class InputFieldViewChangeBinder;
@@ -30,8 +30,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerCodeEntryViewController);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5821))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5722))
 // CS Name: ::ServerCodeEntryViewController*
 class CORDL_TYPE ServerCodeEntryViewController : public ::HMUI::ViewController {
 public:
@@ -90,33 +90,33 @@ public:
 
   constexpr void __set__inputFieldViewChangeBinder(::HMUI::InputFieldViewChangeBinder* value);
 
-  /// @brief Method add_didFinishEvent addr 0x218d520 size 0xb0 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x22d0244, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x218d5d0 size 0xb0 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x22d02f4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
-  /// @brief Method DidActivate addr 0x218d680 size 0x1b0 virtual true final false
+  /// @brief Method DidActivate, addr 0x22d03a4, size 0x1b0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x218d830 size 0x30 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22d0554, size 0x30, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleInputFieldChanged addr 0x218d860 size 0x38 virtual false final false
+  /// @brief Method HandleInputFieldChanged, addr 0x22d0584, size 0x38, virtual false, abstract: false, final false
   inline void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
 
-  /// @brief Method OnDestroy addr 0x218d898 size 0x28 virtual true final false
+  /// @brief Method OnDestroy, addr 0x22d05bc, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleJoinButtonPressed addr 0x218d8c0 size 0x3c virtual false final false
+  /// @brief Method HandleJoinButtonPressed, addr 0x22d05e4, size 0x3c, virtual false, abstract: false, final false
   inline void HandleJoinButtonPressed();
 
-  /// @brief Method HandleCancelButtonPressed addr 0x218d8fc size 0x24 virtual false final false
+  /// @brief Method HandleCancelButtonPressed, addr 0x22d0620, size 0x24, virtual false, abstract: false, final false
   inline void HandleCancelButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeEntryViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x218d920 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x22d0644, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ServerCodeEntryViewController", modifiers: "&&", def_value: None }]

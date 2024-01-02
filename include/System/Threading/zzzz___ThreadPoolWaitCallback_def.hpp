@@ -14,13 +14,13 @@ MARK_REF_PTR_T(::System::Threading::_ThreadPoolWaitCallback);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2734))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2736))
 // CS Name: ::System.Threading::_ThreadPoolWaitCallback*
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback addr 0x24c2288 size 0x50 virtual false final false
+  /// @brief Method PerformWaitCallback, addr 0x261c2a4, size 0x50, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
   // Ctor Parameters [CppParam { name: "", ty: "_ThreadPoolWaitCallback", modifiers: "&&", def_value: None }]

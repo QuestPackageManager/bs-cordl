@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileNotFoundException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::IO {
@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::System::IO::FileNotFoundException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3560))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3562))
 // CS Name: ::System.IO::FileNotFoundException*
 class CORDL_TYPE FileNotFoundException : public ::System::IO::IOException {
 public:
@@ -53,40 +53,40 @@ public:
 
   static inline ::System::IO::FileNotFoundException* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a2c0c size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x24fc788, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::FileNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x23a2c68 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x24fc7e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::IO::FileNotFoundException* New_ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method .ctor addr 0x23a2c8c size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x24fc808, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW fileName);
 
-  /// @brief Method get_Message addr 0x23a2cc0 size 0x18 virtual true final false
+  /// @brief Method get_Message, addr 0x24fc83c, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method SetMessageField addr 0x23a2cd8 size 0x78 virtual false final false
+  /// @brief Method SetMessageField, addr 0x24fc854, size 0x78, virtual false, abstract: false, final false
   inline void SetMessageField();
 
-  /// @brief Method get_FileName addr 0x23a2d50 size 0x8 virtual false final false
+  /// @brief Method get_FileName, addr 0x24fc8cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_FusionLog addr 0x23a2d58 size 0x8 virtual false final false
+  /// @brief Method get_FusionLog, addr 0x24fc8d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FusionLog();
 
-  /// @brief Method ToString addr 0x23a2d60 size 0x1e4 virtual true final false
+  /// @brief Method ToString, addr 0x24fc8dc, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::System::IO::FileNotFoundException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x23a2f44 size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x24fcac0, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetObjectData addr 0x23a2ff4 size 0x118 virtual true final false
+  /// @brief Method GetObjectData, addr 0x24fcb70, size 0x118, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "FileNotFoundException", modifiers: "&&", def_value: None }]

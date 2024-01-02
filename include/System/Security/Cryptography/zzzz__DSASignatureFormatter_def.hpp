@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureFormatter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2919))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2920))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2933))
 // CS Name: ::System.Security.Cryptography::DSASignatureFormatter*
 class CORDL_TYPE DSASignatureFormatter : public ::System::Security::Cryptography::AsymmetricSignatureFormatter {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::DSASignatureFormatter* New_ctor();
 
-  /// @brief Method .ctor addr 0x2304b10 size 0x80 virtual false final false
+  /// @brief Method .ctor, addr 0x245e188, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DSASignatureFormatter", modifiers: "&&", def_value: None }]

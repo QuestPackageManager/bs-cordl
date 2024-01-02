@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1284))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SupplementalDataEntry*
 class CORDL_TYPE SupplementalDataEntry : public ::System::Object {
@@ -46,13 +46,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry* New_ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0xf225f8 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0xf98834, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_DataType addr 0xf22628 size 0x8 virtual true final false
+  /// @brief Method get_DataType, addr 0xf98864, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_DataType();
 
-  /// @brief Method get_Data addr 0xf22630 size 0x8 virtual true final false
+  /// @brief Method get_Data, addr 0xf9886c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
   // Ctor Parameters [CppParam { name: "", ty: "SupplementalDataEntry", modifiers: "&&", def_value: None }]

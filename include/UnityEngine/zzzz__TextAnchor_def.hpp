@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextAnchor);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15793))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15901))
 // CS Name: ::UnityEngine::TextAnchor
 struct CORDL_TYPE TextAnchor {
 public:

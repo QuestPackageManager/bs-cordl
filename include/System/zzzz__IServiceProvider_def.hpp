@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IServiceProvider)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System {
@@ -20,12 +20,12 @@ MARK_REF_PTR_T(::System::IServiceProvider);
 namespace System {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2513))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2515))
 // CS Name: ::System::IServiceProvider*
 class CORDL_TYPE IServiceProvider {
 public:
   // Declarations
-  /// @brief Method GetService addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetService, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetService(::System::Type* serviceType);
 
   // Ctor Parameters [CppParam { name: "", ty: "IServiceProvider", modifiers: "&&", def_value: None }]

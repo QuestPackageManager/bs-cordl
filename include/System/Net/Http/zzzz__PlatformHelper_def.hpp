@@ -5,8 +5,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlatformHelper)
-namespace System::Net::Http {
-class StreamContent;
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::IO {
 class Stream;
@@ -14,8 +14,8 @@ class Stream;
 namespace System::Threading {
 struct CancellationToken;
 }
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+namespace System::Net::Http {
+class StreamContent;
 }
 // Forward declare root types
 namespace System::Net::Http {
@@ -27,19 +27,19 @@ MARK_REF_PTR_T(::System::Net::Http::PlatformHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14856))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14639))
 // CS Name: ::System.Net.Http::PlatformHelper*
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsContentHeader addr 0x26b3344 size 0x60 virtual false final false
+  /// @brief Method IsContentHeader, addr 0x282e354, size 0x60, virtual false, abstract: false, final false
   static inline bool IsContentHeader(::StringW name);
 
-  /// @brief Method GetSingleHeaderString addr 0x26b3078 size 0x64 virtual false final false
+  /// @brief Method GetSingleHeaderString, addr 0x282e088, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW GetSingleHeaderString(::StringW name, ::System::Collections::Generic::IEnumerable_1<::StringW>* values);
 
-  /// @brief Method CreateStreamContent addr 0x26b32d0 size 0x74 virtual false final false
+  /// @brief Method CreateStreamContent, addr 0x282e2e0, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Net::Http::StreamContent* CreateStreamContent(::System::IO::Stream* stream, ::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]

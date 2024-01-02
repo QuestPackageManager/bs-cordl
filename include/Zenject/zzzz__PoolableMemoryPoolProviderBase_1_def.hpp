@@ -6,35 +6,35 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProviderBase_1)
-namespace System {
-class Object;
-}
-namespace Zenject {
-struct TypeValuePair;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace System {
-struct Guid;
-}
 namespace Zenject {
 class InjectContext;
 }
 namespace System {
-class Type;
+struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Action;
 }
 namespace Zenject {
+class InjectTypeInfo;
+}
+namespace System {
+class Type;
+}
+namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+struct TypeValuePair;
 }
 namespace Zenject {
 class DiContainer;
 }
-namespace Zenject {
-class InjectTypeInfo;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject {
@@ -48,8 +48,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11147))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11219))
 // CS Name: ::Zenject::PoolableMemoryPoolProviderBase`1<TContract>*
 class CORDL_TYPE PoolableMemoryPoolProviderBase_1 : public ::System::Object {
 public:
@@ -85,35 +85,35 @@ public:
 
   static inline ::Zenject::PoolableMemoryPoolProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
 
-  /// @brief Method get_IsCached addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsCached, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_PoolId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_PoolId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Guid get_PoolId();
 
-  /// @brief Method set_PoolId addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_PoolId, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_PoolId(::System::Guid value);
 
-  /// @brief Method get_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method set_Container addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
-  /// @brief Method get_TypeVariesBasedOnMemberType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
-  /// @brief Method GetInstanceType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method GetInstanceType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "PoolableMemoryPoolProviderBase_1", modifiers: "&&", def_value: None }]

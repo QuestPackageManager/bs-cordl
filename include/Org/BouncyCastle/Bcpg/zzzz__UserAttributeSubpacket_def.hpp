@@ -7,14 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserAttributeSubpacket)
-namespace Org::BouncyCastle::Bcpg {
-struct UserAttributeSubpacketTag;
+namespace System {
+class Object;
 }
 namespace System::IO {
 class Stream;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Bcpg {
+struct UserAttributeSubpacketTag;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Bcpg {
@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(599)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(599))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(528))
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacket*
 class CORDL_TYPE UserAttributeSubpacket : public ::System::Object {
@@ -63,27 +63,27 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x1155938 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x11c6b88, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor addr 0x115596c size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x11c6bbc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType addr 0x11559ac size 0x8 virtual true final false
+  /// @brief Method get_SubpacketType, addr 0x11c6bfc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag get_SubpacketType();
 
-  /// @brief Method GetData addr 0x11559b4 size 0x8 virtual true final false
+  /// @brief Method GetData, addr 0x11c6c04, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method Encode addr 0x11559bc size 0x138 virtual true final false
+  /// @brief Method Encode, addr 0x11c6c0c, size 0x138, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
-  /// @brief Method Equals addr 0x1155af4 size 0xe8 virtual true final false
+  /// @brief Method Equals, addr 0x11c6d44, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x1155bdc size 0xa4 virtual true final false
+  /// @brief Method GetHashCode, addr 0x11c6e2c, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "UserAttributeSubpacket", modifiers: "&&", def_value: None }]

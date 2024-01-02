@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEve
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4886))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4765))
 // CS Name: ::INoteControllerNoteDidPassJumpThreeQuartersEvent*
 class CORDL_TYPE INoteControllerNoteDidPassJumpThreeQuartersEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteDidPassJumpThreeQuartersEvent", modifiers: "&&", def_value: None }]

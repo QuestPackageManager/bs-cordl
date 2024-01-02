@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementStyleSheetSet)
-namespace UnityEngine::UIElements {
-class VisualElement;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
-namespace System {
-class Object;
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6945))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6859))
 // CS Name: ::UnityEngine.UIElements::VisualElementStyleSheetSet
 struct CORDL_TYPE VisualElementStyleSheetSet {
 public:
@@ -36,22 +36,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
 
-  /// @brief Method .ctor addr 0x2c60c40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2dc7ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Add addr 0x2c60c48 size 0x1d0 virtual false final false
+  /// @brief Method Add, addr 0x2dc7ff8, size 0x1d0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Remove addr 0x2c60e18 size 0x134 virtual false final false
+  /// @brief Method Remove, addr 0x2dc81c8, size 0x134, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Equals addr 0x2c60f4c size 0xc virtual true final true
+  /// @brief Method Equals, addr 0x2dc82fc, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
 
-  /// @brief Method Equals addr 0x2c60f58 size 0x7c virtual true final false
+  /// @brief Method Equals, addr 0x2dc8308, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2c60fd4 size 0x18 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2dc8384, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "m_Element", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]

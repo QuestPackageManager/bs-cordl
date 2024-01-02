@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::SongSelectionMode);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12880))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12959))
 // CS Name: ::SongSelectionMode
 struct CORDL_TYPE SongSelectionMode {
 public:

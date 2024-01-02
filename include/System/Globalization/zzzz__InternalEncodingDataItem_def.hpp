@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Globalization::InternalEncodingDataItem);
 namespace System::Globalization {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3704))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3716))
 // CS Name: ::System.Globalization::InternalEncodingDataItem
 struct CORDL_TYPE InternalEncodingDataItem {
 public:

@@ -17,14 +17,14 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6823)), TypeDefinitionIndex(TypeDefinitionIndex(7083)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7083), inst: 5139
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7084)) CS Name: ::UnityEngine.UIElements::UxmlFactory`1<TCreatedType>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5255 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6737))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6998)) CS Name: ::UnityEngine.UIElements::UxmlFactory`1<TCreatedType>*
 class CORDL_TYPE UxmlFactory_1 : public ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, ::UnityEngine::UIElements::__VisualElement__UxmlTraits*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::UxmlFactory_1<TCreatedType>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "UxmlFactory_1", modifiers: "&&", def_value: None }]

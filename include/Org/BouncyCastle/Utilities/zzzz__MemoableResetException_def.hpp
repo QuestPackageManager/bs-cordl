@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::MemoableResetException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2424))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2426))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1835))
 // CS Name: ::Org.BouncyCastle.Utilities::MemoableResetException*
 class CORDL_TYPE MemoableResetException : public ::System::InvalidCastException {
@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor addr 0x10fd9f4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x116dc3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
   // Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "&&", def_value: None }]

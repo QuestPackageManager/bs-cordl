@@ -25,7 +25,7 @@ namespace Org::BouncyCastle::Crypto {
 class CORDL_TYPE IDecryptorBuilderProvider {
 public:
   // Declarations
-  /// @brief Method CreateDecryptorBuilder addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateDecryptorBuilder, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherBuilder* CreateDecryptorBuilder(::System::Object* algorithmDetails);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDecryptorBuilderProvider", modifiers: "&&", def_value: None }]

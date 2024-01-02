@@ -7,43 +7,43 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConcreteBinderGeneric_1)
 namespace Zenject {
-class IProvider;
-}
-namespace Zenject {
-class BindInfo;
-}
-namespace Zenject {
-class DiContainer;
+template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass5_0;
 }
 namespace Zenject {
 class ConventionSelectTypesBinder;
 }
 namespace System {
-template <typename T> class Action_1;
-}
-namespace System {
 class Type;
 }
 namespace Zenject {
-template <typename TContract> class __ConcreteBinderGeneric_1____c__DisplayClass5_0;
+template <typename TContract> class FromBinderGeneric_1;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 namespace Zenject {
-template <typename TContract> class FromBinderGeneric_1;
+class BindStatement;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace Zenject {
-class BindStatement;
-}
-namespace Zenject {
 class FromBinderNonGeneric;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
+class DiContainer;
+}
+namespace Zenject {
+class BindInfo;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace Zenject {
@@ -61,8 +61,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10670))
 // CS Name: ::ConcreteBinderGeneric`1::<>c__DisplayClass5_0<TContract>*
 class CORDL_TYPE __ConcreteBinderGeneric_1____c__DisplayClass5_0 : public ::System::Object {
 public:
@@ -78,16 +78,16 @@ public:
 
   static inline ::Zenject::__ConcreteBinderGeneric_1____c__DisplayClass5_0<TContract>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <To>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <To>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _To_b__1(::System::Type* contractType);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConcreteBinderGeneric_1____c__DisplayClass5_0", modifiers: "&&", def_value: None }]
@@ -117,8 +117,8 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10842), inst: 1926 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10914)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10914), inst: 1990 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10671))
 // CS Name: ::Zenject::ConcreteBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteBinderGeneric_1 : public ::Zenject::FromBinderGeneric_1<TContract> {
 public:
@@ -127,28 +127,28 @@ public:
 
   static inline ::Zenject::ConcreteBinderGeneric_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderGeneric_1<TContract>* ToSelf();
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FromBinderGeneric_1<TConcrete>* To();
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::ArrayW<::System::Type*, ::Array<::System::Type*>*> concreteTypes);
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
 
-  /// @brief Method <ToSelf>b__1_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <ToSelf>b__1_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ToSelf_b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method <To>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <To>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _To_b__5_0(::System::Type* concreteType);
 
   // Ctor Parameters [CppParam { name: "", ty: "ConcreteBinderGeneric_1", modifiers: "&&", def_value: None }]

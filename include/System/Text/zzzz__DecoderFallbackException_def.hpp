@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(DecoderFallbackException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Text {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Text::DecoderFallbackException);
 namespace System::Text {
 // Is value type: false
 // Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2828))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2832))
 // CS Name: ::System.Text::DecoderFallbackException*
 class CORDL_TYPE DecoderFallbackException : public ::System::ArgumentException {
 public:
@@ -49,18 +49,18 @@ public:
 
   static inline ::System::Text::DecoderFallbackException* New_ctor();
 
-  /// @brief Method .ctor addr 0x24d720c size 0x5c virtual false final false
+  /// @brief Method .ctor, addr 0x2631318, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::DecoderFallbackException* New_ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor addr 0x24d71dc size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x26312e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
   static inline ::System::Text::DecoderFallbackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                    ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor addr 0x24d7268 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2631374, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   // Ctor Parameters [CppParam { name: "", ty: "DecoderFallbackException", modifiers: "&&", def_value: None }]

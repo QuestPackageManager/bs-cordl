@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::HandsMovementMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5203))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5098))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5091))
 // CS Name: ::HandsMovementMissionObjectiveChecker*
 class CORDL_TYPE HandsMovementMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
@@ -33,18 +33,18 @@ public:
 
   constexpr void __set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter* value);
 
-  /// @brief Method OnDestroy addr 0x20ea3a8 size 0xd4 virtual false final false
+  /// @brief Method OnDestroy, addr 0x23cbeb8, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleTotalDistanceDidChange addr 0x20ea47c size 0x60 virtual false final false
+  /// @brief Method HandleTotalDistanceDidChange, addr 0x23cbf8c, size 0x60, virtual false, abstract: false, final false
   inline void HandleTotalDistanceDidChange(float_t distance);
 
-  /// @brief Method Init addr 0x20ea4dc size 0x108 virtual true final false
+  /// @brief Method Init, addr 0x23cbfec, size 0x108, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::HandsMovementMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor addr 0x20ea5e4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cc0f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HandsMovementMissionObjectiveChecker", modifiers: "&&", def_value: None }]

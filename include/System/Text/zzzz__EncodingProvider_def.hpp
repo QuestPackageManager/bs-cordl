@@ -8,16 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EncodingProvider)
 namespace System::Text {
-class Encoding;
+class EncoderFallback;
 }
 namespace System::Text {
-class DecoderFallback;
+class Encoding;
 }
 namespace System {
 class Object;
 }
 namespace System::Text {
-class EncoderFallback;
+class DecoderFallback;
 }
 // Forward declare root types
 namespace System::Text {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Text::EncodingProvider);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2846))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2850))
 // CS Name: ::System.Text::EncodingProvider*
 class CORDL_TYPE EncodingProvider : public ::System::Object {
 public:
@@ -49,22 +49,22 @@ public:
 
   static inline ::ArrayW<::System::Text::EncodingProvider*, ::Array<::System::Text::EncodingProvider*>*> getStaticF_s_providers();
 
-  /// @brief Method GetEncoding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEncoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* GetEncoding(::StringW name);
 
-  /// @brief Method GetEncoding addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetEncoding, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
-  /// @brief Method GetEncoding addr 0x22de8f0 size 0xfc virtual true final false
+  /// @brief Method GetEncoding, addr 0x243840c, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
-  /// @brief Method GetEncodingFromProvider addr 0x22de9ec size 0xdc virtual false final false
+  /// @brief Method GetEncodingFromProvider, addr 0x2438508, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
 
-  /// @brief Method GetEncodingFromProvider addr 0x22deac8 size 0xdc virtual false final false
+  /// @brief Method GetEncodingFromProvider, addr 0x24385e4, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
 
-  /// @brief Method GetEncodingFromProvider addr 0x22deba4 size 0xf4 virtual false final false
+  /// @brief Method GetEncodingFromProvider, addr 0x24386c0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
 
   // Ctor Parameters [CppParam { name: "", ty: "EncodingProvider", modifiers: "&&", def_value: None }]

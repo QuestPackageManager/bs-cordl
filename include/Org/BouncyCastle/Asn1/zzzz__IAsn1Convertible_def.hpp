@@ -22,7 +22,7 @@ namespace Org::BouncyCastle::Asn1 {
 class CORDL_TYPE IAsn1Convertible {
 public:
   // Declarations
-  /// @brief Method ToAsn1Object addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAsn1Convertible", modifiers: "&&", def_value: None }]

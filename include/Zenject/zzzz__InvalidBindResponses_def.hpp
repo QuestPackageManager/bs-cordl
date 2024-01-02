@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::InvalidBindResponses);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10872))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10944))
 // CS Name: ::Zenject::InvalidBindResponses
 struct CORDL_TYPE InvalidBindResponses {
 public:

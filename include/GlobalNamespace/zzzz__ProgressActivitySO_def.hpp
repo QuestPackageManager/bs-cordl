@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ProgressActivitySO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4649))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4647))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4560))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4558))
 // CS Name: ::ProgressActivitySO*
 class CORDL_TYPE ProgressActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
 public:
@@ -35,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::ProgressActivitySO* New_ctor();
 
-  /// @brief Method .ctor addr 0x222e34c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2368278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProgressActivitySO", modifiers: "&&", def_value: None }]

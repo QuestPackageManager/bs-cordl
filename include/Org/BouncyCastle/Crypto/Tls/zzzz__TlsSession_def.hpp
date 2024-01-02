@@ -28,16 +28,16 @@ public:
 
   __declspec(property(get = get_IsResumable)) bool IsResumable;
 
-  /// @brief Method ExportSessionParameters addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExportSessionParameters, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* ExportSessionParameters();
 
-  /// @brief Method get_SessionID addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_SessionID, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionID();
 
-  /// @brief Method Invalidate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Invalidate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Invalidate();
 
-  /// @brief Method get_IsResumable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_IsResumable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsResumable();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsSession", modifiers: "&&", def_value: None }]

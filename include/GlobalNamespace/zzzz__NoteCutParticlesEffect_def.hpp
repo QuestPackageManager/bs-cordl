@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoteCutParticlesEffect)
 namespace UnityEngine {
+struct Vector3;
+}
+namespace UnityEngine {
 struct Color32;
 }
 namespace UnityEngine {
 class ParticleSystem;
-}
-namespace UnityEngine {
-struct Vector3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutParticlesEffect);
 // SizeInfo { instance_size: 560, native_size: -1, calculated_instance_size: 560, calculated_native_size: 560, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15781)), TypeDefinitionIndex(TypeDefinitionIndex(15774)), TypeDefinitionIndex(TypeDefinitionIndex(15778)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(15776))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4989)) CS Name: ::NoteCutParticlesEffect*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15884)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15889)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15886)), TypeDefinitionIndex(TypeDefinitionIndex(15882))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
 class CORDL_TYPE NoteCutParticlesEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -149,16 +149,16 @@ public:
 
   constexpr void __set__explosionPrePassBloomPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
 
-  /// @brief Method Awake addr 0x22659f0 size 0x148 virtual false final false
+  /// @brief Method Awake, addr 0x239a95c, size 0x148, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method SpawnParticles addr 0x2265b38 size 0x4b0 virtual false final false
+  /// @brief Method SpawnParticles, addr 0x239aaa4, size 0x4b0, virtual false, abstract: false, final false
   inline void SpawnParticles(::UnityEngine::Vector3 cutPoint, ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 saberDir, float_t saberSpeed, ::UnityEngine::Vector3 noteMovementVec,
                              ::UnityEngine::Color32 color, int32_t sparkleParticlesCount, int32_t explosionParticlesCount, float_t lifetimeMultiplier);
 
   static inline ::GlobalNamespace::NoteCutParticlesEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2265fe8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x239af54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NoteCutParticlesEffect", modifiers: "&&", def_value: None }]

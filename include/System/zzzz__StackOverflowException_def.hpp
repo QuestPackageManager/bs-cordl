@@ -6,10 +6,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(StackOverflowException)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System {
@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::System::StackOverflowException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2471))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2473))
 // CS Name: ::System::StackOverflowException*
 class CORDL_TYPE StackOverflowException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::StackOverflowException* New_ctor();
 
-  /// @brief Method .ctor addr 0x2467e18 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x25c4d40, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::StackOverflowException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor addr 0x2467e70 size 0x20 virtual false final false
+  /// @brief Method .ctor, addr 0x25c4d98, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
   static inline ::System::StackOverflowException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x2467e90 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x25c4db8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "StackOverflowException", modifiers: "&&", def_value: None }]

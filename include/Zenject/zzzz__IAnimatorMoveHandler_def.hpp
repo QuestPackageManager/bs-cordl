@@ -14,12 +14,12 @@ MARK_REF_PTR_T(::Zenject::IAnimatorMoveHandler);
 namespace Zenject {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11232))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11304))
 // CS Name: ::Zenject::IAnimatorMoveHandler*
 class CORDL_TYPE IAnimatorMoveHandler {
 public:
   // Declarations
-  /// @brief Method OnAnimatorMove addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnAnimatorMove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnAnimatorMove();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAnimatorMoveHandler", modifiers: "&&", def_value: None }]

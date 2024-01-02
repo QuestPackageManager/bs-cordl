@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::XmlNodeChangedAction);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11511))
 // CS Name: ::System.Xml::XmlNodeChangedAction
 struct CORDL_TYPE XmlNodeChangedAction {
 public:

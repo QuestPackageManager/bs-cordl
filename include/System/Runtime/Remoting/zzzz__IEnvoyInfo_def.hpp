@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::IEnvoyInfo);
 namespace System::Runtime::Remoting {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3057))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3058))
 // CS Name: ::System.Runtime.Remoting::IEnvoyInfo*
 class CORDL_TYPE IEnvoyInfo {
 public:
   // Declarations
   __declspec(property(get = get_EnvoySinks))::System::Runtime::Remoting::Messaging::IMessageSink* EnvoySinks;
 
-  /// @brief Method get_EnvoySinks addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_EnvoySinks, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   // Ctor Parameters [CppParam { name: "", ty: "IEnvoyInfo", modifiers: "&&", def_value: None }]

@@ -3,14 +3,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IBeatmapLevelData)
+namespace UnityEngine {
+class AudioClip;
+}
 namespace GlobalNamespace {
 class IDifficultyBeatmapSet;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine {
-class AudioClip;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4414))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4392))
 // CS Name: ::IBeatmapLevelData*
 class CORDL_TYPE IBeatmapLevelData {
 public:
@@ -32,10 +32,10 @@ public:
 
   __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
 
-  /// @brief Method get_audioClip addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_audioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::AudioClip* get_audioClip();
 
-  /// @brief Method get_difficultyBeatmapSets addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_difficultyBeatmapSets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelData", modifiers: "&&", def_value: None }]

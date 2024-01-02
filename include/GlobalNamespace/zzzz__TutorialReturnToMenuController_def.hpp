@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TutorialReturnToMenuController)
 namespace GlobalNamespace {
-class IReturnToMenuController;
+class TutorialScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class TutorialScenesTransitionSetupDataSO;
+class IReturnToMenuController;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialReturnToMenuController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5085))
 // CS Name: ::TutorialReturnToMenuController*
 class CORDL_TYPE TutorialReturnToMenuController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -38,12 +38,12 @@ public:
 
   constexpr void __set__tutorialSceneSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
 
-  /// @brief Method ReturnToMenu addr 0x20e9530 size 0x20 virtual true final true
+  /// @brief Method ReturnToMenu, addr 0x23cb040, size 0x20, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   static inline ::GlobalNamespace::TutorialReturnToMenuController* New_ctor();
 
-  /// @brief Method .ctor addr 0x20e9550 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23cb060, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TutorialReturnToMenuController", modifiers: "&&", def_value: None }]

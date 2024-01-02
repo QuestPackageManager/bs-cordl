@@ -14,94 +14,73 @@ namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__ShortSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__FloatSerializer_1;
-}
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__ULongSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__BoolSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__IntSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeStatic_1;
-}
-namespace LiteNetLib::Utils {
-class __NetSerializer__CustomType;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__EnumByteSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecific_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__UIntSerializer_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeStruct_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__FastCall_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallClass_2;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__LongSerializer_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__UShortSerializer_1;
-}
-namespace LiteNetLib::Utils {
 template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecificAuto_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__FloatSerializer_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__CharSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TProperty> class __NetSerializer__CustomTypeClass_1;
-}
-namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallStruct_2;
-}
-namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__IPEndPointSerializer_1;
-}
-namespace LiteNetLib::Utils {
-class NetDataWriter;
-}
-namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__ClassInfo_1;
 }
-namespace System {
-class Type;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+template <typename T> class __NetSerializer__IntSerializer_1;
 }
 namespace LiteNetLib::Utils {
-template <typename TClass, typename TProperty> class __NetSerializer__FastCallStatic_2;
+template <typename T> class __NetSerializer__ULongSerializer_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__SByteSerializer_1;
 }
 namespace LiteNetLib::Utils {
+class __NetSerializer__CustomType;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeStruct_1;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallSpecific_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallStruct_2;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__StringSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallClass_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__FastCall_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__UIntSerializer_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__EnumIntSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__EnumByteSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeStatic_1;
 }
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__ByteSerializer_1;
@@ -109,8 +88,29 @@ template <typename T> class __NetSerializer__ByteSerializer_1;
 namespace LiteNetLib::Utils {
 template <typename T> class __NetSerializer__DoubleSerializer_1;
 }
+namespace System {
+class Type;
+}
 namespace LiteNetLib::Utils {
-template <typename T> class __NetSerializer__StringSerializer_1;
+template <typename T> class __NetSerializer__LongSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__BoolSerializer_1;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__IPEndPointSerializer_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace LiteNetLib::Utils {
+template <typename TProperty> class __NetSerializer__CustomTypeClass_1;
+}
+namespace LiteNetLib::Utils {
+template <typename TClass, typename TProperty> class __NetSerializer__FastCallStatic_2;
+}
+namespace LiteNetLib::Utils {
+template <typename T> class __NetSerializer__UShortSerializer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -244,8 +244,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14547))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14209))
 // CS Name: ::NetSerializer::FastCall`1<T>*
 class CORDL_TYPE __NetSerializer__FastCall_1 : public ::System::Object {
 public:
@@ -259,24 +259,24 @@ public:
 
   constexpr void __set_IsArray(bool value);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod, bool isArray);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCall_1", modifiers: "&&", def_value: None }]
@@ -306,8 +306,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14547)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14547), inst: 1910 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14548))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1974 }), TypeDefinitionIndex(TypeDefinitionIndex(14209))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14210))
 // CS Name: ::NetSerializer::FastCallSpecific`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallSpecific_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCall_1<TClass> {
 public:
@@ -348,18 +348,18 @@ public:
 
   constexpr void __set_SetterArr(::System::Action_2<TClass, ::ArrayW<TProperty, ::Array<TProperty>*>>* value);
 
-  /// @brief Method ReadArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ReadArrayHelper, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<TProperty, ::Array<TProperty>*> ReadArrayHelper(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArrayHelper addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WriteArrayHelper, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<TProperty, ::Array<TProperty>*> WriteArrayHelper(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::System::Reflection::MethodInfo* getMethod, ::System::Reflection::MethodInfo* setMethod, bool isArray);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCallSpecific_2", modifiers: "&&", def_value: None }]
@@ -398,33 +398,33 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1893 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14549))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1957 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14211))
 // CS Name: ::NetSerializer::FastCallSpecificAuto`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallSpecificAuto_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
   // Declarations
-  /// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ByRef<TProperty> prop);
 
-  /// @brief Method ElementWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ByRef<TProperty> prop);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<TClass, TProperty>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCallSpecificAuto_2", modifiers: "&&", def_value: None }]
@@ -451,8 +451,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1894 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14550))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1958 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14212))
 // CS Name: ::NetSerializer::FastCallStatic`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallStatic_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -478,19 +478,19 @@ public:
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallStatic_2<TClass, TProperty>* New_ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* write,
                                                                                                     ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* read);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* write, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* read);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCallStatic_2", modifiers: "&&", def_value: None }]
@@ -523,8 +523,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1895 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14551))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1959 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14213))
 // CS Name: ::NetSerializer::FastCallStruct`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallStruct_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -538,21 +538,21 @@ public:
 
   constexpr void __set__p(TProperty value);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallStruct_2<TClass, TProperty>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCallStruct_2", modifiers: "&&", def_value: None }]
@@ -582,8 +582,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TClass, typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1892 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14552))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1956 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14214))
 // CS Name: ::NetSerializer::FastCallClass`2<TClass,TProperty>*
 class CORDL_TYPE __NetSerializer__FastCallClass_2 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<TClass, TProperty> {
 public:
@@ -599,19 +599,19 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FastCallClass_2<TClass, TProperty>* New_ctor(::System::Func_1<TProperty>* constructor);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<TProperty>* constructor);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(TClass inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(TClass inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FastCallClass_2", modifiers: "&&", def_value: None }]
@@ -641,27 +641,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1897 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1961 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14215))
 // CS Name: ::NetSerializer::IntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__IntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int32_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__IntSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__IntSerializer_1", modifiers: "&&", def_value: None }]
@@ -688,27 +688,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1902 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14554))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1966 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14216))
 // CS Name: ::NetSerializer::UIntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__UIntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint32_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__UIntSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__UIntSerializer_1", modifiers: "&&", def_value: None }]
@@ -735,27 +735,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1900 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14555))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1964 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14217))
 // CS Name: ::NetSerializer::ShortSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ShortSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int16_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__ShortSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__ShortSerializer_1", modifiers: "&&", def_value: None }]
@@ -782,27 +782,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1904 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14556))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1968 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14218))
 // CS Name: ::NetSerializer::UShortSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__UShortSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint16_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__UShortSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__UShortSerializer_1", modifiers: "&&", def_value: None }]
@@ -829,27 +829,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1898 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14557))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1962 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14219))
 // CS Name: ::NetSerializer::LongSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__LongSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int64_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__LongSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__LongSerializer_1", modifiers: "&&", def_value: None }]
@@ -876,27 +876,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1903 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14558))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1967 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14220))
 // CS Name: ::NetSerializer::ULongSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ULongSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint64_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__ULongSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__ULongSerializer_1", modifiers: "&&", def_value: None }]
@@ -923,27 +923,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1890 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14559))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1954 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14221))
 // CS Name: ::NetSerializer::ByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__ByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, uint8_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__ByteSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__ByteSerializer_1", modifiers: "&&", def_value: None }]
@@ -970,27 +970,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1899 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14560))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1963 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14222))
 // CS Name: ::NetSerializer::SByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__SByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, int8_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__SByteSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__SByteSerializer_1", modifiers: "&&", def_value: None }]
@@ -1017,27 +1017,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1896 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14561))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1960 }), TypeDefinitionIndex(TypeDefinitionIndex(14210))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14223))
 // CS Name: ::NetSerializer::FloatSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__FloatSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, float_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__FloatSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__FloatSerializer_1", modifiers: "&&", def_value: None }]
@@ -1064,27 +1064,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1891 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14562))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1955 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14224))
 // CS Name: ::NetSerializer::DoubleSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__DoubleSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, double_t> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__DoubleSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__DoubleSerializer_1", modifiers: "&&", def_value: None }]
@@ -1111,27 +1111,27 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1889 }), TypeDefinitionIndex(TypeDefinitionIndex(14548))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14563))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1953 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14225))
 // CS Name: ::NetSerializer::BoolSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__BoolSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, bool> {
 public:
   // Declarations
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__BoolSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__BoolSerializer_1", modifiers: "&&", def_value: None }]
@@ -1158,21 +1158,21 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14549)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14549), inst: 1887 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14564))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst: 1951 }), TypeDefinitionIndex(TypeDefinitionIndex(14211))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14226))
 // CS Name: ::NetSerializer::CharSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__CharSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<T, char16_t> {
 public:
   // Declarations
-  /// @brief Method ElementWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ByRef<char16_t> prop);
 
-  /// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ByRef<char16_t> prop);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CharSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CharSerializer_1", modifiers: "&&", def_value: None }]
@@ -1199,20 +1199,20 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7869)), TypeDefinitionIndex(TypeDefinitionIndex(14549)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14549), inst:
-// 1888 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14565)) CS Name: ::NetSerializer::IPEndPointSerializer`1<T>*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9032)), TypeDefinitionIndex(TypeDefinitionIndex(14211)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14211), inst:
+// 1952 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14227)) CS Name: ::NetSerializer::IPEndPointSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__IPEndPointSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecificAuto_2<T, ::System::Net::IPEndPoint*> {
 public:
   // Declarations
-  /// @brief Method ElementWrite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementWrite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ElementWrite(::LiteNetLib::Utils::NetDataWriter* w, ByRef<::System::Net::IPEndPoint*> prop);
 
-  /// @brief Method ElementRead addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ElementRead, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ElementRead(::LiteNetLib::Utils::NetDataReader* r, ByRef<::System::Net::IPEndPoint*> prop);
 
   static inline ::LiteNetLib::Utils::__NetSerializer__IPEndPointSerializer_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__IPEndPointSerializer_1", modifiers: "&&", def_value: None }]
@@ -1239,8 +1239,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14548)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14548), inst: 1901 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14566))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14210), inst: 1965 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14228))
 // CS Name: ::NetSerializer::StringSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__StringSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCallSpecific_2<T, ::StringW> {
 public:
@@ -1256,19 +1256,19 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__StringSerializer_1<T>* New_ctor(int32_t maxLength);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxLength);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
-  /// @brief Method ReadArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReadArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReadArray(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method WriteArray addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method WriteArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void WriteArray(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__StringSerializer_1", modifiers: "&&", def_value: None }]
@@ -1298,8 +1298,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14547), inst: 1909 }), TypeDefinitionIndex(TypeDefinitionIndex(14547))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14209)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14209), inst: 1973 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14229))
 // CS Name: ::NetSerializer::EnumByteSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__EnumByteSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T> {
 public:
@@ -1324,13 +1324,13 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T>* New_ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__EnumByteSerializer_1", modifiers: "&&", def_value: None }]
@@ -1363,21 +1363,21 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14567), inst: 1605 }), TypeDefinitionIndex(TypeDefinitionIndex(14567))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14568))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14229)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14229), inst: 1671 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14230))
 // CS Name: ::NetSerializer::EnumIntSerializer`1<T>*
 class CORDL_TYPE __NetSerializer__EnumIntSerializer_1 : public ::LiteNetLib::Utils::__NetSerializer__EnumByteSerializer_1<T> {
 public:
   // Declarations
   static inline ::LiteNetLib::Utils::__NetSerializer__EnumIntSerializer_1<T>* New_ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* property, ::System::Type* propertyType);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Read(T inf, ::LiteNetLib::Utils::NetDataReader* r);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Write(T inf, ::LiteNetLib::Utils::NetDataWriter* w);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__EnumIntSerializer_1", modifiers: "&&", def_value: None }]
@@ -1404,8 +1404,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14569))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14231))
 // CS Name: ::NetSerializer::ClassInfo`1<T>*
 class CORDL_TYPE __NetSerializer__ClassInfo_1 : public ::System::Object {
 public:
@@ -1438,13 +1438,13 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* New_ctor(::System::Collections::Generic::List_1<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>* serializers);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>*>* serializers);
 
-  /// @brief Method Write addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Write(T obj, ::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Read addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Read(T obj, ::LiteNetLib::Utils::NetDataReader* reader);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__ClassInfo_1", modifiers: "&&", def_value: None }]
@@ -1475,18 +1475,18 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14570))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14232))
 // CS Name: ::NetSerializer::CustomType*
 class CORDL_TYPE __NetSerializer__CustomType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomType* New_ctor();
 
-  /// @brief Method .ctor addr 0x20aad94 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x220bccc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CustomType", modifiers: "&&", def_value: None }]
@@ -1515,18 +1515,18 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14570))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14571))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14232))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14233))
 // CS Name: ::NetSerializer::CustomTypeStruct`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeStruct_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
   // Declarations
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomTypeStruct_1<TProperty>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CustomTypeStruct_1", modifiers: "&&", def_value: None }]
@@ -1553,8 +1553,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14570))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14572))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14232))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14234))
 // CS Name: ::NetSerializer::CustomTypeClass`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeClass_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
@@ -1570,10 +1570,10 @@ public:
 
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomTypeClass_1<TProperty>* New_ctor(::System::Func_1<TProperty>* constructor);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<TProperty>* constructor);
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CustomTypeClass_1", modifiers: "&&", def_value: None }]
@@ -1603,8 +1603,8 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename TProperty>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14570))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14573))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14232))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14235))
 // CS Name: ::NetSerializer::CustomTypeStatic`1<TProperty>*
 class CORDL_TYPE __NetSerializer__CustomTypeStatic_1 : public ::LiteNetLib::Utils::__NetSerializer__CustomType {
 public:
@@ -1630,10 +1630,10 @@ public:
   static inline ::LiteNetLib::Utils::__NetSerializer__CustomTypeStatic_1<TProperty>* New_ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* writer,
                                                                                               ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* reader);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, TProperty>* writer, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, TProperty>* reader);
 
-  /// @brief Method Get addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Get, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__FastCall_1<T>* Get();
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetSerializer__CustomTypeStatic_1", modifiers: "&&", def_value: None }]
@@ -1664,8 +1664,8 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14574))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14236))
 // CS Name: ::LiteNetLib.Utils::NetSerializer*
 class CORDL_TYPE NetSerializer : public ::System::Object {
 public:
@@ -1753,41 +1753,41 @@ public:
 
   constexpr void __set__registeredTypes(::System::Collections::Generic::Dictionary_2<::System::Type*, ::LiteNetLib::Utils::__NetSerializer__CustomType*>* value);
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType();
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType(::System::Func_1<T>* constructor);
 
-  /// @brief Method RegisterNestedType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterNestedType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RegisterNestedType(::System::Action_2<::LiteNetLib::Utils::NetDataWriter*, T>* writer, ::System::Func_2<::LiteNetLib::Utils::NetDataReader*, T>* reader);
 
   static inline ::LiteNetLib::Utils::NetSerializer* New_ctor();
 
-  /// @brief Method .ctor addr 0x20aa86c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x220b7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::LiteNetLib::Utils::NetSerializer* New_ctor(int32_t maxStringLength);
 
-  /// @brief Method .ctor addr 0x20aa960 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x220b898, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxStringLength);
 
-  /// @brief Method RegisterInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::LiteNetLib::Utils::__NetSerializer__ClassInfo_1<T>* RegisterInternal();
 
-  /// @brief Method Register addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Register, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Register();
 
-  /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Deserialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Deserialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline bool Deserialize(::LiteNetLib::Utils::NetDataReader* reader, T target);
 
-  /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer, T obj);
 
-  /// @brief Method Serialize addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Serialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Serialize(T obj);
 
   // Ctor Parameters [CppParam { name: "", ty: "NetSerializer", modifiers: "&&", def_value: None }]

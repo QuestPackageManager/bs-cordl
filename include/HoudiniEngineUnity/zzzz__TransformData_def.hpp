@@ -7,13 +7,13 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(TransformData)
 namespace UnityEngine {
-struct Quaternion;
+class Transform;
 }
 namespace UnityEngine {
 struct Vector3;
 }
 namespace UnityEngine {
-class Transform;
+struct Quaternion;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -25,19 +25,19 @@ MARK_VAL_T(::HoudiniEngineUnity::TransformData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(10179))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9750))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9823))
 // CS Name: ::HoudiniEngineUnity::TransformData
 struct CORDL_TYPE TransformData {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x205c9d4 size 0x98 virtual false final false
+  /// @brief Method .ctor, addr 0x21b3370, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* other);
 
-  /// @brief Method CopyTo addr 0x205ca6c size 0x80 virtual false final false
+  /// @brief Method CopyTo, addr 0x21b3408, size 0x80, virtual false, abstract: false, final false
   inline void CopyTo(::UnityEngine::Transform* other, bool copyParent);
 
-  /// @brief Method CopyToLocal addr 0x205caec size 0x80 virtual false final false
+  /// @brief Method CopyToLocal, addr 0x21b3488, size 0x80, virtual false, abstract: false, final false
   inline void CopyToLocal(::UnityEngine::Transform* other, bool copyParent);
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",

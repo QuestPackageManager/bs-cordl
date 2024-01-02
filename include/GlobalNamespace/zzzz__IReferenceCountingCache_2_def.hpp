@@ -18,24 +18,24 @@ namespace GlobalNamespace {
 template <typename TKey, typename TValue>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5988))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5897))
 // CS Name: ::IReferenceCountingCache`2<TKey,TValue>*
 class CORDL_TYPE IReferenceCountingCache_2 {
 public:
   // Declarations
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Insert(TKey key, TValue item);
 
-  /// @brief Method AddReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t AddReference(TKey key);
 
-  /// @brief Method RemoveReference addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t RemoveReference(TKey key);
 
-  /// @brief Method GetReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetReferenceCount(TKey key);
 
-  /// @brief Method TryGet addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method TryGet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool TryGet(TKey key, ByRef<TValue> result);
 
   // Ctor Parameters [CppParam { name: "", ty: "IReferenceCountingCache_2", modifiers: "&&", def_value: None }]

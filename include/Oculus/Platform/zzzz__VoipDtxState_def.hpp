@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::VoipDtxState);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13438))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13399))
 // CS Name: ::Oculus.Platform::VoipDtxState
 struct CORDL_TYPE VoipDtxState {
 public:

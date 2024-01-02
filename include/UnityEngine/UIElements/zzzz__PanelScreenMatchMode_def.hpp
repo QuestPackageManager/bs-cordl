@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PanelScreenMatchMode);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7110))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7024))
 // CS Name: ::UnityEngine.UIElements::PanelScreenMatchMode
 struct CORDL_TYPE PanelScreenMatchMode {
 public:

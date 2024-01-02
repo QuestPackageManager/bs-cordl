@@ -7,10 +7,10 @@ namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-class ISceneProvider;
+struct SceneInstance;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
-struct SceneInstance;
+class ISceneProvider;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvi
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14277))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14006))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ISceneProvider2*
 class CORDL_TYPE ISceneProvider2 {
 public:
@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*() noexcept;
 
-  /// @brief Method ReleaseScene addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseScene, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle,

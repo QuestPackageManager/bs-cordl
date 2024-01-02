@@ -7,59 +7,59 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPacketSerializer_2)
-namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
-}
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
-}
-namespace System {
-template <typename TResult> class Func_1;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSerializer_1;
-}
-namespace System {
-class Type;
-}
-namespace LiteNetLib::Utils {
-class INetSerializable;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace LiteNetLib::Utils {
-class NetDataWriter;
+namespace System {
+class Type;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass4_0_1;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass5_0_1;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace GlobalNamespace {
-template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+template <typename TData> class INetworkPacketSubSerializer_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__6_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace GlobalNamespace {
+template <typename TData> class INetworkPacketSerializer_1;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass8_0_1;
+}
+namespace System {
+template <typename T1, typename T2> class Action_2;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData> class __NetworkPacketSerializer_2____c__DisplayClass10_0;
+}
+namespace LiteNetLib::Utils {
+class NetDataWriter;
+}
+namespace System {
+template <typename TResult> class Func_1;
+}
+namespace GlobalNamespace {
+template <typename TType, typename TData, typename TPacket> class __NetworkPacketSerializer_2____c__DisplayClass7_0_1;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
@@ -100,8 +100,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12814))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12892))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass4_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass4_0_1 : public ::System::Object {
 public:
@@ -117,10 +117,10 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass4_0_1<TType, TData, TPacket>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__0(TPacket packet, TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass4_0_1", modifiers: "&&", def_value: None }]
@@ -150,8 +150,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12815))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12893))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass5_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass5_0_1 : public ::System::Object {
 public:
@@ -176,13 +176,13 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass5_0_1<TType, TData, TPacket>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__0(TPacket packet, TData data);
 
-  /// @brief Method <RegisterCallback>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__1(TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass5_0_1", modifiers: "&&", def_value: None }]
@@ -215,8 +215,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12816))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12894))
 // CS Name: ::NetworkPacketSerializer`2::<>c__6`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__6_1 : public ::System::Object {
 public:
@@ -237,10 +237,10 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__6_1<TType, TData, TPacket>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterCallback>b__6_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__6_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__6_0(TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__6_1", modifiers: "&&", def_value: None }]
@@ -267,8 +267,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12817))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12895))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass7_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass7_0_1 : public ::System::Object {
 public:
@@ -284,10 +284,10 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass7_0_1<TType, TData, TPacket>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__0(TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass7_0_1", modifiers: "&&", def_value: None }]
@@ -317,8 +317,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData, typename TPacket>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12818))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12896))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass8_0`1<TType,TData,TPacket>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass8_0_1 : public ::System::Object {
 public:
@@ -352,13 +352,13 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass8_0_1<TType, TData, TPacket>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterCallback>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPacket _RegisterCallback_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
 
-  /// @brief Method <RegisterCallback>b__1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterCallback>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterCallback_b__1(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass8_0_1", modifiers: "&&", def_value: None }]
@@ -394,8 +394,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12819))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12897))
 // CS Name: ::NetworkPacketSerializer`2::<>c__DisplayClass10_0<TType,TData>*
 class CORDL_TYPE __NetworkPacketSerializer_2____c__DisplayClass10_0 : public ::System::Object {
 public:
@@ -411,10 +411,10 @@ public:
 
   static inline ::GlobalNamespace::__NetworkPacketSerializer_2____c__DisplayClass10_0<TType, TData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <RegisterSubSerializer>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <RegisterSubSerializer>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _RegisterSubSerializer_b__0(::LiteNetLib::Utils::NetDataReader* reader, int32_t size, TData data);
 
   // Ctor Parameters [CppParam { name: "", ty: "__NetworkPacketSerializer_2____c__DisplayClass10_0", modifiers: "&&", def_value: None }]
@@ -444,8 +444,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TType, typename TData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12820))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12898))
 // CS Name: ::NetworkPacketSerializer`2<TType,TData>*
 class CORDL_TYPE NetworkPacketSerializer_2 : public ::System::Object {
 public:
@@ -508,66 +508,66 @@ public:
 
   constexpr void __set__internalWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void RegisterCallback(TType packetType, ::System::Action_1<TPacket>* callback);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void RegisterCallback(TType packetType, ::System::Action_1<TPacket>* callback, ::System::Func_1<TPacket>* constructor);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback, ::System::Func_1<TPacket>* constructor);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void RegisterCallback(TType packetType, ::System::Action_2<TPacket, TData>* callback, ::System::Func_2<TData, TPacket>* constructor);
 
-  /// @brief Method UnregisterCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TPacket> inline void UnregisterCallback(TType packetType);
 
-  /// @brief Method RegisterSubSerializer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method RegisterSubSerializer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void RegisterSubSerializer(TType packetType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer);
 
-  /// @brief Method UnregisterSubSerializer addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnregisterSubSerializer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UnregisterSubSerializer(TType packetType, ::GlobalNamespace::INetworkPacketSubSerializer_1<TData>* subSubSerializer);
 
-  /// @brief Method CopyFrom addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* other);
 
-  /// @brief Method SerializePacket addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SerializePacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
-  /// @brief Method SerializePacketInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method SerializePacketInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SerializePacketInternal(::LiteNetLib::Utils::NetDataWriter* externalWriter, ::LiteNetLib::Utils::INetSerializable* packet, bool prependLength);
 
-  /// @brief Method ProcessAllPackets addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method ProcessAllPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data);
 
-  /// @brief Method ProcessPacket addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessPacket, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool ProcessPacket(::LiteNetLib::Utils::NetDataReader* reader, TData data);
 
-  /// @brief Method ProcessPacketInternal addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ProcessPacketInternal, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ProcessPacketInternal(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data);
 
-  /// @brief Method TryGetPacketType addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetPacketType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryGetPacketType(::System::Type* type, ByRef<uint8_t> packetType, ByRef<::GlobalNamespace::INetworkPacketSubSerializer_1<TData>*> subSerializer);
 
-  /// @brief Method HandlesType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method HandlesType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool HandlesType(::System::Type* type);
 
-  /// @brief Method INetworkPacketSubSerializer<TData>.Serialize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method INetworkPacketSubSerializer<TData>.Serialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void INetworkPacketSubSerializer_TData__Serialize(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
 
-  /// @brief Method INetworkPacketSubSerializer<TData>.Deserialize addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method INetworkPacketSubSerializer<TData>.Deserialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void INetworkPacketSubSerializer_TData__Deserialize(::LiteNetLib::Utils::NetDataReader* reader, int32_t length, TData data);
 
-  /// @brief Method Log addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Log, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::NetworkPacketSerializer_2<TType, TData>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetworkPacketSerializer_2", modifiers: "&&", def_value: None }]

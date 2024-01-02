@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IList_1)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections {
 class IEnumerable;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3823))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3835))
 // CS Name: ::System.Collections.Generic::IList`1<T>*
 class CORDL_TYPE IList_1 {
 public:
@@ -42,19 +42,19 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method get_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_Item(int32_t index);
 
-  /// @brief Method set_Item addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_Item(int32_t index, T value);
 
-  /// @brief Method IndexOf addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(T item);
 
-  /// @brief Method Insert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Insert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Insert(int32_t index, T item);
 
-  /// @brief Method RemoveAt addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RemoveAt, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RemoveAt(int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "IList_1", modifiers: "&&", def_value: None }]

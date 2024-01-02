@@ -16,7 +16,7 @@ MARK_VAL_T(::BGNet::Core::DeliveryMethod);
 namespace BGNet::Core {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12932))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13002))
 // CS Name: ::BGNet.Core::DeliveryMethod
 struct CORDL_TYPE DeliveryMethod {
 public:

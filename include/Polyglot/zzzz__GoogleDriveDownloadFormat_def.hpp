@@ -16,7 +16,7 @@ MARK_VAL_T(::Polyglot::GoogleDriveDownloadFormat);
 namespace Polyglot {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15536))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15552))
 // CS Name: ::Polyglot::GoogleDriveDownloadFormat
 struct CORDL_TYPE GoogleDriveDownloadFormat {
 public:

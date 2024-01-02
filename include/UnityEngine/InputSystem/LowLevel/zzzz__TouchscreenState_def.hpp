@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TouchscreenState)
-namespace UnityEngine::InputSystem::LowLevel {
-struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-struct TouchState;
-}
-namespace UnityEngine::InputSystem::LowLevel {
-class IInputStateTypeInfo;
-}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
 namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct __TouchscreenState___primaryTouchData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
 struct __TouchscreenState___touchData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+struct TouchState;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::LowLevel {
@@ -40,7 +40,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6601))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6515))
 // CS Name: ::TouchscreenState::<primaryTouchData>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __TouchscreenState___primaryTouchData_e__FixedBuffer {
@@ -76,7 +76,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__TouchscreenState_
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6602))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6516))
 // CS Name: ::TouchscreenState::<touchData>e__FixedBuffer
 #pragma pack(push, 0)
 struct CORDL_TYPE __TouchscreenState___touchData_e__FixedBuffer {
@@ -112,8 +112,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__TouchscreenState_
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6601)), TypeDefinitionIndex(TypeDefinitionIndex(6602))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6603))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6516)), TypeDefinitionIndex(TypeDefinitionIndex(6515))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6517))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchscreenState
 #pragma pack(push, 0)
 struct CORDL_TYPE TouchscreenState {
@@ -150,16 +150,16 @@ public:
 
   constexpr void __set_touchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer value);
 
-  /// @brief Method get_Format addr 0x296941c size 0x30 virtual false final false
+  /// @brief Method get_Format, addr 0x2ae9164, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_primaryTouch addr 0x296944c size 0x4 virtual false final false
+  /// @brief Method get_primaryTouch, addr 0x2ae9194, size 0x4, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> get_primaryTouch();
 
-  /// @brief Method get_touches addr 0x2969450 size 0x8 virtual false final false
+  /// @brief Method get_touches, addr 0x2ae9198, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> get_touches();
 
-  /// @brief Method get_format addr 0x2969458 size 0x30 virtual true final true
+  /// @brief Method get_format, addr 0x2ae91a0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   // Ctor Parameters [CppParam { name: "primaryTouchData", ty: "::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer", modifiers: "", def_value: None }, CppParam

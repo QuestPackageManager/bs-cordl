@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::CspProviderFlags);
 namespace System::Security::Cryptography {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2925))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2926))
 // CS Name: ::System.Security.Cryptography::CspProviderFlags
 struct CORDL_TYPE CspProviderFlags {
 public:

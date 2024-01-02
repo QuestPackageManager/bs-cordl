@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::ValidationType);
 namespace System::Xml {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11373))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11445))
 // CS Name: ::System.Xml::ValidationType
 struct CORDL_TYPE ValidationType {
 public:

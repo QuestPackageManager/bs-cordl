@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Handles);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2646))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2648))
 // CS Name: ::System::Handles
 struct CORDL_TYPE Handles {
 public:

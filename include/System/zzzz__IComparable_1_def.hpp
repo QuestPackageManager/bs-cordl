@@ -17,12 +17,12 @@ namespace System {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2410))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2412))
 // CS Name: ::System::IComparable`1<T>*
 class CORDL_TYPE IComparable_1 {
 public:
   // Declarations
-  /// @brief Method CompareTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CompareTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t CompareTo(T other);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComparable_1", modifiers: "&&", def_value: None }]

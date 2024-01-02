@@ -30,7 +30,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilder*() noexcept;
 
-  /// @brief Method get_Key addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICipherBuilderWithKey", modifiers: "&&", def_value: None }]

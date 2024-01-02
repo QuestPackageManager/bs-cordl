@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::CommonUsages);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6757)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6299))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6213))
 // CS Name: ::UnityEngine.InputSystem::CommonUsages*
 class CORDL_TYPE CommonUsages : public ::System::Object {
 public:

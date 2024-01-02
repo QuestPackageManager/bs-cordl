@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509RevocationMod
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7824))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8987))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509RevocationMode
 struct CORDL_TYPE X509RevocationMode {
 public:

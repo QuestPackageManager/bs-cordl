@@ -5,11 +5,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__IFactoryProviderBase_1_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(IFactoryProvider_3)
-namespace Zenject {
-class InjectContext;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
-namespace Zenject {
-struct TypeValuePair;
+namespace System {
+struct Guid;
+}
+namespace System {
+class Object;
 }
 namespace System {
 class Action;
@@ -17,14 +20,11 @@ class Action;
 namespace Zenject {
 class DiContainer;
 }
-namespace System {
-class Object;
+namespace Zenject {
+class InjectContext;
 }
-namespace System {
-struct Guid;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace Zenject {
+struct TypeValuePair;
 }
 // Forward declare root types
 namespace Zenject {
@@ -38,18 +38,18 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11122)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11122), inst: 3386 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11125))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11194), inst: 3460 }), TypeDefinitionIndex(TypeDefinitionIndex(11194))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11197))
 // CS Name: ::Zenject::IFactoryProvider`3<TParam1,TParam2,TContract>*
 class CORDL_TYPE IFactoryProvider_3 : public ::Zenject::IFactoryProviderBase_1<TContract> {
 public:
   // Declarations
   static inline ::Zenject::IFactoryProvider_3<TParam1, TParam2, TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::System::Guid factoryId);
 
-  /// @brief Method GetAllInstancesWithInjectSplit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 

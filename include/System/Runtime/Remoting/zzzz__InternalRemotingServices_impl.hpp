@@ -1,18 +1,18 @@
 #pragma once
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__InternalRemotingServices_def.hpp"
-#include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::InternalRemotingServices.GetCachedSoapAttribute
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Metadata::SoapAttribute* (*)(::System::Object*)>(
     &::System::Runtime::Remoting::InternalRemotingServices::GetCachedSoapAttribute)> {
   constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x232d978;
+  constexpr static std::size_t addrs = 0x248546c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::InternalRemotingServices*>::get(), "GetCachedSoapAttribute",
                                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));

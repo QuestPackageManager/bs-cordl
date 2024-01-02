@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlNodeChangedEventArgs)
 namespace System::Xml {
-class XmlNode;
+struct XmlNodeChangedAction;
 }
 namespace System::Xml {
-struct XmlNodeChangedAction;
+class XmlNode;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Xml::XmlNodeChangedEventArgs);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11439)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11449))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11511)), TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11521))
 // CS Name: ::System.Xml::XmlNodeChangedEventArgs*
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {
 public:
@@ -87,11 +87,11 @@ public:
   static inline ::System::Xml::XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue,
                                                                  ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method .ctor addr 0x2714760 size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0x2891780, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action addr 0x27147fc size 0x8 virtual false final false
+  /// @brief Method get_Action, addr 0x289181c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "&&", def_value: None }]

@@ -7,14 +7,14 @@ CORDL_MODULE_EXPORT(InvokableCallList)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Reflection {
-class MethodInfo;
-}
 namespace System {
 class Object;
 }
 namespace UnityEngine::Events {
 class BaseInvokableCall;
+}
+namespace System::Reflection {
+class MethodInfo;
 }
 // Forward declare root types
 namespace UnityEngine::Events {
@@ -26,8 +26,8 @@ MARK_REF_PTR_T(::UnityEngine::Events::InvokableCallList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10382))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10460))
 // CS Name: ::UnityEngine.Events::InvokableCallList*
 class CORDL_TYPE InvokableCallList : public ::System::Object {
 public:
@@ -68,24 +68,27 @@ public:
 
   constexpr void __set_m_NeedsUpdate(bool value);
 
-  /// @brief Method AddPersistentInvokableCall addr 0x2b91274 size 0xac virtual false final false
+  /// @brief Method AddPersistentInvokableCall, addr 0x2cf95b4, size 0xac, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method AddListener addr 0x2b91320 size 0xac virtual false final false
+  /// @brief Method AddListener, addr 0x2cf9660, size 0xac, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method RemoveListener addr 0x2b913cc size 0x274 virtual false final false
+  /// @brief Method RemoveListener, addr 0x2cf970c, size 0x274, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
-  /// @brief Method ClearPersistent addr 0x2b91640 size 0xb8 virtual false final false
+  /// @brief Method Clear, addr 0x2cf9980, size 0xb8, virtual false, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method ClearPersistent, addr 0x2cf9a38, size 0xb8, virtual false, abstract: false, final false
   inline void ClearPersistent();
 
-  /// @brief Method PrepareInvoke addr 0x2b916f8 size 0xb4 virtual false final false
+  /// @brief Method PrepareInvoke, addr 0x2cf9af0, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
   static inline ::UnityEngine::Events::InvokableCallList* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b917ac size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x2cf9ba4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InvokableCallList", modifiers: "&&", def_value: None }]

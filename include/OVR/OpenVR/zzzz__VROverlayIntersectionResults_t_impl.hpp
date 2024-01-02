@@ -2,8 +2,8 @@
 #include "OVR/OpenVR/zzzz__HmdVector2_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionResults_t_def.hpp"
-#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
+#include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"
 // Ctor Parameters [CppParam { name: "vPoint", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vNormal", ty: "::OVR::OpenVR::HmdVector3_t", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "vUVs", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fDistance", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }]

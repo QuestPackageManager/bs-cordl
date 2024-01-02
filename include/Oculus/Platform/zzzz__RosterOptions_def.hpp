@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::RosterOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(2601))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13422))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13384))
 // CS Name: ::Oculus.Platform::RosterOptions*
 class CORDL_TYPE RosterOptions : public ::System::Object {
 public:
@@ -33,19 +33,19 @@ public:
 
   static inline ::Oculus::Platform::RosterOptions* New_ctor();
 
-  /// @brief Method .ctor addr 0x25ae668 size 0x68 virtual false final false
+  /// @brief Method .ctor, addr 0x26cad68, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method AddSuggestedUser addr 0x25ae6d0 size 0x6c virtual false final false
+  /// @brief Method AddSuggestedUser, addr 0x26cadcc, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearSuggestedUsers addr 0x25ae73c size 0x5c virtual false final false
+  /// @brief Method ClearSuggestedUsers, addr 0x2700e58, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method op_Explicit addr 0x25a90e0 size 0x58 virtual false final false
+  /// @brief Method op_Explicit, addr 0x26fd304, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::RosterOptions* options);
 
-  /// @brief Method Finalize addr 0x25ae798 size 0xd8 virtual true final false
+  /// @brief Method Finalize, addr 0x2700eb0, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   // Ctor Parameters [CppParam { name: "", ty: "RosterOptions", modifiers: "&&", def_value: None }]

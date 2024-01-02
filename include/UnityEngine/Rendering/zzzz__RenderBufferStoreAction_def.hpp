@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::RenderBufferStoreAction);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10255))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10333))
 // CS Name: ::UnityEngine.Rendering::RenderBufferStoreAction
 struct CORDL_TYPE RenderBufferStoreAction {
 public:

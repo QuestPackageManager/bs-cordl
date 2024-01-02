@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TrickleDown);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7248))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7162))
 // CS Name: ::UnityEngine.UIElements::TrickleDown
 struct CORDL_TYPE TrickleDown {
 public:

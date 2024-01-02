@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor addr 0x114a944 size 0x4 virtual false final false
+  /// @brief Method .ctor, addr 0x11bbb94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
   // Ctor Parameters [CppParam { name: "", ty: "BerApplicationSpecific", modifiers: "&&", def_value: None }]

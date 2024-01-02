@@ -5,20 +5,20 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeOfBiometricData)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Choice;
 }
 namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace System {
+class Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Encodable;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
@@ -54,29 +54,29 @@ public:
 
   constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method GetInstance addr 0x100f1ac size 0x1e8 virtual false final false
+  /// @brief Method GetInstance, addr 0x10803fc, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* New_ctor(int32_t predefinedBiometricType);
 
-  /// @brief Method .ctor addr 0x1010f38 size 0xfc virtual false final false
+  /// @brief Method .ctor, addr 0x1082188, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(int32_t predefinedBiometricType);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* biometricDataOid);
 
-  /// @brief Method .ctor addr 0x1011034 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x1082284, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* biometricDataOid);
 
-  /// @brief Method get_IsPredefined addr 0x101105c size 0x7c virtual false final false
+  /// @brief Method get_IsPredefined, addr 0x10822ac, size 0x7c, virtual false, abstract: false, final false
   inline bool get_IsPredefined();
 
-  /// @brief Method get_PredefinedBiometricType addr 0x10110d8 size 0x80 virtual false final false
+  /// @brief Method get_PredefinedBiometricType, addr 0x1082328, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_PredefinedBiometricType();
 
-  /// @brief Method get_BiometricDataOid addr 0x1011158 size 0x78 virtual false final false
+  /// @brief Method get_BiometricDataOid, addr 0x10823a8, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_BiometricDataOid();
 
-  /// @brief Method ToAsn1Object addr 0x10111d0 size 0x20 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0x1082420, size 0x20, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "TypeOfBiometricData", modifiers: "&&", def_value: None }]

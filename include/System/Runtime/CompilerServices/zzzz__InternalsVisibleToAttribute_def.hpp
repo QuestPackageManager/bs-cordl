@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::InternalsVisibleToAttribute)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3410))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3415))
 // CS Name: ::System.Runtime.CompilerServices::InternalsVisibleToAttribute*
 class CORDL_TYPE InternalsVisibleToAttribute : public ::System::Attribute {
 public:
@@ -43,10 +43,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::InternalsVisibleToAttribute* New_ctor(::StringW assemblyName);
 
-  /// @brief Method .ctor addr 0x23841a4 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x24dec34, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible addr 0x23841d4 size 0xc virtual false final false
+  /// @brief Method set_AllInternalsVisible, addr 0x24dec64, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "InternalsVisibleToAttribute", modifiers: "&&", def_value: None }]

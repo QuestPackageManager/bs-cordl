@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12726))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12808))
 // CS Name: ::IPacketPool`1<T>*
 class CORDL_TYPE IPacketPool_1 {
 public:
@@ -27,10 +27,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool"
   constexpr operator ::GlobalNamespace::IPacketPool*() noexcept;
 
-  /// @brief Method Obtain addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T Obtain();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release(T t);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPacketPool_1", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ComponentModel::DesignerSerializationVisibility);
 namespace System::ComponentModel {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8228))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9391))
 // CS Name: ::System.ComponentModel::DesignerSerializationVisibility
 struct CORDL_TYPE DesignerSerializationVisibility {
 public:

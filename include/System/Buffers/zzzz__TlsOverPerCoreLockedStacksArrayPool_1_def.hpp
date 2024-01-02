@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsOverPerCoreLockedStacksArrayPool_1)
+namespace System {
+class Object;
+}
 namespace System::Buffers {
 template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack;
+}
+namespace System::Buffers {
+template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TKey, typename TValue> class ConditionalWeakTable_2;
 }
 namespace System::Buffers {
-template <typename T> class __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks;
-}
-namespace System::Buffers {
 template <typename T> struct __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System::Buffers {
@@ -47,8 +47,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 4460 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3874))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {
 public:
@@ -99,8 +99,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3875))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks : public ::System::Object {
 public:
@@ -120,16 +120,16 @@ public:
 
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method TryPush addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void TryPush(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method TryPop addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> TryPop();
 
-  /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Trim(uint32_t tickCount, int32_t id, ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, ::ArrayW<int32_t, ::Array<int32_t>*> bucketSizes);
 
   // Ctor Parameters [CppParam { name: "", ty: "__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks", modifiers: "&&", def_value: None }]
@@ -159,8 +159,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3876))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::LockedStack<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public ::System::Object {
 public:
@@ -192,18 +192,18 @@ public:
 
   constexpr void __set__firstStackItemMS(uint32_t value);
 
-  /// @brief Method TryPush addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryPush(::ArrayW<T, ::Array<T>*> array);
 
-  /// @brief Method TryPop addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryPop, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> TryPop();
 
-  /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Trim(uint32_t tickCount, int32_t id, ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> pressure, int32_t bucketSize);
 
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack", modifiers: "&&", def_value: None }]
@@ -239,8 +239,8 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3868), inst: 757 }), TypeDefinitionIndex(TypeDefinitionIndex(3868))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3877))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3880), inst: 769 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3889))
 // CS Name: ::System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1<T>*
 class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1 : public ::System::Buffers::ArrayPool_1<T> {
 public:
@@ -313,31 +313,32 @@ public:
 
   static inline ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method CreatePerCoreLockedStacks addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method CreatePerCoreLockedStacks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* CreatePerCoreLockedStacks(int32_t bucketIndex);
 
-  /// @brief Method get_Id addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Id, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method Rent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Rent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> Rent(int32_t minimumLength);
 
-  /// @brief Method Return addr 0x0 size 0xffffffffffffffff virtual true final false
-  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray);
+  /// @brief Method Return, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  /// @param clearArray: bool (default: false)
+  inline void Return(::ArrayW<T, ::Array<T>*> array, bool clearArray = false);
 
-  /// @brief Method Trim addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Trim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool Trim();
 
-  /// @brief Method Gen2GcCallbackFunc addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Gen2GcCallbackFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool Gen2GcCallbackFunc(::System::Object* target);
 
-  /// @brief Method GetMemoryPressure addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetMemoryPressure, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T> GetMemoryPressure();
 
-  /// @brief Method GetTrimBuffers addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetTrimBuffers, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool GetTrimBuffers();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsOverPerCoreLockedStacksArrayPool_1", modifiers: "&&", def_value: None }]

@@ -1,17 +1,17 @@
 #pragma once
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
 #include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
+#include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5ActivityIdsModelSO.get_progressActivities
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::ProgressActivitySO*, ::Array<::GlobalNamespace::ProgressActivitySO*>*> (
     ::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::get_progressActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222e36c;
+  constexpr static std::size_t addrs = 0x2368298;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
                                                                                "get_progressActivities", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -23,9 +23,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::CompetetiveActivitySO*, ::Array<::GlobalNamespace::CompetetiveActivitySO*>*> (
     ::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::get_competetiveActivities)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222e374;
+  constexpr static std::size_t addrs = 0x23682a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(),
                                                                                "get_competetiveActivities", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;
@@ -36,9 +36,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5ActivityIdsModelSO::*)()>(&::GlobalNamespace::PS5ActivityIdsModelSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x222e37c;
+  constexpr static std::size_t addrs = 0x23682a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityIdsModelSO*>::get(), ".ctor",
                                                                                std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
     return ___internal_method;

@@ -9,23 +9,23 @@ CORDL_MODULE_EXPORT(ShaderWarmupSceneStart)
 namespace GlobalNamespace {
 class GameScenesManager;
 }
-namespace System::Collections {
-class IEnumerator;
+namespace GlobalNamespace {
+class __ShaderWarmupSceneStart___Start_d__2;
 }
 namespace GlobalNamespace {
 class ShaderWarmupSceneSetupData;
 }
-namespace GlobalNamespace {
-class __ShaderWarmupSceneStart___Start_d__2;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
-class Object;
+class IDisposable;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
-class IDisposable;
+class Object;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -41,8 +41,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6143))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6083))
 // CS Name: ::ShaderWarmupSceneStart::<Start>d__2*
 class CORDL_TYPE __ShaderWarmupSceneStart___Start_d__2 : public ::System::Object {
 public:
@@ -89,22 +89,22 @@ public:
 
   static inline ::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x21e5ae4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x23201c0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x21e5b14 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x23201f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x21e5b18 size 0x90 virtual true final true
+  /// @brief Method MoveNext, addr 0x23201f4, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x21e5ba8 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2320284, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x21e5bb0 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x232028c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x21e5bf0 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23202cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ShaderWarmupSceneStart___Start_d__2", modifiers: "&&", def_value: None }]
@@ -146,8 +146,8 @@ static_assert(offsetof(::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6144))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6084))
 // CS Name: ::ShaderWarmupSceneStart*
 class CORDL_TYPE ShaderWarmupSceneStart : public ::UnityEngine::MonoBehaviour {
 public:
@@ -172,12 +172,12 @@ public:
 
   constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
 
-  /// @brief Method Start addr 0x21e5a7c size 0x68 virtual false final false
+  /// @brief Method Start, addr 0x2320158, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   static inline ::GlobalNamespace::ShaderWarmupSceneStart* New_ctor();
 
-  /// @brief Method .ctor addr 0x21e5b0c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23201e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneStart", modifiers: "&&", def_value: None }]

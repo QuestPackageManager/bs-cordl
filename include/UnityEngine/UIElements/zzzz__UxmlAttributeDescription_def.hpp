@@ -11,10 +11,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlAttributeDescription)
 namespace UnityEngine::UIElements {
-class IUxmlAttributes;
+struct CreationContext;
 }
-namespace UnityEngine::UIElements {
-class UxmlTypeRestriction;
+namespace System {
+template <typename T1, typename T2, typename TResult> class Func_3;
 }
 namespace UnityEngine::UIElements {
 struct __UxmlAttributeDescription__Use;
@@ -23,10 +23,10 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
-struct CreationContext;
+class UxmlTypeRestriction;
 }
-namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+namespace UnityEngine::UIElements {
+class IUxmlAttributes;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeDescription);
 namespace UnityEngine::UIElements {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7066))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6980))
 // CS Name: ::UxmlAttributeDescription::Use
 struct CORDL_TYPE __UxmlAttributeDescription__Use {
 public:
@@ -100,8 +100,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__UxmlAttributeDescription__Us
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(7066))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7067))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6980)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6981))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeDescription*
 class CORDL_TYPE UxmlAttributeDescription : public ::System::Object {
 public:
@@ -176,39 +176,39 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ca8518 size 0x24 virtual false final false
+  /// @brief Method .ctor, addr 0x2e0e8c8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name addr 0x2ca853c size 0x8 virtual false final false
+  /// @brief Method get_name, addr 0x2e0e8ec, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name addr 0x2ca8544 size 0x8 virtual false final false
+  /// @brief Method set_name, addr 0x2e0e8f4, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
-  /// @brief Method set_obsoleteNames addr 0x2ca854c size 0x5c virtual false final false
+  /// @brief Method set_obsoleteNames, addr 0x2e0e8fc, size 0x5c, virtual false, abstract: false, final false
   inline void set_obsoleteNames(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  /// @brief Method set_type addr 0x2ca85a8 size 0x8 virtual false final false
+  /// @brief Method set_type, addr 0x2e0e958, size 0x8, virtual false, abstract: false, final false
   inline void set_type(::StringW value);
 
-  /// @brief Method set_typeNamespace addr 0x2ca85b0 size 0x8 virtual false final false
+  /// @brief Method set_typeNamespace, addr 0x2e0e960, size 0x8, virtual false, abstract: false, final false
   inline void set_typeNamespace(::StringW value);
 
-  /// @brief Method set_use addr 0x2ca85b8 size 0x8 virtual false final false
+  /// @brief Method set_use, addr 0x2e0e968, size 0x8, virtual false, abstract: false, final false
   inline void set_use(::UnityEngine::UIElements::__UxmlAttributeDescription__Use value);
 
-  /// @brief Method set_restriction addr 0x2ca85c0 size 0x8 virtual false final false
+  /// @brief Method set_restriction, addr 0x2e0e970, size 0x8, virtual false, abstract: false, final false
   inline void set_restriction(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
-  /// @brief Method TryGetValueFromBagAsString addr 0x2ca85c8 size 0x474 virtual false final false
+  /// @brief Method TryGetValueFromBagAsString, addr 0x2e0e978, size 0x474, virtual false, abstract: false, final false
   inline bool TryGetValueFromBagAsString(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<::StringW> value);
 
-  /// @brief Method TryGetValueFromBag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method TryGetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue,
                                  ByRef<T> value);
 
-  /// @brief Method GetValueFromBag addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T>
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ::System::Func_3<::StringW, T, T>* converterFunc, T defaultValue);
 

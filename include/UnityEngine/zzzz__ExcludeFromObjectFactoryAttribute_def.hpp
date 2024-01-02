@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::ExcludeFromObjectFactoryAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10159))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10232))
 // CS Name: ::UnityEngine::ExcludeFromObjectFactoryAttribute*
 class CORDL_TYPE ExcludeFromObjectFactoryAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::ExcludeFromObjectFactoryAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2b6cef0 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2cd3670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ExcludeFromObjectFactoryAttribute", modifiers: "&&", def_value: None }]

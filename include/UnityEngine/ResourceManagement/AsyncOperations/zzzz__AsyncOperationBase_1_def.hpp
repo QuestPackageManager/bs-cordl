@@ -8,41 +8,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsyncOperationBase_1)
-namespace System {
-class Exception;
-}
-namespace System {
-class Type;
-}
-namespace UnityEngine::ResourceManagement {
-class ResourceManager;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
-}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 class IAsyncOperation;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct DownloadStatus;
-}
-namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class TaskCompletionSource_1;
 }
+namespace GlobalNamespace {
+template <typename T> class DelegateList_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass57_0;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
@@ -50,14 +29,35 @@ template <typename TObject> struct AsyncOperationHandle_1;
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
-namespace GlobalNamespace {
-template <typename T> class DelegateList_1;
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationStatus;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class __AsyncOperationBase_1____c__DisplayClass58_0;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+struct AsyncOperationHandle;
 }
 namespace System {
 class Object;
 }
+namespace System::Threading::Tasks {
+template <typename TResult> class Task_1;
+}
+namespace UnityEngine::ResourceManagement {
+class ResourceManager;
+}
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-struct AsyncOperationHandle;
+struct DownloadStatus;
+}
+namespace System {
+class Type;
+}
+namespace System {
+class Exception;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
@@ -79,8 +79,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14301))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14030))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass57_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass57_0 : public ::System::Object {
 public:
@@ -96,10 +96,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass57_0<TObject>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <add_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <add_CompletedTypeless>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _add_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass57_0", modifiers: "&&", def_value: None }]
@@ -129,8 +129,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14302))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14031))
 // CS Name: ::AsyncOperationBase`1::<>c__DisplayClass58_0<TObject>*
 class CORDL_TYPE __AsyncOperationBase_1____c__DisplayClass58_0 : public ::System::Object {
 public:
@@ -146,10 +146,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::__AsyncOperationBase_1____c__DisplayClass58_0<TObject>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <remove_CompletedTypeless>b__0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <remove_CompletedTypeless>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _remove_CompletedTypeless_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> s);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AsyncOperationBase_1____c__DisplayClass58_0", modifiers: "&&", def_value: None }]
@@ -179,8 +179,8 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(14306))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14303))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14035))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14032))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationBase`1<TObject>*
 class CORDL_TYPE AsyncOperationBase_1 : public ::System::Object {
 public:
@@ -410,222 +410,224 @@ public:
 
   constexpr void __set_m_UpdateCallback(::System::Action_1<float_t>* value);
 
-  /// @brief Method Execute addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Execute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Execute();
 
-  /// @brief Method Destroy addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method get_Progress addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Progress, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
-  /// @brief Method get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_DebugName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method get_Result addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TObject get_Result();
 
-  /// @brief Method set_Result addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_Result, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Result(TObject value);
 
-  /// @brief Method get_Version addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
-  /// @brief Method get_CompletedEventHasListeners addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_CompletedEventHasListeners, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_CompletedEventHasListeners();
 
-  /// @brief Method get_DestroyedEventHasListeners addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_DestroyedEventHasListeners, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_DestroyedEventHasListeners();
 
-  /// @brief Method set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  /// @brief Method get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_ReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_ReferenceCount();
 
-  /// @brief Method get_IsRunning addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_IsRunning, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_IsRunning();
 
-  /// @brief Method set_IsRunning addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_IsRunning, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_IsRunning(bool value);
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ShortenPath addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ShortenPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::StringW ShortenPath(::StringW p, bool keepExtension);
 
-  /// @brief Method IncrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method IncrementReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IncrementReferenceCount();
 
-  /// @brief Method WaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method WaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void WaitForCompletion();
 
-  /// @brief Method InvokeWaitForCompletion addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method DecrementReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void DecrementReferenceCount();
 
-  /// @brief Method get_Task addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TObject>* get_Task();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Task, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Task();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method RegisterForDeferredCallbackEvent addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void RegisterForDeferredCallbackEvent(bool incrementReferenceCount);
+  /// @brief Method RegisterForDeferredCallbackEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param incrementReferenceCount: bool (default: true)
+  inline void RegisterForDeferredCallbackEvent(bool incrementReferenceCount = true);
 
-  /// @brief Method add_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_Completed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
 
-  /// @brief Method remove_Completed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_Completed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_Completed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
 
-  /// @brief Method add_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method add_CompletedTypeless, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method remove_CompletedTypeless, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method get_Status addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Status, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus get_Status();
 
-  /// @brief Method get_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_OperationException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Exception* get_OperationException();
 
-  /// @brief Method set_OperationException addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_OperationException, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_OperationException(::System::Exception* value);
 
-  /// @brief Method MoveNext addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool MoveNext();
 
-  /// @brief Method Reset addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Reset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method get_Current addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Object* get_Current();
 
-  /// @brief Method get_IsDone addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_IsDone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_PercentComplete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_PercentComplete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_PercentComplete();
 
-  /// @brief Method InvokeCompletionEvent addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeCompletionEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeCompletionEvent();
 
-  /// @brief Method get_Handle addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Handle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> get_Handle();
 
-  /// @brief Method UpdateCallback addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UpdateCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateCallback(float_t unscaledDeltaTime);
 
-  /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Complete(TObject result, bool success, ::StringW errorMsg);
 
-  /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Complete(TObject result, bool success, ::StringW errorMsg, bool releaseDependenciesOnFailure);
 
-  /// @brief Method Complete addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline void Complete(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure);
+  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @param releaseDependenciesOnFailure: bool (default: true)
+  inline void Complete(TObject result, bool success, ::System::Exception* exception, bool releaseDependenciesOnFailure = true);
 
-  /// @brief Method Start addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency,
                     ::GlobalNamespace::DelegateList_1<float_t>* updateCallbacks);
 
-  /// @brief Method InvokeExecute addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method InvokeExecute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void InvokeExecute();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_CompletedTypeless, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_CompletedTypeless, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void
   UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_CompletedTypeless(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.add_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_add_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.remove_Destroyed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_remove_Destroyed(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Version();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ReferenceCount();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_PercentComplete addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_PercentComplete, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline float_t UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_PercentComplete();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Status, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationStatus UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Status();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_OperationException, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Exception* UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_OperationException();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_IsDone, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_IsDone();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_Handle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_Handle();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.set_OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_set_OnDestroy(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_DebugName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_DebugName();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetResultAsObject addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetResultAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Object* UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetResultAsObject();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.get_ResultType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_get_ResultType();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDependencies(
       ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.DecrementReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_DecrementReferenceCount();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.IncrementReferenceCount addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.IncrementReferenceCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_IncrementReferenceCount();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.InvokeCompletionEvent addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.InvokeCompletionEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_InvokeCompletionEvent();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.Start, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_Start(::UnityEngine::ResourceManagement::ResourceManager* rm,
                                                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency,
                                                                                    ::GlobalNamespace::DelegateList_1<float_t>* updateCallbacks);
 
-  /// @brief Method ReleaseDependencies addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ReleaseDependencies, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseDependencies();
 
-  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation.GetDownloadStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus
   UnityEngine_ResourceManagement_AsyncOperations_IAsyncOperation_GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method GetDownloadStatus addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetDownloadStatus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method <.ctor>b__35_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <.ctor>b__35_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void __ctor_b__35_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle o);
 
   // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationBase_1", modifiers: "&&", def_value: None }]

@@ -4,20 +4,20 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionConnectionsGenerator)
-namespace GlobalNamespace {
-class MissionNode;
-}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace GlobalNamespace {
-class MissionNodeConnection;
 }
 namespace UnityEngine {
 class GameObject;
 }
 namespace GlobalNamespace {
+class MissionNode;
+}
+namespace GlobalNamespace {
 class MissionNodesManager;
+}
+namespace GlobalNamespace {
+class MissionNodeConnection;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionConnectionsGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5629))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5536))
 // CS Name: ::MissionConnectionsGenerator*
 class CORDL_TYPE MissionConnectionsGenerator : public ::UnityEngine::MonoBehaviour {
 public:
@@ -73,24 +73,24 @@ public:
 
   constexpr void __set__missionNodes(::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* value);
 
-  /// @brief Method get__rootMissionNode addr 0x2159940 size 0x1c virtual false final false
+  /// @brief Method get__rootMissionNode, addr 0x229e8c4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionNode* get__rootMissionNode();
 
-  /// @brief Method CreateNodeConnections addr 0x215995c size 0x90 virtual false final false
+  /// @brief Method CreateNodeConnections, addr 0x229e8e0, size 0x90, virtual false, abstract: false, final false
   inline void CreateNodeConnections();
 
-  /// @brief Method RemoveOldConnections addr 0x21599ec size 0x4bc virtual false final false
+  /// @brief Method RemoveOldConnections, addr 0x229e970, size 0x4bc, virtual false, abstract: false, final false
   inline void RemoveOldConnections();
 
-  /// @brief Method CreateConnections addr 0x2159ea8 size 0x1f8 virtual false final false
+  /// @brief Method CreateConnections, addr 0x229ee2c, size 0x1f8, virtual false, abstract: false, final false
   inline void CreateConnections(::GlobalNamespace::MissionNode* missionNode, ::System::Collections::Generic::List_1<::GlobalNamespace::MissionNode*>* visitedNodes);
 
-  /// @brief Method CreateConnectionBetweenNodes addr 0x215a0a0 size 0xd0 virtual false final false
+  /// @brief Method CreateConnectionBetweenNodes, addr 0x229f024, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionNodeConnection* CreateConnectionBetweenNodes(::GlobalNamespace::MissionNode* parentMissionNode, ::GlobalNamespace::MissionNode* childMissionNode);
 
   static inline ::GlobalNamespace::MissionConnectionsGenerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x215a19c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229f120, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MissionConnectionsGenerator", modifiers: "&&", def_value: None }]

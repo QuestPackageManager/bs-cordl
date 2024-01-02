@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FontStyle);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15788))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15896))
 // CS Name: ::UnityEngine::FontStyle
 struct CORDL_TYPE FontStyle {
 public:

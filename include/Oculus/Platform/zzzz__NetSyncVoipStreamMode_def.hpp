@@ -16,7 +16,7 @@ MARK_VAL_T(::Oculus::Platform::NetSyncVoipStreamMode);
 namespace Oculus::Platform {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13369))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13342))
 // CS Name: ::Oculus.Platform::NetSyncVoipStreamMode
 struct CORDL_TYPE NetSyncVoipStreamMode {
 public:

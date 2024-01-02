@@ -8,20 +8,20 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleColor)
-namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
-}
 namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
 }
-namespace System {
-class Object;
-}
 namespace UnityEngine {
 struct Color;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
+}
+namespace System {
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -33,8 +33,8 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleColor);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10178)), TypeDefinitionIndex(TypeDefinitionIndex(7386))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7376))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7290))
 // CS Name: ::UnityEngine.UIElements::StyleColor
 struct CORDL_TYPE StyleColor {
 public:
@@ -49,34 +49,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleColor>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleColor>*();
 
-  /// @brief Method get_value addr 0x2d05ca4 size 0x28 virtual true final true
+  /// @brief Method get_value, addr 0x2e6f054, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_value();
 
-  /// @brief Method get_keyword addr 0x2d05ccc size 0x8 virtual true final true
+  /// @brief Method get_keyword, addr 0x2e6f07c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method .ctor addr 0x2d05cd4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2e6f084, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color v);
 
-  /// @brief Method .ctor addr 0x2d05ce4 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x2e6f094, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method op_Equality addr 0x2d05cf4 size 0x64 virtual false final false
+  /// @brief Method op_Equality, addr 0x2e6f0a4, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleColor lhs, ::UnityEngine::UIElements::StyleColor rhs);
 
-  /// @brief Method op_Implicit addr 0x2d05d58 size 0x10 virtual false final false
+  /// @brief Method op_Implicit, addr 0x2e6f108, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleColor op_Implicit___UnityEngine__UIElements__StyleColor(::UnityEngine::Color v);
 
-  /// @brief Method Equals addr 0x2d05d68 size 0x64 virtual true final true
+  /// @brief Method Equals, addr 0x2e6f118, size 0x64, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleColor other);
 
-  /// @brief Method Equals addr 0x2d05dcc size 0x90 virtual true final false
+  /// @brief Method Equals, addr 0x2e6f17c, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x2d05e5c size 0x98 virtual true final false
+  /// @brief Method GetHashCode, addr 0x2e6f20c, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x2d05ef4 size 0x88 virtual true final false
+  /// @brief Method ToString, addr 0x2e6f2a4, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers:

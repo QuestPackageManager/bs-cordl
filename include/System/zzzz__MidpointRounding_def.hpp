@@ -16,7 +16,7 @@ MARK_VAL_T(::System::MidpointRounding);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2439))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2441))
 // CS Name: ::System::MidpointRounding
 struct CORDL_TYPE MidpointRounding {
 public:

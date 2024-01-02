@@ -2,6 +2,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
@@ -13,58 +14,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerModeSelectionFlowCoordinator)
 namespace GlobalNamespace {
-class JoinQuickPlayViewController;
-}
-namespace System::Threading::Tasks {
-template <typename TResult> class TaskCompletionSource_1;
-}
-namespace HMUI {
-class ViewController;
-}
-namespace GlobalNamespace {
-class GameServerBrowserFlowCoordinator;
-}
-namespace GlobalNamespace {
-struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-class CreateServerViewController;
-}
-namespace GlobalNamespace {
-class QuickPlaySetupData;
-}
-namespace GlobalNamespace {
-class ILobbyGameStateController;
-}
-namespace GlobalNamespace {
-class FadeInOutController;
+class GameServerLobbyFlowCoordinator;
 }
 namespace System {
-template <typename T> class Action_1;
+template <typename T> struct Nullable_1;
 }
-namespace System {
-class Exception;
+namespace GlobalNamespace {
+class SimpleDialogPromptViewController;
 }
 namespace GlobalNamespace {
 class IQuickPlaySetupModel;
 }
 namespace GlobalNamespace {
-class PlayerDataModel;
+class GameServerBrowserFlowCoordinator;
 }
 namespace GlobalNamespace {
-class JoiningLobbyViewController;
+class FadeInOutController;
 }
-namespace UnityEngine {
-class AudioClip;
+namespace GlobalNamespace {
+struct ConnectionFailedReason;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
 }
 namespace GlobalNamespace {
 class IUnifiedNetworkPlayerModel;
-}
-namespace GlobalNamespace {
-class ServerCodeEntryViewController;
 }
 namespace GlobalNamespace {
 struct __MultiplayerModeSelectionViewController__MenuButton;
@@ -73,76 +47,109 @@ namespace GlobalNamespace {
 class MultiplayerModeSelectionViewController;
 }
 namespace GlobalNamespace {
-class MultiplayerLobbyConnectionController;
-}
-namespace GlobalNamespace {
-class AvatarDataModel;
-}
-namespace HMUI {
-struct __ViewController__AnimationType;
-}
-namespace System {
-template <typename T> struct Nullable_1;
-}
-namespace GlobalNamespace {
-class IMultiplayerStatusModel;
-}
-namespace GlobalNamespace {
-class XPlatformAuthFeatureFlag;
-}
-namespace GlobalNamespace {
-struct CreateServerFormData;
+class SongPreviewPlayer;
 }
 namespace GlobalNamespace {
 class IAnalyticsModel;
 }
 namespace GlobalNamespace {
-struct ConnectionFailedReason;
+class JoinQuickPlayViewController;
+}
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 namespace GlobalNamespace {
-struct __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
-}
-namespace GlobalNamespace {
-struct __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
-}
-namespace System::Threading {
-class CancellationTokenSource;
+struct __MultiplayerLobbyConnectionController__LobbyConnectionType;
 }
 namespace GlobalNamespace {
 class SelectMultiplayerLobbyDestination;
+}
+namespace HMUI {
+class ViewController;
+}
+namespace GlobalNamespace {
+class LobbyDataModelsManager;
+}
+namespace UnityEngine {
+class AudioClip;
 }
 namespace GlobalNamespace {
 class INetworkPlayerModel;
 }
 namespace GlobalNamespace {
-class SongPackMaskModelSO;
+class SongPackMasksModel;
+}
+namespace GlobalNamespace {
+class CreateServerViewController;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
 }
-namespace GlobalNamespace {
-class LobbyDataModelsManager;
+namespace System {
+template <typename T> class Action_1;
 }
 namespace GlobalNamespace {
-class GameServerLobbyFlowCoordinator;
+class JoiningLobbyViewController;
 }
 namespace GlobalNamespace {
-class SimpleDialogPromptViewController;
+class MultiplayerLobbyConnectionController;
 }
 namespace GlobalNamespace {
-class SongPreviewPlayer;
+class PlayerDataModel;
+}
+namespace BeatSaber::AvatarCore {
+class AvatarSystemCollection;
+}
+namespace GlobalNamespace {
+class IMultiplayerStatusModel;
+}
+namespace System {
+class Exception;
+}
+namespace GlobalNamespace {
+struct CreateServerFormData;
+}
+namespace GlobalNamespace {
+class QuickPlaySetupData;
+}
+namespace GlobalNamespace {
+class XPlatformAuthFeatureFlag;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
+}
+namespace GlobalNamespace {
+class ServerCodeEntryViewController;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateController;
+}
+namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
+}
+namespace HMUI {
+struct __ViewController__AnimationType;
+}
+namespace System::Runtime::CompilerServices {
+template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncVoidMethodBuilder;
+}
+namespace GlobalNamespace {
+struct MultiplayerAvatarsData;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
-}
-namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
-}
-namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
 }
 namespace GlobalNamespace {
 class MultiplayerStatusData;
@@ -152,6 +159,9 @@ namespace GlobalNamespace {
 class MultiplayerModeSelectionFlowCoordinator;
 }
 namespace GlobalNamespace {
+struct __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
+}
+namespace GlobalNamespace {
 struct __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52;
 }
 namespace GlobalNamespace {
@@ -159,26 +169,92 @@ struct __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator);
+MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50);
 MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52);
 MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51);
+// Type: ::<HandleConnectedPlayerManagerCreated>d__50
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 893
+// }), TypeDefinitionIndex(TypeDefinitionIndex(15021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5513)) CS Name:
+// ::MultiplayerModeSelectionFlowCoordinator::<HandleConnectedPlayerManagerCreated>d__50
+struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x22991c0, size 0x3d4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2299594, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*",
+  // modifiers: "", def_value: None }, CppParam { name: "networkPlayerModel", ty: "::GlobalNamespace::INetworkPlayerModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None }]
+  constexpr __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50(
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this,
+      ::GlobalNamespace::INetworkPlayerModel* networkPlayerModel, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData> __u__1) noexcept;
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50();
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this;
+
+  /// @brief Field networkPlayerModel, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, networkPlayerModel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, __u__1) == 0x38, "Offset mismatch!");
+
+} // namespace GlobalNamespace
 // Type: ::<TryShowModeSelection>d__51
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4491)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 112 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3389)), TypeDefinitionIndex(TypeDefinitionIndex(4483)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 875 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 878 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5607)) CS
-// Name: ::MultiplayerModeSelectionFlowCoordinator::<TryShowModeSelection>d__51
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 894 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4472)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 898 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5514)) CS Name:
+// ::MultiplayerModeSelectionFlowCoordinator::<TryShowModeSelection>d__51
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2153f38 size 0xae8 virtual true final true
+  /// @brief Method MoveNext, addr 0x22995a0, size 0xae8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2154a20 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x229a088, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -248,11 +324,11 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 
 } // namespace GlobalNamespace
 // Type: ::<ResolveAndPresentNextFlowCoordinator>d__52
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3388))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5515))
 // CS Name: ::MultiplayerModeSelectionFlowCoordinator::<ResolveAndPresentNextFlowCoordinator>d__52
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52 {
 public:
@@ -260,17 +336,18 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x2154a2c size 0x390 virtual true final true
+  /// @brief Method MoveNext, addr 0x229a094, size 0x430, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x2154dbc size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x229a4c4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                                   ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this,
+                                                                                                   ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this, int32_t __7__wrap1,
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -286,16 +363,19 @@ public:
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field <>7__wrap1, offset: 0x30, size: 0x4, def value: None
+  int32_t __7__wrap1;
+
+  /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, __1__state) == 0x0, "Offset mismatch!");
 
@@ -303,15 +383,17 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 
 static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, __7__wrap1) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, __u__1) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::MultiplayerModeSelectionFlowCoordinator
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5516))
 // CS Name: ::MultiplayerModeSelectionFlowCoordinator*
 class CORDL_TYPE MultiplayerModeSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -320,11 +402,13 @@ public:
 
   using _TryShowModeSelection_d__51 = ::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51;
 
+  using _HandleConnectedPlayerManagerCreated_d__50 = ::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
+
   /// @brief Field _ambienceAudioClip, offset 0xa8, size 0x8
   __declspec(property(get = __get__ambienceAudioClip, put = __set__ambienceAudioClip))::UnityEngine::AudioClip* _ambienceAudioClip;
 
-  /// @brief Field _songPackMaskModel, offset 0xb0, size 0x8
-  __declspec(property(get = __get__songPackMaskModel, put = __set__songPackMaskModel))::GlobalNamespace::SongPackMaskModelSO* _songPackMaskModel;
+  /// @brief Field _songPackMasksModel, offset 0xb0, size 0x8
+  __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   /// @brief Field _gameServerBrowserFlowCoordinator, offset 0xb8, size 0x8
   __declspec(property(get = __get__gameServerBrowserFlowCoordinator,
@@ -356,8 +440,8 @@ public:
   /// @brief Field _unifiedNetworkPlayerModel, offset 0xf8, size 0x8
   __declspec(property(get = __get__unifiedNetworkPlayerModel, put = __set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Field _avatarDataModel, offset 0x100, size 0x8
-  __declspec(property(get = __get__avatarDataModel, put = __set__avatarDataModel))::GlobalNamespace::AvatarDataModel* _avatarDataModel;
+  /// @brief Field _avatarSystemCollection, offset 0x100, size 0x8
+  __declspec(property(get = __get__avatarSystemCollection, put = __set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field _multiplayerSessionManager, offset 0x108, size 0x8
   __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
@@ -422,11 +506,11 @@ public:
 
   constexpr void __set__ambienceAudioClip(::UnityEngine::AudioClip* value);
 
-  constexpr ::GlobalNamespace::SongPackMaskModelSO*& __get__songPackMaskModel();
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __get__songPackMasksModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMaskModelSO*> const& __get__songPackMaskModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __get__songPackMasksModel() const;
 
-  constexpr void __set__songPackMaskModel(::GlobalNamespace::SongPackMaskModelSO* value);
+  constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
   constexpr ::GlobalNamespace::GameServerBrowserFlowCoordinator*& __get__gameServerBrowserFlowCoordinator();
 
@@ -482,11 +566,11 @@ public:
 
   constexpr void __set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  constexpr ::GlobalNamespace::AvatarDataModel*& __get__avatarDataModel();
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __get__avatarSystemCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarDataModel*> const& __get__avatarDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __get__avatarSystemCollection() const;
 
-  constexpr void __set__avatarDataModel(::GlobalNamespace::AvatarDataModel* value);
+  constexpr void __set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
 
@@ -596,102 +680,104 @@ public:
 
   constexpr void __set__lobbyDestination(::GlobalNamespace::SelectMultiplayerLobbyDestination* value);
 
-  /// @brief Method add_didFinishEvent addr 0x21477a4 size 0xb4 virtual false final false
+  /// @brief Method add_didFinishEvent, addr 0x228ba68, size 0xb4, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
 
-  /// @brief Method remove_didFinishEvent addr 0x2147f20 size 0xb4 virtual false final false
+  /// @brief Method remove_didFinishEvent, addr 0x228c33c, size 0xb4, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
 
-  /// @brief Method Setup addr 0x2150cb8 size 0x8 virtual false final false
+  /// @brief Method Setup, addr 0x2296038, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
 
-  /// @brief Method DidActivate addr 0x2150cc0 size 0x4d8 virtual true final false
+  /// @brief Method DidActivate, addr 0x2296040, size 0x4d8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2151230 size 0x404 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22965b0, size 0x404, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method BackButtonWasPressed addr 0x2151634 size 0xcc virtual true final false
+  /// @brief Method BackButtonWasPressed, addr 0x22969b4, size 0xcc, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method TopViewControllerWillChange addr 0x2151700 size 0x24c virtual true final false
+  /// @brief Method TopViewControllerWillChange, addr 0x2296a80, size 0x24c, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method TransitionDidStart addr 0x215194c size 0x160 virtual true final false
+  /// @brief Method TransitionDidStart, addr 0x2296ccc, size 0x160, virtual true, abstract: false, final false
   inline void TransitionDidStart();
 
-  /// @brief Method TransitionDidFinish addr 0x2151aac size 0x284 virtual true final false
+  /// @brief Method TransitionDidFinish, addr 0x2296e2c, size 0x284, virtual true, abstract: false, final false
   inline void TransitionDidFinish();
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel addr 0x21522ec size 0x1c virtual false final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel, addr 0x22976a4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionSuccessActivateModel();
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccess addr 0x2152308 size 0x4 virtual false final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionSuccess, addr 0x22976c0, size 0x4, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionSuccess();
 
-  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionFailed addr 0x215230c size 0xc4 virtual false final false
+  /// @brief Method HandleMultiplayerLobbyConnectionControllerConnectionFailed, addr 0x22976c4, size 0xc4, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyConnectionControllerConnectionFailed(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType connectionType,
                                                                          ::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleMultiplayerLobbyControllerDidFinish addr 0x21523d0 size 0x5e0 virtual false final false
+  /// @brief Method HandleMultiplayerLobbyControllerDidFinish, addr 0x2297788, size 0x5e0, virtual false, abstract: false, final false
   inline void HandleMultiplayerLobbyControllerDidFinish(::GlobalNamespace::MultiplayerModeSelectionViewController* viewController,
                                                         ::GlobalNamespace::__MultiplayerModeSelectionViewController__MenuButton menuButton);
 
-  /// @brief Method HandleGameServerBrowserFlowCoordinatorDidFinish addr 0x21529b0 size 0x14 virtual false final false
+  /// @brief Method HandleGameServerBrowserFlowCoordinatorDidFinish, addr 0x2297d68, size 0x14, virtual false, abstract: false, final false
   inline void HandleGameServerBrowserFlowCoordinatorDidFinish(::GlobalNamespace::GameServerBrowserFlowCoordinator* flowCoordinator);
 
-  /// @brief Method HandleJoiningLobbyViewControllerDidCancel addr 0x21529c4 size 0xc4 virtual false final false
+  /// @brief Method HandleJoiningLobbyViewControllerDidCancel, addr 0x2297d7c, size 0xc4, virtual false, abstract: false, final false
   inline void HandleJoiningLobbyViewControllerDidCancel();
 
-  /// @brief Method HandleJoinQuickPlayViewControllerDidFinish addr 0x2152a88 size 0x3ec virtual false final false
+  /// @brief Method HandleJoinQuickPlayViewControllerDidFinish, addr 0x2297e40, size 0x3fc, virtual false, abstract: false, final false
   inline void HandleJoinQuickPlayViewControllerDidFinish(bool success);
 
-  /// @brief Method HandleServerCodeEntryViewControllerDidFinish addr 0x2152e74 size 0x124 virtual false final false
+  /// @brief Method HandleServerCodeEntryViewControllerDidFinish, addr 0x229823c, size 0x124, virtual false, abstract: false, final false
   inline void HandleServerCodeEntryViewControllerDidFinish(bool success, ::StringW code);
 
-  /// @brief Method HandleCreateServerViewControllerDidFinish addr 0x2152f98 size 0x3c0 virtual false final false
+  /// @brief Method HandleCreateServerViewControllerDidFinish, addr 0x2298360, size 0x3bc, virtual false, abstract: false, final false
   inline void HandleCreateServerViewControllerDidFinish(bool success, ::GlobalNamespace::CreateServerFormData data);
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish addr 0x2153358 size 0x258 virtual false final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorDidFinish, addr 0x229871c, size 0x268, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorDidFinish();
 
-  /// @brief Method HandleGameServerLobbyFlowCoordinatorWillFinish addr 0x21535b0 size 0x98 virtual false final false
+  /// @brief Method HandleGameServerLobbyFlowCoordinatorWillFinish, addr 0x2298984, size 0x98, virtual false, abstract: false, final false
   inline void HandleGameServerLobbyFlowCoordinatorWillFinish();
 
-  /// @brief Method HandleConnectedPlayerManagerCreated addr 0x2153648 size 0x1e8 virtual false final false
+  /// @brief Method HandleConnectedPlayerManagerCreated, addr 0x2298a1c, size 0x9c, virtual false, abstract: false, final false
   inline void HandleConnectedPlayerManagerCreated(::GlobalNamespace::INetworkPlayerModel* networkPlayerModel);
 
-  /// @brief Method TryShowModeSelection addr 0x2151198 size 0x98 virtual false final false
+  /// @brief Method TryShowModeSelection, addr 0x2296518, size 0x98, virtual false, abstract: false, final false
   inline void TryShowModeSelection(bool shouldProvideInitialViewControllers);
 
-  /// @brief Method ResolveAndPresentNextFlowCoordinator addr 0x2151d30 size 0x94 virtual false final false
+  /// @brief Method ResolveAndPresentNextFlowCoordinator, addr 0x22970b0, size 0x90, virtual false, abstract: false, final false
   inline void ResolveAndPresentNextFlowCoordinator();
 
-  /// @brief Method PresentConnectionErrorDialog addr 0x2151dc4 size 0x528 virtual false final false
+  /// @brief Method PresentConnectionErrorDialog, addr 0x2297140, size 0x564, virtual false, abstract: false, final false
   inline void PresentConnectionErrorDialog(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType connectionType, ::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method PresentMasterServerUnavailableErrorDialog addr 0x2153830 size 0x44c virtual false final false
-  inline void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception, ::System::Nullable_1<int64_t> maintenanceWindowEndTime,
-                                                        ::StringW remoteLocalizedMessage);
+  /// @brief Method PresentMasterServerUnavailableErrorDialog, addr 0x2298ab8, size 0x44c, virtual false, abstract: false, final false
+  /// @param maintenanceWindowEndTime: ::System::Nullable_1<int64_t> (default: {})
+  /// @param remoteLocalizedMessage: ::StringW (default: nullptr)
+  inline void PresentMasterServerUnavailableErrorDialog(::GlobalNamespace::MultiplayerUnavailableReason reason, ::System::Exception* exception,
+                                                        ::System::Nullable_1<int64_t> maintenanceWindowEndTime = {}, ::StringW remoteLocalizedMessage = nullptr);
 
-  /// @brief Method ProcessDeeplinkingToLobby addr 0x2153c7c size 0xf4 virtual false final false
+  /// @brief Method ProcessDeeplinkingToLobby, addr 0x2298f04, size 0xf4, virtual false, abstract: false, final false
   inline void ProcessDeeplinkingToLobby();
 
   static inline ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2153d70 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2298ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <ResolveAndPresentNextFlowCoordinator>b__52_0 addr 0x2153d78 size 0x170 virtual false final false
+  /// @brief Method <ResolveAndPresentNextFlowCoordinator>b__52_0, addr 0x2299000, size 0x170, virtual false, abstract: false, final false
   inline void _ResolveAndPresentNextFlowCoordinator_b__52_0();
 
-  /// @brief Method <PresentConnectionErrorDialog>b__53_0 addr 0x2153ee8 size 0x18 virtual false final false
+  /// @brief Method <PresentConnectionErrorDialog>b__53_0, addr 0x2299170, size 0x18, virtual false, abstract: false, final false
   inline void _PresentConnectionErrorDialog_b__53_0(int32_t btnId);
 
-  /// @brief Method <PresentConnectionErrorDialog>b__53_1 addr 0x2153f00 size 0x18 virtual false final false
+  /// @brief Method <PresentConnectionErrorDialog>b__53_1, addr 0x2299188, size 0x18, virtual false, abstract: false, final false
   inline void _PresentConnectionErrorDialog_b__53_1(int32_t btnId);
 
-  /// @brief Method <PresentMasterServerUnavailableErrorDialog>b__54_0 addr 0x2153f18 size 0x20 virtual false final false
+  /// @brief Method <PresentMasterServerUnavailableErrorDialog>b__54_0, addr 0x22991a0, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMasterServerUnavailableErrorDialog_b__54_0(int32_t btnId);
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerModeSelectionFlowCoordinator", modifiers: "&&", def_value: None }]
@@ -711,8 +797,8 @@ public:
   /// @brief Field _ambienceAudioClip, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::AudioClip* ____ambienceAudioClip;
 
-  /// @brief Field _songPackMaskModel, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::SongPackMaskModelSO* ____songPackMaskModel;
+  /// @brief Field _songPackMasksModel, offset: 0xb0, size: 0x8, def value: None
+  ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
   /// @brief Field _gameServerBrowserFlowCoordinator, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::GameServerBrowserFlowCoordinator* ____gameServerBrowserFlowCoordinator;
@@ -741,8 +827,8 @@ public:
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
 
-  /// @brief Field _avatarDataModel, offset: 0x100, size: 0x8, def value: None
-  ::GlobalNamespace::AvatarDataModel* ____avatarDataModel;
+  /// @brief Field _avatarSystemCollection, offset: 0x100, size: 0x8, def value: None
+  ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
@@ -805,7 +891,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerMode
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____ambienceAudioClip) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____songPackMaskModel) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____songPackMasksModel) == 0xb0, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____gameServerBrowserFlowCoordinator) == 0xb8, "Offset mismatch!");
 
@@ -825,7 +911,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinato
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____unifiedNetworkPlayerModel) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____avatarDataModel) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____avatarSystemCollection) == 0x100, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator, ____multiplayerSessionManager) == 0x108, "Offset mismatch!");
 
@@ -866,6 +952,8 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinato
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*, "", "MultiplayerModeSelectionFlowCoordinator");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50, "",
+                       "MultiplayerModeSelectionFlowCoordinator/<HandleConnectedPlayerManagerCreated>d__50");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52, "",
                        "MultiplayerModeSelectionFlowCoordinator/<ResolveAndPresentNextFlowCoordinator>d__52");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51, "", "MultiplayerModeSelectionFlowCoordinator/<TryShowModeSelection>d__51");

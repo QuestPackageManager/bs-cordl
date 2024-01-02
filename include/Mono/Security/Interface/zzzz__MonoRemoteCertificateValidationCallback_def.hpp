@@ -10,13 +10,13 @@ namespace System {
 class Object;
 }
 namespace System::Security::Cryptography::X509Certificates {
-class X509Chain;
-}
-namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace Mono::Security::Interface {
 struct MonoSslPolicyErrors;
+}
+namespace System::Security::Cryptography::X509Certificates {
+class X509Chain;
 }
 // Forward declare root types
 namespace Mono::Security::Interface {
@@ -28,18 +28,18 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoRemoteCertificateValidationCallb
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14051))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13780))
 // CS Name: ::Mono.Security.Interface::MonoRemoteCertificateValidationCallback*
 class CORDL_TYPE MonoRemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x22a88a0 size 0xd8 virtual false final false
+  /// @brief Method .ctor, addr 0x2402bac, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x22a8978 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x2402c84, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
 

@@ -8,13 +8,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpListenerPrefixCollection)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
-}
-namespace System::Collections {
-class IEnumerable;
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Net {
 class HttpListener;
@@ -23,10 +23,10 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Collections::Generic {
-template <typename T> class ICollection_1;
+template <typename T> class IEnumerator_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Net {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::System::Net::HttpListenerPrefixCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8011))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9174))
 // CS Name: ::System.Net::HttpListenerPrefixCollection*
 class CORDL_TYPE HttpListenerPrefixCollection : public ::System::Object {
 public:
@@ -77,34 +77,34 @@ public:
 
   static inline ::System::Net::HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method .ctor addr 0x284a658 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x29c7ecc, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListener* listener);
 
-  /// @brief Method get_Count addr 0x284bb5c size 0x48 virtual true final true
+  /// @brief Method get_Count, addr 0x29c93d0, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsReadOnly addr 0x284c114 size 0x8 virtual true final true
+  /// @brief Method get_IsReadOnly, addr 0x29c9988, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsReadOnly();
 
-  /// @brief Method Add addr 0x284c11c size 0x130 virtual true final true
+  /// @brief Method Add, addr 0x29c9990, size 0x130, virtual true, abstract: false, final true
   inline void Add(::StringW uriPrefix);
 
-  /// @brief Method Clear addr 0x284c24c size 0xb8 virtual true final true
+  /// @brief Method Clear, addr 0x29c9ac0, size 0xb8, virtual true, abstract: false, final true
   inline void Clear();
 
-  /// @brief Method Contains addr 0x284c304 size 0x64 virtual true final true
+  /// @brief Method Contains, addr 0x29c9b78, size 0x64, virtual true, abstract: false, final true
   inline bool Contains(::StringW uriPrefix);
 
-  /// @brief Method CopyTo addr 0x284c368 size 0x74 virtual true final true
+  /// @brief Method CopyTo, addr 0x29c9bdc, size 0x74, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<::StringW, ::Array<::StringW>*> array, int32_t offset);
 
-  /// @brief Method GetEnumerator addr 0x28463e8 size 0x90 virtual true final true
+  /// @brief Method GetEnumerator, addr 0x29c3c60, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator addr 0x284c3dc size 0x90 virtual true final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x29c9c50, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method Remove addr 0x284c46c size 0x108 virtual true final true
+  /// @brief Method Remove, addr 0x29c9ce0, size 0x108, virtual true, abstract: false, final true
   inline bool Remove(::StringW uriPrefix);
 
   // Ctor Parameters [CppParam { name: "", ty: "HttpListenerPrefixCollection", modifiers: "&&", def_value: None }]

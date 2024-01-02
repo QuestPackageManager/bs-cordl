@@ -17,7 +17,7 @@ MARK_VAL_T(::TMPro::TMP_PageInfo);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12246))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12318))
 // CS Name: ::TMPro::TMP_PageInfo
 struct CORDL_TYPE TMP_PageInfo {
 public:

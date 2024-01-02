@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::JetBrains::Annotations::SourceTemplateAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15708))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15758))
 // CS Name: ::JetBrains.Annotations::SourceTemplateAttribute*
 class CORDL_TYPE SourceTemplateAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::JetBrains::Annotations::SourceTemplateAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d52634 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2eba3b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "SourceTemplateAttribute", modifiers: "&&", def_value: None }]

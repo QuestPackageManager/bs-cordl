@@ -18,8 +18,8 @@ MARK_REF_PTR_T(::System::Threading::LockQueue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2740))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2742))
 // CS Name: ::System.Threading::LockQueue*
 class CORDL_TYPE LockQueue : public ::System::Object {
 public:
@@ -46,16 +46,16 @@ public:
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method .ctor addr 0x24c3f5c size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x261df7c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Wait addr 0x24c3f84 size 0x1b4 virtual false final false
+  /// @brief Method Wait, addr 0x261dfa4, size 0x1b4, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
-  /// @brief Method get_IsEmpty addr 0x24c4138 size 0xc0 virtual false final false
+  /// @brief Method get_IsEmpty, addr 0x261e158, size 0xc0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method Pulse addr 0x24c41f8 size 0xb8 virtual false final false
+  /// @brief Method Pulse, addr 0x261e218, size 0xb8, virtual false, abstract: false, final false
   inline void Pulse();
 
   // Ctor Parameters [CppParam { name: "", ty: "LockQueue", modifiers: "&&", def_value: None }]

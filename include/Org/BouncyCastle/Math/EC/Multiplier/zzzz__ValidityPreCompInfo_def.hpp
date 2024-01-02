@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1539))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::ValidityPreCompInfo*
 class CORDL_TYPE ValidityPreCompInfo : public ::System::Object {
@@ -61,27 +61,27 @@ public:
 
   static inline ::StringW getStaticF_PRECOMP_NAME();
 
-  /// @brief Method HasFailed addr 0xfc543c size 0x8 virtual false final false
+  /// @brief Method HasFailed, addr 0x1037688, size 0x8, virtual false, abstract: false, final false
   inline bool HasFailed();
 
-  /// @brief Method ReportFailed addr 0xfc5444 size 0xc virtual false final false
+  /// @brief Method ReportFailed, addr 0x1037690, size 0xc, virtual false, abstract: false, final false
   inline void ReportFailed();
 
-  /// @brief Method HasCurveEquationPassed addr 0xfc5450 size 0x8 virtual false final false
+  /// @brief Method HasCurveEquationPassed, addr 0x103769c, size 0x8, virtual false, abstract: false, final false
   inline bool HasCurveEquationPassed();
 
-  /// @brief Method ReportCurveEquationPassed addr 0xfc5458 size 0xc virtual false final false
+  /// @brief Method ReportCurveEquationPassed, addr 0x10376a4, size 0xc, virtual false, abstract: false, final false
   inline void ReportCurveEquationPassed();
 
-  /// @brief Method HasOrderPassed addr 0xfc5464 size 0x8 virtual false final false
+  /// @brief Method HasOrderPassed, addr 0x10376b0, size 0x8, virtual false, abstract: false, final false
   inline bool HasOrderPassed();
 
-  /// @brief Method ReportOrderPassed addr 0xfc546c size 0xc virtual false final false
+  /// @brief Method ReportOrderPassed, addr 0x10376b8, size 0xc, virtual false, abstract: false, final false
   inline void ReportOrderPassed();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo* New_ctor();
 
-  /// @brief Method .ctor addr 0xfc54d8 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x1037724, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValidityPreCompInfo", modifiers: "&&", def_value: None }]

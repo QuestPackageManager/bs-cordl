@@ -18,7 +18,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::StringReference);
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11794))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11866))
 // CS Name: ::Newtonsoft.Json.Utilities::StringReference
 struct CORDL_TYPE StringReference {
 public:
@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method get_Item addr 0x24f82d4 size 0x30 virtual false final false
+  /// @brief Method get_Item, addr 0x265ba18, size 0x30, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t i);
 
-  /// @brief Method get_Chars addr 0x24f8304 size 0x8 virtual false final false
+  /// @brief Method get_Chars, addr 0x265ba48, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> get_Chars();
 
-  /// @brief Method get_StartIndex addr 0x24f830c size 0x8 virtual false final false
+  /// @brief Method get_StartIndex, addr 0x265ba50, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_StartIndex();
 
-  /// @brief Method get_Length addr 0x24f8314 size 0x8 virtual false final false
+  /// @brief Method get_Length, addr 0x265ba58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method .ctor addr 0x24f831c size 0xc virtual false final false
+  /// @brief Method .ctor, addr 0x265ba60, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startIndex, int32_t length);
 
-  /// @brief Method ToString addr 0x24f8328 size 0x14 virtual true final false
+  /// @brief Method ToString, addr 0x265ba6c, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "_chars", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "_startIndex", ty: "int32_t", modifiers: "", def_value:

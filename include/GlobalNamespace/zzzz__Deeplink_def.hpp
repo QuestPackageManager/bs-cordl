@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::GlobalNamespace::Deeplink);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4182))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4148))
 // CS Name: ::Deeplink*
 class CORDL_TYPE Deeplink : public ::System::Object {
 public:
@@ -96,7 +96,7 @@ public:
 
   static inline ::GlobalNamespace::Deeplink* New_ctor();
 
-  /// @brief Method .ctor addr 0x21ced34 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x223d0d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Deeplink", modifiers: "&&", def_value: None }]

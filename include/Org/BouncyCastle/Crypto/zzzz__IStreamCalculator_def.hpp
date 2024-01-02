@@ -27,10 +27,10 @@ public:
   // Declarations
   __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
-  /// @brief Method get_Stream addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_Stream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::IO::Stream* get_Stream();
 
-  /// @brief Method GetResult addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetResult, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetResult();
 
   // Ctor Parameters [CppParam { name: "", ty: "IStreamCalculator", modifiers: "&&", def_value: None }]

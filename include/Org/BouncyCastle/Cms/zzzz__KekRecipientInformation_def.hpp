@@ -4,6 +4,9 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_def.hpp"
 CORDL_MODULE_EXPORT(KekRecipientInformation)
+namespace Org::BouncyCastle::Asn1::Cms {
+class KekRecipientInfo;
+}
 namespace Org::BouncyCastle::Cms {
 class CmsSecureReadable;
 }
@@ -12,9 +15,6 @@ class ICipherParameters;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsTypedStream;
-}
-namespace Org::BouncyCastle::Asn1::Cms {
-class KekRecipientInfo;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
@@ -43,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::KekRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method .ctor addr 0x11726cc size 0xb4 virtual false final false
+  /// @brief Method .ctor, addr 0x11e391c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method GetContentStream addr 0x11914ec size 0x338 virtual true final false
+  /// @brief Method GetContentStream, addr 0x120273c, size 0x338, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   // Ctor Parameters [CppParam { name: "", ty: "KekRecipientInformation", modifiers: "&&", def_value: None }]

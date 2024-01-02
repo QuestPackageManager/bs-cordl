@@ -35,23 +35,23 @@ public:
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV();
 
-  /// @brief Method get_AlgorithmName addr 0x11b4f10 size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0x1225160, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor();
 
-  /// @brief Method .ctor addr 0x11b4f50 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x12251a0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
-  /// @brief Method .ctor addr 0x11b4fdc size 0xa4 virtual false final false
+  /// @brief Method .ctor, addr 0x122522c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_512Digest* other);
 
-  /// @brief Method GetDigestSize addr 0x11b5080 size 0x8 virtual true final false
+  /// @brief Method GetDigestSize, addr 0x12252d0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method Copy addr 0x11b5088 size 0x60 virtual true final false
+  /// @brief Method Copy, addr 0x12252d8, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
   // Ctor Parameters [CppParam { name: "", ty: "Gost3411_2012_512Digest", modifiers: "&&", def_value: None }]

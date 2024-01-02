@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CursorManager)
 namespace UnityEngine::UIElements {
-class ICursorManager;
+struct Cursor;
 }
 namespace UnityEngine::UIElements {
-struct Cursor;
+class ICursorManager;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CursorManager);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6896))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6810))
 // CS Name: ::UnityEngine.UIElements::CursorManager*
 class CORDL_TYPE CursorManager : public ::System::Object {
 public:
@@ -40,21 +40,21 @@ public:
 
   constexpr void __set__isCursorOverriden_k__BackingField(bool value);
 
-  /// @brief Method get_isCursorOverriden addr 0x2c57fb4 size 0x8 virtual false final false
+  /// @brief Method get_isCursorOverriden, addr 0x2dbf364, size 0x8, virtual false, abstract: false, final false
   inline bool get_isCursorOverriden();
 
-  /// @brief Method set_isCursorOverriden addr 0x2c57fbc size 0xc virtual false final false
+  /// @brief Method set_isCursorOverriden, addr 0x2dbf36c, size 0xc, virtual false, abstract: false, final false
   inline void set_isCursorOverriden(bool value);
 
-  /// @brief Method SetCursor addr 0x2c57fc8 size 0xf0 virtual true final true
+  /// @brief Method SetCursor, addr 0x2dbf378, size 0xf0, virtual true, abstract: false, final true
   inline void SetCursor(::UnityEngine::UIElements::Cursor cursor);
 
-  /// @brief Method ResetCursor addr 0x2c580b8 size 0x68 virtual true final true
+  /// @brief Method ResetCursor, addr 0x2dbf468, size 0x68, virtual true, abstract: false, final true
   inline void ResetCursor();
 
   static inline ::UnityEngine::UIElements::CursorManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c58120 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2dbf4d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CursorManager", modifiers: "&&", def_value: None }]

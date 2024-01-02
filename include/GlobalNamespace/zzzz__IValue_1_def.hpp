@@ -16,17 +16,17 @@ namespace GlobalNamespace {
 template <typename T>
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13972))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15867))
 // CS Name: ::IValue`1<T>*
 class CORDL_TYPE IValue_1 {
 public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) T value;
 
-  /// @brief Method get_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T get_value();
 
-  /// @brief Method set_value addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_value(T value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IValue_1", modifiers: "&&", def_value: None }]

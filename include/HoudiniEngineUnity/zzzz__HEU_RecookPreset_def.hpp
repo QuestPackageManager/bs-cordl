@@ -5,13 +5,13 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(HEU_RecookPreset)
 namespace HoudiniEngineUnity {
+class HEU_VolumeCachePreset;
+}
+namespace HoudiniEngineUnity {
 class HEU_InputPreset;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace HoudiniEngineUnity {
-class HEU_VolumeCachePreset;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_RecookPreset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9613))
 // CS Name: ::HoudiniEngineUnity::HEU_RecookPreset*
 class CORDL_TYPE HEU_RecookPreset : public ::System::Object {
 public:
@@ -49,7 +49,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_RecookPreset* New_ctor();
 
-  /// @brief Method .ctor addr 0x1ff6f50 size 0xc0 virtual false final false
+  /// @brief Method .ctor, addr 0x214e8ec, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_RecookPreset", modifiers: "&&", def_value: None }]

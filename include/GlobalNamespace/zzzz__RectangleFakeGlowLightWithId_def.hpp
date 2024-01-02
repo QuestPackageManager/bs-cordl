@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::RectangleFakeGlowLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5096))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4991))
 // CS Name: ::RectangleFakeGlowLightWithId*
 class CORDL_TYPE RectangleFakeGlowLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
@@ -56,15 +56,15 @@ public:
 
   constexpr void __set__rectangleFakeGlow(::GlobalNamespace::RectangleFakeGlow* value);
 
-  /// @brief Method get_color addr 0x227c408 size 0x20 virtual false final false
+  /// @brief Method get_color, addr 0x23b5220, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method ColorWasSet addr 0x227c428 size 0x2c virtual true final false
+  /// @brief Method ColorWasSet, addr 0x23b5240, size 0x2c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::RectangleFakeGlowLightWithId* New_ctor();
 
-  /// @brief Method .ctor addr 0x227c454 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x23b526c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RectangleFakeGlowLightWithId", modifiers: "&&", def_value: None }]

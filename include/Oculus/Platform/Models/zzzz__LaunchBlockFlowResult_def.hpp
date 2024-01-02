@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchBlockFlowResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13487))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13441))
 // CS Name: ::Oculus.Platform.Models::LaunchBlockFlowResult*
 class CORDL_TYPE LaunchBlockFlowResult : public ::System::Object {
 public:
@@ -41,7 +41,7 @@ public:
 
   static inline ::Oculus::Platform::Models::LaunchBlockFlowResult* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b3a58 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0x2706404, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "LaunchBlockFlowResult", modifiers: "&&", def_value: None }]

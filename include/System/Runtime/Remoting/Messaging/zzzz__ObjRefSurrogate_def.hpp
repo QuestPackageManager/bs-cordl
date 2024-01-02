@@ -5,19 +5,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ObjRefSurrogate)
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 namespace System::Runtime::Serialization {
 class ISerializationSurrogate;
 }
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class ISurrogateSelector;
 }
 namespace System {
 class Object;
 }
 namespace System::Runtime::Serialization {
-class ISurrogateSelector;
+class SerializationInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ObjRefSurrogate);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3183))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3184))
 // CS Name: ::System.Runtime.Remoting.Messaging::ObjRefSurrogate*
 class CORDL_TYPE ObjRefSurrogate : public ::System::Object {
 public:
@@ -38,16 +38,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData addr 0x235908c size 0x10c virtual true final false
+  /// @brief Method GetObjectData, addr 0x24b1b80, size 0x10c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SetObjectData addr 0x2359198 size 0x50 virtual true final false
+  /// @brief Method SetObjectData, addr 0x24b1c8c, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* New_ctor();
 
-  /// @brief Method .ctor addr 0x23591e8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24b1cdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjRefSurrogate", modifiers: "&&", def_value: None }]

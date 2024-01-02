@@ -5,11 +5,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Srp6StandardGroups)
-namespace Org::BouncyCastle::Crypto::Parameters {
-class Srp6GroupParameters;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace Org::BouncyCastle::Crypto::Parameters {
+class Srp6GroupParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Srp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(729))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Srp::Srp6StandardGroups*
 class CORDL_TYPE Srp6StandardGroups : public ::System::Object {
@@ -76,15 +76,15 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_8192();
 
-  /// @brief Method FromHex addr 0x11a76fc size 0xa0 virtual false final false
+  /// @brief Method FromHex, addr 0x121894c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromNG addr 0x11a779c size 0xb4 virtual false final false
+  /// @brief Method FromNG, addr 0x12189ec, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* FromNG(::StringW hexN, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a7a1c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x1218c6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Srp6StandardGroups", modifiers: "&&", def_value: None }]

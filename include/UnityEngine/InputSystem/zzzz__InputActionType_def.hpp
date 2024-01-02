@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputActionType);
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6268))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6182))
 // CS Name: ::UnityEngine.InputSystem::InputActionType
 struct CORDL_TYPE InputActionType {
 public:

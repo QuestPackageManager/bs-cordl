@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WebRequestQueueOperation)
-namespace System {
-template <typename T> class Action_1;
+namespace UnityEngine::Networking {
+class UnityWebRequestAsyncOperation;
 }
 namespace UnityEngine::Networking {
 class UnityWebRequest;
 }
-namespace UnityEngine::Networking {
-class UnityWebRequestAsyncOperation;
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14230))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13959))
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueueOperation*
 class CORDL_TYPE WebRequestQueueOperation : public ::System::Object {
 public:
@@ -67,15 +67,15 @@ public:
 
   constexpr void __set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method get_IsDone addr 0x2a4c1dc size 0x20 virtual false final false
+  /// @brief Method get_IsDone, addr 0x2bcef30, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method .ctor addr 0x2a4c1fc size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2bcef50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method Complete addr 0x2a4c224 size 0x28 virtual false final false
+  /// @brief Method Complete, addr 0x2bcef78, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   // Ctor Parameters [CppParam { name: "", ty: "WebRequestQueueOperation", modifiers: "&&", def_value: None }]

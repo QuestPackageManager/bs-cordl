@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Reflection::ProcessorArchitecture);
 namespace System::Reflection {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3481))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3486))
 // CS Name: ::System.Reflection::ProcessorArchitecture
 struct CORDL_TYPE ProcessorArchitecture {
 public:

@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMacSP800Drbg)
-namespace Org::BouncyCastle::Crypto {
-class IMac;
-}
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 class ISP80090Drbg;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMac;
 }
 namespace Org::BouncyCastle::Crypto {
 class IEntropySource;
@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1098))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::HMacSP800Drbg*
 class CORDL_TYPE HMacSP800Drbg : public ::System::Object {
@@ -108,26 +108,26 @@ public:
                                                                                  ::Org::BouncyCastle::Crypto::IEntropySource* entropySource, ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString,
                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method .ctor addr 0xeca974 size 0x354 virtual false final false
+  /// @brief Method .ctor, addr 0xf40b60, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* hMac, int32_t securityStrength, ::Org::BouncyCastle::Crypto::IEntropySource* entropySource,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce);
 
-  /// @brief Method hmac_DRBG_Update addr 0xecade0 size 0x40 virtual false final false
+  /// @brief Method hmac_DRBG_Update, addr 0xf40fcc, size 0x40, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial);
 
-  /// @brief Method hmac_DRBG_Update_Func addr 0xecae20 size 0x434 virtual false final false
+  /// @brief Method hmac_DRBG_Update_Func, addr 0xf4100c, size 0x434, virtual false, abstract: false, final false
   inline void hmac_DRBG_Update_Func(::ArrayW<uint8_t, ::Array<uint8_t>*> seedMaterial, uint8_t vValue);
 
-  /// @brief Method get_BlockSize addr 0xecb254 size 0x20 virtual true final true
+  /// @brief Method get_BlockSize, addr 0xf41440, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_BlockSize();
 
-  /// @brief Method Generate addr 0xecb274 size 0x510 virtual true final true
+  /// @brief Method Generate, addr 0xf41460, size 0x510, virtual true, abstract: false, final true
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method Reseed addr 0xecb784 size 0x90 virtual true final true
+  /// @brief Method Reseed, addr 0xf41970, size 0x90, virtual true, abstract: false, final true
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
-  /// @brief Method GetEntropy addr 0xecacc8 size 0x118 virtual false final false
+  /// @brief Method GetEntropy, addr 0xf40eb4, size 0x118, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEntropy();
 
   // Ctor Parameters [CppParam { name: "", ty: "HMacSP800Drbg", modifiers: "&&", def_value: None }]

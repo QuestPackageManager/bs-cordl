@@ -16,13 +16,16 @@ MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10242))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10320))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttributeData
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set addr 0x2b82968 size 0x38 virtual false final false
-  inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
+  /// @brief Method Set, addr 0x2ce9d9c, size 0x38, virtual false, abstract: false, final false
+  /// @param sourceNamespace: ::StringW (default: nullptr)
+  /// @param sourceAssembly: ::StringW (default: nullptr)
+  /// @param sourceClassName: ::StringW (default: nullptr)
+  inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace = nullptr, ::StringW sourceAssembly = nullptr, ::StringW sourceClassName = nullptr);
 
   // Ctor Parameters [CppParam { name: "className", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "nameSpace", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "assembly", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "classHasChanged", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "nameSpaceHasChanged", ty:

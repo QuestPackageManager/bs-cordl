@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1796))
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::BufferedDecoder*
 class CORDL_TYPE BufferedDecoder : public ::System::Object {
@@ -54,13 +54,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedDecoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  /// @brief Method .ctor addr 0x10ebc3c size 0x13c virtual false final false
+  /// @brief Method .ctor, addr 0x115ce84, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
 
-  /// @brief Method ProcessByte addr 0x10ebd78 size 0x128 virtual false final false
+  /// @brief Method ProcessByte, addr 0x115cfc0, size 0x128, virtual false, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes addr 0x10ebea0 size 0x264 virtual false final false
+  /// @brief Method ProcessBytes, addr 0x115d0e8, size 0x264, virtual false, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "BufferedDecoder", modifiers: "&&", def_value: None }]

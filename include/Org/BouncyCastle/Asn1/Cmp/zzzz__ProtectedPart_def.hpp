@@ -4,17 +4,17 @@
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 CORDL_MODULE_EXPORT(ProtectedPart)
+namespace System {
+class Object;
+}
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiHeader;
 }
 namespace Org::BouncyCastle::Asn1 {
-class Asn1Object;
-}
-namespace Org::BouncyCastle::Asn1 {
 class Asn1Sequence;
 }
-namespace System {
-class Object;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1::Cmp {
 class PkiBody;
@@ -59,24 +59,24 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor addr 0xdf8fc8 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0xe6e19c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method GetInstance addr 0xdf9074 size 0x188 virtual false final false
+  /// @brief Method GetInstance, addr 0xe6e248, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method .ctor addr 0xdf91fc size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe6e3d0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method get_Header addr 0xdf9228 size 0x8 virtual true final false
+  /// @brief Method get_Header, addr 0xe6e3fc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
-  /// @brief Method get_Body addr 0xdf9230 size 0x8 virtual true final false
+  /// @brief Method get_Body, addr 0xe6e404, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method ToAsn1Object addr 0xdf9238 size 0xf0 virtual true final false
+  /// @brief Method ToAsn1Object, addr 0xe6e40c, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   // Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "&&", def_value: None }]

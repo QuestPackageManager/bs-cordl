@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ValueTypeFixupInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3210))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3211))
 // CS Name: ::System.Runtime.Serialization::ValueTypeFixupInfo*
 class CORDL_TYPE ValueTypeFixupInfo : public ::System::Object {
 public:
@@ -60,16 +60,16 @@ public:
 
   static inline ::System::Runtime::Serialization::ValueTypeFixupInfo* New_ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
-  /// @brief Method .ctor addr 0x235d0b0 size 0x150 virtual false final false
+  /// @brief Method .ctor, addr 0x24b5ba4, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
-  /// @brief Method get_ContainerID addr 0x235d200 size 0x8 virtual false final false
+  /// @brief Method get_ContainerID, addr 0x24b5cf4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContainerID();
 
-  /// @brief Method get_ParentField addr 0x235d208 size 0x8 virtual false final false
+  /// @brief Method get_ParentField, addr 0x24b5cfc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::FieldInfo* get_ParentField();
 
-  /// @brief Method get_ParentIndex addr 0x235d210 size 0x8 virtual false final false
+  /// @brief Method get_ParentIndex, addr 0x24b5d04, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ParentIndex();
 
   // Ctor Parameters [CppParam { name: "", ty: "ValueTypeFixupInfo", modifiers: "&&", def_value: None }]

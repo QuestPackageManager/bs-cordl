@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::System::Xml::Serialization::XmlElementAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11515))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11587))
 // CS Name: ::System.Xml.Serialization::XmlElementAttribute*
 class CORDL_TYPE XmlElementAttribute : public ::System::Attribute {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName, ::System::Type* type);
 
-  /// @brief Method .ctor addr 0x272eed4 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x28abef8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW elementName, ::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "&&", def_value: None }]

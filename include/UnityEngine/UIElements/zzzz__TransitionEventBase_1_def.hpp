@@ -24,8 +24,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7266), inst: 1652 }), TypeDefinitionIndex(TypeDefinitionIndex(7266)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7273))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7274)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1719 }), TypeDefinitionIndex(TypeDefinitionIndex(7180)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7187))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7188)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
@@ -52,24 +52,24 @@ public:
 
   constexpr void __set__elapsedTime_k__BackingField(double_t value);
 
-  /// @brief Method get_stylePropertyNames addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method get_stylePropertyNames, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyNameCollection get_stylePropertyNames();
 
-  /// @brief Method set_elapsedTime addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method set_elapsedTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_elapsedTime(double_t value);
 
   static inline ::UnityEngine::UIElements::TransitionEventBase_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method LocalInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method GetPooled addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::StylePropertyName stylePropertyName, double_t elapsedTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "TransitionEventBase_1", modifiers: "&&", def_value: None }]

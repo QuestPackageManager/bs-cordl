@@ -17,18 +17,18 @@ MARK_REF_PTR_T(::UnityEngine::UI::Outline);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13153))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13151))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13148))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13146))
 // CS Name: ::UnityEngine.UI::Outline*
 class CORDL_TYPE Outline : public ::UnityEngine::UI::Shadow {
 public:
   // Declarations
   static inline ::UnityEngine::UI::Outline* New_ctor();
 
-  /// @brief Method .ctor addr 0x2c28594 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d90944, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method ModifyMesh addr 0x2c2859c size 0xc40 virtual true final false
+  /// @brief Method ModifyMesh, addr 0x2d9094c, size 0xc40, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   // Ctor Parameters [CppParam { name: "", ty: "Outline", modifiers: "&&", def_value: None }]

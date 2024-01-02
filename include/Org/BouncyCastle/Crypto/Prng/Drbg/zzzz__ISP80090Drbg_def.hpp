@@ -23,13 +23,13 @@ public:
   // Declarations
   __declspec(property(get = get_BlockSize)) int32_t BlockSize;
 
-  /// @brief Method get_BlockSize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_BlockSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_BlockSize();
 
-  /// @brief Method Generate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Generate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> output, ::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput, bool predictionResistant);
 
-  /// @brief Method Reseed addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Reseed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Reseed(::ArrayW<uint8_t, ::Array<uint8_t>*> additionalInput);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISP80090Drbg", modifiers: "&&", def_value: None }]

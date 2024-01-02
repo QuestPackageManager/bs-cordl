@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Buffers::ArrayPoolEventSource);
 namespace System::Buffers {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3869))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3881))
 // CS Name: ::ArrayPoolEventSource::BufferAllocatedReason
 struct CORDL_TYPE __ArrayPoolEventSource__BufferAllocatedReason {
 public:
@@ -77,8 +77,8 @@ static_assert(offsetof(::System::Buffers::__ArrayPoolEventSource__BufferAllocate
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3735))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3870))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3747))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3882))
 // CS Name: ::System.Buffers::ArrayPoolEventSource*
 class CORDL_TYPE ArrayPoolEventSource : public ::System::Diagnostics::Tracing::EventSource {
 public:
@@ -94,22 +94,22 @@ public:
 
   static inline ::System::Buffers::ArrayPoolEventSource* New_ctor();
 
-  /// @brief Method .ctor addr 0x2430c98 size 0xac virtual false final false
+  /// @brief Method .ctor, addr 0x258c194, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method BufferRented addr 0x2430d44 size 0xec virtual false final false
+  /// @brief Method BufferRented, addr 0x258c240, size 0x110, virtual false, abstract: false, final false
   inline void BufferRented(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId);
 
-  /// @brief Method BufferAllocated addr 0x2430e30 size 0x108 virtual false final false
+  /// @brief Method BufferAllocated, addr 0x258c350, size 0x12c, virtual false, abstract: false, final false
   inline void BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId, ::System::Buffers::__ArrayPoolEventSource__BufferAllocatedReason reason);
 
-  /// @brief Method BufferReturned addr 0x2430f38 size 0x10 virtual false final false
+  /// @brief Method BufferReturned, addr 0x258c47c, size 0x18, virtual false, abstract: false, final false
   inline void BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
-  /// @brief Method BufferTrimmed addr 0x2430f48 size 0x10 virtual false final false
+  /// @brief Method BufferTrimmed, addr 0x258c494, size 0x18, virtual false, abstract: false, final false
   inline void BufferTrimmed(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
-  /// @brief Method BufferTrimPoll addr 0x2430f58 size 0xc virtual false final false
+  /// @brief Method BufferTrimPoll, addr 0x258c4ac, size 0x14, virtual false, abstract: false, final false
   inline void BufferTrimPoll(int32_t milliseconds, int32_t pressure);
 
   // Ctor Parameters [CppParam { name: "", ty: "ArrayPoolEventSource", modifiers: "&&", def_value: None }]

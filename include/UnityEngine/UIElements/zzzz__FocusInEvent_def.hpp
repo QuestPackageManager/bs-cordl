@@ -14,21 +14,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusInEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7318), inst: 1922 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7321))
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7232), inst: 1986 }), TypeDefinitionIndex(TypeDefinitionIndex(7232))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7235))
 // CS Name: ::UnityEngine.UIElements::FocusInEvent*
 class CORDL_TYPE FocusInEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusInEvent*> {
 public:
   // Declarations
-  /// @brief Method Init addr 0x2ce9d34 size 0x54 virtual true final false
+  /// @brief Method Init, addr 0x2e520e4, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit addr 0x2ce9d88 size 0xc virtual false final false
+  /// @brief Method LocalInit, addr 0x2e52138, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2ce9d94 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0x2e52144, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "FocusInEvent", modifiers: "&&", def_value: None }]

@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSyntaxException)
 namespace System::Runtime::Serialization {
-struct StreamingContext;
+class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
-class SerializationInfo;
+struct StreamingContext;
 }
 // Forward declare root types
 namespace System::Security {
@@ -22,30 +22,30 @@ MARK_REF_PTR_T(::System::Security::XmlSyntaxException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2479))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2876))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2880))
 // CS Name: ::System.Security::XmlSyntaxException*
 class CORDL_TYPE XmlSyntaxException : public ::System::SystemException {
 public:
   // Declarations
   static inline ::System::Security::XmlSyntaxException* New_ctor();
 
-  /// @brief Method .ctor addr 0x22f683c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2450358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(int32_t lineNumber);
 
-  /// @brief Method .ctor addr 0x22f6844 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2450360, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber);
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(int32_t lineNumber, ::StringW message);
 
-  /// @brief Method .ctor addr 0x22f684c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2450368, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, ::StringW message);
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor addr 0x22f6854 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2450370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   // Ctor Parameters [CppParam { name: "", ty: "XmlSyntaxException", modifiers: "&&", def_value: None }]

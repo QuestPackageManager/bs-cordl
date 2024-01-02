@@ -8,11 +8,11 @@ CORDL_MODULE_EXPORT(X509CollectionStoreParameters)
 namespace System::Collections {
 class IList;
 }
-namespace System::Collections {
-class ICollection;
-}
 namespace Org::BouncyCastle::X509::Store {
 class IX509StoreParameters;
+}
+namespace System::Collections {
+class ICollection;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::X509::Store {
@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1849))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStoreParameters*
 class CORDL_TYPE X509CollectionStoreParameters : public ::System::Object {
@@ -44,13 +44,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method .ctor addr 0x11018c4 size 0xbc virtual false final false
+  /// @brief Method .ctor, addr 0x1171b0c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method GetCollection addr 0x1101980 size 0x58 virtual false final false
+  /// @brief Method GetCollection, addr 0x1171bc8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetCollection();
 
-  /// @brief Method ToString addr 0x11019d8 size 0x108 virtual true final false
+  /// @brief Method ToString, addr 0x1171c20, size 0x108, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "X509CollectionStoreParameters", modifiers: "&&", def_value: None }]

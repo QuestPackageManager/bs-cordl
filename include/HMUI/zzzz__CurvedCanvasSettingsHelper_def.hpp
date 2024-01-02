@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CurvedCanvasSettingsHelper)
-namespace HMUI {
-class CurvedCanvasSettings;
-}
 namespace UnityEngine {
 class Canvas;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace HMUI {
+class CurvedCanvasSettings;
 }
 // Forward declare root types
 namespace HMUI {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::HMUI::CurvedCanvasSettingsHelper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13646))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13526))
 // CS Name: ::HMUI::CurvedCanvasSettingsHelper*
 class CORDL_TYPE CurvedCanvasSettingsHelper : public ::System::Object {
 public:
@@ -73,18 +73,18 @@ public:
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Canvas*, ::HMUI::CurvedCanvasSettings*>* getStaticF__curvedCanvasCache();
 
-  /// @brief Method Reset addr 0x1fc5848 size 0x14 virtual false final false
+  /// @brief Method Reset, addr 0x211b4c0, size 0x14, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method GetCurvedCanvasSettings addr 0x1fc585c size 0x1ec virtual false final false
+  /// @brief Method GetCurvedCanvasSettings, addr 0x211b4d4, size 0x1ec, virtual false, abstract: false, final false
   inline ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettings(::UnityEngine::Canvas* canvas);
 
-  /// @brief Method GetCurvedCanvasSettingsForCanvas addr 0x1fc5a48 size 0x110 virtual false final false
+  /// @brief Method GetCurvedCanvasSettingsForCanvas, addr 0x211b6c0, size 0x110, virtual false, abstract: false, final false
   static inline ::HMUI::CurvedCanvasSettings* GetCurvedCanvasSettingsForCanvas(::UnityEngine::Canvas* canvas);
 
   static inline ::HMUI::CurvedCanvasSettingsHelper* New_ctor();
 
-  /// @brief Method .ctor addr 0x1fc5b58 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x211b7d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CurvedCanvasSettingsHelper", modifiers: "&&", def_value: None }]

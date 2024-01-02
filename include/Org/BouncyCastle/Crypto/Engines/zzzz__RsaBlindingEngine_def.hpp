@@ -7,17 +7,17 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaBlindingEngine)
+namespace Org::BouncyCastle::Math {
+class BigInteger;
+}
 namespace Org::BouncyCastle::Crypto {
-class IAsymmetricBlockCipher;
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
 }
 namespace Org::BouncyCastle::Crypto {
-class ICipherParameters;
-}
-namespace Org::BouncyCastle::Math {
-class BigInteger;
+class IAsymmetricBlockCipher;
 }
 namespace Org::BouncyCastle::Crypto {
 class IRsa;
@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(863))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindingEngine*
 class CORDL_TYPE RsaBlindingEngine : public ::System::Object {
@@ -81,33 +81,33 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor();
 
-  /// @brief Method .ctor addr 0xe6b028 size 0x6c virtual false final false
+  /// @brief Method .ctor, addr 0xee01fc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindingEngine* New_ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method .ctor addr 0xe6b094 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xee0268, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IRsa* rsa);
 
-  /// @brief Method get_AlgorithmName addr 0xe6b0bc size 0x40 virtual true final false
+  /// @brief Method get_AlgorithmName, addr 0xee0290, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0xe6b0fc size 0x174 virtual true final false
+  /// @brief Method Init, addr 0xee02d0, size 0x174, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* param);
 
-  /// @brief Method GetInputBlockSize addr 0xe6b270 size 0xa4 virtual true final false
+  /// @brief Method GetInputBlockSize, addr 0xee0444, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize addr 0xe6b314 size 0xa4 virtual true final false
+  /// @brief Method GetOutputBlockSize, addr 0xee04e8, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method ProcessBlock addr 0xe6b3b8 size 0x154 virtual true final false
+  /// @brief Method ProcessBlock, addr 0xee058c, size 0x154, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
 
-  /// @brief Method BlindMessage addr 0xe6b50c size 0x64 virtual false final false
+  /// @brief Method BlindMessage, addr 0xee06e0, size 0x64, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BlindMessage(::Org::BouncyCastle::Math::BigInteger* msg);
 
-  /// @brief Method UnblindMessage addr 0xe6b570 size 0x5c virtual false final false
+  /// @brief Method UnblindMessage, addr 0xee0744, size 0x5c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* UnblindMessage(::Org::BouncyCastle::Math::BigInteger* blindedMsg);
 
   // Ctor Parameters [CppParam { name: "", ty: "RsaBlindingEngine", modifiers: "&&", def_value: None }]

@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MatchSparse)
-namespace System::Collections {
-class Hashtable;
-}
 namespace System::Text::RegularExpressions {
 class Regex;
 }
 namespace System::Text::RegularExpressions {
 class GroupCollection;
+}
+namespace System::Collections {
+class Hashtable;
 }
 // Forward declare root types
 namespace System::Text::RegularExpressions {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::MatchSparse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7743))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7744))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8906))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8907))
 // CS Name: ::System.Text.RegularExpressions::MatchSparse*
 class CORDL_TYPE MatchSparse : public ::System::Text::RegularExpressions::Match {
 public:
@@ -45,10 +45,10 @@ public:
   static inline ::System::Text::RegularExpressions::MatchSparse* New_ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text,
                                                                           int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method .ctor addr 0x27d3624 size 0xb0 virtual false final false
+  /// @brief Method .ctor, addr 0x2950744, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method get_Groups addr 0x27d36d4 size 0x74 virtual true final false
+  /// @brief Method get_Groups, addr 0x29507f4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
   // Ctor Parameters [CppParam { name: "", ty: "MatchSparse", modifiers: "&&", def_value: None }]

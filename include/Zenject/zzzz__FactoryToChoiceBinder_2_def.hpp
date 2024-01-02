@@ -11,10 +11,10 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
-class FactoryBindInfo;
+class BindInfo;
 }
 namespace Zenject {
-class BindInfo;
+class FactoryBindInfo;
 }
 // Forward declare root types
 namespace Zenject {
@@ -28,21 +28,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10653)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10653), inst: 1738 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10777))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10725)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10725), inst: 1802 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10849))
 // CS Name: ::Zenject::FactoryToChoiceBinder`2<TParam1,TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_2 : public ::Zenject::FactoryFromBinder_2<TParam1, TContract> {
 public:
   // Declarations
   static inline ::Zenject::FactoryToChoiceBinder_2<TParam1, TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method ToSelf addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::FactoryFromBinder_2<TParam1, TContract>* ToSelf();
 
-  /// @brief Method To addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FactoryFromBinder_2<TParam1, TConcrete>* To();
 
   // Ctor Parameters [CppParam { name: "", ty: "FactoryToChoiceBinder_2", modifiers: "&&", def_value: None }]

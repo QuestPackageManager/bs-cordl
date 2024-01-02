@@ -24,8 +24,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectNull)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3272))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3273))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectNull*
 class CORDL_TYPE ObjectNull : public ::System::Object {
 public:
@@ -41,19 +41,19 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* New_ctor();
 
-  /// @brief Method .ctor addr 0x236a908 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x24c33fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method SetNullCount addr 0x236a910 size 0x8 virtual false final false
+  /// @brief Method SetNullCount, addr 0x24c3404, size 0x8, virtual false, abstract: false, final false
   inline void SetNullCount(int32_t nullCount);
 
-  /// @brief Method Write addr 0x236a918 size 0xac virtual true final true
+  /// @brief Method Write, addr 0x24c340c, size 0xac, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method Read addr 0x236a9c4 size 0x60 virtual false final false
+  /// @brief Method Read, addr 0x24c34b8, size 0x60, virtual false, abstract: false, final false
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Dump addr 0x236aa24 size 0x4 virtual false final false
+  /// @brief Method Dump, addr 0x24c3518, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   // Ctor Parameters [CppParam { name: "", ty: "ObjectNull", modifiers: "&&", def_value: None }]

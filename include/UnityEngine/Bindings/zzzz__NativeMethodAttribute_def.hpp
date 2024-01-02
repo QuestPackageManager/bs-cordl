@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativeMethodAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15881))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(16017))
 // CS Name: ::UnityEngine.Bindings::NativeMethodAttribute*
 class CORDL_TYPE NativeMethodAttribute : public ::System::Attribute {
 public:
@@ -76,39 +76,39 @@ public:
 
   constexpr void __set__HasExplicitThis_k__BackingField(bool value);
 
-  /// @brief Method set_Name addr 0x2bb1104 size 0x8 virtual true final true
+  /// @brief Method set_Name, addr 0x2d184b4, size 0x8, virtual true, abstract: false, final true
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_IsThreadSafe addr 0x2bb110c size 0xc virtual true final true
+  /// @brief Method set_IsThreadSafe, addr 0x2d184bc, size 0xc, virtual true, abstract: false, final true
   inline void set_IsThreadSafe(bool value);
 
-  /// @brief Method set_IsFreeFunction addr 0x2bb1118 size 0xc virtual true final true
+  /// @brief Method set_IsFreeFunction, addr 0x2d184c8, size 0xc, virtual true, abstract: false, final true
   inline void set_IsFreeFunction(bool value);
 
-  /// @brief Method set_ThrowsException addr 0x2bb1124 size 0xc virtual true final true
+  /// @brief Method set_ThrowsException, addr 0x2d184d4, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
-  /// @brief Method set_HasExplicitThis addr 0x2bb1130 size 0xc virtual true final true
+  /// @brief Method set_HasExplicitThis, addr 0x2d184e0, size 0xc, virtual true, abstract: false, final true
   inline void set_HasExplicitThis(bool value);
 
   static inline ::UnityEngine::Bindings::NativeMethodAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bb113c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2d184ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bindings::NativeMethodAttribute* New_ctor(::StringW name);
 
-  /// @brief Method .ctor addr 0x2bb1144 size 0x104 virtual false final false
+  /// @brief Method .ctor, addr 0x2d184f4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
   static inline ::UnityEngine::Bindings::NativeMethodAttribute* New_ctor(::StringW name, bool isFreeFunction);
 
-  /// @brief Method .ctor addr 0x2bb1248 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x2d185f8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction);
 
   static inline ::UnityEngine::Bindings::NativeMethodAttribute* New_ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
-  /// @brief Method .ctor addr 0x2bb1270 size 0x34 virtual false final false
+  /// @brief Method .ctor, addr 0x2d18620, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFreeFunction, bool isThreadSafe);
 
   // Ctor Parameters [CppParam { name: "", ty: "NativeMethodAttribute", modifiers: "&&", def_value: None }]

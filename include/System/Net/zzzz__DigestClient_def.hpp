@@ -6,6 +6,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DigestClient)
+namespace System::Net {
+class Authorization;
+}
+namespace System::Net {
+class IAuthenticationModule;
+}
 namespace System::Collections {
 class Hashtable;
 }
@@ -13,13 +19,7 @@ namespace System::Net {
 class WebRequest;
 }
 namespace System::Net {
-class IAuthenticationModule;
-}
-namespace System::Net {
 class ICredentials;
-}
-namespace System::Net {
-class Authorization;
 }
 // Forward declare root types
 namespace System::Net {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::System::Net::DigestClient);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7998))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9161))
 // CS Name: ::System.Net::DigestClient*
 class CORDL_TYPE DigestClient : public ::System::Object {
 public:
@@ -49,24 +49,24 @@ public:
 
   static inline ::System::Collections::Hashtable* getStaticF_cache();
 
-  /// @brief Method get_Cache addr 0x2841234 size 0x168 virtual false final false
+  /// @brief Method get_Cache, addr 0x29beaac, size 0x168, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_Cache();
 
-  /// @brief Method CheckExpired addr 0x284139c size 0x848 virtual false final false
+  /// @brief Method CheckExpired, addr 0x29bec14, size 0x848, virtual false, abstract: false, final false
   static inline void CheckExpired(int32_t count);
 
-  /// @brief Method Authenticate addr 0x2841be4 size 0x2a8 virtual true final true
+  /// @brief Method Authenticate, addr 0x29bf45c, size 0x2a8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method PreAuthenticate addr 0x2841e8c size 0x194 virtual true final true
+  /// @brief Method PreAuthenticate, addr 0x29bf704, size 0x194, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method get_AuthenticationType addr 0x2842020 size 0x40 virtual true final true
+  /// @brief Method get_AuthenticationType, addr 0x29bf898, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   static inline ::System::Net::DigestClient* New_ctor();
 
-  /// @brief Method .ctor addr 0x283d540 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x29badb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DigestClient", modifiers: "&&", def_value: None }]

@@ -8,11 +8,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISonyCommerceHelper)
-namespace System::Threading {
-struct CancellationToken;
+namespace GlobalNamespace {
+struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
+}
+namespace GlobalNamespace {
+struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
 }
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
@@ -20,11 +23,8 @@ struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
 namespace GlobalNamespace {
 struct __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 }
-namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
-}
-namespace GlobalNamespace {
-struct __ISonyCommerceHelper__DisplayProductBrowseDialogResult;
+namespace System::Threading {
+struct CancellationToken;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -53,7 +53,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlemen
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4174))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4140))
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
 public:
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductB
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4175))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4141))
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
 public:
@@ -153,7 +153,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategory
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4176))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4142))
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
 public:
@@ -202,8 +202,8 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalCo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4177))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4142))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4143))
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
 public:
@@ -241,7 +241,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4144))
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {
 public:
@@ -254,15 +254,15 @@ public:
 
   using DisplayProductBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 
-  /// @brief Method GetAdditionalContentEntitlementsAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAdditionalContentEntitlementsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>*
   GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DisplayProductBrowseDialogAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisplayProductBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>* DisplayProductBrowseDialogAsync(::StringW productLabel,
                                                                                                                                                          ::System::Threading::CancellationToken token);
 
-  /// @brief Method DisplayCategoryBrowseDialogAsync addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DisplayCategoryBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>*
   DisplayCategoryBrowseDialogAsync(::StringW categoryLabel, ::System::Threading::CancellationToken token);
 

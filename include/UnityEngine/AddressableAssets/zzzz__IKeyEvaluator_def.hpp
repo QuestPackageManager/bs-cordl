@@ -17,17 +17,17 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::IKeyEvaluator);
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14361))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14090))
 // CS Name: ::UnityEngine.AddressableAssets::IKeyEvaluator*
 class CORDL_TYPE IKeyEvaluator {
 public:
   // Declarations
   __declspec(property(get = get_RuntimeKey))::System::Object* RuntimeKey;
 
-  /// @brief Method get_RuntimeKey addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_RuntimeKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method RuntimeKeyIsValid addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method RuntimeKeyIsValid, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool RuntimeKeyIsValid();
 
   // Ctor Parameters [CppParam { name: "", ty: "IKeyEvaluator", modifiers: "&&", def_value: None }]

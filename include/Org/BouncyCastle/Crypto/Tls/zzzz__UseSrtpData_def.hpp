@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::UseSrtpData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1335))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::UseSrtpData*
 class CORDL_TYPE UseSrtpData : public ::System::Object {
@@ -46,13 +46,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> protectionProfiles, ::ArrayW<uint8_t, ::Array<uint8_t>*> mki);
 
-  /// @brief Method .ctor addr 0xf43044 size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0xfb928c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> protectionProfiles, ::ArrayW<uint8_t, ::Array<uint8_t>*> mki);
 
-  /// @brief Method get_ProtectionProfiles addr 0xf49eac size 0x8 virtual true final false
+  /// @brief Method get_ProtectionProfiles, addr 0xfc00f8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ProtectionProfiles();
 
-  /// @brief Method get_Mki addr 0xf49eb4 size 0x8 virtual true final false
+  /// @brief Method get_Mki, addr 0xfc0100, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Mki();
 
   // Ctor Parameters [CppParam { name: "", ty: "UseSrtpData", modifiers: "&&", def_value: None }]

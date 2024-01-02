@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::System::IO::Error);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3553))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3558))
 // CS Name: ::System.IO::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetStreamIsClosed addr 0x23a2558 size 0x78 virtual false final false
+  /// @brief Method GetStreamIsClosed, addr 0x24fc0d4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Exception* GetStreamIsClosed();
 
-  /// @brief Method GetEndOfFile addr 0x23a25d0 size 0x80 virtual false final false
+  /// @brief Method GetEndOfFile, addr 0x24fc14c, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetEndOfFile();
 
-  /// @brief Method GetReadNotSupported addr 0x23a2650 size 0x74 virtual false final false
+  /// @brief Method GetReadNotSupported, addr 0x24fc1cc, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* GetReadNotSupported();
 
-  /// @brief Method GetWriteNotSupported addr 0x23a26c4 size 0x74 virtual false final false
+  /// @brief Method GetWriteNotSupported, addr 0x24fc240, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* GetWriteNotSupported();
 
   // Ctor Parameters [CppParam { name: "", ty: "Error", modifiers: "&&", def_value: None }]

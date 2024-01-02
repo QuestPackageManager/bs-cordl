@@ -20,13 +20,13 @@ MARK_REF_PTR_T(::Oculus::Platform::Livestreaming);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13398))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13364))
 // CS Name: ::Oculus.Platform::Livestreaming*
 class CORDL_TYPE Livestreaming : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetStatusUpdateNotificationCallback addr 0x25aab9c size 0x74 virtual false final false
+  /// @brief Method SetStatusUpdateNotificationCallback, addr 0x26feac0, size 0x74, virtual false, abstract: false, final false
   static inline void SetStatusUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus*>* callback);
 
   // Ctor Parameters [CppParam { name: "", ty: "Livestreaming", modifiers: "&&", def_value: None }]

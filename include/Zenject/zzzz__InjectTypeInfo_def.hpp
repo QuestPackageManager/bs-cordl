@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InjectTypeInfo)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
 namespace Zenject {
-class __InjectTypeInfo__InjectMethodInfo;
-}
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
-namespace Zenject {
-class __InjectTypeInfo__InjectConstructorInfo;
+class __InjectTypeInfo__InjectMemberInfo;
 }
 namespace Zenject {
 class InjectableInfo;
 }
 namespace Zenject {
-class __InjectTypeInfo__InjectMemberInfo;
+class __InjectTypeInfo__InjectConstructorInfo;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System {
+template <typename T, typename TResult> class Func_2;
+}
+namespace Zenject {
+class __InjectTypeInfo__InjectMethodInfo;
 }
 namespace System {
 class Type;
@@ -58,8 +58,8 @@ MARK_REF_PTR_T(::Zenject::__InjectTypeInfo__InjectMethodInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15666))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15716))
 // CS Name: ::InjectTypeInfo::InjectMemberInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectMemberInfo : public ::System::Object {
 public:
@@ -84,7 +84,7 @@ public:
 
   static inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* New_ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
-  /// @brief Method .ctor addr 0x2d5213c size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2eb9ebc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InjectTypeInfo__InjectMemberInfo", modifiers: "&&", def_value: None }]
@@ -121,8 +121,8 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMemberInfo, ___Info) =
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15667))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15717))
 // CS Name: ::InjectTypeInfo::InjectConstructorInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectConstructorInfo : public ::System::Object {
 public:
@@ -148,7 +148,7 @@ public:
   static inline ::Zenject::__InjectTypeInfo__InjectConstructorInfo* New_ctor(::Zenject::ZenFactoryMethod* factory,
                                                                              ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
-  /// @brief Method .ctor addr 0x2d52168 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0x2eb9ee8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InjectTypeInfo__InjectConstructorInfo", modifiers: "&&", def_value: None }]
@@ -185,8 +185,8 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectConstructorInfo, ___Pa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15668))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15718))
 // CS Name: ::InjectTypeInfo::InjectMethodInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectMethodInfo : public ::System::Object {
 public:
@@ -221,7 +221,7 @@ public:
   static inline ::Zenject::__InjectTypeInfo__InjectMethodInfo* New_ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters,
                                                                         ::StringW name);
 
-  /// @brief Method .ctor addr 0x2d52194 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x2eb9f14, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters, ::StringW name);
 
   // Ctor Parameters [CppParam { name: "", ty: "__InjectTypeInfo__InjectMethodInfo", modifiers: "&&", def_value: None }]
@@ -263,8 +263,8 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMethodInfo, ___Paramet
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15669))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15719))
 // CS Name: ::Zenject::InjectTypeInfo*
 class CORDL_TYPE InjectTypeInfo : public ::System::Object {
 public:
@@ -349,24 +349,24 @@ public:
                                                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
                                                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method .ctor addr 0x2d51f10 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x2eb9c90, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Zenject::__InjectTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method get_BaseTypeInfo addr 0x2d51f50 size 0x8 virtual false final false
+  /// @brief Method get_BaseTypeInfo, addr 0x2eb9cd0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
-  /// @brief Method set_BaseTypeInfo addr 0x2d51f58 size 0x8 virtual false final false
+  /// @brief Method set_BaseTypeInfo, addr 0x2eb9cd8, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
-  /// @brief Method get_AllInjectables addr 0x2d51f60 size 0x1ac virtual false final false
+  /// @brief Method get_AllInjectables, addr 0x2eb9ce0, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
-  /// @brief Method <get_AllInjectables>b__0 addr 0x2d5210c size 0x18 virtual false final false
+  /// @brief Method <get_AllInjectables>b__0, addr 0x2eb9e8c, size 0x18, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::__InjectTypeInfo__InjectMemberInfo* x);
 
-  /// @brief Method <get_AllInjectables>b__1 addr 0x2d52124 size 0x18 virtual false final false
+  /// @brief Method <get_AllInjectables>b__1, addr 0x2eb9ea4, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::__InjectTypeInfo__InjectMethodInfo* x);
 
   // Ctor Parameters [CppParam { name: "", ty: "InjectTypeInfo", modifiers: "&&", def_value: None }]

@@ -29,8 +29,8 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathDocument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11507))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
 // CS Name: ::System.Xml.XPath::XPathDocument*
 class CORDL_TYPE XPathDocument : public ::System::Object {
 public:
@@ -75,13 +75,13 @@ public:
 
   constexpr void __set_mapNmsp(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* value);
 
-  /// @brief Method get_NameTable addr 0x272cd54 size 0x8 virtual false final false
+  /// @brief Method get_NameTable, addr 0x28a9d78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method GetXmlNamespaceNode addr 0x272cd5c size 0x10 virtual false final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x28a9d80, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces addr 0x272cd6c size 0xd4 virtual false final false
+  /// @brief Method LookupNamespaces, addr 0x28a9d90, size 0xd4, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 

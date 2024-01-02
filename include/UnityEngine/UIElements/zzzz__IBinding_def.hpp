@@ -14,18 +14,18 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IBinding);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7169))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7083))
 // CS Name: ::UnityEngine.UIElements::IBinding*
 class CORDL_TYPE IBinding {
 public:
   // Declarations
-  /// @brief Method PreUpdate addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method PreUpdate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void PreUpdate();
 
-  /// @brief Method Update addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Update();
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Release();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBinding", modifiers: "&&", def_value: None }]

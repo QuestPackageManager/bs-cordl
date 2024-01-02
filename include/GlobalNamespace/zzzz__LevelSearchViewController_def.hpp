@@ -3,77 +3,85 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__IBeatmapLevelCollection_def.hpp"
+#include "GlobalNamespace/zzzz__LevelFilter_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelSearchViewController)
-namespace UnityEngine::UI {
-class Button;
-}
 namespace GlobalNamespace {
 class SongPackMasksModel;
-}
-namespace GlobalNamespace {
-class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class AdditionalContentModel;
-}
-namespace GlobalNamespace {
-class IAnnotatedBeatmapLevelCollection;
-}
-namespace System {
-template <typename T> class Action_1;
-}
-namespace System::Threading {
-class CancellationTokenSource;
-}
-namespace GlobalNamespace {
-class BeatmapCharacteristicSO;
-}
-namespace GlobalNamespace {
-class IBeatmapLevelPack;
-}
-namespace GlobalNamespace {
-struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30;
-}
-namespace HMUI {
-class InputFieldView;
-}
-namespace GlobalNamespace {
-class LevelFilterParams;
-}
-namespace TMPro {
-class TextMeshProUGUI;
-}
-namespace UnityEngine {
-class GameObject;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace GlobalNamespace {
-class __LevelSearchViewController__BeatmapLevelPackCollection;
+class BeatmapCharacteristicSO;
 }
 namespace GlobalNamespace {
-class IBeatmapLevelCollection;
+struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31;
+}
+namespace System::Threading {
+class CancellationTokenSource;
+}
+namespace UnityEngine {
+class GameObject;
+}
+namespace TMPro {
+class TextMeshProUGUI;
+}
+namespace GlobalNamespace {
+class IAnnotatedBeatmapLevelCollection;
+}
+namespace GlobalNamespace {
+class BeatmapCharacteristicCollection;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> class Action_3;
+}
+namespace HMUI {
+class InputFieldView;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace System {
+template <typename T> class Action_1;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelPack;
+}
+namespace GlobalNamespace {
+class __LevelSearchViewController__BeatmapLevelPackCollection;
+}
+namespace UnityEngine::UI {
+class Button;
+}
+namespace GlobalNamespace {
+class PlayerDataModel;
+}
+namespace GlobalNamespace {
+struct LevelFilter;
 }
 namespace UnityEngine {
 class Sprite;
+}
+namespace GlobalNamespace {
+class IBeatmapLevelCollection;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-struct AsyncVoidMethodBuilder;
+class IAsyncStateMachine;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -83,18 +91,18 @@ namespace GlobalNamespace {
 class __LevelSearchViewController__BeatmapLevelPackCollection;
 }
 namespace GlobalNamespace {
-struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30;
+struct __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelSearchViewController);
 MARK_REF_PTR_T(::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection);
-MARK_VAL_T(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30);
+MARK_VAL_T(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31);
 // Type: ::BeatmapLevelPackCollection
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5769))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5670))
 // CS Name: ::LevelSearchViewController::BeatmapLevelPackCollection*
 class CORDL_TYPE __LevelSearchViewController__BeatmapLevelPackCollection : public ::System::Object {
 public:
@@ -120,24 +128,24 @@ public:
 
   constexpr void __set__beatmapLevelCollection_k__BackingField(::GlobalNamespace::IBeatmapLevelCollection* value);
 
-  /// @brief Method get_collectionName addr 0x217e9ec size 0x8 virtual true final true
+  /// @brief Method get_collectionName, addr 0x22c1fc8, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_collectionName();
 
-  /// @brief Method get_coverImage addr 0x217e9f4 size 0x8 virtual true final true
+  /// @brief Method get_coverImage, addr 0x22c1fd0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Sprite* get_coverImage();
 
-  /// @brief Method get_smallCoverImage addr 0x217e9fc size 0x8 virtual true final true
+  /// @brief Method get_smallCoverImage, addr 0x22c1fd8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Sprite* get_smallCoverImage();
 
-  /// @brief Method get_beatmapLevelCollection addr 0x217ea04 size 0x8 virtual true final true
+  /// @brief Method get_beatmapLevelCollection, addr 0x22c1fe0, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();
 
-  /// @brief Method set_beatmapLevelCollection addr 0x217ea0c size 0x8 virtual false final false
+  /// @brief Method set_beatmapLevelCollection, addr 0x22c1fe8, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelCollection(::GlobalNamespace::IBeatmapLevelCollection* value);
 
   static inline ::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection* New_ctor(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection);
 
-  /// @brief Method .ctor addr 0x217ea14 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x22c1ff0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection);
 
   // Ctor Parameters [CppParam { name: "", ty: "__LevelSearchViewController__BeatmapLevelPackCollection", modifiers: "&&", def_value: None }]
@@ -165,34 +173,35 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelSearchVi
 static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection, ____beatmapLevelCollection_k__BackingField) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<UpdateBeatmapLevelPackCollectionAsync>d__30
+// Type: ::<UpdateBeatmapLevelPackCollectionAsync>d__31
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3389)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 871
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4363))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5770)) CS Name: ::LevelSearchViewController::<UpdateBeatmapLevelPackCollectionAsync>d__30
-struct CORDL_TYPE __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30 {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 888 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5671)) CS Name:
+// ::LevelSearchViewController::<UpdateBeatmapLevelPackCollectionAsync>d__31
+struct CORDL_TYPE __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x217ea3c size 0x548 virtual true final true
+  /// @brief Method MoveNext, addr 0x22c2018, size 0x88c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x217ef84 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x22c28a4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelSearchViewController*", modifiers: "",
   // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelCollection*>", modifiers: "", def_value: None }]
-  constexpr __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                       ::GlobalNamespace::LevelSearchViewController* __4__this,
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelCollection*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30();
+  constexpr __LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31();
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -212,28 +221,28 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelSearchViewController
-// SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13722))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5771))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(4402))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5672))
 // CS Name: ::LevelSearchViewController*
 class CORDL_TYPE LevelSearchViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _UpdateBeatmapLevelPackCollectionAsync_d__30 = ::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30;
+  using _UpdateBeatmapLevelPackCollectionAsync_d__31 = ::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31;
 
   using BeatmapLevelPackCollection = ::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection;
 
@@ -259,37 +268,40 @@ public:
   __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   /// @brief Field _additionalContentModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::AdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
-  /// @brief Field didPressSearchButtonEvent, offset 0xb0, size 0x8
+  /// @brief Field _beatmapCharacteristicCollection, offset 0xb0, size 0x8
+  __declspec(property(get = __get__beatmapCharacteristicCollection, put = __set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+
+  /// @brief Field didPressSearchButtonEvent, offset 0xb8, size 0x8
   __declspec(property(get = __get_didPressSearchButtonEvent,
-                      put = __set_didPressSearchButtonEvent))::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* didPressSearchButtonEvent;
+                      put = __set_didPressSearchButtonEvent))::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* didPressSearchButtonEvent;
 
-  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset 0xb8, size 0x8
+  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset 0xc0, size 0x8
   __declspec(property(get = __get_didFilterBeatmapLevelCollectionEvent,
-                      put = __set_didFilterBeatmapLevelCollectionEvent))::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*,
-                                                                                           ::GlobalNamespace::BeatmapCharacteristicSO*>* didFilterBeatmapLevelCollectionEvent;
+                      put = __set_didFilterBeatmapLevelCollectionEvent))::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*,
+                                                                                           bool>* didFilterBeatmapLevelCollectionEvent;
 
-  /// @brief Field didStartLoadingEvent, offset 0xc0, size 0x8
+  /// @brief Field didStartLoadingEvent, offset 0xc8, size 0x8
   __declspec(property(get = __get_didStartLoadingEvent, put = __set_didStartLoadingEvent))::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* didStartLoadingEvent;
 
-  /// @brief Field _beatmapLevelPackCollection, offset 0xc8, size 0x8
+  /// @brief Field _beatmapLevelPackCollection, offset 0xd0, size 0x8
   __declspec(property(get = __get__beatmapLevelPackCollection,
                       put = __set__beatmapLevelPackCollection))::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection* _beatmapLevelPackCollection;
 
-  /// @brief Field _preferredBeatmapCharacteristic, offset 0xd0, size 0x8
+  /// @brief Field _preferredBeatmapCharacteristic, offset 0xd8, size 0x8
   __declspec(property(get = __get__preferredBeatmapCharacteristic, put = __set__preferredBeatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _preferredBeatmapCharacteristic;
 
-  /// @brief Field _currentFilterParams, offset 0xd8, size 0x8
-  __declspec(property(get = __get__currentFilterParams, put = __set__currentFilterParams))::GlobalNamespace::LevelFilterParams* _currentFilterParams;
+  /// @brief Field _currentSearchFilter, offset 0xe0, size 0x50
+  __declspec(property(get = __get__currentSearchFilter, put = __set__currentSearchFilter))::GlobalNamespace::LevelFilter _currentSearchFilter;
 
-  /// @brief Field _onlyFavorites, offset 0xe0, size 0x1
+  /// @brief Field _onlyFavorites, offset 0x130, size 0x1
   __declspec(property(get = __get__onlyFavorites, put = __set__onlyFavorites)) bool _onlyFavorites;
 
-  /// @brief Field _cancellationTokenSource, offset 0xe8, size 0x8
+  /// @brief Field _cancellationTokenSource, offset 0x138, size 0x8
   __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
-  /// @brief Field _beatmapLevelPacks, offset 0xf0, size 0x8
+  /// @brief Field _beatmapLevelPacks, offset 0x140, size 0x8
   __declspec(property(get = __get__beatmapLevelPacks,
                       put = __set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> _beatmapLevelPacks;
 
@@ -335,25 +347,30 @@ public:
 
   constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  constexpr ::GlobalNamespace::AdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::AdditionalContentModel* value);
+  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>*& __get_didPressSearchButtonEvent();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__beatmapCharacteristicCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>*> const&
-  __get_didPressSearchButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__beatmapCharacteristicCollection() const;
 
-  constexpr void __set_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
+  constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>*& __get_didFilterBeatmapLevelCollectionEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*& __get_didPressSearchButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>*> const&
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>*> const& __get_didPressSearchButtonEvent() const;
+
+  constexpr void __set_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
+
+  constexpr ::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>*& __get_didFilterBeatmapLevelCollectionEvent();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>*> const&
   __get_didFilterBeatmapLevelCollectionEvent() const;
 
-  constexpr void __set_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  constexpr void __set_didFilterBeatmapLevelCollectionEvent(::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>* value);
 
   constexpr ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>*& __get_didStartLoadingEvent();
 
@@ -373,11 +390,11 @@ public:
 
   constexpr void __set__preferredBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
 
-  constexpr ::GlobalNamespace::LevelFilterParams*& __get__currentFilterParams();
+  constexpr ::GlobalNamespace::LevelFilter& __get__currentSearchFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelFilterParams*> const& __get__currentFilterParams() const;
+  constexpr ::GlobalNamespace::LevelFilter const& __get__currentSearchFilter() const;
 
-  constexpr void __set__currentFilterParams(::GlobalNamespace::LevelFilterParams* value);
+  constexpr void __set__currentSearchFilter(::GlobalNamespace::LevelFilter value);
 
   constexpr bool& __get__onlyFavorites();
 
@@ -397,70 +414,70 @@ public:
 
   constexpr void __set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> value);
 
-  /// @brief Method add_didPressSearchButtonEvent addr 0x217ddfc size 0xb0 virtual false final false
-  inline void add_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
+  /// @brief Method add_didPressSearchButtonEvent, addr 0x22c0fd8, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method remove_didPressSearchButtonEvent addr 0x217deac size 0xb0 virtual false final false
-  inline void remove_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* value);
+  /// @brief Method remove_didPressSearchButtonEvent, addr 0x22c1088, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didPressSearchButtonEvent(::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* value);
 
-  /// @brief Method add_didFilterBeatmapLevelCollectionEvent addr 0x217b514 size 0xb0 virtual false final false
-  inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  /// @brief Method add_didFilterBeatmapLevelCollectionEvent, addr 0x22be018, size 0xb0, virtual false, abstract: false, final false
+  inline void add_didFilterBeatmapLevelCollectionEvent(::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>* value);
 
-  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent addr 0x217bc00 size 0xb0 virtual false final false
-  inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  /// @brief Method remove_didFilterBeatmapLevelCollectionEvent, addr 0x22be724, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_didFilterBeatmapLevelCollectionEvent(::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>* value);
 
-  /// @brief Method add_didStartLoadingEvent addr 0x217b5c4 size 0xb0 virtual false final false
+  /// @brief Method add_didStartLoadingEvent, addr 0x22be0c8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
 
-  /// @brief Method remove_didStartLoadingEvent addr 0x217bcb0 size 0xb0 virtual false final false
+  /// @brief Method remove_didStartLoadingEvent, addr 0x22be7d4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didStartLoadingEvent(::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* value);
 
-  /// @brief Method Setup addr 0x217b07c size 0xc virtual false final false
+  /// @brief Method Setup, addr 0x22bdb80, size 0xc, virtual false, abstract: false, final false
   inline void Setup(::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> beatmapLevelPacks);
 
-  /// @brief Method ResetFilterParams addr 0x217bfb8 size 0x20 virtual false final false
+  /// @brief Method ResetFilterParams, addr 0x22bef74, size 0x30, virtual false, abstract: false, final false
   inline void ResetFilterParams(bool onlyFavorites);
 
-  /// @brief Method UpdateSearchLevelFilterParams addr 0x217e14c size 0x8 virtual false final false
-  inline void UpdateSearchLevelFilterParams(::GlobalNamespace::LevelFilterParams* levelFilterParams);
+  /// @brief Method UpdateSearchLevelFilterParams, addr 0x22c1358, size 0x20, virtual false, abstract: false, final false
+  inline void UpdateSearchLevelFilterParams(ByRef<::GlobalNamespace::LevelFilter> filter);
 
-  /// @brief Method DidActivate addr 0x217e158 size 0x1c4 virtual true final false
+  /// @brief Method DidActivate, addr 0x22c137c, size 0x200, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x217e31c size 0xc4 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x22c157c, size 0xc4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method ResetCurrentFilterParams addr 0x217df5c size 0x118 virtual false final false
+  /// @brief Method ResetCurrentFilterParams, addr 0x22c1138, size 0x118, virtual false, abstract: false, final false
   inline void ResetCurrentFilterParams();
 
-  /// @brief Method UpdateBeatmapLevelPackCollectionAsync addr 0x217e0b8 size 0x94 virtual false final false
+  /// @brief Method UpdateBeatmapLevelPackCollectionAsync, addr 0x22c12c4, size 0x94, virtual false, abstract: false, final false
   inline void UpdateBeatmapLevelPackCollectionAsync();
 
-  /// @brief Method SearchTextInputFieldViewOnValueChanged addr 0x217e3e0 size 0x24 virtual false final false
+  /// @brief Method SearchTextInputFieldViewOnValueChanged, addr 0x22c1640, size 0x1c, virtual false, abstract: false, final false
   inline void SearchTextInputFieldViewOnValueChanged(::HMUI::InputFieldView* inputFieldView);
 
-  /// @brief Method UpdateCurrentFilterParams addr 0x217e074 size 0x44 virtual false final false
+  /// @brief Method UpdateCurrentFilterParams, addr 0x22c1250, size 0x74, virtual false, abstract: false, final false
   inline void UpdateCurrentFilterParams();
 
-  /// @brief Method RefreshAfterIncreaseNumberOfGameplay addr 0x217c184 size 0x28 virtual false final false
+  /// @brief Method RefreshAfterIncreaseNumberOfGameplay, addr 0x22bf158, size 0x10, virtual false, abstract: false, final false
   inline void RefreshAfterIncreaseNumberOfGameplay();
 
-  /// @brief Method Refresh addr 0x217e154 size 0x4 virtual false final false
+  /// @brief Method Refresh, addr 0x22c1378, size 0x4, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method LocalizedLevelFilterParamsDescription addr 0x217e404 size 0x5a4 virtual false final false
-  inline ::StringW LocalizedLevelFilterParamsDescription(::GlobalNamespace::LevelFilterParams* levelFilterParams);
+  /// @brief Method LocalizedLevelFilterParamsDescription, addr 0x22c165c, size 0x8e0, virtual false, abstract: false, final false
+  inline ::StringW LocalizedLevelFilterParamsDescription(ByRef<::GlobalNamespace::LevelFilter> filter);
 
   static inline ::GlobalNamespace::LevelSearchViewController* New_ctor();
 
-  /// @brief Method .ctor addr 0x217e9a8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22c1f3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <DidActivate>b__27_0 addr 0x217e9b0 size 0x24 virtual false final false
-  inline void _DidActivate_b__27_0();
+  /// @brief Method <DidActivate>b__28_0, addr 0x22c1f44, size 0x6c, virtual false, abstract: false, final false
+  inline void _DidActivate_b__28_0();
 
-  /// @brief Method <DidActivate>b__27_1 addr 0x217e9d4 size 0x18 virtual false final false
-  inline void _DidActivate_b__27_1();
+  /// @brief Method <DidActivate>b__28_1, addr 0x22c1fb0, size 0x18, virtual false, abstract: false, final false
+  inline void _DidActivate_b__28_1();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelSearchViewController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -498,39 +515,42 @@ public:
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
   /// @brief Field _additionalContentModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::AdditionalContentModel* ____additionalContentModel;
+  ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
-  /// @brief Field didPressSearchButtonEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilterParams*>* ___didPressSearchButtonEvent;
+  /// @brief Field _beatmapCharacteristicCollection, offset: 0xb0, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
 
-  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset: 0xb8, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*>* ___didFilterBeatmapLevelCollectionEvent;
+  /// @brief Field didPressSearchButtonEvent, offset: 0xb8, size: 0x8, def value: None
+  ::System::Action_2<::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter>* ___didPressSearchButtonEvent;
 
-  /// @brief Field didStartLoadingEvent, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field didFilterBeatmapLevelCollectionEvent, offset: 0xc0, size: 0x8, def value: None
+  ::System::Action_3<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*, ::GlobalNamespace::BeatmapCharacteristicSO*, bool>* ___didFilterBeatmapLevelCollectionEvent;
+
+  /// @brief Field didStartLoadingEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::LevelSearchViewController*>* ___didStartLoadingEvent;
 
-  /// @brief Field _beatmapLevelPackCollection, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelPackCollection, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection* ____beatmapLevelPackCollection;
 
-  /// @brief Field _preferredBeatmapCharacteristic, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _preferredBeatmapCharacteristic, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicSO* ____preferredBeatmapCharacteristic;
 
-  /// @brief Field _currentFilterParams, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::LevelFilterParams* ____currentFilterParams;
+  /// @brief Field _currentSearchFilter, offset: 0xe0, size: 0x50, def value: None
+  ::GlobalNamespace::LevelFilter ____currentSearchFilter;
 
-  /// @brief Field _onlyFavorites, offset: 0xe0, size: 0x1, def value: None
+  /// @brief Field _onlyFavorites, offset: 0x130, size: 0x1, def value: None
   bool ____onlyFavorites;
 
-  /// @brief Field _cancellationTokenSource, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _cancellationTokenSource, offset: 0x138, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
-  /// @brief Field _beatmapLevelPacks, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field _beatmapLevelPacks, offset: 0x140, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> ____beatmapLevelPacks;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelSearchViewController, 0xf8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelSearchViewController, 0x148>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____searchButton) == 0x70, "Offset mismatch!");
 
@@ -548,27 +568,29 @@ static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____songPac
 
 static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____additionalContentModel) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didPressSearchButtonEvent) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____beatmapCharacteristicCollection) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didFilterBeatmapLevelCollectionEvent) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didPressSearchButtonEvent) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didStartLoadingEvent) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didFilterBeatmapLevelCollectionEvent) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____beatmapLevelPackCollection) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ___didStartLoadingEvent) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____preferredBeatmapCharacteristic) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____beatmapLevelPackCollection) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____currentFilterParams) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____preferredBeatmapCharacteristic) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____onlyFavorites) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____currentSearchFilter) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____cancellationTokenSource) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____onlyFavorites) == 0x130, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____beatmapLevelPacks) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____cancellationTokenSource) == 0x138, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LevelSearchViewController, ____beatmapLevelPacks) == 0x140, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelSearchViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
 NEED_NO_BOX(::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelSearchViewController__BeatmapLevelPackCollection*, "", "LevelSearchViewController/BeatmapLevelPackCollection");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__30, "", "LevelSearchViewController/<UpdateBeatmapLevelPackCollectionAsync>d__30");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelSearchViewController___UpdateBeatmapLevelPackCollectionAsync_d__31, "", "LevelSearchViewController/<UpdateBeatmapLevelPackCollectionAsync>d__31");

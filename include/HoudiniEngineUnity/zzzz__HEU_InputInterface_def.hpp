@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterface);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9839))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterface*
 class CORDL_TYPE HEU_InputInterface : public ::System::Object {
 public:
@@ -39,21 +39,21 @@ public:
 
   constexpr void __set__priority(int32_t value);
 
-  /// @brief Method get_Priority addr 0x206e8e0 size 0x8 virtual false final false
+  /// @brief Method get_Priority, addr 0x21c527c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Priority();
 
   static inline ::HoudiniEngineUnity::HEU_InputInterface* New_ctor(int32_t priority);
 
-  /// @brief Method .ctor addr 0x206e8e8 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x21c5284, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t priority);
 
-  /// @brief Method RegisterInterface addr 0x206e910 size 0x58 virtual false final false
+  /// @brief Method RegisterInterface, addr 0x21c52ac, size 0x58, virtual false, abstract: false, final false
   inline void RegisterInterface();
 
-  /// @brief Method IsThisInputObjectSupported addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method IsThisInputObjectSupported, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool IsThisInputObjectSupported(::UnityEngine::GameObject* inputObject);
 
-  /// @brief Method CreateInputNodeWithDataUpload addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CreateInputNodeWithDataUpload, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CreateInputNodeWithDataUpload(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t connectNodeID, ::UnityEngine::GameObject* inputObject, ByRef<int32_t> inputNodeID);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_InputInterface", modifiers: "&&", def_value: None }]

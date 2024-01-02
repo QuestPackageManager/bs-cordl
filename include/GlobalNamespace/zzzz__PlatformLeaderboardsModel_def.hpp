@@ -16,49 +16,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformLeaderboardsModel)
 namespace GlobalNamespace {
-class HMAsyncRequest;
+struct __PlatformLeaderboardsModel__State;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
+class UserInfo;
 }
 namespace System {
 class Action;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__UploadScoreResult;
-}
-namespace GlobalNamespace {
-class GameplayModifiers;
+struct __PlatformLeaderboardsModel__ScoresScope;
 }
 namespace GlobalNamespace {
 class GameplayModifiersModelSO;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__ScoresScope;
+class HMAsyncRequest;
 }
 namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__GetScoresResult;
+class __PlatformLeaderboardsModel__UploadScoreCompletionHandler;
 }
 namespace GlobalNamespace {
-class __PlatformLeaderboardsModel__LeaderboardScore;
+class __LeaderboardScoreUploader__ScoreData;
 }
 namespace GlobalNamespace {
 class __PlatformLeaderboardsModel__GetScoresCompletionHandler;
-}
-namespace GlobalNamespace {
-class UserInfo;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel__State;
-}
-namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
-struct __PlatformLeaderboardsModel___Initialize_d__19;
-}
-namespace GlobalNamespace {
-class LeaderboardScoreUploader;
 }
 namespace GlobalNamespace {
 class PlatformLeaderboardsHandler;
@@ -67,7 +49,28 @@ namespace GlobalNamespace {
 class IDifficultyBeatmap;
 }
 namespace GlobalNamespace {
-class __LeaderboardScoreUploader__ScoreData;
+class GameplayModifiers;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__UploadScoreResult;
+}
+namespace GlobalNamespace {
+class IPlatformUserModel;
+}
+namespace GlobalNamespace {
+class LeaderboardScoreUploader;
+}
+namespace GlobalNamespace {
+class __PlatformLeaderboardsModel__LeaderboardScore;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel___Initialize_d__19;
+}
+namespace GlobalNamespace {
+struct __PlatformLeaderboardsModel__GetScoresResult;
+}
+namespace System {
+class IAsyncResult;
 }
 namespace System {
 class Object;
@@ -75,26 +78,23 @@ class Object;
 namespace System {
 class AsyncCallback;
 }
-namespace System {
-class IAsyncResult;
-}
-namespace GlobalNamespace {
-class GameplayModifierParamsSO;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class IComparable_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace GlobalNamespace {
+class GameplayModifierParamsSO;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+template <typename TResult> struct TaskAwaiter_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -139,7 +139,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__19);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4260))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4227))
 // CS Name: ::PlatformLeaderboardsModel::State
 struct CORDL_TYPE __PlatformLeaderboardsModel__State {
 public:
@@ -193,7 +193,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__State, va
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4228))
 // CS Name: ::PlatformLeaderboardsModel::GetScoresResult
 struct CORDL_TYPE __PlatformLeaderboardsModel__GetScoresResult {
 public:
@@ -243,7 +243,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__GetScores
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4262))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4229))
 // CS Name: ::PlatformLeaderboardsModel::UploadScoreResult
 struct CORDL_TYPE __PlatformLeaderboardsModel__UploadScoreResult {
 public:
@@ -297,7 +297,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__UploadSco
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4263))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4230))
 // CS Name: ::PlatformLeaderboardsModel::ScoresScope
 struct CORDL_TYPE __PlatformLeaderboardsModel__ScoresScope {
 public:
@@ -350,29 +350,29 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresSco
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4264))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4231))
 // CS Name: ::PlatformLeaderboardsModel::GetScoresCompletionHandler*
 class CORDL_TYPE __PlatformLeaderboardsModel__GetScoresCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x21daba4 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x232b898, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x21dac68 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x232b95c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult result,
                      ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*> scores,
                      int32_t referencePlayerScoreIndex);
 
-  /// @brief Method BeginInvoke addr 0x21dac7c size 0xb8 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x232b970, size 0xb8, virtual true, abstract: false, final false
   inline ::System::IAsyncResult*
   BeginInvoke(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult result,
               ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*> scores,
               int32_t referencePlayerScoreIndex, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x21dad34 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x232ba28, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformLeaderboardsModel__GetScoresCompletionHandler", modifiers: "&&", def_value: None }]
@@ -399,24 +399,24 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeade
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2609))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4265))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4232))
 // CS Name: ::PlatformLeaderboardsModel::UploadScoreCompletionHandler*
 class CORDL_TYPE __PlatformLeaderboardsModel__UploadScoreCompletionHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
   static inline ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor addr 0x21d7c48 size 0xc4 virtual false final false
+  /// @brief Method .ctor, addr 0x232893c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
-  /// @brief Method Invoke addr 0x21dad40 size 0x14 virtual true final false
+  /// @brief Method Invoke, addr 0x232ba34, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult result);
 
-  /// @brief Method BeginInvoke addr 0x21dad54 size 0x84 virtual true final false
+  /// @brief Method BeginInvoke, addr 0x232ba48, size 0x84, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreResult result, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke addr 0x21dadd8 size 0xc virtual true final false
+  /// @brief Method EndInvoke, addr 0x232bacc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformLeaderboardsModel__UploadScoreCompletionHandler", modifiers: "&&", def_value: None }]
@@ -443,8 +443,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeade
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4266))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4233))
 // CS Name: ::PlatformLeaderboardsModel::LeaderboardScore*
 class CORDL_TYPE __PlatformLeaderboardsModel__LeaderboardScore : public ::System::Object {
 public:
@@ -491,10 +491,10 @@ public:
   static inline ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* New_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId,
                                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
 
-  /// @brief Method .ctor addr 0x21da1e8 size 0x40 virtual false final false
+  /// @brief Method .ctor, addr 0x232aedc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
 
-  /// @brief Method CompareTo addr 0x21dade4 size 0x28 virtual true final true
+  /// @brief Method CompareTo, addr 0x232bad8, size 0x2c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* other);
 
   // Ctor Parameters [CppParam { name: "", ty: "__PlatformLeaderboardsModel__LeaderboardScore", modifiers: "&&", def_value: None }]
@@ -541,8 +541,8 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__Leaderboa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(4717)), TypeDefinitionIndex(TypeDefinitionIndex(3389)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3389), inst: 405 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4267)) CS Name:
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15996)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
 // ::PlatformLeaderboardsModel::<Initialize>d__19
 struct CORDL_TYPE __PlatformLeaderboardsModel___Initialize_d__19 {
 public:
@@ -550,10 +550,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext addr 0x21dae0c size 0x328 virtual true final true
+  /// @brief Method MoveNext, addr 0x232bb04, size 0x364, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine addr 0x21db134 size 0xc virtual true final true
+  /// @brief Method SetStateMachine, addr 0x232be68, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
@@ -600,8 +600,8 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel___Initiali
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4268))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4227))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4235))
 // CS Name: ::PlatformLeaderboardsModel*
 class CORDL_TYPE PlatformLeaderboardsModel : public ::UnityEngine::MonoBehaviour {
 public:
@@ -687,58 +687,58 @@ public:
 
   constexpr void __set__playerId(::StringW value);
 
-  /// @brief Method add_allScoresDidUploadEvent addr 0x21da380 size 0x9c virtual false final false
+  /// @brief Method add_allScoresDidUploadEvent, addr 0x232b074, size 0x9c, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method remove_allScoresDidUploadEvent addr 0x21da41c size 0x9c virtual false final false
+  /// @brief Method remove_allScoresDidUploadEvent, addr 0x232b110, size 0x9c, virtual false, abstract: false, final false
   inline void remove_allScoresDidUploadEvent(::System::Action* value);
 
-  /// @brief Method get_initialized addr 0x21da4b8 size 0x28 virtual false final false
+  /// @brief Method get_initialized, addr 0x232b1ac, size 0x28, virtual false, abstract: false, final false
   inline bool get_initialized();
 
-  /// @brief Method OnDestroy addr 0x21da574 size 0x1ac virtual false final false
+  /// @brief Method OnDestroy, addr 0x232b268, size 0x1ac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Initialize addr 0x21da4e0 size 0x94 virtual false final false
+  /// @brief Method Initialize, addr 0x232b1d4, size 0x94, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeForUserInfo addr 0x21da720 size 0x19c virtual false final false
+  /// @brief Method InitializeForUserInfo, addr 0x232b414, size 0x19c, virtual false, abstract: false, final false
   inline void InitializeForUserInfo(::GlobalNamespace::UserInfo* newInfo);
 
-  /// @brief Method HandlePlatformUserInfoDidChange addr 0x21da8bc size 0x4 virtual false final false
+  /// @brief Method HandlePlatformUserInfoDidChange, addr 0x232b5b0, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlatformUserInfoDidChange(::GlobalNamespace::UserInfo* newInfo);
 
-  /// @brief Method UploadScore addr 0x21da8c0 size 0x80 virtual false final false
+  /// @brief Method UploadScore, addr 0x232b5b4, size 0x80, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method GetScores addr 0x21da940 size 0xbc virtual false final false
+  /// @brief Method GetScores, addr 0x232b634, size 0xbc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope scope,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method HandleAllScoresDidUpload addr 0x21da9fc size 0x1c virtual false final false
+  /// @brief Method HandleAllScoresDidUpload, addr 0x232b6f0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAllScoresDidUpload();
 
-  /// @brief Method GetScores addr 0x21daa18 size 0xc virtual false final false
+  /// @brief Method GetScores, addr 0x232b70c, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
                                                       ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method GetScoresAroundPlayer addr 0x21daa24 size 0x10 virtual false final false
+  /// @brief Method GetScoresAroundPlayer, addr 0x232b718, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScoresAroundPlayer(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count,
                                                                   ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method GetFriendsScores addr 0x21daa34 size 0xc virtual false final false
+  /// @brief Method GetFriendsScores, addr 0x232b728, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetFriendsScores(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t count, int32_t fromRank,
                                                              ::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresCompletionHandler* completionHandler);
 
-  /// @brief Method UploadScore addr 0x21daa40 size 0x15c virtual false final false
+  /// @brief Method UploadScore, addr 0x232b734, size 0x15c, virtual false, abstract: false, final false
   inline void UploadScore(::GlobalNamespace::IDifficultyBeatmap* beatmap, int32_t multipliedScore, int32_t modifiedScore, int32_t maxPossibleMultipliedScore, bool fullCombo, int32_t goodCutsCount,
                           int32_t badCutsCount, int32_t missedCount, int32_t maxCombo, float_t energy, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::PlatformLeaderboardsModel* New_ctor();
 
-  /// @brief Method .ctor addr 0x21dab9c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x232b890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "PlatformLeaderboardsModel", modifiers: "&&", def_value: None }]

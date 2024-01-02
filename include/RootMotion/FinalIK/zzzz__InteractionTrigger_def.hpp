@@ -19,19 +19,19 @@ namespace RootMotion::FinalIK {
 struct FullBodyBipedEffector;
 }
 namespace RootMotion::FinalIK {
-class __InteractionTrigger__Range;
+class __InteractionTrigger__CameraPosition;
 }
 namespace UnityEngine {
 class Transform;
+}
+namespace RootMotion::FinalIK {
+class __InteractionTrigger__CharacterPosition;
 }
 namespace UnityEngine {
 struct RaycastHit;
 }
 namespace RootMotion::FinalIK {
-class __InteractionTrigger__CameraPosition;
-}
-namespace RootMotion::FinalIK {
-class __InteractionTrigger__CharacterPosition;
+class __InteractionTrigger__Range;
 }
 namespace UnityEngine {
 class Collider;
@@ -71,8 +71,8 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionTrigger__Range);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12537))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12609))
 // CS Name: ::InteractionTrigger::CharacterPosition*
 class CORDL_TYPE __InteractionTrigger__CharacterPosition : public ::System::Object {
 public:
@@ -144,18 +144,18 @@ public:
 
   constexpr void __set_fixYAxis(bool value);
 
-  /// @brief Method get_offset3D addr 0x121a6ec size 0xc virtual false final false
+  /// @brief Method get_offset3D, addr 0x128ba18, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_offset3D();
 
-  /// @brief Method get_direction3D addr 0x121a6f8 size 0xc0 virtual false final false
+  /// @brief Method get_direction3D, addr 0x128ba24, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_direction3D();
 
-  /// @brief Method IsInRange addr 0x121a7b8 size 0x764 virtual false final false
+  /// @brief Method IsInRange, addr 0x128bae4, size 0x764, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CharacterPosition* New_ctor();
 
-  /// @brief Method .ctor addr 0x121af1c size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x128c248, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__CharacterPosition", modifiers: "&&", def_value: None }]
@@ -217,8 +217,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__CharacterPos
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(10176))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12538))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12610))
 // CS Name: ::InteractionTrigger::CameraPosition*
 class CORDL_TYPE __InteractionTrigger__CameraPosition : public ::System::Object {
 public:
@@ -268,15 +268,15 @@ public:
 
   constexpr void __set_fixYAxis(bool value);
 
-  /// @brief Method GetRotation addr 0x121af30 size 0x178 virtual false final false
+  /// @brief Method GetRotation, addr 0x128c25c, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsInRange addr 0x121b0a8 size 0x308 virtual false final false
+  /// @brief Method IsInRange, addr 0x128c3d4, size 0x308, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit hit, ::UnityEngine::Transform* trigger, ByRef<float_t> error);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__CameraPosition* New_ctor();
 
-  /// @brief Method .ctor addr 0x121b3b0 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x128c6dc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__CameraPosition", modifiers: "&&", def_value: None }]
@@ -328,8 +328,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__CameraPositi
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12539))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12611))
 // CS Name: ::InteractionTrigger::Range::Interaction*
 class CORDL_TYPE __InteractionTrigger__Range__Interaction : public ::System::Object {
 public:
@@ -354,7 +354,7 @@ public:
 
   static inline ::GlobalNamespace::__InteractionTrigger__Range__Interaction* New_ctor();
 
-  /// @brief Method .ctor addr 0x121b434 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x128c760, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__Range__Interaction", modifiers: "&&", def_value: None }]
@@ -391,8 +391,8 @@ static_assert(offsetof(::GlobalNamespace::__InteractionTrigger__Range__Interacti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12540))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12612))
 // CS Name: ::InteractionTrigger::Range*
 class CORDL_TYPE __InteractionTrigger__Range : public ::System::Object {
 public:
@@ -446,12 +446,12 @@ public:
 
   constexpr void __set_interactions(::ArrayW<::GlobalNamespace::__InteractionTrigger__Range__Interaction*, ::Array<::GlobalNamespace::__InteractionTrigger__Range__Interaction*>*> value);
 
-  /// @brief Method IsInRange addr 0x121a5e4 size 0xb0 virtual false final false
+  /// @brief Method IsInRange, addr 0x128b910, size 0xb0, virtual false, abstract: false, final false
   inline bool IsInRange(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit, ::UnityEngine::Transform* trigger, ByRef<float_t> maxError);
 
   static inline ::RootMotion::FinalIK::__InteractionTrigger__Range* New_ctor();
 
-  /// @brief Method .ctor addr 0x121b424 size 0x10 virtual false final false
+  /// @brief Method .ctor, addr 0x128c750, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__InteractionTrigger__Range", modifiers: "&&", def_value: None }]
@@ -503,8 +503,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTrigger__Range, ___in
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12541))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12613))
 // CS Name: ::RootMotion.FinalIK::InteractionTrigger*
 class CORDL_TYPE InteractionTrigger : public ::UnityEngine::MonoBehaviour {
 public:
@@ -524,30 +524,30 @@ public:
 
   constexpr void __set_ranges(::ArrayW<::RootMotion::FinalIK::__InteractionTrigger__Range*, ::Array<::RootMotion::FinalIK::__InteractionTrigger__Range*>*> value);
 
-  /// @brief Method OpenUserManual addr 0x121a48c size 0x44 virtual false final false
+  /// @brief Method OpenUserManual, addr 0x128b7b8, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
 
-  /// @brief Method OpenScriptReference addr 0x121a4d0 size 0x44 virtual false final false
+  /// @brief Method OpenScriptReference, addr 0x128b7fc, size 0x44, virtual false, abstract: false, final false
   inline void OpenScriptReference();
 
-  /// @brief Method OpenTutorial4 addr 0x121a514 size 0x44 virtual false final false
+  /// @brief Method OpenTutorial4, addr 0x128b840, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial4();
 
-  /// @brief Method SupportGroup addr 0x121a558 size 0x44 virtual false final false
+  /// @brief Method SupportGroup, addr 0x128b884, size 0x44, virtual false, abstract: false, final false
   inline void SupportGroup();
 
-  /// @brief Method ASThread addr 0x121a59c size 0x44 virtual false final false
+  /// @brief Method ASThread, addr 0x128b8c8, size 0x44, virtual false, abstract: false, final false
   inline void ASThread();
 
-  /// @brief Method Start addr 0x121a5e0 size 0x4 virtual false final false
+  /// @brief Method Start, addr 0x128b90c, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method GetBestRangeIndex addr 0x1218f24 size 0x1b4 virtual false final false
+  /// @brief Method GetBestRangeIndex, addr 0x128a250, size 0x1b4, virtual false, abstract: false, final false
   inline int32_t GetBestRangeIndex(::UnityEngine::Transform* character, ::UnityEngine::Transform* raycastFrom, ::UnityEngine::RaycastHit raycastHit);
 
   static inline ::RootMotion::FinalIK::InteractionTrigger* New_ctor();
 
-  /// @brief Method .ctor addr 0x121a694 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x128b9c0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "InteractionTrigger", modifiers: "&&", def_value: None }]

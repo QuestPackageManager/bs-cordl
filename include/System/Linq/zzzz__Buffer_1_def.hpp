@@ -22,15 +22,15 @@ namespace System::Linq {
 template <typename TElement>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14633))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
 // CS Name: ::System.Linq::Buffer`1<TElement>
 struct CORDL_TYPE Buffer_1 {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source);
 
-  /// @brief Method ToArray addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<TElement, ::Array<TElement>*> ToArray();
 
   // Ctor Parameters [CppParam { name: "items", ty: "::ArrayW<TElement,::Array<TElement>*>", modifiers: "", def_value: None }, CppParam { name: "count", ty: "int32_t", modifiers: "", def_value: None

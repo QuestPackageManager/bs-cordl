@@ -5,10 +5,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IRemotingTypeInfo)
 namespace System {
-class Type;
+class Object;
 }
 namespace System {
-class Object;
+class Type;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::IRemotingTypeInfo);
 namespace System::Runtime::Remoting {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3058))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3059))
 // CS Name: ::System.Runtime.Remoting::IRemotingTypeInfo*
 class CORDL_TYPE IRemotingTypeInfo {
 public:
   // Declarations
   __declspec(property(get = get_TypeName))::StringW TypeName;
 
-  /// @brief Method get_TypeName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_TypeName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_TypeName();
 
-  /// @brief Method CanCastTo addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method CanCastTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "IRemotingTypeInfo", modifiers: "&&", def_value: None }]

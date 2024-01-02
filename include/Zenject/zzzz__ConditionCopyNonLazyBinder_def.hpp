@@ -6,41 +6,41 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__CopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(ConditionCopyNonLazyBinder)
-namespace Zenject {
-class BindInfo;
+namespace System {
+class Type;
 }
 namespace Zenject {
-class BindingCondition;
+class __ConditionCopyNonLazyBinder____c__DisplayClass3_0;
+}
+namespace Zenject {
+template <typename T> class __ConditionCopyNonLazyBinder____c__5_1;
 }
 namespace Zenject {
 template <typename T> class __ConditionCopyNonLazyBinder____c__4_1;
 }
 namespace Zenject {
-template <typename T> class __ConditionCopyNonLazyBinder____c__5_1;
-}
-namespace System {
-class Object;
-}
-namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass3_0;
-}
-namespace System {
-class Type;
-}
-namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass2_0;
+class BindingCondition;
 }
 namespace Zenject {
 class CopyNonLazyBinder;
 }
 namespace Zenject {
-class __ConditionCopyNonLazyBinder____c__DisplayClass3_1;
+class __ConditionCopyNonLazyBinder____c__DisplayClass2_0;
 }
 namespace Zenject {
-class InjectContext;
+class BindInfo;
+}
+namespace Zenject {
+class __ConditionCopyNonLazyBinder____c__DisplayClass3_1;
+}
+namespace System {
+class Object;
 }
 namespace Zenject {
 class InjectTypeInfo;
+}
+namespace Zenject {
+class InjectContext;
 }
 // Forward declare root types
 namespace Zenject {
@@ -72,8 +72,8 @@ MARK_REF_PTR_T(::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass3_1);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10604))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10676))
 // CS Name: ::ConditionCopyNonLazyBinder::<>c__DisplayClass2_0*
 class CORDL_TYPE __ConditionCopyNonLazyBinder____c__DisplayClass2_0 : public ::System::Object {
 public:
@@ -89,16 +89,16 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d5f780 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec7500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WhenInjectedIntoInstance>b__0 addr 0x2d5f854 size 0x24 virtual false final false
+  /// @brief Method <WhenInjectedIntoInstance>b__0, addr 0x2ec75d4, size 0x24, virtual false, abstract: false, final false
   inline bool _WhenInjectedIntoInstance_b__0(::Zenject::InjectContext* r);
 
-  /// @brief Method __zenCreate addr 0x2d5f878 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ec75f8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d5f8d4 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec7654, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionCopyNonLazyBinder____c__DisplayClass2_0", modifiers: "&&", def_value: None }]
@@ -130,8 +130,8 @@ static_assert(offsetof(::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClas
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10605))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10677))
 // CS Name: ::ConditionCopyNonLazyBinder::<>c__DisplayClass3_0*
 class CORDL_TYPE __ConditionCopyNonLazyBinder____c__DisplayClass3_0 : public ::System::Object {
 public:
@@ -147,16 +147,16 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d5f84c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec75cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WhenInjectedInto>b__0 addr 0x2d5fa94 size 0xf4 virtual false final false
+  /// @brief Method <WhenInjectedInto>b__0, addr 0x2ec7814, size 0xf4, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__0(::Zenject::InjectContext* r);
 
-  /// @brief Method __zenCreate addr 0x2d5fb90 size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ec7910, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d5fbec size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec796c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionCopyNonLazyBinder____c__DisplayClass3_0", modifiers: "&&", def_value: None }]
@@ -188,8 +188,8 @@ static_assert(offsetof(::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClas
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10606))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10678))
 // CS Name: ::ConditionCopyNonLazyBinder::<>c__DisplayClass3_1*
 class CORDL_TYPE __ConditionCopyNonLazyBinder____c__DisplayClass3_1 : public ::System::Object {
 public:
@@ -205,16 +205,16 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__DisplayClass3_1* New_ctor();
 
-  /// @brief Method .ctor addr 0x2d5fb88 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec7908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WhenInjectedInto>b__1 addr 0x2d5fdac size 0xc0 virtual false final false
+  /// @brief Method <WhenInjectedInto>b__1, addr 0x2ec7b2c, size 0xc0, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__1(::System::Type* x);
 
-  /// @brief Method __zenCreate addr 0x2d5fe6c size 0x5c virtual false final false
+  /// @brief Method __zenCreate, addr 0x2ec7bec, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x2d5fec8 size 0x1c0 virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x2ec7c48, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionCopyNonLazyBinder____c__DisplayClass3_1", modifiers: "&&", def_value: None }]
@@ -248,8 +248,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10607))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10679))
 // CS Name: ::ConditionCopyNonLazyBinder::<>c__4`1<T>*
 class CORDL_TYPE __ConditionCopyNonLazyBinder____c__4_1 : public ::System::Object {
 public:
@@ -270,16 +270,16 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__4_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WhenInjectedInto>b__4_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <WhenInjectedInto>b__4_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _WhenInjectedInto_b__4_0(::Zenject::InjectContext* r);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionCopyNonLazyBinder____c__4_1", modifiers: "&&", def_value: None }]
@@ -306,8 +306,8 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10608))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10680))
 // CS Name: ::ConditionCopyNonLazyBinder::<>c__5`1<T>*
 class CORDL_TYPE __ConditionCopyNonLazyBinder____c__5_1 : public ::System::Object {
 public:
@@ -328,16 +328,16 @@ public:
 
   static inline ::Zenject::__ConditionCopyNonLazyBinder____c__5_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <WhenNotInjectedInto>b__5_0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method <WhenNotInjectedInto>b__5_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool _WhenNotInjectedInto_b__5_0(::Zenject::InjectContext* r);
 
-  /// @brief Method __zenCreate addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
   // Ctor Parameters [CppParam { name: "", ty: "__ConditionCopyNonLazyBinder____c__5_1", modifiers: "&&", def_value: None }]
@@ -362,8 +362,8 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10629))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10609))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10701))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10681))
 // CS Name: ::Zenject::ConditionCopyNonLazyBinder*
 class CORDL_TYPE ConditionCopyNonLazyBinder : public ::Zenject::CopyNonLazyBinder {
 public:
@@ -380,22 +380,22 @@ public:
 
   static inline ::Zenject::ConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor addr 0x2d5f690 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2ec7410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method When addr 0x2d5f6a0 size 0x1c virtual false final false
+  /// @brief Method When, addr 0x2ec7420, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* When(::Zenject::BindingCondition* condition);
 
-  /// @brief Method WhenInjectedIntoInstance addr 0x2d5f6bc size 0xc4 virtual false final false
+  /// @brief Method WhenInjectedIntoInstance, addr 0x2ec743c, size 0xc4, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedIntoInstance(::System::Object* instance);
 
-  /// @brief Method WhenInjectedInto addr 0x2d5f788 size 0xc4 virtual false final false
+  /// @brief Method WhenInjectedInto, addr 0x2ec7508, size 0xc4, virtual false, abstract: false, final false
   inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto(::ArrayW<::System::Type*, ::Array<::System::Type*>*> targets);
 
-  /// @brief Method WhenInjectedInto addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WhenInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenInjectedInto();
 
-  /// @brief Method WhenNotInjectedInto addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method WhenNotInjectedInto, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::CopyNonLazyBinder* WhenNotInjectedInto();
 
   // Ctor Parameters [CppParam { name: "", ty: "ConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]

@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Xml::Schema::XsdDateTimeFlags);
 namespace System::Xml::Schema {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11687))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11759))
 // CS Name: ::System.Xml.Schema::XsdDateTimeFlags
 struct CORDL_TYPE XsdDateTimeFlags {
 public:

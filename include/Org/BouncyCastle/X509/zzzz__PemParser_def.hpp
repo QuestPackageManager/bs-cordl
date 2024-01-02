@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::PemParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1855))
 // CS Name: ::Org.BouncyCastle.X509::PemParser*
 class CORDL_TYPE PemParser : public ::System::Object {
@@ -65,13 +65,13 @@ public:
 
   static inline ::Org::BouncyCastle::X509::PemParser* New_ctor(::StringW type);
 
-  /// @brief Method .ctor addr 0x1104840 size 0x118 virtual false final false
+  /// @brief Method .ctor, addr 0x1174a88, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::StringW type);
 
-  /// @brief Method ReadLine addr 0x1104958 size 0xd0 virtual false final false
+  /// @brief Method ReadLine, addr 0x1174ba0, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW ReadLine(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadPemObject addr 0x1104a28 size 0x214 virtual false final false
+  /// @brief Method ReadPemObject, addr 0x1174c70, size 0x214, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Sequence* ReadPemObject(::System::IO::Stream* inStream);
 
   // Ctor Parameters [CppParam { name: "", ty: "PemParser", modifiers: "&&", def_value: None }]

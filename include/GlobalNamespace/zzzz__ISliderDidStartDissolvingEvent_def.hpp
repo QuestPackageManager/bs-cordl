@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISliderDidStartDissolvingEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4803))
 // CS Name: ::ISliderDidStartDissolvingEvent*
 class CORDL_TYPE ISliderDidStartDissolvingEvent {
 public:
   // Declarations
-  /// @brief Method HandleSliderDidStartDissolving addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleSliderDidStartDissolving, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleSliderDidStartDissolving(::GlobalNamespace::SliderController* sliderController, float_t duration);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISliderDidStartDissolvingEvent", modifiers: "&&", def_value: None }]

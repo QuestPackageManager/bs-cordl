@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::System::NonSerializedAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2442))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2444))
 // CS Name: ::System::NonSerializedAttribute*
 class CORDL_TYPE NonSerializedAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::System::NonSerializedAttribute* New_ctor();
 
-  /// @brief Method .ctor addr 0x2453f18 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x25afe64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "NonSerializedAttribute", modifiers: "&&", def_value: None }]

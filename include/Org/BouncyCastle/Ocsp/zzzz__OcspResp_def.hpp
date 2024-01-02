@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OcspResp)
-namespace Org::BouncyCastle::Asn1 {
-class Asn1InputStream;
+namespace Org::BouncyCastle::Asn1::Ocsp {
+class OcspResponse;
 }
 namespace System {
 class Object;
 }
-namespace Org::BouncyCastle::Asn1::Ocsp {
-class OcspResponse;
+namespace Org::BouncyCastle::Asn1 {
+class Asn1InputStream;
 }
 namespace System::IO {
 class Stream;
@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspResp);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1616))
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspResp*
 class CORDL_TYPE OcspResp : public ::System::Object {
@@ -47,37 +47,37 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
-  /// @brief Method .ctor addr 0x1030ad0 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x10a1d20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
-  /// @brief Method .ctor addr 0x1030af8 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x10a1d48, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor addr 0x1030ca4 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x10a1ef4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method .ctor addr 0x1030b6c size 0x138 virtual false final false
+  /// @brief Method .ctor, addr 0x10a1dbc, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method get_Status addr 0x1030d18 size 0x24 virtual false final false
+  /// @brief Method get_Status, addr 0x10a1f68, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
-  /// @brief Method GetResponseObject addr 0x1030d3c size 0x1d4 virtual false final false
+  /// @brief Method GetResponseObject, addr 0x10a1f8c, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::Object* GetResponseObject();
 
-  /// @brief Method GetEncoded addr 0x1030f10 size 0x1c virtual false final false
+  /// @brief Method GetEncoded, addr 0x10a2160, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method Equals addr 0x1030f2c size 0xb0 virtual true final false
+  /// @brief Method Equals, addr 0x10a217c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x1030fdc size 0x1c virtual true final false
+  /// @brief Method GetHashCode, addr 0x10a222c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "OcspResp", modifiers: "&&", def_value: None }]

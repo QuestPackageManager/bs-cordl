@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::MotionVectorGenerationMode);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10053))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10125))
 // CS Name: ::UnityEngine::MotionVectorGenerationMode
 struct CORDL_TYPE MotionVectorGenerationMode {
 public:

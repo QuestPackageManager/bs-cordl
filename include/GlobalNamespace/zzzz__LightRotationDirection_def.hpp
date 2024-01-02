@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::LightRotationDirection);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14736))
 // CS Name: ::LightRotationDirection
 struct CORDL_TYPE LightRotationDirection {
 public:

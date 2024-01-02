@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(XsdSimpleValue)
-namespace System::Xml::Schema {
-class XmlSchemaSimpleType;
-}
 namespace System {
 class Object;
+}
+namespace System::Xml::Schema {
+class XmlSchemaSimpleType;
 }
 // Forward declare root types
 namespace System::Xml::Schema {
@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::System::Xml::Schema::XsdSimpleValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11544))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11616))
 // CS Name: ::System.Xml.Schema::XsdSimpleValue*
 class CORDL_TYPE XsdSimpleValue : public ::System::Object {
 public:
@@ -48,10 +48,10 @@ public:
 
   constexpr void __set_typedValue(::System::Object* value);
 
-  /// @brief Method get_XmlType addr 0x2733d04 size 0x8 virtual false final false
+  /// @brief Method get_XmlType, addr 0x28b0d28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
-  /// @brief Method get_TypedValue addr 0x2733d0c size 0x8 virtual false final false
+  /// @brief Method get_TypedValue, addr 0x28b0d30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
   // Ctor Parameters [CppParam { name: "", ty: "XsdSimpleValue", modifiers: "&&", def_value: None }]

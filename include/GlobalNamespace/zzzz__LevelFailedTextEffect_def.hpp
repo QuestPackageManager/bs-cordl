@@ -17,8 +17,8 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelFailedTextEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4983))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4865))
 // CS Name: ::LevelFailedTextEffect*
 class CORDL_TYPE LevelFailedTextEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -32,12 +32,12 @@ public:
 
   constexpr void __set__animator(::UnityEngine::Animator* value);
 
-  /// @brief Method ShowEffect addr 0x2265300 size 0x3c virtual false final false
+  /// @brief Method ShowEffect, addr 0x239a248, size 0x3c, virtual false, abstract: false, final false
   inline void ShowEffect();
 
   static inline ::GlobalNamespace::LevelFailedTextEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x226533c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x239a284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LevelFailedTextEffect", modifiers: "&&", def_value: None }]

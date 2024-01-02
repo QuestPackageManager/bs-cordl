@@ -20,7 +20,7 @@ namespace Org::BouncyCastle::OpenSsl {
 class CORDL_TYPE IPasswordFinder {
 public:
   // Declarations
-  /// @brief Method GetPassword addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetPassword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::ArrayW<char16_t, ::Array<char16_t>*> GetPassword();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPasswordFinder", modifiers: "&&", def_value: None }]

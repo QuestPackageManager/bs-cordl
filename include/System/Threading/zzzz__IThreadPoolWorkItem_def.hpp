@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::System::Threading::IThreadPoolWorkItem);
 namespace System::Threading {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2725))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2727))
 // CS Name: ::System.Threading::IThreadPoolWorkItem*
 class CORDL_TYPE IThreadPoolWorkItem {
 public:
   // Declarations
-  /// @brief Method ExecuteWorkItem addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ExecuteWorkItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ExecuteWorkItem();
 
-  /// @brief Method MarkAborted addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method MarkAborted, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   // Ctor Parameters [CppParam { name: "", ty: "IThreadPoolWorkItem", modifiers: "&&", def_value: None }]

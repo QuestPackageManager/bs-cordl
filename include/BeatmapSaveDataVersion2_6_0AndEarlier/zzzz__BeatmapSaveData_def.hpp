@@ -15,28 +15,31 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BeatmapSaveData)
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__NoteData;
+struct __BeatmapSaveData__BeatmapEventType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 class __BeatmapSaveData__ObstacleData;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__BeatmapEventType;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__ObstacleType;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__ColorType;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__SpecialEventsForKeyword;
-}
-namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__SpecialEventKeywordFiltersData;
+class __BeatmapSaveData__EventData;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class HashSet_1;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct __BeatmapSaveData__SliderType;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class __BeatmapSaveData__WaypointData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+class __BeatmapSaveData__NoteData;
+}
+namespace BeatmapSaveDataVersion2_6_0AndEarlier {
+struct __BeatmapSaveData__BeatmapObjectType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 struct __BeatmapSaveData__NoteType;
@@ -45,19 +48,16 @@ namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 class __BeatmapSaveData__SliderData;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__SliderType;
+struct __BeatmapSaveData__ColorType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__EventData;
+struct __BeatmapSaveData__ObstacleType;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-class __BeatmapSaveData__WaypointData;
+class __BeatmapSaveData__SpecialEventsForKeyword;
 }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
-struct __BeatmapSaveData__BeatmapObjectType;
-}
-namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+class __BeatmapSaveData__SpecialEventKeywordFiltersData;
 }
 namespace GlobalNamespace {
 struct NoteCutDirection;
@@ -134,7 +134,7 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__Waypo
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15034))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14829))
 // CS Name: ::BeatmapSaveData::BeatmapEventType
 struct CORDL_TYPE __BeatmapSaveData__BeatmapEventType {
 public:
@@ -271,8 +271,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(15048))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15035))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14829))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14830))
 // CS Name: ::BeatmapSaveData::EventData*
 class CORDL_TYPE __BeatmapSaveData__EventData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
@@ -321,22 +321,22 @@ public:
 
   constexpr void __set__floatValue(float_t value);
 
-  /// @brief Method get_time addr 0xda2f20 size 0x8 virtual true final false
+  /// @brief Method get_time, addr 0xe08e5c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type addr 0xda2f28 size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0xe08e64, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType get_type();
 
-  /// @brief Method get_value addr 0xda2f30 size 0x8 virtual false final false
+  /// @brief Method get_value, addr 0xe08e6c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method get_floatValue addr 0xda2f38 size 0x8 virtual false final false
+  /// @brief Method get_floatValue, addr 0xe08e74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData* New_ctor(float_t time, ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType type,
                                                                                                 int32_t value, float_t floatValue);
 
-  /// @brief Method .ctor addr 0xda2e18 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0xe08d54, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType type, int32_t value, float_t floatValue);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveData__EventData", modifiers: "&&", def_value: None }]
@@ -384,7 +384,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15036))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14831))
 // CS Name: ::BeatmapSaveData::BeatmapObjectType
 struct CORDL_TYPE __BeatmapSaveData__BeatmapObjectType {
 public:
@@ -438,7 +438,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15037))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14832))
 // CS Name: ::BeatmapSaveData::NoteType
 struct CORDL_TYPE __BeatmapSaveData__NoteType {
 public:
@@ -500,7 +500,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15038))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14833))
 // CS Name: ::BeatmapSaveData::ColorType
 struct CORDL_TYPE __BeatmapSaveData__ColorType {
 public:
@@ -554,7 +554,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15039))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14834))
 // CS Name: ::BeatmapSaveData::SliderType
 struct CORDL_TYPE __BeatmapSaveData__SliderType {
 public:
@@ -603,8 +603,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15048)), TypeDefinitionIndex(TypeDefinitionIndex(15037)), TypeDefinitionIndex(TypeDefinitionIndex(14968)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14973))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15040)) CS Name: ::BeatmapSaveData::NoteData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14832)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14843))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14835)) CS Name: ::BeatmapSaveData::NoteData*
 class CORDL_TYPE __BeatmapSaveData__NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -663,26 +663,26 @@ public:
 
   constexpr void __set__cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  /// @brief Method get_time addr 0xda2f48 size 0x8 virtual true final false
+  /// @brief Method get_time, addr 0xe08e84, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_lineIndex addr 0xda2f50 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex, addr 0xe08e8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer addr 0xda2f58 size 0x8 virtual false final false
+  /// @brief Method get_lineLayer, addr 0xe08e94, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_type addr 0xda2f60 size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0xe08e9c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType get_type();
 
-  /// @brief Method get_cutDirection addr 0xda2f68 size 0x8 virtual false final false
+  /// @brief Method get_cutDirection, addr 0xe08ea4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_cutDirection();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                                                                ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType type,
                                                                                                ::GlobalNamespace::NoteCutDirection cutDirection);
 
-  /// @brief Method .ctor addr 0xda2f70 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0xe08eac, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType type,
                     ::GlobalNamespace::NoteCutDirection cutDirection);
 
@@ -735,8 +735,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(14975)), TypeDefinitionIndex(TypeDefinitionIndex(15048))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15041))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14843))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14836))
 // CS Name: ::BeatmapSaveData::WaypointData*
 class CORDL_TYPE __BeatmapSaveData__WaypointData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
@@ -785,22 +785,22 @@ public:
 
   constexpr void __set__offsetDirection(::GlobalNamespace::OffsetDirection value);
 
-  /// @brief Method get_time addr 0xda2fc0 size 0x8 virtual true final false
+  /// @brief Method get_time, addr 0xe08efc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_lineIndex addr 0xda2fc8 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex, addr 0xe08f04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer addr 0xda2fd0 size 0x8 virtual false final false
+  /// @brief Method get_lineLayer, addr 0xe08f0c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_offsetDirection addr 0xda2fd8 size 0x8 virtual false final false
+  /// @brief Method get_offsetDirection, addr 0xe08f14, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData* New_ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer,
                                                                                                    ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method .ctor addr 0xda2fe0 size 0x4c virtual false final false
+  /// @brief Method .ctor, addr 0xe08f1c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, ::GlobalNamespace::OffsetDirection offsetDirection);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveData__WaypointData", modifiers: "&&", def_value: None }]
@@ -847,8 +847,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15038)), TypeDefinitionIndex(TypeDefinitionIndex(15048)), TypeDefinitionIndex(TypeDefinitionIndex(14979)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14973)), TypeDefinitionIndex(TypeDefinitionIndex(14968))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15042)) CS Name: ::BeatmapSaveData::SliderData*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14833)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::BeatmapSaveData::SliderData*
 class CORDL_TYPE __BeatmapSaveData__SliderData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
@@ -984,40 +984,40 @@ public:
 
   constexpr void __set__sliderMidAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
 
-  /// @brief Method get_time addr 0xda302c size 0x8 virtual true final false
+  /// @brief Method get_time, addr 0xe08f68, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_colorType addr 0xda3034 size 0x8 virtual false final false
+  /// @brief Method get_colorType, addr 0xe08f70, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType get_colorType();
 
-  /// @brief Method get_headLineIndex addr 0xda303c size 0x8 virtual false final false
+  /// @brief Method get_headLineIndex, addr 0xe08f78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLineIndex();
 
-  /// @brief Method get_headLineLayer addr 0xda3044 size 0x8 virtual false final false
+  /// @brief Method get_headLineLayer, addr 0xe08f80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_headLineLayer();
 
-  /// @brief Method get_headControlPointLengthMultiplier addr 0xda304c size 0x8 virtual false final false
+  /// @brief Method get_headControlPointLengthMultiplier, addr 0xe08f88, size 0x8, virtual false, abstract: false, final false
   inline float_t get_headControlPointLengthMultiplier();
 
-  /// @brief Method get_headCutDirection addr 0xda3054 size 0x8 virtual false final false
+  /// @brief Method get_headCutDirection, addr 0xe08f90, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_headCutDirection();
 
-  /// @brief Method get_tailTime addr 0xda305c size 0x8 virtual false final false
+  /// @brief Method get_tailTime, addr 0xe08f98, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailTime();
 
-  /// @brief Method get_tailLineIndex addr 0xda3064 size 0x8 virtual false final false
+  /// @brief Method get_tailLineIndex, addr 0xe08fa0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLineIndex();
 
-  /// @brief Method get_tailLineLayer addr 0xda306c size 0x8 virtual false final false
+  /// @brief Method get_tailLineLayer, addr 0xe08fa8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_tailLineLayer();
 
-  /// @brief Method get_tailControlPointLengthMultiplier addr 0xda3074 size 0x8 virtual false final false
+  /// @brief Method get_tailControlPointLengthMultiplier, addr 0xe08fb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailControlPointLengthMultiplier();
 
-  /// @brief Method get_tailCutDirection addr 0xda307c size 0x8 virtual false final false
+  /// @brief Method get_tailCutDirection, addr 0xe08fb8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteCutDirection get_tailCutDirection();
 
-  /// @brief Method get_sliderMidAnchorMode addr 0xda3084 size 0x8 virtual false final false
+  /// @brief Method get_sliderMidAnchorMode, addr 0xe08fc0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SliderMidAnchorMode get_sliderMidAnchorMode();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*
@@ -1025,7 +1025,7 @@ public:
            float_t headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailLineLayer,
            float_t tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection, ::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
-  /// @brief Method .ctor addr 0xda308c size 0x9c virtual false final false
+  /// @brief Method .ctor, addr 0xe08fc8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType colorType, float_t headTime, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headLineLayer,
                     float_t headControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection headCutDirection, float_t tailTime, int32_t tailLineIndex,
                     ::GlobalNamespace::NoteLineLayer tailLineLayer, float_t tailControlPointLengthMultiplier, ::GlobalNamespace::NoteCutDirection tailCutDirection,
@@ -1116,7 +1116,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15044))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14839))
 // CS Name: ::BeatmapSaveData::ObstacleType
 struct CORDL_TYPE __BeatmapSaveData__ObstacleType {
 public:
@@ -1169,8 +1169,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15048)), TypeDefinitionIndex(TypeDefinitionIndex(15044))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15043))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14839)), TypeDefinitionIndex(TypeDefinitionIndex(14843))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14838))
 // CS Name: ::BeatmapSaveData::ObstacleData*
 class CORDL_TYPE __BeatmapSaveData__ObstacleData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
@@ -1230,25 +1230,25 @@ public:
 
   constexpr void __set__width(int32_t value);
 
-  /// @brief Method get_time addr 0xda3128 size 0x8 virtual true final false
+  /// @brief Method get_time, addr 0xe09064, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_lineIndex addr 0xda3130 size 0x8 virtual false final false
+  /// @brief Method get_lineIndex, addr 0xe0906c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_type addr 0xda3138 size 0x8 virtual false final false
+  /// @brief Method get_type, addr 0xe09074, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType get_type();
 
-  /// @brief Method get_duration addr 0xda3140 size 0x8 virtual false final false
+  /// @brief Method get_duration, addr 0xe0907c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_width addr 0xda3148 size 0x8 virtual false final false
+  /// @brief Method get_width, addr 0xe09084, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*
   New_ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType type, float_t duration, int32_t width);
 
-  /// @brief Method .ctor addr 0xda3150 size 0x54 virtual false final false
+  /// @brief Method .ctor, addr 0xe0908c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType type, float_t duration, int32_t width);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveData__ObstacleData", modifiers: "&&", def_value: None }]
@@ -1300,8 +1300,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15045))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14840))
 // CS Name: ::BeatmapSaveData::SpecialEventKeywordFiltersData*
 class CORDL_TYPE __BeatmapSaveData__SpecialEventKeywordFiltersData : public ::System::Object {
 public:
@@ -1319,13 +1319,13 @@ public:
 
   constexpr void __set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* value);
 
-  /// @brief Method get_keywords addr 0xda31a4 size 0x8 virtual false final false
+  /// @brief Method get_keywords, addr 0xe090e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* get_keywords();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*
   New_ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* keywords);
 
-  /// @brief Method .ctor addr 0xda31ac size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xe090e8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* keywords);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveData__SpecialEventKeywordFiltersData", modifiers: "&&", def_value: None }]
@@ -1357,8 +1357,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15046))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14841))
 // CS Name: ::BeatmapSaveData::SpecialEventsForKeyword*
 class CORDL_TYPE __BeatmapSaveData__SpecialEventsForKeyword : public ::System::Object {
 public:
@@ -1387,16 +1387,16 @@ public:
 
   constexpr void __set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* value);
 
-  /// @brief Method get_keyword addr 0xda31d4 size 0x8 virtual false final false
+  /// @brief Method get_keyword, addr 0xe09110, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
 
-  /// @brief Method get_specialEvents addr 0xda31dc size 0x8 virtual false final false
+  /// @brief Method get_specialEvents, addr 0xe09118, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* get_specialEvents();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*
   New_ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* specialEvents);
 
-  /// @brief Method .ctor addr 0xda31e4 size 0x2c virtual false final false
+  /// @brief Method .ctor, addr 0xe09120, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW keyword, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* specialEvents);
 
   // Ctor Parameters [CppParam { name: "", ty: "__BeatmapSaveData__SpecialEventsForKeyword", modifiers: "&&", def_value: None }]
@@ -1433,8 +1433,8 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15047))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14829)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14842))
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {
 public:
@@ -1543,25 +1543,25 @@ public:
 
   constexpr void __set__specialEventsKeywordFilters(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* value);
 
-  /// @brief Method get_version addr 0xda29d8 size 0x8 virtual false final false
+  /// @brief Method get_version, addr 0xe08914, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
-  /// @brief Method get_events addr 0xda29e0 size 0x8 virtual false final false
+  /// @brief Method get_events, addr 0xe0891c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* get_events();
 
-  /// @brief Method get_notes addr 0xda29e8 size 0x8 virtual false final false
+  /// @brief Method get_notes, addr 0xe08924, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* get_notes();
 
-  /// @brief Method get_sliders addr 0xda29f0 size 0x8 virtual false final false
+  /// @brief Method get_sliders, addr 0xe0892c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* get_sliders();
 
-  /// @brief Method get_waypoints addr 0xda29f8 size 0x8 virtual false final false
+  /// @brief Method get_waypoints, addr 0xe08934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* get_waypoints();
 
-  /// @brief Method get_obstacles addr 0xda2a00 size 0x8 virtual false final false
+  /// @brief Method get_obstacles, addr 0xe0893c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* get_obstacles();
 
-  /// @brief Method get_specialEventsKeywordFilters addr 0xda2a08 size 0x8 virtual false final false
+  /// @brief Method get_specialEventsKeywordFilters, addr 0xe08944, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* get_specialEventsKeywordFilters();
 
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
@@ -1572,7 +1572,7 @@ public:
            ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* obstacles,
            ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
-  /// @brief Method .ctor addr 0xda2a10 size 0x90 virtual false final false
+  /// @brief Method .ctor, addr 0xe0894c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* events,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* notes,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* sliders,
@@ -1580,16 +1580,16 @@ public:
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* obstacles,
                     ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* specialEventsKeywordFilters);
 
-  /// @brief Method SerializeToJSONString addr 0xda2aa0 size 0x8 virtual false final false
+  /// @brief Method SerializeToJSONString, addr 0xe089dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW SerializeToJSONString();
 
-  /// @brief Method DeserializeFromJSONString addr 0xd9fc0c size 0x1d0 virtual false final false
+  /// @brief Method DeserializeFromJSONString, addr 0xe0562c, size 0x1d0, virtual false, abstract: false, final false
   static inline ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* DeserializeFromJSONString(::StringW stringData);
 
-  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0 addr 0xda2aa8 size 0x370 virtual false final false
+  /// @brief Method ConvertBeatmapSaveDataPreV2_5_0, addr 0xe089e4, size 0x370, virtual false, abstract: false, final false
   static inline void ConvertBeatmapSaveDataPreV2_5_0(::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData* beatmapSaveData);
 
-  /// @brief Method GetSpecialEventTypes addr 0xda2e5c size 0xc4 virtual false final false
+  /// @brief Method GetSpecialEventTypes, addr 0xe08d98, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* GetSpecialEventTypes();
 
   // Ctor Parameters [CppParam { name: "", ty: "BeatmapSaveData", modifiers: "&&", def_value: None }]

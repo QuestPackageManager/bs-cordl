@@ -6,31 +6,31 @@ CORDL_MODULE_INIT
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_def.hpp"
 CORDL_MODULE_EXPORT(TouchControl)
 namespace UnityEngine::InputSystem::Controls {
-class IntegerControl;
+class Vector2Control;
 }
 namespace UnityEngine::InputSystem::Controls {
-class DoubleControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class TouchPressControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class AxisControl;
+class TouchPhaseControl;
 }
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class TouchPhaseControl;
+class IntegerControl;
+}
+namespace UnityEngine::InputSystem::Controls {
+class DoubleControl;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct TouchState;
 }
 namespace UnityEngine::InputSystem::Controls {
+class TouchPressControl;
+}
+namespace UnityEngine::InputSystem::Controls {
 class DeltaControl;
 }
 namespace UnityEngine::InputSystem::Controls {
-class Vector2Control;
+class AxisControl;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::Controls {
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::TouchControl);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6302), inst: 3805 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6600))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6727)) CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
+// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3896 }), TypeDefinitionIndex(TypeDefinitionIndex(6514)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6641)) CS Name: ::UnityEngine.InputSystem.Controls::TouchControl*
 class CORDL_TYPE TouchControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::LowLevel::TouchState> {
 public:
   // Declarations
@@ -181,93 +181,93 @@ public:
 
   constexpr void __set__startPosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_press addr 0x298a980 size 0x8 virtual false final false
+  /// @brief Method get_press, addr 0x2b0b6d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchPressControl* get_press();
 
-  /// @brief Method set_press addr 0x298a988 size 0x8 virtual false final false
+  /// @brief Method set_press, addr 0x2b0b6dc, size 0x8, virtual false, abstract: false, final false
   inline void set_press(::UnityEngine::InputSystem::Controls::TouchPressControl* value);
 
-  /// @brief Method get_touchId addr 0x298a990 size 0x8 virtual false final false
+  /// @brief Method get_touchId, addr 0x2b0b6e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_touchId();
 
-  /// @brief Method set_touchId addr 0x298a998 size 0x8 virtual false final false
+  /// @brief Method set_touchId, addr 0x2b0b6ec, size 0x8, virtual false, abstract: false, final false
   inline void set_touchId(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_position addr 0x298a9a0 size 0x8 virtual false final false
+  /// @brief Method get_position, addr 0x2b0b6f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_position();
 
-  /// @brief Method set_position addr 0x298a9a8 size 0x8 virtual false final false
+  /// @brief Method set_position, addr 0x2b0b6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_delta addr 0x298a9b0 size 0x8 virtual false final false
+  /// @brief Method get_delta, addr 0x2b0b704, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DeltaControl* get_delta();
 
-  /// @brief Method set_delta addr 0x298a9b8 size 0x8 virtual false final false
+  /// @brief Method set_delta, addr 0x2b0b70c, size 0x8, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
-  /// @brief Method get_pressure addr 0x298a9c0 size 0x8 virtual false final false
+  /// @brief Method get_pressure, addr 0x2b0b714, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_pressure();
 
-  /// @brief Method set_pressure addr 0x298a9c8 size 0x8 virtual false final false
+  /// @brief Method set_pressure, addr 0x2b0b71c, size 0x8, virtual false, abstract: false, final false
   inline void set_pressure(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method get_radius addr 0x298a9d0 size 0x8 virtual false final false
+  /// @brief Method get_radius, addr 0x2b0b724, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_radius();
 
-  /// @brief Method set_radius addr 0x298a9d8 size 0x8 virtual false final false
+  /// @brief Method set_radius, addr 0x2b0b72c, size 0x8, virtual false, abstract: false, final false
   inline void set_radius(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_phase addr 0x298a9e0 size 0x8 virtual false final false
+  /// @brief Method get_phase, addr 0x2b0b734, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::TouchPhaseControl* get_phase();
 
-  /// @brief Method set_phase addr 0x298a9e8 size 0x8 virtual false final false
+  /// @brief Method set_phase, addr 0x2b0b73c, size 0x8, virtual false, abstract: false, final false
   inline void set_phase(::UnityEngine::InputSystem::Controls::TouchPhaseControl* value);
 
-  /// @brief Method get_indirectTouch addr 0x298a9f0 size 0x8 virtual false final false
+  /// @brief Method get_indirectTouch, addr 0x2b0b744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_indirectTouch();
 
-  /// @brief Method set_indirectTouch addr 0x298a9f8 size 0x8 virtual false final false
+  /// @brief Method set_indirectTouch, addr 0x2b0b74c, size 0x8, virtual false, abstract: false, final false
   inline void set_indirectTouch(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_tap addr 0x298aa00 size 0x8 virtual false final false
+  /// @brief Method get_tap, addr 0x2b0b754, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tap();
 
-  /// @brief Method set_tap addr 0x298aa08 size 0x8 virtual false final false
+  /// @brief Method set_tap, addr 0x2b0b75c, size 0x8, virtual false, abstract: false, final false
   inline void set_tap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method get_tapCount addr 0x298aa10 size 0x8 virtual false final false
+  /// @brief Method get_tapCount, addr 0x2b0b764, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_tapCount();
 
-  /// @brief Method set_tapCount addr 0x298aa18 size 0x8 virtual false final false
+  /// @brief Method set_tapCount, addr 0x2b0b76c, size 0x8, virtual false, abstract: false, final false
   inline void set_tapCount(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method get_startTime addr 0x298aa20 size 0x8 virtual false final false
+  /// @brief Method get_startTime, addr 0x2b0b774, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::DoubleControl* get_startTime();
 
-  /// @brief Method set_startTime addr 0x298aa28 size 0x8 virtual false final false
+  /// @brief Method set_startTime, addr 0x2b0b77c, size 0x8, virtual false, abstract: false, final false
   inline void set_startTime(::UnityEngine::InputSystem::Controls::DoubleControl* value);
 
-  /// @brief Method get_startPosition addr 0x298aa30 size 0x8 virtual false final false
+  /// @brief Method get_startPosition, addr 0x2b0b784, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_startPosition();
 
-  /// @brief Method set_startPosition addr 0x298aa38 size 0x8 virtual false final false
+  /// @brief Method set_startPosition, addr 0x2b0b78c, size 0x8, virtual false, abstract: false, final false
   inline void set_startPosition(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method get_isInProgress addr 0x298aa40 size 0x70 virtual false final false
+  /// @brief Method get_isInProgress, addr 0x2b0b794, size 0x70, virtual false, abstract: false, final false
   inline bool get_isInProgress();
 
   static inline ::UnityEngine::InputSystem::Controls::TouchControl* New_ctor();
 
-  /// @brief Method .ctor addr 0x298aab0 size 0x58 virtual false final false
+  /// @brief Method .ctor, addr 0x2b0b804, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method FinishSetup addr 0x298ab28 size 0x2d4 virtual true final false
+  /// @brief Method FinishSetup, addr 0x2b0b87c, size 0x2d4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method ReadUnprocessedValueFromState addr 0x298adfc size 0x24 virtual true final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x2b0bb50, size 0x24, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::TouchState ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState addr 0x298ae20 size 0x70 virtual true final false
+  /// @brief Method WriteValueIntoState, addr 0x2b0bb74, size 0x70, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::LowLevel::TouchState value, ::cordl_internals::Ptr<void> statePtr);
 
   // Ctor Parameters [CppParam { name: "", ty: "TouchControl", modifiers: "&&", def_value: None }]

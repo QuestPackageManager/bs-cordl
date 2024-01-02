@@ -16,7 +16,7 @@ MARK_VAL_T(::OVRSimpleJSON::JSONTextMode);
 namespace OVRSimpleJSON {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8965))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8196))
 // CS Name: ::OVRSimpleJSON::JSONTextMode
 struct CORDL_TYPE JSONTextMode {
 public:

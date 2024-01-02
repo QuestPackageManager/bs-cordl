@@ -17,15 +17,15 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Viewport);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9755))
 // CS Name: ::HoudiniEngineUnity::HAPI_Viewport
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method .ctor addr 0x203b5d8 size 0x88 virtual false final false
+  /// @brief Method .ctor, addr 0x2191f74, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
-  /// @brief Method Init addr 0x203b660 size 0x70 virtual false final false
+  /// @brief Method Init, addr 0x2191ffc, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
   // Ctor Parameters [CppParam { name: "position", ty: "::ArrayW<float_t,::Array<float_t>*>", modifiers: "", def_value: None }, CppParam { name: "rotationQuaternion", ty:

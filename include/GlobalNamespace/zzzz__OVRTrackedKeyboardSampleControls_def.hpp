@@ -12,29 +12,29 @@ CORDL_MODULE_EXPORT(OVRTrackedKeyboardSampleControls)
 namespace GlobalNamespace {
 class __OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19;
 }
+namespace System::Collections {
+class IEnumerator;
+}
+namespace UnityEngine::UI {
+class InputField;
+}
 namespace GlobalNamespace {
 class OVRTrackedKeyboard;
-}
-namespace UnityEngine::UI {
-class Toggle;
-}
-namespace UnityEngine::UI {
-class Text;
 }
 namespace UnityEngine::UI {
 class Button;
 }
 namespace UnityEngine::UI {
-class InputField;
+class Text;
 }
-namespace System::Collections {
-class IEnumerator;
-}
-namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace System {
 class Object;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
@@ -53,8 +53,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRTrackedKeyboardSampleControls___SetShader
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8858))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8042))
 // CS Name: ::OVRTrackedKeyboardSampleControls::<SetShaderCoroutine>d__19*
 class CORDL_TYPE __OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19 : public ::System::Object {
 public:
@@ -119,22 +119,22 @@ public:
 
   static inline ::GlobalNamespace::__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method .ctor addr 0x262ed28 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x27991e4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
-  /// @brief Method System.IDisposable.Dispose addr 0x262edf8 size 0x4 virtual true final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2799298, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method MoveNext addr 0x262edfc size 0x134 virtual true final true
+  /// @brief Method MoveNext, addr 0x279929c, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current addr 0x262ef30 size 0x8 virtual true final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27993d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset addr 0x262ef38 size 0x40 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27993d8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x262ef78 size 0x8 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2799418, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRTrackedKeyboardSampleControls___SetShaderCoroutine_d__19", modifiers: "&&", def_value: None }]
@@ -186,8 +186,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRTrackedKeyboardSampleControls___S
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10178))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8859))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(8043))
 // CS Name: ::OVRTrackedKeyboardSampleControls*
 class CORDL_TYPE OVRTrackedKeyboardSampleControls : public ::UnityEngine::MonoBehaviour {
 public:
@@ -311,39 +311,39 @@ public:
 
   constexpr void __set_ShaderButtons(::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> value);
 
-  /// @brief Method Start addr 0x262e85c size 0x120 virtual false final false
+  /// @brief Method Start, addr 0x2798d40, size 0x100, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x262e97c size 0x248 virtual false final false
+  /// @brief Method Update, addr 0x2798e40, size 0x248, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method SetPresentationOpaque addr 0x262ebc4 size 0x20 virtual false final false
+  /// @brief Method SetPresentationOpaque, addr 0x2799088, size 0x1c, virtual false, abstract: false, final false
   inline void SetPresentationOpaque();
 
-  /// @brief Method SetPresentationKeyLabels addr 0x262ebe4 size 0x20 virtual false final false
+  /// @brief Method SetPresentationKeyLabels, addr 0x27990a4, size 0x1c, virtual false, abstract: false, final false
   inline void SetPresentationKeyLabels();
 
-  /// @brief Method SetUnlitShader addr 0x262ec04 size 0x58 virtual false final false
+  /// @brief Method SetUnlitShader, addr 0x27990c0, size 0x58, virtual false, abstract: false, final false
   inline void SetUnlitShader();
 
-  /// @brief Method SetDiffuseShader addr 0x262ecd0 size 0x58 virtual false final false
+  /// @brief Method SetDiffuseShader, addr 0x279918c, size 0x58, virtual false, abstract: false, final false
   inline void SetDiffuseShader();
 
-  /// @brief Method SetShaderCoroutine addr 0x262ec5c size 0x74 virtual false final false
+  /// @brief Method SetShaderCoroutine, addr 0x2799118, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SetShaderCoroutine(::StringW shaderName);
 
-  /// @brief Method LaunchKeyboardSelection addr 0x262ed50 size 0x48 virtual false final false
+  /// @brief Method LaunchKeyboardSelection, addr 0x279920c, size 0x2c, virtual false, abstract: false, final false
   inline void LaunchKeyboardSelection();
 
-  /// @brief Method SetTrackingEnabled addr 0x262ed98 size 0x20 virtual false final false
+  /// @brief Method SetTrackingEnabled, addr 0x2799238, size 0x20, virtual false, abstract: false, final false
   inline void SetTrackingEnabled(bool value);
 
   static inline ::GlobalNamespace::OVRTrackedKeyboardSampleControls* New_ctor();
 
-  /// @brief Method .ctor addr 0x262edb8 size 0x1c virtual false final false
+  /// @brief Method .ctor, addr 0x2799258, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <SetShaderCoroutine>b__19_0 addr 0x262edd4 size 0x24 virtual false final false
+  /// @brief Method <SetShaderCoroutine>b__19_0, addr 0x2799274, size 0x24, virtual false, abstract: false, final false
   inline bool _SetShaderCoroutine_b__19_0();
 
   // Ctor Parameters [CppParam { name: "", ty: "OVRTrackedKeyboardSampleControls", modifiers: "&&", def_value: None }]

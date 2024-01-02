@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodCallMessage);
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3170))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3171))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodCallMessage*
 class CORDL_TYPE IMethodCallMessage {
 public:

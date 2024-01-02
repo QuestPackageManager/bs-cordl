@@ -10,29 +10,29 @@ CORDL_MODULE_EXPORT(MultiplayerResultsPyramidView)
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
-namespace UnityEngine {
-class Transform;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
-}
-namespace UnityEngine {
-class GameObject;
-}
-namespace GlobalNamespace {
-class IConnectedPlayer;
-}
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
-}
-namespace GlobalNamespace {
-class MultiplayerOffsetPositionByLocalPlayerPosition;
 }
 namespace GlobalNamespace {
 class __MultiplayerResultsPyramidViewAvatar__Factory;
 }
 namespace GlobalNamespace {
 class MultiplayerResultsPyramidViewAvatar;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
+namespace GlobalNamespace {
+class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class MultiplayerOffsetPositionByLocalPlayerPosition;
+}
+namespace UnityEngine {
+class Transform;
+}
+namespace UnityEngine {
+class GameObject;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -44,8 +44,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsPyramidView);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5338))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5243))
 // CS Name: ::MultiplayerResultsPyramidView*
 class CORDL_TYPE MultiplayerResultsPyramidView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -138,22 +138,22 @@ public:
 
   constexpr void __set__anyResultsAvatar(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value);
 
-  /// @brief Method get_resultAvatarDirectors addr 0x2114b3c size 0x8 virtual false final false
+  /// @brief Method get_resultAvatarDirectors, addr 0x2257e30, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> get_resultAvatarDirectors();
 
-  /// @brief Method get_badgeTimelines addr 0x2114b44 size 0x8 virtual false final false
+  /// @brief Method get_badgeTimelines, addr 0x2257e38, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> get_badgeTimelines();
 
-  /// @brief Method PrespawnAvatars addr 0x2112bb8 size 0x400 virtual false final false
+  /// @brief Method PrespawnAvatars, addr 0x22560d8, size 0x400, virtual false, abstract: false, final false
   inline void PrespawnAvatars(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* activePlayers);
 
-  /// @brief Method SetupResults addr 0x2111d6c size 0x614 virtual false final false
+  /// @brief Method SetupResults, addr 0x2255aa0, size 0x614, virtual false, abstract: false, final false
   inline void SetupResults(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData, ::UnityEngine::Transform* badgeStartTransform,
                            ::UnityEngine::Transform* badgeMidTransform);
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidView* New_ctor();
 
-  /// @brief Method .ctor addr 0x2114fb0 size 0x84 virtual false final false
+  /// @brief Method .ctor, addr 0x2258820, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerResultsPyramidView", modifiers: "&&", def_value: None }]

@@ -2,16 +2,16 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "System/zzzz__Func_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
-#include "System/zzzz__Func_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__Func_1_def.hpp"
 template <typename T>
 inline void UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>::setStaticF___9(::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>* value) {
   ::cordl_internals::setStaticField<::UnityEngine::UIElements::__VerticalVirtualizationController_1____c<T>*, "<>9",
@@ -182,15 +182,15 @@ template <typename T> constexpr void UnityEngine::UIElements::VerticalVirtualiza
 }
 template <typename T>
 inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_activeItems() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "get_activeItems",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>*, false>(this, ___internal_method);
 }
 template <typename T> inline bool UnityEngine::UIElements::VerticalVirtualizationController_1<T>::VisibleItemPredicate(T i) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "VisibleItemPredicate",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, i);
 }
 template <typename T> inline T UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_firstVisibleItem() {
@@ -206,15 +206,15 @@ template <typename T> inline T UnityEngine::UIElements::VerticalVirtualizationCo
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_visibleItemCount() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "get_visibleItemCount",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_lastVisibleIndex() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "get_lastVisibleIndex",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 template <typename T> inline float_t UnityEngine::UIElements::VerticalVirtualizationController_1<T>::get_lastHeight() {
@@ -235,9 +235,9 @@ template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizatio
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collectionView);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::Refresh(bool rebuild) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "Refresh",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rebuild);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::Setup(T recycledItem, int32_t newIndex) {
@@ -247,15 +247,15 @@ template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizatio
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recycledItem, newIndex);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "OnFocus", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leafTarget);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::OnBlur(::UnityEngine::UIElements::VisualElement* willFocus) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "OnBlur", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, willFocus);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::HandleFocus(::UnityEngine::UIElements::ReusableCollectionItem* recycledItem, int32_t previousIndex) {
@@ -266,27 +266,27 @@ template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizatio
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, recycledItem, previousIndex);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::UpdateBackground() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "UpdateBackground",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::ReplaceActiveItem(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "ReplaceActiveItem",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
 template <typename T> inline T UnityEngine::UIElements::VerticalVirtualizationController_1<T>::GetOrMakeItem() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "GetOrMakeItem",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::VerticalVirtualizationController_1<T>::ReleaseItem(int32_t activeItemsIndex) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), "ReleaseItem",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VerticalVirtualizationController_1<T>*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, activeItemsIndex);
 }
 // Ctor Parameters []

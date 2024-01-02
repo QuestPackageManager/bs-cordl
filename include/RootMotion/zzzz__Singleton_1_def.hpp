@@ -16,8 +16,8 @@ namespace RootMotion {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12426))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12498))
 // CS Name: ::RootMotion::Singleton`1<T>*
 class CORDL_TYPE Singleton_1 : public ::UnityEngine::MonoBehaviour {
 public:
@@ -29,15 +29,15 @@ public:
 
   static inline T getStaticF_sInstance();
 
-  /// @brief Method get_instance addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_instance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T get_instance();
 
-  /// @brief Method Awake addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Awake, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Awake();
 
   static inline ::RootMotion::Singleton_1<T>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "Singleton_1", modifiers: "&&", def_value: None }]

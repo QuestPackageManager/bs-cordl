@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterati
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1062))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfDoublePipelineIterationParameters*
 class CORDL_TYPE KdfDoublePipelineIterationParameters : public ::System::Object {
@@ -82,27 +82,27 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData,
                                                                                                         int32_t r, bool useCounter);
 
-  /// @brief Method .ctor addr 0xec1e30 size 0x164 virtual false final false
+  /// @brief Method .ctor, addr 0xf3701c, size 0x164, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
-  /// @brief Method CreateWithCounter addr 0xec1f94 size 0x7c virtual false final false
+  /// @brief Method CreateWithCounter, addr 0xf37180, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                  ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter addr 0xec2010 size 0x90 virtual false final false
+  /// @brief Method CreateWithoutCounter, addr 0xf371fc, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki,
                                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
-  /// @brief Method get_Ki addr 0xec20a0 size 0x5c virtual false final false
+  /// @brief Method get_Ki, addr 0xf3728c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_UseCounter addr 0xec20fc size 0x8 virtual false final false
+  /// @brief Method get_UseCounter, addr 0xf372e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
-  /// @brief Method get_R addr 0xec2104 size 0x8 virtual false final false
+  /// @brief Method get_R, addr 0xf372f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_FixedInputData addr 0xec210c size 0x5c virtual false final false
+  /// @brief Method get_FixedInputData, addr 0xf372f8, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
   // Ctor Parameters [CppParam { name: "", ty: "KdfDoublePipelineIterationParameters", modifiers: "&&", def_value: None }]

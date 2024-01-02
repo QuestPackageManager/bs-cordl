@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1000))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::DefaultSignatureResult*
 class CORDL_TYPE DefaultSignatureResult : public ::System::Object {
@@ -42,13 +42,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultSignatureResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method .ctor addr 0xeb8ba4 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf2dd90, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
-  /// @brief Method Collect addr 0xeb8bcc size 0xa4 virtual true final true
+  /// @brief Method Collect, addr 0xf2ddb8, size 0xa4, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Collect();
 
-  /// @brief Method Collect addr 0xeb8c70 size 0x40 virtual true final true
+  /// @brief Method Collect, addr 0xf2de5c, size 0x40, virtual true, abstract: false, final true
   inline int32_t Collect(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff);
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultSignatureResult", modifiers: "&&", def_value: None }]

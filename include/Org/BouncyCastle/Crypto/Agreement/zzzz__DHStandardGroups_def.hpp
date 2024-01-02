@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(735))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::DHStandardGroups*
 class CORDL_TYPE DHStandardGroups : public ::System::Object {
@@ -322,21 +322,21 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* getStaticF_rfc7919_ffdhe8192();
 
-  /// @brief Method FromHex addr 0x11a8b00 size 0xa0 virtual false final false
+  /// @brief Method FromHex, addr 0x1219d50, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG addr 0x11a8ba0 size 0xb4 virtual false final false
+  /// @brief Method FromPG, addr 0x1219df0, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
-  /// @brief Method SafePrimeGen2 addr 0x11a8c54 size 0x58 virtual false final false
+  /// @brief Method SafePrimeGen2, addr 0x1219ea4, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2 addr 0x11a8cac size 0xd0 virtual false final false
+  /// @brief Method SafePrimeGen2, addr 0x1219efc, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method .ctor addr 0x11a9210 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x121a460, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHStandardGroups", modifiers: "&&", def_value: None }]

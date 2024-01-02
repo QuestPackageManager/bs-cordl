@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::ColorMode);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12261))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12333))
 // CS Name: ::TMPro::ColorMode
 struct CORDL_TYPE ColorMode {
 public:

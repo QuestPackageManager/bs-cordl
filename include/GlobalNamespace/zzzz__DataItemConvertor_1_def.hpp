@@ -22,23 +22,23 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TOut>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4318))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4291))
 // CS Name: ::DataItemConvertor`1<TOut>*
 class CORDL_TYPE DataItemConvertor_1 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_inputDataType))::System::Type* inputDataType;
 
-  /// @brief Method Convert addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Convert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline TOut Convert(::System::Object* item);
 
-  /// @brief Method get_inputDataType addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_inputDataType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_inputDataType();
 
   static inline ::GlobalNamespace::DataItemConvertor_1<TOut>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DataItemConvertor_1", modifiers: "&&", def_value: None }]

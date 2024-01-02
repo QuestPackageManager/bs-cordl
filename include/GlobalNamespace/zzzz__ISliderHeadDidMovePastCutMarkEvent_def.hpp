@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4921))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4801))
 // CS Name: ::ISliderHeadDidMovePastCutMarkEvent*
 class CORDL_TYPE ISliderHeadDidMovePastCutMarkEvent {
 public:
   // Declarations
-  /// @brief Method HandleSliderStartDidMovePastCutMark addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleSliderStartDidMovePastCutMark, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleSliderStartDidMovePastCutMark(::GlobalNamespace::SliderController* sliderController);
 
   // Ctor Parameters [CppParam { name: "", ty: "ISliderHeadDidMovePastCutMarkEvent", modifiers: "&&", def_value: None }]

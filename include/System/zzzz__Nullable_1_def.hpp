@@ -22,7 +22,7 @@ namespace System {
 template <typename T>
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2446))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2448))
 // CS Name: ::System::Nullable`1<T>
 struct CORDL_TYPE Nullable_1 {
 public:
@@ -31,37 +31,37 @@ public:
 
   __declspec(property(get = get_Value)) T Value;
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(T value);
 
-  /// @brief Method get_HasValue addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_HasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
-  /// @brief Method get_Value addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Value();
 
-  /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueOrDefault();
 
-  /// @brief Method GetValueOrDefault addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method GetValueOrDefault, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T GetValueOrDefault(T defaultValue);
 
-  /// @brief Method Equals addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method ToString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Box addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Box, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Object* Box(::System::Nullable_1<T> o);
 
-  /// @brief Method Unbox addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method Unbox, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<T> Unbox(::System::Object* o);
 
-  /// @brief Method UnboxExact addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method UnboxExact, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<T> UnboxExact(::System::Object* o);
 
   // Ctor Parameters [CppParam { name: "hasValue", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "value", ty: "T", modifiers: "", def_value: None }]

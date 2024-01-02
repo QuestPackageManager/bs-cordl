@@ -6,19 +6,19 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolSettingsFlowCoordinator)
 namespace GlobalNamespace {
-class RecordingToolLoggingViewController;
-}
-namespace GlobalNamespace {
 class GameScenesManager;
-}
-namespace GlobalNamespace {
-class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
 class RecordingToolSettingsViewController;
 }
 namespace GlobalNamespace {
 class __RecordingToolSettingsFlowCoordinator__InitData;
+}
+namespace GlobalNamespace {
+class RecordingToolLoggingViewController;
+}
+namespace GlobalNamespace {
+class RecordingToolConfigViewController;
 }
 namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitDa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5614))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5521))
 // CS Name: ::RecordingToolSettingsFlowCoordinator::InitData*
 class CORDL_TYPE __RecordingToolSettingsFlowCoordinator__InitData : public ::System::Object {
 public:
@@ -54,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method .ctor addr 0x2156f48 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x229b6a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
   // Ctor Parameters [CppParam { name: "", ty: "__RecordingToolSettingsFlowCoordinator__InitData", modifiers: "&&", def_value: None }]
@@ -86,8 +86,8 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13699))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5615))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5522))
 // CS Name: ::RecordingToolSettingsFlowCoordinator*
 class CORDL_TYPE RecordingToolSettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
@@ -142,24 +142,24 @@ public:
 
   constexpr void __set__initData(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* value);
 
-  /// @brief Method DidActivate addr 0x2156d40 size 0xf4 virtual true final false
+  /// @brief Method DidActivate, addr 0x229b4a0, size 0xf4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate addr 0x2156e34 size 0xa0 virtual true final false
+  /// @brief Method DidDeactivate, addr 0x229b594, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method Update addr 0x2156ed4 size 0x2c virtual false final false
+  /// @brief Method Update, addr 0x229b634, size 0x2c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish addr 0x2156f00 size 0x4 virtual false final false
+  /// @brief Method HandleRecordingToolSettingsViewControllerDidFinish, addr 0x229b660, size 0x4, virtual false, abstract: false, final false
   inline void HandleRecordingToolSettingsViewControllerDidFinish();
 
-  /// @brief Method GoToNextScene addr 0x2156f04 size 0x3c virtual false final false
+  /// @brief Method GoToNextScene, addr 0x229b664, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
   static inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator* New_ctor();
 
-  /// @brief Method .ctor addr 0x2156f40 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x229b6a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsFlowCoordinator", modifiers: "&&", def_value: None }]

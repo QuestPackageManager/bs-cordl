@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MaterialReferenceManager)
+namespace UnityEngine::TextCore::Text {
+class FontAsset;
+}
 namespace UnityEngine {
 class Material;
 }
-namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
-}
 namespace UnityEngine::TextCore::Text {
-class FontAsset;
+class TextColorGradient;
 }
 namespace UnityEngine::TextCore::Text {
 class SpriteAsset;
 }
-namespace UnityEngine::TextCore::Text {
-class TextColorGradient;
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -31,8 +31,8 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::MaterialReferenceManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13564))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13685))
 // CS Name: ::UnityEngine.TextCore.Text::MaterialReferenceManager*
 class CORDL_TYPE MaterialReferenceManager : public ::System::Object {
 public:
@@ -86,60 +86,60 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance addr 0x2bd7c3c size 0x78 virtual false final false
+  /// @brief Method get_instance, addr 0x2d3ffec, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* get_instance();
 
-  /// @brief Method AddFontAsset addr 0x2bd7dfc size 0x20 virtual false final false
+  /// @brief Method AddFontAsset, addr 0x2d401ac, size 0x20, virtual false, abstract: false, final false
   static inline void AddFontAsset(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method AddFontAssetInternal addr 0x2bd7e1c size 0xf4 virtual false final false
+  /// @brief Method AddFontAssetInternal, addr 0x2d401cc, size 0xf4, virtual false, abstract: false, final false
   inline void AddFontAssetInternal(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  /// @brief Method AddSpriteAsset addr 0x2bd7f10 size 0x30 virtual false final false
+  /// @brief Method AddSpriteAsset, addr 0x2d402c0, size 0x30, virtual false, abstract: false, final false
   static inline void AddSpriteAsset(int32_t hashCode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset);
 
-  /// @brief Method AddSpriteAssetInternal addr 0x2bd7f40 size 0xd4 virtual false final false
+  /// @brief Method AddSpriteAssetInternal, addr 0x2d402f0, size 0xd4, virtual false, abstract: false, final false
   inline void AddSpriteAssetInternal(int32_t hashCode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset);
 
-  /// @brief Method AddFontMaterial addr 0x2bd8014 size 0x30 virtual false final false
+  /// @brief Method AddFontMaterial, addr 0x2d403c4, size 0x30, virtual false, abstract: false, final false
   static inline void AddFontMaterial(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddFontMaterialInternal addr 0x2bd8044 size 0x68 virtual false final false
+  /// @brief Method AddFontMaterialInternal, addr 0x2d403f4, size 0x68, virtual false, abstract: false, final false
   inline void AddFontMaterialInternal(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddColorGradientPreset addr 0x2bd80ac size 0x30 virtual false final false
+  /// @brief Method AddColorGradientPreset, addr 0x2d4045c, size 0x30, virtual false, abstract: false, final false
   static inline void AddColorGradientPreset(int32_t hashCode, ::UnityEngine::TextCore::Text::TextColorGradient* spriteAsset);
 
-  /// @brief Method AddColorGradientPreset_Internal addr 0x2bd80dc size 0xa4 virtual false final false
+  /// @brief Method AddColorGradientPreset_Internal, addr 0x2d4048c, size 0xa4, virtual false, abstract: false, final false
   inline void AddColorGradientPreset_Internal(int32_t hashCode, ::UnityEngine::TextCore::Text::TextColorGradient* spriteAsset);
 
-  /// @brief Method TryGetFontAsset addr 0x2bd8180 size 0x30 virtual false final false
+  /// @brief Method TryGetFontAsset, addr 0x2d40530, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::FontAsset*> fontAsset);
 
-  /// @brief Method TryGetFontAssetInternal addr 0x2bd81b0 size 0x6c virtual false final false
+  /// @brief Method TryGetFontAssetInternal, addr 0x2d40560, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetFontAssetInternal(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::FontAsset*> fontAsset);
 
-  /// @brief Method TryGetSpriteAsset addr 0x2bd821c size 0x30 virtual false final false
+  /// @brief Method TryGetSpriteAsset, addr 0x2d405cc, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetSpriteAsset(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::SpriteAsset*> spriteAsset);
 
-  /// @brief Method TryGetSpriteAssetInternal addr 0x2bd824c size 0x6c virtual false final false
+  /// @brief Method TryGetSpriteAssetInternal, addr 0x2d405fc, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetSpriteAssetInternal(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::SpriteAsset*> spriteAsset);
 
-  /// @brief Method TryGetColorGradientPreset addr 0x2bd82b8 size 0x30 virtual false final false
+  /// @brief Method TryGetColorGradientPreset, addr 0x2d40668, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetColorGradientPreset(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::TextColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetColorGradientPresetInternal addr 0x2bd82e8 size 0x6c virtual false final false
+  /// @brief Method TryGetColorGradientPresetInternal, addr 0x2d40698, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetColorGradientPresetInternal(int32_t hashCode, ByRef<::UnityEngine::TextCore::Text::TextColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetMaterial addr 0x2bd8354 size 0x30 virtual false final false
+  /// @brief Method TryGetMaterial, addr 0x2d40704, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetMaterial(int32_t hashCode, ByRef<::UnityEngine::Material*> material);
 
-  /// @brief Method TryGetMaterialInternal addr 0x2bd8384 size 0x6c virtual false final false
+  /// @brief Method TryGetMaterialInternal, addr 0x2d40734, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetMaterialInternal(int32_t hashCode, ByRef<::UnityEngine::Material*> material);
 
   static inline ::UnityEngine::TextCore::Text::MaterialReferenceManager* New_ctor();
 
-  /// @brief Method .ctor addr 0x2bd7cb4 size 0x148 virtual false final false
+  /// @brief Method .ctor, addr 0x2d40064, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialReferenceManager", modifiers: "&&", def_value: None }]

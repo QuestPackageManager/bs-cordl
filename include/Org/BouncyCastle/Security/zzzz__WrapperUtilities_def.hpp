@@ -8,9 +8,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(WrapperUtilities)
-namespace Org::BouncyCastle::Security {
-struct __WrapperUtilities__WrapAlgorithm;
-}
 namespace Org::BouncyCastle::Crypto {
 class IWrapper;
 }
@@ -18,10 +15,13 @@ namespace System::Collections {
 class IDictionary;
 }
 namespace Org::BouncyCastle::Security {
-class __WrapperUtilities__BufferedCipherWrapper;
+struct __WrapperUtilities__WrapAlgorithm;
 }
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Security {
+class __WrapperUtilities__BufferedCipherWrapper;
 }
 namespace Org::BouncyCastle::Crypto {
 class IBufferedCipher;
@@ -121,7 +121,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__WrapperUtilities__WrapAl
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1761))
 // CS Name: ::WrapperUtilities::BufferedCipherWrapper*
 class CORDL_TYPE __WrapperUtilities__BufferedCipherWrapper : public ::System::Object {
@@ -152,19 +152,19 @@ public:
 
   static inline ::Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher);
 
-  /// @brief Method .ctor addr 0x10dd850 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x114ea98, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher);
 
-  /// @brief Method get_AlgorithmName addr 0x10dd980 size 0xa0 virtual true final true
+  /// @brief Method get_AlgorithmName, addr 0x114ebc8, size 0xa0, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method Init addr 0x10dda20 size 0xc4 virtual true final true
+  /// @brief Method Init, addr 0x114ec68, size 0xc4, virtual true, abstract: false, final true
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
-  /// @brief Method Wrap addr 0x10ddae4 size 0x118 virtual true final true
+  /// @brief Method Wrap, addr 0x114ed2c, size 0x118, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Unwrap addr 0x10ddbfc size 0x118 virtual true final true
+  /// @brief Method Unwrap, addr 0x114ee44, size 0x118, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   // Ctor Parameters [CppParam { name: "", ty: "__WrapperUtilities__BufferedCipherWrapper", modifiers: "&&", def_value: None }]
@@ -201,7 +201,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__WrapperUtilities__Buffer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1762))
 // CS Name: ::Org.BouncyCastle.Security::WrapperUtilities*
 class CORDL_TYPE WrapperUtilities : public ::System::Object {
@@ -220,16 +220,16 @@ public:
 
   static inline ::Org::BouncyCastle::Security::WrapperUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0x10dca78 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x114dcc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method GetWrapper addr 0x10dd238 size 0x60 virtual false final false
+  /// @brief Method GetWrapper, addr 0x114e480, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IWrapper* GetWrapper(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetWrapper addr 0x10dd298 size 0x5b8 virtual false final false
+  /// @brief Method GetWrapper, addr 0x114e4e0, size 0x5b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IWrapper* GetWrapper(::StringW algorithm);
 
-  /// @brief Method GetAlgorithmName addr 0x10dd878 size 0x108 virtual false final false
+  /// @brief Method GetAlgorithmName, addr 0x114eac0, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   // Ctor Parameters [CppParam { name: "", ty: "WrapperUtilities", modifiers: "&&", def_value: None }]

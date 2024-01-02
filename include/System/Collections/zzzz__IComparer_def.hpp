@@ -18,12 +18,12 @@ MARK_REF_PTR_T(::System::Collections::IComparer);
 namespace System::Collections {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3744))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3756))
 // CS Name: ::System.Collections::IComparer*
 class CORDL_TYPE IComparer {
 public:
   // Declarations
-  /// @brief Method Compare addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
   // Ctor Parameters [CppParam { name: "", ty: "IComparer", modifiers: "&&", def_value: None }]

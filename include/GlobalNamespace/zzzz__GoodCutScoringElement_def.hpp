@@ -7,10 +7,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(GoodCutScoringElement)
 namespace GlobalNamespace {
-class __GoodCutScoringElement__Pool;
+class CutScoreBuffer;
 }
 namespace GlobalNamespace {
-struct NoteCutInfo;
+struct __ScoreMultiplierCounter__MultiplierEventType;
+}
+namespace GlobalNamespace {
+class __GoodCutScoringElement__Pool;
 }
 namespace GlobalNamespace {
 class ICutScoreBufferDidFinishReceiver;
@@ -19,10 +22,7 @@ namespace GlobalNamespace {
 class IReadonlyCutScoreBuffer;
 }
 namespace GlobalNamespace {
-class CutScoreBuffer;
-}
-namespace GlobalNamespace {
-struct __ScoreMultiplierCounter__MultiplierEventType;
+struct NoteCutInfo;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,8 +38,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__GoodCutScoringElement__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5418)), TypeDefinitionIndex(TypeDefinitionIndex(5415))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5420))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5323)), TypeDefinitionIndex(TypeDefinitionIndex(5320))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5325))
 // CS Name: ::GoodCutScoringElement*
 class CORDL_TYPE GoodCutScoringElement : public ::GlobalNamespace::ScoringElement {
 public:
@@ -87,33 +87,33 @@ public:
 
   constexpr void __set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
-  /// @brief Method get_cutScore addr 0x2123d78 size 0x40 virtual true final false
+  /// @brief Method get_cutScore, addr 0x2267eb4, size 0x40, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
 
-  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType addr 0x2123db8 size 0x8 virtual true final false
+  /// @brief Method get_wouldBeCorrectCutBestPossibleMultiplierEventType, addr 0x2267ef4, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_wouldBeCorrectCutBestPossibleMultiplierEventType();
 
-  /// @brief Method get_multiplierEventType addr 0x2123dc0 size 0x8 virtual true final false
+  /// @brief Method get_multiplierEventType, addr 0x2267efc, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType get_multiplierEventType();
 
-  /// @brief Method get_cutScoreBuffer addr 0x2123dc8 size 0x8 virtual false final false
+  /// @brief Method get_cutScoreBuffer, addr 0x2267f04, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyCutScoreBuffer* get_cutScoreBuffer();
 
-  /// @brief Method get_executionOrder addr 0x2123dd0 size 0x24 virtual true final false
+  /// @brief Method get_executionOrder, addr 0x2267f0c, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method Reinitialize addr 0x2123df4 size 0x18 virtual true final false
+  /// @brief Method Reinitialize, addr 0x2267f30, size 0x18, virtual true, abstract: false, final false
   inline void Reinitialize();
 
-  /// @brief Method Init addr 0x2123830 size 0x70 virtual false final false
+  /// @brief Method Init, addr 0x2267994, size 0x70, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteCutInfo noteCutInfo);
 
-  /// @brief Method HandleCutScoreBufferDidFinish addr 0x2123e0c size 0x24 virtual true final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x2267f48, size 0x24, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
   static inline ::GlobalNamespace::GoodCutScoringElement* New_ctor();
 
-  /// @brief Method .ctor addr 0x2123e30 size 0x64 virtual false final false
+  /// @brief Method .ctor, addr 0x2267f6c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "GoodCutScoringElement", modifiers: "&&", def_value: None }]
@@ -155,14 +155,14 @@ static_assert(offsetof(::GlobalNamespace::GoodCutScoringElement, ____wouldBeCorr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5417), inst: 2754 }), TypeDefinitionIndex(TypeDefinitionIndex(5420)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5417))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5419)) CS Name: ::GoodCutScoringElement::Pool*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2814 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(5325))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5324)) CS Name: ::GoodCutScoringElement::Pool*
 class CORDL_TYPE __GoodCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::GoodCutScoringElement*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__GoodCutScoringElement__Pool* New_ctor();
 
-  /// @brief Method .ctor addr 0x2123e94 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2267fd0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__GoodCutScoringElement__Pool", modifiers: "&&", def_value: None }]

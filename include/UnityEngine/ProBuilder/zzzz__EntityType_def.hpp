@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::EntityType);
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12084))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12156))
 // CS Name: ::UnityEngine.ProBuilder::EntityType
 struct CORDL_TYPE EntityType {
 public:

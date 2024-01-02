@@ -17,12 +17,12 @@ MARK_REF_PTR_T(::UnityEngine::Animations::IAnimationWindowPreview);
 namespace UnityEngine::Animations {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15129))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14902))
 // CS Name: ::UnityEngine.Animations::IAnimationWindowPreview*
 class CORDL_TYPE IAnimationWindowPreview {
 public:
   // Declarations
-  /// @brief Method UpdatePreviewGraph addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method UpdatePreviewGraph, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UpdatePreviewGraph(::UnityEngine::Playables::PlayableGraph graph);
 
   // Ctor Parameters [CppParam { name: "", ty: "IAnimationWindowPreview", modifiers: "&&", def_value: None }]

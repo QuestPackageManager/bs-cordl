@@ -3,17 +3,17 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IDecoratorProvider)
-namespace System {
-class Object;
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace Zenject {
 class InjectContext;
 }
+namespace System {
+class Object;
+}
 namespace Zenject {
 class IProvider;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
 }
 // Forward declare root types
 namespace Zenject::Internal {
@@ -26,12 +26,12 @@ MARK_REF_PTR_T(::Zenject::Internal::IDecoratorProvider);
 namespace Zenject::Internal {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11297))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11369))
 // CS Name: ::Zenject.Internal::IDecoratorProvider*
 class CORDL_TYPE IDecoratorProvider {
 public:
   // Declarations
-  /// @brief Method GetAllInstances addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method GetAllInstances, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void GetAllInstances(::Zenject::IProvider* provider, ::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
   // Ctor Parameters [CppParam { name: "", ty: "IDecoratorProvider", modifiers: "&&", def_value: None }]

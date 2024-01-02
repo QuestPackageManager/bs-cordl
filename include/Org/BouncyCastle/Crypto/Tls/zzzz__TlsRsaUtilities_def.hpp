@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsRsaUtilities)
-namespace System::IO {
-class Stream;
-}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
+}
+namespace System::IO {
+class Stream;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class RsaKeyParameters;
@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1320))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsRsaUtilities*
 class CORDL_TYPE TlsRsaUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GenerateEncryptedPreMasterSecret addr 0xf3a4fc size 0x3f4 virtual false final false
+  /// @brief Method GenerateEncryptedPreMasterSecret, addr 0xfb0744, size 0x3f4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateEncryptedPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                                       ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPublicKey, ::System::IO::Stream* output);
 
-  /// @brief Method SafeDecryptPreMasterSecret addr 0xf3c154 size 0x428 virtual false final false
+  /// @brief Method SafeDecryptPreMasterSecret, addr 0xfb239c, size 0x428, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SafeDecryptPreMasterSecret(::Org::BouncyCastle::Crypto::Tls::TlsContext* context,
                                                                                 ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* rsaServerPrivateKey,
                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedPreMasterSecret);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaUtilities* New_ctor();
 
-  /// @brief Method .ctor addr 0xf3c57c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xfb27c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "TlsRsaUtilities", modifiers: "&&", def_value: None }]

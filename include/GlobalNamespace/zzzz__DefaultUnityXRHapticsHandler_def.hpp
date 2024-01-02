@@ -9,11 +9,11 @@ CORDL_MODULE_EXPORT(DefaultUnityXRHapticsHandler)
 namespace UnityEngine::XR {
 struct XRNode;
 }
-namespace GlobalNamespace {
-class IUnityXRHapticsHandler;
-}
 namespace System {
 class IDisposable;
+}
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,8 +25,8 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultUnityXRHapticsHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611)), TypeDefinitionIndex(TypeDefinitionIndex(15571))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13984))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14412))
 // CS Name: ::DefaultUnityXRHapticsHandler*
 class CORDL_TYPE DefaultUnityXRHapticsHandler : public ::System::Object {
 public:
@@ -48,19 +48,19 @@ public:
 
   static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method .ctor addr 0x1fa4744 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0x20f7014, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method Destroy addr 0x1fa476c size 0x4 virtual false final false
+  /// @brief Method Destroy, addr 0x20f703c, size 0x4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method TriggerHapticPulse addr 0x1fa4770 size 0x4c virtual true final true
+  /// @brief Method TriggerHapticPulse, addr 0x20f7040, size 0x4c, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
-  /// @brief Method StopHaptics addr 0x1fa47bc size 0x30 virtual true final true
+  /// @brief Method StopHaptics, addr 0x20f708c, size 0x30, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method Dispose addr 0x1fa47ec size 0x4 virtual true final true
+  /// @brief Method Dispose, addr 0x20f70bc, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   // Ctor Parameters [CppParam { name: "", ty: "DefaultUnityXRHapticsHandler", modifiers: "&&", def_value: None }]

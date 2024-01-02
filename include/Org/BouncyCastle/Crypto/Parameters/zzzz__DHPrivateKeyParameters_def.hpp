@@ -5,17 +5,17 @@ CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHKeyParameters_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DHPrivateKeyParameters)
-namespace System {
-class Object;
-}
 namespace Org::BouncyCastle::Crypto::Parameters {
 class DHParameters;
 }
-namespace Org::BouncyCastle::Asn1 {
-class DerObjectIdentifier;
-}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
+}
+namespace System {
+class Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class DerObjectIdentifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -46,25 +46,25 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
-  /// @brief Method .ctor addr 0xebbc20 size 0x28 virtual false final false
+  /// @brief Method .ctor, addr 0xf30e0c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters,
                                                                                           ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method .ctor addr 0xebbc48 size 0x44 virtual false final false
+  /// @brief Method .ctor, addr 0xf30e34, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithmOid);
 
-  /// @brief Method get_X addr 0xebbc8c size 0x8 virtual false final false
+  /// @brief Method get_X, addr 0xf30e78, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
-  /// @brief Method Equals addr 0xebbc94 size 0x9c virtual true final false
+  /// @brief Method Equals, addr 0xf30e80, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals addr 0xebbd30 size 0x58 virtual false final false
+  /// @brief Method Equals, addr 0xf30f1c, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode addr 0xebbd88 size 0x40 virtual true final false
+  /// @brief Method GetHashCode, addr 0xf30f74, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "", ty: "DHPrivateKeyParameters", modifiers: "&&", def_value: None }]

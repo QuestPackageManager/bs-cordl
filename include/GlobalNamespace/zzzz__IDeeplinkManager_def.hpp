@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::IDeeplinkManager);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4181))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4147))
 // CS Name: ::IDeeplinkManager*
 class CORDL_TYPE IDeeplinkManager {
 public:
   // Declarations
   __declspec(property(get = get_currentDeeplink))::GlobalNamespace::Deeplink* currentDeeplink;
 
-  /// @brief Method add_didReceiveDeeplinkEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method add_didReceiveDeeplinkEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void add_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
-  /// @brief Method remove_didReceiveDeeplinkEvent addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method remove_didReceiveDeeplinkEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void remove_didReceiveDeeplinkEvent(::System::Action_1<::GlobalNamespace::Deeplink*>* value);
 
-  /// @brief Method get_currentDeeplink addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_currentDeeplink, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::Deeplink* get_currentDeeplink();
 
   // Ctor Parameters [CppParam { name: "", ty: "IDeeplinkManager", modifiers: "&&", def_value: None }]

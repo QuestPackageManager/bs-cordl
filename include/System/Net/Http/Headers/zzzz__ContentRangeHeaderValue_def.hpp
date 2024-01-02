@@ -12,10 +12,10 @@ namespace System {
 class ICloneable;
 }
 namespace System {
-class Object;
+template <typename T> struct Nullable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+class Object;
 }
 // Forward declare root types
 namespace System::Net::Http::Headers {
@@ -27,8 +27,8 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::ContentRangeHeaderValue);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2446), inst: 844 }), TypeDefinitionIndex(TypeDefinitionIndex(2611)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2446))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14881)) CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 333 }),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14664)) CS Name: ::System.Net.Http.Headers::ContentRangeHeaderValue*
 class CORDL_TYPE ContentRangeHeaderValue : public ::System::Object {
 public:
   // Declarations
@@ -81,43 +81,43 @@ public:
 
   static inline ::System::Net::Http::Headers::ContentRangeHeaderValue* New_ctor();
 
-  /// @brief Method .ctor addr 0x26bcee0 size 0x50 virtual false final false
+  /// @brief Method .ctor, addr 0x2837ef4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_From addr 0x26bcf30 size 0xc virtual false final false
+  /// @brief Method get_From, addr 0x2837f44, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_From();
 
-  /// @brief Method set_From addr 0x26bcf3c size 0x8 virtual false final false
+  /// @brief Method set_From, addr 0x2837f50, size 0x8, virtual false, abstract: false, final false
   inline void set_From(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method get_Length addr 0x26bcf44 size 0xc virtual false final false
+  /// @brief Method get_Length, addr 0x2837f58, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_Length();
 
-  /// @brief Method set_Length addr 0x26bcf50 size 0x8 virtual false final false
+  /// @brief Method set_Length, addr 0x2837f64, size 0x8, virtual false, abstract: false, final false
   inline void set_Length(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method get_To addr 0x26bcf58 size 0xc virtual false final false
+  /// @brief Method get_To, addr 0x2837f6c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_To();
 
-  /// @brief Method set_To addr 0x26bcf64 size 0x8 virtual false final false
+  /// @brief Method set_To, addr 0x2837f78, size 0x8, virtual false, abstract: false, final false
   inline void set_To(::System::Nullable_1<int64_t> value);
 
-  /// @brief Method get_Unit addr 0x26bcf6c size 0x8 virtual false final false
+  /// @brief Method get_Unit, addr 0x2837f80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Unit();
 
-  /// @brief Method System.ICloneable.Clone addr 0x26bcf74 size 0x8 virtual true final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2837f88, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method Equals addr 0x26bcf7c size 0x148 virtual true final false
+  /// @brief Method Equals, addr 0x2837f90, size 0x148, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x26bd0c4 size 0xec virtual true final false
+  /// @brief Method GetHashCode, addr 0x28380d8, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method TryParse addr 0x26bd1b0 size 0x3dc virtual false final false
+  /// @brief Method TryParse, addr 0x28381c4, size 0x3dc, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::ContentRangeHeaderValue*> parsedValue);
 
-  /// @brief Method ToString addr 0x26bd670 size 0x260 virtual true final false
+  /// @brief Method ToString, addr 0x2838684, size 0x260, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "ContentRangeHeaderValue", modifiers: "&&", def_value: None }]

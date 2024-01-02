@@ -30,9 +30,9 @@ template <typename TContract> inline void Zenject::PlaceholderFactoryBindingFina
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bindInfo, factoryBindInfo);
 }
 template <typename TContract> inline void Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>::OnFinalizeBinding(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>*>::get(), "OnFinalizeBinding",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PlaceholderFactoryBindingFinalizer_1<TContract>*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 // Ctor Parameters []

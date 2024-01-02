@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_License);
 namespace HoudiniEngineUnity {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(9613))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9686))
 // CS Name: ::HoudiniEngineUnity::HAPI_License
 struct CORDL_TYPE HAPI_License {
 public:

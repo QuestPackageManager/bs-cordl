@@ -16,7 +16,7 @@ MARK_VAL_T(::System::ByteEnum);
 namespace System {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(2595))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(2597))
 // CS Name: ::System::ByteEnum
 struct CORDL_TYPE ByteEnum {
 public:

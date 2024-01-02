@@ -17,14 +17,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo);
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6552))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6466))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IInputDeviceCommandInfo*
 class CORDL_TYPE IInputDeviceCommandInfo {
 public:
   // Declarations
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
-  /// @brief Method get_typeStatic addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_typeStatic, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputDeviceCommandInfo", modifiers: "&&", def_value: None }]

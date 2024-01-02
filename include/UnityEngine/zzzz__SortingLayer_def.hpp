@@ -16,12 +16,12 @@ MARK_VAL_T(::UnityEngine::SortingLayer);
 namespace UnityEngine {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10193))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10266))
 // CS Name: ::UnityEngine::SortingLayer
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID addr 0x2b78fdc size 0x3c virtual false final false
+  /// @brief Method GetLayerValueFromID, addr 0x2cde834, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters [CppParam { name: "m_Id", ty: "int32_t", modifiers: "", def_value: None }]

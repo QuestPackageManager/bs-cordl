@@ -7,11 +7,11 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(StreamReader_NullStreamReader)
-namespace System::IO {
-class Stream;
-}
 namespace System::Text {
 class Encoding;
+}
+namespace System::IO {
+class Stream;
 }
 // Forward declare root types
 namespace System::IO {
@@ -23,8 +23,8 @@ MARK_REF_PTR_T(::System::IO::__StreamReader__NullStreamReader);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3568))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3567))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3575))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3572))
 // CS Name: ::StreamReader::NullStreamReader*
 class CORDL_TYPE __StreamReader__NullStreamReader : public ::System::IO::StreamReader {
 public:
@@ -35,34 +35,34 @@ public:
 
   static inline ::System::IO::__StreamReader__NullStreamReader* New_ctor();
 
-  /// @brief Method .ctor addr 0x23a8b68 size 0x94 virtual false final false
+  /// @brief Method .ctor, addr 0x2502d0c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseStream addr 0x23a8bfc size 0x58 virtual true final false
+  /// @brief Method get_BaseStream, addr 0x2502da0, size 0x58, virtual true, abstract: false, final false
   inline ::System::IO::Stream* get_BaseStream();
 
-  /// @brief Method get_CurrentEncoding addr 0x23a8c54 size 0x8 virtual true final false
+  /// @brief Method get_CurrentEncoding, addr 0x2502df8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_CurrentEncoding();
 
-  /// @brief Method Dispose addr 0x23a8c5c size 0x4 virtual true final false
+  /// @brief Method Dispose, addr 0x2502e00, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Peek addr 0x23a8c60 size 0x8 virtual true final false
+  /// @brief Method Peek, addr 0x2502e04, size 0x8, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read addr 0x23a8c68 size 0x8 virtual true final false
+  /// @brief Method Read, addr 0x2502e0c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read addr 0x23a8c70 size 0x8 virtual true final false
+  /// @brief Method Read, addr 0x2502e14, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine addr 0x23a8c78 size 0x8 virtual true final false
+  /// @brief Method ReadLine, addr 0x2502e1c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd addr 0x23a8c80 size 0x48 virtual true final false
+  /// @brief Method ReadToEnd, addr 0x2502e24, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method ReadBuffer addr 0x23a8cc8 size 0x8 virtual true final false
+  /// @brief Method ReadBuffer, addr 0x2502e6c, size 0x8, virtual true, abstract: false, final false
   inline int32_t ReadBuffer();
 
   // Ctor Parameters [CppParam { name: "", ty: "__StreamReader__NullStreamReader", modifiers: "&&", def_value: None }]

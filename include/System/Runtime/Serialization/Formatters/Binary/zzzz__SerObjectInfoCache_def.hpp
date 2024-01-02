@@ -22,8 +22,8 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerObjectIn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3283))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3284))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerObjectInfoCache*
 class CORDL_TYPE SerObjectInfoCache : public ::System::Object {
 public:
@@ -84,12 +84,12 @@ public:
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
-  /// @brief Method .ctor addr 0x2372804 size 0x3c virtual false final false
+  /// @brief Method .ctor, addr 0x24cb308, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, bool hasTypeForwardedFrom);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2372840 size 0x8c virtual false final false
+  /// @brief Method .ctor, addr 0x24cb344, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "SerObjectInfoCache", modifiers: "&&", def_value: None }]

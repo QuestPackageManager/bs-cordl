@@ -14,15 +14,15 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DetachFromPanelEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7329)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7329), inst: 4720 })}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7331))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7243), inst: 4820 })}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(7245))
 // CS Name: ::UnityEngine.UIElements::DetachFromPanelEvent*
 class CORDL_TYPE DetachFromPanelEvent : public ::UnityEngine::UIElements::PanelChangedEventBase_1<::UnityEngine::UIElements::DetachFromPanelEvent*> {
 public:
   // Declarations
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor();
 
-  /// @brief Method .ctor addr 0x2cea944 size 0x48 virtual false final false
+  /// @brief Method .ctor, addr 0x2e52cf4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "DetachFromPanelEvent", modifiers: "&&", def_value: None }]

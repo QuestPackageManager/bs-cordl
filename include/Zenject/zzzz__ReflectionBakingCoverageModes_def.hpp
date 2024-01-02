@@ -16,7 +16,7 @@ MARK_VAL_T(::Zenject::ReflectionBakingCoverageModes);
 namespace Zenject {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(11282))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11354))
 // CS Name: ::Zenject::ReflectionBakingCoverageModes
 struct CORDL_TYPE ReflectionBakingCoverageModes {
 public:

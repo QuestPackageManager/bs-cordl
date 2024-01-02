@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::NetscapeRevocationUrl* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method .ctor addr 0xf071dc size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0xf7d400, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString addr 0xf07214 size 0x60 virtual true final false
+  /// @brief Method ToString, addr 0xf7d438, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters [CppParam { name: "", ty: "NetscapeRevocationUrl", modifiers: "&&", def_value: None }]

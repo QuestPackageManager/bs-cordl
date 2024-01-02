@@ -17,15 +17,15 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineHelpURLAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14134))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13863))
 // CS Name: ::UnityEngine.Timeline::TimelineHelpURLAttribute*
 class CORDL_TYPE TimelineHelpURLAttribute : public ::System::Attribute {
 public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor addr 0x2addd14 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x2c61a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
   // Ctor Parameters [CppParam { name: "", ty: "TimelineHelpURLAttribute", modifiers: "&&", def_value: None }]

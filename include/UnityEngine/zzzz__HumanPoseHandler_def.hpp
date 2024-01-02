@@ -13,10 +13,7 @@ namespace UnityEngine {
 class Avatar;
 }
 namespace UnityEngine {
-struct Vector3;
-}
-namespace UnityEngine {
-struct HumanPose;
+class Transform;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -25,7 +22,10 @@ namespace System {
 class IDisposable;
 }
 namespace UnityEngine {
-class Transform;
+struct Vector3;
+}
+namespace UnityEngine {
+struct HumanPose;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -37,8 +37,8 @@ MARK_REF_PTR_T(::UnityEngine::HumanPoseHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2601)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15112))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14885))
 // CS Name: ::UnityEngine::HumanPoseHandler*
 class CORDL_TYPE HumanPoseHandler : public ::System::Object {
 public:
@@ -55,24 +55,24 @@ public:
 
   constexpr void __set_m_Ptr(void* value);
 
-  /// @brief Method Internal_CreateFromRoot addr 0x2b307d0 size 0x44 virtual false final false
+  /// @brief Method Internal_CreateFromRoot, addr 0x2c96470, size 0x44, virtual false, abstract: false, final false
   static inline void* Internal_CreateFromRoot(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
 
-  /// @brief Method Internal_Destroy addr 0x2b30814 size 0x3c virtual false final false
+  /// @brief Method Internal_Destroy, addr 0x2c964b4, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
-  /// @brief Method GetHumanPose addr 0x2b30850 size 0x5c virtual false final false
+  /// @brief Method GetHumanPose, addr 0x2c964f0, size 0x5c, virtual false, abstract: false, final false
   inline void GetHumanPose(ByRef<::UnityEngine::Vector3> bodyPosition, ByRef<::UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayW<float_t, ::Array<float_t>*>> muscles);
 
-  /// @brief Method Dispose addr 0x2b308ac size 0xcc virtual true final true
+  /// @brief Method Dispose, addr 0x2c9654c, size 0xcc, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::HumanPoseHandler* New_ctor(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
 
-  /// @brief Method .ctor addr 0x2b30978 size 0x22c virtual false final false
+  /// @brief Method .ctor, addr 0x2c96618, size 0x22c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Avatar* avatar, ::UnityEngine::Transform* root);
 
-  /// @brief Method GetHumanPose addr 0x2b30ba4 size 0xf4 virtual false final false
+  /// @brief Method GetHumanPose, addr 0x2c96844, size 0xf4, virtual false, abstract: false, final false
   inline void GetHumanPose(ByRef<::UnityEngine::HumanPose> humanPose);
 
   // Ctor Parameters [CppParam { name: "", ty: "HumanPoseHandler", modifiers: "&&", def_value: None }]

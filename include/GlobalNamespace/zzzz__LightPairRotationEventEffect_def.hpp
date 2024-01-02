@@ -11,19 +11,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightPairRotationEventEffect)
 namespace GlobalNamespace {
-class __LightPairRotationEventEffect__RotationData;
+class BeatmapCallbacksController;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
 }
 namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class IAudioTimeSource;
-}
-namespace GlobalNamespace {
-class BeatmapCallbacksController;
-}
-namespace GlobalNamespace {
 class BasicBeatmapEventData;
+}
+namespace GlobalNamespace {
+class __LightPairRotationEventEffect__RotationData;
 }
 namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightPairRotationEventEffect__RotationData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10179)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5054))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4949))
 // CS Name: ::LightPairRotationEventEffect::RotationData*
 class CORDL_TYPE __LightPairRotationEventEffect__RotationData : public ::System::Object {
 public:
@@ -104,7 +104,7 @@ public:
 
   static inline ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* New_ctor();
 
-  /// @brief Method .ctor addr 0x22744c4 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x23ac504, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "__LightPairRotationEventEffect__RotationData", modifiers: "&&", def_value: None }]
@@ -161,8 +161,8 @@ static_assert(offsetof(::GlobalNamespace::__LightPairRotationEventEffect__Rotati
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10176)), TypeDefinitionIndex(TypeDefinitionIndex(14941)), TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5055))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(14724))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4950))
 // CS Name: ::LightPairRotationEventEffect*
 class CORDL_TYPE LightPairRotationEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
@@ -331,24 +331,24 @@ public:
 
   constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method Start addr 0x22740fc size 0x3c8 virtual false final false
+  /// @brief Method Start, addr 0x23ac13c, size 0x3c8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0x22744cc size 0x2a4 virtual false final false
+  /// @brief Method Update, addr 0x23ac50c, size 0x2a4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method OnDestroy addr 0x2274770 size 0x1c virtual false final false
+  /// @brief Method OnDestroy, addr 0x23ac7b0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method HandleBeatmapEvent addr 0x227478c size 0x380 virtual false final false
+  /// @brief Method HandleBeatmapEvent, addr 0x23ac7cc, size 0x380, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method UpdateRotationData addr 0x2274b0c size 0x21c virtual false final false
+  /// @brief Method UpdateRotationData, addr 0x23acb4c, size 0x21c, virtual false, abstract: false, final false
   inline void UpdateRotationData(int32_t beatmapEventDataValue, ::GlobalNamespace::__LightPairRotationEventEffect__RotationData* rotationData, float_t startRotationOffset, float_t direction);
 
   static inline ::GlobalNamespace::LightPairRotationEventEffect* New_ctor();
 
-  /// @brief Method .ctor addr 0x2274d28 size 0x74 virtual false final false
+  /// @brief Method .ctor, addr 0x23acd68, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "LightPairRotationEventEffect", modifiers: "&&", def_value: None }]

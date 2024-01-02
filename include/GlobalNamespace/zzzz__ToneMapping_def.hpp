@@ -16,7 +16,7 @@ MARK_VAL_T(::GlobalNamespace::ToneMapping);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14708))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(14490))
 // CS Name: ::ToneMapping
 struct CORDL_TYPE ToneMapping {
 public:

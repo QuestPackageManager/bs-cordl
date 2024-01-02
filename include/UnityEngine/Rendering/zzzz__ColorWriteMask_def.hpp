@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::ColorWriteMask);
 namespace UnityEngine::Rendering {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(10257))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10335))
 // CS Name: ::UnityEngine.Rendering::ColorWriteMask
 struct CORDL_TYPE ColorWriteMask {
 public:

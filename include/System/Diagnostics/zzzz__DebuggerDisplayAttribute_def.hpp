@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerDisplayAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2545))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(3725))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(3737))
 // CS Name: ::System.Diagnostics::DebuggerDisplayAttribute*
 class CORDL_TYPE DebuggerDisplayAttribute : public ::System::Attribute {
 public:
@@ -50,7 +50,7 @@ public:
 
   static inline ::System::Diagnostics::DebuggerDisplayAttribute* New_ctor(::StringW value);
 
-  /// @brief Method .ctor addr 0x241e934 size 0x70 virtual false final false
+  /// @brief Method .ctor, addr 0x2579dac, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW value);
 
   // Ctor Parameters [CppParam { name: "", ty: "DebuggerDisplayAttribute", modifiers: "&&", def_value: None }]

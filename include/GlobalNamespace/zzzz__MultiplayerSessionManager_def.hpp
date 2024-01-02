@@ -6,72 +6,71 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__StandaloneMonobehavior_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSessionManager)
 namespace GlobalNamespace {
-class __MultiplayerSessionManager____c__DisplayClass96_0;
+class ConnectedPlayerManager;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template <typename TResult> class Func_1;
 }
 namespace GlobalNamespace {
 class __MultiplayerSessionManager____c;
 }
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__MessageType;
-}
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
-namespace GlobalNamespace {
 struct __MultiplayerSessionManager__SessionType;
 }
-namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace GlobalNamespace {
-template <typename TType, typename TData> class NetworkPacketSerializer_2;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
-}
-namespace GlobalNamespace {
-class IMultiplayerSessionManager;
-}
-namespace GlobalNamespace {
-struct DisconnectedReason;
-}
-namespace GlobalNamespace {
-struct UpdateConnectionStateReason;
+namespace System::Collections::Generic {
+template <typename T> class Queue_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyList_1;
+}
 namespace GlobalNamespace {
-struct __MultiplayerSessionManager__ConnectionState;
+template <typename TType, typename TData> class NetworkPacketSerializer_2;
+}
+namespace GlobalNamespace {
+class __MultiplayerSessionManager____c__DisplayClass98_0;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
 namespace System::Collections::Generic {
-template <typename T> class Queue_1;
+template <typename T> class List_1;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__ConnectionState;
+}
+namespace System {
+class Action;
+}
+namespace GlobalNamespace {
+struct DisconnectedReason;
+}
+namespace GlobalNamespace {
+struct __MultiplayerSessionManager__MessageType;
 }
 namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template <typename T1, typename T2> class Action_2;
+}
+namespace GlobalNamespace {
+class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+struct UpdateConnectionStateReason;
 }
 namespace System {
 template <typename T> class Action_1;
 }
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+namespace GlobalNamespace {
+template <typename TData> class INetworkPacketSubSerializer_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -93,7 +92,7 @@ namespace GlobalNamespace {
 class __MultiplayerSessionManager____c;
 }
 namespace GlobalNamespace {
-class __MultiplayerSessionManager____c__DisplayClass96_0;
+class __MultiplayerSessionManager____c__DisplayClass98_0;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::__MultiplayerSessionManager__ConnectionState);
@@ -101,13 +100,13 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerSessionManager__MessageType);
 MARK_VAL_T(::GlobalNamespace::__MultiplayerSessionManager__SessionType);
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerSessionManager);
 MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSessionManager____c);
-MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0);
+MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0);
 // Type: ::MessageType
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12804))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12881))
 // CS Name: ::MultiplayerSessionManager::MessageType
 struct CORDL_TYPE __MultiplayerSessionManager__MessageType {
 public:
@@ -122,6 +121,7 @@ public:
     __E_ScoreSyncState = static_cast<uint8_t>(0x3u),
     __E_NodePoseSyncStateDelta = static_cast<uint8_t>(0x4u),
     __E_ScoreSyncStateDelta = static_cast<uint8_t>(0x5u),
+    __E_OptionalAvatarData = static_cast<uint8_t>(0x6u),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -160,6 +160,9 @@ public:
   /// @brief Field ScoreSyncStateDelta value: static_cast<uint8_t>(0x5u)
   static ::GlobalNamespace::__MultiplayerSessionManager__MessageType const ScoreSyncStateDelta;
 
+  /// @brief Field OptionalAvatarData value: static_cast<uint8_t>(0x6u)
+  static ::GlobalNamespace::__MultiplayerSessionManager__MessageType const OptionalAvatarData;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -173,7 +176,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__MessageTy
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12805))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12882))
 // CS Name: ::MultiplayerSessionManager::SessionType
 struct CORDL_TYPE __MultiplayerSessionManager__SessionType {
 public:
@@ -227,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__SessionTy
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12806))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12883))
 // CS Name: ::MultiplayerSessionManager::ConnectionState
 struct CORDL_TYPE __MultiplayerSessionManager__ConnectionState {
 public:
@@ -280,14 +283,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSe
 static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__ConnectionState, value__) == 0x0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<>c__DisplayClass96_0
+// Type: ::<>c__DisplayClass98_0
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12807))
-// CS Name: ::MultiplayerSessionManager::<>c__DisplayClass96_0*
-class CORDL_TYPE __MultiplayerSessionManager____c__DisplayClass96_0 : public ::System::Object {
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12884))
+// CS Name: ::MultiplayerSessionManager::<>c__DisplayClass98_0*
+class CORDL_TYPE __MultiplayerSessionManager____c__DisplayClass98_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field userId, offset 0x10, size 0x8
@@ -299,26 +302,26 @@ public:
 
   constexpr void __set_userId(::StringW value);
 
-  static inline ::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0* New_ctor();
+  static inline ::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0* New_ctor();
 
-  /// @brief Method .ctor addr 0xdc7918 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe4c8a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <GetPlayerByUserId>b__0 addr 0xdc7d0c size 0xb0 virtual false final false
+  /// @brief Method <GetPlayerByUserId>b__0, addr 0xe4cc9c, size 0xb0, virtual false, abstract: false, final false
   inline bool _GetPlayerByUserId_b__0(::GlobalNamespace::IConnectedPlayer* player);
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSessionManager____c__DisplayClass96_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSessionManager____c__DisplayClass98_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  __MultiplayerSessionManager____c__DisplayClass96_0(__MultiplayerSessionManager____c__DisplayClass96_0&&) = delete;
+  __MultiplayerSessionManager____c__DisplayClass98_0(__MultiplayerSessionManager____c__DisplayClass98_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSessionManager____c__DisplayClass96_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSessionManager____c__DisplayClass98_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  __MultiplayerSessionManager____c__DisplayClass96_0(__MultiplayerSessionManager____c__DisplayClass96_0 const&) = delete;
+  __MultiplayerSessionManager____c__DisplayClass98_0(__MultiplayerSessionManager____c__DisplayClass98_0 const&) = delete;
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __MultiplayerSessionManager____c__DisplayClass96_0();
+  constexpr __MultiplayerSessionManager____c__DisplayClass98_0();
 
 public:
   /// @brief Field userId, offset: 0x10, size: 0x8, def value: None
@@ -327,17 +330,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0, 0x18>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0, ___userId) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0, ___userId) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::<>c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12808))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12885))
 // CS Name: ::MultiplayerSessionManager::<>c*
 class CORDL_TYPE __MultiplayerSessionManager____c : public ::System::Object {
 public:
@@ -345,24 +348,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__MultiplayerSessionManager____c* __9;
 
-  /// @brief Field <>9__102_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__102_0, put = setStaticF___9__102_0))::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* __9__102_0;
+  /// @brief Field <>9__104_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__104_0, put = setStaticF___9__104_0))::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* __9__104_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__MultiplayerSessionManager____c* value);
 
   static inline ::GlobalNamespace::__MultiplayerSessionManager____c* getStaticF___9();
 
-  static inline void setStaticF___9__102_0(::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* value);
+  static inline void setStaticF___9__104_0(::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* value);
 
-  static inline ::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* getStaticF___9__102_0();
+  static inline ::System::Func_2<::GlobalNamespace::IConnectedPlayer*, int32_t>* getStaticF___9__104_0();
 
   static inline ::GlobalNamespace::__MultiplayerSessionManager____c* New_ctor();
 
-  /// @brief Method .ctor addr 0xdc7e20 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe4cdb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <TryUpdateConnectedPlayer>b__102_0 addr 0xdc7e28 size 0xa0 virtual false final false
-  inline int32_t _TryUpdateConnectedPlayer_b__102_0(::GlobalNamespace::IConnectedPlayer* p);
+  /// @brief Method <TryUpdateConnectedPlayer>b__104_0, addr 0xe4cdb8, size 0xa0, virtual false, abstract: false, final false
+  inline int32_t _TryUpdateConnectedPlayer_b__104_0(::GlobalNamespace::IConnectedPlayer* p);
 
   // Ctor Parameters [CppParam { name: "", ty: "__MultiplayerSessionManager____c", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -388,15 +391,15 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSe
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12887)), TypeDefinitionIndex(TypeDefinitionIndex(12806))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12809))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12883)), TypeDefinitionIndex(TypeDefinitionIndex(12966))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12886))
 // CS Name: ::MultiplayerSessionManager*
 class CORDL_TYPE MultiplayerSessionManager : public ::GlobalNamespace::StandaloneMonobehavior {
 public:
   // Declarations
   using __c = ::GlobalNamespace::__MultiplayerSessionManager____c;
 
-  using __c__DisplayClass96_0 = ::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0;
+  using __c__DisplayClass98_0 = ::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0;
 
   using ConnectionState = ::GlobalNamespace::__MultiplayerSessionManager__ConnectionState;
 
@@ -476,7 +479,7 @@ public:
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
-  __declspec(property(get = get_syncTime)) float_t syncTime;
+  __declspec(property(get = get_syncTime)) int64_t syncTime;
 
   __declspec(property(get = get_isSyncTimeInitialized)) bool isSyncTimeInitialized;
 
@@ -592,221 +595,230 @@ public:
 
   constexpr void __set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
 
-  /// @brief Method add_connectedEvent addr 0xdc4e18 size 0x9c virtual true final true
+  /// @brief Method add_connectedEvent, addr 0xe49d90, size 0x9c, virtual true, abstract: false, final true
   inline void add_connectedEvent(::System::Action* value);
 
-  /// @brief Method remove_connectedEvent addr 0xdc4eb4 size 0x9c virtual true final true
+  /// @brief Method remove_connectedEvent, addr 0xe49e2c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_connectedEvent(::System::Action* value);
 
-  /// @brief Method add_connectionFailedEvent addr 0xdc4f50 size 0xb0 virtual true final true
+  /// @brief Method add_connectionFailedEvent, addr 0xe49ec8, size 0xb0, virtual true, abstract: false, final true
   inline void add_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_connectionFailedEvent addr 0xdc5000 size 0xb0 virtual true final true
+  /// @brief Method remove_connectionFailedEvent, addr 0xe49f78, size 0xb0, virtual true, abstract: false, final true
   inline void remove_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_playerConnectedEvent addr 0xdc50b0 size 0xb0 virtual true final true
+  /// @brief Method add_playerConnectedEvent, addr 0xe4a028, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerConnectedEvent addr 0xdc5160 size 0xb0 virtual true final true
+  /// @brief Method remove_playerConnectedEvent, addr 0xe4a0d8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerDisconnectedEvent addr 0xdc5210 size 0xb0 virtual true final true
+  /// @brief Method add_playerDisconnectedEvent, addr 0xe4a188, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerDisconnectedEvent addr 0xdc52c0 size 0xb0 virtual true final true
+  /// @brief Method remove_playerDisconnectedEvent, addr 0xe4a238, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerAvatarChangedEvent addr 0xdc5370 size 0xb0 virtual true final true
+  /// @brief Method add_playerAvatarChangedEvent, addr 0xe4a2e8, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerAvatarChangedEvent addr 0xdc5420 size 0xb0 virtual true final true
+  /// @brief Method remove_playerAvatarChangedEvent, addr 0xe4a398, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_playerStateChangedEvent addr 0xdc54d0 size 0xb0 virtual true final true
+  /// @brief Method add_playerStateChangedEvent, addr 0xe4a448, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_playerStateChangedEvent addr 0xdc5580 size 0xb0 virtual true final true
+  /// @brief Method remove_playerStateChangedEvent, addr 0xe4a4f8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_connectionOwnerStateChangedEvent addr 0xdc5630 size 0xb0 virtual true final true
+  /// @brief Method add_connectionOwnerStateChangedEvent, addr 0xe4a5a8, size 0xb0, virtual true, abstract: false, final true
   inline void add_connectionOwnerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method remove_connectionOwnerStateChangedEvent addr 0xdc56e0 size 0xb0 virtual true final true
+  /// @brief Method remove_connectionOwnerStateChangedEvent, addr 0xe4a658, size 0xb0, virtual true, abstract: false, final true
   inline void remove_connectionOwnerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  /// @brief Method add_disconnectedEvent addr 0xdc5790 size 0xb0 virtual true final true
+  /// @brief Method add_disconnectedEvent, addr 0xe4a708, size 0xb0, virtual true, abstract: false, final true
   inline void add_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method remove_disconnectedEvent addr 0xdc5840 size 0xb0 virtual true final true
+  /// @brief Method remove_disconnectedEvent, addr 0xe4a7b8, size 0xb0, virtual true, abstract: false, final true
   inline void remove_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  /// @brief Method add_pollUpdateEvent addr 0xdc58f0 size 0x9c virtual true final true
+  /// @brief Method add_pollUpdateEvent, addr 0xe4a868, size 0x9c, virtual true, abstract: false, final true
   inline void add_pollUpdateEvent(::System::Action* value);
 
-  /// @brief Method remove_pollUpdateEvent addr 0xdc598c size 0x9c virtual true final true
+  /// @brief Method remove_pollUpdateEvent, addr 0xe4a904, size 0x9c, virtual true, abstract: false, final true
   inline void remove_pollUpdateEvent(::System::Action* value);
 
-  /// @brief Method get_isConnectionOwner addr 0xdc5a28 size 0x18 virtual true final true
+  /// @brief Method get_isConnectionOwner, addr 0xe4a9a0, size 0x18, virtual true, abstract: false, final true
   inline bool get_isConnectionOwner();
 
-  /// @brief Method get_connectionOwner addr 0xdc5a40 size 0x8 virtual true final true
+  /// @brief Method get_connectionOwner, addr 0xe4a9b8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_connectionOwner();
 
-  /// @brief Method set_connectionOwner addr 0xdc5a48 size 0x8 virtual false final false
+  /// @brief Method set_connectionOwner, addr 0xe4a9c0, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionOwner(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method get_isSpectating addr 0xdc5a50 size 0x118 virtual true final true
+  /// @brief Method get_isSpectating, addr 0xe4a9c8, size 0x118, virtual true, abstract: false, final true
   inline bool get_isSpectating();
 
-  /// @brief Method get_isConnectingOrConnected addr 0xdc5b68 size 0x14 virtual true final true
+  /// @brief Method get_isConnectingOrConnected, addr 0xe4aae0, size 0x14, virtual true, abstract: false, final true
   inline bool get_isConnectingOrConnected();
 
-  /// @brief Method get_isConnected addr 0xdc5b8c size 0x10 virtual true final true
+  /// @brief Method get_isConnected, addr 0xe4ab04, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnected();
 
-  /// @brief Method get_isConnecting addr 0xdc5b7c size 0x10 virtual true final true
+  /// @brief Method get_isConnecting, addr 0xe4aaf4, size 0x10, virtual true, abstract: false, final true
   inline bool get_isConnecting();
 
-  /// @brief Method get_isDisconnecting addr 0xdc5b9c size 0x10 virtual true final true
+  /// @brief Method get_isDisconnecting, addr 0xe4ab14, size 0x10, virtual true, abstract: false, final true
   inline bool get_isDisconnecting();
 
-  /// @brief Method get_connectedPlayers addr 0xdc5bac size 0x8 virtual true final true
+  /// @brief Method get_connectedPlayers, addr 0xe4ab24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* get_connectedPlayers();
 
-  /// @brief Method get_connectedPlayerCount addr 0xdc5bb4 size 0x48 virtual true final true
+  /// @brief Method get_connectedPlayerCount, addr 0xe4ab2c, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_connectedPlayerCount();
 
-  /// @brief Method get_syncTime addr 0xdc5bfc size 0x18 virtual true final true
-  inline float_t get_syncTime();
+  /// @brief Method get_syncTime, addr 0xe4ab74, size 0x14, virtual true, abstract: false, final true
+  inline int64_t get_syncTime();
 
-  /// @brief Method get_isSyncTimeInitialized addr 0xdc5c14 size 0x14 virtual true final true
+  /// @brief Method get_isSyncTimeInitialized, addr 0xe4ab88, size 0x14, virtual true, abstract: false, final true
   inline bool get_isSyncTimeInitialized();
 
-  /// @brief Method get_localPlayer addr 0xdc5c28 size 0x18 virtual true final true
+  /// @brief Method get_localPlayer, addr 0xe4ab9c, size 0x18, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* get_localPlayer();
 
-  /// @brief Method get_connectedPlayerManager addr 0xdc5c40 size 0x8 virtual false final false
+  /// @brief Method get_connectedPlayerManager, addr 0xe4abb4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConnectedPlayerManager* get_connectedPlayerManager();
 
-  /// @brief Method get_maxPlayerCount addr 0xdc5c48 size 0x8 virtual true final true
+  /// @brief Method get_maxPlayerCount, addr 0xe4abbc, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPlayerCount();
 
-  /// @brief Method Start addr 0xdc5c50 size 0x4c virtual true final false
+  /// @brief Method Start, addr 0xe4abc4, size 0x4c, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update addr 0xdc5d50 size 0x58 virtual true final false
+  /// @brief Method Update, addr 0xe4acc4, size 0x58, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method LateUpdate addr 0xdc5db0 size 0x14 virtual false final false
+  /// @brief Method LateUpdate, addr 0xe4ad24, size 0x14, virtual false, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method OnDestroy addr 0xdc5dc4 size 0x24 virtual true final false
+  /// @brief Method OnDestroy, addr 0xe4ad38, size 0x24, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnApplicationPause addr 0xdc666c size 0x58 virtual true final false
+  /// @brief Method OnApplicationPause, addr 0xe4b5e0, size 0x58, virtual true, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method RegisterSerializer addr 0xdc66c4 size 0x68 virtual true final true
+  /// @brief Method RegisterSerializer, addr 0xe4b638, size 0x68, virtual true, abstract: false, final true
   inline void RegisterSerializer(::GlobalNamespace::__MultiplayerSessionManager__MessageType serializerType,
                                  ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
 
-  /// @brief Method UnregisterSerializer addr 0xdc672c size 0x68 virtual true final true
+  /// @brief Method UnregisterSerializer, addr 0xe4b6a0, size 0x68, virtual true, abstract: false, final true
   inline void UnregisterSerializer(::GlobalNamespace::__MultiplayerSessionManager__MessageType serializerType,
                                    ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
 
-  /// @brief Method RegisterCallback addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T>
   inline void RegisterCallback(::GlobalNamespace::__MultiplayerSessionManager__MessageType serializerType, ::System::Action_2<T, ::GlobalNamespace::IConnectedPlayer*>* callback,
                                ::System::Func_1<T>* constructor);
 
-  /// @brief Method UnregisterCallback addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void UnregisterCallback(::GlobalNamespace::__MultiplayerSessionManager__MessageType serializerType);
 
-  /// @brief Method StartSession addr 0xdc6794 size 0x5e8 virtual true final true
+  /// @brief Method StartSession, addr 0xe4b708, size 0x5e8, virtual true, abstract: false, final true
   inline void StartSession(::GlobalNamespace::__MultiplayerSessionManager__SessionType sessionType, ::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
 
-  /// @brief Method SetMaxPlayerCount addr 0xdc6d7c size 0x8 virtual true final true
+  /// @brief Method SetMaxPlayerCount, addr 0xe4bcf0, size 0x8, virtual true, abstract: false, final true
   inline void SetMaxPlayerCount(int32_t maxPlayerCount);
 
-  /// @brief Method EndSession addr 0xdc61a8 size 0x4c4 virtual true final true
+  /// @brief Method EndSession, addr 0xe4b11c, size 0x4c4, virtual true, abstract: false, final true
   inline void EndSession();
 
-  /// @brief Method Disconnect addr 0xdc6d84 size 0x10 virtual true final true
+  /// @brief Method Disconnect, addr 0xe4bcf8, size 0x10, virtual true, abstract: false, final true
   inline void Disconnect();
 
-  /// @brief Method Send addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method Send, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void Send(T message);
 
-  /// @brief Method SendToPlayer addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendToPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void SendToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method SendUnreliable addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendUnreliable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void SendUnreliable(T message);
 
-  /// @brief Method SendUnreliableEncryptedToPlayer addr 0x0 size 0xffffffffffffffff virtual true final true
+  /// @brief Method SendUnreliableEncryptedToPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline void SendUnreliableEncryptedToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandleInitialized addr 0xdc6d94 size 0x10 virtual false final false
+  /// @brief Method SendUnreliableOnlyToFirstDegreeConnections, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename T> inline void SendUnreliableOnlyToFirstDegreeConnections(T message);
+
+  /// @brief Method SendUnreliableFromPlayerToPlayer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename T> inline void SendUnreliableFromPlayerToPlayer(T message, ::GlobalNamespace::IConnectedPlayer* fromPlayer, ::GlobalNamespace::IConnectedPlayer* toPlayer);
+
+  /// @brief Method HandleInitialized, addr 0xe4bd08, size 0x10, virtual false, abstract: false, final false
   inline void HandleInitialized();
 
-  /// @brief Method HandleConnected addr 0xdc6da4 size 0x10 virtual false final false
+  /// @brief Method HandleConnected, addr 0xe4bd18, size 0x10, virtual false, abstract: false, final false
   inline void HandleConnected();
 
-  /// @brief Method HandleDisconnected addr 0xdc6db4 size 0x10 virtual false final false
+  /// @brief Method HandleDisconnected, addr 0xe4bd28, size 0x10, virtual false, abstract: false, final false
   inline void HandleDisconnected(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleConnectionFailed addr 0xdc6dc4 size 0x10 virtual false final false
+  /// @brief Method HandleConnectionFailed, addr 0xe4bd38, size 0x10, virtual false, abstract: false, final false
   inline void HandleConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleSyncTimeInitialized addr 0xdc6dd4 size 0x10 virtual false final false
+  /// @brief Method HandleSyncTimeInitialized, addr 0xe4bd48, size 0x10, virtual false, abstract: false, final false
   inline void HandleSyncTimeInitialized();
 
-  /// @brief Method HandlePlayerConnected addr 0xdc6de4 size 0xbc virtual false final false
+  /// @brief Method HandlePlayerConnected, addr 0xe4bd58, size 0xbc, virtual false, abstract: false, final false
   inline void HandlePlayerConnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerDisconnected addr 0xdc7450 size 0xbc virtual false final false
+  /// @brief Method HandlePlayerDisconnected, addr 0xe4c3e0, size 0xbc, virtual false, abstract: false, final false
   inline void HandlePlayerDisconnected(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerStateChanged addr 0xdc750c size 0x1a8 virtual false final false
+  /// @brief Method HandlePlayerStateChanged, addr 0xe4c49c, size 0x1a8, virtual false, abstract: false, final false
   inline void HandlePlayerStateChanged(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerAvatarChanged addr 0xdc76b4 size 0x84 virtual false final false
+  /// @brief Method HandlePlayerAvatarChanged, addr 0xe4c644, size 0x84, virtual false, abstract: false, final false
   inline void HandlePlayerAvatarChanged(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerOrderChanged addr 0xdc7738 size 0x3c virtual false final false
+  /// @brief Method HandlePlayerOrderChanged, addr 0xe4c6c8, size 0x3c, virtual false, abstract: false, final false
   inline void HandlePlayerOrderChanged(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method HandlePlayerLatencyInitialized addr 0xdc7774 size 0x8 virtual false final false
+  /// @brief Method HandlePlayerLatencyInitialized, addr 0xe4c704, size 0x8, virtual false, abstract: false, final false
   inline void HandlePlayerLatencyInitialized(::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method GetPlayerByUserId addr 0xdc777c size 0x19c virtual true final true
+  /// @brief Method GetPlayerByUserId, addr 0xe4c70c, size 0x19c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* GetPlayerByUserId(::StringW userId);
 
-  /// @brief Method GetConnectedPlayer addr 0xdc7920 size 0x58 virtual true final true
+  /// @brief Method GetConnectedPlayer, addr 0xe4c8b0, size 0x58, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IConnectedPlayer* GetConnectedPlayer(int32_t i);
 
-  /// @brief Method SetLocalPlayerState addr 0xdc5c9c size 0xb4 virtual true final true
+  /// @brief Method SetLocalPlayerState, addr 0xe4ac10, size 0xb4, virtual true, abstract: false, final true
   inline void SetLocalPlayerState(::StringW state, bool hasState);
 
-  /// @brief Method KickPlayer addr 0xdc7978 size 0x18 virtual true final true
+  /// @brief Method KickPlayer, addr 0xe4c908, size 0x18, virtual true, abstract: false, final true
   inline void KickPlayer(::StringW userId);
 
-  /// @brief Method LocalPlayerHasState addr 0xdc7990 size 0xe4 virtual true final true
+  /// @brief Method LocalPlayerHasState, addr 0xe4c920, size 0xe4, virtual true, abstract: false, final true
   inline bool LocalPlayerHasState(::StringW state);
 
-  /// @brief Method UpdateConnectionState addr 0xdc5de8 size 0x3c0 virtual false final false
-  inline void UpdateConnectionState(::GlobalNamespace::UpdateConnectionStateReason updateReason, ::GlobalNamespace::DisconnectedReason disconnectedReason,
-                                    ::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
+  /// @brief Method UpdateConnectionState, addr 0xe4ad5c, size 0x3c0, virtual false, abstract: false, final false
+  /// @param disconnectedReason: ::GlobalNamespace::DisconnectedReason (default: static_cast<int32_t>(0x1))
+  /// @param connectionFailedReason: ::GlobalNamespace::ConnectionFailedReason (default: static_cast<int32_t>(0x1))
+  inline void UpdateConnectionState(::GlobalNamespace::UpdateConnectionStateReason updateReason, ::GlobalNamespace::DisconnectedReason disconnectedReason = static_cast<int32_t>(0x1),
+                                    ::GlobalNamespace::ConnectionFailedReason connectionFailedReason = static_cast<int32_t>(0x1));
 
-  /// @brief Method TryUpdateConnectedPlayer addr 0xdc6ea0 size 0x5b0 virtual false final false
-  inline bool TryUpdateConnectedPlayer(::GlobalNamespace::IConnectedPlayer* player, bool isPlayerConnected);
+  /// @brief Method TryUpdateConnectedPlayer, addr 0xe4be14, size 0x5cc, virtual false, abstract: false, final false
+  /// @param isPlayerConnected: bool (default: true)
+  inline bool TryUpdateConnectedPlayer(::GlobalNamespace::IConnectedPlayer* player, bool isPlayerConnected = true);
 
-  /// @brief Method GetNextAvailableSortIndex addr 0xdc7a74 size 0xb4 virtual false final false
+  /// @brief Method GetNextAvailableSortIndex, addr 0xe4ca04, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetNextAvailableSortIndex();
 
   static inline ::GlobalNamespace::MultiplayerSessionManager* New_ctor();
 
-  /// @brief Method .ctor addr 0xdc7b28 size 0x144 virtual false final false
+  /// @brief Method .ctor, addr 0xe4cab8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSessionManager", modifiers: "&&", def_value: None }]
@@ -924,5 +936,5 @@ NEED_NO_BOX(::GlobalNamespace::MultiplayerSessionManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerSessionManager*, "", "MultiplayerSessionManager");
 NEED_NO_BOX(::GlobalNamespace::__MultiplayerSessionManager____c);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerSessionManager____c*, "", "MultiplayerSessionManager/<>c");
-NEED_NO_BOX(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass96_0*, "", "MultiplayerSessionManager/<>c__DisplayClass96_0");
+NEED_NO_BOX(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0*, "", "MultiplayerSessionManager/<>c__DisplayClass98_0");

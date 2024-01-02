@@ -4,11 +4,11 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(INestedSite)
-namespace System::ComponentModel {
-class ISite;
-}
 namespace System {
 class IServiceProvider;
+}
+namespace System::ComponentModel {
+class ISite;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::ComponentModel::INestedSite);
 namespace System::ComponentModel {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(8270))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(9433))
 // CS Name: ::System.ComponentModel::INestedSite*
 class CORDL_TYPE INestedSite {
 public:
@@ -34,7 +34,7 @@ public:
   /// @brief Convert operator to "::System::IServiceProvider"
   constexpr operator ::System::IServiceProvider*() noexcept;
 
-  /// @brief Method get_FullName addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_FullName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_FullName();
 
   // Ctor Parameters [CppParam { name: "", ty: "INestedSite", modifiers: "&&", def_value: None }]

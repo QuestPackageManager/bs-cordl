@@ -6,23 +6,23 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ResultsTableView)
+namespace HMUI {
+class TableCell;
+}
+namespace HMUI {
+class __TableView__IDataSource;
+}
+namespace HMUI {
+class TableView;
+}
 namespace GlobalNamespace {
 class ResultsTableCell;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
-namespace HMUI {
-class __TableView__IDataSource;
-}
 namespace GlobalNamespace {
 class MultiplayerPlayerResultsData;
-}
-namespace HMUI {
-class TableCell;
-}
-namespace HMUI {
-class TableView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -34,8 +34,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultsTableView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5903))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5807))
 // CS Name: ::ResultsTableView*
 class CORDL_TYPE ResultsTableView : public ::UnityEngine::MonoBehaviour {
 public:
@@ -79,21 +79,21 @@ public:
 
   constexpr void __set__dataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method CellSize addr 0x21a4384 size 0x8 virtual true final true
+  /// @brief Method CellSize, addr 0x22e84dc, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method NumberOfCells addr 0x21a438c size 0xa0 virtual true final true
+  /// @brief Method NumberOfCells, addr 0x22e84e4, size 0xa0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method CellForIdx addr 0x21a442c size 0x1d0 virtual true final true
+  /// @brief Method CellForIdx, addr 0x22e8584, size 0x1d0, virtual true, abstract: false, final true
   inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method SetData addr 0x21a45fc size 0x2c virtual false final false
+  /// @brief Method SetData, addr 0x22e8754, size 0x2c, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
 
   static inline ::GlobalNamespace::ResultsTableView* New_ctor();
 
-  /// @brief Method .ctor addr 0x21a4628 size 0x14 virtual false final false
+  /// @brief Method .ctor, addr 0x22e8780, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "ResultsTableView", modifiers: "&&", def_value: None }]

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AppInitSetupData);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4015))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15393))
 // CS Name: ::AppInitSetupData::RunMode
 struct CORDL_TYPE __AppInitSetupData__RunMode {
 public:
@@ -74,8 +74,8 @@ static_assert(offsetof(::GlobalNamespace::__AppInitSetupData__RunMode, value__) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4015)), TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4016))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15393))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15394))
 // CS Name: ::AppInitSetupData*
 class CORDL_TYPE AppInitSetupData : public ::System::Object {
 public:
@@ -93,7 +93,7 @@ public:
 
   static inline ::GlobalNamespace::AppInitSetupData* New_ctor();
 
-  /// @brief Method .ctor addr 0x20c5f3c size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0xe1eac0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "AppInitSetupData", modifiers: "&&", def_value: None }]

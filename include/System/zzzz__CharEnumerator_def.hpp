@@ -6,20 +6,20 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CharEnumerator)
+namespace System {
+class ICloneable;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class Object;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System {
 class IDisposable;
-}
-namespace System {
-class ICloneable;
-}
-namespace System {
-class Object;
 }
 // Forward declare root types
 namespace System {
@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::CharEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2363))
 // CS Name: ::System::CharEnumerator*
 class CORDL_TYPE CharEnumerator : public ::System::Object {
@@ -82,30 +82,30 @@ public:
 
   static inline ::System::CharEnumerator* New_ctor(::StringW str);
 
-  /// @brief Method .ctor addr 0x23cdfb4 size 0x30 virtual false final false
+  /// @brief Method .ctor, addr 0x2527280, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method Clone addr 0x23cdfe4 size 0x8 virtual true final true
+  /// @brief Method Clone, addr 0x25272b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext addr 0x23cdfec size 0x54 virtual true final true
+  /// @brief Method MoveNext, addr 0x25272b8, size 0x54, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Dispose addr 0x23ce040 size 0x18 virtual true final true
+  /// @brief Method Dispose, addr 0x252730c, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current addr 0x23ce058 size 0x64 virtual true final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2527324, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method get_Current addr 0x23ce0bc size 0xa4 virtual true final true
+  /// @brief Method get_Current, addr 0x2527388, size 0xa4, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
-  /// @brief Method Reset addr 0x23ce160 size 0x10 virtual true final true
+  /// @brief Method Reset, addr 0x252742c, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
   static inline ::System::CharEnumerator* New_ctor();
 
-  /// @brief Method .ctor addr 0x23ce170 size 0x38 virtual false final false
+  /// @brief Method .ctor, addr 0x252743c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "CharEnumerator", modifiers: "&&", def_value: None }]

@@ -3,14 +3,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RemoteProcedureCall_3)
-namespace LiteNetLib::Utils {
-class NetDataReader;
-}
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
+}
+namespace LiteNetLib::Utils {
+class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
@@ -30,8 +29,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1, typename T2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12857))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12860))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12939))
 // CS Name: ::RemoteProcedureCall`3<T0,T1,T2>*
 class CORDL_TYPE RemoteProcedureCall_3 : public ::GlobalNamespace::RemoteProcedureCall {
 public:
@@ -69,30 +68,30 @@ public:
 
   constexpr void __set__value2(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T2>* value);
 
-  /// @brief Method get_value0 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_value0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T0 get_value0();
 
-  /// @brief Method get_value1 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_value1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T1 get_value1();
 
-  /// @brief Method get_value2 addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method get_value2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T2 get_value2();
 
-  /// @brief Method SerializeData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method SerializeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion);
 
-  /// @brief Method DeserializeData addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method DeserializeData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DeserializeData(::LiteNetLib::Utils::NetDataReader* reader, uint32_t protocolVersion);
 
-  /// @brief Method Init addr 0x0 size 0xffffffffffffffff virtual false final false
-  inline ::GlobalNamespace::IRemoteProcedureCall* Init(float_t syncTime, T0 value0, T1 value1, T2 value2);
+  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IRemoteProcedureCall* Init(int64_t syncTime, T0 value0, T1 value1, T2 value2);
 
-  /// @brief Method Release addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Release();
 
   static inline ::GlobalNamespace::RemoteProcedureCall_3<T0, T1, T2>* New_ctor();
 
-  /// @brief Method .ctor addr 0x0 size 0xffffffffffffffff virtual false final false
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "RemoteProcedureCall_3", modifiers: "&&", def_value: None }]

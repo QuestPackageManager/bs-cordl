@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerRichPresenceData);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4789))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4668))
 // CS Name: ::IMultiplayerRichPresenceData*
 class CORDL_TYPE IMultiplayerRichPresenceData {
 public:
@@ -34,25 +34,25 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method get_multiplayerSecret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_multiplayerSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_multiplayerSecret();
 
-  /// @brief Method set_multiplayerSecret addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_multiplayerSecret, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_multiplayerSecret(::StringW value);
 
-  /// @brief Method get_atMaxPartySize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_atMaxPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_atMaxPartySize();
 
-  /// @brief Method set_atMaxPartySize addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_atMaxPartySize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_atMaxPartySize(bool value);
 
-  /// @brief Method get_canInvite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_canInvite();
 
-  /// @brief Method set_canInvite addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method set_canInvite, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_canInvite(bool value);
 
-  /// @brief Method get_isJoinable addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method get_isJoinable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isJoinable();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]

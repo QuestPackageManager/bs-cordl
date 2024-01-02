@@ -21,12 +21,12 @@ MARK_REF_PTR_T(::GlobalNamespace::INoteControllerNoteWasCutEvent);
 namespace GlobalNamespace {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(4887))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(4766))
 // CS Name: ::INoteControllerNoteWasCutEvent*
 class CORDL_TYPE INoteControllerNoteWasCutEvent {
 public:
   // Declarations
-  /// @brief Method HandleNoteControllerNoteWasCut addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method HandleNoteControllerNoteWasCut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void HandleNoteControllerNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   // Ctor Parameters [CppParam { name: "", ty: "INoteControllerNoteWasCutEvent", modifiers: "&&", def_value: None }]

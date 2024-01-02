@@ -20,8 +20,8 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(6843))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(6757))
 // CS Name: ::UnityEngine.UIElements::DropdownUtility*
 class CORDL_TYPE DropdownUtility : public ::System::Object {
 public:
@@ -33,7 +33,7 @@ public:
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();
 
-  /// @brief Method CreateDropdown addr 0x2c4cb68 size 0x98 virtual false final false
+  /// @brief Method CreateDropdown, addr 0x2db3f18, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   // Ctor Parameters [CppParam { name: "", ty: "DropdownUtility", modifiers: "&&", def_value: None }]

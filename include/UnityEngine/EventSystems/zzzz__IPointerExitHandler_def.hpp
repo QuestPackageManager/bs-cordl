@@ -4,10 +4,10 @@
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPointerExitHandler)
 namespace UnityEngine::EventSystems {
-class IEventSystemHandler;
+class PointerEventData;
 }
 namespace UnityEngine::EventSystems {
-class PointerEventData;
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerExitHandler);
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13178))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13173))
 // CS Name: ::UnityEngine.EventSystems::IPointerExitHandler*
 class CORDL_TYPE IPointerExitHandler {
 public:
@@ -28,7 +28,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Method OnPointerExit addr 0x0 size 0xffffffffffffffff virtual true final false
+  /// @brief Method OnPointerExit, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPointerExitHandler", modifiers: "&&", def_value: None }]

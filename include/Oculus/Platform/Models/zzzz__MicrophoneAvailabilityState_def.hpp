@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::MicrophoneAvailabilityState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(13512))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13457))
 // CS Name: ::Oculus.Platform.Models::MicrophoneAvailabilityState*
 class CORDL_TYPE MicrophoneAvailabilityState : public ::System::Object {
 public:
@@ -32,7 +32,7 @@ public:
 
   static inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* New_ctor(void* o);
 
-  /// @brief Method .ctor addr 0x25b5be8 size 0x7c virtual false final false
+  /// @brief Method .ctor, addr 0x2707464, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
   // Ctor Parameters [CppParam { name: "", ty: "MicrophoneAvailabilityState", modifiers: "&&", def_value: None }]

@@ -7,20 +7,14 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MultiplayerOutroAnimationController)
-namespace GlobalNamespace {
-class MultiplayerLayoutProvider;
-}
-namespace System {
-class Action;
-}
-namespace GlobalNamespace {
-class MultiplayerResultsData;
-}
-namespace GlobalNamespace {
-class MultiplayerTimelineMock;
+namespace UnityEngine {
+struct PropertyName;
 }
 namespace UnityEngine::Playables {
 class PlayableDirector;
+}
+namespace GlobalNamespace {
+class MultiplayerLayoutProvider;
 }
 namespace UnityEngine {
 class GameObject;
@@ -29,10 +23,7 @@ namespace GlobalNamespace {
 class MultiplayerScoreRingManager;
 }
 namespace GlobalNamespace {
-class MultiplayerPlayersManager;
-}
-namespace UnityEngine {
-struct PropertyName;
+class MultiplayerResultsData;
 }
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
@@ -41,10 +32,16 @@ namespace UnityEngine {
 class Transform;
 }
 namespace GlobalNamespace {
-class MultiplayerResultsPyramidView;
+class GameplayCoreSceneSetupData;
+}
+namespace System {
+class Action;
 }
 namespace GlobalNamespace {
-class GameplayCoreSceneSetupData;
+class MultiplayerPlayersManager;
+}
+namespace GlobalNamespace {
+class MultiplayerResultsPyramidView;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -56,8 +53,8 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerOutroAnimationController);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10152)), TypeDefinitionIndex(TypeDefinitionIndex(10087))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(5326))
+// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10159)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(5232))
 // CS Name: ::MultiplayerOutroAnimationController*
 class CORDL_TYPE MultiplayerOutroAnimationController : public ::UnityEngine::MonoBehaviour {
 public:
@@ -254,36 +251,33 @@ public:
 
   constexpr void __set__onCompleted(::System::Action* value);
 
-  /// @brief Method Start addr 0x21102cc size 0xa0 virtual false final false
+  /// @brief Method Start, addr 0x2253df4, size 0xa0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method OnValidate addr 0x211042c size 0x7a4 virtual false final false
+  /// @brief Method OnValidate, addr 0x2253f54, size 0x7a4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method OnDestroy addr 0x2110bd0 size 0xd0 virtual false final false
+  /// @brief Method OnDestroy, addr 0x22546f8, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method AnimateOutro addr 0x21088e8 size 0x1c4 virtual false final false
+  /// @brief Method AnimateOutro, addr 0x2249c54, size 0x1c0, virtual false, abstract: false, final false
   inline void AnimateOutro(::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData, ::System::Action* onCompleted);
 
-  /// @brief Method BindOutroTimeline addr 0x2110d3c size 0x6b4 virtual false final false
+  /// @brief Method BindOutroTimeline, addr 0x2254864, size 0x6b4, virtual false, abstract: false, final false
   inline void BindOutroTimeline();
 
-  /// @brief Method BindRingsAndAudio addr 0x21113f0 size 0x97c virtual false final false
-  inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::GlobalNamespace::MultiplayerTimelineMock* timelineMock);
+  /// @brief Method BindRingsAndAudio, addr 0x2255138, size 0x968, virtual false, abstract: false, final false
+  inline void BindRingsAndAudio(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> rings, bool isMock, bool isDuel, ::UnityEngine::GameObject* resultsMocks);
 
-  /// @brief Method SetTimelineMock addr 0x2112380 size 0x298 virtual false final false
-  inline void SetTimelineMock(::GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
-
-  /// @brief Method Completed addr 0x2112b94 size 0x24 virtual false final false
+  /// @brief Method Completed, addr 0x22560b4, size 0x24, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method HandlePlayerSpawningDidFinish addr 0x211036c size 0x24 virtual false final false
+  /// @brief Method HandlePlayerSpawningDidFinish, addr 0x2253e94, size 0x24, virtual false, abstract: false, final false
   inline void HandlePlayerSpawningDidFinish();
 
   static inline ::GlobalNamespace::MultiplayerOutroAnimationController* New_ctor();
 
-  /// @brief Method .ctor addr 0x2112fb8 size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x22564d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerOutroAnimationController", modifiers: "&&", def_value: None }]

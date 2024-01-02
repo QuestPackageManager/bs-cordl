@@ -7,22 +7,22 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector4Serializable)
 namespace System {
-template <typename T> class IEquatable_1;
+class Object;
 }
 namespace LiteNetLib::Utils {
-class INetSerializable;
+class NetDataReader;
 }
 namespace UnityEngine {
 struct Vector4;
 }
 namespace LiteNetLib::Utils {
-class NetDataReader;
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System {
-class Object;
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::Vector4Serializable);
 namespace GlobalNamespace {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15185))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(15040))
 // CS Name: ::Vector4Serializable
 struct CORDL_TYPE Vector4Serializable {
 public:
@@ -46,46 +46,46 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::Vector4Serializable>*();
 
-  /// @brief Method Serialize addr 0x1235068 size 0x68 virtual true final true
+  /// @brief Method Serialize, addr 0x12a7164, size 0x68, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method Deserialize addr 0x12350d0 size 0x7c virtual true final true
+  /// @brief Method Deserialize, addr 0x12a71cc, size 0x7c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals addr 0x123514c size 0x44 virtual true final true
+  /// @brief Method Equals, addr 0x12a7248, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::Vector4Serializable other);
 
-  /// @brief Method Approximately addr 0x1235190 size 0x74 virtual false final false
+  /// @brief Method Approximately, addr 0x12a728c, size 0x74, virtual false, abstract: false, final false
   inline bool Approximately(::GlobalNamespace::Vector4Serializable other);
 
-  /// @brief Method Equals addr 0x1235204 size 0xa8 virtual true final false
+  /// @brief Method Equals, addr 0x12a7300, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode addr 0x12352ac size 0x1c virtual true final false
+  /// @brief Method GetHashCode, addr 0x12a73a8, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString addr 0x12352c8 size 0x25c virtual true final false
+  /// @brief Method ToString, addr 0x12a73c4, size 0x25c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method GetSize addr 0x1235524 size 0x6c virtual false final false
+  /// @brief Method GetSize, addr 0x12a7620, size 0x6c, virtual false, abstract: false, final false
   inline int32_t GetSize();
 
-  /// @brief Method .ctor addr 0x1235590 size 0x34c virtual false final false
+  /// @brief Method .ctor, addr 0x12a768c, size 0x34c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector4 v);
 
-  /// @brief Method .ctor addr 0x12358dc size 0x8 virtual false final false
+  /// @brief Method .ctor, addr 0x12a79d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method op_Implicit addr 0x12358e4 size 0x34 virtual false final false
+  /// @brief Method op_Implicit, addr 0x12a79e0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 op_Implicit___UnityEngine__Vector4(::GlobalNamespace::Vector4Serializable v);
 
-  /// @brief Method op_Implicit addr 0x1235918 size 0x24 virtual false final false
+  /// @brief Method op_Implicit, addr 0x12a7a14, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector4Serializable op_Implicit___GlobalNamespace__Vector4Serializable(::UnityEngine::Vector4 v);
 
-  /// @brief Method op_Addition addr 0x123593c size 0x2c virtual false final false
+  /// @brief Method op_Addition, addr 0x12a7a38, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector4Serializable op_Addition(::GlobalNamespace::Vector4Serializable a, ::GlobalNamespace::Vector4Serializable b);
 
-  /// @brief Method op_Subtraction addr 0x1235968 size 0x2c virtual false final false
+  /// @brief Method op_Subtraction, addr 0x12a7a64, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::Vector4Serializable op_Subtraction(::GlobalNamespace::Vector4Serializable a, ::GlobalNamespace::Vector4Serializable b);
 
   // Ctor Parameters [CppParam { name: "_x", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_y", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_z", ty:

@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TextRenderFlags);
 namespace TMPro {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(12360))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(12432))
 // CS Name: ::TMPro::TextRenderFlags
 struct CORDL_TYPE TextRenderFlags {
 public:

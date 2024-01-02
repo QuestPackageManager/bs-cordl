@@ -16,7 +16,7 @@ MARK_VAL_T(::Mono::Security::Interface::MonoSslPolicyErrors);
 namespace Mono::Security::Interface {
 // Is value type: true
 // Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14050))
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(13779))
 // CS Name: ::Mono.Security.Interface::MonoSslPolicyErrors
 struct CORDL_TYPE MonoSslPolicyErrors {
 public:
